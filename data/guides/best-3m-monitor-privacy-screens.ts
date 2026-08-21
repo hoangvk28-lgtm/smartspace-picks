@@ -30,10 +30,10 @@ export const products: GuideProduct[] = [
     reviews: "21",
     imageUrl: "https://m.media-amazon.com/images/I/418D3Lr-PvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SB2BTVP?tag=deskfinds0d-20",
-    description: "The highest-rated genuine 3M filter in our research, at a confirmed 24 inch, 16:9 fit, roughly 50 percent more expensive than the SightPro non-3M alternative of the same size.\n\n3M has manufactured privacy filters for decades, and the brand's optical film technology is generally considered the reference standard other manufacturers benchmark against.",
-    specs: ["24 inch, 16:9 aspect ratio", "Genuine 3M optical film"],
-    pros: ["Highest rating among confirmed genuine 3M SKUs", "Brand with decades of privacy-filter manufacturing history"],
-    cons: ["Small review base makes the rating less statistically certain", "Premium price over non-3M alternatives"],
+    description: "The highest-rated genuine 3M filter in our research, at a confirmed 24 inch, 16:9 fit, roughly 50 percent more expensive than the SightPro non-3M alternative of the same size.\n\nIt earns the top spot in this comparison over SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor for one main reason. Highest rating among confirmed genuine 3M SKUs. On price, it's actually priced above SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who specifically want the 3M brand and its optical film reputation.",
+    specs: ["24 inch, 16:9 aspect ratio","Genuine 3M optical film"],
+    pros: ["Highest rating among confirmed genuine 3M SKUs","Brand with decades of privacy-filter manufacturing history"],
+    cons: ["Small review base makes the rating less statistically certain","Premium price over non-3M alternatives"],
     bestFor: "Buyers who specifically want the 3M brand and its optical film reputation.",
   },
   {
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "Not a 3M product, included directly for comparison: roughly a third cheaper than the equivalent 24 inch 3M filter, with a dramatically larger review base of 4,087 versus 3M's 21.\n\nWhether the 3M premium is worth it likely comes down to brand preference and specific use case, since this alternative has far more real-world usage data behind its rating.",
-    specs: ["24 inch, 16:9 aspect ratio", "Non-3M, for direct price and review comparison"],
-    pros: ["Roughly a third cheaper than the equivalent 3M filter", "Far larger review base than the 3M alternative"],
+    description: "Not a 3M product, included directly for comparison: roughly a third cheaper than the equivalent 24 inch 3M filter, with a dramatically larger review base of 4,087 versus 3M's 21.\n\nOne spot below 3M Privacy Filters for 24 Inch Widescreen Monitor in this ranking, it's priced lower than 3M Privacy Filters for 24 Inch Widescreen Monitor. The compromise here is straightforward: Not a 3M product, if brand specifically matters to your purchase. What you gain in return: Roughly a third cheaper than the equivalent 3M filter. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want to compare the 3M premium against a much more reviewed alternative at the same size.",
+    specs: ["24 inch, 16:9 aspect ratio","Non-3M, for direct price and review comparison"],
+    pros: ["Roughly a third cheaper than the equivalent 3M filter","Far larger review base than the 3M alternative"],
     cons: ["Not a 3M product, if brand specifically matters to your purchase"],
     bestFor: "Buyers who want to compare the 3M premium against a much more reviewed alternative at the same size.",
   },
@@ -62,10 +62,10 @@ export const products: GuideProduct[] = [
     reviews: "7",
     imageUrl: "https://m.media-amazon.com/images/I/41C-IA3SGoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8QT2B1D?tag=deskfinds0d-20",
-    description: "3M's magnetic-attach system, branded 3M Comply, at a confirmed 24 inch, 16:9 full-screen fit, the most expensive genuine 3M SKU we found in this size.\n\nA very small review count makes this rating far less certain than the other picks here; the magnetic mount is the main reason to choose this over the standard 3M filter above.",
-    specs: ["24 inch, 16:9 aspect ratio, full screen", "3M Comply magnetic attachment"],
+    description: "3M's magnetic-attach system, branded 3M Comply, at a confirmed 24 inch, 16:9 full-screen fit, the most expensive genuine 3M SKU we found in this size.\n\nSitting just under SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor, it costs more than SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor. Here's the honest tradeoff: Very small review count, treat the rating cautiously. And here's what it gets you instead: Genuine 3M magnetic mount for faster daily removal. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who specifically want 3M's magnetic attachment system and don't mind limited review data.",
+    specs: ["24 inch, 16:9 aspect ratio, full screen","3M Comply magnetic attachment"],
     pros: ["Genuine 3M magnetic mount for faster daily removal"],
-    cons: ["Very small review count, treat the rating cautiously", "Highest price of the confirmed 3M SKUs"],
+    cons: ["Very small review count, treat the rating cautiously","Highest price of the confirmed 3M SKUs"],
     bestFor: "Buyers who specifically want 3M's magnetic attachment system and don't mind limited review data.",
   },
   {
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "310",
     imageUrl: "https://m.media-amazon.com/images/I/31X1u3hO4hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00433SNSQ?tag=deskfinds0d-20",
-    description: "The most reviewed genuine 3M filter in our research at 310 reviews, giving more confidence in its 4.2 rating than the smaller-sample 24 inch 3M picks.\n\nConfirmed 27 inch, 16:9 fit; the largest and most expensive standard 3M filter we found.",
-    specs: ["27 inch, 16:9 aspect ratio", "Genuine 3M optical film"],
-    pros: ["Most reviewed genuine 3M filter in our research", "Larger size for 27 inch monitors"],
+    description: "The most reviewed genuine 3M filter in our research at 310 reviews, giving more confidence in its 4.2 rating than the smaller-sample 24 inch 3M picks.\n\nRanked just behind 3M Privacy Filter for 24in Full Screen Monitor with 3M Comply Magnetic Attach, it costs more than 3M Privacy Filter for 24in Full Screen Monitor with 3M Comply Magnetic Attach. The real tradeoff against that pick: Highest price of any pick in this comparison. In exchange, it offers this instead: Most reviewed genuine 3M filter in our research. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with a 27 inch monitor who want the most-reviewed genuine 3M option.",
+    specs: ["27 inch, 16:9 aspect ratio","Genuine 3M optical film"],
+    pros: ["Most reviewed genuine 3M filter in our research","Larger size for 27 inch monitors"],
     cons: ["Highest price of any pick in this comparison"],
     bestFor: "Buyers with a 27 inch monitor who want the most-reviewed genuine 3M option.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31DjyuCBmWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLRP6FWP?tag=deskfinds0d-20",
-    description: "Not a 3M product, included for direct comparison: this is a matched 2-pack that costs roughly half the price of a single 3M 27 inch filter, and adds blue-light filtering on top.\n\nA larger review base than the 3M 27 inch pick, worth weighing against the 3M brand's optical film reputation.",
-    specs: ["27 inch, 16:9 aspect ratio", "Non-3M, 2-pack, blue-light filtering"],
-    pros: ["Roughly half the price of a single 3M 27 inch filter", "2-pack with blue-light filtering included"],
+    description: "Not a 3M product, included for direct comparison: this is a matched 2-pack that costs roughly half the price of a single 3M 27 inch filter, and adds blue-light filtering on top.\n\nOne spot below 3M Privacy Filter for 27 Inch Widescreen Monitor in this ranking, it's priced lower than 3M Privacy Filter for 27 Inch Widescreen Monitor. The compromise here is straightforward: Not a 3M product, if brand specifically matters to your purchase. What you gain in return: Roughly half the price of a single 3M 27 inch filter. Whether that trade is worth it depends on which side matters more for your setup.\n\n27 inch monitor buyers who want to compare 3M's premium against a cheaper 2-pack alternative.",
+    specs: ["27 inch, 16:9 aspect ratio","Non-3M, 2-pack, blue-light filtering"],
+    pros: ["Roughly half the price of a single 3M 27 inch filter","2-pack with blue-light filtering included"],
     cons: ["Not a 3M product, if brand specifically matters to your purchase"],
     bestFor: "27 inch monitor buyers who want to compare 3M's premium against a cheaper 2-pack alternative.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,28 +113,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "3M vs. Non-3M at the Same Size",
-    table: {
-      headers: ["Size", "3M price", "Non-3M alternative price"],
-      rows: [
-        ["24 inch, standard mount", "$53.72 (3M Privacy Filters)", "$35.99 (SightPro)"],
-        ["24 inch, magnetic mount", "$69.95 (3M Comply Magnetic)", "$66.59 (non-3M magnetic pick, see our full monitor privacy screens guide)"],
-        ["27 inch, standard mount", "$74.38 (3M Privacy Filter)", "$40.14 for a 2-pack (see our 27-inch guide)"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "3M Privacy Filters for 24 Inch Widescreen Monitor"
+        ],
+        [
+          "Laptop screen",
+          "3M Privacy Filters for 24 Inch Widescreen Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Is the 3M Premium Worth It?",
-    note: "3M's optical film technology has decades of manufacturing history behind it and is generally the reference point other brands benchmark against, but the non-3M alternatives here carry far larger review bases at this specific point in time. If you've had a good experience with 3M products before, the brand consistency may be worth the premium; if you're deciding on data alone, the review volume gap favors the alternatives.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "Mid-range",
+          "3M Privacy Filters for 24 Inch Widescreen Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "3M Privacy Filter for 27 Inch Widescreen Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: check each listing's mounting method, it isn't always stated clearly."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: 3M Privacy Filter for 24in Full Screen Monitor with 3M Comply Magnetic Attach."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "3M Privacy Filters for 24 Inch Widescreen Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "3M Privacy Filters for 24 Inch Widescreen Monitor fits this specifically: Highest rating among confirmed genuine 3M SKUs."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what 3M Privacy Filter for 27 Inch Widescreen Monitor offers: Roughly half the price of a single 3M 27 inch filter. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor already covers the essentials: Roughly a third cheaper than the equivalent 3M filter. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm you're comparing the same size and mount type", explanation: "3M's lineup includes both standard and magnetic-mount filters at different prices; make sure you're comparing like-for-like against a non-3M alternative." },
-  { criterion: "Weigh small 3M review counts cautiously", explanation: "Several genuine 3M SKUs here have single-digit to low double-digit review counts; treat these ratings as less statistically certain than a rating built on thousands of reviews." },
-  { criterion: "Decide whether brand history matters to your purchase", explanation: "3M has a long manufacturing history in this category; if that specifically matters to you, it may justify the premium even where review volume favors alternatives." },
-  { criterion: "Check for bundled features on non-3M alternatives", explanation: "Several non-3M alternatives bundle blue-light filtering or come as a 2-pack, which changes the effective price comparison beyond the sticker price alone." },
-  { criterion: "Verify current 3M product availability before assuming a wide lineup", explanation: "Our research found only three current 3M SKUs; don't assume 3M covers every size and mount type available from other brands." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

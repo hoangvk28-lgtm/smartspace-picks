@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "55",
     imageUrl: "https://m.media-amazon.com/images/I/411NsnC-QvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCS8XFM8?tag=deskfinds0d-20",
-    description: "Specifically built for 30 inch, 21:9 curved ultrawide monitors, bundling anti-glare, blue-light filtering, UV protection, and an anti-scratch surface.\n\nA slightly higher review count than the APeiSi alternative at the same price and shape.",
-    specs: ["30 inch, 21:9, curved-compatible", "Anti-glare, blue-light, UV protection, anti-scratch"],
-    pros: ["Most bundled features among the confirmed 30 inch options", "Slightly larger review base than the APeiSi alternative"],
+    description: "Specifically built for 30 inch, 21:9 curved ultrawide monitors, bundling anti-glare, blue-light filtering, UV protection, and an anti-scratch surface.\n\nIt earns the top spot in this comparison over APeiSi 30 Inch Privacy Screen Filter for 21:9 Curved Ultrawide Gaming Monitor for one main reason. Most bundled features among the confirmed 30 inch options. On price, it comes in below APeiSi 30 Inch Privacy Screen Filter for 21:9 Curved Ultrawide Gaming Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a 30 inch curved 21:9 ultrawide monitor who want the most bundled features.",
+    specs: ["30 inch, 21:9, curved-compatible","Anti-glare, blue-light, UV protection, anti-scratch"],
+    pros: ["Most bundled features among the confirmed 30 inch options","Slightly larger review base than the APeiSi alternative"],
     cons: ["Only fits curved 21:9 ultrawide monitors, not flat 16:10"],
     bestFor: "Buyers with a 30 inch curved 21:9 ultrawide monitor who want the most bundled features.",
   },
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "187",
     imageUrl: "https://m.media-amazon.com/images/I/41lO-lCK1HL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8QGHFQ3?tag=deskfinds0d-20",
-    description: "The larger review base of the two curved 21:9 options at 30 inch, specifically marketed toward gaming monitors, at the same price as the ACONETMAX alternative.\n\nAlso bundles anti-glare and anti-blue-light protection, worth comparing directly against the ACONETMAX pick for the exact feature set that matters to you.",
-    specs: ["30 inch, 21:9, curved-compatible, gaming-oriented", "Anti-glare, anti-blue-light, eye protection"],
+    description: "The larger review base of the two curved 21:9 options at 30 inch, specifically marketed toward gaming monitors, at the same price as the ACONETMAX alternative.\n\nOne spot below ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor in this ranking, it costs more than ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor. The compromise here is straightforward: Only fits curved 21:9 ultrawide monitors, not flat 16:10. What you gain in return: Larger review base than the ACONETMAX alternative. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a 30 inch curved 21:9 gaming ultrawide who want the larger review base.",
+    specs: ["30 inch, 21:9, curved-compatible, gaming-oriented","Anti-glare, anti-blue-light, eye protection"],
     pros: ["Larger review base than the ACONETMAX alternative"],
     cons: ["Only fits curved 21:9 ultrawide monitors, not flat 16:10"],
     bestFor: "Buyers with a 30 inch curved 21:9 gaming ultrawide who want the larger review base.",
@@ -62,12 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "1",
     imageUrl: "https://m.media-amazon.com/images/I/31vKmXz2xrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D912438K?tag=deskfinds0d-20",
-    description: "The only confirmed option for a flat 16:10, 30 inch monitor rather than a curved 21:9 ultrawide, a genuinely different shape from the other two picks here.\n\nOnly 1 review at time of research, far too few to draw meaningful confidence from despite the perfect rating.",
+    description: "The only confirmed option for a flat 16:10, 30 inch monitor rather than a curved 21:9 ultrawide, a genuinely different shape from the other two picks here.\n\nSitting just under APeiSi 30 Inch Privacy Screen Filter for 21:9 Curved Ultrawide Gaming Monitor, it costs more than APeiSi 30 Inch Privacy Screen Filter for 21:9 Curved Ultrawide Gaming Monitor. Here's the honest tradeoff: Only 1 review, far too few for a confident rating. And here's what it gets you instead: The only confirmed option for a flat 16:10 30 inch monitor. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a flat 16:10, 30 inch monitor, since this is the only confirmed match for that shape.",
     specs: ["30 inch, 16:10, flat monitor"],
     pros: ["The only confirmed option for a flat 16:10 30 inch monitor"],
-    cons: ["Only 1 review, far too few for a confident rating", "Higher price than the curved options"],
+    cons: ["Only 1 review, far too few for a confident rating","Higher price than the curved options"],
     bestFor: "Buyers with a flat 16:10, 30 inch monitor, since this is the only confirmed match for that shape.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -81,28 +81,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Identify Your Exact Monitor Shape First",
-    table: {
-      headers: ["Your 30 inch monitor", "Recommended pick"],
-      rows: [
-        ["Curved 21:9 ultrawide, most bundled features", "ACONETMAX 30 Inches Privacy Screen Filter"],
-        ["Curved 21:9 ultrawide gaming, larger review base", "APeiSi 30 Inch Privacy Screen Filter"],
-        ["Flat 16:10", "TYLGDSGS 30 Inch Privacy Screen Filter for 16:10"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor"
+        ],
+        [
+          "Laptop screen",
+          "ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "\"30 Inch\" Alone Doesn't Tell You the Shape",
-    note: "Unlike more standardized sizes like 24 inch, 30 inch monitors split meaningfully between curved 21:9 ultrawides and flat 16:10 displays. Confirm your monitor's exact aspect ratio and whether it's curved before ordering any of these three products.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $60",
+          "ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor"
+        ],
+        [
+          "Mid-range",
+          "APeiSi 30 Inch Privacy Screen Filter for 21:9 Curved Ultrawide Gaming Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "TYLGDSGS 30 Inch Privacy Screen Filter for 16:10 Widescreen Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: check each listing's mounting method, it isn't always stated clearly."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "TYLGDSGS 30 Inch Privacy Screen Filter for 16:10 Widescreen Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "APeiSi 30 Inch Privacy Screen Filter for 21:9 Curved Ultrawide Gaming Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor fits this specifically: Most bundled features among the confirmed 30 inch options."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what TYLGDSGS 30 Inch Privacy Screen Filter for 16:10 Widescreen Monitor offers: Most bundled features among the confirmed 30 inch options. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "ACONETMAX 30 Inches Privacy Screen Filter for Curved 21:9 Ultrawide Monitor already covers the essentials: Most bundled features among the confirmed 30 inch options. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm whether your 30 inch monitor is curved 21:9 or flat 16:10", explanation: "These are fundamentally different shapes at this size; a filter for one will not fit the other." },
-  { criterion: "Weigh the very small review count on the flat 16:10 option", explanation: "The only confirmed flat 16:10 pick has just 1 review; treat its perfect rating with significant caution." },
-  { criterion: "Compare bundled features between the two curved options directly", explanation: "Both curved 21:9 picks are similarly priced but differ in specific bundled features; check which combination matters most to you." },
-  { criterion: "Consider gaming-specific marketing as a minor signal, not a functional guarantee", explanation: "One curved pick is marketed toward gaming monitors; verify this doesn't imply anything about input lag or visual performance beyond the standard privacy function." },
-  { criterion: "Check curvature radius if choosing between curved options", explanation: "Even among curved 21:9 monitors, radius can vary; verify against your specific monitor's specifications where possible." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

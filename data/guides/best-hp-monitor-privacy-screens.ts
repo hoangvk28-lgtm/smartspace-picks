@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "245",
     imageUrl: "https://m.media-amazon.com/images/I/41bBVV2-y7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXL2YK6R?tag=deskfinds0d-20",
-    description: "The only pick in this comparison that explicitly lists HP among its stated compatible brands, alongside Dell, Asus, Acer and Samsung, at a confirmed 24 inch, 16:9 fit.\n\nThis compatibility claim reflects general 24 inch 16:9 sizing common across HP's monitor line, not certification from HP itself, so measure your exact model's active dimensions before ordering.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, lists HP compatibility"],
-    pros: ["Explicitly lists HP among stated compatible brands", "2-pack covers a dual-monitor HP desk"],
+    description: "The only pick in this comparison that explicitly lists HP among its stated compatible brands, alongside Dell, Asus, Acer and Samsung, at a confirmed 24 inch, 16:9 fit.\n\nIt earns the top spot in this comparison over Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor for one main reason. Explicitly lists HP among stated compatible brands. On price, it comes in below Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a standard 24 inch, 16:9 HP monitor who want an explicit brand mention.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, lists HP compatibility"],
+    pros: ["Explicitly lists HP among stated compatible brands","2-pack covers a dual-monitor HP desk"],
     cons: ["Compatibility is general 24 inch 16:9 sizing, not HP certification"],
     bestFor: "Buyers with a standard 24 inch, 16:9 HP monitor who want an explicit brand mention.",
   },
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/51LJJ4eL26L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9L8NQLW?tag=deskfinds0d-20",
-    description: "Doesn't name HP specifically, but this is the most reviewed 24 inch 16:9 filter in our broader research, and HP's most common 24 inch business monitors use this standard aspect ratio.\n\nVerify your specific HP model's active width and height against this filter's listed dimensions before ordering.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, removable"],
+    description: "Doesn't name HP specifically, but this is the most reviewed 24 inch 16:9 filter in our broader research, and HP's most common 24 inch business monitors use this standard aspect ratio.\n\nOne spot below IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor in this ranking, it costs more than IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor. The compromise here is straightforward: Does not specifically name HP, verify your model's dimensions directly. What you gain in return: Largest review base of any 24 inch filter in our research. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who prioritize review volume over an explicit brand mention.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, removable"],
     pros: ["Largest review base of any 24 inch filter in our research"],
     cons: ["Does not specifically name HP, verify your model's dimensions directly"],
     bestFor: "Buyers who prioritize review volume over an explicit brand mention.",
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31DjyuCBmWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLRP6FWP?tag=deskfinds0d-20",
-    description: "For HP's larger 27 inch business and home-office monitors, a standard 16:9 fit with a solid review base and a genuine blue-light reduction feature alongside the privacy function.\n\nAs with the 24 inch picks, this doesn't certify against HP specifically; confirm your exact 27 inch model's active dimensions first.",
-    specs: ["27 inch, 16:9 aspect ratio", "2-pack, blue-light filtering"],
-    pros: ["Solid review base for the 27 inch size tier", "Adds blue-light reduction alongside privacy"],
+    description: "For HP's larger 27 inch business and home-office monitors, a standard 16:9 fit with a solid review base and a genuine blue-light reduction feature alongside the privacy function.\n\nSitting just under Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor, it's priced lower than Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor. Here's the honest tradeoff: Does not specifically name HP, verify your model's dimensions directly. And here's what it gets you instead: Solid review base for the 27 inch size tier. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a 27 inch HP monitor who also want blue-light reduction.",
+    specs: ["27 inch, 16:9 aspect ratio","2-pack, blue-light filtering"],
+    pros: ["Solid review base for the 27 inch size tier","Adds blue-light reduction alongside privacy"],
     cons: ["Does not specifically name HP, verify your model's dimensions directly"],
     bestFor: "Buyers with a 27 inch HP monitor who also want blue-light reduction.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/41k059xiB9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVRQTXC8?tag=deskfinds0d-20",
-    description: "Some of HP's smaller and older business monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nThis is the pick most likely to be misordered by buyers who assume all HP monitors are 16:9; verify your model's aspect ratio before choosing between this and a 16:9 filter.",
-    specs: ["22 inch, 16:10 aspect ratio", "2-pack"],
-    pros: ["Specifically sized for 16:10, relevant for older or compact HP business monitors", "Strong 4.6 rating"],
+    description: "Some of HP's smaller and older business monitors use a 16:10 aspect ratio rather than 16:9, and this pick is specifically sized for that ratio at 22 inches.\n\nRanked just behind [2 Pack] 27 Inch Computer Monitor Privacy Screen, it's priced lower than [2 Pack] 27 Inch Computer Monitor Privacy Screen. The real tradeoff against that pick: Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first. In exchange, it offers this instead: Specifically sized for 16:10, relevant for older or compact HP business monitors. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with an older or compact HP monitor that uses a 16:10 aspect ratio instead of 16:9.",
+    specs: ["22 inch, 16:10 aspect ratio","2-pack"],
+    pros: ["Specifically sized for 16:10, relevant for older or compact HP business monitors","Strong 4.6 rating"],
     cons: ["Only fits 16:10 monitors, confirm your HP model's exact aspect ratio first"],
     bestFor: "Buyers with an older or compact HP monitor that uses a 16:10 aspect ratio instead of 16:9.",
   },
@@ -94,10 +94,10 @@ export const products: GuideProduct[] = [
     reviews: "370",
     imageUrl: "https://m.media-amazon.com/images/I/41L+1zxJQ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZL9SHJW?tag=deskfinds0d-20",
-    description: "The lowest price for a 24 inch 16:9 filter across our research, a reasonable choice if you're testing whether a privacy filter is worth it before buying a pricier option.\n\nSingle unit only, so buy two separately if you run a dual-monitor HP desk setup.",
-    specs: ["24 inch, 16:9 aspect ratio", "Single unit"],
+    description: "The lowest price for a 24 inch 16:9 filter across our research, a reasonable choice if you're testing whether a privacy filter is worth it before buying a pricier option.\n\nOne spot below Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio) in this ranking, it's priced lower than Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio). The compromise here is straightforward: Single unit only. What you gain in return: Lowest price among 24 inch options. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-focused buyers who want to try a privacy filter on a single HP monitor first.",
+    specs: ["24 inch, 16:9 aspect ratio","Single unit"],
     pros: ["Lowest price among 24 inch options"],
-    cons: ["Single unit only", "Does not specifically name HP"],
+    cons: ["Single unit only","Does not specifically name HP"],
     bestFor: "Budget-focused buyers who want to try a privacy filter on a single HP monitor first.",
   },
   {
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "189",
     imageUrl: "https://m.media-amazon.com/images/I/41JfBJ04jjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJBHHGPG?tag=deskfinds0d-20",
-    description: "A competitively priced 24 inch 16:9 2-pack, worth comparing directly against the IPROKKO top pick since both are similarly priced.\n\nA smaller review base than IPROKKO or Peslv, without an explicit HP brand mention, but a valid alternative at the same size and price tier.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack"],
+    description: "A competitively priced 24 inch 16:9 2-pack, worth comparing directly against the IPROKKO top pick since both are similarly priced.\n\nSitting just under Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor, it costs more than Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor. Here's the honest tradeoff: Smaller review base, no explicit HP brand mention. And here's what it gets you instead: Competitively priced alternative to the top picks. That's the real difference between the two picks, not just a ranking number.\n\nBuyers comparing alternative 24 inch 2-packs at a similar price point.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack"],
     pros: ["Competitively priced alternative to the top picks"],
     cons: ["Smaller review base, no explicit HP brand mention"],
     bestFor: "Buyers comparing alternative 24 inch 2-packs at a similar price point.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match by Size and Aspect Ratio, Not Brand",
-    table: {
-      headers: ["Your HP monitor", "Recommended pick"],
-      rows: [
-        ["24 inch, standard 16:9 (most common)", "IPROKKO [2-Pack] 24 Inch Computer Privacy Screen"],
-        ["27 inch, standard 16:9", "[2 Pack] 27 Inch Computer Monitor Privacy Screen"],
-        ["22 inch, older or compact, 16:10", "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter"],
-        ["Testing the format on a budget", "Computer Privacy Screen Filter for 24 Inch"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor"
+        ],
+        [
+          "Laptop screen",
+          "IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Verify Your Exact Model Before Ordering",
-    note: "Check your HP monitor's model number (usually on a rear label) and look up its exact active display dimensions rather than assuming from the diagonal size alone. HP's monitor lineup spans both 16:9 and 16:10 aspect ratios depending on model and age.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $34",
+          "Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor"
+        ],
+        [
+          "Mid-range",
+          "Magicmoon 2-Pack 24 Inch Computer Privacy Screen Filter for 16:9 Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: check each listing's mounting method, it isn't always stated clearly."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio)"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor fits this specifically: Explicitly lists HP among stated compatible brands."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor offers: Solid review base for the 27 inch size tier. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor already covers the essentials: Lowest price among 24 inch options. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm HP doesn't make its own privacy filters", explanation: "Every result in this category is a third-party product sized to fit common HP dimensions, not an HP-branded accessory; don't expect HP certification." },
-  { criterion: "Check whether your HP model is 16:9 or 16:10", explanation: "Most current HP monitors use 16:9, but some older or compact business models use 16:10; ordering the wrong aspect ratio is the most common mistake in this category." },
-  { criterion: "Look up your exact model's active display dimensions", explanation: "Find your HP monitor's model number and verify its active width and height rather than assuming from the diagonal size printed on the box." },
-  { criterion: "Weigh an explicit brand mention as a minor signal, not certification", explanation: "A listing that mentions HP by name is describing general size compatibility, not a manufacturer partnership or certified fit." },
-  { criterion: "Buy a matched 2-pack for a dual-monitor HP desk", explanation: "If you run two identical HP monitors, order both filters from the same listing to avoid a height or tint mismatch between screens." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/41k059xiB9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVRQTXC8?tag=deskfinds0d-20",
-    description: "The highest rating among confirmed 22 inch filters, specifically sized for the 16:10 aspect ratio common on this size of monitor.\n\nA matched 2-pack; verify your specific 22 inch monitor is genuinely 16:10 rather than 16:9 before ordering.",
-    specs: ["22 inch, 16:10 aspect ratio", "2-pack"],
-    pros: ["Highest rating among confirmed 22 inch filters", "Specifically sized for the common 16:10 ratio at this size"],
+    description: "The highest rating among confirmed 22 inch filters, specifically sized for the 16:10 aspect ratio common on this size of monitor.\n\nIt earns the top spot in this comparison over [2-Pack] 22 Inch Monitor Privacy Screen for one main reason. Highest rating among confirmed 22 inch filters. On price, it comes in below [2-Pack] 22 Inch Monitor Privacy Screen, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a 22 inch, 16:10 monitor.",
+    specs: ["22 inch, 16:10 aspect ratio","2-pack"],
+    pros: ["Highest rating among confirmed 22 inch filters","Specifically sized for the common 16:10 ratio at this size"],
     cons: ["Only fits 16:10 monitors, not 16:9"],
     bestFor: "Buyers with a 22 inch, 16:10 monitor.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "121",
     imageUrl: "https://m.media-amazon.com/images/I/31wV89sbUrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G63738ZZ?tag=deskfinds0d-20",
-    description: "Also specifically sized for 22 inch, 16:10 monitors, at the same price as the Vxaop pick, with a larger review base and bundled anti-glare and blue-light filtering.\n\nA solid alternative to the top pick at the same price point, worth comparing feature by feature.",
-    specs: ["22 inch, 16:10 aspect ratio", "2-pack, anti-glare, blue-light filtering"],
-    pros: ["Larger review base than the Vxaop alternative at the same price", "Bundles anti-glare and blue-light filtering"],
+    description: "Also specifically sized for 22 inch, 16:10 monitors, at the same price as the Vxaop pick, with a larger review base and bundled anti-glare and blue-light filtering.\n\nOne spot below Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio) in this ranking, it costs more than Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio). The compromise here is straightforward: Only fits 16:10 monitors, not 16:9. What you gain in return: Larger review base than the Vxaop alternative at the same price. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want bundled anti-glare and blue-light features at the same price as the top pick.",
+    specs: ["22 inch, 16:10 aspect ratio","2-pack, anti-glare, blue-light filtering"],
+    pros: ["Larger review base than the Vxaop alternative at the same price","Bundles anti-glare and blue-light filtering"],
     cons: ["Only fits 16:10 monitors, not 16:9"],
     bestFor: "Buyers who want bundled anti-glare and blue-light features at the same price as the top pick.",
   },
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "30",
     imageUrl: "https://m.media-amazon.com/images/I/41IvZd+7ebL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJLGXTWY?tag=deskfinds0d-20",
-    description: "The only confirmed pick in this comparison for 16:9 22 inch monitors rather than 16:10, also compatible with the adjacent 21.5 inch size.\n\nThe highest price and lowest rating in this comparison; verify your monitor's exact aspect ratio carefully since this is your main option if you're not 16:10.",
-    specs: ["21.5/22 inch, 16:9 aspect ratio", "2-pack"],
-    pros: ["Only confirmed pick for 16:9 at this size range", "Also compatible with 21.5 inch monitors"],
+    description: "The only confirmed pick in this comparison for 16:9 22 inch monitors rather than 16:10, also compatible with the adjacent 21.5 inch size.\n\nSitting just under [2-Pack] 22 Inch Monitor Privacy Screen, it costs more than [2-Pack] 22 Inch Monitor Privacy Screen. Here's the honest tradeoff: Highest price and lowest rating in this comparison. And here's what it gets you instead: Only confirmed pick for 16:9 at this size range. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a 22 inch (or 21.5 inch) monitor that's genuinely 16:9 rather than 16:10.",
+    specs: ["21.5/22 inch, 16:9 aspect ratio","2-pack"],
+    pros: ["Only confirmed pick for 16:9 at this size range","Also compatible with 21.5 inch monitors"],
     cons: ["Highest price and lowest rating in this comparison"],
     bestFor: "Buyers with a 22 inch (or 21.5 inch) monitor that's genuinely 16:9 rather than 16:10.",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "Not a genuine 22 inch fit, included as a reference point: this 24 inch 16:9 filter has a dramatically larger review base than any confirmed 22 inch option, useful context if you're deciding between a slightly larger monitor and filter versus a dedicated 22 inch product.\n\nDo not order this for a 22 inch monitor; it will not fit properly.",
-    specs: ["24 inch, 16:9 aspect ratio", "Not a 22 inch fit, reference only"],
+    description: "Not a genuine 22 inch fit, included as a reference point: this 24 inch 16:9 filter has a dramatically larger review base than any confirmed 22 inch option, useful context if you're deciding between a slightly larger monitor and filter versus a dedicated 22 inch product.\n\nRanked just behind 2 Pack Computer Privacy Screen Shield Compatible for 21.5/22 Inch, it's priced lower than 2 Pack Computer Privacy Screen Shield Compatible for 21.5/22 Inch. The real tradeoff against that pick: Will not fit a 22 inch monitor, reference comparison only. In exchange, it offers this instead: Illustrates the much larger review base available at the more common 24 inch size. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers deciding whether to size up to 24 inch for a much larger selection of well-reviewed filters.",
+    specs: ["24 inch, 16:9 aspect ratio","Not a 22 inch fit, reference only"],
     pros: ["Illustrates the much larger review base available at the more common 24 inch size"],
     cons: ["Will not fit a 22 inch monitor, reference comparison only"],
     bestFor: "Buyers deciding whether to size up to 24 inch for a much larger selection of well-reviewed filters.",
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "370",
     imageUrl: "https://m.media-amazon.com/images/I/41L+1zxJQ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZL9SHJW?tag=deskfinds0d-20",
-    description: "Also not a genuine 22 inch fit, but the cheapest well-reviewed option in the broader 22-to-24 inch range for reference.\n\nDo not order this for a 22 inch monitor; verify the exact size and aspect ratio of your screen and choose from the confirmed 22 inch picks above instead.",
-    specs: ["24 inch, 16:9 aspect ratio", "Not a 22 inch fit, reference only"],
+    description: "Also not a genuine 22 inch fit, but the cheapest well-reviewed option in the broader 22-to-24 inch range for reference.\n\nOne spot below SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor in this ranking, it's priced lower than SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor. The compromise here is straightforward: Will not fit a 22 inch monitor, reference comparison only. What you gain in return: Cheapest well-reviewed option in the nearby size range for context. Whether that trade is worth it depends on which side matters more for your setup.\n\nReference comparison only; not a genuine 22 inch fit.",
+    specs: ["24 inch, 16:9 aspect ratio","Not a 22 inch fit, reference only"],
     pros: ["Cheapest well-reviewed option in the nearby size range for context"],
     cons: ["Will not fit a 22 inch monitor, reference comparison only"],
     bestFor: "Reference comparison only; not a genuine 22 inch fit.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,29 +113,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check Your Aspect Ratio First",
-    table: {
-      headers: ["Your 22 inch monitor", "Recommended pick"],
-      rows: [
-        ["16:10 (most common at this size)", "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter"],
-        ["16:10, want bundled anti-glare/blue-light", "[2-Pack] 22 Inch Monitor Privacy Screen"],
-        ["16:9", "2 Pack Computer Privacy Screen Shield for 21.5/22 Inch"],
-        ["Also 21.5 inch, 16:9", "2 Pack Computer Privacy Screen Shield for 21.5/22 Inch"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio)"
+        ],
+        [
+          "Laptop screen",
+          "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio)"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Consider Sizing Up If Selection Matters More Than Exact Fit",
-    note: "The 24 inch size tier has a dramatically larger selection of well-reviewed filters than 22 inch. If you're purchasing a new monitor and haven't committed to 22 inch specifically, this is worth factoring in alongside desk space considerations.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor"
+        ],
+        [
+          "Mid-range",
+          "[2-Pack] 22 Inch Monitor Privacy Screen"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "2 Pack Computer Privacy Screen Shield Compatible for 21.5/22 Inch"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: check each listing's mounting method, it isn't always stated clearly."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio)"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Vxaop [2-Pack] 22 Inch Computer Privacy Screen Filter (16:10 Aspect Ratio) fits this specifically: Highest rating among confirmed 22 inch filters."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what 2 Pack Computer Privacy Screen Shield Compatible for 21.5/22 Inch offers: Larger review base than the Vxaop alternative at the same price. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor already covers the essentials: Cheapest well-reviewed option in the nearby size range for context. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm whether your 22 inch monitor is 16:9 or 16:10", explanation: "22 inch genuinely spans both aspect ratios in current monitors; a filter for the wrong ratio will not fit properly." },
-  { criterion: "Expect a smaller selection than 24 or 27 inch sizes", explanation: "22 inch has fewer confirmed dedicated filter options in current listings; don't expect the same review volume as more common sizes." },
-  { criterion: "Check if a 21.5/22 inch combined listing fits your exact model", explanation: "Some filters cover both 21.5 and 22 inch in one listing; verify this range matches your specific monitor rather than assuming exact-size labeling." },
-  { criterion: "Weigh bundled anti-glare and blue-light features against price", explanation: "At the same price point, some 22 inch options include these extras and others don't; compare feature sets directly." },
-  { criterion: "Consider sizing up to 24 inch if you're still choosing a monitor", explanation: "The larger selection and review volume at 24 inch may be worth factoring in if you haven't committed to 22 inch specifically." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

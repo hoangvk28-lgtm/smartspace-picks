@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/51LJJ4eL26L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9L8NQLW?tag=deskfinds0d-20",
-    description: "The largest review base in this comparison, sold as a matched 2-pack, which solves the dual-monitor alignment problem directly since both filters come from the same production batch.\n\nA blackout-style removable design at a confirmed 24 inch, 16:9 fit, worth checking bezel clearance against your specific desktop monitor's control buttons.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, removable"],
-    pros: ["Largest review base in this comparison", "Matched 2-pack avoids mismatched filter height across dual monitors"],
+    description: "The largest review base in this comparison, sold as a matched 2-pack, which solves the dual-monitor alignment problem directly since both filters come from the same production batch.\n\nIt earns the top spot in this comparison over 2 Pack 24 Inch Magnetic Computer Privacy Screen for Monitor for one main reason. Largest review base in this comparison. On price, it comes in below 2 Pack 24 Inch Magnetic Computer Privacy Screen for Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a matched dual-monitor desk who want consistent filter alignment across both screens.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, removable"],
+    pros: ["Largest review base in this comparison","Matched 2-pack avoids mismatched filter height across dual monitors"],
     cons: ["Verify bezel clearance around your monitor's control buttons directly"],
     bestFor: "Buyers with a matched dual-monitor desk who want consistent filter alignment across both screens.",
   },
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "23",
     imageUrl: "https://m.media-amazon.com/images/I/41PL86m8b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYJ96RQ6?tag=deskfinds0d-20",
-    description: "The highest rating in this comparison, with a magnetic mount that's genuinely faster to remove for a desktop workstation that switches between private work and screen-sharing during meetings.\n\nA smaller review base than the established leaders, but magnetic attachment avoids the alignment drift that adhesive strips can develop over repeated removal.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic attachment, 2-pack"],
-    pros: ["Highest rating in this comparison", "Magnetic mount avoids alignment drift from repeated adhesive removal"],
-    cons: ["Smaller review base than the established top picks", "Highest price in this comparison"],
+    description: "The highest rating in this comparison, with a magnetic mount that's genuinely faster to remove for a desktop workstation that switches between private work and screen-sharing during meetings.\n\nOne spot below Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor in this ranking, it costs more than Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor. The compromise here is straightforward: Smaller review base than the established top picks. What you gain in return: Highest rating in this comparison. Whether that trade is worth it depends on which side matters more for your setup.\n\nDesktop workstations that regularly toggle between private work and screen-sharing.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic attachment, 2-pack"],
+    pros: ["Highest rating in this comparison","Magnetic mount avoids alignment drift from repeated adhesive removal"],
+    cons: ["Smaller review base than the established top picks","Highest price in this comparison"],
     bestFor: "Desktop workstations that regularly toggle between private work and screen-sharing.",
   },
   {
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "A large review base for a single-unit filter, a strong option for a single-monitor desktop setup rather than a paired dual-monitor arrangement.\n\nConfirmed 24 inch, 16:9 fit, priced below the 2-pack options for buyers who only need to cover one screen.",
-    specs: ["24 inch, 16:9 aspect ratio", "Single unit"],
-    pros: ["Strong review base for a single-unit filter", "Lower price than 2-pack options for a single monitor"],
+    description: "A large review base for a single-unit filter, a strong option for a single-monitor desktop setup rather than a paired dual-monitor arrangement.\n\nSitting just under 2 Pack 24 Inch Magnetic Computer Privacy Screen for Monitor, it's priced lower than 2 Pack 24 Inch Magnetic Computer Privacy Screen for Monitor. Here's the honest tradeoff: Single unit only, would need two separate purchases for a dual-monitor desk. And here's what it gets you instead: Strong review base for a single-unit filter. That's the real difference between the two picks, not just a ranking number.\n\nA single-monitor desktop setup that doesn't need matched dual-screen alignment.",
+    specs: ["24 inch, 16:9 aspect ratio","Single unit"],
+    pros: ["Strong review base for a single-unit filter","Lower price than 2-pack options for a single monitor"],
     cons: ["Single unit only, would need two separate purchases for a dual-monitor desk"],
     bestFor: "A single-monitor desktop setup that doesn't need matched dual-screen alignment.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "245",
     imageUrl: "https://m.media-amazon.com/images/I/41bBVV2-y7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXL2YK6R?tag=deskfinds0d-20",
-    description: "Explicitly lists compatibility across HP, Dell, Asus, Acer and Samsung, useful reassurance for an office with mixed monitor brands rather than a single standardized model.\n\nThis reflects general 24 inch 16:9 sizing rather than a certified fit for a specific model, so verify bezel and control placement individually.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, listed multi-brand compatible"],
-    pros: ["Explicitly lists compatibility across several major monitor brands", "Useful for offices standardizing on one filter across mixed monitor brands"],
+    description: "Explicitly lists compatibility across HP, Dell, Asus, Acer and Samsung, useful reassurance for an office with mixed monitor brands rather than a single standardized model.\n\nRanked just behind SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor, it costs more than SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor. The real tradeoff against that pick: Compatibility reflects general sizing, not certified fit for a specific model. In exchange, it offers this instead: Explicitly lists compatibility across several major monitor brands. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nOffices or shared spaces with mixed monitor brands at the same 24 inch size.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, listed multi-brand compatible"],
+    pros: ["Explicitly lists compatibility across several major monitor brands","Useful for offices standardizing on one filter across mixed monitor brands"],
     cons: ["Compatibility reflects general sizing, not certified fit for a specific model"],
     bestFor: "Offices or shared spaces with mixed monitor brands at the same 24 inch size.",
   },
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     reviews: "189",
     imageUrl: "https://m.media-amazon.com/images/I/41JfBJ04jjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJBHHGPG?tag=deskfinds0d-20",
-    description: "A matched 2-pack at the same competitive price as the IPROKKO pick, a confirmed 24 inch 16:9 fit without the added brand-compatibility marketing.\n\nA smaller review base than the top picks, reasonable for a dual-monitor desk on a tighter budget.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack"],
+    description: "A matched 2-pack at the same competitive price as the IPROKKO pick, a confirmed 24 inch 16:9 fit without the added brand-compatibility marketing.\n\nOne spot below IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor in this ranking, it costs more than IPROKKO [2-Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor. The compromise here is straightforward: Smaller review base than the top picks in this comparison. What you gain in return: Competitive 2-pack pricing for dual-monitor coverage. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-conscious buyers outfitting a dual-monitor desk.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack"],
     pros: ["Competitive 2-pack pricing for dual-monitor coverage"],
     cons: ["Smaller review base than the top picks in this comparison"],
     bestFor: "Budget-conscious buyers outfitting a dual-monitor desk.",
@@ -110,8 +110,8 @@ export const products: GuideProduct[] = [
     reviews: "1,564",
     imageUrl: "https://m.media-amazon.com/images/I/41SBKw3J4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR63MZV?tag=deskfinds0d-20",
-    description: "A well-reviewed 2-pack alternative to the Peslv top pick, at a higher price but with a substantial review history of its own.\n\nA confirmed 24 inch, 16:9 fit, worth checking directly against Peslv since both are matched 2-packs at similar review tiers.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack"],
+    description: "A well-reviewed 2-pack alternative to the Peslv top pick, at a higher price but with a substantial review history of its own.\n\nSitting just under Magicmoon 2-Pack 24 Inch Computer Privacy Screen Filter for 16:9 Monitor, it costs more than Magicmoon 2-Pack 24 Inch Computer Privacy Screen Filter for 16:9 Monitor. Here's the honest tradeoff: Higher price than the Peslv top pick despite a similar review profile. And here's what it gets you instead: Substantial review history for a matched 2-pack. That's the real difference between the two picks, not just a ranking number.\n\nBuyers comparing 2-pack options with an established review history.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack"],
     pros: ["Substantial review history for a matched 2-pack"],
     cons: ["Higher price than the Peslv top pick despite a similar review profile"],
     bestFor: "Buyers comparing 2-pack options with an established review history.",
@@ -126,9 +126,9 @@ export const products: GuideProduct[] = [
     reviews: "370",
     imageUrl: "https://m.media-amazon.com/images/I/41L+1zxJQ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZL9SHJW?tag=deskfinds0d-20",
-    description: "The lowest price among single-unit filters here, with a solid 4.4 rating, a reasonable entry point for a single desktop monitor.\n\nConfirmed 24 inch, 16:9 fit, though buy two separately if you later add a second monitor.",
-    specs: ["24 inch, 16:9 aspect ratio", "Single unit"],
-    pros: ["Lowest price among single-unit options", "Solid rating on a meaningful review base"],
+    description: "The lowest price among single-unit filters here, with a solid 4.4 rating, a reasonable entry point for a single desktop monitor.\n\nRanked just behind [2 Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor, it's priced lower than [2 Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor. The real tradeoff against that pick: Single unit only. In exchange, it offers this instead: Lowest price among single-unit options. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nA budget-focused single desktop monitor setup.",
+    specs: ["24 inch, 16:9 aspect ratio","Single unit"],
+    pros: ["Lowest price among single-unit options","Solid rating on a meaningful review base"],
     cons: ["Single unit only"],
     bestFor: "A budget-focused single desktop monitor setup.",
   },
@@ -142,12 +142,12 @@ export const products: GuideProduct[] = [
     reviews: "10",
     imageUrl: "https://m.media-amazon.com/images/I/413Z8s4CqJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07YCTYQC1?tag=deskfinds0d-20",
-    description: "This is a complete replacement monitor with a toggleable built-in privacy filter, not an attachable accessory, and belongs in a fundamentally different budget category than the other picks here.\n\nWorth considering if you're already shopping for a new desktop monitor and want privacy switching built in from the start, rather than as a retrofit to an existing screen.",
-    specs: ["24 inch IPS, built-in toggleable privacy filter", "HDMI, DisplayPort, USB, 40-degree tilt"],
-    pros: ["Toggleable privacy is built into the panel, no separate filter to install or remove", "Full monitor upgrade if you need a new display anyway"],
-    cons: ["Far higher cost than an attachable filter", "Only relevant if you're replacing the monitor itself, not adding privacy to an existing one"],
+    description: "This is a complete replacement monitor with a toggleable built-in privacy filter, not an attachable accessory, and belongs in a fundamentally different budget category than the other picks here.\n\nOne spot below Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor in this ranking, it costs more than Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor. The compromise here is straightforward: Far higher cost than an attachable filter. What you gain in return: Toggleable privacy is built into the panel, no separate filter to install or remove. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers already in the market for a new monitor who want built-in privacy switching instead of an attachable filter.",
+    specs: ["24 inch IPS, built-in toggleable privacy filter","HDMI, DisplayPort, USB, 40-degree tilt"],
+    pros: ["Toggleable privacy is built into the panel, no separate filter to install or remove","Full monitor upgrade if you need a new display anyway"],
+    cons: ["Far higher cost than an attachable filter","Only relevant if you're replacing the monitor itself, not adding privacy to an existing one"],
     bestFor: "Buyers already in the market for a new monitor who want built-in privacy switching instead of an attachable filter.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -161,29 +161,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Matched dual-monitor desk", "Peslv [2-Pack] 24 Inch Privacy Screen"],
-        ["Frequent toggling between private and shared use", "2 Pack 24 Inch Magnetic Computer Privacy Screen"],
-        ["Single monitor, lowest price", "Computer Privacy Screen Filter for 24 Inch"],
-        ["Already buying a new monitor", "ViewSonic VG2448-PF with Built-In Privacy Filter"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Laptop screen",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Dual-Monitor Setups Need Matched Filters",
-    note: "If you run two monitors of the same model, buy both filters from the same listing rather than pairing two different products. Manufacturing tolerances between different brands can create a visible height or tint mismatch that's distracting in daily use.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor"
+        ],
+        [
+          "Mid-range",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "ViewSonic VG2448-PF 24 Inch IPS 1080p Ergonomic Monitor with Built-In Privacy Filter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: 2 Pack 24 Inch Magnetic Computer Privacy Screen for Monitor."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "2 Pack 24 Inch Magnetic Computer Privacy Screen for Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor fits this specifically: Largest review base in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what ViewSonic VG2448-PF 24 Inch IPS 1080p Ergonomic Monitor with Built-In Privacy Filter offers: Toggleable privacy is built into the panel, no separate filter to install or remove. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Computer Privacy Screen Filter for 24 Inch 16:9 Aspect Ratio Monitor already covers the essentials: Lowest price among single-unit options. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Buy matched 2-packs for a dual-monitor desk", explanation: "Two filters from the same listing are manufactured to the same tolerance; mixing products from different brands risks a visible height or tint mismatch across your screens." },
-  { criterion: "Check bezel clearance around monitor controls before ordering", explanation: "Desktop monitors often place OSD buttons or webcams near the bezel edge; verify the filter's tab or clip design doesn't block them." },
-  { criterion: "Consider magnetic attachment for frequent private/shared toggling", explanation: "A desktop workstation that regularly screen-shares in meetings benefits from a magnetic mount's faster, alignment-stable removal versus an adhesive strip." },
-  { criterion: "Don't confuse an attachable filter with a built-in privacy monitor", explanation: "A monitor with a toggleable built-in privacy panel is a full display replacement at a different budget tier, not a retrofit accessory for your current screen." },
-  { criterion: "Treat brand-compatibility claims as general sizing guidance", explanation: "A listing naming several monitor brands is describing 24 inch 16:9 fit broadly, not certifying an exact match for your specific model." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

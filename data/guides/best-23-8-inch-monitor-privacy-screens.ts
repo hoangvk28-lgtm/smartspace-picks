@@ -30,8 +30,8 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51yLgwOOaTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RJ22HDN?tag=deskfinds0d-20",
-    description: "By far the largest review base of any 23.8 inch filter we found, specifically sized for this exact dimension rather than rounded to standard 24 inch.\n\nSold as a single unit; from SightPro, a brand with strong review histories across our broader size research.",
-    specs: ["23.8 inch, 16:9 aspect ratio", "Single unit"],
+    description: "By far the largest review base of any 23.8 inch filter we found, specifically sized for this exact dimension rather than rounded to standard 24 inch.\n\nIt earns the top spot in this comparison over SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen for Monitor for one main reason. By far the largest review base of any 23.8 inch filter we found. On price, it comes in below SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen for Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven 23.8 inch option.",
+    specs: ["23.8 inch, 16:9 aspect ratio","Single unit"],
     pros: ["By far the largest review base of any 23.8 inch filter we found"],
     cons: ["Higher price than the RedANGEL budget option"],
     bestFor: "Buyers who want the most proven 23.8 inch option.",
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "26",
     imageUrl: "https://m.media-amazon.com/images/I/41vA7ER-a4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXDVLVZW?tag=deskfinds0d-20",
-    description: "The highest rating among confirmed 23.8 inch filters, on a smaller but growing review base, at a similar price to the SightPro top pick but sold as a matched 2-pack.\n\nWorth watching as review volume builds; a blackout, anti-spy design.",
-    specs: ["23.8 inch, 16:9 aspect ratio", "2-pack, removable"],
-    pros: ["Highest rating among confirmed 23.8 inch filters", "Matched 2-pack at a similar price to a single-unit alternative"],
+    description: "The highest rating among confirmed 23.8 inch filters, on a smaller but growing review base, at a similar price to the SightPro top pick but sold as a matched 2-pack.\n\nOne spot below SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor in this ranking, it costs more than SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor. The compromise here is straightforward: Smaller review base than the established leaders. What you gain in return: Highest rating among confirmed 23.8 inch filters. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a matched 2-pack with the highest rating at this size.",
+    specs: ["23.8 inch, 16:9 aspect ratio","2-pack, removable"],
+    pros: ["Highest rating among confirmed 23.8 inch filters","Matched 2-pack at a similar price to a single-unit alternative"],
     cons: ["Smaller review base than the established leaders"],
     bestFor: "Buyers who want a matched 2-pack with the highest rating at this size.",
   },
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "1,564",
     imageUrl: "https://m.media-amazon.com/images/I/41FUI1zQ5IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR5HRY6?tag=deskfinds0d-20",
-    description: "A substantial review history for a matched 2-pack, explicitly marketed with an anti-scratch protector film alongside the privacy function.\n\nThe highest price in this comparison; worth it if scratch protection is a genuine priority alongside privacy.",
-    specs: ["23.8 inch, 16:9 aspect ratio", "2-pack, anti-scratch protector film"],
-    pros: ["Substantial review history", "Explicit anti-scratch protection alongside privacy"],
+    description: "A substantial review history for a matched 2-pack, explicitly marketed with an anti-scratch protector film alongside the privacy function.\n\nSitting just under SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen for Monitor, it costs more than SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen for Monitor. Here's the honest tradeoff: Highest price in this comparison. And here's what it gets you instead: Substantial review history. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want scratch protection bundled with their privacy filter.",
+    specs: ["23.8 inch, 16:9 aspect ratio","2-pack, anti-scratch protector film"],
+    pros: ["Substantial review history","Explicit anti-scratch protection alongside privacy"],
     cons: ["Highest price in this comparison"],
     bestFor: "Buyers who want scratch protection bundled with their privacy filter.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31lS0FwCceL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDKKTFRG?tag=deskfinds0d-20",
-    description: "A solid review base for a matched 2-pack, bundling blue-light filtering at a lower price than the anti-scratch pick above.\n\nA reasonable mid-range option between the budget RedANGEL pick and the more established leaders.",
-    specs: ["23.8 inch, 16:9 aspect ratio", "2-pack, blue-light filtering"],
-    pros: ["Solid review base", "Bundles blue-light filtering at a reasonable price"],
+    description: "A solid review base for a matched 2-pack, bundling blue-light filtering at a lower price than the anti-scratch pick above.\n\nRanked just behind [2 Pack] 23.8 Inch Computer Privacy Screen, it's priced lower than [2 Pack] 23.8 Inch Computer Privacy Screen. The real tradeoff against that pick: Smaller review base than the SightPro top pick. In exchange, it offers this instead: Solid review base. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers who want blue-light filtering bundled at a mid-range price.",
+    specs: ["23.8 inch, 16:9 aspect ratio","2-pack, blue-light filtering"],
+    pros: ["Solid review base","Bundles blue-light filtering at a reasonable price"],
     cons: ["Smaller review base than the SightPro top pick"],
     bestFor: "Buyers who want blue-light filtering bundled at a mid-range price.",
   },
@@ -94,12 +94,12 @@ export const products: GuideProduct[] = [
     reviews: "193",
     imageUrl: "https://m.media-amazon.com/images/I/41XGW9ND9ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2C8NFDD?tag=deskfinds0d-20",
-    description: "The lowest price for a 23.8 inch filter across our entire research, with a reasonable review base for its price tier.\n\nA solid entry point for buyers testing whether a privacy filter is worth it before spending more.",
-    specs: ["23.8 inch, 16:9 aspect ratio", "Single unit"],
-    pros: ["Lowest price among all confirmed 23.8 inch options", "Reasonable review base for the price"],
+    description: "The lowest price for a 23.8 inch filter across our entire research, with a reasonable review base for its price tier.\n\nOne spot below [2 Pack] 23.8 Inch Computer Monitor Privacy Screen in this ranking, it's priced lower than [2 Pack] 23.8 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Lower rating than the higher-priced alternatives. What you gain in return: Lowest price among all confirmed 23.8 inch options. Whether that trade is worth it depends on which side matters more for your setup.\n\nBudget-focused buyers wanting to try a privacy filter first.",
+    specs: ["23.8 inch, 16:9 aspect ratio","Single unit"],
+    pros: ["Lowest price among all confirmed 23.8 inch options","Reasonable review base for the price"],
     cons: ["Lower rating than the higher-priced alternatives"],
     bestFor: "Budget-focused buyers wanting to try a privacy filter first.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -113,29 +113,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, largest review base", "SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter"],
-        ["Highest rating, matched 2-pack", "SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen"],
-        ["Scratch protection priority", "[2 Pack] 23.8 Inch Computer Privacy Screen, Anti-Scratch"],
-        ["Cheapest option", "RedANGEL 23.8-Inch Computer Privacy Screen"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "Laptop screen",
+          "SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "23.8 Inch Is Not the Same as Standard 24 Inch",
-    note: "Though close in size, a filter specifically made for 23.8 inch will fit more precisely than a standard 24 inch filter stretched or trimmed to fit. If your monitor is specifically labeled 23.8 inch, use one of the picks in this guide rather than a standard 24 inch filter from elsewhere.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "RedANGEL 23.8-Inch Computer Privacy Screen for 16:9 Monitor"
+        ],
+        [
+          "Mid-range",
+          "SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "[2 Pack] 23.8 Inch Computer Privacy Screen"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: [2 Pack] 23.8 Inch Computer Monitor Privacy Screen."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "SYHUAIFEI [2-Pack] 23.8 Inch Privacy Screen for Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SightPro 23.8 Inch 16:9 Computer Privacy Screen Filter for Monitor fits this specifically: By far the largest review base of any 23.8 inch filter we found."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what [2 Pack] 23.8 Inch Computer Privacy Screen offers: Solid review base. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "RedANGEL 23.8-Inch Computer Privacy Screen for 16:9 Monitor already covers the essentials: Lowest price among all confirmed 23.8 inch options. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm your monitor is specifically 23.8 inch, not rounded to 24", explanation: "These are close but distinct sizes; a filter made specifically for 23.8 inch will fit more precisely than a generic 24 inch filter." },
-  { criterion: "Weigh a high rating on fewer reviews against an established larger sample", explanation: "The SYHUAIFEI pick's 4.6 rating is on 26 reviews versus the SightPro pick's 4.3 on 4,087; consider both figures together." },
-  { criterion: "Consider bundled anti-scratch or blue-light features", explanation: "Not every 23.8 inch filter includes these extras; check the specific listing if durability or blue-light reduction matters to you." },
-  { criterion: "Compare matched 2-pack pricing against single-unit cost for dual monitors", explanation: "A matched 2-pack avoids tint or thickness mismatch between two screens, and several options here are competitively priced 2-packs." },
-  { criterion: "Weigh price against rating for the budget option", explanation: "The cheapest pick has a lower rating than the pricier alternatives; decide whether the savings justify the rating gap for your use case." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

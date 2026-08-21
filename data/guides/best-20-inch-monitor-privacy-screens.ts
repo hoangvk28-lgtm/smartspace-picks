@@ -30,12 +30,12 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31iUmbrKVZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRNBLQZ7?tag=deskfinds0d-20",
-    description: "The only genuine 20 inch privacy filter we confirmed in current listings, with a solid review base for a size this uncommon, and bundled blue-light filtering.\n\nA matched 2-pack; verify your exact monitor's active dimensions before ordering, since 20 inch monitors can vary slightly in aspect ratio depending on age and model.",
-    specs: ["20 inch, blue-light filtering", "2-pack"],
-    pros: ["The only confirmed genuine 20 inch filter we found", "Solid review base for a size this uncommon", "Bundles blue-light filtering"],
+    description: "The only genuine 20 inch privacy filter we confirmed in current listings, with a solid review base for a size this uncommon, and bundled blue-light filtering.\n\nIt earns the top spot in this comparison for one main reason. The only confirmed genuine 20 inch filter we found.\n\nBuyers with a genuine 20 inch monitor.",
+    specs: ["20 inch, blue-light filtering","2-pack"],
+    pros: ["The only confirmed genuine 20 inch filter we found","Solid review base for a size this uncommon","Bundles blue-light filtering"],
     cons: ["Limited alternative options if this specific listing doesn't fit"],
     bestFor: "Buyers with a genuine 20 inch monitor.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -49,17 +49,81 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "If Your 20 Inch Monitor Doesn't Match This Pick",
-    note: "If your specific 20 inch monitor's active dimensions don't match the confirmed pick above, check our 19-inch and 22-inch guides for the closest available sizes, and measure your monitor's active width and height directly before ordering any filter labeled for a different diagonal.",
+    "subheading": "Identify Your Exact Device Type First",
+    "note": "[2 Pack] 20 Inch Computer Monitor Privacy Screen is currently the only pick in this specific comparison, built for a desktop monitor. If your device doesn't match that type, check our broader privacy screen roundup rather than assuming this filter fits."
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $25.99",
+          "[2 Pack] 20 Inch Computer Monitor Privacy Screen"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "note": "[2 Pack] 20 Inch Computer Monitor Privacy Screen uses a mounting method worth confirming directly on the listing. If you specifically need the other attachment style, check our broader roundup."
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "note": "With only one pick in this comparison, there's no second option to weigh rating against review count. [2 Pack] 20 Inch Computer Monitor Privacy Screen carries a 4.3 rating on 938 reviews, worth checking against fresher listings before you buy."
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "[2 Pack] 20 Inch Computer Monitor Privacy Screen fits this specifically: The only confirmed genuine 20 inch filter we found."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Here's what you get for $25.99: The only confirmed genuine 20 inch filter we found. If that's what you're after, the tradeoffs in its cons list probably won't bother you either."
+      },
+      {
+        "label": "Save if",
+        "text": "Here's the real tradeoff: Limited alternative options if this specific listing doesn't fit. If that matters to you, compare it against other filters in our broader roundup before committing."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Expect a very limited selection at this size", explanation: "20 inch is a less common monitor size, and the filter market reflects that with far fewer options than 24 or 27 inch." },
-  { criterion: "Verify your active display dimensions against the listing", explanation: "20 inch monitors can vary slightly in aspect ratio depending on age and model; compare exact width and height before ordering." },
-  { criterion: "Consider a nearby size guide if your exact model isn't covered", explanation: "If your 20 inch monitor's dimensions don't match the confirmed pick, our 19-inch or 22-inch guides may have a closer match worth checking." },
-  { criterion: "Don't substitute a filter from a different size", explanation: "A filter labeled for a different diagonal size will not fit a 20 inch monitor properly, even if it seems visually close." },
-  { criterion: "Weigh the bundled blue-light filtering as a genuine bonus", explanation: "The one confirmed pick includes blue-light reduction alongside privacy, worth factoring into the value beyond the base price." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,8 +30,8 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/51LJJ4eL26L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9L8NQLW?tag=deskfinds0d-20",
-    description: "The most reviewed 24 inch 16:9 filter in our research, a strong match for Samsung's common flat business and productivity monitors.\n\nDoesn't specifically name Samsung; verify your exact model's active width and height before ordering.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, removable"],
+    description: "The most reviewed 24 inch 16:9 filter in our research, a strong match for Samsung's common flat business and productivity monitors.\n\nIt earns the top spot in this comparison over [2-Pack] 24 Inch Privacy Screen for Computer Monitor for one main reason. Largest review base of any 24 inch filter in our research. On price, it comes in below [2-Pack] 24 Inch Privacy Screen for Computer Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a standard 24 inch flat Samsung monitor.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, removable"],
     pros: ["Largest review base of any 24 inch filter in our research"],
     cons: ["Does not specifically name Samsung, verify your model's dimensions directly"],
     bestFor: "Buyers with a standard 24 inch flat Samsung monitor.",
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "67",
     imageUrl: "https://m.media-amazon.com/images/I/41myUlG2izL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX3L5WQ3?tag=deskfinds0d-20",
-    description: "Samsung's business monitors often feature thin or near-frameless bezels, and this hanging-hook design works on a wider range of bezel shapes than a traditional tab clip.\n\nA high 4.8 rating for a matched 2-pack, worth prioritizing if your Samsung monitor has minimal bezel to grip.",
-    specs: ["24 inch, 16:9 aspect ratio", "Hanging hook mount, 2-pack"],
-    pros: ["High rating with a meaningful review base", "Works well on Samsung's thin-bezel business monitor designs"],
+    description: "Samsung's business monitors often feature thin or near-frameless bezels, and this hanging-hook design works on a wider range of bezel shapes than a traditional tab clip.\n\nOne spot below Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor in this ranking, it costs more than Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor. The compromise here is straightforward: Not compatible with fully frameless monitors that have nothing to hang from. What you gain in return: High rating with a meaningful review base. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a thin-bezel Samsung monitor where a traditional clip might not grip well.",
+    specs: ["24 inch, 16:9 aspect ratio","Hanging hook mount, 2-pack"],
+    pros: ["High rating with a meaningful review base","Works well on Samsung's thin-bezel business monitor designs"],
     cons: ["Not compatible with fully frameless monitors that have nothing to hang from"],
     bestFor: "Buyers with a thin-bezel Samsung monitor where a traditional clip might not grip well.",
   },
@@ -62,8 +62,8 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/516RiyvDVlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VX98475?tag=deskfinds0d-20",
-    description: "A strong review base for a single-unit 27 inch filter, a common size for Samsung's larger flat business monitors.\n\nConfirmed 16:9; verify against your exact Samsung model's active dimensions.",
-    specs: ["27 inch, 16:9 aspect ratio", "Single unit"],
+    description: "A strong review base for a single-unit 27 inch filter, a common size for Samsung's larger flat business monitors.\n\nSitting just under [2-Pack] 24 Inch Privacy Screen for Computer Monitor, it's priced lower than [2-Pack] 24 Inch Privacy Screen for Computer Monitor. Here's the honest tradeoff: Does not specifically name Samsung. And here's what it gets you instead: Strong review base for a single-unit filter. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a single 27 inch flat Samsung monitor.",
+    specs: ["27 inch, 16:9 aspect ratio","Single unit"],
     pros: ["Strong review base for a single-unit filter"],
     cons: ["Does not specifically name Samsung"],
     bestFor: "Buyers with a single 27 inch flat Samsung monitor.",
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/51tNp24VKxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9LCQMFW?tag=deskfinds0d-20",
-    description: "The largest review base at 27 inch, sold as a matched 2-pack for a dual-monitor Samsung desk.\n\nA removable, blackout-style design; verify your exact monitor's active dimensions before ordering.",
-    specs: ["27 inch, 16:9 aspect ratio", "2-pack, removable"],
+    description: "The largest review base at 27 inch, sold as a matched 2-pack for a dual-monitor Samsung desk.\n\nRanked just behind SightPro 27 Inch 16:9 Computer Privacy Screen Filter for Monitor, it costs more than SightPro 27 Inch 16:9 Computer Privacy Screen Filter for Monitor. The real tradeoff against that pick: Higher price than a single unit if you only need one. In exchange, it offers this instead: Largest review base of any 27 inch filter in our research. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with a dual 27 inch Samsung monitor setup.",
+    specs: ["27 inch, 16:9 aspect ratio","2-pack, removable"],
     pros: ["Largest review base of any 27 inch filter in our research"],
     cons: ["Higher price than a single unit if you only need one"],
     bestFor: "Buyers with a dual 27 inch Samsung monitor setup.",
@@ -94,9 +94,9 @@ export const products: GuideProduct[] = [
     reviews: "192",
     imageUrl: "https://m.media-amazon.com/images/I/41IP3Vz5TqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX4W3M89?tag=deskfinds0d-20",
-    description: "A magnetic hanging design, useful for Samsung monitor owners who want to toggle privacy quickly during screen-sharing calls without repositioning a clip.\n\nA solid review base with matched 2-pack coverage.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic, hanging, 2-pack"],
-    pros: ["Fast magnetic removal for frequent toggling", "Solid review base"],
+    description: "A magnetic hanging design, useful for Samsung monitor owners who want to toggle privacy quickly during screen-sharing calls without repositioning a clip.\n\nOne spot below Peslv [2-Pack] 27 Inch Privacy Screen for Computer Monitor in this ranking, it costs more than Peslv [2-Pack] 27 Inch Privacy Screen for Computer Monitor. The compromise here is straightforward: Higher price than the traditional tab-clip alternative. What you gain in return: Fast magnetic removal for frequent toggling. Whether that trade is worth it depends on which side matters more for your setup.\n\nSamsung monitor owners who frequently toggle between private and shared screen use.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic, hanging, 2-pack"],
+    pros: ["Fast magnetic removal for frequent toggling","Solid review base"],
     cons: ["Higher price than the traditional tab-clip alternative"],
     bestFor: "Samsung monitor owners who frequently toggle between private and shared screen use.",
   },
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "A single-unit alternative at a lower price for buyers with a single 24 inch flat Samsung monitor.\n\nA strong review base of its own, from SightPro, a brand with a full size range across our broader research.",
-    specs: ["24 inch, 16:9 aspect ratio", "Single unit"],
+    description: "A single-unit alternative at a lower price for buyers with a single 24 inch flat Samsung monitor.\n\nSitting just under GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, it's priced lower than GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor. Here's the honest tradeoff: Single unit only, buy two separately for a dual-monitor desk. And here's what it gets you instead: Lower price than the matched 2-pack for single-monitor use. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a single 24 inch flat Samsung monitor.",
+    specs: ["24 inch, 16:9 aspect ratio","Single unit"],
     pros: ["Lower price than the matched 2-pack for single-monitor use"],
     cons: ["Single unit only, buy two separately for a dual-monitor desk"],
     bestFor: "Buyers with a single 24 inch flat Samsung monitor.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Match by Monitor Type First",
-    table: {
-      headers: ["Your Samsung monitor", "Recommended pick"],
-      rows: [
-        ["24 inch flat, standard 16:9", "Peslv [2-Pack] 24 Inch Privacy Screen"],
-        ["24 inch flat, thin/near-frameless bezel", "[2-Pack] 24 Inch Privacy Screen, Hanging Removable"],
-        ["27 inch flat", "Peslv [2-Pack] 27 Inch Privacy Screen"],
-        ["Curved Odyssey (CHG90, G95C, etc.)", "See our Curved or 49-Inch Curved Monitor Privacy Screens guides"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Laptop screen",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Odyssey Curved Gaming Monitors Need a Different Filter Entirely",
-    note: "If you own a Samsung Odyssey curved gaming monitor, do not use a flat filter from this guide. Check our dedicated curved monitor guides, which include model-specific filters cut for Samsung's exact curved gaming monitor shapes.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "Mid-range",
+          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: [2-Pack] 24 Inch Privacy Screen for Computer Monitor."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor fits this specifically: Largest review base of any 24 inch filter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor offers: Lower price than the matched 2-pack for single-monitor use. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor already covers the essentials: Lower price than the matched 2-pack for single-monitor use. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm Samsung doesn't make its own privacy filters", explanation: "Every result in this category is a third-party product sized to fit common Samsung dimensions, not a Samsung-branded accessory; don't expect Samsung certification." },
-  { criterion: "Check whether your Samsung monitor is flat or curved", explanation: "Samsung sells both types; a flat filter will not fit a curved Odyssey gaming monitor properly." },
-  { criterion: "Consider a hanging mount for thin-bezel Samsung business monitors", explanation: "Samsung's business monitor lines often feature minimal bezels where a hanging-hook design grips better than a traditional tab clip." },
-  { criterion: "Look up your exact Samsung model's active display dimensions", explanation: "Samsung's lineup spans business, productivity, and gaming lines with different dimensions; verify your specific model rather than assuming from the diagonal." },
-  { criterion: "Buy a matched 2-pack for a dual-monitor Samsung desk", explanation: "If you run two identical Samsung monitors, order both filters from the same listing to avoid a height or tint mismatch between screens." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

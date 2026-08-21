@@ -30,8 +30,8 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/51LJJ4eL26L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9L8NQLW?tag=deskfinds0d-20",
-    description: "The largest review base of any blue-light-filtering privacy filter we found, confirmed 24 inch, 16:9, sold as a matched 2-pack.\n\nThe blue-light reduction claim is not independently verified in the listing; we're treating it as a stated feature rather than a measured, certified figure.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, blue-light filtering"],
+    description: "The largest review base of any blue-light-filtering privacy filter we found, confirmed 24 inch, 16:9, sold as a matched 2-pack.\n\nIt earns the top spot in this comparison over SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor for one main reason. Largest review base of any blue-light-filtering filter in our research. On price, it's actually priced above SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven option that bundles blue-light filtering with privacy.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, blue-light filtering"],
     pros: ["Largest review base of any blue-light-filtering filter in our research"],
     cons: ["Blue-light reduction claim is not independently verified"],
     bestFor: "Buyers who want the most proven option that bundles blue-light filtering with privacy.",
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "A strong review base for a single-unit filter, lower priced than the matched 2-pack top pick, from a brand consistent across our broader research.\n\nAs with other picks, treat the blue-light claim as marketing language rather than a verified reduction percentage.",
-    specs: ["24 inch, 16:9 aspect ratio", "Single unit"],
+    description: "A strong review base for a single-unit filter, lower priced than the matched 2-pack top pick, from a brand consistent across our broader research.\n\nOne spot below Peslv [2-Pack] 24 Inch Privacy Screen in this ranking, it's priced lower than Peslv [2-Pack] 24 Inch Privacy Screen. The compromise here is straightforward: Single unit only, blue-light claim not independently verified. What you gain in return: Strong review base for a single-unit filter. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a single monitor who want a proven single-unit filter.",
+    specs: ["24 inch, 16:9 aspect ratio","Single unit"],
     pros: ["Strong review base for a single-unit filter"],
     cons: ["Single unit only, blue-light claim not independently verified"],
     bestFor: "Buyers with a single monitor who want a proven single-unit filter.",
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "1,564",
     imageUrl: "https://m.media-amazon.com/images/I/41SBKw3J4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR63MZV?tag=deskfinds0d-20",
-    description: "A well-reviewed matched 2-pack that bundles anti-glare alongside blue-light filtering, at a higher price than the Peslv top pick but with substantial review history.\n\nWorth comparing directly against the top pick since both bundle similar features.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, anti-glare, blue-light filtering"],
-    pros: ["Substantial review history", "Bundles anti-glare alongside blue-light filtering"],
+    description: "A well-reviewed matched 2-pack that bundles anti-glare alongside blue-light filtering, at a higher price than the Peslv top pick but with substantial review history.\n\nSitting just under SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor, it costs more than SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor. Here's the honest tradeoff: Higher price than the Peslv top pick despite a similar review profile. And here's what it gets you instead: Substantial review history. That's the real difference between the two picks, not just a ranking number.\n\nBuyers comparing established alternatives with both anti-glare and blue-light features.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, anti-glare, blue-light filtering"],
+    pros: ["Substantial review history","Bundles anti-glare alongside blue-light filtering"],
     cons: ["Higher price than the Peslv top pick despite a similar review profile"],
     bestFor: "Buyers comparing established alternatives with both anti-glare and blue-light features.",
   },
@@ -78,8 +78,8 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31DjyuCBmWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLRP6FWP?tag=deskfinds0d-20",
-    description: "A solid review base for a matched 27 inch 2-pack, bundling genuine privacy with a stated blue-light reduction feature.\n\nA reasonable price for buyers with a larger monitor who want both features covered.",
-    specs: ["27 inch, 16:9 aspect ratio", "2-pack, blue-light filtering"],
+    description: "A solid review base for a matched 27 inch 2-pack, bundling genuine privacy with a stated blue-light reduction feature.\n\nRanked just behind [2 Pack] 24 Inch Computer Privacy Screen Filter, it's priced lower than [2 Pack] 24 Inch Computer Privacy Screen Filter. The real tradeoff against that pick: Blue-light reduction claim not independently verified. In exchange, it offers this instead: Solid review base at the 27 inch size. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with a 27 inch monitor who want blue-light filtering bundled with privacy.",
+    specs: ["27 inch, 16:9 aspect ratio","2-pack, blue-light filtering"],
     pros: ["Solid review base at the 27 inch size"],
     cons: ["Blue-light reduction claim not independently verified"],
     bestFor: "Buyers with a 27 inch monitor who want blue-light filtering bundled with privacy.",
@@ -94,9 +94,9 @@ export const products: GuideProduct[] = [
     reviews: "681",
     imageUrl: "https://m.media-amazon.com/images/I/41gkOv8rF0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5LHLQK8?tag=deskfinds0d-20",
-    description: "A meaningful review base for a curved 34 inch, 21:9 filter bundling blue-light filtering, anti-glare, and a claimed anti-scratch surface.\n\nThe only blue-light-filtering option in this comparison confirmed for curved ultrawide monitors.",
-    specs: ["34 inch, 21:9 aspect ratio, curved-compatible", "Blue-light filtering, anti-glare, anti-scratch"],
-    pros: ["The only curved-compatible blue-light-filtering pick in this comparison", "Meaningful review base"],
+    description: "A meaningful review base for a curved 34 inch, 21:9 filter bundling blue-light filtering, anti-glare, and a claimed anti-scratch surface.\n\nOne spot below [2 Pack] 27 Inch Computer Monitor Privacy Screen in this ranking, it costs more than [2 Pack] 27 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Higher price reflecting the larger curved size. What you gain in return: The only curved-compatible blue-light-filtering pick in this comparison. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a curved 34 inch ultrawide who want blue-light filtering bundled with privacy.",
+    specs: ["34 inch, 21:9 aspect ratio, curved-compatible","Blue-light filtering, anti-glare, anti-scratch"],
+    pros: ["The only curved-compatible blue-light-filtering pick in this comparison","Meaningful review base"],
     cons: ["Higher price reflecting the larger curved size"],
     bestFor: "Buyers with a curved 34 inch ultrawide who want blue-light filtering bundled with privacy.",
   },
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "370",
     imageUrl: "https://m.media-amazon.com/images/I/41L+1zxJQ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3VJ95C5?tag=deskfinds0d-20",
-    description: "The lowest price in this comparison, confirmed 21.5 inch, 16:9 with a solid 4.4 rating on a meaningful review base.\n\nA reasonable entry point for buyers testing whether the format is worth it before spending more.",
-    specs: ["21.5 inch, 16:9 aspect ratio", "Single unit"],
+    description: "The lowest price in this comparison, confirmed 21.5 inch, 16:9 with a solid 4.4 rating on a meaningful review base.\n\nSitting just under Mamol 34 Inch Curved Computer Privacy Screen Filter, it's priced lower than Mamol 34 Inch Curved Computer Privacy Screen Filter. Here's the honest tradeoff: Single unit only. And here's what it gets you instead: Lowest price among all options in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nBudget-focused buyers testing this format for the first time.",
+    specs: ["21.5 inch, 16:9 aspect ratio","Single unit"],
     pros: ["Lowest price among all options in this comparison"],
     cons: ["Single unit only"],
     bestFor: "Budget-focused buyers testing this format for the first time.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, dual-monitor desk", "Peslv [2-Pack] 24 Inch Privacy Screen"],
-        ["Single monitor, lowest price for review volume", "SightPro 24 Inch 16:9 Computer Privacy Screen Filter"],
-        ["27 inch monitor", "[2 Pack] 27 Inch Computer Monitor Privacy Screen"],
-        ["Curved ultrawide monitor", "Mamol 34 Inch Curved Computer Privacy Screen Filter"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "Peslv [2-Pack] 24 Inch Privacy Screen"
+        ],
+        [
+          "Laptop screen",
+          "Peslv [2-Pack] 24 Inch Privacy Screen"
+        ]
+      ]
+    }
   },
   {
-    subheading: "What Blue-Light Filtering Claims Actually Mean",
-    note: "Product listings don't cite an independent measurement standard behind their blue-light reduction figures, and we could not verify these claims independently. Treat blue-light filtering as a marketed feature you're paying for, not a scientifically established health benefit, and don't expect a specific percentage reduction to be a verified fact.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "Computer Privacy Screen Filter for 21.5 Inch 16:9 Aspect Ratio Monitor"
+        ],
+        [
+          "Mid-range",
+          "Peslv [2-Pack] 24 Inch Privacy Screen"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "Mamol 34 Inch Curved Computer Privacy Screen Filter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: check each listing's mounting method, it isn't always stated clearly."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Computer Privacy Screen Filter for 21.5 Inch 16:9 Aspect Ratio Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Peslv [2-Pack] 24 Inch Privacy Screen"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Peslv [2-Pack] 24 Inch Privacy Screen fits this specifically: Largest review base of any blue-light-filtering filter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Mamol 34 Inch Curved Computer Privacy Screen Filter offers: Largest review base of any blue-light-filtering filter in our research. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Computer Privacy Screen Filter for 21.5 Inch 16:9 Aspect Ratio Monitor already covers the essentials: Lowest price among all options in this comparison. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't treat blue-light claims as verified or medically established", explanation: "No listing we reviewed cites an independent test standard; these are manufacturer marketing figures, not lab-verified measurements." },
-  { criterion: "Weigh bundled features together, not the blue-light claim alone", explanation: "Several picks combine blue-light filtering with anti-glare or anti-scratch protection; compare the full feature set relevant to your needs." },
-  { criterion: "Confirm your exact monitor size and aspect ratio", explanation: "As with any privacy filter, verify your monitor's active dimensions match the listing before ordering." },
-  { criterion: "Check for curved compatibility if relevant", explanation: "Only one pick in this comparison is confirmed for curved ultrawide monitors; a flat filter will not fit a curved screen properly." },
-  { criterion: "Weigh price against review volume", explanation: "The most reviewed option isn't always the cheapest; compare both factors together for your specific size and budget." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

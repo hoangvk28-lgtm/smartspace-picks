@@ -30,8 +30,8 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/51LJJ4eL26L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C9L8NQLW?tag=deskfinds0d-20",
-    description: "The largest review base of any 24 inch filter in our research, though the listing does not explicitly confirm touch compatibility.\n\nContact the seller directly to ask about touch sensitivity and gesture accuracy before ordering for a touchscreen monitor, since this isn't addressed in the product description.",
-    specs: ["24 inch, 16:9 aspect ratio", "Touch compatibility not stated"],
+    description: "The largest review base of any 24 inch filter in our research, though the listing does not explicitly confirm touch compatibility.\n\nIt earns the top spot in this comparison over GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor for one main reason. Largest review base of any 24 inch filter in our research. On price, it comes in below GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers willing to verify touch compatibility directly with the seller before ordering.",
+    specs: ["24 inch, 16:9 aspect ratio","Touch compatibility not stated"],
     pros: ["Largest review base of any 24 inch filter in our research"],
     cons: ["Touch compatibility not confirmed, verify with the seller before ordering for a touchscreen monitor"],
     bestFor: "Buyers willing to verify touch compatibility directly with the seller before ordering.",
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "192",
     imageUrl: "https://m.media-amazon.com/images/I/41IP3Vz5TqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX4W3M89?tag=deskfinds0d-20",
-    description: "A magnetic hanging mount, which at least avoids a hard-pressed adhesive layer directly against the touch panel, though touch performance itself is not addressed in the listing.\n\nWorth asking the seller specifically about tap accuracy and gesture responsiveness before ordering for touch use.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic mount, touch compatibility not stated"],
+    description: "A magnetic hanging mount, which at least avoids a hard-pressed adhesive layer directly against the touch panel, though touch performance itself is not addressed in the listing.\n\nOne spot below Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor in this ranking, it costs more than Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor. The compromise here is straightforward: Touch compatibility not confirmed in the listing. What you gain in return: Magnetic mount design may reduce pressure directly on the touch panel compared to some adhesive designs. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who want a magnetic mount and are willing to verify touch performance directly.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic mount, touch compatibility not stated"],
     pros: ["Magnetic mount design may reduce pressure directly on the touch panel compared to some adhesive designs"],
     cons: ["Touch compatibility not confirmed in the listing"],
     bestFor: "Buyers who want a magnetic mount and are willing to verify touch performance directly.",
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "A strong review base at 24 inch from an established filter brand, though this specific listing doesn't confirm touch compatibility.\n\nA lower price than the 2-pack options if you're willing to test touch performance yourself and accept the risk.",
-    specs: ["24 inch, 16:9 aspect ratio", "Single unit, touch compatibility not stated"],
-    pros: ["Strong review base for a single-unit filter", "Lower price for testing touch performance yourself"],
+    description: "A strong review base at 24 inch from an established filter brand, though this specific listing doesn't confirm touch compatibility.\n\nSitting just under GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, it's priced lower than GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor. Here's the honest tradeoff: Touch compatibility not confirmed in the listing. And here's what it gets you instead: Strong review base for a single-unit filter. That's the real difference between the two picks, not just a ranking number.\n\nBuyers willing to test touch performance themselves at a lower price point.",
+    specs: ["24 inch, 16:9 aspect ratio","Single unit, touch compatibility not stated"],
+    pros: ["Strong review base for a single-unit filter","Lower price for testing touch performance yourself"],
     cons: ["Touch compatibility not confirmed in the listing"],
     bestFor: "Buyers willing to test touch performance themselves at a lower price point.",
   },
@@ -78,12 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/516RiyvDVlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VX98475?tag=deskfinds0d-20",
-    description: "For a 27 inch touchscreen monitor, this has a strong review base at this size, though touch compatibility is not addressed in the listing.\n\nAs with the 24 inch options, verify directly with the seller before assuming this works well on a touch panel.",
-    specs: ["27 inch, 16:9 aspect ratio", "Single unit, touch compatibility not stated"],
+    description: "For a 27 inch touchscreen monitor, this has a strong review base at this size, though touch compatibility is not addressed in the listing.\n\nRanked just behind SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor, it costs more than SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor. The real tradeoff against that pick: Touch compatibility not confirmed in the listing. In exchange, it offers this instead: Strong review base for a 27 inch single-unit filter. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with a 27 inch touchscreen monitor willing to verify compatibility directly.",
+    specs: ["27 inch, 16:9 aspect ratio","Single unit, touch compatibility not stated"],
     pros: ["Strong review base for a 27 inch single-unit filter"],
     cons: ["Touch compatibility not confirmed in the listing"],
     bestFor: "Buyers with a 27 inch touchscreen monitor willing to verify compatibility directly.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -97,26 +97,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "What to Ask a Seller Before Buying for a Touchscreen Monitor",
-    cards: [
-      { label: "Tap accuracy", text: "Ask whether single taps register accurately through the filter, since even a thin optical layer can introduce a small offset or dead zone." },
-      { label: "Multi-touch and gestures", text: "Ask specifically about multi-finger gestures and edge swipes, which are more sensitive to any added layer than a single tap." },
-      { label: "Stylus support", text: "If you use a stylus, ask whether the filter is confirmed compatible, since privacy filters can interfere with certain stylus technologies more than with finger touch." },
-      { label: "Return policy", text: "Given the lack of confirmed touch compatibility across listings, prioritize sellers with an easy return policy in case the filter doesn't work well with your specific touchscreen." },
-    ],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
+      ],
+      "rows": [
+        [
+          "Desktop monitor",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Laptop screen",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why This Category Has a Real Product Gap",
-    note: "Touchscreen monitors are a smaller market than standard displays, and privacy filter manufacturers haven't widely marketed products specifically for this use case. If touch compatibility is a hard requirement, consider searching directly for \"touch compatible\" or contacting filter manufacturers like 3M or Kensington to ask about their current touch-rated offerings, since our research didn't surface a well-reviewed dedicated option.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "Mid-range",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Peslv [2-Pack] 24 Inch Privacy Screen for Computer Monitor fits this specifically: Largest review base of any 24 inch filter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor offers: Strong review base for a 27 inch single-unit filter. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor already covers the essentials: Strong review base for a single-unit filter. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't assume standard filters are touch-compatible", explanation: "None of the well-reviewed filters we verified explicitly confirm this feature; verify directly with the seller before ordering for a touchscreen monitor." },
-  { criterion: "Ask specifically about tap accuracy and multi-touch gestures", explanation: "A thin optical layer can introduce a small offset or interfere with edge swipes even if basic taps register fine." },
-  { criterion: "Verify stylus compatibility separately if relevant", explanation: "Privacy filters can interfere with certain stylus technologies differently than with finger touch; don't assume one implies the other." },
-  { criterion: "Prioritize an easy return policy given the uncertainty", explanation: "Since touch compatibility isn't confirmed across current listings, choose a seller with straightforward returns in case the filter doesn't perform well on your touchscreen." },
-  { criterion: "Consider contacting established filter brands directly", explanation: "3M or Kensington may have current touch-rated products not surfaced in our specific research; asking directly is a reasonable next step if touch compatibility is a hard requirement." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "445",
     imageUrl: "https://m.media-amazon.com/images/I/51hNSrABnLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07558BB7B?tag=deskfinds0d-20",
-    description: "Explicitly states it does NOT fit a 17.3 inch screen, listing exact dimensions of 13.31 by 10.61 inches so you can verify against your specific desktop monitor.\n\nA solid review base for this genuinely narrower size category, specifically built for standard 17 inch desktop monitors rather than laptops.",
-    specs: ["17 inch desktop, 13.31 x 10.61 inch active area", "Explicitly does not fit 17.3 inch"],
-    pros: ["Explicitly clarifies it does not fit 17.3 inch, avoiding a common mix-up", "Lists exact active dimensions"],
+    description: "Explicitly states it does NOT fit a 17.3 inch screen, listing exact dimensions of 13.31 by 10.61 inches so you can verify against your specific desktop monitor.\n\nIt earns the top spot in this comparison over TomDetm 17 Inch Monitor Privacy Screen for one main reason. Explicitly clarifies it does not fit 17.3 inch, avoiding a common mix-up. On price, it comes in below TomDetm 17 Inch Monitor Privacy Screen, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a genuine 17 inch desktop monitor, not a 17.3 inch laptop.",
+    specs: ["17 inch desktop, 13.31 x 10.61 inch active area","Explicitly does not fit 17.3 inch"],
+    pros: ["Explicitly clarifies it does not fit 17.3 inch, avoiding a common mix-up","Lists exact active dimensions"],
     cons: ["Smaller review base than more common monitor sizes"],
     bestFor: "Buyers with a genuine 17 inch desktop monitor, not a 17.3 inch laptop.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "121",
     imageUrl: "https://m.media-amazon.com/images/I/31754VJzSvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1BN9QN6?tag=deskfinds0d-20",
-    description: "The highest rating among confirmed 17 inch desktop options, bundling anti-glare and blue-light filtering alongside privacy.\n\nA notably higher price than the other 17 inch desktop pick, reflecting both the smaller production volume at this size and the bundled features.",
-    specs: ["17 inch desktop", "Anti-glare, blue-light filtering"],
-    pros: ["Highest rating among confirmed 17 inch desktop filters", "Bundles anti-glare and blue-light filtering"],
+    description: "The highest rating among confirmed 17 inch desktop options, bundling anti-glare and blue-light filtering alongside privacy.\n\nOne spot below Privacy Screen Filter for 17 Inches Desktop Computer Monitor in this ranking, it costs more than Privacy Screen Filter for 17 Inches Desktop Computer Monitor. The compromise here is straightforward: Notably higher price than the other 17 inch desktop option. What you gain in return: Highest rating among confirmed 17 inch desktop filters. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a 17 inch desktop monitor who also want bundled anti-glare and blue-light features.",
+    specs: ["17 inch desktop","Anti-glare, blue-light filtering"],
+    pros: ["Highest rating among confirmed 17 inch desktop filters","Bundles anti-glare and blue-light filtering"],
     cons: ["Notably higher price than the other 17 inch desktop option"],
     bestFor: "Buyers with a 17 inch desktop monitor who also want bundled anti-glare and blue-light features.",
   },
@@ -62,12 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51YBSixEyCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SNNT8JD?tag=deskfinds0d-20",
-    description: "This is a 17.3 inch laptop filter, not a 17 inch desktop monitor filter; the two sizes are close but not interchangeable, and this pick has a dramatically larger review base than either 17 inch desktop option.\n\nIf your device is a 17.3 inch laptop rather than a 17 inch desktop monitor, this is the correct pick, not the desktop-labeled options above.",
-    specs: ["17.3 inch laptop, 16:9 aspect ratio", "Not for 17 inch desktop monitors"],
-    pros: ["By far the largest review base of any pick in this comparison", "Correct choice specifically for 17.3 inch laptops"],
+    description: "This is a 17.3 inch laptop filter, not a 17 inch desktop monitor filter; the two sizes are close but not interchangeable, and this pick has a dramatically larger review base than either 17 inch desktop option.\n\nSitting just under TomDetm 17 Inch Monitor Privacy Screen, it's priced lower than TomDetm 17 Inch Monitor Privacy Screen. Here's the honest tradeoff: Does not fit a 17 inch desktop monitor, laptop-only sizing. And here's what it gets you instead: By far the largest review base of any pick in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a 17.3 inch laptop, not a 17 inch desktop monitor.",
+    specs: ["17.3 inch laptop, 16:9 aspect ratio","Not for 17 inch desktop monitors"],
+    pros: ["By far the largest review base of any pick in this comparison","Correct choice specifically for 17.3 inch laptops"],
     cons: ["Does not fit a 17 inch desktop monitor, laptop-only sizing"],
     bestFor: "Buyers with a 17.3 inch laptop, not a 17 inch desktop monitor.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -81,28 +81,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Identify Your Exact Device Type First",
-    table: {
-      headers: ["Your device", "Recommended pick"],
-      rows: [
-        ["17 inch desktop monitor, budget", "Privacy Screen Filter for 17 Inches Desktop Computer Monitor"],
-        ["17 inch desktop monitor, want blue-light filtering", "TomDetm 17 Inch Monitor Privacy Screen"],
-        ["17.3 inch laptop", "SightPro 17.3 Inch 16:9 Laptop Privacy Screen Filter"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "TomDetm 17 Inch Monitor Privacy Screen"
+        ],
+        [
+          "Laptop screen",
+          "Privacy Screen Filter for 17 Inches Desktop Computer Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "17 Inch and 17.3 Inch Are Not the Same Size",
-    note: "A 17 inch desktop monitor and a 17.3 inch laptop screen are close but genuinely different physical sizes. A filter made for one will not fit the other properly. Measure your specific screen's active width and height, or check your device's exact specification, before ordering.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $27",
+          "SightPro 17.3 Inch 16:9 Laptop Privacy Screen Filter"
+        ],
+        [
+          "Mid-range",
+          "Privacy Screen Filter for 17 Inches Desktop Computer Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "TomDetm 17 Inch Monitor Privacy Screen"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: TomDetm 17 Inch Monitor Privacy Screen."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "TomDetm 17 Inch Monitor Privacy Screen"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SightPro 17.3 Inch 16:9 Laptop Privacy Screen Filter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TomDetm 17 Inch Monitor Privacy Screen fits this specifically: Highest rating among confirmed 17 inch desktop filters."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what TomDetm 17 Inch Monitor Privacy Screen offers: Highest rating among confirmed 17 inch desktop filters. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "SightPro 17.3 Inch 16:9 Laptop Privacy Screen Filter already covers the essentials: By far the largest review base of any pick in this comparison. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm whether you have a 17 inch desktop monitor or a 17.3 inch laptop", explanation: "These are different sizes with non-interchangeable filters; check your device's exact specification before ordering." },
-  { criterion: "Expect a smaller selection than more common monitor sizes", explanation: "17 inch has fewer confirmed dedicated filter listings in current inventory than 24 or 27 inch desktop monitors." },
-  { criterion: "Verify exact active dimensions when listed", explanation: "Where a listing states precise width and height, compare this against your own screen's measurements rather than relying on the diagonal size alone." },
-  { criterion: "Weigh bundled blue-light filtering against the price premium", explanation: "The higher-priced 17 inch desktop option adds blue-light filtering; decide if this feature is worth the price gap over the basic option." },
-  { criterion: "Don't assume a 17.3 inch laptop filter fits a 17 inch desktop monitor", explanation: "Despite the similar naming, these are different sizes; use the desktop-specific picks for a desktop monitor." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

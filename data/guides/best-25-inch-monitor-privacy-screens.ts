@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "938",
     imageUrl: "https://m.media-amazon.com/images/I/31pZEquBNoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDWBXDJW?tag=deskfinds0d-20",
-    description: "The largest review base of any 25 inch privacy filter we found, confirmed 16:9, sold as a matched 2-pack with bundled blue-light filtering.\n\nA reasonable middle price point among the three confirmed 25 inch options.",
-    specs: ["25 inch, 16:9 aspect ratio", "2-pack, blue-light filtering"],
-    pros: ["Largest review base of any 25 inch filter in our research", "Bundles blue-light filtering"],
+    description: "The largest review base of any 25 inch privacy filter we found, confirmed 16:9, sold as a matched 2-pack with bundled blue-light filtering.\n\nIt earns the top spot in this comparison over Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter (16:9 Aspect Ratio) for one main reason. Largest review base of any 25 inch filter in our research. On price, it's actually priced above Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter (16:9 Aspect Ratio), which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the most proven 25 inch option with bundled blue-light reduction.",
+    specs: ["25 inch, 16:9 aspect ratio","2-pack, blue-light filtering"],
+    pros: ["Largest review base of any 25 inch filter in our research","Bundles blue-light filtering"],
     cons: ["Smaller selection than more common sizes like 24 inch"],
     bestFor: "Buyers who want the most proven 25 inch option with bundled blue-light reduction.",
   },
@@ -46,8 +46,8 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/4113KWbVP1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GZVQK62P?tag=deskfinds0d-20",
-    description: "The highest rating among confirmed 25 inch filters, at nearly the same price as the top pick, though on a smaller review base.\n\nA matched 2-pack; worth strong consideration if rating matters more to you than the largest possible review sample.",
-    specs: ["25 inch, 16:9 aspect ratio", "2-pack"],
+    description: "The highest rating among confirmed 25 inch filters, at nearly the same price as the top pick, though on a smaller review base.\n\nOne spot below [2 Pack] 25 Inch Computer Monitor Privacy Screen in this ranking, it's priced lower than [2 Pack] 25 Inch Computer Monitor Privacy Screen. The compromise here is straightforward: Smaller review base than the top pick. What you gain in return: Highest rating among confirmed 25 inch filters. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who prioritize rating over the largest available review history.",
+    specs: ["25 inch, 16:9 aspect ratio","2-pack"],
     pros: ["Highest rating among confirmed 25 inch filters"],
     cons: ["Smaller review base than the top pick"],
     bestFor: "Buyers who prioritize rating over the largest available review history.",
@@ -62,12 +62,12 @@ export const products: GuideProduct[] = [
     reviews: "121",
     imageUrl: "https://m.media-amazon.com/images/I/31Qwyj7-6bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C76Y36KZ?tag=deskfinds0d-20",
-    description: "The cheapest of the three confirmed 25 inch options, also bundling anti-glare and blue-light filtering, at a smaller review base than the top pick.\n\nWorth comparing directly against the top pick since both bundle similar features at a close price.",
-    specs: ["25 inch, 16:9 aspect ratio", "2-pack, anti-glare, blue-light filtering"],
+    description: "The cheapest of the three confirmed 25 inch options, also bundling anti-glare and blue-light filtering, at a smaller review base than the top pick.\n\nSitting just under Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter (16:9 Aspect Ratio), it's priced lower than Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter (16:9 Aspect Ratio). Here's the honest tradeoff: Smaller review base than the top pick. And here's what it gets you instead: Lowest price among the confirmed 25 inch options. That's the real difference between the two picks, not just a ranking number.\n\nBudget-focused buyers who still want bundled anti-glare and blue-light features.",
+    specs: ["25 inch, 16:9 aspect ratio","2-pack, anti-glare, blue-light filtering"],
     pros: ["Lowest price among the confirmed 25 inch options"],
     cons: ["Smaller review base than the top pick"],
     bestFor: "Budget-focused buyers who still want bundled anti-glare and blue-light features.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -81,28 +81,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, largest review base", "[2 Pack] 25 Inch Computer Monitor Privacy Screen"],
-        ["Highest rating", "Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter"],
-        ["Lowest price", "[2-Pack] 25 Inch Monitor Privacy Screen"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "[2 Pack] 25 Inch Computer Monitor Privacy Screen"
+        ],
+        [
+          "Laptop screen",
+          "[2 Pack] 25 Inch Computer Monitor Privacy Screen"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Confirm 25 Inch, Not 24 Inch, Before Ordering",
-    note: "These are close but distinct sizes. If your monitor is specifically labeled 25 inch, use one of the picks in this guide; a 24 inch filter will not fit properly even though the difference seems small.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $37",
+          "[2-Pack] 25 Inch Monitor Privacy Screen"
+        ],
+        [
+          "Mid-range",
+          "Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter (16:9 Aspect Ratio)"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "[2 Pack] 25 Inch Computer Monitor Privacy Screen"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: check each listing's mounting method, it isn't always stated clearly."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "Vxaop [2-Pack] 25 Inch Computer Privacy Screen Filter (16:9 Aspect Ratio)"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "[2 Pack] 25 Inch Computer Monitor Privacy Screen"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "[2 Pack] 25 Inch Computer Monitor Privacy Screen fits this specifically: Largest review base of any 25 inch filter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what [2 Pack] 25 Inch Computer Monitor Privacy Screen offers: Largest review base of any 25 inch filter in our research. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "[2-Pack] 25 Inch Monitor Privacy Screen already covers the essentials: Lowest price among the confirmed 25 inch options. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm your monitor is specifically 25 inch, not 24", explanation: "These are close but distinct sizes; a 24 inch filter will not fit a genuine 25 inch monitor properly." },
-  { criterion: "Weigh rating against review volume across similarly priced options", explanation: "All three confirmed picks are similarly priced 2-packs; the meaningful differences come down to rating and review count." },
-  { criterion: "Expect a smaller selection than 24 or 27 inch", explanation: "25 inch is less common than the mainstream sizes, though the confirmed options here are all well-reviewed." },
-  { criterion: "Compare bundled blue-light and anti-glare feature combinations", explanation: "All three picks include at least one of these extras; check the specific combination that matters most to you." },
-  { criterion: "Consider all three are matched 2-packs", explanation: "Every confirmed 25 inch option here is a 2-pack, useful if you run dual monitors, though check if a single-unit alternative exists if you only need one." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

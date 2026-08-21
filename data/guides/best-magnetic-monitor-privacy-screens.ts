@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "48",
     imageUrl: "https://m.media-amazon.com/images/I/41dE0fzHXVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H35JT3K8?tag=deskfinds0d-20",
-    description: "The highest rating among confirmed magnetic filters, a hanging design with bundled anti-glare and blue-light filtering, sold as a matched 2-pack.\n\nA smaller review base than the more established leaders, but a strong early rating trend.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic, hanging, 2-pack"],
-    pros: ["Highest rating among confirmed magnetic filters", "Bundles anti-glare and blue-light filtering"],
+    description: "The highest rating among confirmed magnetic filters, a hanging design with bundled anti-glare and blue-light filtering, sold as a matched 2-pack.\n\nIt earns the top spot in this comparison over JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch for one main reason. Highest rating among confirmed magnetic filters. On price, it comes in below JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who prioritize rating and don't mind a smaller review sample.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic, hanging, 2-pack"],
+    pros: ["Highest rating among confirmed magnetic filters","Bundles anti-glare and blue-light filtering"],
     cons: ["Smaller review base than more established alternatives"],
     bestFor: "Buyers who prioritize rating and don't mind a smaller review sample.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "136",
     imageUrl: "https://m.media-amazon.com/images/I/41Cp4HRb8cL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM9FWFKQ?tag=deskfinds0d-20",
-    description: "The largest magnetic filter we found, sized for 27 inch monitors, with the largest review base among the confirmed magnetic options at this size tier.\n\nA hanging magnetic mount, faster to remove than a traditional tab-clip design.",
-    specs: ["27 inch, 16:9 aspect ratio", "Magnetic, hanging, single unit"],
-    pros: ["Largest review base among confirmed magnetic filters", "Available at the larger 27 inch size"],
+    description: "The largest magnetic filter we found, sized for 27 inch monitors, with the largest review base among the confirmed magnetic options at this size tier.\n\nOne spot below JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor in this ranking, it costs more than JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor. The compromise here is straightforward: Single unit only. What you gain in return: Largest review base among confirmed magnetic filters. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a 27 inch monitor who want the most proven magnetic option.",
+    specs: ["27 inch, 16:9 aspect ratio","Magnetic, hanging, single unit"],
+    pros: ["Largest review base among confirmed magnetic filters","Available at the larger 27 inch size"],
     cons: ["Single unit only"],
     bestFor: "Buyers with a 27 inch monitor who want the most proven magnetic option.",
   },
@@ -62,8 +62,8 @@ export const products: GuideProduct[] = [
     reviews: "192",
     imageUrl: "https://m.media-amazon.com/images/I/41IP3Vz5TqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX4W3M89?tag=deskfinds0d-20",
-    description: "A matched 2-pack magnetic hanging design with the largest review base among 24 inch magnetic filters, bundling anti-blue-light and anti-glare protection.\n\nA reliable choice for a dual-monitor desk that wants magnetic mounting on both screens.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic, hanging, 2-pack"],
+    description: "A matched 2-pack magnetic hanging design with the largest review base among 24 inch magnetic filters, bundling anti-blue-light and anti-glare protection.\n\nSitting just under JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch, it costs more than JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch. Here's the honest tradeoff: Higher price than the single-unit version of the same design. And here's what it gets you instead: Largest review base among 24 inch magnetic filters. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a dual-monitor desk who want magnetic mounting on both screens.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic, hanging, 2-pack"],
     pros: ["Largest review base among 24 inch magnetic filters"],
     cons: ["Higher price than the single-unit version of the same design"],
     bestFor: "Buyers with a dual-monitor desk who want magnetic mounting on both screens.",
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "192",
     imageUrl: "https://m.media-amazon.com/images/I/41yjxeYbc-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F995XWNM?tag=deskfinds0d-20",
-    description: "The same design and rating as the 2-pack GUDTEKE pick, sold as a single unit at a lower price for buyers with just one monitor.\n\nSame magnetic hanging mount and 192-review track record, just without the second filter.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic, hanging, single unit"],
-    pros: ["Same proven design and rating as the 2-pack version", "Lower price for single-monitor use"],
+    description: "The same design and rating as the 2-pack GUDTEKE pick, sold as a single unit at a lower price for buyers with just one monitor.\n\nRanked just behind GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, it's priced lower than GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor. The real tradeoff against that pick: Single unit only. In exchange, it offers this instead: Same proven design and rating as the 2-pack version. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with a single monitor who want the GUDTEKE design without paying for two.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic, hanging, single unit"],
+    pros: ["Same proven design and rating as the 2-pack version","Lower price for single-monitor use"],
     cons: ["Single unit only"],
     bestFor: "Buyers with a single monitor who want the GUDTEKE design without paying for two.",
   },
@@ -94,9 +94,9 @@ export const products: GuideProduct[] = [
     reviews: "33",
     imageUrl: "https://m.media-amazon.com/images/I/41kU2xMrurL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSF94G99?tag=deskfinds0d-20",
-    description: "The only pick in this comparison explicitly designed for frameless monitors, using a hidden magnetic design where a traditional clip wouldn't have anywhere to grip.\n\nAlso the cheapest magnetic option here, at a matched 2-pack.",
-    specs: ["24 inch, 16:9 aspect ratio", "Hidden magnetic design, frameless-compatible, 2-pack"],
-    pros: ["The only frameless-compatible pick in this comparison", "Cheapest magnetic option in this comparison"],
+    description: "The only pick in this comparison explicitly designed for frameless monitors, using a hidden magnetic design where a traditional clip wouldn't have anywhere to grip.\n\nOne spot below GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single) in this ranking, it's priced lower than GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single). The compromise here is straightforward: Smaller review base than the more established magnetic picks. What you gain in return: The only frameless-compatible pick in this comparison. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a frameless monitor who need a magnetic mount built for that specific case.",
+    specs: ["24 inch, 16:9 aspect ratio","Hidden magnetic design, frameless-compatible, 2-pack"],
+    pros: ["The only frameless-compatible pick in this comparison","Cheapest magnetic option in this comparison"],
     cons: ["Smaller review base than the more established magnetic picks"],
     bestFor: "Buyers with a frameless monitor who need a magnetic mount built for that specific case.",
   },
@@ -110,12 +110,12 @@ export const products: GuideProduct[] = [
     reviews: "67",
     imageUrl: "https://m.media-amazon.com/images/I/41myUlG2izL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX3L5WQ3?tag=deskfinds0d-20",
-    description: "The highest overall rating in this comparison at 4.8, a hanging mount rather than explicitly magnetic, though it shares the same fast, tool-free installation advantage.\n\nWorth considering as a top-rated alternative if a specifically magnetic mount isn't a hard requirement.",
-    specs: ["24 inch, 16:9 aspect ratio", "Hanging, tool-free, 2-pack"],
+    description: "The highest overall rating in this comparison at 4.8, a hanging mount rather than explicitly magnetic, though it shares the same fast, tool-free installation advantage.\n\nSitting just under JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen, it costs more than JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen. Here's the honest tradeoff: Hanging mount, not specifically magnetic. And here's what it gets you instead: Highest overall rating in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want the fastest tool-free installation and don't specifically require a magnetic mount.",
+    specs: ["24 inch, 16:9 aspect ratio","Hanging, tool-free, 2-pack"],
     pros: ["Highest overall rating in this comparison"],
     cons: ["Hanging mount, not specifically magnetic"],
     bestFor: "Buyers who want the fastest tool-free installation and don't specifically require a magnetic mount.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -129,29 +129,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Highest rating", "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter"],
-        ["27 inch monitor", "JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch"],
-        ["Frameless monitor", "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen"],
-        ["Largest review base, dual-monitor", "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "Laptop screen",
+          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check Your Bezel Material Before Buying",
-    note: "Most magnetic privacy filters need a metal frame or an included magnetic strip to attach, since the magnet itself needs something to grip. Verify your monitor's bezel material, or confirm the filter includes its own magnetic strip, before assuming a magnetic mount will work on your specific monitor.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen"
+        ],
+        [
+          "Mid-range",
+          "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor, JEEETINTX Magnetic Computer Privacy Screen Filter 27 Inch."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single), JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "JEAPKA 2 Pack Magnetic 24 Inch Computer Privacy Screen Filter for Monitor fits this specifically: Highest rating among confirmed magnetic filters."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor offers: Highest rating among confirmed magnetic filters. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "JEAPKA 2 Pack Hidden Design Magnetic Computer Privacy Screen already covers the essentials: The only frameless-compatible pick in this comparison. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify your monitor's bezel material supports magnetic attachment", explanation: "Most magnetic filters need a metal bezel or an included magnetic strip; check this before assuming the mount will work on your specific monitor." },
-  { criterion: "Check for frameless-specific design if your monitor has no bezel", explanation: "A standard hanging magnetic mount still needs an edge to hang from; a fully frameless monitor needs a hidden design built specifically for that case." },
-  { criterion: "Weigh rating against review sample size", explanation: "Several picks here have review counts under 200; a high rating on a small sample carries less certainty than one built on thousands of reviews." },
-  { criterion: "Compare single-unit versus matched 2-pack pricing for the same design", explanation: "Where a brand offers both formats, calculate the per-unit cost to see if the 2-pack genuinely saves money over two single-unit purchases." },
-  { criterion: "Consider a hanging (non-magnetic) alternative if rating matters most", explanation: "The highest-rated pick in this broader comparison is a hanging design rather than magnetic; weigh this if a magnetic mount specifically isn't a hard requirement." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

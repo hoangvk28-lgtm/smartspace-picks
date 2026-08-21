@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "67",
     imageUrl: "https://m.media-amazon.com/images/I/41myUlG2izL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX3L5WQ3?tag=deskfinds0d-20",
-    description: "A high 4.8 rating with a real review base for a hanging, tool-free removable design, a matched 2-pack at confirmed 24 inch, 16:9.\n\nThe hanging mount hooks over the top of the monitor rather than clipping to the sides, generally faster to install than a traditional side-bezel clip.",
-    specs: ["24 inch, 16:9 aspect ratio", "Hanging, tool-free, 2-pack"],
-    pros: ["High rating with a meaningful review base", "Hanging mount is fast to install without tools"],
+    description: "A high 4.8 rating with a real review base for a hanging, tool-free removable design, a matched 2-pack at confirmed 24 inch, 16:9.\n\nIt earns the top spot in this comparison over 2-Pack 24 Inch Hanging Privacy Screen Protector for one main reason. High rating with a meaningful review base. On price, it comes in below 2-Pack 24 Inch Hanging Privacy Screen Protector, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers who want the fastest tool-free installation with a proven review base.",
+    specs: ["24 inch, 16:9 aspect ratio","Hanging, tool-free, 2-pack"],
+    pros: ["High rating with a meaningful review base","Hanging mount is fast to install without tools"],
     cons: ["Not a traditional side-bezel clip design"],
     bestFor: "Buyers who want the fastest tool-free installation with a proven review base.",
   },
@@ -46,10 +46,10 @@ export const products: GuideProduct[] = [
     reviews: "16",
     imageUrl: "https://m.media-amazon.com/images/I/41ZHkDWhuHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FSRLXCYY?tag=deskfinds0d-20",
-    description: "Explicitly rated for frameless 23-24 inch monitors, where a traditional side-clip wouldn't have a bezel to grip, with a claimed 95 percent light blocking and 87 percent blue-light reduction at a 30-plus degree privacy angle.\n\nThe most expensive pick here, and the specific figures cited (95% light blocking, 87% blue light, 97% UV) are manufacturer claims we could not independently verify.",
-    specs: ["23-24 inch, frameless-compatible", "Hanging, 2-pack, claimed 30°+ privacy angle"],
-    pros: ["Explicitly compatible with frameless monitors", "Cites specific claimed performance figures"],
-    cons: ["Highest price in this comparison", "Cited performance figures are manufacturer claims, not independently verified"],
+    description: "Explicitly rated for frameless 23-24 inch monitors, where a traditional side-clip wouldn't have a bezel to grip, with a claimed 95 percent light blocking and 87 percent blue-light reduction at a 30-plus degree privacy angle.\n\nOne spot below [2-Pack] 24 Inch Privacy Screen for Computer Monitor in this ranking, it costs more than [2-Pack] 24 Inch Privacy Screen for Computer Monitor. The compromise here is straightforward: Highest price in this comparison. What you gain in return: Explicitly compatible with frameless monitors. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a frameless 23-24 inch monitor who want a hanging design built for that specific case.",
+    specs: ["23-24 inch, frameless-compatible","Hanging, 2-pack, claimed 30°+ privacy angle"],
+    pros: ["Explicitly compatible with frameless monitors","Cites specific claimed performance figures"],
+    cons: ["Highest price in this comparison","Cited performance figures are manufacturer claims, not independently verified"],
     bestFor: "Buyers with a frameless 23-24 inch monitor who want a hanging design built for that specific case.",
   },
   {
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "192",
     imageUrl: "https://m.media-amazon.com/images/I/41IP3Vz5TqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX4W3M89?tag=deskfinds0d-20",
-    description: "A magnetic hanging design with the largest review base among the no-adhesive options here, a matched 2-pack at confirmed 24 inch, 16:9.\n\nMagnetic attachment combines the speed of a hanging design with additional stability against accidental knocks.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic, hanging, 2-pack"],
-    pros: ["Largest review base among the no-adhesive options here", "Magnetic mount adds stability against accidental bumps"],
+    description: "A magnetic hanging design with the largest review base among the no-adhesive options here, a matched 2-pack at confirmed 24 inch, 16:9.\n\nSitting just under 2-Pack 24 Inch Hanging Privacy Screen Protector, it's priced lower than 2-Pack 24 Inch Hanging Privacy Screen Protector. Here's the honest tradeoff: Higher price than the single-unit magnetic alternative below. And here's what it gets you instead: Largest review base among the no-adhesive options here. That's the real difference between the two picks, not just a ranking number.\n\nBuyers who want magnetic stability with a larger established review base.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic, hanging, 2-pack"],
+    pros: ["Largest review base among the no-adhesive options here","Magnetic mount adds stability against accidental bumps"],
     cons: ["Higher price than the single-unit magnetic alternative below"],
     bestFor: "Buyers who want magnetic stability with a larger established review base.",
   },
@@ -78,9 +78,9 @@ export const products: GuideProduct[] = [
     reviews: "192",
     imageUrl: "https://m.media-amazon.com/images/I/41yjxeYbc-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F995XWNM?tag=deskfinds0d-20",
-    description: "The same design and rating as the 2-pack GUDTEKE pick above, sold as a single unit at a lower price for buyers with just one monitor.\n\nSame magnetic hanging mount and 192-review track record, just without the second filter.",
-    specs: ["24 inch, 16:9 aspect ratio", "Magnetic, hanging, single unit"],
-    pros: ["Same proven design and rating as the 2-pack version", "Lower price for single-monitor use"],
+    description: "The same design and rating as the 2-pack GUDTEKE pick above, sold as a single unit at a lower price for buyers with just one monitor.\n\nRanked just behind GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, it's priced lower than GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor. The real tradeoff against that pick: Single unit only. In exchange, it offers this instead: Same proven design and rating as the 2-pack version. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers with a single monitor who want the GUDTEKE design without paying for two.",
+    specs: ["24 inch, 16:9 aspect ratio","Magnetic, hanging, single unit"],
+    pros: ["Same proven design and rating as the 2-pack version","Lower price for single-monitor use"],
     cons: ["Single unit only"],
     bestFor: "Buyers with a single monitor who want the GUDTEKE design without paying for two.",
   },
@@ -94,8 +94,8 @@ export const products: GuideProduct[] = [
     reviews: "1,564",
     imageUrl: "https://m.media-amazon.com/images/I/41SBKw3J4ML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJR63MZV?tag=deskfinds0d-20",
-    description: "The largest review base of any no-adhesive-style pick in this comparison, a well-established matched 2-pack at confirmed 24 inch, 16:9.\n\nWorth comparing directly against the top-rated FX3L5WQ3 pick since both are 2-packs at a similar price.",
-    specs: ["24 inch, 16:9 aspect ratio", "2-pack, removable"],
+    description: "The largest review base of any no-adhesive-style pick in this comparison, a well-established matched 2-pack at confirmed 24 inch, 16:9.\n\nOne spot below GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single) in this ranking, it costs more than GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single). The compromise here is straightforward: Lower average rating than the top two picks. What you gain in return: Largest review base among all picks in this comparison. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers who prioritize the largest available review history for this style of filter.",
+    specs: ["24 inch, 16:9 aspect ratio","2-pack, removable"],
     pros: ["Largest review base among all picks in this comparison"],
     cons: ["Lower average rating than the top two picks"],
     bestFor: "Buyers who prioritize the largest available review history for this style of filter.",
@@ -110,9 +110,9 @@ export const products: GuideProduct[] = [
     reviews: "104",
     imageUrl: "https://m.media-amazon.com/images/I/4119Podn3+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP48CZXG?tag=deskfinds0d-20",
-    description: "The lowest price in this comparison, also explicitly compatible with the nearby 23.8 inch size, though the lowest rating here at 3.8.\n\nA reasonable low-cost entry point, but weigh the lower rating against the price savings before choosing this over the higher-rated alternatives.",
-    specs: ["24 inch (also fits 23.8 inch), 16:9 aspect ratio", "Hanging, single unit"],
-    pros: ["Lowest price in this comparison", "Also compatible with 23.8 inch monitors"],
+    description: "The lowest price in this comparison, also explicitly compatible with the nearby 23.8 inch size, though the lowest rating here at 3.8.\n\nSitting just under [2 Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor, it's priced lower than [2 Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor. Here's the honest tradeoff: Lowest rating in this comparison. And here's what it gets you instead: Lowest price in this comparison. That's the real difference between the two picks, not just a ranking number.\n\nBudget-focused buyers willing to accept a lower rating for the lowest price.",
+    specs: ["24 inch (also fits 23.8 inch), 16:9 aspect ratio","Hanging, single unit"],
+    pros: ["Lowest price in this comparison","Also compatible with 23.8 inch monitors"],
     cons: ["Lowest rating in this comparison"],
     bestFor: "Budget-focused buyers willing to accept a lower rating for the lowest price.",
   },
@@ -126,12 +126,12 @@ export const products: GuideProduct[] = [
     reviews: "4,087",
     imageUrl: "https://m.media-amazon.com/images/I/51P3ailXnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07L6X8KDW?tag=deskfinds0d-20",
-    description: "Not a hanging or magnetic design, but a traditional tab-mounted filter with by far the largest review base of any pick in this comparison, included for buyers who specifically want a conventional bezel-clip style.\n\nWorth considering if a hanging or magnetic mount isn't a specific requirement for your setup.",
-    specs: ["24 inch, 16:9 aspect ratio", "Traditional tab mount, single unit"],
-    pros: ["By far the largest review base of any pick in this comparison", "Traditional tab mount rather than hanging or magnetic"],
+    description: "Not a hanging or magnetic design, but a traditional tab-mounted filter with by far the largest review base of any pick in this comparison, included for buyers who specifically want a conventional bezel-clip style.\n\nRanked just behind Hanging 24 Inch Computer Privacy Screen Filter, it costs more than Hanging 24 Inch Computer Privacy Screen Filter. The real tradeoff against that pick: Not a hanging or magnetic design, if that's specifically what you're looking for. In exchange, it offers this instead: By far the largest review base of any pick in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBuyers who want the most proven filter overall and don't specifically need a hanging or magnetic mount.",
+    specs: ["24 inch, 16:9 aspect ratio","Traditional tab mount, single unit"],
+    pros: ["By far the largest review base of any pick in this comparison","Traditional tab mount rather than hanging or magnetic"],
     cons: ["Not a hanging or magnetic design, if that's specifically what you're looking for"],
     bestFor: "Buyers who want the most proven filter overall and don't specifically need a hanging or magnetic mount.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -145,29 +145,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Best overall, fast tool-free install", "[2-Pack] 24 Inch Privacy Screen, Hanging Removable"],
-        ["Frameless monitor", "2-Pack 24 Inch Hanging Privacy Screen Protector"],
-        ["Magnetic stability, largest review base", "GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen"],
-        ["Traditional tab mount, most reviewed overall", "SightPro 24 Inch 16:9 Computer Privacy Screen Filter"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Laptop screen",
+          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "What \"Clip-On\" Actually Means in Current Listings",
-    note: "If you're specifically looking for a traditional side-bezel clip design, most current listings under this search term are actually hanging-hook or magnetic mounts instead. Both are genuinely no-adhesive and fully removable, but they attach differently. Check the specific mounting mechanism described in the listing rather than assuming from the \"clip-on\" search term alone.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "Hanging 24 Inch Computer Privacy Screen Filter"
+        ],
+        [
+          "Mid-range",
+          "[2 Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "2-Pack 24 Inch Hanging Privacy Screen Protector"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: GUDTEKE 2Pack Magnetic 24 Inch Privacy Screen for Computer Monitor, [2 Pack] 24 Inch Computer Privacy Screen Filter for 16:9 Widescreen Monitor, SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: [2-Pack] 24 Inch Privacy Screen for Computer Monitor, 2-Pack 24 Inch Hanging Privacy Screen Protector, GUDTEKE Magnetic 24 Inch Privacy Screen for Computer Monitor (Single)."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "[2-Pack] 24 Inch Privacy Screen for Computer Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "SightPro 24 Inch 16:9 Computer Privacy Screen Filter for Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "[2-Pack] 24 Inch Privacy Screen for Computer Monitor fits this specifically: High rating with a meaningful review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what 2-Pack 24 Inch Hanging Privacy Screen Protector offers: Explicitly compatible with frameless monitors. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Hanging 24 Inch Computer Privacy Screen Filter already covers the essentials: Lowest price in this comparison. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check the actual mounting mechanism, not just the \"clip-on\" label", explanation: "Most current listings under this term are hanging-hook or magnetic designs rather than traditional side-bezel clips; verify the specific mechanism described." },
-  { criterion: "Consider a frameless-compatible design if your monitor has no bezel to grip", explanation: "A traditional clip needs a bezel edge; a frameless monitor needs a hanging or magnetic design built for that case." },
-  { criterion: "Weigh magnetic attachment for added stability against bumps", explanation: "A magnetic mount holds more securely against accidental desk bumps than a plain hanging hook, worth the modest price difference." },
-  { criterion: "Treat cited performance percentages as marketing claims", explanation: "Specific figures like \"95% light blocking\" or \"87% blue light reduction\" are manufacturer claims we could not independently verify; weigh them as marketing language, not lab-tested data." },
-  { criterion: "Consider a traditional tab-mounted filter if that's specifically what you need", explanation: "If a hanging or magnetic mount isn't a requirement, traditional tab-mounted filters have a much larger overall review base to draw confidence from." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [

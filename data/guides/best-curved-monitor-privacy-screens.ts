@@ -30,9 +30,9 @@ export const products: GuideProduct[] = [
     reviews: "6,437",
     imageUrl: "https://m.media-amazon.com/images/I/41akKVWuazL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGWYZHTS?tag=deskfinds0d-20",
-    description: "The largest review base of any curved-compatible filter we found, confirmed 34 inch, 21:9, sold as a matched 2-pack, though this is the same broader review history shared across this listing's other size variants.\n\nThe highest price in this comparison, reflecting both the large 34 inch curved size and the 2-pack format.",
-    specs: ["34 inch, 21:9 aspect ratio, curved-compatible", "2-pack, removable"],
-    pros: ["Largest review base of any curved-compatible filter in our research", "Matched 2-pack for dual curved-monitor setups"],
+    description: "The largest review base of any curved-compatible filter we found, confirmed 34 inch, 21:9, sold as a matched 2-pack, though this is the same broader review history shared across this listing's other size variants.\n\nIt earns the top spot in this comparison over Mamol 34 Inch Curved Computer Privacy Screen Filter for 21:9 Aspect Ratio for one main reason. Largest review base of any curved-compatible filter in our research. On price, it's actually priced above Mamol 34 Inch Curved Computer Privacy Screen Filter for 21:9 Aspect Ratio, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers with a 34 inch curved ultrawide monitor who want the most proven option, especially with two identical screens.",
+    specs: ["34 inch, 21:9 aspect ratio, curved-compatible","2-pack, removable"],
+    pros: ["Largest review base of any curved-compatible filter in our research","Matched 2-pack for dual curved-monitor setups"],
     cons: ["Highest price in this comparison"],
     bestFor: "Buyers with a 34 inch curved ultrawide monitor who want the most proven option, especially with two identical screens.",
   },
@@ -46,9 +46,9 @@ export const products: GuideProduct[] = [
     reviews: "681",
     imageUrl: "https://m.media-amazon.com/images/I/41gkOv8rF0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5LHLQK8?tag=deskfinds0d-20",
-    description: "A meaningful review base for a single-unit 34 inch curved filter, roughly half the price of the matched 2-pack top pick.\n\nAlso includes anti-glare and blue-light filtering alongside the privacy function, along with a claimed anti-scratch surface.",
-    specs: ["34 inch, 21:9 aspect ratio, curved-compatible", "Anti-glare, blue-light filtering, anti-scratch"],
-    pros: ["Meaningful review base for a single-unit curved filter", "Bundles anti-glare and blue-light filtering"],
+    description: "A meaningful review base for a single-unit 34 inch curved filter, roughly half the price of the matched 2-pack top pick.\n\nOne spot below [2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor in this ranking, it's priced lower than [2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor. The compromise here is straightforward: Single unit only. What you gain in return: Meaningful review base for a single-unit curved filter. Whether that trade is worth it depends on which side matters more for your setup.\n\nBuyers with a single 34 inch curved ultrawide monitor who want bundled features.",
+    specs: ["34 inch, 21:9 aspect ratio, curved-compatible","Anti-glare, blue-light filtering, anti-scratch"],
+    pros: ["Meaningful review base for a single-unit curved filter","Bundles anti-glare and blue-light filtering"],
     cons: ["Single unit only"],
     bestFor: "Buyers with a single 34 inch curved ultrawide monitor who want bundled features.",
   },
@@ -62,9 +62,9 @@ export const products: GuideProduct[] = [
     reviews: "31",
     imageUrl: "https://m.media-amazon.com/images/I/41GurJDkLeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXM8JLXN?tag=deskfinds0d-20",
-    description: "The only pick in this comparison confirmed for a curved 27 inch monitor rather than the larger 34 inch ultrawide format, using a tape-free nano-suction bezel that adapts to a gentle curve better than adhesive or clips.\n\nAlso rated for flat monitors, useful if you upgrade to a flat screen later and want to reuse the filter.",
-    specs: ["27 inch, curved and flat compatible", "Nano-suction, tape-free, washable"],
-    pros: ["Only confirmed curved-compatible pick at the 27 inch size", "Also works on flat monitors if you upgrade later"],
+    description: "The only pick in this comparison confirmed for a curved 27 inch monitor rather than the larger 34 inch ultrawide format, using a tape-free nano-suction bezel that adapts to a gentle curve better than adhesive or clips.\n\nSitting just under Mamol 34 Inch Curved Computer Privacy Screen Filter for 21:9 Aspect Ratio, it's priced lower than Mamol 34 Inch Curved Computer Privacy Screen Filter for 21:9 Aspect Ratio. Here's the honest tradeoff: Smaller review base than the 34 inch picks. And here's what it gets you instead: Only confirmed curved-compatible pick at the 27 inch size. That's the real difference between the two picks, not just a ranking number.\n\nBuyers with a curved 27 inch monitor rather than a 34 inch ultrawide.",
+    specs: ["27 inch, curved and flat compatible","Nano-suction, tape-free, washable"],
+    pros: ["Only confirmed curved-compatible pick at the 27 inch size","Also works on flat monitors if you upgrade later"],
     cons: ["Smaller review base than the 34 inch picks"],
     bestFor: "Buyers with a curved 27 inch monitor rather than a 34 inch ultrawide.",
   },
@@ -78,12 +78,12 @@ export const products: GuideProduct[] = [
     reviews: "102",
     imageUrl: "https://m.media-amazon.com/images/I/41SFiqVpbYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092TL5SJC?tag=deskfinds0d-20",
-    description: "The cheapest 34 inch curved filter in this comparison, with a listed active area of 31 1/4 by 13 3/8 inches for buyers who want to verify exact dimensions rather than relying on diagonal size alone.\n\nA smaller review base than the Mamol pick at a similar price point; worth comparing both directly.",
+    description: "The cheapest 34 inch curved filter in this comparison, with a listed active area of 31 1/4 by 13 3/8 inches for buyers who want to verify exact dimensions rather than relying on diagonal size alone.\n\nRanked just behind infoWall 2-Pack 27 Inch Computer Privacy Screen Filter, it's priced lower than infoWall 2-Pack 27 Inch Computer Privacy Screen Filter. The real tradeoff against that pick: Smaller review base than the Mamol alternative. In exchange, it offers this instead: Cheapest 34 inch curved option in this comparison. That's the swap that decides whether this pick or the one above it is the better fit for your screen.\n\nBudget-focused buyers with a 34 inch curved monitor who want to verify exact active dimensions.",
     specs: ["34 inch diagonal, curved-compatible, 31 1/4 x 13 3/8 inch active area"],
-    pros: ["Cheapest 34 inch curved option in this comparison", "Lists exact active dimensions, not just diagonal"],
+    pros: ["Cheapest 34 inch curved option in this comparison","Lists exact active dimensions, not just diagonal"],
     cons: ["Smaller review base than the Mamol alternative"],
     bestFor: "Budget-focused buyers with a 34 inch curved monitor who want to verify exact active dimensions.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -97,29 +97,128 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, 34 inch curved", "[2 Pack] 34 Inch Privacy Screen for Curved Monitor"],
-        ["Single unit, bundled features", "Mamol 34 Inch Curved Computer Privacy Screen Filter"],
-        ["27 inch curved monitor", "infoWall 2-Pack 27 Inch Computer Privacy Screen Filter"],
-        ["Budget 34 inch curved", "ZYY 34 Inch Curved Computer Privacy Screen"],
+    "subheading": "Identify Your Exact Device Type First",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick in this comparison"
       ],
-    },
+      "rows": [
+        [
+          "Desktop monitor",
+          "[2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor"
+        ],
+        [
+          "Laptop screen",
+          "[2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why a Flat Filter Won't Work on a Curved Screen",
-    note: "A curved monitor's panel bends away from the viewer at the edges. A flat filter placed over it will lift at the sides, creating visible gaps, uneven contact, and potential distortion near the curve. Always confirm explicit curved compatibility rather than assuming a flat filter at the right diagonal size will work.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $67",
+          "ZYY 34 Inch (diagonal) Curved Computer Privacy Screen"
+        ],
+        [
+          "Mid-range",
+          "Mamol 34 Inch Curved Computer Privacy Screen Filter for 21:9 Aspect Ratio"
+        ],
+        [
+          "No firm budget ceiling, prioritizing extra coatings",
+          "[2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Adhesive Tabs vs Slide-On Mount",
+    "cards": [
+      {
+        "label": "Adhesive Tabs",
+        "text": "Sticks to the bezel with small adhesive tabs or hooks, generally cheaper and widely available, though it can leave light residue if removed often. In this comparison: infoWall 2-Pack 27 Inch Computer Privacy Screen Filter."
+      },
+      {
+        "label": "Slide-On or Frame Mount",
+        "text": "Clips or slides over the top and sides with no adhesive at all, easier to remove and reposition, at the cost of slightly less secure edge contact. In this comparison: none explicitly confirmed in this specific roundup, check the listing directly before assuming."
+      }
+    ]
+  },
+  {
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "What you're weighing",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest star rating",
+          "[2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor"
+        ],
+        [
+          "Largest review base (more statistical confidence)",
+          "[2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Matching Your Exact Aspect Ratio Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The filter's stated active area width and height in inches, not just the diagonal size, checked directly against your screen's own specification sheet."
+      },
+      {
+        "label": "In this comparison",
+        "text": "[2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor fits this specifically: Largest review base of any curved-compatible filter in our research."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what [2 Pack] 34 Inch Privacy Screen for Computer Curved Monitor offers: Meaningful review base for a single-unit curved filter. That's a real functional upgrade over the basic picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "ZYY 34 Inch (diagonal) Curved Computer Privacy Screen already covers the essentials: Cheapest 34 inch curved option in this comparison. The main thing you'd be paying extra for elsewhere in this list is bundled coatings, not the core privacy function."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm explicit curved compatibility, not just matching diagonal size", explanation: "A flat filter at the correct diagonal size will still lift and gap at the edges of a curved panel; only buy filters that specifically state curved compatibility." },
-  { criterion: "Verify your monitor's exact curve radius if possible", explanation: "Different curved monitors use different curvature radii; a filter designed for one radius may not sit flush on a monitor with a tighter or gentler curve." },
-  { criterion: "Check active width and height against your specific ultrawide model", explanation: "34 inch curved ultrawides can vary slightly in exact dimensions; compare the filter's listed active area against your monitor's specifications." },
-  { criterion: "Consider dual flat-and-curved compatibility if you might switch monitors later", explanation: "A filter rated for both curved and flat screens protects your investment if you upgrade to a different monitor shape down the line." },
-  { criterion: "Weigh single-unit versus 2-pack based on your actual monitor count", explanation: "Curved ultrawide monitors are less commonly run in matched dual-monitor pairs than standard flat monitors; a single unit may suit your setup better." },
+  {
+    "criterion": "Confirm your exact screen size and device type before ordering",
+    "explanation": "A privacy screen's diagonal size number alone isn't enough to guarantee fit, since two devices can share the same advertised diagonal measurement while having different actual active display dimensions or aspect ratios, and a filter sized for a desktop monitor is not automatically interchangeable with a laptop of the same nominal diagonal size. This genuinely trips buyers up more than any other spec on this product, because a filter that's even slightly too large or too small won't seat correctly, leaving gaps at the edges or overhanging the bezel, which defeats the privacy function entirely. Check the listing's stated active area width and height in inches, not just the diagonal size, and compare it against your specific monitor or laptop model's actual screen dimensions from the manufacturer's spec sheet."
+  },
+  {
+    "criterion": "Understand what the viewing angle rating actually means",
+    "explanation": "A privacy filter's viewing angle spec, commonly given as a range like plus or minus 30 or plus or minus 60 degrees, describes how far off-center someone can stand before the screen appears dark or blacked out to them, with a narrower angle blocking side views more aggressively but also slightly dimming and softening the image for you sitting straight in front of it. This is a real, felt tradeoff, not a minor spec: a tighter privacy angle is genuinely more effective at stopping a shoulder-surfer in an open office or on a plane, but it also means you'll notice more brightness loss and color shift when looking at your own screen, especially at extreme angles. Check the listing's stated degree range and read whether it's measured from directly in front or from the edge of the screen, since sellers describe this inconsistently."
+  },
+  {
+    "criterion": "Decide between adhesive tabs and a slide-on or frame mount",
+    "explanation": "Privacy filters attach either with small adhesive tabs or hooks stuck to the bezel, which is removable but can leave light residue and requires care when repositioning, or with a slide-on frame or magnetic mount that clips over the top and sides of the screen without any adhesive at all, trading slightly less secure edge contact for zero residue and easy removal. If you share a device, switch between filtered and unfiltered use often, or simply don't want tape near your screen, a slide-on or magnetic mount is worth seeking out specifically, even though adhesive-tab filters are more common and often cheaper. Check the listing's stated mounting method directly, since \"privacy filter\" alone doesn't tell you which attachment style you're getting."
+  },
+  {
+    "criterion": "Weigh bundled anti-glare or blue-light filtering against a basic privacy-only filter",
+    "explanation": "Some filters bundle additional coatings on top of the core privacy function, most commonly anti-glare (which diffuses reflections from overhead lighting and windows) or blue-light filtering (which reduces the blue wavelength light associated with eye strain and disrupted sleep), and these add real functional value but also typically raise the price over a basic privacy-only filter. Whether that premium is worth paying depends on your actual environment: anti-glare matters far more if you sit near a window or under bright overhead lights, while blue-light filtering matters more if you're already using screen time software and want the tint built into the hardware itself. Check the listing's stated coatings explicitly rather than assuming any filter includes both by default, since a plain privacy filter blocks side viewing but does nothing for glare or blue light."
+  },
+  {
+    "criterion": "Weigh review volume against star rating, especially at less common screen sizes",
+    "explanation": "Less common screen sizes, like 17 inch desktop monitors or unusual ultrawide dimensions, typically have a much smaller pool of dedicated filter listings and far fewer total reviews than the dominant 24 and 27 inch desktop sizes, which means a high star rating at an uncommon size often rests on a much thinner sample than the same rating would at a common size. This matters because a filter with a 4.3 rating on 120 reviews carries meaningfully less statistical confidence than one with a similar rating on several thousand reviews, even though the headline number looks comparable at a glance. When comparing filters at an uncommon size, check both the rating and the review count together, and don't assume a smaller selection at your size means lower quality, it usually just reflects lower production volume for that specific dimension."
+  }
 ];
 
 export const faq: FaqItem[] = [
