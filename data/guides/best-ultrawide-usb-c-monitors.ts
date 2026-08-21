@@ -118,33 +118,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check Software Compatibility With Extreme Aspect Ratios",
-    note: "Not all applications handle a 21:9 or 32:9 ultrawide aspect ratio gracefully, some older or poorly optimized software stretches content or displays with black bars rather than genuinely expanding to fill the extra horizontal space.",
-  },
-  {
-    subheading: "Plan for Window-Snapping Software",
-    note: "An ultrawide monitor can replace a dual-monitor setup for many workflows, but window-snapping software becomes far more useful on an ultrawide than a standard panel, worth planning for this rather than assuming default OS window management is sufficient.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Fully replace a dual-monitor setup, 32:9", "Deco Gear 49\" Super-Ultrawide"],
-        ["Reliable software compatibility, 21:9, eye comfort", "Dell S3425DW WQHD"],
-        ["High refresh rate ultrawide for gaming", "Pixio PXC348C Neo 180Hz"],
-        ["Premium ultrawide with HDR10", "Samsung Viewfinity S65UA"],
-        ["Budget entry point to test wide-format preference", "SANSUI 27\" Curved 120Hz"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Dell 34 Monitor S3425DW"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Deco Gear 49 Inch Curved Ultrawide Monitor"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $110",
+          "SANSUI Curved Monitor 27 inch 120Hz USB Type"
+        ],
+        [
+          "Up to $450",
+          "Deco Gear 49 Inch Curved Ultrawide Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "SANSUI Curved Monitor 27 inch 120Hz USB Type",
+        "text": "The lower-priced option in this comparison, worth checking its resolution and PD wattage against your actual needs."
+      },
+      {
+        "label": "Deco Gear 49 Inch Curved Ultrawide Monitor",
+        "text": "The higher-priced option, worth it if it offers real resolution or power headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to SANSUI Curved Monitor 27 inch 120Hz USB Type unless your setup genuinely calls for the pricier pick."
+  },
+  {
+    "subheading": "By Screen Size",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 49-inch panel",
+          "Deco Gear 49 Inch Curved Ultrawide Monitor"
+        ],
+        [
+          "Around 34-inch panel",
+          "Dell 34 Monitor S3425DW"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a MacBook or Mac Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed DisplayPort Alt Mode support and a power delivery wattage matched to your MacBook's charging brick wattage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since PD wattage isn't consistently disclosed across every monitor in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want full single-cable charging, sharper resolution, or built-in hub ports, where Deco Gear 49 Inch Curved Ultrawide Monitor's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You already have a separate charger and just need a display, where SANSUI Curved Monitor 27 inch 120Hz USB Type covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify software compatibility with your intended aspect ratio", explanation: "Some older or poorly optimized software doesn't handle a 21:9 or 32:9 aspect ratio gracefully, stretching content instead of expanding it." },
-  { criterion: "Plan for window-snapping software on a true ultrawide", explanation: "Default OS window management often isn't sufficient to make the most of the extra horizontal space, plan for dedicated snapping software." },
-  { criterion: "Decide between 21:9 and 32:9 based on compatibility versus workspace", explanation: "21:9 has broader software compatibility, 32:9 offers more extreme workspace but a higher chance of app display quirks." },
-  { criterion: "Verify USB-C power delivery wattage against your laptop", explanation: "An ultrawide monitor's power delivery rating still needs to meet your laptop's charging requirement for full single-cable operation." },
+  {
+    "criterion": "Check the actual power delivery wattage against your laptop's charging need",
+    "explanation": "A USB-C monitor's power delivery wattage determines whether it can charge your laptop at full speed through the same single cable that carries video, and this number varies widely, from 15-30W enough only for a phone or tablet, up to 65-100W enough for most laptops.\n\nThis matters because a monitor rated below your laptop's actual charging draw will still display video correctly but won't keep the battery from slowly draining under real use, a problem that's easy to miss until the laptop unexpectedly runs low.\n\nCheck the listing for the specific PD wattage number, and compare it directly against your laptop's charging brick wattage, not just whether the listing mentions \"USB-C charging\" at all."
+  },
+  {
+    "criterion": "Confirm DisplayPort Alt Mode support on both the monitor and your specific laptop",
+    "explanation": "Not every USB-C port carries video signal, DisplayPort Alt Mode is the specific standard that lets a single USB-C cable carry video, data, and power together, and some laptops' USB-C ports support only charging and data without any video capability at all.\n\nThis distinction matters because plugging a genuinely capable USB-C monitor into a non-video USB-C port on your laptop simply won't show anything, regardless of how good the monitor itself is.\n\nCheck your specific laptop model's documented port capabilities, not just that it has a USB-C-shaped port, and confirm the monitor explicitly states DisplayPort Alt Mode support before assuming single-cable video will work."
+  },
+  {
+    "criterion": "Match resolution and panel size to your actual viewing distance and desk depth",
+    "explanation": "A 4K panel crammed onto a shallow desk at typical monitor viewing distance can make text and UI elements uncomfortably small without OS scaling adjustments, while the same resolution on a larger panel or at a greater viewing distance looks sharp without any downside.\n\nThis matters because buying based on resolution alone, without considering panel size and how far you'll actually sit from it, is a common mistake that leads to either eye strain from tiny text or wasted resolution that gets scaled back up anyway.\n\nCheck both the panel size and your desk's actual depth before choosing resolution, and consider that a 27-inch 1440p panel is often more usable day to day than a 24-inch 4K panel at typical desk distances."
+  },
+  {
+    "criterion": "Verify daisy-chaining support if you plan to run multiple monitors from one cable",
+    "explanation": "Daisy-chaining lets one monitor pass a video signal through to a second monitor using a single upstream cable from your laptop, but this requires both the laptop's GPU driver and the monitor's own hardware to explicitly support it, DisplayPort MST specifically, not every USB-C monitor advertised for multi-monitor setups actually includes this capability.\n\nThis matters directly if you're trying to run two or more external displays from a laptop with limited USB-C ports, since daisy-chaining eliminates the need for a separate dock or hub.\n\nCheck the listing specifically for DisplayPort MST or daisy-chain support, and verify your laptop's GPU documentation confirms MST support before assuming any dual-USB-C-port monitor enables this."
+  },
+  {
+    "criterion": "Consider built-in USB hub ports as a genuine desk-decluttering feature, not filler",
+    "explanation": "Some USB-C monitors include a small built-in USB hub, letting you plug a mouse, keyboard, or external drive directly into the monitor instead of running separate cables back to your laptop, which meaningfully reduces desk cable clutter if you already own USB-A peripherals.\n\nThis matters more if you're trying to run a genuinely single-cable setup between your laptop and monitor, since a monitor without hub ports means those peripherals still need their own separate connection.\n\nCheck the listing for the specific number and type of hub ports (USB-A vs USB-C, and their data speed), not just that it mentions \"hub\" somewhere in the description."
+  }
 ];
 
 export const faq: FaqItem[] = [

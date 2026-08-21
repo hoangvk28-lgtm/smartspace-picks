@@ -118,33 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirm MST Support, Not Just Two DisplayPort Ports",
-    note: "DisplayPort Multi-Stream Transport, commonly called MST, is the specific feature required for true daisy chaining, and not every monitor with two DisplayPort-capable ports actually supports MST, some ports are simply pass-through for a single signal rather than genuine chaining.",
-  },
-  {
-    subheading: "Understand Chained Bandwidth Is Shared, Not Duplicated",
-    note: "Daisy chaining multiple monitors splits available bandwidth between them, so a chain of two 4K monitors may not both run at their full native refresh rate simultaneously, worth checking real-world MST bandwidth reports rather than assuming full performance across the whole chain.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Well-documented specs for chain planning", "Dell 27 Plus QHD S2725DC"],
-        ["Budget-friendly, realistic shared refresh rate", "Dell S2722DC WQHD"],
-        ["Color-consistent professional chain", "ASUS ProArt PA247CV"],
-        ["Lowest cost to test a daisy chain", "ViewSonic VA2448-MHU"],
-        ["Sharpest resolution per panel in a chain", "Dell S2725QC 4K 120Hz"],
+    "subheading": "By Power Delivery Wattage",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Dell 27 Plus QHD USB"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $100",
+          "ViewSonic VA2448"
+        ],
+        [
+          "Up to $313",
+          "Dell 27 Monitor S2725QC"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "4K Resolution vs 1080p/1440p",
+    "cards": [
+      {
+        "label": "4K resolution",
+        "text": "Sharper detail, best on a larger panel or closer viewing distance where the extra pixels are actually visible. In this comparison: Dell 27 Monitor S2725QC."
+      },
+      {
+        "label": "1080p/1440p",
+        "text": "Usually cheaper and less demanding on your laptop's GPU, often the more practical choice at typical desk distances. In this comparison: Dell 27 Plus QHD USB, Dell S2722DC Monitor, ASUS ProArt PA247CV 24 Inch 1080p USB, ViewSonic VA2448."
+      }
+    ],
+    "note": "Default to 1080p/1440p unless your desk setup and viewing distance genuinely benefit from 4K's extra detail."
+  },
+  {
+    "subheading": "By Screen Size",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 27-inch panel",
+          "Dell 27 Plus QHD USB"
+        ],
+        [
+          "Around 27-inch panel",
+          "Dell S2722DC Monitor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a MacBook or Mac Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed DisplayPort Alt Mode support and a power delivery wattage matched to your MacBook's charging brick wattage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since PD wattage isn't consistently disclosed across every monitor in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want full single-cable charging, sharper resolution, or built-in hub ports, where Dell 27 Monitor S2725QC's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You already have a separate charger and just need a display, where ViewSonic VA2448 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify actual MST support, not just two DisplayPort ports", explanation: "Not every monitor with two DisplayPort-capable ports supports true daisy chaining, confirm MST is explicitly documented." },
-  { criterion: "Account for shared bandwidth across a chained setup", explanation: "A chain of high-resolution monitors may not all run at full native refresh rate simultaneously, verify realistic performance expectations." },
-  { criterion: "Prefer monitors from lines with clear MST documentation", explanation: "Business-focused monitor lines typically document MST support more clearly than budget consumer lines." },
-  { criterion: "Consider color consistency for a professional multi-panel chain", explanation: "Matched calibration across chained panels matters for buyers doing color-sensitive work across multiple screens." },
+  {
+    "criterion": "Check the actual power delivery wattage against your laptop's charging need",
+    "explanation": "A USB-C monitor's power delivery wattage determines whether it can charge your laptop at full speed through the same single cable that carries video, and this number varies widely, from 15-30W enough only for a phone or tablet, up to 65-100W enough for most laptops.\n\nThis matters because a monitor rated below your laptop's actual charging draw will still display video correctly but won't keep the battery from slowly draining under real use, a problem that's easy to miss until the laptop unexpectedly runs low.\n\nCheck the listing for the specific PD wattage number, and compare it directly against your laptop's charging brick wattage, not just whether the listing mentions \"USB-C charging\" at all."
+  },
+  {
+    "criterion": "Confirm DisplayPort Alt Mode support on both the monitor and your specific laptop",
+    "explanation": "Not every USB-C port carries video signal, DisplayPort Alt Mode is the specific standard that lets a single USB-C cable carry video, data, and power together, and some laptops' USB-C ports support only charging and data without any video capability at all.\n\nThis distinction matters because plugging a genuinely capable USB-C monitor into a non-video USB-C port on your laptop simply won't show anything, regardless of how good the monitor itself is.\n\nCheck your specific laptop model's documented port capabilities, not just that it has a USB-C-shaped port, and confirm the monitor explicitly states DisplayPort Alt Mode support before assuming single-cable video will work."
+  },
+  {
+    "criterion": "Match resolution and panel size to your actual viewing distance and desk depth",
+    "explanation": "A 4K panel crammed onto a shallow desk at typical monitor viewing distance can make text and UI elements uncomfortably small without OS scaling adjustments, while the same resolution on a larger panel or at a greater viewing distance looks sharp without any downside.\n\nThis matters because buying based on resolution alone, without considering panel size and how far you'll actually sit from it, is a common mistake that leads to either eye strain from tiny text or wasted resolution that gets scaled back up anyway.\n\nCheck both the panel size and your desk's actual depth before choosing resolution, and consider that a 27-inch 1440p panel is often more usable day to day than a 24-inch 4K panel at typical desk distances."
+  },
+  {
+    "criterion": "Verify daisy-chaining support if you plan to run multiple monitors from one cable",
+    "explanation": "Daisy-chaining lets one monitor pass a video signal through to a second monitor using a single upstream cable from your laptop, but this requires both the laptop's GPU driver and the monitor's own hardware to explicitly support it, DisplayPort MST specifically, not every USB-C monitor advertised for multi-monitor setups actually includes this capability.\n\nThis matters directly if you're trying to run two or more external displays from a laptop with limited USB-C ports, since daisy-chaining eliminates the need for a separate dock or hub.\n\nCheck the listing specifically for DisplayPort MST or daisy-chain support, and verify your laptop's GPU documentation confirms MST support before assuming any dual-USB-C-port monitor enables this."
+  },
+  {
+    "criterion": "Consider built-in USB hub ports as a genuine desk-decluttering feature, not filler",
+    "explanation": "Some USB-C monitors include a small built-in USB hub, letting you plug a mouse, keyboard, or external drive directly into the monitor instead of running separate cables back to your laptop, which meaningfully reduces desk cable clutter if you already own USB-A peripherals.\n\nThis matters more if you're trying to run a genuinely single-cable setup between your laptop and monitor, since a monitor without hub ports means those peripherals still need their own separate connection.\n\nCheck the listing for the specific number and type of hub ports (USB-A vs USB-C, and their data speed), not just that it mentions \"hub\" somewhere in the description."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -118,33 +118,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Check Where the Monitor Draws Its Power From",
-    note: "A portable USB-C monitor that draws power from your laptop's own battery rather than a separate power source can drain your laptop faster than expected, worth checking whether a specific model needs its own power adapter for extended use away from an outlet.",
-  },
-  {
-    subheading: "Verify Brightness for Varied Lighting Conditions",
-    note: "Panel brightness matters more for a portable monitor than a desk-bound one, since you'll often use it in varied lighting away from your controlled home office setup, worth checking nit ratings before assuming any portable panel is bright enough outdoors or in a bright room.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Multi-device compatibility, built-in kickstand", "ARZOPA 15.6\" FHD"],
-        ["Included protective sleeve, adjustable stand", "InnoView 15.6\" 1080P"],
-        ["Integrated speakers for calls and media", "cocopar 15.6\" with Speaker"],
-        ["No-frills reliable budget pick", "Ingnok 15.6\" USB-C"],
-        ["Lowest entry price to try the format", "MNN 15.6\" FHD HDR"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "ARZOPA Portable Monitor 15.6'' FHD 1080P"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "ARZOPA Portable Monitor 15.6'' FHD 1080P"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "MNN 15.6\" FHD 60Hz Portable Monitor USB"
+        ],
+        [
+          "Up to $110",
+          "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
+      {
+        "label": "MNN 15.6\" FHD 60Hz Portable Monitor USB",
+        "text": "The lower-priced option in this comparison, worth checking its resolution and PD wattage against your actual needs."
+      },
+      {
+        "label": "cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI",
+        "text": "The higher-priced option, worth it if it offers real resolution or power headroom above the cheaper pick."
+      }
+    ],
+    "note": "Default to MNN 15.6\" FHD 60Hz Portable Monitor USB unless your setup genuinely calls for the pricier pick."
+  },
+  {
+    "subheading": "By Screen Size",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around 15.6-inch panel",
+          "ARZOPA Portable Monitor 15.6'' FHD 1080P"
+        ],
+        [
+          "Around 15.6-inch panel",
+          "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a MacBook or Mac Setup Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Confirmed DisplayPort Alt Mode support and a power delivery wattage matched to your MacBook's charging brick wattage."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Check each pick's listing directly, since PD wattage isn't consistently disclosed across every monitor in this comparison."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want full single-cable charging, sharper resolution, or built-in hub ports, where cocopar Portable Monitor 15.6 Inch 1080P FHD 60Hz 85% sRGB Travel Monitor with Speaker HDMI's higher price buys real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You already have a separate charger and just need a display, where MNN 15.6\" FHD 60Hz Portable Monitor USB covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check whether the monitor draws power from your laptop's battery", explanation: "A monitor without its own power adapter can drain your laptop's battery faster than expected during extended off-outlet use." },
-  { criterion: "Verify brightness rating for your intended lighting conditions", explanation: "Portable use often means varied lighting away from a controlled office setup, check nit ratings before assuming any panel is bright enough." },
-  { criterion: "Value included accessories like sleeves and stands", explanation: "A protective sleeve or adjustable stand included in the box reduces the need for separate travel purchases." },
-  { criterion: "Confirm multi-device compatibility if you need it", explanation: "Explicit compatibility with consoles or phones matters if you want one portable monitor across multiple use cases." },
+  {
+    "criterion": "Check the actual power delivery wattage against your laptop's charging need",
+    "explanation": "A USB-C monitor's power delivery wattage determines whether it can charge your laptop at full speed through the same single cable that carries video, and this number varies widely, from 15-30W enough only for a phone or tablet, up to 65-100W enough for most laptops.\n\nThis matters because a monitor rated below your laptop's actual charging draw will still display video correctly but won't keep the battery from slowly draining under real use, a problem that's easy to miss until the laptop unexpectedly runs low.\n\nCheck the listing for the specific PD wattage number, and compare it directly against your laptop's charging brick wattage, not just whether the listing mentions \"USB-C charging\" at all."
+  },
+  {
+    "criterion": "Confirm DisplayPort Alt Mode support on both the monitor and your specific laptop",
+    "explanation": "Not every USB-C port carries video signal, DisplayPort Alt Mode is the specific standard that lets a single USB-C cable carry video, data, and power together, and some laptops' USB-C ports support only charging and data without any video capability at all.\n\nThis distinction matters because plugging a genuinely capable USB-C monitor into a non-video USB-C port on your laptop simply won't show anything, regardless of how good the monitor itself is.\n\nCheck your specific laptop model's documented port capabilities, not just that it has a USB-C-shaped port, and confirm the monitor explicitly states DisplayPort Alt Mode support before assuming single-cable video will work."
+  },
+  {
+    "criterion": "Match resolution and panel size to your actual viewing distance and desk depth",
+    "explanation": "A 4K panel crammed onto a shallow desk at typical monitor viewing distance can make text and UI elements uncomfortably small without OS scaling adjustments, while the same resolution on a larger panel or at a greater viewing distance looks sharp without any downside.\n\nThis matters because buying based on resolution alone, without considering panel size and how far you'll actually sit from it, is a common mistake that leads to either eye strain from tiny text or wasted resolution that gets scaled back up anyway.\n\nCheck both the panel size and your desk's actual depth before choosing resolution, and consider that a 27-inch 1440p panel is often more usable day to day than a 24-inch 4K panel at typical desk distances."
+  },
+  {
+    "criterion": "Verify daisy-chaining support if you plan to run multiple monitors from one cable",
+    "explanation": "Daisy-chaining lets one monitor pass a video signal through to a second monitor using a single upstream cable from your laptop, but this requires both the laptop's GPU driver and the monitor's own hardware to explicitly support it, DisplayPort MST specifically, not every USB-C monitor advertised for multi-monitor setups actually includes this capability.\n\nThis matters directly if you're trying to run two or more external displays from a laptop with limited USB-C ports, since daisy-chaining eliminates the need for a separate dock or hub.\n\nCheck the listing specifically for DisplayPort MST or daisy-chain support, and verify your laptop's GPU documentation confirms MST support before assuming any dual-USB-C-port monitor enables this."
+  },
+  {
+    "criterion": "Consider built-in USB hub ports as a genuine desk-decluttering feature, not filler",
+    "explanation": "Some USB-C monitors include a small built-in USB hub, letting you plug a mouse, keyboard, or external drive directly into the monitor instead of running separate cables back to your laptop, which meaningfully reduces desk cable clutter if you already own USB-A peripherals.\n\nThis matters more if you're trying to run a genuinely single-cable setup between your laptop and monitor, since a monitor without hub ports means those peripherals still need their own separate connection.\n\nCheck the listing for the specific number and type of hub ports (USB-A vs USB-C, and their data speed), not just that it mentions \"hub\" somewhere in the description."
+  }
 ];
 
 export const faq: FaqItem[] = [
