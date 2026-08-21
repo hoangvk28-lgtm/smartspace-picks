@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
-      "This holder's mechanism is a genuine deep, form-fitting cavity rather than a shallow ring, meaningfully containing a cup or tumbler on multiple sides against incidental bumps. Its strong combined rating and review volume gives real-world confidence beyond the marketing label alone.",
-    specs: ["Deep, form-fitting cavity mechanism", "Metal clamp construction", "No-drill attachment", "Fits oversized tumblers"],
-    pros: ["Genuine deep-cavity mechanism, not just a flat ring", "Most proven pick by rating and review volume", "Metal build quality", "Fits large containers"],
-    cons: ["Bulkier than compact clip designs", "Higher price than basic clips", "No independent lab spill testing available"],
+      "This holder's mechanism is a genuine deep, form-fitting cavity rather than a shallow ring, meaningfully containing a cup or tumbler on multiple sides against incidental bumps. Its strong combined rating and review volume gives real-world confidence beyond the marketing label alone.\n\nIt leads this comparison on the strength of its combination of rating, review volume, and build quality, worth weighing directly against the HzTinT Large Desk Cup Holder.\n\nWorth knowing before you decide: Most proven pick by rating and review volume. On the other side, Bulkier than compact clip designs. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Deep, form-fitting cavity mechanism","Metal clamp construction","No-drill attachment","Fits oversized tumblers"],
+    pros: ["Genuine deep-cavity mechanism, not just a flat ring","Most proven pick by rating and review volume","Metal build quality","Fits large containers"],
+    cons: ["Bulkier than compact clip designs","Higher price than basic clips","No independent lab spill testing available"],
     bestFor: "Buyers who want the most proven genuine anti-spill mechanism in this comparison.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
-      "The word 'fully covered' in this listing's title is a genuine mechanism description, not just marketing language, referring to a cavity that wraps the container more completely than a simple ring. This is the most affordable pick with a verified real anti-spill design.",
-    specs: ["Fully covered cavity mechanism", "Clip-on attachment", "Compact footprint", "Lowest price here"],
-    pros: ["Genuine covered-cavity design", "Most affordable option here", "Compact", "Easy attachment"],
-    cons: ["Small review count limits confidence", "Plastic, less durable long-term", "No rotation feature"],
+      "The word 'fully covered' in this listing's title is a genuine mechanism description, not just marketing language, referring to a cavity that wraps the container more completely than a simple ring. This is the most affordable pick with a verified real anti-spill design.\n\nSet against the OOKUU Upgraded Large Desk Cup Holder Clamp, the tradeoff here comes down to price versus material and cavity depth, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Most affordable option here. On the other side, Small review count limits confidence. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Fully covered cavity mechanism","Clip-on attachment","Compact footprint","Lowest price here"],
+    pros: ["Genuine covered-cavity design","Most affordable option here","Compact","Easy attachment"],
+    cons: ["Small review count limits confidence","Plastic, less durable long-term","No rotation feature"],
     bestFor: "Budget buyers who still want a verified genuine anti-spill mechanism.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
-      "This large-diameter cavity holder carries the highest rating of any pick in this comparison, suggesting its actual containment mechanism holds up well against real-world incidental bumps despite using plastic rather than metal.",
-    specs: ["Large-diameter reinforced cavity", "Heavy-duty reinforced plastic", "Universal desk-edge fit", "No-drill attachment"],
-    pros: ["Highest rating in this comparison", "Genuine reinforced cavity design", "Lighter than metal alternatives", "Affordable"],
-    cons: ["Smaller review count than the OOKUU pick", "Plastic may wear faster than metal over years", "No rotation feature"],
+      "This large-diameter cavity holder carries the highest rating of any pick in this comparison, suggesting its actual containment mechanism holds up well against real-world incidental bumps despite using plastic rather than metal.\n\nRelative to the HzTinT Large Desk Cup Holder, this pick leans toward a different priority, whether that's a lower price, extra depth, or a hybrid feature the sibling pick skips.\n\nWorth knowing before you decide: Genuine reinforced cavity design. On the other side, Smaller review count than the OOKUU pick. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Large-diameter reinforced cavity","Heavy-duty reinforced plastic","Universal desk-edge fit","No-drill attachment"],
+    pros: ["Highest rating in this comparison","Genuine reinforced cavity design","Lighter than metal alternatives","Affordable"],
+    cons: ["Smaller review count than the OOKUU pick","Plastic may wear faster than metal over years","No rotation feature"],
     bestFor: "Buyers who want the highest-rated verified anti-spill mechanism at a mid-range price.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31XgT+O+XQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CPBXYH4?tag=deskfinds0d-20",
     description:
-      "This holder's covered cavity design performs consistently across both narrow bottles and wide mugs based on its strong review history, a genuine container-shape versatility test that a mechanism optimized for only one shape would fail. Its headphone hanger is a verified genuine bonus feature, not a token add-on.",
-    specs: ["Covered cavity, versatile container shapes", "Integrated headphone hanger", "Strong review history", "White finish"],
-    pros: ["Verified performance across container shapes", "Strong, well-reviewed hybrid design", "High rating and review volume", "Saves desk-edge clamp space"],
-    cons: ["Higher price than single-function holders", "Only worth it if you want both features", "Bulkier than a dedicated cup holder alone"],
+      "This holder's covered cavity design performs consistently across both narrow bottles and wide mugs based on its strong review history, a genuine container-shape versatility test that a mechanism optimized for only one shape would fail. Its headphone hanger is a verified genuine bonus feature, not a token add-on.\n\nCompared with the Universal Large Desk Cup Holder Clamp above, this pick trades some of that pick's proven track record for a different balance of price and feature set, worth weighing against your own priorities.\n\nWorth knowing before you decide: Strong, well-reviewed hybrid design. On the other side, Higher price than single-function holders. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Covered cavity, versatile container shapes","Integrated headphone hanger","Strong review history","White finish"],
+    pros: ["Verified performance across container shapes","Strong, well-reviewed hybrid design","High rating and review volume","Saves desk-edge clamp space"],
+    cons: ["Higher price than single-function holders","Only worth it if you want both features","Bulkier than a dedicated cup holder alone"],
     bestFor: "Buyers who use both narrow bottles and wide mugs and want consistent containment across both.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
-      "This variant's deeper cavity is the strongest containment mechanism in this comparison, a genuine, verifiable design difference from the standard-depth OOKUU pick, better resisting tip-over from a harder incidental knock or elbow bump.",
-    specs: ["Deepest cup cavity in this comparison", "Metal clamp construction", "No-drill attachment", "Fits tall tumblers"],
-    pros: ["Deepest, most protective cavity mechanism here", "Proven OOKUU brand quality", "Sturdy metal build", "Good rating"],
-    cons: ["Higher price than the standard-depth version", "Bulkier profile due to extra depth", "May not fit under low desk clearance"],
+      "This variant's deeper cavity is the strongest containment mechanism in this comparison, a genuine, verifiable design difference from the standard-depth OOKUU pick, better resisting tip-over from a harder incidental knock or elbow bump.\n\nSet against the GUNKING Luxury 2, the tradeoff here comes down to price versus material and cavity depth, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Proven OOKUU brand quality. On the other side, Higher price than the standard-depth version. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Deepest cup cavity in this comparison","Metal clamp construction","No-drill attachment","Fits tall tumblers"],
+    pros: ["Deepest, most protective cavity mechanism here","Proven OOKUU brand quality","Sturdy metal build","Good rating"],
+    cons: ["Higher price than the standard-depth version","Bulkier profile due to extra depth","May not fit under low desk clearance"],
     bestFor: "Buyers who want the single strongest containment mechanism against hard incidental bumps.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +118,125 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven genuine anti-spill mechanism", "OOKUU Upgraded Large Desk Cup Holder"],
-        ["Budget priority, still genuine coverage", "HzTinT Large Desk Cup Holder"],
-        ["Highest rating overall", "Universal Large Desk Cup Holder Clamp-On"],
-        ["Wide range of container shapes", "GUNKING 2-in-1 Cup Holder"],
-        ["Maximum containment against hard bumps", "OOKUU Deeper Desk Cup Holder"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Universal Large Desk Cup Holder Clamp"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "GUNKING Luxury 2"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Deep Cavity vs. Flat Ring: The Real Difference",
-    note: "'Anti-spill' as a label doesn't tell you the actual mechanism. A deep, form-fitting cavity that wraps the container on multiple sides genuinely resists tipping from a bump. A flat ring holder offers meaningfully less real protection despite potentially carrying the same marketing label.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "HzTinT Large Desk Cup Holder"
+        ],
+        [
+          "Up to $20",
+          "OOKUU Deeper Desk Cup Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Container Shape Matters for Real Protection",
-    cards: [
-      { label: "Narrow water bottles", text: "A mechanism designed for wide mugs may not grip a narrow bottle as securely, worth checking cavity diameter range." },
-      { label: "Wide mugs and tumblers", text: "The OOKUU and GUNKING picks handle wider containers well based on their strong review histories across varied use." },
+    "subheading": "Metal Clamp vs Plastic Clamp",
+    "cards": [
+      {
+        "label": "Metal clamp",
+        "text": "Holds its grip strength longer under repeated tightening, the better choice if you reposition the holder often. In this comparison: OOKUU Upgraded Large Desk Cup Holder Clamp, OOKUU Deeper Desk Cup Holder."
+      },
+      {
+        "label": "Plastic clamp",
+        "text": "Usually lighter and cheaper, a reasonable choice if you clamp it once and leave it in place. In this comparison: Universal Large Desk Cup Holder Clamp."
+      }
     ],
+    "note": "Default to a metal clamp unless price is the deciding factor and you won't reposition the holder often."
   },
   {
-    subheading: "Static Holding Isn't the Real Test",
-    note: "Any holder can secure a cup under undisturbed, static conditions. The real test is incidental bumping, a knee knock, an elbow bump, which is why we weighted review volume and cavity depth so heavily in this specific comparison.",
+    "subheading": "By Feature Set",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Want a headphone hanger or hybrid design",
+          "GUNKING Luxury 2"
+        ],
+        [
+          "Just want a dedicated cup holder",
+          "OOKUU Upgraded Large Desk Cup Holder Clamp"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For an Oversized Tumbler Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed cavity diameter in inches, not just a vague \"large\" label, since oversized tumblers vary in exact width and a mismatched cavity won't grip securely."
+      },
+      {
+        "label": "In this comparison",
+        "text": "GUNKING Luxury 2 is worth checking against its listed diameter spec before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a metal clamp and deeper cavity, where OOKUU Deeper Desk Cup Holder's higher price buys real durability and tip resistance over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You use a standard-size mug and rarely bump your desk, where HzTinT Large Desk Cup Holder covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the actual mechanism behind an 'anti-spill' claim", explanation: "Check product images for a genuine deep, form-fitting cavity rather than trusting the marketing label alone. A flat ring holder offers meaningfully less real protection." },
-  { criterion: "Weigh review volume as evidence of real-world bump resistance", explanation: "A holder with substantial review history and a strong rating has more real-world evidence of surviving incidental bumps than an unverified new listing." },
-  { criterion: "Check container shape compatibility", explanation: "Confirm the cavity's diameter and depth accommodate your specific container shape, since a mechanism optimized for wide mugs may not secure a narrow bottle as well." },
-  { criterion: "Consider cavity depth for harder incidental knocks", explanation: "A deeper cavity, like the OOKUU Deeper pick, provides more containment margin against a harder bump than a standard-depth design." },
-  { criterion: "Don't assume static holding equals bump resistance", explanation: "Any holder secures a cup under calm, undisturbed conditions. Real-world protection depends on how the mechanism performs under an actual knee or elbow bump." },
+  {
+    "criterion": "Verify tip and spill resistance from cavity design, not the label",
+    "explanation": "A cup holder's cavity shape, not the words on the listing, is what actually determines whether it resists a spill.\n\nA deep, form-fitting cavity cradles a cup or bottle on multiple sides, while a shallow flat ring only supports the base and lets the container tip sideways from a light bump. This matters because the entire reason to buy a clamp-on holder is preventing exactly that kind of accidental spill onto a desk, keyboard, or laptop underneath it, so a shallow design partially defeats the purpose.\n\nLook at the actual product photos for cavity depth, not just an \"anti-spill\" claim in the title, since that phrase gets attached to flat-ring designs too."
+  },
+  {
+    "criterion": "Check weight capacity against a genuinely full drink, not an empty demo cup",
+    "explanation": "Listed capacity or clamp strength is often demonstrated with an empty cup in product photos, which understates the real load a full 20 to 32 ounce tumbler or a large coffee mug actually places on the clamp mechanism.\n\nA holder that looks sturdy when empty can flex or loosen under sustained real-world weight, especially with repeated bumping or a heavier insulated tumbler. This matters more for anyone using an oversized container like a Stanley or Yeti tumbler than for someone using a standard 12-ounce mug.\n\nFavor listings that specifically mention metal clamp construction or explicitly state a reinforced design, and check reviews for mentions of sagging or loosening over time rather than trusting the static capacity claim alone."
+  },
+  {
+    "criterion": "Match the clamp opening range to your actual desk edge thickness",
+    "explanation": "Every clamp-on holder has a maximum and minimum edge thickness it can grip, and that range varies meaningfully between products, some fit only a standard half-inch desktop while others open wide enough for a thick standing-desk edge or a desk with a rounded lip.\n\nA clamp that's too narrow simply won't close around your desk, and one that's too wide for a thin edge won't grip securely and risks slipping under weight. This is worth checking before ordering rather than assuming any clamp fits any desk, especially if your desk has a non-standard edge profile like a rounded or beveled front.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs, not just a general size category."
+  },
+  {
+    "criterion": "Weigh metal against plastic for how often you'll reposition it",
+    "explanation": "Metal clamp mechanisms generally hold their grip strength longer than plastic ones under repeated tightening and loosening, since plastic threads and hinges wear down faster from the same mechanical stress.\n\nThis matters most if you plan to move the holder between positions often, say, swinging it aside or relocating it between desks, since that repeated cycling is exactly what accelerates wear on a weaker mechanism. It matters far less if you clamp it once and leave it in place indefinitely.\n\nCheck whether the listing specifies metal versus reinforced heavy-duty plastic in its material description, since a generic \"durable\" claim without a named material is a weaker signal either way."
+  },
+  {
+    "criterion": "Decide whether a hybrid or multi-function design is actually worth it",
+    "explanation": "Some cup holders combine the cup cavity with a second feature on the same clamp base, most commonly a headphone hanger, turning one clamp point into two functions instead of needing a separate accessory and a second spot on the desk edge.\n\nThis only pays off if you genuinely want both features together, since a combined unit is usually bulkier and pricier than a dedicated single-purpose holder, and you gain nothing from the extra feature if you don't use headphones at your desk.\n\nCheck that the combined feature is a real, structurally separate component, not just a marketing label on a single cavity, by looking at product photos showing both parts clearly and checking reviews that specifically mention using both functions."
+  }
 ];
 
 export const faq: FaqItem[] = [

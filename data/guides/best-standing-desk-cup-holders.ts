@@ -31,10 +31,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41C-eWZ9gfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYZG2YBY?tag=deskfinds0d-20",
     description:
-      "This clamp attaches directly to the desktop edge rather than a frame leg, meaning it travels naturally with your standing desk at any height. The deep, form-fitting cavity resists spilling during the desk's raising and lowering motion better than a shallow ring design would.\n\nIts wide clamp opening also accommodates the thicker desktop edges common on many standing desk models.",
-    specs: ["Desktop-edge clamp, moves with height adjustment", "Deep form-fitting cavity", "Wide clamp opening for thick desktops", "No-drill attachment"],
-    pros: ["Mounts to the moving desktop, travels with height changes", "Strong spill resistance during transitions", "Fits thick standing-desk edges", "Proven rating and review history"],
-    cons: ["Bulkier than compact clip designs", "Higher price than basic clips", "No explicit vibration testing disclosed"],
+      "This clamp attaches directly to the desktop edge rather than a frame leg, meaning it travels naturally with your standing desk at any height. The deep, form-fitting cavity resists spilling during the desk's raising and lowering motion better than a shallow ring design would.\\n\\nIts wide clamp opening also accommodates the thicker desktop edges common on many standing desk models.\n\nIt leads this comparison on the strength of its combination of rating, review volume, and build quality, worth weighing directly against the Universal Large Desk Cup Holder Clamp.\n\nWorth knowing before you decide: Strong spill resistance during transitions. On the other side, Bulkier than compact clip designs. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Desktop-edge clamp, moves with height adjustment","Deep form-fitting cavity","Wide clamp opening for thick desktops","No-drill attachment"],
+    pros: ["Mounts to the moving desktop, travels with height changes","Strong spill resistance during transitions","Fits thick standing-desk edges","Proven rating and review history"],
+    cons: ["Bulkier than compact clip designs","Higher price than basic clips","No explicit vibration testing disclosed"],
     bestFor: "Buyers who want the most proven desktop-mounted holder for a standing desk.",
   },
   {
@@ -48,10 +48,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314m46JYkhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH231Z93?tag=deskfinds0d-20",
     description:
-      "This clamp's universal fit and reinforced plastic construction handle the thicker desktop edges common on standing desks, since many height-adjustable desktops use a laminated multi-layer construction thicker than a standard desk.",
-    specs: ["Universal clamp fit for thick edges", "Heavy-duty reinforced plastic", "Large cup diameter", "No-drill attachment"],
-    pros: ["Highest rating in this comparison", "Fits thick laminated standing-desk tops", "Lighter than metal alternatives", "Affordable"],
-    cons: ["Plastic may wear faster than metal under frequent height-adjustment vibration", "Smaller review count than top picks", "No rotation feature"],
+      "This clamp's universal fit and reinforced plastic construction handle the thicker desktop edges common on standing desks, since many height-adjustable desktops use a laminated multi-layer construction thicker than a standard desk.\n\nSet against the OOKUU Upgraded Large Desk Cup Holder Clamp, the tradeoff here comes down to price versus material and cavity depth, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Fits thick laminated standing-desk tops. On the other side, Plastic may wear faster than metal under frequent height-adjustment vibration. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Universal clamp fit for thick edges","Heavy-duty reinforced plastic","Large cup diameter","No-drill attachment"],
+    pros: ["Highest rating in this comparison","Fits thick laminated standing-desk tops","Lighter than metal alternatives","Affordable"],
+    cons: ["Plastic may wear faster than metal under frequent height-adjustment vibration","Smaller review count than top picks","No rotation feature"],
     bestFor: "Buyers with a thick laminated standing desktop who want a reinforced, affordable clamp.",
   },
   {
@@ -65,10 +65,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41O6g1jvklL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8M2JYP1?tag=deskfinds0d-20",
     description:
-      "The rotating base lets you reposition the cup as your reach angle changes between sitting and standing height, a genuine standing-desk-specific usability benefit over a fixed-angle holder.",
-    specs: ["360° rotating clamp base", "Metal construction", "Desktop-edge mount", "No-drill attachment"],
-    pros: ["Rotation adapts to changing reach angle at different heights", "Metal build quality", "Affordable", "Good rating"],
-    cons: ["Smaller review count than top picks", "Rotation point is an added mechanical wear item", "Standard capacity, not oversized"],
+      "The rotating base lets you reposition the cup as your reach angle changes between sitting and standing height, a genuine standing-desk-specific usability benefit over a fixed-angle holder.\n\nRelative to the Universal Large Desk Cup Holder Clamp, this pick leans toward a different priority, whether that's a lower price, extra depth, or a hybrid feature the sibling pick skips.\n\nWorth knowing before you decide: Metal build quality. On the other side, Smaller review count than top picks. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["360° rotating clamp base","Metal construction","Desktop-edge mount","No-drill attachment"],
+    pros: ["Rotation adapts to changing reach angle at different heights","Metal build quality","Affordable","Good rating"],
+    cons: ["Smaller review count than top picks","Rotation point is an added mechanical wear item","Standard capacity, not oversized"],
     bestFor: "Buyers who want to reposition the cup as they transition between sitting and standing.",
   },
   {
@@ -82,10 +82,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31kr6fpVxgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG16LSPG?tag=deskfinds0d-20",
     description:
-      "The deeper cavity on this variant provides extra insurance against spilling during the desk's raising and lowering motion, especially relevant if your desk motor moves at a faster or jarring speed. A tall tumbler stays more securely contained here than in a shallow-ring alternative.",
-    specs: ["Deeper cup cavity", "Metal clamp construction", "No-drill attachment", "Fits tall tumblers"],
-    pros: ["Extra spill-resistance margin during height transitions", "Proven OOKUU brand quality", "Sturdy metal build", "Good rating"],
-    cons: ["Higher price than the standard-depth version", "Bulkier profile due to extra depth", "May not fit under low desk clearance at lowest height setting"],
+      "The deeper cavity on this variant provides extra insurance against spilling during the desk's raising and lowering motion, especially relevant if your desk motor moves at a faster or jarring speed. A tall tumbler stays more securely contained here than in a shallow-ring alternative.\n\nCompared with the 360° Rotating Desk Cup Holder above, this pick trades some of that pick's proven track record for a different balance of price and feature set, worth weighing against your own priorities.\n\nWorth knowing before you decide: Proven OOKUU brand quality. On the other side, Higher price than the standard-depth version. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Deeper cup cavity","Metal clamp construction","No-drill attachment","Fits tall tumblers"],
+    pros: ["Extra spill-resistance margin during height transitions","Proven OOKUU brand quality","Sturdy metal build","Good rating"],
+    cons: ["Higher price than the standard-depth version","Bulkier profile due to extra depth","May not fit under low desk clearance at lowest height setting"],
     bestFor: "Buyers whose standing desk moves quickly and want maximum spill margin during transitions.",
   },
   {
@@ -99,12 +99,12 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/61tWyW9bgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRMMZ3RG?tag=deskfinds0d-20",
     description:
-      "This budget clip still mounts to the desktop edge and travels with height adjustments, using a covered cavity for genuine spill resistance during transitions despite its lower price point.",
-    specs: ["Desktop-edge clip mount", "Fully covered cavity", "Compact footprint", "Lowest price here"],
-    pros: ["Affordable", "Covered cavity for spill resistance during transitions", "Compact", "Mounts to moving desktop"],
-    cons: ["Small review count", "Plastic construction", "No explicit thick-desktop clamp range disclosed"],
+      "This budget clip still mounts to the desktop edge and travels with height adjustments, using a covered cavity for genuine spill resistance during transitions despite its lower price point.\n\nSet against the OOKUU Deeper Desk Cup Holder, the tradeoff here comes down to price versus material and cavity depth, not a straightforward upgrade or downgrade either way.\n\nWorth knowing before you decide: Covered cavity for spill resistance during transitions. On the other side, Small review count. That's the main tradeoff to weigh against your desk setup and drink size.",
+    specs: ["Desktop-edge clip mount","Fully covered cavity","Compact footprint","Lowest price here"],
+    pros: ["Affordable","Covered cavity for spill resistance during transitions","Compact","Mounts to moving desktop"],
+    cons: ["Small review count","Plastic construction","No explicit thick-desktop clamp range disclosed"],
     bestFor: "Budget buyers who still want desktop-mounted spill protection through height changes.",
-  },
+  }
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
@@ -118,41 +118,110 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, moves with height adjustment", "OOKUU Upgraded Large Desk Cup Holder"],
-        ["Thick laminated standing-desk top", "Universal Large Desk Cup Holder Clamp-On"],
-        ["Want to reposition as your reach angle changes", "360° Rotating Desk Cup Holder"],
-        ["Fast-moving desk motor, need extra spill margin", "OOKUU Deeper Desk Cup Holder"],
-        ["Budget priority", "HzTinT Large Desk Cup Holder"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Universal Large Desk Cup Holder Clamp"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "OOKUU Upgraded Large Desk Cup Holder Clamp"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Always Mount to the Desktop, Not the Frame",
-    note: "A holder clamped to a fixed frame leg or crossbar stays at that height while your desktop moves, becoming awkwardly positioned relative to your natural reach at a different setting. Every pick in this guide clamps to the moving desktop edge specifically to avoid this problem.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "HzTinT Large Desk Cup Holder"
+        ],
+        [
+          "Up to $20",
+          "OOKUU Deeper Desk Cup Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Height-Transition Spill Risk",
-    cards: [
-      { label: "Slower desk motors", text: "Standard motion speed poses minimal spill risk for any pick in this comparison." },
-      { label: "Faster or jarring motors", text: "If your desk moves quickly or with a jolt at the start/stop of a height change, favor a deeper cavity design like the OOKUU Deeper pick." },
+    "subheading": "Metal Clamp vs Plastic Clamp",
+    "cards": [
+      {
+        "label": "Metal clamp",
+        "text": "Holds its grip strength longer under repeated tightening, the better choice if you reposition the holder often. In this comparison: 360° Rotating Desk Cup Holder, OOKUU Deeper Desk Cup Holder."
+      },
+      {
+        "label": "Plastic clamp",
+        "text": "Usually lighter and cheaper, a reasonable choice if you clamp it once and leave it in place. In this comparison: Universal Large Desk Cup Holder Clamp."
+      }
     ],
+    "note": "Default to a metal clamp unless price is the deciding factor and you won't reposition the holder often."
   },
   {
-    subheading: "Check Your Desktop's Actual Thickness",
-    note: "Many standing desks use a thicker, laminated multi-layer desktop than a standard fixed desk. Measure your desktop edge thickness and confirm it against each clamp's stated opening range before ordering.",
+    "subheading": "By Cavity Diameter",
+    "note": "Check each pick's disclosed cavity diameter against your specific tumbler width before buying, since \"large\" isn't a consistent spec across listings, OOKUU Upgraded Large Desk Cup Holder Clamp is the most-reviewed option if you want the safer bet."
   },
+  {
+    "subheading": "For an Oversized Tumbler Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A disclosed cavity diameter in inches, not just a vague \"large\" label, since oversized tumblers vary in exact width and a mismatched cavity won't grip securely."
+      },
+      {
+        "label": "In this comparison",
+        "text": "OOKUU Upgraded Large Desk Cup Holder Clamp is worth checking against its listed diameter spec before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want a metal clamp and deeper cavity, where OOKUU Deeper Desk Cup Holder's higher price buys real durability and tip resistance over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You use a standard-size mug and rarely bump your desk, where HzTinT Large Desk Cup Holder covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the clamp mounts to the desktop, not a fixed frame part", explanation: "A holder on a fixed frame component stays at one height while your desktop moves, becoming awkward to reach at other height settings. Verify the mounting point before buying." },
-  { criterion: "Check clamp opening range against your desktop's actual thickness", explanation: "Standing desks often use thicker, laminated desktops than standard desks. Measure your desktop edge before ordering to confirm compatibility." },
-  { criterion: "Consider cavity depth if your desk motor moves quickly", explanation: "A deeper, more form-fitting cavity provides extra insurance against spilling during the desk's raising and lowering transition, especially for faster or jarring motor speeds." },
-  { criterion: "Think about reach comfort across your full height range", explanation: "Confirm the holder's position stays comfortably reachable whether you're using the desk at sitting or standing height, not just one fixed setting." },
-  { criterion: "Rotating designs add flexibility across height settings", explanation: "A holder that rotates lets you adjust the cup's angle as your natural reach changes between sitting and standing positions." },
+  {
+    "criterion": "Verify tip and spill resistance from cavity design, not the label",
+    "explanation": "A cup holder's cavity shape, not the words on the listing, is what actually determines whether it resists a spill.\n\nA deep, form-fitting cavity cradles a cup or bottle on multiple sides, while a shallow flat ring only supports the base and lets the container tip sideways from a light bump. This matters because the entire reason to buy a clamp-on holder is preventing exactly that kind of accidental spill onto a desk, keyboard, or laptop underneath it, so a shallow design partially defeats the purpose.\n\nLook at the actual product photos for cavity depth, not just an \"anti-spill\" claim in the title, since that phrase gets attached to flat-ring designs too."
+  },
+  {
+    "criterion": "Check weight capacity against a genuinely full drink, not an empty demo cup",
+    "explanation": "Listed capacity or clamp strength is often demonstrated with an empty cup in product photos, which understates the real load a full 20 to 32 ounce tumbler or a large coffee mug actually places on the clamp mechanism.\n\nA holder that looks sturdy when empty can flex or loosen under sustained real-world weight, especially with repeated bumping or a heavier insulated tumbler. This matters more for anyone using an oversized container like a Stanley or Yeti tumbler than for someone using a standard 12-ounce mug.\n\nFavor listings that specifically mention metal clamp construction or explicitly state a reinforced design, and check reviews for mentions of sagging or loosening over time rather than trusting the static capacity claim alone."
+  },
+  {
+    "criterion": "Match the clamp opening range to your actual desk edge thickness",
+    "explanation": "Every clamp-on holder has a maximum and minimum edge thickness it can grip, and that range varies meaningfully between products, some fit only a standard half-inch desktop while others open wide enough for a thick standing-desk edge or a desk with a rounded lip.\n\nA clamp that's too narrow simply won't close around your desk, and one that's too wide for a thin edge won't grip securely and risks slipping under weight. This is worth checking before ordering rather than assuming any clamp fits any desk, especially if your desk has a non-standard edge profile like a rounded or beveled front.\n\nMeasure your desk edge thickness in inches and compare it against the exact clamp range stated in the product specs, not just a general size category."
+  },
+  {
+    "criterion": "Weigh metal against plastic for how often you'll reposition it",
+    "explanation": "Metal clamp mechanisms generally hold their grip strength longer than plastic ones under repeated tightening and loosening, since plastic threads and hinges wear down faster from the same mechanical stress.\n\nThis matters most if you plan to move the holder between positions often, say, swinging it aside or relocating it between desks, since that repeated cycling is exactly what accelerates wear on a weaker mechanism. It matters far less if you clamp it once and leave it in place indefinitely.\n\nCheck whether the listing specifies metal versus reinforced heavy-duty plastic in its material description, since a generic \"durable\" claim without a named material is a weaker signal either way."
+  },
+  {
+    "criterion": "Decide whether a hybrid or multi-function design is actually worth it",
+    "explanation": "Some cup holders combine the cup cavity with a second feature on the same clamp base, most commonly a headphone hanger, turning one clamp point into two functions instead of needing a separate accessory and a second spot on the desk edge.\n\nThis only pays off if you genuinely want both features together, since a combined unit is usually bulkier and pricier than a dedicated single-purpose holder, and you gain nothing from the extra feature if you don't use headphones at your desk.\n\nCheck that the combined feature is a real, structurally separate component, not just a marketing label on a single cavity, by looking at product photos showing both parts clearly and checking reviews that specifically mention using both functions."
+  }
 ];
 
 export const faq: FaqItem[] = [
