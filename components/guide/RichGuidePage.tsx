@@ -313,7 +313,11 @@ export function RichGuidePage(props: RichGuidePageProps) {
               {buyingCriteria.map((item, i) => (
                 <div key={i} className="p-4 rounded-xl border border-border bg-bg">
                   <p className="text-sm font-bold text-ink mb-1.5">{item.criterion}</p>
-                  <p className="text-sm text-ink-secondary leading-relaxed">{item.explanation}</p>
+                  {item.explanation.split("\n\n").map((para, pi) => (
+                    <p key={pi} className={"text-sm text-ink-secondary leading-relaxed " + (pi > 0 ? "mt-2" : "")}>
+                      {para}
+                    </p>
+                  ))}
                 </div>
               ))}
             </div>

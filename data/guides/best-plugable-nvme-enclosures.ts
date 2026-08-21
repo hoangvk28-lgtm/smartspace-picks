@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xZ-inqQML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07N48N5GR?tag=deskfinds0d-20",
-    description: "Supports USB 3.1 Gen 2, USB-C, USB4, Thunderbolt 3, and Thunderbolt 4 hosts at up to 10Gbps, with read/write over 900MB/s on compatible NVMe SSDs. Removable cable design plus an aluminum case with low-profile heatsink fins for heat management.\n\nSupports M.2 NVMe SSDs 2230-2280 with PCIe Gen 3 and 4 drives (not SATA/AHCI/non-NVMe PCIe), works across Windows, macOS, Linux, and ChromeOS with no drivers. Backed by Plugable's 2-year coverage plus lifetime North America-based support.",
+    description: "Supports USB 3.1 Gen 2, USB-C, USB4, Thunderbolt 3, and Thunderbolt 4 hosts at up to 10Gbps, with read/write over 900MB/s on compatible NVMe SSDs. Removable cable design plus an aluminum case with low-profile heatsink fins for heat management.\n\nSupports M.2 NVMe SSDs 2230-2280 with PCIe Gen 3 and 4 drives (not SATA/AHCI/non-NVMe PCIe), works across Windows, macOS, Linux, and ChromeOS with no drivers. Backed by Plugable's 2-year coverage plus lifetime North America-based support.\n\nIt earns the top spot in this comparison over Plugable ES-CNVMEB Slide-Out Enclosure for one main reason. 2-year warranty plus lifetime North America-based support. On price, it comes in below Plugable ES-CNVMEB Slide-Out Enclosure, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers prioritizing 10gbps across usb-c/usb4/tb3/tb4 hosts.",
     specs: ["10Gbps across USB-C/USB4/TB3/TB4 hosts","2230-2280, PCIe Gen 3/4 NVMe only","Removable cable, low-profile heatsink fins"],
     pros: ["2-year warranty plus lifetime North America-based support","Removable cable design for flexible cable length choice","Broad host compatibility (USB-C, USB4, Thunderbolt 3/4)","Low-profile heatsink fins for heat management"],
     cons: ["NVMe only, no SATA/AHCI support","10Gbps ceiling versus Plugable-adjacent 40Gbps options elsewhere in this cluster"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31x47MeusgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYW5RNCS?tag=deskfinds0d-20",
-    description: "A slide-out tool-free design at 10Gbps over USB 3.2 Gen 2, with an intelligent temperature-controlled fan that auto-activates during read/write and shuts off in sleep mode, paired with full aluminum passive dissipation for whisper-quiet operation under 28dB.\n\nSupports various NVMe and SATA M.2 SSDs across Windows, Mac, and Linux, ideal for laptop upgrades or console storage. Backed by Plugable's 2-year coverage and lifetime support, ships with both USB-C and USB-A cables.",
+    description: "A slide-out tool-free design at 10Gbps over USB 3.2 Gen 2, with an intelligent temperature-controlled fan that auto-activates during read/write and shuts off in sleep mode, paired with full aluminum passive dissipation for whisper-quiet operation under 28dB.\n\nSupports various NVMe and SATA M.2 SSDs across Windows, Mac, and Linux, ideal for laptop upgrades or console storage. Backed by Plugable's 2-year coverage and lifetime support, ships with both USB-C and USB-A cables.\n\nOne spot below Plugable Tool-Free 10Gbps Enclosure in this ranking, it costs more than Plugable Tool-Free 10Gbps Enclosure. The compromise here is straightforward: 10Gbps ceiling versus 40Gbps enclosures. What you gain in return: Dual cooling system (auto-fan plus passive aluminum) balances noise and thermal performance. Whether that trade is worth it depends on which side matters more for your actual transfer workload.\n\nBuyers prioritizing 10gbps usb 3.2 gen 2, dual cooling (active fan + passive aluminum).",
     specs: ["10Gbps USB 3.2 Gen 2, dual cooling (active fan + passive aluminum)","NVMe + SATA M.2 SSDs","Below 28dB fan noise"],
     pros: ["Dual cooling system (auto-fan plus passive aluminum) balances noise and thermal performance","Fan auto-activates only during read/write, staying quiet at idle","Both NVMe and SATA M.2 support","2-year Plugable warranty with lifetime support"],
     cons: ["10Gbps ceiling versus 40Gbps enclosures","Slide-out design has more moving parts than a simple flip-open case"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31qOZAJ2BgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYX1WQCK?tag=deskfinds0d-20",
-    description: "Uses the RTL9210 chip paired with aluminum construction to maintain stable transfer speeds close to 10Gbps even on large files over 100GB, with the same intelligent auto-fan plus passive cooling design as Plugable's Black slide-out model.\n\nSupports M-Key and B+M Key NVMe PCIe SSDs in 2242/2260/2280 sizes (no 2230), fully compatible with Windows, macOS, Linux, and Android. Same 2-year warranty and lifetime support as the rest of Plugable's lineup.",
+    description: "Uses the RTL9210 chip paired with aluminum construction to maintain stable transfer speeds close to 10Gbps even on large files over 100GB, with the same intelligent auto-fan plus passive cooling design as Plugable's Black slide-out model.\n\nSupports M-Key and B+M Key NVMe PCIe SSDs in 2242/2260/2280 sizes (no 2230), fully compatible with Windows, macOS, Linux, and Android. Same 2-year warranty and lifetime support as the rest of Plugable's lineup.\n\nSitting just under Plugable ES-CNVMEB Slide-Out Enclosure, it costs more than Plugable ES-CNVMEB Slide-Out Enclosure. Here's the honest tradeoff: No 2230 size support unlike Plugable's other models. And here's what it gets you instead: RTL9210 chip maintains stable speed even on files over 100GB. That's the real difference between the two picks, not just a ranking number.\n\nBuyers prioritizing 10gbps usb 3.2 gen 2, rtl9210 chip.",
     specs: ["10Gbps USB 3.2 Gen 2, RTL9210 chip","2242/2260/2280 (no 2230)","Below 28dB fan noise"],
     pros: ["RTL9210 chip maintains stable speed even on files over 100GB","Dual cooling system keeps noise under 28dB","2-year warranty with lifetime support","Broad OS compatibility including Android"],
     cons: ["No 2230 size support unlike Plugable's other models","10Gbps ceiling versus 40Gbps alternatives"],
@@ -100,44 +100,107 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Match the Interface to Your Host",
-    "intro": "Before buying, check your computer's exact port protocol, not just whether it has a USB-C connector.",
+    "subheading": "By Interface Speed",
     "table": {
       "headers": [
         "Your host port",
-        "What to look for"
+        "Recommended pick in this comparison"
       ],
       "rows": [
         [
-          "USB-C 10Gbps (USB 3.2 Gen 2)",
-          "Any 10Gbps-rated pick above works at full speed"
+          "10Gbps (USB 3.2 Gen 2)",
+          "Plugable Tool-Free 10Gbps Enclosure"
         ],
         [
-          "USB-C 20Gbps (USB 3.2 Gen 2x2)",
-          "Confirm the enclosure specifically states Gen 2x2 support, not just USB-C"
+          "20Gbps (USB 3.2 Gen 2x2)",
+          "Plugable Tool-Free 10Gbps Enclosure"
         ],
         [
-          "Thunderbolt / USB4 40Gbps or higher",
-          "Check for genuine Thunderbolt/USB4 certification, not just a compatible claim"
+          "40Gbps or higher (Thunderbolt/USB4)",
+          "Plugable ES-CNVMEG Enclosure"
         ]
       ]
     }
   },
   {
-    "subheading": "When to Spend More",
-    "intro": "Interface speed, bridge controller sophistication, and cooling design all scale price in this category.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $23",
+          "Plugable Tool-Free 10Gbps Enclosure"
+        ],
+        [
+          "Mid-range",
+          "Plugable ES-CNVMEB Slide-Out Enclosure"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or controller quality",
+          "Plugable ES-CNVMEG Enclosure"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NVMe-Only vs NVMe+SATA Dual Protocol",
     "cards": [
       {
-        "label": "Occasional file transfers",
-        "text": "A 10Gbps pick from this list covers most casual plugable nvme enclosures needs without paying for bandwidth you won't use."
+        "label": "NVMe-Only",
+        "text": "Reads only NVMe M-Key SSDs, generally cheaper and simpler, but won't recognize a SATA M.2 drive at all if that's what you own. In this comparison: Plugable Tool-Free 10Gbps Enclosure, Plugable ES-CNVMEG Enclosure."
       },
       {
-        "label": "Video editing or large sustained transfers",
-        "text": "Step up to a 40Gbps USB4/Thunderbolt pick with active cooling to avoid thermal throttling mid-transfer."
+        "label": "NVMe+SATA Dual Protocol",
+        "text": "Accepts both NVMe and SATA M.2 drives in the same enclosure, more flexible if you're not certain which protocol your SSD uses. In this comparison: Plugable ES-CNVMEB Slide-Out Enclosure."
+      }
+    ],
+    "note": "Most buyers with a known NVMe SSD should default to an NVMe-only pick like Plugable Tool-Free 10Gbps Enclosure, and only pay extra for Plugable ES-CNVMEB Slide-Out Enclosure's dual-protocol support if you're not certain which type of drive you own."
+  },
+  {
+    "subheading": "Passive vs Active Cooling",
+    "table": {
+      "headers": [
+        "Your workload",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional file transfers",
+          "Plugable Tool-Free 10Gbps Enclosure"
+        ],
+        [
+          "Sustained large transfers (video editing, backups)",
+          "Plugable ES-CNVMEB Slide-Out Enclosure"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sustained Large File Transfers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Published tested read/write numbers using a named SSD and host, active cooling or substantial heatsink fins, and an explicit note about sustained (not just peak burst) performance."
       },
       {
-        "label": "Professional or archival workflows",
-        "text": "An 80Gbps Thunderbolt 5 enclosure or a RAID-capable multi-bay design is worth the premium if downtime or data loss has real cost."
+        "label": "In this comparison",
+        "text": "Plugable ES-CNVMEB Slide-Out Enclosure fits this specifically: Dual cooling system (auto-fan plus passive aluminum) balances noise and thermal performance."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what Plugable ES-CNVMEG Enclosure offers: RTL9210 chip maintains stable speed even on files over 100GB. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "Plugable Tool-Free 10Gbps Enclosure already covers the essentials: 2-year warranty plus lifetime North America-based support. The main thing you'd be paying extra for elsewhere in this list is a faster interface tier or dual-protocol support you may not need."
       }
     ]
   }
@@ -145,28 +208,24 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria = [
   {
-    "criterion": "USB-C is a connector, not a speed",
-    "explanation": "A USB-C port can carry 10, 20, 40, or 80Gbps depending on the underlying protocol. Require the exact USB/Thunderbolt protocol and link rate from the listing, not USB-C wording alone, before assuming an enclosure matches your host's real speed."
+    "criterion": "USB-C is a connector shape, not a speed, so check the actual protocol",
+    "explanation": "The USB-C connector is used by multiple completely different speed tiers, including 10Gbps USB 3.2 Gen 2, 20Gbps Gen 2x2, and 40 or 80Gbps Thunderbolt/USB4, all of which physically plug into the exact same port shape on both the enclosure and your computer.\n\nThis matters because a listing photo or the word \"USB-C\" tells you nothing about which of these tiers you're actually getting, and plugging a 40Gbps enclosure into a 10Gbps port (or vice versa) simply caps your real transfer speed at whichever side is slower, wasting money if you bought the faster one for no benefit.\n\nCheck the listing's stated protocol name directly (USB 3.2 Gen 2, Gen 2x2, USB4, Thunderbolt 3/4/5) and confirm your own computer's exact port spec from its manufacturer documentation before assuming compatibility."
   },
   {
-    "criterion": "Check the bridge controller, not just the interface label",
-    "explanation": "Two enclosures with the same 40Gbps label can behave differently depending on the bridge chip (ASM2464PD, JHL7440, RTL9210, and others each have different real-world characteristics). Where a listing names its controller, treat that as a real signal of build quality."
+    "criterion": "The bridge controller chip inside the enclosure affects real performance, not just the headline speed",
+    "explanation": "Every external SSD enclosure contains a small bridge controller chip that translates between the M.2 NVMe SSD's native protocol and the external USB or Thunderbolt connection, and different controllers, such as the RTL9210, JMS583, or ASM2464PD, have measurably different real-world characteristics including sustained throughput, TRIM command support, and how gracefully they handle heat under long transfers.\n\nTwo enclosures can carry the identical headline speed rating while performing noticeably differently in practice because one uses a more capable or more recent controller chip than the other, and this is exactly the kind of difference that a spec sheet's top-line number won't reveal.\n\nWhere a listing names its specific bridge chip, treat that as a genuine signal of build quality worth researching, and be more cautious about unnamed or generic \"USB 3.2 controller\" language."
   },
   {
-    "criterion": "Verify NVMe-only versus NVMe+SATA support",
-    "explanation": "Some enclosures in this category support only NVMe M-Key SSDs, others add SATA/NGFF support via M+B Key. Confirm which protocol your specific SSD uses before buying, since a mismatch means the drive simply won't work."
+    "criterion": "Confirm NVMe-only versus NVMe-plus-SATA support against your specific SSD",
+    "explanation": "M.2 SSDs come in two fundamentally different protocols, NVMe (which uses the PCIe interface for high speed) and SATA (an older, slower interface that happens to share the same M.2 physical connector), and an enclosure built for one protocol generally cannot read a drive using the other, regardless of how similar the slot looks.\n\nThis is a genuine compatibility trap because both drive types are called \"M.2 SSDs\" and look physically identical at a glance, so a buyer who already owns a SATA M.2 drive can easily purchase an NVMe-only enclosure and find the drive simply isn't recognized at all.\n\nCheck your specific SSD's protocol (printed on the drive itself or in its own listing) against the enclosure's stated support before buying, and if you're unsure which protocol you own, look specifically for NVMe-plus-SATA dual-protocol enclosures to avoid the issue entirely."
   },
   {
-    "criterion": "Separate peak benchmark speed from sustained performance",
-    "explanation": "A short benchmark can hit peak speed even on a design that throttles heavily during long transfers. Favor listings that publish tested read/write numbers with a named SSD and host over theoretical link-rate claims alone."
+    "criterion": "Separate peak benchmark speed from real sustained transfer performance",
+    "explanation": "A short benchmark test, the kind used in most marketing screenshots, can hit an enclosure's peak rated speed for a few seconds even on a design with genuinely poor sustained performance, because SSDs and enclosures both have cache and thermal buffers that mask throttling until a transfer runs long enough to exhaust them.\n\nThis matters most if your actual use case involves copying large video files, disk images, or backups that run for minutes rather than seconds, since that's exactly when a fanless, poorly-cooled enclosure will throttle and its real speed will drop well below the number advertised on the box.\n\nFavor listings that publish tested read and write numbers using a named SSD and host device over theoretical link-rate claims alone, and treat passive cooling as a real limitation for sustained large-file work specifically."
   },
   {
-    "criterion": "Confirm your exact M.2 size and keying before buying",
-    "explanation": "2230, 2242, 2260, and 2280 SSDs are not interchangeable in every enclosure, and M-Key versus B+M Key compatibility varies by product. Check your SSD's exact length and key type against the listing's stated support, not just \"M.2 compatible\"."
-  },
-  {
-    "criterion": "Cable and host requirements can silently cap speed",
-    "explanation": "A USB-C cable rated below the enclosure's maximum speed, or a host port that doesn't support the exact protocol claimed, will cap real throughput well below the advertised number. Check both before assuming full speed."
+    "criterion": "Check your exact M.2 length and keying, since not every size fits every enclosure",
+    "explanation": "M.2 SSDs come in several different physical lengths, commonly 2230, 2242, 2260, and 2280 (the numbers refer to width and length in millimeters), and also use different pin \"keying\" notches, most commonly M-Key for NVMe drives or B+M Key for drives that also support SATA, and an enclosure's internal slot is generally built to accept only a specific subset of these combinations rather than all of them universally.\n\nA drive that's physically too long for a slot simply won't fit at all, while a keying mismatch can prevent the drive from making electrical contact even if it appears to slide in, so this isn't a minor compatibility footnote, it's a hard physical constraint.\n\nCheck your SSD's exact length and keying (usually printed on the drive or listed in its own product spec) against the enclosure's explicitly stated supported sizes, rather than trusting a generic \"M.2 compatible\" claim."
   }
 ];
 

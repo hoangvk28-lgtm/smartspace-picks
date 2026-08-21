@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41XU4Tlu8WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09T97Z7DM?tag=deskfinds0d-20",
-    description: "Uses the RTL9210 controller chip for UASP/TRIM support at up to 10Gbps over USB 3.2 Gen 2, with a tool-free buckle design for M/B+M key NVMe SSDs in 2230/2242/2260/2280 sizes up to 8TB. Ships with an extra silicone case for added protection.\n\nBuilt-in short-circuit and over-current protection guards the SSD during transfers. Note that 10Gbps speeds require a genuine USB 3.2 Gen 2 cable, and it does not support SATA NGFF or mSATA drives.",
+    description: "Uses the RTL9210 controller chip for UASP/TRIM support at up to 10Gbps over USB 3.2 Gen 2, with a tool-free buckle design for M/B+M key NVMe SSDs in 2230/2242/2260/2280 sizes up to 8TB. Ships with an extra silicone case for added protection.\n\nBuilt-in short-circuit and over-current protection guards the SSD during transfers. Note that 10Gbps speeds require a genuine USB 3.2 Gen 2 cable, and it does not support SATA NGFF or mSATA drives.\n\nIt earns the top spot in this comparison over UGREEN 10Gbps M.2 NVMe SSD Enclosure for one main reason. RTL9210 chip includes short-circuit and over-current protection. On price, it's actually priced above UGREEN 10Gbps M.2 NVMe SSD Enclosure, which is worth weighing if cost is your deciding factor between the two.\n\nBuyers prioritizing 10gbps usb 3.2 gen 2, rtl9210 chip.",
     specs: ["10Gbps USB 3.2 Gen 2, RTL9210 chip","2230/2242/2260/2280 NVMe, up to 8TB","Ships with protective silicone case"],
     pros: ["RTL9210 chip includes short-circuit and over-current protection","Tool-free buckle design for quick installation","Extra silicone case included for portability","Works across Windows, macOS, Linux, Android, and iOS"],
     cons: ["Requires a genuine USB 3.2 Gen 2 cable to hit 10Gbps","No SATA M.2 support"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31d715Y4x5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D53K7HK9?tag=deskfinds0d-20",
-    description: "The budget sibling in UGREEN's 10Gbps lineup, built around the same RTL9210 chip for UASP/TRIM support, 2230/2242/2260/2280 NVMe compatibility up to 8TB, and an aluminum case with a thermal pad that maintains contact with the case for heat dissipation.\n\nNotably it explicitly does not support SSDs with a pre-installed heatsink, unlike some competitors, so check your drive before buying. Comes with an extra silicone sleeve for portability.",
+    description: "The budget sibling in UGREEN's 10Gbps lineup, built around the same RTL9210 chip for UASP/TRIM support, 2230/2242/2260/2280 NVMe compatibility up to 8TB, and an aluminum case with a thermal pad that maintains contact with the case for heat dissipation.\n\nNotably it explicitly does not support SSDs with a pre-installed heatsink, unlike some competitors, so check your drive before buying. Comes with an extra silicone sleeve for portability.\n\nOne spot below UGREEN 10Gbps Tool-Free M.2 NVMe Enclosure in this ranking, it's priced lower than UGREEN 10Gbps Tool-Free M.2 NVMe Enclosure. The compromise here is straightforward: Does not support SSDs with a pre-installed heatsink. What you gain in return: Same RTL9210 controller as UGREEN's pricier model at a lower cost. Whether that trade is worth it depends on which side matters more for your actual transfer workload.\n\nBuyers prioritizing 10gbps usb 3.2 gen 2, rtl9210 chip.",
     specs: ["10Gbps USB 3.2 Gen 2, RTL9210 chip","2230/2242/2260/2280 NVMe, up to 8TB","Does not support SSDs with pre-installed heatsink"],
     pros: ["Same RTL9210 controller as UGREEN's pricier model at a lower cost","Thermal pad maintains contact with the case for heat dissipation","Ultra-slim aluminum body with silicone sleeve","Broad OS support"],
     cons: ["Does not support SSDs with a pre-installed heatsink","No SATA M.2 support"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41HUxEOZ3bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN5ZM2ZR?tag=deskfinds0d-20",
-    description: "Supports both PCIe NVMe and SATA NGFF SSDs up to 8TB in 2230/2242/2260/2280 sizes over USB 3.2 Gen 2x2 (20Gbps), though UGREEN flags that Thunderbolt 3/4 hosts and many MacBooks cap out at 10Gbps regardless.\n\nThe RTL9220 chip adds short-circuit and over-current protection plus UASP/TRIM support, and the aluminum case with thermal pad handles heat dissipation. Only one screw is needed to secure the SSD.",
+    description: "Supports both PCIe NVMe and SATA NGFF SSDs up to 8TB in 2230/2242/2260/2280 sizes over USB 3.2 Gen 2x2 (20Gbps), though UGREEN flags that Thunderbolt 3/4 hosts and many MacBooks cap out at 10Gbps regardless.\n\nThe RTL9220 chip adds short-circuit and over-current protection plus UASP/TRIM support, and the aluminum case with thermal pad handles heat dissipation. Only one screw is needed to secure the SSD.\n\nSitting just under UGREEN 10Gbps M.2 NVMe SSD Enclosure, it costs more than UGREEN 10Gbps M.2 NVMe SSD Enclosure. Here's the honest tradeoff: Many Thunderbolt 3/4 hosts and MacBooks cap this at 10Gbps, not the full 20Gbps. And here's what it gets you instead: Dual NVMe/SATA support at up to 8TB capacity. That's the real difference between the two picks, not just a ranking number.\n\nBuyers prioritizing 20gbps usb 3.2 gen 2x2 (10gbps on tb3/4 hosts).",
     specs: ["20Gbps USB 3.2 Gen 2x2 (10Gbps on TB3/4 hosts)","NVMe + SATA, up to 8TB","RTL9220 chip with protection circuitry"],
     pros: ["Dual NVMe/SATA support at up to 8TB capacity","RTL9220 chip adds short-circuit and over-current protection","Only one screw needed for installation","Aluminum case adds drop protection alongside heat dissipation"],
     cons: ["Many Thunderbolt 3/4 hosts and MacBooks cap this at 10Gbps, not the full 20Gbps","m-SATA specifically not supported"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Alq1-d8qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2NHJT6T?tag=deskfinds0d-20",
-    description: "Nearly identical to UGREEN's other 20Gbps model: PCIe NVMe or SATA NGFF SSD support up to 8TB in 2230/2242/2260/2280 sizes, RTL9210B chip with short-circuit and over-current protection, and a grooved aluminum case with thermal pad contact.\n\nThe silicone cover surrounding the aluminum case adds drop protection specifically, a detail not called out on UGREEN's other 20Gbps listing. Same caveat applies: Thunderbolt 4 and other non-Gen-2x2 interfaces cap at 10Gbps.",
+    description: "Nearly identical to UGREEN's other 20Gbps model: PCIe NVMe or SATA NGFF SSD support up to 8TB in 2230/2242/2260/2280 sizes, RTL9210B chip with short-circuit and over-current protection, and a grooved aluminum case with thermal pad contact.\n\nThe silicone cover surrounding the aluminum case adds drop protection specifically, a detail not called out on UGREEN's other 20Gbps listing. Same caveat applies: Thunderbolt 4 and other non-Gen-2x2 interfaces cap at 10Gbps.\n\nRanked just behind UGREEN 20Gbps NVMe/SATA Enclosure, it costs more than UGREEN 20Gbps NVMe/SATA Enclosure. The real tradeoff against that pick: Requires a genuine USB 3.2 Gen 2x2 port for the full 20Gbps, Thunderbolt 4 caps at 10Gbps. In exchange, it offers this instead: Silicone cover around the aluminum case adds explicit drop protection. That's the swap that decides whether this pick or the one above it is the better fit for your SSD and host setup.\n\nBuyers prioritizing 20gbps usb 3.2 gen 2x2 (10gbps on tb4).",
     specs: ["20Gbps USB 3.2 Gen 2x2 (10Gbps on TB4)","NVMe + SATA, up to 8TB","RTL9210B chip, silicone-covered case"],
     pros: ["Silicone cover around the aluminum case adds explicit drop protection","RTL9210B chip with UASP/TRIM and short-circuit protection","Dual NVMe/SATA support up to 8TB","Only one screw needed for installation"],
     cons: ["Requires a genuine USB 3.2 Gen 2x2 port for the full 20Gbps, Thunderbolt 4 caps at 10Gbps","m-SATA not supported"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41JHbCBZxkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62NG7K3?tag=deskfinds0d-20",
-    description: "Built around the ASM2464PD chip for up to 3600MB/s over USB4/Thunderbolt 3/4 (Thunderbolt 4 cable and device required to hit the full speed), with a double-sided fin design plus a three-dimensional cooling system that UGREEN says delivers several times the heat dissipation of standard enclosures, entirely fanless.\n\nSupports 2230/2242/2260/2280 NVMe SSDs up to 8TB, but not SSDs with a pre-installed heatsink or SATA NGFF/mSATA drives. UGREEN notes some thicker SSDs may need a thinner thermal pad swapped in to fit properly.",
+    description: "Built around the ASM2464PD chip for up to 3600MB/s over USB4/Thunderbolt 3/4 (Thunderbolt 4 cable and device required to hit the full speed), with a double-sided fin design plus a three-dimensional cooling system that UGREEN says delivers several times the heat dissipation of standard enclosures, entirely fanless.\n\nSupports 2230/2242/2260/2280 NVMe SSDs up to 8TB, but not SSDs with a pre-installed heatsink or SATA NGFF/mSATA drives. UGREEN notes some thicker SSDs may need a thinner thermal pad swapped in to fit properly.\n\nOne spot below UGREEN 20Gbps NVMe/SATA Enclosure for M/B+M Key in this ranking, it costs more than UGREEN 20Gbps NVMe/SATA Enclosure for M/B+M Key. The compromise here is straightforward: Requires a genuine Thunderbolt 4 cable/host to hit full 3600MB/s. What you gain in return: Fanless double-sided fin design avoids fan noise entirely. Whether that trade is worth it depends on which side matters more for your actual transfer workload.\n\nBuyers prioritizing 40gbps via asm2464pd, usb4/tb3/tb4.",
     specs: ["40Gbps via ASM2464PD, USB4/TB3/TB4","2230/2242/2260/2280 NVMe, up to 8TB","Fanless double-sided fin cooling"],
     pros: ["Fanless double-sided fin design avoids fan noise entirely","ASM2464PD chip is a proven, widely-used 40Gbps bridge","Compatible across USB4, Thunderbolt 3, and Thunderbolt 4 hosts","Ultra-slim aluminum body for portability"],
     cons: ["Requires a genuine Thunderbolt 4 cable/host to hit full 3600MB/s","Some thicker SSDs need a thinner thermal pad swap to fit"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/4163oKenw5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLV3D3H6?tag=deskfinds0d-20",
-    description: "Adds UGREEN's PWM turbo high-speed fan on top of the same triple heat-dissipation approach (aluminum casing, silicone thermal pad) used in its fanless model, automatically adjusting fan speed to maintain temperature while staying relatively quiet.\n\nBuilt on the ASM2464PD chip for 40Gbps over USB4/Thunderbolt 3/4, supporting M/B+M key NVMe SSDs up to 4TB in 2230/2242/2260/2280 sizes, with S.M.A.R.T. self-monitoring for drive health. Does not support SSDs with a heatsink or PCIe 5.0 M.2 drives.",
+    description: "Adds UGREEN's PWM turbo high-speed fan on top of the same triple heat-dissipation approach (aluminum casing, silicone thermal pad) used in its fanless model, automatically adjusting fan speed to maintain temperature while staying relatively quiet.\n\nBuilt on the ASM2464PD chip for 40Gbps over USB4/Thunderbolt 3/4, supporting M/B+M key NVMe SSDs up to 4TB in 2230/2242/2260/2280 sizes, with S.M.A.R.T. self-monitoring for drive health. Does not support SSDs with a heatsink or PCIe 5.0 M.2 drives.\n\nSitting just under UGREEN 40Gbps M.2 NVMe Enclosure, it costs more than UGREEN 40Gbps M.2 NVMe Enclosure. Here's the honest tradeoff: 4TB capacity ceiling versus 8TB competitors. And here's what it gets you instead: PWM turbo fan automatically adjusts speed to maintain temperature. That's the real difference between the two picks, not just a ranking number.\n\nBuyers prioritizing 40gbps via asm2464pd, active pwm fan.",
     specs: ["40Gbps via ASM2464PD, active PWM fan","2230/2242/2260/2280, up to 4TB","S.M.A.R.T. self-monitoring"],
     pros: ["PWM turbo fan automatically adjusts speed to maintain temperature","S.M.A.R.T. self-monitoring reports drive health","Same proven ASM2464PD bridge chip as UGREEN's fanless model","Silicone case included to protect the enclosure"],
     cons: ["4TB capacity ceiling versus 8TB competitors","Does not support SSDs with a heatsink or PCIe 5.0 drives"],
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31C0c9qFaML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GG9PS1F6?tag=deskfinds0d-20",
-    description: "A dual-chip design combining the Intel JHL9480 Thunderbolt controller with a JMicron JMS583 bridge controller, rated up to 7,000MB/s, moving a 6GB file in about one second. Dual-sided aluminum alloy biomimetic fins increase heat dissipation by a claimed 91% versus standard designs.\n\nSupports 2230/2242/2260/2280 SSDs up to 8TB, but not SATA/mSATA drives or SSDs with a pre-installed heatsink. UGREEN notes some thicker SSDs may need a thinner thermal pad substituted in to fit.",
+    description: "A dual-chip design combining the Intel JHL9480 Thunderbolt controller with a JMicron JMS583 bridge controller, rated up to 7,000MB/s, moving a 6GB file in about one second. Dual-sided aluminum alloy biomimetic fins increase heat dissipation by a claimed 91% versus standard designs.\n\nSupports 2230/2242/2260/2280 SSDs up to 8TB, but not SATA/mSATA drives or SSDs with a pre-installed heatsink. UGREEN notes some thicker SSDs may need a thinner thermal pad substituted in to fit.\n\nRanked just behind UGREEN 40Gbps NVMe Enclosure with Cooling Fan, it costs more than UGREEN 40Gbps NVMe Enclosure with Cooling Fan. The real tradeoff against that pick: Requires an 80Gbps-capable host to realize full speed. In exchange, it offers this instead: Dual-chip design (Thunderbolt controller + separate bridge) is more sophisticated than single-chip competitors. That's the swap that decides whether this pick or the one above it is the better fit for your SSD and host setup.\n\nBuyers prioritizing up to 7,000mb/s, dual-chip jhl9480 + jms583.",
     specs: ["Up to 7,000MB/s, dual-chip JHL9480 + JMS583","2230/2242/2260/2280, up to 8TB","91% claimed heat dissipation improvement via 3D fin design"],
     pros: ["Dual-chip design (Thunderbolt controller + separate bridge) is more sophisticated than single-chip competitors","Highest rated throughput (7,000MB/s) among UGREEN's lineup","3D biomimetic fin design claims a 91% heat dissipation improvement","Compact, travel-friendly aluminum body"],
     cons: ["Requires an 80Gbps-capable host to realize full speed","Some thicker SSDs need a thermal pad swap to fit"],
@@ -164,44 +164,107 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Match the Interface to Your Host",
-    "intro": "Before buying, check your computer's exact port protocol, not just whether it has a USB-C connector.",
+    "subheading": "By Interface Speed",
     "table": {
       "headers": [
         "Your host port",
-        "What to look for"
+        "Recommended pick in this comparison"
       ],
       "rows": [
         [
-          "USB-C 10Gbps (USB 3.2 Gen 2)",
-          "Any 10Gbps-rated pick above works at full speed"
+          "10Gbps (USB 3.2 Gen 2)",
+          "UGREEN 10Gbps Tool-Free M.2 NVMe Enclosure"
         ],
         [
-          "USB-C 20Gbps (USB 3.2 Gen 2x2)",
-          "Confirm the enclosure specifically states Gen 2x2 support, not just USB-C"
+          "20Gbps (USB 3.2 Gen 2x2)",
+          "UGREEN 10Gbps Tool-Free M.2 NVMe Enclosure"
         ],
         [
-          "Thunderbolt / USB4 40Gbps or higher",
-          "Check for genuine Thunderbolt/USB4 certification, not just a compatible claim"
+          "40Gbps or higher (Thunderbolt/USB4)",
+          "UGREEN 40Gbps M.2 NVMe Enclosure"
         ]
       ]
     }
   },
   {
-    "subheading": "When to Spend More",
-    "intro": "Interface speed, bridge controller sophistication, and cooling design all scale price in this category.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $18",
+          "UGREEN 10Gbps M.2 NVMe SSD Enclosure"
+        ],
+        [
+          "Mid-range",
+          "UGREEN 20Gbps NVMe/SATA Enclosure for M/B+M Key"
+        ],
+        [
+          "No firm budget ceiling, prioritizing speed or controller quality",
+          "UGREEN 80Gbps NVMe Enclosure"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NVMe-Only vs NVMe+SATA Dual Protocol",
     "cards": [
       {
-        "label": "Occasional file transfers",
-        "text": "A 10Gbps pick from this list covers most casual ugreen nvme enclosures needs without paying for bandwidth you won't use."
+        "label": "NVMe-Only",
+        "text": "Reads only NVMe M-Key SSDs, generally cheaper and simpler, but won't recognize a SATA M.2 drive at all if that's what you own. In this comparison: UGREEN 10Gbps Tool-Free M.2 NVMe Enclosure, UGREEN 10Gbps M.2 NVMe SSD Enclosure, UGREEN 40Gbps M.2 NVMe Enclosure."
       },
       {
-        "label": "Video editing or large sustained transfers",
-        "text": "Step up to a 40Gbps USB4/Thunderbolt pick with active cooling to avoid thermal throttling mid-transfer."
+        "label": "NVMe+SATA Dual Protocol",
+        "text": "Accepts both NVMe and SATA M.2 drives in the same enclosure, more flexible if you're not certain which protocol your SSD uses. In this comparison: UGREEN 20Gbps NVMe/SATA Enclosure, UGREEN 20Gbps NVMe/SATA Enclosure for M/B+M Key."
+      }
+    ],
+    "note": "Most buyers with a known NVMe SSD should default to an NVMe-only pick like UGREEN 10Gbps M.2 NVMe SSD Enclosure, and only pay extra for UGREEN 20Gbps NVMe/SATA Enclosure's dual-protocol support if you're not certain which type of drive you own."
+  },
+  {
+    "subheading": "Passive vs Active Cooling",
+    "table": {
+      "headers": [
+        "Your workload",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Occasional file transfers",
+          "UGREEN 10Gbps Tool-Free M.2 NVMe Enclosure"
+        ],
+        [
+          "Sustained large transfers (video editing, backups)",
+          "UGREEN 40Gbps M.2 NVMe Enclosure"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Sustained Large File Transfers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Published tested read/write numbers using a named SSD and host, active cooling or substantial heatsink fins, and an explicit note about sustained (not just peak burst) performance."
       },
       {
-        "label": "Professional or archival workflows",
-        "text": "An 80Gbps Thunderbolt 5 enclosure or a RAID-capable multi-bay design is worth the premium if downtime or data loss has real cost."
+        "label": "In this comparison",
+        "text": "UGREEN 40Gbps M.2 NVMe Enclosure fits this specifically: Fanless double-sided fin design avoids fan noise entirely."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want what UGREEN 80Gbps NVMe Enclosure offers: Dual-chip design (Thunderbolt controller + separate bridge) is more sophisticated than single-chip competitors. That's a real functional upgrade over the budget picks here, not just a brand markup."
+      },
+      {
+        "label": "Save if",
+        "text": "UGREEN 10Gbps M.2 NVMe SSD Enclosure already covers the essentials: Same RTL9210 controller as UGREEN's pricier model at a lower cost. The main thing you'd be paying extra for elsewhere in this list is a faster interface tier or dual-protocol support you may not need."
       }
     ]
   }
@@ -209,28 +272,24 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria = [
   {
-    "criterion": "USB-C is a connector, not a speed",
-    "explanation": "A USB-C port can carry 10, 20, 40, or 80Gbps depending on the underlying protocol. Require the exact USB/Thunderbolt protocol and link rate from the listing, not USB-C wording alone, before assuming an enclosure matches your host's real speed."
+    "criterion": "USB-C is a connector shape, not a speed, so check the actual protocol",
+    "explanation": "The USB-C connector is used by multiple completely different speed tiers, including 10Gbps USB 3.2 Gen 2, 20Gbps Gen 2x2, and 40 or 80Gbps Thunderbolt/USB4, all of which physically plug into the exact same port shape on both the enclosure and your computer.\n\nThis matters because a listing photo or the word \"USB-C\" tells you nothing about which of these tiers you're actually getting, and plugging a 40Gbps enclosure into a 10Gbps port (or vice versa) simply caps your real transfer speed at whichever side is slower, wasting money if you bought the faster one for no benefit.\n\nCheck the listing's stated protocol name directly (USB 3.2 Gen 2, Gen 2x2, USB4, Thunderbolt 3/4/5) and confirm your own computer's exact port spec from its manufacturer documentation before assuming compatibility."
   },
   {
-    "criterion": "Check the bridge controller, not just the interface label",
-    "explanation": "Two enclosures with the same 40Gbps label can behave differently depending on the bridge chip (ASM2464PD, JHL7440, RTL9210, and others each have different real-world characteristics). Where a listing names its controller, treat that as a real signal of build quality."
+    "criterion": "The bridge controller chip inside the enclosure affects real performance, not just the headline speed",
+    "explanation": "Every external SSD enclosure contains a small bridge controller chip that translates between the M.2 NVMe SSD's native protocol and the external USB or Thunderbolt connection, and different controllers, such as the RTL9210, JMS583, or ASM2464PD, have measurably different real-world characteristics including sustained throughput, TRIM command support, and how gracefully they handle heat under long transfers.\n\nTwo enclosures can carry the identical headline speed rating while performing noticeably differently in practice because one uses a more capable or more recent controller chip than the other, and this is exactly the kind of difference that a spec sheet's top-line number won't reveal.\n\nWhere a listing names its specific bridge chip, treat that as a genuine signal of build quality worth researching, and be more cautious about unnamed or generic \"USB 3.2 controller\" language."
   },
   {
-    "criterion": "Verify NVMe-only versus NVMe+SATA support",
-    "explanation": "Some enclosures in this category support only NVMe M-Key SSDs, others add SATA/NGFF support via M+B Key. Confirm which protocol your specific SSD uses before buying, since a mismatch means the drive simply won't work."
+    "criterion": "Confirm NVMe-only versus NVMe-plus-SATA support against your specific SSD",
+    "explanation": "M.2 SSDs come in two fundamentally different protocols, NVMe (which uses the PCIe interface for high speed) and SATA (an older, slower interface that happens to share the same M.2 physical connector), and an enclosure built for one protocol generally cannot read a drive using the other, regardless of how similar the slot looks.\n\nThis is a genuine compatibility trap because both drive types are called \"M.2 SSDs\" and look physically identical at a glance, so a buyer who already owns a SATA M.2 drive can easily purchase an NVMe-only enclosure and find the drive simply isn't recognized at all.\n\nCheck your specific SSD's protocol (printed on the drive itself or in its own listing) against the enclosure's stated support before buying, and if you're unsure which protocol you own, look specifically for NVMe-plus-SATA dual-protocol enclosures to avoid the issue entirely."
   },
   {
-    "criterion": "Separate peak benchmark speed from sustained performance",
-    "explanation": "A short benchmark can hit peak speed even on a design that throttles heavily during long transfers. Favor listings that publish tested read/write numbers with a named SSD and host over theoretical link-rate claims alone."
+    "criterion": "Separate peak benchmark speed from real sustained transfer performance",
+    "explanation": "A short benchmark test, the kind used in most marketing screenshots, can hit an enclosure's peak rated speed for a few seconds even on a design with genuinely poor sustained performance, because SSDs and enclosures both have cache and thermal buffers that mask throttling until a transfer runs long enough to exhaust them.\n\nThis matters most if your actual use case involves copying large video files, disk images, or backups that run for minutes rather than seconds, since that's exactly when a fanless, poorly-cooled enclosure will throttle and its real speed will drop well below the number advertised on the box.\n\nFavor listings that publish tested read and write numbers using a named SSD and host device over theoretical link-rate claims alone, and treat passive cooling as a real limitation for sustained large-file work specifically."
   },
   {
-    "criterion": "Confirm your exact M.2 size and keying before buying",
-    "explanation": "2230, 2242, 2260, and 2280 SSDs are not interchangeable in every enclosure, and M-Key versus B+M Key compatibility varies by product. Check your SSD's exact length and key type against the listing's stated support, not just \"M.2 compatible\"."
-  },
-  {
-    "criterion": "Cable and host requirements can silently cap speed",
-    "explanation": "A USB-C cable rated below the enclosure's maximum speed, or a host port that doesn't support the exact protocol claimed, will cap real throughput well below the advertised number. Check both before assuming full speed."
+    "criterion": "Check your exact M.2 length and keying, since not every size fits every enclosure",
+    "explanation": "M.2 SSDs come in several different physical lengths, commonly 2230, 2242, 2260, and 2280 (the numbers refer to width and length in millimeters), and also use different pin \"keying\" notches, most commonly M-Key for NVMe drives or B+M Key for drives that also support SATA, and an enclosure's internal slot is generally built to accept only a specific subset of these combinations rather than all of them universally.\n\nA drive that's physically too long for a slot simply won't fit at all, while a keying mismatch can prevent the drive from making electrical contact even if it appears to slide in, so this isn't a minor compatibility footnote, it's a hard physical constraint.\n\nCheck your SSD's exact length and keying (usually printed on the drive or listed in its own product spec) against the enclosure's explicitly stated supported sizes, rather than trusting a generic \"M.2 compatible\" claim."
   }
 ];
 
