@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Le3Kt7hgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNTN886Y?tag=deskfinds0d-20",
     description:
-      "POP Keys is the one keyboard in this list that genuinely uses mechanical switches, described by Logitech as typewriter-style mechanical keys, paired with the compact POP Mouse over Bluetooth. That makes it the closest thing to an actual mechanical keyboard and mouse combo currently sold as a matched set.\n\nThe mouse itself is a standard optical Bluetooth mouse, not a mechanical-switch mouse, since mechanical mice with true mechanical click mechanisms are a separate, much smaller category. Emoji shortcut keys and a compact, colorful design lean more toward personal and creative use than a serious productivity or gaming setup.",
+      "POP Keys is the one keyboard in this list that genuinely uses mechanical switches, described by Logitech as typewriter-style mechanical keys, paired with the compact POP Mouse over Bluetooth. That makes it the closest thing to an actual mechanical keyboard and mouse combo currently sold as a matched set.\n\nThe mouse itself is a standard optical Bluetooth mouse, not a mechanical-switch mouse, since mechanical mice with true mechanical click mechanisms are a separate, much smaller category. Emoji shortcut keys and a compact, colorful design lean more toward personal and creative use than a serious productivity or gaming setup.\n\nCompact, portable mouse included. That's a real strength, but weigh it against the flip side: the mouse is a standard optical mouse, not mechanical.",
     specs: [
       "Wireless keyboard, Bluetooth connection",
       "Typewriter-style mechanical keyboard switches",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qNb+bxSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDWP1D58?tag=deskfinds0d-20",
     description:
-      "Worth being direct about this one, the K668 is a genuinely mechanical keyboard with hot-swappable red switches and sound-absorbing foam, but the current listing does not include a bundled mouse despite this guide's combo theme. It's included because it's a genuinely strong mechanical board at a low price, and pairing it yourself with a separate mouse is often the more honest path to a real mechanical keyboard setup.\n\nWith 108 keys, 4 extra hotkeys, and two sets of mixed-color keycaps, it's built for buyers who want to customize their setup rather than accept a generic bundled mouse of unknown quality.",
+      "Worth being direct about this one, the K668 is a genuinely mechanical keyboard with hot-swappable red switches and sound-absorbing foam, but the current listing does not include a bundled mouse despite this guide's combo theme. It's included because it's a genuinely strong mechanical board at a low price, and pairing it yourself with a separate mouse is often the more honest path to a real mechanical keyboard setup.\n\nWith 108 keys, 4 extra hotkeys, and two sets of mixed-color keycaps, it's built for buyers who want to customize their setup rather than accept a generic bundled mouse of unknown quality.\n\nWorth calling out specifically: sound-absorbing foam included from the factory. The catch is no mouse included in the current listing.",
     specs: [
       "108-key full layout with 4 extra hotkeys",
       "Hot-swappable red mechanical switches",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41khzfsV4mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CF3VGQFL?tag=deskfinds0d-20",
     description:
-      "Like the K668 above, this Redragon board is a real hot-swappable mechanical keyboard with red switches and double-shot PBT keycaps, but its current listing also doesn't include a mouse. At under $26 it's the cheapest genuinely mechanical option in this entire guide, worth pairing with a separate budget mouse if a true mechanical feel matters more than getting a matched set.\n\nAnti-ghosting and 11 programmable backlight modes add gaming-style extras that a pure office typist may not need, but the hot-swap sockets mean the switches can be changed later without new hardware.",
+      "Like the K668 above, this Redragon board is a real hot-swappable mechanical keyboard with red switches and double-shot PBT keycaps, but its current listing also doesn't include a mouse. At under $26 it's the cheapest genuinely mechanical option in this entire guide, worth pairing with a separate budget mouse if a true mechanical feel matters more than getting a matched set.\n\nAnti-ghosting and 11 programmable backlight modes add gaming-style extras that a pure office typist may not need, but the hot-swap sockets mean the switches can be changed later without new hardware.\n\nHot-swappable switches for future customization. Set against that, no mouse included in the current listing. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size hot-swappable mechanical keyboard",
       "Red linear mechanical switches",
@@ -144,7 +144,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DsgOOj+1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKVY4WKT?tag=deskfinds0d-20",
     description:
-      "This is a premium combo, but it's built on Logitech's low-profile scissor-switch keyboard, not a mechanical one, paired with the MX Master mouse line. It's the most expensive pick in this guide, and that price buys genuinely excellent ergonomics and precision rather than a mechanical typing feel.\n\nFor buyers who came to this guide expecting mechanical switches, this pick is worth skipping unless build quality and mouse precision matter more to you than the switch technology, in which case it's a legitimately strong performance combo.",
+      "This is a premium combo, but it's built on Logitech's low-profile scissor-switch keyboard, not a mechanical one, paired with the MX Master mouse line. It's the most expensive pick in this guide, and that price buys genuinely excellent ergonomics and precision rather than a mechanical typing feel.\n\nFor buyers who came to this guide expecting mechanical switches, this pick is worth skipping unless build quality and mouse precision matter more to you than the switch technology, in which case it's a legitimately strong performance combo.\n\nA genuine advantage here is that backlit keyboard for low-light offices. The tradeoff is not a mechanical keyboard despite the mechanical combo search intent.",
     specs: [
       "Full-size low-profile scissor-switch keyboard",
       "Precision performance mouse included",
@@ -175,7 +175,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31proj8-YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBPNWCVS?tag=deskfinds0d-20",
     description:
-      "The MK540 is a standard membrane keyboard, not a mechanical one, matched with a full-size mouse in a single wireless receiver setup. It's a reliable, no-frills full-size combo for a home office rather than a mechanical typing experience.\n\nIts main strength is simplicity, one receiver for both devices, a spill-resistant keyboard design, and a comfortable full-size layout with a number pad, all at a mid-range price.",
+      "The MK540 is a standard membrane keyboard, not a mechanical one, matched with a full-size mouse in a single wireless receiver setup. It's a reliable, no-frills full-size combo for a home office rather than a mechanical typing experience.\n\nIts main strength is simplicity, one receiver for both devices, a spill-resistant keyboard design, and a comfortable full-size layout with a number pad, all at a mid-range price.\n\nSpill-resistant keyboard construction. That's a real strength, but weigh it against the flip side: not a mechanical keyboard.",
     specs: [
       "Full-size membrane keyboard with number pad",
       "Full-size wireless mouse included",
@@ -206,7 +206,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ofUJaw9XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089KV4YYX?tag=deskfinds0d-20",
     description:
-      "Logitech built the MK295 specifically around SilentTouch technology, reducing keyboard and mouse click noise by a meaningful margin compared to a standard membrane combo. It's not a mechanical keyboard, but for a shared office or a video-call-heavy day, its quietness is arguably a bigger practical win than mechanical switches would be.\n\nA full-size layout with a number pad and a single wireless receiver keep the setup simple, and the low price makes it an easy, low-risk pick for a secondary desk.",
+      "Logitech built the MK295 specifically around SilentTouch technology, reducing keyboard and mouse click noise by a meaningful margin compared to a standard membrane combo. It's not a mechanical keyboard, but for a shared office or a video-call-heavy day, its quietness is arguably a bigger practical win than mechanical switches would be.\n\nA full-size layout with a number pad and a single wireless receiver keep the setup simple, and the low price makes it an easy, low-risk pick for a secondary desk.\n\nWorth calling out specifically: very affordable at under $33. The catch is not a mechanical keyboard.",
     specs: [
       "Full-size layout with number pad",
       "SilentTouch quiet keyboard and mouse technology",
@@ -237,7 +237,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31WcNEJA2vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F36RKWDH?tag=deskfinds0d-20",
     description:
-      "The MK250 connects over Bluetooth rather than a USB receiver, which frees up a USB-A port, a genuine advantage on a laptop with limited ports. It's a basic membrane keyboard and mouse pairing, not a mechanical one, aimed squarely at budget desk setups.\n\nAt under $23 it's one of the cheapest combos in this list, a reasonable pick for a secondary computer or a spare desk rather than a primary daily-use workstation.",
+      "The MK250 connects over Bluetooth rather than a USB receiver, which frees up a USB-A port, a genuine advantage on a laptop with limited ports. It's a basic membrane keyboard and mouse pairing, not a mechanical one, aimed squarely at budget desk setups.\n\nAt under $23 it's one of the cheapest combos in this list, a reasonable pick for a secondary computer or a spare desk rather than a primary daily-use workstation.\n\nVery low price. Set against that, not a mechanical keyboard. Both matter when comparing it to the other picks here.",
     specs: [
       "Compact membrane keyboard, not mechanical",
       "Bluetooth connection, no USB receiver needed",
@@ -268,7 +268,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41N1LPbRaCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079JLY5M5?tag=deskfinds0d-20",
     description:
-      "The MK270 is the most basic, most affordable combo in this entire list, a standard full-size membrane keyboard and mouse pair connected through a single 2.4GHz USB receiver. It makes no claim to mechanical switches, which makes its listing more honest than several pricier combos that lean on vague combo language.\n\nIt's a fine choice for a spare desk, a guest workstation, or any setup where the priority is a working keyboard and mouse at the lowest possible price, not a premium typing experience.",
+      "The MK270 is the most basic, most affordable combo in this entire list, a standard full-size membrane keyboard and mouse pair connected through a single 2.4GHz USB receiver. It makes no claim to mechanical switches, which makes its listing more honest than several pricier combos that lean on vague combo language.\n\nIt's a fine choice for a spare desk, a guest workstation, or any setup where the priority is a working keyboard and mouse at the lowest possible price, not a premium typing experience.\n\nA genuine advantage here is that reliable single-receiver 2.4GHz connection. The tradeoff is not a mechanical keyboard.",
     specs: [
       "Full-size membrane keyboard with number pad",
       "Full-size mouse included",
@@ -320,35 +320,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "True mechanical keyboard and mouse combos are genuinely rare",
-    explanation:
-      "Of the picks in this guide, only one keyboard uses genuine mechanical switches and comes matched with a mouse out of the box. The rest are either mechanical keyboards sold without a mouse, or mouse-included combos built on membrane or scissor-switch keyboards. If a search result promises a mechanical combo, check the actual switch spec before buying.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "A bundled mouse is rarely built to the same standard as the keyboard",
-    explanation:
-      "Combo listings that lead with the keyboard's mechanical switches often say little about the mouse's DPI range, button count, or sensor quality. If precise mouse control matters for your work, check the mouse's individual specs rather than assuming it matches the keyboard's build quality.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Mixing brands breaks software ecosystem features",
-    explanation:
-      "Pairing a mechanical keyboard from one brand with a separate mouse from another means running two configuration apps instead of one, and losing any RGB lighting sync or shared macro system between them. If a matched, single-app experience matters, a same-brand combo, even a non-mechanical one, is usually simpler to live with.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Check whether the keyboard and mouse share one receiver",
-    explanation:
-      "Some wireless combos pair the keyboard and mouse to a single USB receiver, using only one USB port total, while others need two separate receivers or a mix of Bluetooth and USB. A single-receiver combo is the better choice for a laptop with limited ports.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Wired mechanical keyboards need a mouse bought separately",
-    explanation:
-      "The most affordable genuinely mechanical keyboards in this category, including hot-swappable models, are frequently sold without any mouse at all. Budgeting for a separate mouse purchase is often the most honest path to a true mechanical setup rather than waiting for a perfectly matched combo to appear.",
-  },
-  {
-    criterion: "Quiet clicks can matter more than mechanical switches",
-    explanation:
-      "For a shared or open-plan office, a keyboard and mouse combo built around quiet operation, like a SilentTouch-branded pair, can be a more practical choice day to day than a louder mechanical keyboard, even if it lacks the mechanical typing feel some buyers want.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -361,62 +351,83 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You Actually Need",
-    intro:
-      "Since a true matched mechanical combo barely exists, deciding what to prioritize, the keyboard's switch type or a genuinely matched mouse, determines which pick fits.",
-    table: {
-      headers: ["Priority", "Trade-off", "Best pick"],
-      rows: [
-        ["A real mechanical keyboard, matched mouse included", "Fewer features, more casual design", "Logitech POP Keys + POP Mouse"],
-        ["A real mechanical keyboard, will buy mouse separately", "No bundled mouse", "Redragon K668 or Redragon 11-Mode"],
-        ["Best overall build quality, mechanical feel optional", "No mechanical switches, higher price", "Logitech MX Keys S Combo"],
-        ["Cheapest reliable combo", "Basic membrane feel, no extras", "Logitech MK270"],
+    "subheading": "By Switch Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Logitech POP Keys + POP Mouse Wireless Keyboard and Bluetooth Mouse Combo"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Office Environment",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $23",
+          "Logitech MK250 Bluetooth Wireless Keyboard and Mouse Combo"
+        ],
+        [
+          "Up to $200",
+          "Logitech MX Keys S Combo Performance Wireless Keyboard and Mouse"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wireless vs Wired Connection",
+    "cards": [
       {
-        label: "Open-plan or shared office",
-        text: "The Logitech MK295 SilentTouch combo minimizes both keyboard and mouse click noise, more relevant here than mechanical switches would be.",
+        "label": "Wireless",
+        "text": "No desk cable, worth checking for a low-latency 2.4GHz dongle option beyond just Bluetooth. In this comparison: Logitech POP Keys + POP Mouse Wireless Keyboard and Bluetooth Mouse Combo, Logitech MX Keys S Combo Performance Wireless Keyboard and Mouse, Logitech MK540 Full Size Advanced Wireless Keyboard and Mouse Combo, Logitech MK295 Full Size Silent Wireless Keyboard Mouse Combo, Logitech MK250 Bluetooth Wireless Keyboard and Mouse Combo, Logitech MK270 Full Size Wireless Keyboard and Mouse Combo."
       },
       {
-        label: "Private office or home office",
-        text: "A genuinely mechanical keyboard like the Redragon K668, paired with any separate mouse, gives real tactile feedback without disturbing anyone nearby.",
-      },
-      {
-        label: "Laptop with limited USB ports",
-        text: "The Logitech MK250 connects over Bluetooth, using zero USB ports, or choose any single-receiver combo like the MK540 or MK295 to use only one port for both devices.",
-      },
-      {
-        label: "Secondary or guest desk",
-        text: "The Logitech MK270 is the cheapest reliable option in this list and doesn't need to match the mechanical feel of a primary daily-use keyboard.",
-      },
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, the safer choice for competitive gaming. In this comparison: Redragon K668 RGB Gaming Keyboard, Redragon Mechanical Gaming Keyboard."
+      }
     ],
+    "note": "Default to wired if competitive gaming latency matters, wireless for general typing and office use."
   },
   {
-    subheading: "Wireless Receiver Sharing at a Glance",
-    intro:
-      "Whether a combo shares one receiver or needs two affects how many USB ports it actually uses.",
-    table: {
-      headers: ["Combo", "Receiver setup", "Ports used"],
-      rows: [
-        ["Logitech MK540", "Single Unifying receiver", "1 USB port"],
-        ["Logitech MK295", "Single Unifying receiver", "1 USB port"],
-        ["Logitech MK270", "Single Unifying receiver", "1 USB port"],
-        ["Logitech MK250", "Bluetooth only", "0 USB ports"],
-        ["Logitech MX Keys S Combo", "Bluetooth or Logi Bolt receiver", "0-1 USB port depending on mode"],
-        ["Logitech POP Keys + POP Mouse", "Bluetooth, paired separately", "0 USB ports"],
-      ],
-    },
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. Logitech POP Keys + POP Mouse Wireless Keyboard and Bluetooth Mouse Combo is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "If You Want a Real Mechanical Keyboard, Plan for a Separate Mouse",
-    intro:
-      "Since only one pick in this guide ships as a true mechanical-plus-mouse pair, most buyers chasing a genuine mechanical feel should budget for the keyboard and mouse as two purchases.",
-    note: "A $25-40 mechanical keyboard like either Redragon pick, paired with almost any $15-25 basic wired or wireless mouse, usually costs about the same as a single premium non-mechanical combo like the MX Keys S Combo, while actually delivering mechanical switches under your fingers.",
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech POP Keys + POP Mouse Wireless Keyboard and Bluetooth Mouse Combo is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Logitech MX Keys S Combo Performance Wireless Keyboard and Mouse's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where Logitech MK250 Bluetooth Wireless Keyboard and Mouse Combo covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

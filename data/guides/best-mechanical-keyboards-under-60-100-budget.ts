@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gvYA4qsmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14N2QZF?tag=deskfinds0d-20",
     description:
-      "The AULA F75 Pro sits in the $60 to $100 tier and adds features that are genuinely rare at this price, hot-swappable sockets, pre-lubed switches from the factory, and a rotary knob for volume control. Pre-lubing at this price point is a real differentiator since budget hot-swap sockets can otherwise develop loose contact or bent pins after a few switch swaps.\n\nIt connects over 2.4GHz, USB-C, or Bluetooth 5.0, giving it more flexibility than most budget boards that only offer one connection type. The 75% layout keeps arrow keys and a few navigation keys while trimming the numpad, a smaller learning curve than a 60% board if you're used to a full-size layout.",
+      "The AULA F75 Pro sits in the $60 to $100 tier and adds features that are genuinely rare at this price, hot-swappable sockets, pre-lubed switches from the factory, and a rotary knob for volume control. Pre-lubing at this price point is a real differentiator since budget hot-swap sockets can otherwise develop loose contact or bent pins after a few switch swaps.\n\nIt connects over 2.4GHz, USB-C, or Bluetooth 5.0, giving it more flexibility than most budget boards that only offer one connection type. The 75% layout keeps arrow keys and a few navigation keys while trimming the numpad, a smaller learning curve than a 60% board if you're used to a full-size layout.\n\n3 connection modes in one board. That's a real strength, but weigh it against the flip side: above the $60 tier, closer to the $100 ceiling.",
     specs: [
       "75% layout, hot-swappable sockets",
       "Pre-lubed Reaper switches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rtIUUw7bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z6X4NK3?tag=deskfinds0d-20",
     description:
-      "The Logitech G413 SE is the cheaper of these 2 picks and the only one under the $60 line, a solid full-size mechanical board from an established brand with a track record for firmware and driver support that smaller budget brands often can't match. That established support matters more than it sounds, community and proprietary software from lesser-known brands is frequently abandoned after a couple of years, while Logitech's software footprint has stayed maintained for years.\n\nIt is wired only and does not offer hot-swap sockets, so the switches are fixed for the life of the board, a tradeoff worth knowing if you want to experiment with switch feel later. In exchange, you get a full numpad and dedicated arrow keys with zero learning curve if you're moving from any standard full-size keyboard.",
+      "The Logitech G413 SE is the cheaper of these 2 picks and the only one under the $60 line, a solid full-size mechanical board from an established brand with a track record for firmware and driver support that smaller budget brands often can't match. That established support matters more than it sounds, community and proprietary software from lesser-known brands is frequently abandoned after a couple of years, while Logitech's software footprint has stayed maintained for years.\n\nIt is wired only and does not offer hot-swap sockets, so the switches are fixed for the life of the board, a tradeoff worth knowing if you want to experiment with switch feel later. In exchange, you get a full numpad and dedicated arrow keys with zero learning curve if you're moving from any standard full-size keyboard.\n\nWorth calling out specifically: full-size layout, no learning curve for numpad users. The catch is no hot-swap sockets, switches are fixed.",
     specs: [
       "Full-size layout with numpad",
       "Wired USB connection",
@@ -136,35 +136,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Many budget mechanical keyboard listings are actually membrane",
-    explanation:
-      "A large share of Amazon listings using the phrase mechanical keyboard in the title are membrane boards underneath, especially in the sub-$30 range. Always check the listing's switch specification, not just the title, before assuming a cheap board is genuinely mechanical.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "Switch feel varies more at the budget tier",
-    explanation:
-      "Budget keyboards often use lesser-known or clone switches rather than established switch brands, and feel can be inconsistent, some units have noticeable stem wobble or a scratchy travel, even when priced identically to a smoother-feeling unit. Reading recent buyer feedback on switch feel matters more at this tier than on premium boards.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Stabilizer rattle is common and fixable",
-    explanation:
-      "Spacebar and enter key rattle from unlubricated stabilizers is one of the most common budget mechanical keyboard complaints. It is fixable with stabilizer lubing, but factor in whether you're willing to do that modding step before buying a board purely on price.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Hot-swap socket quality is not the same as having hot-swap at all",
-    explanation:
-      "A hot-swappable board lets you change switches without soldering, but cheap sockets can develop bent pins or loose contact after a handful of swaps. A pre-lubed hot-swap board from a brand that specifies socket quality, like the AULA F75 Pro, is a safer bet than a no-name hot-swap board with no socket details listed.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "$60 vs $100 tier: what the extra money buys",
-    explanation:
-      "The roughly $60 tier typically gets you gasket mount styling, hot-swap, and sometimes wireless, while the $80 to $100 tier adds better brand trust, quality control, and community or company support. The extra $20 to $40 is worth it mainly if you want wireless plus hot-swap in the same board, as with the AULA F75 Pro.",
-  },
-  {
-    criterion: "Firmware support determines how long a board stays useful",
-    explanation:
-      "Keyboards with open-source community firmware support, like QMK or VIA, tend to keep working and stay remappable indefinitely. Proprietary remapping software from smaller budget brands is more likely to be abandoned within a couple of years, which matters if you rely on custom key remaps.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -177,55 +167,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Under $60 or Up to $100",
-    intro:
-      "Only 2 of the 8 mechanical keyboard cheap listings we checked were genuinely mechanical per their real titles, and they land in different budget tiers.",
-    table: {
-      headers: ["Budget", "Best pick", "Why"],
-      rows: [
-        ["Strictly under $60", "Logitech G413 SE ($56.79)", "Only pick that clears the $60 line, wired full-size"],
-        ["Up to $100, want wireless and hot-swap", "AULA F75 Pro ($66.49)", "Hot-swap, pre-lubed switches, 3 connection modes"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "AULA F75 Pro Wireless Mechanical Keyboard"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "AULA F75 Pro Wireless Mechanical Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wired or Wireless",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $57",
+          "Logitech G413 SE Full"
+        ],
+        [
+          "Up to $67",
+          "AULA F75 Pro Wireless Mechanical Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wireless vs Wired Connection",
+    "cards": [
       {
-        label: "Want zero setup, wired reliability",
-        text: "The Logitech G413 SE connects over a single USB cable with no pairing, no charging, and an established brand's driver support behind it.",
+        "label": "Wireless",
+        "text": "No desk cable, worth checking for a low-latency 2.4GHz dongle option beyond just Bluetooth. In this comparison: AULA F75 Pro Wireless Mechanical Keyboard."
       },
       {
-        label: "Want wireless flexibility across devices",
-        text: "The AULA F75 Pro switches between 2.4GHz, USB-C, and Bluetooth 5.0, useful if you move between a desktop and a laptop.",
-      },
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, the safer choice for competitive gaming. In this comparison: Logitech G413 SE Full."
+      }
     ],
+    "note": "Default to wired if competitive gaming latency matters, wireless for general typing and office use."
   },
   {
-    subheading: "Want to Customize Switches Later",
-    intro:
-      "Only one of these two picks lets you swap switches without soldering.",
-    table: {
-      headers: ["Need", "Best pick", "Note"],
-      rows: [
-        ["Hot-swap sockets to try different switches", "AULA F75 Pro", "Ships with pre-lubed switches, sockets built for swapping"],
-        ["Fixed switches you never plan to change", "Logitech G413 SE", "No hot-swap, but no socket wear risk either"],
-      ],
-    },
-    note: "If you plan to swap switches more than once or twice, a pre-lubed hot-swap board from a brand that specifies socket quality is a safer long-term bet than a no-name hot-swap board with no socket details listed.",
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. AULA F75 Pro Wireless Mechanical Keyboard is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Layout Preference",
-    intro:
-      "These two picks land on opposite ends of the layout spectrum, which matters as much as price for daily typing comfort.",
-    table: {
-      headers: ["Layout need", "Best pick", "Tradeoff"],
-      rows: [
-        ["Full numpad, no learning curve", "Logitech G413 SE", "Wider footprint pushes the mouse further right"],
-        ["Smaller footprint, still has arrow keys", "AULA F75 Pro", "75% layout, easier transition than a 60% board"],
-      ],
-    },
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
+      },
+      {
+        "label": "In this comparison",
+        "text": "AULA F75 Pro Wireless Mechanical Keyboard is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where AULA F75 Pro Wireless Mechanical Keyboard's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where Logitech G413 SE Full covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

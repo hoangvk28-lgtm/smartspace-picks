@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rjOMIKrmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TR4Y91J?tag=deskfinds0d-20",
     description:
-      "The RisoPhy is a full 104-key layout built on blue clicky switches, the loudest and most tactile switch type in this list, with anti-ghosting and spill resistance for basic peace of mind at a low price. Blue switches produce a distinct click sound on every keypress, which some typists love for the feedback but which is genuinely disruptive if you're on frequent voice calls nearby.\n\nABS keycaps keep costs down but will show shine and wear faster than PBT over a year of regular use. This is a reasonable entry point for someone curious about mechanical switches who is not yet ready to spend on a premium board.",
+      "The RisoPhy is a full 104-key layout built on blue clicky switches, the loudest and most tactile switch type in this list, with anti-ghosting and spill resistance for basic peace of mind at a low price. Blue switches produce a distinct click sound on every keypress, which some typists love for the feedback but which is genuinely disruptive if you're on frequent voice calls nearby.\n\nABS keycaps keep costs down but will show shine and wear faster than PBT over a year of regular use. This is a reasonable entry point for someone curious about mechanical switches who is not yet ready to spend on a premium board.\n\nFull 104-key layout with number pad. That's a real strength, but weigh it against the flip side: blue switches are the loudest option here, poor fit for shared spaces or Zoom calls.",
     specs: [
       "104-key full layout",
       "Blue clicky switches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-A9KzCP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WS7KSGT?tag=deskfinds0d-20",
     description:
-      "The K4 packs a near-full 100-key layout into a 96% frame that trims excess bezel space, and it runs on Keychron's brown tactile switches, a quieter middle ground between clicky and fully linear. Modern 2.4GHz and Bluetooth 5.1 wireless on a mechanical keyboard runs at roughly 1ms of added latency, which is effectively indistinguishable from a wired connection for typing and most gaming.\n\nIt supports both wireless and wired USB modes, so battery anxiety isn't a dealbreaker, you can plug in when needed. White LED backlighting and N-key rollover round out a well-specced board for the price.",
+      "The K4 packs a near-full 100-key layout into a 96% frame that trims excess bezel space, and it runs on Keychron's brown tactile switches, a quieter middle ground between clicky and fully linear. Modern 2.4GHz and Bluetooth 5.1 wireless on a mechanical keyboard runs at roughly 1ms of added latency, which is effectively indistinguishable from a wired connection for typing and most gaming.\n\nIt supports both wireless and wired USB modes, so battery anxiety isn't a dealbreaker, you can plug in when needed. White LED backlighting and N-key rollover round out a well-specced board for the price.\n\nWorth calling out specifically: wireless latency is effectively unnoticeable at roughly 1ms. The catch is not hot-swappable on this version.",
     specs: [
       "96% compact full-size layout",
       "Brown tactile switches",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QS87iIEQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JG7KRC7?tag=deskfinds0d-20",
     description:
-      "The C2 is a straightforward wired full-size 104-key board using Keychron's brown switches, aimed at buyers who want a proven tactile feel without wireless complexity or added cost. A braided USB-C cable improves durability over a basic rubber cord, a small but real detail on a keyboard that gets moved or plugged in daily.\n\nRetro-style ABS keycaps give it a distinct look, though as with any ABS set, expect visible shine on the most-used keys after a year of daily typing versus a PBT equivalent.",
+      "The C2 is a straightforward wired full-size 104-key board using Keychron's brown switches, aimed at buyers who want a proven tactile feel without wireless complexity or added cost. A braided USB-C cable improves durability over a basic rubber cord, a small but real detail on a keyboard that gets moved or plugged in daily.\n\nRetro-style ABS keycaps give it a distinct look, though as with any ABS set, expect visible shine on the most-used keys after a year of daily typing versus a PBT equivalent.\n\nBraided USB-C cable resists fraying. Set against that, aBS keycaps will show wear over a year of use. Both matter when comparing it to the other picks here.",
     specs: [
       "104-key full-size layout",
       "Brown tactile switches",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31OJJVgcA9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DSW8TF?tag=deskfinds0d-20",
     description:
-      "The G515 uses a low-profile tenkeyless design that removes the number pad for a more compact desk footprint while keeping Logitech's Lightspeed wireless, which delivers the same near-zero latency as a wired connection. Low-profile switches have shorter travel than standard mechanical switches, which reduces both noise and finger fatigue during long sessions.\n\nTactile feedback here comes without the sharp click of a blue switch, making it a reasonable pick for anyone who wants a low-profile gaming board that won't be as disruptive on a shared call as a louder clicky keyboard.",
+      "The G515 uses a low-profile tenkeyless design that removes the number pad for a more compact desk footprint while keeping Logitech's Lightspeed wireless, which delivers the same near-zero latency as a wired connection. Low-profile switches have shorter travel than standard mechanical switches, which reduces both noise and finger fatigue during long sessions.\n\nTactile feedback here comes without the sharp click of a blue switch, making it a reasonable pick for anyone who wants a low-profile gaming board that won't be as disruptive on a shared call as a louder clicky keyboard.\n\nA genuine advantage here is that lightspeed wireless is effectively as fast as wired. The tradeoff is higher price than the wired picks in this list.",
     specs: [
       "Tenkeyless (TKL) low-profile layout",
       "Tactile low-profile switches",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41j4+Pxjo0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D7J5XVXG?tag=deskfinds0d-20",
     description:
-      "The K70 CORE TKL uses pre-lubed MLX Red linear switches, smooth and quiet with no tactile bump or click, plus factory sound dampening foam that reduces the hollow resonance common on unmodded keyboards. Linear switches like these are a solid choice for both gaming, where consistent, low-noise keypresses help, and shared office space, where a clicky switch would stand out.\n\nA 1000Hz polling rate keeps input response tight for gaming, while double-shot ABS keycaps and SOCD input handling round out a board built with competitive use in mind but quiet enough for daily office typing.",
+      "The K70 CORE TKL uses pre-lubed MLX Red linear switches, smooth and quiet with no tactile bump or click, plus factory sound dampening foam that reduces the hollow resonance common on unmodded keyboards. Linear switches like these are a solid choice for both gaming, where consistent, low-noise keypresses help, and shared office space, where a clicky switch would stand out.\n\nA 1000Hz polling rate keeps input response tight for gaming, while double-shot ABS keycaps and SOCD input handling round out a board built with competitive use in mind but quiet enough for daily office typing.\n\n1000Hz polling rate suits competitive gaming. That's a real strength, but weigh it against the flip side: wired only, no wireless option.",
     specs: [
       "Tenkeyless layout",
       "Pre-lubed MLX Red linear switches",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nJY8zgznL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQB9VCV?tag=deskfinds0d-20",
     description:
-      "The G PRO TKL uses genuine clicky switches tuned for competitive gaming feedback, giving the sharpest, most audible confirmation of any keypress in this list. That distinct clicky sound profile, sometimes described as a crisp click compared to the deeper thock of some linear boards, is a major factor for typists who specifically want tactile and audible confirmation.\n\nA compact TKL body and detachable cable make it easy to travel with for LAN events or moving between a desk and a laptop setup, but the loud switch profile makes it a poor fit for open-plan offices or frequent video calls.",
+      "The G PRO TKL uses genuine clicky switches tuned for competitive gaming feedback, giving the sharpest, most audible confirmation of any keypress in this list. That distinct clicky sound profile, sometimes described as a crisp click compared to the deeper thock of some linear boards, is a major factor for typists who specifically want tactile and audible confirmation.\n\nA compact TKL body and detachable cable make it easy to travel with for LAN events or moving between a desk and a laptop setup, but the loud switch profile makes it a poor fit for open-plan offices or frequent video calls.\n\nWorth calling out specifically: detachable cable simplifies transport. The catch is loudest switch type here alongside the RisoPhy, disruptive on calls.",
     specs: [
       "Tenkeyless layout",
       "Clicky mechanical switches",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41khzfsV4mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CF3VGQFL?tag=deskfinds0d-20",
     description:
-      "This Redragon board pairs quiet-ish red linear switches with hot-swappable sockets at the lowest price in this list, meaning you can pop out the stock switches and try different ones later without soldering. That upgrade path matters for the value proposition, hot-swap support extends a budget keyboard's useful life well past its stock switch feel.\n\nDouble-shot PBT keycaps here are a genuine upgrade over the ABS keycaps found on most keyboards in this price range, resisting shine and wear far better over a year of daily use.",
+      "This Redragon board pairs quiet-ish red linear switches with hot-swappable sockets at the lowest price in this list, meaning you can pop out the stock switches and try different ones later without soldering. That upgrade path matters for the value proposition, hot-swap support extends a budget keyboard's useful life well past its stock switch feel.\n\nDouble-shot PBT keycaps here are a genuine upgrade over the ABS keycaps found on most keyboards in this price range, resisting shine and wear far better over a year of daily use.\n\nPBT keycaps resist shine better than the ABS on similarly priced boards. Set against that, wired only, no wireless option. Both matter when comparing it to the other picks here.",
     specs: [
       "Red linear switches, hot-swappable",
       "Double-shot PBT keycaps",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qNb+bxSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDWP1D58?tag=deskfinds0d-20",
     description:
-      "The K668 extends the Redragon hot-swap formula to a full 108-key layout with 4 extra hotkeys, built-in sound-absorbing foam to reduce hollow resonance, and red linear switches for a quiet, consistent keypress. Two included sets of mixed-color keycaps let you customize the look without buying a separate keycap set.\n\nLike its smaller sibling, hot-swap sockets mean the stock red switches can be replaced later, extending the board's usefulness as your switch preferences change over time.",
+      "The K668 extends the Redragon hot-swap formula to a full 108-key layout with 4 extra hotkeys, built-in sound-absorbing foam to reduce hollow resonance, and red linear switches for a quiet, consistent keypress. Two included sets of mixed-color keycaps let you customize the look without buying a separate keycap set.\n\nLike its smaller sibling, hot-swap sockets mean the stock red switches can be replaced later, extending the board's usefulness as your switch preferences change over time.\n\nA genuine advantage here is that sound-absorbing foam reduces hollow keyboard resonance. The tradeoff is wired only.",
     specs: [
       "108-key full layout with 4 extra hotkeys",
       "Red linear switches, hot-swappable",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match switch type to your actual environment",
-    explanation:
-      "Clicky switches like blue or the G PRO's tuned clicky switches produce the loudest, most audible feedback and can be genuinely disruptive when picked up by a nearby microphone during video calls. If you work from home or share a space, a linear or low-profile switch, like the Corsair K70 CORE or Logitech G515, is a far more considerate choice.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "Understand what 'thock' and 'clack' actually mean",
-    explanation:
-      "In plain terms, a deeper, more muted sound is often called a thock, while a sharper, higher-pitched sound is called a clack or click. Linear switches paired with sound dampening foam, like the Corsair K70 CORE, tend toward a thockier sound, while clicky switches like the RisoPhy or G PRO produce a sharper click on every press.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "PBT keycaps last meaningfully longer than ABS",
-    explanation:
-      "ABS keycaps, found on most budget and mid-range boards in this list, develop a visible shine on the most-used keys within a few months of daily typing. PBT keycaps, like those on the Redragon hot-swappable pick, resist this wear far longer and are worth prioritizing if keycap longevity matters to you.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Wireless mechanical latency is no longer a real gaming concern",
-    explanation:
-      "Modern 2.4GHz and Bluetooth mechanical keyboards, like the Keychron K4 and Logitech G515, run at roughly 1ms of added input latency, which is effectively indistinguishable from a wired connection for both typing and most gaming. Don't rule out wireless mechanical keyboards over outdated lag assumptions.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Hall effect and rapid trigger are separate from standard mechanical switches",
-    explanation:
-      "Standard mechanical switches, like the ones in this list, register a keypress at a fixed actuation point. Hall effect and optical switches use magnetic or light-based sensing to allow adjustable actuation points and rapid trigger, a feature aimed specifically at competitive gaming rather than everyday typing or office use.",
-  },
-  {
-    criterion: "Hot-swap sockets extend a budget keyboard's useful life",
-    explanation:
-      "A hot-swappable board, like either Redragon pick in this list, lets you replace the stock switches later without soldering if your feel or noise preferences change. This is worth prioritizing on a budget purchase since it removes the need to buy an entirely new keyboard down the line.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,76 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Where You'll Use It",
-    intro:
-      "Switch noise is the single biggest factor competitors gloss over when comparing mechanical keyboards for different environments.",
-    table: {
-      headers: ["Environment", "Recommended switch type", "Best pick"],
-      rows: [
-        ["Private room, no calls", "Clicky, any noise level", "RisoPhy 104-Key Blue Switch, Logitech G PRO"],
-        ["Shared office or frequent Zoom calls", "Linear or low-profile, quiet", "Corsair K70 CORE TKL, Logitech G515"],
-        ["Mixed use, occasional calls", "Tactile, moderate noise", "Keychron K4, Keychron C2"],
-        ["Budget with future flexibility", "Hot-swappable, switch to any type later", "Redragon Hot-Swappable, Redragon K668"],
+    "subheading": "By Switch Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Clicky switches for tactile feedback",
+          "RisoPhy Mechanical Gaming Keyboard"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "RisoPhy Mechanical Gaming Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Wired vs. Wireless Priority",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $26",
+          "Redragon Mechanical Gaming Keyboard"
+        ],
+        [
+          "Up to $125",
+          "Logitech G515 Lightspeed TKL Wireless Gaming Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wireless vs Wired Connection",
+    "cards": [
       {
-        label: "Want zero battery management",
-        text: "The Corsair K70 CORE TKL, Keychron C2, and both Redragon picks are wired only, removing any charging concerns entirely.",
+        "label": "Wireless",
+        "text": "No desk cable, worth checking for a low-latency 2.4GHz dongle option beyond just Bluetooth. In this comparison: Keychron K4 96% Layout Wireless Bluetooth/Wired Mechanical Keyboard, Keychron C2 Full Size Wired Mechanical Keyboard, Logitech G515 Lightspeed TKL Wireless Gaming Keyboard."
       },
       {
-        label: "Want desk flexibility with proven low latency",
-        text: "The Keychron K4 and Logitech G515 both run wireless at roughly 1ms latency, indistinguishable from wired for typing or gaming.",
-      },
-      {
-        label: "Want a wired fallback just in case",
-        text: "The Keychron K4 supports both wireless and wired USB modes, so a dead battery never fully takes it offline.",
-      },
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, the safer choice for competitive gaming. In this comparison: RisoPhy Mechanical Gaming Keyboard, Corsair K70 CORE TKL RGB Tenkeyless Mechanical Wired Gaming Keyboard, Logitech G PRO Mechanical TKL Tenkeyless Gaming Keyboard, Redragon Mechanical Gaming Keyboard, Redragon K668 RGB Gaming Keyboard."
+      }
     ],
+    "note": "Default to wired if competitive gaming latency matters, wireless for general typing and office use."
   },
   {
-    subheading: "By Layout Size and Desk Space",
-    table: {
-      headers: ["Layout", "Desk space saved", "Best pick"],
-      rows: [
-        ["Full-size 104-108 key", "None, full number pad included", "RisoPhy, Keychron C2, Redragon K668"],
-        ["96% compact full-size", "Moderate, trimmed bezels", "Keychron K4"],
-        ["Tenkeyless (TKL), no number pad", "Significant, frees mouse space", "Logitech G515, Corsair K70 CORE, Logitech G PRO"],
-      ],
-    },
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. RisoPhy Mechanical Gaming Keyboard is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Keycap Material Priority",
-    intro:
-      "ABS keycaps are the default on most boards in this price range, but they visibly shine within months of daily use, while PBT resists wear far longer.",
-    cards: [
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
       {
-        label: "Keycap longevity matters most",
-        text: "The Redragon Hot-Swappable pick is the only board in this list with double-shot PBT keycaps included at this price.",
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
       },
       {
-        label: "Keycap material is a lower priority",
-        text: "The rest of the list ships with ABS keycaps, fine for shorter-term use or if you plan to swap keycaps yourself later.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "RisoPhy Mechanical Gaming Keyboard is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Gaming vs. Everyday Typing Priority",
-    intro:
-      "Competitive gaming features like high polling rate and rapid trigger matter far less for everyday typing and office work.",
-    table: {
-      headers: ["Primary use", "What to prioritize", "Best pick"],
-      rows: [
-        ["Competitive gaming, fast response", "High polling rate, linear or clicky switches", "Corsair K70 CORE TKL, Logitech G PRO"],
-        ["Everyday typing, office work", "Tactile feel, quieter switches", "Keychron K4, Keychron C2"],
-        ["Mixed gaming and typing, low-profile comfort", "Short switch travel, wireless", "Logitech G515 Lightspeed TKL"],
-      ],
-    },
-    note: "For true Hall effect rapid trigger, the feature that lets you adjust exactly how far a key must travel before it registers, a dedicated Hall effect keyboard is required rather than any standard mechanical switch in this list.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Logitech G515 Lightspeed TKL Wireless Gaming Keyboard's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where Redragon Mechanical Gaming Keyboard covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rK3ndC8VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK3JCHX?tag=deskfinds0d-20",
     description:
-      "This is the only keyboard in this list built specifically for Mac from the ground up, with Mac keycap legends, correct media key shortcuts, and low-profile mechanical switches tuned for quiet, precise typing. There's no remapping or third-party software needed to get expected Mac shortcut behavior.\n\nA compact 75 percent layout drops the number pad to save desk space, and it connects wirelessly with a rechargeable battery, making it a clean, native fit for a MacBook or Mac desktop setup.",
+      "This is the only keyboard in this list built specifically for Mac from the ground up, with Mac keycap legends, correct media key shortcuts, and low-profile mechanical switches tuned for quiet, precise typing. There's no remapping or third-party software needed to get expected Mac shortcut behavior.\n\nA compact 75 percent layout drops the number pad to save desk space, and it connects wirelessly with a rechargeable battery, making it a clean, native fit for a MacBook or Mac desktop setup.\n\nCorrect Fn-row and media key behavior without remapping. That's a real strength, but weigh it against the flip side: no number pad.",
     specs: [
       "75% compact layout, Mac-native keycaps",
       "Low-profile tactile mechanical switches",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aQEgCoeRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK63PKB?tag=deskfinds0d-20",
     description:
-      "Identical hardware to the Space Grey MX Mechanical Mini Mac above, in a lighter Pale Grey finish for buyers matching a bright desk setup. It carries the same Mac-native keycaps, correct shortcut behavior, and low-profile mechanical switches.\n\nChoose this over the Space Grey version purely on color preference, since the switch type, connectivity, and Mac software behavior are otherwise the same.",
+      "Identical hardware to the Space Grey MX Mechanical Mini Mac above, in a lighter Pale Grey finish for buyers matching a bright desk setup. It carries the same Mac-native keycaps, correct shortcut behavior, and low-profile mechanical switches.\n\nChoose this over the Space Grey version purely on color preference, since the switch type, connectivity, and Mac software behavior are otherwise the same.\n\nWorth calling out specifically: correct Fn-row and media key behavior without remapping. The catch is no number pad.",
     specs: [
       "75% compact layout, Mac-native keycaps",
       "Low-profile tactile mechanical switches",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-A9KzCP3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WS7KSGT?tag=deskfinds0d-20",
     description:
-      "The K4 packs a full 100-key layout, including arrow keys and a number pad, into a tighter 96 percent footprint than a traditional full-size board, and it explicitly supports Mac alongside Windows. Keychron Super Brown tactile switches give quiet-ish tactile feedback with white LED backlighting.\n\nIt connects over Bluetooth 5.1 or wired USB, letting it pair with a MacBook wirelessly and switch back to wired when the battery runs low, without losing keyboard function either way.",
+      "The K4 packs a full 100-key layout, including arrow keys and a number pad, into a tighter 96 percent footprint than a traditional full-size board, and it explicitly supports Mac alongside Windows. Keychron Super Brown tactile switches give quiet-ish tactile feedback with white LED backlighting.\n\nIt connects over Bluetooth 5.1 or wired USB, letting it pair with a MacBook wirelessly and switch back to wired when the battery runs low, without losing keyboard function either way.\n\nWorks over Bluetooth or wired connection. Set against that, not Mac-native, uses standard Windows-style modifier legends. Both matter when comparing it to the other picks here.",
     specs: [
       "96% layout with number pad and arrow keys",
       "Keychron Super Brown tactile mechanical switches",
@@ -144,7 +144,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k46NzwzHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LSJ4RHH?tag=deskfinds0d-20",
     description:
-      "The K3 V2 is Keychron's ultra-slim low-profile mechanical board, an 84-key layout that trims a number pad while keeping genuine mechanical switches under a thin, MacBook-like profile. It's explicitly listed as compatible with Mac and Windows.\n\nWhite LED backlighting and both Bluetooth and wired USB connectivity round out a keyboard designed to sit visually close to a Mac laptop's own keyboard height, useful for buyers who dislike a tall keyboard next to a low laptop deck.",
+      "The K3 V2 is Keychron's ultra-slim low-profile mechanical board, an 84-key layout that trims a number pad while keeping genuine mechanical switches under a thin, MacBook-like profile. It's explicitly listed as compatible with Mac and Windows.\n\nWhite LED backlighting and both Bluetooth and wired USB connectivity round out a keyboard designed to sit visually close to a Mac laptop's own keyboard height, useful for buyers who dislike a tall keyboard next to a low laptop deck.\n\nA genuine advantage here is that genuine low-profile mechanical switches. The tradeoff is no number pad.",
     specs: [
       "84-key compact layout, no number pad",
       "Low-profile mechanical Brown switches",
@@ -175,7 +175,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QS87iIEQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JG7KRC7?tag=deskfinds0d-20",
     description:
-      "The C2 is the most affordable pick in this list, a full 104-key wired mechanical keyboard with tactile brown switches, explicitly listed as compatible with Mac. Its full-size layout with a number pad suits spreadsheet and finance work on a Mac desktop.\n\nA USB-C braided cable delivers a stable wired connection, no Bluetooth pairing or battery to manage, which some Mac desktop users prefer for a primary keyboard that never needs charging.",
+      "The C2 is the most affordable pick in this list, a full 104-key wired mechanical keyboard with tactile brown switches, explicitly listed as compatible with Mac. Its full-size layout with a number pad suits spreadsheet and finance work on a Mac desktop.\n\nA USB-C braided cable delivers a stable wired connection, no Bluetooth pairing or battery to manage, which some Mac desktop users prefer for a primary keyboard that never needs charging.\n\nFull-size layout with number pad. That's a real strength, but weigh it against the flip side: wired only, no wireless option.",
     specs: [
       "Full 104-key layout with number pad",
       "Tactile brown mechanical switches",
@@ -206,7 +206,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YovoriX2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCVPGB9N?tag=deskfinds0d-20",
     description:
-      "The K2 HE uses Hall effect magnetic switches rather than traditional mechanical contact switches, enabling adjustable actuation and Rapid Trigger response that a standard mechanical switch can't match, and it's explicitly listed as compatible with Mac, Windows, and Linux. QMK support adds deep customization for buyers willing to configure it.\n\nIt connects over 2.4GHz or Bluetooth 5.2, and the magnetic switch design is also more resistant to wear over time than a traditional mechanical switch, since there's no physical metal contact point to degrade.",
+      "The K2 HE uses Hall effect magnetic switches rather than traditional mechanical contact switches, enabling adjustable actuation and Rapid Trigger response that a standard mechanical switch can't match, and it's explicitly listed as compatible with Mac, Windows, and Linux. QMK support adds deep customization for buyers willing to configure it.\n\nIt connects over 2.4GHz or Bluetooth 5.2, and the magnetic switch design is also more resistant to wear over time than a traditional mechanical switch, since there's no physical metal contact point to degrade.\n\nWorth calling out specifically: adjustable actuation point per key. The catch is higher price than standard mechanical picks.",
     specs: [
       "Compact layout, Hall effect magnetic switches",
       "Adjustable actuation, Rapid Trigger support",
@@ -237,7 +237,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PQ6Pcv3UL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14LQ9XW?tag=deskfinds0d-20",
     description:
-      "The V6 Max ships with hot-swappable Gateron Banana switches, meaning the switches themselves can be replaced without soldering if a buyer wants a different feel or a switch fails down the line. It's explicitly compatible with Mac, Windows, and Linux, and runs QMK firmware for full remapping.\n\nA full-size layout with RGB backlighting and 2.4GHz Bluetooth connectivity rounds out a board aimed at buyers who want to tune their keyboard over time rather than commit to fixed switches on day one.",
+      "The V6 Max ships with hot-swappable Gateron Banana switches, meaning the switches themselves can be replaced without soldering if a buyer wants a different feel or a switch fails down the line. It's explicitly compatible with Mac, Windows, and Linux, and runs QMK firmware for full remapping.\n\nA full-size layout with RGB backlighting and 2.4GHz Bluetooth connectivity rounds out a board aimed at buyers who want to tune their keyboard over time rather than commit to fixed switches on day one.\n\nConfirmed Mac, Windows, and Linux support. Set against that, not Mac-native, standard modifier legends. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size layout with RGB backlighting",
       "Hot-swappable Gateron Banana mechanical switches",
@@ -268,7 +268,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/410d2FTkvML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZ97PCG?tag=deskfinds0d-20",
     description:
-      "The K10 HE brings Hall effect magnetic switches and Rapid Trigger to a full-size layout with a number pad, and adds hot-swap sockets so the magnetic switches themselves can still be changed later. It's explicitly listed as compatible with Mac, Windows, and Linux.\n\nAn aluminum and wood frame gives it a heavier, more premium build than the plastic-cased picks in this list, and full-size custom RGB rounds out a board built for buyers who want both spreadsheet-friendly layout and cutting-edge switch technology.",
+      "The K10 HE brings Hall effect magnetic switches and Rapid Trigger to a full-size layout with a number pad, and adds hot-swap sockets so the magnetic switches themselves can still be changed later. It's explicitly listed as compatible with Mac, Windows, and Linux.\n\nAn aluminum and wood frame gives it a heavier, more premium build than the plastic-cased picks in this list, and full-size custom RGB rounds out a board built for buyers who want both spreadsheet-friendly layout and cutting-edge switch technology.\n\nA genuine advantage here is that hot-swappable despite using magnetic switches. The tradeoff is highest price in this list.",
     specs: [
       "Full-size layout with number pad",
       "Hot-swappable Hall effect magnetic switches",
@@ -320,35 +320,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Mac keycap legends matter more than a Bluetooth logo",
-    explanation:
-      "A keyboard can technically connect to a Mac over Bluetooth while still shipping with Windows-labeled keycaps, Win and Alt instead of Command and Option, which confuses a real share of Mac buyers when they unbox it. Only the MX Mechanical Mini Mac in this list ships with genuine Mac keycaps out of the box; every other pick uses standard modifier legends even though the underlying keyboard works fine on macOS.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "macOS reverses default function-key behavior",
-    explanation:
-      "F1 through F12 default to media keys like brightness and volume on Mac, the opposite of Windows, where they're typically remapped and treated as literal function keys by default. A mechanical keyboard built primarily for Windows may need a Fn-layer adjustment to get expected media-key shortcuts working the way a MacBook's own keyboard behaves.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Use macOS's built-in Modifier Keys tool before installing anything",
-    explanation:
-      "System Settings on a Mac includes a native Modifier Keys remapping tool under Keyboard settings that lets you swap Command, Option, and Control behavior for a specific external keyboard without any third-party software. This is the first thing to try when a non-Mac-native mechanical keyboard's modifier keys feel wrong before reaching for a utility like Karabiner-Elements.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Check Bluetooth version against your Mac's age",
-    explanation:
-      "Newer mechanical keyboards often use Bluetooth 5.1 or 5.2, which pairs reliably with Macs from roughly the last several years, but older pre-2017 Mac models running earlier Bluetooth versions can see connectivity drops or pairing failures. If you're using an older Mac, favor a keyboard with a 2.4GHz USB receiver option as a fallback over Bluetooth-only models.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Apple Silicon and Intel Macs mostly behave the same, with some tool exceptions",
-    explanation:
-      "Browser-based keyboard configuration tools generally work identically across Apple Silicon and Intel Macs, but some manufacturer-specific desktop configuration apps have had rockier support on one architecture or the other. If a keyboard relies on a native configurator app rather than a browser-based one, check recent compatibility notes for your specific Mac chip before buying.",
-  },
-  {
-    criterion: "A non-Mac keyboard can still work well with a short setup",
-    explanation:
-      "Buyers who want a wider selection than Mac-specific options offer can use a Windows-oriented mechanical keyboard successfully on a Mac by remapping modifiers in System Settings and, if deeper control is needed, installing Karabiner-Elements, a free, well-established remapping tool built specifically for macOS.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -361,65 +351,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How Native You Want the Mac Experience",
-    intro:
-      "Only one pick in this list ships fully Mac-native out of the box; the rest are cross-platform boards that work well on Mac with a short setup step.",
-    table: {
-      headers: ["What you want", "Setup needed", "Best pick"],
-      rows: [
-        ["Zero setup, correct Mac shortcuts immediately", "None", "Logitech MX Mechanical Mini Mac (either color)"],
-        ["Full-size layout, minor Fn-row remap", "System Settings Modifier Keys", "Keychron C2 or K4"],
-        ["Advanced customization plus Mac support", "QMK config, optional Karabiner-Elements", "Keychron V6 Max or K2 HE"],
-        ["Slim profile matching a MacBook deck", "Minor Fn-row remap", "Keychron K3 V2"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Logitech MX Mechanical Mini Mac Wireless Keyboard"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Logitech MX Mechanical Mini Mac Wireless Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Fn-Row Cheat Sheet for Mac",
-    intro:
-      "F1-F12 default to media functions on Mac, the reverse of Windows behavior, which trips up buyers switching a non-Mac-native keyboard over for the first time.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $44",
+          "Keychron C2 Full Size Wired Mechanical Keyboard"
+        ],
+        [
+          "Up to $160",
+          "Logitech MX Mechanical Mini Mac Wireless Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Hot-Swappable vs Fixed Switches",
+    "cards": [
       {
-        label: "Want brightness, volume, and playback controls by default",
-        text: "This is already how macOS treats F1-F12 by default on any external keyboard, no setup needed.",
+        "label": "Hot-swappable",
+        "text": "Change switches later without soldering, worth it if you're unsure which switch feel you'll prefer. In this comparison: Keychron V6 Max Wireless Custom Mechanical Keyboard, Keychron K10 HE Hall Effect Keyboard Wireless."
       },
       {
-        label: "Want literal F1-F12 for apps like games or IDEs",
-        text: "Hold the Fn key on the external keyboard, or toggle 'Use F1, F2, etc. keys as standard function keys' in System Settings Keyboard preferences.",
-      },
-      {
-        label: "Modifier keys feel swapped or wrong",
-        text: "Open System Settings, Keyboard, Keyboard Shortcuts, Modifier Keys, and remap Command/Option/Control for that specific external keyboard.",
-      },
+        "label": "Fixed switches",
+        "text": "Simpler and usually cheaper, fine if you're confident in your switch choice. In this comparison: Logitech MX Mechanical Mini Mac Wireless Keyboard, Logitech MX Mechanical Mini Mac Wireless Keyboard, Keychron K4 96% Layout Wireless Bluetooth 5.1/Wired Mechanical Keyboard, Keychron K3 Version 2, Keychron C2 Full Size Wired Mechanical Keyboard, Keychron K2 HE Rapid Trigger Wireless Custom Keyboard."
+      }
     ],
+    "note": "Default to hot-swappable if you're not fully certain which switch type you'll prefer long-term."
   },
   {
-    subheading: "By Switch Technology",
-    intro:
-      "This list includes three distinct switch categories, each with different feel and long-term durability implications.",
-    table: {
-      headers: ["Switch type", "Feel and durability", "Best pick"],
-      rows: [
-        ["Low-profile mechanical", "Quiet, shorter travel, Mac-native option available", "MX Mechanical Mini Mac"],
-        ["Standard tactile mechanical (Brown)", "Familiar mechanical feel, full key travel", "Keychron C2 or K4"],
-        ["Hall effect magnetic", "Adjustable actuation, resists wear, Rapid Trigger", "Keychron K2 HE or K10 HE"],
-      ],
-    },
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. Logitech MX Mechanical Mini Mac Wireless Keyboard is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Bluetooth Version vs. Mac Model Year",
-    intro:
-      "Older Macs support older Bluetooth versions, which can cause pairing issues with newer keyboards if there's no wired or 2.4GHz fallback.",
-    table: {
-      headers: ["Mac age", "Bluetooth risk", "Recommendation"],
-      rows: [
-        ["2020 or newer", "Low risk with any pick in this list", "Any pick fits comfortably"],
-        ["2017-2019", "Low to moderate risk", "Prefer picks with a wired or 2.4GHz fallback: K4, K3 V2, K2 HE, V6 Max, K10 HE"],
-        ["Pre-2017", "Higher risk of pairing issues", "Use the wired connection on the Keychron C2, or a USB receiver mode where available"],
-      ],
-    },
-    note: "When in doubt, favor a keyboard that offers a wired or 2.4GHz USB receiver mode as a fallback, since it sidesteps Bluetooth version compatibility entirely.",
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech MX Mechanical Mini Mac Wireless Keyboard is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Logitech MX Mechanical Mini Mac Wireless Keyboard's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where Keychron C2 Full Size Wired Mechanical Keyboard covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description:
-      "This is the only true tenkeyless (TKL, also called 80%) pick in this list, dropping the numpad while keeping every other key in its standard full-size position, including a full F-row and dedicated arrow, Home, End, Page Up, and Page Down keys. Because the arrow cluster and navigation keys stay in their normal spots, there is essentially no relearning curve moving from a full-size board.\n\nDropping the numpad also pulls the mouse roughly 4 to 6 inches closer to center compared to a full-size keyboard, meaningfully reducing shoulder extension on long sessions. It is the layout most people should default to if they don't specifically need a numpad.",
+      "This is the only true tenkeyless (TKL, also called 80%) pick in this list, dropping the numpad while keeping every other key in its standard full-size position, including a full F-row and dedicated arrow, Home, End, Page Up, and Page Down keys. Because the arrow cluster and navigation keys stay in their normal spots, there is essentially no relearning curve moving from a full-size board.\n\nDropping the numpad also pulls the mouse roughly 4 to 6 inches closer to center compared to a full-size keyboard, meaningfully reducing shoulder extension on long sessions. It is the layout most people should default to if they don't specifically need a numpad.\n\nPulls the mouse noticeably closer to center than full-size. That's a real strength, but weigh it against the flip side: no numpad for spreadsheet-heavy workflows.",
     specs: [
       "TKL/80% layout, no numpad",
       "Full F-row, dedicated arrow and navigation cluster",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gvYA4qsmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14N2QZF?tag=deskfinds0d-20",
     description:
-      "A 75% layout keeps the F-row and a compressed right-side cluster of arrow, Delete, Home, and Page Up/Down keys, but stacks them closer together than a TKL board to shrink the overall footprint. That compression is the tradeoff to know about before buying, aftermarket keycap sets don't always include correctly positioned keys for a 75% board's right-side cluster, so check keycap compatibility before ordering a replacement set.\n\nThe F75 Pro adds hot-swappable sockets and pre-lubed switches on top of the compact layout, plus 2.4GHz, USB-C, and Bluetooth 5.0 connectivity, features that are uncommon together at this price on any layout size.",
+      "A 75% layout keeps the F-row and a compressed right-side cluster of arrow, Delete, Home, and Page Up/Down keys, but stacks them closer together than a TKL board to shrink the overall footprint. That compression is the tradeoff to know about before buying, aftermarket keycap sets don't always include correctly positioned keys for a 75% board's right-side cluster, so check keycap compatibility before ordering a replacement set.\n\nThe F75 Pro adds hot-swappable sockets and pre-lubed switches on top of the compact layout, plus 2.4GHz, USB-C, and Bluetooth 5.0 connectivity, features that are uncommon together at this price on any layout size.\n\nWorth calling out specifically: hot-swap sockets with pre-lubed switches out of the box. The catch is compressed right-side cluster limits aftermarket keycap set compatibility.",
     specs: [
       "75% layout, compressed right-side cluster",
       "Hot-swappable, pre-lubed switches",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rjOMIKrmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TR4Y91J?tag=deskfinds0d-20",
     description:
-      "At 104 keys, the RisoPhy is a standard full-size layout, a complete numpad, F-row, and navigation cluster in one continuous board with no keys relocated or combined. If your daily workflow includes entering numbers regularly, whether for spreadsheets, accounting, or data entry, a full-size layout like this one is the correct call, not a smaller layout that requires a function-layer workaround for numbers.\n\nThe tradeoff is footprint and mouse reach, a full-size keyboard pushes your mouse roughly 15 to 20cm further right than a TKL board would, which can add up to more shoulder extension across a long session. This is the cheapest full-size pick in this list if budget is the deciding factor.",
+      "At 104 keys, the RisoPhy is a standard full-size layout, a complete numpad, F-row, and navigation cluster in one continuous board with no keys relocated or combined. If your daily workflow includes entering numbers regularly, whether for spreadsheets, accounting, or data entry, a full-size layout like this one is the correct call, not a smaller layout that requires a function-layer workaround for numbers.\n\nThe tradeoff is footprint and mouse reach, a full-size keyboard pushes your mouse roughly 15 to 20cm further right than a TKL board would, which can add up to more shoulder extension across a long session. This is the cheapest full-size pick in this list if budget is the deciding factor.\n\nComplete numpad for daily numeric entry. Set against that, full-size footprint pushes the mouse furthest right of any pick here. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size 104-key layout with numpad",
       "Blue switch, wired USB connection",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qNb+bxSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDWP1D58?tag=deskfinds0d-20",
     description:
-      "At 108 keys, the Redragon K668 is a full-size layout plus 4 extra dedicated hotkeys beyond the standard 104-key count, still keeping the complete numpad and F-row a heavy spreadsheet or numeric workflow needs. Those extra hotkeys sit outside the standard layout, so if you plan to buy an aftermarket keycap set later, expect those 4 keys specifically to be left uncovered.\n\nIt ships with 2 sets of mixed color keycaps and an upgraded hot-swappable socket, features not typical at this price on a full-size board, and sound-absorbing foam inside the case reduces the hollow, tinny sound common on inexpensive full-size keyboards.",
+      "At 108 keys, the Redragon K668 is a full-size layout plus 4 extra dedicated hotkeys beyond the standard 104-key count, still keeping the complete numpad and F-row a heavy spreadsheet or numeric workflow needs. Those extra hotkeys sit outside the standard layout, so if you plan to buy an aftermarket keycap set later, expect those 4 keys specifically to be left uncovered.\n\nIt ships with 2 sets of mixed color keycaps and an upgraded hot-swappable socket, features not typical at this price on a full-size board, and sound-absorbing foam inside the case reduces the hollow, tinny sound common on inexpensive full-size keyboards.\n\nA genuine advantage here is that hot-swappable at a budget price point. The tradeoff is the 4 extra hotkeys won't be covered by most aftermarket keycap sets.",
     specs: [
       "Full-size 108-key layout (104 + 4 extra hotkeys)",
       "Hot-swappable socket, red switch",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GdrDKwGaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DMKFM5?tag=deskfinds0d-20",
     description:
-      "Another full-size layout, the Keychron V6 pairs the complete 104-plus key numpad and F-row with QMK/VIA open-source firmware support, meaning every key on this board stays fully remappable indefinitely rather than depending on a smaller brand's software that could be discontinued down the line. A rotary knob handles volume without dedicating a key to it.\n\nHot-swappable Keychron K Pro Brown switches ship pre-installed, so it's ready to type on immediately but still open to switch experimentation later, and the wired connection means no battery to manage on a board this size.",
+      "Another full-size layout, the Keychron V6 pairs the complete 104-plus key numpad and F-row with QMK/VIA open-source firmware support, meaning every key on this board stays fully remappable indefinitely rather than depending on a smaller brand's software that could be discontinued down the line. A rotary knob handles volume without dedicating a key to it.\n\nHot-swappable Keychron K Pro Brown switches ship pre-installed, so it's ready to type on immediately but still open to switch experimentation later, and the wired connection means no battery to manage on a board this size.\n\nHot-swappable despite full-size footprint. That's a real strength, but weigh it against the flip side: full-size footprint pushes the mouse further right.",
     specs: [
       "Full-size layout with numpad and rotary knob",
       "QMK/VIA open-source firmware",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CBQMyMfsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM8T2YZY?tag=deskfinds0d-20",
     description:
-      "The V6 Max brings the same full-size QMK/VIA layout to a wireless build, connecting over 2.4GHz or Bluetooth 5.1 instead of a fixed cable, useful if your desk setup already has a wired full-size board's cable clutter to avoid. Gateron Banana switches are a linear feel, smooth and consistent keypresses without a tactile bump.\n\nBoth the V6 Max variants in this list share the same full-size hot-swap frame, so the choice between this one and the Brown switch version below comes down entirely to whether you prefer a linear or tactile keypress feel.",
+      "The V6 Max brings the same full-size QMK/VIA layout to a wireless build, connecting over 2.4GHz or Bluetooth 5.1 instead of a fixed cable, useful if your desk setup already has a wired full-size board's cable clutter to avoid. Gateron Banana switches are a linear feel, smooth and consistent keypresses without a tactile bump.\n\nBoth the V6 Max variants in this list share the same full-size hot-swap frame, so the choice between this one and the Brown switch version below comes down entirely to whether you prefer a linear or tactile keypress feel.\n\nWorth calling out specifically: linear Gateron Banana switch feel, smooth keypresses. The catch is most expensive pick in this list.",
     specs: [
       "Full-size layout, wireless",
       "Gateron Banana linear switch, hot-swappable",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413s7zLyA1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14L7VZ6?tag=deskfinds0d-20",
     description:
-      "This is the tactile counterpart to the Banana switch V6 Max above, same full-size wireless QMK/VIA frame, but Gateron Brown switches add a subtle bump partway through each keypress instead of a smooth linear travel. That tactile feedback helps some typists feel confirmation of a keystroke without bottoming out every key.\n\nEverything else carries over unchanged from the linear version, wireless 2.4GHz/Bluetooth 5.1, hot-swap sockets, and open-source firmware, so pick this one specifically if you know you prefer tactile switches over linear.",
+      "This is the tactile counterpart to the Banana switch V6 Max above, same full-size wireless QMK/VIA frame, but Gateron Brown switches add a subtle bump partway through each keypress instead of a smooth linear travel. That tactile feedback helps some typists feel confirmation of a keystroke without bottoming out every key.\n\nEverything else carries over unchanged from the linear version, wireless 2.4GHz/Bluetooth 5.1, hot-swap sockets, and open-source firmware, so pick this one specifically if you know you prefer tactile switches over linear.\n\nTactile Gateron Brown switch feel for keystroke confirmation. Set against that, same high price as the linear version. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size layout, wireless",
       "Gateron Brown tactile switch, hot-swappable",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kuxJTAsdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DPFWGR?tag=deskfinds0d-20",
     description:
-      "This is a lower-cost wired V6 variant without the rotary knob, still a full-size layout with the same hot-swappable Keychron K Pro Brown tactile switches and open-source QMK/VIA firmware as the knob version, in a frosted black-translucent case that shows a hint of the internals underneath.\n\nDropping the knob keeps the price about $10 lower than the knob version while keeping every other feature identical, worth choosing if you don't need a dedicated volume dial and would rather save the cost.",
+      "This is a lower-cost wired V6 variant without the rotary knob, still a full-size layout with the same hot-swappable Keychron K Pro Brown tactile switches and open-source QMK/VIA firmware as the knob version, in a frosted black-translucent case that shows a hint of the internals underneath.\n\nDropping the knob keeps the price about $10 lower than the knob version while keeping every other feature identical, worth choosing if you don't need a dedicated volume dial and would rather save the cost.\n\nA genuine advantage here is that same hot-swap sockets and firmware as the pricier knob version. The tradeoff is no rotary knob for physical volume control.",
     specs: [
       "Full-size layout, no rotary knob",
       "Hot-swappable Keychron K Pro Brown switches",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Start with what you actually type daily, not the layout name",
-    explanation:
-      "The single most useful question before buying is what keys you use every day. Heavy numeric entry or spreadsheet work needs a numpad, ruling out 65% and smaller layouts. Frequent F-key use for debugging or shortcuts rules out a 60% layout, which drops the F-row entirely.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "Smaller right-side clusters aren't always keycap-compatible",
-    explanation:
-      "A 75% layout's compressed Delete, Home, and Page Up/Down cluster is often positioned differently from standard full-size spacing, and many aftermarket keycap sets don't include correctly shaped keys for it. Check a keycap set's layout compatibility before ordering one for a 75% or smaller board.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Losing dedicated arrow keys has a real learning curve",
-    explanation:
-      "A 60% layout has no dedicated arrow keys at all, requiring a function-layer combo like Fn plus WASD, which takes time to rebuild as muscle memory. A 65% layout keeps dedicated arrow keys and is a much easier transition if you're moving down from a larger board for the first time.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Full-size keyboards push your mouse further from center",
-    explanation:
-      "A full-size keyboard with a numpad pushes the mouse roughly 15 to 20cm further right than a TKL board, requiring more shoulder extension to reach it on every session. A TKL or 75% layout keeps the mouse closer to center, which can meaningfully reduce shoulder strain over a long workday.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Hot-swap socket quality matters more than having hot-swap at all",
-    explanation:
-      "Cheap hot-swap sockets can develop bent pins or loose contact after repeated switch changes. A board that specifies pre-lubed switches and socket details, like the AULA F75 Pro or the Keychron V6 line, is a safer bet for repeated switch experimentation than a no-name hot-swap board with no socket details listed.",
-  },
-  {
-    criterion: "Open firmware outlasts proprietary software from smaller brands",
-    explanation:
-      "Boards running open-source QMK/VIA firmware, like the Keychron picks in this list, stay fully remappable indefinitely regardless of what happens to the brand. Proprietary remapping software from smaller budget brands is more likely to be discontinued within a couple of years, worth weighing if custom remaps matter to your workflow.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,100 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Keyboard Layout Sizes Explained",
-    intro:
-      "Every layout below trims keys from the previous size, and knowing exactly what disappears at each step is the difference between a layout that fits your workflow and one that quietly breaks it.",
-    table: {
-      headers: ["Layout", "Key count", "What it keeps", "What it drops"],
-      rows: [
-        ["Full-size / 100%", "104-108 keys", "Everything: F-row, numpad, navigation cluster", "Nothing, largest footprint"],
-        ["TKL / 80%", "~87 keys", "F-row, dedicated arrow and navigation cluster", "Numpad"],
-        ["75%", "~84 keys", "F-row, compressed arrow and navigation cluster", "Numpad, some key spacing"],
-        ["65%", "~68 keys", "Dedicated arrow keys, a few navigation keys", "F-row, numpad"],
-        ["60%", "~61 keys", "Core alphanumeric keys only", "F-row, arrow keys, numpad, navigation cluster"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of the 8 picks in this list are true 65% or 60% boards, they land on full-size, TKL, or 75%, since those were the layouts actually represented among the real, verified products available for this guide.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Logitech G413 TKL SE Mechanical Gaming Keyboard"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Logitech G413 TKL SE Mechanical Gaming Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Workflow Analysis: What Do You Actually Type Daily",
-    intro:
-      "Match your layout to your real daily keys, not to whichever layout looks the most compact.",
-    table: {
-      headers: ["Daily workflow", "Keys you need", "Recommended layout", "Best pick"],
-      rows: [
-        ["Spreadsheets, accounting, data entry", "Numpad", "Full-size", "Keychron V6 Wired (Knob) or RisoPhy 104"],
-        ["Coding or debugging with F-key shortcuts", "F-row, no numpad needed", "TKL or 75%", "Logitech G413 TKL SE or AULA F75 Pro"],
-        ["General office work, no numpad", "F-row, arrow keys", "TKL", "Logitech G413 TKL SE"],
-        ["Want smallest footprint with F-row still present", "F-row, compressed navigation", "75%", "AULA F75 Pro"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $29",
+          "RisoPhy Mechanical Gaming Keyboard"
+        ],
+        [
+          "Up to $120",
+          "Keychron V6 Max Wireless"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Transition Difficulty by Layout",
-    intro:
-      "Moving to a smaller layout for the first time has a real adjustment period, and it isn't the same across every size.",
-    cards: [
+    "subheading": "Wireless vs Wired Connection",
+    "cards": [
       {
-        label: "TKL (easiest)",
-        text: "Arrow keys and navigation cluster stay in their normal full-size positions, so there's essentially nothing new to relearn beyond not having a numpad.",
+        "label": "Wireless",
+        "text": "No desk cable, worth checking for a low-latency 2.4GHz dongle option beyond just Bluetooth. In this comparison: AULA F75 Pro Wireless Mechanical Keyboard, Keychron V6 Max Wireless, Keychron V6 Max Wireless."
       },
       {
-        label: "75% (easy to medium)",
-        text: "Same keys as TKL but compressed closer together, so muscle memory adjusts within a few days of typing.",
-      },
-      {
-        label: "65% (medium, not represented in this list's picks)",
-        text: "Drops the F-row entirely, requiring a function-layer combo for F-keys, a bigger adjustment than losing the numpad.",
-      },
-      {
-        label: "60% (hardest, not represented in this list's picks)",
-        text: "No dedicated arrow keys at all, requiring Fn plus WASD or similar combos, the steepest relearning curve of any standard layout.",
-      },
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, the safer choice for competitive gaming. In this comparison: Logitech G413 TKL SE Mechanical Gaming Keyboard, RisoPhy Mechanical Gaming Keyboard, Redragon K668 RGB Gaming Keyboard, Keychron V6 Wired Custom Mechanical Keyboard, Keychron V6 Wired."
+      }
     ],
+    "note": "Default to wired if competitive gaming latency matters, wireless for general typing and office use."
   },
   {
-    subheading: "Mouse Placement and Shoulder Ergonomics by Layout",
-    intro:
-      "Layout size directly affects how far you reach for your mouse on every single click throughout the day.",
-    table: {
-      headers: ["Layout", "Mouse distance from body", "Best pick"],
-      rows: [
-        ["Full-size (widest)", "Furthest, roughly 15-20cm right of a TKL board", "Keychron V6 or RisoPhy 104"],
-        ["TKL / 80%", "Noticeably closer to center than full-size", "Logitech G413 TKL SE"],
-        ["75%", "Closest to center among these picks", "AULA F75 Pro"],
-      ],
-    },
-    note: "If shoulder strain from mouse reach is a concern, dropping from full-size to TKL is the single biggest ergonomic gain, even before considering a further move to 75% or smaller.",
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. Logitech G413 TKL SE Mechanical Gaming Keyboard is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Beyond Standard Sizes: Alice and Ortholinear Layouts",
-    intro:
-      "Standard size variants aren't the only layouts on the market, though none of the 8 real, verified picks in this list happen to be one of these.",
-    cards: [
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
       {
-        label: "Alice layout",
-        text: "A split, curved key arrangement designed to angle each hand outward for a more natural wrist position, distinct from a simple split ergonomic keyboard because it keeps a single connected frame.",
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
       },
       {
-        label: "Ortholinear layout",
-        text: "Keys arranged in a perfect grid instead of the staggered rows found on nearly every standard keyboard, which some typists find reduces finger travel distance once the adjustment period passes.",
-      },
-    ],
-    note: "Both are worth knowing exist even though this guide's verified picks stick to standard full-size, TKL, and 75% layouts.",
+        "label": "In this comparison",
+        "text": "Logitech G413 TKL SE Mechanical Gaming Keyboard is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Keycap Compatibility Warning by Layout",
-    table: {
-      headers: ["Layout", "Keycap compatibility risk", "What to check"],
-      rows: [
-        ["Full-size / TKL", "Low", "Standard spacing, most aftermarket sets fit directly"],
-        ["75%", "Moderate", "Right-side cluster (Del, Home, PgUp) may not match standard positions"],
-        ["65% / 60%", "Higher", "Bottom row and function-layer legends often need a layout-specific set"],
-      ],
-    },
-    note: "Before buying an aftermarket keycap set for the AULA F75 Pro, verify the set specifically lists 75% layout compatibility for the compressed right-side cluster.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Keychron V6 Max Wireless's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where RisoPhy Mechanical Gaming Keyboard covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rjOMIKrmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TR4Y91J?tag=deskfinds0d-20",
     description:
-      "The RisoPhy is a genuine 104-key full-size board, so the numpad is not an afterthought bolted onto a smaller layout. Blue switches give it an audibly clicky feel, which is worth knowing if you plan to use the numpad in a shared office or on video calls.\n\nAn ultra-slim ABS keycap profile keeps the overall footprint low, and spill resistance plus anti-ghosting are useful basics at this price. It is the pick for buyers who want a real numpad without spending close to $100 on it.",
+      "The RisoPhy is a genuine 104-key full-size board, so the numpad is not an afterthought bolted onto a smaller layout. Blue switches give it an audibly clicky feel, which is worth knowing if you plan to use the numpad in a shared office or on video calls.\n\nAn ultra-slim ABS keycap profile keeps the overall footprint low, and spill resistance plus anti-ghosting are useful basics at this price. It is the pick for buyers who want a real numpad without spending close to $100 on it.\n\n104-key layout confirmed, not a marketing approximation. That's a real strength, but weigh it against the flip side: blue switches are the loudest switch type, poor for shared spaces.",
     specs: [
       "104-key full-size layout",
       "Blue clicky switches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GdrDKwGaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DMKFM5?tag=deskfinds0d-20",
     description:
-      "Keychron lists the V6 Knob Version as a genuine full-size layout, and it adds a physical volume knob above the numpad, a detail most full-size boards skip entirely. Hot-swappable Keychron K Pro Brown switches mean you can change switch feel later without a soldering iron.\n\nQMK and VIA support opens up full key remapping, useful if you want to repurpose numpad keys for macros. It runs wired only, so it is built for a stationary desk setup rather than a laptop that moves around.",
+      "Keychron lists the V6 Knob Version as a genuine full-size layout, and it adds a physical volume knob above the numpad, a detail most full-size boards skip entirely. Hot-swappable Keychron K Pro Brown switches mean you can change switch feel later without a soldering iron.\n\nQMK and VIA support opens up full key remapping, useful if you want to repurpose numpad keys for macros. It runs wired only, so it is built for a stationary desk setup rather than a laptop that moves around.\n\nWorth calling out specifically: hot-swappable switches for later customization. The catch is wired only, no Bluetooth option on this model.",
     specs: [
       "Full-size layout with numpad",
       "Hot-swappable Keychron K Pro Brown switches",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413s7zLyA1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14L7VZ6?tag=deskfinds0d-20",
     description:
-      "The V6 Max drops the cable in favor of 2.4GHz and Bluetooth connectivity while keeping the confirmed full-size layout and numpad intact, which is rarer than it should be since most brands cut the numpad first to shrink a wireless board. Hot-swappable Gateron Brown switches keep the same customization path as the wired V6.\n\nQMK support carries over for full remapping, and RGB backlighting is included. This is the pick if your desk setup depends on going cable-free without giving up numpad functionality.",
+      "The V6 Max drops the cable in favor of 2.4GHz and Bluetooth connectivity while keeping the confirmed full-size layout and numpad intact, which is rarer than it should be since most brands cut the numpad first to shrink a wireless board. Hot-swappable Gateron Brown switches keep the same customization path as the wired V6.\n\nQMK support carries over for full remapping, and RGB backlighting is included. This is the pick if your desk setup depends on going cable-free without giving up numpad functionality.\n\nDual 2.4GHz and Bluetooth connectivity. Set against that, most expensive pick in this list alongside the Banana switch variant. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size layout with numpad",
       "2.4GHz + Bluetooth wireless",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kuxJTAsdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DPFWGR?tag=deskfinds0d-20",
     description:
-      "This is the same confirmed full-size V6 platform as the Knob Version without the knob, which brings the price down while keeping hot-swappable Keychron K Pro Brown switches and full QMK/VIA support. The frosted, semi-translucent case is the main cosmetic difference from the solid-black knob variant.\n\nIt stays wired only, which keeps latency and price down compared to the wireless V6 Max. For buyers who want the V6's build and remapping without paying for a knob or wireless radio, this is the more efficient choice.",
+      "This is the same confirmed full-size V6 platform as the Knob Version without the knob, which brings the price down while keeping hot-swappable Keychron K Pro Brown switches and full QMK/VIA support. The frosted, semi-translucent case is the main cosmetic difference from the solid-black knob variant.\n\nIt stays wired only, which keeps latency and price down compared to the wireless V6 Max. For buyers who want the V6's build and remapping without paying for a knob or wireless radio, this is the more efficient choice.\n\nA genuine advantage here is that hot-swappable switches included. The tradeoff is no volume knob or wireless option.",
     specs: [
       "Full-size layout with numpad",
       "Hot-swappable Keychron K Pro Brown switches",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qNb+bxSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDWP1D58?tag=deskfinds0d-20",
     description:
-      "The Redragon K668 is a confirmed 108-key layout, 4 keys more than a standard 104-key full-size board thanks to extra programmable hotkeys above the numpad. Red linear switches keep it quieter than the clicky RisoPhy while still being budget-friendly.\n\nSound-absorbing foam inside the case and hot-swappable sockets are unusual inclusions at this price point, and it ships with two full sets of mixed-color keycaps for easy customization. It is the strongest value pick for buyers who want a full numpad plus extra hotkeys.",
+      "The Redragon K668 is a confirmed 108-key layout, 4 keys more than a standard 104-key full-size board thanks to extra programmable hotkeys above the numpad. Red linear switches keep it quieter than the clicky RisoPhy while still being budget-friendly.\n\nSound-absorbing foam inside the case and hot-swappable sockets are unusual inclusions at this price point, and it ships with two full sets of mixed-color keycaps for easy customization. It is the strongest value pick for buyers who want a full numpad plus extra hotkeys.\n\nSound-absorbing foam and hot-swappable sockets at a budget price. That's a real strength, but weigh it against the flip side: wired only.",
     specs: [
       "108-key layout with numpad and 4 extra hotkeys",
       "Red linear switches, hot-swappable",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31CBQMyMfsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM8T2YZY?tag=deskfinds0d-20",
     description:
-      "This is the same confirmed full-size V6 Max wireless platform, swapped to Gateron Banana switches, a smooth linear switch instead of the tactile Brown used on the other V6 variants. Linear switches suit fast, repeated numpad entry like data-entry or spreadsheet work better than a tactile bump does.\n\nConnectivity, QMK support, and hot-swap sockets carry over unchanged from the Brown-switch V6 Max. Pick this version specifically if you know you prefer a linear feel over a tactile one for numeric entry.",
+      "This is the same confirmed full-size V6 Max wireless platform, swapped to Gateron Banana switches, a smooth linear switch instead of the tactile Brown used on the other V6 variants. Linear switches suit fast, repeated numpad entry like data-entry or spreadsheet work better than a tactile bump does.\n\nConnectivity, QMK support, and hot-swap sockets carry over unchanged from the Brown-switch V6 Max. Pick this version specifically if you know you prefer a linear feel over a tactile one for numeric entry.\n\nWorth calling out specifically: smooth linear switch better suited to fast repeated numpad entry. The catch is same premium price as the Brown-switch V6 Max.",
     specs: [
       "Full-size layout with numpad",
       "Hot-swappable Gateron Banana linear switches",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FBNsAaL4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK1P1RD?tag=deskfinds0d-20",
     description:
-      "The standard MX Mechanical, as opposed to Logitech's separate MX Mechanical Mini, ships as a full-size board with a numpad, built around a low-profile tactile switch rather than the taller switches used on the Keychron and Redragon picks in this list. That low-profile design suits buyers who want a slimmer typing angle without dropping to a compact layout.\n\nMulti-device Bluetooth pairing and Logi Bolt USB receiver support let it switch between up to 3 computers instantly, a feature none of the other picks here offer. It is the most expensive board in this list, but the build quality and low-profile feel are the trade you are paying for.",
+      "The standard MX Mechanical, as opposed to Logitech's separate MX Mechanical Mini, ships as a full-size board with a numpad, built around a low-profile tactile switch rather than the taller switches used on the Keychron and Redragon picks in this list. That low-profile design suits buyers who want a slimmer typing angle without dropping to a compact layout.\n\nMulti-device Bluetooth pairing and Logi Bolt USB receiver support let it switch between up to 3 computers instantly, a feature none of the other picks here offer. It is the most expensive board in this list, but the build quality and low-profile feel are the trade you are paying for.\n\nMulti-device switching across up to 3 computers. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size layout with numpad",
       "Low-profile tactile mechanical switches",
@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Confirm the numpad is real, not implied",
-    explanation:
-      "A lot of keyboards marketed loosely as \"full-size\" are actually tenkeyless or 75 percent boards without a numpad at all. Check the listed key count directly, 104 keys is standard full-size, 108 adds extra hotkeys, and anything under 100 keys almost always means no numpad.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "A full-size numpad pushes your mouse 15-20cm to the right",
-    explanation:
-      "Compared to a tenkeyless board, a full numpad adds roughly 4 inches of width, which forces your mouse hand to reach further right on every use. If you use the numpad rarely but reach for your mouse constantly, consider a tenkeyless board plus a separate standalone numpad instead, since it lets you remove the numpad and keep the mouse closer.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Match switch type to how you use the numpad",
-    explanation:
-      "Linear switches like Red or Banana suit fast, repeated numeric entry such as spreadsheet or data-entry work, since there is no tactile bump interrupting rapid presses. Tactile Brown switches give more physical feedback per keystroke, useful if you want confirmation you actually pressed the key, while clicky Blue switches are the loudest option and worth avoiding in shared offices.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Stabilizers matter more on full-size boards",
-    explanation:
-      "A full-size layout has more large keys than a tenkeyless board, the numpad's 0 key, numpad Enter, and numpad Plus all use stabilizers in addition to the spacebar. A budget full-size board with rattly stabilizers will sound noticeably worse overall than a budget tenkeyless board, so factor stabilizer quality into noise expectations, not just switch type.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Numpad keys can feel different from the main keys",
-    explanation:
-      "Numpad keys get used less often than the main alpha cluster, so switches there are less broken in and can feel stiffer or slightly inconsistent even on an otherwise smooth board. This evens out with regular use, but it is worth knowing before assuming a board has a manufacturing defect.",
-  },
-  {
-    criterion: "Wireless full-size boards need more frequent charging",
-    explanation:
-      "A full-size wireless keyboard has more keys and typically more RGB draw than a tenkeyless wireless board from the same brand and tier, which shortens battery life between charges. If battery anxiety bothers you, a wired full-size board removes the variable entirely.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,65 +327,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Full-Size vs a TKL Board Plus a Standalone Numpad",
-    intro:
-      "Before buying any full-size board, consider whether you actually need the numpad attached, or whether a smaller keyboard plus a separate numpad fits your desk and mouse reach better.",
-    table: {
-      headers: ["Your situation", "Better approach", "Best pick"],
-      rows: [
-        ["Use the numpad daily for data entry or accounting", "Full-size, attached numpad", "Redragon K668 or RisoPhy 104-Key"],
-        ["Use the numpad occasionally, want mouse closer most of the time", "TKL board + separate standalone numpad (sold separately)", "Not in this list, consider pairing a TKL board with a dedicated numpad"],
-        ["Want numpad plus programmability", "Full-size, hot-swap + QMK", "Keychron V6 Wired or V6 Max"],
-        ["Want the numpad but a slimmer typing feel", "Full-size, low-profile switches", "Logitech MX Mechanical"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If you rarely touch the numpad, a tenkeyless board with a removable standalone numpad keeps your mouse closer on a day-to-day basis while still letting you plug the numpad back in when you need it.",
+      "rows": [
+        [
+          "Highest average rating",
+          "RisoPhy 104"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "RisoPhy 104"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Switch Feel You Want",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $29",
+          "RisoPhy 104"
+        ],
+        [
+          "Up to $157",
+          "Logitech MX Mechanical Wireless Illuminated Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wireless vs Wired Connection",
+    "cards": [
       {
-        label: "Fast, repeated numeric entry",
-        text: "Linear switches like the Red switch on the Redragon K668 or the Banana switch on the Keychron V6 Max have no tactile bump slowing down rapid keystrokes.",
+        "label": "Wireless",
+        "text": "No desk cable, worth checking for a low-latency 2.4GHz dongle option beyond just Bluetooth. In this comparison: Keychron V6 Max Wireless Full, Keychron V6 Wired Full, Keychron V6 Max Wireless Full, Logitech MX Mechanical Wireless Illuminated Keyboard."
       },
       {
-        label: "Physical feedback on every press",
-        text: "Tactile Brown switches on the Keychron V6, V6 Knob, and V6 Max give a noticeable bump that confirms each keystroke without going fully clicky.",
-      },
-      {
-        label: "Loudest, most tactile click",
-        text: "The RisoPhy's Blue switches are the clickiest option here, best suited to a private room rather than a shared office.",
-      },
-      {
-        label: "Slimmer, laptop-like typing feel",
-        text: "The Logitech MX Mechanical's low-profile tactile switches sit closer to a laptop keyboard's travel than the taller Keychron and Redragon switches.",
-      },
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, the safer choice for competitive gaming. In this comparison: RisoPhy 104, Keychron V6 Knob Version Full, Redragon K668 108."
+      }
     ],
+    "note": "Default to wired if competitive gaming latency matters, wireless for general typing and office use."
   },
   {
-    subheading: "By Connectivity Needs",
-    table: {
-      headers: ["Need", "Recommended connection", "Best pick"],
-      rows: [
-        ["Lowest latency, no battery to manage", "Wired only", "RisoPhy 104-Key, Redragon K668, Keychron V6 Wired"],
-        ["Cable-free desk, switch feel flexibility", "Wireless, hot-swappable", "Keychron V6 Max (Brown or Banana switch)"],
-        ["Switch between multiple computers instantly", "Multi-device Bluetooth pairing", "Logitech MX Mechanical"],
-      ],
-    },
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. RisoPhy 104 is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget",
-    intro:
-      "Prices in this list span from under $30 to over $150, and the jump in price generally buys wireless connectivity, hot-swap sockets, or a premium low-profile feel rather than a bigger numpad.",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $40", "Confirmed full numpad, wired, basic switches", "RisoPhy 104-Key ($28.99), Redragon K668 ($36.99)"],
-        ["$85-$120", "Hot-swappable switches, QMK remapping, some wireless", "Keychron V6 Wired ($89.99), V6 Knob ($99.99), V6 Max ($119.99)"],
-        ["$150+", "Premium build, multi-device switching, low-profile feel", "Logitech MX Mechanical ($157.00)"],
-      ],
-    },
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
+      },
+      {
+        "label": "In this comparison",
+        "text": "RisoPhy 104 is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Logitech MX Mechanical Wireless Illuminated Keyboard's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where RisoPhy 104 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

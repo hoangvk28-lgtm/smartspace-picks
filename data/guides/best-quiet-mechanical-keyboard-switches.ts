@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FBNsAaL4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK1P1RD?tag=deskfinds0d-20",
     description:
-      "The MX Mechanical uses a low-profile tactile mechanical switch, not a dedicated silent switch, so it should be judged as a quiet low-profile board rather than labeled with a specific silent-switch technology. Shorter key travel on a low-profile switch naturally produces less bottom-out noise than a taller standard-height switch, which is a large part of why it reads as quiet in practice.\n\nMulti-device Bluetooth and a Logi Bolt receiver let it pair with up to 3 computers, and the illuminated keys add usability in dim rooms. It is the most expensive board in this list, priced for build quality and multi-device convenience as much as for noise reduction.",
+      "The MX Mechanical uses a low-profile tactile mechanical switch, not a dedicated silent switch, so it should be judged as a quiet low-profile board rather than labeled with a specific silent-switch technology. Shorter key travel on a low-profile switch naturally produces less bottom-out noise than a taller standard-height switch, which is a large part of why it reads as quiet in practice.\n\nMulti-device Bluetooth and a Logi Bolt receiver let it pair with up to 3 computers, and the illuminated keys add usability in dim rooms. It is the most expensive board in this list, priced for build quality and multi-device convenience as much as for noise reduction.\n\nMulti-device switching across up to 3 computers. That's a real strength, but weigh it against the flip side: not a true silent-switch mechanical keyboard, quieter by design rather than dampened.",
     specs: [
       "Low-profile tactile mechanical switches",
       "Multi-device Bluetooth + Logi Bolt receiver",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description:
-      "The G413 TKL SE uses standard-height mechanical switches without a specific silent or whisper-quiet designation in its listing, so it belongs in this list as a compact tenkeyless option rather than a top silent pick. Its smaller TKL footprint means fewer large stabilized keys than a full-size board, which cuts down on stabilizer rattle even without a dedicated silent switch.\n\nA solid aluminum-alloy top plate gives it a sturdier feel than plastic-cased budget boards. It suits buyers who want a compact, no-frills mechanical board and are willing to add a desk mat or switch pads to bring the noise down further.",
+      "The G413 TKL SE uses standard-height mechanical switches without a specific silent or whisper-quiet designation in its listing, so it belongs in this list as a compact tenkeyless option rather than a top silent pick. Its smaller TKL footprint means fewer large stabilized keys than a full-size board, which cuts down on stabilizer rattle even without a dedicated silent switch.\n\nA solid aluminum-alloy top plate gives it a sturdier feel than plastic-cased budget boards. It suits buyers who want a compact, no-frills mechanical board and are willing to add a desk mat or switch pads to bring the noise down further.\n\nWorth calling out specifically: sturdy aluminum-alloy top plate. The catch is no silent or whisper-quiet switch marketing, standard mechanical noise level.",
     specs: [
       "Tenkeyless (TKL) layout, no numpad",
       "Standard-height mechanical switches",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k2EfHnvpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZGDPT4M?tag=deskfinds0d-20",
     description:
-      "SteelSeries markets the Apex 3 with a \"Whisper Quiet Gaming Switch\" directly in its listing, which is the closest match in this list to an actual quiet-switch claim from the manufacturer rather than a general mechanical keyboard sold as an assumption of quiet. IP32 water resistance is a useful bonus for a desk near a drink or in a humid room.\n\nA magnetic wrist rest is included, and 10-zone RGB adds customization. Since this is branded switch marketing rather than a published dB figure, treat \"whisper quiet\" as directionally true rather than a guaranteed silent-switch experience.",
+      "SteelSeries markets the Apex 3 with a \"Whisper Quiet Gaming Switch\" directly in its listing, which is the closest match in this list to an actual quiet-switch claim from the manufacturer rather than a general mechanical keyboard sold as an assumption of quiet. IP32 water resistance is a useful bonus for a desk near a drink or in a humid room.\n\nA magnetic wrist rest is included, and 10-zone RGB adds customization. Since this is branded switch marketing rather than a published dB figure, treat \"whisper quiet\" as directionally true rather than a guaranteed silent-switch experience.\n\nIP32 water resistance. Set against that, \"Whisper quiet\" is a brand claim, not an independently measured dB figure. Both matter when comparing it to the other picks here.",
     specs: [
       "Whisper Quiet Gaming Switch (branded)",
       "10-zone RGB illumination",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GdrDKwGaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DMKFM5?tag=deskfinds0d-20",
     description:
-      "This board uses Keychron's K Pro Brown switch, a tactile switch with a light bump, not a silent-dampened switch. Tactile switches are naturally quieter than clicky switches because there is no click jacket, but they are noisier than a true silent linear switch since the bump mechanism itself creates friction noise on every press.\n\nHot-swappable sockets mean you can later replace the Brown switches with a silent linear switch if office noise becomes a bigger concern. A physical volume knob and full QMK/VIA remapping round out a board built for customization first, quiet second.",
+      "This board uses Keychron's K Pro Brown switch, a tactile switch with a light bump, not a silent-dampened switch. Tactile switches are naturally quieter than clicky switches because there is no click jacket, but they are noisier than a true silent linear switch since the bump mechanism itself creates friction noise on every press.\n\nHot-swappable sockets mean you can later replace the Brown switches with a silent linear switch if office noise becomes a bigger concern. A physical volume knob and full QMK/VIA remapping round out a board built for customization first, quiet second.\n\nA genuine advantage here is that hot-swappable, upgradeable to a true silent switch later. The tradeoff is tactile bump adds friction noise a true silent linear switch avoids.",
     specs: [
       "Hot-swappable Keychron K Pro Brown switches (tactile, not silent)",
       "Physical volume knob",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413s7zLyA1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14L7VZ6?tag=deskfinds0d-20",
     description:
-      "The wireless V6 Max ships with Gateron Brown switches, the same tactile category as the wired Keychron picks in this list, so its noise profile sits in the same middle ground between clicky and silent. Going wireless removes a corded video-call mic pickup concern, since a Bluetooth board sitting further from a boom arm mic reduces how much stem noise the microphone actually captures.\n\nHot-swap sockets and QMK remapping carry over from the wired V6 lineup. Pair this with a desk mat if you want the tactile Brown feel with less bottom-out noise for calls.",
+      "The wireless V6 Max ships with Gateron Brown switches, the same tactile category as the wired Keychron picks in this list, so its noise profile sits in the same middle ground between clicky and silent. Going wireless removes a corded video-call mic pickup concern, since a Bluetooth board sitting further from a boom arm mic reduces how much stem noise the microphone actually captures.\n\nHot-swap sockets and QMK remapping carry over from the wired V6 lineup. Pair this with a desk mat if you want the tactile Brown feel with less bottom-out noise for calls.\n\nHot-swappable if you want to try a silent switch later. That's a real strength, but weigh it against the flip side: still a tactile switch, not silent-dampened.",
     specs: [
       "Hot-swappable Gateron Brown switches (tactile, not silent)",
       "2.4GHz + Bluetooth wireless",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mtObU8cAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXX499PC?tag=deskfinds0d-20",
     description:
-      "The MX Keys S Mac is a low-profile scissor-switch keyboard, not a mechanical switch keyboard at all, so it should be evaluated as a quiet typing option rather than compared directly against the mechanical Brown, Red, or Blue switches elsewhere in this list. Scissor switches have no click jacket and no long-travel mechanical stem, which makes them one of the quietest typing experiences available, closer to a laptop keyboard than a desktop mechanical board.\n\nBuilt specifically for Mac with a Space Grey finish and rechargeable battery, it is the pick for buyers who want the quietest possible typing feel and do not need switch customization or a mechanical feel at all.",
+      "The MX Keys S Mac is a low-profile scissor-switch keyboard, not a mechanical switch keyboard at all, so it should be evaluated as a quiet typing option rather than compared directly against the mechanical Brown, Red, or Blue switches elsewhere in this list. Scissor switches have no click jacket and no long-travel mechanical stem, which makes them one of the quietest typing experiences available, closer to a laptop keyboard than a desktop mechanical board.\n\nBuilt specifically for Mac with a Space Grey finish and rechargeable battery, it is the pick for buyers who want the quietest possible typing feel and do not need switch customization or a mechanical feel at all.\n\nWorth calling out specifically: mac-optimized layout and shortcuts. The catch is not a mechanical keyboard, no tactile bump or hot-swap option.",
     specs: [
       "Low-profile scissor switch (not mechanical)",
       "Wireless, rechargeable battery",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kuxJTAsdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DPFWGR?tag=deskfinds0d-20",
     description:
-      "This is the same K Pro Brown tactile switch as the Knob Version at a lower price, since it drops the volume knob and stays wired. As a tactile switch it produces more friction noise than a true silent linear switch, but noticeably less than a clicky Blue switch would on the same board.\n\nHot-swap sockets and QMK/VIA support are unchanged from the pricier V6 variants, so the upgrade path to a silent switch later is still available. It is a reasonable middle ground for buyers who want a full-size tactile board without paying for extras they will not use.",
+      "This is the same K Pro Brown tactile switch as the Knob Version at a lower price, since it drops the volume knob and stays wired. As a tactile switch it produces more friction noise than a true silent linear switch, but noticeably less than a clicky Blue switch would on the same board.\n\nHot-swap sockets and QMK/VIA support are unchanged from the pricier V6 variants, so the upgrade path to a silent switch later is still available. It is a reasonable middle ground for buyers who want a full-size tactile board without paying for extras they will not use.\n\nHot-swappable, upgradeable to a silent switch later. Set against that, still a tactile switch, not silent. Both matter when comparing it to the other picks here.",
     specs: [
       "Hot-swappable Keychron K Pro Brown switches (tactile, not silent)",
       "Full-size layout with numpad",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qNb+bxSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDWP1D58?tag=deskfinds0d-20",
     description:
-      "The K668 uses a Red linear switch, which has no tactile bump and no click jacket, making it inherently quieter than either a clicky Blue or a tactile Brown switch even without silent dampening. Built-in sound-absorbing foam inside the case adds a second layer of noise reduction on top of the switch itself.\n\nHot-swappable sockets let you try a true silent linear switch later if you want to go further, and two included keycap sets add flexibility. At under $40, it is the strongest budget option for buyers who want a quieter linear feel without paying for a dedicated silent switch.",
+      "The K668 uses a Red linear switch, which has no tactile bump and no click jacket, making it inherently quieter than either a clicky Blue or a tactile Brown switch even without silent dampening. Built-in sound-absorbing foam inside the case adds a second layer of noise reduction on top of the switch itself.\n\nHot-swappable sockets let you try a true silent linear switch later if you want to go further, and two included keycap sets add flexibility. At under $40, it is the strongest budget option for buyers who want a quieter linear feel without paying for a dedicated silent switch.\n\nA genuine advantage here is that sound-absorbing foam adds a second layer of noise reduction. The tradeoff is not a true silent switch, still produces standard mechanical bottom-out noise.",
     specs: [
       "Hot-swappable Red linear switches (not silent-dampened)",
       "Sound-absorbing foam inside the case",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Silent linear beats silent tactile for office quiet",
-    explanation:
-      "Silent linear switches have no tactile bump, so nothing interrupts the smooth downstroke, making them the quietest overall mechanical switch category. Silent tactile switches still have a bump mechanism, and that bump itself creates friction noise, which makes silent tactile noisier than silent linear even though both carry the same silent dampening. If quiet office typing is the priority, choose linear over tactile.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "A silent switch does not guarantee a silent keyboard",
-    explanation:
-      "Silent dampening on a switch only reduces noise at the stem. Bottom-out thud on the plate or case and stabilizer rattle on the spacebar and Enter key remain regardless of switch type. A full quiet setup pairs a quieter switch with a desk mat, switch pads, foam case dampening, and lubed stabilizers together, not the switch alone.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Know the rough dB range you are shopping in",
-    explanation:
-      "Silent linear switches typically measure around 33-40 dB at the keycap, standard clicky switches run closer to 50-55 dB, and ambient quiet-office noise sits around 50-60 dB. A switch under roughly 40 dB is quiet enough to disappear in a normal office, while anything above that range is better suited to a private room or late-night use only.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "Switch noise affects video call mic pickup differently by mic type",
-    explanation:
-      "Whether a keyboard's noise gets picked up on a call depends on both switch dB and microphone type and placement. A condenser mic on a boom arm is more sensitive and will pick up more keyboard noise at the same distance than a cardioid dynamic mic, so remote workers on video calls benefit more from a quieter switch than someone on a phone call with a dynamic mic.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Factory lube quality varies by brand and can be improved",
-    explanation:
-      "Some switches ship with inconsistent factory lubrication, leaving dry spots that add scratchiness and noise, while others are lubed more evenly out of the box. DIY re-lubing can noticeably quiet almost any switch further, tactile, linear, or silent, if you are willing to open the board.",
-  },
-  {
-    criterion: "Hall effect switches are naturally quiet by design",
-    explanation:
-      "Hall effect switches use magnetic sensing instead of physical stem contact, so there is no mechanical click or bump mechanism generating friction noise, making them naturally quiet without needing silicone dampening. They also enable Rapid Trigger response for gaming, which is a separate benefit from their quiet operation, though none of the picks in this list use Hall effect switches.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,77 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Switch Types Explained",
-    intro:
-      "Before comparing specific keyboards, it helps to know what each switch category actually means, since \"quiet\" gets used loosely across very different mechanisms.",
-    cards: [
-      {
-        label: "Linear Silent",
-        text: "A smooth, bump-free downstroke with silicone dampening at the stem to reduce bottom-out noise. This is the quietest overall category and the recommended choice for quiet office typing.",
-      },
-      {
-        label: "Tactile Quiet",
-        text: "Keeps a physical bump for feedback but adds partial dampening. Quieter than a standard tactile switch, but the bump mechanism itself still creates more friction noise than a silent linear switch.",
-      },
-      {
-        label: "Clicky vs Silent",
-        text: "Clicky switches (like Blue) add a plastic click jacket for an audible snap on every press, the loudest mechanical category. Silent switches remove or dampen that mechanism entirely, the two sit at opposite ends of the noise spectrum.",
-      },
-      {
-        label: "Tactile (undampened), e.g. Brown",
-        text: "A light bump with no silent dampening, quieter than clicky but noisier than a true silent switch. Most \"quiet-ish\" mechanical keyboards sold without a specific silent-switch label, including several picks in this guide, fall into this category.",
-      },
-      {
-        label: "Linear (undampened), e.g. Red",
-        text: "No bump and no click, but no silent dampening either. Naturally quieter than tactile or clicky by mechanism alone, and a good budget middle ground before paying for a dedicated silent switch.",
-      },
-      {
-        label: "Low-Profile / Scissor",
-        text: "Shorter key travel by design, which reduces bottom-out force and noise even without silicone dampening. Not a true mechanical silent switch category, but often reads as quieter in practice, as with the Logitech MX Mechanical and MX Keys S in this list.",
-      },
-    ],
-  },
-  {
-    subheading: "By Use Case",
-    intro:
-      "Office quiet, home late-night, gaming, and video calls each call for a different switch priority, not a single universal recommendation.",
-    table: {
-      headers: ["Use case", "Priority", "Best pick"],
-      rows: [
-        ["Open office, coworkers nearby", "Quietest possible mechanism", "Logitech MX Keys S Mac (scissor) or Logitech MX Mechanical (low-profile)"],
-        ["Home, late-night typing", "Quieter than clicky, budget-friendly", "Redragon K668 (Red linear) or Keychron V6 (Brown tactile)"],
-        ["Gaming, want tactile feedback", "Fast tactile response, hot-swap flexibility", "Keychron V6 Knob or V6 Max (Brown), hot-swappable to linear later"],
-        ["Frequent video calls", "Low dB near a condenser mic", "Keychron V6 Max wireless (positioned further from a boom arm mic) or Logitech MX Keys S Mac"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Logitech MX Mechanical Wireless Illuminated Keyboard"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Logitech MX Mechanical Wireless Illuminated Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "The Full Quiet Solution, Not Just the Switch",
-    intro:
-      "A switch is one piece of total keyboard noise, not the whole picture.",
-    cards: [
-      { label: "Switch", text: "Reduces stem noise on the downstroke, the starting point but not the finish line." },
-      { label: "Desk mat", text: "Absorbs vibration and impact noise transmitted through the desk surface itself." },
-      { label: "Foam case mod or built-in foam", text: "Dampens hollow case resonance, already included in the Redragon K668 in this list." },
-      { label: "Lubed stabilizers", text: "Cuts rattle on large keys like the spacebar and numpad Enter, often the loudest single noise source on an otherwise quiet board." },
-    ],
-    note: "Stacking these four together produces a meaningfully quieter setup than upgrading the switch alone, especially on a budget board.",
-  },
-  {
-    subheading: "Mechanical Silent vs Non-Mechanical Quiet",
-    intro:
-      "Two of the picks in this list are not mechanical switches at all, and that distinction matters for buyers specifically shopping for a silent mechanical switch.",
-    table: {
-      headers: ["Pick", "Actual mechanism", "Honest classification"],
-      rows: [
-        ["Logitech MX Mechanical", "Low-profile tactile mechanical switch", "Quiet by shorter travel, not a dedicated silent switch"],
-        ["Logitech MX Keys S Mac", "Low-profile scissor switch", "Not mechanical at all, quietest option in this list by design"],
-        ["Keychron V6 (Brown)", "Tactile mechanical switch", "Quieter than clicky, not silent-dampened"],
-        ["Redragon K668 (Red)", "Linear mechanical switch", "Quieter than tactile/clicky by mechanism, not silent-dampened"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If you specifically want a true silent mechanical switch, look for hot-swappable boards like the Keychron V6 lineup and swap in a dedicated silent linear switch rather than assuming any board in this price range ships with one by default.",
+      "rows": [
+        [
+          "Under $37",
+          "Redragon K668 108"
+        ],
+        [
+          "Up to $157",
+          "Logitech MX Mechanical Wireless Illuminated Keyboard"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Wireless vs Wired Connection",
+    "cards": [
+      {
+        "label": "Wireless",
+        "text": "No desk cable, worth checking for a low-latency 2.4GHz dongle option beyond just Bluetooth. In this comparison: Logitech MX Mechanical Wireless Illuminated Keyboard, Keychron V6 Max Wireless, Logitech MX Keys S Mac Wireless Keyboard, Keychron V6 Wired."
+      },
+      {
+        "label": "Wired",
+        "text": "Zero input latency and no battery to manage, the safer choice for competitive gaming. In this comparison: Logitech G413 TKL SE Mechanical Gaming Keyboard, SteelSeries Apex 3 RGB Gaming Keyboard, Keychron V6 Knob Version, Redragon K668 108."
+      }
+    ],
+    "note": "Default to wired if competitive gaming latency matters, wireless for general typing and office use."
+  },
+  {
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. Logitech MX Mechanical Wireless Illuminated Keyboard is the most-reviewed option here if you want the safer bet."
+  },
+  {
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech MX Mechanical Wireless Illuminated Keyboard is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Logitech MX Mechanical Wireless Illuminated Keyboard's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where Redragon K668 108 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

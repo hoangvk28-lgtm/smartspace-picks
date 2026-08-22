@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FBNsAaL4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK1P1RD?tag=deskfinds0d-20",
     description:
-      "The MX Mechanical uses genuine low-profile tactile mechanical switches tuned for quiet operation, which sidesteps the loud bottom-out thud that makes most mechanical keyboards a poor fit for a shared office. Backlit keys and a full-size layout round out a board built specifically for professional desks rather than gaming setups.\n\nIt pairs over Bluetooth or a USB receiver and runs on a rechargeable battery, so there's no dongle-hogging or cable clutter on a small desk. It costs more than a standard membrane keyboard, but the tactile mechanical feel is a real upgrade for anyone who types most of the day.",
+      "The MX Mechanical uses genuine low-profile tactile mechanical switches tuned for quiet operation, which sidesteps the loud bottom-out thud that makes most mechanical keyboards a poor fit for a shared office. Backlit keys and a full-size layout round out a board built specifically for professional desks rather than gaming setups.\n\nIt pairs over Bluetooth or a USB receiver and runs on a rechargeable battery, so there's no dongle-hogging or cable clutter on a small desk. It costs more than a standard membrane keyboard, but the tactile mechanical feel is a real upgrade for anyone who types most of the day.\n\nBacklit keys for low-light offices. That's a real strength, but weigh it against the flip side: higher price than membrane office keyboards.",
     specs: [
       "Full-size layout, wireless (Bluetooth or Logi Bolt receiver)",
       "Low-profile tactile mechanical switches",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rK3ndC8VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK3JCHX?tag=deskfinds0d-20",
     description:
-      "The Mini variant trims the number pad and drops the low-profile mechanical switches into a compact 75 percent layout, which frees up desk space for a mouse without giving up the quiet tactile feel of the full-size MX Mechanical. It's built with Mac keycaps and shortcuts, so it needs no remapping on a Mac desktop.\n\nLike the full-size version, it connects wirelessly and recharges via USB-C, and the smaller footprint makes it easier to fit next to a laptop stand or a second monitor arm on a compact desk.",
+      "The Mini variant trims the number pad and drops the low-profile mechanical switches into a compact 75 percent layout, which frees up desk space for a mouse without giving up the quiet tactile feel of the full-size MX Mechanical. It's built with Mac keycaps and shortcuts, so it needs no remapping on a Mac desktop.\n\nLike the full-size version, it connects wirelessly and recharges via USB-C, and the smaller footprint makes it easier to fit next to a laptop stand or a second monitor arm on a compact desk.\n\nWorth calling out specifically: genuine mechanical switches, quiet tactile feel. The catch is no number pad for spreadsheet-heavy work.",
     specs: [
       "75% compact layout, no number pad",
       "Low-profile tactile mechanical switches",
@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aQEgCoeRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK63PKB?tag=deskfinds0d-20",
     description:
-      "This is the same MX Mechanical Mini Mac hardware as the Space Grey pick above, in a Pale Grey finish that blends into a lighter desk setup. Low-profile tactile mechanical switches keep bottom-out noise down, and the 75 percent layout keeps the footprint small.\n\nIt's worth choosing this over the Space Grey version purely on color preference, since the switches, wireless connection, and Mac-native shortcuts are otherwise identical.",
+      "This is the same MX Mechanical Mini Mac hardware as the Space Grey pick above, in a Pale Grey finish that blends into a lighter desk setup. Low-profile tactile mechanical switches keep bottom-out noise down, and the 75 percent layout keeps the footprint small.\n\nIt's worth choosing this over the Space Grey version purely on color preference, since the switches, wireless connection, and Mac-native shortcuts are otherwise identical.\n\nGenuine mechanical switches, quiet tactile feel. Set against that, no number pad for spreadsheet-heavy work. Both matter when comparing it to the other picks here.",
     specs: [
       "75% compact layout, no number pad",
       "Low-profile tactile mechanical switches",
@@ -144,7 +144,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310uk8UP85L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D53P4PBY?tag=deskfinds0d-20",
     description:
-      "Keychron built the B6 Pro specifically around quiet typing, pairing an ultra-thin low-profile mechanical design with ZMK firmware for custom keymaps. It keeps a full-size layout with a number pad, which is rare at this price for a low-profile mechanical board.\n\nAt under $40 it's the most affordable genuinely mechanical pick in this list, connecting over 2.4GHz, Bluetooth 5.2, or a wired USB-C cable depending on what a given desk setup needs.",
+      "Keychron built the B6 Pro specifically around quiet typing, pairing an ultra-thin low-profile mechanical design with ZMK firmware for custom keymaps. It keeps a full-size layout with a number pad, which is rare at this price for a low-profile mechanical board.\n\nAt under $40 it's the most affordable genuinely mechanical pick in this list, connecting over 2.4GHz, Bluetooth 5.2, or a wired USB-C cable depending on what a given desk setup needs.\n\nA genuine advantage here is that full-size layout with a number pad. The tradeoff is zMK keymap customization has a learning curve.",
     specs: [
       "Full-size layout with number pad",
       "Ultra-thin low-profile mechanical switches",
@@ -175,7 +175,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QS87iIEQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JG7KRC7?tag=deskfinds0d-20",
     description:
-      "The Keychron C2 uses tactile brown switches, which land in the middle ground between the audible click of a blue switch and the near-silence of a dedicated silent switch, a reasonable compromise for a private office or a work-from-home desk rather than an open floor plan. A full 104-key layout with a number pad covers spreadsheet work without needing a separate numpad.\n\nIt's a wired-only board with a USB-C braided cable, which trades wireless convenience for a stable connection and one less battery to manage on a busy desk.",
+      "The Keychron C2 uses tactile brown switches, which land in the middle ground between the audible click of a blue switch and the near-silence of a dedicated silent switch, a reasonable compromise for a private office or a work-from-home desk rather than an open floor plan. A full 104-key layout with a number pad covers spreadsheet work without needing a separate numpad.\n\nIt's a wired-only board with a USB-C braided cable, which trades wireless convenience for a stable connection and one less battery to manage on a busy desk.\n\nTactile brown switches are quieter than clicky blues. That's a real strength, but weigh it against the flip side: wired only, no wireless option.",
     specs: [
       "Full 104-key layout with number pad",
       "Tactile brown mechanical switches",
@@ -206,7 +206,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DpmtQO58L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKVZK4TH?tag=deskfinds0d-20",
     description:
-      "This is worth being upfront about, the MX Keys S is not a mechanical keyboard. It uses Logitech's low-profile scissor switches, which is exactly why it's one of the quietest keyboards in this entire list. For a buyer whose top priority is genuinely silent typing over the mechanical feel, that trade-off is worth including here honestly rather than mislabeling it.\n\nBacklit keys, a stable wireless connection, and a shape tuned for fast typing round out a keyboard built for exactly this office use case, quiet, all-day comfort, just not a mechanical switch underneath.",
+      "This is worth being upfront about, the MX Keys S is not a mechanical keyboard. It uses Logitech's low-profile scissor switches, which is exactly why it's one of the quietest keyboards in this entire list. For a buyer whose top priority is genuinely silent typing over the mechanical feel, that trade-off is worth including here honestly rather than mislabeling it.\n\nBacklit keys, a stable wireless connection, and a shape tuned for fast typing round out a keyboard built for exactly this office use case, quiet, all-day comfort, just not a mechanical switch underneath.\n\nWorth calling out specifically: comfortable low-profile scissor switches. The catch is not a mechanical keyboard despite the mechanical keyboard search intent.",
     specs: [
       "Full-size layout with number pad",
       "Low-profile scissor switches (not mechanical)",
@@ -237,7 +237,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416qftDjzeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKW3LB2B?tag=deskfinds0d-20",
     description:
-      "Same hardware as the Pale Grey MX Keys S above, in a darker Graphite finish for a matched dark desk setup. It's still a low-profile scissor-switch keyboard, not a mechanical one, and belongs in this list for the same reason, its near-silent typing sound.\n\nThe Graphite finish also hides fingerprints and smudges better than lighter colors, which matters on a keyboard that sees daily use in a shared office.",
+      "Same hardware as the Pale Grey MX Keys S above, in a darker Graphite finish for a matched dark desk setup. It's still a low-profile scissor-switch keyboard, not a mechanical one, and belongs in this list for the same reason, its near-silent typing sound.\n\nThe Graphite finish also hides fingerprints and smudges better than lighter colors, which matters on a keyboard that sees daily use in a shared office.\n\nDarker finish hides smudges well. Set against that, not a mechanical keyboard despite the mechanical keyboard search intent. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size layout with number pad",
       "Low-profile scissor switches (not mechanical)",
@@ -268,7 +268,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Zpxs8rO1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B098JPSVKY?tag=deskfinds0d-20",
     description:
-      "The MX Keys Mini is the smallest and most affordable pick on this list, and like the MX Keys S above, it's built on quiet low-profile scissor switches rather than mechanical ones. It's included here as an honest, compact option for a small desk where near-silent typing matters more than mechanical feel.\n\nA minimalist 75 percent layout drops the number pad, and backlighting with auto-adjusting brightness rounds out a keyboard that's easy to slide next to a laptop on a shared desk.",
+      "The MX Keys Mini is the smallest and most affordable pick on this list, and like the MX Keys S above, it's built on quiet low-profile scissor switches rather than mechanical ones. It's included here as an honest, compact option for a small desk where near-silent typing matters more than mechanical feel.\n\nA minimalist 75 percent layout drops the number pad, and backlighting with auto-adjusting brightness rounds out a keyboard that's easy to slide next to a laptop on a shared desk.\n\nA genuine advantage here is that near-silent scissor-switch typing. The tradeoff is not a mechanical keyboard despite the mechanical keyboard search intent.",
     specs: [
       "75% compact layout, no number pad",
       "Low-profile scissor switches (not mechanical)",
@@ -320,35 +320,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Silent switches only quiet the stem, not the bottom-out thud",
-    explanation:
-      "A silent mechanical switch dampens the internal stem noise, but the keycap still hits the plate on every keystroke, producing a lower-pitched thud that a stem-only dampener doesn't remove. Pairing a silent-switch board with a desk mat under the keyboard and, for hot-swappable boards, a foam switch pad addresses the full sound, not just half of it.",
+    "criterion": "Match switch type to your actual environment, not just gaming feel",
+    "explanation": "Switch type determines feel, sound, and how disruptive the keyboard is to people around you, clicky switches feel satisfying to type on solo but produce an audible click on every keystroke that can be genuinely disruptive on a Zoom call or in a shared office, while linear switches are quieter and smoother, and tactile switches split the difference with a felt bump but no click.\n\nThis matters directly based on where you'll actually use the keyboard, a home office with video calls or a shared workspace calls for a different switch than a private gaming setup where clicky feedback is a feature, not a liability.\n\nCheck the specific switch name (not just \"mechanical\") and look up its actuation force and whether it's linear, tactile, or clicky before assuming any mechanical keyboard suits your environment."
   },
   {
-    criterion: "Low-profile switches aren't quiet for the same reason as silent switches",
-    explanation:
-      "A low-profile mechanical switch is quieter mainly because it has shorter travel, less distance for the keycap to fall and strike the plate, while a silent switch is quieter because its stem is dampened. Both effects can stack, but they aren't interchangeable trade-offs, and understanding which one a keyboard relies on tells you what it will and won't fix.",
+    "criterion": "Check hot-swappable sockets if you want to change switches later without soldering",
+    "explanation": "A hot-swappable keyboard lets you physically remove and replace individual switches without any soldering, meaning you can try different switch types or replace a failed switch years later without needing to be a hobbyist with a soldering iron.\n\nThis matters directly if you're not fully certain which switch feel you'll prefer long-term, or if you want the option to upgrade switches later without replacing the whole keyboard.\n\nCheck the listing specifically for \"hot-swappable\" and the specific socket type (3-pin or 5-pin) it supports, since not every hot-swap socket accepts every switch type."
   },
   {
-    criterion: "Coworker distance changes what counts as quiet",
-    explanation:
-      "A tactile brown switch that's unnoticeable in a private office can be genuinely distracting to a coworker sitting a meter away in an open-plan layout. If your desk is in an open floor plan or a shared cubicle row, prioritize the low-profile mechanical or scissor-switch picks in this list over a standard tactile board.",
+    "criterion": "Consider keycap material for both feel and long-term durability",
+    "explanation": "Keycap material affects both the tactile feel under your fingers and how well the keycaps resist shine and wear over years of typing, PBT plastic is generally more durable and resists the glossy shine that ABS plastic keycaps develop after months of oil and friction from typing.\n\nThis matters more for a keyboard you'll type on daily for years, less for occasional or gaming-only use where keycap longevity matters less.\n\nCheck the listing specifically for PBT versus ABS keycap material, since this detail is sometimes buried in the specs rather than featured prominently."
   },
   {
-    criterion: "A boom-arm microphone can still pick up a quiet keyboard",
-    explanation:
-      "Even a genuinely quiet keyboard can register on a condenser microphone mounted close on a boom arm during video calls, while a laptop's built-in mic usually won't catch the same typing. If you're frequently on calls with a dedicated mic, test your typing on mute first rather than assuming a \"quiet\" keyboard is inaudible to callers.",
+    "criterion": "Weigh wireless convenience against connection latency for your actual use case",
+    "explanation": "A wireless mechanical keyboard eliminates a desk cable but introduces a small amount of input latency compared to a wired connection, and Bluetooth in particular can have more noticeable latency than a dedicated 2.4GHz USB receiver, a real consideration for competitive gaming but largely unnoticeable for typing and general office work.\n\nThis matters more if you're specifically buying for fast-paced gaming, less for typing-focused office or home use where the latency difference is imperceptible.\n\nCheck whether a wireless keyboard supports a low-latency 2.4GHz dongle in addition to Bluetooth, and consider a wired connection specifically if competitive gaming performance matters."
   },
   {
-    criterion: "Foam case modding is a real, low-cost noise fix",
-    explanation:
-      "Stuffing foam inside a hot-swappable keyboard's case is a common, inexpensive way to reduce the hollow, resonant sound many keyboards produce, separate from switch choice entirely. It doesn't apply to sealed, non-hot-swappable boards like the picks in this list, but it's worth knowing if you later buy a moddable mechanical keyboard.",
-  },
-  {
-    criterion: "\"Mechanical\" isn't always accurate on quiet-typing listings",
-    explanation:
-      "Several keyboards marketed toward quiet office typing, including some in this list, actually use scissor or low-profile switches rather than true mechanical ones. If a genuine mechanical feel matters to you as much as quietness, check the switch type in the listing specs, not just the product title.",
-  },
+    "criterion": "Match keyboard layout and size to your actual desk space and workflow",
+    "explanation": "Mechanical keyboards range from full-size boards with a number pad to compact tenkeyless (no number pad) and even smaller 60% layouts that omit the function row and arrow keys, and this size choice is a real tradeoff between desk space saved and keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry, a compact layout without one adds real friction, while someone who never touches the number pad gains meaningful desk space and a shorter reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just desk space alone."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -361,69 +351,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Office Layout",
-    intro:
-      "How much noise is acceptable depends heavily on how close the nearest coworker sits, not just the keyboard itself.",
-    table: {
-      headers: ["Layout", "Noise tolerance", "Best pick"],
-      rows: [
-        ["Open-plan desk, coworker within 1-2 meters", "Lowest tolerance", "Logitech MX Keys S (either color)"],
-        ["Private office or enclosed cubicle", "Moderate tolerance", "Keychron C2 (Brown switch)"],
-        ["Home office, occasional video calls", "Moderate, mic-aware", "Logitech MX Mechanical (Graphite)"],
-        ["Shared home desk, small footprint needed", "Lowest tolerance, compact", "Logitech MX Keys Mini"],
+    "subheading": "By Switch Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Clicky switches for tactile feedback",
+          "Keychron C2 Full Size Wired Mechanical Keyboard"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Logitech MX Mechanical Wireless Illuminated Keyboard"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Do You Need a True Mechanical Feel or Just Quiet?",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $39",
+          "Keychron B6 Pro Ultra"
+        ],
+        [
+          "Up to $160",
+          "Logitech MX Mechanical Mini Mac Wireless Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Review Base vs Price",
+    "cards": [
       {
-        label: "Want the actual mechanical switch feel, quiet or not",
-        text: "The Logitech MX Mechanical line and the Keychron B6 Pro and C2 use real low-profile or standard mechanical switches, giving genuine tactile feedback.",
+        "label": "Keychron B6 Pro Ultra",
+        "text": "The lower-priced option in this comparison, worth checking its switch type against your typing environment."
       },
       {
-        label: "Only care about minimizing noise, mechanical feel is optional",
-        text: "The Logitech MX Keys S and MX Keys Mini use scissor switches, not mechanical ones, but they're among the quietest keyboards on the market and cost less than the premium MX Mechanical boards.",
-      },
-      {
-        label: "Want a full-size layout with a number pad",
-        text: "The MX Mechanical (full-size), Keychron B6 Pro, and Keychron C2 all keep the number pad; the Mini variants and MX Keys Mini drop it for a smaller footprint.",
-      },
-      {
-        label: "Need Mac-native shortcuts out of the box",
-        text: "Both MX Mechanical Mini Mac colorways and the Keychron C2 are Mac-compatible without remapping.",
-      },
+        "label": "Logitech MX Mechanical Mini Mac Wireless Keyboard",
+        "text": "The higher-priced option, worth it if it offers real keycap or build-quality headroom above the cheaper pick."
+      }
     ],
+    "note": "Default to Keychron B6 Pro Ultra unless your specific needs genuinely call for the pricier pick."
   },
   {
-    subheading: "By Budget",
-    intro:
-      "Prices in this list span roughly $38 to $160, and the cheapest options are still genuinely mechanical.",
-    table: {
-      headers: ["Budget", "Best pick", "Why"],
-      rows: [
-        ["Under $50", "Keychron B6 Pro", "Cheapest true mechanical pick, full-size with number pad"],
-        ["Under $50, wired OK", "Keychron C2", "Full 104-key mechanical layout, tactile brown switches"],
-        ["$90-$130, quietest possible", "Logitech MX Keys Mini or MX Keys S", "Near-silent scissor switches, not mechanical"],
-        ["$150+", "Logitech MX Mechanical (full-size or Mini Mac)", "Premium build with genuine quiet mechanical switches"],
-      ],
-    },
+    "subheading": "By Keycap Material",
+    "note": "Check each pick's listed keycap material (PBT vs ABS) against how long you plan to use it daily before buying, since PBT resists shine and wear better over years. Logitech MX Mechanical Wireless Illuminated Keyboard is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Full Quiet Solution, Not Just a Quiet Switch",
-    intro:
-      "A quiet switch alone doesn't eliminate every source of typing noise, especially the keycap-on-plate bottom-out thud.",
-    table: {
-      headers: ["Noise source", "Fix", "Extra cost"],
-      rows: [
-        ["Switch stem click", "Choose a low-profile mechanical or silent switch board", "Included in the keyboard price"],
-        ["Keycap bottom-out thud", "Add a desk mat under the keyboard", "$10-20"],
-        ["Hollow case resonance", "Foam mod (hot-swappable boards only)", "Under $10, DIY"],
-        ["Microphone pickup on calls", "Mute during typing-heavy moments on a boom-arm mic setup", "Free"],
-      ],
-    },
-    note: "None of the picks in this list are hot-swappable, so a foam case mod isn't an option for any of them, factor that in if you're chasing the absolute quietest possible setup and are willing to buy a moddable board instead.",
+    "subheading": "For Shared Office or Video Call Use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Linear or tactile switches rather than clicky ones, to avoid disruptive noise on calls or in a shared space."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech MX Mechanical Wireless Illuminated Keyboard is worth checking against its listed switch type before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want hot-swappable switches and premium PBT keycaps for years of daily use, where Logitech MX Mechanical Mini Mac Wireless Keyboard's build quality gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try the mechanical feel without a big investment, where Keychron B6 Pro Ultra covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
