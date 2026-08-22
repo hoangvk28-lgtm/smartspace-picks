@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ZbsmaRmVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNFJJSG?tag=deskfinds0d-20",
     description:
-      "At only 4.1 inches tall, the Buztrio is among the thinnest walking pads in this compact guide, built on a carbon steel frame with a 2.5HP motor covering 0.6-4 mph. It ships with no assembly required and slides easily under a desk, bed, or sofa when it's not in use.\n\nAn LED display and remote control let you adjust speed without bending over, and built-in wheels and an anti-slip belt round out the design. It's the highest-rated pick in this entire guide.",
+      "At only 4.1 inches tall, the Buztrio is among the thinnest walking pads in this compact guide, built on a carbon steel frame with a 2.5HP motor covering 0.6-4 mph. It ships with no assembly required and slides easily under a desk, bed, or sofa when it's not in use.\n\nAn LED display and remote control let you adjust speed without bending over, and built-in wheels and an anti-slip belt round out the design. It's the highest-rated pick in this entire guide.\n\nAmong the thinnest profiles in this guide. That's a real strength, but weigh it against the flip side: no incline adjustment.",
     specs: [
       "2.5HP motor, 0.6-4 mph speed range",
       "4.1 inches tall",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JbSk7t+uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGB9BV77?tag=deskfinds0d-20",
     description:
-      "The Vhorilix runs a nearly identical 2.5HP motor and 0.6-4 mph range to our top pick, at a slightly thicker but still compact 4.33 inches tall. A carbon steel frame, 5-layer anti-slip belt, and silicone shock absorbers give it a sturdy feel for its size.\n\nNo assembly is required, and built-in wheels make it simple to move between spots. It carries a 2-year warranty, the longest coverage of any pick in this guide.",
+      "The Vhorilix runs a nearly identical 2.5HP motor and 0.6-4 mph range to our top pick, at a slightly thicker but still compact 4.33 inches tall. A carbon steel frame, 5-layer anti-slip belt, and silicone shock absorbers give it a sturdy feel for its size.\n\nNo assembly is required, and built-in wheels make it simple to move between spots. It carries a 2-year warranty, the longest coverage of any pick in this guide.\n\nWorth calling out specifically: still a compact 4.33-inch profile. The catch is slightly thicker than the Buztrio.",
     specs: [
       "2.5HP motor, 0.6-4 mph speed range",
       "4.33 inches tall",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x4f3fulZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXLYZSGB?tag=deskfinds0d-20",
     description:
-      "The Rythkore runs on a 2.0HP quiet vortex motor across a 0.6-4 mph range, and at just 10.5cm, about 4.1 inches thick, it matches the thinnest profile in this guide while being the lightest pick here by weight. That combination makes it especially easy to slide fully out of the way after a walking session.\n\nOmnidirectional wheels make repositioning simple in any direction, not just forward and back. It's also the cheapest pick in this entire guide.",
+      "The Rythkore runs on a 2.0HP quiet vortex motor across a 0.6-4 mph range, and at just 10.5cm, about 4.1 inches thick, it matches the thinnest profile in this guide while being the lightest pick here by weight. That combination makes it especially easy to slide fully out of the way after a walking session.\n\nOmnidirectional wheels make repositioning simple in any direction, not just forward and back. It's also the cheapest pick in this entire guide.\n\nThinnest and lightest profile in this guide. Set against that, lower rating than the top two picks. Both matter when comparing it to the other picks here.",
     specs: [
       "2.0HP vortex quiet motor, 0.6-4 mph speed range",
       "About 10.5cm (4.1 inches) thick",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HOnI215TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGLS9NQV?tag=deskfinds0d-20",
     description:
-      "The Viamotion is the only pick in this guide with a handlebar, giving it an edge for anyone who wants something to hold onto for balance while walking and typing. A manually adjustable incline up to 4 degrees adds a bit more intensity than the completely flat pads above.\n\nIts 2.5HP brushless motor runs quietly at around 45dB and covers a 0.6-3.8 mph range, with a 265 lb max user weight. It's also the most-reviewed pick in this entire guide, giving it the largest track record here.",
+      "The Viamotion is the only pick in this guide with a handlebar, giving it an edge for anyone who wants something to hold onto for balance while walking and typing. A manually adjustable incline up to 4 degrees adds a bit more intensity than the completely flat pads above.\n\nIts 2.5HP brushless motor runs quietly at around 45dB and covers a 0.6-3.8 mph range, with a 265 lb max user weight. It's also the most-reviewed pick in this entire guide, giving it the largest track record here.\n\nA genuine advantage here is that only pick in this guide with a handlebar. The tradeoff is thicker and pricier than the other 3 picks in this guide.",
     specs: [
       "2.5HP brushless motor, 0.6-3.8 mph speed range",
       "Manually adjustable incline up to 4 degrees",
@@ -195,30 +195,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure real desk clearance before assuming any pick fits",
-    explanation:
-      "Compact under-desk treadmills still generally need around 9-12 inches of vertical clearance between the floor and the underside of the desk, even at a thin 4.1-inch treadmill height, since you need room for your feet and stride, not just the unit itself. Standard desks run 28-30 inches tall, but crossbars and drawers can reduce the usable gap, so measure your actual clearance rather than relying on the desk's listed height.",
+    "criterion": "Measure your actual under-desk clearance before comparing treadmill height",
+    "explanation": "An under-desk treadmill needs to physically slide into the same clearance a chair would otherwise occupy, and this clearance varies by desk, both the standing desk's lowest sit height and any crossbar or cable tray underneath can limit how tall a treadmill fits.\n\nThis matters because a treadmill that looks compact in photos can still be too tall for your specific desk's clearance, a mismatch that's only discovered after the treadmill arrives.\n\nMeasure the actual clear height under your desk at its lowest working position, and compare that against the treadmill's listed height, leaving real margin rather than an exact match."
   },
   {
-    criterion: "A couple tenths of an inch in thickness can matter at the margin",
-    explanation:
-      "The picks in this guide range from about 4.1 to 4.33 inches thick, a small difference on paper but one that can decide whether a treadmill clears a desk's crossbar or drawer track. If your clearance is genuinely tight, prioritize the Buztrio or Rythkore over the slightly thicker Vhorilix or the feature-added Viamotion.",
+    "criterion": "Match motor power and speed range to walking, not running, since that's what these are built for",
+    "explanation": "Most under-desk treadmills are built for a slow 1-4 mph walking pace during work, not a running pace, and their motors are sized accordingly, a lighter-duty motor rated for walking speeds will struggle or wear out faster if pushed toward running speeds it wasn't designed for.\n\nThis matters directly if you're specifically hoping to run rather than walk while working, a genuine running-capable treadmill needs a meaningfully more powerful motor and a different category of product than most under-desk walking pads.\n\nCheck the listed max speed and motor horsepower rating against your actual intended pace, and don't assume any \"treadmill\" labeled product supports running speeds."
   },
   {
-    criterion: "Quiet motors matter more in a small home office",
-    explanation:
-      "Aim for equipment rated under 15dB for near-silent operation during calls, with up to 30dB still tolerable but noticeable. The Viamotion's stated rating of around 45dB is audible enough to notice on a call, a real tradeoff for the only pick in this guide with a handlebar and incline.",
+    "criterion": "Check noise level specifically for video calls and shared office spaces",
+    "explanation": "A treadmill's motor and belt generate continuous noise while walking, and that noise level matters far more for this category than a typical treadmill, since you'll likely be on video calls or in a shared workspace while using it, a treadmill quiet enough for a private home gym can still be distracting on a work call in an open office.\n\nThis matters more the more of your work involves calls or a shared space, less if you work in a private office with the door closed.\n\nCheck reviews specifically for noise mentions during video calls or in shared spaces, not just a general decibel rating that may be measured under different conditions."
   },
   {
-    criterion: "Weight matters for a genuinely compact, movable setup",
-    explanation:
-      "If you plan to slide the treadmill fully out from under the desk after each session rather than leaving it in place, the Rythkore's lighter weight makes that daily routine easier than a heavier unit, even when the thickness difference is minor.",
+    "criterion": "Verify safety features like an auto-stop cord and remote start/stop for working while walking",
+    "explanation": "An auto-stop safety cord (clipped to your clothing, stopping the belt if you step off unexpectedly) and a remote or app-based start/stop control matter more for this category than a typical gym treadmill, since you'll be dividing attention between the treadmill and actual work rather than fully focused on walking.\n\nThis matters because a moment of distraction while multitasking is exactly when an unexpected stumble is most likely, and having quick, reliable stop control reduces that risk.\n\nCheck the listing specifically for a safety cord and remote control features, not just speed and incline specs."
   },
   {
-    criterion: "Route the power cord away from your walking path",
-    explanation:
-      "Cable management matters more on a treadmill than most desk gear specifically because you're walking on or near the unit while it runs. Route the power cord along a wall or under a cord cover rather than leaving it loose on the floor, since a snagged cord is a real trip hazard on a moving belt.",
-  },
+    "criterion": "Consider incline if you want a genuine calorie-burn increase, not just flat walking",
+    "explanation": "An incline feature meaningfully increases calorie burn and leg engagement compared to flat walking at the same speed, but it's a feature most under-desk treadmills skip entirely to keep the profile slim and the price down, and even among models that offer it, incline range varies from a token few degrees to a genuinely adjustable range.\n\nThis matters more if fitness intensity is a real goal beyond just light movement during work, less if you're primarily looking for gentle activity while working.\n\nCheck whether incline is offered at all and, if so, the specific adjustable range in degrees, not just the word \"incline\" in the listing."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -231,56 +226,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Desk Clearance",
-    intro:
-      "Every pick in this guide is compact, but the small differences in thickness matter most when your clearance is genuinely tight.",
-    table: {
-      headers: ["Clearance available", "Best pick", "Why"],
-      rows: [
-        ["Extremely tight", "Buztrio Walking Pad (4.1\") or Rythkore (~4.1\")", "Thinnest profiles in this guide"],
-        ["Tight but slightly more room", "Vhorilix Walking Pad (4.33\")", "Still compact, with the longest warranty"],
-        ["Standard clearance, room for extra features", "Viamotion Walking Pad", "Only pick with a handlebar and incline"],
+    "subheading": "By Feature Set",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Incline for higher calorie burn",
+          "Viamotion Walking Pad"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Viamotion Walking Pad"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By What Matters Most to You",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $80",
+          "Rythkore Walking Pad"
+        ],
+        [
+          "Up to $120",
+          "Viamotion Walking Pad"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Incline vs Flat Walking",
+    "cards": [
       {
-        label: "Want the best rating in a compact size",
-        text: "The Buztrio Walking Pad is the highest-rated pick in this guide while also being among the thinnest.",
+        "label": "Incline",
+        "text": "Meaningfully increases calorie burn and leg engagement over flat walking. In this comparison: Viamotion Walking Pad."
       },
       {
-        label: "Want the longest warranty",
-        text: "The Vhorilix Walking Pad backs its compact build with a 2-year warranty, longer than any other pick here.",
-      },
-      {
-        label: "Want the lowest price and lightest weight",
-        text: "The Rythkore Walking Pad is the cheapest and lightest pick in this guide, ideal if you plan to move it in and out often.",
-      },
-      {
-        label: "Want a handlebar and incline in a still-compact footprint",
-        text: "The Viamotion Walking Pad is the only pick here with both features, at the cost of being the thickest and priciest of the four.",
-      },
+        "label": "Flat walking",
+        "text": "Simpler and usually slimmer, fine for light movement rather than a fitness goal. In this comparison: Buztrio Walking Pad, Vhorilix Walking Pad, Rythkore Walking Pad."
+      }
     ],
+    "note": "Default to flat walking unless calorie burn intensity is a real goal beyond light movement."
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "Tradeoff"],
-      rows: [
-        ["Under $85", "Rythkore Walking Pad", "Lowest rating of the four, but cheapest and lightest"],
-        ["$85-$95", "Buztrio or Vhorilix Walking Pad", "Best rating or best warranty, similar price"],
-        ["$120", "Viamotion Walking Pad", "Adds handlebar and incline, slightly thicker"],
-      ],
-    },
+    "subheading": "By Motor Power",
+    "note": "Check each pick's listed motor horsepower and max speed against your actual intended pace before buying, not just the general \"treadmill\" label. Viamotion Walking Pad is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Safety Setup Reality Check",
-    intro:
-      "None of the four listings in this guide detail a specific auto-stop sensor or safety clip in their published specs, so treat these as general safety practices to apply regardless of which pick you choose.",
-    note: "Check for a physical or magnetic auto-stop mechanism before your first walking session, keep a safety clip attached to your clothing if the unit includes one, and route the power cord along a wall or under a cord cover rather than across your walking path, since a snagged cord is a real trip hazard on a moving belt.",
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuinely quiet motor and belt confirmed in reviews specifically during video call use, not just a general decibel spec."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Viamotion Walking Pad is worth checking against its listed noise level before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want incline, remote control, and heavy daily-use durability, where Viamotion Walking Pad's features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want light, occasional movement during the workday, where Rythkore Walking Pad covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

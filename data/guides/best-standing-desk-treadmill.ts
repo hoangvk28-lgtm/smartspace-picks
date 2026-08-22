@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x4f3fulZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXLYZSGB?tag=deskfinds0d-20",
     description:
-      "This is the lowest-cost entry point in this guide, a walking pad with a 0.6-4.0 mph speed range and an adjustable slim compact design, without a desk surface built in. It comes with a remote control and a max 265 lb capacity, covering the core treadmill experience at the smallest possible price.\n\nBecause it doesn't include its own workstation, it's best paired with a separate desk you already own or a standalone desk accessory if you want the combo experience without paying for an integrated desk surface.",
+      "This is the lowest-cost entry point in this guide, a walking pad with a 0.6-4.0 mph speed range and an adjustable slim compact design, without a desk surface built in. It comes with a remote control and a max 265 lb capacity, covering the core treadmill experience at the smallest possible price.\n\nBecause it doesn't include its own workstation, it's best paired with a separate desk you already own or a standalone desk accessory if you want the combo experience without paying for an integrated desk surface.\n\nSlim compact design fits small spaces. That's a real strength, but weigh it against the flip side: no built-in desk surface, unlike every other pick in this guide.",
     specs: [
       "0.6-4.0 mph speed range",
       "Adjustable slim compact design",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41sRiKFY+TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GZ4RZJ9J?tag=deskfinds0d-20",
     description:
-      "Fasion Trek Run pairs a 3.5HP motor with speeds up to 8.0 mph, the fastest top speed of any pick in this guide, alongside a removable desk workstation and a 12% manual incline. That combination of speed, incline, and desk surface at under $170 makes it the strongest overall value in this lineup.\n\nThe unit folds down for storage and carries a 350 lb capacity, well above the base walking pad. As with any combo unit, the desk surface itself has its own separate, lower weight rating than the 350 lb treadmill capacity, so keep that in mind before resting heavier gear on it.",
+      "Fasion Trek Run pairs a 3.5HP motor with speeds up to 8.0 mph, the fastest top speed of any pick in this guide, alongside a removable desk workstation and a 12% manual incline. That combination of speed, incline, and desk surface at under $170 makes it the strongest overall value in this lineup.\n\nThe unit folds down for storage and carries a 350 lb capacity, well above the base walking pad. As with any combo unit, the desk surface itself has its own separate, lower weight rating than the 350 lb treadmill capacity, so keep that in mind before resting heavier gear on it.\n\nWorth calling out specifically: 350 lb capacity, well above the base model. The catch is incline is manual, requiring you to step off or reach down to adjust.",
     specs: [
       "3.5HP motor",
       "Up to 8.0 mph top speed (fastest in this guide)",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EVziUfhvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GX5KGMJ6?tag=deskfinds0d-20",
     description:
-      "YPOO offers the steepest manual incline of any pick in this guide at 13%, along with a handlebar for added stability while walking on that incline. A portable folding design keeps it reasonably sized for a home office despite the added incline hardware.\n\nThe unit includes both a desk and app connectivity, giving you a digital view of your session alongside the physical workstation. As with the other manual-incline picks here, changing incline mid-session means stepping off rather than using a remote.",
+      "YPOO offers the steepest manual incline of any pick in this guide at 13%, along with a handlebar for added stability while walking on that incline. A portable folding design keeps it reasonably sized for a home office despite the added incline hardware.\n\nThe unit includes both a desk and app connectivity, giving you a digital view of your session alongside the physical workstation. As with the other manual-incline picks here, changing incline mid-session means stepping off rather than using a remote.\n\nHandlebar adds stability on the incline. Set against that, incline adjustment is manual, requiring you to step off. Both matter when comparing it to the other picks here.",
     specs: [
       "13% manual incline (steepest in this guide)",
       "Handlebar for support",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jxpkOJz7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H3KHHPTW?tag=deskfinds0d-20",
     description:
-      "FUNRAY is the only pick in this entire guide that combines a 3-in-1 vibration plate with the treadmill and desk combo, adding a low-impact option alongside standard walking. A quiet brushless motor and 5% manual incline round out the core treadmill function.\n\nThe vibration plate feature is a genuinely different use case from straight walking, useful for short standing breaks between longer walking sessions. Remote control and a portable design keep it in line with the rest of this guide's mid-tier picks.",
+      "FUNRAY is the only pick in this entire guide that combines a 3-in-1 vibration plate with the treadmill and desk combo, adding a low-impact option alongside standard walking. A quiet brushless motor and 5% manual incline round out the core treadmill function.\n\nThe vibration plate feature is a genuinely different use case from straight walking, useful for short standing breaks between longer walking sessions. Remote control and a portable design keep it in line with the rest of this guide's mid-tier picks.\n\nA genuine advantage here is that quiet brushless motor. The tradeoff is 5% incline is the shallowest manual incline among the incline-equipped picks.",
     specs: [
       "3-in-1 vibration plate + treadmill + desk",
       "Quiet brushless motor",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41S7yyWDKKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H3K6P54B?tag=deskfinds0d-20",
     description:
-      "This model brings a 12% incline and a 3.5HP motor together with an integrated desk workstation, sitting close to the YPOO's incline range without the added handlebar footprint. A 350 lb capacity matches the Fasion Trek Run, giving it solid headroom for most users.\n\nIt's a straightforward, no-frills combo unit for buyers who want strong incline and capacity numbers without extras like vibration plates or handlebars adding to the price or footprint.",
+      "This model brings a 12% incline and a 3.5HP motor together with an integrated desk workstation, sitting close to the YPOO's incline range without the added handlebar footprint. A 350 lb capacity matches the Fasion Trek Run, giving it solid headroom for most users.\n\nIt's a straightforward, no-frills combo unit for buyers who want strong incline and capacity numbers without extras like vibration plates or handlebars adding to the price or footprint.\n\n350 lb capacity. That's a real strength, but weigh it against the flip side: no handlebar for added stability like the YPOO pick.",
     specs: [
       "12% incline",
       "350 lb capacity",
@@ -210,7 +210,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DkKD-DLGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSVC7NRB?tag=deskfinds0d-20",
     description:
-      "This 3-in-1 foldable design adds an adjustable handlebar and magnetic remote alongside app control, giving you more ways to manage a session than the simpler mid-tier picks. The removable desk workstation detaches cleanly for storage when the unit folds down.\n\nThe combination of a magnetic remote and app control means you can adjust speed either physically or digitally, useful if your phone isn't always within reach during a walking session.",
+      "This 3-in-1 foldable design adds an adjustable handlebar and magnetic remote alongside app control, giving you more ways to manage a session than the simpler mid-tier picks. The removable desk workstation detaches cleanly for storage when the unit folds down.\n\nThe combination of a magnetic remote and app control means you can adjust speed either physically or digitally, useful if your phone isn't always within reach during a walking session.\n\nWorth calling out specifically: both magnetic remote and app control available. The catch is pricier than the mid-tier picks without a large capacity increase.",
     specs: [
       "3-in-1 foldable design",
       "Adjustable handlebar",
@@ -242,7 +242,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41a-xfVt0eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H367J6YJ?tag=deskfinds0d-20",
     description:
-      "Akluer pairs a wooden desk surface, a more furniture-like look than the plastic or metal desk surfaces on other picks, with a rated 45dB noise level, the quietest of any pick in this guide. That's a genuine advantage for anyone walking during video calls in a shared space.\n\nA 2.5HP motor and 330 lb capacity are modest compared to the fastest and highest-capacity picks here, but the tradeoff for noise level and a nicer desk finish is a reasonable one for buyers prioritizing quiet operation over speed or incline.",
+      "Akluer pairs a wooden desk surface, a more furniture-like look than the plastic or metal desk surfaces on other picks, with a rated 45dB noise level, the quietest of any pick in this guide. That's a genuine advantage for anyone walking during video calls in a shared space.\n\nA 2.5HP motor and 330 lb capacity are modest compared to the fastest and highest-capacity picks here, but the tradeoff for noise level and a nicer desk finish is a reasonable one for buyers prioritizing quiet operation over speed or incline.\n\nWooden desk surface has a more furniture-like finish. Set against that, 2.5HP motor is less powerful than the 3.0-3.5HP picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Wooden desk surface, adjustable height",
       "45dB rated noise level (quietest in this guide)",
@@ -274,7 +274,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51uk00a+iNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXFHCXPR?tag=deskfinds0d-20",
     description:
-      "This 6-in-1 foldable unit brings together the most powerful motor in this guide at 3.0HP with a 3-stage incline selector, 2%, 7%, or 12%, letting you jump between preset incline levels instead of a single fixed or fully continuous range. A removable desk, adjustable handlebar, RGB lights, and LED display round out the most feature-complete pick in this entire lineup.\n\nRemote and app control both work alongside the physical adjustments, and the 6-in-1 folding design covers desk, handlebar, and treadmill configurations in one unit. It's the pick for buyers who want the full feature set rather than a stripped-down combo.",
+      "This 6-in-1 foldable unit brings together the most powerful motor in this guide at 3.0HP with a 3-stage incline selector, 2%, 7%, or 12%, letting you jump between preset incline levels instead of a single fixed or fully continuous range. A removable desk, adjustable handlebar, RGB lights, and LED display round out the most feature-complete pick in this entire lineup.\n\nRemote and app control both work alongside the physical adjustments, and the 6-in-1 folding design covers desk, handlebar, and treadmill configurations in one unit. It's the pick for buyers who want the full feature set rather than a stripped-down combo.\n\nA genuine advantage here is that 3-stage incline selector covers flat through steep incline. The tradeoff is most expensive pick in this guide.",
     specs: [
       "3.0HP motor (most powerful in this guide)",
       "3-stage incline: 2%, 7%, or 12%",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Check the desk surface's own weight rating separately",
-    explanation:
-      "A removable or foldable desk surface adds real convenience, but it usually has a lower weight limit than the treadmill's walking deck. If you plan to rest a monitor or a heavier laptop on the desk, check that surface's own weight rating rather than assuming the treadmill's higher walker capacity applies to it too.",
+    "criterion": "Measure your actual under-desk clearance before comparing treadmill height",
+    "explanation": "An under-desk treadmill needs to physically slide into the same clearance a chair would otherwise occupy, and this clearance varies by desk, both the standing desk's lowest sit height and any crossbar or cable tray underneath can limit how tall a treadmill fits.\n\nThis matters because a treadmill that looks compact in photos can still be too tall for your specific desk's clearance, a mismatch that's only discovered after the treadmill arrives.\n\nMeasure the actual clear height under your desk at its lowest working position, and compare that against the treadmill's listed height, leaving real margin rather than an exact match."
   },
   {
-    criterion: "Auto-incline versus manual incline changes your workday experience",
-    explanation:
-      "Incline increases calorie burn substantially over flat walking, but most combo units in this guide use manual incline, requiring you to step off or reach down to adjust a lever. Multi-stage presets like the 6-in-1 pick's 2%-7%-12% selector are a middle ground, letting you jump between set levels without a full continuous manual dial.",
+    "criterion": "Match motor power and speed range to walking, not running, since that's what these are built for",
+    "explanation": "Most under-desk treadmills are built for a slow 1-4 mph walking pace during work, not a running pace, and their motors are sized accordingly, a lighter-duty motor rated for walking speeds will struggle or wear out faster if pushed toward running speeds it wasn't designed for.\n\nThis matters directly if you're specifically hoping to run rather than walk while working, a genuine running-capable treadmill needs a meaningfully more powerful motor and a different category of product than most under-desk walking pads.\n\nCheck the listed max speed and motor horsepower rating against your actual intended pace, and don't assume any \"treadmill\" labeled product supports running speeds."
   },
   {
-    criterion: "Noise level matters more in shared home offices",
-    explanation:
-      "Aim for a unit that stays quiet during video calls, since a treadmill desk usually runs for longer stretches than most other office gear. Brushless motors run meaningfully quieter than older motor designs, and rated dB figures like the Akluer's 45dB give you a concrete number to compare rather than guessing from HP alone.",
+    "criterion": "Check noise level specifically for video calls and shared office spaces",
+    "explanation": "A treadmill's motor and belt generate continuous noise while walking, and that noise level matters far more for this category than a typical treadmill, since you'll likely be on video calls or in a shared workspace while using it, a treadmill quiet enough for a private home gym can still be distracting on a work call in an open office.\n\nThis matters more the more of your work involves calls or a shared space, less if you work in a private office with the door closed.\n\nCheck reviews specifically for noise mentions during video calls or in shared spaces, not just a general decibel rating that may be measured under different conditions."
   },
   {
-    criterion: "Route the power cord away from your walking path",
-    explanation:
-      "Cable management matters more for a treadmill desk than most furniture because you're walking on or near the unit while it runs. Route the power cord along a wall or under a cord cover rather than leaving it loose on the floor, since a snagged cord is a real trip hazard on a moving belt.",
+    "criterion": "Verify safety features like an auto-stop cord and remote start/stop for working while walking",
+    "explanation": "An auto-stop safety cord (clipped to your clothing, stopping the belt if you step off unexpectedly) and a remote or app-based start/stop control matter more for this category than a typical gym treadmill, since you'll be dividing attention between the treadmill and actual work rather than fully focused on walking.\n\nThis matters because a moment of distraction while multitasking is exactly when an unexpected stumble is most likely, and having quick, reliable stop control reduces that risk.\n\nCheck the listing specifically for a safety cord and remote control features, not just speed and incline specs."
   },
   {
-    criterion: "Confirm auto-stop and soft-start safety features",
-    explanation:
-      "Look for an auto-stop sensor that halts the belt if you step off, and a soft-start feature that begins at a very low speed. Soft-start specifically reduces the chance of being caught off guard when the belt starts moving, especially important on a combo unit where you're also managing a desk surface above the belt.",
-  },
+    "criterion": "Consider incline if you want a genuine calorie-burn increase, not just flat walking",
+    "explanation": "An incline feature meaningfully increases calorie burn and leg engagement compared to flat walking at the same speed, but it's a feature most under-desk treadmills skip entirely to keep the profile slim and the price down, and even among models that offer it, incline range varies from a token few degrees to a genuinely adjustable range.\n\nThis matters more if fitness intensity is a real goal beyond just light movement during work, less if you're primarily looking for gentle activity while working.\n\nCheck whether incline is offered at all and, if so, the specific adjustable range in degrees, not just the word \"incline\" in the listing."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,79 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You'll Rest on the Desk",
-    intro:
-      "The desk surface on a combo unit almost always has a lower weight rating than the treadmill deck itself, so match your setup to a desk surface you've actually confirmed can handle it.",
-    table: {
-      headers: ["What you'll place on the desk", "What to check", "Best pick"],
-      rows: [
-        ["Just a laptop and a notebook", "Any desk surface in this guide handles light loads", "Fasion Trek Run Adjustable Height Walking Pad"],
-        ["A monitor plus a heavier laptop", "Confirm the desk surface's own weight rating, not just the treadmill capacity", "Akluer Walking Pad Treadmill with Desk Workstation (wooden surface)"],
-        ["Frequent removal and storage of the desk", "Prioritize a genuinely removable, not just foldable, surface", "3-in-1 Foldable with Removable Desk Workstation"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Walking Pad Treadmill for Home"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Walking Pad Treadmill for Home"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Incline Preference",
-    table: {
-      headers: ["Incline need", "Best pick", "Why"],
-      rows: [
-        ["No incline, just walking and a desk", "Walking Pad Treadmill for Home (base model)", "Cheapest option, incline not included"],
-        ["Steepest available manual incline", "YPOO 13% Incline Treadmill with Handle Bar", "13% is the steepest manual incline in this guide"],
-        ["Preset stages instead of a continuous dial", "3.0HP 6-in-1 with 2%-7%-12% Incline", "Jump between 3 fixed levels rather than a full manual range"],
-        ["Fastest speed alongside solid incline", "Fasion Trek Run Adjustable Height Walking Pad", "8.0 mph top speed plus 12% incline"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $80",
+          "Walking Pad Treadmill for Home"
+        ],
+        [
+          "Up to $250",
+          "3.0HP Walking Pad Treadmill with Incline 2%"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Noise Sensitivity",
-    cards: [
+    "subheading": "Incline vs Flat Walking",
+    "cards": [
       {
-        label: "Desk sits in a shared space with frequent video calls",
-        text: "The Akluer is rated at 45dB, the quietest pick in this guide, making it the safest choice if noise during calls is your top concern.",
+        "label": "Incline",
+        "text": "Meaningfully increases calorie burn and leg engagement over flat walking. In this comparison: Fasion Trek Run Adjustable Height Walking Pad with Removable Desk, YPOO 13% Incline Treadmill with Handle Bar, FUNRAY Under Desk Vibration Walking Pad, Walking Pad Treadmill with Desk Workstation, Akluer Walking Pad Treadmill with Desk Workstation, 3.0HP Walking Pad Treadmill with Incline 2%."
       },
       {
-        label: "Desk is in a private room or noise is a lower priority",
-        text: "Any pick works, including the base Walking Pad Treadmill for Home or the feature-rich 6-in-1 model, since a quieter room reduces the impact of motor noise.",
-      },
+        "label": "Flat walking",
+        "text": "Simpler and usually slimmer, fine for light movement rather than a fitness goal. In this comparison: Walking Pad Treadmill for Home, Walking Pad Treadmill with Removable Desk Workstation."
+      }
     ],
+    "note": "Default to flat walking unless calorie burn intensity is a real goal beyond light movement."
   },
   {
-    subheading: "By Feature Priority Beyond Walking",
-    intro:
-      "Some picks in this guide add a genuinely different use case beyond straight walking, worth considering if you want more than a desk and a belt.",
-    cards: [
-      {
-        label: "Want a low-impact alternative to walking for short breaks",
-        text: "The FUNRAY is the only pick in this guide with a built-in vibration plate alongside the treadmill and desk.",
-      },
-      {
-        label: "Want handlebar support while adjusting incline",
-        text: "The YPOO includes a handlebar specifically paired with its 13% incline for extra stability.",
-      },
-      {
-        label: "Want the fullest feature set in one unit",
-        text: "The 6-in-1 3.0HP model combines 3-stage incline, RGB lighting, LED display, and both remote and app control.",
-      },
-    ],
+    "subheading": "By Motor Power",
+    "note": "Check each pick's listed motor horsepower and max speed against your actual intended pace before buying, not just the general \"treadmill\" label. Walking Pad Treadmill for Home is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Best pick", "What you get"],
-      rows: [
-        ["Under $100", "Walking Pad Treadmill for Home", "Base treadmill only, no built-in desk"],
-        ["$150-$180", "Fasion Trek Run Adjustable Height Walking Pad", "Best overall value, fastest speed, 12% incline, removable desk"],
-        ["$230+", "Akluer or the 6-in-1 3.0HP model", "Quietest operation or the most complete feature set"],
-      ],
-    },
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuinely quiet motor and belt confirmed in reviews specifically during video call use, not just a general decibel spec."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Walking Pad Treadmill for Home is worth checking against its listed noise level before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Cord and Desk Safety Reality Check",
-    intro:
-      "A standing desk treadmill adds a desk surface directly above a moving belt, which makes cable routing and load limits more important than on a standalone treadmill.",
-    note: "Keep the power cord routed along a wall or under a cord cover away from your walking path, and always check the desk surface's own weight rating before resting a monitor or heavier laptop on it, since it's rated separately from the treadmill's walking deck capacity.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want incline, remote control, and heavy daily-use durability, where 3.0HP Walking Pad Treadmill with Incline 2%'s features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want light, occasional movement during the workday, where Walking Pad Treadmill for Home covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

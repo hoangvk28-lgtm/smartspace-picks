@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ZbsmaRmVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVNFJJSG?tag=deskfinds0d-20",
     description:
-      "At just 4.1 inches tall, this is the thinnest treadmill in this guide, requiring the least vertical clearance under a desk of any pick here. A 2.5HP motor covers a 0.6-4 mph speed range, enough for a steady walking pace during a workday rather than a running workout, and it ships with no assembly required.\n\nA remote control and LED display make it simple to adjust speed without bending down, and it supports up to 265 lbs. It carries the highest rating in this entire guide, backed by a solid review base for its price point.",
+      "At just 4.1 inches tall, this is the thinnest treadmill in this guide, requiring the least vertical clearance under a desk of any pick here. A 2.5HP motor covers a 0.6-4 mph speed range, enough for a steady walking pace during a workday rather than a running workout, and it ships with no assembly required.\n\nA remote control and LED display make it simple to adjust speed without bending down, and it supports up to 265 lbs. It carries the highest rating in this entire guide, backed by a solid review base for its price point.\n\nThinnest profile in this guide at 4.1 inches. That's a real strength, but weigh it against the flip side: top speed capped at 4 mph, a walking pace not a running one.",
     specs: [
       "2.5HP motor, 0.6-4 mph speed range",
       "4.1 inches tall, thinnest in this guide",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51JbSk7t+uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGB9BV77?tag=deskfinds0d-20",
     description:
-      "This Vhorilix walking pad sits at nearly the same price as our top pick and covers the same 2.5HP, 0.6-4 mph range, with a slim 4.33-inch profile that still slides under most standing desks without issue. Built-in wheels make it easy to reposition or store away when it's not in use.\n\nIt backs its build with a 2-year warranty, the longest coverage among the budget picks in this guide, which matters on a walking pad that will see daily wear from foot traffic. Max user weight is rated at 264 lbs.",
+      "This Vhorilix walking pad sits at nearly the same price as our top pick and covers the same 2.5HP, 0.6-4 mph range, with a slim 4.33-inch profile that still slides under most standing desks without issue. Built-in wheels make it easy to reposition or store away when it's not in use.\n\nIt backs its build with a 2-year warranty, the longest coverage among the budget picks in this guide, which matters on a walking pad that will see daily wear from foot traffic. Max user weight is rated at 264 lbs.\n\nWorth calling out specifically: built-in wheels for easy repositioning. The catch is slightly thicker profile than the top-ranked pick.",
     specs: [
       "2.5HP motor, 0.6-4 mph speed range",
       "4.33 inches tall",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HOnI215TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGLS9NQV?tag=deskfinds0d-20",
     description:
-      "The Viamotion is the first pick in this guide with a handlebar, useful for balance during startup or for anyone less steady on their feet while walking and typing at the same time. A manually adjustable incline up to 4 degrees adds a bit more workout intensity than the flat budget picks above.\n\nIts brushless motor runs quietly at around 45dB, audible but not disruptive for most calls, and it covers a 0.6-3.8 mph range with a 265 lb max user weight. It's also the most-reviewed pick in this entire guide, giving it the largest track record here.",
+      "The Viamotion is the first pick in this guide with a handlebar, useful for balance during startup or for anyone less steady on their feet while walking and typing at the same time. A manually adjustable incline up to 4 degrees adds a bit more workout intensity than the flat budget picks above.\n\nIts brushless motor runs quietly at around 45dB, audible but not disruptive for most calls, and it covers a 0.6-3.8 mph range with a 265 lb max user weight. It's also the most-reviewed pick in this entire guide, giving it the largest track record here.\n\nOnly budget-tier pick with a handlebar and incline. Set against that, slightly slower top speed than the ultra-slim picks at 3.8 mph. Both matter when comparing it to the other picks here.",
     specs: [
       "2.5HP motor, 0.6-3.8 mph speed range",
       "Manually adjustable incline up to 4 degrees",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PmXBiskHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJRLJVT5?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this guide that includes a built-in vibration massage plate alongside the walking belt, letting you switch between walking and a stationary massage session on the same unit. A 2.5HP brushless motor covers 0.6-4 mph, and manual incline goes up to 12% across 2 levels, the deepest incline range in this guide.\n\nA 360-degree removable handlebar and a large LED display round out the feature set, and its 300-350 lb weight capacity range is the highest of any pick here. The distinct pink finish sets it apart visually from the more neutral-colored picks in this guide.",
+      "This is the only pick in this guide that includes a built-in vibration massage plate alongside the walking belt, letting you switch between walking and a stationary massage session on the same unit. A 2.5HP brushless motor covers 0.6-4 mph, and manual incline goes up to 12% across 2 levels, the deepest incline range in this guide.\n\nA 360-degree removable handlebar and a large LED display round out the feature set, and its 300-350 lb weight capacity range is the highest of any pick here. The distinct pink finish sets it apart visually from the more neutral-colored picks in this guide.\n\nA genuine advantage here is that deepest incline range in this guide at up to 12%. The tradeoff is pricier than the budget and mid-tier picks above.",
     specs: [
       "2.5HP brushless motor, 0.6-4 mph speed range",
       "Manual incline up to 12% across 2 levels",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31aExAwOKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6WN93Z7?tag=deskfinds0d-20",
     description:
-      "The WalkingPad Z1 uses a premium aluminum frame that folds 180 degrees to roughly halve its footprint for storage, a real advantage if the treadmill needs to move out of the way between work sessions. Its 1-4 mph range and quiet brushless motor keep it in line with the walking-pace focus of this category.\n\nA 47.6-inch belt gives a bit more stride room than the compact budget picks, and it supports up to 242 lbs. Build quality and the folding mechanism are the main draw here over the cheaper flat-pad options.",
+      "The WalkingPad Z1 uses a premium aluminum frame that folds 180 degrees to roughly halve its footprint for storage, a real advantage if the treadmill needs to move out of the way between work sessions. Its 1-4 mph range and quiet brushless motor keep it in line with the walking-pace focus of this category.\n\nA 47.6-inch belt gives a bit more stride room than the compact budget picks, and it supports up to 242 lbs. Build quality and the folding mechanism are the main draw here over the cheaper flat-pad options.\n\nPremium aluminum build quality. That's a real strength, but weigh it against the flip side: lower weight capacity than the flat budget picks.",
     specs: [
       "Quiet brushless motor, 1-4 mph speed range",
       "Folds 180 degrees, roughly halves footprint",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Y8r6RSx1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6WZ3X5R?tag=deskfinds0d-20",
     description:
-      "The WalkingPad P1 folds down to roughly half its size on the same aluminum frame construction as the Z1, aimed at buyers who want a compact stored footprint without needing the Z1's higher weight capacity. Its 0.5-3.75 mph range runs on a very quiet brushless motor, and no assembly is required out of the box.\n\nWeight capacity tops out at 220 lbs, the lowest in this guide, so it suits lighter users best. It carries a solid review base at just under 1,000 reviews.",
+      "The WalkingPad P1 folds down to roughly half its size on the same aluminum frame construction as the Z1, aimed at buyers who want a compact stored footprint without needing the Z1's higher weight capacity. Its 0.5-3.75 mph range runs on a very quiet brushless motor, and no assembly is required out of the box.\n\nWeight capacity tops out at 220 lbs, the lowest in this guide, so it suits lighter users best. It carries a solid review base at just under 1,000 reviews.\n\nWorth calling out specifically: very quiet brushless motor. The catch is lowest weight capacity in this guide at 220 lbs.",
     specs: [
       "Very quiet brushless motor, 0.5-3.75 mph speed range",
       "Folds compactly to roughly half its size",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419oUO9ShtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHXTT57C?tag=deskfinds0d-20",
     description:
-      "The Z1R adds a detachable handlebar to the same 180-degree folding aluminum frame as the Z1, useful for balance or a firmer grip during faster walking. It covers a 1-5 mph range, the widest speed range in this guide, giving it the most flexibility between a slow work-day pace and a brisker walk.\n\nAn 8-layer shock-absorbing belt is the thickest belt construction in this guide, adding cushioning underfoot, and app connectivity lets you track sessions. Max user weight is 242 lbs, matching the Z1.",
+      "The Z1R adds a detachable handlebar to the same 180-degree folding aluminum frame as the Z1, useful for balance or a firmer grip during faster walking. It covers a 1-5 mph range, the widest speed range in this guide, giving it the most flexibility between a slow work-day pace and a brisker walk.\n\nAn 8-layer shock-absorbing belt is the thickest belt construction in this guide, adding cushioning underfoot, and app connectivity lets you track sessions. Max user weight is 242 lbs, matching the Z1.\n\nThickest belt construction in this guide for more cushioning. Set against that, among the pricier picks in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "1-5 mph speed range, widest in this guide",
       "Detachable handlebar",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31wESmkNoZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTH69X4C?tag=deskfinds0d-20",
     description:
-      "The LifeSpan Fitness TX6 is built around a 4.5HP motor, the most powerful in this entire guide and rated for continuous professional use, paired with a 0.4-6 mph range that's both the widest and fastest top speed here. An aluminum frame and very quiet operation round out a spec sheet aimed squarely at heavy daily office use rather than occasional walking.\n\nWeight capacity tops out at 400 lbs, the highest in this guide. That said, this listing currently has an extremely small review sample of just 2 reviews despite its premium price and established brand name, so its real-world track record on this specific model isn't yet proven the way the higher-volume picks above are, and that should factor into the decision alongside the specs.",
+      "The LifeSpan Fitness TX6 is built around a 4.5HP motor, the most powerful in this entire guide and rated for continuous professional use, paired with a 0.4-6 mph range that's both the widest and fastest top speed here. An aluminum frame and very quiet operation round out a spec sheet aimed squarely at heavy daily office use rather than occasional walking.\n\nWeight capacity tops out at 400 lbs, the highest in this guide. That said, this listing currently has an extremely small review sample of just 2 reviews despite its premium price and established brand name, so its real-world track record on this specific model isn't yet proven the way the higher-volume picks above are, and that should factor into the decision alongside the specs.\n\nA genuine advantage here is that highest weight capacity in this guide at 400 lbs. The tradeoff is extremely small review sample at just 2 reviews, not yet a proven track record.",
     specs: [
       "4.5HP motor, most powerful in this guide",
       "0.4-6 mph speed range, widest and fastest top speed here",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure real desk clearance, not the desk's listed height",
-    explanation:
-      "Under-desk treadmills generally need about 9-12 inches of vertical clearance between the floor and the underside of the desk, and standard desks run 28-30 inches tall, but crossbars and drawers can reduce the usable gap. Measure the actual clearance you have before assuming any treadmill in this guide, even the 4.1-inch ultra-slim models, will fit comfortably.",
+    "criterion": "Measure your actual under-desk clearance before comparing treadmill height",
+    "explanation": "An under-desk treadmill needs to physically slide into the same clearance a chair would otherwise occupy, and this clearance varies by desk, both the standing desk's lowest sit height and any crossbar or cable tray underneath can limit how tall a treadmill fits.\n\nThis matters because a treadmill that looks compact in photos can still be too tall for your specific desk's clearance, a mismatch that's only discovered after the treadmill arrives.\n\nMeasure the actual clear height under your desk at its lowest working position, and compare that against the treadmill's listed height, leaving real margin rather than an exact match."
   },
   {
-    criterion: "Aim for a quiet motor if you take calls near your desk",
-    explanation:
-      "For a shared home office, look for equipment rated under 15dB for near-silent operation during calls, with up to 30dB still tolerable but noticeable. Magnetic and brushless motors, used in most of the picks in this guide, run meaningfully quieter than friction-resistance designs, but stated dB ratings like the Viamotion's around 45dB are still audible on a call.",
+    "criterion": "Match motor power and speed range to walking, not running, since that's what these are built for",
+    "explanation": "Most under-desk treadmills are built for a slow 1-4 mph walking pace during work, not a running pace, and their motors are sized accordingly, a lighter-duty motor rated for walking speeds will struggle or wear out faster if pushed toward running speeds it wasn't designed for.\n\nThis matters directly if you're specifically hoping to run rather than walk while working, a genuine running-capable treadmill needs a meaningfully more powerful motor and a different category of product than most under-desk walking pads.\n\nCheck the listed max speed and motor horsepower rating against your actual intended pace, and don't assume any \"treadmill\" labeled product supports running speeds."
   },
   {
-    criterion: "Check for an auto-stop sensor and a safety clip",
-    explanation:
-      "A treadmill-specific safety feature worth prioritizing is an auto-stop sensor that halts the belt if you step off, along with a safety clip or lanyard that clips to your clothing and pulls the stop cord if you trip or fall. A soft-start feature that begins at a very low speed, around 0.3-0.6 mph, also reduces the chance of being caught off guard when the belt starts moving.",
+    "criterion": "Check noise level specifically for video calls and shared office spaces",
+    "explanation": "A treadmill's motor and belt generate continuous noise while walking, and that noise level matters far more for this category than a typical treadmill, since you'll likely be on video calls or in a shared workspace while using it, a treadmill quiet enough for a private home gym can still be distracting on a work call in an open office.\n\nThis matters more the more of your work involves calls or a shared space, less if you work in a private office with the door closed.\n\nCheck reviews specifically for noise mentions during video calls or in shared spaces, not just a general decibel rating that may be measured under different conditions."
   },
   {
-    criterion: "Route the power cord away from your walking path",
-    explanation:
-      "Cable management matters more on a treadmill than most desk gear specifically because you're walking on or near the unit while it runs. Route the power cord along a wall or under a cord cover rather than leaving it loose on the floor, since a snagged cord is a real trip hazard on a moving belt.",
+    "criterion": "Verify safety features like an auto-stop cord and remote start/stop for working while walking",
+    "explanation": "An auto-stop safety cord (clipped to your clothing, stopping the belt if you step off unexpectedly) and a remote or app-based start/stop control matter more for this category than a typical gym treadmill, since you'll be dividing attention between the treadmill and actual work rather than fully focused on walking.\n\nThis matters because a moment of distraction while multitasking is exactly when an unexpected stumble is most likely, and having quick, reliable stop control reduces that risk.\n\nCheck the listing specifically for a safety cord and remote control features, not just speed and incline specs."
   },
   {
-    criterion: "Weigh a tiny review sample honestly, even from a known brand",
-    explanation:
-      "The LifeSpan Fitness TX6 carries an established brand name and premium specs, but its 3.9-star rating comes from only 2 reviews, which isn't enough to call it a proven track record yet. A brand's reputation doesn't substitute for a real review sample when a specific listing is this new.",
-  },
+    "criterion": "Consider incline if you want a genuine calorie-burn increase, not just flat walking",
+    "explanation": "An incline feature meaningfully increases calorie burn and leg engagement compared to flat walking at the same speed, but it's a feature most under-desk treadmills skip entirely to keep the profile slim and the price down, and even among models that offer it, incline range varies from a token few degrees to a genuinely adjustable range.\n\nThis matters more if fitness intensity is a real goal beyond just light movement during work, less if you're primarily looking for gentle activity while working.\n\nCheck whether incline is offered at all and, if so, the specific adjustable range in degrees, not just the word \"incline\" in the listing."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,70 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Desk Clearance",
-    intro:
-      "Overall treadmill height is the first filter, since even the thinnest picks in this guide need roughly 9-12 inches of usable clearance under your desk.",
-    table: {
-      headers: ["Clearance available", "Best pick", "Why"],
-      rows: [
-        ["Very tight, under 5 inches", "Walking Pad Treadmill for Home (4.1\")", "Thinnest pick in this guide"],
-        ["Tight, around 4.3-5 inches", "Vhorilix Walking Pad Mini Compact (4.33\")", "Nearly as slim, longer warranty"],
-        ["Standard clearance", "Viamotion, Pink Walking Pad", "Room for handlebar and incline hardware"],
-        ["Ample clearance, folds away when not in use", "WalkingPad Z1, P1, or Z1R", "Folding design trades a bit of height for storage flexibility"],
+    "subheading": "By Feature Set",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Incline for higher calorie burn",
+          "Walking Pad Treadmill with Handle Bar and Adjustable Incline"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Walking Pad Treadmill with Handle Bar and Adjustable Incline"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick", "Tradeoff"],
-      rows: [
-        ["Under $100", "Walking Pad Treadmill for Home, Vhorilix Mini Compact", "No incline, no handlebar"],
-        ["$100-$200", "Viamotion, Pink Walking Pad", "Adds handlebar, incline, or a massage plate"],
-        ["$275-$360", "WalkingPad Z1, P1, Z1R", "Premium folding build, higher price"],
-        ["$1,000+", "LifeSpan Fitness TX6", "Professional-grade power, but an unproven review sample"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $1",
+          "LifeSpan Fitness TX6"
+        ],
+        [
+          "Up to $360",
+          "WalkingPad Z1R"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Need for Incline or Handlebar Support",
-    cards: [
+    "subheading": "Incline vs Flat Walking",
+    "cards": [
       {
-        label: "Want incline for more intensity",
-        text: "The Pink Walking Pad offers the deepest incline in this guide at up to 12% across 2 levels, while the Viamotion offers a lighter manual incline up to 4 degrees.",
+        "label": "Incline",
+        "text": "Meaningfully increases calorie burn and leg engagement over flat walking. In this comparison: Walking Pad Treadmill with Handle Bar and Adjustable Incline, Pink Walking Pad Treadmill with Incline and Vibration Massage Plate."
       },
       {
-        label: "Want handlebar support for balance",
-        text: "The Viamotion, Pink Walking Pad, and WalkingPad Z1R all include a handlebar, useful if you want something to hold onto during startup or at a faster pace.",
-      },
-      {
-        label: "Want the widest speed range",
-        text: "The WalkingPad Z1R covers 1-5 mph, the widest range in this guide, giving room to go slower for typing-heavy tasks and faster for a brisker walk.",
-      },
-      {
-        label: "Need heavy-duty daily capacity",
-        text: "The LifeSpan Fitness TX6's 4.5HP motor and 400 lb capacity are built for continuous professional use, well beyond what the budget walking pads are designed for.",
-      },
+        "label": "Flat walking",
+        "text": "Simpler and usually slimmer, fine for light movement rather than a fitness goal. In this comparison: Walking Pad Treadmill for Home, Walking Pad Treadmill Portable Mini Compact, WalkingPad Z1, WalkingPad P1, WalkingPad Z1R, LifeSpan Fitness TX6."
+      }
     ],
+    "note": "Default to flat walking unless calorie burn intensity is a real goal beyond light movement."
   },
   {
-    subheading: "By Weight Capacity",
-    table: {
-      headers: ["Your weight range", "Best pick", "Capacity"],
-      rows: [
-        ["Under 220 lbs", "WalkingPad P1", "220 lbs"],
-        ["Under 242 lbs", "WalkingPad Z1 or Z1R", "242 lbs"],
-        ["Under 265 lbs", "Walking Pad Treadmill for Home, Vhorilix, Viamotion", "264-265 lbs"],
-        ["300-400 lbs", "Pink Walking Pad, LifeSpan Fitness TX6", "300-400 lbs"],
-      ],
-    },
+    "subheading": "By Motor Power",
+    "note": "Check each pick's listed motor horsepower and max speed against your actual intended pace before buying, not just the general \"treadmill\" label. Walking Pad Treadmill with Handle Bar and Adjustable Incline is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Safety Setup Reality Check",
-    intro:
-      "None of the listings in this guide detail a specific auto-stop sensor or safety clip in their published specs, so treat these as general safety practices to apply regardless of which pick you choose.",
-    note: "Always check for a physical or magnetic auto-stop mechanism before your first walking session, keep a safety clip attached to your clothing if the unit includes one, and route the power cord along a wall or under a cord cover rather than across your walking path, since a snagged cord is a real trip hazard on a moving belt.",
+    "subheading": "For Video Calls Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuinely quiet motor and belt confirmed in reviews specifically during video call use, not just a general decibel spec."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Walking Pad Treadmill with Handle Bar and Adjustable Incline is worth checking against its listed noise level before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You want incline, remote control, and heavy daily-use durability, where WalkingPad Z1R's features give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want light, occasional movement during the workday, where LifeSpan Fitness TX6 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
