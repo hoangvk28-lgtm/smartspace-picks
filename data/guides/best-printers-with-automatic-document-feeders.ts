@@ -318,7 +318,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Price relative to document volume needs",
-    description: "Assessed whether each pick's price makes sense for its target volume, from a $69 budget inkjet for occasional scanning to a $491 laser built for sustained daily document handling.",
+    description: "Assessed whether each pick's price makes sense for its target volume, from a budget inkjet for occasional scanning to a laser built for sustained daily document handling.",
   },
   {
     title: "Feature completeness beyond the ADF",

@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414zttokqWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5Q671P7?tag=deskfinds0d-20",
     description:
-      "At 7.08 inches wide, the Vantimo is the narrowest nightstand in this entire guide, built for the tightest floor clearance beside a bed. Three open tiers give it real storage despite the sliver-thin footprint, and a black metal frame with a particleboard finish keeps it lightweight and easy to move.\n\nIt's also the cheapest pick here at under $19, with a 40 lb capacity, adjustable footpads for uneven flooring, and a lacquered, stain-resistant finish. The open-tier design means nothing is hidden behind a drawer, which some buyers will prefer and others won't.\n\nA genuine advantage here is that cheapest pick in this guide. The tradeoff is open tiers offer no closed storage.",
+      "At 7.08 inches wide, the Vantimo is the narrowest nightstand in this entire guide, built for the tightest floor clearance beside a bed. Three open tiers give it real storage despite the sliver-thin footprint, and a black metal frame with a particleboard finish keeps it lightweight and easy to move. It's also the cheapest pick here at a budget-friendly price, with a 40 lb capacity, adjustable footpads for uneven flooring, and a lacquered, stain-resistant finish. The open-tier design means nothing is hidden behind a drawer, which some buyers will prefer and others won't. A genuine advantage here is that cheapest pick in this guide. The tradeoff is open tiers offer no closed storage.",
     specs: [
       "7.08\"W x 16.92\"D x 22.24\"H",
       "Particleboard + black metal frame",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yluiG91BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MTGKK9R?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is built around a 5-minute, tool-free assembly, the fastest in this guide, using a 2-layer open shelf design over an engineered wood and metal frame. At 15 by 11 inches it's still compact but noticeably roomier than the 7-inch-wide picks in this list.\n\nIts 50 lb capacity is the highest among the sub-$25 picks in this guide, and the industrial look pairs well with metal bed frames. It ties for the highest rating among the budget tier alongside the Furinno.\n\nHighest capacity among the sub-$25 picks at 50 lbs. On the other hand, 11\" width is wider than the true narrow-clearance picks. Neither should be a surprise once you know to look for it.",
+      "The HOOBRO is built around a 5-minute, tool-free assembly, the fastest in this guide, using a 2-layer open shelf design over an engineered wood and metal frame. At 15 by 11 inches it's still compact but noticeably roomier than the 7-inch-wide picks in this list. Its 50 lb capacity is the highest among the lower-priced picks in this guide, and the industrial look pairs well with metal bed frames. It ties for the highest rating among the budget tier alongside the Furinno. Highest capacity among the lower-priced picks at 50 lbs. On the other hand, 11\" width is wider than the true narrow-clearance picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "15\"L x 11\"W x 19.7\"H",
       "Engineered wood + metal frame",
@@ -329,7 +329,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed width, capacity, and features against price, from the $18.99 Vantimo to the $64.99 Giantex farmhouse table.",
+    description: "Weighed width, capacity, and features against price, from the Vantimo to the Giantex farmhouse table.",
   },
 ];
 

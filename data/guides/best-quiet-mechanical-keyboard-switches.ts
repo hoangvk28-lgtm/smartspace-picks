@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qNb+bxSwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDWP1D58?tag=deskfinds0d-20",
     description:
-      "The K668 uses a Red linear switch, which has no tactile bump and no click jacket, making it inherently quieter than either a clicky Blue or a tactile Brown switch even without silent dampening. Built-in sound-absorbing foam inside the case adds a second layer of noise reduction on top of the switch itself.\n\nHot-swappable sockets let you try a true silent linear switch later if you want to go further, and two included keycap sets add flexibility. At under $40, it is the strongest budget option for buyers who want a quieter linear feel without paying for a dedicated silent switch.\n\nA genuine advantage here is that sound-absorbing foam adds a second layer of noise reduction. The tradeoff is not a true silent switch, still produces standard mechanical bottom-out noise.",
+      "The K668 uses a Red linear switch, which has no tactile bump and no click jacket, making it inherently quieter than either a clicky Blue or a tactile Brown switch even without silent dampening. Built-in sound-absorbing foam inside the case adds a second layer of noise reduction on top of the switch itself. Hot-swappable sockets let you try a true silent linear switch later if you want to go further, and two included keycap sets add flexibility. at a budget-friendly price, it is the strongest budget option for buyers who want a quieter linear feel without paying for a dedicated silent switch. A genuine advantage here is that sound-absorbing foam adds a second layer of noise reduction. The tradeoff is not a true silent switch, still produces standard mechanical bottom-out noise.",
     specs: [
       "Hot-swappable Red linear switches (not silent-dampened)",
       "Sound-absorbing foam inside the case",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed switch type, dampening features like sound-absorbing foam, and connectivity against price, from a $36.99 budget linear board to a $157 premium low-profile pick.",
+    description: "Weighed switch type, dampening features like sound-absorbing foam, and connectivity against price, from a budget linear board to a premium low-profile pick.",
   },
 ];
 

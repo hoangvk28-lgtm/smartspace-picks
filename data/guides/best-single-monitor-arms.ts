@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wd1NwAowL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQM6QB48?tag=deskfinds0d-20",
     description:
-      "The ErGear is the cheapest arm in this list at under $20, fitting monitors from 13 to 34 inches up to 19.8 lbs on a max VESA 100x100mm head. Tool-free installation makes it approachable for a first-time monitor arm buyer.\n\nAt this price, expect more friction in the adjustment feel and a base clamp that needs care not to overtighten on a thin or hollow-core desktop. It is a solid entry point if your monitor and use case are both modest.\n\nTool-free VESA mounting. Set against that, more adjustment friction than the FlowLift Pro's smoother mechanism. Both matter when comparing it to the other picks here.",
+      "The ErGear is the cheapest arm in this list at a budget-friendly price, fitting monitors from 13 to 34 inches up to 19.8 lbs on a max VESA 100x100mm head. Tool-free installation makes it approachable for a first-time monitor arm buyer. At this price, expect more friction in the adjustment feel and a base clamp that needs care not to overtighten on a thin or hollow-core desktop. It is a solid entry point if your monitor and use case are both modest. Tool-free VESA mounting. Set against that, more adjustment friction than the FlowLift Pro's smoother mechanism. Both matter when comparing it to the other picks here.",
     specs: [
       "13-34 inch monitor VESA compatibility",
       "Holds up to 19.8 lbs total",

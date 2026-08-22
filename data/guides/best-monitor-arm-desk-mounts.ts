@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T3KCQ94?tag=deskfinds0d-20",
     description:
-      "The FlowLift is one of the clearest clamp-versus-grommet comparisons in this list, shipping with both a C-clamp base and a grommet base in the same box for 13 to 32 inch monitors. That means you can decide which mount type your desk actually supports after unboxing rather than guessing beforehand.\n\nRated for 4.4 to 19.8 lbs with VESA mounting and full tilt, swivel, and rotation, it undercuts the Ergotron LX by more than $150 while covering the same two core mounting types.\n\nWorth calling out specifically: strong value at under $35. The catch is lighter-duty build than the Ergotron LX.",
+      "The FlowLift is one of the clearest clamp-versus-grommet comparisons in this list, shipping with both a C-clamp base and a grommet base in the same box for 13 to 32 inch monitors. That means you can decide which mount type your desk actually supports after unboxing rather than guessing beforehand. Rated for 4.4 to 19.8 lbs with VESA mounting and full tilt, swivel, and rotation, it undercuts the Ergotron LX by more than a competitive price while covering the same two core mounting types. Worth calling out specifically: strong value at a budget-friendly price. The catch is lighter-duty build than the Ergotron LX.",
     specs: [
       "Fits 13 to 32\" monitors",
       "4.4 to 19.8 lb capacity",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41muNp04WgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGPZR6P1?tag=deskfinds0d-20",
     description:
-      "WALI's clamp mount fits 13 to 34 inch screens and holds up to 26.4 lbs, the highest capacity of any sub-$20 clamp mount in this list. Standard 32-inch regular screen coverage and VESA 75/100mm compatibility round out the spec sheet.\n\nAt $19.99 it matches the ErGear pick on price but offers a meaningfully higher weight ceiling, which matters most if your monitor's actual panel weight (after subtracting the factory stand) runs closer to 20 lbs than 15.\n\nA genuine advantage here is that matches the lowest price point in this list. The tradeoff is clamp-only, no grommet base.",
+      "WALI's clamp mount fits 13 to 34 inch screens and holds up to 26.4 lbs, the highest capacity of any budget-tier clamp mount in this list. Standard 32-inch regular screen coverage and VESA 75/100mm compatibility round out the spec sheet. It matches the ErGear pick on price but offers a meaningfully higher weight ceiling, which matters most if your monitor's actual panel weight (after subtracting the factory stand) runs closer to 20 lbs than 15. A genuine advantage here is that matches the lowest price point in this list. The tradeoff is clamp-only, no grommet base.",
     specs: [
       "Fits 13 to 34\" screens, regular screen up to 32\"",
       "Holds up to 26.4 lbs",
@@ -169,7 +169,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41--azXaNzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK7FVTR4?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro combines tool-free VESA installation with both C-clamp and grommet base options, covering 13 to 32 inch screens at up to 19.8 lbs. It's one of the few mounts in this list that skips tools entirely while still offering a choice of mounting type.\n\nThe MechaSpring mechanism supports full tilt, swivel, and rotation, at under $30, positioning it as the easiest all-around setup for a mid-size monitor on a standard desk.\n\nUnder $30, strong value. That's a real strength, but weigh it against the flip side: 19.8 lb cap limits it to lighter and mid-size panels.",
+      "The FlowLift Pro combines tool-free VESA installation with both C-clamp and grommet base options, covering 13 to 32 inch screens at up to 19.8 lbs. It's one of the few mounts in this list that skips tools entirely while still offering a choice of mounting type. The MechaSpring mechanism supports full tilt, swivel, and rotation, at a budget-friendly price, positioning it as the easiest all-around setup for a mid-size monitor on a standard desk. at a budget-friendly price, strong value. That's a real strength, but weigh it against the flip side: 19.8 lb cap limits it to lighter and mid-size panels.",
     specs: [
       "Fits 13 to 32\" screens",
       "Max load 19.8 lbs",
@@ -304,7 +304,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "VESA compatibility and adapter needs",
-    description: "Checked each mount's supported VESA pattern and flagged where a non-VESA monitor, common under $150, would need a separate adapter kit that adds cost and can affect balance.",
+    description: "Checked each mount's supported VESA pattern and flagged where a non-VESA monitor, common at a budget-friendly price, would need a separate adapter kit that adds cost and can affect balance.",
   },
   {
     title: "Standing desk vs. regular desk requirements",
@@ -312,7 +312,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed mounting flexibility, weight capacity, and included hardware against price, from a $19.98 tool-free clamp mount to a $239.99 Ergotron wall mount.",
+    description: "Weighed mounting flexibility, weight capacity, and included hardware against price, from a tool-free clamp mount to a Ergotron wall mount.",
   },
 ];
 

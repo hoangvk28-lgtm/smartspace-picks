@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed resistance range, app connectivity, and build quality against price, from the $31.64 Wakeman to the $172.17 Exerpeutic 2000M.",
+    description: "Weighed resistance range, app connectivity, and build quality against price, from the Wakeman to the Exerpeutic 2000M.",
   },
 ];
 

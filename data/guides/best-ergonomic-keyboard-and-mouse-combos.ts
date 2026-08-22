@@ -194,7 +194,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed whether the price reflects genuine ergonomic components on both halves or mainly covers the keyboard, from the $27.99 budget bundle to the $199.99 premium combos.",
+    description: "Weighed whether the price reflects genuine ergonomic components on both halves or mainly covers the keyboard, from the budget bundle to the premium combos.",
   },
 ];
 

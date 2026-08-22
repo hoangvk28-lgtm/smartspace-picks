@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed included accessories, boom arms, mute buttons, patterns, against price, from the $29.99 budget condenser up through the $89.99 full-size Blue Yeti.",
+    description: "Weighed included accessories, boom arms, mute buttons, patterns, against price, from the budget condenser up through the full-size Blue Yeti.",
   },
 ];
 

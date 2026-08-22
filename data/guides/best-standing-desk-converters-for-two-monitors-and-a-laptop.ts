@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required genuine simultaneous space for three devices", description: "We measured whether two monitor footprints plus an open laptop and keyboard actually fit, rather than counting devices from a marketing image." },
   { title: "Compared open-platform and integrated-mount approaches to the same space problem", description: "We noted where mounting monitors on arms frees platform surface for the laptop versus relying on a wider open platform to fit everything." },
   { title: "Weighed electric lift for the heavier three-device combined load", description: "Two monitors plus a laptop add meaningful weight, and we flagged where electric adjustment offers a genuine advantage." },
-  { title: "Compared value across a wide price range for this specific three-device use case", description: "We compared options from $169.99 to $549.00, weighing the specific combination of features each offers." },
+  { title: "Compared value across a wide price range for this specific three-device use case", description: "We compared options across a range of price points, weighing the specific combination of features each offers." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

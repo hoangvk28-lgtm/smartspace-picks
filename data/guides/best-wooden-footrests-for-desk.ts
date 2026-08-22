@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/strongtek-cherry.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07N1QCJGZ?tag=deskfinds0d-20",
     description:
-      "The StrongTek cherry wood footrest uses a curved rocker base that delivers active balance board movement rather than a static platform. Cherry wood provides structural hardness and visual warmth that foam cannot replicate.\n\nAt $39.99 and 4.7 stars it is the established choice for a quality wood rocker at a reasonable price. The 350-pound capacity and no-assembly design reflect the straightforward build quality of this model.",
+      "The StrongTek cherry wood footrest uses a curved rocker base that delivers active balance board movement rather than a static platform. Cherry wood provides structural hardness and visual warmth that foam cannot replicate. At a competitive price and 4.7 stars it is the established choice for a quality wood rocker at a reasonable price. The 350-pound capacity and no-assembly design reflect the straightforward build quality of this model.",
     specs: ["Cherry wood", "Rocker balance board", "350 lb capacity", "18 inches wide"],
     pros: ["4.7 stars highest in roundup", "Active rocking motion", "Cherry wood aesthetic", "No assembly required"],
     cons: ["Fixed height", "Hard surface for bare feet", "Rocking only no flat mode"],
@@ -72,7 +72,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/strongtek-stepstool.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0985NVG8L?tag=deskfinds0d-20",
     description:
-      "The StrongTek 7-inch step stool footrest provides three fixed angle settings at 0, 12, and 17 degrees, offering a different type of adjustment than height settings. The 7-inch height makes it one of the tallest wooden footrests in this roundup and suits users on higher seats who need more significant lift.\n\nAt $38.99 it is the most affordable StrongTek model with angle adjustment. The multi-purpose design works as both a footrest and a step stool, adding utility beyond the desk setup.",
+      "The StrongTek 7-inch step stool footrest provides three fixed angle settings at 0, 12, and 17 degrees, offering a different type of adjustment than height settings. The 7-inch height makes it one of the tallest wooden footrests in this roundup and suits users on higher seats who need more significant lift. It is the most affordable StrongTek model with angle adjustment. The multi-purpose design works as both a footrest and a step stool, adding utility beyond the desk setup.",
     specs: ["7 inches tall", "3 angle settings", "Solid wood", "350 lb capacity"],
     pros: ["Three angle settings for tilt", "7-inch height for higher seats", "Multi-purpose as step stool", "4.6 stars"],
     cons: ["No rocking motion", "Fixed height at 7 inches", "Less refined aesthetically"],
@@ -106,7 +106,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/huanuo-bamboo.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DQTJ21TX?tag=deskfinds0d-20",
     description:
-      "The HUANUO bamboo footrest uses sustainable bamboo with four height options spanning 3.15 to 6.89 inches and a pebble massage surface. The combination of bamboo material, height adjustment, and massage surface makes this the most feature-rich bamboo option in the roundup.\n\nAt $28.49 it is the most affordable bamboo footrest with adjustable height. For users who want an eco-friendly material with practical functionality, the HUANUO bamboo model delivers more than a basic bamboo platform.",
+      "The HUANUO bamboo footrest uses sustainable bamboo with four height options spanning 3.15 to 6.89 inches and a pebble massage surface. The combination of bamboo material, height adjustment, and massage surface makes this the most feature-rich bamboo option in the roundup. It is the most affordable bamboo footrest with adjustable height. For users who want an eco-friendly material with practical functionality, the HUANUO bamboo model delivers more than a basic bamboo platform.",
     specs: ["Bamboo", "4 heights (3.15 to 6.89 in)", "Pebble massage surface", "Adjustable angle"],
     pros: ["Sustainable bamboo", "4 height settings", "Pebble massage surface", "Under $30"],
     cons: ["251 reviews only", "Massage pebbles may be uncomfortable", "4.5 stars"],
@@ -140,7 +140,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/amazer-bamboo.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DXFGXJK7?tag=deskfinds0d-20",
     description:
-      "The Amazer 2-in-1 bamboo footrest without cushion offers reversible rocking and stationary modes at a lower price than the cushion version. The golden ratio arc design provides smooth rocking motion while non-slip strips keep the footrest in place on hard floors.\n\nAt $19.99 it is the most affordable bamboo footrest in this roundup. Users who are comfortable with bare bamboo surfaces do not need to pay more for the cushion version.",
+      "The Amazer 2-in-1 bamboo footrest without cushion offers reversible rocking and stationary modes at a lower price than the cushion version. The golden ratio arc design provides smooth rocking motion while non-slip strips keep the footrest in place on hard floors. It is the most affordable bamboo footrest in this roundup. Users who are comfortable with bare bamboo surfaces do not need to pay more for the cushion version.",
     specs: ["Bamboo", "2-in-1 rocking and stationary", "Non-slip strips", "Eco bamboo"],
     pros: ["Under $20 bamboo option", "4.6 stars", "Rocking and stationary modes", "Eco-friendly material"],
     cons: ["No cushion", "226 reviews only", "Rocking on hard floors may be loud"],
@@ -157,7 +157,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/humanscale-fr300.webp`,
     amazonUrl: "https://www.amazon.com/dp/B000HVI1RG?tag=deskfinds0d-20",
     description:
-      "The Humanscale FR300 combines a solid wood frame with a steel-bearing roller mechanism that provides smoother rocking motion than balance board designs. The 3-inch adjustable height range lets users fine-tune positioning without repositioning the entire unit.\n\nAt $118.99 it is the premium commercial-grade pick for users who spend 8 or more hours at a desk and want the highest-quality wood rocker mechanism available.",
+      "The Humanscale FR300 combines a solid wood frame with a steel-bearing roller mechanism that provides smoother rocking motion than balance board designs. The 3-inch adjustable height range lets users fine-tune positioning without repositioning the entire unit. It is the premium commercial-grade pick for users who spend 8 or more hours at a desk and want the highest-quality wood rocker mechanism available.",
     specs: ["Solid wood with steel frame", "Ball-bearing rollers", "3-inch adjustable height", "Commercial grade"],
     pros: ["Smooth ball-bearing roller mechanism", "Commercial-grade durability", "Adjustable height", "558 reviews"],
     cons: ["$118.99 is three times more than other models", "4.4 stars not highest in roundup", "Price hard to justify for casual users"],

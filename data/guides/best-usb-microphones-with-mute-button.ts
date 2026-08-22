@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed mute feature quality, capsule type, and included accessories like a boom arm or headphone jack against price across the full $29.99 to $89.99 range in this list.",
+    description: "Weighed mute feature quality, capsule type, and included accessories like a boom arm or headphone jack against price across the full range of price points in this comparison in this list.",
   },
 ];
 

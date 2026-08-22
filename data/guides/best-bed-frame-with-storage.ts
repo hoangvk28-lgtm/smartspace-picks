@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/517l0+Dt+rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL2B6ND3?tag=deskfinds0d-20",
     description:
-      "The Fluest leaves 11.6 inches of underbed clearance, more open storage space than most of the drawer-based frames in this list, while still including a built-in headboard storage shelf for smaller items you want within reach. Charging includes 2 AC outlets, 1 USB port, and 1 Type-C port, backed by app-controlled RGB LED lighting.\n\nTwelve foam-strip slats support the mattress quietly, and a footboard along the bottom edge helps prevent the mattress from drifting during regular use. At just under $110, it's one of the more affordable ways to get charging, LED, and a headboard shelf together in this list.\n\nHeadboard shelf plus built-in charging. That's a real strength, but weigh it against the flip side: no drawers, storage space is open rather than enclosed.",
+      "The Fluest leaves 11.6 inches of underbed clearance, more open storage space than most of the drawer-based frames in this list, while still including a built-in headboard storage shelf for smaller items you want within reach. Charging includes 2 AC outlets, 1 USB port, and 1 Type-C port, backed by app-controlled RGB LED lighting. Twelve foam-strip slats support the mattress quietly, and a footboard along the bottom edge helps prevent the mattress from drifting during regular use. It's one of the more affordable ways to get charging, LED, and a headboard shelf together in this list. Headboard shelf plus built-in charging. That's a real strength, but weigh it against the flip side: no drawers, storage space is open rather than enclosed.",
     specs: [
       "Queen size",
       "800 lb weight capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XI60esJIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D12NGLT6?tag=deskfinds0d-20",
     description:
-      "The Jocisland has the widest-opening hydraulic lift in this list, opening to 60 inches, and the brand states it holds 40% more storage capacity than a typical bed frame. A tall 52.1 inch wingback headboard in linen upholstery gives it the most substantial presence of any pick in this guide.\n\nThe hydraulic mechanism is squeak-resistant, and the 1,000 lb weight capacity comfortably handles the mattress plus stored items. If sheer storage volume combined with a statement headboard is the priority, this is the largest option in the category.\n\n40% more storage capacity than a typical bed. Set against that, most expensive pick in this list at $299.99. Both matter when comparing it to the other picks here.",
+      "The Jocisland has the widest-opening hydraulic lift in this list, opening to 60 inches, and the brand states it holds 40% more storage capacity than a typical bed frame. A tall 52.1 inch wingback headboard in linen upholstery gives it the most substantial presence of any pick in this guide. The hydraulic mechanism is squeak-resistant, and the 1,000 lb weight capacity comfortably handles the mattress plus stored items. If sheer storage volume combined with a statement headboard is the priority, this is the largest option in the category. 40% more storage capacity than a typical bed. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size",
       "1,000 lb weight capacity",

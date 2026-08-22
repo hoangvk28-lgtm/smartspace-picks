@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51SDkKKPuhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK3KNV8X?tag=deskfinds0d-20",
     description:
-      "SOFTSEA's listing confirms horizontal orientation on a twin size cabinet, the smallest footprint in this guide, which requires the least wall width of any pick here. Metal legs support the folded cabinet, and it is explicitly marketed for home office small spaces.\n\nAt $419.99, it is a mid-range price for an assembled twin cabinet. With 7 ratings at 4.7 stars, feedback is limited but positive, so this is a reasonable choice for a small room where minimizing wall width demand matters more than sleeping capacity.\n\nWorth calling out specifically: smallest footprint requires the least wall width. The catch is no desk surface, bed-only cabinet.",
+      "SOFTSEA's listing confirms horizontal orientation on a twin size cabinet, the smallest footprint in this guide, which requires the least wall width of any pick here. Metal legs support the folded cabinet, and it is explicitly marketed for home office small spaces. It is a mid-range price for an assembled twin cabinet. With 7 ratings at 4.7 stars, feedback is limited but positive, so this is a reasonable choice for a small room where minimizing wall width demand matters more than sleeping capacity. Worth calling out specifically: smallest footprint requires the least wall width. The catch is no desk surface, bed-only cabinet.",
     specs: [
       "Horizontal twin size cabinet",
       "Wood construction with metal legs",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/511m-YvEUjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK9WL95D?tag=deskfinds0d-20",
     description:
-      "This is SOFTSEA's twin horizontal cabinet with added drawers and a walnut top, which can double as a small surface for a laptop or lamp when the bed is stowed, though it is not a true fold-down desk. Horizontal orientation is confirmed directly in the listing title.\n\nAt $369.99, it is the lowest price confirmed-horizontal pick in this guide. With 11 ratings at 3.7 stars, the rating is lower than its drawer-less sibling above, so weigh the added storage against the slightly weaker feedback.\n\nDrawers add storage the drawer-less SOFTSEA sibling lacks. Set against that, no true fold-down desk, walnut top is a surface accent, not a work desk. Both matter when comparing it to the other picks here.",
+      "This is SOFTSEA's twin horizontal cabinet with added drawers and a walnut top, which can double as a small surface for a laptop or lamp when the bed is stowed, though it is not a true fold-down desk. Horizontal orientation is confirmed directly in the listing title. It is the lowest price confirmed-horizontal pick in this guide. With 11 ratings at 3.7 stars, the rating is lower than its drawer-less sibling above, so weigh the added storage against the slightly weaker feedback. Drawers add storage the drawer-less SOFTSEA sibling lacks. Set against that, no true fold-down desk, walnut top is a surface accent, not a work desk. Both matter when comparing it to the other picks here.",
     specs: [
       "Horizontal twin size cabinet",
       "Built-in drawers",

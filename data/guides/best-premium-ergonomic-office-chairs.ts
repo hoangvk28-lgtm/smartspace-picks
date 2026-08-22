@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
-      "This is the highest priced chair in this list at $129.99, and while that's still well below true premium-brand territory, it packs the strongest combined ergonomic feature set here, adjustable lumbar support, flip-up arms, and a PU leather and mesh hybrid build with an executive profile. The largest review base among the higher-priced picks in this list backs up its real-world durability at this price point.\n\nGetting genuine value from any adjustable ergonomic chair, this one included, generally requires an initial setup period of 6 or more individual adjustments and 30 minutes or so to dial in seat height, lumbar depth, and arm position correctly, not just sitting down and expecting instant comfort. Budget for that setup time rather than judging the chair in the first five minutes.\n\nA genuine advantage here is that adjustable lumbar support and flip-up arms. The tradeoff is still budget-to-midrange, not true premium-brand pricing.",
+      "This is the highest priced chair in this list, and while that's still well below true premium-brand territory, it packs the strongest combined ergonomic feature set here, adjustable lumbar support, flip-up arms, and a PU leather and mesh hybrid build with an executive profile. The largest review base among the higher-priced picks in this list backs up its real-world durability at this price point. Getting genuine value from any adjustable ergonomic chair, this one included, generally requires an initial setup period of 6 or more individual adjustments and 30 minutes or so to dial in seat height, lumbar depth, and arm position correctly, not just sitting down and expecting instant comfort. Budget for that setup time rather than judging the chair in the first five minutes. A genuine advantage here is that adjustable lumbar support and flip-up arms. The tradeoff is still budget-to-midrange, not true premium-brand pricing.",
     specs: [
       "PU leather seat, mesh back",
       "Adjustable lumbar support",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR pick offers a genuinely useful ergonomic combination for under $60, flip-up armrests, adjustable height, lumbar support, and a high-back mesh design for more upper body coverage than a mid-back alternative. It's a clear value pick in this list rather than a true premium option, and we're honest about that positioning.\n\nAt this price the flip mechanism and adjustment hardware are more likely to use lower-cost materials than the higher-priced picks in this list, so expect somewhat less long-term durability under frequent daily adjustment in exchange for the lower upfront cost.\n\nWorth calling out specifically: high back for more upper body coverage. The catch is lower-cost hardware materials at this price point.",
+      "This NEO CHAIR pick offers a genuinely useful ergonomic combination for at a budget-friendly price, flip-up armrests, adjustable height, lumbar support, and a high-back mesh design for more upper body coverage than a mid-back alternative. It's a clear value pick in this list rather than a true premium option, and we're honest about that positioning. At this price the flip mechanism and adjustment hardware are more likely to use lower-cost materials than the higher-priced picks in this list, so expect somewhat less long-term durability under frequent daily adjustment in exchange for the lower upfront cost. Worth calling out specifically: high back for more upper body coverage. The catch is lower-cost hardware materials at this price point.",
     specs: [
       "Flip-up armrests",
       "High back mesh design",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
-      "At $38.98 this is the lowest priced chair in this list, and it's genuinely an entry-level ergonomic chair rather than a premium one, covering the basics of lumbar support, adjustable height, and mesh breathability without additional adjustability like flip-up arms or a headrest. We're including it because it's a fair budget baseline against the more feature-rich picks above it.\n\nIf your budget is firmly under $40, this is a reasonable starting point for basic ergonomic support, but expect a shorter break-in period assessment since simpler chairs like this typically have less adjustment range to fine-tune over the first 60 to 90 days of regular use.\n\nCovers basic lumbar and height adjustment. Set against that, no flip-up arms or headrest. Both matter when comparing it to the other picks here.",
+      "At a competitive price, this is the lowest priced chair in this list, and it's genuinely an entry-level ergonomic chair rather than a premium one, covering the basics of lumbar support, adjustable height, and mesh breathability without additional adjustability like flip-up arms or a headrest. We're including it because it's a fair budget baseline against the more feature-rich picks above it. If your budget is firmly at a budget-friendly price, this is a reasonable starting point for basic ergonomic support, but expect a shorter break-in period assessment since simpler chairs like this typically have less adjustment range to fine-tune over the first 60 to 90 days of regular use. Covers basic lumbar and height adjustment. Set against that, no flip-up arms or headrest. Both matter when comparing it to the other picks here.",
     specs: [
       "Mid back mesh design",
       "Lumbar support",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XIOlHd8WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXGB6L96?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR variant covers similar entry-level ground to the other budget mid-back picks in this list, mesh seat, lumbar support, adjustable height, without flip-up arms or a headrest. It's a reasonable low-cost option for buyers whose priority is basic mesh breathability and lumbar support over deeper ergonomic adjustability.\n\nAs with the other sub-$40 picks in this list, this one is honestly entry-level rather than premium, and buyers wanting a true premium ergonomic experience should weigh the certified refurbished path covered in this guide's advisory section instead of expecting premium-brand performance from any pick at this price.\n\nMesh cushion seat for breathability. That's a real strength, but weigh it against the flip side: no arm adjustability or headrest.",
+      "This NEO CHAIR variant covers similar entry-level ground to the other budget mid-back picks in this list, mesh seat, lumbar support, adjustable height, without flip-up arms or a headrest. It's a reasonable low-cost option for buyers whose priority is basic mesh breathability and lumbar support over deeper ergonomic adjustability. As with the other lower-priced picks in this list, this one is honestly entry-level rather than premium, and buyers wanting a true premium ergonomic experience should weigh the certified refurbished path covered in this guide's advisory section instead of expecting premium-brand performance from any pick at this price. Mesh cushion seat for breathability. That's a real strength, but weigh it against the flip side: no arm adjustability or headrest.",
     specs: [
       "Mesh cushion seat",
       "Lumbar support",
@@ -307,7 +307,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Honest price-tier positioning",
     description:
-      "Checked each chair's actual price against true premium-brand pricing before calling anything premium, since every product in this list falls in the $38.98 to $129.99 budget-to-midrange band rather than the $600+ premium-brand range.",
+      "Checked each chair's actual price against true premium-brand pricing before calling anything premium, since every product in this list falls in the this comparison's price range budget-to-midrange band rather than a competitive price+ premium-brand range.",
   },
   {
     title: "Ergonomic feature depth",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price at each tier",
     description:
-      "Weighed feature depth, materials, and review base against price across the full $38.98 to $129.99 range in this list, not price or rating alone.",
+      "Weighed feature depth, materials, and review base against price across the full range of price points in this comparison in this list, not price or rating alone.",
   },
 ];
 

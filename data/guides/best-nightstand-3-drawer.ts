@@ -335,7 +335,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed height, capacity, certification, and included features against price, from the $39.99 budget picks to the $249.99 matched set.",
+      "Weighed height, capacity, certification, and included features against price, from the budget picks to the matched set.",
   },
 ];
 

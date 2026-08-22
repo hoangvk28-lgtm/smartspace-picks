@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed 32 inch converter at a competitive price close to the VIVO top pick, worth comparing directly on specific features that matter to you.\n\nSitting just under VERSADESK PowerPro 36 Inch Electric Standing Desk Converter, it's priced lower than VERSADESK PowerPro 36 Inch Electric Standing Desk Converter. Here's the honest tradeoff: Smaller review base than the top pick at the same size. And here's what it gets you instead: Well-reviewed alternative at a competitive price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Well-reviewed alternative at a competitive price. On the other side, Smaller review base than the top pick at the same size. That's the main tradeoff to weigh against everything above.",
+    description: "A well-reviewed 32 inch converter at a competitive price close to the VIVO top pick, worth comparing directly on specific features that matter to you.\n\nSitting just under VERSADESK PowerPro 36 Inch Electric Standing Desk Converter, it's priced lower than VERSADESK PowerPro 36 Inch Electric Standing Desk Converter. Here's the honest tradeoff: Smaller review base than the top pick at the same size. And here's what it gets you instead: Well-reviewed alternative. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Well-reviewed alternative. On the other side, Smaller review base than the top pick at the same size. That's the main tradeoff to weigh against everything above.",
     specs: ["32 inch platform","Gas-spring lift"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the top pick at the same size"],
@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Weighed fit with the existing desk as a primary factor", description: "We flagged where a converter's lowest seated position may already push keyboard height too high on a standard-height desk, rather than only comparing maximum standing height." },
   { title: "Compared manual and electric lift mechanisms directly", description: "We noted where a push-button electric lift trades effortless adjustment for a price premium and power-outlet dependency versus a manual gas-spring converter." },
   { title: "Weighed platform size against desk footprint requirements", description: "Larger platforms suited to multi-monitor setups also require a larger base footprint on the existing desk, and we flagged this tradeoff directly." },
-  { title: "Compared review volume and rating across a wide price range", description: "We compared value from a $107.99 compact option to a $349.00 electric converter, weighing review history and rating together." },
+  { title: "Compared review volume and rating across a wide price range", description: "We compared value from a compact option to a electric converter, weighing review history and rating together." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

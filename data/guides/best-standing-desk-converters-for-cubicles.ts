@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed alternative at the same 32 inch size as our top pick, a reasonable option for a standard cubicle desk.\n\nSitting just under Mount-It! Standing Desk Converter 32 x 22, it's priced lower than Mount-It! Standing Desk Converter 32 x 22. Here's the honest tradeoff: Smaller review base than the VIVO top pick. And here's what it gets you instead: Well-reviewed alternative at a competitive price. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Well-reviewed alternative at a competitive price. On the other side, Smaller review base than the VIVO top pick. That's the main tradeoff to weigh against everything above.",
+    description: "A well-reviewed alternative at the same 32 inch size as our top pick, a reasonable option for a standard cubicle desk.\n\nSitting just under Mount-It! Standing Desk Converter 32 x 22, it's priced lower than Mount-It! Standing Desk Converter 32 x 22. Here's the honest tradeoff: Smaller review base than the VIVO top pick. And here's what it gets you instead: Well-reviewed alternative. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Well-reviewed alternative. On the other side, Smaller review base than the VIVO top pick. That's the main tradeoff to weigh against everything above.",
     specs: ["32 inch platform"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the VIVO top pick"],

@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nDi+6Lz+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00429N192?tag=deskfinds0d-20",
     description:
-      "A PFC sinewave alternative at a competitive price if your PC has an APFC power supply and you don't need the full 900W headroom of the top pick. LCD display shows real-time load and runtime.\n\nCheck the actual watt rating on this unit's specific listing before buying, as with every pick in this guide, VA alone doesn't tell the full sizing story.\n\nAVR included. That's a real strength, but weigh it against the flip side: lower rating than other picks in this guide.",
+      "A PFC sinewave alternative if your PC has an APFC power supply and you don't need the full 900W headroom of the top pick. LCD display shows real-time load and runtime.\n\nCheck the actual watt rating on this unit's specific listing before buying, as with every pick in this guide, VA alone doesn't tell the full sizing story.\n\nAVR included. That's a real strength, but weigh it against the flip side: lower rating than other picks in this guide.",
     specs: ["PFC sinewave output", "AVR included", "LCD display", "Multiple outlets"],
     pros: ["PFC sinewave, APFC compatible", "AVR included", "LCD for load/runtime visibility", "Reasonable price for the capability"],
     cons: ["Lower rating than other picks in this guide", "Smaller headroom than the top APC pick", "Verify exact watt rating before buying, not just VA"],

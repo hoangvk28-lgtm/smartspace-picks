@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41m+GnF3MKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLVXXHST?tag=deskfinds0d-20",
     description:
-      "This is the same flexible 2-configuration HOOBRO design as our top pick, just finished in matte black and priced $25 lower. It's built from engineered wood and metal, still twist-on to assemble, and still ships with adjustable feet and an anti-tip kit for wall anchoring.\n\nPer-shelf capacity drops to 44 lbs compared to the rustic brown version's 66, a fair tradeoff given the lower price, and the matte black frame reads more modern than the rustic finish if that suits your room better.\n\nWorth calling out specifically: same 2-in-1 L-shape or parallel design as the pricier version. The catch is lower capacity than the rustic brown version at 44 lb/shelf.",
+      "This is the same flexible 2-configuration HOOBRO design as our top pick, just finished in matte black and priced a real lower. It's built from engineered wood and metal, still twist-on to assemble, and still ships with adjustable feet and an anti-tip kit for wall anchoring. Per-shelf capacity drops to 44 lbs compared to the rustic brown version's 66, a fair tradeoff given the lower price, and the matte black frame reads more modern than the rustic finish if that suits your room better. Worth calling out specifically: same 2-in-1 L-shape or parallel design as the pricier version. The catch is lower capacity than the rustic brown version at 44 lb/shelf.",
     specs: [
       "23.6\"L x 23.6\"W x 58.6\"H",
       "Engineered wood + metal frame",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eoRWUlXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFQGMHDT?tag=deskfinds0d-20",
     description:
-      "The IRONCK is the largest standard L-shaped pick in this list, spanning 43.3 inches on one leg and 35.4 inches on the other, with 12 total shelves split across both sides. Each shelf carries a 70 lb rating, the highest of any standard L-shaped bookshelf here, and 2.8-inch baffles along the shelf edges stop items from sliding off.\n\nMDF construction sits inside an iron frame with metal sidebar reinforcement for extra rigidity, making this the pick to reach for if you're filling both legs with a genuinely heavy book collection.\n\nA genuine advantage here is that 12 total shelves, the most in this list. The tradeoff is most expensive standard L-shaped pick at $199.99.",
+      "The IRONCK is the largest standard L-shaped pick in this list, spanning 43.3 inches on one leg and 35.4 inches on the other, with 12 total shelves split across both sides. Each shelf carries a 70 lb rating, the highest of any standard L-shaped bookshelf here, and 2.8-inch baffles along the shelf edges stop items from sliding off. MDF construction sits inside an iron frame with metal sidebar reinforcement for extra rigidity, making this the pick to reach for if you're filling both legs with a genuinely heavy book collection. A genuine advantage here is that 12 total shelves, the most in this list. The tradeoff is most expensive standard L-shaped pick at a competitive price.",
     specs: [
       "43.3\"W x 35.4\"W x 78\"H",
       "MDF + iron frame",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51sCJJi6aOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMDRKR9?tag=deskfinds0d-20",
     description:
-      "This Shintenchi etagere carries the highest total weight rating in this entire list at 750 lbs, backed by 75 lbs per individual shelf. A metal frame with an X-shaped crossbar underneath adds real rigidity to a unit this large, which spans 30.7 inches on each leg and stands over 71 inches tall.\n\nAdjustable feet and an included anti-tip kit help keep it stable once loaded up, and at under $100 it delivers serious capacity for anyone building out a genuine home library across both legs of the L.\n\nLargest etagere-style footprint for a serious library. On the other hand, lowest rating in this list at 4.3 stars. Neither should be a surprise once you know to look for it.",
+      "This Shintenchi etagere carries the highest total weight rating in this entire list at 750 lbs, backed by 75 lbs per individual shelf. A metal frame with an X-shaped crossbar underneath adds real rigidity to a unit this large, which spans 30.7 inches on each leg and stands over 71 inches tall. Adjustable feet and an included anti-tip kit help keep it stable once loaded up, and at a budget-friendly price it delivers serious capacity for anyone building out a genuine home library across both legs of the L. Largest etagere-style footprint for a serious library. On the other hand, lowest rating in this list at 4.3 stars. Neither should be a surprise once you know to look for it.",
     specs: [
       "30.7\"L x 30.7\"W x 71.2\"H",
       "Metal frame + particleboard",

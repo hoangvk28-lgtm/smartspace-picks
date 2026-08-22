@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41A2KAm37fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRVB3VGL?tag=deskfinds0d-20",
     description:
-      "The ARES WING covers the same 17-49\" screen range and 44 lb weight rating as pricier arms in this list, using an industrial gas spring for smooth height and tilt adjustment. It's confirmed compatible with wide panels like the Samsung Odyssey G9 and LG's super-ultrawide lineup.\n\nMounting is flexible with either a C-clamp or a grommet hole option, useful if your desk doesn't have a clean edge to clamp onto. At under $65, it's the budget entry point for anyone who needs real 49\" support without paying for reinforced-torque extras.\n\nGas spring gives smooth height and tilt movement. Set against that, standard arm thickness, less margin than the reinforced pick. Both matter when comparing it to the other picks here.",
+      "The ARES WING covers the same 17-49\" screen range and 44 lb weight rating as pricier arms in this list, using an industrial gas spring for smooth height and tilt adjustment. It's confirmed compatible with wide panels like the Samsung Odyssey G9 and LG's super-ultrawide lineup. Mounting is flexible with either a C-clamp or a grommet hole option, useful if your desk doesn't have a clean edge to clamp onto. at a budget-friendly price, it's the budget entry point for anyone who needs real 49\" support without paying for reinforced-torque extras. Gas spring gives smooth height and tilt movement. Set against that, standard arm thickness, less margin than the reinforced pick. Both matter when comparing it to the other picks here.",
     specs: [
       "Holds 17-49\" screens up to 44 lbs",
       "Industrial gas spring adjustment",
@@ -209,7 +209,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31fbr5QGnDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0788LMLZL?tag=deskfinds0d-20",
     description:
-      "At 31.5\"x11.8\", the KTRIO is wide enough to cover both a keyboard and mouse together under a wide ultrawide setup, instead of using two separate small mats that leave a gap between them. The micro-weave cloth surface is waterproof and finished with stitched, anti-fray edges.\n\nA non-slip rubber base keeps the mat from sliding during regular typing and mouse movement. It's the cheapest single item in this guide and also the most-reviewed, with over 40,000 ratings.\n\nCheapest item in this entire guide at $10.79. That's a real strength, but weigh it against the flip side: 3mm thickness offers less cushioning than a padded wrist-rest mat.",
+      "At 31.5\"x11.8\", the KTRIO is wide enough to cover both a keyboard and mouse together under a wide ultrawide setup, instead of using two separate small mats that leave a gap between them. The micro-weave cloth surface is waterproof and finished with stitched, anti-fray edges. A non-slip rubber base keeps the mat from sliding during regular typing and mouse movement. It's the cheapest single item in this guide and also the most-reviewed, with over 40,000 ratings. Cheapest item in this entire guide at a competitive price. That's a real strength, but weigh it against the flip side: 3mm thickness offers less cushioning than a padded wrist-rest mat.",
     specs: [
       "31.5\"x11.8\"x3mm",
       "Micro-weave cloth surface",
@@ -288,7 +288,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, material, and included hardware against price across a range from a $10.79 desk mat to a $161.49 electric standing desk.",
+    description: "Weighed capacity, material, and included hardware against price across a range from a desk mat to a electric standing desk.",
   },
 ];
 

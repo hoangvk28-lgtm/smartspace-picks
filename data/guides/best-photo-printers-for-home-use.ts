@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS6520 is a general home inkjet AIO, not a photo specialist, but its 1.42-inch OLED display makes it easy to switch between document and photo paper settings, an important step since photo mode adjusts ink saturation for better results. It handles occasional snapshot printing reasonably well for a printer at this price.\n\nBudget photo paper cost into your expectations here just as with any inkjet, since photo paper alone typically runs $0.20 to $0.50 per sheet before ink, and this printer's cartridge-based ink system pushes cost per photo higher than the ink-tank picks in this list.\n\nA genuine advantage here is that affordable upfront price. The tradeoff is cartridge ink raises true cost per photo print.",
+      "The PIXMA TS6520 is a general home inkjet AIO, not a photo specialist, but its 1.42-inch OLED display makes it easy to switch between document and photo paper settings, an important step since photo mode adjusts ink saturation for better results. It handles occasional snapshot printing reasonably well for a printer at this price. Budget photo paper cost into your expectations here just as with any inkjet, since photo paper alone typically runs this comparison's price range per sheet before ink, and this printer's cartridge-based ink system pushes cost per photo higher than the ink-tank picks in this list. A genuine advantage here is that affordable upfront price. The tradeoff is cartridge ink raises true cost per photo print.",
     specs: [
       "Color inkjet, duplex printing",
       "1.42-inch OLED display",
@@ -306,7 +306,7 @@ export interface HowWeEvaluatedItem {
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "True cost per photo print",
-    description: "Calculated ink and photo paper cost together, since photo paper alone typically runs $0.20 to $0.50 a sheet before ink, and cartridge versus ink-tank systems change the math significantly.",
+    description: "Calculated ink and photo paper cost together, since photo paper alone typically runs this comparison's price range a sheet before ink, and cartridge versus ink-tank systems change the math significantly.",
   },
   {
     title: "Color engine and gradient handling",

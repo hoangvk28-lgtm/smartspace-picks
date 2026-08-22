@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
-      "This executive-style chair's listing focuses on its flip-up arms, PU leather seat, and adjustable lumbar support, but it does not specifically confirm a headrest in the title or description. We're flagging that directly rather than assuming one exists just because the chair has an executive high-back profile, since not every high-back chair includes a dedicated head support panel.\n\nIf a confirmed headrest is a must-have for you, a universal clip-on aftermarket headrest, typically $60 to $80, is a legitimate way to add neck support to a chair like this one that otherwise scores well on lumbar support, materials, and review volume.\n\nWorth calling out specifically: adjustable lumbar support. The catch is listing does not confirm a headrest.",
+      "This executive-style chair's listing focuses on its flip-up arms, PU leather seat, and adjustable lumbar support, but it does not specifically confirm a headrest in the title or description. We're flagging that directly rather than assuming one exists just because the chair has an executive high-back profile, since not every high-back chair includes a dedicated head support panel. If a confirmed headrest is a must-have for you, a universal clip-on aftermarket headrest, typically this comparison's price range is a legitimate way to add neck support to a chair like this one that otherwise scores well on lumbar support, materials, and review volume. Worth calling out specifically: adjustable lumbar support. The catch is listing does not confirm a headrest.",
     specs: [
       "Headrest not specified in listing",
       "PU leather seat, mesh back",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price at each tier",
     description:
-      "Weighed confirmed headrest presence, materials, and review base against price across the $38.98 to $179.47 range in this list, not price or rating alone.",
+      "Weighed confirmed headrest presence, materials, and review base against price across the range of price points in this comparison in this list, not price or rating alone.",
   },
 ];
 

@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed wheel count, fabric quality, and width against price, this list runs from a $43.99 single panel to a $359.99 soundproof unit for very different use cases.",
+    description: "Weighed wheel count, fabric quality, and width against price, this list runs from a single panel to a soundproof unit for very different use cases.",
   },
 ];
 

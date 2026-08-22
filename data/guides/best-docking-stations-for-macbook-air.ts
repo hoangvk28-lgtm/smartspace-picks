@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415xnkJZznL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLXBNVJ5?tag=deskfinds0d-20",
     description:
-      "PULWTOP delivers the same DisplayLink dual-4K@60Hz functionality as pricier docks at under $70, making it the budget entry point for Air owners who specifically need two external displays. Dual HDMI outputs cover most desk monitor setups without needing DisplayPort adapters.\n\nUSB-A and USB-C data run at 10Gbps, and an SD/TF combo slot handles memory cards directly. It's a straightforward pick for anyone prioritizing dual-display function over premium build extras.\n\nDual HDMI covers common desk monitor pairs. Set against that, displayLink adds CPU load versus native Thunderbolt output. Both matter when comparing it to the other picks here.",
+      "PULWTOP delivers the same DisplayLink dual-4K@60Hz functionality as pricier docks at a budget-friendly price, making it the budget entry point for Air owners who specifically need two external displays. Dual HDMI outputs cover most desk monitor setups without needing DisplayPort adapters. USB-A and USB-C data run at 10Gbps, and an SD/TF combo slot handles memory cards directly. It's a straightforward pick for anyone prioritizing dual-display function over premium build extras. Dual HDMI covers common desk monitor pairs. Set against that, displayLink adds CPU load versus native Thunderbolt output. Both matter when comparing it to the other picks here.",
     specs: [
       "Dual HDMI, 4K@60Hz",
       "10Gbps USB-A/C data",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed display capability and port count against price, from the $39.99 compact hub to the $199.99 Thunderbolt-certified and triple-display docks.",
+    description: "Weighed display capability and port count against price, from the compact hub to the Thunderbolt-certified and triple-display docks.",
   },
 ];
 

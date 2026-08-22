@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ecyaoQKJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBK1JLNW?tag=deskfinds0d-20",
     description:
-      "The UNITSTAGE is the cheapest fully enclosed shoe rack in this list, using a non-woven fabric door over a metal frame to keep 5 tiers of shoes out of sight for under $25. The fabric door is dustproof, waterproof, and pet-proof, which matters more than it sounds for a rack that sits low near a door where paws and rain both show up.\n\nAt 20 pairs of listed capacity across a 27.76\" wide frame, it's sized for a smaller household or a closet corner rather than a full family entryway. Fabric doors also flex and zip rather than swing on hinges, so they take up less clearance in a tight hallway than a rigid cabinet door would.\n\nDustproof, waterproof, and pet-proof fabric door. Set against that, no dedicated ventilation feature besides the fabric itself. Both matter when comparing it to the other picks here.",
+      "The UNITSTAGE is the cheapest fully enclosed shoe rack in this list, using a non-woven fabric door over a metal frame to keep 5 tiers of shoes out of sight for at a budget-friendly price. The fabric door is dustproof, waterproof, and pet-proof, which matters more than it sounds for a rack that sits low near a door where paws and rain both show up. At 20 pairs of listed capacity across a 27.76\" wide frame, it's sized for a smaller household or a closet corner rather than a full family entryway. Fabric doors also flex and zip rather than swing on hinges, so they take up less clearance in a tight hallway than a rigid cabinet door would. Dustproof, waterproof, and pet-proof fabric door. Set against that, no dedicated ventilation feature besides the fabric itself. Both matter when comparing it to the other picks here.",
     specs: [
       "27.76\"L x 11.82\"W x 25.2\"H",
       "Non-woven fabric + metal frame",
@@ -329,7 +329,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed material, capacity, and included hardware against price, from the $24.99 UNITSTAGE fabric tower to the $119.99 BORNOON wood cabinet.",
+    description: "Weighed material, capacity, and included hardware against price, from the UNITSTAGE fabric tower to the BORNOON wood cabinet.",
   },
 ];
 

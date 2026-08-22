@@ -295,7 +295,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed portability, output quality, and consumable cost against price across the $39.99 to $199.99 range in this list.",
+      "Weighed portability, output quality, and consumable cost against price across the range of price points in this comparison in this list.",
   },
 ];
 

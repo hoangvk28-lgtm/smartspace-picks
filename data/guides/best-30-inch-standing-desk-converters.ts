@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "2,127",
     imageUrl: "https://m.media-amazon.com/images/I/41KPjLPGisL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8114738?tag=deskfinds0d-20",
-    description: "A well-reviewed 28 inch alternative under $100, with a solid rating close to the top pick's review level.\n\nSitting just under VIVO 28 inch Desk Converter, it's priced lower than VIVO 28 inch Desk Converter. Here's the honest tradeoff: Smaller than a strict 30 inch platform. And here's what it gets you instead: Solid review base under $100. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Solid review base under $100. On the other side, Smaller than a strict 30 inch platform. That's the main tradeoff to weigh against everything above.",
+    description: "A well-reviewed 28 inch alternative at a budget-friendly price, with a solid rating close to the top pick's review level. Sitting just under VIVO 28 inch Desk Converter, it's priced lower than VIVO 28 inch Desk Converter. Here's the honest tradeoff: Smaller than a strict 30 inch platform. And here's what it gets you instead: Solid review base at a budget-friendly price. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: Solid review base at a budget-friendly price. On the other side, Smaller than a strict 30 inch platform. That's the main tradeoff to weigh against everything above.",
     specs: ["28 inch platform"],
     pros: ["Solid review base under $100"],
     cons: ["Smaller than a strict 30 inch platform"],

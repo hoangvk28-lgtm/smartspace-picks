@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kuxJTAsdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DPFWGR?tag=deskfinds0d-20",
     description:
-      "This is a lower-cost wired V6 variant without the rotary knob, still a full-size layout with the same hot-swappable Keychron K Pro Brown tactile switches and open-source QMK/VIA firmware as the knob version, in a frosted black-translucent case that shows a hint of the internals underneath.\n\nDropping the knob keeps the price about $10 lower than the knob version while keeping every other feature identical, worth choosing if you don't need a dedicated volume dial and would rather save the cost.\n\nA genuine advantage here is that same hot-swap sockets and firmware as the pricier knob version. The tradeoff is no rotary knob for physical volume control.",
+      "This is a lower-cost wired V6 variant without the rotary knob, still a full-size layout with the same hot-swappable Keychron K Pro Brown tactile switches and open-source QMK/VIA firmware as the knob version, in a frosted black-translucent case that shows a hint of the internals underneath. Dropping the knob keeps the price a moderate amount lower than the knob version while keeping every other feature identical, worth choosing if you don't need a dedicated volume dial and would rather save the cost. A genuine advantage here is that same hot-swap sockets and firmware as the pricier knob version. The tradeoff is no rotary knob for physical volume control.",
     specs: [
       "Full-size layout, no rotary knob",
       "Hot-swappable Keychron K Pro Brown switches",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed layout, hot-swap capability, wireless connectivity, and firmware openness against price, from the $28.99 budget full-size pick to the $119.99 wireless V6 Max.",
+    description: "Weighed layout, hot-swap capability, wireless connectivity, and firmware openness against price, from the budget full-size pick to the wireless V6 Max.",
   },
 ];
 

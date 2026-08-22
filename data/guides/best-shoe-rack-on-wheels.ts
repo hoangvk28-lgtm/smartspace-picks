@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51A4l8mqnTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQBP6DZJ?tag=deskfinds0d-20",
     description:
-      "The CSXGBAB is the cheapest rolling shoe rack in this list at $26.99, built from an iron frame with non-woven fabric tiers across 5 shelves. It rolls on 6 wheels total with 3 lockable, the most wheels of any pick in this list, which helps it stay put once positioned.\n\nEach shelf holds up to 15 lbs, and side hooks add a bit of hanging storage beyond the 16-18 pair capacity of the shelves themselves. Because rolling units are less inherently stable than fixed racks, lean on those 3 locking wheels whenever the rack isn't actively being repositioned.\n\n6 wheels with 3 lockable, the most of any pick here. On the other hand, 15 lb per shelf is on the lower end for the category. Neither should be a surprise once you know to look for it.",
+      "The CSXGBAB is the cheapest rolling shoe rack in this list, built from an iron frame with non-woven fabric tiers across 5 shelves. It rolls on 6 wheels total with 3 lockable, the most wheels of any pick in this list, which helps it stay put once positioned. Each shelf holds up to 15 lbs, and side hooks add a bit of hanging storage beyond the 16-18 pair capacity of the shelves themselves. Because rolling units are less inherently stable than fixed racks, lean on those 3 locking wheels whenever the rack isn't actively being repositioned. 6 wheels with 3 lockable, the most of any pick here. On the other hand, 15 lb per shelf is on the lower end for the category. Neither should be a surprise once you know to look for it.",
     specs: [
       "33.4\"W x 12\"D x 32.5\"H",
       "Iron frame + non-woven fabric",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, load rating, and added features like drawers or adjustable width against price, from the $26.99 CSXGBAB up to the $132.98 SpaceAid spinner.",
+    description: "Weighed capacity, load rating, and added features like drawers or adjustable width against price, from the CSXGBAB up to the SpaceAid spinner.",
   },
 ];
 

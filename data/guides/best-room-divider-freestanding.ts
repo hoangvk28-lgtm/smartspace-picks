@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518FUSm-OqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQ25W3P?tag=deskfinds0d-20",
     description:
-      "RHF's screen is handmade by professional carpenters using a 5-medallion diamond weave pattern in 100% woven fabric over a rattan-style frame, giving it a bohemian, artisanal look most mass-produced fabric screens can't match. Two-way hinges and a fully ready-to-use design mean no assembly.\n\nAt this price point, it undercuts nearly every other pick in this list while still delivering a genuinely handcrafted appearance, making it the best value for buyers who want a decorative, rustic-leaning divider.\n\nWorth calling out specifically: cheapest quality pick in this list at $34.28. The catch is narrower 63\" width than most other picks.",
+      "RHF's screen is handmade by professional carpenters using a 5-medallion diamond weave pattern in 100% woven fabric over a rattan-style frame, giving it a bohemian, artisanal look most mass-produced fabric screens can't match. Two-way hinges and a fully ready-to-use design mean no assembly. At this price point, it undercuts nearly every other pick in this list while still delivering a genuinely handcrafted appearance, making it the best value for buyers who want a decorative, rustic-leaning divider. Worth calling out specifically: cheapest quality pick in this list. The catch is narrower 63\" width than most other picks.",
     specs: [
       "63\"W x 72\"H (4 panels)",
       "Rattan-style frame + 100% woven fabric",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed panel count, material quality, and included features like warranties or wheels against price across a $31 to $179 range.",
+    description: "Weighed panel count, material quality, and included features like warranties or wheels against price across a range of price points in this comparison.",
   },
 ];
 

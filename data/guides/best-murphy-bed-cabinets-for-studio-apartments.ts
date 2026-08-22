@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
-      "Built-in LED lighting is a genuinely useful feature in a studio apartment, where a single room often lacks a dedicated bedside lamp setup. It uses a gas strut mechanism, which is generally quieter than spring-based designs, though this is not the confirmed lowest-noise option like the bare piston kits above.\n\nAt $699.98, it is the highest priced pick in this guide. With 141 ratings at 4.0 stars, feedback is reasonably sized. No desk is included, so plan for a separate desk elsewhere in the studio.\n\nGas strut mechanism is generally quieter than spring designs. Set against that, no desk surface, requires a separate desk purchase. Both matter when comparing it to the other picks here.",
+      "Built-in LED lighting is a genuinely useful feature in a studio apartment, where a single room often lacks a dedicated bedside lamp setup. It uses a gas strut mechanism, which is generally quieter than spring-based designs, though this is not the confirmed lowest-noise option like the bare piston kits above. It is the highest priced pick in this guide. With 141 ratings at 4.0 stars, feedback is reasonably sized. No desk is included, so plan for a separate desk elsewhere in the studio. Gas strut mechanism is generally quieter than spring designs. Set against that, no desk surface, requires a separate desk purchase. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "This is the same LED-equipped queen cabinet as the brown pick above, in a rustic white finish and priced about $60 lower. The gas strut mechanism, lighting, and no-box-spring design are identical, so choose based on finish preference for your studio's decor.\n\nThe same considerations apply as the brown variant: no desk included, verify HVAC vent clearance for your specific studio layout, and confirm lease approval before installation. The shared 141-review base and 4.0-star rating apply to both finishes.\n\nA genuine advantage here is that slightly lower price than the brown finish variant. The tradeoff is no desk surface, requires a separate desk purchase.",
+      "This is the same LED-equipped queen cabinet as the brown pick above, in a rustic white finish and priced a moderate amount lower. The gas strut mechanism, lighting, and no-box-spring design are identical, so choose based on finish preference for your studio's decor. The same considerations apply as the brown variant: no desk included, verify HVAC vent clearance for your specific studio layout, and confirm lease approval before installation. The shared 141-review base and 4.0-star rating apply to both finishes. A genuine advantage here is that slightly lower price than the brown finish variant. The tradeoff is no desk surface, requires a separate desk purchase.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",

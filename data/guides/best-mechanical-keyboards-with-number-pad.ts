@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rjOMIKrmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TR4Y91J?tag=deskfinds0d-20",
     description:
-      "The RisoPhy is a genuine 104-key full-size board, so the numpad is not an afterthought bolted onto a smaller layout. Blue switches give it an audibly clicky feel, which is worth knowing if you plan to use the numpad in a shared office or on video calls.\n\nAn ultra-slim ABS keycap profile keeps the overall footprint low, and spill resistance plus anti-ghosting are useful basics at this price. It is the pick for buyers who want a real numpad without spending close to $100 on it.\n\n104-key layout confirmed, not a marketing approximation. That's a real strength, but weigh it against the flip side: blue switches are the loudest switch type, poor for shared spaces.",
+      "The RisoPhy is a genuine 104-key full-size board, so the numpad is not an afterthought bolted onto a smaller layout. Blue switches give it an audibly clicky feel, which is worth knowing if you plan to use the numpad in a shared office or on video calls. An ultra-slim ABS keycap profile keeps the overall footprint low, and spill resistance plus anti-ghosting are useful basics at this price. It is the pick for buyers who want a real numpad without spending close competitively on it. 104-key layout confirmed, not a marketing approximation. That's a real strength, but weigh it against the flip side: blue switches are the loudest switch type, poor for shared spaces.",
     specs: [
       "104-key full-size layout",
       "Blue clicky switches",
@@ -290,7 +290,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed confirmed numpad functionality, switch quality, and extras like a volume knob or multi-device pairing against price, from a $28.99 wired budget board to a $157 premium wireless pick.",
+    description: "Weighed confirmed numpad functionality, switch quality, and extras like a volume knob or multi-device pairing against price, from a wired budget board to a premium wireless pick.",
   },
 ];
 

@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416YqWwMTFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYF75L59?tag=deskfinds0d-20",
     description:
-      "Where the Best Choice Products and X Rocker models fold for storage, the GTPLAYER is a one-piece rocker built around an adjustable angle limiter that controls exactly how far the seat rocks back, useful if you want to dial in a gentler motion. At 8.6 lbs it's the lightest chair in this guide by a wide margin.\n\nWith 8,705 ratings, it has the largest review base here after the Best Choice Products floor rocker. Its 200 lb capacity is the lowest in this guide, and the low price at $44.99 makes it an easy secondary or budget rocker pick.\n\nA genuine advantage here is that adjustable rocking angle limiter. The tradeoff is 200 lb capacity, lowest in this guide.",
+      "Where the Best Choice Products and X Rocker models fold for storage, the GTPLAYER is a one-piece rocker built around an adjustable angle limiter that controls exactly how far the seat rocks back, useful if you want to dial in a gentler motion. At 8.6 lbs it's the lightest chair in this guide by a wide margin. With 8,705 ratings, it has the largest review base here after the Best Choice Products floor rocker. Its 200 lb capacity is the lowest in this guide, and the low priced competitively makes it an easy secondary or budget rocker pick. A genuine advantage here is that adjustable rocking angle limiter. The tradeoff is 200 lb capacity, lowest in this guide.",
     specs: [
       "Adjustable angle limiter for rocking motion",
       "8.6 lbs, lightest in this guide",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31svghcZskL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B001T4XU2G?tag=deskfinds0d-20",
     description:
-      "The Crew Furniture Classic is a one-piece floor rocker sized for kids and teens, with the safest frame design in this guide since there are no folding hinges, pedestal joints, or moving base parts for small hands to catch on. It rocks gently with the body rather than pivoting on a mechanism, and requires no assembly out of the box.\n\nWith 8,730 ratings at 4.4 stars, it's the highest-rated rocker in this guide. At a 200 lb capacity and $49.68, it's built specifically as an entry-level rocking seat for younger gamers rather than a full-size adult chair.\n\nNo assembly needed. That's a real strength, but weigh it against the flip side: 200 lb capacity limits it to lighter users.",
+      "The Crew Furniture Classic is a one-piece floor rocker sized for kids and teens, with the safest frame design in this guide since there are no folding hinges, pedestal joints, or moving base parts for small hands to catch on. It rocks gently with the body rather than pivoting on a mechanism, and requires no assembly out of the box. With 8,730 ratings at 4.4 stars, it's the highest-rated rocker in this guide. At a 200 lb capacity and a competitive price, it's built specifically as an entry-level rocking seat for younger gamers rather than a full-size adult chair. No assembly needed. That's a real strength, but weigh it against the flip side: 200 lb capacity limits it to lighter users.",
     specs: [
       "One-piece rocking frame, no moving base parts",
       "Sized for kids and teens",
@@ -219,7 +219,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XTooEFbuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9H3PDSY?tag=deskfinds0d-20",
     description:
-      "The RESPAWN 900 is the most premium recliner-rocker hybrid in this guide, combining independent recline to 135 degrees, a separate pull-out footrest, and a 360 degree swivel base in one chair. A built-in cup holder and side pouch round out the console-focused design, and it's backed by 4,007 ratings at 4.4 stars.\n\nBacked by RESPAWN's 5-year warranty, it's the chair to pick if you want the full range of rocking, swiveling, and reclining motion in a single premium seat rather than choosing between a floor rocker's simplicity and a recliner's comfort.\n\nA genuine advantage here is that pull-out footrest included. The tradeoff is most expensive chair in this guide at $314.45.",
+      "The RESPAWN 900 is the most premium recliner-rocker hybrid in this guide, combining independent recline to 135 degrees, a separate pull-out footrest, and a 360 degree swivel base in one chair. A built-in cup holder and side pouch round out the console-focused design, and it's backed by 4,007 ratings at 4.4 stars. Backed by RESPAWN's 5-year warranty, it's the chair to pick if you want the full range of rocking, swiveling, and reclining motion in a single premium seat rather than choosing between a floor rocker's simplicity and a recliner's comfort. A genuine advantage here is that pull-out footrest included. The tradeoff is most expensive chair in this guide.",
     specs: [
       "Independent recline to 135°",
       "Separate pull-out footrest",

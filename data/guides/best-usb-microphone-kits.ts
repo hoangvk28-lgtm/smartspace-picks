@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FYNR1PLxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCV74CL7?tag=deskfinds0d-20",
     description:
-      "At $29.99, the TC310+ is the lowest-priced complete kit in this list that still genuinely includes a boom arm, condenser mic, gain control, and a tap-mute surface. For a beginner just testing whether streaming or calls are a regular habit, this is a reasonable low-cost way to get a full setup in one box.\n\nAs with any budget kit, treat the bundled boom arm as a starter piece rather than a long-term one. If you outgrow it, the arm's thread mount is a standard size, so upgrading to a premium standalone arm later while keeping this mic is straightforward.\n\nGain control included. That's a real strength, but weigh it against the flip side: touch mute has a higher accidental-trigger risk than a click button.",
+      "At a competitive price, the TC310+ is the lowest-priced complete kit in this list that still genuinely includes a boom arm, condenser mic, gain control, and a tap-mute surface. For a beginner just testing whether streaming or calls are a regular habit, this is a reasonable low-cost way to get a full setup in one box. As with any budget kit, treat the bundled boom arm as a starter piece rather than a long-term one. If you outgrow it, the arm's thread mount is a standard size, so upgrading to a premium standalone arm later while keeping this mic is straightforward. Gain control included. That's a real strength, but weigh it against the flip side: touch mute has a higher accidental-trigger risk than a click button.",
     specs: [
       "Condenser capsule",
       "Boom arm included",

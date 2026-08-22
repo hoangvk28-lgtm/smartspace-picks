@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed included accessories, boom arms, stands, RGB, mute buttons, against price, from the $29.99 budget picks up through the $89.99 full-size Blue Yeti.",
+    description: "Weighed included accessories, boom arms, stands, RGB, mute buttons, against price, from the budget picks up through the full-size Blue Yeti.",
   },
 ];
 

@@ -314,7 +314,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed build quality, switch type, and Mac-specific features against price, from the $43 budget wired pick to the $160 Mac-native compact board.",
+    description: "Weighed build quality, switch type, and Mac-specific features against price, from the budget wired pick to the Mac-native compact board.",
   },
 ];
 

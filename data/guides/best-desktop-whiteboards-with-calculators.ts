@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed permanently integrated calculator", description: "We required a built-in, non-removable calculator, not a loose accessory sold alongside a whiteboard." },
-  { title: "Price clustering noted directly", description: "We observed all five products price within a $1 band ($35.99-$36.99) and focused the comparison on other differentiators rather than price alone." },
+  { title: "Price clustering noted directly", description: "We observed all five products price within a band (this comparison's price range) and focused the comparison on other differentiators rather than price alone." },
   { title: "Review volume as the primary differentiator", description: "Since calculator functionality is similar across all five, we weighted review count and rating heavily to separate the more proven options." },
   { title: "Additional features beyond the calculator", description: "We noted where a product adds storage or keyboard-adjacent placement design on top of the shared calculator feature." },
 ];

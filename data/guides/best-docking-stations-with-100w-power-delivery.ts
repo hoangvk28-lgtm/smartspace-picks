@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HZ73O5J4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDQS4BD?tag=deskfinds0d-20",
     description:
-      "At under $40, this UGREEN dock still carries a genuine 100W PD rating alongside dual HDMI 4K@60Hz or single 8K@30Hz output, a strong spec sheet for the price. As with any 100W-rated dock, expect roughly 82-90W actually reaching the laptop once the dock's own chipset draws its share, which is still enough for a MacBook Air or most ultrabooks.\n\nIt adds an SD/TF 3.0 card reader and Gigabit Ethernet in a compact 10-in-1 layout, making it a reasonable everyday dock for buyers who don't need Thunderbolt certification or triple-display support.\n\nDual 4K@60Hz display support. Set against that, not Thunderbolt certified. Both matter when comparing it to the other picks here.",
+      "at a budget-friendly price, this UGREEN dock still carries a genuine 100W PD rating alongside dual HDMI 4K@60Hz or single 8K@30Hz output, a strong spec sheet for the price. As with any 100W-rated dock, expect roughly 82-90W actually reaching the laptop once the dock's own chipset draws its share, which is still enough for a MacBook Air or most ultrabooks. It adds an SD/TF 3.0 card reader and Gigabit Ethernet in a compact 10-in-1 layout, making it a reasonable everyday dock for buyers who don't need Thunderbolt certification or triple-display support. Dual 4K@60Hz display support. Set against that, not Thunderbolt certified. Both matter when comparing it to the other picks here.",
     specs: [
       "100W PD rated",
       "Dual HDMI 4K@60Hz or single 8K@30Hz",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41e9eAIvbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1XSKZRJ?tag=deskfinds0d-20",
     description:
-      "At $26.96, this UGREEN Revodok Pro is the cheapest pick in this list while still listing a 100W PD rating and dual 4K@60Hz HDMI output. It's a genuinely compact aluminum hub rather than a full-size dock, well-suited to a small desk or a travel setup where size matters more than port count.\n\nAs with every dock here, the rated 100W is not what actually reaches the laptop; budget for roughly 82-90W effective once the dock's own chipset draws its share, which is still plenty for a MacBook Air or similarly modest ultrabook.\n\nDual 4K@60Hz display support at this price. On the other hand, fewest total ports of any pick here. Both are worth keeping in mind before deciding.",
+      "At a competitive price, this UGREEN Revodok Pro is the cheapest pick in this list while still listing a 100W PD rating and dual 4K@60Hz HDMI output. It's a genuinely compact aluminum hub rather than a full-size dock, well-suited to a small desk or a travel setup where size matters more than port count. As with every dock here, the rated 100W is not what actually reaches the laptop; budget for roughly 82-90W effective once the dock's own chipset draws its share, which is still plenty for a MacBook Air or similarly modest ultrabook. Dual 4K@60Hz display support at this price. On the other hand, fewest total ports of any pick here. Both are worth keeping in mind before deciding.",
     specs: [
       "100W PD rated",
       "Dual 4K@60Hz HDMI display support",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value at each price tier",
-    description: "Weighed spec sheets against price separately for premium, mid-range, and budget docks, since a $26.96 hub and a $199.95 certified dock serve different buyers.",
+    description: "Weighed spec sheets against price separately for premium, mid-range, and budget docks, since a hub and a certified dock serve different buyers.",
   },
 ];
 

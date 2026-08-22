@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41JQsGWn0tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HXBX5RJ?tag=deskfinds0d-20",
-    description: "An 8-pack from Sterilite, an established storage-products brand, working out to roughly $13.50 per box, genuinely competitive per-unit pricing if you need multiple boxes.",
+    description: "An 8-pack from Sterilite, an established storage-products brand, working out to roughly a competitive price per box, genuinely competitive per-unit pricing if you need multiple boxes.",
     specs: ["8-pack", "Latching lids", "~$13.50 per box"],
     pros: ["Competitive per-unit price for buyers who need multiple boxes", "From an established storage brand"],
     cons: ["High total upfront cost if you only need one or two boxes"],

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31MO34WBGhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BFJ4CRKD?tag=deskfinds0d-20",
     description:
-      "The MX Brio is built for collaboration and streaming with genuine 4K capture and auto light correction that adapts to a bright window or a dim home office. It's the most well-rounded pick here for anyone who actually records or streams in 4K rather than just taking 1080p video calls.\n\nRemember that most meeting platforms cap at 1080p regardless of the camera, so the 4K capability mainly shows up when you're recording locally or streaming to a platform that supports higher resolution. It includes a privacy shutter, a genuinely important feature that's easy to overlook when comparing specs.\n\nWorth calling out specifically: auto light correction handles mixed lighting well. The catch is most expensive picks in this list at $194.99.",
+      "The MX Brio is built for collaboration and streaming with genuine 4K capture and auto light correction that adapts to a bright window or a dim home office. It's the most well-rounded pick here for anyone who actually records or streams in 4K rather than just taking 1080p video calls. Remember that most meeting platforms cap at 1080p regardless of the camera, so the 4K capability mainly shows up when you're recording locally or streaming to a platform that supports higher resolution. It includes a privacy shutter, a genuinely important feature that's easy to overlook when comparing specs. Worth calling out specifically: auto light correction handles mixed lighting well. The catch is most expensive picks in this list.",
     specs: [
       "True 4K UHD capture",
       "Auto light correction",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413NnHzV0CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT6FFK4R?tag=deskfinds0d-20",
     description:
-      "The Kiyo Pro Ultra is built around a genuinely large sensor, the spec that actually drives low-light performance and natural depth of field, more than resolution alone. It includes a built-in microphone and shutter, and DSLR-style manual controls for buyers who want to fine-tune exposure and focus themselves.\n\nAt $399.99 it's the most expensive pick in this list, positioned for serious content creators and streamers rather than everyday video calls. Its large sensor is the clearest example in this guide of why sensor size deserves more attention than the resolution number alone.\n\nDSLR-style manual controls for serious content creators. On the other hand, highest price in this list at $399.99. Neither should be a surprise once you know to look for it.",
+      "The Kiyo Pro Ultra is built around a genuinely large sensor, the spec that actually drives low-light performance and natural depth of field, more than resolution alone. It includes a built-in microphone and shutter, and DSLR-style manual controls for buyers who want to fine-tune exposure and focus themselves. It's the most expensive pick in this list, positioned for serious content creators and streamers rather than everyday video calls. Its large sensor is the clearest example in this guide of why sensor size deserves more attention than the resolution number alone. DSLR-style manual controls for serious content creators. On the other hand, highest price in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "4K resolution with large sensor",
       "Auto light correction",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Privacy and value for price",
-    description: "Weighed privacy shutter presence and included features against price, from the $49.99 budget 4K pick up through the $399.99 large-sensor pro camera.",
+    description: "Weighed privacy shutter presence and included features against price, from the budget 4K pick up through the large-sensor pro camera.",
   },
 ];
 

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "The DCP-L2640DW is built for a genuine daily home-office workload, with duplex printing, copy and scan built in, and laser toner that handles contracts and reports at a lower cost-per-page than any inkjet in this list. For a remote worker printing in the 30-80 page monthly range, toner also means no dried-out cartridges after a slow week.\n\nIt's the pricier pick here, but if your employer covers home office equipment, many companies approve printers under $200 as an expensable cost, which is worth checking before you pay out of pocket for a laser printer at this tier.\n\nDuplex printing built in. On the other hand, highest price in this list. Neither should be a surprise once you know to look for it.",
+      "The DCP-L2640DW is built for a genuine daily home-office workload, with duplex printing, copy and scan built in, and laser toner that handles contracts and reports at a lower cost-per-page than any inkjet in this list. For a remote worker printing in the 30-80 page monthly range, toner also means no dried-out cartridges after a slow week. It's the pricier pick here, but if your employer covers home office equipment, many companies approve printers at a budget-friendly price as an expensable cost, which is worth checking before you pay out of pocket for a laser printer at this tier. Duplex printing built in. On the other hand, highest price in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless compact monochrome laser printer",
       "Duplex printing, copy, and scan",

@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21lrHwmtuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN3YJN2F?tag=deskfinds0d-20",
     description:
-      "The TS-216G bakes in 2.5GbE networking at a price close to standard Gigabit-only competitors, which matters because a 2.5GbE NAS only shows real speed gains if your router or switch also supports 2.5GbE, an extra $40-80 cost many buyers don't budget for upfront.\n\nIt runs QNAP's QTS software with the same app ecosystem as QNAP's higher-tier units, giving buyers a reasonably capable software experience without QNAP's most expensive hardware tier.\n\nA genuine advantage here is that same mature QTS app ecosystem as pricier QNAP units. The tradeoff is 2.5GbE speed gains require a compatible router or switch.",
+      "The TS-216G bakes in 2.5GbE networking at a price close to standard Gigabit-only competitors, which matters because a 2.5GbE NAS only shows real speed gains if your router or switch also supports 2.5GbE, an extra cost many buyers don't budget for upfront. It runs QNAP's QTS software with the same app ecosystem as QNAP's higher-tier units, giving buyers a reasonably capable software experience without QNAP's most expensive hardware tier. A genuine advantage here is that same mature QTS app ecosystem as pricier QNAP units. The tradeoff is 2.5GbE speed gains require a compatible router or switch.",
     specs: [
       "2-bay desktop NAS",
       "2.5GbE networking",

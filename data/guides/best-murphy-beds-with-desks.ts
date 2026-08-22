@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit above, this is a bed-only hardware mechanism, not a desk-bed combo, and the listing title makes no desk claim at all. It includes gas pistons and three step-by-step guides, aimed at buyers building a full cabinet themselves, with the desk face being an entirely separate design decision on your part.\n\nAt $197.00 it is the lowest cost mechanism in this list, which leaves more of the budget for a well-built desk cabinet face if that is the goal. Because you are sourcing the cabinet and desk panel separately, item weight limits and desk depth depend entirely on the materials you choose, not on anything this kit specifies.\n\nWorth calling out specifically: detailed build guides included. The catch is no desk surface included, bed-only mechanism.",
+      "Like the Create-A-Bed kit above, this is a bed-only hardware mechanism, not a desk-bed combo, and the listing title makes no desk claim at all. It includes gas pistons and three step-by-step guides, aimed at buyers building a full cabinet themselves, with the desk face being an entirely separate design decision on your part. It is the lowest cost mechanism in this list, which leaves more of the budget for a well-built desk cabinet face if that is the goal. Because you are sourcing the cabinet and desk panel separately, item weight limits and desk depth depend entirely on the materials you choose, not on anything this kit specifies. Worth calling out specifically: detailed build guides included. The catch is no desk surface included, bed-only mechanism.",
     specs: [
       "Vertical queen size mechanism",
       "Gas piston operation",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "This queen cabinet bed adds two built-in LED lights, a genuinely useful feature for a home office corner even though the unit itself has no desk surface and should be treated as a bed-only pick. The gas struts provide a controlled fold and the no-box-spring design simplifies setup, but any desk work still requires a separate desk placed nearby.\n\nAt $639.99, it sits toward the higher end of this list for a bed-only unit, with the LED lighting being the main premium feature over the AMERLIFE or Yoobure picks. A 4.0-star rating across 141 reviews is respectable but the lowest of the assembled cabinet beds here.\n\nWorth calling out specifically: gas struts give controlled, smooth operation. The catch is no desk surface, bed-only unit.",
+      "This queen cabinet bed adds two built-in LED lights, a genuinely useful feature for a home office corner even though the unit itself has no desk surface and should be treated as a bed-only pick. The gas struts provide a controlled fold and the no-box-spring design simplifies setup, but any desk work still requires a separate desk placed nearby. It sits toward the higher end of this list for a bed-only unit, with the LED lighting being the main premium feature over the AMERLIFE or Yoobure picks. A 4.0-star rating across 141 reviews is respectable but the lowest of the assembled cabinet beds here. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is no desk surface, bed-only unit.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
-      "This is the same LED-equipped queen cabinet bed as the rustic white pick above, just in a brown finish and priced about $60 higher. Like its counterpart, it is a bed-only unit with no built-in desk surface, so plan on a separate desk if this is going into a home office.\n\nChoose this one purely on finish preference rather than function, since the mechanism, lighting, and gas strut design are identical to the white version. The shared 141-review base and 4.0-star rating apply to both finishes.\n\nGas struts give smooth, controlled operation. Set against that, no desk surface, bed-only unit. Both matter when comparing it to the other picks here.",
+      "This is the same LED-equipped queen cabinet bed as the rustic white pick above, just in a brown finish and priced a moderate amount higher. Like its counterpart, it is a bed-only unit with no built-in desk surface, so plan on a separate desk if this is going into a home office. Choose this one purely on finish preference rather than function, since the mechanism, lighting, and gas strut design are identical to the white version. The shared 141-review base and 4.0-star rating apply to both finishes. Gas struts give smooth, controlled operation. Set against that, no desk surface, bed-only unit. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51iWQRI54lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13Q522K?tag=deskfinds0d-20",
     description:
-      "This twin size murphy bed is the smallest sleeping footprint in this list, which frees up more floor space for a proper desk setup once the bed is folded away, even though the unit itself has no built-in desk surface. The charging station and drawer add small conveniences without adding much cabinet depth.\n\nAt $249.99, it is one of the more affordable assembled options here, a reasonable pick for a dorm-style room or guest office where twin sleeping capacity is enough and the extra reclaimed floor space matters more than a larger bed size. A 4.0-star rating across 120 reviews is consistent with the mid-tier picks in this guide.\n\nA genuine advantage here is that affordable price for an assembled unit. The tradeoff is no desk surface, bed-only unit.",
+      "This twin size murphy bed is the smallest sleeping footprint in this list, which frees up more floor space for a proper desk setup once the bed is folded away, even though the unit itself has no built-in desk surface. The charging station and drawer add small conveniences without adding much cabinet depth. It is one of the more affordable assembled options here, a reasonable pick for a dorm-style room or guest office where twin sleeping capacity is enough and the extra reclaimed floor space matters more than a larger bed size. A 4.0-star rating across 120 reviews is consistent with the mid-tier picks in this guide. A genuine advantage here is that affordable price for an assembled unit. The tradeoff is no desk surface, bed-only unit.",
     specs: [
       "Twin size murphy bed",
       "Charging station included",

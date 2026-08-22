@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ntQSLkfRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6724X5N?tag=deskfinds0d-20",
     description:
-      "The AW3425DW is the fastest 34-inch QD-OLED in this guide at 240Hz, meaningfully quicker than the 175Hz MSI panel while sharing the same 1,500,000:1 contrast and 1800R gentle curve. 99.3% DCI-P3 coverage and HDR TrueBlack 400 push color accuracy further than any VA pick here.\n\nBoth G-Sync and FreeSync Premium Pro support mean it syncs cleanly whether you're running an NVIDIA or AMD card, and the 3-year warranty matches the top VA picks rather than the shorter coverage typical of budget OLED monitors.\n\n99.3% DCI-P3, the widest color gamut among the mid-tier picks. That's a real strength, but weigh it against the flip side: over $100 more than the MSI QD-OLED for the refresh rate bump.",
+      "The AW3425DW is the fastest 34-inch QD-OLED in this guide at 240Hz, meaningfully quicker than the 175Hz MSI panel while sharing the same 1,500,000:1 contrast and 1800R gentle curve. 99.3% DCI-P3 coverage and HDR TrueBlack 400 push color accuracy further than any VA pick here. Both G-Sync and FreeSync Premium Pro support mean it syncs cleanly whether you're running an NVIDIA or AMD card, and the 3-year warranty matches the top VA picks rather than the shorter coverage typical of budget OLED monitors. 99.3% DCI-P3, the widest color gamut among the mid-tier picks. That's a real strength, but weigh it against the flip side: over a bit more than the MSI QD-OLED for the refresh rate bump.",
     specs: [
       "34\" QD-OLED curved 1800R, 3440x1440",
       "240Hz (highest among 34\" QD-OLED picks here), 0.03ms",

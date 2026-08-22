@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+8nje54kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DMFBXWHZ?tag=deskfinds0d-20",
     description:
-      "The VASAGLE has the smallest footprint of any pick in this list at just 9.4 inches deep and 15.7 inches wide, built around a particleboard and alloy steel frame with X-brace reinforcement for stability. It's rated for 49.5 lbs total, or 16.5 lbs per shelf, plenty for a small book and decor collection.\n\nA two-tone Rustic Brown and Ink Black finish, adjustable feet, and an included anti-tip kit round out a build that's also the cheapest VASAGLE 3-tier option available, at $24.64.\n\nX-brace reinforcement for stability. Set against that, lower capacity than the heavier Homeiju pick. Both matter when comparing it to the other picks here.",
+      "The VASAGLE has the smallest footprint of any pick in this list at just 9.4 inches deep and 15.7 inches wide, built around a particleboard and alloy steel frame with X-brace reinforcement for stability. It's rated for 49.5 lbs total, or 16.5 lbs per shelf, plenty for a small book and decor collection. A two-tone Rustic Brown and Ink Black finish, adjustable feet, and an included anti-tip kit round out a build that's also the cheapest VASAGLE 3-tier option available, at a competitive price. X-brace reinforcement for stability. Set against that, lower capacity than the heavier Homeiju pick. Both matter when comparing it to the other picks here.",
     specs: [
       "15.7\"W x 9.4\"D x 30.1\"H",
       "Particleboard + alloy steel",
@@ -279,7 +279,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51SZTl0lKTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMD5Z5J4?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS stands apart with the most adjustable shelving in this list, letting you move both the 2nd and 3rd tiers across 3 different height positions to fit taller items wherever you need the extra clearance. A footless H-shaped design skips the usual leg base for a cleaner, more modern silhouette.\n\nA slot-in back panel adds rigidity without extra hardware, and at 88 lbs total, or 22 lbs per shelf, it's the most premium-feeling pick in the CUSTOS collection, priced accordingly above the industrial metal-frame picks in this list.\n\nA genuine advantage here is that modern footless H-frame design. The tradeoff is most expensive pick in this list at $52.99.",
+      "The VASAGLE CUSTOS stands apart with the most adjustable shelving in this list, letting you move both the 2nd and 3rd tiers across 3 different height positions to fit taller items wherever you need the extra clearance. A footless H-shaped design skips the usual leg base for a cleaner, more modern silhouette. A slot-in back panel adds rigidity without extra hardware, and at 88 lbs total, or 22 lbs per shelf, it's the most premium-feeling pick in the CUSTOS collection, priced accordingly above the industrial metal-frame picks in this list. A genuine advantage here is that modern footless H-frame design. The tradeoff is most expensive pick in this list.",
     specs: [
       "31.5\"W x 9.4\"D x 32\"H",
       "Particleboard + MDF",

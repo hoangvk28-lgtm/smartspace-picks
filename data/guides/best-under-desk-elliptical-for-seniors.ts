@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed motor type, weight capacity, and included features like remotes or warranties against price, from the $59.99 Yagud to the $199.99 LifePro AutoGlide.",
+    description: "Weighed motor type, weight capacity, and included features like remotes or warranties against price, from the Yagud to the LifePro AutoGlide.",
   },
 ];
 

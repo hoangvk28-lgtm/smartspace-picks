@@ -93,7 +93,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Return policy checked, not assumed", description: "Checked whether each listing's return window and freight return process is stated, large items often carry different return terms than standard Amazon purchases." },
-  { title: "Financing availability noted where offered", description: "Noted whether Amazon's own financing or installment options appear on the listing, since a $4,000-$8,000 purchase is a different budgeting decision than typical desk accessories." },
+  { title: "Financing availability noted where offered", description: "Noted whether Amazon's own financing or installment options appear on the listing, since a this comparison's price range purchase is a different budgeting decision than typical desk accessories." },
   { title: "Installation inclusion verified per listing", description: "Checked each listing's description for whether assembly or installation labor is included versus left to the buyer to arrange." },
   { title: "Price compared across the full pool", description: "Compared list price across all nine verified products in this niche to place each pick's price in honest context rather than in isolation." },
 ];

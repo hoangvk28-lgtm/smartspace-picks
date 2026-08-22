@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415vIfh-KPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074NHRZQX?tag=deskfinds0d-20",
     description:
-      "The Furinno LUDER is the smallest and cheapest pick in this entire list, just 12 inches wide, and it backs that footprint up with over 26,000 ratings, more reviews than any other product in this guide. FSC-certified composite wood is E1 certified for low emissions, and a closed back panel adds a bit of extra rigidity most open-back cube shelves lack.\n\nAt just 13 lbs, it's light enough to move around easily, and its tiny footprint makes it the easiest pick here to squeeze into the tightest corner or a narrow gap between furniture.\n\nWorth calling out specifically: cheapest pick in this list at $25.16. The catch is smallest capacity, fits fewer items than larger picks.",
+      "The Furinno LUDER is the smallest and cheapest pick in this entire list, just 12 inches wide, and it backs that footprint up with over 26,000 ratings, more reviews than any other product in this guide. FSC-certified composite wood is E1 certified for low emissions, and a closed back panel adds a bit of extra rigidity most open-back cube shelves lack. At just 13 lbs, it's light enough to move around easily, and its tiny footprint makes it the easiest pick here to squeeze into the tightest corner or a narrow gap between furniture. Worth calling out specifically: cheapest pick in this list. The catch is smallest capacity, fits fewer items than larger picks.",
     specs: [
       "9.3\"D x 12\"W x 31.5\"H",
       "FSC-certified composite wood",
@@ -180,7 +180,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lZ7UpCqQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F47V5VCW?tag=deskfinds0d-20",
     description:
-      "The HOOBRO stands out with 3 different installation methods, giving you more flexibility in how it fits your space than any other small bookshelf in this list. Engineered wood shelves on a metal frame carry a 40 lb per-shelf rating, the highest per-shelf capacity among small bookshelves here, and a back panel adds stability.\n\nAn anti-tip kit and adjustable feet come standard, and assembly is quick thanks to the straightforward frame design, all at a budget-friendly $26.99 price point.\n\nA genuine advantage here is that 3 installation configurations for layout flexibility. The tradeoff is fewer reviews than the Furinno picks.",
+      "The HOOBRO stands out with 3 different installation methods, giving you more flexibility in how it fits your space than any other small bookshelf in this list. Engineered wood shelves on a metal frame carry a 40 lb per-shelf rating, the highest per-shelf capacity among small bookshelves here, and a back panel adds stability. An anti-tip kit and adjustable feet come standard, and assembly is quick thanks to the straightforward frame design, all at a budget-friendly price point. A genuine advantage here is that 3 installation configurations for layout flexibility. The tradeoff is fewer reviews than the Furinno picks.",
     specs: [
       "16.5\"W x 11\"D x 28.5\"H",
       "Engineered wood + metal",

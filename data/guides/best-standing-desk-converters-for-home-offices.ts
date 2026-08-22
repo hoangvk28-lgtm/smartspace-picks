@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "2,412",
     imageUrl: "https://m.media-amazon.com/images/I/51Z4mzo+NKS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCJD6B?tag=deskfinds0d-20",
-    description: "A well-reviewed alternative to the VIVO top pick at a similar price and platform size.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Smaller review base than the VIVO top pick. What you gain in return: Well-reviewed alternative at a competitive price. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Well-reviewed alternative at a competitive price. On the other side, Smaller review base than the VIVO top pick. That's the main tradeoff to weigh against everything above.",
+    description: "A well-reviewed alternative to the VIVO top pick at a similar price and platform size.\n\nOne spot below VIVO 32 inch Desk Converter in this ranking, it costs more than VIVO 32 inch Desk Converter. The compromise here is straightforward: Smaller review base than the VIVO top pick. What you gain in return: Well-reviewed alternative. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Well-reviewed alternative. On the other side, Smaller review base than the VIVO top pick. That's the main tradeoff to weigh against everything above.",
     specs: ["32 inch platform"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the VIVO top pick"],

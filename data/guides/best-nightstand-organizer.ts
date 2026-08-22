@@ -324,7 +324,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed piece count, compartments, and capacity against price, from the $9.99 cloud tray to the $21.99 clip-on shelf.",
+    description: "Weighed piece count, compartments, and capacity against price, from the cloud tray to the clip-on shelf.",
   },
 ];
 

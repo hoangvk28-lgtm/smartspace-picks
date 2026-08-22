@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "9",
     imageUrl: "https://m.media-amazon.com/images/I/41eKX9IVyVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCYJL44Z?tag=deskfinds0d-20",
-    description: "The lowest price of any confirmed 30-device cart here, at roughly $150 less than the Pearington pick, explicitly rated for mixed Chromebook, iPad, and laptop fleets.\n\nA strong price-to-capacity ratio if mixed-device support matters to your fleet.\n\nExplicitly supports mixed device types. That's a real strength, but weigh it against the flip side: thin review base for a 30-device commitment.",
+    description: "The lowest price of any confirmed 30-device cart here, a bit less than the Pearington pick, explicitly rated for mixed Chromebook, iPad, and laptop fleets. A strong price-to-capacity ratio if mixed-device support matters to your fleet. Explicitly supports mixed device types. That's a real strength, but weigh it against the flip side: thin review base for a 30-device commitment.",
     specs: ["30-device capacity, mixed-fleet rated"],
     pros: ["Lowest price among confirmed 30-device carts", "Explicitly supports mixed device types"],
     cons: ["Thin review base for a 30-device commitment"],
@@ -153,7 +153,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "True 30-device carts separated from near-30 alternatives", description: "We clearly distinguished carts confirmed at exactly 30 devices from those rated for 30+2, up to 36, or 42, so buyers searching specifically for 30-device capacity aren't misled by a larger unit." },
-  { title: "Price per bay compared across the true 30-device tier", description: "We compared the $299.99 to $459.99 range of confirmed 30-device carts directly, since price varied by over $150 for the same stated capacity." },
+  { title: "Price per bay compared across the true 30-device tier", description: "We compared the range of price points in this comparison of confirmed 30-device carts directly, since price varied significantly for the same stated capacity." },
   { title: "Open versus locking design noted as a workflow factor", description: "Where a listing confirms open (non-locking) construction, we flagged it as generally faster for daily access rather than a downside by default." },
   { title: "Review base weighted against a 30-device financial commitment", description: "A 30-device cart is a meaningful purchase; we flagged picks with fewer than 15 reviews or no rating at all so buyers can weigh that risk against price." },
 ];

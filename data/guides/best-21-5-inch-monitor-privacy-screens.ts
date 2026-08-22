@@ -90,7 +90,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine 21.5 inch, 16:9 fit for every pick", description: "We verified every pick here as a genuine 21.5 inch filter rather than assuming diagonal size alone determines compatibility with the rounder 22 inch tier." },
   { title: "Compared single-unit and matched 2-pack pricing directly", description: "We noted where a 2-pack's per-unit cost compares favorably or unfavorably to a single-unit purchase for this size." },
-  { title: "Weighed review volume across a real price range", description: "We compared review history spanning from a $25.99 budget option to a $40.49 more established single unit." },
+  { title: "Weighed review volume across a real price range", description: "We compared review history spanning from a budget option to a more established single unit." },
   { title: "Noted bundled blue-light and anti-glare features separately", description: "Several picks bundle these extras; we flagged this directly rather than assuming all 21.5 inch filters offer the same feature set." },
 ];
 

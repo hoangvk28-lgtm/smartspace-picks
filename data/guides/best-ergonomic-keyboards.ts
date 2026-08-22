@@ -178,7 +178,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed build materials, included rest quality, and tenting adjustability against price, from the $44.99 wired split board to the $229.95 premium wave keyboard.",
+    description: "Weighed build materials, included rest quality, and tenting adjustability against price, from the wired split board to the premium wave keyboard.",
   },
 ];
 

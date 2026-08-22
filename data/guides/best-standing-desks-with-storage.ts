@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5106rxAZBUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVDDHRRH?tag=deskfinds0d-20",
     description:
-      "Six fabric drawers make this the highest-storage-capacity desk in this list, all built into a fixed-height frame so there's no motor to stress and no floor clearance issue to worry about as the drawers fill up. Storage-heavy desks like this reduce usable desktop surface area by design, since drawer units take up depth that would otherwise be open desktop space.\n\nAt $59.98 it's also one of the most affordable picks here. If you need this much closed storage on a height-adjustable frame instead, expect to pay significantly more and to actively manage drawer weight and placement to protect motor performance.\n\nNo motor stability concerns. That's a real strength, but weigh it against the flip side: fixed height only.",
+      "Six fabric drawers make this the highest-storage-capacity desk in this list, all built into a fixed-height frame so there's no motor to stress and no floor clearance issue to worry about as the drawers fill up. Storage-heavy desks like this reduce usable desktop surface area by design, since drawer units take up depth that would otherwise be open desktop space. It's also one of the most affordable picks here. If you need this much closed storage on a height-adjustable frame instead, expect to pay significantly more and to actively manage drawer weight and placement to protect motor performance. No motor stability concerns. That's a real strength, but weigh it against the flip side: fixed height only.",
     specs: [
       "47 inch fixed-height desk",
       "6 fabric storage drawers",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed storage capacity, motor type, and surface area against price across the $28.80 to $329.99 range in this list.",
+      "Weighed storage capacity, motor type, and surface area against price across the range of price points in this comparison in this list.",
   },
 ];
 

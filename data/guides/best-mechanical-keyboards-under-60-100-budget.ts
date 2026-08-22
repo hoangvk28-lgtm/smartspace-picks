@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gvYA4qsmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14N2QZF?tag=deskfinds0d-20",
     description:
-      "The AULA F75 Pro sits in the $60 to $100 tier and adds features that are genuinely rare at this price, hot-swappable sockets, pre-lubed switches from the factory, and a rotary knob for volume control. Pre-lubing at this price point is a real differentiator since budget hot-swap sockets can otherwise develop loose contact or bent pins after a few switch swaps.\n\nIt connects over 2.4GHz, USB-C, or Bluetooth 5.0, giving it more flexibility than most budget boards that only offer one connection type. The 75% layout keeps arrow keys and a few navigation keys while trimming the numpad, a smaller learning curve than a 60% board if you're used to a full-size layout.\n\n3 connection modes in one board. That's a real strength, but weigh it against the flip side: above the $60 tier, closer to the $100 ceiling.",
+      "The AULA F75 Pro sits in the this comparison's price range tier and adds features that are genuinely rare at this price, hot-swappable sockets, pre-lubed switches from the factory, and a rotary knob for volume control. Pre-lubing at this price point is a real differentiator since budget hot-swap sockets can otherwise develop loose contact or bent pins after a few switch swaps. It connects over 2.4GHz, USB-C, or Bluetooth 5.0, giving it more flexibility than most budget boards that only offer one connection type. The 75% layout keeps arrow keys and a few navigation keys while trimming the numpad, a smaller learning curve than a 60% board if you're used to a full-size layout. 3 connection modes in one board. That's a real strength, but weigh it against the flip side: above the tier, closer to the ceiling.",
     specs: [
       "75% layout, hot-swappable sockets",
       "Pre-lubed Reaper switches",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31rtIUUw7bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z6X4NK3?tag=deskfinds0d-20",
     description:
-      "The Logitech G413 SE is the cheaper of these 2 picks and the only one under the $60 line, a solid full-size mechanical board from an established brand with a track record for firmware and driver support that smaller budget brands often can't match. That established support matters more than it sounds, community and proprietary software from lesser-known brands is frequently abandoned after a couple of years, while Logitech's software footprint has stayed maintained for years.\n\nIt is wired only and does not offer hot-swap sockets, so the switches are fixed for the life of the board, a tradeoff worth knowing if you want to experiment with switch feel later. In exchange, you get a full numpad and dedicated arrow keys with zero learning curve if you're moving from any standard full-size keyboard.\n\nWorth calling out specifically: full-size layout, no learning curve for numpad users. The catch is no hot-swap sockets, switches are fixed.",
+      "The Logitech G413 SE is the cheaper of these 2 picks and the only one under the line, a solid full-size mechanical board from an established brand with a track record for firmware and driver support that smaller budget brands often can't match. That established support matters more than it sounds, community and proprietary software from lesser-known brands is frequently abandoned after a couple of years, while Logitech's software footprint has stayed maintained for years. It is wired only and does not offer hot-swap sockets, so the switches are fixed for the life of the board, a tradeoff worth knowing if you want to experiment with switch feel later. In exchange, you get a full numpad and dedicated arrow keys with zero learning curve if you're moving from any standard full-size keyboard. Worth calling out specifically: full-size layout, no learning curve for numpad users. The catch is no hot-swap sockets, switches are fixed.",
     specs: [
       "Full-size layout with numpad",
       "Wired USB connection",
@@ -122,7 +122,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Verified price under the $100 ceiling",
-    description: "Confirmed each listed price sits under $100 at time of research, and separately flagged which pick also clears the stricter $60 line.",
+    description: "Confirmed each listed price sits at a budget-friendly price at time of research, and separately flagged which pick also clears the stricter a competitive price line.",
   },
   {
     title: "Firmware and software longevity",

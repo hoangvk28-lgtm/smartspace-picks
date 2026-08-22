@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21KH+uw1QfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FB7KQLR1?tag=deskfinds0d-20",
     description:
-      "The Synology DS225+ pairs an Intel CPU with hardware transcoding support, meaning it can decode and resize 4K video on the fly for smooth streaming to a phone or smart TV instead of stuttering through it in software. That processor tier matters more than bay count for a lot of home office buyers who plan to run a Plex-style media server alongside file storage.\n\nIt runs Synology's DSM software ecosystem, which bundles Synology Drive for file sync, Synology Photos for a private photo library, and Surveillance Station for camera feeds. As a diskless 2-bay unit, budget separately for two NAS-grade drives before treating the $364.99 price as the full cost of ownership.\n\nFull DSM software ecosystem included. That's a real strength, but weigh it against the flip side: diskless, drives are a separate $80-200+ per bay expense.",
+      "The Synology DS225+ pairs an Intel CPU with hardware transcoding support, meaning it can decode and resize 4K video on the fly for smooth streaming to a phone or smart TV instead of stuttering through it in software. That processor tier matters more than bay count for a lot of home office buyers who plan to run a Plex-style media server alongside file storage. It runs Synology's DSM software ecosystem, which bundles Synology Drive for file sync, Synology Photos for a private photo library, and Surveillance Station for camera feeds. As a diskless 2-bay unit, budget separately for two NAS-grade drives before treating the price as the full cost of ownership. Full DSM software ecosystem included. That's a real strength, but weigh it against the flip side: diskless, drives are a separate a competitive price-200+ per bay expense.",
     specs: [
       "2-bay diskless NAS",
       "Intel CPU with hardware transcoding",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21VvdqtKHoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRNBVTJK?tag=deskfinds0d-20",
     description:
-      "The Synology DS223 is positioned as a straightforward home or office backup hub, a place to centralize files and keep an eye on shared storage without the added cost of the transcoding-capable DS225+. It is the cheapest entry point into Synology's DSM software ecosystem in this guide, which matters if you value the brand's polished, well-documented interface over raw CPU headroom.\n\nAs a 2-bay diskless unit, it ships without drives, so plan for two NAS-rated drives on top of the $284.99 enclosure price. It suits buyers who mainly want reliable file backup and shared access rather than a media server.\n\nWorth calling out specifically: straightforward setup for basic file backup and sharing. The catch is lacks the DS225+'s Intel hardware transcoding.",
+      "The Synology DS223 is positioned as a straightforward home or office backup hub, a place to centralize files and keep an eye on shared storage without the added cost of the transcoding-capable DS225+. It is the cheapest entry point into Synology's DSM software ecosystem in this guide, which matters if you value the brand's polished, well-documented interface over raw CPU headroom. As a 2-bay diskless unit, it ships without drives, so plan for two NAS-rated drives on top of the enclosure price. It suits buyers who mainly want reliable file backup and shared access rather than a media server. Worth calling out specifically: straightforward setup for basic file backup and sharing. The catch is lacks the DS225+'s Intel hardware transcoding.",
     specs: [
       "2-bay diskless NAS",
       "DSM software ecosystem",
@@ -175,7 +175,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31LwADnr-0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5MB5MTS?tag=deskfinds0d-20",
     description:
-      "The Asustor AS5402T is the only pick in this guide with 4x dedicated M.2 NVMe SSD slots for a true read/write cache, on top of an Intel quad-core 2.0GHz CPU and 4GB of DDR4 RAM. It also has 2x 2.5GbE network ports, positioning it for gaming cloud storage and live-stream workflows where fast, low-latency access matters.\n\nKeep in mind that most home routers only have 1GbE ports, so those 2.5GbE ports won't show a real speed advantage unless you also upgrade to a 2.5GbE switch, otherwise the faster port sits underused. As a diskless unit, budget for NAS-rated drives separately on top of the $406.99 enclosure price.\n\nIntel quad-core CPU handles transcoding and heavier workloads well. That's a real strength, but weigh it against the flip side: most expensive pick in this guide.",
+      "The Asustor AS5402T is the only pick in this guide with 4x dedicated M.2 NVMe SSD slots for a true read/write cache, on top of an Intel quad-core 2.0GHz CPU and 4GB of DDR4 RAM. It also has 2x 2.5GbE network ports, positioning it for gaming cloud storage and live-stream workflows where fast, low-latency access matters. Keep in mind that most home routers only have 1GbE ports, so those 2.5GbE ports won't show a real speed advantage unless you also upgrade to a 2.5GbE switch, otherwise the faster port sits underused. As a diskless unit, budget for NAS-rated drives separately on top of the enclosure price. Intel quad-core CPU handles transcoding and heavier workloads well. That's a real strength, but weigh it against the flip side: most expensive pick in this guide.",
     specs: [
       "2-bay diskless NAS",
       "Intel quad-core 2.0GHz CPU, 4GB DDR4 RAM",
@@ -307,7 +307,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Real total cost including drives",
-    description: "Looked past the diskless enclosure price to the real cost of adding NAS-rated drives, since nearly every pick here requires a separate $80-200+ per bay drive purchase.",
+    description: "Looked past the diskless enclosure price to the real cost of adding NAS-rated drives, since nearly every pick here requires a separate a competitive price-200+ per bay drive purchase.",
   },
   {
     title: "Network port speed versus real-world usefulness",

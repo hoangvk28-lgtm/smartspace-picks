@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vNev8kUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D22JRHZB?tag=deskfinds0d-20",
     description:
-      "UGREEN's DXP4800 Plus pairs an Intel Pentium Gold 8505 5-core CPU with 4 bays, giving it enough processing headroom to run business apps and backup jobs alongside file sharing without stalling. It undercuts the Synology DS925+ by about $80 while still offering 4 bays of expansion room.\n\nAs with any device holding your business's only copy of critical files, plan for the NAS itself to be backed up, cloud backup integration for the NAS is a genuine requirement given rising ransomware activity targeting NAS devices specifically, not an optional extra.\n\nWorth calling out specifically: 4 bays at a lower price than the Synology equivalent. The catch is diskless, drives are an additional cost.",
+      "UGREEN's DXP4800 Plus pairs an Intel Pentium Gold 8505 5-core CPU with 4 bays, giving it enough processing headroom to run business apps and backup jobs alongside file sharing without stalling. It undercuts the Synology DS925+ by a moderate amount while still offering 4 bays of expansion room. As with any device holding your business's only copy of critical files, plan for the NAS itself to be backed up, cloud backup integration for the NAS is a genuine requirement given rising ransomware activity targeting NAS devices specifically, not an optional extra. Worth calling out specifically: 4 bays at a lower price than the Synology equivalent. The catch is diskless, drives are an additional cost.",
     specs: [
       "4-bay, diskless (drives sold separately)",
       "Intel Pentium Gold 8505 5-Core CPU",

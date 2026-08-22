@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "Rated at 35 PPM, the MF753Cdw II is the fastest sustained-output pick in this list, but that figure comes from a simplified test document, expect real-world speed on graphics-heavy reports or photo-included pages to run noticeably slower. An automatic document feeder handles multi-page scanning and copying without manual repositioning.\n\nAt just under $500 it's a significant investment above the other picks here, justified for a home office that regularly prints high page counts rather than occasional documents. The 3-year limited warranty reflects the printer's positioning as a genuine workhorse rather than a light-duty budget model.\n\nFull multi-function feature set with ADF. That's a real strength, but weigh it against the flip side: most expensive pick in this list by a wide margin.",
+      "Rated at 35 PPM, the MF753Cdw II is the fastest sustained-output pick in this list, but that figure comes from a simplified test document, expect real-world speed on graphics-heavy reports or photo-included pages to run noticeably slower. An automatic document feeder handles multi-page scanning and copying without manual repositioning. It's a significant investment above the other picks here, justified for a home office that regularly prints high page counts rather than occasional documents. The 3-year limited warranty reflects the printer's positioning as a genuine workhorse rather than a light-duty budget model. Full multi-function feature set with ADF. That's a real strength, but weigh it against the flip side: most expensive pick in this list by a wide margin.",
     specs: [
       "Color laser, 35 PPM rated speed",
       "Automatic duplex, scan, copy, fax",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "For the common home office pattern of a single page printed here and there rather than long runs, the PIXMA TR4720's quick readiness from idle matters more than a high sustained PPM figure it doesn't claim. Its automatic document feeder speeds up scanning multi-page documents without repositioning each one manually.\n\nAt $69 it's one of the most affordable picks here, a reasonable trade-off for a home office where individual jobs are small and speed on a single page matters more than throughput on a large batch.\n\nAutomatic document feeder for faster multi-page scanning. Set against that, not built for sustained high-volume printing. Both matter when comparing it to the other picks here.",
+      "For the common home office pattern of a single page printed here and there rather than long runs, the PIXMA TR4720's quick readiness from idle matters more than a high sustained PPM figure it doesn't claim. Its automatic document feeder speeds up scanning multi-page documents without repositioning each one manually. It's one of the most affordable picks here, a reasonable trade-off for a home office where individual jobs are small and speed on a single page matters more than throughput on a large batch. Automatic document feeder for faster multi-page scanning. Set against that, not built for sustained high-volume printing. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Mobile printing support",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 doesn't advertise a headline speed figure, and for a home office printing occasional documents rather than sustained runs, that's often fine, its readiness from idle is quick enough for most single-job printing needs. AI-capable printing features are optional rather than required.\n\nAt under $70 it's the most affordable pick in this list, a reasonable choice for a home office where speed on individual small jobs matters more than sustained throughput, save the pricier laser picks for genuinely high-volume needs.\n\nA genuine advantage here is that lowest price in this list. The tradeoff is not built for high-volume sustained printing.",
+      "The DeskJet 4355 doesn't advertise a headline speed figure, and for a home office printing occasional documents rather than sustained runs, that's often fine, its readiness from idle is quick enough for most single-job printing needs. AI-capable printing features are optional rather than required. at a budget-friendly price it's the most affordable pick in this list, a reasonable choice for a home office where speed on individual small jobs matters more than sustained throughput, save the pricier laser picks for genuinely high-volume needs. A genuine advantage here is that lowest price in this list. The tradeoff is not built for high-volume sustained printing.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",

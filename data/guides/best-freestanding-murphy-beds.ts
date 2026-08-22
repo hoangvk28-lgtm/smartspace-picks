@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit above, this is explicitly a wall bed frame kit, not a freestanding product, and it appears here only because it is commonly cross-shopped with freestanding searches. It will require standard wall mounting hardware and does not avoid the anchoring question freestanding buyers are typically trying to solve.\n\nAt $197.00 it is the lowest price in this guide, with a strong 1,610-rating review base, but it is not a fit if avoiding wall mounting is the reason you are shopping for a freestanding murphy bed.\n\nA genuine advantage here is that lowest price in this guide. The tradeoff is not freestanding, requires standard wall mounting.",
+      "Like the Create-A-Bed kit above, this is explicitly a wall bed frame kit, not a freestanding product, and it appears here only because it is commonly cross-shopped with freestanding searches. It will require standard wall mounting hardware and does not avoid the anchoring question freestanding buyers are typically trying to solve. It is the lowest price in this guide, with a strong 1,610-rating review base, but it is not a fit if avoiding wall mounting is the reason you are shopping for a freestanding murphy bed. A genuine advantage here is that lowest price in this guide. The tradeoff is not freestanding, requires standard wall mounting.",
     specs: [
       "Vertical queen size mechanism, wall-mounted design",
       "Gas piston operation",

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VvCMnbsXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPF32TQ3?tag=deskfinds0d-20",
     description:
-      "The Autonomier 3-Tier is the narrowest pick in this entire list at just 16.3 inches wide, small enough to tuck beside a door or into a closet corner most racks can't fit. Metal legs and a non-woven fabric shelf surface keep it lightweight and corrosion-resistant.\n\nIt's also the cheapest pick here at under $8, and it stacks either vertically for more tiers or side-by-side for more width, so you can scale it up later without buying a whole new rack.\n\nWorth calling out specifically: cheapest pick in this list at $7.99. The catch is only 3 tiers, low overall capacity as a standalone unit.",
+      "The Autonomier 3-Tier is the narrowest pick in this entire list at just 16.3 inches wide, small enough to tuck beside a door or into a closet corner most racks can't fit. Metal legs and a non-woven fabric shelf surface keep it lightweight and corrosion-resistant. It's also the cheapest pick here at a budget-friendly price, and it stacks either vertically for more tiers or side-by-side for more width, so you can scale it up later without buying a whole new rack. Worth calling out specifically: cheapest pick in this list. The catch is only 3 tiers, low overall capacity as a standalone unit.",
     specs: [
       "16.3\"W x 10.2\"D x 14.7\"H",
       "Metal frame + non-woven fabric",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+JCePqlmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPF4548R?tag=deskfinds0d-20",
     description:
-      "The 4-tier version of the Autonomier keeps the same narrow 16.3-inch footprint as the 3-tier model but adds a fourth shelf and stretches to 21.5 inches tall, giving it more capacity without taking up any more floor space. It's built from the same metal-and-fabric combination and holds up to 22 lbs.\n\nAt $8.99 it's the cheapest tall option in this list, and like its 3-tier sibling it's fully stackable, so it can grow into a taller tower or a wider side-by-side setup as your shoe collection does.\n\nCheapest tall pick in this list at $8.99. Set against that, 22 lb capacity is on the low side. Both matter when comparing it to the other picks here.",
+      "The 4-tier version of the Autonomier keeps the same narrow 16.3-inch footprint as the 3-tier model but adds a fourth shelf and stretches to 21.5 inches tall, giving it more capacity without taking up any more floor space. It's built from the same metal-and-fabric combination and holds up to 22 lbs. It's the cheapest tall option in this list, and like its 3-tier sibling it's fully stackable, so it can grow into a taller tower or a wider side-by-side setup as your shoe collection does. Cheapest tall pick in this list. Set against that, 22 lb capacity is on the low side. Both matter when comparing it to the other picks here.",
     specs: [
       "16.3\"W x 10.2\"D x 21.5\"H",
       "Metal frame + non-woven fabric",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, height, and included hardware against price, from the $7.99 Autonomier 3-tier up to the $39.99 SONGMICS all-metal build.",
+    description: "Weighed capacity, height, and included hardware against price, from the Autonomier 3-tier up to the SONGMICS all-metal build.",
   },
 ];
 

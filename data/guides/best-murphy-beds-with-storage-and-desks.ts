@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WkdwEwOOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H33PY32C?tag=deskfinds0d-20",
     description:
-      "The Merax packs the most features into one wall unit in this list: a fold-down desk, built-in lights, a power outlet, open shelves, and drawers, all around a queen mattress platform. That's genuinely convenient for a true 3-in-1 room, but it also means the heaviest, most complex assembled unit here, one where professional installation is worth strong consideration rather than a solo DIY attempt given the combined weight of the frame, shelving, and desk hardware.\n\nExpect the desk surface to fold away cleanly when the bed comes down, and budget realistic daily transition time, clearing the desk, folding it up, then lowering the bed, rather than assuming it's an instant swap. At $1,239.99 it's the most expensive pick here, reflecting the full feature set.\n\nBuilt-in lighting and power outlet at the desk. That's a real strength, but weigh it against the flip side: highest price in this list.",
+      "The Merax packs the most features into one wall unit in this list: a fold-down desk, built-in lights, a power outlet, open shelves, and drawers, all around a queen mattress platform. That's genuinely convenient for a true 3-in-1 room, but it also means the heaviest, most complex assembled unit here, one where professional installation is worth strong consideration rather than a solo DIY attempt given the combined weight of the frame, shelving, and desk hardware. Expect the desk surface to fold away cleanly when the bed comes down, and budget realistic daily transition time, clearing the desk, folding it up, then lowering the bed, rather than assuming it's an instant swap. It's the most expensive pick here, reflecting the full feature set. Built-in lighting and power outlet at the desk. That's a real strength, but weigh it against the flip side: highest price in this list.",
     specs: [
       "Queen size platform",
       "Fold-down desk with lights",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51ThmQNX7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJKJQ9SH?tag=deskfinds0d-20",
     description:
-      "This is a near-identical AMERLIFE listing to the previous entry, sharing the same queen platform, storage cabinet, and charging station, but currently priced $30 lower. It's worth checking both listings at the time of purchase since Amazon pricing on near-duplicate listings shifts, and the lower priced option may not always be this one.\n\nThe same installation and stability guidance applies as with its sibling listing: confirm proper stud anchoring before mounting, and budget for professional installation help given the assembled weight of a queen combo unit.\n\nA genuine advantage here is that same solid review base as the sibling listing. The tradeoff is no dedicated desk surface.",
+      "This is a near-identical AMERLIFE listing to the previous entry, sharing the same queen platform, storage cabinet, and charging station, but currently priced a real lower. It's worth checking both listings at the time of purchase since Amazon pricing on near-duplicate listings shifts, and the lower priced option may not always be this one. The same installation and stability guidance applies as with its sibling listing: confirm proper stud anchoring before mounting, and budget for professional installation help given the assembled weight of a queen combo unit. A genuine advantage here is that same solid review base as the sibling listing. The tradeoff is no dedicated desk surface.",
     specs: [
       "Queen size platform",
       "Integrated storage cabinet",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price at each combo feature tier",
     description:
-      "Weighed platform size, desk inclusion, storage type, and stated weight rating against price across the $429.99 to $1,239.99 range in this list.",
+      "Weighed platform size, desk inclusion, storage type, and stated weight rating against price across the range of price points in this comparison in this list.",
   },
 ];
 

@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ffs1HVVlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP7STCSP?tag=deskfinds0d-20",
     description:
-      "A compact Bluetooth direct thermal printer aimed at sellers who want to print labels straight from a phone without a computer nearby, common for sellers packing orders away from a desk. It covers the standard 4x6 shipping label format most carriers require.\n\nAt under $80, it's one of the more accessible entry points into dedicated thermal label printing, though Bluetooth connections can be less consistent during a long batch print run than the wired Rollo above, worth factoring in if you're printing dozens of labels in one sitting.\n\nPrint directly from a phone via Bluetooth. On the other hand, bluetooth can be less consistent for long batch runs. Neither should be a surprise once you know to look for it.",
+      "A compact Bluetooth direct thermal printer aimed at sellers who want to print labels straight from a phone without a computer nearby, common for sellers packing orders away from a desk. It covers the standard 4x6 shipping label format most carriers require. at a budget-friendly price, it's one of the more accessible entry points into dedicated thermal label printing, though Bluetooth connections can be less consistent during a long batch print run than the wired Rollo above, worth factoring in if you're printing dozens of labels in one sitting. Print directly from a phone via Bluetooth. On the other hand, bluetooth can be less consistent for long batch runs. Neither should be a surprise once you know to look for it.",
     specs: [
       "Bluetooth direct thermal engine",
       "4x6 label format",

@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41U9fB5XU3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N125MU5?tag=deskfinds0d-20",
     description:
-      "This SONGMICS bamboo bench is the most-reviewed pick in this entire guide, with nearly 25,000 ratings behind its 3-tier natural bamboo design. Two open shelves hold roughly 6 pairs, and the flat top panel doubles as seating for putting shoes on.\n\nAt 286 lbs of capacity and a natural bamboo finish, it strikes a middle ground between the bare-bones freestanding racks and the pricier padded benches further down this list, without straying far from the $28 price point.\n\nNatural bamboo finish at an accessible price. Set against that, flat bamboo top isn't padded. Both matter when comparing it to the other picks here.",
+      "This SONGMICS bamboo bench is the most-reviewed pick in this entire guide, with nearly 25,000 ratings behind its 3-tier natural bamboo design. Two open shelves hold roughly 6 pairs, and the flat top panel doubles as seating for putting shoes on. At 286 lbs of capacity and a natural bamboo finish, it strikes a middle ground between the bare-bones freestanding racks and the pricier padded benches further down this list, without straying far from the price point. Natural bamboo finish at an accessible price. Set against that, flat bamboo top isn't padded. Both matter when comparing it to the other picks here.",
     specs: [
       "27.6\"W x 11.3\"D x 17.8\"H",
       "Natural bamboo",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, material, and stability features against price, from the $9.99 Kitsure rack to the $93.49 Xixini cabinet.",
+    description: "Weighed capacity, material, and stability features against price, from the Kitsure rack to the Xixini cabinet.",
   },
 ];
 

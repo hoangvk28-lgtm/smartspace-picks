@@ -151,7 +151,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/tralt-mesh-wheels.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0CG6V2XGS?tag=deskfinds0d-20",
-    description: "This TRALT model carries a 330 lb rating and a sturdier frame than the sub-$150 chairs in this guide, which tend to run 2 to 3 years before showing wear versus a longer lifespan on more reinforced frames. It keeps the same compact standard base footprint.\n\nAt this price it sits above most compact-chair budgets, so it's best considered when you plan to keep the chair for years rather than a short-term dorm or apartment stay.\n\nA genuine advantage here is that compact standard base. The tradeoff is priced above most compact chairs here.",
+    description: "This TRALT model carries a 330 lb rating and a sturdier frame than the budget-tier chairs in this guide, which tend to run 2 to 3 years before showing wear versus a longer lifespan on more reinforced frames. It keeps the same compact standard base footprint. At this price it sits above most compact-chair budgets, so it's best considered when you plan to keep the chair for years rather than a short-term dorm or apartment stay. A genuine advantage here is that compact standard base. The tradeoff is priced above most compact chairs here.",
     specs: ["Mesh", "330 lbs capacity", "Standard base", "Rolling wheels"],
     pros: ["Reinforced frame for longer service life", "Compact standard base", "Higher weight capacity", "Strong review count"],
     cons: ["Priced above most compact chairs here", "Not ideal for short-term use", "Bulkier frame than budget picks"],

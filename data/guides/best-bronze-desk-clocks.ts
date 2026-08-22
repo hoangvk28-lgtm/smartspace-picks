@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified bronze vs. bronze-adjacent finish per listing", description: "We checked whether \"bronze\" appears directly in the product name and description, flagging where it's more of a general vintage-toned finish." },
-  { title: "Real price spread across this category", description: "We compared value from under $13 basic clocks to nearly $60 mantel pieces with genuine moving mechanisms." },
+  { title: "Real price spread across this category", description: "We compared value from basic clocks to premium mantel pieces with genuine moving mechanisms." },
   { title: "Silent movement noted where confirmed", description: "We flagged where a product specifically advertises silent operation, relevant for desk placement." },
   { title: "Review volume weighted heavily, especially for small-sample options", description: "We noted where a bronze-labeled product has a very small review base, worth reading current feedback on before buying." },
 ];

@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FAEzhc2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T3KCQ94?tag=deskfinds0d-20",
     description:
-      "The FlowLift covers 13 to 32 inch monitors and includes both a C-clamp and a grommet base in the box, so it works whether your desk edge is clampable or you would rather run the pole through a cable grommet hole. Rated for 4.4 to 19.8 lbs, it fits the panel weight of most mid-size monitors once the factory stand is off.\n\nAt under $35 it undercuts the Ergotron pair by more than $150 while still offering VESA mounting and tilt, swivel, and rotation. The tradeoff is a lighter overall build than the premium arms, which shows up most on larger 30\"+ panels pushed toward the top of its weight rating.\n\nStrong value at under $35. Set against that, lighter-duty build than the Ergotron picks. Both matter when comparing it to the other picks here.",
+      "The FlowLift covers 13 to 32 inch monitors and includes both a C-clamp and a grommet base in the box, so it works whether your desk edge is clampable or you would rather run the pole through a cable grommet hole. Rated for 4.4 to 19.8 lbs, it fits the panel weight of most mid-size monitors once the factory stand is off. at a budget-friendly price it undercuts the Ergotron pair by more than a competitive price while still offering VESA mounting and tilt, swivel, and rotation. The tradeoff is a lighter overall build than the premium arms, which shows up most on larger 30\"+ panels pushed toward the top of its weight rating. Strong value at a budget-friendly price. Set against that, lighter-duty build than the Ergotron picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits 13 to 32\" monitors",
       "4.4 to 19.8 lb capacity",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41--azXaNzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK7FVTR4?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro's MechaSpring mechanism and tool-free VESA mount are built for buyers who do not want to keep an Allen key around after setup. It covers 13 to 32 inch screens with a 19.8 lb max load and includes both C-clamp and grommet base options.\n\nFull tilt, swivel, and rotation adjustment is included at under $30, making it one of the cheapest arms on this list with a genuinely tool-free installation. Like the standard FlowLift, its lighter build is best matched to monitors in the 20-27 inch range rather than a heavy 30\"+ ultrawide.\n\nA genuine advantage here is that under $30, one of the cheapest picks here. The tradeoff is 19.8 lb cap limits it to lighter and mid-size panels.",
+      "The FlowLift Pro's MechaSpring mechanism and tool-free VESA mount are built for buyers who do not want to keep an Allen key around after setup. It covers 13 to 32 inch screens with a 19.8 lb max load and includes both C-clamp and grommet base options. Full tilt, swivel, and rotation adjustment is included at a budget-friendly price, making it one of the cheapest arms on this list with a genuinely tool-free installation. Like the standard FlowLift, its lighter build is best matched to monitors in the 20-27 inch range rather than a heavy 30\"+ ultrawide. A genuine advantage here is that at a budget-friendly price, one of the cheapest picks here. The tradeoff is 19.8 lb cap limits it to lighter and mid-size panels.",
     specs: [
       "Fits 13 to 32\" screens",
       "Max load 19.8 lbs",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41muNp04WgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGPZR6P1?tag=deskfinds0d-20",
     description:
-      "WALI's mount fits 13 to 34 inch screens and is rated for up to 26.4 lbs, the highest capacity of any sub-$20 arm in this list, with standard 32-inch regular-screen coverage and VESA 75/100mm compatibility. That extra headroom matters if your panel runs closer to the heavier end of its stated weight before subtracting the factory stand.\n\nAt $19.99 it matches the ErGear pick on price while offering a meaningfully higher weight ceiling, making it a strong choice if you are unsure exactly how much your panel weighs without its stock stand attached.\n\nWorth calling out specifically: matches the lowest price point in this list. The catch is basic finish and hardware compared to the Ergotron picks.",
+      "WALI's mount fits 13 to 34 inch screens and is rated for up to 26.4 lbs, the highest capacity of any budget-tier arm in this list, with standard 32-inch regular-screen coverage and VESA 75/100mm compatibility. That extra headroom matters if your panel runs closer to the heavier end of its stated weight before subtracting the factory stand. It matches the ErGear pick on price while offering a meaningfully higher weight ceiling, making it a strong choice if you are unsure exactly how much your panel weighs without its stock stand attached. Worth calling out specifically: matches the lowest price point in this list. The catch is basic finish and hardware compared to the Ergotron picks.",
     specs: [
       "Fits 13 to 34\" screens, regular screen up to 32\"",
       "Holds up to 26.4 lbs",
@@ -265,7 +265,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41n18T7NMSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G523STF2?tag=deskfinds0d-20",
     description:
-      "The SmooVex fits monitors up to 32 inches using a mechanical spring mount and standard VESA 75/100mm mounting, keeping its footprint and hardware simple compared to the multi-arm and heavy-duty picks in this list. It is a straightforward single-arm option for a standard-size monitor.\n\nAt $28.90 it sits in the middle of this list's budget tier, positioned for buyers who want a no-frills spring-mounted arm rather than the widest possible screen range or the highest weight ceiling.\n\nA genuine advantage here is that standard dual VESA pattern. The tradeoff is no stated weight capacity beyond fitting up to 32\" screens, so confirm your panel's actual weight first.",
+      "The SmooVex fits monitors up to 32 inches using a mechanical spring mount and standard VESA 75/100mm mounting, keeping its footprint and hardware simple compared to the multi-arm and heavy-duty picks in this list. It is a straightforward single-arm option for a standard-size monitor. It sits in the middle of this list's budget tier, positioned for buyers who want a no-frills spring-mounted arm rather than the widest possible screen range or the highest weight ceiling. A genuine advantage here is that standard dual VESA pattern. The tradeoff is no stated weight capacity beyond fitting up to 32\" screens, so confirm your panel's actual weight first.",
     specs: [
       "Fits monitors up to 32\"",
       "Mechanical spring mount",
@@ -312,7 +312,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed weight capacity, VESA range, and mounting hardware included against price, from a $19.98 entry-level arm to a $199 premium Ergotron LX Pro.",
+    description: "Weighed weight capacity, VESA range, and mounting hardware included against price, from a entry-level arm to a premium Ergotron LX Pro.",
   },
 ];
 

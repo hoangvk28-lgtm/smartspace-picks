@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The TR4720 fits an auto document feeder into a footprint still reasonable for a small desk, useful if your small space also needs occasional multi-page scanning rather than just printing. That feeder does add a bit of height compared to a flatbed-only compact printer, worth checking against shelf clearance before buying if vertical space is as tight as horizontal space.\n\nIts compact footprint stores well on a low shelf, though like the other inkjet AIOs here it needs more space than the two thermal mini printers once cartridges and the paper tray are accounted for. Built-in fax is included but unlikely to matter for most small-space buyers.\n\nLow price at $69.00. That's a real strength, but weigh it against the flip side: feeder adds height, check shelf clearance.",
+      "The TR4720 fits an auto document feeder into a footprint still reasonable for a small desk, useful if your small space also needs occasional multi-page scanning rather than just printing. That feeder does add a bit of height compared to a flatbed-only compact printer, worth checking against shelf clearance before buying if vertical space is as tight as horizontal space. Its compact footprint stores well on a low shelf, though like the other inkjet AIOs here it needs more space than the two thermal mini printers once cartridges and the paper tray are accounted for. Built-in fax is included but unlikely to matter for most small-space buyers. Low priced competitively. That's a real strength, but weigh it against the flip side: feeder adds height, check shelf clearance.",
     specs: [
       "Auto document feeder",
       "Wireless network printing",
@@ -295,7 +295,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed stored footprint, output quality, and ongoing consumable cost against price across the $39.99 to $199.99 range in this list.",
+      "Weighed stored footprint, output quality, and ongoing consumable cost against price across the range of price points in this comparison in this list.",
   },
 ];
 

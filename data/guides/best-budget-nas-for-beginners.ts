@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The UGREEN DH2300 is a diskless 2-bay NAS built around UGREEN's own beginner-friendly UGOS software, which trades some of the deeper app ecosystem of established NAS brands for a simpler, more approachable setup flow. Supporting up to 64TB across its two bays gives a first-time buyer real room to grow into RAID mirroring later.\n\nBecause it ships without drives, budget beforehand for two NAS-grade drives on top of the enclosure price. That combined cost is the real total investment, not just the $199.99 sticker on the enclosure itself.\n\nRoom to grow with 64TB max capacity. That's a real strength, but weigh it against the flip side: diskless, so real cost is enclosure plus 2 drives.",
+      "The UGREEN DH2300 is a diskless 2-bay NAS built around UGREEN's own beginner-friendly UGOS software, which trades some of the deeper app ecosystem of established NAS brands for a simpler, more approachable setup flow. Supporting up to 64TB across its two bays gives a first-time buyer real room to grow into RAID mirroring later. Because it ships without drives, budget beforehand for two NAS-grade drives on top of the enclosure price. That combined cost is the real total investment, not just the sticker on the enclosure itself. Room to grow with 64TB max capacity. That's a real strength, but weigh it against the flip side: diskless, so real cost is enclosure plus 2 drives.",
     specs: [
       "2-bay desktop enclosure, diskless",
       "Supports up to 64TB total capacity",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31gLzyv-GtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DZHL5V5?tag=deskfinds0d-20",
     description:
-      "This is the same drives-included LinkStation 210 platform as the 2TB pick, scaled up to 6TB for a beginner who already knows they'll need more room for photos, videos, or multiple computers' backups. It keeps the identical zero-shopping, zero-compatibility-research setup experience.\n\nAt $230.99 it lands close to the diskless 2-bay enclosures once you'd add drives to those, making it a genuinely competitive total-cost option for anyone who doesn't need RAID redundancy on day one.\n\nA genuine advantage here is that total cost is competitive with diskless 2-bay units plus drives. The tradeoff is still no RAID redundancy since it's single-bay.",
+      "This is the same drives-included LinkStation 210 platform as the 2TB pick, scaled up to 6TB for a beginner who already knows they'll need more room for photos, videos, or multiple computers' backups. It keeps the identical zero-shopping, zero-compatibility-research setup experience. It lands close to the diskless 2-bay enclosures once you'd add drives to those, making it a genuinely competitive total-cost option for anyone who doesn't need RAID redundancy on day one. A genuine advantage here is that total cost is competitive with diskless 2-bay units plus drives. The tradeoff is still no RAID redundancy since it's single-bay.",
     specs: [
       "1-bay NAS, 6TB drive included",
       "No RAID (single drive)",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319qh9SJhIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FTFSGBB1?tag=deskfinds0d-20",
     description:
-      "The Drivestor 2 Gen 2 pairs a quad-core CPU and 2.5GbE networking with 2-bay expandability at the same $199.99 price point as the UGREEN pick, giving a beginner faster network transfer speeds without paying more upfront. Asustor's ADM software sits in a middle ground of approachability between UGREEN and Synology.\n\nAs a diskless unit it carries the same buy-drives-separately consideration as most 2-bay picks in this list, so factor two NAS-grade drives into the real total cost before comparing it against the drives-included LinkStation options.\n\nWorth calling out specifically: quad-core CPU handles 4K media transcoding. The catch is diskless, so drives add to the real total cost.",
+      "The Drivestor 2 Gen 2 pairs a quad-core CPU and 2.5GbE networking with 2-bay expandability at the same price point as the UGREEN pick, giving a beginner faster network transfer speeds without paying more upfront. Asustor's ADM software sits in a middle ground of approachability between UGREEN and Synology. As a diskless unit it carries the same buy-drives-separately consideration as most 2-bay picks in this list, so factor two NAS-grade drives into the real total cost before comparing it against the drives-included LinkStation options. Worth calling out specifically: quad-core CPU handles 4K media transcoding. The catch is diskless, so drives add to the real total cost.",
     specs: [
       "2-bay desktop enclosure, diskless",
       "Quad-core 1.7GHz CPU",

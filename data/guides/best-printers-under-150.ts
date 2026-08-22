@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "The HL-L2405W is the only laser printer at this price tier in our lineup, and it changes the running-cost math meaningfully for anyone printing mostly black-and-white text. Toner costs less per page than inkjet cartridges over time, and toner doesn't dry out the way idle ink cartridges can.\n\nIt skips scan and copy to keep the price under $150, so pair it with a separate scanner if you need one. Mobile printing and wireless setup make it easy to add to a home network without extra cabling.\n\nToner doesn't dry out during slow weeks. Set against that, no scan or copy functions. Both matter when comparing it to the other picks here.",
+      "The HL-L2405W is the only laser printer at this price tier in our lineup, and it changes the running-cost math meaningfully for anyone printing mostly black-and-white text. Toner costs less per page than inkjet cartridges over time, and toner doesn't dry out the way idle ink cartridges can. It skips scan and copy to keep the price at a budget-friendly price, so pair it with a separate scanner if you need one. Mobile printing and wireless setup make it easy to add to a home network without extra cabling. Toner doesn't dry out during slow weeks. Set against that, no scan or copy functions. Both matter when comparing it to the other picks here.",
     specs: [
       "Monochrome laser engine",
       "Print only, no scan or copy",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 keeps an automatic document feeder and built-in fax, features many printers drop well before this price ceiling. That makes it a fit for a home office that still occasionally needs to scan or fax multi-page paperwork.\n\nAt $69, it leaves plenty of budget headroom under the $150 ceiling for anyone deciding whether to spend more elsewhere, like an ink-tank system, once monthly volume is factored in.\n\nFull document workflow support. That's a real strength, but weigh it against the flip side: combined color cartridge design.",
+      "The PIXMA TR4720 keeps an automatic document feeder and built-in fax, features many printers drop well before this price ceiling. That makes it a fit for a home office that still occasionally needs to scan or fax multi-page paperwork. It leaves plenty of budget headroom under the ceiling for anyone deciding whether to spend more elsewhere, like an ink-tank system, once monthly volume is factored in. Full document workflow support. That's a real strength, but weigh it against the flip side: combined color cartridge design.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy, fax",
       "Automatic document feeder (ADF)",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 is the least expensive pick in this list that still includes automatic duplex printing, a genuinely useful feature for anyone printing multi-page documents regularly. Scan and copy are included in a compact, easy-to-set-up design.\n\nAt $64 it leaves the most budget room under the $150 ceiling of any pick here, which is worth considering if you'd rather put the savings toward extra ink or a printer stand instead.\n\nFull print, scan, copy function set. Set against that, combined color cartridge design. Both matter when comparing it to the other picks here.",
+      "The PIXMA TS4320 is the least expensive pick in this list that still includes automatic duplex printing, a genuinely useful feature for anyone printing multi-page documents regularly. Scan and copy are included in a compact, easy-to-set-up design. It leaves the most budget room under the ceiling of any pick here, which is worth considering if you'd rather put the savings toward extra ink or a printer stand instead. Full print, scan, copy function set. Set against that, combined color cartridge design. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic duplex (2-sided) printing",
@@ -246,11 +246,11 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Verified current pricing under $150",
-    description: "Confirmed each pick's actual listed price stays genuinely under the $150 ceiling this guide promises, dropping any option that exceeded it.",
+    description: "Confirmed each pick's actual listed price stays genuinely under the ceiling this guide promises, dropping any option that exceeded it.",
   },
   {
     title: "Feature completeness at this tier",
-    description: "Checked which picks include duplex printing, an automatic document feeder, or fax, features that become more common but still aren't universal at $150.",
+    description: "Checked which picks include duplex printing, an automatic document feeder, or fax, features that become more common but still aren't universal at a competitive price.",
   },
   {
     title: "Laser versus inkjet cost per page",
@@ -258,7 +258,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Budget headroom for different needs",
-    description: "Considered how much of the $150 ceiling each pick actually uses, since a $64 pick leaves more room to spend on paper, ink, or accessories than a $140 one.",
+    description: "Considered how much of the ceiling each pick actually uses, since a pick leaves more room to spend on paper, ink, or accessories than a one.",
   },
 ];
 

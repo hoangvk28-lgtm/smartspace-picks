@@ -89,7 +89,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/choochoo-drawer-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CWLCHKZD?tag=deskfinds0d-20",
     description:
-      "The ChooChoo bookshelf adds a pull-out drawer to the standard open-shelf hutch format, giving concealed storage for chargers, cables, earbuds, and small items that would otherwise clutter open shelves. The white finish is neutral and pairs well with most dorm furniture regardless of what the school provides.\n\nAt $59.99 it costs more than the basic Furinno but the drawer adds real utility for students who need to hide loose items quickly before roommates or RA visits. The 36.4-inch width fits the majority of dorm-issue desks.",
+      "The ChooChoo bookshelf adds a pull-out drawer to the standard open-shelf hutch format, giving concealed storage for chargers, cables, earbuds, and small items that would otherwise clutter open shelves. The white finish is neutral and pairs well with most dorm furniture regardless of what the school provides. It costs more than the basic Furinno but the drawer adds real utility for students who need to hide loose items quickly before roommates or RA visits. The 36.4-inch width fits the majority of dorm-issue desks.",
     specs: ["36.4 inches tall", "5 shelves plus 1 drawer", "White finish"],
     pros: [
       "Pull-out drawer for concealed storage",
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/tangkula-white.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0C2KR6BVM?tag=deskfinds0d-20",
     description:
-      "The Tangkula bookshelf is the sturdiest white hutch in this roundup, with an anti-tip kit included for wall anchoring in spaces where stability is a concern. Its three-tier, five-shelf design creates more visual separation between storage zones than single-column hutches, which helps students keep subjects and supplies sorted.\n\nAt $79.99 it is the premium option in this guide and is best suited for students who plan to use the same hutch for multiple semesters or take it home afterward. The build quality reflects the higher price compared to the Furinno and Jerry and Maggie picks.",
+      "The Tangkula bookshelf is the sturdiest white hutch in this roundup, with an anti-tip kit included for wall anchoring in spaces where stability is a concern. Its three-tier, five-shelf design creates more visual separation between storage zones than single-column hutches, which helps students keep subjects and supplies sorted. It is the premium option in this guide and is best suited for students who plan to use the same hutch for multiple semesters or take it home afterward. The build quality reflects the higher price compared to the Furinno and Jerry and Maggie picks.",
     specs: ["5 shelves", "3-tier design", "White finish", "Anti-tip kit included"],
     pros: [
       "Anti-tip kit included for safety",
@@ -143,7 +143,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/hoobro-led-outlets.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CRV7VNDW?tag=deskfinds0d-20",
     description:
-      "The HOOBRO bookcase includes a built-in LED light strip, two AC outlets, and two USB ports, which makes it one of the most feature-rich hutches available for dorm use. Students who are short on wall outlets benefit significantly from the two AC outlets built into the shelf, and the LED strip adds ambient lighting without buying a separate lamp.\n\nAt $49.99 it undercuts the ChooChoo on price while adding more hardware. The two-tier design is simpler than the five-shelf models but trades storage volume for the electrical and lighting features.",
+      "The HOOBRO bookcase includes a built-in LED light strip, two AC outlets, and two USB ports, which makes it one of the most feature-rich hutches available for dorm use. Students who are short on wall outlets benefit significantly from the two AC outlets built into the shelf, and the LED strip adds ambient lighting without buying a separate lamp. It undercuts the ChooChoo on price while adding more hardware. The two-tier design is simpler than the five-shelf models but trades storage volume for the electrical and lighting features.",
     specs: ["LED light strip", "2 AC outlets", "2 USB ports", "2-tier design"],
     pros: [
       "2 AC outlets and 2 USB ports built in",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/choochoo-7shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CWKYVDCP?tag=deskfinds0d-20",
     description:
-      "The ChooChoo 7-shelf model is the tallest hutch in this roundup at 33.5 inches high, making it one of the few desk hutches that can hold a full semester of textbooks on a single unit. Seven shelves across 37 inches wide gives an unusually high total storage volume compared to four or five-shelf models.\n\nAt $56.99 it is priced comparably to the ChooChoo drawer model and makes sense for students with large textbook collections who need storage volume over concealed organization. The height means upper shelves may be awkward to access without standing.",
+      "The ChooChoo 7-shelf model is the tallest hutch in this roundup at 33.5 inches high, making it one of the few desk hutches that can hold a full semester of textbooks on a single unit. Seven shelves across 37 inches wide gives an unusually high total storage volume compared to four or five-shelf models. It is priced comparably to the ChooChoo drawer model and makes sense for students with large textbook collections who need storage volume over concealed organization. The height means upper shelves may be awkward to access without standing.",
     specs: ["7 shelves", "37 inches wide", "33.5 inches tall", "White finish"],
     pros: [
       "Seven shelves for maximum textbook storage",
@@ -251,7 +251,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/marbrasse-drawer-black.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DJ8MD6P5?tag=deskfinds0d-20",
     description:
-      "The Marbrasse hutch combines four open tiers with a single drawer in a black finish, making it one of the few black hutches in this roundup that also includes concealed storage. At 40 inches wide it is the widest model here and suits larger dorm desks or shared L-shaped desk surfaces.\n\nAt under $42 it is one of the better-value hutches with a drawer, undercutting the ChooChoo drawer model by $18. Students who want a dark-finish hutch with some concealed storage and a wider footprint will find limited competition at this price.",
+      "The Marbrasse hutch combines four open tiers with a single drawer in a black finish, making it one of the few black hutches in this roundup that also includes concealed storage. At 40 inches wide it is the widest model here and suits larger dorm desks or shared L-shaped desk surfaces. at a budget-friendly price it is one of the better-value hutches with a drawer, undercutting the ChooChoo drawer model by a wide margin. Students who want a dark-finish hutch with some concealed storage and a wider footprint will find limited competition at this price.",
     specs: ["40 inches wide", "4 tiers", "1 drawer", "Black finish"],
     pros: [
       "Black finish for dark or gaming-style setups",

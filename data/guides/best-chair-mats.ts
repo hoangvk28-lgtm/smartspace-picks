@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-SqFH4ZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0893BD69B?tag=deskfinds0d-20",
     description:
-      "Kuyal's mat is 2mm PVC in a 36x48 footprint built specifically for hard floors, with a smooth top and an anti-slide coating on the underside rather than cleats, since hard floor doesn't need fiber grip the way carpet does. A dull polish finish keeps small scratches less visible over time compared to a glossy surface.\n\nIt's odorless and BPA-free with no lead or cadmium, and at under $33 it's the cheapest clear hard-floor pick in this guide. Don't use it on carpet, its flat anti-slide coating isn't designed to anchor into carpet fibers.\n\nWorth calling out specifically: dull polish finish hides minor scratches. The catch is hard floor only, will not grip carpet.",
+      "Kuyal's mat is 2mm PVC in a 36x48 footprint built specifically for hard floors, with a smooth top and an anti-slide coating on the underside rather than cleats, since hard floor doesn't need fiber grip the way carpet does. A dull polish finish keeps small scratches less visible over time compared to a glossy surface. It's odorless and BPA-free with no lead or cadmium, and at a budget-friendly price it's the cheapest clear hard-floor pick in this guide. Don't use it on carpet, its flat anti-slide coating isn't designed to anchor into carpet fibers. Worth calling out specifically: dull polish finish hides minor scratches. The catch is hard floor only, will not grip carpet.",
     specs: [
       "36\"W x 48\"D, PVC, 2mm thick",
       "Anti-slide coating underside (hard floor only)",
@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51UDuDStG2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D96LWLZ7?tag=deskfinds0d-20",
     description:
-      "Marvelux's polycarbonate mat is 0.11 inches thick in a 48x60 footprint and rated for carpet up to 3/4 inch, the only pick in this guide's polycarbonate lineup rated for medium and high pile. Its rigidity means it doesn't sink into thick carpet the way a thinner mat would, and a studded underside keeps it anchored.\n\nIt's made using 50% renewable energy and is 100% recyclable, a detail worth noting if sustainability factors into your purchase. At $121.99 it's the priciest pick in this guide, but it's also solving a problem most competitors don't address at all.\n\nA genuine advantage here is that rigid enough to avoid sinking into thick carpet. The tradeoff is most expensive pick in this guide.",
+      "Marvelux's polycarbonate mat is 0.11 inches thick in a 48x60 footprint and rated for carpet up to 3/4 inch, the only pick in this guide's polycarbonate lineup rated for medium and high pile. Its rigidity means it doesn't sink into thick carpet the way a thinner mat would, and a studded underside keeps it anchored. It's made using 50% renewable energy and is 100% recyclable, a detail worth noting if sustainability factors into your purchase. It's the priciest pick in this guide, but it's also solving a problem most competitors don't address at all. A genuine advantage here is that rigid enough to avoid sinking into thick carpet. The tradeoff is most expensive pick in this guide.",
     specs: [
       "48\"W x 60\"D, polycarbonate, 0.11\" thick",
       "Rated for carpet up to 3/4\" (medium-high pile)",
@@ -209,7 +209,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Dfg8DnF5S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PD3ZHJT?tag=deskfinds0d-20",
     description:
-      "GLSLAND's tempered glass mat is 0.2 inches thick in a 36x46 footprint, rated for 1,200 lbs, with 4 anti-slip pads underneath rather than cleats or spikes. Glass is naturally the most durable material category of the 3 in this guide, PVC, polycarbonate, and glass, and it won't scratch, dent, or yellow the way plastic mats eventually do.\n\nIt's dual-use on carpet or hard floor and BPA-free, phthalate-free, and odorless. At $60.99 it's the cheapest tempered glass pick in this guide, a reasonable entry point if you want glass's durability without the largest glass mat's price.\n\nMost durable material category, won't scratch or yellow. On the other hand, heaviest material to move or reposition. Neither should be a surprise once you know to look for it.",
+      "GLSLAND's tempered glass mat is 0.2 inches thick in a 36x46 footprint, rated for 1,200 lbs, with 4 anti-slip pads underneath rather than cleats or spikes. Glass is naturally the most durable material category of the 3 in this guide, PVC, polycarbonate, and glass, and it won't scratch, dent, or yellow the way plastic mats eventually do. It's dual-use on carpet or hard floor and BPA-free, phthalate-free, and odorless. It's the cheapest tempered glass pick in this guide, a reasonable entry point if you want glass's durability without the largest glass mat's price. Most durable material category, won't scratch or yellow. On the other hand, heaviest material to move or reposition. Neither should be a surprise once you know to look for it.",
     specs: [
       "36\"W x 46\"D, tempered glass, 0.2\" thick",
       "Rated 1,200 lbs",
@@ -319,7 +319,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed thickness, floor compatibility, and warranty against price, since a $32 hard-floor mat and a $135 glass mat serve very different buyer situations.",
+    description: "Weighed thickness, floor compatibility, and warranty against price, since a hard-floor mat and a glass mat serve very different buyer situations.",
   },
 ];
 

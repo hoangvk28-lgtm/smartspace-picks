@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51M6nLrVD8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWQMZPJC?tag=deskfinds0d-20",
     description:
-      "The SANSUI is both the cheapest and most-reviewed curved monitor in this entire guide, with 4,460 ratings backing a 1500R VA panel that runs at 200Hz. That's a genuinely fast refresh rate for the price, paired with 97% DCI-P3 and 130% sRGB coverage that outperforms what you'd expect at $204.99.\n\n3000:1 contrast, HDR support, and picture-in-picture/picture-by-picture modes round out a feature set that would be respectable even at double the price. It's the easiest recommendation in this guide for anyone trying curved ultrawide for the first time.\n\n200Hz is fast for the price point. Set against that, no stated warranty length in the listing. Both matter when comparing it to the other picks here.",
+      "The SANSUI is both the cheapest and most-reviewed curved monitor in this entire guide, with 4,460 ratings backing a 1500R VA panel that runs at 200Hz. That's a genuinely fast refresh rate for the price, paired with 97% DCI-P3 and 130% sRGB coverage that outperforms what you'd expect at a competitive price. 3000:1 contrast, HDR support, and picture-in-picture/picture-by-picture modes round out a feature set that would be respectable even at double the price. It's the easiest recommendation in this guide for anyone trying curved ultrawide for the first time. 200Hz is fast for the price point. Set against that, no stated warranty length in the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "34\" VA curved 1500R, 3440x1440",
       "200Hz, 1ms",
@@ -191,7 +191,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "The Dell 34 Plus posts the fastest response time in this entire guide at 0.03ms on a 1500R curved VA panel, alongside 99% sRGB and 95% DCI-P3 coverage that beats every other VA pick here. USB-C at 65W lets it charge a connected laptop while driving the display over a single cable.\n\nDell's Premium Panel warranty adds coverage for dead pixels beyond a typical manufacturer warranty, a detail that matters more on a curved panel than buyers usually expect, and its 120Hz refresh rate is a comfortable middle ground for both productivity and casual gaming.\n\nWorth calling out specifically: uSB-C 65W for single-cable laptop charging and display. The catch is 120Hz is the lowest refresh rate among the sub-$400 picks here.",
+      "The Dell 34 Plus posts the fastest response time in this entire guide at 0.03ms on a 1500R curved VA panel, alongside 99% sRGB and 95% DCI-P3 coverage that beats every other VA pick here. USB-C at 65W lets it charge a connected laptop while driving the display over a single cable. Dell's Premium Panel warranty adds coverage for dead pixels beyond a typical manufacturer warranty, a detail that matters more on a curved panel than buyers usually expect, and its 120Hz refresh rate is a comfortable middle ground for both productivity and casual gaming. Worth calling out specifically: uSB-C 65W for single-cable laptop charging and display. The catch is 120Hz is the lowest refresh rate among the lower-priced picks here.",
     specs: [
       "34\" VA curved 1500R, 3440x1440",
       "120Hz, 0.03ms (fastest response time in this guide)",
@@ -301,7 +301,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value relative to price tier",
     description:
-      "Weighed features, warranty, and connectivity against price within each tier, budget VA, mid-tier VA/IPS, and QD-OLED, rather than comparing a $204.99 panel and an $899.99 panel on the same terms.",
+      "Weighed features, warranty, and connectivity against price within each tier, budget VA, mid-tier VA/IPS, and QD-OLED, rather than comparing a panel and an panel on the same terms.",
   },
 ];
 

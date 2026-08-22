@@ -330,7 +330,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed drawer count, charging, and certification against price, from the $27.99 budget picks to the $42.99 3-drawer Huuger model.",
+    description: "Weighed drawer count, charging, and certification against price, from the budget picks to the 3-drawer Huuger model.",
   },
 ];
 

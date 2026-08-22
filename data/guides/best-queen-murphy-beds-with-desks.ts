@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WkdwEwOOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H33PY32C?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this guide whose listing title directly confirms a built-in desk surface alongside a queen mattress, plus a power outlet and open storage shelves and drawers. The desk panel folds clear of the cabinet face, which matters for a queen unit since the swing radius is larger than a full or twin design.\n\nAt $1,239.99 it is the most expensive pick here, reflecting the added desk hardware, lighting, and storage. With only 4 ratings, buyer feedback is thin for a queen-size cabinet at this price point, so weigh that against the confirmed desk feature before ordering.\n\nPower outlet and lighting integrated into the cabinet. That's a real strength, but weigh it against the flip side: highest price in this guide.",
+      "This is the only pick in this guide whose listing title directly confirms a built-in desk surface alongside a queen mattress, plus a power outlet and open storage shelves and drawers. The desk panel folds clear of the cabinet face, which matters for a queen unit since the swing radius is larger than a full or twin design. It is the most expensive pick here, reflecting the added desk hardware, lighting, and storage. With only 4 ratings, buyer feedback is thin for a queen-size cabinet at this price point, so weigh that against the confirmed desk feature before ordering. Power outlet and lighting integrated into the cabinet. That's a real strength, but weigh it against the flip side: highest price in this guide.",
     specs: [
       "Queen size cabinet with fold-down desk",
       "Built-in LED lights and power outlet",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit above, this is a bed-only mechanism with no desk claim in the listing, aimed at buyers who plan to build a full cabinet themselves, including any desk face. At $197.00 it is the lowest cost mechanism here, which can leave more budget toward a well-built desk panel if that is the goal.\n\nAs a queen mechanism, the same 93 inch ceiling clearance and mattress weight matching rules apply as with the Create-A-Bed kit. With 1,610 ratings at 4.6 stars, it has a strong review base for a DIY hardware product.\n\nDetailed build guides included. Set against that, no desk surface included, bed-only mechanism. Both matter when comparing it to the other picks here.",
+      "Like the Create-A-Bed kit above, this is a bed-only mechanism with no desk claim in the listing, aimed at buyers who plan to build a full cabinet themselves, including any desk face. It is the lowest cost mechanism here, which can leave more budget toward a well-built desk panel if that is the goal. As a queen mechanism, the same 93 inch ceiling clearance and mattress weight matching rules apply as with the Create-A-Bed kit. With 1,610 ratings at 4.6 stars, it has a strong review base for a DIY hardware product. Detailed build guides included. Set against that, no desk surface included, bed-only mechanism. Both matter when comparing it to the other picks here.",
     specs: [
       "Vertical queen size mechanism",
       "Gas piston operation",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "This queen cabinet adds two built-in LED lights, useful for a home office corner, though the listing makes no desk claim and should be treated as a bed-only unit. The gas struts give a controlled fold, and the no-box-spring design simplifies mattress setup for a queen size.\n\nAt $639.99, it lands mid-range for an assembled queen cabinet with lighting as the standout feature. A 4.0-star rating across 141 reviews is a reasonably sized feedback base for this price tier.\n\nWorth calling out specifically: gas struts give controlled, smooth operation. The catch is no desk surface, bed-only unit.",
+      "This queen cabinet adds two built-in LED lights, useful for a home office corner, though the listing makes no desk claim and should be treated as a bed-only unit. The gas struts give a controlled fold, and the no-box-spring design simplifies mattress setup for a queen size. It lands mid-range for an assembled queen cabinet with lighting as the standout feature. A 4.0-star rating across 141 reviews is a reasonably sized feedback base for this price tier. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is no desk surface, bed-only unit.",
     specs: [
       "Queen size murphy bed",
       "2 built-in LED lights",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51k+vfJQZGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN5P11PP?tag=deskfinds0d-20",
     description:
-      "LUXOAK's listing focuses on storage and a charging station, with no desk mentioned, so this is a bed-only queen cabinet best paired with a separate nearby desk. It has a solid mid-size review base for a queen assembled unit.\n\nAt $469.99 with 340 ratings at 4.3 stars, it offers a reasonable balance of price and feedback volume among the assembled queen cabinets in this guide, though the desk gap is the same limitation shared by most picks here.\n\nCharging station and storage built in. Set against that, no desk surface, despite frequent home office search association. Both matter when comparing it to the other picks here.",
+      "LUXOAK's listing focuses on storage and a charging station, with no desk mentioned, so this is a bed-only queen cabinet best paired with a separate nearby desk. It has a solid mid-size review base for a queen assembled unit. At a competitive price with 340 ratings at 4.3 stars, it offers a reasonable balance of price and feedback volume among the assembled queen cabinets in this guide, though the desk gap is the same limitation shared by most picks here. Charging station and storage built in. Set against that, no desk surface, despite frequent home office search association. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy cabinet",
       "Built-in storage compartments",
@@ -311,7 +311,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Shipping and installation cost disclosure",
     description:
-      "Factored in that queen cabinets like these often ship at 300-500 lbs across multiple boxes, and that white glove delivery or professional installation can add $400-800 or more on top of the listed price.",
+      "Factored in that queen cabinets like these often ship at 300-500 lbs across multiple boxes, and that white glove delivery or professional installation can add a competitive price-800 or more on top of the listed price.",
   },
 ];
 

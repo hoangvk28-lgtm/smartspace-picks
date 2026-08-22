@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified 24-hour mode as a genuine setting, not assumed", description: "We checked each product for confirmed 24-hour display support rather than assuming every digital clock has this option." },
   { title: "Additional context features valued", description: "We favored clocks that add date, day-of-week, or atomic-sync features alongside 24-hour format for buyers who want more than just the time." },
   { title: "Review volume and rating together", description: "We weighted both metrics, with several picks here having exceptionally large, well-established review bases." },
-  { title: "Price against feature set", description: "We compared value across a tight price range, from under $12 to just under $20." },
+  { title: "Price against feature set", description: "We compared value across a tight price range, from at a budget-friendly price to just at a budget-friendly price." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

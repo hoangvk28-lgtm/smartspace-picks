@@ -178,7 +178,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51v0HhipEKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5RK4NBT?tag=deskfinds0d-20",
     description:
-      "This FOTOSOK pairs 3 open display shelves with 3 smooth-gliding drawers finished with aluminum handles, giving you roughly 100 gallons of combined storage for both displayed and hidden items. An anti-collapse iron plate reinforces the frame, addressing a common weak point on tall bookshelves.\n\nAt 70.9 inches tall and 23.6 inches wide, it's the best-looking white pick in this list for anyone who wants concealed storage without giving up open shelf display space.\n\nAnti-collapse iron plate reinforcement. Set against that, most expensive pick in this list at $112.99. Both matter when comparing it to the other picks here.",
+      "This FOTOSOK pairs 3 open display shelves with 3 smooth-gliding drawers finished with aluminum handles, giving you roughly 100 gallons of combined storage for both displayed and hidden items. An anti-collapse iron plate reinforces the frame, addressing a common weak point on tall bookshelves. At 70.9 inches tall and 23.6 inches wide, it's the best-looking white pick in this list for anyone who wants concealed storage without giving up open shelf display space. Anti-collapse iron plate reinforcement. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "23.6\"W x 13.8\"D x 70.9\"H",
       "Engineered particleboard",
@@ -242,7 +242,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aYIIYxIDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4HK9PTC?tag=deskfinds0d-20",
     description:
-      "The Bevfint is both the widest pick in this list at 33 inches and the highest per-shelf capacity among 5-tier white bookshelves at 60 lbs per shelf, a combination that makes it well suited to encyclopedias, binders, and other oversized items most bookshelves can't accommodate. FSC-certified MDF construction backs a sustainable sourcing claim most competitors skip.\n\nAn anti-tipping device is included for wall anchoring, and 11.8 inches of clearance on each shelf gives even tall hardcovers room to stand upright without leaning.\n\nWidest pick in this list at 33\". On the other hand, most expensive pick in this list at $179.99. Neither should be a surprise once you know to look for it.",
+      "The Bevfint is both the widest pick in this list at 33 inches and the highest per-shelf capacity among 5-tier white bookshelves at 60 lbs per shelf, a combination that makes it well suited to encyclopedias, binders, and other oversized items most bookshelves can't accommodate. FSC-certified MDF construction backs a sustainable sourcing claim most competitors skip. An anti-tipping device is included for wall anchoring, and 11.8 inches of clearance on each shelf gives even tall hardcovers room to stand upright without leaning. Widest pick in this list at 33\". On the other hand, most expensive pick in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "33\"W x 13\"D x 70\"H",
       "FSC-certified MDF, 5 open tiers",

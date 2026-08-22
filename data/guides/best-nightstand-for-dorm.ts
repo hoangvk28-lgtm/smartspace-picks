@@ -298,7 +298,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, features, and review track record against price, from the $19.99 Furinno to the $41.99 Yoobure White 3-Drawer.",
+    description: "Weighed capacity, features, and review track record against price, from the Furinno to the Yoobure White 3-Drawer.",
   },
 ];
 

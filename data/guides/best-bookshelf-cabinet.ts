@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51i3506hQML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DF7G3BPQ?tag=deskfinds0d-20",
     description:
-      "The BROTTAR is built specifically for showing off a collection, with 4 pop-up glass doors across 4 tiers and 3-color LED lighting controlled by a human-body sensor that switches on automatically when you walk up and off when you step away. FSC-certified wood construction backs a sustainable sourcing claim most competitors skip.\n\nAn anti-tipping device is included for wall anchoring, and the black finish with glass fronts gives it the best-looking display presence in this list for collectibles, books, or decor you want lit and visible.\n\n3-color LED with automatic motion sensor. That's a real strength, but weigh it against the flip side: among the most expensive picks in this list at $179.99.",
+      "The BROTTAR is built specifically for showing off a collection, with 4 pop-up glass doors across 4 tiers and 3-color LED lighting controlled by a human-body sensor that switches on automatically when you walk up and off when you step away. FSC-certified wood construction backs a sustainable sourcing claim most competitors skip. An anti-tipping device is included for wall anchoring, and the black finish with glass fronts gives it the best-looking display presence in this list for collectibles, books, or decor you want lit and visible. 3-color LED with automatic motion sensor. That's a real strength, but weigh it against the flip side: among the most expensive picks in this list.",
     specs: [
       "31.5\"W x 14\"D x 65\"H",
       "FSC-certified wood + glass",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51c02m9pUmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F296Z662?tag=deskfinds0d-20",
     description:
-      "This BROTTAR takes a hexagonal corner design that fits directly into a room corner, a shape none of the other cabinets in this list can match, giving you 360-degree visibility through 4 magnetic glass doors on 4 tiers. The same 3-color LED and human-body sensor from the standard BROTTAR carries over here.\n\nFSC-certified wood and tempered glass construction, plus a 40 lb per-shelf rating, make it both durable and display-ready, and the white finish keeps it bright even tucked into a corner with less natural light.\n\nWorth calling out specifically: 360-degree visibility through 4-sided glass. The catch is among the most expensive picks in this list at $179.99.",
+      "This BROTTAR takes a hexagonal corner design that fits directly into a room corner, a shape none of the other cabinets in this list can match, giving you 360-degree visibility through 4 magnetic glass doors on 4 tiers. The same 3-color LED and human-body sensor from the standard BROTTAR carries over here. FSC-certified wood and tempered glass construction, plus a 40 lb per-shelf rating, make it both durable and display-ready, and the white finish keeps it bright even tucked into a corner with less natural light. Worth calling out specifically: 360-degree visibility through 4-sided glass. The catch is among the most expensive picks in this list.",
     specs: [
       "33.5\"W x 14.2\"D x 65\"H",
       "FSC-certified wood + tempered glass",

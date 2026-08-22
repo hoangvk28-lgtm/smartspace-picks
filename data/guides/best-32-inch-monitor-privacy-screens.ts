@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed genuine 16:9 fit for every pick", description: "We verified every pick here as a genuine 32 inch, 16:9 filter rather than assuming diagonal size alone determines compatibility." },
-  { title: "Compared value across a wide real price range", description: "32 inch filters span from $45.99 to $125.99 in our research, and we compared value across that full range rather than assuming higher price means better fit for every buyer." },
+  { title: "Compared value across a wide real price range", description: "32 inch filters span across a range of price points in our research, and we compared value across that full range rather than assuming higher price means better fit for every buyer." },
   { title: "Weighed very small review counts appropriately", description: "One pick here has only 4 reviews; we flagged this directly rather than treating its rating with the same confidence as picks with hundreds or thousands." },
   { title: "Noted bundled anti-glare and blue-light features where present", description: "We flagged which picks include these extras, since not every 32 inch filter bundles the same feature set." },
 ];

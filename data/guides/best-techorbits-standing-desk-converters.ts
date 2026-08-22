@@ -75,7 +75,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed current TechOrbits model availability", description: "We only included the three converter listings we could verify as currently sold within TechOrbits' lineup." },
   { title: "Verified genuine MDF wood construction across the lineup", description: "All three confirmed TechOrbits models explicitly state MDF wood construction rather than a metal frame or cosmetic wood-look finish." },
   { title: "Compared review volume and rating across TechOrbits' size range", description: "We noted where the smaller 32 inch model has the largest review base while the 37 inch model holds the highest rating." },
-  { title: "Weighed price against platform size within the brand", description: "TechOrbits' current lineup spans $129.99 to $199.99 across 32 to 42 inches, and we compared value within that range." },
+  { title: "Weighed price against platform size within the brand", description: "TechOrbits' current lineup spans this comparison's price range across 32 to 42 inches, and we compared value within that range." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

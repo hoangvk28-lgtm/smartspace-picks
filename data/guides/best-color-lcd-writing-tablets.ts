@@ -106,7 +106,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed multi-color drawing lines directly in the listing", description: "We required \"colorful\" or explicit multi-color drawing to be stated in the product name or description, rather than assuming any LCD tablet has this feature." },
   { title: "Verified confirmed color variants where stated", description: "Where a specific housing color (pink, blue) was confirmed in our product data, we noted it directly rather than guessing." },
-  { title: "Compared across the full available price range", description: "This category spans from $5.99 to $24.17, we compared value across that full range rather than assuming higher price means better fit for every buyer." },
+  { title: "Compared across the full available price range", description: "This category spans across a range of price points, we compared value across that full range rather than assuming higher price means better fit for every buyer." },
   { title: "Noted where review history is not yet established", description: "None of these specific listings had accumulated review history in our data pull, we disclosed this rather than fabricating ratings." },
 ];
 

@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed current FlexiSpot model availability", description: "We only included FlexiSpot converters we could verify as currently sold rather than assuming brand-wide catalog stability." },
   { title: "Compared manual and electric lines within the same brand", description: "We noted the real price gap between FlexiSpot's manual and electric options at similar platform sizes, useful for buyers deciding which lift type is worth the premium." },
   { title: "Flagged very small review counts on newer listings", description: "One electric pick has only 2 reviews; we noted this directly rather than treating its perfect rating as statistically meaningful." },
-  { title: "Weighed platform size against price across FlexiSpot's full current range", description: "We compared value from a $104.48 space-saving riser to a $239.99 large electric model." },
+  { title: "Weighed platform size against price across FlexiSpot's full current range", description: "We compared value from a space-saving riser to a large electric model." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

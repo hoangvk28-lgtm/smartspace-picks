@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Emphasized calculating total standing height from desk plus converter lift", description: "We consistently noted that maximum standing height depends on your specific desk height added to the converter's maximum lift, not the converter's range alone." },
   { title: "Prioritized larger platforms suited to taller users' typical proportions", description: "We favored 42-48 inch platforms, since taller users generally benefit from more monitor viewing distance and surface area." },
   { title: "Weighed fixed-setting precision as a genuine benefit for repeatable tall-user positioning", description: "We noted where a fixed-detent mechanism helps a tall user consistently return to the exact right height." },
-  { title: "Compared review volume and price across the large-platform tier specifically", description: "We compared value within the context of picks suited to taller users' needs, from $161.99 to $549.00." },
+  { title: "Compared review volume and price across the large-platform tier specifically", description: "We compared value within the context of picks suited to taller users' needs, across a range of price points." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

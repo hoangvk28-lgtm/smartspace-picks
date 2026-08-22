@@ -330,7 +330,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed port count, certification, and build quality against price, from the $27.98 SUPERJARE to the $75.99 ADORNEVE sliding-top model.",
+    description: "Weighed port count, certification, and build quality against price, from the SUPERJARE to the ADORNEVE sliding-top model.",
   },
 ];
 

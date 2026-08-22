@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "At $197 this is the lowest cost way onto this list, another vertical hardware kit that leaves the desk and lighting entirely up to your own build. Like the Create-A-Bed kit, that means you can size the desk surface deep enough for a clamp-mount monitor arm rather than settling for the 18 to 22 inch shallow desks common on finished cabinet beds.\n\nThree step-by-step guides are included to help with the build, but this is still a DIY project, not a delivered piece of furniture, and the desk side will need a separate task lamp since fold-down desks rarely get enough light from an overhead fixture once you're seated facing away from it. Plan your outlet and cable routing before you start building, since retrofitting an outlet after the cabinet is finished is far more work.\n\nWorth calling out specifically: custom desk depth for monitor arm compatibility. The catch is no desk lighting or acoustic features included.",
+      "At a competitive price, this is the lowest cost way onto this list, another vertical hardware kit that leaves the desk and lighting entirely up to your own build. Like the Create-A-Bed kit, that means you can size the desk surface deep enough for a clamp-mount monitor arm rather than settling for the 18 to 22 inch shallow desks common on finished cabinet beds. Three step-by-step guides are included to help with the build, but this is still a DIY project, not a delivered piece of furniture, and the desk side will need a separate task lamp since fold-down desks rarely get enough light from an overhead fixture once you're seated facing away from it. Plan your outlet and cable routing before you start building, since retrofitting an outlet after the cabinet is finished is far more work. Worth calling out specifically: custom desk depth for monitor arm compatibility. The catch is no desk lighting or acoustic features included.",
     specs: [
       "Vertical wall bed mechanism",
       "Gas piston lift assist",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "The same built-in 2-LED lighting and gas strut mechanism as the brown version above, but in a rustic white finish that reflects more light back onto the desk surface between uses, a genuine small advantage for desk visibility in a room without much natural light. At $639.99 it also undercuts the brown finish by about $60 while keeping the same lighting feature.\n\nThe desk surface is still the same shallow factory panel common to finished cabinet beds, so plan on a lightweight monitor riser rather than a heavy clamp-mount arm. If acoustic privacy for calls matters in your shared space, consider adding a wall panel near the desk, since the closed cabinet itself does not meaningfully block sound between rooms.\n\nLighter finish improves desk-side visibility. Set against that, shallow desk surface, not rated for heavy monitor arms. Both matter when comparing it to the other picks here.",
+      "The same built-in 2-LED lighting and gas strut mechanism as the brown version above, but in a rustic white finish that reflects more light back onto the desk surface between uses, a genuine small advantage for desk visibility in a room without much natural light. It also undercuts the brown finish by a moderate amount while keeping the same lighting feature. The desk surface is still the same shallow factory panel common to finished cabinet beds, so plan on a lightweight monitor riser rather than a heavy clamp-mount arm. If acoustic privacy for calls matters in your shared space, consider adding a wall panel near the desk, since the closed cabinet itself does not meaningfully block sound between rooms. Lighter finish improves desk-side visibility. Set against that, shallow desk surface, not rated for heavy monitor arms. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size cabinet murphy bed",
       "2 built-in LED lights",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed desk usability features, lighting, and cabinet material quality against price across the $197 to $699.98 range in this list.",
+      "Weighed desk usability features, lighting, and cabinet material quality against price across the range of price points in this comparison in this list.",
   },
 ];
 

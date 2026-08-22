@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51h1vyv6ZdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description:
-      "Like the Create-A-Bed kit, this is a vertical mechanism needing the same approximate 8-foot ceiling clearance, and it is the lowest-cost kit in this list at $197.00. It is a bare hardware kit, not an assembled cabinet, so small-space buyers need to plan a cabinet build that fits their specific room dimensions.\n\nBecause vertical orientation projects the full mattress length, roughly 85-90 inches, from the wall when open, measure your room depth carefully, not just ceiling height, before choosing this over a horizontal option. With 1,610 ratings at 4.6 stars, buyer feedback is strong.\n\nWorth calling out specifically: large review base at 1,610 ratings. The catch is bare mechanism, cabinet build is separate.",
+      "Like the Create-A-Bed kit, this is a vertical mechanism needing the same approximate 8-foot ceiling clearance, and it is the lowest-cost kit in this list. It is a bare hardware kit, not an assembled cabinet, so small-space buyers need to plan a cabinet build that fits their specific room dimensions. Because vertical orientation projects the full mattress length, roughly 85-90 inches, from the wall when open, measure your room depth carefully, not just ceiling height, before choosing this over a horizontal option. With 1,610 ratings at 4.6 stars, buyer feedback is strong. Worth calling out specifically: large review base at 1,610 ratings. The catch is bare mechanism, cabinet build is separate.",
     specs: [
       "Vertical queen size mechanism",
       "Needs approximately 8-foot minimum ceiling",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515sMh7j30L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXZVVHCG?tag=deskfinds0d-20",
     description:
-      "Built-in LED lighting is a genuine small-room benefit, useful when a compact space lacks a nearby lamp outlet or has limited natural light. As a vertical queen cabinet, it needs the same roughly 8-foot ceiling and 13-14 foot room depth as other queen picks here.\n\nGas struts provide a controlled fold, and the no-box-spring design keeps the cabinet interior compact. At $639.99 with a 4.0-star rating across 141 reviews, it is a premium option best justified by the lighting feature if your small room needs it.\n\nWorth calling out specifically: gas struts give controlled, smooth operation. The catch is needs the same room depth and ceiling clearance as other queen picks.",
+      "Built-in LED lighting is a genuine small-room benefit, useful when a compact space lacks a nearby lamp outlet or has limited natural light. As a vertical queen cabinet, it needs the same roughly 8-foot ceiling and 13-14 foot room depth as other queen picks here. Gas struts provide a controlled fold, and the no-box-spring design keeps the cabinet interior compact. At a competitive price with a 4.0-star rating across 141 reviews, it is a premium option best justified by the lighting feature if your small room needs it. Worth calling out specifically: gas struts give controlled, smooth operation. The catch is needs the same room depth and ceiling clearance as other queen picks.",
     specs: [
       "Queen size murphy bed, vertical",
       "2 built-in LED lights",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51XE-SiCWBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFSTT5LQ?tag=deskfinds0d-20",
     description:
-      "This is the same LED-equipped vertical queen cabinet as the white pick above, in a brown finish and priced about $60 higher, with identical room depth and ceiling clearance requirements. Choose based on finish preference rather than function.\n\nThe shared 141-review base and 4.0-star rating apply to both finishes, and the same door-swing and vent-blocking checks apply before installation regardless of color choice.\n\nGas struts give smooth, controlled operation. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
+      "This is the same LED-equipped vertical queen cabinet as the white pick above, in a brown finish and priced a moderate amount higher, with identical room depth and ceiling clearance requirements. Choose based on finish preference rather than function. The shared 141-review base and 4.0-star rating apply to both finishes, and the same door-swing and vent-blocking checks apply before installation regardless of color choice. Gas struts give smooth, controlled operation. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size murphy bed, vertical",
       "2 built-in LED lights",
@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51iWQRI54lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13Q522K?tag=deskfinds0d-20",
     description:
-      "As the smallest sleeping footprint in this list, the twin size cabinet needs the least room depth when open of any pick here, a genuine advantage for a true micro-room like a small studio corner or a guest space under 10 feet deep. It still requires roughly the same 8-foot ceiling clearance as the queen and full-size vertical picks.\n\nAt $249.99 with a 4.0-star rating across 120 reviews, it is one of the more affordable assembled options and the clearest choice when room depth, not ceiling height, is the binding constraint.\n\nA genuine advantage here is that affordable price for an assembled unit. The tradeoff is twin size limits sleeping capacity.",
+      "As the smallest sleeping footprint in this list, the twin size cabinet needs the least room depth when open of any pick here, a genuine advantage for a true micro-room like a small studio corner or a guest space under 10 feet deep. It still requires roughly the same 8-foot ceiling clearance as the queen and full-size vertical picks. At a competitive price with a 4.0-star rating across 120 reviews, it is one of the more affordable assembled options and the clearest choice when room depth, not ceiling height, is the binding constraint. A genuine advantage here is that affordable price for an assembled unit. The tradeoff is twin size limits sleeping capacity.",
     specs: [
       "Twin size murphy bed, vertical",
       "Smallest room-depth footprint in this list",

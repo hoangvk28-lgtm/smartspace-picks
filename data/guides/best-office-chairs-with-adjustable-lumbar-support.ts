@@ -318,7 +318,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Build quality at price point",
-    description: "Weighed frame, base, and upholstery quality against price, since these chairs range from about $39 to $130 and shouldn't be judged on the same bar.",
+    description: "Weighed frame, base, and upholstery quality against price, since these chairs range from about this comparison's price range and shouldn't be judged on the same bar.",
   },
   {
     title: "Value for money",

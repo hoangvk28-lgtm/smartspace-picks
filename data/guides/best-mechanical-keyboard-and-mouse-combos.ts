@@ -113,7 +113,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41khzfsV4mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CF3VGQFL?tag=deskfinds0d-20",
     description:
-      "Like the K668 above, this Redragon board is a real hot-swappable mechanical keyboard with red switches and double-shot PBT keycaps, but its current listing also doesn't include a mouse. At under $26 it's the cheapest genuinely mechanical option in this entire guide, worth pairing with a separate budget mouse if a true mechanical feel matters more than getting a matched set.\n\nAnti-ghosting and 11 programmable backlight modes add gaming-style extras that a pure office typist may not need, but the hot-swap sockets mean the switches can be changed later without new hardware.\n\nHot-swappable switches for future customization. Set against that, no mouse included in the current listing. Both matter when comparing it to the other picks here.",
+      "Like the K668 above, this Redragon board is a real hot-swappable mechanical keyboard with red switches and double-shot PBT keycaps, but its current listing also doesn't include a mouse. at a budget-friendly price it's the cheapest genuinely mechanical option in this entire guide, worth pairing with a separate budget mouse if a true mechanical feel matters more than getting a matched set. Anti-ghosting and 11 programmable backlight modes add gaming-style extras that a pure office typist may not need, but the hot-swap sockets mean the switches can be changed later without new hardware. Hot-swappable switches for future customization. Set against that, no mouse included in the current listing. Both matter when comparing it to the other picks here.",
     specs: [
       "Full-size hot-swappable mechanical keyboard",
       "Red linear mechanical switches",
@@ -206,7 +206,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ofUJaw9XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089KV4YYX?tag=deskfinds0d-20",
     description:
-      "Logitech built the MK295 specifically around SilentTouch technology, reducing keyboard and mouse click noise by a meaningful margin compared to a standard membrane combo. It's not a mechanical keyboard, but for a shared office or a video-call-heavy day, its quietness is arguably a bigger practical win than mechanical switches would be.\n\nA full-size layout with a number pad and a single wireless receiver keep the setup simple, and the low price makes it an easy, low-risk pick for a secondary desk.\n\nWorth calling out specifically: very affordable at under $33. The catch is not a mechanical keyboard.",
+      "Logitech built the MK295 specifically around SilentTouch technology, reducing keyboard and mouse click noise by a meaningful margin compared to a standard membrane combo. It's not a mechanical keyboard, but for a shared office or a video-call-heavy day, its quietness is arguably a bigger practical win than mechanical switches would be. A full-size layout with a number pad and a single wireless receiver keep the setup simple, and the low price makes it an easy, low-risk pick for a secondary desk. Worth calling out specifically: very affordable at a budget-friendly price. The catch is not a mechanical keyboard.",
     specs: [
       "Full-size layout with number pad",
       "SilentTouch quiet keyboard and mouse technology",
@@ -237,7 +237,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31WcNEJA2vL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F36RKWDH?tag=deskfinds0d-20",
     description:
-      "The MK250 connects over Bluetooth rather than a USB receiver, which frees up a USB-A port, a genuine advantage on a laptop with limited ports. It's a basic membrane keyboard and mouse pairing, not a mechanical one, aimed squarely at budget desk setups.\n\nAt under $23 it's one of the cheapest combos in this list, a reasonable pick for a secondary computer or a spare desk rather than a primary daily-use workstation.\n\nVery low price. Set against that, not a mechanical keyboard. Both matter when comparing it to the other picks here.",
+      "The MK250 connects over Bluetooth rather than a USB receiver, which frees up a USB-A port, a genuine advantage on a laptop with limited ports. It's a basic membrane keyboard and mouse pairing, not a mechanical one, aimed squarely at budget desk setups. at a budget-friendly price it's one of the cheapest combos in this list, a reasonable pick for a secondary computer or a spare desk rather than a primary daily-use workstation. Very low price. Set against that, not a mechanical keyboard. Both matter when comparing it to the other picks here.",
     specs: [
       "Compact membrane keyboard, not mechanical",
       "Bluetooth connection, no USB receiver needed",
@@ -314,7 +314,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Compared build quality, features, and switch type against price, from a $23 budget membrane combo to a $200 premium performance combo.",
+    description: "Compared build quality, features, and switch type against price, from a budget membrane combo to a premium performance combo.",
   },
 ];
 

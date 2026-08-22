@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ACKzpdVoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNWHSPXF?tag=deskfinds0d-20",
     description:
-      "The DH2300 supports up to 64TB of total capacity across its 2 bays, giving budget buyers real headroom for growing photo libraries without paying for a 4-bay chassis. At $199.99, it ties for the cheapest enclosure in this list.\n\nAs a diskless entry-level unit, it fits best as an archive destination for finished exports and organized photo libraries rather than an active multi-stream video editing NAS, since networking and CPU specs are positioned at the budget tier.\n\nA genuine advantage here is that up to 64TB total capacity supported across 2 bays. The tradeoff is budget-tier CPU is less suited to heavy transcoding.",
+      "The DH2300 supports up to 64TB of total capacity across its 2 bays, giving budget buyers real headroom for growing photo libraries without paying for a 4-bay chassis. It ties for the cheapest enclosure in this list. As a diskless entry-level unit, it fits best as an archive destination for finished exports and organized photo libraries rather than an active multi-stream video editing NAS, since networking and CPU specs are positioned at the budget tier. A genuine advantage here is that up to 64TB total capacity supported across 2 bays. The tradeoff is budget-tier CPU is less suited to heavy transcoding.",
     specs: [
       "2-bay desktop NAS, diskless",
       "Supports up to 64TB total capacity",

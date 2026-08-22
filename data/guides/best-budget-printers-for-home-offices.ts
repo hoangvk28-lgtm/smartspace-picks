@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "At $64, the PIXMA TS4320 is the cheapest pick in this list while still including automatic duplex printing, a copier, and a scanner, a genuinely full feature set for the price. Its compact single-tray design keeps daily operation simple for occasional document printing.\n\nThis is a good fit for a home office that prints intermittently rather than daily, since cartridge ink can dry out with long gaps between print jobs. If your home office prints only occasionally, that's actually an advantage over an ink-tank system that costs more upfront to justify.\n\nAutomatic duplex printing included. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
+      "At a competitive price, the PIXMA TS4320 is the cheapest pick in this list while still including automatic duplex printing, a copier, and a scanner, a genuinely full feature set for the price. Its compact single-tray design keeps daily operation simple for occasional document printing. This is a good fit for a home office that prints intermittently rather than daily, since cartridge ink can dry out with long gaps between print jobs. If your home office prints only occasionally, that's actually an advantage over an ink-tank system that costs more upfront to justify. Automatic duplex printing included. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Color inkjet, duplex printing",
       "Copier and scanner built in",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "A 1.42-inch OLED display sets the TS6520 apart from other budget printers in this list, showing plain status messages rather than a blinking light code when something goes wrong. That's worth paying a few extra dollars for in a home office where you're the only one around to troubleshoot a jam or low-ink warning.\n\nDuplex printing and a built-in scanner and copier round out the feature set at a price still under $75, and the intuitive control panel keeps routine tasks a button press away rather than buried in a menu.\n\nA genuine advantage here is that duplex printing included. The tradeoff is cartridge ink costs more at high volume.",
+      "A 1.42-inch OLED display sets the TS6520 apart from other budget printers in this list, showing plain status messages rather than a blinking light code when something goes wrong. That's worth paying a few extra dollars for in a home office where you're the only one around to troubleshoot a jam or low-ink warning. Duplex printing and a built-in scanner and copier round out the feature set at a price still at a budget-friendly price, and the intuitive control panel keeps routine tasks a button press away rather than buried in a menu. A genuine advantage here is that duplex printing included. The tradeoff is cartridge ink costs more at high volume.",
     specs: [
       "Color inkjet, duplex printing",
       "Built-in copier and scanner",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "At $199.99, the ET-2800 has the highest upfront price in this list, but its cartridge-free ink-tank system is the clearest path to the lowest 2-year total cost for a home office that prints regularly. Refill bottles cost a fraction of equivalent cartridge ink over the life of the printer.\n\nScan and copy are built in alongside color printing, making it a genuine all-in-one rather than a print-focused laser. The break-even point against a cheaper cartridge inkjet typically arrives within the first year or two of regular home office volume, after which the ink-tank system keeps costing less.\n\nFull print, scan, copy feature set. Set against that, highest upfront price in this list. Both matter when comparing it to the other picks here.",
+      "At a competitive price, the ET-2800 has the highest upfront price in this list, but its cartridge-free ink-tank system is the clearest path to the lowest 2-year total cost for a home office that prints regularly. Refill bottles cost a fraction of equivalent cartridge ink over the life of the printer. Scan and copy are built in alongside color printing, making it a genuine all-in-one rather than a print-focused laser. The break-even point against a cheaper cartridge inkjet typically arrives within the first year or two of regular home office volume, after which the ink-tank system keeps costing less. Full print, scan, copy feature set. Set against that, highest upfront price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one, cartridge-free ink tank",
       "Scan and copy built in",

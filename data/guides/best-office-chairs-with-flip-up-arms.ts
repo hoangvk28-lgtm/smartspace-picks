@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
-      "This chair states flip-up arms directly in its listing title, and its highest review count in this list gives buyers a solid pool of real feedback to check on how the flip mechanism holds up over time. A PU leather seat and mesh back combine two materials, offering breathability where it matters most while keeping a more polished executive look than an all-mesh chair.\n\nAdjustable lumbar support adds another point of fit customization alongside the flip-up arms, useful for sliding fully under a small desk when the arms are raised. At $129.99 it's the highest priced chair in this list, a reasonable cost for the confirmed arm mechanism and higher review volume.\n\nLargest review base in this list. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
+      "This chair states flip-up arms directly in its listing title, and its highest review count in this list gives buyers a solid pool of real feedback to check on how the flip mechanism holds up over time. A PU leather seat and mesh back combine two materials, offering breathability where it matters most while keeping a more polished executive look than an all-mesh chair. Adjustable lumbar support adds another point of fit customization alongside the flip-up arms, useful for sliding fully under a small desk when the arms are raised. It's the highest priced chair in this list, a reasonable cost for the confirmed arm mechanism and higher review volume. Largest review base in this list. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Confirmed flip-up armrests",
       "PU leather seat, mesh back",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DJb5724iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPLP3BND?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR states flip-up arms in its listing title at a price under $60, making it the most affordable confirmed flip-up option in this list. A mesh seat helps with breathability, and the lumbar support and adjustable height cover the basics for a home office task chair.\n\nAt this price point, the flip mechanism itself is more likely to use a plastic pivot pin rather than metal, which can wear faster than a metal hinge under frequent daily flipping, so buyers who plan to flip the arms up and down constantly rather than occasionally should factor that into long-term durability expectations.\n\nLowest price among confirmed flip-up picks. That's a real strength, but weigh it against the flip side: budget pivot pin material may wear faster with frequent flipping.",
+      "This NEO CHAIR states flip-up arms in its listing title at a price at a budget-friendly price, making it the most affordable confirmed flip-up option in this list. A mesh seat helps with breathability, and the lumbar support and adjustable height cover the basics for a home office task chair. At this price point, the flip mechanism itself is more likely to use a plastic pivot pin rather than metal, which can wear faster than a metal hinge under frequent daily flipping, so buyers who plan to flip the arms up and down constantly rather than occasionally should factor that into long-term durability expectations. Lowest price among confirmed flip-up picks. That's a real strength, but weigh it against the flip side: budget pivot pin material may wear faster with frequent flipping.",
     specs: [
       "Confirmed flip-up armrests",
       "Mesh chair back",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
-      "A near-twin to the previous NEO CHAIR pick, this model also states flip-up armrests directly and adds a high back design for more upper back and shoulder coverage. It's priced almost identically, making the choice between the two mostly a matter of high-back versus standard coverage preference.\n\nThe same budget pivot pin durability note applies here as with other sub-$60 flip-up chairs, so expect the flip mechanism to be less robust over years of frequent daily use than the metal hinges typically found on higher-priced executive chairs in this list.\n\nWorth calling out specifically: high back design for more upper-back coverage. The catch is budget pivot pin may wear with frequent flipping.",
+      "A near-twin to the previous NEO CHAIR pick, this model also states flip-up armrests directly and adds a high back design for more upper back and shoulder coverage. It's priced almost identically, making the choice between the two mostly a matter of high-back versus standard coverage preference. The same budget pivot pin durability note applies here as with other budget-tier flip-up chairs, so expect the flip mechanism to be less robust over years of frequent daily use than the metal hinges typically found on higher-priced executive chairs in this list. Worth calling out specifically: high back design for more upper-back coverage. The catch is budget pivot pin may wear with frequent flipping.",
     specs: [
       "Confirmed flip-up armrests",
       "High back mesh design",
@@ -312,7 +312,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Pivot durability signal",
     description:
-      "Weighed price tier as a rough signal for pivot pin material, since budget chairs under $60 in this list are more likely to use a plastic flip pivot than the metal hinges found on higher-priced executive models.",
+      "Weighed price tier as a rough signal for pivot pin material, since budget chairs at a budget-friendly price in this list are more likely to use a plastic flip pivot than the metal hinges found on higher-priced executive models.",
   },
   {
     title: "Under-desk clearance fit",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price at each tier",
     description:
-      "Weighed confirmed arm functionality, materials, and review base against price across the $38.98 to $129.99 range in this list, not price or rating alone.",
+      "Weighed confirmed arm functionality, materials, and review base against price across the range of price points in this comparison in this list, not price or rating alone.",
   },
 ];
 

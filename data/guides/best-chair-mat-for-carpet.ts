@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31IK+GtR-sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07C1VP5Z1?tag=deskfinds0d-20",
     description:
-      "This PVC mat is 0.11 inches thick with a 36x48 footprint and a tapered front lip measuring 24.7 inches wide by 9.2 inches deep, sized to tuck neatly under most desks. Rounded corners reduce the curling and cracking that square-cut corners are prone to over time.\n\nIt's rated for low pile carpet up to 1/4 inch, Made in USA, and backed by a 1-year warranty. At $28.41 it's the cheapest Made-in-USA pick in this guide, a good fit if budget matters more than extended coverage.\n\nTapered lip sized to tuck under a desk. Set against that, thinnest material among the PVC picks at 0.11\". Both matter when comparing it to the other picks here.",
+      "This PVC mat is 0.11 inches thick with a 36x48 footprint and a tapered front lip measuring 24.7 inches wide by 9.2 inches deep, sized to tuck neatly under most desks. Rounded corners reduce the curling and cracking that square-cut corners are prone to over time. It's rated for low pile carpet up to 1/4 inch, Made in USA, and backed by a 1-year warranty. It's the cheapest Made-in-USA pick in this guide, a good fit if budget matters more than extended coverage. Tapered lip sized to tuck under a desk. Set against that, thinnest material among the PVC picks at 0.11\". Both matter when comparing it to the other picks here.",
     specs: [
       "36\"W x 48\"D, PVC, 0.11\" thick",
       "Tapered lip 24.7\"W x 9.2\"D",
@@ -274,7 +274,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zlFzzlTaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8M2JCHR?tag=deskfinds0d-20",
     description:
-      "TONOS builds this polycarbonate mat 0.1 inches thick in a 47.5x35.5 footprint, the widest polycarbonate mat with a lip in this guide, with an extended lip designed specifically to tuck under a desk. Enhanced cleats and studs on the underside grip low pile carpet, and the semi-transparent finish wipes clean easily.\n\nAt under $30 it undercuts most of the other polycarbonate picks here while still offering more surface area, a reasonable trade if you want polycarbonate's added durability without paying a premium for it.\n\nCheapest polycarbonate pick in this guide. That's a real strength, but weigh it against the flip side: only rated for low pile, unlike the other polycarbonate pick.",
+      "TONOS builds this polycarbonate mat 0.1 inches thick in a 47.5x35.5 footprint, the widest polycarbonate mat with a lip in this guide, with an extended lip designed specifically to tuck under a desk. Enhanced cleats and studs on the underside grip low pile carpet, and the semi-transparent finish wipes clean easily. at a budget-friendly price it undercuts most of the other polycarbonate picks here while still offering more surface area, a reasonable trade if you want polycarbonate's added durability without paying a premium for it. Cheapest polycarbonate pick in this guide. That's a real strength, but weigh it against the flip side: only rated for low pile, unlike the other polycarbonate pick.",
     specs: [
       "47.5\"W x 35.5\"D, polycarbonate, 0.1\" thick",
       "Extended lip for desk tuck",

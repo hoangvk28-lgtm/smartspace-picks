@@ -154,7 +154,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Usable bay geometry over stated device count", description: "We compared confirmed capacity claims and screen-size limits rather than assuming every 30-device cart handles the same laptop thickness." },
   { title: "Charging architecture disclosure", description: "None of these listings had an independently verified per-device wattage breakdown in our data pull, so we flagged this gap rather than assuming AC pass-through and USB-C carts charge identically." },
-  { title: "Review base weighted against price", description: "A $1,622 enterprise cart with 1 review and a $190 cart with 0 reviews both carry real evaluation risk that a simple star rating doesn't capture." },
+  { title: "Review base weighted against price", description: "A enterprise cart with 1 review and a cart with 0 reviews both carry real evaluation risk that a simple star rating doesn't capture." },
   { title: "Capacity-to-price ratio across the fleet-size range", description: "We compared cost per usable bay from 16-device to 42-device carts so buyers can see whether paying for more capacity than they need creates value or waste." },
 ];
 

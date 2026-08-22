@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Honest disclosure of limited confirmed red options", description: "We researched the current LCD writing tablet market and found color variants concentrated in blue, pink, and black, confirmed red options are limited, and we disclosed this directly." },
   { title: "Ranked by overall tablet quality first", description: "Since red-specific data is limited, we ranked by general product quality (features, price, design) and flagged where color needs verification." },
   { title: "Noted evidence of multi-color product lines", description: "Where we found the same design sold in multiple confirmed colors, we noted this as evidence red may also be an available variant worth checking." },
-  { title: "Price compared across the available product pool", description: "We compared value from a $5.99 basic tablet to a $24.17 more professional design." },
+  { title: "Price compared across the available product pool", description: "We compared value from a basic tablet to a more professional design." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

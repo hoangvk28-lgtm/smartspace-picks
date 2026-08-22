@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xOh51IRUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BL466Y41?tag=deskfinds0d-20",
     description:
-      "With 2 years of ink included, the Smart Tank 5101 is the pick that best fits a stipend-based budget cycle, buy it once and the ink cost is largely covered for the next two school years rather than needing repeat cartridge purchases out of a $100 to $200 annual stipend. Print, scan, and copy cover the core needs.\n\nWireless printing runs on 2.4GHz only, worth checking against a classroom or home router before buying, since some newer routers default to 5GHz-only networks that this printer won't join without adjustment.\n\nInk-tank economics for ongoing worksheet volume. On the other hand, 2.4GHz-only wireless can be a setup snag on some routers. Neither should be a surprise once you know to look for it.",
+      "With 2 years of ink included, the Smart Tank 5101 is the pick that best fits a stipend-based budget cycle, buy it once and the ink cost is largely covered for the next two school years rather than needing repeat cartridge purchases out of a this comparison's price range annual stipend. Print, scan, and copy cover the core needs. Wireless printing runs on 2.4GHz only, worth checking against a classroom or home router before buying, since some newer routers default to 5GHz-only networks that this printer won't join without adjustment. Ink-tank economics for ongoing worksheet volume. On the other hand, 2.4GHz-only wireless can be a setup snag on some routers. Neither should be a surprise once you know to look for it.",
     specs: [
       "Refillable ink tank system with 2 years of ink included",
       "Print, scan, and copy",
@@ -310,7 +310,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Cost per page against a real stipend",
-    description: "Weighed printer price plus ongoing ink or toner cost against a typical $100-200 annual district supply stipend, not against sticker price alone.",
+    description: "Weighed printer price plus ongoing ink or toner cost against a typical a competitive price-200 annual district supply stipend, not against sticker price alone.",
   },
   {
     title: "Color contrast for worksheets",

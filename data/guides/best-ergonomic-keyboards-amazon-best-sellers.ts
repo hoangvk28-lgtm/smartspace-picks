@@ -146,7 +146,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed split or wave design quality, rest material, and connection type against price, from the $44.99 wired split pick to the $148.99 multi-device wireless split keyboard.",
+    description: "Weighed split or wave design quality, rest material, and connection type against price, from the wired split pick to the multi-device wireless split keyboard.",
   },
 ];
 

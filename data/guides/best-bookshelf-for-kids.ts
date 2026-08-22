@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aYmEEowHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q55HRS1?tag=deskfinds0d-20",
     description:
-      "The Humble Crew is the best-selling kids' bookshelf on the market by a wide margin, with nearly 38,000 ratings backing its 4.6-star average. Four deep nylon fabric pockets hold books front-facing rather than spine-out, so young kids can spot the cover art and pick titles on their own well before they're reading independently.\n\nRounded child-safe corners and a lightweight engineered-wood frame at just 12.6 lbs total make it easy to place freestanding in a nursery or playroom without tipping risk, and the low $24.99 price makes it an easy first bookshelf.\n\nWorth calling out specifically: front-facing pockets let kids choose books by cover. The catch is smaller capacity than the 6-tier Humble Crew.",
+      "The Humble Crew is the best-selling kids' bookshelf on the market by a wide margin, with nearly 38,000 ratings backing its 4.6-star average. Four deep nylon fabric pockets hold books front-facing rather than spine-out, so young kids can spot the cover art and pick titles on their own well before they're reading independently. Rounded child-safe corners and a lightweight engineered-wood frame at just 12.6 lbs total make it easy to place freestanding in a nursery or playroom without tipping risk, and the low price makes it an easy first bookshelf. Worth calling out specifically: front-facing pockets let kids choose books by cover. The catch is smaller capacity than the 6-tier Humble Crew.",
     specs: [
       "25\"W x 10.6\"D x 23.5\"H",
       "Engineered wood + 4 nylon fabric front-facing pockets",

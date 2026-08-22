@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required explicit 21:9 curved compatibility for eligibility", description: "We only included filters that specifically confirm curved 34 inch, 21:9 compatibility, since a flat or standard-ratio filter will not fit this shape." },
-  { title: "Compared value across a real price range", description: "Curved 34 inch filters span from $49.99 to $143.99 in our research, and we compared value across that full range." },
+  { title: "Compared value across a real price range", description: "Curved 34 inch filters span across a range of price points in our research, and we compared value across that full range." },
   { title: "Flagged very small review counts appropriately", description: "One pick here has only 2 reviews; we noted this directly rather than treating a perfect rating on so few reviews as statistically meaningful." },
   { title: "Noted bundled anti-glare, blue-light, and anti-scratch features", description: "We flagged which picks include these extras, since not every curved 34 inch filter bundles the same feature set." },
 ];

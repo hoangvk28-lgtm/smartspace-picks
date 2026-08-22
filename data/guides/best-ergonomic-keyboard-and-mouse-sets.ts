@@ -194,7 +194,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed real ergonomic benefit, connection type, and build quality against price, from the $19.99 budget curved combos to the $148.99 true split keyboard.",
+    description: "Weighed real ergonomic benefit, connection type, and build quality against price, from the budget curved combos to the true split keyboard.",
   },
 ];
 

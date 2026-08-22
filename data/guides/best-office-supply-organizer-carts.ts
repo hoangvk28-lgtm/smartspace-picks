@@ -155,7 +155,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Genuine multi-drawer organization separated from open-tier carts marketed as organizers", description: "We distinguished carts with full drawer enclosure across every tier (the SYKIARIOL picks) from open-tier carts with just one drawer or none at all, since only the former offers true multi-category containment." },
   { title: "Retrieval speed weighed against containment as a real tradeoff", description: "Open-tier carts allow faster grab-and-go access; enclosed drawers contain small items better but take an extra step to open. We flagged this as a genuine tradeoff rather than assuming more enclosure is always better." },
   { title: "Duplicate finish variants disclosed directly", description: "The SYKIARIOL 8-drawer cart appears in both black and green with identical rating and review data; we labeled this as a style choice, not a separate quality comparison." },
-  { title: "Price compared against actual drawer count, not just the 'organizer' label", description: "We compared the $21.59 to $59.99 range directly against confirmed drawer count, since several budget picks marketed as organizers only include a single enclosed drawer." },
+  { title: "Price compared against actual drawer count, not just the 'organizer' label", description: "We compared the range of price points in this comparison directly against confirmed drawer count, since several budget picks marketed as organizers only include a single enclosed drawer." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

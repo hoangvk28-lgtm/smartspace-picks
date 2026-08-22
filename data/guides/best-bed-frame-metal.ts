@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31T9-ZszUCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07D4BD47F?tag=deskfinds0d-20",
     description:
-      "Unlike every other pick in this list, this Amazon Basics frame is designed to work with a box spring rather than replace one, making it the right choice if you already own a box spring and just need a support base underneath it. Nine legs plus a center support bar keep the frame stable under a 700 lb capacity.\n\nAt just 16.6 lbs, it's the lightest frame in this list by far, and the tool-free lock-together assembly takes only minutes. With 35,157 ratings at 4.5 stars and a price under $60, it's the best value option here for anyone who isn't trying to eliminate their box spring.\n\nWorth calling out specifically: extremely lightweight at 16.6 lbs. The catch is requires a box spring, unlike the other picks in this list.",
+      "Unlike every other pick in this list, this Amazon Basics frame is designed to work with a box spring rather than replace one, making it the right choice if you already own a box spring and just need a support base underneath it. Nine legs plus a center support bar keep the frame stable under a 700 lb capacity. At just 16.6 lbs, it's the lightest frame in this list by far, and the tool-free lock-together assembly takes only minutes. With 35,157 ratings at 4.5 stars and a price at a budget-friendly price, it's the best value option here for anyone who isn't trying to eliminate their box spring. Worth calling out specifically: extremely lightweight at 16.6 lbs. The catch is requires a box spring, unlike the other picks in this list.",
     specs: [
       "Queen size, 7 inch height",
       "700 lb weight capacity",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31zxcds0AcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8VQLN6Y?tag=deskfinds0d-20",
     description:
-      "The NEW JETO is one of the best-selling wrought-iron metal frames on the market, with nearly 33,000 ratings at 4.6 stars while staying under $60. Nine legs distribute the load evenly across the frame, supporting up to 1,100 lbs without needing a box spring.\n\nEach leg ends in a plastic foot plug that protects hardwood or laminate flooring from scratches while helping the frame stay squeak-free. At 14 inches tall, it leaves 12 inches of underbed clearance, and the powder-coated black finish gives it a minimalist, versatile look.\n\n1,100 lb weight capacity. Set against that, basic black finish with no headboard included. Both matter when comparing it to the other picks here.",
+      "The NEW JETO is one of the best-selling wrought-iron metal frames on the market, with nearly 33,000 ratings at 4.6 stars while staying at a budget-friendly price. Nine legs distribute the load evenly across the frame, supporting up to 1,100 lbs without needing a box spring. Each leg ends in a plastic foot plug that protects hardwood or laminate flooring from scratches while helping the frame stay squeak-free. At 14 inches tall, it leaves 12 inches of underbed clearance, and the powder-coated black finish gives it a minimalist, versatile look. 1,100 lb weight capacity. Set against that, basic black finish with no headboard included. Both matter when comparing it to the other picks here.",
     specs: [
       "Queen size, 14 inch height",
       "1,100 lb weight capacity",

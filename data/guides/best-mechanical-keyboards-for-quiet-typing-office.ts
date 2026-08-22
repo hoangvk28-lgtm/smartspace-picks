@@ -144,7 +144,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310uk8UP85L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D53P4PBY?tag=deskfinds0d-20",
     description:
-      "Keychron built the B6 Pro specifically around quiet typing, pairing an ultra-thin low-profile mechanical design with ZMK firmware for custom keymaps. It keeps a full-size layout with a number pad, which is rare at this price for a low-profile mechanical board.\n\nAt under $40 it's the most affordable genuinely mechanical pick in this list, connecting over 2.4GHz, Bluetooth 5.2, or a wired USB-C cable depending on what a given desk setup needs.\n\nA genuine advantage here is that full-size layout with a number pad. The tradeoff is zMK keymap customization has a learning curve.",
+      "Keychron built the B6 Pro specifically around quiet typing, pairing an ultra-thin low-profile mechanical design with ZMK firmware for custom keymaps. It keeps a full-size layout with a number pad, which is rare at this price for a low-profile mechanical board. at a budget-friendly price it's the most affordable genuinely mechanical pick in this list, connecting over 2.4GHz, Bluetooth 5.2, or a wired USB-C cable depending on what a given desk setup needs. A genuine advantage here is that full-size layout with a number pad. The tradeoff is zMK keymap customization has a learning curve.",
     specs: [
       "Full-size layout with number pad",
       "Ultra-thin low-profile mechanical switches",
@@ -314,7 +314,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed switch quality and features against price, from the $38 budget mechanical pick to the $160 premium Mac-ready mechanical board.",
+    description: "Weighed switch quality and features against price, from the budget mechanical pick to the premium Mac-ready mechanical board.",
   },
 ];
 

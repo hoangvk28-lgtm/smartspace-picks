@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     reviews: "2",
     imageUrl: "https://m.media-amazon.com/images/I/31KsimnGXKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG5QJ5NG?tag=deskfinds0d-20",
-    description: "The same UL-certified build as its sibling listing, adjustable shelves, front-and-back locks with surge protection, anti-rust steel construction, at $4 more. Also below the true 20-device target.\n\nCompare current pricing and shipping speed against its sibling listing before choosing between them.\n\nSame locking design and UL certification as the near-identical sibling listing. Set against that, not a true 20-device cart. Both matter when comparing it to the other picks here.",
+    description: "The same UL-certified build as its sibling listing, adjustable shelves, front-and-back locks with surge protection, anti-rust steel construction, priced a bit higher. Also below the true 20-device target. Compare current pricing and shipping speed against its sibling listing before choosing between them. Same locking design and UL certification as the near-identical sibling listing. Set against that, not a true 20-device cart. Both matter when comparing it to the other picks here.",
     specs: ["16-device capacity, UL safety-certified", "Adjustable shelves/dividers, up to 14\" devices", "Front + back locks, surge protection"],
     pros: ["Same locking design and UL certification as the near-identical sibling listing"],
     cons: ["Not a true 20-device cart", "$4 more than the near-identical sibling listing"],

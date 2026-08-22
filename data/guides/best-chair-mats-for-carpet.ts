@@ -240,7 +240,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Dfg8DnF5S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PD3ZHJT?tag=deskfinds0d-20",
     description:
-      "GLSLAND's tempered glass mat is 5mm thick in a 36x46 footprint, rated for 1,200 lbs, with 4 anti-slip pads underneath. Like the Lorell pick, glass avoids the pile-height rating question entirely since it stays rigid on top of the carpet rather than needing cleats to dig in.\n\nIt's BPA-free, phthalate-free, and odorless, and it's dual-use on carpet or hard floor. At $60.99 it's the cheapest tempered glass pick in this guide, a solid entry point into the glass category.\n\nWorth calling out specifically: rigid, unaffected by carpet pile height. The catch is smaller footprint than the Lorell glass pick.",
+      "GLSLAND's tempered glass mat is 5mm thick in a 36x46 footprint, rated for 1,200 lbs, with 4 anti-slip pads underneath. Like the Lorell pick, glass avoids the pile-height rating question entirely since it stays rigid on top of the carpet rather than needing cleats to dig in. It's BPA-free, phthalate-free, and odorless, and it's dual-use on carpet or hard floor. It's the cheapest tempered glass pick in this guide, a solid entry point into the glass category. Worth calling out specifically: rigid, unaffected by carpet pile height. The catch is smaller footprint than the Lorell glass pick.",
     specs: [
       "36\"W x 46\"D, tempered glass, 5mm thick",
       "Rated 1,200 lbs",
@@ -319,7 +319,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed footprint size, pile rating, and warranty against price, since this guide spans a $28 basic mat up to a $161 commercial-grade 60x72 mat.",
+    description: "Weighed footprint size, pile rating, and warranty against price, since this guide spans a basic mat up to a commercial-grade 60x72 mat.",
   },
 ];
 

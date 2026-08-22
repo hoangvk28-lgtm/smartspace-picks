@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51M6nLrVD8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWQMZPJC?tag=deskfinds0d-20",
     description:
-      "At just over $200, the SANSUI is the cheapest way into a 3440x1440 ultrawide on this list, and its backing of 4,460 ratings makes it the most-reviewed pick here too. A 200Hz refresh rate and strong 97% DCI-P3 color coverage punch well above its price point.\n\nPiP and PbP let you view two input sources at once, and dual HDMI 2.1 ports plus DisplayPort 1.4 cover most setups without needing an adapter. It's the clear budget entry point in this entire guide.\n\nMost-reviewed pick with 4,460 ratings. Set against that, no USB-C port. Both matter when comparing it to the other picks here.",
+      "At just at a premium price, the SANSUI is the cheapest way into a 3440x1440 ultrawide on this list, and its backing of 4,460 ratings makes it the most-reviewed pick here too. A 200Hz refresh rate and strong 97% DCI-P3 color coverage punch well above its price point. PiP and PbP let you view two input sources at once, and dual HDMI 2.1 ports plus DisplayPort 1.4 cover most setups without needing an adapter. It's the clear budget entry point in this entire guide. Most-reviewed pick with 4,460 ratings. Set against that, no USB-C port. Both matter when comparing it to the other picks here.",
     specs: [
       "3440x1440 VA curved panel",
       "200Hz refresh rate",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41sbKOnrFpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFCKFWQX?tag=deskfinds0d-20",
     description:
-      "The AOC CU34G4V pairs a 1500R curve with a 0.5ms MPRT response time, the fastest response time under $250 in this entire guide. A 3440x1440 VA panel runs at 180Hz, well ahead of what most budget ultrawides offer.\n\nA 130mm height, swivel, and tilt adjustable stand is a genuine standout at this price, since many budget ultrawides ship with fixed-height stands only. FreeSync Premium rounds out the smooth-motion package.\n\n130mm height-adjustable stand, rare at this price. On the other hand, smallest review sample in this guide at 55 ratings. Neither should be a surprise once you know to look for it.",
+      "The AOC CU34G4V pairs a 1500R curve with a 0.5ms MPRT response time, the fastest response time at a budget-friendly price in this entire guide. A 3440x1440 VA panel runs at 180Hz, well ahead of what most budget ultrawides offer. A 130mm height, swivel, and tilt adjustable stand is a genuine standout at this price, since many budget ultrawides ship with fixed-height stands only. FreeSync Premium rounds out the smooth-motion package. 130mm height-adjustable stand, rare at this price. On the other hand, smallest review sample in this guide at 55 ratings. Neither should be a surprise once you know to look for it.",
     specs: [
       "3440x1440 VA curved 1500R panel",
       "180Hz refresh rate",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x4uwmvQpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQF8LRGZ?tag=deskfinds0d-20",
     description:
-      "The LG 34WR55QK-B is the best pick under $500 specifically for work or productivity use, its Reader Mode reduces eye strain during long reading and writing sessions, and USB-C 65W Power Delivery charges a laptop over a single cable. PbP support and OnScreen Control software round out the office-focused feature set.\n\nA 3440x1440 VA curved panel runs at 100Hz, noticeably lower than the gaming-focused picks in this list, a fair tradeoff given its productivity-first design. A height and tilt adjustable stand completes the package.\n\nUSB-C 65W PD charges a laptop over one cable. Set against that, 100Hz is the lowest refresh rate among the gaming-focused picks here. Both matter when comparing it to the other picks here.",
+      "The LG 34WR55QK-B is the best pick at a budget-friendly price specifically for work or productivity use, its Reader Mode reduces eye strain during long reading and writing sessions, and USB-C 65W Power Delivery charges a laptop over a single cable. PbP support and OnScreen Control software round out the office-focused feature set. A 3440x1440 VA curved panel runs at 100Hz, noticeably lower than the gaming-focused picks in this list, a fair tradeoff given its productivity-first design. A height and tilt adjustable stand completes the package. USB-C 65W PD charges a laptop over one cable. Set against that, 100Hz is the lowest refresh rate among the gaming-focused picks here. Both matter when comparing it to the other picks here.",
     specs: [
       "3440x1440 VA curved panel",
       "100Hz refresh rate",
@@ -244,7 +244,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x+8KvLpWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYKJVX71?tag=deskfinds0d-20",
     description:
-      "The MSI MAG 346CQ is the only pick in this guide certified for both G-Sync Compatible and FreeSync, a genuine advantage if you're not sure whether your next GPU will be NVIDIA or AMD. A 3440x1440 VA panel runs at 180Hz with a 1ms MPRT response time and 3000:1 contrast.\n\nA height-adjustable stand and built-in speakers add convenience without pushing the price up much, keeping it a well-rounded mid-tier gaming pick under $300.\n\nA genuine advantage here is that fast 1ms MPRT response time. The tradeoff is smaller review count than the top-tier picks.",
+      "The MSI MAG 346CQ is the only pick in this guide certified for both G-Sync Compatible and FreeSync, a genuine advantage if you're not sure whether your next GPU will be NVIDIA or AMD. A 3440x1440 VA panel runs at 180Hz with a 1ms MPRT response time and 3000:1 contrast. A height-adjustable stand and built-in speakers add convenience without pushing the price up much, keeping it a well-rounded mid-tier gaming pick at a budget-friendly price. A genuine advantage here is that fast 1ms MPRT response time. The tradeoff is smaller review count than the top-tier picks.",
     specs: [
       "3440x1440 VA curved panel",
       "180Hz refresh rate, 1ms MPRT",
@@ -276,7 +276,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "The Dell S3425DW is the most premium pick still comfortably under $400 in this guide, with a 0.03ms response time that's the fastest in this entire list by a wide margin. A 3440x1440 VA panel runs up to 120Hz, and USB-C 65W Power Delivery adds single-cable laptop charging that most gaming-focused picks here skip.\n\nColor accuracy is excellent at 99% sRGB and 95% DCI-P3, and the Dell Premium Panel warranty backs the display itself. It's the pick for buyers who want both gaming-grade speed and productivity features in one screen.\n\nUSB-C 65W PD, a rare feature among the gaming-focused picks here. On the other hand, most expensive pick in this guide. Neither should be a surprise once you know to look for it.",
+      "The Dell S3425DW is the most premium pick still comfortably at a budget-friendly price in this guide, with a 0.03ms response time that's the fastest in this entire list by a wide margin. A 3440x1440 VA panel runs up to 120Hz, and USB-C 65W Power Delivery adds single-cable laptop charging that most gaming-focused picks here skip. Color accuracy is excellent at 99% sRGB and 95% DCI-P3, and the Dell Premium Panel warranty backs the display itself. It's the pick for buyers who want both gaming-grade speed and productivity features in one screen. USB-C 65W PD, a rare feature among the gaming-focused picks here. On the other hand, most expensive pick in this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "3440x1440 VA curved panel",
       "Up to 120Hz, 0.03ms response time",
@@ -307,7 +307,7 @@ export interface HowWeEvaluatedItem {
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
-    description: "Weighed resolution, refresh rate, and features against price across a range from $204.99 to $379.99, all comfortably under a $500 budget.",
+    description: "Weighed resolution, refresh rate, and features against price across a range across a range of price points, all comfortably under a budget.",
   },
   {
     title: "Curve depth and immersion",
@@ -323,7 +323,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Use-case fit",
-    description: "Scored each pick against whether it leans gaming, productivity, or a genuine hybrid, since the best pick under $500 depends heavily on what the screen is mainly used for.",
+    description: "Scored each pick against whether it leans gaming, productivity, or a genuine hybrid, since the best pick at a budget-friendly price depends heavily on what the screen is mainly used for.",
   },
 ];
 

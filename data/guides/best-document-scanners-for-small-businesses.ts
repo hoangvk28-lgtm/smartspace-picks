@@ -161,7 +161,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Duty cycle matched to realistic team size, not generic 'business' labeling", description: "Weighed each pick's realistic sustained capacity against small-team volume ranges (2-3 person consulting firm vs. 10-15 person office) rather than treating all 'business' scanners as one tier." },
-  { title: "ISIS driver licensing cost disclosure", description: "Flagged that businesses adopting ISIS-dependent document management software (DocuWare, Laserfiche) may face an additional $50-200 licensing cost per scanner not included in the base price, none of the picks here address this directly." },
+  { title: "ISIS driver licensing cost disclosure", description: "Flagged that businesses adopting ISIS-dependent document management software (DocuWare, Laserfiche) may face an additional a competitive price-200 licensing cost per scanner not included in the base price, none of the picks here address this directly." },
   { title: "Multi-user network scan-to-folder setup complexity", description: "Noted that shared scan-to-folder access across several employees typically requires IT-level network folder permissions setup, a real complexity factor invisible in single-user testing." },
 ];
 

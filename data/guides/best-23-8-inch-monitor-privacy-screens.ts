@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required filters specifically sized for 23.8 inch, not rounded from 24 inch", description: "We confirmed every pick here as a genuine 23.8 inch fit rather than assuming a standard 24 inch filter rounds down acceptably." },
-  { title: "Compared value across a real price range", description: "23.8 inch filters span from $19.98 to $59.99 in our research, and we compared value across that full range." },
+  { title: "Compared value across a real price range", description: "23.8 inch filters span across a range of price points in our research, and we compared value across that full range." },
   { title: "Weighed a newer high-rated listing against established leaders", description: "We flagged the SYHUAIFEI pick's higher rating on a smaller review base as worth watching, without overstating its current certainty against the SightPro pick's thousands of reviews." },
   { title: "Noted bundled anti-scratch and blue-light features separately", description: "Where a listing explicitly adds these extras, we treated them as genuine differentiators rather than assuming all filters offer equivalent bundled features." },
 ];

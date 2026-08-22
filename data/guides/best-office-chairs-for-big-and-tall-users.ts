@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rkQ70Jb6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09B3FJHHT?tag=deskfinds0d-20",
     description:
-      "At $99.50 the LEMBERI matches the GTPLAYER's stated 400 lb capacity for roughly half the price, backed by a solid review base of its own. A thickened steel frame and reinforced footrest are called out specifically in the listing, a detail worth noting since frame material is one of the harder specs to verify from photos alone.\n\nLinkage armrests and PU leather upholstery round out the build. As with any stated capacity, build in the roughly 50 lb buffer above your actual weight for dynamic loads like dropping into the seat, which create meaningfully more peak force than sitting down slowly.\n\nThickened steel frame called out explicitly. That's a real strength, but weigh it against the flip side: pU leather runs warmer than mesh over long sessions.",
+      "At a competitive price, and the LEMBERI matches the GTPLAYER's stated 400 lb capacity for roughly half the price, backed by a solid review base of its own. A thickened steel frame and reinforced footrest are called out specifically in the listing, a detail worth noting since frame material is one of the harder specs to verify from photos alone. Linkage armrests and PU leather upholstery round out the build. As with any stated capacity, build in the roughly 50 lb buffer above your actual weight for dynamic loads like dropping into the seat, which create meaningfully more peak force than sitting down slowly. Thickened steel frame called out explicitly. That's a real strength, but weigh it against the flip side: pU leather runs warmer than mesh over long sessions.",
     specs: [
       "400 lb stated capacity",
       "Thickened steel frame",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for stated capacity",
     description:
-      "Compared price against stated weight capacity and included features like footrests, lumbar adjustability, and wheel quality across the $38.99 to $212.90 range.",
+      "Compared price against stated weight capacity and included features like footrests, lumbar adjustability, and wheel quality across the range of price points in this comparison.",
   },
 ];
 

@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41JHxO-mGhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0010DF6UK?tag=deskfinds0d-20",
     description:
-      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind.\n\n325W real capacity, in line with the typical power factor math for this VA class, size accordingly.\n\n3-year warranty with substantial connected-equipment insurance. On the other hand, 325W real capacity, appropriate only for low-power devices. Both are worth keeping in mind before deciding.",
+      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind. 325W real capacity, in line with the typical power factor math for this VA class, size accordingly. 3-year warranty with substantial connected-equipment insurance. On the other hand, 325W real capacity, appropriate only for low-power devices. Both are worth keeping in mind before deciding.",
     specs: ["600VA/325W", "10 outlets", "3-Year warranty, $100,000 connected equipment insurance", "Compact form factor"],
     pros: ["10 outlets, more than most competitors at this capacity", "3-year warranty with substantial connected-equipment insurance", "Solid rating base", "Reasonable price"],
     cons: ["325W real capacity, appropriate only for low-power devices", "Not pure sine wave", "Short runtime under real load"],

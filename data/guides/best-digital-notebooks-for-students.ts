@@ -136,7 +136,7 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Price weighted heavily for a student budget", description: "Prioritized picks under roughly $30 for most of this guide, with one premium option included and explicitly positioned as a bigger investment rather than the default recommendation." },
+  { title: "Price weighted heavily for a student budget", description: "Prioritized picks under roughly a real for most of this guide, with one premium option included and explicitly positioned as a bigger investment rather than the default recommendation." },
   { title: "Reusability across a semester considered", description: "Weighed whether a product can genuinely be used repeatedly across a full semester or course load without needing replacement." },
   { title: "Pen and accessory costs factored into total price", description: "Checked whether a compatible pen is included or needs to be bought separately, since that materially changes the real cost for a student on a budget." },
   { title: "Honest positioning of premium hardware for students", description: "Explicitly noted that premium e-ink devices are a bigger investment appropriate only for students who will use the device heavily, not a default recommendation for every student." },

@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nUSNrhBsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07MWV1JD7?tag=deskfinds0d-20",
     description:
-      "The SF-E3872 uses a belt-drive magnetic resistance system across 8 levels and ships fully assembled, so there's no setup step before the first session. A digital monitor tracks time, speed, calories, and distance, and the pedal trajectory is shaped specifically to keep knees clear during the motion.\n\nAt 25 lbs and rated for users up to 250 lbs, it carries more weight capacity than the pricier Cubii JR1 while costing $50 less. That combination makes it the cheapest pick in this guide without cutting the resistance range or monitor features.\n\nShips fully assembled, no setup needed. On the other hand, no app connectivity or Bluetooth tracking. Neither should be a surprise once you know to look for it.",
+      "The SF-E3872 uses a belt-drive magnetic resistance system across 8 levels and ships fully assembled, so there's no setup step before the first session. A digital monitor tracks time, speed, calories, and distance, and the pedal trajectory is shaped specifically to keep knees clear during the motion. At 25 lbs and rated for users up to 250 lbs, it carries more weight capacity than the pricier Cubii JR1 while competitively priced less. That combination makes it the cheapest pick in this guide without cutting the resistance range or monitor features. Ships fully assembled, no setup needed. On the other hand, no app connectivity or Bluetooth tracking. Neither should be a surprise once you know to look for it.",
     specs: [
       "Magnetic belt-drive resistance, 8 levels",
       "Digital monitor: time, speed, calories, distance",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EDJQKKTML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNS5CWPG?tag=deskfinds0d-20",
     description:
-      "The Cubii GO steps up to 10 magnetic resistance levels, the most of any pick in this guide, using a ZeroGravitii flywheel design built specifically to keep operation nearly silent. An aluminum frame keeps weight manageable while supporting a 300 lb max user weight.\n\nBuilt-in wheels and a double telescoping handle make it the most portable pick here, moving more like carry-on luggage than a piece of home fitness equipment. Bluetooth syncs to the Cubii App, though at $229.99 it's tied for the priciest pick in this guide.\n\nA genuine advantage here is that most portable pick, built-in wheels and telescoping handle. The tradeoff is tied for the most expensive pick in this guide.",
+      "The Cubii GO steps up to 10 magnetic resistance levels, the most of any pick in this guide, using a ZeroGravitii flywheel design built specifically to keep operation nearly silent. An aluminum frame keeps weight manageable while supporting a 300 lb max user weight. Built-in wheels and a double telescoping handle make it the most portable pick here, moving more like carry-on luggage than a piece of home fitness equipment. Bluetooth syncs to the Cubii App, though It's tied for the priciest pick in this guide. A genuine advantage here is that most portable pick, built-in wheels and telescoping handle. The tradeoff is tied for the most expensive pick in this guide.",
     specs: [
       "Magnetic resistance, 10 levels (most in this guide)",
       "ZeroGravitii flywheel for ultra-quiet operation",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed resistance range, weight capacity, and included accessories against price, from the $109.99 Stamina InMotion to the $229.99 Cubii GO.",
+    description: "Weighed resistance range, weight capacity, and included accessories against price, from the Stamina InMotion to the Cubii GO.",
   },
 ];
 

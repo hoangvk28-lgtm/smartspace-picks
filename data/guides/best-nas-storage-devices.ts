@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xSdRsBUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8S7SF4B?tag=deskfinds0d-20",
     description:
-      "The Synology DS925+ is Synology's current-generation 4-bay DiskStation and the most expensive 4-bay pick in this guide, aimed at buyers who want the newest hardware generation and the longest runway of software support and updates ahead of it. It runs the same DSM ecosystem as the rest of Synology's lineup, just on newer internals.\n\nBeing diskless, four NAS-rated drives are a separate cost on top of the $700.00 enclosure price, and as with any 4-bay unit, RAID setup and initial configuration take real time, budget a genuine afternoon for it.\n\nA genuine advantage here is that longest expected runway of software updates and support. The tradeoff is most expensive 4-bay pick in this guide.",
+      "The Synology DS925+ is Synology's current-generation 4-bay DiskStation and the most expensive 4-bay pick in this guide, aimed at buyers who want the newest hardware generation and the longest runway of software support and updates ahead of it. It runs the same DSM ecosystem as the rest of Synology's lineup, just on newer internals. Being diskless, four NAS-rated drives are a separate cost on top of the enclosure price, and as with any 4-bay unit, RAID setup and initial configuration take real time, budget a genuine afternoon for it. A genuine advantage here is that longest expected runway of software updates and support. The tradeoff is most expensive 4-bay pick in this guide.",
     specs: [
       "4-bay diskless NAS",
       "Synology's current-generation DiskStation",
@@ -308,7 +308,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Real total cost including drives",
-    description: "Looked past the diskless enclosure price to the true cost of adding NAS-rated drives at $80-200+ per bay, since this cost scales directly with bay count across this guide's 2-bay through 6-bay picks.",
+    description: "Looked past the diskless enclosure price to the true cost of adding NAS-rated drives at a competitive price-200+ per bay, since this cost scales directly with bay count across this guide's 2-bay through 6-bay picks.",
   },
   {
     title: "Software ecosystem versus raw hardware value",

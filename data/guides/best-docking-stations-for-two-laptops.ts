@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zZDSI+zhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMQVLGX3?tag=deskfinds0d-20",
     description:
-      "At $159.99 this is the least expensive all-in-one KVM dock in this list, yet it still lists 100W PD and a dual 4K60Hz or single 4K120Hz output mode across its aluminum 13-in-1 body. USB-C plus HDMI and DisplayPort inputs give it more flexibility for mixed laptop generations than docks that only accept USB-C.\n\nThe 13-port count spreads across both computers rather than being fully available to each simultaneously, so check the port map before assuming every port works with both machines at once. It's a reasonable starting point for a two-laptop setup on a budget.\n\nFull 100W PD rating. That said, 13 total ports are split across two hosts, not doubled. Neither should be a surprise once you know to look for it.",
+      "At a competitive price, this is the least expensive all-in-one KVM dock in this list, yet it still lists 100W PD and a dual 4K60Hz or single 4K120Hz output mode across its aluminum 13-in-1 body. USB-C plus HDMI and DisplayPort inputs give it more flexibility for mixed laptop generations than docks that only accept USB-C. The 13-port count spreads across both computers rather than being fully available to each simultaneously, so check the port map before assuming every port works with both machines at once. It's a reasonable starting point for a two-laptop setup on a budget. Full 100W PD rating. That said, 13 total ports are split across two hosts, not doubled. Neither should be a surprise once you know to look for it.",
     specs: [
       "13-in-1 aluminum dock",
       "100W PD",

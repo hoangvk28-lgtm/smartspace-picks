@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Actual material verified per listing", description: "We checked whether each product uses a genuine metal body versus a decorative or mirror finish, rather than assuming \"gold\" means the same construction across every listing." },
-  { title: "Price against design substance", description: "We compared value across a wide price range, from under $10 basic metal clocks to nearly $40 mantel-style pieces." },
+  { title: "Price against design substance", description: "We compared value across a wide price range, from basic metal clocks to premium mantel-style pieces." },
   { title: "Review volume and rating together", description: "We weighted both the size of the review base and the actual rating, since some budget options have larger, more proven review histories than pricier alternatives." },
   { title: "Movement type", description: "We noted where a clock specifically advertises a silent or non-ticking movement, relevant for desk placement near focused work." },
 ];

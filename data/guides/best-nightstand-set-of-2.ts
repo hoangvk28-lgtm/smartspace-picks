@@ -298,7 +298,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value per set",
-    description: "Weighed total price against combined charging, storage, and warranty across both tables, from the $39.98 HOOBRO set to the $99.99 VASAGLE LIRY set.",
+    description: "Weighed total price against combined charging, storage, and warranty across both tables, from the HOOBRO set to the VASAGLE LIRY set.",
   },
 ];
 

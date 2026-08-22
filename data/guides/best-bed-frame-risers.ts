@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QKHtWnB+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09ZXTK84Q?tag=deskfinds0d-20",
     description:
-      "The BTSD-home Riser is built for a snug, no-wobble fit around bed frame legs up to 3.5 inches wide, which keeps the bed feeling solid rather than shifting on top of the risers over time. At a 2,000 lb total capacity, it's rated well beyond what most bed frames actually weigh.\n\nThe underside is designed to protect hardwood, tile, and carpet alike from scratches and pressure marks. At $13.99, it's one of the most affordable risers in this list among the fixed-height options, making it a solid value pick for anyone who just needs a straightforward 3 inch lift.\n\nWorth calling out specifically: snug, wobble-free fit. The catch is fixed 3 inch height, no stacking option.",
+      "The BTSD-home Riser is built for a snug, no-wobble fit around bed frame legs up to 3.5 inches wide, which keeps the bed feeling solid rather than shifting on top of the risers over time. At a 2,000 lb total capacity, it's rated well beyond what most bed frames actually weigh. The underside is designed to protect hardwood, tile, and carpet alike from scratches and pressure marks. It's one of the most affordable risers in this list among the fixed-height options, making it a solid value pick for anyone who just needs a straightforward 3 inch lift. Worth calling out specifically: snug, wobble-free fit. The catch is fixed 3 inch height, no stacking option.",
     specs: [
       "4-pack",
       "2,000 lb total capacity",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Fg-yxepRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLLFX4NZ?tag=deskfinds0d-20",
     description:
-      "The Yookwutar 8 Pack Mini Riser is the most compact and affordable option in this list, designed for smaller lifts of 1, 1.9, or 2.8 inches when stacked rather than the larger 3-to-8 inch range most other risers cover. PP plastic mesh reinforcement adds strength despite the small footprint, and a rubber base keeps the set from sliding.\n\nThe shock-absorbing design helps reduce noise transfer, and the low stacked height still leaves enough clearance for a robot vacuum to pass underneath in most rooms. At $6.99 for 8 pieces, it's by far the cheapest way to add a small, controlled amount of lift to a bed or other furniture.\n\nShock-absorbing design reduces noise. Set against that, max stacked height of 2.8 inches, far less lift than other picks. Both matter when comparing it to the other picks here.",
+      "The Yookwutar 8 Pack Mini Riser is the most compact and affordable option in this list, designed for smaller lifts of 1, 1.9, or 2.8 inches when stacked rather than the larger 3-to-8 inch range most other risers cover. PP plastic mesh reinforcement adds strength despite the small footprint, and a rubber base keeps the set from sliding. The shock-absorbing design helps reduce noise transfer, and the low stacked height still leaves enough clearance for a robot vacuum to pass underneath in most rooms. at a real for 8 pieces, it's by far the cheapest way to add a small, controlled amount of lift to a bed or other furniture. Shock-absorbing design reduces noise. Set against that, max stacked height of 2.8 inches, far less lift than other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "8-pack",
       "Stacks to 1\", 1.9\", or 2.8\"",

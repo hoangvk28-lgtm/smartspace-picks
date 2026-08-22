@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "For a new home office on a tight setup budget, the DeskJet 4355 covers print, scan, and copy for under $70, with a 3-month Instant Ink trial included. It's a fine starting point for a single desk that doesn't yet need multi-user wifi sharing or high duty cycle.\n\nScan resolution is adequate for everyday paperwork like receipts and forms, though buyers who need sharper OCR accuracy on dense contracts should look at a higher-resolution scanning pick instead.\n\nWorth calling out specifically: instant Ink trial softens initial cartridge cost. The catch is not built for multi-user wifi sharing at volume.",
+      "For a new home office on a tight setup budget, the DeskJet 4355 covers print, scan, and copy for at a budget-friendly price, with a 3-month Instant Ink trial included. It's a fine starting point for a single desk that doesn't yet need multi-user wifi sharing or high duty cycle. Scan resolution is adequate for everyday paperwork like receipts and forms, though buyers who need sharper OCR accuracy on dense contracts should look at a higher-resolution scanning pick instead. Worth calling out specifically: instant Ink trial softens initial cartridge cost. The catch is not built for multi-user wifi sharing at volume.",
     specs: [
       "Wireless all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jXroCi2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3L93F2Q?tag=deskfinds0d-20",
     description:
-      "This is a Bluetooth label maker, not a full home-office printer, and it belongs on this list strictly as a specialty labeling accessory. It's genuinely handy for labeling file folders, storage boxes, and cable bundles around a home office setup.\n\nAt under $17, it's worth adding alongside one of the actual printers above for a household filing system, but it cannot print documents, scans, or full pages, and shouldn't be positioned as a primary home-office printer recommendation.\n\nA genuine advantage here is that compact, no desk space required. The tradeoff is cannot print documents or full pages.",
+      "This is a Bluetooth label maker, not a full home-office printer, and it belongs on this list strictly as a specialty labeling accessory. It's genuinely handy for labeling file folders, storage boxes, and cable bundles around a home office setup. at a budget-friendly price, it's worth adding alongside one of the actual printers above for a household filing system, but it cannot print documents, scans, or full pages, and shouldn't be positioned as a primary home-office printer recommendation. A genuine advantage here is that compact, no desk space required. The tradeoff is cannot print documents or full pages.",
     specs: [
       "Bluetooth wireless connection",
       "Mobile app with multiple templates",

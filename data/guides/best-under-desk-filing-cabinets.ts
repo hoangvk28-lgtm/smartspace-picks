@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price at each capacity tier",
     description:
-      "Weighed drawer count, confirmed under-desk fit, and included extras like a top shelf or extended surface against price across the $44.99 to $99.99 range in this list.",
+      "Weighed drawer count, confirmed under-desk fit, and included extras like a top shelf or extended surface against price across the range of price points in this comparison in this list.",
   },
 ];
 

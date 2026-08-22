@@ -123,7 +123,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required explicit anti-glare marketing for eligibility", description: "We only included picks that specifically state this feature, rather than assuming every privacy filter reduces glare equally." },
   { title: "Noted the matte-finish tradeoff with text sharpness", description: "A more aggressive anti-glare coating can slightly soften text clarity compared to a glossy privacy-only filter; we flagged this as a genuine tradeoff, not a pure upgrade." },
   { title: "Covered both flat and curved monitor options", description: "We included a dedicated curved-compatible anti-glare pick alongside the more common flat options." },
-  { title: "Compared value across a range of sizes and prices", description: "Anti-glare picks here span from $25.99 at 21.5 inch to $143.99 for a curved 34 inch 2-pack, and we compared value within each context." },
+  { title: "Compared value across a range of sizes and prices", description: "Anti-glare picks here span a wide range, from 21.5 inch up to a curved 34 inch 2-pack, and we compared value within each context." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

@@ -37,7 +37,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-monitor-lamp.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08DKQ3JG1?tag=deskfinds0d-20",
     description:
-      "The Quntis Computer Monitor Lamp is a clip-on bar that mounts on the monitor top edge and directs illumination downward onto the desk surface rather than toward the screen. Its 900 Lux output and CRI 98 rating make it bright enough for reading documents and accurate for color-sensitive work.\n\nThe auto-dimming sensor adjusts brightness based on ambient room light, which removes the need to manually increase or decrease brightness when daylight or overhead lighting changes. At $39.95 with the highest review count in this category, it is the most validated option for buyers who want reliable performance without a premium brand markup.",
+      "The Quntis Computer Monitor Lamp is a clip-on bar that mounts on the monitor top edge and directs illumination downward onto the desk surface rather than toward the screen. Its 900 Lux output and CRI 98 rating make it bright enough for reading documents and accurate for color-sensitive work. The auto-dimming sensor adjusts brightness based on ambient room light, which removes the need to manually increase or decrease brightness when daylight or overhead lighting changes. At a competitive price with the highest review count in this category, it is the most validated option for buyers who want reliable performance without a premium brand markup.",
     specs: [
       "Auto-dimming sensor",
       "Touch control",
@@ -72,7 +72,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/yeelight-light-bar.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DRG3WXB3?tag=deskfinds0d-20",
     description:
-      "The YEELIGHT Monitor Light Bar is an entry-level bar that clips onto the monitor bezel and provides stepless dimming across a full 2700K to 6500K color temperature range. At $25.99 it is the lowest-priced option in this roundup and still delivers CRI 95 color accuracy.\n\nThe RG0 blue light safety certification means the light output has been rated safe for extended viewing sessions. Touch control on the bar allows quick brightness and color temperature changes without reaching for a phone or app. A good choice for buyers prioritizing price without completely compromising on color quality.",
+      "The YEELIGHT Monitor Light Bar is an entry-level bar that clips onto the monitor bezel and provides stepless dimming across a full 2700K to 6500K color temperature range. It is the lowest-priced option in this roundup and still delivers CRI 95 color accuracy. The RG0 blue light safety certification means the light output has been rated safe for extended viewing sessions. Touch control on the bar allows quick brightness and color temperature changes without reaching for a phone or app. A good choice for buyers prioritizing price without completely compromising on color quality.",
     specs: [
       "CRI 95",
       "78 LEDs",
@@ -106,7 +106,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/xiaomi-mi-light-bar.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08W2C5W59?tag=deskfinds0d-20",
     description:
-      "The Xiaomi Mi Monitor Light Bar includes a wireless 2.4GHz remote that allows brightness and color temperature adjustments from across the desk without touching the bar itself. The magnetic rotation mechanism lets you fine-tune the beam angle after mounting, which is useful for desks with unusual depth or monitor positioning.\n\nWith 6,242 reviews at 4.4 stars it has the second highest review count in this roundup, giving buyers a large validation pool to draw from. The metal body construction is more durable than plastic alternatives and the USB-C power connection fits modern laptop setups. Priced at $67.99 it sits between the budget options and the full BenQ lineup.",
+      "The Xiaomi Mi Monitor Light Bar includes a wireless 2.4GHz remote that allows brightness and color temperature adjustments from across the desk without touching the bar itself. The magnetic rotation mechanism lets you fine-tune the beam angle after mounting, which is useful for desks with unusual depth or monitor positioning. With 6,242 reviews at 4.4 stars it has the second highest review count in this roundup, giving buyers a large validation pool to draw from. The metal body construction is more durable than plastic alternatives and the USB-C power connection fits modern laptop setups. Priced It sits between the budget options and the full BenQ lineup.",
     specs: [
       "Wireless 2.4GHz remote",
       "CRI 95",
@@ -173,7 +173,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/benq-screenbar-halo-2.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DK59YKRS?tag=deskfinds0d-20",
     description:
-      "The BenQ ScreenBar Halo 2 adds a rear-facing light strip that projects ambient illumination onto the wall behind the monitor. This reduces the contrast between the bright screen surface and the darker wall, which is the main cause of eye strain in dark rooms or during evening gaming sessions. The wireless dial controller allows adjustments without touching the bar.\n\nThe motion sensor handles auto-on and auto-off when you sit down or leave the desk. Curved monitor compatibility extends down to 1000R, covering tighter radius ultrawide monitors that most other bars cannot handle. At $199 it is the most expensive pick in this roundup, but the backlight feature is not available on any other product here.",
+      "The BenQ ScreenBar Halo 2 adds a rear-facing light strip that projects ambient illumination onto the wall behind the monitor. This reduces the contrast between the bright screen surface and the darker wall, which is the main cause of eye strain in dark rooms or during evening gaming sessions. The wireless dial controller allows adjustments without touching the bar. The motion sensor handles auto-on and auto-off when you sit down or leave the desk. Curved monitor compatibility extends down to 1000R, covering tighter radius ultrawide monitors that most other bars cannot handle. It is the most expensive pick in this roundup, but the backlight feature is not available on any other product here.",
     specs: [
       "Front and back lighting",
       "Wireless dial controller",
@@ -207,7 +207,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/benq-screenbar-pro.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CZ9P1QW9?tag=deskfinds0d-20",
     description:
-      "The BenQ ScreenBar Pro is the highest rated product in this roundup at 4.8 stars and centers its feature set around an ultrasonic motion sensor that activates the light when you sit down and turns it off when you leave. At 1000 Lux it also delivers the second-highest brightness output in this guide, making it a strong choice for large desks or spaces that need strong task lighting.\n\nThe wireless dial controller allows adjustments from anywhere on the desk without touching the bar. Curved monitor compatibility covers 1000R to 1800R, the same range as the Halo 2. At $139 it costs $60 less than the Halo 2 while delivering motion sensor functionality that the Halo 2 lacks.",
+      "The BenQ ScreenBar Pro is the highest rated product in this roundup at 4.8 stars and centers its feature set around an ultrasonic motion sensor that activates the light when you sit down and turns it off when you leave. At 1000 Lux it also delivers the second-highest brightness output in this guide, making it a strong choice for large desks or spaces that need strong task lighting. The wireless dial controller allows adjustments from anywhere on the desk without touching the bar. Curved monitor compatibility covers 1000R to 1800R, the same range as the Halo 2. It costs a bit less than the Halo 2 while delivering motion sensor functionality that the Halo 2 lacks.",
     specs: [
       "Ultrasonic motion sensor",
       "1000 Lux",
@@ -242,7 +242,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-with-remote.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CLNGTPLW?tag=deskfinds0d-20",
     description:
-      "The Quntis Monitor Light Bar with Remote adds a wireless remote to the Quntis lineup at a price under $35, which is the most affordable remote-controlled option in this guide. The 84 LED count provides even light distribution across the beam, and auto-dimming adjusts to ambient lighting conditions automatically.\n\nThe night light mode reduces output to a very low level for late-night work sessions when full brightness would be disruptive. A 2-hour auto-off timer adds convenience for users who sometimes leave the light on unintentionally. For buyers who want remote control and find the Xiaomi at $67.99 too expensive, this is the practical alternative.",
+      "The Quntis Monitor Light Bar with Remote adds a wireless remote to the Quntis lineup at a price at a budget-friendly price, which is the most affordable remote-controlled option in this guide. The 84 LED count provides even light distribution across the beam, and auto-dimming adjusts to ambient lighting conditions automatically. The night light mode reduces output to a very low level for late-night work sessions when full brightness would be disruptive. A 2-hour auto-off timer adds convenience for users who sometimes leave the light on unintentionally. For buyers who want remote control and find the Xiaomi at a competitive price too expensive, this is the practical alternative.",
     specs: [
       "Wireless remote",
       "84 LEDs",
@@ -276,7 +276,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-pro-plus.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0B6P9J3J5?tag=deskfinds0d-20",
     description:
-      "The Quntis Monitor Light Bar PRO+ extends the standard Quntis design to a 20-inch bar length and pushes output to 1200 Lux, the highest brightness rating in this roundup. The longer bar is designed to cover ultrawide and 34-inch monitors that the standard 15.7-inch Quntis bar may not fully illuminate.\n\nA wireless remote handles all controls including brightness, color temperature, and auto-dimming mode. Curved monitor compatibility is included for both flat and curved displays. At $69.99 with 2,385 reviews it fills the gap between the standard Quntis at $39.95 and the Xiaomi at $67.99 by adding length and brightness rather than just a premium brand name.",
+      "The Quntis Monitor Light Bar PRO+ extends the standard Quntis design to a 20-inch bar length and pushes output to 1200 Lux, the highest brightness rating in this roundup. The longer bar is designed to cover ultrawide and 34-inch monitors that the standard 15.7-inch Quntis bar may not fully illuminate. A wireless remote handles all controls including brightness, color temperature, and auto-dimming mode. Curved monitor compatibility is included for both flat and curved displays. At a competitive price with 2,385 reviews it fills the gap between the standard Quntis at a competitive price and the Xiaomi at a competitive price by adding length and brightness rather than just a premium brand name.",
     specs: [
       "20-inch bar",
       "1200 Lux",

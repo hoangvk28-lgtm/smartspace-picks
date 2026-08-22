@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QbluTUmKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZ8S34?tag=deskfinds0d-20",
     description:
-      "At just $33.16, this is the cheapest genuinely P-4-rated shredder in this guide, with a massive review base offering exceptional real-world confidence at this price point. As with every sub-$100 pick, expect a short 3-minute duty cycle and standard (not confirmed hardened) steel blades.\n\nHandles credit cards alongside paper, a genuinely useful combination at this price tier.\n\nThe standout detail is that massive proven review base. Balancing that out, short 3-minute continuous run time.",
+      "At just a competitive price, this is the cheapest genuinely P-4-rated shredder in this guide, with a massive review base offering exceptional real-world confidence at this price point. As with every genuine budget pick, expect a short 3-minute duty cycle and standard (not confirmed hardened) steel blades. Handles credit cards alongside paper, a genuinely useful combination at this price tier. The standout detail is that massive proven review base. Balancing that out, short 3-minute continuous run time.",
     specs: ["8-sheet cross-cut, P-4 high security", "3-minute continuous run time", "3.7-gallon bin", "Massive review base"],
     pros: ["Cheapest genuinely P-4-rated pick in this guide", "Massive proven review base", "Handles credit cards", "Reliable at this exact price point"],
     cons: ["Short 3-minute continuous run time", "Standard steel blades, not confirmed hardened for heavy staple use", "Small 3.7-gallon bin needs frequent emptying"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
-      "At $79.99, this is the priciest pick in this guide but delivers the longest continuous run time under $100 at 15 minutes, capable of roughly 900 sheets per cycle, a genuinely substantial duty cycle for the price ceiling. Jam-proof reverse and a large 5.5-gallon bin round out a strong value proposition near the top of this budget range.\n\nA reasonable choice if you're willing to spend closer to the $100 ceiling for meaningfully more run time and capacity than the cheapest picks.\n\nA genuine advantage here is that large 5.5-gallon bin. The tradeoff is that priciest pick in this guide, close to the $100 ceiling.",
+      "At a competitive price, this is the priciest pick in this guide but delivers the longest continuous run time at a budget-friendly price at 15 minutes, capable of roughly 900 sheets per cycle, a genuinely substantial duty cycle for the price ceiling. Jam-proof reverse and a large 5.5-gallon bin round out a strong value proposition near the top of this budget range. A reasonable choice if you're willing to spend closer to the ceiling for meaningfully more run time and capacity than the cheapest picks. A genuine advantage here is that large 5.5-gallon bin. The tradeoff is that priciest pick in this guide, close to the ceiling.",
     specs: ["12-sheet cross-cut, P-4", "15-minute continuous run, ~900 sheets/cycle", "5.5-gallon bin, jam-proof reverse", "Solid rating"],
     pros: ["Longest continuous run time under $100 in this guide", "Large 5.5-gallon bin", "Jam-proof reverse system", "Higher per-pass capacity than the 8-sheet picks"],
     cons: ["Priciest pick in this guide, close to the $100 ceiling", "Not the cheapest option here", "Same P-4 security ceiling as the rest of this guide"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31wkQYg97oL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MHR4457?tag=deskfinds0d-20",
     description:
-      "A genuinely large 5.5-gallon bin at just over $50, real value at this budget tier, with 10-sheet capacity and confirmed staple/credit card handling. Strong review base offers real-world confidence in this specific balance of capacity, bin size, and price.\n\nA sensible mid-budget pick if bin size matters more to you than run time.\n\nWorth calling out specifically: strong review base. The catch is short 4-minute continuous run time.",
+      "A genuinely large 5.5-gallon bin at just at a premium price, real value at this budget tier, with 10-sheet capacity and confirmed staple/credit card handling. Strong review base offers real-world confidence in this specific balance of capacity, bin size, and price. A sensible mid-budget pick if bin size matters more to you than run time. Worth calling out specifically: strong review base. The catch is short 4-minute continuous run time.",
     specs: ["10-sheet cross-cut, P-4", "4-minute continuous run time", "5.5-gallon bin", "Handles staples, credit cards"],
     pros: ["Large 5.5-gallon bin for the price", "Strong review base", "Handles staples and credit cards", "Good balance of capacity and price"],
     cons: ["Short 4-minute continuous run time", "Same P-4 security ceiling as the rest of this guide", "Not the absolute cheapest option here"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31GNS0CdNOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LZG69W?tag=deskfinds0d-20",
     description:
-      "The highest sheet capacity under $60 in this guide at 12 sheets, with the massive Amazon Basics review base for strong real-world confidence. P-3 security here, a step below the P-4 picks elsewhere in this guide, a real tradeoff at this specific price point.\n\nA 9-minute continuous run time is a genuine step up from the shortest budget picks, worth the modest premium over the 8-sheet options.\n\nMassive proven review base. Set against that, p-3 security, lower than the P-4 picks elsewhere in this guide. Both matter when comparing it to the other picks here.",
+      "The highest sheet capacity at a budget-friendly price in this guide at 12 sheets, with the massive Amazon Basics review base for strong real-world confidence. P-3 security here, a step below the P-4 picks elsewhere in this guide, a real tradeoff at this specific price point. A 9-minute continuous run time is a genuine step up from the shortest budget picks, worth the modest premium over the 8-sheet options. Massive proven review base. Set against that, p-3 security, lower than the P-4 picks elsewhere in this guide. Both matter when comparing it to the other picks here.",
     specs: ["12-sheet cross-cut, P-3 security", "9-minute continuous run time", "5-gallon bin", "Massive review base"],
     pros: ["Highest capacity under $60 in this guide", "Massive proven review base", "Longer run time than the 8-sheet budget picks", "Large 5-gallon bin"],
     cons: ["P-3 security, lower than the P-4 picks elsewhere in this guide", "Not the cheapest option here", "Standard blade hardness, not confirmed"],
@@ -160,9 +160,9 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Explicit security-level ceiling disclosure at this price tier", description: "Confirmed that every pick in this guide sits at P-3 or P-4 security, the realistic ceiling under $100, buyers needing higher security destruction won't find it reliably in this price range." },
-  { title: "Duty cycle and cooldown as a cost-of-ownership factor", description: "Highlighted that sub-$100 shredders have the shortest duty cycles in the category (3-15 minutes), front-and-center rather than buried, since this directly affects realistic bulk-purge expectations." },
-  { title: "Blade hardness disclosure (or its absence) as a reliability signal", description: "Noted that none of the picks in this guide explicitly confirm hardened steel blades, the sub-$100 tier is the segment least likely to disclose this detail, making staple-tolerance claims less verifiable here than at higher price points." },
+  { title: "Explicit security-level ceiling disclosure at this price tier", description: "Confirmed that every pick in this guide sits at P-3 or P-4 security, the realistic ceiling at a budget-friendly price, buyers needing higher security destruction won't find it reliably in this price range." },
+  { title: "Duty cycle and cooldown as a cost-of-ownership factor", description: "Highlighted that budget-tier shredders have the shortest duty cycles in the category (3-15 minutes), front-and-center rather than buried, since this directly affects realistic bulk-purge expectations." },
+  { title: "Blade hardness disclosure (or its absence) as a reliability signal", description: "Noted that none of the picks in this guide explicitly confirm hardened steel blades, the sub-a competitive tier is the segment least likely to disclose this detail, making staple-tolerance claims less verifiable here than at higher price points." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

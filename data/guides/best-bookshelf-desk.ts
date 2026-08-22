@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41El-SG+CpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8G5N258?tag=deskfinds0d-20",
     description:
-      "The Treesland tucks neatly into a room corner, with a 4-tier bookshelf built directly into the L-shaped side rather than bolted on as an afterthought. That corner-fit approach makes it one of the more space-efficient picks here, freeing up wall space elsewhere in a small bedroom or home office.\n\nA metal frame paired with engineered wood keeps the whole unit lightweight but stable, and a side storage bag adds a bit of extra soft storage for cables, notebooks, or accessories. At under $100, it's the most affordable L-shaped bookshelf desk in this guide.\n\nWorth calling out specifically: corner-fit design ideal for small rooms. The catch is no built-in power outlets or USB ports.",
+      "The Treesland tucks neatly into a room corner, with a 4-tier bookshelf built directly into the L-shaped side rather than bolted on as an afterthought. That corner-fit approach makes it one of the more space-efficient picks here, freeing up wall space elsewhere in a small bedroom or home office. A metal frame paired with engineered wood keeps the whole unit lightweight but stable, and a side storage bag adds a bit of extra soft storage for cables, notebooks, or accessories. at a budget-friendly price, it's the most affordable L-shaped bookshelf desk in this guide. Worth calling out specifically: corner-fit design ideal for small rooms. The catch is no built-in power outlets or USB ports.",
     specs: [
       "47\"W x 19.7\"D x 55\"H",
       "Metal frame + engineered wood",

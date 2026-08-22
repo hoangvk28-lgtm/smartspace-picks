@@ -315,7 +315,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   {
     label: "Value for Money",
     weight: "20%",
-    description: "Honest image quality relative to price. A $20 webcam that actually delivers 1080p scores higher than a $45 webcam with misleading specs.",
+    description: "Honest image quality relative to price. A webcam that actually delivers 1080p scores higher than a webcam with misleading specs.",
   },
   {
     label: "Buyer Feedback",

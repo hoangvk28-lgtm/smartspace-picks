@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The TR4720 installs through Canon's full driver on Windows 11, which brings scan and print quality settings beyond the operating system's automatically-installed basic driver. Its auto document feeder is a genuinely useful inclusion at this price for scanning multi-page documents without repositioning each sheet.\n\nWindows 11's built-in printer troubleshooter is a reasonable first step if this printer ever shows offline, since it resolves many spooler-related hiccups without needing a full driver reinstall. At $69.00 it is an affordable entry point for a home office that mostly needs occasional document printing and scanning.\n\nA genuine advantage here is that auto document feeder for multi-page scans. The tradeoff is cartridge-based ink costs more per page over time.",
+      "The TR4720 installs through Canon's full driver on Windows 11, which brings scan and print quality settings beyond the operating system's automatically-installed basic driver. Its auto document feeder is a genuinely useful inclusion at this price for scanning multi-page documents without repositioning each sheet. Windows 11's built-in printer troubleshooter is a reasonable first step if this printer ever shows offline, since it resolves many spooler-related hiccups without needing a full driver reinstall. It is an affordable entry point for a home office that mostly needs occasional document printing and scanning. A genuine advantage here is that auto document feeder for multi-page scans. The tradeoff is cartridge-based ink costs more per page over time.",
     specs: [
       "Auto document feeder",
       "Full Canon Windows 11 driver package",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 pairs with the HP Smart app on Windows 11 for setup, print job monitoring, and mobile scanning, layered on top of the standard printer driver. If it ever shows as offline, running the Windows 11 printer troubleshooter first, before assuming the printer itself has failed, resolves many cases where the actual culprit is a stalled Print Spooler service rather than the hardware.\n\nA 3-month Instant Ink trial is bundled in, which converts to paid billing unless canceled, so set a reminder if you don't want ongoing charges. At $69.99 it is one of the cheapest ways into wireless printing for a Windows 11 desk setup.\n\nWorth calling out specifically: hP Smart app simplifies setup. The catch is instant Ink trial auto-converts to paid unless canceled.",
+      "The DeskJet 4355 pairs with the HP Smart app on Windows 11 for setup, print job monitoring, and mobile scanning, layered on top of the standard printer driver. If it ever shows as offline, running the Windows 11 printer troubleshooter first, before assuming the printer itself has failed, resolves many cases where the actual culprit is a stalled Print Spooler service rather than the hardware. A 3-month Instant Ink trial is bundled in, which converts to paid billing unless canceled, so set a reminder if you don't want ongoing charges. It is one of the cheapest ways into wireless printing for a Windows 11 desk setup. Worth calling out specifically: hP Smart app simplifies setup. The catch is instant Ink trial auto-converts to paid unless canceled.",
     specs: [
       "Wireless network printing",
       "HP Smart app for setup and monitoring",
@@ -295,7 +295,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed driver completeness, connectivity reliability, and included features against price across the $69.00 to $209.99 range in this list.",
+      "Weighed driver completeness, connectivity reliability, and included features against price across the range of price points in this comparison in this list.",
   },
 ];
 

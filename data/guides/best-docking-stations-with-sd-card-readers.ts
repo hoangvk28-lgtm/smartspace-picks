@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
-      "Anker's 8-in-1 hub is the cheapest way into a dual-monitor setup with a built-in SD card reader in this list, adding 2 HDMI ports, Gigabit Ethernet, and 85W power delivery around that card slot. Like nearly every dock in this price range, the SD reader is UHS-I speed, fine for occasional offloads but not built for a large professional card library.\n\nAt under $54, it's a reasonable pick for someone who occasionally pulls photos off an SD card rather than someone regularly clearing a 128GB card shot in UHS-II mode.\n\nA genuine advantage here is that dual HDMI for a 2-monitor setup. The tradeoff is that uHS-I reader speed only, a bottleneck for UHS-II cards.",
+      "Anker's 8-in-1 hub is the cheapest way into a dual-monitor setup with a built-in SD card reader in this list, adding 2 HDMI ports, Gigabit Ethernet, and 85W power delivery around that card slot. Like nearly every dock in this price range, the SD reader is UHS-I speed, fine for occasional offloads but not built for a large professional card library. at a budget-friendly price, it's a reasonable pick for someone who occasionally pulls photos off an SD card rather than someone regularly clearing a 128GB card shot in UHS-II mode. A genuine advantage here is that dual HDMI for a 2-monitor setup. The tradeoff is that uHS-I reader speed only, a bottleneck for UHS-II cards.",
     specs: [
       "8-in-1 USB-C hub",
       "Dual HDMI, 4K support",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HZ73O5J4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDQS4BD?tag=deskfinds0d-20",
     description:
-      "UGREEN's Revodok Pro 210 packs dual HDMI up to 8K single or 4K dual, 100W PD, Gigabit Ethernet, and an SD/TF 3.0 card reader into a genuinely compact footprint at under $40. It's one of the smallest docks in this list, useful if desk space is tight.\n\nSD/TF 3.0 is a step up from a bare UHS-I designation in marketing terms, but real-world transfer speed still lands closer to UHS-I territory than a true UHS-II reader, so keep expectations realistic for large card offloads.\n\nLowest price among UGREEN's SD-reader docks in this list. That's a real strength, but weigh it against the flip side: real-world card speed lands closer to UHS-I than true UHS-II.",
+      "UGREEN's Revodok Pro 210 packs dual HDMI up to 8K single or 4K dual, 100W PD, Gigabit Ethernet, and an SD/TF 3.0 card reader into a genuinely compact footprint at a budget-friendly price. It's one of the smallest docks in this list, useful if desk space is tight. SD/TF 3.0 is a step up from a bare UHS-I designation in marketing terms, but real-world transfer speed still lands closer to UHS-I territory than a true UHS-II reader, so keep expectations realistic for large card offloads. Lowest price among UGREEN's SD-reader docks in this list. That's a real strength, but weigh it against the flip side: real-world card speed lands closer to UHS-I than true UHS-II.",
     specs: [
       "10-in-1 USB-C hub",
       "Dual HDMI 4K or single 8K",

@@ -330,7 +330,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed finish, capacity, and included hardware against price, from the $32.99 HOMIDEC to the $119.99 BORNOON cabinets.",
+    description: "Weighed finish, capacity, and included hardware against price, from the HOMIDEC to the BORNOON cabinets.",
   },
 ];
 

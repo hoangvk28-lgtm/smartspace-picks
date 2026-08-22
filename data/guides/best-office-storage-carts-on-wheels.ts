@@ -154,7 +154,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Drawer count versus open-tier design compared directly", description: "We distinguished fully enclosed drawer carts from open-tier carts, since drawers separate small supplies better while open tiers load and unload faster." },
   { title: "Review base weighted heavily given the wide count range", description: "Review counts here range from 70 to over 5,000. We treated that spread as a meaningful confidence signal rather than a secondary detail." },
-  { title: "Price compared against drawer count and finish", description: "We compared the $21.59 to $98.99 range against actual drawer count and finish (black versus white) rather than assuming price alone predicts quality." },
+  { title: "Price compared against drawer count and finish", description: "We compared the range of price points in this comparison against actual drawer count and finish (black versus white) rather than assuming price alone predicts quality." },
   { title: "Loaded caster behavior flagged as unverified", description: "None of these listings had an independently measured loaded-caster or brake-hold test in our data pull, so we're flagging that as a gap to verify against your specific floor type." },
 ];
 

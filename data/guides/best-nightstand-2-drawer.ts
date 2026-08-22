@@ -335,7 +335,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed height, capacity, certification, and included features against price, from the $21.99 cheapest pick to the $269.98 lifetime-warranty set.",
+      "Weighed height, capacity, certification, and included features against price, from the cheapest pick to the lifetime-warranty set.",
   },
 ];
 

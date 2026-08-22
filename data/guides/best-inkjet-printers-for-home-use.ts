@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is a standard cartridge inkjet covering print, scan, and copy for under $70, with a 3-month Instant Ink trial that softens the first few months of cartridge cost. It's the cheapest entry point in this list for a household that just needs occasional color and document printing.\n\nBecause it uses dye-based cartridges rather than an ink tank, infrequent use is the real thing to plan for: nozzles can dry and clog after 2-4 weeks idle, triggering cleaning cycles that burn ink without printing a page. A quick weekly test print avoids most of that waste.\n\nInstant Ink trial reduces early cartridge spend. That's a real strength, but weigh it against the flip side: nozzles can dry out with infrequent use.",
+      "The DeskJet 4355 is a standard cartridge inkjet covering print, scan, and copy for at a budget-friendly price, with a 3-month Instant Ink trial that softens the first few months of cartridge cost. It's the cheapest entry point in this list for a household that just needs occasional color and document printing. Because it uses dye-based cartridges rather than an ink tank, infrequent use is the real thing to plan for: nozzles can dry and clog after 2-4 weeks idle, triggering cleaning cycles that burn ink without printing a page. A quick weekly test print avoids most of that waste. Instant Ink trial reduces early cartridge spend. That's a real strength, but weigh it against the flip side: nozzles can dry out with infrequent use.",
     specs: [
       "Standard cartridge inkjet",
       "Wireless print, scan, copy",

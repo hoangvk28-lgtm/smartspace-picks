@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "2,550",
     imageUrl: "https://m.media-amazon.com/images/I/51sPBSqTYXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07LCCT6VS?tag=deskfinds0d-20",
-    description: "A well-reviewed 36 inch alternative to the VIVO top pick at a similar price, worth comparing directly.\n\nOne spot below VIVO Black 36 in Standing Desk Converter in this ranking, it costs more than VIVO Black 36 in Standing Desk Converter. The compromise here is straightforward: Smaller review base than the VIVO top pick. What you gain in return: Well-reviewed alternative at a competitive price. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Well-reviewed alternative at a competitive price. On the other side, Smaller review base than the VIVO top pick. That's the main tradeoff to weigh against everything above.",
+    description: "A well-reviewed 36 inch alternative to the VIVO top pick at a similar price, worth comparing directly.\n\nOne spot below VIVO Black 36 in Standing Desk Converter in this ranking, it costs more than VIVO Black 36 in Standing Desk Converter. The compromise here is straightforward: Smaller review base than the VIVO top pick. What you gain in return: Well-reviewed alternative. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Well-reviewed alternative. On the other side, Smaller review base than the VIVO top pick. That's the main tradeoff to weigh against everything above.",
     specs: ["36 inch platform"],
     pros: ["Well-reviewed alternative at a competitive price"],
     cons: ["Smaller review base than the VIVO top pick"],
@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required confirmed 36 inch platform width for every pick", description: "We verified this exact dimension rather than including nearby sizes rounded loosely in marketing copy." },
   { title: "Compared review volume across established and budget brands at this size", description: "We noted where VIVO and FITUEYES have much larger review bases than the budget SANODESK and FlexiSpot alternatives at this specific size." },
   { title: "Flagged duplicate listings sharing identical specs", description: "We noted where the same FITUEYES design appears across multiple listings, useful for buyers checking current stock." },
-  { title: "Weighed price against review history within this specific size tier", description: "36 inch converters here range from $115.99 to $159.99, and we compared value across that range." },
+  { title: "Weighed price against review history within this specific size tier", description: "36 inch converters here range across a range of price points, and we compared value across that range." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

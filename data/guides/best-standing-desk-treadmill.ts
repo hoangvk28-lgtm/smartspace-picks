@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41sRiKFY+TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GZ4RZJ9J?tag=deskfinds0d-20",
     description:
-      "Fasion Trek Run pairs a 3.5HP motor with speeds up to 8.0 mph, the fastest top speed of any pick in this guide, alongside a removable desk workstation and a 12% manual incline. That combination of speed, incline, and desk surface at under $170 makes it the strongest overall value in this lineup.\n\nThe unit folds down for storage and carries a 350 lb capacity, well above the base walking pad. As with any combo unit, the desk surface itself has its own separate, lower weight rating than the 350 lb treadmill capacity, so keep that in mind before resting heavier gear on it.\n\nWorth calling out specifically: 350 lb capacity, well above the base model. The catch is incline is manual, requiring you to step off or reach down to adjust.",
+      "Fasion Trek Run pairs a 3.5HP motor with speeds up to 8.0 mph, the fastest top speed of any pick in this guide, alongside a removable desk workstation and a 12% manual incline. That combination of speed, incline, and desk surface at a budget-friendly price makes it the strongest overall value in this lineup. The unit folds down for storage and carries a 350 lb capacity, well above the base walking pad. As with any combo unit, the desk surface itself has its own separate, lower weight rating than the 350 lb treadmill capacity, so keep that in mind before resting heavier gear on it. Worth calling out specifically: 350 lb capacity, well above the base model. The catch is incline is manual, requiring you to step off or reach down to adjust.",
     specs: [
       "3.5HP motor",
       "Up to 8.0 mph top speed (fastest in this guide)",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed motor power, incline range, capacity, and included desk quality against price, from the $79.99 base pad through the $249.99 6-in-1 feature-complete model.",
+    description: "Weighed motor power, incline range, capacity, and included desk quality against price, from the base pad through the 6-in-1 feature-complete model.",
   },
 ];
 

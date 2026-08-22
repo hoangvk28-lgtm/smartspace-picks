@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is HP's entry-level all-in-one, pairing standard wireless printing with the HP Smart app for iOS, which handles setup, print job monitoring, and mobile document scanning through the iPhone or iPad camera. HP has historically had more mixed offline-connectivity reports on forums compared to Canon and Epson, worth knowing going in even though most users won't run into it.\n\nA 3-month Instant Ink trial is included, which auto-ships replacement cartridges but converts to a paid subscription unless canceled, so mark a calendar reminder if you don't want ongoing billing. At $69.99 it is one of the cheapest ways into a wireless all-in-one for occasional iOS printing.\n\nA genuine advantage here is that hP Smart app handles setup and scanning. The tradeoff is instant Ink trial auto-converts to paid unless canceled.",
+      "The DeskJet 4355 is HP's entry-level all-in-one, pairing standard wireless printing with the HP Smart app for iOS, which handles setup, print job monitoring, and mobile document scanning through the iPhone or iPad camera. HP has historically had more mixed offline-connectivity reports on forums compared to Canon and Epson, worth knowing going in even though most users won't run into it. A 3-month Instant Ink trial is included, which auto-ships replacement cartridges but converts to a paid subscription unless canceled, so mark a calendar reminder if you don't want ongoing billing. It is one of the cheapest ways into a wireless all-in-one for occasional iOS printing. A genuine advantage here is that hP Smart app handles setup and scanning. The tradeoff is instant Ink trial auto-converts to paid unless canceled.",
     specs: [
       "Wireless network printing",
       "HP Smart app for iOS",
@@ -295,7 +295,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed AirPrint reliability, app quality, and included features like duplex printing or a document feeder against price across the $69.00 to $199.99 range in this list.",
+      "Weighed AirPrint reliability, app quality, and included features like duplex printing or a document feeder against price across the range of price points in this comparison in this list.",
   },
 ];
 

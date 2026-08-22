@@ -136,7 +136,7 @@ export const accessories: DeskAccessory[] = [
     bestFor: "Charging cables that fall off the desk repeatedly",
     amazonUrl: "https://www.amazon.com/s?k=magnetic+cable+clips&tag=deskfinds0d-20",
     description:
-      "A simple problem-solver: phone chargers, USB cables, and headphone cords fall off the desk every time you move them. Adhesive cable clips solve this for under $15. Stick them to the side of your desk and cables stay in reach without sprawling across the surface.",
+      "A simple problem-solver: phone chargers, USB cables, and headphone cords fall off the desk every time you move them. Adhesive cable clips solve this for at a budget-friendly price. Stick them to the side of your desk and cables stay in reach without sprawling across the surface.",
     whyItWorks: [
       "Sub-$15 fix for a daily annoyance",
       "Does not take desktop space - mounts on edges and undersides",

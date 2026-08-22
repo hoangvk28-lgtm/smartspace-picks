@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "212",
     imageUrl: "https://m.media-amazon.com/images/I/31YDQS8Gh1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5LZXS3W?tag=deskfinds0d-20",
-    description: "Under $10, double-sided for effectively doubling usable writing area within a 10x10 inch footprint, with a solid rating though a smaller review base as a newer listing.",
+    description: "at a budget-friendly price, double-sided for effectively doubling usable writing area within a 10x10 inch footprint, with a solid rating though a smaller review base as a newer listing.",
     specs: ["10 x 10 in, double-sided", "212 reviews at 4.6 stars"],
     pros: ["Cheapest board in this comparison", "Double-sided doubles usable writing area within the same footprint"],
     cons: ["Smaller review base than the more established picks here"],

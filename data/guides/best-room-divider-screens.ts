@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518FUSm-OqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQ25W3P?tag=deskfinds0d-20",
     description:
-      "At $34.28, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners.\n\nRattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold.\n\nHandmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.",
+      "At a competitive price, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners. Rattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold. Handmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.",
     specs: [
       "63\"W x 72\"H (4 panels)",
       "Rattan + wood",

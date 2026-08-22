@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value across the entry-to-premium path",
-    description: "Weighed price against separation, tenting, and build quality across the full range in this list, from the $49.99 entry-level split to the $479 fully programmable premium board.",
+    description: "Weighed price against separation, tenting, and build quality across the full range in this list, from the entry-level split to the fully programmable premium board.",
   },
 ];
 

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510mgrRPPIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGPF71Q6?tag=deskfinds0d-20",
     description:
-      "Rated up to 1875 sq ft with smart app control, a large review base backing this as a proven pick that genuinely uses this price tier to buy real coverage headroom.\n\nA higher price in this range does buy real coverage headroom for a larger room, this unit's rated square footage reflects a meaningful step up from a genuine sub-$100 unit.\n\nSmart app control for monitoring. That said, larger footprint than compact budget picks. Neither should be a surprise once you know to look for it.",
+      "Rated up to 1875 sq ft with smart app control, a large review base backing this as a proven pick that genuinely uses this price tier to buy real coverage headroom. A higher price in this range does buy real coverage headroom for a larger room, this unit's rated square footage reflects a meaningful step up from a genuine budget-tier unit. Smart app control for monitoring. That said, larger footprint than compact budget picks. Neither should be a surprise once you know to look for it.",
     specs: ["Up to 1875 sq ft rated (open room)", "Smart app control", "Large review base", "Under $175 at time of writing"],
     pros: ["Large rated coverage genuinely justifies the price step up", "Smart app control for monitoring", "Large, well-established review base", "Genuine headroom for a bigger room"],
     cons: ["Larger footprint than compact budget picks", "No air quality sensor", "Not the cheapest option in this guide"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419pAe7T0EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00BTKAPUU?tag=deskfinds0d-20",
     description:
-      "An air quality monitor with Auto and Eco modes and a filter indicator, a genuine step up in real-time feedback over a basic budget unit, backed by a large review base and 3-year warranty.\n\nThis is the priciest pick in the guide, but the air quality monitor and 3-year warranty genuinely justify the premium for a buyer who wants ongoing feedback rather than a set-and-forget unit.\n\nFilter indicator tracks replacement timing. Set against that, slightly over $200 depending on current pricing, check before buying. Both matter when comparing it to the other picks here.",
+      "An air quality monitor with Auto and Eco modes and a filter indicator, a genuine step up in real-time feedback over a basic budget unit, backed by a large review base and 3-year warranty. This is the priciest pick in the guide, but the air quality monitor and 3-year warranty genuinely justify the premium for a buyer who wants ongoing feedback rather than a set-and-forget unit. Filter indicator tracks replacement timing. Set against that, slightly at a premium price depending on current pricing, check before buying. Both matter when comparing it to the other picks here.",
     specs: ["Air quality monitor with Auto and Eco modes", "Filter indicator", "3-year warranty", "Large review base"],
     pros: ["Genuine air quality monitor with real-time feedback", "Filter indicator tracks replacement timing", "3-year warranty", "Large, well-established review base"],
     cons: ["Slightly over $200 depending on current pricing, check before buying", "Not the largest rated coverage in this guide", "No smart app control"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31K9NLoXncL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN2MGV5H?tag=deskfinds0d-20",
     description:
-      "The smaller sibling Blueair 511i Max variant brings HEPASilent high-airflow technology into a similar price range, genuinely useful for a buyer prioritizing airflow over other features.\n\nCheck current pricing on the specific Blueair model, as the lineup includes variants that fall within and outside this budget tier depending on promotions.\n\nThe standout detail is that air quality sensor for real-time monitoring. Balancing that out, pricing can exceed $200 depending on the specific variant and promotion.",
+      "The smaller sibling Blueair 511i Max variant brings HEPASilent high-airflow technology into a similar price range, genuinely useful for a buyer prioritizing airflow over other features. Check current pricing on the specific Blueair model, as the lineup includes variants that fall within and outside this budget tier depending on promotions. The standout detail is that air quality sensor for real-time monitoring. Balancing that out, pricing can vary depending on the specific variant and promotion.",
     specs: ["HEPASilent high-airflow technology", "Air quality sensor", "99.97% removal of airborne particulates", "Large-room rated"],
     pros: ["Genuinely higher airflow than most picks in this tier", "Air quality sensor for real-time monitoring", "HEPASilent technology keeps noise down at higher airflow", "Large-room coverage"],
     cons: ["Pricing can exceed $200 depending on the specific variant and promotion", "Smaller review base than other picks here", "Verify current price before buying"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick here, well under the $200 ceiling with room to spare, genuinely proven core True HEPA filtration at a fraction of this tier's typical price.\n\nAt this tier, you're paying mostly for smart features, sensors, and larger coverage, this unit proves genuine core filtration quality doesn't require spending close to $200.\n\nGenuine True HEPA filtration well under the price ceiling. That's a real strength, but weigh it against the flip side: no smart app control.",
+      "By far the largest review base of any pick here, well under the ceiling with room to spare, genuinely proven core True HEPA filtration at a fraction of this tier's typical price. At this tier, you're paying mostly for smart features, sensors, and larger coverage, this unit proves genuine core filtration quality doesn't require spending close competitively. Genuine True HEPA filtration well under the price ceiling. That's a real strength, but weigh it against the flip side: no smart app control.",
     specs: ["True HEPA H13, 99.97% particulate removal", "24dB quoted noise level", "Largest review base in this guide", "Well under $200"],
     pros: ["By far the largest review base of any pick here", "Genuine True HEPA filtration well under the price ceiling", "Very quiet at 24dB", "Leaves budget room for a second unit or filter replacements"],
     cons: ["No smart app control", "No air quality sensor", "Standard rated coverage, not the largest in this guide"],
@@ -109,7 +109,7 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "What the $100-200 premium actually buys", description: "Considered that at this tier, you're paying mostly for smart features, sensors, larger rated coverage, and established brand reliability, not a fundamentally different filtration mechanism than a sub-$100 unit." },
+  { title: "What the $100-200 premium actually buys", description: "Considered that at this tier, you're paying mostly for smart features, sensors, larger rated coverage, and established brand reliability, not a fundamentally different filtration mechanism than a budget-tier unit." },
   { title: "Real coverage headroom as a genuine value driver", description: "Weighed that a higher price in this range often does buy real coverage headroom for a larger room, a genuine reason to spend more if your space exceeds a small bedroom." },
   { title: "Current pricing verified against the $200 ceiling", description: "Checked that each pick genuinely falls within or near this price tier, flagging variants where pricing can fluctuate above the stated ceiling depending on promotions." },
 ];

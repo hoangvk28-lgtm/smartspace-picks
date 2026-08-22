@@ -122,7 +122,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Compared actual platform size, not just \"compact\" marketing language", description: "We verified the specific inch dimensions for each pick rather than assuming a \"compact\" label alone means a smaller footprint than standard converters." },
   { title: "Distinguished single-top from dual-tier compact designs", description: "A single-top design generally has a smaller base footprint than a dual-tier converter of similar platform width, and we noted this construction difference directly." },
-  { title: "Weighed price against platform size within the compact category", description: "Compact converters here range from $69.99 to $219.99, and we compared value across that range for the smallest-footprint options." },
+  { title: "Weighed price against platform size within the compact category", description: "Compact converters here range across a range of price points, and we compared value across that range for the smallest-footprint options." },
   { title: "Compared review volume across brands at similar compact sizes", description: "We noted where VIVO's compact review base is notably larger than Mount-It!'s compact options at similar price points." },
 ];
 

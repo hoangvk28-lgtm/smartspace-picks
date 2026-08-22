@@ -38,7 +38,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-monitor-lamp.webp`,
     amazonUrl: "https://www.amazon.com/dp/B08DKQ3JG1?tag=deskfinds0d-20",
     description:
-      "The Quntis Computer Monitor Lamp clips onto the monitor bezel and directs 900 Lux of light downward onto the desk surface, keeping glare off the screen while illuminating keyboards, documents, and workspace items. The auto-dimming sensor reads ambient light and adjusts brightness automatically, so you do not need to manually change settings when room lighting shifts throughout the day.\n\nAt $39.95 with 13,623 reviews and a 4.6-star average, it is the most validated option in this under-$50 category by a wide margin. CRI 98 means colors on your desk and documents appear close to their true values, which benefits both creative work and general home office tasks.",
+      "The Quntis Computer Monitor Lamp clips onto the monitor bezel and directs 900 Lux of light downward onto the desk surface, keeping glare off the screen while illuminating keyboards, documents, and workspace items. The auto-dimming sensor reads ambient light and adjusts brightness automatically, so you do not need to manually change settings when room lighting shifts throughout the day. At a competitive price with 13,623 reviews and a 4.6-star average, it is the most validated option in this under-a competitive price category by a wide margin. CRI 98 means colors on your desk and documents appear close to their true values, which benefits both creative work and general home office tasks.",
     specs: ["Auto-dimming sensor", "Touch control", "CRI 98", "900 Lux", "No screen glare", "USB powered"],
     pros: [
       "13,623 reviews at 4.6 stars - most proven in category",
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-rgb-15inch.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0C5JMWZC9?tag=deskfinds0d-20",
     description:
-      "This Quntis bar adds 24 RGB backlight modes to the standard front desk illumination, giving the option of white task lighting or colored ambient effects behind the monitor depending on the situation. At $31.99 it is the most affordable RGB option in this roundup with a meaningful review count.\n\nThe front light outputs 900 Lux with CRI 95, which provides functional desk illumination alongside the decorative backlight. Touch control cycles through both brightness levels and backlight color modes. Buyers who only want white task lighting should consider the standard Quntis model instead.",
+      "This Quntis bar adds 24 RGB backlight modes to the standard front desk illumination, giving the option of white task lighting or colored ambient effects behind the monitor depending on the situation. It is the most affordable RGB option in this roundup with a meaningful review count. The front light outputs 900 Lux with CRI 95, which provides functional desk illumination alongside the decorative backlight. Touch control cycles through both brightness levels and backlight color modes. Buyers who only want white task lighting should consider the standard Quntis model instead.",
     specs: ["15.7-inch bar", "24 RGB backlight modes", "900 Lux front light", "Touch control", "CRI 95", "USB powered"],
     pros: [
       "24 RGB backlight modes for ambient effects",
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-with-backlight.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CKRJZBTX?tag=deskfinds0d-20",
     description:
-      "The Quntis backlight model combines front task lighting with a rear-facing light that projects onto the wall behind the monitor, creating a bias lighting effect that reduces the contrast between the bright screen and the darker room. The wireless remote controls both front brightness and backlight intensity independently without touching the bar.\n\nAt $49.99 and 4.7 stars it is the highest-rated option in this roundup. Curved monitor compatibility means it fits both flat and curved panels. Buyers who want bias lighting at the top end of the under-$50 budget will find this the most practical option.",
+      "The Quntis backlight model combines front task lighting with a rear-facing light that projects onto the wall behind the monitor, creating a bias lighting effect that reduces the contrast between the bright screen and the darker room. The wireless remote controls both front brightness and backlight intensity independently without touching the bar. At a competitive price and 4.7 stars it is the highest-rated option in this roundup. Curved monitor compatibility means it fits both flat and curved panels. Buyers who want bias lighting at the top end of the under-a competitive price budget will find this the most practical option.",
     specs: ["Front and backlight", "Wireless remote", "84 LEDs", "CRI 95", "3 lighting modes", "Curved monitor compatible"],
     pros: [
       "4.7 stars - highest rating in this roundup",
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/yeelight-light-bar.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DRG3WXB3?tag=deskfinds0d-20",
     description:
-      "The YEELIGHT bar offers CRI 95 and a full 2700K to 6500K color temperature range at $25.99, which makes it the best value for accurate desk lighting in this roundup. Stepless dimming allows smooth brightness adjustment rather than fixed brightness steps, giving more precise control over lighting levels.\n\nThe RG0 blue light safety certification indicates reduced blue light output compared to uncertified bars, which is relevant for buyers sensitive to blue light during long work sessions. At 286 reviews it is less validated than the main Quntis model, but the 4.6-star rating is consistent.",
+      "The YEELIGHT bar offers CRI 95 and a full 2700K to 6500K color temperature range at a competitive price, which makes it the best value for accurate desk lighting in this roundup. Stepless dimming allows smooth brightness adjustment rather than fixed brightness steps, giving more precise control over lighting levels. The RG0 blue light safety certification indicates reduced blue light output compared to uncertified bars, which is relevant for buyers sensitive to blue light during long work sessions. At 286 reviews it is less validated than the main Quntis model, but the 4.6-star rating is consistent.",
     specs: ["CRI 95", "78 LEDs", "Stepless dimming", "2700K-6500K", "RG0 blue light safety", "Touch control"],
     pros: [
       "Lowest price in roundup at $25.99",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/quntis-with-remote.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CLNGTPLW?tag=deskfinds0d-20",
     description:
-      "The Quntis remote model adds a wireless remote to the standard Quntis feature set, allowing brightness and color temperature changes from across the desk without touching the bar. Auto-dimming provides automatic adjustment when ambient light changes, and the 84 LED count delivers even illumination across the bar length.\n\nA night light mode reduces output to a very low level suitable for late-night use without full desk brightness, and a 2-hour timer allows automatic shut-off. At $31.99 it is the most affordable wireless remote option in this category.",
+      "The Quntis remote model adds a wireless remote to the standard Quntis feature set, allowing brightness and color temperature changes from across the desk without touching the bar. Auto-dimming provides automatic adjustment when ambient light changes, and the 84 LED count delivers even illumination across the bar length. A night light mode reduces output to a very low level suitable for late-night use without full desk brightness, and a 2-hour timer allows automatic shut-off. It is the most affordable wireless remote option in this category.",
     specs: ["Wireless remote", "84 LEDs", "Auto-dimming", "CRI 95", "Night light mode", "2-hour timer"],
     pros: [
       "Wireless remote under $35 - best value remote option",
@@ -174,7 +174,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/lymax-light-bar.webp`,
     amazonUrl: "https://www.amazon.com/dp/B098SWWGJB?tag=deskfinds0d-20",
     description:
-      "The LYMAX bar uses a gravity damper clip that self-adjusts to different monitor thicknesses without requiring manual tightening, which simplifies installation compared to bars with fixed clip mechanisms. USB-C power input works with a wider range of desk power sources than USB-A only bars.\n\nThree auto dimming modes let the sensor switch between preset brightness levels based on ambient light rather than continuously adjusting, which some buyers prefer for its more predictable behavior. At $29.99 with 165 reviews it is a newer option with less buyer history than the Quntis alternatives.",
+      "The LYMAX bar uses a gravity damper clip that self-adjusts to different monitor thicknesses without requiring manual tightening, which simplifies installation compared to bars with fixed clip mechanisms. USB-C power input works with a wider range of desk power sources than USB-A only bars. Three auto dimming modes let the sensor switch between preset brightness levels based on ambient light rather than continuously adjusting, which some buyers prefer for its more predictable behavior. At a competitive price with 165 reviews it is a newer option with less buyer history than the Quntis alternatives.",
     specs: ["USB-C powered", "3 auto dimming modes", "2900K-6000K", "60 LEDs", "Gravity damper clip", "Touch control"],
     pros: [
       "Gravity damper clip for tool-free installation",
@@ -228,7 +228,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/samphon-rgb.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0G4ZYSP7J?tag=deskfinds0d-20",
     description:
-      "The SAMPHON bar is a dual-light design that includes both front desk illumination and rear RGB effects in a single unit at $16.99, making it the only sub-$20 option in this roundup with both lighting functions. Nine RGB backlight modes and three white color temperatures cover basic lighting needs for budget gaming and home office setups.\n\nAt 82 reviews and a 4.1-star rating it is the least validated option in this roundup, which reflects its low price point and newer release. USB-C power input supports both curved and flat monitor use. Buyers who need reliable long-term performance should consider the Quntis or YEELIGHT options instead.",
+      "The SAMPHON bar is a dual-light design that includes both front desk illumination and rear RGB effects in a single unit at a competitive price, making it the only budget-tier option in this roundup with both lighting functions. Nine RGB backlight modes and three white color temperatures cover basic lighting needs for budget gaming and home office setups. At 82 reviews and a 4.1-star rating it is the least validated option in this roundup, which reflects its low price point and newer release. USB-C power input supports both curved and flat monitor use. Buyers who need reliable long-term performance should consider the Quntis or YEELIGHT options instead.",
     specs: ["Dual light design", "9 RGB backlight modes", "3 color temperatures", "USB-C powered", "Curved and flat monitors"],
     pros: [
       "Lowest price in roundup at $16.99",

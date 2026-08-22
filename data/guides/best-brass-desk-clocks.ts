@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified brass vs. brass-toned finish per listing", description: "We checked each product's described construction and flagged where confirmation of solid brass versus a brass-colored finish wasn't clear." },
-  { title: "Price against design substance", description: "We compared value from basic $9.99 metal clocks up to $39.99 mantel-style pieces." },
+  { title: "Price against design substance", description: "We compared value from basic budget-tier metal clocks up to premium mantel-style pieces." },
   { title: "Movement type and mechanism", description: "We noted where a clock uses a distinctive mechanism (like the auto-flip mooas pick) versus a standard dial." },
   { title: "Review volume and rating together", description: "We weighted both metrics, since some budget options have far larger, more proven review histories than pricier alternatives." },
 ];

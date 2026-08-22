@@ -127,7 +127,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Flagged subscription requirements where explicitly stated", description: "We noted which listings explicitly advertise no subscription requirement versus those where this wasn't confirmed, since it's a real long-term cost factor." },
-  { title: "Compared confirmed screen sizes across a wide price range", description: "This category spans from a 10.1 inch $59.99 unit to a 21.5 inch $369.99 unit, and we compared value within and across these size tiers." },
+  { title: "Compared confirmed screen sizes across a wide price range", description: "This category spans from a 10.1 inch model at a competitive price unit to a 21.5 inch model at a competitive price unit, and we compared value within and across these size tiers." },
   { title: "Weighed brand track record where relevant", description: "We noted where a product comes from an established family-calendar brand (Skylight) versus general electronics brands entering the category." },
   { title: "Distinguished countertop displays from wall-mounted command centers", description: "The largest screen size here functions more like a wall-mounted family hub than the smaller countertop-oriented units." },
 ];

@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Verified genuine hanging-folder rail support", description: "We confirmed each product's file rail description rather than assuming any \"file box\" supports hanging folders." },
-  { title: "Compared across a wide, real price range", description: "This category genuinely spans from under $17 to nearly $57, and we compared value across that full range." },
+  { title: "Compared across a wide, real price range", description: "This category genuinely spans from at a budget-friendly price to premium and we compared value across that full range." },
   { title: "Brand reputation for filing products noted", description: "We flagged where a product comes from an established filing or storage brand (Pendaflex, Vaultz, IRIS USA, Staples)." },
   { title: "Review volume weighted heavily for the top picks", description: "We prioritized the Pendaflex and IRIS USA picks' substantial review bases." },
 ];

@@ -121,7 +121,7 @@ export const products: GuideProduct[] = [
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Applied a minimum rating threshold before considering price", description: "We required at least a 4.1 rating with meaningful review history before including any low-priced converter, rejecting cheap options that don't meet a basic quality bar." },
-  { title: "Distinguished this guide from our stricter Under $100 page", description: "This page covers a somewhat broader affordable price range with value as the organizing principle, while our Under $100 guide applies a hard price ceiling." },
+  { title: "Distinguished this guide from our stricter Under $100 page", description: "This page covers a somewhat broader affordable price range with value as the organizing principle, while our at a budget-friendly price guide applies a hard price ceiling." },
   { title: "Weighed review volume as genuine value evidence", description: "A large review base at a low price, like the VIVO top pick's over 15,000 reviews, is stronger evidence of real value than an unproven cheap listing." },
   { title: "Flagged where current pricing wasn't confirmed", description: "For one pick, we noted that price wasn't available in our specific data pull and recommended verifying directly on the listing." },
 ];

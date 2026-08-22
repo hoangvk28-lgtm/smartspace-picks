@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
-      "The FEZIBO uses a splice-board desktop, two panels joined at a center seam, which keeps manufacturing cost down but is worth checking for flex right at that seam if you plan to mount a heavy monitor arm near the center of the desk. Its white frame and maple-look top is a lighter aesthetic option among the mostly black desks in this list.\n\nAt under $100 with a large review base, it is a reasonable value pick for a moderately heavy single-monitor or light dual-monitor setup, though buyers running true heavy dual-PC rigs should lean toward the one-piece FLEXISPOT or the deeper SIAGO instead.\n\nLighter white and maple aesthetic option. Set against that, splice-board seam can flex under a centered heavy monitor arm. Both matter when comparing it to the other picks here.",
+      "The FEZIBO uses a splice-board desktop, two panels joined at a center seam, which keeps manufacturing cost down but is worth checking for flex right at that seam if you plan to mount a heavy monitor arm near the center of the desk. Its white frame and maple-look top is a lighter aesthetic option among the mostly black desks in this list. at a budget-friendly price with a large review base, it is a reasonable value pick for a moderately heavy single-monitor or light dual-monitor setup, though buyers running true heavy dual-PC rigs should lean toward the one-piece FLEXISPOT or the deeper SIAGO instead. Lighter white and maple aesthetic option. Set against that, splice-board seam can flex under a centered heavy monitor arm. Both matter when comparing it to the other picks here.",
     specs: [
       "48 x 24 inch desktop",
       "Splice-board top construction",
@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price at each capacity and size tier",
     description:
-      "Weighed desktop size, depth, and stated capacity against price across the $94.98 to $169.99 range in this list, rather than ranking on price or capacity alone.",
+      "Weighed desktop size, depth, and stated capacity against price across the range of price points in this comparison in this list, rather than ranking on price or capacity alone.",
   },
 ];
 

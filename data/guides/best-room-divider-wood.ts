@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51A1yxZgtlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH34Z6F5?tag=deskfinds0d-20",
     description:
-      "Aurra swaps traditional slats for an intricate mosaic pattern across a black-and-gold frame, the most upscale-looking design among the modern wood picks in this list. Engineered wood keeps the panels lighter than solid hardwood while the non-woven fabric backing adds opacity behind the decorative cutout pattern.\n\nAt 69.4 inches wide and 70.3 inches tall it's sized for a standard room split, and the hinge action moves smoothly from a flat straight line to a full zigzag fold. No assembly is required, and with 3,422 ratings at 4.6 stars it has one of the strongest review profiles in this list.\n\nNo assembly required. Set against that, priciest 4-panel pick in this list at $129.99. Both matter when comparing it to the other picks here.",
+      "Aurra swaps traditional slats for an intricate mosaic pattern across a black-and-gold frame, the most upscale-looking design among the modern wood picks in this list. Engineered wood keeps the panels lighter than solid hardwood while the non-woven fabric backing adds opacity behind the decorative cutout pattern. At 69.4 inches wide and 70.3 inches tall it's sized for a standard room split, and the hinge action moves smoothly from a flat straight line to a full zigzag fold. No assembly is required, and with 3,422 ratings at 4.6 stars it has one of the strongest review profiles in this list. No assembly required. Set against that, priciest 4-panel pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "69.4\"W x 70.3\"H, 4 panels",
       "Engineered wood + non-woven fabric",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/61HgXTWueOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B007KIWUIK?tag=deskfinds0d-20",
     description:
-      "The Rajasthan divider is hand-carved on both sides, the only pick in this list that looks equally finished from either direction, so there's no wrong side to face into a room. Mango wood over an MDF core gives it real heft, and at 80 inches wide it's also the widest hand-carved pick here.\n\nTwelve folding hinges let the panels move freely, and at 50 lbs it's the sturdiest, most substantial piece in this entire list, a genuine furniture-grade divider rather than a lightweight screen. No assembly is required despite the detailed carving.\n\nWidest hand-carved pick at 80\". That's a real strength, but weigh it against the flip side: most expensive pick in this list at $189.99.",
+      "The Rajasthan divider is hand-carved on both sides, the only pick in this list that looks equally finished from either direction, so there's no wrong side to face into a room. Mango wood over an MDF core gives it real heft, and at 80 inches wide it's also the widest hand-carved pick here. Twelve folding hinges let the panels move freely, and at 50 lbs it's the sturdiest, most substantial piece in this entire list, a genuine furniture-grade divider rather than a lightweight screen. No assembly is required despite the detailed carving. Widest hand-carved pick at 80\". That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
     specs: [
       "80\"W x 72\"H, 4 panels",
       "Mango wood + MDF",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518FUSm-OqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQ25W3P?tag=deskfinds0d-20",
     description:
-      "RHF's rattan-and-wood divider is the cheapest pick in this entire list at $34.28, yet still carries a strong 4.5-star rating across more than 2,000 reviews. Each panel is handmade by professional carpenters in a 5-medallion diamond weave pattern, giving it the most boho, rustic look of any pick here.\n\nAt 63 inches wide by 72 inches tall it's on the narrower side, and two-way hinges let it fold in either direction. No assembly is required, making it an easy first wood divider to try without a big investment.\n\nWorth calling out specifically: most boho/rustic look in this list. The catch is rattan weave is less durable than solid wood over years of use.",
+      "RHF's rattan-and-wood divider is the cheapest pick in this entire list at a competitive price, yet still carries a strong 4.5-star rating across more than 2,000 reviews. Each panel is handmade by professional carpenters in a 5-medallion diamond weave pattern, giving it the most boho, rustic look of any pick here. At 63 inches wide by 72 inches tall it's on the narrower side, and two-way hinges let it fold in either direction. No assembly is required, making it an easy first wood divider to try without a big investment. Worth calling out specifically: most boho/rustic look in this list. The catch is rattan weave is less durable than solid wood over years of use.",
     specs: [
       "63\"W x 72\"H, 4 panels",
       "Rattan + wood frame",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed wood quality, width, and included features like shelves against price, this list spans a $34.28 rattan weave up to a $189.99 hand-carved reversible panel.",
+    description: "Weighed wood quality, width, and included features like shelves against price, this list spans a rattan weave up to a hand-carved reversible panel.",
   },
 ];
 

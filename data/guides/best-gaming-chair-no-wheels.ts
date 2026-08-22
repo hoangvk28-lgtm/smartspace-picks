@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lK3VGFgWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RFNH2TX?tag=deskfinds0d-20",
     description:
-      "This is the same fixed-base RESPAWN 900 platform as the fabric version, but finished in bonded leather for a cleaner, more upscale look next to a TV console or media room setup. It shares the same independent 135 degree recline, pull-out footrest, and 360 degree swivel base, all without any wheels touching the floor.\n\nRated for 275 lbs and backed by the same 5-year warranty and 4,006-rating track record as the fabric model, it's the pick for buyers who prefer leather over fabric and don't mind paying a premium for it. Choose this over Pick 1 purely on material preference, since the mechanics are identical.\n\nWorth calling out specifically: upscale bonded leather finish. The catch is most expensive chair in this guide at $378.81.",
+      "This is the same fixed-base RESPAWN 900 platform as the fabric version, but finished in bonded leather for a cleaner, more upscale look next to a TV console or media room setup. It shares the same independent 135 degree recline, pull-out footrest, and 360 degree swivel base, all without any wheels touching the floor. Rated for 275 lbs and backed by the same 5-year warranty and 4,006-rating track record as the fabric model, it's the pick for buyers who prefer leather over fabric and don't mind paying a premium for it. Choose this over Pick 1 purely on material preference, since the mechanics are identical. Worth calling out specifically: upscale bonded leather finish. The catch is most expensive chair in this guide.",
     specs: [
       "Fixed base, no wheels",
       "Bonded leather upholstery",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VosJN1ELL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLG8H23J?tag=deskfinds0d-20",
     description:
-      "The RESPAWN 800 swaps the 900's footrest and deep recline for a simpler pedestal base that swivels a full 360 degrees and rocks back to 117 degrees, no wheels required either way. Flip-up armrests make it easier to get in and out of, and the high-back ergonomic shape carries over the same lumbar support as the pricier 900 series.\n\nAt $208.54 it undercuts both RESPAWN 900 versions while staying lighter and easier to reposition than a full recliner. For buyers who want RESPAWN's stationary build quality without paying for a footrest they may not use, the 800 is the better value.\n\nLighter and easier to reposition. Set against that, no separate footrest like the 900 series. Both matter when comparing it to the other picks here.",
+      "The RESPAWN 800 swaps the 900's footrest and deep recline for a simpler pedestal base that swivels a full 360 degrees and rocks back to 117 degrees, no wheels required either way. Flip-up armrests make it easier to get in and out of, and the high-back ergonomic shape carries over the same lumbar support as the pricier 900 series. It undercuts both RESPAWN 900 versions while staying lighter and easier to reposition than a full recliner. For buyers who want RESPAWN's stationary build quality without paying for a footrest they may not use, the 800 is the better value. Lighter and easier to reposition. Set against that, no separate footrest like the 900 series. Both matter when comparing it to the other picks here.",
     specs: [
       "Pedestal base, no wheels",
       "360° swivel, rocks to 117°",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51fgMLstK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WCTSX7G?tag=deskfinds0d-20",
     description:
-      "The VITESSE is a fixed-base racing-style recliner that reclines from 90 to 180 degrees like the BOSSIN, but at a lower price and with nearly 4,000 ratings backing it. Four non-marking plastic feet keep it stationary without any casters, and waterproof PU leather makes spills easy to wipe down.\n\nAt $124.98 with a headrest, lumbar support, and side storage bag included, it's the best-value stationary recliner in this guide relative to its review count. Assembly takes about 10 minutes, and it's backed by a 120-day warranty.\n\nFull 90-180° recline. That's a real strength, but weigh it against the flip side: only 120-day warranty, shorter than RESPAWN's 5 years.",
+      "The VITESSE is a fixed-base racing-style recliner that reclines from 90 to 180 degrees like the BOSSIN, but at a lower price and with nearly 4,000 ratings backing it. Four non-marking plastic feet keep it stationary without any casters, and waterproof PU leather makes spills easy to wipe down. At a competitive price with a headrest, lumbar support, and side storage bag included, it's the best-value stationary recliner in this guide relative to its review count. Assembly takes about 10 minutes, and it's backed by a 120-day warranty. Full 90-180° recline. That's a real strength, but weigh it against the flip side: only 120-day warranty, shorter than RESPAWN's 5 years.",
     specs: [
       "4 non-marking plastic feet, no wheels",
       "Reclines 90-180°",

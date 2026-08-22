@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jaFGKHJgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0874M3KW4?tag=deskfinds0d-20",
     description:
-      "Anker's 8-in-1 hub drives dual 4K displays over 2 HDMI ports for well under $60, with 85W power delivery and a Gigabit Ethernet port plus SD card reader. It's a compact, no-frills option for a home office that just needs two monitors working reliably.\n\nCheck your monitor's HDMI version before assuming full 60Hz on both displays at once, since HDMI 2.0 is required for 4K@60Hz while the more common HDMI 1.4 caps out at 4K@30Hz, and the weaker of the dock's output and the monitor's input always wins.\n\nThe standout detail is that compact footprint. Balancing that out, charger not included.",
+      "Anker's 8-in-1 hub drives dual 4K displays over 2 HDMI ports for well at a budget-friendly price, with 85W power delivery and a Gigabit Ethernet port plus SD card reader. It's a compact, no-frills option for a home office that just needs two monitors working reliably. Check your monitor's HDMI version before assuming full 60Hz on both displays at once, since HDMI 2.0 is required for 4K@60Hz while the more common HDMI 1.4 caps out at 4K@30Hz, and the weaker of the dock's output and the monitor's input always wins. The standout detail is that compact footprint. Balancing that out, charger not included.",
     specs: [
       "Dual 4K display support via 2x HDMI",
       "85W power delivery",

@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, padding, and storage style against price, from the $28.25 best-selling bamboo bench to the $125.99 solid rubberwood pick.",
+    description: "Weighed capacity, padding, and storage style against price, from the best-selling bamboo bench to the solid rubberwood pick.",
   },
 ];
 

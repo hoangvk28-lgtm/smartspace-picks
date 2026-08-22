@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ibESROACL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09T78LQYQ?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this list built to stack two monitors vertically rather than side by side, holding up to 40 inches and 7 to 22 lbs per monitor on a tall pole designed for that configuration. Vertical stacking suits a narrow desk where side-by-side placement would eat too much horizontal space.\n\nAt 485 dollars it is the most expensive arm in this list, and the tall pole height needs headroom, measure your ceiling and desk height before buying, since a stacked pair sits noticeably taller than any side-by-side dual arm here.\n\nWorth calling out specifically: saves horizontal desk space versus side-by-side. The catch is highest price in this list at $485.",
+      "This is the only pick in this list built to stack two monitors vertically rather than side by side, holding up to 40 inches and 7 to 22 lbs per monitor on a tall pole designed for that configuration. Vertical stacking suits a narrow desk where side-by-side placement would eat too much horizontal space. At 485 dollars it is the most expensive arm in this list, and the tall pole height needs headroom, measure your ceiling and desk height before buying, since a stacked pair sits noticeably taller than any side-by-side dual arm here. Worth calling out specifically: saves horizontal desk space versus side-by-side. The catch is highest price in this list.",
     specs: [
       "For 2 monitors up to 40\" each",
       "7 to 22 lb capacity per monitor",
@@ -105,7 +105,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Mr-S3C6XL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T5SY43L?tag=deskfinds0d-20",
     description:
-      "The FlowLift Dual fits 13 to 32 inch screens with full motion VESA 75x75/100x100 mounting and includes both a C-clamp and grommet base for each arm. Each side holds 4.4 to 19.8 lbs, enough for a standard 24-27 inch monitor pair but not for a mismatched heavy panel on one side.\n\nAt under $60 it is one of the cheapest true dual arms in this list, a reasonable starting point if you are running two similarly-sized standard monitors rather than an uneven pairing.\n\nBoth clamp and grommet base included. Set against that, 19.8 lb per-arm cap is tight for a heavier monitor on one side. Both matter when comparing it to the other picks here.",
+      "The FlowLift Dual fits 13 to 32 inch screens with full motion VESA 75x75/100x100 mounting and includes both a C-clamp and grommet base for each arm. Each side holds 4.4 to 19.8 lbs, enough for a standard 24-27 inch monitor pair but not for a mismatched heavy panel on one side. at a budget-friendly price it is one of the cheapest true dual arms in this list, a reasonable starting point if you are running two similarly-sized standard monitors rather than an uneven pairing. Both clamp and grommet base included. Set against that, 19.8 lb per-arm cap is tight for a heavier monitor on one side. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits 13 to 32\" screens",
       "4.4 to 19.8 lb capacity per arm",
@@ -137,7 +137,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41T9ePShJ2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK6DT5SF?tag=deskfinds0d-20",
     description:
-      "The FlowLift Pro Dual carries over the tool-free MechaSpring mount from HUANUO's single-arm pick, fitting 13 to 32 inch screens with tilt, swivel, and rotation on both arms. Max load is 19.8 lbs per side, matching the standard FlowLift Dual.\n\nAt $44.99 it costs more than the standard FlowLift Dual but skips the Allen key entirely for setup, a worthwhile tradeoff if you would rather spend 10 extra dollars than deal with tools.\n\nA genuine advantage here is that full tilt, swivel, and rotation range. The tradeoff is 19.8 lb per-arm cap, same ceiling as the cheaper FlowLift Dual.",
+      "The FlowLift Pro Dual carries over the tool-free MechaSpring mount from HUANUO's single-arm pick, fitting 13 to 32 inch screens with tilt, swivel, and rotation on both arms. Max load is 19.8 lbs per side, matching the standard FlowLift Dual. It costs more than the standard FlowLift Dual but skips the Allen key entirely for setup, a worthwhile tradeoff if you would rather spend 10 extra dollars than deal with tools. A genuine advantage here is that full tilt, swivel, and rotation range. The tradeoff is 19.8 lb per-arm cap, same ceiling as the cheaper FlowLift Dual.",
     specs: [
       "Fits 13 to 32\" screens",
       "Max load 19.8 lbs per arm",
@@ -169,7 +169,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yqyOXCyjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMT59SX2?tag=deskfinds0d-20",
     description:
-      "This HUANUO dual mount fits monitors up to 32 inches with each arm holding a max of 22 lbs, a notch above the FlowLift Dual picks and closer to what a mismatched pair of monitors might need on the heavier side. Height, tilt, swivel, and rotation are all adjustable with the advanced counterbalance system.\n\nAt $39.99 it undercuts the FlowLift Pro Dual on price while offering a slightly higher per-arm weight ceiling, making it a solid middle-ground pick for two monitors that are not perfectly matched in size.\n\nLower price than the FlowLift Pro Dual. That's a real strength, but weigh it against the flip side: still not rated for a significantly mismatched heavy-vs-light pairing.",
+      "This HUANUO dual mount fits monitors up to 32 inches with each arm holding a max of 22 lbs, a notch above the FlowLift Dual picks and closer to what a mismatched pair of monitors might need on the heavier side. Height, tilt, swivel, and rotation are all adjustable with the advanced counterbalance system. It undercuts the FlowLift Pro Dual on price while offering a slightly higher per-arm weight ceiling, making it a solid middle-ground pick for two monitors that are not perfectly matched in size. Lower price than the FlowLift Pro Dual. That's a real strength, but weigh it against the flip side: still not rated for a significantly mismatched heavy-vs-light pairing.",
     specs: [
       "Fits monitors up to 32\"",
       "Max 22 lbs per arm",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41KpK5JaEML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0855ZBPXD?tag=deskfinds0d-20",
     description:
-      "This is a second vertical stacking option in this list, fitting 17 to 32 inch monitors with a weight max of 19.8 lbs and ergonomic tilt, swivel, and rotate adjustment. It gives buyers who want the space-saving benefit of stacking without the 485 dollar Ergotron vertical arm's price tag.\n\nThe tradeoff for the lower price is a 32-inch top screen size versus the Ergotron vertical arm's 40-inch ceiling, and a lighter 19.8 lb capacity per monitor rather than 22 lbs.\n\nWorth calling out specifically: under $60, far cheaper than the Ergotron vertical arm. The catch is 32\" max screen size versus 40\" on the Ergotron vertical arm.",
+      "This is a second vertical stacking option in this list, fitting 17 to 32 inch monitors with a weight max of 19.8 lbs and ergonomic tilt, swivel, and rotate adjustment. It gives buyers who want the space-saving benefit of stacking without the 485 dollar Ergotron vertical arm's price tag. The tradeoff for the lower price is a 32-inch top screen size versus the Ergotron vertical arm's 40-inch ceiling, and a lighter 19.8 lb capacity per monitor rather than 22 lbs. Worth calling out specifically: at a budget-friendly price, far cheaper than the Ergotron vertical arm. The catch is 32\" max screen size versus 40\" on the Ergotron vertical arm.",
     specs: [
       "Fits 17 to 32\" monitors",
       "Weight max 19.8 lbs",
@@ -312,7 +312,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed per-arm capacity, mounting hardware, and stacking versus side-by-side flexibility against price, from a $34.99 VIVO mount to a $485 Ergotron vertical stacking arm.",
+    description: "Weighed per-arm capacity, mounting hardware, and stacking versus side-by-side flexibility against price, from a VIVO mount to a Ergotron vertical stacking arm.",
   },
 ];
 

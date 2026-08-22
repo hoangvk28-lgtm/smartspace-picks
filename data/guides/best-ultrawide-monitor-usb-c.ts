@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x4uwmvQpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQF8LRGZ?tag=deskfinds0d-20",
     description:
-      "The LG 34WR55QK-B is the cheapest USB-C ultrawide in this list at $299.99 while still covering the basics well, a curved VA panel at 3440x1440 and 100Hz with 65W USB-C Power Delivery, enough to charge most laptops through a single cable. Reader Mode reduces blue light for long reading sessions, and PbP lets you view two input sources side by side.\n\nLG's OnScreen Control software adds picture and input management from the desktop, and the stand adjusts for height and tilt. It's also the highest-rated pick in this entire guide, making it a strong default choice for a first USB-C ultrawide.\n\nHighest-rated pick in this entire guide at 4.6 stars. That's a real strength, but weigh it against the flip side: 65W PD may not fully charge larger 16\" laptops under heavy load.",
+      "The LG 34WR55QK-B is the cheapest USB-C ultrawide in this list while still covering the basics well, a curved VA panel at 3440x1440 and 100Hz with 65W USB-C Power Delivery, enough to charge most laptops through a single cable. Reader Mode reduces blue light for long reading sessions, and PbP lets you view two input sources side by side. LG's OnScreen Control software adds picture and input management from the desktop, and the stand adjusts for height and tilt. It's also the highest-rated pick in this entire guide, making it a strong default choice for a first USB-C ultrawide. Highest-rated pick in this entire guide at 4.6 stars. That's a real strength, but weigh it against the flip side: 65W PD may not fully charge larger 16\" laptops under heavy load.",
     specs: [
       "34\" VA curved, 3440x1440, 100Hz",
       "USB-C 65W Power Delivery",
@@ -290,7 +290,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value relative to price tier",
-    description: "Weighed features and wattage against price across a wide range in this list, from $299.99 to $1,225.66, to identify which picks earned their price step up.",
+    description: "Weighed features and wattage against price across a wide range in this list, across a range of price points, to identify which picks earned their price step up.",
   },
 ];
 

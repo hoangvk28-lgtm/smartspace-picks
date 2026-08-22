@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The HP DeskJet 4355 covers print, scan, and copy for under $70, with a 3-month Instant Ink trial that softens the usual cartridge cost for new owners. It's the lowest upfront cost in this list, making it a reasonable pick for genuinely light, occasional home printing.\n\nBecause it's a standard cartridge inkjet rather than an ink-tank model, infrequent use is the one thing to plan around: cartridges left idle for 2-4 weeks can dry out, triggering wasted cleaning cycles. Households that print a handful of pages a month should budget for that when comparing it against a pricier ink-tank printer.\n\nInstant Ink trial reduces initial cartridge spend. That's a real strength, but weigh it against the flip side: standard cartridges can dry out with infrequent use.",
+      "The HP DeskJet 4355 covers print, scan, and copy for at a budget-friendly price, with a 3-month Instant Ink trial that softens the usual cartridge cost for new owners. It's the lowest upfront cost in this list, making it a reasonable pick for genuinely light, occasional home printing. Because it's a standard cartridge inkjet rather than an ink-tank model, infrequent use is the one thing to plan around: cartridges left idle for 2-4 weeks can dry out, triggering wasted cleaning cycles. Households that print a handful of pages a month should budget for that when comparing it against a pricier ink-tank printer. Instant Ink trial reduces initial cartridge spend. That's a real strength, but weigh it against the flip side: standard cartridges can dry out with infrequent use.",
     specs: [
       "Wireless all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "As the only laser printer in this list, the Brother DCP-L2640DW is built for households that print mostly black-and-white text, homework, forms, shipping labels, at higher volume than an inkjet handles economically. Toner doesn't dry out sitting idle the way inkjet cartridges do, removing the idle-ink cost that affects every other pick here.\n\nDuplex printing and a mobile-ready design round it out, plus a refresh subscription trial for toner. The higher $209.99 upfront price only pays off if your household prints enough pages a month to offset it against a cheaper inkjet's higher per-page cost.\n\nLower cost per page at higher print volumes. That's a real strength, but weigh it against the flip side: highest upfront price in this list.",
+      "As the only laser printer in this list, the Brother DCP-L2640DW is built for households that print mostly black-and-white text, homework, forms, shipping labels, at higher volume than an inkjet handles economically. Toner doesn't dry out sitting idle the way inkjet cartridges do, removing the idle-ink cost that affects every other pick here. Duplex printing and a mobile-ready design round it out, plus a refresh subscription trial for toner. The higher a competitive price upfront price only pays off if your household prints enough pages a month to offset it against a cheaper inkjet's higher per-page cost. Lower cost per page at higher print volumes. That's a real strength, but weigh it against the flip side: highest upfront price in this list.",
     specs: [
       "Monochrome laser engine",
       "Duplex printing",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jXroCi2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3L93F2Q?tag=deskfinds0d-20",
     description:
-      "This is a Bluetooth label maker, not a general-purpose home printer, and it's included here specifically as a specialty labeling pick rather than a substitute for any of the printers above. It's genuinely useful for organizing pantry jars, storage bins, and file folders around the house from a phone app with multiple templates.\n\nAt under $17, it's a low-cost add-on for a household that already owns one of the printers in this list for actual document printing, not a replacement for one.\n\nA genuine advantage here is that compact and portable, no desk space required. The tradeoff is cannot print documents, photos, or full pages.",
+      "This is a Bluetooth label maker, not a general-purpose home printer, and it's included here specifically as a specialty labeling pick rather than a substitute for any of the printers above. It's genuinely useful for organizing pantry jars, storage bins, and file folders around the house from a phone app with multiple templates. at a budget-friendly price, it's a low-cost add-on for a household that already owns one of the printers in this list for actual document printing, not a replacement for one. A genuine advantage here is that compact and portable, no desk space required. The tradeoff is cannot print documents, photos, or full pages.",
     specs: [
       "Bluetooth wireless connection",
       "Mobile app with multiple templates",

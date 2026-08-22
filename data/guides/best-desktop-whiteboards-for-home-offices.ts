@@ -106,7 +106,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Writing area relative to home-office desk footprint", description: "We weighted usable writing area against realistic home-office desk size, which tends to be smaller than a corporate workstation." },
   { title: "Organizer features for dual-purpose desks", description: "We noted where a board includes storage, since a home-office desk often needs to serve multiple functions in less space." },
-  { title: "Price against home-office budgets", description: "We covered a wide price range, from under $10 to nearly $30, since home-office spending varies more than corporate procurement." },
+  { title: "Price against home-office budgets", description: "We covered a wide price range, from at a budget-friendly price to premium since home-office spending varies more than corporate procurement." },
   { title: "Review volume as reliability evidence", description: "We weighted established review history for confidence in each pick's build quality and durability." },
 ];
 

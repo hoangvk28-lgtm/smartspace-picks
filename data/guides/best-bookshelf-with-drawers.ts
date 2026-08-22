@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Ed-X-hfmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C88XTSMM?tag=deskfinds0d-20",
     description:
-      "The SUNMORY takes a tree-shaped design with 6 tiers branching upward, paired with 2 open storage cabinets at the base that can be joined together into a single wider unit. It's backed by a 2-year warranty with lifetime support, longer and more comprehensive coverage than most bookshelves in this price range.\n\nThe vintage faux-wood finish gives it a warmer look than the more industrial metal-frame picks in this list, and an anti-tip kit is included for securing it to the wall. At under $40, it's one of the better-reviewed options here.\n\nDistinctive tree-shaped silhouette. That's a real strength, but weigh it against the flip side: cabinets are open rather than enclosed with doors.",
+      "The SUNMORY takes a tree-shaped design with 6 tiers branching upward, paired with 2 open storage cabinets at the base that can be joined together into a single wider unit. It's backed by a 2-year warranty with lifetime support, longer and more comprehensive coverage than most bookshelves in this price range. The vintage faux-wood finish gives it a warmer look than the more industrial metal-frame picks in this list, and an anti-tip kit is included for securing it to the wall. at a budget-friendly price, it's one of the better-reviewed options here. Distinctive tree-shaped silhouette. That's a real strength, but weigh it against the flip side: cabinets are open rather than enclosed with doors.",
     specs: [
       "47.4\"H x 14.6\"W x 7.9\"D",
       "MDF construction",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51e7tFl1xkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRVY5SQ3?tag=deskfinds0d-20",
     description:
-      "The FINETONES is the widest pick in this list at 39.4 inches, giving it a double-wide layout with 4 wrap-around drawers plus 8 open shelves for 12 total storage zones. Each shelf is rated to hold roughly 9 to 12 books, and the thickened engineered wood panels keep the frame rigid across such a wide span.\n\nSmooth metal handles and an included anti-reverse belt round out the build quality. If you need to consolidate a large book and media collection into one wide piece rather than several narrow ones, this is the roomiest option here.\n\n4 drawers plus 8 open shelves for 12 storage zones. On the other hand, most expensive pick in this list at $159.99. Neither should be a surprise once you know to look for it.",
+      "The FINETONES is the widest pick in this list at 39.4 inches, giving it a double-wide layout with 4 wrap-around drawers plus 8 open shelves for 12 total storage zones. Each shelf is rated to hold roughly 9 to 12 books, and the thickened engineered wood panels keep the frame rigid across such a wide span. Smooth metal handles and an included anti-reverse belt round out the build quality. If you need to consolidate a large book and media collection into one wide piece rather than several narrow ones, this is the roomiest option here. 4 drawers plus 8 open shelves for 12 storage zones. On the other hand, most expensive pick in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "39.4\"W x 11.8\"D x 70.8\"H",
       "Engineered wood, thickened panels",

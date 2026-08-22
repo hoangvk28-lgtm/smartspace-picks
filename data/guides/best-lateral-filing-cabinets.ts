@@ -327,7 +327,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   {
     title: "Value for price",
     description:
-      "Weighed genuine lateral versus vertical construction, drawer count, and finish quality against price across the $52.99 to $129.99 range in this list.",
+      "Weighed genuine lateral versus vertical construction, drawer count, and finish quality against price across the range of price points in this comparison in this list.",
   },
 ];
 

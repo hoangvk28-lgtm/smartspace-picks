@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "15,583",
     imageUrl: "https://m.media-amazon.com/images/I/41Eh8j3wCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VMNYMY3?tag=deskfinds0d-20",
-    description: "A compact 26 inch platform with the largest review base in our research, plenty of surface area for a laptop plus an external keyboard and mouse.\n\nIt earns the top spot in this comparison over Mount-It! Standing Desk Converter for one main reason. Largest review base of any converter in our research. On price, it's priced at $107.99, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: Enough surface for a laptop plus external keyboard. On the other side, Raising the laptop alone likely leaves the built-in keyboard too high for neutral typing. That's the main tradeoff to weigh against everything above.",
+    description: "A compact 26 inch platform with the largest review base in our research, plenty of surface area for a laptop plus an external keyboard and mouse. It earns the top spot in this comparison over Mount-It! Standing Desk Converter for one main reason. Largest review base of any converter in our research. On value, which is worth weighing if cost is your deciding factor between the two. Worth knowing before you decide: Enough surface for a laptop plus external keyboard. On the other side, Raising the laptop alone likely leaves the built-in keyboard too high for neutral typing. That's the main tradeoff to weigh against everything above.",
     specs: ["26 inch platform"],
     pros: ["Largest review base of any converter in our research","Enough surface for a laptop plus external keyboard"],
     cons: ["Raising the laptop alone likely leaves the built-in keyboard too high for neutral typing"],
@@ -122,7 +122,7 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Distinguished laptop screen elevation from full laptop ergonomics", description: "We flagged that raising a laptop alone often leaves the built-in keyboard at an awkward height, and noted where an external keyboard is effectively necessary for neutral typing posture." },
   { title: "Compared platform sizes for laptop-only versus laptop-plus-keyboard use", description: "We separated compact single-top designs suited to laptop-only setups from wider platforms that comfortably fit a laptop alongside an external keyboard and mouse." },
-  { title: "Weighed price against platform size for this specific use case", description: "We compared value across the range from a $59.99 basic riser to a $159.99 wider platform suited to a full external keyboard setup." },
+  { title: "Weighed price against platform size for this specific use case", description: "We compared value across the range from a basic riser to a wider platform suited to a full external keyboard setup." },
   { title: "Noted where an ergonomic-focused brand's design specifically suits laptop workflows", description: "We flagged Mount-It!'s compact ergonomic designs as relevant options for laptop-focused buyers." },
 ];
 

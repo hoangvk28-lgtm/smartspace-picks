@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/jerry-maggie-adjustable.webp`,
     amazonUrl: "https://www.amazon.com/dp/B07LGCSLVZ?tag=deskfinds0d-20",
     description:
-      "The Jerry and Maggie organizer hutch uses an adjustable-width design so it can be configured to fit a range of small desk surfaces without measuring first. Multiple shelf options let buyers configure it for books, small bins, or supplies depending on what the desk needs.\n\nAt under $25, it is the most affordable full hutch in this roundup and works well for basic vertical storage on a tight budget. Build quality reflects the price, and buyers report it is best suited for lighter items like notebooks, folders, and small decor.",
+      "The Jerry and Maggie organizer hutch uses an adjustable-width design so it can be configured to fit a range of small desk surfaces without measuring first. Multiple shelf options let buyers configure it for books, small bins, or supplies depending on what the desk needs. at a budget-friendly price, it is the most affordable full hutch in this roundup and works well for basic vertical storage on a tight budget. Build quality reflects the price, and buyers report it is best suited for lighter items like notebooks, folders, and small decor.",
     specs: ["Adjustable width", "Multiple shelf options", "Compact design"],
     pros: [
       "Adjustable width fits various desk sizes",
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/snughome-4tier-pegboard.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CYSXTHCX?tag=deskfinds0d-20",
     description:
-      "This Snughome hutch adds a pegboard panel alongside the four open shelves, giving hooks and pegs for hanging headphones, cables, small tools, and accessories at desk height. The 38.6-inch width matches the standard small-desk footprint well and the hook-ready panel reduces clutter on the shelf surfaces themselves.\n\nIt costs $5 more than the plain rustic model and shares the same four-tier format. Buyers who have a lot of small accessories tend to prefer the pegboard version, while those who want pure shelf space opt for the standard model.",
+      "This Snughome hutch adds a pegboard panel alongside the four open shelves, giving hooks and pegs for hanging headphones, cables, small tools, and accessories at desk height. The 38.6-inch width matches the standard small-desk footprint well and the hook-ready panel reduces clutter on the shelf surfaces themselves. It costs a bit more than the plain rustic model and shares the same four-tier format. Buyers who have a lot of small accessories tend to prefer the pegboard version, while those who want pure shelf space opt for the standard model.",
     specs: ["38.6 inches wide", "4 tiers", "Pegboard panel", "Hook-ready"],
     pros: [
       "Pegboard panel for hanging accessories",
@@ -143,7 +143,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/snughome-black-pegboard.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0D9882DJK?tag=deskfinds0d-20",
     description:
-      "The black pegboard version of the Snughome hutch brings the same four-shelf, pegboard-panel format in an all-black finish suited to dark or minimal desk setups. It pairs well with black monitors, dark-wood desks, and gaming-adjacent home office configurations.\n\nAt $56.99 it is the priciest hutch in this roundup, but the black finish is not easily replicated with paint on lighter-finish options. Buyers looking for a cohesive dark-desk look tend to find it worth the premium over the rustic brown models.",
+      "The black pegboard version of the Snughome hutch brings the same four-shelf, pegboard-panel format in an all-black finish suited to dark or minimal desk setups. It pairs well with black monitors, dark-wood desks, and gaming-adjacent home office configurations. It is the priciest hutch in this roundup, but the black finish is not easily replicated with paint on lighter-finish options. Buyers looking for a cohesive dark-desk look tend to find it worth the premium over the rustic brown models.",
     specs: ["38.6 inches wide", "Black finish", "Pegboard panel"],
     pros: [
       "Black finish for dark-themed desks",
@@ -168,7 +168,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/nutikas-adjustable.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0DR31GC3D?tag=deskfinds0d-20",
     description:
-      "The NUTIKAS organizer extends from 16 to 28 inches wide, making it the most adaptable hutch in this roundup for unusually narrow desks or desks where a full 37-inch hutch would feel oversized. Three shelves give enough vertical storage for reference books, a small plant, and basic supplies.\n\nThe adjustable range is its main advantage over fixed-width models, and at under $26 it undercuts the Jerry and Maggie on price. Buyers with desks under 30 inches wide tend to find this format works better than any fixed-width model.",
+      "The NUTIKAS organizer extends from 16 to 28 inches wide, making it the most adaptable hutch in this roundup for unusually narrow desks or desks where a full 37-inch hutch would feel oversized. Three shelves give enough vertical storage for reference books, a small plant, and basic supplies. The adjustable range is its main advantage over fixed-width models, and at a budget-friendly price it undercuts the Jerry and Maggie on price. Buyers with desks under 30 inches wide tend to find this format works better than any fixed-width model.",
     specs: ["Adjustable 16-28 inches", "3 shelves", "Compact footprint"],
     pros: [
       "Adjustable 16-28 inch width range",
@@ -194,7 +194,7 @@ export const products: GuideProduct[] = [
     imageUrl: `${BASE}/furinno-5shelf.webp`,
     amazonUrl: "https://www.amazon.com/dp/B0CZNX653N?tag=deskfinds0d-20",
     description:
-      "This compact Furinno hutch offers five open shelves at the lowest price point in the roundup, under $18, making it the most minimal and affordable way to add vertical storage to a small desk. The lightweight build assembles quickly and is easy to reposition if the desk layout changes.\n\nIt has fewer width options than the 37-inch model and is better suited to desks where the hutch sits off to one side rather than spanning the full width behind a monitor. Buyers who want basic paper and supply storage without spending more than $20 rate it well for its intended use.",
+      "This compact Furinno hutch offers five open shelves at the lowest price point in the roundup, at a budget-friendly price, making it the most minimal and affordable way to add vertical storage to a small desk. The lightweight build assembles quickly and is easy to reposition if the desk layout changes. It has fewer width options than the 37-inch model and is better suited to desks where the hutch sits off to one side rather than spanning the full width behind a monitor. Buyers who want basic paper and supply storage without spending more than a competitive price rate it well for its intended use.",
     specs: ["5 open shelves", "Lightweight", "Easy assembly"],
     pros: [
       "Under $18, lowest price in the roundup",

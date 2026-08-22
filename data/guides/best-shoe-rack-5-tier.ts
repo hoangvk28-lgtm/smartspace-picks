@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51pYRcM954L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N51B6G?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is the only pick in this list with tilt-adjustable mesh shelves, letting you angle each tier for easier viewing or better airflow. Engineered wood combined with metal mesh gives it an industrial look while the mesh itself helps reduce odor by letting air move around stored shoes.\n\nWith a 4.7-star rating, it's the highest-rated wood-and-mesh pick in this list. The top shelf holds up to 44 lbs, while the mesh shelves below are rated for 22 lbs each, a sensible split for heavier daily shoes on top and lighter pairs below.\n\nOnly pick in this list with tilt-adjustable shelves. Set against that, priciest pick in this list at $43.09. Both matter when comparing it to the other picks here.",
+      "The HOOBRO is the only pick in this list with tilt-adjustable mesh shelves, letting you angle each tier for easier viewing or better airflow. Engineered wood combined with metal mesh gives it an industrial look while the mesh itself helps reduce odor by letting air move around stored shoes. With a 4.7-star rating, it's the highest-rated wood-and-mesh pick in this list. The top shelf holds up to 44 lbs, while the mesh shelves below are rated for 22 lbs each, a sensible split for heavier daily shoes on top and lighter pairs below. Only pick in this list with tilt-adjustable shelves. Set against that, priciest pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "29.5\"W x 11.8\"D x 31.8\"H",
       "Engineered wood + metal mesh",
@@ -322,7 +322,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Value for price",
-    description: "Weighed capacity, material, and features against price, from the $13.99 SONGMICS stackable unit up to the $43.09 HOOBRO adjustable mesh rack.",
+    description: "Weighed capacity, material, and features against price, from the SONGMICS stackable unit up to the HOOBRO adjustable mesh rack.",
   },
 ];
 

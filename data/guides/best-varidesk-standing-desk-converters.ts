@@ -91,7 +91,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Confirmed current model availability before ranking", description: "We only included VariDesk converters we could verify as currently sold, rather than repeating reviews of discontinued models that remain indexed elsewhere." },
   { title: "Distinguished the two-tier Essential design from single-platform Pro Plus models", description: "These represent genuinely different ergonomic approaches within the same brand, and we did not treat them as interchangeable." },
   { title: "Weighed the electric model's small review count honestly", description: "The only confirmed current electric VariDesk has just 27 reviews, and we flagged this directly rather than treating its rating with the same confidence as the established Pro Plus models." },
-  { title: "Compared price against the specific mechanism and platform size", description: "VariDesk pricing spans from an unconfirmed Essential price to $549 for the largest Pro Plus, and we compared value within that context." },
+  { title: "Compared price against the specific mechanism and platform size", description: "VariDesk pricing spans from an unconfirmed Essential price competitively for the largest Pro Plus, and we compared value within that context." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

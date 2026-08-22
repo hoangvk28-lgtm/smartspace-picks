@@ -107,7 +107,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Separated genuinely different silver product types", description: "We distinguished digital LED clocks, mirror-surface designs, and metal/stainless steel construction rather than treating \"silver\" as one uniform product category." },
   { title: "Material verified per listing", description: "We noted where a product uses genuine metal or stainless steel versus a wooden body with a silver-toned digital display." },
   { title: "Review volume and rating together", description: "We weighted both metrics heavily, flagging where a premium-material product has a much smaller review base than the more established digital options." },
-  { title: "Price against actual material quality", description: "We compared value across a wide range, from under $10 basic clocks to over $36 stainless steel and marble pieces." },
+  { title: "Price against actual material quality", description: "We compared value across a wide range, from at a budget-friendly price basic clocks to at a premium price stainless steel and marble pieces." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }

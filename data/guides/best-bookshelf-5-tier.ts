@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lGE4uN00L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPM7T7D8?tag=deskfinds0d-20",
     description:
-      "At just 15.3 inches wide, the Furologee is the most compact pick in this list, built from P2 MDF with a metal frame that includes both X-bars and 4 side poles to guard against items falling off any edge, not just the front or back. It's rated for 30 lbs per shelf, 150 lbs total, and includes 4 adjustable feet along with an anti-tip kit.\n\nThe matte rustic industrial finish and low $39.99 price make it an easy pick for tight corners, hallways, or apartments where floor space is at a premium.\n\nWorth calling out specifically: x-bars plus 4 side poles guard all sides. The catch is shortest pick in this list at 48\" tall.",
+      "At just 15.3 inches wide, the Furologee is the most compact pick in this list, built from P2 MDF with a metal frame that includes both X-bars and 4 side poles to guard against items falling off any edge, not just the front or back. It's rated for 30 lbs per shelf, 150 lbs total, and includes 4 adjustable feet along with an anti-tip kit. The matte rustic industrial finish and low price make it an easy pick for tight corners, hallways, or apartments where floor space is at a premium. Worth calling out specifically: x-bars plus 4 side poles guard all sides. The catch is shortest pick in this list at 48\" tall.",
     specs: [
       "15.3\"W x 10.6\"D x 48\"H",
       "P2 MDF + metal frame",
@@ -182,7 +182,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510fPP+lFkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDP61M2?tag=deskfinds0d-20",
     description:
-      "The Shintenchi is built from FSC-certified wood, meeting sustainable-sourcing standards, and carries the highest per-shelf capacity among straight bookshelves in this list at 40 lbs per shelf, 200 lbs total. An X-shaped back rod runs across the rear of the frame, which the brand says eliminates wobble entirely rather than just reducing it.\n\nThe waterproof, anti-scratch surface and anti-rust coated metal frame make it a durable pick at just over $40, and the rustic brown finish matches several other picks in this list if you're buying multiple units for a matched look.\n\nA genuine advantage here is that fSC-certified sustainable wood. The tradeoff is no drawers or enclosed storage.",
+      "The Shintenchi is built from FSC-certified wood, meeting sustainable-sourcing standards, and carries the highest per-shelf capacity among straight bookshelves in this list at 40 lbs per shelf, 200 lbs total. An X-shaped back rod runs across the rear of the frame, which the brand says eliminates wobble entirely rather than just reducing it. The waterproof, anti-scratch surface and anti-rust coated metal frame make it a durable pick at just at a premium price, and the rustic brown finish matches several other picks in this list if you're buying multiple units for a matched look. A genuine advantage here is that fSC-certified sustainable wood. The tradeoff is no drawers or enclosed storage.",
     specs: [
       "23.6\"W x 11.8\"D x 62.2\"H",
       "FSC-certified wood + metal frame",
@@ -214,7 +214,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YThBuGdBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQP34Q9D?tag=deskfinds0d-20",
     description:
-      "The DUMOS is the cheapest full-size 5-tier bookshelf in this list at $39.98, combining a metal frame with particle board shelving and the same waterproof, anti-scratch coating found on pricier picks. An anti-tipping tool and anti-rust metal frame come standard, and the brand includes an assembly video, which speeds up setup compared to written instructions alone.\n\nAt 30 lbs per shelf, it handles a typical mixed book and decor collection without issue, and the rustic brown finish keeps it visually consistent with several other picks here.\n\nAssembly video speeds up setup. On the other hand, lower rating than most other picks in this list at 4.5 stars. Neither should be a surprise once you know to look for it.",
+      "The DUMOS is the cheapest full-size 5-tier bookshelf in this list, combining a metal frame with particle board shelving and the same waterproof, anti-scratch coating found on pricier picks. An anti-tipping tool and anti-rust metal frame come standard, and the brand includes an assembly video, which speeds up setup compared to written instructions alone. At 30 lbs per shelf, it handles a typical mixed book and decor collection without issue, and the rustic brown finish keeps it visually consistent with several other picks here. Assembly video speeds up setup. On the other hand, lower rating than most other picks in this list at 4.5 stars. Neither should be a surprise once you know to look for it.",
     specs: [
       "23.62\"W x 11.81\"D x 62.2\"H",
       "Metal + particle board",
@@ -247,7 +247,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51DwhuknToL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQCB1MTT?tag=deskfinds0d-20",
     description:
-      "The 4NM is the only pick in this list that requires zero assembly, unfolding into a full 5-tier bookshelf in about 30 seconds straight out of the box. When you no longer need it, or you're moving, it folds back down to just 2 inches thick for flat storage or transport, a genuinely unique feature among the picks in this guide.\n\nP2 MDF panels over a metal frame are finished with scratch- and stain-resistant coating, and adjustable foot pads keep it level on uneven flooring. The premium price reflects the folding mechanism, but for renters who move frequently, it may be worth it.\n\nUnfolds in 30 seconds. That's a real strength, but weigh it against the flip side: most expensive pick in this list at $149.99.",
+      "The 4NM is the only pick in this list that requires zero assembly, unfolding into a full 5-tier bookshelf in about 30 seconds straight out of the box. When you no longer need it, or you're moving, it folds back down to just 2 inches thick for flat storage or transport, a genuinely unique feature among the picks in this guide. P2 MDF panels over a metal frame are finished with scratch- and stain-resistant coating, and adjustable foot pads keep it level on uneven flooring. The premium price reflects the folding mechanism, but for renters who move frequently, it may be worth it. Unfolds in 30 seconds. That's a real strength, but weigh it against the flip side: most expensive pick in this list.",
     specs: [
       "23\"W x 11.6\"D x 65.7\"H",
       "P2 MDF + metal frame",
