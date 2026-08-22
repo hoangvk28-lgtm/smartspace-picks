@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EsewSK2nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZWK2TQT?tag=deskfinds0d-20",
     description:
-      "The Ergo K860 uses a row-staggered split layout, meaning the keys stay in familiar rows rather than switching to a column-staggered grid, which keeps the relearning curve much shorter than a fully ortholinear board. A fixed, domed split shape plus built-in negative tilt handles most of the ergonomic benefit without asking you to relearn key positions.\n\nThis is the easiest true split in this list to adopt, which makes it the practical starting point for a touch typist who wants real ergonomic benefit without months of retraining.",
+      "The Ergo K860 uses a row-staggered split layout, meaning the keys stay in familiar rows rather than switching to a column-staggered grid, which keeps the relearning curve much shorter than a fully ortholinear board. A fixed, domed split shape plus built-in negative tilt handles most of the ergonomic benefit without asking you to relearn key positions.\n\nThis is the easiest true split in this list to adopt, which makes it the practical starting point for a touch typist who wants real ergonomic benefit without months of retraining.\n\nBuilt-in negative tilt reduces wrist extension. That's a real strength, but weigh it against the flip side: split angle is fixed, not adjustable.",
     specs: [
       "Row-staggered split layout",
       "Fixed domed shape with negative tilt",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31j7o6HXFTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT444BH6?tag=deskfinds0d-20",
     description:
-      "The Advantage360 Professional is a fully separable, column-staggered, contoured split keyboard with quiet mechanical switches and open-source programmable firmware, the deepest ergonomic and customization option in this list. Adjustable tenting and a genuinely contoured key well shape the layout around your hand rather than the other way around.\n\nThis is the most expensive pick here and asks the most of a new user, since column-staggered layouts require relearning key positions from scratch, but it also offers the most complete ergonomic control for someone who has already decided a full split is worth the investment.",
+      "The Advantage360 Professional is a fully separable, column-staggered, contoured split keyboard with quiet mechanical switches and open-source programmable firmware, the deepest ergonomic and customization option in this list. Adjustable tenting and a genuinely contoured key well shape the layout around your hand rather than the other way around.\n\nThis is the most expensive pick here and asks the most of a new user, since column-staggered layouts require relearning key positions from scratch, but it also offers the most complete ergonomic control for someone who has already decided a full split is worth the investment.\n\nWorth calling out specifically: fully programmable open-source firmware. The catch is most expensive pick in this list by a wide margin.",
     specs: [
       "Fully separable, column-staggered layout",
       "Contoured key wells",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41V9ZhVnSZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CMALD3E?tag=deskfinds0d-20",
     description:
-      "The Freestyle2 is a row-staggered split keyboard connected by a cable, letting the two halves separate up to 9 inches while keeping familiar key rows, a reasonable middle step between a fixed split and a fully independent one. It's wired, which removes battery concerns for a desk that stays in one place.\n\nAs a step up from a wave keyboard but well short of a fully programmable board, it's a practical entry point for someone testing whether true separation actually helps before spending on a premium contoured model.",
+      "The Freestyle2 is a row-staggered split keyboard connected by a cable, letting the two halves separate up to 9 inches while keeping familiar key rows, a reasonable middle step between a fixed split and a fully independent one. It's wired, which removes battery concerns for a desk that stays in one place.\n\nAs a step up from a wave keyboard but well short of a fully programmable board, it's a practical entry point for someone testing whether true separation actually helps before spending on a premium contoured model.\n\nFamiliar row-staggered layout, easier relearning. Set against that, wired only. Both matter when comparing it to the other picks here.",
     specs: [
       "Row-staggered, cable-connected split",
       "Up to 9\" of halves separation",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41t-gi6gelL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVQ99JB5?tag=deskfinds0d-20",
     description:
-      "Wave Keys is not a true split, its wave-curved keys stay fixed in one piece, but it's the gentlest possible first step for someone who has never tried an ergonomic layout and wants to see if the concept helps before buying a true split board. The built-in cushioned rest and short adjustment period make it low-risk.\n\nBuyers who find real benefit here and want more separation can step up to a row-staggered true split like the Freestyle2 or Ergo K860 next, using this as a deliberate entry point in a longer progression rather than a final split keyboard.",
+      "Wave Keys is not a true split, its wave-curved keys stay fixed in one piece, but it's the gentlest possible first step for someone who has never tried an ergonomic layout and wants to see if the concept helps before buying a true split board. The built-in cushioned rest and short adjustment period make it low-risk.\n\nBuyers who find real benefit here and want more separation can step up to a row-staggered true split like the Freestyle2 or Ergo K860 next, using this as a deliberate entry point in a longer progression rather than a final split keyboard.\n\nA genuine advantage here is that lowest price entry point. The tradeoff is not a true split, halves are fixed together.",
     specs: [
       "One-piece wave layout",
       "Built-in cushioned palm rest",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nJBsy2cuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3PCSK8B?tag=deskfinds0d-20",
     description:
-      "The Nulea is the cheapest true split keyboard in this list, a row-staggered layout with a cushioned wrist rest and both Bluetooth and USB-C wireless connectivity. It's a hinged design rather than fully independent halves, so separation is more limited than a cable-connected model.\n\nRechargeable via USB-C rather than disposable batteries is a genuine convenience at this price point, and the row-staggered layout keeps the relearning curve manageable for a first true split keyboard.",
+      "The Nulea is the cheapest true split keyboard in this list, a row-staggered layout with a cushioned wrist rest and both Bluetooth and USB-C wireless connectivity. It's a hinged design rather than fully independent halves, so separation is more limited than a cable-connected model.\n\nRechargeable via USB-C rather than disposable batteries is a genuine convenience at this price point, and the row-staggered layout keeps the relearning curve manageable for a first true split keyboard.\n\nUSB-C rechargeable, no disposable batteries. That's a real strength, but weigh it against the flip side: hinged design limits separation vs. a cable-connected split.",
     specs: [
       "Row-staggered, hinged split",
       "Cushioned wrist rest",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41O4m5cUOVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BKKYRQ31?tag=deskfinds0d-20",
     description:
-      "The Arteck splits into two halves connected by a hinge that supports an adjustable tenting angle, letting each side tilt outward to reduce forearm pronation more than a fixed-angle split can. Most true split keyboards in this price range fix the angle at the factory, so this stands out on that spec alone.\n\nA cushioned wrist and palm rest runs the width of both halves, and the row-staggered layout keeps the relearning curve reasonable. It's a strong middle ground between the cheapest entry-level splits and a premium contoured board.",
+      "The Arteck splits into two halves connected by a hinge that supports an adjustable tenting angle, letting each side tilt outward to reduce forearm pronation more than a fixed-angle split can. Most true split keyboards in this price range fix the angle at the factory, so this stands out on that spec alone.\n\nA cushioned wrist and palm rest runs the width of both halves, and the row-staggered layout keeps the relearning curve reasonable. It's a strong middle ground between the cheapest entry-level splits and a premium contoured board.\n\nWorth calling out specifically: true split shape for real forearm relief. The catch is windows-focused compatibility.",
     specs: [
       "Row-staggered, hinged true split",
       "Adjustable tenting angle",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310QWdQ0GbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0089ZLENA?tag=deskfinds0d-20",
     description:
-      "This version of the Freestyle2 ships with VIP3 lifters, an add-on kit that props each half up at an adjustable tenting angle, something the base Freestyle2 doesn't include on its own. It's still a row-staggered, cable-connected split, so the layout relearning stays manageable.\n\nThe lifters are the real upgrade here over the base 9-inch model, letting you dial in a tenting angle rather than typing flat, which is one of the most effective ways to reduce forearm pronation without jumping to a fully contoured board.",
+      "This version of the Freestyle2 ships with VIP3 lifters, an add-on kit that props each half up at an adjustable tenting angle, something the base Freestyle2 doesn't include on its own. It's still a row-staggered, cable-connected split, so the layout relearning stays manageable.\n\nThe lifters are the real upgrade here over the base 9-inch model, letting you dial in a tenting angle rather than typing flat, which is one of the most effective ways to reduce forearm pronation without jumping to a fully contoured board.\n\nFamiliar row-staggered layout. Set against that, pricier than the base Freestyle2 without lifters. Both matter when comparing it to the other picks here.",
     specs: [
       "Row-staggered, cable-connected split",
       "VIP3 tenting lifters included",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DqykmZM+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKCYLM55?tag=deskfinds0d-20",
     description:
-      "The Freestyle Edge RGB Plus is a row-staggered, cable-connected split with hot-swappable linear mechanical switches, RGB lighting, and full programmability, aimed at buyers who want split ergonomics without giving up a mechanical typing feel or gaming-oriented features. Mac keycaps and a lift kit ship in the box.\n\nA detachable palm support and the included lift kit give you tenting adjustment on top of the row-staggered layout's manageable relearning curve, making it one of the more complete mid-to-premium options in this list for someone who splits time between typing and gaming.",
+      "The Freestyle Edge RGB Plus is a row-staggered, cable-connected split with hot-swappable linear mechanical switches, RGB lighting, and full programmability, aimed at buyers who want split ergonomics without giving up a mechanical typing feel or gaming-oriented features. Mac keycaps and a lift kit ship in the box.\n\nA detachable palm support and the included lift kit give you tenting adjustment on top of the row-staggered layout's manageable relearning curve, making it one of the more complete mid-to-premium options in this list for someone who splits time between typing and gaming.\n\nA genuine advantage here is that lift kit included for tenting adjustment. The tradeoff is pricier than the non-mechanical split picks.",
     specs: [
       "Row-staggered, cable-connected split",
       "Hot-swappable linear mechanical switches",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Expect a real transition period, not instant typing speed",
-    explanation:
-      "Switching to a true split ortholinear layout commonly takes 4-8 weeks to regain 80% of prior typing speed, and some people never fully return to their old speed. Set that expectation before buying, especially with a column-staggered board like the Advantage360.",
+    "criterion": "Understand the difference between a fully split board and a fixed-gap split design",
+    "explanation": "\"Split keyboard\" covers a wide range of actual designs, some are two genuinely separate halves connected by a cable that you can position independently at your own preferred shoulder width, while others are a single fixed board with a gap molded into the middle at one preset width.\n\nThis distinction matters directly for the actual ergonomic benefit, a true split lets you match the gap to your own shoulder width for genuinely neutral wrist and shoulder positioning, while a fixed-gap design offers a smaller, preset benefit that may not match your body.\n\nCheck the listing specifically for whether the halves are truly separate and independently positionable, not just whether the word \"split\" appears in the title."
   },
   {
-    criterion: "There's an affordable entry path if $479 feels steep",
-    explanation:
-      "Premium split keyboards can run $300-400 plus, which is a real barrier for a first attempt. A wave keyboard like the Logitech Wave Keys is a reasonable stepping stone, and a row-staggered true split like the Freestyle2 or Nulea is the next step up before committing to a fully contoured, column-staggered board.",
+    "criterion": "Check tenting angle adjustability if forearm rotation strain is your actual concern",
+    "explanation": "Tenting refers to angling each half of the keyboard upward toward the center, which reduces forearm pronation (the twisting motion of resting your palms flat), and adjustable tenting legs or built-in stands let you dial in an angle that suits your specific comfort level, while a flat, non-tenting split keyboard still separates your hands but doesn't address forearm rotation at all.\n\nThis matters more if forearm or wrist strain from flat typing is the actual problem you're trying to solve, less if hand separation alone is your main goal.\n\nCheck whether tenting angle is adjustable and by how many degrees, not just whether the keyboard is described as \"ergonomic.\""
   },
   {
-    criterion: "Only touch typists benefit meaningfully",
-    explanation:
-      "If you hunt-and-peck rather than touch type, a split keyboard offers little of its intended benefit since the layout change assumes fixed finger-to-key assignments. Confirm you're a consistent touch typist before investing in a premium split board.",
+    "criterion": "Consider the real adjustment period before judging whether a split layout works for you",
+    "explanation": "Switching to a split keyboard involves a genuine adjustment period, typically one to three weeks, during which typing speed and accuracy commonly drop before the new hand positioning becomes natural, this is a normal part of the transition, not a sign the keyboard is a bad fit or poorly made.\n\nThis matters most for anyone whose job depends on fast, accurate typing, where a temporary speed drop during the adjustment period has a real short-term cost worth planning around.\n\nCheck reviews for mentions of how long the adjustment period took for reviewers with a similar typing-heavy workflow to yours, and consider trying the new layout during a lower-stakes work period rather than a deadline crunch."
   },
   {
-    criterion: "Column stagger is a much bigger jump than row stagger",
-    explanation:
-      "A row-staggered split, like the Ergo K860 or Freestyle2, keeps keys in the same staggered rows as a normal keyboard, so your fingers mostly land in familiar places. A column-staggered board like the Advantage360 rearranges keys into vertical columns, which requires relearning nearly every key position and takes considerably longer to adapt to.",
+    "criterion": "Match layout size (full-size, tenkeyless, or compact) to your actual number-pad and function-key usage",
+    "explanation": "Split keyboards come in full-size, tenkeyless (no number pad), and more compact layouts that also drop the function row or arrow keys, and this size choice is a real tradeoff between desk space and reduced mouse reach versus keys available without a modifier combination.\n\nThis matters directly if you regularly use a number pad for data entry or spreadsheets, a compact split layout without one adds real friction, while someone who never touches the number pad gains a shorter, more neutral reach to the mouse with a smaller layout.\n\nCheck the specific layout size and key count against your actual daily workflow, not just the general \"ergonomic\" category."
   },
   {
-    criterion: "Programmable firmware sounds appealing but has a real learning curve",
-    explanation:
-      "QMK and ZMK firmware on boards like the Advantage360 let you remap every key and build custom layers, but configuring it means understanding config files and keymaps, not a simple settings menu. Budget real time to learn it, or expect to use the board's default layout as-is.",
-  },
-  {
-    criterion: "Leave real desk space for two separated halves",
-    explanation:
-      "Placing two halves shoulder-width apart typically needs at least 80cm of desktop width plus room for the mouse to the side. Measure your desk before buying a fully separable board like the Freestyle2 or Advantage360, since a narrow desk may not comfortably fit both halves at a healthy separation.",
-  },
+    "criterion": "Weigh wireless convenience against the cable management a split design already requires",
+    "explanation": "A split keyboard already involves a cable connecting the two halves (unless it's fully wireless per-half), so the calculus around wireless connectivity is slightly different than for a standard keyboard, going wireless eliminates the desk cable entirely but adds battery management for what's often already a more complex setup.\n\nThis matters more if desk cable clutter is a real concern for your specific setup, less if you're already running a cable between the two halves regardless.\n\nCheck whether the connecting cable between halves is required even in a \"wireless\" model, since some split keyboards still need it despite wireless computer connectivity."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,87 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "The Entry Path: Wave to Row-Staggered to Full Split",
-    intro:
-      "Most buyers do better easing into split ergonomics gradually rather than jumping straight to a $479 column-staggered board.",
-    table: {
-      headers: ["Stage", "What to try", "Best pick"],
-      rows: [
-        ["Step 1: test the concept", "One-piece wave keyboard", "Logitech Wave Keys Sand"],
-        ["Step 2: try real separation", "Row-staggered true split, budget", "Nulea Wireless Split, Freestyle2 9\""],
-        ["Step 3: add tenting adjustment", "Row-staggered split with tenting", "Arteck Split Ergonomic, Freestyle2 w/ VIP3 Lifters"],
-        ["Step 4: go all in", "Column-staggered, fully programmable", "KINESIS Advantage360 Professional"],
+    "subheading": "By Split Type",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Fully split, independently positionable halves",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ],
+        [
+          "Most-reviewed, strongest reliability signal",
+          "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Timeline: What to Expect Week 1, Month 1, Month 3",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $50",
+          "Nulea Wireless Ergonomic Keyboard"
+        ],
+        [
+          "Up to $479",
+          "KINESIS Advantage360 Professional Split Ergonomic Keyboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Adjustable Tenting vs Flat Split",
+    "cards": [
       {
-        label: "Week 1",
-        text: "Typing speed drops noticeably, expect frustration and frequent glances down at the keys, especially on a column-staggered board like the Advantage360.",
+        "label": "Adjustable tenting",
+        "text": "Reduces forearm rotation strain by angling each half, worth it if forearm pronation is a real concern. In this comparison: KINESIS Advantage360 Professional Split Ergonomic Keyboard, Arteck Split Ergonomic Keyboard with Cushioned Wrist and Palm Rest, KINESIS Freestyle2 USB, KINESIS Freestyle Edge RGB Plus Split Mechanical Keyboard."
       },
       {
-        label: "Month 1",
-        text: "Most touch typists on a row-staggered split, like the Ergo K860 or Nulea, regain close to their prior speed. Column-staggered users are usually still adapting.",
-      },
-      {
-        label: "Month 3",
-        text: "Row-staggered split users are typically fully adapted. Column-staggered users on boards like the Advantage360 often reach 80%+ of their prior speed by this point, some sooner.",
-      },
+        "label": "Flat split",
+        "text": "Still separates hands to a natural width, but doesn't address forearm rotation. In this comparison: Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest, KINESIS Freestyle2 Ergonomic Keyboard for PC, Logitech Wave Keys Wireless Ergonomic Keyboard with Cushioned Palm, Nulea Wireless Ergonomic Keyboard."
+      }
     ],
+    "note": "Default to adjustable tenting if forearm strain, not just hand separation, is your actual concern."
   },
   {
-    subheading: "Row-Staggered vs. Column-Staggered Difficulty",
-    table: {
-      headers: ["Layout type", "Relearning difficulty", "Example picks"],
-      rows: [
-        ["Row-staggered", "Low, keys stay in familiar rows", "Ergo K860, Freestyle2, Nulea, Arteck, Freestyle Edge RGB"],
-        ["Column-staggered (ortholinear)", "High, full key position relearning", "KINESIS Advantage360 Professional"],
-      ],
-    },
-    note: "If you're not sure you'll commit to months of relearning, start with a row-staggered split rather than jumping straight to a column-staggered board.",
+    "subheading": "By Layout Size",
+    "note": "Check each pick's listed layout size and whether it includes a number pad against your actual daily workflow before buying, not just the general \"ergonomic\" category. Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "Are You a Touch Typist? Check Before You Buy",
-    intro:
-      "A split keyboard's ergonomic benefit depends on consistent, fixed finger-to-key habits.",
-    note: "If you hunt-and-peck rather than touch type, a split layout won't help much and may just slow you down. A wave keyboard's gentler curve offers some benefit either way, but the deeper split designs in this list are built for touch typists specifically.",
+    "subheading": "For Carpal Tunnel or Wrist Pain Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A genuinely adjustable split gap and tenting angle, not just a fixed-gap board labeled ergonomic."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Ergo K860 Wireless Ergonomic Split Keyboard with Wrist Rest is worth checking against its listed split and tenting adjustability before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Desk Space and Budget Snapshot",
-    table: {
-      headers: ["Constraint", "Recommendation", "Best pick"],
-      rows: [
-        ["Narrow desk, limited width", "Hinged split, less separation needed", "Arteck Split Ergonomic, Nulea Wireless Split"],
-        ["80cm+ desk width available", "Fully separable, cable-connected split", "Freestyle2 (9\" or with VIP3 Lifters), Advantage360"],
-        ["Under $100 budget", "Row-staggered entry split", "Nulea Wireless Split, Arteck Split Ergonomic"],
-        ["$400+ budget, want the deepest ergonomics", "Column-staggered, fully programmable", "KINESIS Advantage360 Professional"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Wrist or forearm strain is a genuine daily problem, where KINESIS Advantage360 Professional Split Ergonomic Keyboard's adjustability gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You just want to try a split layout without a big investment, where Nulea Wireless Ergonomic Keyboard covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
