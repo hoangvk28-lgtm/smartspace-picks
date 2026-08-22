@@ -102,23 +102,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Hard-scope eligibility",
-    "description": ": keep `Best Laser Engravers Under $200` as its own target and require the exact source, material, wattage, brand, accessory, price or workflow modifier."
+    "description": "keep `Best Laser Engravers Under $200` as its own target and require the exact source, material, wattage, brand, accessory, price or workflow modifier."
   },
   {
     "title": "Source-first evidence",
-    "description": ": publish wavelength/source architecture, true optical output, spot/field/work area and process mechanism before speed claims."
+    "description": "publish wavelength/source architecture, true optical output, spot/field/work area and process mechanism before speed claims."
   },
   {
     "title": "Representative-job protocol",
-    "description": ": disclose material, coating, thickness, focus, power, speed, frequency/pulse where relevant, passes, air assist and measured result."
+    "description": "disclose material, coating, thickness, focus, power, speed, frequency/pulse where relevant, passes, air assist and measured result."
   },
   {
     "title": "Safety/process score",
-    "description": ": document laser class/access controls, enclosure/interlocks, extraction, fire supervision, material restrictions and required PPE/control area where applicable."
+    "description": "document laser class/access controls, enclosure/interlocks, extraction, fire supervision, material restrictions and required PPE/control area where applicable."
   },
   {
     "title": "Ownership/production verdict",
-    "description": ": include camera/rotary calibration, software, consumables, exhaust/cooling, source life/replacement, service and total ready-to-run cost."
+    "description": "include camera/rotary calibration, software, consumables, exhaust/cooling, source life/replacement, service and total ready-to-run cost."
   }
 ];
 
@@ -276,4 +276,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-laser-engravers","title":"Best Laser Engravers"},{"href":"/guide/best-laser-engravers-for-wood","title":"Best Laser Engravers for Wood"},{"href":"/guide/best-portable-laser-engravers","title":"Best Portable Laser Engravers"}];

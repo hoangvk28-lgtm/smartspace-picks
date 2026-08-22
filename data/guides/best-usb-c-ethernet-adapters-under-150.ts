@@ -150,23 +150,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every recommended product must be new, in stock and up to $150 on the article refresh date; stale sale prices are automatically disqualified."
+    "description": "every recommended product must be new, in stock and up to $150 on the article refresh date; stale sale prices are automatically disqualified."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": explicitly show what changes between the next-lower tier, the high-end USB-C Ethernet tier, and the next-higher tier so this page is not a cloned generic ranking."
+    "description": "explicitly show what changes between the next-lower tier, the high-end USB-C Ethernet tier, and the next-higher tier so this page is not a cloned generic ranking."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price against link rate/USB host bandwidth, NIC chipset and the minimum usable setup cost rather than raw feature count."
+    "description": "normalize price against link rate/USB host bandwidth, NIC chipset and the minimum usable setup cost rather than raw feature count."
   },
   {
     "title": "Evidence split",
-    "description": ": label driver/features and PD passthrough as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label driver/features and PD passthrough as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Threshold-specific ownership verdict",
-    "description": ": judge thermals/cable strain, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $150."
+    "description": "judge thermals/cable strain, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $150."
   }
 ];
 
@@ -324,4 +324,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-usb-c-ethernet-adapters-under-30","title":"Best USB-C Ethernet Adapters Under $30"},{"href":"/guide/best-usb-c-ethernet-adapters-under-50","title":"Best USB-C Ethernet Adapters Under $50"},{"href":"/guide/best-usb-c-ethernet-adapters-under-75","title":"Best USB-C Ethernet Adapters Under $75"}];

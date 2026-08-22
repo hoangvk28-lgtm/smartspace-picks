@@ -102,23 +102,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every recommended product must be new, in stock and up to $500 on the article refresh date; stale sale prices are automatically disqualified."
+    "description": "every recommended product must be new, in stock and up to $500 on the article refresh date; stale sale prices are automatically disqualified."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": explicitly show what changes between the next-lower tier, the SMB turnkey tier, and the next-higher tier so this page is not a cloned generic ranking."
+    "description": "explicitly show what changes between the next-lower tier, the SMB turnkey tier, and the next-higher tier so this page is not a cloned generic ranking."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price against NIC topology, firewall/VPN/IDS throughput and the minimum usable setup cost rather than raw feature count."
+    "description": "normalize price against NIC topology, firewall/VPN/IDS throughput and the minimum usable setup cost rather than raw feature count."
   },
   {
     "title": "Evidence split",
-    "description": ": label CPU/RAM/storage and software/support model as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label CPU/RAM/storage and software/support model as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Threshold-specific ownership verdict",
-    "description": ": judge power/thermals, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $500."
+    "description": "judge power/thermals, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $500."
   }
 ];
 
@@ -276,4 +276,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-firewall-appliances-under-300","title":"Best Firewall Appliances Under $300"},{"href":"/guide/best-firewall-appliances-under-1000","title":"Best Firewall Appliances Under $1000"},{"href":"/guide/best-firewall-appliances-under-2000","title":"Best Firewall Appliances Under $2000"}];

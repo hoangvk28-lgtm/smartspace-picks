@@ -134,23 +134,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every recommended product must be new, in stock and up to $500 on the article refresh date; stale sale prices are automatically disqualified."
+    "description": "every recommended product must be new, in stock and up to $500 on the article refresh date; stale sale prices are automatically disqualified."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": explicitly show what changes between the next-lower tier, the professional enclosure/dock tier, and the next-higher tier so this page is not a cloned generic ranking."
+    "description": "explicitly show what changes between the next-lower tier, the professional enclosure/dock tier, and the next-higher tier so this page is not a cloned generic ranking."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price against drive/protocol support, bridge/link speed and the minimum usable setup cost rather than raw feature count."
+    "description": "normalize price against drive/protocol support, bridge/link speed and the minimum usable setup cost rather than raw feature count."
   },
   {
     "title": "Evidence split",
-    "description": ": label sustained thermals and TRIM/UASP/SMART as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label sustained thermals and TRIM/UASP/SMART as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Threshold-specific ownership verdict",
-    "description": ": judge host/cable compatibility, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $500."
+    "description": "judge host/cable compatibility, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $500."
   }
 ];
 
@@ -308,4 +308,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ssd-enclosures-under-30","title":"Best SSD Enclosures Under $30"},{"href":"/guide/best-ssd-enclosures-under-50","title":"Best SSD Enclosures Under $50"},{"href":"/guide/best-ssd-enclosures-under-75","title":"Best SSD Enclosures Under $75"}];

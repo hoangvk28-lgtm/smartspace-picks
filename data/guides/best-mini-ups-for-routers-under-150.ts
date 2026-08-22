@@ -134,23 +134,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every recommended product must be new, in stock and up to $150 on the article refresh date; stale sale prices are automatically disqualified."
+    "description": "every recommended product must be new, in stock and up to $150 on the article refresh date; stale sale prices are automatically disqualified."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": explicitly show what changes between the next-lower tier, the specialty/multi-device backup tier, and the next-higher tier so this page is not a cloned generic ranking."
+    "description": "explicitly show what changes between the next-lower tier, the specialty/multi-device backup tier, and the next-higher tier so this page is not a cloned generic ranking."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price against output voltage/current, battery Wh and the minimum usable setup cost rather than raw feature count."
+    "description": "normalize price against output voltage/current, battery Wh and the minimum usable setup cost rather than raw feature count."
   },
   {
     "title": "Evidence split",
-    "description": ": label transfer/no-reboot behavior and connector/polarity as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label transfer/no-reboot behavior and connector/polarity as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Threshold-specific ownership verdict",
-    "description": ": judge chemistry/protection, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $150."
+    "description": "judge chemistry/protection, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $150."
   }
 ];
 
@@ -308,4 +308,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-ups-for-routers-under-50","title":"Best Mini UPS for Routers Under $50"},{"href":"/guide/best-mini-ups-for-routers-under-75","title":"Best Mini UPS for Routers Under $75"},{"href":"/guide/best-mini-ups-for-routers-under-100","title":"Best Mini UPS for Routers Under $100"}];

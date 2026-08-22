@@ -102,23 +102,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $500 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $500 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, upper-mainstream tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, upper-mainstream tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price basis: single vs pair, frequency extension/SPL and required accessory/setup cost against price."
+    "description": "normalize price basis: single vs pair, frequency extension/SPL and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label directivity/room controls and self-noise/distortion as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label directivity/room controls and self-noise/distortion as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge room/listening-distance fit, warranty, software/parts/support and whether the reader should spend less or move above $500 for a meaningful upgrade."
+    "description": "judge room/listening-distance fit, warranty, software/parts/support and whether the reader should spend less or move above $500 for a meaningful upgrade."
   }
 ];
 
@@ -276,4 +276,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-studio-monitors-under-100","title":"Best Studio Monitors Under $100"},{"href":"/guide/best-studio-monitors-under-150","title":"Best Studio Monitors Under $150"},{"href":"/guide/best-studio-monitors-under-200","title":"Best Studio Monitors Under $200"}];

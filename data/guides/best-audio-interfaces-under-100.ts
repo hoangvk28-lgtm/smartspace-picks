@@ -86,23 +86,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $100 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $100 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, budget / legacy-value tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, budget / legacy-value tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize simultaneous analog I/O, preamp gain/EIN and required accessory/setup cost against price."
+    "description": "normalize simultaneous analog I/O, preamp gain/EIN and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label round-trip latency and digital/monitoring expansion as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label round-trip latency and digital/monitoring expansion as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge driver/control software, warranty, software/parts/support and whether the reader should spend less or move above $100 for a meaningful upgrade."
+    "description": "judge driver/control software, warranty, software/parts/support and whether the reader should spend less or move above $100 for a meaningful upgrade."
   }
 ];
 
@@ -260,4 +260,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-audio-interfaces-under-50","title":"Best Audio Interfaces Under $50"},{"href":"/guide/best-audio-interfaces-under-150","title":"Best Audio Interfaces Under $150"},{"href":"/guide/best-audio-interfaces-under-200","title":"Best Audio Interfaces Under $200"}];

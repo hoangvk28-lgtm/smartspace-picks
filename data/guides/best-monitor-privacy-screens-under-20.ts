@@ -70,23 +70,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every recommended product must be new, in stock and up to $20 on the article refresh date; stale sale prices are automatically disqualified."
+    "description": "every recommended product must be new, in stock and up to $20 on the article refresh date; stale sale prices are automatically disqualified."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": explicitly show what changes between the next-lower tier, the ultra-budget generic tier, and the next-higher tier so this page is not a cloned generic ranking."
+    "description": "explicitly show what changes between the next-lower tier, the ultra-budget generic tier, and the next-higher tier so this page is not a cloned generic ranking."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price against exact fit/aspect ratio, privacy angle and the minimum usable setup cost rather than raw feature count."
+    "description": "normalize price against exact fit/aspect ratio, privacy angle and the minimum usable setup cost rather than raw feature count."
   },
   {
     "title": "Evidence split",
-    "description": ": label light transmittance/color shift and attachment/reversibility as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label light transmittance/color shift and attachment/reversibility as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Threshold-specific ownership verdict",
-    "description": ": judge surface durability, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $20."
+    "description": "judge surface durability, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $20."
   }
 ];
 
@@ -244,4 +244,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-monitor-privacy-screens-under-75","title":"Best Monitor Privacy Screens Under $75"},{"href":"/guide/best-monitor-privacy-screens-under-100","title":"Best Monitor Privacy Screens Under $100"},{"href":"/guide/best-monitor-privacy-screens-under-150","title":"Best Monitor Privacy Screens Under $150"}];

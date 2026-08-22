@@ -182,23 +182,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $200 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $200 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, mainstream compressor tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, mainstream compressor tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize tested pints/day, compressor vs thermoelectric and required accessory/setup cost against price."
+    "description": "normalize tested pints/day, compressor vs thermoelectric and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label energy efficiency and drain/pump/auto-restart as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label energy efficiency and drain/pump/auto-restart as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge low-temp/noise, warranty, software/parts/support and whether the reader should spend less or move above $200 for a meaningful upgrade."
+    "description": "judge low-temp/noise, warranty, software/parts/support and whether the reader should spend less or move above $200 for a meaningful upgrade."
   }
 ];
 
@@ -356,4 +356,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-dehumidifiers-under-50","title":"Best Dehumidifiers Under $50"},{"href":"/guide/best-dehumidifiers-under-100","title":"Best Dehumidifiers Under $100"},{"href":"/guide/best-dehumidifiers-under-150","title":"Best Dehumidifiers Under $150"}];

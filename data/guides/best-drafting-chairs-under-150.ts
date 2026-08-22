@@ -134,23 +134,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $150 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $150 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, mainstream value tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, mainstream value tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize loaded seat-height range, foot-ring usability and required accessory/setup cost against price."
+    "description": "normalize loaded seat-height range, foot-ring usability and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label seat/back ergonomics and cylinder/base stability as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label seat/back ergonomics and cylinder/base stability as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge desk-height/arm clearance, warranty, software/parts/support and whether the reader should spend less or move above $150 for a meaningful upgrade."
+    "description": "judge desk-height/arm clearance, warranty, software/parts/support and whether the reader should spend less or move above $150 for a meaningful upgrade."
   }
 ];
 
@@ -308,4 +308,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drafting-chairs-under-50","title":"Best Drafting Chairs Under $50"},{"href":"/guide/best-drafting-chairs-under-100","title":"Best Drafting Chairs Under $100"},{"href":"/guide/best-drafting-chairs-under-200","title":"Best Drafting Chairs Under $200"}];

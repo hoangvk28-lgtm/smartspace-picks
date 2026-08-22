@@ -134,23 +134,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $1000 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $1000 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, ISO / advanced compact tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, ISO / advanced compact tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize simultaneous inputs/formats, scalers/frame sync and required accessory/setup cost against price."
+    "description": "normalize simultaneous inputs/formats, scalers/frame sync and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label multiview/monitoring and streaming/recording as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label multiview/monitoring and streaming/recording as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge keying/audio/control, warranty, software/parts/support and whether the reader should spend less or move above $1000 for a meaningful upgrade."
+    "description": "judge keying/audio/control, warranty, software/parts/support and whether the reader should spend less or move above $1000 for a meaningful upgrade."
   }
 ];
 
@@ -308,4 +308,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-video-switchers-under-100","title":"Best Video Switchers Under $100"},{"href":"/guide/best-video-switchers-under-200","title":"Best Video Switchers Under $200"},{"href":"/guide/best-video-switchers-under-300","title":"Best Video Switchers Under $300"}];

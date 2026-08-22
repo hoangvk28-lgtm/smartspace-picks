@@ -102,23 +102,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Hard-scope eligibility",
-    "description": ": `Best AVer Conference Cameras` remains its own target; products must satisfy the exact architecture, brand, connectivity, room or platform modifier."
+    "description": "`Best AVer Conference Cameras` remains its own target; products must satisfy the exact architecture, brand, connectivity, room or platform modifier."
   },
   {
     "title": "Room geometry evidence",
-    "description": ": publish camera placement, room/table dimensions, participant distances and which seats were inside/outside ideal coverage."
+    "description": "publish camera placement, room/table dimensions, participant distances and which seats were inside/outside ideal coverage."
   },
   {
     "title": "Behavioral test protocol",
-    "description": ": measure framing/tracking handoff, false switches, interruption handling and feature-mode differences instead of repeating AI labels."
+    "description": "measure framing/tracking handoff, false switches, interruption handling and feature-mode differences instead of repeating AI labels."
   },
   {
     "title": "Audio/video separation",
-    "description": ": score visual coverage and face detail separately from mic intelligibility, speaker coverage and echo/full-duplex behavior."
+    "description": "score visual coverage and face detail separately from mic intelligibility, speaker coverage and echo/full-duplex behavior."
   },
   {
     "title": "Deployment/lifecycle score",
-    "description": ": include native-vs-BYOD mode, cables/network, certification, firmware management, mounting, privacy and expansion accessories."
+    "description": "include native-vs-BYOD mode, cables/network, certification, firmware management, mounting, privacy and expansion accessories."
   }
 ];
 
@@ -276,4 +276,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-owl-labs-conference-cameras","title":"Best Owl Labs Conference Cameras"},{"href":"/guide/best-360-conference-cameras","title":"Best 360 Conference Cameras"},{"href":"/guide/best-conference-cameras","title":"Best Conference Cameras"}];

@@ -182,23 +182,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every recommended product must be new, in stock and up to $100 on the article refresh date; stale sale prices are automatically disqualified."
+    "description": "every recommended product must be new, in stock and up to $100 on the article refresh date; stale sale prices are automatically disqualified."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": explicitly show what changes between the next-lower tier, the mainstream office utility tier, and the next-higher tier so this page is not a cloned generic ranking."
+    "description": "explicitly show what changes between the next-lower tier, the mainstream office utility tier, and the next-higher tier so this page is not a cloned generic ranking."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize price against usable storage geometry, rated load and the minimum usable setup cost rather than raw feature count."
+    "description": "normalize price against usable storage geometry, rated load and the minimum usable setup cost rather than raw feature count."
   },
   {
     "title": "Evidence split",
-    "description": ": label caster/brake behavior and footprint/clearance as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label caster/brake behavior and footprint/clearance as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Threshold-specific ownership verdict",
-    "description": ": judge frame/drawer durability, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $100."
+    "description": "judge frame/drawer durability, warranty/support, replacement accessories and the chance that a buyer should save money or step up a tier instead of spending the full $100."
   }
 ];
 
@@ -356,4 +356,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-supply-carts-under-50","title":"Best Office Supply Carts Under $50"},{"href":"/guide/best-office-supply-carts-under-150","title":"Best Office Supply Carts Under $150"},{"href":"/guide/best-office-supply-carts-under-200","title":"Best Office Supply Carts Under $200"}];

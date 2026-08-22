@@ -86,23 +86,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $300 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $300 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, entry mainstream tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, entry mainstream tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize DOE SACC cooling capacity, single vs dual hose/inverter and required accessory/setup cost against price."
+    "description": "normalize DOE SACC cooling capacity, single vs dual hose/inverter and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label efficiency/power and noise as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label efficiency/power and noise as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge window/drain installation, warranty, software/parts/support and whether the reader should spend less or move above $300 for a meaningful upgrade."
+    "description": "judge window/drain installation, warranty, software/parts/support and whether the reader should spend less or move above $300 for a meaningful upgrade."
   }
 ];
 
@@ -260,4 +260,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-air-conditioners-under-400","title":"Best Portable Air Conditioners Under $400"},{"href":"/guide/best-portable-air-conditioners-under-500","title":"Best Portable Air Conditioners Under $500"},{"href":"/guide/best-portable-air-conditioners-under-700","title":"Best Portable Air Conditioners Under $700"}];

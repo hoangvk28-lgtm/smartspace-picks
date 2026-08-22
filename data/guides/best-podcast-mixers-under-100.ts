@@ -102,23 +102,23 @@ export const products: GuideProduct[] = [
 export const howWeEvaluated = [
   {
     "title": "Live price gate",
-    "description": ": every pick must be new, in stock and up to $100 on the update date; expired sale pricing removes it from the qualifying set."
+    "description": "every pick must be new, in stock and up to $100 on the update date; expired sale pricing removes it from the qualifying set."
   },
   {
     "title": "Budget-ladder context",
-    "description": ": show the previous tier, entry podcast workflow tier and next-higher tier so readers see the real capability step instead of duplicate lists."
+    "description": "show the previous tier, entry podcast workflow tier and next-higher tier so readers see the real capability step instead of duplicate lists."
   },
   {
     "title": "Capability-per-dollar score",
-    "description": ": normalize mic-preamp gain/noise, mix-minus/USB routing and required accessory/setup cost against price."
+    "description": "normalize mic-preamp gain/noise, mix-minus/USB routing and required accessory/setup cost against price."
   },
   {
     "title": "Evidence split",
-    "description": ": label onboard multitrack recording and remote-guest inputs as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
+    "description": "label onboard multitrack recording and remote-guest inputs as official-documentation-confirmed, DeskFinds-measured, manufacturer-claimed or unverified."
   },
   {
     "title": "Ownership/step-up verdict",
-    "description": ": judge headphone/pad/processing workflow, warranty, software/parts/support and whether the reader should spend less or move above $100 for a meaningful upgrade."
+    "description": "judge headphone/pad/processing workflow, warranty, software/parts/support and whether the reader should spend less or move above $100 for a meaningful upgrade."
   }
 ];
 
@@ -276,4 +276,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-podcast-mixers-under-50","title":"Best Podcast Mixers Under $50"},{"href":"/guide/best-podcast-mixers-under-150","title":"Best Podcast Mixers Under $150"},{"href":"/guide/best-podcast-mixers-under-200","title":"Best Podcast Mixers Under $200"}];
