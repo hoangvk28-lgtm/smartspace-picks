@@ -7,6 +7,7 @@
 ## 0. Communication Rules
 
 - **Always address the user as "cậu"** in every response, without exception.
+- **Every internal `<Link>` from `next/link` must include `prefetch={false}`, no exceptions.** In August 2026, Vercel ISR Read Units were running ~50x higher than actual GA pageviews because Next.js prefetches every link in viewport by default — Header, Footer, related-guides sections, and card grids across 2,300+ guide pages were each firing background prefetch requests that got billed as ISR reads despite no real pageview happening. All existing `<Link>` tags were fixed site-wide, and the template scripts that generate new guide `page.tsx` files (`scripts/generate-guide-page.mjs`, `scripts/gen-pages*.mjs`) were updated to always emit `prefetch={false}`. When writing or generating ANY new page/component with a `<Link>`, add `prefetch={false}` by default — do not rely on remembering to add it later at scale.
 
 ---
 

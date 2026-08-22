@@ -150,7 +150,7 @@ export default function DeskMatVsMousePadPage() {
       <div className="bg-gradient-to-br from-slate-900 to-slate-700 text-white">
         <Container className="py-10 max-w-4xl">
           <div className="flex items-center gap-2 text-xs text-white/60 mb-6">
-            <Link href="/compare" className="hover:text-white transition-colors">Compare</Link>
+            <Link prefetch={false} href="/compare" className="hover:text-white transition-colors">Compare</Link>
             <span>/</span>
             <span className="text-white/80">Desk Mat vs Mouse Pad</span>
           </div>
@@ -219,7 +219,7 @@ export default function DeskMatVsMousePadPage() {
         {/* ── Affiliate Disclosure ────────────────────────────────────────── */}
         <p className="text-xs text-ink-muted bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
           We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria — not paid placement.{" "}
-          <Link href="/affiliate-disclosure" className="underline hover:text-ink">Learn more</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="underline hover:text-ink">Learn more</Link>.
         </p>
 
         {/* ── Quick answer ────────────────────────────────────────────────── */}
@@ -442,7 +442,7 @@ export default function DeskMatVsMousePadPage() {
               { href: "/compare/usb-c-hub-vs-docking-station", label: "USB-C Hub vs Docking Station" },
               { href: "/compare/lap-desk-vs-standing-desk-converter", label: "Lap Desk vs Desk Converter" },
             ].map((link) => (
-              <Link
+              <Link prefetch={false}
                 key={link.href}
                 href={link.href}
                 className="text-sm font-medium px-4 py-2 rounded-full border border-gray-200 hover:border-gray-400 transition-colors text-ink-secondary hover:text-ink"

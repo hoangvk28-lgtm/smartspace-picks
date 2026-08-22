@@ -174,9 +174,9 @@ export default async function BestLapDesksWithCushionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Lap Desks with Cushion</span>
         </nav>
@@ -215,7 +215,7 @@ export default async function BestLapDesksWithCushionPage() {
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
@@ -255,7 +255,7 @@ export default async function BestLapDesksWithCushionPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>The cushion base on a lap desk serves two functions: it distributes the hard surface pressure away from the legs and creates a slight air gap that reduces heat transfer from the laptop. Without a cushion, a hard lap desk board puts concentrated pressure on the thighs and transfers laptop heat directly.</p>
           <p>This guide covers eight cushion lap desks ranked by Amazon buyer rating and verified review count, from standard pillow foam bases and bean bag fill to memory foam options and premium adjustable models with cushion bases.</p>
-          <p>For lap desks focused on bed use, see our <Link href='/guide/best-lap-desks-for-bed' className='text-brand hover:underline'>best lap desks for bed</Link> guide.</p>
+          <p>For lap desks focused on bed use, see our <Link prefetch={false} href='/guide/best-lap-desks-for-bed' className='text-brand hover:underline'>best lap desks for bed</Link> guide.</p>
         </section>
 
         {buyingCriteria.length > 0 && (
@@ -335,7 +335,7 @@ export default async function BestLapDesksWithCushionPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

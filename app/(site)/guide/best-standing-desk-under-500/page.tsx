@@ -245,11 +245,11 @@ export default async function BestStandingDeskUnder500Page() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -262,7 +262,7 @@ export default async function BestStandingDeskUnder500Page() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link
+          <Link prefetch={false}
             href="/affiliate-disclosure"
             className="text-brand hover:underline"
           >
@@ -473,7 +473,7 @@ export default async function BestStandingDeskUnder500Page() {
             </div>
             <p className="text-sm text-ink-secondary mb-4">
               If you are currently on a{" "}
-              <Link
+              <Link prefetch={false}
                 href="/guide/best-standing-desk-under-300"
                 className="text-brand hover:underline"
               >
@@ -746,21 +746,21 @@ export default async function BestStandingDeskUnder500Page() {
             For users who need 6'2\"+ standing clearance reliably across all color
             options, the FlexiSpot E7 Pro or Uplift V2 Commercial (both $600-$900)
             are the next tier up. Pair any desk here with an{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-ergonomic-chair-under-500"
               className="text-brand hover:underline"
             >
               ergonomic chair under $500
             </Link>{" "}
             and a{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-monitor-under-100"
               className="text-brand hover:underline"
             >
               monitor under $100
             </Link>{" "}
             for a complete home office at a reasonable total cost. A full{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/ergonomic-desk-setup"
               className="text-brand hover:underline"
             >
@@ -827,7 +827,7 @@ export default async function BestStandingDeskUnder500Page() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

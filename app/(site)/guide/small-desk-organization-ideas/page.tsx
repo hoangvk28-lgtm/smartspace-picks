@@ -108,9 +108,9 @@ export default async function SmallDeskOrganizationIdeasPage() {
 
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Small Desk Organization Ideas</span>
         </nav>
@@ -137,7 +137,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                 </svg>
               </div>
-              <Link href="/author/deskfinds-editorial-team" className="hover:text-accent hover:underline transition-colors">DeskFinds Editorial Team</Link>
+              <Link prefetch={false} href="/author/deskfinds-editorial-team" className="hover:text-accent hover:underline transition-colors">DeskFinds Editorial Team</Link>
             </div>
             <div className="flex items-center gap-1.5 text-xs text-ink-muted">
               <svg className="w-3.5 h-3.5" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -237,7 +237,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
               </p>
               <p className="text-sm text-ink-secondary leading-relaxed mb-4">
                 Instead of spreading supplies horizontally across the desk, stack them vertically using risers, shelves, or wall-mounted storage. The goal is a desk surface that holds only your active work tools - laptop, keyboard, mouse - while everything else lives above or beside. For a full comparison of riser and organizer options by footprint, see our guide to{" "}
-                <Link href="/guide/best-desk-shelves-small-desks" className="text-brand hover:underline">desk shelves for small desks</Link>.
+                <Link prefetch={false} href="/guide/best-desk-shelves-small-desks" className="text-brand hover:underline">desk shelves for small desks</Link>.
               </p>
               <div className="space-y-3">
                 {methodProducts(1).map((p) => <ProductCard key={p.id} product={p} />)}
@@ -634,7 +634,7 @@ export default async function SmallDeskOrganizationIdeasPage() {
               { href: "/guide/monitor-stands-small-desks", title: "Best Monitor Stands for Small Desks", label: "Desk Setup" },
               { href: "/guide/dorm-room-power-essentials", title: "Best Power Strips for Dorm Rooms", label: "Dorm Essentials" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
+              <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>
                 <p className="text-sm font-semibold text-ink group-hover:text-brand transition-colors leading-snug">{g.title}</p>
                 <span className="text-xs font-semibold text-brand mt-2 inline-block">Read guide &rarr;</span>

@@ -216,11 +216,11 @@ export default async function BestOverDeskShelvesPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -291,7 +291,7 @@ export default async function BestOverDeskShelvesPage() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">
             Affiliate disclosure
           </Link>
           .
@@ -382,7 +382,7 @@ export default async function BestOverDeskShelvesPage() {
             This guide covers compact clamp-on shelves, a wide clamp-on option,
             a desktop hutch, and a desk extender. For shelves that sit on the
             desk surface rather than clamping to the edge, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-desk-shelves-small-desks"
               className="text-brand hover:underline"
             >
@@ -661,7 +661,7 @@ export default async function BestOverDeskShelvesPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

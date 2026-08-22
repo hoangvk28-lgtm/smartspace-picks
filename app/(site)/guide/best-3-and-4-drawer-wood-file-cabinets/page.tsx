@@ -228,11 +228,11 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -302,7 +302,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">
             Affiliate disclosure
           </Link>
           .
@@ -390,14 +390,14 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
             of hanging files against a wall. Both use engineered wood construction at this
             price range. Choosing the right one depends on your workflow, available floor
             space, and filing volume. For a broader overview of the full category, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-wood-file-cabinets"
               className="text-brand hover:underline"
             >
               best wood file cabinets
             </Link>{" "}
             guide. For lighter storage needs with fewer drawers, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-2-drawer-wood-file-cabinets"
               className="text-brand hover:underline"
             >
@@ -739,7 +739,7 @@ export default async function Best3And4DrawerWoodFileCabinetsPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

@@ -158,9 +158,9 @@ export default async function ErgonomicDeskSetupPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Ergonomic Desk Setup</span>
         </nav>
@@ -478,7 +478,7 @@ export default async function ErgonomicDeskSetupPage() {
           </p>
           <p className="text-xs text-ink-muted">
             For more small desk setup ideas, see our{" "}
-            <Link href="/guide/small-desk-setup" className="text-brand hover:underline font-medium">
+            <Link prefetch={false} href="/guide/small-desk-setup" className="text-brand hover:underline font-medium">
               small desk setup guide
             </Link>.
           </p>
@@ -622,7 +622,7 @@ export default async function ErgonomicDeskSetupPage() {
               { href: "/guide/best-desk-mat-for-small-desk", title: "Best Desk Mats for Small Desks", desc: "Top desk mats reviewed and ranked" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" },
             ].map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

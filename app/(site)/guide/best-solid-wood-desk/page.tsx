@@ -231,11 +231,11 @@ export default async function BestSolidWoodDesksPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -307,7 +307,7 @@ export default async function BestSolidWoodDesksPage() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">
             Affiliate disclosure
           </Link>
           .
@@ -399,14 +399,14 @@ export default async function BestSolidWoodDesksPage() {
             listing for a specific wood species or clear solid construction
             language. If you are still deciding between a fixed desk and a
             height-adjustable option, see our comparison of{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/lap-desk-vs-standing-desk-converter"
               className="text-brand hover:underline"
             >
               lap desks vs standing desk converters
             </Link>
             . Once you have the desk, protecting the surface with a{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/desk-mat-vs-mouse-pad"
               className="text-brand hover:underline"
             >
@@ -414,7 +414,7 @@ export default async function BestSolidWoodDesksPage() {
             </Link>{" "}
             extends the life of any real wood finish considerably.
             To add vertical storage above a solid wood desk without drilling into the surface, see our guide to{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-over-desk-shelves"
               className="text-brand hover:underline"
             >
@@ -584,7 +584,7 @@ export default async function BestSolidWoodDesksPage() {
             <p className="text-sm text-ink-secondary">
               Real wood finishes show water rings and fine scratches more than
               laminate surfaces. A quality{" "}
-              <Link
+              <Link prefetch={false}
                 href="/guide/desk-mat-vs-mouse-pad"
                 className="text-brand hover:underline"
               >
@@ -699,7 +699,7 @@ export default async function BestSolidWoodDesksPage() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

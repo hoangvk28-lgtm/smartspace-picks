@@ -104,7 +104,7 @@ export default async function BestTabletStandsForBedPage() {
         {/* Header */}
         <header className="mt-6 mb-6 max-w-3xl">
           <div className="flex flex-wrap items-center gap-2 mb-3">
-            <Link href="/guide/desk-setup" className="text-xs font-bold uppercase tracking-widest text-brand hover:text-brand-dark transition-colors">
+            <Link prefetch={false} href="/guide/desk-setup" className="text-xs font-bold uppercase tracking-widest text-brand hover:text-brand-dark transition-colors">
               Desk Setup
             </Link>
           </div>
@@ -117,7 +117,7 @@ export default async function BestTabletStandsForBedPage() {
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-sm text-ink-muted pb-5 border-b border-border">
             <span className="flex items-center gap-1.5">
               <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
-              <Link href="/author/deskfinds-editorial-team" className="hover:text-ink hover:underline transition-colors">
+              <Link prefetch={false} href="/author/deskfinds-editorial-team" className="hover:text-ink hover:underline transition-colors">
                 DeskFinds Editorial Team
               </Link>
             </span>
@@ -154,7 +154,7 @@ export default async function BestTabletStandsForBedPage() {
             There are four main types: <strong>pillow stands</strong> (soft cushion base, no hardware), <strong>gooseneck holders</strong> (clamp to headboard or nightstand, fully adjustable), <strong>lap desks</strong> (rigid platform for active use), and <strong>arm mounts</strong> (C-clamp with long reach for bedside tables). Each suits a different use case - this guide covers the best option in each category.
           </p>
           <p>
-            See also: <Link href="/guide/best-tablet-stands">Best Tablet Stands (all uses)</Link> | <Link href="/guide/dorm-essentials">Dorm Essentials</Link> | <Link href="/guide/compact-home-office">Compact Home Office</Link>
+            See also: <Link prefetch={false} href="/guide/best-tablet-stands">Best Tablet Stands (all uses)</Link> | <Link prefetch={false} href="/guide/dorm-essentials">Dorm Essentials</Link> | <Link prefetch={false} href="/guide/compact-home-office">Compact Home Office</Link>
           </p>
         </div>
 
@@ -367,7 +367,7 @@ export default async function BestTabletStandsForBedPage() {
               { label: "Compact Home Office", href: "/guide/compact-home-office" },
               { label: "Budget Finds", href: "/guide/budget-finds" },
             ].map((link) => (
-              <Link key={link.href} href={link.href}
+              <Link prefetch={false} key={link.href} href={link.href}
                 className="px-3 py-1.5 bg-bg border border-border rounded-badge text-sm font-medium text-brand hover:bg-brand hover:text-white transition-colors">
                 {link.label}
               </Link>
@@ -381,7 +381,7 @@ export default async function BestTabletStandsForBedPage() {
             <strong className="text-ink">Evaluation note: </strong>
             Products in this guide were assessed on comfort for in-bed use, stability, compatibility with common tablets, value for money, and verified buyer feedback patterns from Amazon. We do not claim hands-on product testing.
           </p>
-          <Link href="/how-we-review" className="inline-flex items-center gap-1 mt-3 text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
+          <Link prefetch={false} href="/how-we-review" className="inline-flex items-center gap-1 mt-3 text-sm font-semibold text-brand hover:text-brand-dark transition-colors">
             Read our full methodology →
           </Link>
         </div>

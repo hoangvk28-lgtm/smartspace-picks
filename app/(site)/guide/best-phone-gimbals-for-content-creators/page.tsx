@@ -182,9 +182,9 @@ export default async function BestPhoneGimbalsPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Phone Gimbals for Content Creators</span>
         </nav>
@@ -221,7 +221,7 @@ export default async function BestPhoneGimbalsPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         {/* Hero image */}
@@ -297,7 +297,7 @@ export default async function BestPhoneGimbalsPage() {
         {/* Intro */}
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>Most phone gimbal reviews focus on outdoor filming and travel vlogging. This guide covers 7 gimbals specifically evaluated for desk content, product shots, tutorials, and home studio recording: the use cases that desk-based creators actually face.</p>
-          <p>The key differences for desk and home studio use are: whether tracking works outside the manufacturer app, whether the gimbal has a fill light for controlled indoor lighting, and whether the folded base works as a stable tripod. If you are building out your full home studio audio setup, see our guide to the <Link href="/guide/best-headset-for-work" className="text-brand hover:underline">best headsets for work audio</Link>. If you are comparing a gimbal against a fixed camera solution, our <Link href="/guide/best-webcams-for-home-office" className="text-brand hover:underline">best webcams for home office</Link> guide covers the static alternative.</p>
+          <p>The key differences for desk and home studio use are: whether tracking works outside the manufacturer app, whether the gimbal has a fill light for controlled indoor lighting, and whether the folded base works as a stable tripod. If you are building out your full home studio audio setup, see our guide to the <Link prefetch={false} href="/guide/best-headset-for-work" className="text-brand hover:underline">best headsets for work audio</Link>. If you are comparing a gimbal against a fixed camera solution, our <Link prefetch={false} href="/guide/best-webcams-for-home-office" className="text-brand hover:underline">best webcams for home office</Link> guide covers the static alternative.</p>
           <p>Every pick was evaluated for tracking reliability, build quality, battery life under realistic shooting conditions, and whether the spec claims match real-world use reports.</p>
         </section>
 
@@ -467,7 +467,7 @@ export default async function BestPhoneGimbalsPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

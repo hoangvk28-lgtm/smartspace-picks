@@ -147,9 +147,9 @@ export default async function BestUsbHubForDeskPage() {
 
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best USB Hub for Desk</span>
         </nav>
@@ -421,7 +421,7 @@ export default async function BestUsbHubForDeskPage() {
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under Desk Cable Trays", label: "Desk Setup" },
               { href: "/guide/best-clip-on-desk-lamp", title: "Best Clip-On Desk Lamps", label: "Desk Setup" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
+              <Link prefetch={false} key={g.href} href={g.href} className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">{g.label}</span>
                 <p className="text-sm font-semibold text-ink group-hover:text-brand transition-colors leading-snug">{g.title}</p>
                 <span className="text-xs font-semibold text-brand mt-2 inline-block">Read guide &rarr;</span>

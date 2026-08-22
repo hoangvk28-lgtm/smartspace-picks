@@ -173,9 +173,9 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Adjustable Under-Desk Footrests</span>
         </nav>
@@ -214,7 +214,7 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
@@ -254,7 +254,7 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>A fixed-height footrest works well when the desk and chair height never change. For users who adjust their desk height throughout the day, share a desk with another person, or switch between a standard office chair and a drafting stool, a fixed footrest creates a different ergonomic problem every time the setup changes.</p>
           <p>This guide covers eight adjustable under-desk footrests ranked by Amazon buyer rating and verified review count, focusing on models with meaningful height or angle adjustment rather than fixed single-position designs.</p>
-          <p>For the full footrest category including fixed-height options, see our <Link href='/guide/best-under-desk-footrests' className='text-brand hover:underline'>best under-desk footrests</Link> guide.</p>
+          <p>For the full footrest category including fixed-height options, see our <Link prefetch={false} href='/guide/best-under-desk-footrests' className='text-brand hover:underline'>best under-desk footrests</Link> guide.</p>
         </section>
 
         <nav className="mb-12 p-4 rounded-xl bg-bg border border-border">
@@ -314,7 +314,7 @@ export default async function BestAdjustableUnderDeskFootrestsPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

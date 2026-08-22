@@ -147,9 +147,9 @@ export default async function BestSmallDeskChargingStationsPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Small Desk Charging Stations</span>
         </nav>
@@ -186,7 +186,7 @@ export default async function BestSmallDeskChargingStationsPage() {
         {/* Affiliate disclosure */}
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission -- at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Learn more</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Learn more</Link>.
         </div>
 
         {/* Hero */}
@@ -271,7 +271,7 @@ export default async function BestSmallDeskChargingStationsPage() {
             {product.id === "best-wireless" && (
               <div className="mb-8 p-4 rounded-xl bg-bg border border-brand/20 text-sm text-ink-secondary">
                 <strong className="text-ink">More wireless options:</strong>{" "}
-                <Link href="/guide/best-wireless-charging-stations-for-desk" className="text-brand hover:underline font-medium">
+                <Link prefetch={false} href="/guide/best-wireless-charging-stations-for-desk" className="text-brand hover:underline font-medium">
                   Best Wireless Charging Stations for Desk
                 </Link>
               </div>
@@ -538,7 +538,7 @@ export default async function BestSmallDeskChargingStationsPage() {
               { href: "/guide/small-desk-setup", title: "Small Desk Setup Ideas", desc: "15 practical ideas for building a better compact workspace" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Remove the charger from the surface entirely" },
             ].map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

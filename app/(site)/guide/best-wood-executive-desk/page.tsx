@@ -159,9 +159,9 @@ export default async function BestWoodExecutiveDeskPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Container className="py-12 max-w-4xl">
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Best Wood Executive Desks</span>
         </nav>
@@ -198,7 +198,7 @@ export default async function BestWoodExecutiveDeskPage() {
 
         <div className="mb-8 p-4 rounded-xl bg-bg border border-border text-xs text-ink-secondary">
           <strong className="text-ink">Quick note:</strong> This page contains affiliate links. If you buy through our links, we may earn a small commission at no extra cost to you. As an Amazon Associate, DeskFinds earns from qualifying purchases.{" "}
-          <Link href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
+          <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-bg">
@@ -238,9 +238,9 @@ export default async function BestWoodExecutiveDeskPage() {
         <section className="mb-10 space-y-4 text-base text-ink-secondary leading-relaxed">
           <p>
             The wood executive desk market splits clearly between two established brands and two solid wood options. Sauder dominates the consumer price range with the Palladia as their best residential line. Bush Business Furniture targets commercial environments with higher-density materials and a 10-year warranty. For genuine solid wood in an executive format,{" "}
-            <Link href="/guide/best-solid-wood-desk" className="text-brand hover:underline">the solid wood desk guide</Link>{" "}
+            <Link prefetch={false} href="/guide/best-solid-wood-desk" className="text-brand hover:underline">the solid wood desk guide</Link>{" "}
             covers verified hardwood options across all sizes. For executive desks with an L-shaped configuration,{" "}
-            <Link href="/guide/best-l-shaped-wood-desk" className="text-brand hover:underline">the L-shaped wood desk guide</Link>{" "}
+            <Link prefetch={false} href="/guide/best-l-shaped-wood-desk" className="text-brand hover:underline">the L-shaped wood desk guide</Link>{" "}
             includes the Sauder Palladia L-shaped and other executive L-desk options.
           </p>
         </section>
@@ -277,7 +277,7 @@ export default async function BestWoodExecutiveDeskPage() {
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
+              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
                 <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

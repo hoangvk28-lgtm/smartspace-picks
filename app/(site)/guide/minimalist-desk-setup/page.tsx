@@ -112,7 +112,7 @@ function IdeaSection({ idea, flip }: { idea: MinimalIdea; flip: boolean }) {
           {idea.internalLink && (
             <p className="text-xs text-ink-muted mt-3">
               For more options, see our guide to{" "}
-              <Link href={idea.internalLink.href} className="text-brand hover:underline font-medium">
+              <Link prefetch={false} href={idea.internalLink.href} className="text-brand hover:underline font-medium">
                 {idea.internalLink.text}
               </Link>
               .
@@ -136,9 +136,9 @@ export default async function MinimalistDeskSetupPage() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">Home</Link>
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">Home</Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">Buying Guides</Link>
           <span>/</span>
           <span className="text-ink">Minimalist Desk Setup</span>
         </nav>
@@ -384,7 +384,7 @@ export default async function MinimalistDeskSetupPage() {
               { href: "/guide/small-desk-organization-ideas", title: "Small Desk Organization Ideas", desc: "How to keep a small desk clutter-free" },
               { href: "/guide/best-under-desk-cable-trays", title: "Best Under-Desk Cable Trays", desc: "Hide cables and reclaim your desk surface" },
             ].map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"

@@ -50,9 +50,10 @@ export function CategoryGrid() {
           const subcategoryCount = cat.subcategories?.length ?? 0;
 
           return (
-            <Link
+            <Link prefetch={false}
               key={cat.slug}
               href={`/categories/${cat.slug}`}
+             
               className="group flex flex-col gap-3 p-5 bg-white rounded-card border border-border border-t-4 border-t-transparent min-w-0 hover:shadow-card-hover hover:border-transparent hover:translate-y-[-2px] transition-all"
               style={{ borderTopColor: cat.color }}
             >

@@ -53,7 +53,7 @@ export function HowWeReviewTeaser() {
               We don&apos;t accept payment for placement or scores. Our affiliate income depends on recommending products people are actually happy with - honest evaluation is in our direct interest.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link
+              <Link prefetch={false}
                 href="/how-we-review"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-border rounded-btn text-sm font-semibold text-ink hover:border-brand hover:text-brand transition-all"
               >
@@ -62,7 +62,7 @@ export function HowWeReviewTeaser() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
                 </svg>
               </Link>
-              <Link
+              <Link prefetch={false}
                 href="/compare"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-brand text-white rounded-btn text-sm font-semibold hover:bg-brand-dark transition-colors"
               >

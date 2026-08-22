@@ -62,7 +62,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10">
-              <Link
+              <Link prefetch={false}
                 href={hero.primaryCtaHref}
                 className="inline-flex items-center gap-2 px-6 py-3.5 font-semibold rounded-btn text-sm transition-all"
                 style={{ background: "linear-gradient(135deg, #3b82f6, #2563eb)", color: "#ffffff", boxShadow: "0 4px 20px rgba(59,130,246,0.50), 0 1px 3px rgba(0,0,0,0.3)" }}
@@ -73,7 +73,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
                 </svg>
               </Link>
               {hero.secondaryCtaText && (
-                <Link
+                <Link prefetch={false}
                   href={hero.secondaryCtaHref}
                   className="inline-flex items-center gap-2 px-6 py-3.5 font-semibold rounded-btn text-sm transition-all"
                   style={{ background: "rgba(255,255,255,0.12)", color: "#ffffff", border: "1px solid rgba(255,255,255,0.28)" }}
@@ -120,7 +120,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
               </div>
 
               {top4.map((p, i) => (
-                <Link key={p.id} href={`/reviews/${p.slug}`} className="px-5 py-4 flex items-center gap-3 hover:bg-white/5 transition-colors" style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
+                <Link prefetch={false} key={p.id} href={`/reviews/${p.slug}`} className="px-5 py-4 flex items-center gap-3 hover:bg-white/5 transition-colors" style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
                   <span className="w-6 h-6 rounded-full text-white text-[10px] font-bold flex items-center justify-center shrink-0" style={{ background: "rgba(59,130,246,0.75)" }}>{i + 1}</span>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-semibold leading-snug line-clamp-1" style={{ color: "rgba(255,255,255,0.96)" }}>{p.name}</p>
@@ -132,7 +132,7 @@ export async function HeroSection({ settings: propSettings }: Props = {}) {
               ))}
 
               <div className="px-5 py-3.5" style={{ background: "rgba(255,255,255,0.05)", borderTop: "1px solid rgba(255,255,255,0.10)" }}>
-                <Link href="/compare" className="text-xs font-semibold flex items-center justify-between group transition-colors" style={{ color: "#93c5fd" }}>
+                <Link prefetch={false} href="/compare" className="text-xs font-semibold flex items-center justify-between group transition-colors" style={{ color: "#93c5fd" }}>
                   Compare all {staticProducts.length} products
                   <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />

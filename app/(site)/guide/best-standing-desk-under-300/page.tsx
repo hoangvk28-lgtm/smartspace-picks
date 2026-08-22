@@ -244,11 +244,11 @@ export default async function BestStandingDeskUnder300Page() {
       <Container className="py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-1.5 text-xs text-ink-muted mb-6">
-          <Link href="/" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-brand transition-colors">
             Home
           </Link>
           <span>/</span>
-          <Link href="/guide" className="hover:text-brand transition-colors">
+          <Link prefetch={false} href="/guide" className="hover:text-brand transition-colors">
             Buying Guides
           </Link>
           <span>/</span>
@@ -261,7 +261,7 @@ export default async function BestStandingDeskUnder300Page() {
           affiliate links. If you buy through our links, we may earn a small
           commission at no extra cost to you. As an Amazon Associate, DeskFinds
           earns from qualifying purchases.{" "}
-          <Link
+          <Link prefetch={false}
             href="/affiliate-disclosure"
             className="text-brand hover:underline"
           >
@@ -427,21 +427,21 @@ export default async function BestStandingDeskUnder300Page() {
           </p>
           <p>
             If you need a more refined setup with advanced features, see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-standing-desk-under-500"
               className="text-brand hover:underline"
             >
               best standing desk under $500
             </Link>{" "}
             guide. For the rest of your workspace, we also cover the best{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/best-ergonomic-chair-under-300"
               className="text-brand hover:underline"
             >
               ergonomic chair
             </Link>{" "}
             under $300 and a full{" "}
-            <Link
+            <Link prefetch={false}
               href="/guide/ergonomic-desk-setup"
               className="text-brand hover:underline"
             >
@@ -656,14 +656,14 @@ export default async function BestStandingDeskUnder300Page() {
             <div className="p-3 rounded-xl bg-brand/5 border border-brand/20 text-sm text-ink-secondary">
               <strong className="text-ink">Quick note:</strong> Pairing a
               standing desk with a{" "}
-              <Link
+              <Link prefetch={false}
                 href="/guide/best-monitor-under-100"
                 className="text-brand hover:underline"
               >
                 monitor under $100
               </Link>{" "}
               and a{" "}
-              <Link
+              <Link prefetch={false}
                 href="/guide/best-compact-keyboard-under-50"
                 className="text-brand hover:underline"
               >
@@ -996,7 +996,7 @@ export default async function BestStandingDeskUnder300Page() {
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             {relatedGuides.map((g) => (
-              <Link
+              <Link prefetch={false}
                 key={g.href}
                 href={g.href}
                 className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group"
