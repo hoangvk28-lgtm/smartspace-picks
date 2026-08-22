@@ -2,7 +2,7 @@ const BASE = "/images/guides/best-filing-cabinets-for-small-spaces";
 
 export const guideSlug = "best-filing-cabinets-for-small-spaces";
 export const guideTitle = "8 Best Filing Cabinets for Small Spaces in 2026";
-export const metaTitle = "Best Filing Cabinets for Small Spaces 2026 – Compact Picks";
+export const metaTitle = "Best Filing Cabinets for Small Spaces 2026, Compact Picks";
 export const metaDescription =
   "Best filing cabinets for small spaces in 2026, ranked by footprint, access clearance, and standing-desk compatibility, not just drawer count.";
 export const lastUpdated = "2026-07-25";
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-3-drawer-mobile.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
-    description: "The Letaya 3 Drawer ships fully assembled and is sized to slide directly under a standard desk, which matters most in a small room where floor space cannot be given up to a freestanding cabinet. Three lockable drawers cover letters, legal, and A4 sizes, and the narrow body keeps the footprint close to a typical desk pedestal.\n\nThe main tradeoff in tight rooms is drawer swing. A fully extended top drawer needs close to three feet of clearance in front of the cabinet, so placement against a wall opposite a walking path works better than wedging it into a corner. It rolls on casters, so nudging it out for access is easy even in a cramped office.",
+    description: "The Letaya 3 Drawer ships fully assembled and is sized to slide directly under a standard desk, which matters most in a small room where floor space cannot be given up to a freestanding cabinet. Three lockable drawers cover letters, legal, and A4 sizes, and the narrow body keeps the footprint close to a typical desk pedestal.\n\nThe main tradeoff in tight rooms is drawer swing. A fully extended top drawer needs close to three feet of clearance in front of the cabinet, so placement against a wall opposite a walking path works better than wedging it into a corner. It rolls on casters, so nudging it out for access is easy even in a cramped office.\n\nFully assembled out of the box. Set against that, needs nearly 3 ft of front clearance when open. Both matter when comparing it to the other picks here.",
     specs: ["3 drawers", "Locking", "Letter/Legal/A4", "Fully assembled", "Rolling casters"],
     pros: ["Slides under most desks", "Fully assembled out of the box", "Locking drawers", "Rolls for easy repositioning"],
     cons: ["Needs nearly 3 ft of front clearance when open", "Casters are small, less ideal on thick carpet", "Black finish only"],
@@ -71,7 +71,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-2-drawer-under-desk.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B08G53L8B5?tag=deskfinds0d-20",
-    description: "DEVAISE built this 2 drawer cabinet specifically to sitting-height desk clearance, which typically runs 23 to 28 inches. It arrives fully assembled and locks, and its shorter height means it fits under desks where a 3-drawer model would bump the underside of the desktop.\n\nBecause it is a vertical two-drawer body rather than lateral, it needs less width but slightly more front-to-back reach when a drawer opens fully. If your desk sits on a standing-desk frame, measure your sitting-height clearance before ordering since 2-drawer pedestal height can run close to the low end of that range.",
+    description: "DEVAISE built this 2 drawer cabinet specifically to sitting-height desk clearance, which typically runs 23 to 28 inches. It arrives fully assembled and locks, and its shorter height means it fits under desks where a 3-drawer model would bump the underside of the desktop.\n\nBecause it is a vertical two-drawer body rather than lateral, it needs less width but slightly more front-to-back reach when a drawer opens fully. If your desk sits on a standing-desk frame, measure your sitting-height clearance before ordering since 2-drawer pedestal height can run close to the low end of that range.\n\nA genuine advantage here is that fully assembled. The tradeoff is only 2 drawers limits capacity.",
     specs: ["2 drawers", "Locking", "Fully assembled", "Under-desk height", "Letter/Legal/A4"],
     pros: ["Sized for sitting-height desk clearance", "Fully assembled", "Locking drawers", "Solid metal build"],
     cons: ["Only 2 drawers limits capacity", "May not clear a standing desk at its lowest sit position", "Higher price for the size"],
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-2-drawer-lateral.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
-    description: "This lateral cabinet opens sideways rather than pulling straight out, which is the better choice for a small room where you have wall width to spare but not much depth to give up. At roughly 28 inches wide and under 16 inches deep, it sits flush against a wall without eating into the walking path in front of it.\n\nHanging letter and legal files load side-to-side in this design, so check that your existing folders are rated for lateral hanging rails before switching from a vertical cabinet. The lock covers both drawers from one keyed point.",
+    description: "This lateral cabinet opens sideways rather than pulling straight out, which is the better choice for a small room where you have wall width to spare but not much depth to give up. At roughly 28 inches wide and under 16 inches deep, it sits flush against a wall without eating into the walking path in front of it.\n\nHanging letter and legal files load side-to-side in this design, so check that your existing folders are rated for lateral hanging rails before switching from a vertical cabinet. The lock covers both drawers from one keyed point.\n\nOpens sideways, not into the walkway. On the other hand, needs more wall width than a vertical cabinet. Neither should be a surprise once you know to look for it.",
     specs: ["2 drawers", "Lateral opening", "Locking", "Letter/Legal/A4", "H27.95 x W28.35 x D15.74 in"],
     pros: ["Shallow depth suits narrow rooms", "Opens sideways, not into the walkway", "Locking", "Compact footprint at 15.74 in deep"],
     cons: ["Needs more wall width than a vertical cabinet", "Side-to-side file orientation only", "Mid-pack rating vs. top pick"],
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/gyiiyuo-2-drawer-desktop.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
-    description: "GYIIYUO adds a 24-inch flat top and a side storage bag to a rolling 2-drawer cabinet, which doubles as a printer stand next to a small desk instead of taking up a second piece of furniture. The fabric drawer fronts keep the overall weight lower than an all-metal cabinet, which helps when you need to move it for cleaning.\n\nAt this price, expect the fabric drawers and lighter frame to feel less rigid than the metal DEVAISE or Letaya picks above. It is best treated as a printer stand with file storage underneath rather than a heavy-duty document archive.",
+    description: "GYIIYUO adds a 24-inch flat top and a side storage bag to a rolling 2-drawer cabinet, which doubles as a printer stand next to a small desk instead of taking up a second piece of furniture. The fabric drawer fronts keep the overall weight lower than an all-metal cabinet, which helps when you need to move it for cleaning.\n\nAt this price, expect the fabric drawers and lighter frame to feel less rigid than the metal DEVAISE or Letaya picks above. It is best treated as a printer stand with file storage underneath rather than a heavy-duty document archive.\n\nIncluded side storage bag. That's a real strength, but weigh it against the flip side: fabric drawers less durable than metal.",
     specs: ["2 drawers", "24 in extended desktop", "Side storage bag", "Fabric drawers", "A4/Letter"],
     pros: ["Doubles as a printer stand", "Included side storage bag", "Lightweight, easy to move", "Budget price"],
     cons: ["Fabric drawers less durable than metal", "No lock", "Lower weight capacity than steel cabinets"],
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-3-drawer-mobile.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
-    description: "This is the highest-capacity cabinet in this roundup at a similar footprint to the 2-drawer options, which makes sense if you need more storage but still only have a single small-desk-sized gap to place it in. The lateral layout means the width is the main space commitment rather than the depth.\n\nWith three drawers loaded, a filled cabinet like this can reach 80 to 100 lbs, so plan its final position before loading it since repositioning a fully loaded lateral cabinet on carpet is a two-person job even with casters.",
+    description: "This is the highest-capacity cabinet in this roundup at a similar footprint to the 2-drawer options, which makes sense if you need more storage but still only have a single small-desk-sized gap to place it in. The lateral layout means the width is the main space commitment rather than the depth.\n\nWith three drawers loaded, a filled cabinet like this can reach 80 to 100 lbs, so plan its final position before loading it since repositioning a fully loaded lateral cabinet on carpet is a two-person job even with casters.\n\nWorth calling out specifically: mobile casters included. The catch is loaded weight makes repositioning harder.",
     specs: ["3 drawers", "Lateral, mobile", "Rustic brown finish", "Letter/Legal/A4"],
     pros: ["Most storage per footprint here", "Mobile casters included", "Distinct rustic brown finish option", "Strong review count"],
     cons: ["Loaded weight makes repositioning harder", "Wider footprint than 2-drawer options", "No stated lock"],
@@ -135,7 +135,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/vasagle-custos-small-rolling.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
-    description: "At 15.7 x 16.5 x 27.6 inches, this is one of the smallest true footprints in this guide, and VASAGLE markets it explicitly as a printer stand alternative, which fits the small-space brief well. The narrow width means it slots into gaps beside a desk that a wider lateral cabinet cannot use.\n\nBecause the cabinet is narrow and tops out at 27.6 inches tall, it clears most sitting-height desk aprons, but check your specific desk's under-surface clearance since a few standing desks sit lower than this at their minimum height.",
+    description: "At 15.7 x 16.5 x 27.6 inches, this is one of the smallest true footprints in this guide, and VASAGLE markets it explicitly as a printer stand alternative, which fits the small-space brief well. The narrow width means it slots into gaps beside a desk that a wider lateral cabinet cannot use.\n\nBecause the cabinet is narrow and tops out at 27.6 inches tall, it clears most sitting-height desk aprons, but check your specific desk's under-surface clearance since a few standing desks sit lower than this at their minimum height.\n\nDoubles as printer stand. Set against that, small drawer capacity. Both matter when comparing it to the other picks here.",
     specs: ["2 drawers", "15.7 x 16.5 x 27.6 in", "Matte black", "A4/Letter", "Rolling casters"],
     pros: ["One of the smallest footprints in this guide", "Doubles as printer stand", "Very high review count for the price", "Rolling casters"],
     cons: ["Small drawer capacity", "Lightweight build vs. all-steel options", "May not clear the lowest standing-desk heights"],
@@ -151,7 +151,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/bynsoe-2-drawer-vertical.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
-    description: "BYNSOE's vertical layout keeps the footprint narrow front-to-back, which suits a small room where you want the cabinet flush against a wall rather than jutting into the room. It locks and is priced below most of the metal options here.\n\nThis one requires assembly rather than arriving ready to use, which is worth factoring into your setup time. It has no listed casters, so plan its position as fairly permanent rather than something you'll frequently slide around.",
+    description: "BYNSOE's vertical layout keeps the footprint narrow front-to-back, which suits a small room where you want the cabinet flush against a wall rather than jutting into the room. It locks and is priced below most of the metal options here.\n\nThis one requires assembly rather than arriving ready to use, which is worth factoring into your setup time. It has no listed casters, so plan its position as fairly permanent rather than something you'll frequently slide around.\n\nA genuine advantage here is that locking drawers. The tradeoff is assembly required.",
     specs: ["2 drawers", "Vertical", "Locking", "Steel", "Assembly required"],
     pros: ["Narrow vertical footprint", "Locking drawers", "Budget price", "Steel construction"],
     cons: ["Assembly required", "No casters for repositioning", "Lower drawer capacity"],
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/steeloong-2-drawer.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D2QSQZ1X?tag=deskfinds0d-20",
-    description: "SteeLoong keeps this cabinet simple: two locking metal drawers in a compact black frame at a similar price point to the BYNSOE pick. It is a reasonable stand-in if that model is out of stock, with a comparable narrow footprint suited to small rooms.\n\nWith a smaller review count than most other picks here, treat this as a solid budget alternative rather than a top recommendation. Confirm current listing details before buying since specs on lower-volume listings change more often.",
+    description: "SteeLoong keeps this cabinet simple: two locking metal drawers in a compact black frame at a similar price point to the BYNSOE pick. It is a reasonable stand-in if that model is out of stock, with a comparable narrow footprint suited to small rooms.\n\nWith a smaller review count than most other picks here, treat this as a solid budget alternative rather than a top recommendation. Confirm current listing details before buying since specs on lower-volume listings change more often.\n\nLocking drawers. On the other hand, smaller review base than other picks. Neither should be a surprise once you know to look for it.",
     specs: ["2 drawers", "Locking", "Metal", "Compact footprint"],
     pros: ["Compact metal frame", "Locking drawers", "Competitive budget price"],
     cons: ["Smaller review base than other picks", "No stated casters", "Basic feature set"],
@@ -176,12 +176,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Footprint vs. access clearance", explanation: "A compact 2-drawer vertical cabinet may measure only 15x20 inches closed, but a fully open top drawer needs roughly 38 to 40 inches of clear floor in front of it. Lateral cabinets open sideways instead, trading floor depth for wall width. Measure the open-drawer clearance, not just the box dimensions, before placing one in a small room." },
-  { criterion: "Standing-desk sitting clearance", explanation: "If the cabinet needs to slide under a sit-stand desk, check your desk's clearance at its lowest sitting height, typically 23 to 28 inches. Rolling pedestal cabinets often run 24 to 28 inches tall themselves, which can be too tall to clear a desk set near the bottom of its range." },
-  { criterion: "Mobile vs. fixed pedestal stability", explanation: "Cabinets with a single non-locking caster set can tip forward when rolled onto a rug edge or uneven floor transition. Look for locking front casters or a 5-caster layout if the cabinet will be moved regularly, and lock the wheels once it's in its final spot." },
-  { criterion: "Hanging file orientation", explanation: "Some compact cabinets only accept front-to-back hanging files, not the side-to-side rail layout most legal and letter hanging folders use. Check the product listing for hanging rail specifications before assuming any 'letter/legal' cabinet supports your existing folders." },
-  { criterion: "Loaded weight and caster size", explanation: "A fully loaded 2-drawer cabinet commonly weighs 60 to 100 lbs. On carpet, casters smaller than about 2.5 inches in diameter struggle to roll smoothly under that load. If your floor is carpeted, prioritize a cabinet with larger casters over a marginally cheaper one." },
-  { criterion: "Assembly and finish", explanation: "Fully assembled cabinets save setup time but usually cost slightly more. Confirm whether the listing says 'fully assembled' or 'assembly required' before ordering, since a small-space cabinet that requires tools and floor space to build can be its own logistical headache in a cramped room." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 8 best filing cabinet often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 8 best filing cabinet holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 8 best filing cabinet over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 8 best filing cabinet you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 8 best filing cabinet that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -194,56 +208,98 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Available Floor Depth",
-    intro: "Small rooms usually run short on either depth or width, not both. Match the cabinet's opening direction to whichever dimension you actually have.",
-    table: {
-      headers: ["Your constraint", "Best opening style", "Recommended pick"],
-      rows: [
-        ["Less than 3 ft of depth in front of the spot", "Lateral (opens sideways)", "Letaya 2 Drawer Lateral File Cabinet"],
-        ["Depth is fine, width is the limit", "Vertical (opens forward), narrow body", "VASAGLE CUSTOS Small Rolling Filing Cabinet"],
-        ["Need the smallest footprint possible", "Compact vertical, 2-drawer", "VASAGLE CUSTOS Small Rolling Filing Cabinet"],
-        ["Need max capacity, width is available", "Lateral, 3-drawer", "DEVAISE 3-Drawer Mobile Lateral File Cabinet"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Standing-Desk Sitting Clearance Check",
-    intro: "If the cabinet needs to slide fully under your desk while you're seated, measure the clearance at your desk's lowest sitting height before ordering.",
-    table: {
-      headers: ["Desk sitting clearance", "Fits under desk?", "Recommended pick"],
-      rows: [
-        ["Under 24 in", "Tight — measure exact cabinet height first", "VASAGLE CUSTOS Small Rolling Filing Cabinet (27.6 in tall)"],
-        ["24-26 in", "Fits shorter under-desk cabinets", "DEVAISE 2 Drawer Metal File Cabinet, Under Desk"],
-        ["27-28 in and up", "Most 2-drawer cabinets fit", "Letaya 3 Drawer Mobile File Cabinet with Lock"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Manufacturer height specs vary by an inch or two between listings — always confirm the exact number on the current Amazon listing before buying.",
+      "rows": [
+        [
+          "Under $53",
+          "VASAGLE CUSTOS Small Rolling Filing Cabinet"
+        ],
+        [
+          "Up to $130",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Room Type",
-    cards: [
-      { label: "Dorm room or studio alcove", text: "Go narrow and light. The VASAGLE CUSTOS or GYIIYUO 2 Drawer with desktop keep the footprint minimal and double as extra surface space." },
-      { label: "Home office with a standing desk", text: "Prioritize the DEVAISE 2 Drawer Under Desk pick, sized specifically for sitting-height clearance under a sit-stand frame." },
-      { label: "Shared workspace needing lock security", text: "The Letaya 3 Drawer or BYNSOE 2 Drawer both lock and keep a compact vertical footprint." },
-      { label: "Small office needing max document storage", text: "The DEVAISE 3-Drawer Mobile Lateral fits the most files without doubling the footprint of a 2-drawer cabinet." },
+    "subheading": "VASAGLE CUSTOS Small Rolling Filing Cabinet vs DEVAISE 2 Drawer Metal File Cabinet",
+    "cards": [
+      {
+        "label": "VASAGLE CUSTOS Small Rolling Filing Cabinet",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "DEVAISE 2 Drawer Metal File Cabinet",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to VASAGLE CUSTOS Small Rolling Filing Cabinet unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Mobile vs. Fixed Placement",
-    intro: "Decide up front whether the cabinet needs to move regularly or will sit in one spot permanently.",
-    table: {
-      headers: ["Use case", "Recommendation", "Pick"],
-      rows: [
-        ["Rolled out often for drawer access in a tight room", "Rolling casters, ideally locking", "Letaya 3 Drawer Mobile File Cabinet with Lock"],
-        ["Stays in one place against a wall", "Fixed pedestal is fine, often cheaper", "BYNSOE 2 Drawer Vertical File Cabinet"],
-        ["On carpet and needs to roll smoothly", "Look for 2.5 in+ diameter casters", "DEVAISE 3-Drawer Mobile Lateral File Cabinet"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When to Size Up Instead",
-    note: "If you're consistently filling a 2-drawer cabinet within a year, a 3-drawer lateral like the DEVAISE 3-Drawer costs less per drawer of capacity than buying a second small cabinet later and gives you one footprint to plan around instead of two.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Letaya 3 Drawer Mobile File Cabinet with Lock is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where DEVAISE 2 Drawer Metal File Cabinet's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where VASAGLE CUSTOS Small Rolling Filing Cabinet covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [

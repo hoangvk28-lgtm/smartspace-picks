@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31dB5wqnhqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFJWMRN2?tag=deskfinds0d-20",
-    description: "A four-bay diskless enclosure rated up to 3,200MB/s real-world over USB4/Thunderbolt/USB-C, built from aircraft-grade aluminum for rugged protection and heat dissipation. Smart adaptive fans only activate under load, aiming for near-silent operation during focused work.\n\nCertain models include OWC SoftRAID for RAID 0/1/4/5/1+0(10), and it also supports Apple Disk Utility RAID, Windows Disk Management RAID, and Windows Storage Spaces. Accepts your choice of 2230, 2242, or 2280 NVMe SSDs across all four bays, backed by a 2-year OWC warranty.",
+    description: "A four-bay diskless enclosure rated up to 3,200MB/s real-world over USB4/Thunderbolt/USB-C, built from aircraft-grade aluminum for rugged protection and heat dissipation. Smart adaptive fans only activate under load, aiming for near-silent operation during focused work.\n\nCertain models include OWC SoftRAID for RAID 0/1/4/5/1+0(10), and it also supports Apple Disk Utility RAID, Windows Disk Management RAID, and Windows Storage Spaces. Accepts your choice of 2230, 2242, or 2280 NVMe SSDs across all four bays, backed by a 2-year OWC warranty.\n\nAircraft-grade aluminum construction for durability. Set against that, diskless, four SSDs need to be purchased separately. Both matter when comparing it to the other picks here.",
     specs: ["4-bay, up to 3,200MB/s USB4","Adaptive fans (load-activated only)","OWC SoftRAID support on select models"],
     pros: ["Adaptive fans only run under load for near-silent idle operation","Aircraft-grade aluminum construction for durability","Broad RAID software support (SoftRAID, Apple Disk Utility, Windows options)","2-year OWC warranty"],
     cons: ["Diskless, four SSDs need to be purchased separately","Base model does not include SoftRAID, that's the pricier variant below"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/21YIBlIqgtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8BFGXK9?tag=deskfinds0d-20",
-    description: "Rated up to 3,224MB/s with four 990 PRO SSDs installed, or 1,608MB/s with a single drive, supporting up to 32TB across four M.2 NVMe 2280 bays (8TB each). No built-in hardware RAID, but supports soft RAID via third-party tools across all four individually-presented disks.\n\nTerraMaster emphasizes near-silent operation at 19dB(A) in standby via temperature-controlled fans and four internal temperature sensors. Includes the TDAS mobile app for wireless phone backups and TPC Backupper for scheduled Windows backups, plus power-loss recovery for auto-restart after outages, positioning this as server/NAS-adjacent rather than a simple portable enclosure.",
+    description: "Rated up to 3,224MB/s with four 990 PRO SSDs installed, or 1,608MB/s with a single drive, supporting up to 32TB across four M.2 NVMe 2280 bays (8TB each). No built-in hardware RAID, but supports soft RAID via third-party tools across all four individually-presented disks.\n\nTerraMaster emphasizes near-silent operation at 19dB(A) in standby via temperature-controlled fans and four internal temperature sensors. Includes the TDAS mobile app for wireless phone backups and TPC Backupper for scheduled Windows backups, plus power-loss recovery for auto-restart after outages, positioning this as server/NAS-adjacent rather than a simple portable enclosure.\n\nA genuine advantage here is that power-loss recovery auto-restarts after an outage. The tradeoff is no built-in hardware RAID, only individual disks with third-party soft RAID options.",
     specs: ["4-bay, up to 32TB, 3,224MB/s (4-drive) / 1,608MB/s (1-drive)","19dB(A) standby noise","Includes backup software (TDAS app, TPC Backupper)"],
     pros: ["Includes dedicated backup software (mobile app + Windows scheduler), not just raw storage","Power-loss recovery auto-restarts after an outage","Near-silent 19dB(A) standby operation with temperature-controlled fans","Wide voltage input (12V-20V) for flexible power sources"],
     cons: ["No built-in hardware RAID, only individual disks with third-party soft RAID options","Requires its own 12V/2A power adapter, not bus-powered"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41GmWiNJ3KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9WJL218?tag=deskfinds0d-20",
-    description: "Supports two NVMe SSDs for up to 16TB at 2,869MB/s in RAID 0 or 8TB at 1,594MB/s in other modes, paired with dual/triple display support (dual DisplayPort at 4K@144Hz single-screen or 4K@60Hz dual-screen) alongside the Mac mini M4's own ports.\n\nThe included 30W PD adapter provides stable self-power to minimize disconnection or drive-failure risk, and ACASIS warns not to plug/unplug SSDs while powered on. Dual cooling fans (~52dB) maintain a safe 60°C even after hours of operation, molded to a 1:1 match of the Mac mini M4's shape.",
+    description: "Supports two NVMe SSDs for up to 16TB at 2,869MB/s in RAID 0 or 8TB at 1,594MB/s in other modes, paired with dual/triple display support (dual DisplayPort at 4K@144Hz single-screen or 4K@60Hz dual-screen) alongside the Mac mini M4's own ports.\n\nThe included 30W PD adapter provides stable self-power to minimize disconnection or drive-failure risk, and ACASIS warns not to plug/unplug SSDs while powered on. Dual cooling fans (~52dB) maintain a safe 60°C even after hours of operation, molded to a 1:1 match of the Mac mini M4's shape.\n\nDual DisplayPort output alongside storage in one dock. On the other hand, aCASIS explicitly warns against hot-plugging SSDs while powered on. Neither should be a surprise once you know to look for it.",
     specs: ["40Gbps, dual-bay NVMe, up to 16TB RAID 0","Dual DisplayPort, 4K@144Hz single/4K@60Hz dual","Dual cooling fans (~52dB), 60°C sustained max"],
     pros: ["Dual-bay NVMe with RAID 0 support for up to 16TB at 2,869MB/s","Dual DisplayPort output alongside storage in one dock","1:1 molded fit to the Mac mini M4 with anti-slip padding","Dual fans keep sustained temperature at a safe 60°C over hours"],
     cons: ["ACASIS explicitly warns against hot-plugging SSDs while powered on","Requires careful troubleshooting steps (per ACASIS's own guide) if display or SSD issues occur"],
@@ -100,44 +100,95 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Match the Interface to Your Host",
-    "intro": "Before buying, check your computer's exact port protocol, not just whether it has a USB-C connector.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
     "table": {
       "headers": [
-        "Your host port",
-        "What to look for"
+        "Your priority",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "USB-C 10Gbps (USB 3.2 Gen 2)",
-          "Any 10Gbps-rated pick above works at full speed"
+          "Highest average rating",
+          "OWC Express 4M2 Four"
         ],
         [
-          "USB-C 20Gbps (USB 3.2 Gen 2x2)",
-          "Confirm the enclosure specifically states Gen 2x2 support, not just USB-C"
-        ],
-        [
-          "Thunderbolt / USB4 40Gbps or higher",
-          "Check for genuine Thunderbolt/USB4 certification, not just a compatible claim"
+          "Largest review base, strongest reliability signal",
+          "OWC Express 4M2 Four"
         ]
       ]
     }
   },
   {
-    "subheading": "When to Spend More",
-    "intro": "Interface speed, bridge controller sophistication, and cooling design all scale price in this category.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $160",
+          "ACASIS 40Gbps Mac mini M4 Dock with Dual"
+        ],
+        [
+          "Up to $200",
+          "TERRAMASTER D4 SSD 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "ACASIS 40Gbps Mac mini M4 Dock with Dual vs TERRAMASTER D4 SSD 4",
     "cards": [
       {
-        "label": "Occasional file transfers",
-        "text": "A 10Gbps pick from this list covers most casual thunderbolt ssd raid enclosures needs without paying for bandwidth you won't use."
+        "label": "ACASIS 40Gbps Mac mini M4 Dock with Dual",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        "label": "Video editing or large sustained transfers",
-        "text": "Step up to a 40Gbps USB4/Thunderbolt pick with active cooling to avoid thermal throttling mid-transfer."
+        "label": "TERRAMASTER D4 SSD 4",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to ACASIS 40Gbps Mac mini M4 Dock with Dual unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "OWC Express 4M2 Four"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        "label": "Professional or archival workflows",
-        "text": "An 80Gbps Thunderbolt 5 enclosure or a RAID-capable multi-bay design is worth the premium if downtime or data loss has real cost."
+        "label": "In this comparison",
+        "text": "OWC Express 4M2 Four is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where TERRAMASTER D4 SSD 4's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where ACASIS 40Gbps Mac mini M4 Dock with Dual covers the same job at a lower price."
       }
     ]
   }
@@ -145,28 +196,24 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria = [
   {
-    "criterion": "USB-C is a connector, not a speed",
-    "explanation": "A USB-C port can carry 10, 20, 40, or 80Gbps depending on the underlying protocol. Require the exact USB/Thunderbolt protocol and link rate from the listing, not USB-C wording alone, before assuming an enclosure matches your host's real speed."
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a thunderbolt ssd raid enclosure often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    "criterion": "Check the bridge controller, not just the interface label",
-    "explanation": "Two enclosures with the same 40Gbps label can behave differently depending on the bridge chip (ASM2464PD, JHL7440, RTL9210, and others each have different real-world characteristics). Where a listing names its controller, treat that as a real signal of build quality."
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the thunderbolt ssd raid enclosure holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    "criterion": "Verify NVMe-only versus NVMe+SATA support",
-    "explanation": "Some enclosures in this category support only NVMe M-Key SSDs, others add SATA/NGFF support via M+B Key. Confirm which protocol your specific SSD uses before buying, since a mismatch means the drive simply won't work."
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this thunderbolt ssd raid enclosure over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    "criterion": "Separate peak benchmark speed from sustained performance",
-    "explanation": "A short benchmark can hit peak speed even on a design that throttles heavily during long transfers. Favor listings that publish tested read/write numbers with a named SSD and host over theoretical link-rate claims alone."
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any thunderbolt ssd raid enclosure you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    "criterion": "Confirm your exact M.2 size and keying before buying",
-    "explanation": "2230, 2242, 2260, and 2280 SSDs are not interchangeable in every enclosure, and M-Key versus B+M Key compatibility varies by product. Check your SSD's exact length and key type against the listing's stated support, not just \"M.2 compatible\"."
-  },
-  {
-    "criterion": "Cable and host requirements can silently cap speed",
-    "explanation": "A USB-C cable rated below the enclosure's maximum speed, or a host port that doesn't support the exact protocol claimed, will cap real throughput well below the advertised number. Check both before assuming full speed."
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A thunderbolt ssd raid enclosure that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
   }
 ];
 

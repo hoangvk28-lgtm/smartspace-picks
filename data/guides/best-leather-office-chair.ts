@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/homall-gaming-chair-pu.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B01MRZ02TL?tag=deskfinds0d-20",
-    description: "The Homall gaming chair at $80.74 is the most affordable PU leather chair in this guide with a 4.4 star rating. The high-back racing style fits users who want the look of leather at the lowest possible price.\n\nAt under $81, the Homall delivers a padded PU leather seat and back with lumbar and headrest pillows. For budget-conscious buyers who want a leather-look chair without spending over $100, the Homall is the clear choice.",
-    specs: ["PU leather seat and back", "Racing-style high back", "Seat height: 17\"–21\"", "Lumbar and headrest pillow", "Reclining function", "300 lb capacity"],
+    description: "The Homall gaming chair at $80.74 is the most affordable PU leather chair in this guide with a 4.4 star rating. The high-back racing style fits users who want the look of leather at the lowest possible price.\n\nAt under $81, the Homall delivers a padded PU leather seat and back with lumbar and headrest pillows. For budget-conscious buyers who want a leather-look chair without spending over $100, the Homall is the clear choice.\n\nWorth calling out specifically: 4.4 stars rating. The catch is gaming aesthetic not suited for all offices.",
+    specs: ["PU leather seat and back", "Racing-style high back", "Seat height: 17\"-21\"", "Lumbar and headrest pillow", "Reclining function", "300 lb capacity"],
     pros: ["$80.74 most affordable in guide", "4.4 stars rating", "High-back racing design", "Lumbar and headrest included"],
     cons: ["Gaming aesthetic not suited for all offices", "PU leather not as durable as genuine leather"],
     bestFor: "Budget buyers who want a PU leather gaming-style chair under $85.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/amazon-basics-mid-back-leather.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B00IFHPVEU?tag=deskfinds0d-20",
-    description: "The Amazon Basics mid-back PU leather chair at $104.99 is the best professional-looking leather chair under $110. The mid-back design and traditional office aesthetic suit work-from-home setups where a classic office chair look is preferred.\n\nThe Amazon Basics brand delivers reliable quality control and the chair ships fully assembled from Amazon. For buyers who want a traditional mid-back leather office chair at an accessible price, the Amazon Basics is the dependable pick.",
-    specs: ["PU leather upholstery", "Mid-back design", "Seat height: 17.1\"–20.9\"", "Padded seat and back", "Tilt function with lock", "Swivel base"],
+    description: "The Amazon Basics mid-back PU leather chair at $104.99 is the best professional-looking leather chair under $110. The mid-back design and traditional office aesthetic suit work-from-home setups where a classic office chair look is preferred.\n\nThe Amazon Basics brand delivers reliable quality control and the chair ships fully assembled from Amazon. For buyers who want a traditional mid-back leather office chair at an accessible price, the Amazon Basics is the dependable pick.\n\nAmazon reliability and easy returns. Set against that, mid-back provides less upper back support. Both matter when comparing it to the other picks here.",
+    specs: ["PU leather upholstery", "Mid-back design", "Seat height: 17.1\"-20.9\"", "Padded seat and back", "Tilt function with lock", "Swivel base"],
     pros: ["Traditional professional office look", "Amazon reliability and easy returns", "Ships with minimal assembly", "Padded armrests"],
     cons: ["Mid-back provides less upper back support", "PU leather durability over time"],
     bestFor: "Home office workers who want a traditional mid-back leather office chair look at an affordable price.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/furmax-gaming-chair-leather.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B01LXXM5EK?tag=deskfinds0d-20",
-    description: "The Furmax gaming chair at $69.99 is the lowest-priced leather-look chair in this guide. The high-back PU leather racing design includes lumbar and headrest pillows and a padded seat for all-day comfort.\n\nFor buyers who want the leather gaming chair aesthetic at the absolute lowest price, the Furmax delivers the core features at under $70.",
-    specs: ["PU leather seat and back", "High-back racing style", "Seat height: 17\"–21\"", "Lumbar and headrest pillow", "Tilt 90°–135°", "250 lb capacity"],
+    description: "The Furmax gaming chair at $69.99 is the lowest-priced leather-look chair in this guide. The high-back PU leather racing design includes lumbar and headrest pillows and a padded seat for all-day comfort.\n\nFor buyers who want the leather gaming chair aesthetic at the absolute lowest price, the Furmax delivers the core features at under $70.\n\nA genuine advantage here is that high-back gaming design. The tradeoff is 250 lb capacity lower than some.",
+    specs: ["PU leather seat and back", "High-back racing style", "Seat height: 17\"-21\"", "Lumbar and headrest pillow", "Tilt 90°-135°", "250 lb capacity"],
     pros: ["$69.99 lowest leather-look price in guide", "High-back gaming design", "Lumbar and headrest", "Wide seat"],
     cons: ["250 lb capacity lower than some", "Thinner padding at entry price"],
     bestFor: "Buyers on the tightest budget who want a high-back leather-look gaming chair under $70.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/amazon-basics-executive-high.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0CZP9QB9Z?tag=deskfinds0d-20",
-    description: "The Amazon Basics high-back executive chair at $152.99 is the best executive leather chair under $160. The high-back PU leather design with padded armrests delivers a traditional executive office aesthetic at a fraction of premium chair prices.\n\nThe Amazon Basics executive model is the most popular chair in this guide for home offices where a professional look matters. The high back provides full lumbar and upper back support in a traditional leather executive style.",
-    specs: ["High-back PU leather", "Seat height: 17.5\"–21.3\"", "Padded armrests", "Tilt with lock", "Adjustable lumbar", "250 lb capacity"],
+    description: "The Amazon Basics high-back executive chair at $152.99 is the best executive leather chair under $160. The high-back PU leather design with padded armrests delivers a traditional executive office aesthetic at a fraction of premium chair prices.\n\nThe Amazon Basics executive model is the most popular chair in this guide for home offices where a professional look matters. The high back provides full lumbar and upper back support in a traditional leather executive style.\n\nPadded armrests. On the other hand, pU leather vs genuine leather. Neither should be a surprise once you know to look for it.",
+    specs: ["High-back PU leather", "Seat height: 17.5\"-21.3\"", "Padded armrests", "Tilt with lock", "Adjustable lumbar", "250 lb capacity"],
     pros: ["Traditional executive leather look", "Padded armrests", "High-back full support", "Amazon reliability"],
     cons: ["PU leather vs genuine leather", "250 lb capacity"],
     bestFor: "Home office workers who want a traditional high-back executive leather look under $160.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/colamy-high-back-executive.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BD7Z94ZQ?tag=deskfinds0d-20",
-    description: "The COLAMY high-back executive chair at $177.99 is the only chair in this guide with a built-in lumbar airbag that inflates to custom firmness. The airbag lumbar lets users dial in exact lumbar pressure rather than relying on a fixed foam pillow.\n\nAt $177.99, the COLAMY is mid-range in this guide but delivers a unique lumbar feature that higher-end chairs charge more for. For users with specific lumbar support needs, the COLAMY airbag system is a standout value.",
-    specs: ["PU leather high back", "Lumbar airbag with pump", "Seat height: 17.7\"–21.7\"", "Padded armrests", "Tilt with lock", "300 lb capacity"],
+    description: "The COLAMY high-back executive chair at $177.99 is the only chair in this guide with a built-in lumbar airbag that inflates to custom firmness. The airbag lumbar lets users dial in exact lumbar pressure rather than relying on a fixed foam pillow.\n\nAt $177.99, the COLAMY is mid-range in this guide but delivers a unique lumbar feature that higher-end chairs charge more for. For users with specific lumbar support needs, the COLAMY airbag system is a standout value.\n\n300 lb capacity. That's a real strength, but weigh it against the flip side: airbag pump adds a manual step.",
+    specs: ["PU leather high back", "Lumbar airbag with pump", "Seat height: 17.7\"-21.7\"", "Padded armrests", "Tilt with lock", "300 lb capacity"],
     pros: ["Lumbar airbag adjusts to custom firmness", "300 lb capacity", "High-back executive style", "Unique feature at this price"],
     cons: ["Airbag pump adds a manual step", "PU leather vs genuine leather"],
     bestFor: "Users who need customizable lumbar firmness and want an airbag lumbar system in a leather executive chair.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/furmax-executive-high-back.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
-    description: "The Furmax executive high-back chair at $99.99 provides the executive leather aesthetic at under $100 with adjustable armrests. This is the best value executive leather chair in the guide for buyers who want a high-back professional look without exceeding $100.\n\nThe wide padded seat and high back support full-day sitting with a traditional leather executive chair appearance.",
-    specs: ["PU leather high back", "Seat height: 18\"–22\"", "Adjustable armrests", "Tilt 90°–135°", "Lumbar cushion", "250 lb capacity"],
+    description: "The Furmax executive high-back chair at $99.99 provides the executive leather aesthetic at under $100 with adjustable armrests. This is the best value executive leather chair in the guide for buyers who want a high-back professional look without exceeding $100.\n\nThe wide padded seat and high back support full-day sitting with a traditional leather executive chair appearance.\n\nWorth calling out specifically: adjustable armrests. The catch is 250 lb capacity.",
+    specs: ["PU leather high back", "Seat height: 18\"-22\"", "Adjustable armrests", "Tilt 90°-135°", "Lumbar cushion", "250 lb capacity"],
     pros: ["$99.99 executive look under $100", "Adjustable armrests", "22\" max seat height", "Wide padded seat"],
     cons: ["250 lb capacity", "Thinner padding vs premium options"],
     bestFor: "Buyers who want an adjustable executive leather chair under $100.",
@@ -138,7 +138,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/lazboy-delano-big-tall.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0116W5B5O?tag=deskfinds0d-20",
-    description: "The La-Z-Boy Delano is the best big and tall leather chair in this guide, supporting up to 400 lbs with an extra-wide seat and high back. La-Z-Boy's ComfortCore Plus foam technology provides superior cushion depth compared to standard PU leather chairs.\n\nAt $379.99, the Delano is the premium option for larger users who need reinforced construction with genuine leather aesthetics and the La-Z-Boy brand reliability.",
+    description: "The La-Z-Boy Delano is the best big and tall leather chair in this guide, supporting up to 400 lbs with an extra-wide seat and high back. La-Z-Boy's ComfortCore Plus foam technology provides superior cushion depth compared to standard PU leather chairs.\n\nAt $379.99, the Delano is the premium option for larger users who need reinforced construction with genuine leather aesthetics and the La-Z-Boy brand reliability.\n\nExtra-wide 22.5\" seat. Set against that, $379 premium price. Both matter when comparing it to the other picks here.",
     specs: ["ComfortCore Plus foam cushioning", "Seat width: 22.5\"", "Weight capacity: 400 lbs", "Waterfall seat edge", "Adjustable lumbar", "3-year warranty"],
     pros: ["400 lb weight capacity", "Extra-wide 22.5\" seat", "ComfortCore Plus foam cushioning", "La-Z-Boy brand reliability"],
     cons: ["$379 premium price", "4.0 star rating lower than smaller chairs"],
@@ -154,20 +154,35 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: `${BASE}/lazboy-bradley-executive.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B01JCHG7P8?tag=deskfinds0d-20",
-    description: "The La-Z-Boy Bradley at $329.99 is the highest-rated chair in this guide at 4.6 stars and delivers La-Z-Boy's premium bonded leather aesthetic with ComfortCore foam. The Bradley is the best-looking executive leather chair in the guide for professional home office environments.\n\nLa-Z-Boy's reputation for furniture quality and the 4.6 star rating reflect the Bradley's superior comfort over budget leather chairs. For buyers who want a true executive chair experience with a premium brand, the Bradley is the top pick.",
-    specs: ["Bonded leather upholstery", "ComfortCore foam seat", "Seat height: 18.5\"–22.5\"", "Padded armrests", "Tilt with lock", "3-year warranty"],
-    pros: ["4.6 stars – highest rated in guide", "La-Z-Boy brand quality", "ComfortCore foam superior cushioning", "Professional executive appearance"],
+    description: "The La-Z-Boy Bradley at $329.99 is the highest-rated chair in this guide at 4.6 stars and delivers La-Z-Boy's premium bonded leather aesthetic with ComfortCore foam. The Bradley is the best-looking executive leather chair in the guide for professional home office environments.\n\nLa-Z-Boy's reputation for furniture quality and the 4.6 star rating reflect the Bradley's superior comfort over budget leather chairs. For buyers who want a true executive chair experience with a premium brand, the Bradley is the top pick.\n\nA genuine advantage here is that la-Z-Boy brand quality. The tradeoff is $329 investment.",
+    specs: ["Bonded leather upholstery", "ComfortCore foam seat", "Seat height: 18.5\"-22.5\"", "Padded armrests", "Tilt with lock", "3-year warranty"],
+    pros: ["4.6 stars, highest rated in guide", "La-Z-Boy brand quality", "ComfortCore foam superior cushioning", "Professional executive appearance"],
     cons: ["$329 investment", "Bonded vs genuine leather"],
     bestFor: "Home office professionals who want a premium brand executive leather chair with the highest comfort rating.",
   },
 ];;
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Genuine leather vs PU leather vs bonded leather", explanation: "Genuine leather is durable, develops a patina over time, and costs the most. PU (polyurethane) leather mimics the look and feel at lower cost, is easy to clean, but begins to crack and peel after 3 to 5 years of daily use. Bonded leather is the lowest tier: compressed leather scraps bound with polyurethane, which peels within 1 to 2 years of regular use. If longevity matters, genuine leather is worth the premium. If aesthetics over 3 years is acceptable, PU is fine. Avoid bonded leather for chairs you plan to keep." },
-  { criterion: "Breathability trade-off in leather vs mesh", explanation: "Leather traps heat against the body. In temperatures above 75F, a leather seat becomes noticeably uncomfortable over 2 to 3 hours. Mesh chairs allow airflow and are measurably cooler for all-day sitting. If you work in a warm climate without air conditioning, a leather chair will be a daily frustration. If your office is consistently cool, leather is comfortable. If you want both look and breathability, perforated leather is an option." },
-  { criterion: "Ergonomic adjustability in leather chairs", explanation: "Many leather executive chairs sacrifice adjustability for aesthetics - fixed armrests, fixed lumbar, limited seat height range. Full ergonomic leather chairs (Steelcase Gesture) cost significantly more. Before choosing a leather chair primarily for its look, verify that lumbar support is adjustable (not just a fixed pillow), armrests allow at least height adjustment, and seat height reaches your required sitting position." },
-  { criterion: "Reclining feature for home office use", explanation: "Reclining leather chairs are common in executive settings where rest breaks at the desk are accepted. If your workflow includes thinking periods, phone calls, or breaks where upright posture is not required, a reclining chair to 120 to 170 degrees with a footrest extends the usable range of the chair. For pure focused desk work at a computer, recline beyond 110 degrees is rarely used." },
-  { criterion: "Headrest position for neck support", explanation: "Leather chairs with fixed headrests often place the headrest at the wrong height for the actual user. A headrest that contacts the back of the skull at incorrect neck angle pushes the head forward rather than supporting it. Look for adjustable headrests (height and angle both), or for chairs with high backs that provide upper back support without a defined headrest cutout." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 8 best leather office chairs in 2026 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 8 best leather office chairs in 2026 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 8 best leather office chairs in 2026 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 8 best leather office chairs in 2026 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 8 best leather office chairs in 2026 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [

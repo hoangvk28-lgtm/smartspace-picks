@@ -2,7 +2,7 @@ const BASE = "/images/guides/best-rolling-filing-cabinets";
 
 export const guideSlug = "best-rolling-filing-cabinets";
 export const guideTitle = "8 Best Rolling Filing Cabinets in 2026";
-export const metaTitle = "Best Rolling Filing Cabinets 2026 – Caster & Stability Picks";
+export const metaTitle = "Best Rolling Filing Cabinets 2026, Caster & Stability Picks";
 export const metaDescription =
   "Best rolling filing cabinets in 2026, ranked by caster material, caster count, and real stability, with honest notes on which models actually ship with wheels.";
 export const lastUpdated = "2026-07-25";
@@ -55,7 +55,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-3-drawer-mobile.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
-    description: "Letaya labels this a mobile cabinet and it ships with caster wheels, letting you roll it away from a desk for full drawer access and back again when you're done. Three lockable drawers give solid capacity for a rolling design, and it arrives fully assembled.\n\nThe casters here are the standard small plastic type, which move smoothly on hardwood or tile but can feel less stable on thick carpet or rug edges. For carpet-heavy rooms, check the caster stability guidance below before relying on it as your primary storage on soft flooring.",
+    description: "Letaya labels this a mobile cabinet and it ships with caster wheels, letting you roll it away from a desk for full drawer access and back again when you're done. Three lockable drawers give solid capacity for a rolling design, and it arrives fully assembled.\n\nThe casters here are the standard small plastic type, which move smoothly on hardwood or tile but can feel less stable on thick carpet or rug edges. For carpet-heavy rooms, check the caster stability guidance below before relying on it as your primary storage on soft flooring.\n\nWorth calling out specifically: 3 drawers of capacity. The catch is standard casters less stable on thick carpet.",
     specs: ["3 drawers", "Locking", "Rolling casters", "Fully assembled"],
     pros: ["Genuinely rolls, ships with casters", "3 drawers of capacity", "Locking", "Fully assembled"],
     cons: ["Standard casters less stable on thick carpet", "No stated 5-caster stability upgrade", "Loaded weight makes rolling on carpet harder"],
@@ -71,7 +71,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-2-drawer-metal.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B08G53L8B5?tag=deskfinds0d-20",
-    description: "Being upfront here: this DEVAISE cabinet's listing does not mention casters or a mobile design, so unlike most other picks in this guide it should be treated as a stationary cabinet rather than a genuinely rolling one. We're including it because it's a strong under-desk pick that pairs well with an add-on caster kit if mobility matters to you.\n\nIf you do want to make it mobile, look for a universal furniture caster kit rated for the cabinet's loaded weight, roughly 60 to 100 lbs for a filled 2-drawer cabinet, and confirm the base has a flat mounting surface before buying casters separately.",
+    description: "Being upfront here: this DEVAISE cabinet's listing does not mention casters or a mobile design, so unlike most other picks in this guide it should be treated as a stationary cabinet rather than a genuinely rolling one. We're including it because it's a strong under-desk pick that pairs well with an add-on caster kit if mobility matters to you.\n\nIf you do want to make it mobile, look for a universal furniture caster kit rated for the cabinet's loaded weight, roughly 60 to 100 lbs for a filled 2-drawer cabinet, and confirm the base has a flat mounting surface before buying casters separately.\n\nFully assembled. Set against that, not shipped with casters, stationary as listed. Both matter when comparing it to the other picks here.",
     specs: ["2 drawers", "Locking", "Fully assembled", "No stated casters"],
     pros: ["Solid metal build", "Fully assembled", "Locking drawers", "Fits under-desk clearance"],
     cons: ["Not shipped with casters, stationary as listed", "Would need an aftermarket caster kit for mobility", "Heavier to reposition without wheels"],
@@ -87,7 +87,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/gyiiyuo-2-drawer-desktop.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
-    description: "GYIIYUO explicitly markets this as a rolling file cabinet, and the lighter fabric-drawer construction actually makes it easier to roll than heavier all-metal cabinets once loaded. The included 24-inch top doubles as a printer stand next to a small desk.\n\nBecause the frame is lighter and the drawers are fabric rather than metal, this isn't the cabinet to load down with the heaviest legal-size document volume; it's better suited to lighter daily files where rolling ease matters more than maximum capacity.",
+    description: "GYIIYUO explicitly markets this as a rolling file cabinet, and the lighter fabric-drawer construction actually makes it easier to roll than heavier all-metal cabinets once loaded. The included 24-inch top doubles as a printer stand next to a small desk.\n\nBecause the frame is lighter and the drawers are fabric rather than metal, this isn't the cabinet to load down with the heaviest legal-size document volume; it's better suited to lighter daily files where rolling ease matters more than maximum capacity.\n\nA genuine advantage here is that doubles as printer stand. The tradeoff is fabric drawers less durable under heavy loads.",
     specs: ["2 drawers", "Rolling casters", "24 in extended desktop", "Fabric drawers"],
     pros: ["Genuinely rolls, lighter frame moves easily", "Doubles as printer stand", "Included side storage bag", "Budget price"],
     cons: ["Fabric drawers less durable under heavy loads", "No lock", "Lower weight capacity than steel cabinets"],
@@ -103,7 +103,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/letaya-2-drawer-lateral.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
-    description: "Flagging this honestly: this Letaya lateral model's listing describes it as a fixed cabinet, not a mobile one, unlike the Letaya 3 Drawer pick above. It earns a spot here as a stationary alternative for buyers who want the lateral, side-opening layout and don't need to roll it around.\n\nIf mobility matters more than the lateral layout, the 3 Drawer Mobile pick from the same brand is the better choice. This cabinet locks and opens sideways, which some buyers prefer for narrow-depth rooms regardless of caster availability.",
+    description: "Flagging this honestly: this Letaya lateral model's listing describes it as a fixed cabinet, not a mobile one, unlike the Letaya 3 Drawer pick above. It earns a spot here as a stationary alternative for buyers who want the lateral, side-opening layout and don't need to roll it around.\n\nIf mobility matters more than the lateral layout, the 3 Drawer Mobile pick from the same brand is the better choice. This cabinet locks and opens sideways, which some buyers prefer for narrow-depth rooms regardless of caster availability.\n\nCompact depth. On the other hand, not shipped with casters, stationary as listed. Neither should be a surprise once you know to look for it.",
     specs: ["2 drawers", "Lateral opening", "Locking", "No stated casters"],
     pros: ["Locking lateral design", "Compact depth", "Solid review count"],
     cons: ["Not shipped with casters, stationary as listed", "Requires an add-on caster kit for mobility", "Side-to-side file orientation only"],
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/devaise-3-drawer-mobile-lateral.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
-    description: "DEVAISE explicitly labels this a mobile lateral cabinet, and it carries the most storage capacity among the genuinely rolling picks in this guide. The tradeoff of a rolling 3-drawer cabinet is weight: a fully loaded unit like this commonly reaches 80 to 100 lbs, which puts real strain on standard casters.\n\nBecause of that loaded weight, this is the pick where caster quality matters most. On carpet especially, plan to roll it into position before fully loading the drawers rather than trying to move it once it's full.",
+    description: "DEVAISE explicitly labels this a mobile lateral cabinet, and it carries the most storage capacity among the genuinely rolling picks in this guide. The tradeoff of a rolling 3-drawer cabinet is weight: a fully loaded unit like this commonly reaches 80 to 100 lbs, which puts real strain on standard casters.\n\nBecause of that loaded weight, this is the pick where caster quality matters most. On carpet especially, plan to roll it into position before fully loading the drawers rather than trying to move it once it's full.\n\nGenuinely mobile design. That's a real strength, but weigh it against the flip side: loaded weight strains standard casters.",
     specs: ["3 drawers", "Rolling casters", "Lateral", "Rustic brown finish"],
     pros: ["Most capacity among the rolling picks here", "Genuinely mobile design", "Distinct finish option", "Strong review count"],
     cons: ["Loaded weight strains standard casters", "Best moved before fully loading", "No stated lock"],
@@ -135,7 +135,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/vasagle-custos-small-rolling.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
-    description: "VASAGLE's small rolling cabinet has the highest verified review count of any rolling pick in this guide, which gives more confidence in real-world caster durability than newer or lower-volume listings. Its lighter, more compact build also means less loaded weight riding on the wheels compared to a full 3-drawer cabinet.\n\nAt 15.7 x 16.5 x 27.6 inches it's easy to roll one-handed even loaded, and its small size makes it a natural fit next to a desk where it needs to move in and out of a tight gap regularly.",
+    description: "VASAGLE's small rolling cabinet has the highest verified review count of any rolling pick in this guide, which gives more confidence in real-world caster durability than newer or lower-volume listings. Its lighter, more compact build also means less loaded weight riding on the wheels compared to a full 3-drawer cabinet.\n\nAt 15.7 x 16.5 x 27.6 inches it's easy to roll one-handed even loaded, and its small size makes it a natural fit next to a desk where it needs to move in and out of a tight gap regularly.\n\nWorth calling out specifically: light enough to roll easily loaded. The catch is smaller capacity than 3-drawer options.",
     specs: ["2 drawers", "Rolling casters", "15.7 x 16.5 x 27.6 in", "Matte black"],
     pros: ["Highest review count among rolling picks", "Light enough to roll easily loaded", "Compact footprint", "Doubles as printer stand"],
     cons: ["Smaller capacity than 3-drawer options", "Lighter build than all-steel cabinets", "Basic caster hardware, not upgraded 5-wheel"],
@@ -151,7 +151,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/bynsoe-2-drawer-vertical.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0D9XYD75W?tag=deskfinds0d-20",
-    description: "To be transparent: BYNSOE's listing describes assembly requirements and a steel body but does not mention casters, so this is a stationary cabinet, not a rolling one. It's included here as a budget-priced backup for buyers who decide a fixed cabinet is fine after all, or who plan to add their own caster kit.\n\nIf mobility is a firm requirement, choose one of the confirmed rolling picks above instead, such as the VASAGLE CUSTOS or Letaya 3 Drawer Mobile cabinet.",
+    description: "To be transparent: BYNSOE's listing describes assembly requirements and a steel body but does not mention casters, so this is a stationary cabinet, not a rolling one. It's included here as a budget-priced backup for buyers who decide a fixed cabinet is fine after all, or who plan to add their own caster kit.\n\nIf mobility is a firm requirement, choose one of the confirmed rolling picks above instead, such as the VASAGLE CUSTOS or Letaya 3 Drawer Mobile cabinet.\n\nLocking drawers. Set against that, not shipped with casters, stationary as listed. Both matter when comparing it to the other picks here.",
     specs: ["2 drawers", "Locking", "Steel", "No stated casters", "Assembly required"],
     pros: ["Budget price", "Locking drawers", "Steel construction"],
     cons: ["Not shipped with casters, stationary as listed", "Assembly required", "Lower drawer capacity"],
@@ -167,7 +167,7 @@ export const products: GuideProduct[] = [
     reviews: "Amazon verified ratings",
     imageUrl: `${BASE}/fluted-mobile-oak.jpg`,
     amazonUrl: "https://www.amazon.com/dp/B0GJZPVMG8?tag=deskfinds0d-20",
-    description: "This is the only wood-finish rolling cabinet in this guide, explicitly listed as a mobile file cabinet with a printer stand top, giving it a different look than the black and brown metal options above. The fluted front panel and oak finish suit a home office that wants furniture styling over a purely industrial look.\n\nWith a smaller review count than the more established picks, it's worth checking the current listing for recent buyer feedback on caster durability before committing, especially if you expect to move it frequently.",
+    description: "This is the only wood-finish rolling cabinet in this guide, explicitly listed as a mobile file cabinet with a printer stand top, giving it a different look than the black and brown metal options above. The fluted front panel and oak finish suit a home office that wants furniture styling over a purely industrial look.\n\nWith a smaller review count than the more established picks, it's worth checking the current listing for recent buyer feedback on caster durability before committing, especially if you expect to move it frequently.\n\nA genuine advantage here is that distinct oak wood finish. The tradeoff is smaller review count than other picks.",
     specs: ["3 drawers", "Rolling casters", "Locking", "Oak finish", "Printer stand top"],
     pros: ["Genuinely mobile design", "Distinct oak wood finish", "Locking drawers", "Doubles as printer stand"],
     cons: ["Smaller review count than other picks", "Wood finish may show wear differently than metal", "Higher price than similar metal options"],
@@ -176,12 +176,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Caster material vs. your floor type", explanation: "Nylon casters can scratch hardwood floors and tend to be noisy on tile, while rubber or polyurethane casters roll quietly and are safer for hardwood, though they wear faster under heavy load. Match caster material to your flooring before buying, since this detail is rarely specified clearly in listings." },
-  { criterion: "5-caster vs. 4-caster stability", explanation: "A 5-caster base, with one wheel centered underneath, resists tipping on uneven floors or rug edges better than a standard 4-caster layout. If the cabinet will be loaded and moved regularly, a 5-caster design is the safer choice, though most budget cabinets use 4 casters." },
-  { criterion: "Caster weight rating vs. cabinet body rating", explanation: "A cabinet's overall weight capacity doesn't guarantee its individual casters are rated to match. Casters are often the first point of failure on a heavily loaded rolling cabinet, since each wheel bears only a fraction of the total load and lower-cost hardware can be under-rated for it." },
-  { criterion: "Verify the listing actually says 'mobile' or 'rolling'", explanation: "Titles can be misleading. Some cabinets marketed alongside rolling options in a product line don't actually ship with casters themselves. Check the listing specifically for the word 'mobile,' 'rolling,' or 'casters' rather than assuming a filing cabinet in a filing cabinet guide automatically has wheels." },
-  { criterion: "Top surface load capacity if used as a stand", explanation: "Many rolling cabinets double as a printer stand or extra surface. Top load capacity on these cabinets commonly ranges from 50 to 150 lbs; a heavy all-in-one printer combined with anything else on top can exceed a budget cabinet's rated limit." },
-  { criterion: "Lock quality is separate from rolling ability", explanation: "A cam lock included on a rolling cabinet is a privacy deterrent, not real security, and is unrelated to how well the cabinet rolls or how stable its casters are. Don't assume a locking rolling cabinet is more secure than a locking stationary one; the lock hardware is the same either way." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 8 best rolling filing cabinets in 2026 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 8 best rolling filing cabinets in 2026 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 8 best rolling filing cabinets in 2026 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 8 best rolling filing cabinets in 2026 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 8 best rolling filing cabinets in 2026 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
@@ -194,58 +208,98 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Floor Type",
-    intro: "Caster material has a real effect on your floor, not just how smoothly the cabinet rolls.",
-    table: {
-      headers: ["Floor type", "Caster consideration", "Recommended pick"],
-      rows: [
-        ["Hardwood", "Avoid hard nylon casters; rubber or polyurethane preferred", "VASAGLE CUSTOS Small Rolling Filing Cabinet"],
-        ["Tile", "Nylon casters can be noisy", "Letaya 3 Drawer Mobile File Cabinet with Lock"],
-        ["Carpet", "Larger diameter casters roll more smoothly under load", "DEVAISE 3-Drawer Mobile Lateral File Cabinet"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Confirmed Rolling vs. Add-Your-Own-Casters",
-    intro: "Not every cabinet that appears in a rolling filing cabinet search actually ships with wheels. Here's the honest breakdown of this guide's picks.",
-    table: {
-      headers: ["Product", "Ships with casters?", "Note"],
-      rows: [
-        ["Letaya 3 Drawer Mobile", "Yes", "Confirmed rolling, standard casters"],
-        ["DEVAISE 2 Drawer Under Desk", "No", "Stationary as listed, add a caster kit if needed"],
-        ["GYIIYUO 2 Drawer with Desktop", "Yes", "Confirmed rolling, lighter frame"],
-        ["Letaya 2 Drawer Lateral", "No", "Stationary as listed, fixed lateral design"],
-        ["DEVAISE 3-Drawer Mobile Lateral", "Yes", "Confirmed rolling, highest capacity"],
-        ["VASAGLE CUSTOS Small Rolling", "Yes", "Confirmed rolling, most reviewed"],
-        ["BYNSOE 2 Drawer Vertical", "No", "Stationary as listed, budget backup"],
-        ["Fluted Mobile Oak Cabinet", "Yes", "Confirmed rolling, wood finish"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If a rolling cabinet is a firm requirement, choose from the confirmed-rolling rows only. The stationary picks are included as honest alternatives, not as rolling substitutes.",
+      "rows": [
+        [
+          "Under $53",
+          "VASAGLE CUSTOS Small Rolling Filing Cabinet"
+        ],
+        [
+          "Up to $130",
+          "DEVAISE 2 Drawer Metal File Cabinet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Loaded Weight Expectations",
-    cards: [
-      { label: "Light document load, moved often", text: "The VASAGLE CUSTOS or GYIIYUO 2 Drawer stay easy to roll even loaded since their frames are lighter." },
-      { label: "Heavy document load, occasional moves", text: "The DEVAISE 3-Drawer Mobile Lateral holds the most files but is best rolled into position before fully loading." },
-      { label: "Uneven or rug-edge floors", text: "Favor a cabinet you can roll slowly and check for tipping resistance rather than pushing quickly across a transition." },
+    "subheading": "VASAGLE CUSTOS Small Rolling Filing Cabinet vs DEVAISE 2 Drawer Metal File Cabinet",
+    "cards": [
+      {
+        "label": "VASAGLE CUSTOS Small Rolling Filing Cabinet",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "DEVAISE 2 Drawer Metal File Cabinet",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to VASAGLE CUSTOS Small Rolling Filing Cabinet unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Using the Top as a Printer Stand",
-    intro: "Several rolling cabinets double as a printer stand. Confirm top load capacity before stacking heavy equipment on it.",
-    table: {
-      headers: ["Use case", "Recommendation"],
-      rows: [
-        ["Standard inkjet or small laser printer", "Any rolling pick in this guide comfortably supports it"],
-        ["Heavy all-in-one printer plus a monitor arm base", "Check the specific listing's top load rating before stacking both"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Letaya 3 Drawer Mobile File Cabinet with Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When a Stationary Cabinet Is Actually the Better Choice",
-    note: "If the cabinet is going into a permanent spot against a wall and will never need to move, a stationary model like the BYNSOE or Letaya 2 Drawer Lateral often costs less than a comparable rolling cabinet, since you're not paying for hardware you won't use.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Letaya 3 Drawer Mobile File Cabinet with Lock is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where DEVAISE 2 Drawer Metal File Cabinet's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where VASAGLE CUSTOS Small Rolling Filing Cabinet covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [

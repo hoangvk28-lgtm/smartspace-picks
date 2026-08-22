@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41WgtcXJZYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BW2TLQ8S?tag=deskfinds0d-20",
-    description: "Turns a single USB-C port into 6: 4K@30Hz HDMI, Gigabit Ethernet, 100W PD charging (85W passthrough to the host), and 3x USB-A 3.0 ports at up to 5Gbps.\n\nUGREEN notes 15W of the 100W input is reserved for hub operation, and the USB-C port itself only supports charging, not data or video. A genuinely multi-function hub rather than a single-purpose dongle.",
+    description: "Turns a single USB-C port into 6: 4K@30Hz HDMI, Gigabit Ethernet, 100W PD charging (85W passthrough to the host), and 3x USB-A 3.0 ports at up to 5Gbps.\n\nUGREEN notes 15W of the 100W input is reserved for hub operation, and the USB-C port itself only supports charging, not data or video. A genuinely multi-function hub rather than a single-purpose dongle.\n\n85W passthrough charging keeps the laptop powered. Set against that, hDMI capped at 4K@30Hz, not 60Hz. Both matter when comparing it to the other picks here.",
     specs: ["6-in-1: 4K@30Hz HDMI, Gigabit Ethernet, 100W PD, 3x USB-A","85W passthrough to host laptop","5Gbps USB-A data transfer"],
     pros: ["Combines Ethernet with HDMI, charging, and three USB-A ports in one hub","85W passthrough charging keeps the laptop powered","5Gbps USB-A ports for fast peripheral transfers","Reduces desk clutter versus separate single-purpose dongles"],
     cons: ["HDMI capped at 4K@30Hz, not 60Hz","USB-C port itself is charging-only, no data or video passthrough"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/419VZ9XuE-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G81K4C12?tag=deskfinds0d-20",
-    description: "Expands one USB-C port into 4K@60Hz HDMI, Gigabit Ethernet, 100W PD, 2x USB-A 3.1 Gen1, and a USB-C 3.1 Gen1 data port, all usable simultaneously.\n\nAcer specifies 4K@60Hz requires DP 1.4 Alt Mode and HDMI 2.0+, and the Gigabit port needs CAT6+ cable for full 1000Mbps. Data ports support transfer only, not charging.",
+    description: "Expands one USB-C port into 4K@60Hz HDMI, Gigabit Ethernet, 100W PD, 2x USB-A 3.1 Gen1, and a USB-C 3.1 Gen1 data port, all usable simultaneously.\n\nAcer specifies 4K@60Hz requires DP 1.4 Alt Mode and HDMI 2.0+, and the Gigabit port needs CAT6+ cable for full 1000Mbps. Data ports support transfer only, not charging.\n\nA genuine advantage here is that all 6 ports usable simultaneously per Acer's spec. The tradeoff is 4K@60Hz requires host support for DP 1.4 Alt Mode and HDMI 2.0+.",
     specs: ["6-in-1: 4K@60Hz HDMI, Gigabit Ethernet, 100W PD, 2x USB-A, USB-C","5Gbps total data bandwidth","Requires DP 1.4 Alt Mode for 4K@60Hz"],
     pros: ["4K@60Hz HDMI at a lower price than several competing hubs","All 6 ports usable simultaneously per Acer's spec","100W PD input with up to 85W passthrough to the host","Genuine Acer brand accessory"],
     cons: ["4K@60Hz requires host support for DP 1.4 Alt Mode and HDMI 2.0+","Data ports are transfer-only, no charging capability"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31Ve-yPCNZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08C9HZ5YT?tag=deskfinds0d-20",
-    description: "Combines a PD charging input, HDMI (up to 4K@30Hz), Ethernet port, a USB-C data port, and 2 USB-A ports in one hub, letting a 65W wall charger pass through power to the connected laptop.\n\nA genuine multiport solution rather than a single-purpose dongle, useful when you need display output and extra USB ports alongside wired networking from one device.",
+    description: "Combines a PD charging input, HDMI (up to 4K@30Hz), Ethernet port, a USB-C data port, and 2 USB-A ports in one hub, letting a 65W wall charger pass through power to the connected laptop.\n\nA genuine multiport solution rather than a single-purpose dongle, useful when you need display output and extra USB ports alongside wired networking from one device.\n\nPass-through charging keeps the laptop powered while docked. On the other hand, 4K output capped at 30Hz, not 60Hz. Neither should be a surprise once you know to look for it.",
     specs: ["6-in-1: PD, HDMI 4K@30Hz, Ethernet, USB-C, 2x USB-A","Pass-through charging via 65W input","18-month warranty"],
     pros: ["Combines Ethernet with HDMI display output and extra USB ports","Pass-through charging keeps the laptop powered while docked","18-month Anker warranty and support","Reduces cable clutter versus separate dongles"],
     cons: ["4K output capped at 30Hz, not 60Hz","Bulkier than a single-purpose Ethernet dongle"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+5wXptrkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07H2ZS1B5?tag=deskfinds0d-20",
-    description: "A cost-effective hub combining 1000M Ethernet, 4K HDMI, 3x USB 3.0 ports at up to 5Gbps, and 100W PD charging, with advanced heat dissipation for stable connections.\n\nUtechSmart explicitly lists Steam Deck compatibility for charging alongside standard Windows/Mac/ChromeOS support, backed by an 18-month warranty and 24/7 customer service.",
+    description: "A cost-effective hub combining 1000M Ethernet, 4K HDMI, 3x USB 3.0 ports at up to 5Gbps, and 100W PD charging, with advanced heat dissipation for stable connections.\n\nUtechSmart explicitly lists Steam Deck compatibility for charging alongside standard Windows/Mac/ChromeOS support, backed by an 18-month warranty and 24/7 customer service.\n\nLower price point than several comparable 6-in-1 hubs. That's a real strength, but weigh it against the flip side: no specified HDMI refresh rate ceiling published beyond \"4K\".",
     specs: ["6-in-1: 1000M Ethernet, 4K HDMI, 3x USB 3.0, 100W PD","Steam Deck charging compatible","18-month warranty"],
     pros: ["Explicit Steam Deck charging compatibility","Lower price point than several comparable 6-in-1 hubs","Advanced heat dissipation for stable connections","18-month warranty with 24/7 support"],
     cons: ["No specified HDMI refresh rate ceiling published beyond \"4K\"","Universal compatibility claim is less detailed than competitors' explicit device lists"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uWDhint2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DN9F245H?tag=deskfinds0d-20",
-    description: "Combines 4K@60Hz HDMI, Gigabit Ethernet, 100W PD input (up to 85W output), 3x USB-A 3.0 ports, and SD/TF card slots in one compact hub.\n\nABLEWE specifies the host USB-C port must support DisplayPort Alt Mode for HDMI output, and 4K@60Hz specifically requires DP 1.4. A budget-friendly full-featured hub at a notably low price.",
+    description: "Combines 4K@60Hz HDMI, Gigabit Ethernet, 100W PD input (up to 85W output), 3x USB-A 3.0 ports, and SD/TF card slots in one compact hub.\n\nABLEWE specifies the host USB-C port must support DisplayPort Alt Mode for HDMI output, and 4K@60Hz specifically requires DP 1.4. A budget-friendly full-featured hub at a notably low price.\n\nWorth calling out specifically: 4K@60Hz HDMI output with proper DP 1.4 support. The catch is requires DP Alt Mode host support for any HDMI output at all.",
     specs: ["8-in-1: 4K@60Hz HDMI, Gigabit Ethernet, 100W PD, 3x USB-A, SD/TF","85W max passthrough after hub consumption","Requires DP 1.4 for 4K@60Hz"],
     pros: ["Lowest price among full-featured 8-in-1 hubs in this cluster","4K@60Hz HDMI output with proper DP 1.4 support","SD/TF card reader for content workflows","3x USB-A ports at up to 5Gbps"],
     cons: ["Requires DP Alt Mode host support for any HDMI output at all","PD port supports charging only, not data or video"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41WE1jD7c4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWF16X1N?tag=deskfinds0d-20",
-    description: "An 8-port hub adding 4K HDMI (up to 30Hz), a 100Mbps RJ45 Ethernet port, 100W PD charging, 2x USB-A, and a TF/SD card reader, notably the only hub in this cluster with an Ethernet port capped at 100Mbps rather than Gigabit.\n\nThe listing explicitly notes USB-C devices need DP Alt mode for video transfer, and the PD port doesn't support data transfer. The lowest price hub in this comparison.",
+    description: "An 8-port hub adding 4K HDMI (up to 30Hz), a 100Mbps RJ45 Ethernet port, 100W PD charging, 2x USB-A, and a TF/SD card reader, notably the only hub in this cluster with an Ethernet port capped at 100Mbps rather than Gigabit.\n\nThe listing explicitly notes USB-C devices need DP Alt mode for video transfer, and the PD port doesn't support data transfer. The lowest price hub in this comparison.\n\nAluminum housing for durability and heat dissipation. Set against that, ethernet port capped at 100Mbps, a real step down from every Gigabit competitor. Both matter when comparing it to the other picks here.",
     specs: ["8-in-1: 4K@30Hz HDMI, 100Mbps Ethernet, 100W PD, 2x USB-A, TF/SD","Ethernet capped at 100Mbps, not Gigabit","Lowest price hub in this cluster"],
     pros: ["Lowest price of any multiport hub compared here","Aluminum housing for durability and heat dissipation","SD/TF card reader reads up to 1TB cards","100W PD charging support"],
     cons: ["Ethernet port capped at 100Mbps, a real step down from every Gigabit competitor","4K HDMI limited to 30Hz, not 60Hz"],
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41EFdrkO3BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCMGDV5L?tag=deskfinds0d-20",
-    description: "A dual-connector adapter for both USB-C and USB-A hosts, combining a Gigabit Ethernet port with 3 USB-A 3.0 ports at a shared 5Gbps bandwidth, all usable simultaneously.\n\nAcer notes older systems like XP/Win7 may need a driver due to the USB 3.0 chip, and provides an installation manual for manual driver download if needed.",
+    description: "A dual-connector adapter for both USB-C and USB-A hosts, combining a Gigabit Ethernet port with 3 USB-A 3.0 ports at a shared 5Gbps bandwidth, all usable simultaneously.\n\nAcer notes older systems like XP/Win7 may need a driver due to the USB 3.0 chip, and provides an installation manual for manual driver download if needed.\n\nA genuine advantage here is that three simultaneous USB-A ports for peripherals. The tradeoff is no HDMI or PD charging, network- and USB-only.",
     specs: ["Gigabit Ethernet + 3x USB-A 3.0 (shared 5Gbps)","Dual USB-A/USB-C connector design","No HDMI, no PD charging"],
     pros: ["Works with both USB-A and USB-C hosts from one adapter","Three simultaneous USB-A ports for peripherals","Aluminum alloy build for durability and heat dissipation","Genuine Acer brand accessory at a reasonable price"],
     cons: ["No HDMI or PD charging, network- and USB-only","Three USB-A ports share a single 5Gbps bandwidth pool"],
@@ -164,63 +164,120 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Check the Ethernet Speed Specifically",
-    "intro": "Not every hub's Ethernet port is Gigabit. One budget 8-in-1 hub in this cluster caps Ethernet at just 100Mbps, a real downgrade hidden inside an otherwise feature-rich product.",
-    "note": "If wired networking is your primary reason for buying a hub, verify the Ethernet speed explicitly rather than assuming every hub includes full Gigabit."
-  },
-  {
-    "subheading": "HDMI Refresh Rate Comparison",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
     "table": {
       "headers": [
-        "Hub",
-        "HDMI ceiling"
+        "Your priority",
+        "Recommended pick"
       ],
       "rows": [
         [
-          "UGREEN Revodok 6-in-1 / Anker 8-in-1",
-          "4K@30Hz / 4K@60Hz respectively"
+          "Highest average rating",
+          "UGREEN Revodok 6"
         ],
         [
-          "Acer 6-in-1",
-          "4K@60Hz (requires DP 1.4 Alt Mode host)"
-        ],
-        [
-          "ABLEWE 8-in-1",
-          "4K@60Hz (requires DP 1.4)"
-        ],
-        [
-          "Budget 8-in-1 (RJ45 100Mbps)",
-          "4K@30Hz only, and Ethernet is 100Mbps not Gigabit"
+          "Largest review base, strongest reliability signal",
+          "UGREEN Revodok 6"
         ]
       ]
     }
+  },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $12",
+          "8"
+        ],
+        [
+          "Up to $40",
+          "Anker 6"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "8 vs Anker 6",
+    "cards": [
+      {
+        "label": "8",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Anker 6",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to 8 unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "UGREEN Revodok 6"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "UGREEN Revodok 6 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Anker 6's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where 8 covers the same job at a lower price."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria = [
   {
-    "criterion": "USB-C is a connector, not a speed",
-    "explanation": "A USB-C port can carry anywhere from 1Gbps to 10Gbps of Ethernet depending on the adapter's chipset and your host's actual USB generation. Check the exact Ethernet speed and required USB mode before assuming any USB-C adapter matches your needs."
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a usb-c multiport adapters with ethernet often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    "criterion": "Multi-gig speeds need a fast enough USB port",
-    "explanation": "A 2.5G, 5G, or 10G adapter plugged into a basic USB 3.0 (5Gbps) port will not reach its rated Ethernet speed. 2.5G generally works on 5Gbps ports; 5G and 10G typically need a USB 3.2 Gen 2 (10Gbps) port or Thunderbolt/USB4 host."
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the usb-c multiport adapters with ethernet holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    "criterion": "Check OS and driver requirements before buying",
-    "explanation": "Most Gigabit adapters are driver-free on Windows, macOS, and ChromeOS, but multi-gig adapters often need a manufacturer driver on Windows or specific Linux kernel versions, and some models exclude older Apple silicon chips entirely."
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this usb-c multiport adapters with ethernet over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    "criterion": "Confirm your specific device isn't excluded",
-    "explanation": "Several adapters in this cluster explicitly do not work with Nintendo Switch, Android, or specific Mac chip generations. Read the compatibility list carefully rather than assuming a USB-C connector guarantees your device will work."
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any usb-c multiport adapters with ethernet you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    "criterion": "A CAT6 cable matters as much as the adapter",
-    "explanation": "Even a genuine Gigabit-capable adapter will fall back to slower speeds over an old CAT5 cable. Use CAT6 or better for Gigabit, and CAT6A for 5G/10G speeds, to actually realize the adapter's rated performance."
-  },
-  {
-    "criterion": "PD passthrough wattage isn't automatically usable",
-    "explanation": "An adapter rated for 100W or 140W Power Delivery passthrough only delivers that much power if you also supply a charger and cable rated for it. The adapter's rating is a ceiling, not a guarantee, without the matching charger."
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A usb-c multiport adapters with ethernet that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
   }
 ];
 
