@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Purpose-built for under-desk files", "SB Simpli Better File Organizer"],
-        ["Mixed file and supply storage", "INLDY Under Desk Drawer"],
-        ["Dedicated file compartment plus a second drawer", "Homeify Under Desk Drawer Organizer, 2 Drawer"],
-        ["Much higher file capacity", "Rolling File Cart with 3 Storage Drawers"],
-        ["Customizable adjustable file compartments", "Tiaoheka Rolling File Cabinet"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "INLDY Under Desk Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Homeify Under Desk Drawer Organizer Clamp"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why Weight Capacity Matters More Here",
-    note: "A fully loaded set of hanging file folders is heavy, and an under-desk mount failing means falling files landing directly on your legs or feet, a more consequential outcome than a desk-surface organizer tipping over. Verify the attachment feels genuinely secure before trusting it with important documents.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "SB Simpli Better File Organizer that Attaches Under the Desk"
+        ],
+        [
+          "Up to $47",
+          "Rolling File Cart with 3 Storage Drawers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Finding a File in a Hidden, Low-Visibility Spot",
-    cards: [
-      { label: "Consistent mounting position", text: "Mount the organizer in the same spot every time to build muscle memory for reaching specific files without looking." },
-      { label: "Clear labeling", text: "Label folders clearly since you may be retrieving them by feel more than sight in a dim under-desk location." },
+    "subheading": "SB Simpli Better File Organizer that Attaches Under the Desk vs Rolling File Cart with 3 Storage Drawers",
+    "cards": [
+      {
+        "label": "SB Simpli Better File Organizer that Attaches Under the Desk",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Rolling File Cart with 3 Storage Drawers",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SB Simpli Better File Organizer that Attaches Under the Desk unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Clamp-On vs. Rolling Cart for High-Volume Filing",
-    note: "If your file volume regularly exceeds what a compact clamp-on drawer holds, a rolling cart provides substantially more capacity, though it's a genuinely different product type occupying floor space rather than hanging under the desk.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Homeify Under Desk Drawer Organizer Clamp"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Homeify Under Desk Drawer Organizer Clamp is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Rolling File Cart with 3 Storage Drawers's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SB Simpli Better File Organizer that Attaches Under the Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Prioritize genuine weight-capacity security for this combined use case", explanation: "A falling file failure under the desk is more consequential than a desk-surface organizer tipping, landing directly on your legs or feet. Verify the attachment feels secure before loading with important documents." },
-  { criterion: "Consider retrieval accessibility in a low-visibility spot", explanation: "Mount the organizer consistently in the same position and label folders clearly, since you may be reaching for files partly by feel in a dim under-desk location." },
-  { criterion: "Check knee clearance against the file-loaded weight and bulk", explanation: "A fully loaded file organizer under the desk can be bulkier than an empty demonstration suggests. Confirm your legroom accommodates the realistic loaded size." },
-  { criterion: "Decide between clamp-on convenience and rolling-cart capacity", explanation: "A clamp-on organizer requires no drilling but has more limited capacity. A rolling cart offers substantially more file storage as a genuinely different product type." },
-  { criterion: "Verify letter vs. legal size compatibility", explanation: "Check the specific organizer's internal dimensions against your folder sizes, since not all under-desk designs accommodate both letter and legal size folders." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a under-desk hanging file organizer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the under-desk hanging file organizer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this under-desk hanging file organizer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any under-desk hanging file organizer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A under-desk hanging file organizer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "5040",
     imageUrl: "https://m.media-amazon.com/images/I/41ri7QTtJoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q4FHWV9?tag=deskfinds0d-20",
-    description: "At 14.25\"L x 12.05\"W x 26.44\"H, this is genuinely sized for office and classroom material organization: lesson materials, worksheets, markers, notebooks, and similar supplies kept within easy reach. Built-in drawer stops prevent a drawer from sliding all the way out and falling during use, a small detail that matters once a drawer is loaded with supplies.\n\nThe wheels are actually removable, so you can roll it between desks or activity stations when needed, then pull the wheels off for stable, wobble-free placement in one permanent spot. Made in the USA with durable plastic construction and smooth-glide drawers, it's the most reviewed pick in this entire comparison at over 5,000 reviews.",
+    description: "At 14.25\"L x 12.05\"W x 26.44\"H, this is genuinely sized for office and classroom material organization: lesson materials, worksheets, markers, notebooks, and similar supplies kept within easy reach. Built-in drawer stops prevent a drawer from sliding all the way out and falling during use, a small detail that matters once a drawer is loaded with supplies.\n\nThe wheels are actually removable, so you can roll it between desks or activity stations when needed, then pull the wheels off for stable, wobble-free placement in one permanent spot. Made in the USA with durable plastic construction and smooth-glide drawers, it's the most reviewed pick in this entire comparison at over 5,000 reviews.\n\nRemovable wheels let you convert between rolling and stationary use. That's a real strength, but weigh it against the flip side: fewer drawers than the 8- and 10-drawer options if you need more separation.",
     specs: ["4-drawer + organizer top, 14.25×12.05×26.44 in", "Removable wheels for mobile or fixed use", "Built-in drawer stops prevent falls"],
     pros: ["Largest confirmed review base in this comparison at over 5,000 reviews", "Removable wheels let you convert between rolling and stationary use"],
     cons: ["Fewer drawers than the 8- and 10-drawer options if you need more separation"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "681",
     imageUrl: "https://m.media-amazon.com/images/I/51-isfD+f9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHY876Z2?tag=deskfinds0d-20",
-    description: "At 15.55\"L x 12.60\"W x 31.18\"H with 8 spacious drawers that glide smoothly on comfortable handles, this is built for genuinely diverse supply categories, craft materials, office items, fabric, sewing tools, all with dedicated separation rather than mixed into open bins. The metal frame handles real weight: 33 pounds on the top plate and 11 pounds per drawer, backed by a waterproof, heat-resistant wooden flat top for extra display or work surface.\n\nThe locking feature on some of the casters lets you fix the cart in place while accessing drawers, useful since a fully loaded 8-drawer cart can shift under repeated drawer opening if the wheels roll freely. At the highest rating in this comparison, it's a strong middle-price bridge between the cheapest 3-tier open carts and the pricier 10-drawer units.",
+    description: "At 15.55\"L x 12.60\"W x 31.18\"H with 8 spacious drawers that glide smoothly on comfortable handles, this is built for genuinely diverse supply categories, craft materials, office items, fabric, sewing tools, all with dedicated separation rather than mixed into open bins. The metal frame handles real weight: 33 pounds on the top plate and 11 pounds per drawer, backed by a waterproof, heat-resistant wooden flat top for extra display or work surface.\n\nThe locking feature on some of the casters lets you fix the cart in place while accessing drawers, useful since a fully loaded 8-drawer cart can shift under repeated drawer opening if the wheels roll freely. At the highest rating in this comparison, it's a strong middle-price bridge between the cheapest 3-tier open carts and the pricier 10-drawer units.\n\nWorth calling out specifically: locking casters specifically address cart shift during repeated drawer access. The catch is mid-range price relative to the cheapest 3-tier options.",
     specs: ["8-drawer, 15.55×12.60×31.18 in, wooden flat top", "33 lbs top plate capacity, 11 lbs per drawer", "Partial locking casters for stability during drawer access"],
     pros: ["Highest rating in this comparison", "Locking casters specifically address cart shift during repeated drawer access"],
     cons: ["Mid-range price relative to the cheapest 3-tier options"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "349",
     imageUrl: "https://m.media-amazon.com/images/I/41f5SO4ZrBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDB1RTVS?tag=deskfinds0d-20",
-    description: "The reinforced metal frame here is rated for a genuinely heavy 150 lb total capacity, well beyond what a flimsy plastic cart could hold, with each of the 4 drawers sliding on premium tracks and built-in stops to prevent accidental falls. Mesh drawer construction is the standout detail: you can see contents at a glance rather than digging blindly through an opaque drawer, useful for quickly locating a specific office item.\n\nAt 14.6\"W x 11.4\"D x 26.6\"H overall, with each drawer measuring a genuinely usable 12\" x 16.5\" x 4.25\", the wooden top adds a stable extra work surface the IRIS pick's plastic organizer top doesn't offer.",
+    description: "The reinforced metal frame here is rated for a genuinely heavy 150 lb total capacity, well beyond what a flimsy plastic cart could hold, with each of the 4 drawers sliding on premium tracks and built-in stops to prevent accidental falls. Mesh drawer construction is the standout detail: you can see contents at a glance rather than digging blindly through an opaque drawer, useful for quickly locating a specific office item.\n\nAt 14.6\"W x 11.4\"D x 26.6\"H overall, with each drawer measuring a genuinely usable 12\" x 16.5\" x 4.25\", the wooden top adds a stable extra work surface the IRIS pick's plastic organizer top doesn't offer.\n\n150 lb frame capacity, meaningfully sturdier than lighter plastic carts. Set against that, slightly lower rating than the IRIS or LEHOM picks. Both matter when comparing it to the other picks here.",
     specs: ["4-drawer, 150 lb frame capacity, wooden top", "Mesh drawers for at-a-glance visibility", "Drawer: 12×16.5×4.25 in each"],
     pros: ["Mesh drawers let you see contents without digging blindly", "150 lb frame capacity, meaningfully sturdier than lighter plastic carts"],
     cons: ["Slightly lower rating than the IRIS or LEHOM picks"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "1241",
     imageUrl: "https://m.media-amazon.com/images/I/41qgAWlMj7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4281WTD?tag=deskfinds0d-20",
-    description: "At 15.55\"D x 12.60\"W x 25.47\"H, this packs 8 drawers in different colors specifically so you can classify and label categories visually rather than relying on memory or written labels. Slide-out drawers run on smooth tracks with ergonomic handles, and the same 33 lb top plate / 11 lb per drawer capacity as the LEHOM pick comes wrapped in a powder-coated steel frame with water and rust resistance.\n\nFour universal wheels swivel a full 360 degrees with a locking option for stability when needed, and detailed installation videos on the product page walk through assembly step by step. At over 1,200 reviews, this has meaningfully more buyer feedback than the LEHOM 8-drawer alternative despite the identical drawer count.",
+    description: "At 15.55\"D x 12.60\"W x 25.47\"H, this packs 8 drawers in different colors specifically so you can classify and label categories visually rather than relying on memory or written labels. Slide-out drawers run on smooth tracks with ergonomic handles, and the same 33 lb top plate / 11 lb per drawer capacity as the LEHOM pick comes wrapped in a powder-coated steel frame with water and rust resistance.\n\nFour universal wheels swivel a full 360 degrees with a locking option for stability when needed, and detailed installation videos on the product page walk through assembly step by step. At over 1,200 reviews, this has meaningfully more buyer feedback than the LEHOM 8-drawer alternative despite the identical drawer count.\n\nA genuine advantage here is that color-coded drawers make category labeling faster than plain black drawers. The tradeoff is slightly more expensive than the 4-drawer options.",
     specs: ["8-drawer, color-coded, 15.55×12.60×25.47 in", "33 lb top plate, 11 lb per drawer, rust-resistant steel frame", "Video-guided assembly"],
     pros: ["Strong review base for an 8-drawer cart, over 1,200 ratings", "Color-coded drawers make category labeling faster than plain black drawers"],
     cons: ["Slightly more expensive than the 4-drawer options"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "3825",
     imageUrl: "https://m.media-amazon.com/images/I/51Hm2UAL1GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNF65DK1?tag=deskfinds0d-20",
-    description: "The removable top drawer here does double duty: pull it out for easier cleaning, or leave it off entirely to gain extra height in that tier for taller items, a flexibility fixed-drawer carts don't offer. It's rated to hold 124 lbs total (24 lbs on top, 50 lbs on each of the other two tiers), genuinely solid for the price, with 360° swivel wheels and two lockable casters for stability.\n\nDurable, lightweight plastic construction resists rust unlike metal alternatives and stays easy to clean, with an openwork bottom pattern on each tier that helps with drainage if used somewhere damp. It's also customizable, you can reconfigure 3 layers into 2, or combine two carts' worth of layers into a taller 5-tier unit, at the lowest price in this entire comparison.",
+    description: "The removable top drawer here does double duty: pull it out for easier cleaning, or leave it off entirely to gain extra height in that tier for taller items, a flexibility fixed-drawer carts don't offer. It's rated to hold 124 lbs total (24 lbs on top, 50 lbs on each of the other two tiers), genuinely solid for the price, with 360° swivel wheels and two lockable casters for stability.\n\nDurable, lightweight plastic construction resists rust unlike metal alternatives and stays easy to clean, with an openwork bottom pattern on each tier that helps with drainage if used somewhere damp. It's also customizable, you can reconfigure 3 layers into 2, or combine two carts' worth of layers into a taller 5-tier unit, at the lowest price in this entire comparison.\n\nRemovable drawer adds flexible extra height when needed. On the other hand, mostly open tiers rather than enclosed drawers. Neither should be a surprise once you know to look for it.",
     specs: ["3-tier + removable drawer, 124 lb total capacity", "360° swivel wheels, 2 lockable casters", "Reconfigurable tier count (2-5 layers)"],
     pros: ["Lowest price in this comparison with a genuinely reconfigurable tier design", "Removable drawer adds flexible extra height when needed"],
     cons: ["Mostly open tiers rather than enclosed drawers"],
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     reviews: "1623",
     imageUrl: "https://m.media-amazon.com/images/I/41E0AvqYlFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F373KBDG?tag=deskfinds0d-20",
-    description: "A patent-pending frame geometry optimizes weight distribution so this rolls smoothly without wobbling even loaded up to 110 lbs, a genuinely high capacity for a simple open 3-tier cart. The high-gloss, scratch-resistant coating resists chips and corrosion better than a basic painted finish, and 2-inch heavy-duty wheels with wear-resistant urethane glide smoothly on both carpet and hardwood without scratching floors.\n\nBeyond the 3 metal baskets, it includes 2 hanging cups and 3 hooks for additional organization without needing a drawer. Assembly uses just 12 identical screws and 2 simple tools, genuinely quick at around 15 minutes, backed by professional customer service if anything goes wrong.",
+    description: "A patent-pending frame geometry optimizes weight distribution so this rolls smoothly without wobbling even loaded up to 110 lbs, a genuinely high capacity for a simple open 3-tier cart. The high-gloss, scratch-resistant coating resists chips and corrosion better than a basic painted finish, and 2-inch heavy-duty wheels with wear-resistant urethane glide smoothly on both carpet and hardwood without scratching floors.\n\nBeyond the 3 metal baskets, it includes 2 hanging cups and 3 hooks for additional organization without needing a drawer. Assembly uses just 12 identical screws and 2 simple tools, genuinely quick at around 15 minutes, backed by professional customer service if anything goes wrong.\n\nUrethane wheels safe on both carpet and hardwood without scratching. That's a real strength, but weigh it against the flip side: no drawers for separating small supplies.",
     specs: ["3-tier, open metal shelving, 110 lb capacity", "2\" urethane wheels (floor-safe), scratch-resistant coating", "2 hanging cups + 3 hooks, 15-min assembly"],
     pros: ["110 lb load capacity, notably high for an open 3-tier design", "Urethane wheels safe on both carpet and hardwood without scratching"],
     cons: ["No drawers for separating small supplies"],
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     reviews: "203",
     imageUrl: "https://m.media-amazon.com/images/I/41sWBtU3EuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWD4Z5KB?tag=deskfinds0d-20",
-    description: "Ten large, genuinely deep drawers is the highest count in this whole comparison, built for offices separating supplies into far more categories than a basic 3-4 drawer cart allows, with the deep design keeping everything tidy while staying easily accessible. Four 360° swivel caster wheels include two with locking brakes to keep the cart securely in place once positioned.\n\nThe wooden work surface on top is genuinely functional, waterproof and scratch-resistant, useful for projects, writing, or temporary display rather than just decoration. Setup includes all necessary hardware with clear instructions for tool-free assembly, and the modern black finish blends into classrooms, offices, or craft rooms alike.",
+    description: "Ten large, genuinely deep drawers is the highest count in this whole comparison, built for offices separating supplies into far more categories than a basic 3-4 drawer cart allows, with the deep design keeping everything tidy while staying easily accessible. Four 360° swivel caster wheels include two with locking brakes to keep the cart securely in place once positioned.\n\nThe wooden work surface on top is genuinely functional, waterproof and scratch-resistant, useful for projects, writing, or temporary display rather than just decoration. Setup includes all necessary hardware with clear instructions for tool-free assembly, and the modern black finish blends into classrooms, offices, or craft rooms alike.\n\nWorth calling out specifically: highest drawer count in this comparison for maximum category separation. The catch is highest price in this comparison.",
     specs: ["10-drawer, wooden waterproof/scratch-resistant tabletop", "4× 360° casters, 2 with locking brakes", "Tool-free assembly with included hardware"],
     pros: ["Highest drawer count in this comparison for maximum category separation"],
     cons: ["Highest price in this comparison", "Smaller review base than the 3-4 drawer options"],
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/51cv3WLqkDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWC695GD?tag=deskfinds0d-20",
-    description: "A coated metal frame plus a 40 lb-rated wooden tabletop and plastic drawers (11 lbs each) gives this genuine load-bearing capacity despite the light white aesthetic, at 15.75\"L x 12.4\"W x 25.67\"H overall. Three shallow drawers (13.98\"L x 12.28\"W x 2.76\"H) pair with two deeper drawers (13.97\"L x 12.28\"W x 4.53\"H), all detachable for standalone use if you want to pull one drawer out and carry it separately.\n\nA built-in limiting structure on the sliding rails stops drawers from being accidentally pulled all the way out, and adjustable height-leveling nuts fine-tune stability on uneven floors. Colors differ per drawer for quick visual identification, explicitly marketed across craft, dorm, and office use, the only white option in this whole comparison.",
+    description: "A coated metal frame plus a 40 lb-rated wooden tabletop and plastic drawers (11 lbs each) gives this genuine load-bearing capacity despite the light white aesthetic, at 15.75\"L x 12.4\"W x 25.67\"H overall. Three shallow drawers (13.98\"L x 12.28\"W x 2.76\"H) pair with two deeper drawers (13.97\"L x 12.28\"W x 4.53\"H), all detachable for standalone use if you want to pull one drawer out and carry it separately.\n\nA built-in limiting structure on the sliding rails stops drawers from being accidentally pulled all the way out, and adjustable height-leveling nuts fine-tune stability on uneven floors. Colors differ per drawer for quick visual identification, explicitly marketed across craft, dorm, and office use, the only white option in this whole comparison.\n\nDetachable drawers can be carried separately, unique in this comparison. Set against that, smallest review base in this comparison. Both matter when comparing it to the other picks here.",
     specs: ["5-drawer (3 shallow + 2 deep), white finish, 40 lb tabletop", "Detachable drawers for standalone use", "Height-leveling nuts, drawer pull-out limiter"],
     pros: ["White finish, the only style alternative to the black options here", "Detachable drawers can be carried separately, unique in this comparison"],
     cons: ["Smallest review base in this comparison"],
@@ -161,29 +161,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Storage Style",
-    table: {
-      headers: ["Storage need", "Recommended pick"],
-      rows: [
-        ["Best overall, proven track record", "IRIS USA 4-Drawer Rolling Storage Cart"],
-        ["Highest rating with fine drawer separation", "LEHOM Rolling Storage Cart with 8 Drawers"],
-        ["Cheapest option", "Goovilla 3 Tier Rolling Utility Cart Organizer"],
-        ["Maximum drawer count", "10 Drawers Rolling Cart with Wooden Tabletop"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "LEHOM Rolling Storage Cart with 8 Drawers"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "IRIS USA 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Drawers vs. Open Tiers",
-    note: "Drawers keep small office supplies (paper clips, sticky notes, cables) contained and out of sight, but take an extra step to open and close during frequent access. Open tiers like the YASONIC 3-tier cart are faster for items you grab constantly, like printer paper or file folders, but offer no containment for loose small items.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $22",
+          "Goovilla 3 Tier Rolling Utility Cart Organizer with Removable Drawer"
+        ],
+        [
+          "Up to $99",
+          "10 Drawers Rolling Cart with Wooden Tabletop"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Goovilla 3 Tier Rolling Utility Cart Organizer with Removable Drawer vs 10 Drawers Rolling Cart with Wooden Tabletop",
+    "cards": [
+      {
+        "label": "Goovilla 3 Tier Rolling Utility Cart Organizer with Removable Drawer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "10 Drawers Rolling Cart with Wooden Tabletop",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Goovilla 3 Tier Rolling Utility Cart Organizer with Removable Drawer unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "IRIS USA 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "IRIS USA 4 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where 10 Drawers Rolling Cart with Wooden Tabletop's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Goovilla 3 Tier Rolling Utility Cart Organizer with Removable Drawer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match drawer count to how many supply categories you actually separate", explanation: "A 10-drawer cart makes sense if you genuinely sort supplies into 10 distinct categories; otherwise a 3-4 drawer cart is simpler to use daily." },
-  { criterion: "Weigh review count heavily given the wide spread in this category", explanation: "Review counts here range from 70 to over 5,000. A cart with under 100 reviews carries meaningfully more uncertainty than one with thousands." },
-  { criterion: "Consider open tiers if you need fast, frequent access", explanation: "Open-tier carts like the YASONIC pick let you grab items without opening a drawer, useful for printer paper, binders, or items you access many times a day." },
-  { criterion: "Verify loaded caster behavior on your specific floor", explanation: "None of these listings had an independently measured loaded-rolling test. Confirm caster type against carpet, tile, or hardwood before assuming smooth movement under a full load." },
-  { criterion: "Match finish to your office aesthetic, not just function", explanation: "Most picks here are black; the Goovilla 5-drawer pick is white. If your office has a specific color scheme, this can matter as much as drawer count." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a office storage carts on wheel often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the office storage carts on wheel holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this office storage carts on wheel over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any office storage carts on wheel you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A office storage carts on wheel that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

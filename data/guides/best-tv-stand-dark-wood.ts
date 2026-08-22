@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/512cwbtdMcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H45H4VSP?tag=deskfinds0d-20",
     description:
-      "The VASAGLE Mid Century Fluted Sliding Door TV Stand fits TVs up to 65 inches and pairs two curved, fluted sliding doors with an open center shelf in a warm chestnut walnut finish. Rubber wood legs give the base genuine sturdiness that pressboard-leg competitors can't match, and the semicircular curve on the doors is one of the more distinctive silhouettes in this list.\n\nWith nearly 3,000 ratings at 4.7 stars, it's the highest-reviewed pick here by a wide margin. Assembly instructions are clear and the fluted grain reads as a true dark walnut rather than a flat stain. Between the design, the solid legs, and the review track record, this is the strongest overall pick for most buyers wanting a dark wood stand.",
+      "The VASAGLE Mid Century Fluted Sliding Door TV Stand fits TVs up to 65 inches and pairs two curved, fluted sliding doors with an open center shelf in a warm chestnut walnut finish. Rubber wood legs give the base genuine sturdiness that pressboard-leg competitors can't match, and the semicircular curve on the doors is one of the more distinctive silhouettes in this list.\n\nWith nearly 3,000 ratings at 4.7 stars, it's the highest-reviewed pick here by a wide margin. Assembly instructions are clear and the fluted grain reads as a true dark walnut rather than a flat stain. Between the design, the solid legs, and the review track record, this is the strongest overall pick for most buyers wanting a dark wood stand.\n\nGenuinely sturdy rubber wood legs, not just pressboard. On the other hand, max TV size of 65 inches, smaller than the 70-inch picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" L x 15.7\" W x 21.7\" H",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51z3xLSNDlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08SM1R3ZV?tag=deskfinds0d-20",
     description:
-      "The mopio Ensley Walnut Mid Century TV Stand fits TVs up to 65 inches and packs 6 total storage compartments into its 59 inch frame, split between 2 smooth-glide drawers, 2 slatted cabinet doors, and 2 adjustable interior shelves. Tapered legs and rounded, child-safe corners round out the mid-century profile.\n\nOver 2,000 buyers have rated it 4.6 stars. The slatted doors add texture against the walnut grain without looking busy, and the drawer glides feel more substantial than most stands in this price range. For anyone who wants to fit the most gear behind closed doors and drawers, this is the deepest storage option here.",
+      "The mopio Ensley Walnut Mid Century TV Stand fits TVs up to 65 inches and packs 6 total storage compartments into its 59 inch frame, split between 2 smooth-glide drawers, 2 slatted cabinet doors, and 2 adjustable interior shelves. Tapered legs and rounded, child-safe corners round out the mid-century profile.\n\nOver 2,000 buyers have rated it 4.6 stars. The slatted doors add texture against the walnut grain without looking busy, and the drawer glides feel more substantial than most stands in this price range. For anyone who wants to fit the most gear behind closed doors and drawers, this is the deepest storage option here.\n\nSmooth-glide drawers feel more substantial than the price suggests. That's a real strength, but weigh it against the flip side: shorter height at 17 inches than most other picks.",
     specs: [
       "Fits TV up to 65 inches",
       "59\" L x 13.7\" W x 17\" H",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51xF7dsSwaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JCDN4RG?tag=deskfinds0d-20",
     description:
-      "The YESHOMY Espresso Sliding Barn Door TV Stand fits TVs up to 65 inches and stands 27.6 inches tall, the tallest profile in this list. Two metal-rail sliding doors in a farmhouse barn-door style save clearance space in front of the unit, and the espresso finish reads as a genuinely deep dark brown rather than a lighter walnut tone.\n\nWith over 1,600 ratings at 4.5 stars, it's a best-selling design in the espresso barn-door category. Adjustable interior shelves and cable routing holes round out the feature set, and the heavy-duty build holds up well under daily use. For buyers who specifically want a true espresso tone rather than walnut, this is the closest match here.",
+      "The YESHOMY Espresso Sliding Barn Door TV Stand fits TVs up to 65 inches and stands 27.6 inches tall, the tallest profile in this list. Two metal-rail sliding doors in a farmhouse barn-door style save clearance space in front of the unit, and the espresso finish reads as a genuinely deep dark brown rather than a lighter walnut tone.\n\nWith over 1,600 ratings at 4.5 stars, it's a best-selling design in the espresso barn-door category. Adjustable interior shelves and cable routing holes round out the feature set, and the heavy-duty build holds up well under daily use. For buyers who specifically want a true espresso tone rather than walnut, this is the closest match here.\n\nWorth calling out specifically: metal-rail sliding doors save floor clearance. The catch is sliding doors only allow access to one side at a time.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" L x 15.5\" W x 27.6\" H",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51d8KPGTg5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQV5QFTY?tag=deskfinds0d-20",
     description:
-      "The OKD 70 inch Dark Walnut Fluted Mid Century TV Stand fits TVs up to 75 inches and carries the deepest dark walnut tone in this list, paired with fluted mid-century paneling on two soft-close doors. The curved profile softens the edges for a safer look around kids and pets, and the wide top surface leaves room for a soundbar or decor.\n\nAt 4.7 stars, it ties the VASAGLE pick for the highest rating here, though on a smaller sample of 157 ratings. Soft-close hinges prevent slamming, and adjustable shelves inside let you reconfigure the layout as your gear changes. For anyone with a TV larger than 65 inches who still wants a genuinely dark walnut finish, this is the strongest fit.",
+      "The OKD 70 inch Dark Walnut Fluted Mid Century TV Stand fits TVs up to 75 inches and carries the deepest dark walnut tone in this list, paired with fluted mid-century paneling on two soft-close doors. The curved profile softens the edges for a safer look around kids and pets, and the wide top surface leaves room for a soundbar or decor.\n\nAt 4.7 stars, it ties the VASAGLE pick for the highest rating here, though on a smaller sample of 157 ratings. Soft-close hinges prevent slamming, and adjustable shelves inside let you reconfigure the layout as your gear changes. For anyone with a TV larger than 65 inches who still wants a genuinely dark walnut finish, this is the strongest fit.\n\nFits TVs up to 75 inches. Set against that, smaller review sample (157 ratings) than the top three picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV up to 75 inches",
       "70\" L x 15.75\" W x 20\" H",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Yk54E01bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWJSSMLQ?tag=deskfinds0d-20",
     description:
-      "The LINSY HOME 70 inch Dark Walnut Fluted Sliding Door TV Stand fits TVs from 55 up to 80 inches, the widest supported range in this list, and combines a fluted sliding door with 4 open shelves for flexible display and concealed storage. Solid wood legs anchor the base rather than the pressboard legs found on some competitors.\n\nWith 148 ratings at 4.6 stars, it's a newer entrant that's already built a solid track record. Cable routing keeps wiring tidy behind the unit, and the dark walnut tone pairs the fluted panel look with a practical sliding-door format. For anyone with a very large TV, this is the pick built to fit it.",
+      "The LINSY HOME 70 inch Dark Walnut Fluted Sliding Door TV Stand fits TVs from 55 up to 80 inches, the widest supported range in this list, and combines a fluted sliding door with 4 open shelves for flexible display and concealed storage. Solid wood legs anchor the base rather than the pressboard legs found on some competitors.\n\nWith 148 ratings at 4.6 stars, it's a newer entrant that's already built a solid track record. Cable routing keeps wiring tidy behind the unit, and the dark walnut tone pairs the fluted panel look with a practical sliding-door format. For anyone with a very large TV, this is the pick built to fit it.\n\nA genuine advantage here is that solid wood legs rather than pressboard. The tradeoff is smaller review sample (148 ratings).",
     specs: [
       "Fits TV 55-80 inches",
       "70\" L x 15.7\" W x 21.7\" H",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51U0b59FWRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDB2NGG3?tag=deskfinds0d-20",
     description:
-      "The FORTUNETEC 67 inch Walnut Arched Mid Century TV Stand fits TVs up to 75 inches and stands out with a distinctive arched silhouette rather than the straight-edged profile most competitors use. Four storage doors with gold-tone handles add a dressier contrast against the walnut finish, and non-slip feet keep the unit stable on hardwood or tile.\n\nAt 4.4 stars across 113 ratings, it carries a smaller review base but a design that reads more upscale than most stands in this list. Cable management routes wiring cleanly, and the durable walnut MDF construction holds up well day to day. For buyers who want their TV stand to double as a design statement, this is the standout.",
+      "The FORTUNETEC 67 inch Walnut Arched Mid Century TV Stand fits TVs up to 75 inches and stands out with a distinctive arched silhouette rather than the straight-edged profile most competitors use. Four storage doors with gold-tone handles add a dressier contrast against the walnut finish, and non-slip feet keep the unit stable on hardwood or tile.\n\nAt 4.4 stars across 113 ratings, it carries a smaller review base but a design that reads more upscale than most stands in this list. Cable management routes wiring cleanly, and the durable walnut MDF construction holds up well day to day. For buyers who want their TV stand to double as a design statement, this is the standout.\n\n4 large storage doors plus gold-tone hardware for an upscale look. On the other hand, most expensive pick in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 75 inches",
       "66.9\" W x 15.7\" D x 21.8\" H",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WH1pkWGVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCGBBB1S?tag=deskfinds0d-20",
     description:
-      "The LCRBOL 54 inch Walnut Fluted Wave Door TV Stand fits TVs up to 65 inches in the most compact footprint in this list, with two wave-shaped fluted doors that curve rather than sit flat, a detail not found on any other pick here. Five wood legs support the frame, two of which adjust independently to compensate for uneven flooring.\n\nWith 381 ratings at 4.4 stars, it has a solid track record for a smaller, budget-friendly option. The build uses P2 particleboard panels paired with real wood legs, and an assembly video is included to make setup easier. For smaller rooms or apartments, this is the pick with the smallest footprint.",
+      "The LCRBOL 54 inch Walnut Fluted Wave Door TV Stand fits TVs up to 65 inches in the most compact footprint in this list, with two wave-shaped fluted doors that curve rather than sit flat, a detail not found on any other pick here. Five wood legs support the frame, two of which adjust independently to compensate for uneven flooring.\n\nWith 381 ratings at 4.4 stars, it has a solid track record for a smaller, budget-friendly option. The build uses P2 particleboard panels paired with real wood legs, and an assembly video is included to make setup easier. For smaller rooms or apartments, this is the pick with the smallest footprint.\n\n5 wood legs with 2 adjustable for uneven floors. That's a real strength, but weigh it against the flip side: smallest max TV size tier alongside the other 65-inch picks.",
     specs: [
       "Fits TV up to 65 inches",
       "54.3\" W x 15.3\" D x 19.6\" H",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31o9dCJjkyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00X83JMUA?tag=deskfinds0d-20",
     description:
-      "The Furinno TURN-S-TUBE Espresso/Black TV Stand fits TVs up to 55 inches and is by far the most affordable dark wood option in this list, with 3 open shelves for streaming boxes, gaming consoles, and media gear. Tool-free assembly takes about 10 minutes, and the frame is FSC-certified using 95-100% recycled materials.\n\nWith over 4,000 ratings, it's the second-most-reviewed stand here despite the low price. It's lightweight and easy to reposition, making it a good fit for apartments, dorms, or a secondary TV setup. For anyone on a tight budget who still wants an espresso-toned stand, this is the clear pick.",
+      "The Furinno TURN-S-TUBE Espresso/Black TV Stand fits TVs up to 55 inches and is by far the most affordable dark wood option in this list, with 3 open shelves for streaming boxes, gaming consoles, and media gear. Tool-free assembly takes about 10 minutes, and the frame is FSC-certified using 95-100% recycled materials.\n\nWith over 4,000 ratings, it's the second-most-reviewed stand here despite the low price. It's lightweight and easy to reposition, making it a good fit for apartments, dorms, or a secondary TV setup. For anyone on a tight budget who still wants an espresso-toned stand, this is the clear pick.\n\nWorth calling out specifically: tool-free assembly in about 10 minutes. The catch is max TV size of 55 inches, smallest in this list.",
     specs: [
       "Fits TV up to 55 inches",
       "47.2\" W x 11.6\" D x 15.4\" H",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Walnut vs espresso tone",
-    explanation:
-      "Walnut finishes tend to show more visible wood grain, while espresso tones lean flatter and darker. If matching existing furniture matters, check close-up review photos since both are marketed loosely as \"dark wood\" but read differently in person.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a tv stand dark wood often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "TV size fit",
-    explanation:
-      "Each stand lists a maximum supported TV size, but that number reflects screen compatibility, not necessarily ideal proportions. Match the stand's width to your actual screen size so the TV doesn't look oversized or undersized on top.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the tv stand dark wood holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Door and hinge type",
-    explanation:
-      "Soft-close hinges prevent doors from slamming shut, which matters most in households with kids or pets nearby. Sliding barn-style doors save clearance space in front of the unit but only allow access to one side of the cabinet at a time.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this tv stand dark wood over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Leg material",
-    explanation:
-      "Solid or rubber wood legs tend to feel sturdier and more durable over time than pressboard or laminated legs, which can be a distinguishing factor between otherwise similar-looking dark wood stands.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any tv stand dark wood you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Storage layout",
-    explanation:
-      "Some stands favor enclosed cabinets and drawers for hiding clutter, while others lean toward open shelving for easy access to a streaming box or gaming console. Consider how much you want hidden versus visible.",
-  },
-  {
-    criterion: "Weight capacity and construction",
-    explanation:
-      "Heavier TVs and stacked equipment need a stand rated for the load. Solid wood or reinforced MDF frames generally hold up better long-term than thin particleboard panels alone.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A tv stand dark wood that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

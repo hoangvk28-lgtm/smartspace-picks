@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "A monochrome laser brings the lowest cost per page of any technology for high-volume black-and-white output, and the DCP-L2640DW pairs that with automatic duplex printing, copy, and scan in a compact footprint. Toner doesn't dry out between print runs the way inkjet ink can, a real advantage for sustained daily use.\n\nAs volume climbs, expect routine maintenance beyond toner, the paper path and pickup rollers wear over tens of thousands of pages and eventually need replacement, a real cost to budget for alongside toner on a genuinely high-volume machine.",
+      "A monochrome laser brings the lowest cost per page of any technology for high-volume black-and-white output, and the DCP-L2640DW pairs that with automatic duplex printing, copy, and scan in a compact footprint. Toner doesn't dry out between print runs the way inkjet ink can, a real advantage for sustained daily use.\n\nAs volume climbs, expect routine maintenance beyond toner, the paper path and pickup rollers wear over tens of thousands of pages and eventually need replacement, a real cost to budget for alongside toner on a genuinely high-volume machine.\n\nA genuine advantage here is that toner doesn't dry out between long print runs. The tradeoff is no color output.",
     specs: [
       "Monochrome laser engine",
       "Automatic duplex (2-sided) printing",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "The HL-L3220CDW prints a rated 19 pages per minute with duplex support and a 250-sheet paper tray, sized for sustained office output rather than light home use. Wireless and mobile printing round out a straightforward feature set.\n\nColor laser toner costs more per page than mono laser, four toners instead of one, so this fits best when regular color documents, not just occasional color pages, are part of your actual volume rather than every print job.",
+      "The HL-L3220CDW prints a rated 19 pages per minute with duplex support and a 250-sheet paper tray, sized for sustained office output rather than light home use. Wireless and mobile printing round out a straightforward feature set.\n\nColor laser toner costs more per page than mono laser, four toners instead of one, so this fits best when regular color documents, not just occasional color pages, are part of your actual volume rather than every print job.\n\nLarge 250-sheet tray reduces refill frequency. On the other hand, color toner costs meaningfully more per page than mono laser. Neither should be a surprise once you know to look for it.",
     specs: [
       "Color laser engine",
       "19 ppm rated print speed",
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
   {
     id: "hp-officejet-pro-8125-cartridge",
     rank: 3,
-    badge: "Best Budget Alternative — Uses Standard Cartridges, Not a Laser or Ink Tank",
+    badge: "Best Budget Alternative, Uses Standard Cartridges, Not a Laser or Ink Tank",
     name: "HP OfficeJet Pro 8125 Wireless All-in-One Color Inkjet Printer",
     price: "$119.99",
     rating: "New listing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "Worth flagging upfront, this is a standard cartridge-based inkjet, not a laser or ink-tank printer, so it doesn't match the duty cycle or cost-per-page profile of the other picks in this high-volume list. It does include an automatic document feeder and duplex printing, and HP markets it as best-for-home-office use with a 3-month Instant Ink trial.\n\nIt earns a spot here as the budget entry point for a household stepping up from occasional to moderate-high volume, but anyone printing consistently in the hundreds of pages a month should expect cartridge costs to add up faster than the laser or EcoTank picks in this list, and should plan to reassess after the Instant Ink trial ends.",
+      "Worth flagging upfront, this is a standard cartridge-based inkjet, not a laser or ink-tank printer, so it doesn't match the duty cycle or cost-per-page profile of the other picks in this high-volume list. It does include an automatic document feeder and duplex printing, and HP markets it as best-for-home-office use with a 3-month Instant Ink trial.\n\nIt earns a spot here as the budget entry point for a household stepping up from occasional to moderate-high volume, but anyone printing consistently in the hundreds of pages a month should expect cartridge costs to add up faster than the laser or EcoTank picks in this list, and should plan to reassess after the Instant Ink trial ends.\n\nAutomatic document feeder and duplex printing included. That's a real strength, but weigh it against the flip side: standard cartridges cost more per page than laser or ink-tank at real high volume.",
     specs: [
       "Cartridge-based color inkjet all-in-one",
       "Automatic document feeder, duplex printing",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "Brother's INKvestment cartridges hold significantly more ink than standard cartridges, which narrows the cost-per-page gap with laser and ink-tank printers while keeping inkjet color quality. Automatic 2-sided copy and scan, plus a 2.7-inch color touchscreen, support a busier daily workflow.\n\nIt still doesn't match a mono laser or EcoTank on cost per page at true high volume, but it's a reasonable middle ground for an office that wants better color output than laser can provide alongside high-capacity ink.",
+      "Brother's INKvestment cartridges hold significantly more ink than standard cartridges, which narrows the cost-per-page gap with laser and ink-tank printers while keeping inkjet color quality. Automatic 2-sided copy and scan, plus a 2.7-inch color touchscreen, support a busier daily workflow.\n\nIt still doesn't match a mono laser or EcoTank on cost per page at true high volume, but it's a reasonable middle ground for an office that wants better color output than laser can provide alongside high-capacity ink.\n\nWorth calling out specifically: better color output than laser printers. The catch is still costs more per page than laser or ink-tank at true high volume.",
     specs: [
       "High-capacity INKvestment cartridges",
       "Automatic 2-sided copy and scan",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "Rated at 35 pages per minute with a 3-year limited warranty, the MF753Cdw II is built for a genuinely high-volume office rather than home use, with an automatic document feeder, fax, copier, and scanner all included. This is the fastest and most office-grade printer in this list.\n\nAt this price and duty cycle, treat it like the workhorse it is, printing consistently near its rated maximum accelerates wear on the fuser and drum, so following the recommended monthly volume range rather than the maximum duty cycle figure extends its working life.",
+      "Rated at 35 pages per minute with a 3-year limited warranty, the MF753Cdw II is built for a genuinely high-volume office rather than home use, with an automatic document feeder, fax, copier, and scanner all included. This is the fastest and most office-grade printer in this list.\n\nAt this price and duty cycle, treat it like the workhorse it is, printing consistently near its rated maximum accelerates wear on the fuser and drum, so following the recommended monthly volume range rather than the maximum duty cycle figure extends its working life.\n\nFull office feature set: fax, ADF, copy, scan. Set against that, highest price in this list by a wide margin. Both matter when comparing it to the other picks here.",
     specs: [
       "Color laser engine, 35 ppm rated speed",
       "Automatic document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31JMZ0fsKTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC5KYF71?tag=deskfinds0d-20",
     description:
-      "Rated for up to 3 years of ink refills, the ET-4950 brings ink-tank economics to sustained high-volume color printing, at an 18 page per minute rated speed with an automatic document feeder and 2.4-inch touchscreen. This is the strongest ink-tank pick in this list for genuine office volume.\n\nUnlike a laser printer, there's no toner or drum to think about, but the printhead is integrated into the printer body, so a nozzle check periodically, even during high-volume months, keeps print quality consistent.",
+      "Rated for up to 3 years of ink refills, the ET-4950 brings ink-tank economics to sustained high-volume color printing, at an 18 page per minute rated speed with an automatic document feeder and 2.4-inch touchscreen. This is the strongest ink-tank pick in this list for genuine office volume.\n\nUnlike a laser printer, there's no toner or drum to think about, but the printhead is integrated into the printer body, so a nozzle check periodically, even during high-volume months, keeps print quality consistent.\n\nA genuine advantage here is that automatic document feeder for multi-page scans. The tradeoff is slower rated speed than the laser picks in this list.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 brings automatic document feeding, fax, and Ethernet to EcoTank's ink economics at a notably lower price than the ET-4950, a strong value pick for an office scaling up from occasional or moderate volume. Ethernet gives a more stable connection than wifi in busier office environments with more network interference.\n\nAt this price point it undercuts every other ink-tank or laser pick here, making it the best entry point into high-volume-friendly ink-tank printing before stepping up to a faster laser or the ET-4950.",
+      "The ET-4800 brings automatic document feeding, fax, and Ethernet to EcoTank's ink economics at a notably lower price than the ET-4950, a strong value pick for an office scaling up from occasional or moderate volume. Ethernet gives a more stable connection than wifi in busier office environments with more network interference.\n\nAt this price point it undercuts every other ink-tank or laser pick here, making it the best entry point into high-volume-friendly ink-tank printing before stepping up to a faster laser or the ET-4950.\n\nAutomatic document feeder and Ethernet included. On the other hand, slower than the laser picks in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xOh51IRUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BL466Y41?tag=deskfinds0d-20",
     description:
-      "The Smart Tank 5101 brings ink-tank economics to a smaller footprint and lower price than the Epson EcoTank picks in this list, with 2 years of ink included, a real cost cushion for an office scaling up its print volume. Print, scan, and copy cover the essentials.\n\nWithout an automatic document feeder, it's better suited to high-volume printing than high-volume scanning, and its 2.4GHz-only wireless is worth checking against your office router setup before buying.",
+      "The Smart Tank 5101 brings ink-tank economics to a smaller footprint and lower price than the Epson EcoTank picks in this list, with 2 years of ink included, a real cost cushion for an office scaling up its print volume. Print, scan, and copy cover the essentials.\n\nWithout an automatic document feeder, it's better suited to high-volume printing than high-volume scanning, and its 2.4GHz-only wireless is worth checking against your office router setup before buying.\n\n2 years of included ink supports sustained volume. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Refillable ink tank system with 2 years of ink included",
       "Print, scan, and copy",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Duty cycle is not the same as recommended monthly volume",
-    explanation:
-      "Duty cycle is the maximum technical capacity a printer is rated for, not a healthy sustained pace. Printing consistently near duty cycle risks premature failure, check the manufacturer's recommended monthly volume, typically a fraction of the duty cycle figure, and buy a printer rated well above your actual expected volume.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Rollers and paper path wear at high volume, not just toner",
-    explanation:
-      "Pickup rollers commonly need replacement around every 50,000 pages on laser printers, a maintenance cost beyond toner that's easy to overlook when budgeting. Factor this into total cost of ownership for a genuinely high-volume machine.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Budget lasers can thermally pause during long print jobs",
-    explanation:
-      "Extended print runs can cause a printer to overheat and pause to cool, and budget laser models handle this worse than higher-tier machines like the Canon MF753Cdw II. If you regularly print long, uninterrupted jobs, factor thermal handling into your decision, not just rated speed.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "High-capacity toner has a real upfront cash-flow cost",
-    explanation:
-      "A 10,000-page toner cartridge costs significantly more upfront than a 3,000-page one, even though it's cheaper per page. Budget for the larger single purchase rather than assuming high-capacity toner fits the same cash flow pattern as smaller cartridges.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Paper quality affects long-term printer health",
-    explanation:
-      "Cheap copier paper generates more dust and causes more drum wear over time than quality paper, a connection that's easy to miss when shopping on price per ream alone. For a genuinely high-volume printer, quality paper is part of protecting your investment, not just print appearance.",
-  },
-  {
-    criterion: "Match ink or toner system to your color-versus-text mix",
-    explanation:
-      "A mono laser like the DCP-L2640DW offers the lowest cost per page for black-and-white text but has no color output at all. If regular color is part of your real volume, a color laser or ink-tank printer is worth the higher per-page cost rather than routing color jobs elsewhere.",
-  },
-  {
-    criterion: "Don't assume every cartridge printer belongs in a high-volume lineup",
-    explanation:
-      "Standard cartridge inkjets, even ones marketed for home office use, generally cost more per page at real high volume than laser or ink-tank alternatives. They can still make sense as a budget entry point for moderate-high volume, but shouldn't be expected to match a laser or EcoTank printer's economics at true sustained high volume.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,68 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Duty Cycle vs. Recommended Monthly Volume",
-    intro: "The maximum duty cycle figure on a spec sheet is not the healthy pace to print at, here's how the picks in this list generally break down.",
-    table: {
-      headers: ["Printer type", "What duty cycle tells you", "What to actually target"],
-      rows: [
-        ["Mono laser (DCP-L2640DW)", "Maximum burst capacity", "A fraction of duty cycle for sustained daily use"],
-        ["Color laser (HL-L3220CDW, MF753Cdw II)", "Higher ceiling, still not a sustained-pace number", "Recommended monthly volume from the spec sheet"],
-        ["Ink-tank (EcoTank, Smart Tank)", "Less duty-cycle-limited than laser", "Watch printhead nozzle health at high sustained volume"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother DCP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Monthly Print Volume",
-    table: {
-      headers: ["Monthly volume", "Recommended pick"],
-      rows: [
-        ["Under 300 pages", "HP OfficeJet Pro 8125 as a budget step-up"],
-        ["300-1,000 pages", "Epson EcoTank ET-4800 or HP Smart Tank 5101"],
-        ["1,000-3,000+ pages", "Brother DCP-L2640DW mono laser or Epson EcoTank ET-4950"],
-        ["3,000+ pages, office-grade", "Canon imageCLASS MF753Cdw II or Brother HL-L3220CDW"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $120",
+          "HP OfficeJet Pro 8125 Wireless All"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Consumable Maintenance Schedule Beyond Ink or Toner",
-    cards: [
+    "subheading": "HP OfficeJet Pro 8125 Wireless All vs Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+    "cards": [
       {
-        label: "Pickup rollers (laser)",
-        text: "Commonly need replacement around every 50,000 pages, budget for this on the Brother and Canon laser picks.",
+        "label": "HP OfficeJet Pro 8125 Wireless All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Drum unit (laser)",
-        text: "May be separate from toner or integrated depending on the model, check whether replacement means buying just toner or the whole unit.",
-      },
-      {
-        label: "Printhead (ink-tank)",
-        text: "Usually integrated on EcoTank and Smart Tank models, run periodic nozzle checks even at high volume to catch clogs early.",
-      },
-      {
-        label: "Cartridges (HP OfficeJet Pro 8125)",
-        text: "Standard cartridges wear out fastest per page at real high volume, budget for more frequent replacement than the other picks.",
-      },
+        "label": "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to HP OfficeJet Pro 8125 Wireless All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Color Laser vs. Mono Laser vs. Ink-Tank for High Volume",
-    table: {
-      headers: ["Need", "Best fit"],
-      rows: [
-        ["Mostly black-and-white text, maximum volume", "Brother DCP-L2640DW mono laser"],
-        ["Regular color documents at office volume", "Brother HL-L3220CDW or Canon MF753Cdw II"],
-        ["Mixed color and text without laser's upfront cost", "Epson EcoTank ET-4950 or ET-4800"],
-        ["Budget step-up from moderate volume", "HP OfficeJet Pro 8125"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "The HP OfficeJet Pro 8125 is a standard cartridge printer, not a laser or ink-tank model, and its cost per page will run higher than the other picks here at true sustained high volume.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Thermal Pausing on Long Print Jobs",
-    note:
-      "Budget laser printers are more prone to overheating and pausing to cool during extended, uninterrupted print runs than higher-tier machines like the Canon imageCLASS MF753Cdw II. If your workflow regularly involves long single print jobs rather than shorter runs spread through the day, factor this into your choice, not just the rated pages-per-minute figure.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Brother DCP is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HP OfficeJet Pro 8125 Wireless All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

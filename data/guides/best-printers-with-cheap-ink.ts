@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800 pairs a reasonable upfront price with EcoTank's refillable ink system, which is where the real cost-per-page savings come from over time. Scan and copy are included, covering the essentials without added bulk.\n\nAt real-world coverage levels rather than the ISO 5 percent test standard, bottled ink here still comes out well ahead of cartridge printers on a per-page basis, especially for anyone printing forms or graphics with heavier ink coverage than plain text.",
+      "The ET-2800 pairs a reasonable upfront price with EcoTank's refillable ink system, which is where the real cost-per-page savings come from over time. Scan and copy are included, covering the essentials without added bulk.\n\nAt real-world coverage levels rather than the ISO 5 percent test standard, bottled ink here still comes out well ahead of cartridge printers on a per-page basis, especially for anyone printing forms or graphics with heavier ink coverage than plain text.\n\nA genuine advantage here is that bottled ink holds its cost advantage even at heavy coverage. The tradeoff is no automatic document feeder.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Yt+pSHuGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8CNBZ?tag=deskfinds0d-20",
     description:
-      "This is the same ET-2800 hardware and ink economics as the black model above, just in a white finish for a lighter desk setup. Cost per page, tank capacity, and print quality are identical between the two colors.\n\nPick this one purely on aesthetic preference rather than expecting a different cost-per-page outcome, both share the same refill bottle pricing and coverage.",
+      "This is the same ET-2800 hardware and ink economics as the black model above, just in a white finish for a lighter desk setup. Cost per page, tank capacity, and print quality are identical between the two colors.\n\nPick this one purely on aesthetic preference rather than expecting a different cost-per-page outcome, both share the same refill bottle pricing and coverage.\n\nWhite finish suits a lighter desk aesthetic. On the other hand, no automatic document feeder. Neither should be a surprise once you know to look for it.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31TonwUym9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9BFLMX?tag=deskfinds0d-20",
     description:
-      "The ET-2400 is the lowest-priced ink-tank printer in this list, built for everyday home printing. Even with a modest upfront cost, it carries the same bottled-refill ink system as pricier EcoTank models, keeping cost per page low.\n\nAt light-to-moderate real-world volume, this typically pays back its price difference over a basic cartridge inkjet within roughly a year, faster if your printing skews toward graphics or forms with heavier coverage.",
+      "The ET-2400 is the lowest-priced ink-tank printer in this list, built for everyday home printing. Even with a modest upfront cost, it carries the same bottled-refill ink system as pricier EcoTank models, keeping cost per page low.\n\nAt light-to-moderate real-world volume, this typically pays back its price difference over a basic cartridge inkjet within roughly a year, faster if your printing skews toward graphics or forms with heavier coverage.\n\nCheap ink cost per page even at this entry price. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 adds an automatic document feeder, fax, and Ethernet on top of EcoTank's cheap-ink system, at essentially the same price as the entry-level ET-2400. That makes it the strongest value pick here if you need those extra features.\n\nEthernet gives a more stable connection in offices with wifi interference, and the document feeder speeds up scanning multi-page paperwork without extra cost per page over the simpler models.",
+      "The ET-4800 adds an automatic document feeder, fax, and Ethernet on top of EcoTank's cheap-ink system, at essentially the same price as the entry-level ET-2400. That makes it the strongest value pick here if you need those extra features.\n\nEthernet gives a more stable connection in offices with wifi interference, and the document feeder speeds up scanning multi-page paperwork without extra cost per page over the simpler models.\n\nWorth calling out specifically: automatic document feeder included. The catch is larger footprint than the entry EcoTank models.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xOh51IRUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BL466Y41?tag=deskfinds0d-20",
     description:
-      "The Smart Tank 5101 undercuts every EcoTank model here on upfront price while including 2 years of ink, a real head start on the cost-per-page math for a new household. Print, scan, and copy cover the essentials.\n\nHP has previously blocked non-HP ink through firmware updates on some models, worth knowing if you were planning to save further with third-party refill bottles rather than sticking with HP's own ink.",
+      "The Smart Tank 5101 undercuts every EcoTank model here on upfront price while including 2 years of ink, a real head start on the cost-per-page math for a new household. Print, scan, and copy cover the essentials.\n\nHP has previously blocked non-HP ink through firmware updates on some models, worth knowing if you were planning to save further with third-party refill bottles rather than sticking with HP's own ink.\n\n2 years of included ink offsets early cost-per-page math. Set against that, 2.4GHz-only wireless can complicate setup on some routers. Both matter when comparing it to the other picks here.",
     specs: [
       "Refillable ink tank system with 2 years of ink included",
       "Print, scan, and copy",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31W+8GDKNLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XZQVWZW?tag=deskfinds0d-20",
     description:
-      "Canon's MegaTank system competes directly with Epson EcoTank on cost per page, with the added strength of better photo output than most ink-tank printers in this list. Print, copy, and scan are included with Alexa voice support.\n\nCanon and Epson ink bottles aren't interchangeable, so factor local retail availability into your decision if you're prioritizing quick access to refills over online-only ordering.",
+      "Canon's MegaTank system competes directly with Epson EcoTank on cost per page, with the added strength of better photo output than most ink-tank printers in this list. Print, copy, and scan are included with Alexa voice support.\n\nCanon and Epson ink bottles aren't interchangeable, so factor local retail availability into your decision if you're prioritizing quick access to refills over online-only ordering.\n\nA genuine advantage here is that stronger photo quality than most ink-tank AIOs. The tradeoff is no automatic document feeder.",
     specs: [
       "Cartridge-free MegaTank refillable ink system",
       "Photo-focused color output",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31JMZ0fsKTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC5KYF71?tag=deskfinds0d-20",
     description:
-      "The ET-4950 is built for higher volume and higher-coverage printing, forms, graphics, colorful documents, where the gap between advertised and real-world cost per page matters most. A 2.4-inch touchscreen and automatic document feeder round out the package.\n\nAt up to 3 years of rated ink refills, this is the pick in this list best suited to someone who wants to think about ink cost as little as possible over a multi-year stretch.",
+      "The ET-4950 is built for higher volume and higher-coverage printing, forms, graphics, colorful documents, where the gap between advertised and real-world cost per page matters most. A 2.4-inch touchscreen and automatic document feeder round out the package.\n\nAt up to 3 years of rated ink refills, this is the pick in this list best suited to someone who wants to think about ink cost as little as possible over a multi-year stretch.\n\nTouchscreen simplifies status and troubleshooting. On the other hand, highest upfront price among the Epson picks besides the ET-4850. Neither should be a surprise once you know to look for it.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31r7o2eQ5TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N9JMXF?tag=deskfinds0d-20",
     description:
-      "The ET-4850 rounds out the EcoTank lineup here with fax and Ethernet added to the automatic document feeder and cheap-ink base. It's aimed at a small office replacing an aging printer that still needs those legacy connections.\n\nAt the highest price in this list, it makes sense mainly for offices where predictable, low cost-per-page printing across hundreds of pages a month justifies the upfront spend.",
+      "The ET-4850 rounds out the EcoTank lineup here with fax and Ethernet added to the automatic document feeder and cheap-ink base. It's aimed at a small office replacing an aging printer that still needs those legacy connections.\n\nAt the highest price in this list, it makes sense mainly for offices where predictable, low cost-per-page printing across hundreds of pages a month justifies the upfront spend.\n\nFax and Ethernet cover legacy small-office needs. That's a real strength, but weigh it against the flip side: highest price in this list.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Fax and Ethernet included",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "The 5 percent ISO coverage standard understates real cost",
-    explanation:
-      "Manufacturer cost-per-page figures assume roughly 5 percent page coverage, plain text with wide margins. Real home printing, forms, graphs, colorful worksheets, often runs 10 to 20 percent coverage, meaning actual cost per page can run 2 to 4 times higher than advertised. Judge printers by real-world coverage, not the box number.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer with cheap ink often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "HP Instant Ink has real risks alongside the benefits",
-    explanation:
-      "Subscription ink plans can lower cost per page, but canceling can remotely disable cartridges, and printing beyond your plan's page allowance triggers overage fees. Read the specific plan terms before subscribing, especially if your monthly volume varies a lot.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer with cheap ink holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Third-party ink compatibility varies sharply by brand",
-    explanation:
-      "HP has a documented history of blocking non-HP ink through firmware updates, while Brother and Canon tend to be more tolerant of third-party cartridges and ink. Factor this into your decision if third-party ink savings are part of your cost plan.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer with cheap ink over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Standard versus high-yield cartridges trade upfront cost for per-page savings",
-    explanation:
-      "High-yield or XL cartridges cost more to buy but meaningfully less per page than standard cartridges. For cartridge-based printers not covered in this ink-tank list, always compare cost per page rather than sticker price when choosing between standard and XL options.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer with cheap ink you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Local retail availability affects real convenience",
-    explanation:
-      "Major brands' ink bottles are typically available same-day at Walmart, Target, or Staples, while some generic or off-brand ink is online-only with a 2 to 3 day wait. Factor this in if running out of ink mid-project would be a real problem for you.",
-  },
-  {
-    criterion: "Match tank size to your actual monthly volume",
-    explanation:
-      "A small entry-level ink-tank printer like the ET-2400 or HP Smart Tank 5101 is fine for light home use, but heavier volume, several hundred pages a month, justifies a higher-capacity model like the ET-4950 for lower effective cost per page.",
-  },
-  {
-    criterion: "Ink bottle color-mixing can permanently damage a tank",
-    explanation:
-      "Pouring the wrong color ink into the wrong tank during a refill is a real risk, most manufacturers color-code bottles and tank openings specifically to prevent this, but a moment of inattention can cross-contaminate a tank and require a costly repair.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer with cheap ink that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,73 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Real-World Cost Per Page by Coverage Level",
-    intro: "Advertised cost per page assumes light 5 percent coverage. Here's a rough adjustment for real usage.",
-    table: {
-      headers: ["Print type", "Approx. coverage", "Real cost vs. advertised", "Best pick"],
-      rows: [
-        ["Plain text letters", "~5%", "Close to advertised figure", "HP Smart Tank 5101"],
-        ["Forms, worksheets with graphics", "~10-15%", "1.5-2x advertised figure", "Epson EcoTank ET-2800 or ET-4800"],
-        ["Photos, colorful flyers, charts", "~15-20%+", "2-4x advertised figure", "Canon PIXMA G620 or EcoTank ET-4950"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Epson EcoTank ET"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Upfront Budget",
-    table: {
-      headers: ["Budget", "Best pick"],
-      rows: [
-        ["Under $180", "HP Smart Tank 5101"],
-        ["$190-300", "Epson EcoTank ET-2400, ET-2800, or ET-4800"],
-        ["$300+", "Canon PIXMA G620, EcoTank ET-4950, or ET-4850"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $170",
+          "HP Smart Tank 5101 Wireless All"
+        ],
+        [
+          "Up to $457",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "HP Instant Ink: When It Backfires",
-    cards: [
+    "subheading": "HP Smart Tank 5101 Wireless All vs Epson EcoTank ET",
+    "cards": [
       {
-        label: "Good fit",
-        text: "Steady, predictable monthly volume that matches a plan tier closely, minimal risk of overage fees.",
+        "label": "HP Smart Tank 5101 Wireless All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Bad fit",
-        text: "Highly variable printing months, risk of hitting overage fees some months and paying for unused allowance in others.",
-      },
-      {
-        label: "Cancellation risk",
-        text: "Canceling an Instant Ink subscription can remotely disable the cartridges tied to it, an unwelcome surprise if you switch back to buying ink outright.",
-      },
-      {
-        label: "Better alternative",
-        text: "For most households, an outright ink-tank printer like those in this list avoids subscription risk entirely with lower long-run cost.",
-      },
+        "label": "Epson EcoTank ET",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to HP Smart Tank 5101 Wireless All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Third-Party Ink Compatibility by Brand",
-    table: {
-      headers: ["Brand", "Third-party ink tolerance"],
-      rows: [
-        ["HP", "History of firmware-blocking non-HP ink, subject of a documented class action"],
-        ["Canon", "Mixed tolerance, varies by model"],
-        ["Brother", "Generally more tolerant of third-party cartridges"],
-        ["Epson", "Tank refills are typically OEM-bottle-based across this list, third-party risk is lower relevance for EcoTank"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "This list is EcoTank- and MegaTank-heavy, where the ink system itself already delivers most of the savings third-party cartridges would offer for a standard inkjet.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Print Volume and Payback Time",
-    table: {
-      headers: ["Monthly volume", "Recommended pick", "Approx. payback vs. cartridge printer"],
-      rows: [
-        ["Under 100 pages", "HP Smart Tank 5101", "6-12 months"],
-        ["100-400 pages", "Epson EcoTank ET-2800 or ET-4800", "3-6 months"],
-        ["400+ pages, high coverage", "Epson EcoTank ET-4950 or ET-4850", "Under 3 months"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Epson EcoTank ET is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Epson EcoTank ET's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HP Smart Tank 5101 Wireless All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

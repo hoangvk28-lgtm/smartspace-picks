@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51P0hhxgYxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5VH3H97?tag=deskfinds0d-20",
     description:
-      "The VASAGLE Liry pairs 2 open display tiers on top with a fully enclosed 2-door cabinet below, giving you both visible shelf space for decor and hidden storage for clutter in one unit. It carries the highest weight capacity in this entire guide at 374.8 lbs, backed by 3 adjustable shelves with 5 different height options to fit taller books or bins.\n\nA robot-vacuum-friendly base with 3.5 inches of clearance means you can keep the floor underneath clean without moving the bookcase, a small detail that makes a real difference in day-to-day upkeep. The two-tone Cloud White and Warm Brown finish gives it a farmhouse look that fits a wide range of living rooms and home offices.",
+      "The VASAGLE Liry pairs 2 open display tiers on top with a fully enclosed 2-door cabinet below, giving you both visible shelf space for decor and hidden storage for clutter in one unit. It carries the highest weight capacity in this entire guide at 374.8 lbs, backed by 3 adjustable shelves with 5 different height options to fit taller books or bins.\n\nA robot-vacuum-friendly base with 3.5 inches of clearance means you can keep the floor underneath clean without moving the bookcase, a small detail that makes a real difference in day-to-day upkeep. The two-tone Cloud White and Warm Brown finish gives it a farmhouse look that fits a wide range of living rooms and home offices.\n\nRobot-vacuum-friendly base for easy cleaning. That's a real strength, but weigh it against the flip side: only 2 tiers stay open for display versus fully open bookcases.",
     specs: [
       "24.8\"W x 10\"D x 70.7\"H",
       "Engineered wood (P2 MDF)",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31OuUlfdpbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLB54QRV?tag=deskfinds0d-20",
     description:
-      "The Shintenchi matches the VASAGLE on price while taking a more industrial approach, mixing 4 open shelves with 2 fully enclosed shelves behind doors for a balance tilted toward visible display. P2-grade MDF panels sit inside a black metal frame, and an included stability device helps keep the tall 70.9-inch unit anchored.\n\nAt just 9.3 inches deep, it has the shallowest footprint of any pick in this guide, making it a good fit for narrow hallways or tight corners where a deeper bookcase wouldn't work. Total capacity comes in at 300 lbs across the frame.",
+      "The Shintenchi matches the VASAGLE on price while taking a more industrial approach, mixing 4 open shelves with 2 fully enclosed shelves behind doors for a balance tilted toward visible display. P2-grade MDF panels sit inside a black metal frame, and an included stability device helps keep the tall 70.9-inch unit anchored.\n\nAt just 9.3 inches deep, it has the shallowest footprint of any pick in this guide, making it a good fit for narrow hallways or tight corners where a deeper bookcase wouldn't work. Total capacity comes in at 300 lbs across the frame.\n\nWorth calling out specifically: 4 open plus 2 enclosed shelves for balanced storage. The catch is lowest rating among the enclosed-cabinet picks.",
     specs: [
       "23.6\"W x 9.3\"D x 70.9\"H",
       "P2 MDF + metal frame",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5190O+yC6RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP7DR8TM?tag=deskfinds0d-20",
     description:
-      "The IRONCK combines 3 open tier shelves, 1 enclosed cabinet door, and 3 fabric drawers, the most complete mix of storage types in this guide. That variety lets it double as a bookshelf, a small file cabinet, or a display case depending on which section you use for what, useful if you have several different kinds of items to organize.\n\nMDF construction is scratch-resistant, and built-in anti-falling devices plus a reinforced load-bearing base add stability given the tall 71-inch frame. Each shelf handles up to 44 lbs, solid capacity for a unit balancing this many different storage formats.",
+      "The IRONCK combines 3 open tier shelves, 1 enclosed cabinet door, and 3 fabric drawers, the most complete mix of storage types in this guide. That variety lets it double as a bookshelf, a small file cabinet, or a display case depending on which section you use for what, useful if you have several different kinds of items to organize.\n\nMDF construction is scratch-resistant, and built-in anti-falling devices plus a reinforced load-bearing base add stability given the tall 71-inch frame. Each shelf handles up to 44 lbs, solid capacity for a unit balancing this many different storage formats.\n\nDoubles as a bookshelf, file cabinet, or display case. Set against that, only 1 door versus 2 on several other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "29.5\"L x 11.8\"W x 71\"H",
       "MDF construction",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41S845HyZML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01NARXXJ1?tag=deskfinds0d-20",
     description:
-      "The Sauder Palladia takes the most traditional approach in this guide, with framed double doors that fully enclose the entire bookcase rather than just a lower section, ideal if you want to hide clutter completely rather than leave any shelves on display. Five total compartments include 2 adjustable shelves so you can customize the interior layout.\n\nA Vintage Oak finish with black hardware gives it a classic library look that fits more formal or traditional home offices, and hidden cord access lets you route electronics behind the closed doors without unsightly cables. It's also the only pick in this guide backed by a 5-year warranty.",
+      "The Sauder Palladia takes the most traditional approach in this guide, with framed double doors that fully enclose the entire bookcase rather than just a lower section, ideal if you want to hide clutter completely rather than leave any shelves on display. Five total compartments include 2 adjustable shelves so you can customize the interior layout.\n\nA Vintage Oak finish with black hardware gives it a classic library look that fits more formal or traditional home offices, and hidden cord access lets you route electronics behind the closed doors without unsightly cables. It's also the only pick in this guide backed by a 5-year warranty.\n\nA genuine advantage here is that fully enclosed, hides all shelves from view. The tradeoff is most expensive pick in this guide at $258.74.",
     specs: [
       "29.38\"W x 13.88\"D x 71.85\"H",
       "Engineered wood",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51kB0TR8G4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPHMTB47?tag=deskfinds0d-20",
     description:
-      "The SEDETA brings a soft white farmhouse finish with a hand-crafted groove texture that adds visual interest without going as rustic as the barn-door picks in this guide. Six tiers combine with cabinet doors and a single drawer, giving a mix of open, enclosed, and drawer storage in one elegant frame.\n\nP2-grade MDF construction keeps the piece sturdy at 300 lbs of total capacity, and an anti-tip kit is included for safety in households with kids or pets. If you want a bookshelf with doors that leans elegant rather than industrial, this is one of the more polished options here.",
+      "The SEDETA brings a soft white farmhouse finish with a hand-crafted groove texture that adds visual interest without going as rustic as the barn-door picks in this guide. Six tiers combine with cabinet doors and a single drawer, giving a mix of open, enclosed, and drawer storage in one elegant frame.\n\nP2-grade MDF construction keeps the piece sturdy at 300 lbs of total capacity, and an anti-tip kit is included for safety in households with kids or pets. If you want a bookshelf with doors that leans elegant rather than industrial, this is one of the more polished options here.\n\nCombines 6 tiers, cabinet doors, and a drawer. On the other hand, smaller review sample than most other picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "31.5\"W x 13.8\"D x 70.7\"H",
       "P2 MDF construction",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eGqFV-UGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D48HC6MQ?tag=deskfinds0d-20",
     description:
-      "The Joaxswe stands out with sliding barn doors instead of swinging cabinet doors, a distinctive farmhouse detail that also saves floor clearance since the doors don't need to swing open. A unique wood grain pattern runs across the panels, and metal edge decoration along the frame adds a rustic-industrial accent.\n\nFive adjustable shelves sit behind and beside the sliding doors, and a wider wooden base than most picks in this guide adds extra stability. An anti-tip-over device is included, important given the barn-door mechanism's added hardware at the top of the frame.",
+      "The Joaxswe stands out with sliding barn doors instead of swinging cabinet doors, a distinctive farmhouse detail that also saves floor clearance since the doors don't need to swing open. A unique wood grain pattern runs across the panels, and metal edge decoration along the frame adds a rustic-industrial accent.\n\nFive adjustable shelves sit behind and beside the sliding doors, and a wider wooden base than most picks in this guide adds extra stability. An anti-tip-over device is included, important given the barn-door mechanism's added hardware at the top of the frame.\n\nUnique grain pattern and metal edge accents. That's a real strength, but weigh it against the flip side: higher price than most non-barn-door picks.",
     specs: [
       "31.49\"W x 15.35\"D x 69.68\"H",
       "Engineered wood",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/515C0UkaFhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FZTSHJSM?tag=deskfinds0d-20",
     description:
-      "The ORRD is the highest-rated pick in this entire guide at 4.9 stars, sold as a matched pair of arched bookshelves designed to flank a doorway, sofa, or fireplace as a coordinated statement piece. Each unit combines an arched silhouette with scalloped cabinet doors and gold accent handles, a mid-century modern look that stands well apart from the farmhouse and industrial styles elsewhere in this guide.\n\nEach bookshelf in the pair offers 4 open display shelves plus 1 closed cabinet section, so you still get plenty of visible shelving alongside the enclosed storage. An anti-tip kit is included on each unit, and the set is available in Natural or Walnut finishes.",
+      "The ORRD is the highest-rated pick in this entire guide at 4.9 stars, sold as a matched pair of arched bookshelves designed to flank a doorway, sofa, or fireplace as a coordinated statement piece. Each unit combines an arched silhouette with scalloped cabinet doors and gold accent handles, a mid-century modern look that stands well apart from the farmhouse and industrial styles elsewhere in this guide.\n\nEach bookshelf in the pair offers 4 open display shelves plus 1 closed cabinet section, so you still get plenty of visible shelving alongside the enclosed storage. An anti-tip kit is included on each unit, and the set is available in Natural or Walnut finishes.\n\nWorth calling out specifically: striking arched silhouette with scalloped doors and gold handles. The catch is most expensive pick in this guide at $399.99 for the pair.",
     specs: [
       "Set of 2, 31.49\"W x 11.81\"D x 70.86\"H each",
       "MDF construction",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51kneUck0LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FN7KR57S?tag=deskfinds0d-20",
     description:
-      "The FACBOTALL is the widest single unit in this guide at 71 inches, spreading 18 shelves across 6 tiers behind 6 individual farmhouse barn doors with gold handles, more doors and more total shelving than any other pick here. That scale makes it well suited to serving as a home library or even a room divider in an open floor plan.\n\nFPB and MDF construction keeps shelves thickened to 24mm for durability under a full load of books, and each shelf handles up to 66 lbs. An anti-tipping device is included given the unit's height and width, and the black finish with gold hardware gives it a bold, modern-farmhouse look.",
+      "The FACBOTALL is the widest single unit in this guide at 71 inches, spreading 18 shelves across 6 tiers behind 6 individual farmhouse barn doors with gold handles, more doors and more total shelving than any other pick here. That scale makes it well suited to serving as a home library or even a room divider in an open floor plan.\n\nFPB and MDF construction keeps shelves thickened to 24mm for durability under a full load of books, and each shelf handles up to 66 lbs. An anti-tipping device is included given the unit's height and width, and the black finish with gold hardware gives it a bold, modern-farmhouse look.\n\n18 shelves and 6 barn doors, the most of any pick here. Set against that, very large footprint needs a spacious room. Both matter when comparing it to the other picks here.",
     specs: [
       "75\"H x 71\"W x 11.7\"D",
       "FPB + MDF construction",
@@ -308,45 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Fully enclosed vs partial doors",
-    explanation:
-      "Fully enclosed-door designs like the Sauder, SEDETA, and VASAGLE hide dust and clutter best, closing off most or all of the shelving. Picks like the IRONCK and Shintenchi leave more shelves open for display while enclosing just a portion behind doors.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf with door often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Door style",
-    explanation:
-      "Swinging cabinet doors are the most common format in this guide, but barn-door styles like the Joaxswe and FACBOTALL bring a distinctive farmhouse or rustic look and save floor clearance since the doors slide rather than swing open.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf with door holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacity ranges from 300 lbs on several mid-priced picks up to 374.8 lbs on the VASAGLE, the highest in this guide. Heavier book collections should lean toward the higher-capacity picks.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf with door over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Footprint and depth",
-    explanation:
-      "Depth ranges from a shallow 9.3 inches on the Shintenchi up to nearly 16 inches on the Joaxswe. Shallower units fit narrow hallways and tight corners, while deeper units hold larger books and bins more comfortably.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf with door you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Design style",
-    explanation:
-      "This guide spans several distinct looks: industrial black frames (Shintenchi, IRONCK), farmhouse (VASAGLE, SEDETA, Joaxswe, FACBOTALL), traditional library (Sauder), and premium mid-century modern (ORRD), so match the finish to your room's existing decor.",
-  },
-  {
-    criterion: "Price and warranty",
-    explanation:
-      "Prices span from $79.99 on the Shintenchi and VASAGLE up to $399.99 for the ORRD pair. The Sauder is the only pick backed by a 5-year warranty, worth factoring in if you want long-term coverage on a pricier piece.",
-  },
-  {
-    criterion: "Why choose doors over open shelving",
-    explanation:
-      "Closed doors, whether swinging cabinet doors or sliding barn doors, block dust and hide clutter, which matters if you don't want to dust exposed shelves weekly or would rather not have your whole book collection on display. The trade-off is that doored sections cost more than open shelving of the same capacity, and swinging doors (unlike the barn-door style on the Joaxswe and FACBOTALL) need extra clearance in front of the unit to open fully. Open shelving, by contrast, is cheaper, gives instant access, and reads as more spacious in a smaller room, but leaves items exposed to dust and with nothing to stop them from being knocked off.",
-  },
-  {
-    criterion: "Shelf spacing and adjustability",
-    explanation:
-      "Several picks here, including the VASAGLE, Sauder, and Joaxswe, offer adjustable shelves so you can tailor spacing to what you're storing. As a general guideline, 10-11 inches between shelves fits most books, 8-9 inches is enough if you're storing paperbacks only, and 12-14 inches is needed for oversized art books, binders, or bins. Placing tighter spacing near the top and wider spacing toward the bottom also looks more visually balanced and keeps a tall unit from feeling top-heavy.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf with door that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

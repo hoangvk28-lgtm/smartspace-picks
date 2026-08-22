@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51M6nLrVD8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWQMZPJC?tag=deskfinds0d-20",
     description:
-      "The SANSUI is the entry point into a 34\" ultrawide for office work, with a 3440x1440 VA panel and a 200Hz refresh rate that's more than most work tasks need. Color coverage is strong for the price, 97% DCI-P3 and 130% sRGB, useful if your job touches any design or photo review.\n\nPiP and PbP let you view two input sources side by side, handy for a laptop and desktop sharing one screen, and dual HDMI 2.1 ports plus DisplayPort 1.4 cover most office docking setups. It's the cheapest and most-reviewed pick in this guide.",
+      "The SANSUI is the entry point into a 34\" ultrawide for office work, with a 3440x1440 VA panel and a 200Hz refresh rate that's more than most work tasks need. Color coverage is strong for the price, 97% DCI-P3 and 130% sRGB, useful if your job touches any design or photo review.\n\nPiP and PbP let you view two input sources side by side, handy for a laptop and desktop sharing one screen, and dual HDMI 2.1 ports plus DisplayPort 1.4 cover most office docking setups. It's the cheapest and most-reviewed pick in this guide.\n\nMost-reviewed pick with 4,460 ratings. On the other hand, no USB-C port or Power Delivery. Neither should be a surprise once you know to look for it.",
     specs: [
       "3440x1440 VA curved panel",
       "200Hz refresh rate",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x4uwmvQpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQF8LRGZ?tag=deskfinds0d-20",
     description:
-      "The LG 34WR55QK-B is built with genuine office use in mind, its dedicated Reader Mode reduces eye strain specifically during long reading and writing sessions, something few gaming-focused ultrawides bother including. USB-C with 65W Power Delivery charges a standard work laptop over a single cable.\n\nOnScreen Control software lets you adjust picture settings and monitor splits from your desktop, and PbP support covers dual-source workflows. A height and tilt adjustable stand rounds out the ergonomics. It's the highest-rated pick in this entire guide.",
+      "The LG 34WR55QK-B is built with genuine office use in mind, its dedicated Reader Mode reduces eye strain specifically during long reading and writing sessions, something few gaming-focused ultrawides bother including. USB-C with 65W Power Delivery charges a standard work laptop over a single cable.\n\nOnScreen Control software lets you adjust picture settings and monitor splits from your desktop, and PbP support covers dual-source workflows. A height and tilt adjustable stand rounds out the ergonomics. It's the highest-rated pick in this entire guide.\n\nReader Mode specifically targets long-session eye strain. That's a real strength, but weigh it against the flip side: 65W PD may not fully power a 16\" MacBook Pro under heavy load.",
     specs: [
       "3440x1440 VA curved panel",
       "100Hz refresh rate",
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "The Dell S3425DW pairs a 3440x1440 VA panel with up to 120Hz refresh and a 0.03ms response time, the fastest response time in this entire guide, though that matters less for office work than for gaming. USB-C 65W Power Delivery keeps a laptop charged over a single cable during the workday.\n\nColor accuracy is strong at 99% sRGB and 95% DCI-P3, and Dell's ComfortView Plus low blue-light mode targets eye strain during extended screen time. The Dell Premium Panel warranty covers the panel itself, a reassuring detail for a monitor meant to run all day, every day.",
+      "The Dell S3425DW pairs a 3440x1440 VA panel with up to 120Hz refresh and a 0.03ms response time, the fastest response time in this entire guide, though that matters less for office work than for gaming. USB-C 65W Power Delivery keeps a laptop charged over a single cable during the workday.\n\nColor accuracy is strong at 99% sRGB and 95% DCI-P3, and Dell's ComfortView Plus low blue-light mode targets eye strain during extended screen time. The Dell Premium Panel warranty covers the panel itself, a reassuring detail for a monitor meant to run all day, every day.\n\nWorth calling out specifically: strong color accuracy for design or photo review work. The catch is no KVM switch or Ethernet passthrough.",
     specs: [
       "3440x1440 VA curved panel",
       "Up to 120Hz, 0.03ms response time",
@@ -149,7 +149,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nmpKDSrtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D63Y6WYJ?tag=deskfinds0d-20",
     description:
-      "The U3425WE is the only Thunderbolt 4 monitor in this guide, a meaningful upgrade for a professional desk running high-bandwidth peripherals or an external GPU-adjacent workflow. It pairs Thunderbolt 4 with 10 total USB 3.2 Gen2 ports and built-in Ethernet, effectively replacing a separate docking station.\n\nAn IPS panel at 3440x1440 and 120Hz balances color consistency with smooth motion, PbP support handles dual-source viewing, and an ambient light sensor adjusts brightness automatically through the day. A 3-year warranty covers the whole unit.",
+      "The U3425WE is the only Thunderbolt 4 monitor in this guide, a meaningful upgrade for a professional desk running high-bandwidth peripherals or an external GPU-adjacent workflow. It pairs Thunderbolt 4 with 10 total USB 3.2 Gen2 ports and built-in Ethernet, effectively replacing a separate docking station.\n\nAn IPS panel at 3440x1440 and 120Hz balances color consistency with smooth motion, PbP support handles dual-source viewing, and an ambient light sensor adjusts brightness automatically through the day. A 3-year warranty covers the whole unit.\n\n10 USB ports plus Ethernet replaces a separate dock. Set against that, most expensive 34\"-class pick in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "3440x1440 IPS panel",
       "120Hz refresh rate",
@@ -182,7 +182,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jJEMNYH7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRGJF7WL?tag=deskfinds0d-20",
     description:
-      "At 5120x1440, the S95UA is built for someone who genuinely needs the extra screen real estate of a 49\" panel, not just the look of one, and its 1000R curve keeps the wide edges from feeling distant. A built-in KVM switch lets you control 2 computers from one keyboard and mouse without a separate hardware switch.\n\nUSB-C Power Delivery hits 90W, the highest wattage in this guide and enough to fully charge a 16\" MacBook Pro under load. Ethernet passthrough, 120Hz refresh, and DisplayHDR 400 round out a spec sheet backed by a B2B 3-year warranty.",
+      "At 5120x1440, the S95UA is built for someone who genuinely needs the extra screen real estate of a 49\" panel, not just the look of one, and its 1000R curve keeps the wide edges from feeling distant. A built-in KVM switch lets you control 2 computers from one keyboard and mouse without a separate hardware switch.\n\nUSB-C Power Delivery hits 90W, the highest wattage in this guide and enough to fully charge a 16\" MacBook Pro under load. Ethernet passthrough, 120Hz refresh, and DisplayHDR 400 round out a spec sheet backed by a B2B 3-year warranty.\n\nA genuine advantage here is that built-in KVM switch for 2-computer desks. The tradeoff is needs a desk with real usable depth, at least 28-30 inches.",
     specs: [
       "5120x1440 VA curved 1000R panel",
       "120Hz refresh rate",
@@ -215,7 +215,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41A7PYEypCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6QRTBHM?tag=deskfinds0d-20",
     description:
-      "The U4924DW is the widest and most port-dense pick in this guide, a 5120x1440 IPS Black panel paired with 11 total USB ports, an automatic KVM switch, and 2.5GbE Ethernet for a desk that needs to be a self-contained productivity hub. USB-C Power Delivery reaches 90W, enough for a 16\" MacBook Pro under full load.\n\nIPS Black technology delivers 100% sRGB coverage, the best color accuracy in this guide, a real advantage for design or photo work. Dual 9W speakers round out the package, though at over $1,200 it's the most expensive pick here by a clear margin.",
+      "The U4924DW is the widest and most port-dense pick in this guide, a 5120x1440 IPS Black panel paired with 11 total USB ports, an automatic KVM switch, and 2.5GbE Ethernet for a desk that needs to be a self-contained productivity hub. USB-C Power Delivery reaches 90W, enough for a 16\" MacBook Pro under full load.\n\nIPS Black technology delivers 100% sRGB coverage, the best color accuracy in this guide, a real advantage for design or photo work. Dual 9W speakers round out the package, though at over $1,200 it's the most expensive pick here by a clear margin.\n\n100% sRGB gives the best color accuracy here. On the other hand, most expensive pick in this guide by a wide margin. Neither should be a surprise once you know to look for it.",
     specs: [
       "5120x1440 IPS Black panel",
       "USB-C 90W Power Delivery",
@@ -269,35 +269,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "USB-C wattage decides your cable count, not just charging speed",
-    explanation:
-      "65W USB-C Power Delivery charges most ultrabooks fine over a single cable, but a 16\" MacBook Pro or similar high-draw laptop under load needs 90W or more to stay topped up. If your monitor's PD wattage is too low, you'll end up plugging in a separate charger anyway, defeating the point of a single-cable desk.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a ultrawide monitor often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "A KVM switch beats a Thunderbolt dock for simplicity, Thunderbolt beats it for bandwidth",
-    explanation:
-      "A built-in KVM switch, like the ones on the Samsung S95UA and Dell U4924DW, lets you flip between 2 computers with one keyboard and mouse using a simple hotkey. Thunderbolt 4, found only on the Dell U3425WE in this guide, instead gives you far more bandwidth for high-speed peripherals, but it's a different problem than switching between machines.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the ultrawide monitor holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "49\" screens need real desk depth to pay off",
-    explanation:
-      "A 49\" super-ultrawide is comfortable at around 35-39 inches of viewing distance, not the roughly 24 inches people instinctively sit at with a normal monitor. That means the desk behind it needs at least 28-30 inches of usable depth for the stand base and a further seating position, or the extra width just becomes something to squint at.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this ultrawide monitor over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "34\" is often the more comfortable daily driver even though 49\" looks better in photos",
-    explanation:
-      "Width increases how much you have to turn your head throughout the day, and some users find anything 40\"+ overwhelming for constant desk work due to the neck rotation it demands. If your job is heads-down focus work rather than multi-window monitoring, a 34\" panel is frequently the better all-day choice.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any ultrawide monitor you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Pixel density is nearly identical across sizes, so don't buy for sharpness",
-    explanation:
-      "A 3440x1440 34\" panel and a 5120x1440 49\" panel both land around 108-110 PPI, so text looks about equally sharp on either. The real decision between them is desk depth and desk space required, not which one renders crisper text.",
-  },
-  {
-    criterion: "Reader Mode and low blue-light features matter more than refresh rate for office work",
-    explanation:
-      "A 200Hz refresh rate is wasted on document editing and spreadsheets, but a dedicated Reader Mode or low blue-light setting genuinely reduces eye strain across a full workday of reading and writing. Prioritize these features over refresh rate unless your job also involves gaming.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A ultrawide monitor that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -310,77 +300,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How You Charge Your Laptop",
-    intro:
-      "USB-C wattage determines whether your laptop actually stays charged through a full workday of use, or slowly drains despite being plugged in.",
-    table: {
-      headers: ["Laptop type", "PD wattage needed", "Best pick"],
-      rows: [
-        ["Standard ultrabook (13-14\")", "65W is sufficient", "LG 34WR55QK-B or Dell S3425DW"],
-        ["16\" MacBook Pro or high-draw laptop", "90W+", "Samsung S95UA or Dell U4924DW"],
-        ["No USB-C laptop charging needed", "Not a factor", "SANSUI 34\" (no USB-C, cheapest option)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "LG 34WR55QK"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SANSUI 34\" Curved UWQHD Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Multi-Computer Desk Setup",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $1",
+          "Dell UltraSharp U4924DW"
+        ],
+        [
+          "Up to $850",
+          "Samsung 49\" Business S95UA"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Dell UltraSharp U4924DW vs Samsung 49\" Business S95UA",
+    "cards": [
       {
-        label: "Switch between 2 computers regularly",
-        text: "The Samsung S95UA and Dell U4924DW both include a KVM switch, letting one keyboard and mouse control 2 machines without extra hardware.",
+        "label": "Dell UltraSharp U4924DW",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Need high-bandwidth peripheral support instead",
-        text: "The Dell U3425WE's Thunderbolt 4 port is the only one in this guide, useful for external drives or docks that need more than standard USB speeds.",
-      },
-      {
-        label: "Only use one computer",
-        text: "Skip the KVM and Thunderbolt premium entirely and go with the SANSUI or LG 34WR55QK-B for the best value.",
-      },
+        "label": "Samsung 49\" Business S95UA",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Dell UltraSharp U4924DW unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Panel Size and Desk Depth",
-    intro:
-      "A 49\" panel brings real productivity gains, but only on a desk deep enough to support the recommended viewing distance.",
-    table: {
-      headers: ["Desk depth available", "Comfortable size", "Best pick"],
-      rows: [
-        ["Under 28\" usable depth", "34\" panel", "SANSUI, LG 34WR55QK-B, Dell S3425DW, or Dell U3425WE"],
-        ["28-30\"+ usable depth", "49\" panel", "Samsung S95UA or Dell U4924DW"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Usable depth means front edge to wall, not the published desktop size, and should leave roughly 3 inches of clearance behind the display for cables.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SANSUI 34\" Curved UWQHD Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Job Type",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Heads-down focus work, writing, coding",
-        text: "A 34\" panel like the LG 34WR55QK-B with Reader Mode reduces the neck rotation that wider screens demand over a full workday.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Design, photo, or color-critical work",
-        text: "The Dell U4924DW's 100% sRGB coverage and the Dell S3425DW's 99% sRGB / 95% DCI-P3 give the most accurate color in this guide.",
-      },
-      {
-        label: "Monitoring dashboards, multi-window trading or ops work",
-        text: "The extra width of the Samsung S95UA or Dell U4924DW genuinely earns its keep when you need many windows visible at once.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "SANSUI 34\" Curved UWQHD Monitor is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Budget Tiers",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $250", "Solid 34\" panel, no USB-C", "SANSUI 34\" Curved UWQHD"],
-        ["$250-$400", "USB-C PD, eye-strain features", "LG 34WR55QK-B or Dell S3425DW"],
-        ["$400-$900", "Thunderbolt 4 or entry 49\" with KVM", "Dell U3425WE or Samsung S95UA"],
-        ["$900+", "Widest screen, most ports, best color", "Dell U4924DW"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Samsung 49\" Business S95UA's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Dell UltraSharp U4924DW covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

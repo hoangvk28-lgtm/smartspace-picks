@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aYmEEowHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q55HRS1?tag=deskfinds0d-20",
     description:
-      "The Humble Crew is the best-selling kids' bookshelf on the market by a wide margin, with nearly 38,000 ratings backing its 4.6-star average. Four deep nylon fabric pockets hold books front-facing rather than spine-out, so young kids can spot the cover art and pick titles on their own well before they're reading independently.\n\nRounded child-safe corners and a lightweight engineered-wood frame at just 12.6 lbs total make it easy to place freestanding in a nursery or playroom without tipping risk, and the low $24.99 price makes it an easy first bookshelf.",
+      "The Humble Crew is the best-selling kids' bookshelf on the market by a wide margin, with nearly 38,000 ratings backing its 4.6-star average. Four deep nylon fabric pockets hold books front-facing rather than spine-out, so young kids can spot the cover art and pick titles on their own well before they're reading independently.\n\nRounded child-safe corners and a lightweight engineered-wood frame at just 12.6 lbs total make it easy to place freestanding in a nursery or playroom without tipping risk, and the low $24.99 price makes it an easy first bookshelf.\n\nWorth calling out specifically: front-facing pockets let kids choose books by cover. The catch is smaller capacity than the 6-tier Humble Crew.",
     specs: [
       "25\"W x 10.6\"D x 23.5\"H",
       "Engineered wood + 4 nylon fabric front-facing pockets",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+YDH8eH2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Y2C6H9J?tag=deskfinds0d-20",
     description:
-      "This larger Humble Crew scales the same front-facing formula up to 6 tiers, offering 25% more storage than the standard 4-tier size for families with a growing book collection. The same deep fabric pockets and rounded corners carry over, so it's still built with young kids specifically in mind.\n\nAt 30 inches tall, it's noticeably taller than the standard size while remaining stable and freestanding, making it a solid step-up pick once a child outgrows the smaller unit's capacity.",
+      "This larger Humble Crew scales the same front-facing formula up to 6 tiers, offering 25% more storage than the standard 4-tier size for families with a growing book collection. The same deep fabric pockets and rounded corners carry over, so it's still built with young kids specifically in mind.\n\nAt 30 inches tall, it's noticeably taller than the standard size while remaining stable and freestanding, making it a solid step-up pick once a child outgrows the smaller unit's capacity.\n\n25% more storage than the standard Humble Crew size. Set against that, pricier than the standard 4-tier Humble Crew. Both matter when comparing it to the other picks here.",
     specs: [
       "25\"W x 12\"D x 30\"H",
       "Engineered wood + 6 nylon fabric front-facing pockets",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41diOWdL1NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTMQ4D79?tag=deskfinds0d-20",
     description:
-      "The 3 Sprouts stands out as the most eco-friendly pick in this list, with fabric pockets made from roughly 8 recycled plastic bottles per unit, a genuine sustainability claim rather than a marketing footnote. It holds up to 35 books across 4 tiers in a soft Nordic-inspired Gingham Beige finish that suits a modern nursery.\n\nAt 52.5 lbs total, it's a sturdier, heavier build than the lightest picks in this list, giving it a more substantial, furniture-like feel while still being sized specifically for young kids.",
+      "The 3 Sprouts stands out as the most eco-friendly pick in this list, with fabric pockets made from roughly 8 recycled plastic bottles per unit, a genuine sustainability claim rather than a marketing footnote. It holds up to 35 books across 4 tiers in a soft Nordic-inspired Gingham Beige finish that suits a modern nursery.\n\nAt 52.5 lbs total, it's a sturdier, heavier build than the lightest picks in this list, giving it a more substantial, furniture-like feel while still being sized specifically for young kids.\n\nA genuine advantage here is that holds up to 35 books. The tradeoff is pricier than the Humble Crew picks.",
     specs: [
       "24\"W x 10\"D x 24.5\"H",
       "Engineered wood + recycled polyester fabric",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rGUFkFEvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08341B631?tag=deskfinds0d-20",
     description:
-      "The UTEX is built from FSC-certified engineered wood, a sustainable sourcing standard, and pairs it with soft cotton sling pockets across 4 tiers for front-facing book display. At just 11.65 lbs, it's the lightest freestanding pick in this list, easy for a parent to reposition without much effort.\n\nRounded corners keep it safe around active kids, and its compact 12-inch depth makes it an easy fit in smaller bedrooms or playrooms where floor space is limited.",
+      "The UTEX is built from FSC-certified engineered wood, a sustainable sourcing standard, and pairs it with soft cotton sling pockets across 4 tiers for front-facing book display. At just 11.65 lbs, it's the lightest freestanding pick in this list, easy for a parent to reposition without much effort.\n\nRounded corners keep it safe around active kids, and its compact 12-inch depth makes it an easy fit in smaller bedrooms or playrooms where floor space is limited.\n\nLightest freestanding pick in this list at 11.65 lbs. On the other hand, lower total book capacity than the 3 Sprouts. Neither should be a surprise once you know to look for it.",
     specs: [
       "25\"W x 12\"D x 28\"H",
       "FSC-certified engineered wood + cotton sling pockets",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CYNPWIqZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2D1CW6W?tag=deskfinds0d-20",
     description:
-      "The EXPERLAM is the only pick in this list built from genuinely solid pine wood rather than MDF or melamine, finished with a paint-free process that avoids the formaldehyde concerns some parents have with painted or laminated furniture. Two cotton canvas drawers add hidden storage for smaller items alongside the open front-facing tiers.\n\nEvery corner is hand-polished and rounded for safety, and the natural wood grain gives it a more organic, furniture-grade look than the fabric-and-engineered-wood picks elsewhere in this list.",
+      "The EXPERLAM is the only pick in this list built from genuinely solid pine wood rather than MDF or melamine, finished with a paint-free process that avoids the formaldehyde concerns some parents have with painted or laminated furniture. Two cotton canvas drawers add hidden storage for smaller items alongside the open front-facing tiers.\n\nEvery corner is hand-polished and rounded for safety, and the natural wood grain gives it a more organic, furniture-grade look than the fabric-and-engineered-wood picks elsewhere in this list.\n\nPaint-free, formaldehyde-free finish. That's a real strength, but weigh it against the flip side: fewer total ratings than the top sellers.",
     specs: [
       "30.7\"W x 11\"D x 24.8\"H",
       "Solid pine wood (not MDF or melamine)",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/516kh10CA7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62FD79Y?tag=deskfinds0d-20",
     description:
-      "The SpaceAid follows genuine Montessori principles with a scalloped shelf design and deliberately low overall height, letting a toddler see and reach every book on their own without needing an adult to lift them up. Solid wood construction gives it a sturdy, natural feel that suits a playroom or classroom setting.\n\nAt 27.6 inches tall, it's low enough for independent use by young toddlers while still holding a meaningful book collection across 3 tiers of front-facing display.",
+      "The SpaceAid follows genuine Montessori principles with a scalloped shelf design and deliberately low overall height, letting a toddler see and reach every book on their own without needing an adult to lift them up. Solid wood construction gives it a sturdy, natural feel that suits a playroom or classroom setting.\n\nAt 27.6 inches tall, it's low enough for independent use by young toddlers while still holding a meaningful book collection across 3 tiers of front-facing display.\n\nWorth calling out specifically: low toddler-friendly height encourages independence. The catch is only 3 tiers, less capacity than the 4- and 6-tier picks.",
     specs: [
       "29.6\"W x 10.7\"D x 27.6\"H",
       "Solid wood, scalloped design",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/512d7V1js5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZXL2QTQ?tag=deskfinds0d-20",
     description:
-      "This SpaceAid combines book storage with 12 bins, 4 large and 8 small, giving it the most total storage capacity in this list for combined books and toys in one unit. Solid pine wood construction backs a front-extended base specifically designed to help prevent tipping, a meaningful safety feature on a piece this wide.\n\nRounded edges throughout keep it safe for active kids, and at 52.3 inches wide it's the widest pick here, functioning as a full playroom organizer rather than a bookshelf alone.",
+      "This SpaceAid combines book storage with 12 bins, 4 large and 8 small, giving it the most total storage capacity in this list for combined books and toys in one unit. Solid pine wood construction backs a front-extended base specifically designed to help prevent tipping, a meaningful safety feature on a piece this wide.\n\nRounded edges throughout keep it safe for active kids, and at 52.3 inches wide it's the widest pick here, functioning as a full playroom organizer rather than a bookshelf alone.\n\n12 bins total for organized sorting. Set against that, widest pick in this list at 52.3\", needs more wall space. Both matter when comparing it to the other picks here.",
     specs: [
       "52.3\"W x 13.6\"D x 31.5\"H",
       "Solid pine wood",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416Ts2QVKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6LC4C9T?tag=deskfinds0d-20",
     description:
-      "The COZPAW's standout feature is a movable drawer on 360-degree wheels, letting a child roll toy or book storage exactly where they're playing rather than walking back and forth to a fixed shelf. It combines 3 tiers of open display with 5 sling pockets, mixing three different storage styles into one oak-finished unit.\n\nBuilt from MDF and rated for 65 lbs total, with rounded edges throughout, it's a versatile pick for a playroom where flexibility matters as much as raw capacity.",
+      "The COZPAW's standout feature is a movable drawer on 360-degree wheels, letting a child roll toy or book storage exactly where they're playing rather than walking back and forth to a fixed shelf. It combines 3 tiers of open display with 5 sling pockets, mixing three different storage styles into one oak-finished unit.\n\nBuilt from MDF and rated for 65 lbs total, with rounded edges throughout, it's a versatile pick for a playroom where flexibility matters as much as raw capacity.\n\nA genuine advantage here is that combines open display, sling pockets, and rolling drawer storage. The tradeoff is lowest rating in this list at 4.4 stars.",
     specs: [
       "35.4\"W x 15.7\"D x 31.5\"H",
       "MDF",
@@ -300,45 +300,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Front-facing vs spine-out storage",
-    explanation:
-      "Front-facing sling designs like the Humble Crew picks, UTEX, and 3 Sprouts suit ages 3-6 who pick books by cover art rather than reading titles on the spine.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Montessori design principles",
-    explanation:
-      "The SpaceAid Scalloped Bookshelf follows genuine Montessori principles with a low, scalloped design that lets toddlers reach and choose books independently, without adult help.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Material safety",
-    explanation:
-      "The EXPERLAM's solid pine construction and paint-free, formaldehyde-free finish make it the safest pick in this list for nurseries and toddler rooms.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Combined book and toy storage",
-    explanation:
-      "The SpaceAid 12-Bin Toy Organizer holds the most combined books and toys in one unit, while the COZPAW mixes three different storage styles including a movable rolling drawer.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Weight and portability",
-    explanation:
-      "The UTEX is the lightest freestanding pick at 11.65 lbs, easy to reposition, while the SpaceAid Toy Organizer and 3 Sprouts are heavier, more furniture-like builds.",
-  },
-  {
-    criterion: "Safety features",
-    explanation:
-      "Rounded corners appear across nearly every pick in this list, and the SpaceAid Toy Organizer adds a front-extended base specifically to resist tipping on its wider frame.",
-  },
-  {
-    criterion: "What \"tip-over safe\" actually means for a kids' bookshelf",
-    explanation:
-      "The CPSC's mandatory ASTM F2057-23 tip-over standard applies to clothing storage units like dressers and chests 27 inches or taller, not to bookshelves or shelving units, so a kids' bookshelf listed as \"meets safety standards\" usually isn't referring to a real mandatory bookshelf-specific test. What actually matters is a wide, heavy base, included or purchased wall-anchor hardware, and rounded corners. Look for those features directly rather than relying on a certification claim.",
-  },
-  {
-    criterion: "Shelf height and reach for your child's age",
-    explanation:
-      "Beyond Montessori-style low, scalloped designs like the SpaceAid, general reachability matters for any kids' bookshelf. Lower shelves let a toddler or young child browse and put books back independently, while taller units, even at a kid-friendly height, may need an adult's help for the top tier. Match the shelf height to your child's age and reach, not just the room's available wall space.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

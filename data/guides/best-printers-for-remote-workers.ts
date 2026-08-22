@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "The DCP-L2640DW is built for a genuine daily home-office workload, with duplex printing, copy and scan built in, and laser toner that handles contracts and reports at a lower cost-per-page than any inkjet in this list. For a remote worker printing in the 30-80 page monthly range, toner also means no dried-out cartridges after a slow week.\n\nIt's the pricier pick here, but if your employer covers home office equipment, many companies approve printers under $200 as an expensable cost, which is worth checking before you pay out of pocket for a laser printer at this tier.",
+      "The DCP-L2640DW is built for a genuine daily home-office workload, with duplex printing, copy and scan built in, and laser toner that handles contracts and reports at a lower cost-per-page than any inkjet in this list. For a remote worker printing in the 30-80 page monthly range, toner also means no dried-out cartridges after a slow week.\n\nIt's the pricier pick here, but if your employer covers home office equipment, many companies approve printers under $200 as an expensable cost, which is worth checking before you pay out of pocket for a laser printer at this tier.\n\nDuplex printing built in. On the other hand, highest price in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless compact monochrome laser printer",
       "Duplex printing, copy, and scan",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS6520's OLED display makes wireless setup and everyday operation straightforward, useful for a remote worker who wants the printer running before a first video call rather than fighting a driver install. Duplex printing and a full print, copy, scan set cover typical WFH paperwork.\n\nAs a color inkjet, it's better suited to lighter, mixed-document printing than the high daily volume a busy contract or reporting job generates, where the ongoing ink cost adds up faster than toner would.",
+      "The PIXMA TS6520's OLED display makes wireless setup and everyday operation straightforward, useful for a remote worker who wants the printer running before a first video call rather than fighting a driver install. Duplex printing and a full print, copy, scan set cover typical WFH paperwork.\n\nAs a color inkjet, it's better suited to lighter, mixed-document printing than the high daily volume a busy contract or reporting job generates, where the ongoing ink cost adds up faster than toner would.\n\nDuplex printing for double-sided documents. That's a real strength, but weigh it against the flip side: higher cost-per-page than laser at real WFH volume.",
     specs: [
       "Wireless color inkjet all-in-one",
       "1.42\" OLED display",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413Pj7RejfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFH9RYW?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8139 covers print, scan, copy, and fax with an automatic document feeder and duplex printing, the fullest feature set in this list for a remote worker whose job still occasionally requires faxing signed documents. A 1-year Instant Ink trial is included to offset early ink cost.\n\nThis is a genuinely business-oriented machine, which makes it a strong candidate for employer equipment reimbursement, many companies approve printers in this price range as a home office expense, worth confirming with your employer before purchase.",
+      "The OfficeJet Pro 8139 covers print, scan, copy, and fax with an automatic document feeder and duplex printing, the fullest feature set in this list for a remote worker whose job still occasionally requires faxing signed documents. A 1-year Instant Ink trial is included to offset early ink cost.\n\nThis is a genuinely business-oriented machine, which makes it a strong candidate for employer equipment reimbursement, many companies approve printers in this price range as a home office expense, worth confirming with your employer before purchase.\n\nWorth calling out specifically: auto document feeder for multi-page scans. The catch is pricier than most inkjet picks in this list.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Print, scan, copy, fax",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "The HL-L2405W delivers the same laser cost-per-page advantage as the pricier DCP-L2640DW but drops the copy and scan functions, a reasonable tradeoff if you already have a scanning solution elsewhere and mainly need reliable, low-cost text printing for contracts and reports.\n\nLaser printers also tend to run quieter and more consistently than inkjets during a print job, which matters if your desk sits near where video calls happen and a printer firing up mid-meeting risks being picked up by the mic.",
+      "The HL-L2405W delivers the same laser cost-per-page advantage as the pricier DCP-L2640DW but drops the copy and scan functions, a reasonable tradeoff if you already have a scanning solution elsewhere and mainly need reliable, low-cost text printing for contracts and reports.\n\nLaser printers also tend to run quieter and more consistently than inkjets during a print job, which matters if your desk sits near where video calls happen and a printer firing up mid-meeting risks being picked up by the mic.\n\nLow cost-per-page for regular text printing. Set against that, no copy or scan function. Both matter when comparing it to the other picks here.",
     specs: [
       "Wireless compact monochrome laser printer",
       "Mobile printing support",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The EcoTank ET-2800 replaces disposable ink cartridges with refillable ink tanks, which keeps per-page cost low without switching to monochrome-only laser output, a useful middle ground for a remote worker who occasionally needs color charts or presentation printouts alongside routine paperwork.\n\nThe supertank design does give it a larger footprint than typical compact inkjets, so measure your desk space honestly before buying rather than assuming it matches a standard printer's size.",
+      "The EcoTank ET-2800 replaces disposable ink cartridges with refillable ink tanks, which keeps per-page cost low without switching to monochrome-only laser output, a useful middle ground for a remote worker who occasionally needs color charts or presentation printouts alongside routine paperwork.\n\nThe supertank design does give it a larger footprint than typical compact inkjets, so measure your desk space honestly before buying rather than assuming it matches a standard printer's size.\n\nA genuine advantage here is that no disposable cartridges to replace. The tradeoff is larger physical footprint than compact inkjets.",
     specs: [
       "Wireless color all-in-one supertank printer",
       "Cartridge-free refillable ink tanks",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31H9Yu3i01L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BDD46HFV?tag=deskfinds0d-20",
     description:
-      "The Workforce WF-2930 covers print, scan, copy, and fax with an auto document feeder and duplex printing at the lowest price point among the full-featured picks in this list, a solid fit for a remote worker whose WFH print volume sits at the lower end of the typical 30-80 page monthly range.\n\nA 1.4-inch color display keeps day-to-day operation simple, and its compact size fits easily into a home office desk setup without dominating the space.",
+      "The Workforce WF-2930 covers print, scan, copy, and fax with an auto document feeder and duplex printing at the lowest price point among the full-featured picks in this list, a solid fit for a remote worker whose WFH print volume sits at the lower end of the typical 30-80 page monthly range.\n\nA 1.4-inch color display keeps day-to-day operation simple, and its compact size fits easily into a home office desk setup without dominating the space.\n\nAuto document feeder included. On the other hand, inkjet cost-per-page is higher than laser at volume. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless all-in-one inkjet printer",
       "Print, scan, copy, fax",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31TonwUym9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9BFLMX?tag=deskfinds0d-20",
     description:
-      "The EcoTank ET-2400 offers the same cartridge-free refillable ink advantage as the pricier ET-2800 for everyday home printing, slightly undercutting it on price while keeping the same low per-page cost benefit for a remote worker who prints steadily but not at office-level volume.\n\nLike the ET-2800, its ink tank design adds bulk compared to a compact inkjet, so it suits a dedicated home office desk better than a tight shared workspace.",
+      "The EcoTank ET-2400 offers the same cartridge-free refillable ink advantage as the pricier ET-2800 for everyday home printing, slightly undercutting it on price while keeping the same low per-page cost benefit for a remote worker who prints steadily but not at office-level volume.\n\nLike the ET-2800, its ink tank design adds bulk compared to a compact inkjet, so it suits a dedicated home office desk better than a tight shared workspace.\n\nSlightly cheaper than the ET-2800 with the same core benefit. That's a real strength, but weigh it against the flip side: larger footprint than compact inkjets.",
     specs: [
       "Wireless color all-in-one supertank printer",
       "Cartridge-free refillable ink tanks",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xOh51IRUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BL466Y41?tag=deskfinds0d-20",
     description:
-      "The Smart Tank 5101 ships with 2 years of ink included, which removes ink-buying decisions almost entirely for a remote worker's first two years of ownership, a meaningful convenience for anyone who would rather not think about consumables at all. It covers print, scan, and copy in a refillable tank design similar to the Epson EcoTank line.\n\nAfter the included ink period ends, refills are typically inexpensive compared to cartridge-based printers, keeping long-term cost low for steady WFH printing.",
+      "The Smart Tank 5101 ships with 2 years of ink included, which removes ink-buying decisions almost entirely for a remote worker's first two years of ownership, a meaningful convenience for anyone who would rather not think about consumables at all. It covers print, scan, and copy in a refillable tank design similar to the Epson EcoTank line.\n\nAfter the included ink period ends, refills are typically inexpensive compared to cartridge-based printers, keeping long-term cost low for steady WFH printing.\n\nWorth calling out specifically: refillable tank design keeps long-term cost low. The catch is 2.4GHz-only wireless can be slower to pair on dual-band routers.",
     specs: [
       "Wireless all-in-one refillable printer",
       "2 years of ink included",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Size your printer to real WFH volume, not office volume",
-    explanation:
-      "Most remote workers print somewhere in the 30-80 page monthly range for contracts, onboarding paperwork, and reports, far below the 500-plus pages a shared office printer handles. Buying office-grade capacity is usually wasted money, a compact laser or a modest inkjet covers typical WFH volume comfortably.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Confidential documents need a plan, even at home",
-    explanation:
-      "If you print HR files, signed contracts, or financial reports on a printer your family or roommates also use, treat it the same way you would in an office, keep printed pages out of a shared tray for longer than necessary and retrieve them promptly. None of the picks in this list include a true locking paper tray, so a dedicated desk location or a habit of retrieving pages immediately is the practical substitute.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Check whether your employer will reimburse it",
-    explanation:
-      "Many employers approve home office equipment, including printers under $200, as an expensable cost, but this is rarely offered proactively. Check your company's remote-work equipment policy before paying out of pocket for a printer at the DCP-L2640DW or OfficeJet Pro 8139 price tier.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "A printer firing mid-call can get picked up by your mic",
-    explanation:
-      "Printer noise during a video call is a genuinely remote-work-specific problem that office guides don't address, since office printers usually sit away from your desk. Laser printers generally run quieter and more predictably than inkjets, worth prioritizing if your printer sits near your video call setup.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "VPN printing to a company network printer has simpler alternatives",
-    explanation:
-      "Printing directly to a company network printer over VPN is technically possible but often complex to set up and maintain for a remote worker. In most cases, printing locally to your own printer or working entirely in PDF and only printing final versions is the simpler, more reliable workflow.",
-  },
-  {
-    criterion: "Refillable ink tanks change the ink math at moderate volume",
-    explanation:
-      "Cartridge-free tank printers like the Epson EcoTank or HP Smart Tank lines cost more upfront but bring per-page ink cost down close to laser levels while keeping color output, a good fit for a remote worker who needs occasional color charts alongside routine text printing.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,82 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Realistic WFH Print Volume",
-    intro:
-      "Remote work print volume runs far lower than office volume, size your printer to what you'll actually print each month.",
-    table: {
-      headers: ["Monthly volume", "Recommended type", "Best pick"],
-      rows: [
-        ["Under 30 pages/month, occasional", "Basic all-in-one inkjet", "Epson Workforce WF-2930"],
-        ["30-80 pages/month, typical WFH range", "Compact laser or refillable tank inkjet", "Brother HL-L2405W or Epson EcoTank ET-2400"],
-        ["80+ pages/month, heavy daily use", "Full-featured laser with duplex", "Brother DCP-L2640DW"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother DCP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Handling Confidential Work Documents at Home",
-    intro:
-      "None of the picks in this list include a true locking paper tray, so confidentiality comes down to habits and placement rather than hardware alone.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $74",
+          "Canon PIXMA TS6520 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $210",
+          "Brother DCP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Canon PIXMA TS6520 Wireless Color Inkjet Printer vs Brother DCP",
+    "cards": [
       {
-        label: "Dedicate the printer to your home office only",
-        text: "Placing the printer in a room only you access removes most of the risk of a shared household printer.",
+        "label": "Canon PIXMA TS6520 Wireless Color Inkjet Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Retrieve printed pages immediately",
-        text: "Confidential contracts or HR files sitting in an open tray are the actual risk, not the printer itself, retrieve sensitive prints right after the job finishes.",
-      },
-      {
-        label: "Consider a printer with fewer household users nearby",
-        text: "The Brother HL-L2405W and DCP-L2640DW's business-oriented design and placement in a dedicated office make them reasonable defaults for confidentiality-conscious setups.",
-      },
+        "label": "Brother DCP",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TS6520 Wireless Color Inkjet Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "\"Expense Your Printer\" — Employer Reimbursement Guide",
-    intro:
-      "Many companies approve home office equipment as an expensable cost, but employees often don't ask.",
-    table: {
-      headers: ["Price tier", "Typical reimbursement likelihood", "Best pick"],
-      rows: [
-        ["Under $100", "Usually approved without much scrutiny", "Epson Workforce WF-2930"],
-        ["$100-$200", "Often approved under standard home-office policies", "Brother DCP-L2640DW, HP OfficeJet Pro 8139"],
-        ["$200+", "May need manager approval or a stated business need", "Brother DCP-L2640DW"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Check your company's remote-work equipment policy before purchasing, many employers cap reimbursable printers under $200, which covers every pick in this list except the DCP-L2640DW just at the line.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Noise Ranking for Video-Call Compatibility",
-    table: {
-      headers: ["Printer", "Mechanism", "Video-call friendliness"],
-      rows: [
-        ["Brother HL-L2405W / DCP-L2640DW", "Laser", "Quieter, more consistent print cycle"],
-        ["Epson EcoTank ET-2800 / ET-2400", "Inkjet, ink tank", "Moderate noise during printing"],
-        ["Canon PIXMA TS6520, HP OfficeJet Pro 8139", "Standard inkjet", "Typical inkjet noise, avoid printing mid-call"],
-      ],
-    },
-    note: "If your desk sits near where you take video calls, schedule print jobs before or after meetings rather than during them, regardless of which printer you choose.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Brother DCP is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "VPN Printing vs. Simpler Alternatives",
-    intro:
-      "Printing to a company network printer over VPN is possible but often more setup than it's worth for occasional use.",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Rarely need to print company documents",
-        text: "Work in PDF and only print final versions locally on your own printer, the simplest and most reliable workflow.",
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother DCP's build gives real headroom over the cheaper picks."
       },
       {
-        label: "Occasionally need a company-branded document",
-        text: "Request a PDF export from IT rather than setting up VPN printer access for a one-off need.",
-      },
-      {
-        label: "Regularly need to print to a company printer",
-        text: "VPN printer setup is worth the effort here, but confirm with IT that your VPN client supports printer redirection before assuming it will work.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TS6520 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -47,10 +47,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VG6OVaZCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZHYZ32M?tag=deskfinds0d-20",
     description: "We need to be direct: this is actually a reusable notebook, not a file box, and it appeared in our original data due to a mismatched product reference. We're keeping it out of our ranked recommendations and noting the correction here for transparency.",
-    specs: ["Not a file organizer box — data correction noted"],
-    pros: ["N/A — see correction note"],
-    cons: ["This product is a digital notebook, not a portable file box — excluded from recommendations"],
-    bestFor: "Not applicable to this category — see our digital notebook guides instead.",
+    specs: ["Not a file organizer box, data correction noted"],
+    pros: ["N/A, see correction note"],
+    cons: ["This product is a digital notebook, not a portable file box, excluded from recommendations"],
+    bestFor: "Not applicable to this category, see our digital notebook guides instead.",
   },
   {
     id: "b091tjytbz-orgbox",
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41JQsGWn0tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08HXBX5RJ?tag=deskfinds0d-20",
-    description: "An 8-pack from Sterilite, an established storage-products brand, working out to roughly $13.50 per box — genuinely competitive per-unit pricing if you need multiple boxes.",
+    description: "An 8-pack from Sterilite, an established storage-products brand, working out to roughly $13.50 per box, genuinely competitive per-unit pricing if you need multiple boxes.",
     specs: ["8-pack", "Latching lids", "~$13.50 per box"],
     pros: ["Competitive per-unit price for buyers who need multiple boxes", "From an established storage brand"],
     cons: ["High total upfront cost if you only need one or two boxes"],
@@ -88,7 +88,7 @@ export const products: GuideProduct[] = [
     id: "b0h87nwk6f-orgbox",
     rank: 5,
     badge: "Best With Internal Compartments",
-    name: "Black Portable File Box – Letter-Size Plastic Storage with Handle and Lid Organizer Compartments",
+    name: "Black Portable File Box, Letter-Size Plastic Storage with Handle and Lid Organizer Compartments",
     price: "See listing",
     rating: "n/a",
     reviews: "0",
@@ -106,39 +106,135 @@ export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
   { title: "Required genuine hanging-folder rail support or real compartments", description: "We only included products with confirmed slide rails or genuine organizer compartments, not plain stationary archive cartons." },
   { title: "Required a real carrying handle", description: "We verified each product has an actual carrying handle described in the listing, not just a lid you'd have to grip awkwardly." },
-  { title: "Corrected a data error transparently", description: "One original candidate ASIN turned out to be a digital notebook, not a file box — we disclosed this correction directly rather than silently omitting it." },
+  { title: "Corrected a data error transparently", description: "One original candidate ASIN turned out to be a digital notebook, not a file box, we disclosed this correction directly rather than silently omitting it." },
   { title: "Per-unit price comparison for multi-packs", description: "We calculated the effective per-box cost of the Sterilite 8-pack against single-unit alternatives." },
 ];
 
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Genuine hanging-folder support, comfortable handle", "DSDCDJ File Box with Lock"],
-        ["Cheapest, see-through design", "Lemical Portable Plastic Transparent File Box"],
-        ["Need multiple boxes at once", "Sterilite 8-Pack"],
-        ["Internal compartments for small supplies", "Black Portable File Box with Organizer Compartments"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Rocketbook Fusion Hybrid Reusable Planner Notebook"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Rocketbook Fusion Hybrid Reusable Planner Notebook"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $19",
+          "Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity"
+        ],
+        [
+          "Up to $NaN",
+          "Black Portable File Box, Letter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity vs Black Portable File Box, Letter",
+    "cards": [
+      {
+        "label": "Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Black Portable File Box, Letter",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Rocketbook Fusion Hybrid Reusable Planner Notebook"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Rocketbook Fusion Hybrid Reusable Planner Notebook is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Black Portable File Box, Letter's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Lemical Portable Plastic Transparent File Boxes with Handle A4 Large Capacity covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Require genuine hanging-folder rails or real compartments", explanation: "Don't assume any \"organizer\" box has genuine internal structure — verify slide rails or compartments are specifically described." },
-  { criterion: "Confirm a real carrying handle exists", explanation: "Check the listing describes an actual handle, not just a lid you'd grip by its edge." },
-  { criterion: "Calculate per-unit price for multi-packs", explanation: "The Sterilite 8-pack works out to roughly $13.50 per box, genuinely competitive if you need multiple units." },
-  { criterion: "Check letter vs. legal size compatibility", explanation: "Verify your specific folder size (letter or legal) is supported before ordering." },
-  { criterion: "Weigh transparency against a locking lid", explanation: "Transparent boxes let you see contents at a glance; locking boxes add security but hide contents." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a portable file organizer box often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the portable file organizer box holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this portable file organizer box over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any portable file organizer box you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A portable file organizer box that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [
   { q: "Which has genuine hanging-folder support?", a: "The DSDCDJ File Box with Lock, with confirmed slide rails supporting both letter and legal size folders." },
   { q: "What's the cheapest option?", a: "The Lemical Portable Plastic Transparent File Box at $18.99." },
   { q: "Is there a multi-pack option?", a: "Yes, the Sterilite 8-Pack, which works out to roughly $13.50 per box." },
-  { q: "Was there an error in the original research for this article?", a: "Yes — one original candidate ASIN was actually a digital notebook, not a file box. We corrected this and excluded it from our recommendations." },
+  { q: "Was there an error in the original research for this article?", a: "Yes, one original candidate ASIN was actually a digital notebook, not a file box. We corrected this and excluded it from our recommendations." },
   { q: "Is there an option with internal compartments for small supplies?", a: "Yes, the Black Portable File Box includes organizer compartments built into the lid." },
 ];
 

@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/31PPBEL2O-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGGJRBYF?tag=deskfinds0d-20",
-    description: "A genuine mobile standing desk with rolling casters and a built-in drawer, no cup holder included, but confirmed rolling mobility for a work-from-anywhere setup.\n\nPair this with the clip-on cup holder pick below to add drink storage, since no rolling desk in our research ships with one built in.",
+    description: "A genuine mobile standing desk with rolling casters and a built-in drawer, no cup holder included, but confirmed rolling mobility for a work-from-anywhere setup.\n\nPair this with the clip-on cup holder pick below to add drink storage, since no rolling desk in our research ships with one built in.\n\nNo review history available yet. On the other hand, no built-in cup holder, requires a separate clip-on accessory. Neither should be a surprise once you know to look for it.",
     specs: ["28 inch, rolling casters, storage drawer"],
     pros: ["Genuine rolling mobility with a storage drawer", "No review history available yet"],
     cons: ["No built-in cup holder, requires a separate clip-on accessory"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/31C18JJfnmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSZB1M2R?tag=deskfinds0d-20",
-    description: "The same rolling desk design as the pick above, listed separately at a slightly higher price, worth checking both listings before ordering in case pricing or stock availability differs.\n\nAs with the pick above, no built-in cup holder, so plan to add one separately.",
+    description: "The same rolling desk design as the pick above, listed separately at a slightly higher price, worth checking both listings before ordering in case pricing or stock availability differs.\n\nAs with the pick above, no built-in cup holder, so plan to add one separately.\n\nSame proven design as the top pick. That's a real strength, but weigh it against the flip side: slightly higher price than the other listing for the same design.",
     specs: ["28 inch, rolling casters, storage drawer"],
     pros: ["Same proven design as the top pick"],
     cons: ["Slightly higher price than the other listing for the same design", "No built-in cup holder"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41S0gBOLz6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP2KDSJC?tag=deskfinds0d-20",
-    description: "The lowest price of the rolling desk options here, with a wide 28.3 to 46.1 inch adjustable height range for both sitting and standing use.\n\nA rolling laptop cart design rather than a full desk, worth considering if you need a lighter-duty mobile surface rather than a full workstation.",
+    description: "The lowest price of the rolling desk options here, with a wide 28.3 to 46.1 inch adjustable height range for both sitting and standing use.\n\nA rolling laptop cart design rather than a full desk, worth considering if you need a lighter-duty mobile surface rather than a full workstation.\n\nWorth calling out specifically: wide height adjustment range for sit-stand use. The catch is lighter-duty cart design rather than a full desk.",
     specs: ["Adjustable 28.3-46.1 inches, wheels"],
     pros: ["Lowest price among the rolling desk options", "Wide height adjustment range for sit-stand use"],
     cons: ["Lighter-duty cart design rather than a full desk", "No built-in cup holder"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41ZTtOVSigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9PBT5X3?tag=deskfinds0d-20",
-    description: "A pneumatic adjustable rolling table with hidden swivel wheels, designed specifically for bedside or sofa-side mobile use rather than a dedicated workstation.\n\nThe pneumatic lift mechanism adjusts height without manual crank turning, a genuine convenience feature for frequent height changes.",
+    description: "A pneumatic adjustable rolling table with hidden swivel wheels, designed specifically for bedside or sofa-side mobile use rather than a dedicated workstation.\n\nThe pneumatic lift mechanism adjusts height without manual crank turning, a genuine convenience feature for frequent height changes.\n\nHidden wheels keep the design compact. Set against that, designed for bedside use rather than a full desk workstation. Both matter when comparing it to the other picks here.",
     specs: ["Pneumatic height adjustment, hidden swivel wheels"],
     pros: ["Pneumatic lift for quick height adjustment", "Hidden wheels keep the design compact"],
     cons: ["Designed for bedside use rather than a full desk workstation", "No built-in cup holder"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/412z4nVerUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77Z8WMM?tag=deskfinds0d-20",
-    description: "This is the actual cup holder in this comparison, a clip-on under-desk organizer that adds a rotating cup holder and headphone hanger to any of the rolling desks above.\n\nThis is the honest solution to \"rolling desk with cup holder,\" since it clamps onto most desk edges regardless of brand, rather than requiring a specific integrated model that doesn't currently exist.",
+    description: "This is the actual cup holder in this comparison, a clip-on under-desk organizer that adds a rotating cup holder and headphone hanger to any of the rolling desks above.\n\nThis is the honest solution to \"rolling desk with cup holder,\" since it clamps onto most desk edges regardless of brand, rather than requiring a specific integrated model that doesn't currently exist.\n\nA genuine advantage here is that clamps onto most desk edges regardless of brand. The tradeoff is sold separately from the desk, requires clamping to an existing edge.",
     specs: ["Under-desk clamp mount, rotating cup holder, headphone hanger"],
     pros: ["Actually includes a cup holder, unlike any rolling desk in this comparison", "Clamps onto most desk edges regardless of brand"],
     cons: ["Sold separately from the desk, requires clamping to an existing edge"],
@@ -113,29 +113,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Best full rolling desk with storage", "JYLH JOYSEEKER 28 inch Mobile Standing Desk"],
-        ["Cheapest rolling option", "ErGear Mobile Standing Desk with Wheels"],
-        ["Best for bedside use", "BIZUM Adjustable Bedside Table"],
-        ["The actual cup holder", "KDD 4-in-1 Desk Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why We Recommend a Clip-On Cup Holder Instead",
-    note: "A clamp-on cup holder like the KDD pick works on almost any desk edge, meaning it isn't locked to one specific rolling desk brand or model. If your desk ever changes, the cup holder moves with you, which is more flexible than a desk with a fixed integrated holder would be anyway.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "KDD 4"
+        ],
+        [
+          "Up to $170",
+          "JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "KDD 4 vs JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer",
+    "cards": [
+      {
+        "label": "KDD 4",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to KDD 4 unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where JYLH JOYSEEKER 28 inch Mobile Standing Desk with Drawer's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where KDD 4 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't expect a built-in cup holder on a rolling desk", explanation: "We found no rolling or mobile standing desk in current listings with a factory-integrated cup holder; plan to add a clip-on accessory instead." },
-  { criterion: "Check the desk's actual work surface size before buying", explanation: "Several rolling options here are lighter-duty carts rather than full desks; verify the surface dimensions match your monitor and keyboard needs." },
-  { criterion: "Weigh pneumatic lift vs. manual crank height adjustment", explanation: "A pneumatic lift adjusts height in seconds, while a manual crank takes longer but is often more affordable and just as reliable." },
-  { criterion: "Confirm wheel locking mechanisms for stability while working", explanation: "Rolling desks need locking casters to stay stationary while you work, not just wheels for moving between rooms." },
-  { criterion: "Choose a clip-on cup holder that fits your desk's edge thickness", explanation: "Clamp-style organizers have a maximum edge thickness they fit; check this spec against your specific desk before ordering." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a rolling desk with cup holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the rolling desk with cup holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this rolling desk with cup holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any rolling desk with cup holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A rolling desk with cup holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

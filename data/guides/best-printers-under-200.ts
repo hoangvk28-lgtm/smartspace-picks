@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800 brings genuine ink-tank economics right at the $200 ceiling, replacing disposable cartridges with refillable tanks that cut cost per page dramatically for anyone printing regularly. Scan and copy are included alongside print in a compact home-office design.\n\nThis is the pick that makes the strongest case against a cheaper cartridge printer once you run the math on a year of moderate-to-heavy home printing, the higher upfront cost pays back steadily as cartridge refills would have added up.",
+      "The ET-2800 brings genuine ink-tank economics right at the $200 ceiling, replacing disposable cartridges with refillable tanks that cut cost per page dramatically for anyone printing regularly. Scan and copy are included alongside print in a compact home-office design.\n\nThis is the pick that makes the strongest case against a cheaper cartridge printer once you run the math on a year of moderate-to-heavy home printing, the higher upfront cost pays back steadily as cartridge refills would have added up.\n\nA genuine advantage here is that scan and copy included. The tradeoff is higher upfront cost than the cartridge inkjets in this list.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 matches the ET-2800's ink-tank economics but adds an automatic document feeder, fax, and Ethernet connectivity, features that matter more for a home office handling multi-page paperwork than a household printing occasionally. It's built for a busier workload.\n\nAt the same $199.99 price as the simpler ET-2800, this is the better pick whenever the extra document-handling features are actually useful, since there's no cost penalty for the added functionality.",
+      "The ET-4800 matches the ET-2800's ink-tank economics but adds an automatic document feeder, fax, and Ethernet connectivity, features that matter more for a home office handling multi-page paperwork than a household printing occasionally. It's built for a busier workload.\n\nAt the same $199.99 price as the simpler ET-2800, this is the better pick whenever the extra document-handling features are actually useful, since there's no cost penalty for the added functionality.\n\nADF and fax included at no extra cost. On the other hand, larger footprint than the simpler ET-2800. Neither should be a surprise once you know to look for it.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder (ADF)",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xOh51IRUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BL466Y41?tag=deskfinds0d-20",
     description:
-      "The Smart Tank 5101 brings ink-tank savings to a smaller footprint than the Epson EcoTank picks, with 2 years of ink included in the box, a meaningful early cost offset. Print, scan, and copy cover the core needs of most households.\n\nWireless runs on 2.4GHz only, worth checking against your router setup before buying since some newer routers default to a 5GHz-only guest network that this printer won't join without adjustment.",
+      "The Smart Tank 5101 brings ink-tank savings to a smaller footprint than the Epson EcoTank picks, with 2 years of ink included in the box, a meaningful early cost offset. Print, scan, and copy cover the core needs of most households.\n\nWireless runs on 2.4GHz only, worth checking against your router setup before buying since some newer routers default to a 5GHz-only guest network that this printer won't join without adjustment.\n\nCompact for an ink-tank printer. That's a real strength, but weigh it against the flip side: 2.4GHz-only wireless can be a setup snag on some routers.",
     specs: [
       "Refillable ink tank system with 2 years of ink included",
       "Print, scan, and copy",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jPKfRqWSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSMSYM9N?tag=deskfinds0d-20",
     description:
-      "Canon's MegaTank system covers print, scan, and copy with refillable ink tanks at a lower price than the Epson EcoTank picks in this list, a genuine budget-friendly entry into ink-tank ownership. It handles mixed document and photo printing reasonably well for a tank-based system.\n\nThis is worth considering if you want ink-tank economics but don't need the fax or ADF features the pricier Epson ET-4800 includes, saving roughly $40 while keeping the core cost-per-page benefit.",
+      "Canon's MegaTank system covers print, scan, and copy with refillable ink tanks at a lower price than the Epson EcoTank picks in this list, a genuine budget-friendly entry into ink-tank ownership. It handles mixed document and photo printing reasonably well for a tank-based system.\n\nThis is worth considering if you want ink-tank economics but don't need the fax or ADF features the pricier Epson ET-4800 includes, saving roughly $40 while keeping the core cost-per-page benefit.\n\nWorth calling out specifically: handles mixed document and photo printing. The catch is no fax or automatic document feeder.",
     specs: [
       "MegaTank refillable ink system",
       "Print, scan, and copy",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e packs an automatic document feeder and duplex printing into a cartridge-based inkjet well under the $200 ceiling, leaving significant budget room compared to the ink-tank picks in this list. A 3-month Instant Ink trial helps offset early cartridge cost.\n\nThis is the pick for anyone who wants ADF and duplex without committing to ink-tank ownership, though cartridge costs will run higher per page over time than any of the tank-based options here.",
+      "The OfficeJet Pro 8125e packs an automatic document feeder and duplex printing into a cartridge-based inkjet well under the $200 ceiling, leaving significant budget room compared to the ink-tank picks in this list. A 3-month Instant Ink trial helps offset early cartridge cost.\n\nThis is the pick for anyone who wants ADF and duplex without committing to ink-tank ownership, though cartridge costs will run higher per page over time than any of the tank-based options here.\n\nInstant Ink trial softens early cartridge cost. Set against that, cartridge cost per page runs higher than ink-tank picks over time. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic document feeder (ADF)",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is the simplest, lowest-priced pick in this list, covering print, scan, and copy for light home use with a 3-month Instant Ink trial included. It leaves the most budget headroom under the $200 ceiling of any option here.\n\nFor a household that prints only occasionally, there's little reason to spend closer to the $200 ceiling, this covers the basics reliably at a fraction of the price.",
+      "The DeskJet 4355 is the simplest, lowest-priced pick in this list, covering print, scan, and copy for light home use with a 3-month Instant Ink trial included. It leaves the most budget headroom under the $200 ceiling of any option here.\n\nFor a household that prints only occasionally, there's little reason to spend closer to the $200 ceiling, this covers the basics reliably at a fraction of the price.\n\nA genuine advantage here is that instant Ink trial offsets early ink cost. The tradeoff is combined color cartridge design.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "At $209.99, this Brother laser runs slightly over the $200 ceiling of this guide, so we're including it as a stretch pick rather than claiming it fits the budget outright. For anyone printing high volumes of black-and-white text, duplex printing, copy, and scan built into one compact laser unit can be worth the extra ten dollars.\n\nToner-based printing keeps cost per page low compared to every inkjet in this list, and duplex printing cuts paper use automatically. If your printing is almost entirely text and you don't mind stepping just past $200, this is the strongest text-focused option here.",
+      "At $209.99, this Brother laser runs slightly over the $200 ceiling of this guide, so we're including it as a stretch pick rather than claiming it fits the budget outright. For anyone printing high volumes of black-and-white text, duplex printing, copy, and scan built into one compact laser unit can be worth the extra ten dollars.\n\nToner-based printing keeps cost per page low compared to every inkjet in this list, and duplex printing cuts paper use automatically. If your printing is almost entirely text and you don't mind stepping just past $200, this is the strongest text-focused option here.\n\nDuplex printing built in. On the other hand, priced slightly above this guide's $200 ceiling. Neither should be a surprise once you know to look for it.",
     specs: [
       "Monochrome laser engine",
       "Automatic duplex (2-sided) printing",
@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Decide between inkjet all-in-one and entry ink-tank",
-    explanation:
-      "A cartridge-based inkjet all-in-one like the HP OfficeJet Pro 8125e costs less upfront and often prints faster on a single document, while an entry ink-tank like the Epson EcoTank ET-2800 costs more upfront but drops cost per page dramatically over time. Choose ink-tank if you print more than roughly 100 pages a month.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printers under $200 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Duplex and ADF are common here but still not universal",
-    explanation:
-      "Four of the seven picks in this list include automatic duplex printing and three include an automatic document feeder, a real step up from the sub-$150 tier, but check the spec sheet directly rather than assuming either is standard at $200.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printers under $200 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Watch for picks that run slightly over the stated ceiling",
-    explanation:
-      "Prices shift, and a printer marketed at this tier can drift a few dollars over $200 during a promotion lapse. We flag any pick like this clearly as a stretch option rather than silently calling it a $200 printer, and you should do the same gut check against the live Amazon price before buying.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printers under $200 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Ink-tank ADF models cost the same as ink-tank models without ADF",
-    explanation:
-      "The Epson ET-4800 with ADF and fax lists at the same price as the simpler ET-2800 without them, so there's no cost penalty for choosing the more feature-complete model if you'll actually use the extra functions.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printers under $200 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "2.4GHz-only wireless can cause setup friction",
-    explanation:
-      "Some ink-tank models at this tier, including the HP Smart Tank 5101, only support 2.4GHz wireless networks. Check your router's guest network settings before buying if it defaults to 5GHz-only, since the printer won't join without adjustment.",
-  },
-  {
-    criterion: "Don't overspend on features you won't use",
-    explanation:
-      "Fax and an automatic document feeder add real cost and footprint, and are wasted on a household that just prints the occasional document. The cheaper cartridge picks in this list cover that lighter use case perfectly well without the extra bulk.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printers under $200 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,66 +327,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You Print Most",
-    cards: [
-      {
-        label: "Regular mixed color and document printing",
-        text: "The Epson EcoTank ET-2800 offers the lowest ongoing cost per page for households printing often.",
-      },
-      {
-        label: "Home office needing ADF and fax",
-        text: "The Epson EcoTank ET-4800 adds document feeding and fax at the same price as the simpler ET-2800.",
-      },
-      {
-        label: "High-volume black-and-white text",
-        text: "The Brother DCP-L2640DW, slightly over budget at $209.99, delivers the lowest cost per page for text if you can stretch past $200.",
-      },
-      {
-        label: "Light, occasional home printing",
-        text: "The HP DeskJet 4355 covers the basics at the lowest price in this list, leaving the most budget headroom.",
-      },
-    ],
-  },
-  {
-    subheading: "Inkjet AIO vs Entry Ink-Tank at the $200 Tier",
-    intro: "This is the core decision at this price point, print speed and lower upfront cost versus long-run savings.",
-    table: {
-      headers: ["Priority", "Better fit", "Recommendation"],
-      rows: [
-        ["Lowest upfront cost, light use", "Cartridge inkjet", "HP DeskJet 4355 or HP OfficeJet Pro 8125e"],
-        ["ADF and duplex without ink-tank commitment", "Cartridge inkjet AIO", "HP OfficeJet Pro 8125e"],
-        ["Lowest cost per page, regular printing", "Ink-tank", "Epson EcoTank ET-2800 or Canon MegaTank G3270"],
-        ["Ink-tank plus ADF and fax", "Ink-tank AIO", "Epson EcoTank ET-4800"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "An ink-tank printer's higher upfront cost typically pays back within months of regular printing through cheaper bottle refills versus cartridges, but it's the wrong choice for genuinely light, occasional use.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Epson EcoTank ET"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Feature Checklist Against Price at This Tier",
-    table: {
-      headers: ["Feature", "Included in this list?", "Which picks"],
-      rows: [
-        ["Automatic duplex printing", "Yes, common here", "HP OfficeJet Pro 8125e, Brother DCP-L2640DW"],
-        ["Automatic document feeder", "Yes, less common", "Epson EcoTank ET-4800, HP OfficeJet Pro 8125e"],
-        ["Fax", "Yes, rare", "Epson EcoTank ET-4800, Brother DCP-L2640DW"],
-        ["Ink-tank system", "Yes, several picks", "Epson EcoTank ET-2800/ET-4800, HP Smart Tank 5101, Canon MegaTank G3270"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $70",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Up to $210",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When a Slightly Over-Budget Pick Is Worth It",
-    cards: [
+    "subheading": "HP DeskJet 4355 Wireless All vs Brother DCP",
+    "cards": [
       {
-        label: "When it is worth stretching",
-        text: "If your printing is almost entirely high-volume black-and-white text, the Brother DCP-L2640DW's toner economics and duplex printing can justify going nine dollars past $200.",
+        "label": "HP DeskJet 4355 Wireless All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "When to stay strictly under $200",
-        text: "If you print a mix of color documents and photos, or want to stay firmly within budget, the Epson EcoTank ET-2800 delivers similar long-run savings without exceeding the ceiling.",
-      },
+        "label": "Brother DCP",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
-    note: "We flag the Brother DCP-L2640DW clearly as over this guide's stated ceiling rather than rounding it down to fit, check the live Amazon price before buying since prices do shift.",
+    "note": "Default to HP DeskJet 4355 Wireless All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Epson EcoTank ET is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother DCP's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HP DeskJet 4355 Wireless All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-tv-stand-modern";
 export const guideTitle = "8 Best Modern TV Stands in 2026";
-export const metaTitle = "Best Modern TV Stands 2026 – Mid-Century, Farmhouse & LED Picks";
+export const metaTitle = "Best Modern TV Stands 2026, Mid-Century, Farmhouse & LED Picks";
 export const metaDescription =
   "Best modern TV stands in 2026. Mid-century fluted door, farmhouse sliding barn door, and LED floating stands ranked by size, storage, and cable management.";
 export const lastUpdated = "2026-07-16";
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     reviews: "1,799 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41KtWnXqOCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4ZFQTQQ?tag=deskfinds0d-20",
-    description: "The VASAGLE Farmhouse stand blends modern farmhouse sliding barn doors with a simple 58 inch frame, a style that leans more rustic than the fluted mid-century options in this roundup. Four separate storage compartments plus one adjustable shelf give you flexibility to organize game consoles, media boxes, and remotes by size.\n\nAt $116.99 it is one of the more affordable picks here while still fitting TVs up to 65 inches. The 170 lb capacity is lower than the 70 inch stands, so it suits lighter TVs and smaller media setups rather than a large mounted display resting directly on top.",
+    description: "The VASAGLE Farmhouse stand blends modern farmhouse sliding barn doors with a simple 58 inch frame, a style that leans more rustic than the fluted mid-century options in this roundup. Four separate storage compartments plus one adjustable shelf give you flexibility to organize game consoles, media boxes, and remotes by size.\n\nAt $116.99 it is one of the more affordable picks here while still fitting TVs up to 65 inches. The 170 lb capacity is lower than the 70 inch stands, so it suits lighter TVs and smaller media setups rather than a large mounted display resting directly on top.\n\n4 separate storage compartments. That's a real strength, but weigh it against the flip side: 170 lb capacity, lower than the 70 inch models.",
     specs: ['58" wide', "Modern farmhouse sliding barn doors", "4 storage compartments", "1 adjustable shelf", 'Fits TV up to 65"', "170 lb capacity"],
     pros: ["Budget-friendly price for a farmhouse-modern look", "4 separate storage compartments", "1,799 ratings for proven track record", "58 inch size fits smaller rooms"],
     cons: ["170 lb capacity, lower than the 70 inch models", "Barn doors block IR signal like solid doors do", "Only fits TVs up to 65 inches"],
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     reviews: "56 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41g+ERQLHEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G92FJW4T?tag=deskfinds0d-20",
-    description: "The ChooChoo stand uses fluted tambour sliding doors in a walnut finish, giving it a genuine mid-century look at a smaller 54 inch width than most other picks here. The low-profile, minimalist design suits apartments and smaller living rooms where a 70 inch stand would overwhelm the space.\n\nShelving inside is adjustable, so you can fit taller components without removing a fixed divider. It fits TVs up to 60 inches, and the company notes easy assembly as a selling point, useful if you are setting this up alone rather than with a second person.",
+    description: "The ChooChoo stand uses fluted tambour sliding doors in a walnut finish, giving it a genuine mid-century look at a smaller 54 inch width than most other picks here. The low-profile, minimalist design suits apartments and smaller living rooms where a 70 inch stand would overwhelm the space.\n\nShelving inside is adjustable, so you can fit taller components without removing a fixed divider. It fits TVs up to 60 inches, and the company notes easy assembly as a selling point, useful if you are setting this up alone rather than with a second person.\n\nWorth calling out specifically: genuine mid-century tambour door styling. The catch is lower rating count than other picks here.",
     specs: ['54" wide', "Fluted tambour sliding doors", "Adjustable shelving", "Minimalist low-profile design", 'Fits TV up to 60"', "Easy assembly"],
     pros: ["Compact 54 inch width fits smaller rooms", "Genuine mid-century tambour door styling", "Adjustable interior shelving", "Easy assembly noted by buyers"],
     cons: ["Lower rating count than other picks here", "Tambour doors block IR remote signal to gear inside", "Fits TVs only up to 60 inches"],
@@ -131,7 +131,7 @@ export const products: GuideProduct[] = [
     reviews: "379 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41WH1pkWGVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCGBBB1S?tag=deskfinds0d-20",
-    description: "The LCRBOL stand stands out with a wave-shaped fluted door pattern rather than the straight vertical flutes found on most mid-century picks, giving it a more distinctive texture in walnut. Six natural wood legs raise the cabinet off the floor, which helps the piece look lighter in a room and makes floor cleaning underneath easier.\n\nTwo large storage cabinets hide media gear, and two cable management holes at the back keep power cords from draping down the front. At 110 lbs capacity it is on the lower end of this roundup, so it fits lighter TVs up to 65 inches best.",
+    description: "The LCRBOL stand stands out with a wave-shaped fluted door pattern rather than the straight vertical flutes found on most mid-century picks, giving it a more distinctive texture in walnut. Six natural wood legs raise the cabinet off the floor, which helps the piece look lighter in a room and makes floor cleaning underneath easier.\n\nTwo large storage cabinets hide media gear, and two cable management holes at the back keep power cords from draping down the front. At 110 lbs capacity it is on the lower end of this roundup, so it fits lighter TVs up to 65 inches best.\n\n6-leg design looks lighter and eases cleaning underneath. Set against that, 110 lb capacity is the lowest in this roundup. Both matter when comparing it to the other picks here.",
     specs: ["Wave-shaped fluted doors", "6 natural wood legs", "2 large storage cabinets", "2 cable management holes", "110 lb capacity", 'Fits TV up to 65"'],
     pros: ["Distinctive wave-fluted door pattern", "6-leg design looks lighter and eases cleaning underneath", "2 dedicated cable management holes", "2 large cabinets for enclosed storage"],
     cons: ["110 lb capacity is the lowest in this roundup", "Wave-fluted doors still restrict IR remote signal", "Fewer ratings than the top picks"],
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     reviews: "611 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51QsasQEjqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GV375RCD?tag=deskfinds0d-20",
-    description: "The SONGMICS BELLAH takes a completely different approach to modern than the mid-century and farmhouse stands in this roundup, using an ink black steel frame with app-controlled LED lighting in over 60,000 colors. Built-in power includes 2 AC outlets plus USB and USB-C ports directly on the stand, so consoles and streaming devices can charge without a separate power strip.\n\nAt 61.8 inches wide it fits TVs up to 70 inches, and the mix of a drawer with open shelving keeps some items hidden while others stay in reach. The steel frame keeps the price low at $64.99, though the 88 lb capacity is meant for lighter TVs and accessories rather than a heavy console setup.",
+    description: "The SONGMICS BELLAH takes a completely different approach to modern than the mid-century and farmhouse stands in this roundup, using an ink black steel frame with app-controlled LED lighting in over 60,000 colors. Built-in power includes 2 AC outlets plus USB and USB-C ports directly on the stand, so consoles and streaming devices can charge without a separate power strip.\n\nAt 61.8 inches wide it fits TVs up to 70 inches, and the mix of a drawer with open shelving keeps some items hidden while others stay in reach. The steel frame keeps the price low at $64.99, though the 88 lb capacity is meant for lighter TVs and accessories rather than a heavy console setup.\n\nA genuine advantage here is that app-controlled RGB LED lighting. The tradeoff is 88 lb capacity, lowest among the wider stands.",
     specs: ['61.8" wide', "App-controlled 60,000+ color LED", "2 AC + USB + USB-C outlets", "Drawer + open shelving", "Steel frame", 'Fits TV up to 70"', "88 lb capacity"],
     pros: ["Built-in power outlets and USB-C on the stand itself", "App-controlled RGB LED lighting", "Lowest price in this roundup", "Open shelving keeps devices in remote range"],
     cons: ["88 lb capacity, lowest among the wider stands", "Steel frame construction feels less substantial than wood picks", "Black minimalist look won't suit farmhouse or mid-century decor"],
@@ -163,7 +163,7 @@ export const products: GuideProduct[] = [
     reviews: "264 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31VPKCNdHxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8GGC3L?tag=deskfinds0d-20",
-    description: "The HOOBRO floating stand mounts to the wall instead of resting on the floor, which frees up floor space entirely and suits small living rooms or apartments where every square foot of walking room matters. App or remote controlled LED lighting adds ambient glow, and a center glass-door cutout doubles as an artistic display area rather than pure storage.\n\nThree AC outlets plus two USB ports are built into the unit, so nearby devices can plug in directly without running a cord back to a wall outlet. It fits TVs up to 65 inches, and because there are no floor legs, the black finish reads more minimalist modern than mid-century or farmhouse.",
+    description: "The HOOBRO floating stand mounts to the wall instead of resting on the floor, which frees up floor space entirely and suits small living rooms or apartments where every square foot of walking room matters. App or remote controlled LED lighting adds ambient glow, and a center glass-door cutout doubles as an artistic display area rather than pure storage.\n\nThree AC outlets plus two USB ports are built into the unit, so nearby devices can plug in directly without running a cord back to a wall outlet. It fits TVs up to 65 inches, and because there are no floor legs, the black finish reads more minimalist modern than mid-century or farmhouse.\n\n3 AC outlets plus 2 USB ports built in. On the other hand, requires secure wall mounting into studs. Neither should be a surprise once you know to look for it.",
     specs: ["Wall-mounted floating design", "App/remote LED lighting", "3 AC + 2 USB outlets", "Center glass-door display cutout", 'Fits TV up to 65"'],
     pros: ["Floating design saves floor space entirely", "3 AC outlets plus 2 USB ports built in", "Glass-door cutout works as a display feature", "Ideal for small apartments and rentals"],
     cons: ["Requires secure wall mounting into studs", "Glass door cutout offers less enclosed storage than floor cabinets", "Not suited for very heavy TVs given wall mount limits"],
@@ -173,29 +173,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: '"Modern" covers several different sub-styles',
-    explanation: "Modern TV stand listings mix mid-century fluted and tambour doors, farmhouse-style sliding barn doors, and minimalist black consoles with LED lighting under the same keyword. These looks do not match each other, so decide which sub-style fits your existing furniture before comparing specs. A walnut mid-century stand next to farmhouse shiplap decor will clash even though both are labeled modern.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a tv stand modern often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Sliding, tambour, and fluted doors can block your remote",
-    explanation: "Solid sliding, tambour, and fluted doors look great closed but block the direct line of sight an IR remote needs to reach a cable box or streaming device stored behind them. This is a detail rarely flagged specifically for modern-style stands even though most of the mid-century and farmhouse picks in this category use exactly these door types. If you plan to keep doors closed, look for slatted or glass-front doors, or budget for a small IR extender kit.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the tv stand modern holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Match width to TV size with margin, not exact fit",
-    explanation: "A stand should be at least a few inches wider than your TV on each side, not an exact match. A 70 inch stand rated for TVs up to 80 inches gives you visual balance even if your current TV is smaller, while a 54 inch stand under a 60 inch TV can look cramped and unstable. Check both the stated width and the maximum TV size the stand is rated for.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this tv stand modern over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Weight capacity varies more than people expect",
-    explanation: "Capacity in this category ranges from 88 lbs on lightweight steel-frame stands up to 300 lbs on solid wood mid-century designs. A large TV alone can weigh 40 to 70 lbs, and once you add a soundbar, game consoles, and a cable box on top, lighter stands can be pushed close to their limit. Match capacity to your total setup weight, not just the TV.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any tv stand modern you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Cable management holes save real cleanup time",
-    explanation: "Stands with dedicated cable management holes route power and HDMI cables behind the unit instead of leaving them visible across open shelves. This matters more on modern stands than traditional styles because clean lines are the whole point of the look, and visible cable clutter undercuts it immediately. Check the spec list for a stated hole count rather than assuming it is included.",
-  },
-  {
-    criterion: "Floating wall-mounted stands need real stud anchoring",
-    explanation: "Wall-mounted floating stands save floor space but must be anchored into wall studs, not just drywall anchors, to safely support both the stand and a TV. Confirm your wall has accessible studs at the right spacing before choosing a floating design over a floor-standing one, especially in older homes or apartments with plaster walls.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A tv stand modern that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

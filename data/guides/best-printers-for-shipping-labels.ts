@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+ONy0DNTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MA3EYC5?tag=deskfinds0d-20",
     description:
-      "The Rollo USB is a commercial-grade direct thermal 4x6 label printer built for sellers printing shipping labels at real volume, with a wired USB connection that avoids any Bluetooth pairing drops during a busy packing session. It works across Windows and Mac and supports most major shipping platforms.\n\nAs a direct thermal printer, it uses heat rather than ink or toner, which keeps per-label cost low but means it's built specifically for label printing, not general documents. Its higher price reflects the more durable, higher-throughput mechanism aimed at sellers shipping consistently rather than occasionally.",
+      "The Rollo USB is a commercial-grade direct thermal 4x6 label printer built for sellers printing shipping labels at real volume, with a wired USB connection that avoids any Bluetooth pairing drops during a busy packing session. It works across Windows and Mac and supports most major shipping platforms.\n\nAs a direct thermal printer, it uses heat rather than ink or toner, which keeps per-label cost low but means it's built specifically for label printing, not general documents. Its higher price reflects the more durable, higher-throughput mechanism aimed at sellers shipping consistently rather than occasionally.\n\nCommercial-grade build for real shipping volume. Set against that, higher price than the Bluetooth budget picks. Both matter when comparing it to the other picks here.",
     specs: [
       "Commercial-grade direct thermal engine",
       "Wired USB connection",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31zsmO4VVBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09VF4Z2WQ?tag=deskfinds0d-20",
     description:
-      "This is Rollo's Wi-Fi version of its direct thermal label printer, adding AirPrint support from iPhone and iPad alongside broader OS support across Windows, Chromebook, Android, and Linux. It's the most flexible connectivity option in this list for a household or small team printing labels from multiple devices.\n\nLike the USB model, it's a direct thermal engine with no ink or toner, built specifically for shipping labels rather than general printing. The premium over the wired Rollo buys genuine network flexibility, worth it if multiple people or devices need to print labels without physically connecting a cable.",
+      "This is Rollo's Wi-Fi version of its direct thermal label printer, adding AirPrint support from iPhone and iPad alongside broader OS support across Windows, Chromebook, Android, and Linux. It's the most flexible connectivity option in this list for a household or small team printing labels from multiple devices.\n\nLike the USB model, it's a direct thermal engine with no ink or toner, built specifically for shipping labels rather than general printing. The premium over the wired Rollo buys genuine network flexibility, worth it if multiple people or devices need to print labels without physically connecting a cable.\n\nA genuine advantage here is that widest OS compatibility of any pick here. The tradeoff is highest price in this list.",
     specs: [
       "Wi-Fi direct thermal engine",
       "AirPrint support (iPhone, iPad)",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ffs1HVVlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP7STCSP?tag=deskfinds0d-20",
     description:
-      "A compact Bluetooth direct thermal printer aimed at sellers who want to print labels straight from a phone without a computer nearby, common for sellers packing orders away from a desk. It covers the standard 4x6 shipping label format most carriers require.\n\nAt under $80, it's one of the more accessible entry points into dedicated thermal label printing, though Bluetooth connections can be less consistent during a long batch print run than the wired Rollo above, worth factoring in if you're printing dozens of labels in one sitting.",
+      "A compact Bluetooth direct thermal printer aimed at sellers who want to print labels straight from a phone without a computer nearby, common for sellers packing orders away from a desk. It covers the standard 4x6 shipping label format most carriers require.\n\nAt under $80, it's one of the more accessible entry points into dedicated thermal label printing, though Bluetooth connections can be less consistent during a long batch print run than the wired Rollo above, worth factoring in if you're printing dozens of labels in one sitting.\n\nPrint directly from a phone via Bluetooth. On the other hand, bluetooth can be less consistent for long batch runs. Neither should be a surprise once you know to look for it.",
     specs: [
       "Bluetooth direct thermal engine",
       "4x6 label format",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-iYNm+qrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXXPHZLR?tag=deskfinds0d-20",
     description:
-      "Functionally the same Bluetooth direct thermal printer as the MUNBYN pick above, listed separately here since it's a distinct Amazon listing that may carry a different color option or bundle at the same price. The core engine, connection type, and 4x6 label support are identical.\n\nWe list it as a separate pick because listing availability and minor bundle differences (spare label rolls, cables) can vary between MUNBYN's listings, worth comparing both before ordering.",
+      "Functionally the same Bluetooth direct thermal printer as the MUNBYN pick above, listed separately here since it's a distinct Amazon listing that may carry a different color option or bundle at the same price. The core engine, connection type, and 4x6 label support are identical.\n\nWe list it as a separate pick because listing availability and minor bundle differences (spare label rolls, cables) can vary between MUNBYN's listings, worth comparing both before ordering.\n\nPrint directly from a phone. That's a real strength, but weigh it against the flip side: bluetooth can be less consistent for long batch runs.",
     specs: [
       "Bluetooth direct thermal engine",
       "4x6 label format",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WyIBuh94L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S48NHYS?tag=deskfinds0d-20",
     description:
-      "The RealWriter 941 offers both Bluetooth and USB connectivity on the same printer, giving sellers a wired fallback for long batch runs while keeping Bluetooth for quick phone printing when needed. It's a genuine middle ground between the budget Bluetooth-only picks and the pricier wired-only Rollo.\n\nAs a direct thermal 4x6 printer, it needs no ink or toner, and the dual connectivity is the main reason it costs more than the single-connection MUNBYN Bluetooth models above.",
+      "The RealWriter 941 offers both Bluetooth and USB connectivity on the same printer, giving sellers a wired fallback for long batch runs while keeping Bluetooth for quick phone printing when needed. It's a genuine middle ground between the budget Bluetooth-only picks and the pricier wired-only Rollo.\n\nAs a direct thermal 4x6 printer, it needs no ink or toner, and the dual connectivity is the main reason it costs more than the single-connection MUNBYN Bluetooth models above.\n\nWorth calling out specifically: bluetooth available for quick phone printing. The catch is pricier than the single-connection MUNBYN Bluetooth picks.",
     specs: [
       "Bluetooth and USB dual connectivity",
       "4x6 label format",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41El+d9Kg4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B099MLDBKJ?tag=deskfinds0d-20",
     description:
-      "The JADENS is one of the cheapest dedicated thermal label printers in this list, covering Android, iPhone, Windows, and Mac over Bluetooth, with stated compatibility for Amazon, Shopify, Etsy, and USPS label workflows. It's a straightforward direct thermal 4x6 printer with no ink or toner to buy.\n\nAt this price it suits a seller just starting out who ships infrequently but wants to stop hand-cutting sheet labels. Bluetooth-only connectivity means the same batch-printing consistency tradeoff as the other budget Bluetooth picks in this list.",
+      "The JADENS is one of the cheapest dedicated thermal label printers in this list, covering Android, iPhone, Windows, and Mac over Bluetooth, with stated compatibility for Amazon, Shopify, Etsy, and USPS label workflows. It's a straightforward direct thermal 4x6 printer with no ink or toner to buy.\n\nAt this price it suits a seller just starting out who ships infrequently but wants to stop hand-cutting sheet labels. Bluetooth-only connectivity means the same batch-printing consistency tradeoff as the other budget Bluetooth picks in this list.\n\nStated compatibility across major marketplaces. Set against that, bluetooth-only, no wired fallback. Both matter when comparing it to the other picks here.",
     specs: [
       "Bluetooth direct thermal engine",
       "4x6 label format",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xn0LTTCWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR86V4ZV?tag=deskfinds0d-20",
     description:
-      "The KNAON is the lowest-priced thermal label printer in this list, built as a small, portable unit for a seller who packs orders in a limited space or needs to move the printer between a desk and a packing table. It supports iPhone, Android, Windows, and Mac over Bluetooth, with the usual major-platform compatibility.\n\nAt this price and size, it's built for lighter shipping volume rather than continuous batch runs, and like every pick in this list it's a direct thermal printer with no ink or toner cost.",
+      "The KNAON is the lowest-priced thermal label printer in this list, built as a small, portable unit for a seller who packs orders in a limited space or needs to move the printer between a desk and a packing table. It supports iPhone, Android, Windows, and Mac over Bluetooth, with the usual major-platform compatibility.\n\nAt this price and size, it's built for lighter shipping volume rather than continuous batch runs, and like every pick in this list it's a direct thermal printer with no ink or toner cost.\n\nA genuine advantage here is that compact and portable for tight spaces. The tradeoff is best suited to lighter shipping volume.",
     specs: [
       "Bluetooth direct thermal engine",
       "Compact, portable design",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/516JTpeV2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX6RVJF7?tag=deskfinds0d-20",
     description:
-      "A straightforward, no-frills Bluetooth direct thermal 4x6 printer with a generic brand listing, covering the same core function as the named-brand budget picks above without any distinguishing features beyond price. It supports standard 4x6 shipping labels for small business shipping needs.\n\nBecause it's a lesser-known brand, expect fewer firmware updates and less established customer support than the MUNBYN, JADENS, or Rollo picks in this list, worth weighing against its lower price for anyone who values longer-term brand support.",
+      "A straightforward, no-frills Bluetooth direct thermal 4x6 printer with a generic brand listing, covering the same core function as the named-brand budget picks above without any distinguishing features beyond price. It supports standard 4x6 shipping labels for small business shipping needs.\n\nBecause it's a lesser-known brand, expect fewer firmware updates and less established customer support than the MUNBYN, JADENS, or Rollo picks in this list, worth weighing against its lower price for anyone who values longer-term brand support.\n\nCovers the core 4x6 shipping label function. On the other hand, less established brand support than named-brand picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "Bluetooth direct thermal engine",
       "4x6 label format",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Know the thermal vs inkjet-plus-sheet-labels break-even point",
-    explanation:
-      "If you ship fewer than roughly 50 packages a month, printing on standard sheet labels with a printer you already own is often the cheaper choice. Above roughly 100 labels a month, a dedicated thermal printer like the picks in this list pays off through lower per-label cost and faster batch printing.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shipping label printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "You don't need a dedicated thermal printer to ship at all",
-    explanation:
-      "If you already own an inkjet or laser printer, standard adhesive sheet labels work fine for occasional shipping without buying anything new. A dedicated thermal printer only becomes worth the upfront cost once volume or speed genuinely matters.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shipping label printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Confirm marketplace and shipping-software compatibility before buying",
-    explanation:
-      "Check that your specific platform, ShipStation, Shippo, Pirate Ship, Etsy, or Amazon Seller Central, is listed as compatible before ordering. All 8 picks in this list state broad compatibility, but driver setup steps can differ by platform.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shipping label printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Wired connections handle long batch runs more reliably than Bluetooth",
-    explanation:
-      "Bluetooth is convenient for printing a handful of labels from a phone, but it's more prone to dropped connections during a long batch print session than a wired USB connection like the Rollo USB pick uses. If you regularly print 20+ labels in one sitting, factor this in.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shipping label printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Label adhesive needs to hold up to real shipping conditions",
-    explanation:
-      "Labels face rain, heat inside a delivery truck, and cold in refrigerated shipping. Standard thermal label stock generally holds up to normal handling, but extreme heat can occasionally cause thermal print to fade over time, worth choosing a reputable label stock alongside any printer here.",
-  },
-  {
-    criterion: "Clean the thermal print head every 1-3 months",
-    explanation:
-      "Thermal print heads accumulate residue from label adhesive and dust over time, which causes streaky or faded labels. A simple alcohol-wipe cleaning every 1-3 months keeps any of the 8 printers in this list printing cleanly.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shipping label printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Monthly Shipment Volume",
-    intro:
-      "Volume should be the deciding factor between thermal printers here and simply printing sheet labels on a printer you already own.",
-    table: {
-      headers: ["Shipments per month", "Best fit", "Best pick"],
-      rows: [
-        ["Under 50", "Sheet labels on an existing printer, skip a thermal printer", "N/A, see 'already have a printer' below"],
-        ["50-100", "Budget Bluetooth thermal printer", "KNAON or JADENS"],
-        ["100-300", "Mid-range with wired fallback", "MUNBYN RealWriter 941"],
-        ["300+", "Commercial-grade wired printer", "Rollo USB or Rollo Wireless"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Rollo USB Shipping Label Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Rollo USB Shipping Label Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Thermal vs Inkjet-Plus-Sheet-Labels Break-Even",
-    intro:
-      "A dedicated thermal printer isn't automatically the right call at every volume.",
-    table: {
-      headers: ["Volume tier", "Cheaper option", "Why"],
-      rows: [
-        ["Under 50 shipments/month", "Inkjet or laser plus sheet labels", "No new hardware cost, sheet labels are cheap at low volume"],
-        ["50-100 shipments/month", "Roughly break-even", "Depends on your printer's ink cost vs a budget thermal printer like the KNAON"],
-        ["100+ shipments/month", "Dedicated thermal printer", "Lower per-label cost and much faster batch printing"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $50",
+          "KNAON Bluetooth Thermal Shipping Label Printer"
+        ],
+        [
+          "Up to $280",
+          "Rollo Wireless Shipping Label Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Already Have a Printer? You May Not Need a New One",
-    note: "If you already own an inkjet or laser printer, standard sheet shipping labels work without buying a dedicated thermal printer. Consider this route first if you ship under roughly 50 packages a month, and revisit a pick from this list once your volume grows.",
-  },
-  {
-    subheading: "Marketplace and Shipping Software Compatibility",
-    table: {
-      headers: ["Platform", "Works with these picks", "Note"],
-      rows: [
-        ["Amazon Seller Central", "All 8 picks", "Standard 4x6 thermal label format is broadly supported"],
-        ["Shopify / ShipStation / Shippo", "All 8 picks", "Check the specific driver setup guide for your OS"],
-        ["Etsy / Pirate Ship / USPS", "All 8 picks", "Stated compatibility across the lineup"],
-      ],
-    },
-    note: "Always confirm compatibility on the current listing before buying, since software integrations can change.",
-  },
-  {
-    subheading: "Wired vs Bluetooth vs Wi-Fi for Your Workflow",
-    cards: [
+    "subheading": "KNAON Bluetooth Thermal Shipping Label Printer vs Rollo Wireless Shipping Label Printer",
+    "cards": [
       {
-        label: "Choose wired (USB)",
-        text: "If you print large batches in one sitting and want the most consistent connection. The Rollo USB is built for this.",
+        "label": "KNAON Bluetooth Thermal Shipping Label Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Choose Bluetooth",
-        text: "If you print smaller batches, often from a phone, and want the lowest-cost entry point. The MUNBYN, JADENS, and KNAON picks fit here.",
-      },
-      {
-        label: "Choose Wi-Fi",
-        text: "If multiple people or devices need to print labels without a cable. The Rollo Wireless is the only Wi-Fi pick in this list.",
-      },
+        "label": "Rollo Wireless Shipping Label Printer",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to KNAON Bluetooth Thermal Shipping Label Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Rollo USB Shipping Label Printer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Rollo USB Shipping Label Printer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Rollo Wireless Shipping Label Printer's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where KNAON Bluetooth Thermal Shipping Label Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

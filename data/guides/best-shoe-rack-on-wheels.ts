@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51A4l8mqnTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQBP6DZJ?tag=deskfinds0d-20",
     description:
-      "The CSXGBAB is the cheapest rolling shoe rack in this list at $26.99, built from an iron frame with non-woven fabric tiers across 5 shelves. It rolls on 6 wheels total with 3 lockable, the most wheels of any pick in this list, which helps it stay put once positioned.\n\nEach shelf holds up to 15 lbs, and side hooks add a bit of hanging storage beyond the 16-18 pair capacity of the shelves themselves. Because rolling units are less inherently stable than fixed racks, lean on those 3 locking wheels whenever the rack isn't actively being repositioned.",
+      "The CSXGBAB is the cheapest rolling shoe rack in this list at $26.99, built from an iron frame with non-woven fabric tiers across 5 shelves. It rolls on 6 wheels total with 3 lockable, the most wheels of any pick in this list, which helps it stay put once positioned.\n\nEach shelf holds up to 15 lbs, and side hooks add a bit of hanging storage beyond the 16-18 pair capacity of the shelves themselves. Because rolling units are less inherently stable than fixed racks, lean on those 3 locking wheels whenever the rack isn't actively being repositioned.\n\n6 wheels with 3 lockable, the most of any pick here. On the other hand, 15 lb per shelf is on the lower end for the category. Neither should be a surprise once you know to look for it.",
     specs: [
       "33.4\"W x 12\"D x 32.5\"H",
       "Iron frame + non-woven fabric",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ViCsfsrrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0735FB8VJ?tag=deskfinds0d-20",
     description:
-      "This Amazon Basics chrome tower is the most-reviewed pick in this entire list at over 12,000 ratings, and it's tied for the highest advertised capacity here at 50 pairs across 10 tiers. Its 66 lb total capacity and locking wheels make it a solid all-around rolling option.\n\nKeep in mind that 50-pair claim assumes small shoes stacked tight; realistic capacity will run lower with average adult shoes or boots. The chrome finish and locking wheels are what set it apart from cheaper fabric rolling racks at a similar height.",
+      "This Amazon Basics chrome tower is the most-reviewed pick in this entire list at over 12,000 ratings, and it's tied for the highest advertised capacity here at 50 pairs across 10 tiers. Its 66 lb total capacity and locking wheels make it a solid all-around rolling option.\n\nKeep in mind that 50-pair claim assumes small shoes stacked tight; realistic capacity will run lower with average adult shoes or boots. The chrome finish and locking wheels are what set it apart from cheaper fabric rolling racks at a similar height.\n\nTied for highest advertised capacity at 50 pairs. That's a real strength, but weigh it against the flip side: 50-pair claim is optimistic for average or larger shoes.",
     specs: [
       "35.8\"L x 14.6\"W x 59.5\"H",
       "Chrome metal",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51R5jcMmoVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FNBWQ4?tag=deskfinds0d-20",
     description:
-      "The Whitmor 10-Tier carries the highest weight rating in this entire list at 300 lbs, built from the same chrome metal as the Amazon Basics tower but rated to handle significantly more load. Non-slip bars help keep shoes from sliding off tiers when the rack is rolled.\n\nIt also holds up to 50 pairs across its 10 tiers and includes locking wheels, making it a strong pick for households with a genuinely large shoe collection that needs both capacity and load strength, not just shelf count.",
+      "The Whitmor 10-Tier carries the highest weight rating in this entire list at 300 lbs, built from the same chrome metal as the Amazon Basics tower but rated to handle significantly more load. Non-slip bars help keep shoes from sliding off tiers when the rack is rolled.\n\nIt also holds up to 50 pairs across its 10 tiers and includes locking wheels, making it a strong pick for households with a genuinely large shoe collection that needs both capacity and load strength, not just shelf count.\n\nWorth calling out specifically: non-slip bars keep shoes secure while rolling. The catch is 50-pair claim still assumes small, tightly packed shoes.",
     specs: [
       "14.6\"L x 36.5\"W x 59.5\"H",
       "Chrome metal",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416s+xaT6CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ45SCH5?tag=deskfinds0d-20",
     description:
-      "This STORAGE MANIAC tower is the only rolling pick in this list with adjustable width, sliding from 17.7 to 33 inches to fit a range of closet or hallway spaces. Powder-coated metal resists rust, and removable tiers make room for taller boots when needed.\n\nIt rolls on 4 wheels with 2 lockable and holds up to 44 pairs across 10 tiers. With a 4.6-star rating, it's the highest-rated 10-tier rolling pick in this list, combining the flexibility of an adjustable width with genuine rolling mobility.",
+      "This STORAGE MANIAC tower is the only rolling pick in this list with adjustable width, sliding from 17.7 to 33 inches to fit a range of closet or hallway spaces. Powder-coated metal resists rust, and removable tiers make room for taller boots when needed.\n\nIt rolls on 4 wheels with 2 lockable and holds up to 44 pairs across 10 tiers. With a 4.6-star rating, it's the highest-rated 10-tier rolling pick in this list, combining the flexibility of an adjustable width with genuine rolling mobility.\n\nHighest-rated 10-tier rolling pick at 4.6 stars. Set against that, 44-pair capacity is lower than the fixed-width chrome towers. Both matter when comparing it to the other picks here.",
     specs: [
       "Expandable 17.7\"-33\"W x 16.7\"D x 63.2\"H",
       "Powder-coated metal",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412T86CIhZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2GTSDY4?tag=deskfinds0d-20",
     description:
-      "The STORAGE MANIAC 40-Cube is the only cubby-style pick in this list, giving each shoe its own individual slot across 40 total cubbies rather than open shared shelves. An iron frame with a canvas cover keeps things tidy, and the 3-sided canvas cover reduces dust buildup between uses.\n\nIt rolls on 4 heavy-duty casters with 2 lockable, and the cubby design is worth considering if you'd rather keep pairs separated and easy to find than stack them shelf-style.",
+      "The STORAGE MANIAC 40-Cube is the only cubby-style pick in this list, giving each shoe its own individual slot across 40 total cubbies rather than open shared shelves. An iron frame with a canvas cover keeps things tidy, and the 3-sided canvas cover reduces dust buildup between uses.\n\nIt rolls on 4 heavy-duty casters with 2 lockable, and the cubby design is worth considering if you'd rather keep pairs separated and easy to find than stack them shelf-style.\n\nA genuine advantage here is that canvas cover reduces dust on stored shoes. The tradeoff is 40 cubbies cap capacity below the open-shelf 50-pair towers.",
     specs: [
       "30.7\"W x 13\"D x 58\"H",
       "Iron frame + canvas",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Kee5G-f8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR5K8DJK?tag=deskfinds0d-20",
     description:
-      "The SONGMICS 3-Tier is the only pick in this list that switches between casters and adjustable feet, giving it genuine 2-in-1 flexibility depending on whether you want mobility or a fixed, higher-capacity setup. On casters it holds 44 lbs per shelf; swapped to feet, that jumps to 110 lbs per shelf.\n\nAlloy steel mesh shelving improves airflow around stored shoes, which helps reduce odor and moisture buildup compared to solid or fabric tiers. X-side bars and an included anti-tip kit round out a rack built to be genuinely stable in either configuration.",
+      "The SONGMICS 3-Tier is the only pick in this list that switches between casters and adjustable feet, giving it genuine 2-in-1 flexibility depending on whether you want mobility or a fixed, higher-capacity setup. On casters it holds 44 lbs per shelf; swapped to feet, that jumps to 110 lbs per shelf.\n\nAlloy steel mesh shelving improves airflow around stored shoes, which helps reduce odor and moisture buildup compared to solid or fabric tiers. X-side bars and an included anti-tip kit round out a rack built to be genuinely stable in either configuration.\n\nMesh shelving improves airflow and reduces odor. On the other hand, only 3 tiers, lower shelf count than the 10-tier towers. Neither should be a surprise once you know to look for it.",
     specs: [
       "31.5\"W x 12.6\"D x 33.7\"H",
       "Alloy steel, mesh shelves",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yoZwKM6LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6YRSBLZ?tag=deskfinds0d-20",
     description:
-      "The SpaceAid is the only pick in this list designed specifically for corner placement with full 360-degree rotation, letting you spin the entire 7-tier tower in place to access every shelf without walking around it. A plastic-and-solid-board build keeps it lighter than the all-metal towers.\n\nWheels handle repositioning rather than everyday rolling, and a thick stabilizing base helps offset the inherent top-heaviness of a spinning corner tower. Because rolling and spinning designs are less stable than fixed racks by nature, keep this one's wheels locked or braced once it's positioned in its corner.",
+      "The SpaceAid is the only pick in this list designed specifically for corner placement with full 360-degree rotation, letting you spin the entire 7-tier tower in place to access every shelf without walking around it. A plastic-and-solid-board build keeps it lighter than the all-metal towers.\n\nWheels handle repositioning rather than everyday rolling, and a thick stabilizing base helps offset the inherent top-heaviness of a spinning corner tower. Because rolling and spinning designs are less stable than fixed racks by nature, keep this one's wheels locked or braced once it's positioned in its corner.\n\n360-degree rotation gives access to every tier without walking around it. That's a real strength, but weigh it against the flip side: smallest review sample in this list at 106 ratings.",
     specs: [
       "23.2\"W x 23.2\"D x 65.8\"H",
       "Plastic + solid board",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GtKAqrROL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJSMBJX5?tag=deskfinds0d-20",
     description:
-      "The RUNSUNSPRI combines 360-degree rotation with 2 patented drawers, the only pick in this list that pairs a spinning tower with built-in closed storage for polish, laces, or small accessories. PVC and solid board construction is waterproof, useful for a mudroom or entryway that sees wet shoes.\n\nFive universal wheels with a brake function offer more locking points than most spinning towers, and with a 4.6-star rating it's the best-rated spinning-style pick in this list. It's a strong choice if you want the corner-spin convenience of the SpaceAid plus somewhere to stash small items out of sight.",
+      "The RUNSUNSPRI combines 360-degree rotation with 2 patented drawers, the only pick in this list that pairs a spinning tower with built-in closed storage for polish, laces, or small accessories. PVC and solid board construction is waterproof, useful for a mudroom or entryway that sees wet shoes.\n\nFive universal wheels with a brake function offer more locking points than most spinning towers, and with a 4.6-star rating it's the best-rated spinning-style pick in this list. It's a strong choice if you want the corner-spin convenience of the SpaceAid plus somewhere to stash small items out of sight.\n\nWorth calling out specifically: best-rated spinning-style pick in this list at 4.6 stars. The catch is smaller review sample than the fixed-tier towers in this list.",
     specs: [
       "23.6\"W x 23.6\"D x 60\"H",
       "PVC + solid board",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Locking wheels matter more here than on a fixed rack",
-    explanation:
-      "A rolling shoe rack is less stable by nature than a fixed one, so lockable wheels aren't a nice-to-have, they're the main thing keeping the rack from drifting or tipping when shoes are added or removed. Prioritize picks with more lockable wheels, like the CSXGBAB's 3 out of 6, over unlocked casters.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shoe rack on wheel often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "\"Pairs\" capacity claims still run optimistic on rolling racks",
-    explanation:
-      "The same inflated pair-count problem that affects narrow racks shows up on rolling towers too, a 50-pair claim assumes small shoes packed tightly. Expect a noticeably lower real count with average adult shoes or boots, and size up a tier if your household wears larger sizes.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shoe rack on wheel holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Spinning towers trade stability for access",
-    explanation:
-      "A 360-degree spinning rack gives you access to every tier without walking around it, but the rotating mechanism and typically square, tall footprint make it more top-heavy than a straight rolling tower. Keep the wheels braked once it's positioned rather than leaving it free to roll.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shoe rack on wheel over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Mesh shelving reduces odor from damp shoes",
-    explanation:
-      "Open mesh or wire shelving lets air move around stored shoes, helping them dry between uses and reducing odor and mold risk compared to solid or fully enclosed tiers. If you're storing shoes straight off wet or sweaty feet, prioritize the mesh-shelf picks over canvas-covered cubbies.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shoe rack on wheel you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Match wheel design to how often you'll actually move it",
-    explanation:
-      "If you're rolling the rack under a bed or closet rod daily, prioritize more wheels and easier-rolling casters. If it's mostly staying in one spot with occasional repositioning, a heavier-duty but slower-rolling base, like the spinning towers, is a better tradeoff for stability.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shoe rack on wheel that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,65 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How Often You'll Actually Roll It",
-    intro:
-      "Some picks in this list are built for daily repositioning, others mainly need to spin in place or move occasionally.",
-    table: {
-      headers: ["Use case", "Best pick"],
-      rows: [
-        ["Roll it under a bed or closet rod daily", "CSXGBAB 5-Tier (6 wheels, 3 lockable)"],
-        ["Mostly stays put, occasional repositioning", "Whitmor 10-Tier Chrome Tower or Amazon Basics 50-Pair"],
-        ["Want to spin in place for corner access", "SpaceAid 7-Tier 360° or RUNSUNSPRI 8-Tier 360°"],
-        ["Want the option to lock it as a fixed unit", "SONGMICS 3-Tier (switches between casters and feet)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Amazon Basics 50"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Amazon Basics 50"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Capacity and Household Size",
-    table: {
-      headers: ["Household need", "Best pick"],
-      rows: [
-        ["Small household, budget-first", "CSXGBAB 5-Tier ($26.99, 16-18 pairs)"],
-        ["Large shoe collection, need proven reliability", "Amazon Basics 50-Pair Chrome Rolling"],
-        ["Heavy boots or a very large household", "Whitmor 10-Tier Chrome Tower (300 lb capacity)"],
-        ["Want each pair kept separate and organized", "STORAGE MANIAC 40-Cube Cubby"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Treat any 40-50 pair claim as a ceiling assuming small shoes, not a guarantee. Boots and men's size 10+ shoes will fill tiers faster than advertised.",
+      "rows": [
+        [
+          "Under $27",
+          "CSXGBAB 5"
+        ],
+        [
+          "Up to $133",
+          "SpaceAid 7"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Stability Priority",
-    cards: [
+    "subheading": "CSXGBAB 5 vs SpaceAid 7",
+    "cards": [
       {
-        label: "Household with kids or pets",
-        text: "Choose the Whitmor or Amazon Basics chrome towers with locking wheels, or the SONGMICS 2-in-1 set on its fixed feet mode for maximum stability.",
+        "label": "CSXGBAB 5",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Renting and want minimal floor damage risk",
-        text: "The CSXGBAB's 3 lockable wheels out of 6 let you park it securely without needing a wall anchor.",
-      },
-      {
-        label: "Placing it in a tight corner",
-        text: "The SpaceAid or RUNSUNSPRI spinning towers are purpose-built for corners, but brake the wheels once positioned rather than leaving them free-rolling.",
-      },
-      {
-        label: "Want the option to fully lock it down later",
-        text: "The SONGMICS 3-Tier's swap from casters to adjustable feet effectively turns it into a fixed rack when mobility is no longer needed.",
-      },
+        "label": "SpaceAid 7",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to CSXGBAB 5 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Special Features",
-    table: {
-      headers: ["Feature needed", "Best pick"],
-      rows: [
-        ["Adjustable width", "STORAGE MANIAC 10-Tier Expandable (17.7\"-33\")"],
-        ["Built-in closed drawers", "RUNSUNSPRI 8-Tier 360° with 2 patented drawers"],
-        ["Best odor control / airflow", "SONGMICS 3-Tier Metal Mesh"],
-        ["Individual cubby slots per shoe", "STORAGE MANIAC 40-Cube Cubby"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Amazon Basics 50"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Amazon Basics 50 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where SpaceAid 7's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where CSXGBAB 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

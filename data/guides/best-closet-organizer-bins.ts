@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31W5efIfs8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0711RQMNF?tag=deskfinds0d-20",
     description:
-      "These fabric cubes are sized specifically for standard cube organizer shelving at 10.5 by 10.5 by 11 inches, so they slide into the most common closet cube frames without gaps or overhang. At 1.14 lbs per cube, they're the lightest pick in this guide, and side handles make pulling a loaded cube off a high shelf far easier than gripping a bare edge.\n\nBeing fully collapsible, they fold nearly flat for storage when not in use, useful for seasonal rotation, and their fabric construction breathes better than sealed plastic, an advantage for linens or off-season clothing that need some airflow.",
+      "These fabric cubes are sized specifically for standard cube organizer shelving at 10.5 by 10.5 by 11 inches, so they slide into the most common closet cube frames without gaps or overhang. At 1.14 lbs per cube, they're the lightest pick in this guide, and side handles make pulling a loaded cube off a high shelf far easier than gripping a bare edge.\n\nBeing fully collapsible, they fold nearly flat for storage when not in use, useful for seasonal rotation, and their fabric construction breathes better than sealed plastic, an advantage for linens or off-season clothing that need some airflow.\n\nSized to fit standard cube shelving exactly. Set against that, fabric doesn't seal against dust like plastic bins. Both matter when comparing it to the other picks here.",
     specs: [
       "10.5\"x10.5\"x11\" fabric cubes",
       "6-pack",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41hOA-ZJH-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BQBNXSQ?tag=deskfinds0d-20",
     description:
-      "The ClearSpace 4-pack is the highest-rated pick in this entire guide, built from BPA-free, shatter-resistant clear plastic at 11 by 8 by 6 inches. Being fully clear rather than tinted, contents are visible without opening the bin, which speeds up finding a specific item on a packed shelf.\n\nIt's also the only pick in this guide rated food-safe, useful if the closet doubles as pantry overflow storage. Built-in handles and a stackable shape round out a bin that seals better against dust and pests than any fabric pick in this list.",
+      "The ClearSpace 4-pack is the highest-rated pick in this entire guide, built from BPA-free, shatter-resistant clear plastic at 11 by 8 by 6 inches. Being fully clear rather than tinted, contents are visible without opening the bin, which speeds up finding a specific item on a packed shelf.\n\nIt's also the only pick in this guide rated food-safe, useful if the closet doubles as pantry overflow storage. Built-in handles and a stackable shape round out a bin that seals better against dust and pests than any fabric pick in this list.\n\nA genuine advantage here is that only food-safe rated pick in this guide. The tradeoff is smaller capacity than fabric cube or bag picks.",
     specs: [
       "11\"L x 8\"W x 6\"H",
       "4-pack",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vFwXivzjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BC8VSWC7?tag=deskfinds0d-20",
     description:
-      "Vtopmart's 6-pack undercuts the per-bin cost of the other clear plastic picks in this guide while still including lids, a detail that matters for dust protection over long-term storage. Each bin measures 11 by 7.5 by 6 inches and is made from BPA-free, water-resistant polyethylene.\n\nBuilt-in handles make each bin easy to pull from a stack, and the lids let bins stack securely on top of each other without sliding, unlike open-top bins. Rated for 8kg per bin, it comfortably holds folded clothes or accessories.",
+      "Vtopmart's 6-pack undercuts the per-bin cost of the other clear plastic picks in this guide while still including lids, a detail that matters for dust protection over long-term storage. Each bin measures 11 by 7.5 by 6 inches and is made from BPA-free, water-resistant polyethylene.\n\nBuilt-in handles make each bin easy to pull from a stack, and the lids let bins stack securely on top of each other without sliding, unlike open-top bins. Rated for 8kg per bin, it comfortably holds folded clothes or accessories.\n\nLids add dust protection and stacking stability. On the other hand, not food-safe rated like the ClearSpace bins. Neither should be a surprise once you know to look for it.",
     specs: [
       "11\"L x 7.5\"W x 6\"H",
       "6-pack with lids",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QF9mSe-HL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085ZV98JM?tag=deskfinds0d-20",
     description:
-      "At 90 liters per bag, this is the largest single-unit capacity in this guide, built for bulky items like comforters, off-season clothing, or bedding rather than small folded pieces. A clear front window lets you identify contents without opening the dual-slider fastener, and the non-woven fabric folds flat when empty.\n\nBeing fabric rather than plastic, these bags breathe better for blankets and linens that shouldn't be sealed airtight, though the 11 lb rated load per bag means they're not meant to be stacked and loaded like a rigid bin.",
+      "At 90 liters per bag, this is the largest single-unit capacity in this guide, built for bulky items like comforters, off-season clothing, or bedding rather than small folded pieces. A clear front window lets you identify contents without opening the dual-slider fastener, and the non-woven fabric folds flat when empty.\n\nBeing fabric rather than plastic, these bags breathe better for blankets and linens that shouldn't be sealed airtight, though the 11 lb rated load per bag means they're not meant to be stacked and loaded like a rigid bin.\n\nClear front window for quick content ID. That's a real strength, but weigh it against the flip side: lower per-bag weight rating relative to its large size.",
     specs: [
       "23\"x16\"x13\", 90 liters per bag",
       "6-pack",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gC9v2HdZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CM5FL5DS?tag=deskfinds0d-20",
     description:
-      "Criusia's baskets add rigid boards to 5 sides of each basket, the sturdiest fabric-basket construction in this guide, so they hold their shape under load far better than plain non-woven fabric bins. At 14 by 10 by 9.5 inches, each basket suits folded clothes, toys, or accessories.\n\nDual reinforced handles make lifting a loaded basket off a shelf easier, and the baskets remain stackable, foldable, and collapsible despite the added rigid boards, a useful middle ground between soft fabric and hard plastic.",
+      "Criusia's baskets add rigid boards to 5 sides of each basket, the sturdiest fabric-basket construction in this guide, so they hold their shape under load far better than plain non-woven fabric bins. At 14 by 10 by 9.5 inches, each basket suits folded clothes, toys, or accessories.\n\nDual reinforced handles make lifting a loaded basket off a shelf easier, and the baskets remain stackable, foldable, and collapsible despite the added rigid boards, a useful middle ground between soft fabric and hard plastic.\n\nWorth calling out specifically: rigid boards hold shape better than plain fabric. The catch is smaller pack size (4) than most fabric-bin competitors.",
     specs: [
       "14\"L x 10\"W x 9.5\"H",
       "4-pack",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DiH0gK-6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BR7MSWN2?tag=deskfinds0d-20",
     description:
-      "This is the only trapezoid-shaped bin in this guide, designed specifically to match the angled shelf edges found in many closet shelving systems rather than leaving square bins overhanging an angled lip. Each bin holds 23 liters across a 16.53 by 11 by 7.87 inch footprint.\n\nCardboard-reinforced, waterproof non-woven fabric holds shape well for the price, and two handles plus a fully collapsible design round out a bin built specifically for shelf compatibility rather than general-purpose use.",
+      "This is the only trapezoid-shaped bin in this guide, designed specifically to match the angled shelf edges found in many closet shelving systems rather than leaving square bins overhanging an angled lip. Each bin holds 23 liters across a 16.53 by 11 by 7.87 inch footprint.\n\nCardboard-reinforced, waterproof non-woven fabric holds shape well for the price, and two handles plus a fully collapsible design round out a bin built specifically for shelf compatibility rather than general-purpose use.\n\nMatches angled shelf edges other bins overhang. Set against that, trapezoid shape wastes some space if your shelves are flat. Both matter when comparing it to the other picks here.",
     specs: [
       "16.53\"L x 11\"W x 7.87\"H, 23L per bin",
       "Trapezoid shape",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41E2c1FlFWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZCTXKPZ?tag=deskfinds0d-20",
     description:
-      "These are the only pull-out drawer style bins among the clear picks in this guide, made from clear PET plastic and stacking with anti-slip silicone pads between layers instead of simple lid-on-lid stacking. That drawer format means you slide a bin open rather than lifting the one above it off first, useful when stacked several high.\n\nEach 12 by 7.5 by 7 inch drawer is rated for 15 lbs, with handles for pulling the drawer open, and the anti-slip pads keep a stacked tower from shifting when a middle drawer is opened.",
+      "These are the only pull-out drawer style bins among the clear picks in this guide, made from clear PET plastic and stacking with anti-slip silicone pads between layers instead of simple lid-on-lid stacking. That drawer format means you slide a bin open rather than lifting the one above it off first, useful when stacked several high.\n\nEach 12 by 7.5 by 7 inch drawer is rated for 15 lbs, with handles for pulling the drawer open, and the anti-slip pads keep a stacked tower from shifting when a middle drawer is opened.\n\nA genuine advantage here is that no need to lift bins above to access a lower one. The tradeoff is smaller footprint per drawer than the ClearSpace bins.",
     specs: [
       "12\"L x 7.5\"W x 7\"H",
       "4-pack pull-out drawers",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413kH2a882L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXXG1LVK?tag=deskfinds0d-20",
     description:
-      "This 4-tier PP plastic system totals 112 quarts of capacity, the largest total capacity of any pick in this guide, and it's the only one with two separate opening methods, a top lid on the highest tier plus a front magnetic door on each tier below it. That combination means you can access any tier without unstacking the ones above it.\n\nFour wheels, two of them lockable, let the whole stacked tower roll to a new spot in the closet or out for loading, and each tier detaches for cleaning or reconfiguring into a shorter stack.",
+      "This 4-tier PP plastic system totals 112 quarts of capacity, the largest total capacity of any pick in this guide, and it's the only one with two separate opening methods, a top lid on the highest tier plus a front magnetic door on each tier below it. That combination means you can access any tier without unstacking the ones above it.\n\nFour wheels, two of them lockable, let the whole stacked tower roll to a new spot in the closet or out for loading, and each tier detaches for cleaning or reconfiguring into a shorter stack.\n\nOnly pick with dual opening methods (lid + magnetic door). On the other hand, most expensive pick in this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "4-tier PP plastic, 112 quarts total",
       "Top lid + front magnetic door on each tier",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Size bins to your actual shelf openings",
-    explanation:
-      "Standard cube shelving commonly uses 11x11 or 12x12 inch openings, while a 13x13 inch bin can be too snug to slide in or out of some cube frames. Measure your shelf opening before ordering rather than assuming any bin labeled for closets will fit your specific cube system.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a closet organizer bin often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Collapsible bins save space, rigid bins hold shape better",
-    explanation:
-      "Collapsible fabric bins like the Amazon Basics cubes fold nearly flat for off-season storage, but they can lose their square shape once loaded and stacked. Rigid or reinforced-board bins like the Criusia baskets hold their shape under weight far better, worth the tradeoff if you're stacking loaded bins regularly.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the closet organizer bin holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Fabric breathes, plastic seals against dust and pests",
-    explanation:
-      "Fabric bins allow airflow, which matters for blankets, linens, or off-season clothing that shouldn't be sealed airtight, but they don't protect against dust or pests the way sealed plastic bins do. Choose fabric for breathable textiles and clear plastic for anything you want fully sealed off from a dusty closet environment.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this closet organizer bin over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Label bins for fast retrieval",
-    explanation:
-      "Clear bins let you see contents at a glance, but opaque fabric bins need labels on the handle or front panel to avoid opening several bins just to find one item. A simple labeling system pays off fastest in closets with more than 4-6 bins in rotation.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any closet organizer bin you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check the weight limit per bin before loading heavy items",
-    explanation:
-      "Fabric bins in this guide commonly rate 11-20 lbs, while rigid plastic bins rate closer to 15-8kg depending on size. Loading a fabric bin with heavy items like books or shoes beyond its rating stresses the seams and handles faster than the bin's outward appearance suggests.",
-  },
-  {
-    criterion: "Match bins to hanging shelf systems vs standalone cube shelving",
-    explanation:
-      "Some bins are shaped to hook onto or sit on a wire hanging shelf, like a trapezoid bin matching an angled shelf edge, while others are built as standalone cube inserts for dedicated cube shelving. Confirm which shelving type you have before choosing a bin shape, since a mismatch leaves gaps or overhang.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A closet organizer bin that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,97 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Bin Size and Shelf Type",
-    intro:
-      "Match your actual shelf opening size to the closest bin dimensions rather than guessing from a product photo.",
-    table: {
-      headers: ["Shelf opening", "Bin size", "Best pick"],
-      rows: [
-        ["Standard 11x11\" cube shelving", "10.5x10.5x11\"", "Amazon Basics Collapsible Fabric Cubes"],
-        ["Angled or lipped wire shelf edge", "Trapezoid, 16.53x11x7.87\"", "Homsorout Trapezoid 6-Pack"],
-        ["Open shelf, no cube frame", "Any stackable clear bin", "ClearSpace Clear Plastic 4-Pack"],
-        ["Floor or closet corner, no shelf", "Wheeled multi-tier tower", "YFXCVSL 4-Tier Stackable with Wheels"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "ClearSpace Clear Plastic Storage Bins 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Amazon Basics Collapsible Fabric Storage Cubes 6"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Collapsible vs Rigid",
-    cards: [
-      {
-        label: "Want maximum flat storage when empty",
-        text: "The Amazon Basics fabric cubes and Criusia baskets both fold nearly flat, ideal for seasonal rotation.",
-      },
-      {
-        label: "Want a bin that holds its shape under heavy loads",
-        text: "The Criusia 4-Pack's rigid boards on 5 sides keep their shape far better than plain fabric under weight.",
-      },
-      {
-        label: "Want fully rigid, no-fold plastic",
-        text: "The ClearSpace 4-Pack and Vtopmart lidded 6-Pack are both rigid clear plastic that never loses shape.",
-      },
-    ],
-  },
-  {
-    subheading: "Breathable Fabric vs Sealed Plastic",
-    intro:
-      "What you're storing should decide material more than price or looks.",
-    table: {
-      headers: ["What you're storing", "Material needed", "Best pick"],
-      rows: [
-        ["Blankets, linens, off-season clothing", "Breathable fabric", "Budding Joy 90L Storage Bags"],
-        ["Items needing dust/pest protection", "Sealed plastic", "ClearSpace Clear Plastic 4-Pack"],
-        ["Mixed folded clothes, moderate airflow", "Reinforced fabric", "Criusia 4-Pack Fabric Baskets"],
-        ["Pantry overflow in the closet", "Food-safe sealed plastic", "ClearSpace Clear Plastic 4-Pack"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $18",
+          "Amazon Basics Collapsible Fabric Storage Cubes 6"
+        ],
+        [
+          "Up to $50",
+          "YFXCVSL 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Labeling and Retrieval Speed",
-    cards: [
+    "subheading": "Amazon Basics Collapsible Fabric Storage Cubes 6 vs YFXCVSL 4",
+    "cards": [
       {
-        label: "Using opaque fabric bins",
-        text: "Label the front handle or a clip-on tag, since Amazon Basics and Budding Joy bins hide contents until opened.",
+        "label": "Amazon Basics Collapsible Fabric Storage Cubes 6",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Using clear bins",
-        text: "The ClearSpace and Vtopmart clear picks let you skip labeling for most items since contents are visible at a glance.",
-      },
-      {
-        label: "Running more than 6 bins in one closet",
-        text: "A consistent labeling system pays off fastest once bin count climbs past 6, regardless of material.",
-      },
+        "label": "YFXCVSL 4",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Amazon Basics Collapsible Fabric Storage Cubes 6 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Weight Limit by Bin Type",
-    table: {
-      headers: ["Bin type", "Typical rating", "Best pick"],
-      rows: [
-        ["Fabric bag, large capacity", "11 lbs", "Budding Joy 90L Storage Bags"],
-        ["Fabric cube, standard size", "Light to moderate", "Amazon Basics Collapsible Fabric Cubes"],
-        ["Clear plastic, lidded", "8kg (~17.6 lbs)", "Vtopmart 6-Pack Clear with Lids"],
-        ["Clear plastic, pull-out drawer", "15 lbs per drawer", "Vtopmart 4-Pack Pull-Out Drawers"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Fabric bins are commonly rated 20-30 lbs in this category overall, so always check the specific per-bin number rather than assuming all fabric bins hold the same weight.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Amazon Basics Collapsible Fabric Storage Cubes 6"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Aesthetic Matching for Your Closet",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Neutral, blend-in interiors",
-        text: "The Amazon Basics fabric cubes and Criusia baskets come in muted tones that disappear into most closet shelving.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Want full visibility over style",
-        text: "Any of the clear plastic picks, ClearSpace, Vtopmart lidded, or Vtopmart drawers, prioritize function over decor.",
-      },
-      {
-        label: "Want a distinct shape as a design feature",
-        text: "The Homsorout trapezoid bins double as a visual detail on open shelving thanks to their unusual angled shape.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Amazon Basics Collapsible Fabric Storage Cubes 6 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where YFXCVSL 4's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Amazon Basics Collapsible Fabric Storage Cubes 6 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by What You Actually Want",
-    table: {
-      headers: ["What you want", "Recommended pick"],
-      rows: [
-        ["Genuine desk-surface-sitting design", "Mind Reader Desktop Organizer"],
-        ["Free up desk space entirely instead", "Jakyitvi Adjustable 5 Tiers Wall File Organizer"],
-        ["Free desk space without drilling", "Safco Onyx Hanging Desktop Organizer"],
-        ["Budget wall-mounted alternative", "JMHUD 5-Tier Wall File Organizer"],
-        ["Maximum capacity, wall-mounted", "Simple Trending 7-Tier Mesh Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "\"Desktop\" Naming Is Inconsistent Across This Category",
-    note: "Some products use 'desktop' in their title despite actually hanging from a desk edge or wall, not sitting on the desk surface. We verified each pick's actual mounting method directly rather than trusting the product name alone.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "JMHUD 5"
+        ],
+        [
+          "Up to $48",
+          "Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Desk Footprint vs. Mounting Effort",
-    cards: [
-      { label: "True freestanding desktop", text: "No drilling or clamping, but consumes desk surface space, like the Mind Reader pick." },
-      { label: "Wall or edge mounted", text: "Frees desk surface space entirely, but requires either drilling or available desk-edge clearance." },
+    "subheading": "JMHUD 5 vs Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays",
+    "cards": [
+      {
+        "label": "JMHUD 5",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to JMHUD 5 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Tip-Over Stability for Genuine Desktop Designs",
-    note: "A freestanding organizer with a narrow base relative to its height risks tipping when fully loaded. The Mind Reader pick's wide base provides solid stability, but always load heavier items toward the bottom of any freestanding organizer regardless of design.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Jakyitvi Adjustable 5 Tiers Wall File Organizer Metal Hanging Holder is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Safco Onyx Hanging Desktop Organizer with 3 Vertical Trays's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where JMHUD 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify whether a product is genuinely desktop-sitting", explanation: "Some 'desktop' organizers actually hang from a desk edge or wall. Check the specific mounting method in the listing before assuming it sits on your desk surface." },
-  { criterion: "Weigh desk footprint consumption against mounting effort", explanation: "A true freestanding desktop design requires no drilling but occupies desk surface space, while a wall or edge mount frees that space at the cost of installation effort." },
-  { criterion: "Check base stability for freestanding designs", explanation: "A narrow base relative to organizer height risks tipping when fully loaded. Favor a wide, proportioned base like the Mind Reader pick for tip-over resistance." },
-  { criterion: "Consider capacity needs against your document volume", explanation: "A compact freestanding organizer holds meaningfully less than a multi-tier wall-mounted alternative. Match your choice to your realistic document volume." },
-  { criterion: "Load heavier items toward the bottom regardless of design", explanation: "This general stability practice reduces tip-over risk for any freestanding organizer, even one with a well-proportioned base." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a desktop hanging file organizer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the desktop hanging file organizer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this desktop hanging file organizer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any desktop hanging file organizer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A desktop hanging file organizer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

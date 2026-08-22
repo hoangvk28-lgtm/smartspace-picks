@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pH3EPb-mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FG52KXT9?tag=deskfinds0d-20",
     description:
-      "A compact freestanding panel pair that sets up on its own support feet rather than clamping to a desk edge, appropriate for buyers who want to move the panel around or use it on a desk with no clampable lip.\n\nThe listing does not publish an NRC rating or panel thickness spec, so treat the 'acoustic' and 'soundproof' language in the title as marketing shorthand for modest sound absorption near your immediate work area, not genuine sound blocking.",
+      "A compact freestanding panel pair that sets up on its own support feet rather than clamping to a desk edge, appropriate for buyers who want to move the panel around or use it on a desk with no clampable lip.\n\nThe listing does not publish an NRC rating or panel thickness spec, so treat the 'acoustic' and 'soundproof' language in the title as marketing shorthand for modest sound absorption near your immediate work area, not genuine sound blocking.\n\nTwo panels cover more area than a single unit. On the other hand, no published NRC or thickness spec to verify real absorption. Neither should be a surprise once you know to look for it.",
     specs: ["Freestanding with support feet", "2-pack, 15.74 x 11.81 x 3.93 inches", "No published NRC rating", "No clamp required"],
     pros: ["No clamping needed, works on any flat desk", "Two panels cover more area than a single unit", "Low price point for trying panel-based absorption", "Lightweight and easy to reposition"],
     cons: ["No published NRC or thickness spec to verify real absorption", "Small individual panel size limits coverage per unit", "Freestanding feet offer less stability than a clamped panel"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51xJuQn513L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00P1AJ9N8?tag=deskfinds0d-20",
     description:
-      "An aluminum-framed panel explicitly described as desk mounted, worth checking the actual mounting hardware against your desk's edge thickness before ordering since the mounting compatibility pattern varies widely across desk-accessory brackets.\n\nThe almond and aluminum construction reads as a more office-standard, less decorative build than the freestanding fabric-style options, which may matter if you want the panel to look purpose-built rather than added on.",
+      "An aluminum-framed panel explicitly described as desk mounted, worth checking the actual mounting hardware against your desk's edge thickness before ordering since the mounting compatibility pattern varies widely across desk-accessory brackets.\n\nThe almond and aluminum construction reads as a more office-standard, less decorative build than the freestanding fabric-style options, which may matter if you want the panel to look purpose-built rather than added on.\n\nOffice-standard aluminum and almond finish. That's a real strength, but weigh it against the flip side: verify mounting hardware fits your specific desk edge thickness before buying.",
     specs: ["12 x 24 inch panel", "Almond/aluminum construction", "Desk-mounted design", "No published NRC rating"],
     pros: ["Explicit desk-mounted design for a more secure fit than freestanding feet", "Office-standard aluminum and almond finish", "Compact footprint suited to a single monitor zone", "Simple, purpose-built look"],
     cons: ["Verify mounting hardware fits your specific desk edge thickness before buying", "No published NRC rating to confirm real absorption performance", "Smaller coverage area than a full-width divider"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21S6a6AhTTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07S8DRKHC?tag=deskfinds0d-20",
     description:
-      "A 23 by 18 inch panel marketed toward student and office desks, sized to cover more of a seated user's forward field of view than the smaller compact panels in this pool.\n\nAs with the rest of this category, there's no published NRC number, so weigh the 'sound absorbing' claim as a directional benefit for reducing echo reaching your own desk, not a verified acoustic spec.",
+      "A 23 by 18 inch panel marketed toward student and office desks, sized to cover more of a seated user's forward field of view than the smaller compact panels in this pool.\n\nAs with the rest of this category, there's no published NRC number, so weigh the 'sound absorbing' claim as a directional benefit for reducing echo reaching your own desk, not a verified acoustic spec.\n\nWorth calling out specifically: sized for typical student and office desk widths. The catch is no published NRC rating to verify absorption claims.",
     specs: ["23\" W x 18\" H panel", "Dark blue finish", "Marketed for student and office desks", "No published NRC rating"],
     pros: ["Larger coverage area than compact panel options", "Sized for typical student and office desk widths", "Simple color option that blends into most desk setups", "Reasonable option for classroom or shared-desk settings"],
     cons: ["No published NRC rating to verify absorption claims", "Material thickness not specified in the listing", "Height alone may not fully block sightlines depending on desk height"],
@@ -84,36 +84,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Absorption Versus Blocking, the Distinction That Matters",
-    note: "NRC (absorption) and STC (blocking) measure different things, and desk-scale acoustic panels in this category almost universally provide absorption, reducing echo and reflection near your own desk, rather than genuine sound blocking that keeps noise from reaching a coworker. None of the products in this guide publish a formal NRC or STC rating, so treat marketing language like 'soundproof' as directional, not literal.",
-  },
-  {
-    subheading: "Material Thickness Matters More Than the Word 'Acoustic'",
-    note: "Panel thickness and material density drive real absorption performance, and that detail is rarely spelled out in a listing title. If a product page doesn't specify thickness or density, treat any absorption claim as unverified rather than assuming it performs like a thicker studio-grade panel.",
-  },
-  {
-    subheading: "One Panel Is a Start, Not a Room Fix",
-    note: "A single panel covers a small fraction of a room's reflective surfaces. If your goal is a noticeably quieter call environment rather than a modest improvement right at your desk, plan on multiple panels or pairing a panel with other soft furnishings.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["No clamping, move it around freely", "HOODANCOS Freestanding Panel 2-Pack"],
-        ["Purpose-built desk-mounted look", "12\" Acoustical Desk Mounted Panel (Almond/Aluminum)"],
-        ["Larger single panel for a standard desk width", "Sound Absorbing Privacy Shield (23\"x18\")"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HOODANCOS Desk Privacy Panel 2"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HOODANCOS Desk Privacy Panel 2"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "HOODANCOS Desk Privacy Panel 2"
+        ],
+        [
+          "Up to $NaN",
+          "Sound Absorbing Privacy Shield"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "HOODANCOS Desk Privacy Panel 2 vs Sound Absorbing Privacy Shield",
+    "cards": [
+      {
+        "label": "HOODANCOS Desk Privacy Panel 2",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Sound Absorbing Privacy Shield",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to HOODANCOS Desk Privacy Panel 2 unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HOODANCOS Desk Privacy Panel 2"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOODANCOS Desk Privacy Panel 2 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Sound Absorbing Privacy Shield's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HOODANCOS Desk Privacy Panel 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Check for a published NRC rating first", explanation: "Most desk-scale acoustic panels, including every product in this guide, do not publish a formal NRC number, treat unverified 'sound absorbing' claims as modest rather than dramatic." },
-  { criterion: "Verify mounting method against your desk", explanation: "Freestanding, clamp-on, and desk-mounted panels each need different desk edge compatibility, check your desk edge thickness before ordering a mounted style." },
-  { criterion: "Judge thickness and density, not just the word acoustic", explanation: "Thin decorative-looking panels absorb meaningfully less than thick, dense ones, and this detail is often missing from the listing itself." },
-  { criterion: "Plan for multiple panels if you want a real difference", explanation: "One panel only covers a fraction of your room's reflective surfaces, a meaningful echo reduction usually needs more than a single unit." },
-  { criterion: "Understand absorption improves your own audio, not others' noise", explanation: "A desk panel mainly reduces echo reaching your own mic and ears, it does not meaningfully block sound from reaching a coworker or roommate." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a desk acoustic panel often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the desk acoustic panel holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this desk acoustic panel over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any desk acoustic panel you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A desk acoustic panel that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

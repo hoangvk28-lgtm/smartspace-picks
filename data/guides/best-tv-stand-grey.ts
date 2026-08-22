@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41pt-JSZM8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00EDTE2Q2?tag=deskfinds0d-20",
     description:
-      "The Furinno Turn-S-Tube Wide TV Stand is by far the most-reviewed grey TV stand on Amazon, with over 24,000 ratings backing up its simple, no-frills design. Four open shelves in a black and grey combination fit a TV up to 55 inches, and rounded safety corners cut down on sharp edges around the piece.\n\nThe frame is FSC-certified and goes together tool-free in about 10 minutes, which makes it an easy first apartment or dorm pick. A 1-year warranty backs the build, and while it lacks enclosed storage, the open shelving keeps a streaming box, router, and game console all within easy reach.",
+      "The Furinno Turn-S-Tube Wide TV Stand is by far the most-reviewed grey TV stand on Amazon, with over 24,000 ratings backing up its simple, no-frills design. Four open shelves in a black and grey combination fit a TV up to 55 inches, and rounded safety corners cut down on sharp edges around the piece.\n\nThe frame is FSC-certified and goes together tool-free in about 10 minutes, which makes it an easy first apartment or dorm pick. A 1-year warranty backs the build, and while it lacks enclosed storage, the open shelving keeps a streaming box, router, and game console all within easy reach.\n\nTool-free assembly in about 10 minutes. Set against that, no enclosed storage, everything sits on open shelves. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV up to 55 inches",
       "47.25\" W x 13.4\" D x 15.9\" H",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eM2j8dEoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LTCXX5X?tag=deskfinds0d-20",
     description:
-      "The YESHOMY Grey Wash Barn Door TV Stand fits TVs up to 65 inches behind a pair of sliding barn doors finished in a distinctive grey wash that reads more rustic than the flat grey tones on some competitors. Adjustable interior shelving lets you configure the enclosed space around a cable box, gaming console, or media accessories.\n\nCable routing holes keep wiring tucked away, and the overall proportions land squarely in farmhouse-modern territory. At 58 inches wide, it suits a mid-size living room without overwhelming the wall, and the barn door styling gives it a distinct look next to plainer flat-panel stands.",
+      "The YESHOMY Grey Wash Barn Door TV Stand fits TVs up to 65 inches behind a pair of sliding barn doors finished in a distinctive grey wash that reads more rustic than the flat grey tones on some competitors. Adjustable interior shelving lets you configure the enclosed space around a cable box, gaming console, or media accessories.\n\nCable routing holes keep wiring tucked away, and the overall proportions land squarely in farmhouse-modern territory. At 58 inches wide, it suits a mid-size living room without overwhelming the wall, and the barn door styling gives it a distinct look next to plainer flat-panel stands.\n\nA genuine advantage here is that adjustable interior shelving. The tradeoff is smaller review sample than the Furinno budget pick.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" L x 15.5\" W x 23.8\" H",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51tMrZuG0UL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQMDQ9G9?tag=deskfinds0d-20",
     description:
-      "The JUMMICO Grey Mid-Century TV Stand fits TVs up to 65 inches and swaps traditional handles for push-to-open cabinet doors, giving the front a cleaner, handle-free look that suits mid-century minimalist rooms. Five floor-protecting legs distribute weight evenly and keep the frame stable on hardwood or laminate flooring.\n\nCable management holes route wiring behind the two enclosed cabinets, and the tabletop is rated to hold up to 220 pounds, more than enough margin for a large TV plus a soundbar. At 4.5 stars, it holds one of the stronger ratings in this list, and the combination of push-to-open doors and a solid 220 lb rating makes it a standout at its price point.",
+      "The JUMMICO Grey Mid-Century TV Stand fits TVs up to 65 inches and swaps traditional handles for push-to-open cabinet doors, giving the front a cleaner, handle-free look that suits mid-century minimalist rooms. Five floor-protecting legs distribute weight evenly and keep the frame stable on hardwood or laminate flooring.\n\nCable management holes route wiring behind the two enclosed cabinets, and the tabletop is rated to hold up to 220 pounds, more than enough margin for a large TV plus a soundbar. At 4.5 stars, it holds one of the stronger ratings in this list, and the combination of push-to-open doors and a solid 220 lb rating makes it a standout at its price point.\n\n220 lb tabletop capacity, high for its price. On the other hand, push-to-open doors can be less convenient with full hands than a pull handle. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" W x 14\" D x 19\" H",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51IKM2VXu7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSR7W2MZ?tag=deskfinds0d-20",
     description:
-      "The YESHOMY Grey Sliding Barn Door TV Stand fits TVs up to 65 inches and stands taller than most picks here at 27.6 inches, putting the screen closer to a comfortable sofa eye line. Metal-rail sliding barn doors glide open without swinging into the room, which saves floor clearance in tighter layouts compared to standard hinged cabinet doors.\n\nAdjustable interior shelving accommodates different equipment sizes, and cable routing holes keep cords organized at the back. With 1,681 ratings at 4.5 stars, it carries a solid, well-established review base, and the farmhouse grey finish matches the styling of its sibling barn door model above while adding extra height.",
+      "The YESHOMY Grey Sliding Barn Door TV Stand fits TVs up to 65 inches and stands taller than most picks here at 27.6 inches, putting the screen closer to a comfortable sofa eye line. Metal-rail sliding barn doors glide open without swinging into the room, which saves floor clearance in tighter layouts compared to standard hinged cabinet doors.\n\nAdjustable interior shelving accommodates different equipment sizes, and cable routing holes keep cords organized at the back. With 1,681 ratings at 4.5 stars, it carries a solid, well-established review base, and the farmhouse grey finish matches the styling of its sibling barn door model above while adding extra height.\n\nTaller 27.6 inch height for a more comfortable eye line. That's a real strength, but weigh it against the flip side: higher price than the shorter YESHOMY barn door pick above.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" L x 15.5\" W x 27.6\" H",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ntioa1yFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4Z8Q1GK?tag=deskfinds0d-20",
     description:
-      "The VASAGLE Grey Barn Door TV Stand fits TVs up to 65 inches and splits storage across 4 flexible compartments plus an adjustable shelf, giving more configuration options than most single-cabinet barn door designs. Sleek metal knobs contrast against the cozy farmhouse grey finish, and the tabletop supports up to 170 pounds.\n\nBuilt from premium particleboard and MDF, the frame holds up well to daily use, and cable routing keeps wiring tidy behind the closed doors. At 4.6 stars across 1,803 ratings, it has both a strong rating and a solid review base, making it one of the more well-rounded picks in this list for buyers who want maximum interior flexibility.",
+      "The VASAGLE Grey Barn Door TV Stand fits TVs up to 65 inches and splits storage across 4 flexible compartments plus an adjustable shelf, giving more configuration options than most single-cabinet barn door designs. Sleek metal knobs contrast against the cozy farmhouse grey finish, and the tabletop supports up to 170 pounds.\n\nBuilt from premium particleboard and MDF, the frame holds up well to daily use, and cable routing keeps wiring tidy behind the closed doors. At 4.6 stars across 1,803 ratings, it has both a strong rating and a solid review base, making it one of the more well-rounded picks in this list for buyers who want maximum interior flexibility.\n\nWorth calling out specifically: strong 4.6 star rating with a solid review base. The catch is barn doors still limit access to one cabinet side at a time.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" L x 16\" W x 24\" H",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Wc4UcBmZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP16T67B?tag=deskfinds0d-20",
     description:
-      "The LINSY HOME Washed Grey TV Stand fits TVs up to 75 inches and carries a 360 pound weight capacity, the highest of any stand in this list by a wide margin. A washed grey and brown vintage blend gives it a slightly warmer look than the flat grey finishes elsewhere here, and 2 glass cabinet doors reveal contents while still keeping them enclosed.\n\nThree height-adjustable shelves let you reconfigure the interior, and the surface resists water and general wear. At 66 inches wide and 22 inches deep, it's one of the larger-footprint stands in this list, suited to bigger living rooms with a large TV and additional stacked media equipment.",
+      "The LINSY HOME Washed Grey TV Stand fits TVs up to 75 inches and carries a 360 pound weight capacity, the highest of any stand in this list by a wide margin. A washed grey and brown vintage blend gives it a slightly warmer look than the flat grey finishes elsewhere here, and 2 glass cabinet doors reveal contents while still keeping them enclosed.\n\nThree height-adjustable shelves let you reconfigure the interior, and the surface resists water and general wear. At 66 inches wide and 22 inches deep, it's one of the larger-footprint stands in this list, suited to bigger living rooms with a large TV and additional stacked media equipment.\n\nGlass cabinet doors show contents while staying enclosed. Set against that, most expensive pick in this list aside from the LED option. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV up to 75 inches",
       "66\" W x 15.7\" D x 22\" H",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51NqQi5WU8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1CPSHSQ?tag=deskfinds0d-20",
     description:
-      "The YITAHOME Grey LED TV Stand with Outlets fits TVs up to 75 inches and is the tallest pick in this list at 32 inches, plus it's the only one here with built-in power. Multi-color LED lighting sets an ambient glow behind the TV, while 2 built-in AC outlets and 2 USB ports let you charge devices or plug in a streaming box without running an extension cord across the room.\n\nTwo tempered glass doors add a premium look up front, and 3 adjustable shelves inside handle different equipment sizes. It's the priciest pick in this list, but between the LED lighting, integrated power, and tall 32 inch profile, it's built for buyers who want their TV stand to double as a design centerpiece.",
+      "The YITAHOME Grey LED TV Stand with Outlets fits TVs up to 75 inches and is the tallest pick in this list at 32 inches, plus it's the only one here with built-in power. Multi-color LED lighting sets an ambient glow behind the TV, while 2 built-in AC outlets and 2 USB ports let you charge devices or plug in a streaming box without running an extension cord across the room.\n\nTwo tempered glass doors add a premium look up front, and 3 adjustable shelves inside handle different equipment sizes. It's the priciest pick in this list, but between the LED lighting, integrated power, and tall 32 inch profile, it's built for buyers who want their TV stand to double as a design centerpiece.\n\nA genuine advantage here is that multi-color LED lighting for ambiance. The tradeoff is most expensive pick in this list.",
     specs: [
       "Fits TV up to 75 inches",
       "66\" W x 15.7\" D x 32\" H",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Btet45+eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F83ZMQ65?tag=deskfinds0d-20",
     description:
-      "The Luplom Rustic Grey TV Stand is the most affordable pick in this list at under $40, sized for TVs up to 50 inches in smaller bedrooms or apartments. A metal frame paired with engineered wood shelving gives it an industrial look, and 3 open shelves keep a streaming box, router, and game console all within easy reach.\n\nEight adjustable anti-wobble feet compensate for uneven flooring, and assembly takes about 20 minutes. At 100 pounds of stated capacity and a compact 45 inch width, it's built for small rooms rather than large living spaces, and it's a straightforward, no-frills option for anyone who just needs a simple stand under a smaller TV.",
+      "The Luplom Rustic Grey TV Stand is the most affordable pick in this list at under $40, sized for TVs up to 50 inches in smaller bedrooms or apartments. A metal frame paired with engineered wood shelving gives it an industrial look, and 3 open shelves keep a streaming box, router, and game console all within easy reach.\n\nEight adjustable anti-wobble feet compensate for uneven flooring, and assembly takes about 20 minutes. At 100 pounds of stated capacity and a compact 45 inch width, it's built for small rooms rather than large living spaces, and it's a straightforward, no-frills option for anyone who just needs a simple stand under a smaller TV.\n\n8 adjustable feet handle uneven flooring. On the other hand, smallest max TV size in this list at 50 inches. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 50 inches",
       "45\" W x 11.8\" D x 19\" H",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "TV size fit",
-    explanation:
-      "Each stand lists a maximum supported TV size, but bigger isn't always better. A 50 inch TV on a 75 inch capacity stand will look undersized, so match the stand's width to your actual screen for the best visual proportion.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a tv stand grey often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Enclosed vs open storage",
-    explanation:
-      "Barn door and cabinet designs hide cable boxes and clutter behind doors, while open-shelf stands like the Furinno keep everything visible and instantly accessible. Decide how much you want on display before choosing a style.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the tv stand grey holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Weight capacity covers the TV plus anything else stacked on top, like a soundbar or decor. If you have a heavier TV or plan to stack multiple items, prioritize higher-rated stands like the LINSY HOME (360 lbs).",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this tv stand grey over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Grey tone variation",
-    explanation:
-      "Grey finishes range from flat, cool greys to warmer washed or vintage-blend tones. Since product photos can shift under different lighting, check close-up review photos before committing to a specific shade for your room.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any tv stand grey you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Door type and clearance",
-    explanation:
-      "Sliding barn doors save floor clearance in front of the stand but only expose one cabinet side at a time. Hinged or push-to-open doors give full access to both sides but need more room to swing open.",
-  },
-  {
-    criterion: "Built-in features",
-    explanation:
-      "A handful of grey TV stands now include LED lighting, AC outlets, or USB ports built into the frame. These add convenience but also add cost and complexity, so weigh whether you'll actually use the extra features.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A tv stand grey that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

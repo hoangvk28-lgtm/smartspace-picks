@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 packs printing, copying, and scanning into a compact inkjet body that sits comfortably on a 30-inch desk without dominating it. Duplex printing is built in, so double-sided documents don't require manually flipping pages, and the setup process pairs with the Canon PRINT app over wifi in a few guided steps.\n\nLike most compact inkjet AIOs, its paper tray holds well under a standard 500-sheet ream, so frequent small-batch users will refill more often than they would with a full-size printer. Letter and A4 are supported, but legal and tabloid sizes are not, which is worth checking before buying if you occasionally print larger documents.",
+      "The PIXMA TS4320 packs printing, copying, and scanning into a compact inkjet body that sits comfortably on a 30-inch desk without dominating it. Duplex printing is built in, so double-sided documents don't require manually flipping pages, and the setup process pairs with the Canon PRINT app over wifi in a few guided steps.\n\nLike most compact inkjet AIOs, its paper tray holds well under a standard 500-sheet ream, so frequent small-batch users will refill more often than they would with a full-size printer. Letter and A4 are supported, but legal and tabloid sizes are not, which is worth checking before buying if you occasionally print larger documents.\n\nAuto duplex printing built in. That's a real strength, but weigh it against the flip side: small paper tray needs frequent refills.",
     specs: [
       "Compact color inkjet all-in-one",
       "Auto duplex (2-sided) printing",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520 adds a 1.42-inch OLED display and a more intuitive control panel on top of the same compact-desk-friendly footprint as Canon's smaller PIXMA models. That screen makes checking ink levels, wifi status, and print settings possible without opening a phone app every time.\n\nIt keeps the same duplex printing and compact inkjet AIO formula, so the tradeoffs are similar: a modest paper tray relative to a full-size printer, and letter/A4-only paper support. The OLED panel is the clearest reason to pick this over the TS4320 if you'd rather glance at a small screen than pull out your phone.",
+      "The TS6520 adds a 1.42-inch OLED display and a more intuitive control panel on top of the same compact-desk-friendly footprint as Canon's smaller PIXMA models. That screen makes checking ink levels, wifi status, and print settings possible without opening a phone app every time.\n\nIt keeps the same duplex printing and compact inkjet AIO formula, so the tradeoffs are similar: a modest paper tray relative to a full-size printer, and letter/A4-only paper support. The OLED panel is the clearest reason to pick this over the TS4320 if you'd rather glance at a small screen than pull out your phone.\n\nWorth calling out specifically: intuitive control panel layout. The catch is still a small tray relative to a full ream.",
     specs: [
       "Compact color inkjet all-in-one",
       "1.42\" OLED display",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "HP's DeskJet 4355 is a compact all-in-one with print, scan, and copy in one small-footprint body, plus a 3-month HP Instant Ink trial that softens the early cost of cartridges. The AI-capable label refers to HP's smart printing features that help route mobile print jobs and manage settings through the HP Smart app.\n\nFirst-time setup runs through the HP Smart app, and like most compact inkjet AIOs it favors footprint over paper capacity, so plan on refilling more often than a business-class printer. It's a straightforward pick if you're already comfortable pairing devices through a phone app.",
+      "HP's DeskJet 4355 is a compact all-in-one with print, scan, and copy in one small-footprint body, plus a 3-month HP Instant Ink trial that softens the early cost of cartridges. The AI-capable label refers to HP's smart printing features that help route mobile print jobs and manage settings through the HP Smart app.\n\nFirst-time setup runs through the HP Smart app, and like most compact inkjet AIOs it favors footprint over paper capacity, so plan on refilling more often than a business-class printer. It's a straightforward pick if you're already comfortable pairing devices through a phone app.\n\nCompact body fits small desks easily. Set against that, small paper tray by full-size printer standards. Both matter when comparing it to the other picks here.",
     specs: [
       "Compact color inkjet all-in-one",
       "3-month HP Instant Ink trial included",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 is one of the few compact printers in this list with an auto document feeder, letting you scan or fax multi-page documents without lifting the lid and repositioning pages one at a time. Built-in fax support is included too, useful for home offices that still occasionally need it.\n\nIts footprint stays desk-friendly despite the added ADF hardware, and mobile printing setup follows the same Canon PRINT app pairing as the rest of the PIXMA line. If you rarely scan multi-page documents, the ADF is nice-to-have rather than essential, and the TS4320 covers the basics for less.",
+      "The PIXMA TR4720 is one of the few compact printers in this list with an auto document feeder, letting you scan or fax multi-page documents without lifting the lid and repositioning pages one at a time. Built-in fax support is included too, useful for home offices that still occasionally need it.\n\nIts footprint stays desk-friendly despite the added ADF hardware, and mobile printing setup follows the same Canon PRINT app pairing as the rest of the PIXMA line. If you rarely scan multi-page documents, the ADF is nice-to-have rather than essential, and the TS4320 covers the basics for less.\n\nA genuine advantage here is that built-in fax for occasional home-office use. The tradeoff is aDF adds bulk versus the simplest flatbed-only models.",
     specs: [
       "Auto document feeder (ADF) included",
       "Built-in fax",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-ZgpCGxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DV6FV5?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS3720 strips things down to the basics: print, copy, scan, and wireless connectivity in a small, no-frills body built for basic home printing rather than heavier document workflows. It's the cheapest full all-in-one in this list, which makes it a sensible pick if you print occasionally and don't need an ADF, a screen, or duplex printing.\n\nBecause it skips the extra hardware found on pricier PIXMA models, it also has one of the smallest footprints here, a genuine advantage on a truly tight desk. Just budget for more frequent refills given its small tray, and expect basic single-sided printing rather than automatic duplex.",
+      "The PIXMA TS3720 strips things down to the basics: print, copy, scan, and wireless connectivity in a small, no-frills body built for basic home printing rather than heavier document workflows. It's the cheapest full all-in-one in this list, which makes it a sensible pick if you print occasionally and don't need an ADF, a screen, or duplex printing.\n\nBecause it skips the extra hardware found on pricier PIXMA models, it also has one of the smallest footprints here, a genuine advantage on a truly tight desk. Just budget for more frequent refills given its small tray, and expect basic single-sided printing rather than automatic duplex.\n\nOne of the smallest footprints here. On the other hand, no automatic duplex printing. Neither should be a surprise once you know to look for it.",
     specs: [
       "Basic compact color all-in-one",
       "Print, copy, scan",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "Mono laser printers like the HL-L2405W can actually have a smaller physical footprint than compact inkjet AIOs, since they skip the scanner bed and ink cartridge housing entirely, a distinction most compact-printer guides never draw. Toner also doesn't dry out the way inkjet cartridges do, which matters if the printer sits idle between print jobs on a small desk.\n\nThis is a print-only device with no scan or copy function, so it fits buyers who mainly need fast, no-fuss text output rather than a full AIO. Wireless setup and mobile printing are supported, and it works with Alexa for voice-triggered print commands.",
+      "Mono laser printers like the HL-L2405W can actually have a smaller physical footprint than compact inkjet AIOs, since they skip the scanner bed and ink cartridge housing entirely, a distinction most compact-printer guides never draw. Toner also doesn't dry out the way inkjet cartridges do, which matters if the printer sits idle between print jobs on a small desk.\n\nThis is a print-only device with no scan or copy function, so it fits buyers who mainly need fast, no-fuss text output rather than a full AIO. Wireless setup and mobile printing are supported, and it works with Alexa for voice-triggered print commands.\n\nToner never dries out from infrequent printing. That's a real strength, but weigh it against the flip side: no scanning or copying capability.",
     specs: [
       "Compact monochrome laser, print-only",
       "Wireless with mobile printing",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zPjelEtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZC56ZH4?tag=deskfinds0d-20",
     description:
-      "This inkless thermal printer is the smallest and lightest device in this list by a wide margin, small enough to tuck in a drawer rather than occupy permanent desk space. It supports full 8.5 x 11-inch US Letter and A4 pages via 300 DPI thermal printing and pairs over Bluetooth with iOS, Android, and laptops.\n\nBecause it uses heat-sensitive thermal paper instead of ink or toner, print quality and longevity are not comparable to an inkjet or laser printer, and this is best framed honestly as a specialty travel and light-duty pick rather than a primary home-office printer. If your desk truly cannot spare any footprint, this is the pick, but a Canon PIXMA or Brother laser will serve better as a daily-use primary printer.",
+      "This inkless thermal printer is the smallest and lightest device in this list by a wide margin, small enough to tuck in a drawer rather than occupy permanent desk space. It supports full 8.5 x 11-inch US Letter and A4 pages via 300 DPI thermal printing and pairs over Bluetooth with iOS, Android, and laptops.\n\nBecause it uses heat-sensitive thermal paper instead of ink or toner, print quality and longevity are not comparable to an inkjet or laser printer, and this is best framed honestly as a specialty travel and light-duty pick rather than a primary home-office printer. If your desk truly cannot spare any footprint, this is the pick, but a Canon PIXMA or Brother laser will serve better as a daily-use primary printer.\n\nWorth calling out specifically: genuinely portable for travel or car use. The catch is requires proprietary thermal paper, not standard copy paper.",
     specs: [
       "Inkless thermal printing, 300 DPI",
       "Supports 8.5 x 11\" Letter and A4",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure your desk width against the real printer footprint",
-    explanation:
-      "A printer around 17 inches wide occupies well over half of a standard 30-inch-wide desk before you factor in paper tray extension. Measure your actual available desk width, not just the listed printer dimensions, and subtract space for a keyboard and mouse before assuming a printer will fit.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a compact printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Compact usually means a smaller paper tray, not just a smaller body",
-    explanation:
-      "Most compact printers trade paper tray capacity for a smaller footprint, often holding well under a standard 500-sheet ream. If you print in batches, plan on refilling the tray more often than you would with a full-size office printer rather than assuming compact means equally convenient.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the compact printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Compare footprint across print technology, not just within it",
-    explanation:
-      "A compact mono laser printer like the Brother HL-L2405W can have a smaller physical footprint than a compact inkjet all-in-one, since it skips the scanner bed and ink cartridge housing entirely. If scanning isn't a daily need, a laser-only printer may free up more desk space than a compact inkjet AIO.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this compact printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Budget real time for first-time mobile print setup",
-    explanation:
-      "Pairing a printer with the Canon PRINT or HP Smart app is rarely instant for first-time users, expect to create an account, connect to wifi, and confirm a test print before it's reliable. Budget 10-15 minutes for initial setup rather than assuming it's a 2-minute plug-and-play process.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any compact printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check paper size support before buying",
-    explanation:
-      "Nearly every compact printer supports Letter and A4 only, with no legal or tabloid size option. If you occasionally need to print larger documents, confirm this limitation before buying rather than discovering it after the printer is already on your desk.",
-  },
-  {
-    criterion: "Match ink or toner type to how often you actually print",
-    explanation:
-      "Inkjet cartridges can dry out after just 2-4 weeks of inactivity, wasting ink on cleaning cycles when you finally do print. If your printing is occasional rather than regular, a mono laser printer with toner that doesn't dry out, or an ink-tank model, avoids this hidden cost entirely.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A compact printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,90 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Desk Width",
-    intro:
-      "A printer's real footprint, tray extended, is bigger than its boxed dimensions. Match your available desk width to the picks below rather than guessing.",
-    table: {
-      headers: ["Available desk width", "Recommended pick", "Why"],
-      rows: [
-        ["Under 24 inches, very tight", "Inkless Portable Thermal Printer", "Smallest device in this list by a wide margin"],
-        ["24-30 inches, standard small desk", "Canon PIXMA TS3720 or Brother HL-L2405W", "Smallest footprints among full-function picks"],
-        ["30-36 inches, some room to spare", "Canon PIXMA TS4320 or TS6520", "Compact AIO with duplex and full features"],
-        ["36 inches+, footprint not a constraint", "Epson EcoTank ET-2800", "Largest footprint here but lowest long-term cost per page"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Print Technology",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $54",
+          "Inkless Portable Bluetooth Thermal Printer"
+        ],
+        [
+          "Up to $200",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Inkless Portable Bluetooth Thermal Printer vs Epson EcoTank ET",
+    "cards": [
       {
-        label: "Want the smallest true footprint",
-        text: "The Brother HL-L2405W mono laser skips the scanner bed and ink housing, making it smaller than most compact inkjet AIOs, though it's print-only with no scan or copy.",
+        "label": "Inkless Portable Bluetooth Thermal Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want low cost per page and print often",
-        text: "The Epson EcoTank ET-2800's refillable ink tanks cut cost per page significantly, worth the larger footprint if you print regularly rather than occasionally.",
-      },
-      {
-        label: "Want full print, scan, and copy in one small unit",
-        text: "The Canon PIXMA TS4320 or TR4720 cover the standard AIO functions in a genuinely compact inkjet body.",
-      },
-      {
-        label: "Need something small enough to store in a drawer",
-        text: "The inkless thermal printer is the only pick here you can realistically tuck away between uses rather than leaving on the desk permanently.",
-      },
+        "label": "Epson EcoTank ET",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Inkless Portable Bluetooth Thermal Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Paper Tray Capacity vs. Refill Frequency",
-    intro:
-      "Every compact printer in this list holds well under a standard 500-sheet ream, so refill frequency scales with how much you print in a sitting.",
-    table: {
-      headers: ["Typical print batch", "What to expect", "Best-suited pick"],
-      rows: [
-        ["A few pages at a time", "Tray refills rarely needed", "Any pick in this list"],
-        ["20-50 pages in one sitting", "Refill roughly once a week for light compact trays", "Canon PIXMA TS4320 or TS6520"],
-        ["Frequent multi-page print jobs", "Consider a larger-tray option outside this compact category if volume grows", "Epson EcoTank ET-2800 (larger tank capacity offsets some refill frequency)"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of the picks here match a full-size office printer's tray capacity. If you consistently print more than a light home-office volume, a compact printer will mean refilling paper more often, plan for that rather than being surprised by it.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "First-Time Mobile Print Setup",
-    intro:
-      "Wireless pairing for compact printers routes through a manufacturer app, and it's rarely a 2-minute process the first time.",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Canon PIXMA models (TS4320, TS6520, TR4720, TS3720)",
-        text: "Download the Canon PRINT app, create an account if prompted, connect the printer to your wifi network, and run a test print. Budget about 10 minutes.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "HP DeskJet 4355",
-        text: "Pairs through the HP Smart app with a similar wifi connection flow, plus an optional Instant Ink account setup if you want to activate the included trial.",
-      },
-      {
-        label: "Brother HL-L2405W",
-        text: "Supports wireless setup and Alexa pairing separately, both are straightforward but are two separate steps if you want voice printing.",
-      },
-      {
-        label: "Inkless thermal printer",
-        text: "Pairs over Bluetooth directly with a phone or laptop, generally the fastest setup of any pick here since it skips wifi network configuration entirely.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Canon PIXMA TS4320 Wireless Color Inkjet Printer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "When Compact Isn't Actually the Right Category",
-    intro:
-      "A compact printer isn't always the right answer even on a small desk.",
-    table: {
-      headers: ["Situation", "Better fit than a compact printer", "Why"],
-      rows: [
-        ["Need legal or tabloid paper support", "A larger-format printer outside this list", "No compact pick here supports legal or tabloid sizes"],
-        ["Print 500+ pages per month", "A higher-capacity office printer", "Compact trays require too-frequent refilling at that volume"],
-        ["Need a document feeder for multi-page scans regularly", "Canon PIXMA TR4720", "The only pick here with an ADF"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Epson EcoTank ET's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Inkless Portable Bluetooth Thermal Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

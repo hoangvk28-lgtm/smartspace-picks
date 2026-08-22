@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31irI2uhBtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B001YJGDY8?tag=deskfinds0d-20",
     description:
-      "This is the one genuinely relevant product for this search, an armrest-mounted cup holder originally designed for wheelchairs and mobility scooters but compatible with many standard office chair armrests given its 'nearly universal' fit claim and strong review history.\n\nBe aware this attaches to your existing chair's armrest rather than being a built-in feature, so verify your specific chair's armrest shape and width before ordering.",
+      "This is the one genuinely relevant product for this search, an armrest-mounted cup holder originally designed for wheelchairs and mobility scooters but compatible with many standard office chair armrests given its 'nearly universal' fit claim and strong review history.\n\nBe aware this attaches to your existing chair's armrest rather than being a built-in feature, so verify your specific chair's armrest shape and width before ordering.\n\nStrong review history. That's a real strength, but weigh it against the flip side: not a built-in chair feature, an add-on accessory.",
     specs: ["Armrest-mounted clamp", "Nearly universal fit per listing", "Originally designed for wheelchairs/scooters", "Compatible with many standard chair armrests"],
     pros: ["Genuinely the most relevant product for this exact search", "Strong review history", "Attaches to your existing chair", "Affordable"],
     cons: ["Not a built-in chair feature, an add-on accessory", "Fit varies by your specific armrest shape", "Originally marketed for mobility devices, not office chairs"],
@@ -84,39 +84,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "The Honest Reality of This Search",
-    note: "A genuine office desk chair with a built-in cup holder is uncommon. If you specifically need this exact feature, your realistic best option is pairing a well-reviewed chair with a compatible clamp-on armrest cup holder accessory, rather than expecting to find both combined in one product.",
-  },
-  {
-    subheading: "Choose Your Approach",
-    table: {
-      headers: ["What you want", "Recommended approach"],
-      rows: [
-        ["Add a cup holder to your existing chair", "Wheelchair Cup Holder for Armrests"],
-        ["A well-reviewed leather chair to pair with the accessory", "NEO CHAIR PU Leather Office Desk Chair"],
-        ["A well-reviewed breathable mesh chair to pair with the accessory", "NEO CHAIR Ergonomic Mesh Chair"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "NEO CHAIR Office Desk Chair"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Wheelchair Cup Holder for Armrests"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Check Armrest Compatibility Before Buying Both Together",
-    cards: [
-      { label: "Fixed, solid armrests", text: "Generally easier for a clamp accessory to grip securely, like the PU leather NEO CHAIR pick." },
-      { label: "Flip-up or contoured armrests", text: "May complicate clamp fit depending on exact shape; verify compatibility before ordering both together." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $22",
+          "Wheelchair Cup Holder for Armrests"
+        ],
+        [
+          "Up to $70",
+          "NEO CHAIR PU Leather Office Desk Chair with Adjustable Arms"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Wheelchair Cup Holder for Armrests vs NEO CHAIR PU Leather Office Desk Chair with Adjustable Arms",
+    "cards": [
+      {
+        "label": "Wheelchair Cup Holder for Armrests",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "NEO CHAIR PU Leather Office Desk Chair with Adjustable Arms",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Wheelchair Cup Holder for Armrests unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Alternative: A Desk-Clamped Cup Holder Instead",
-    note: "If pairing a chair accessory feels impractical, a standard desk-edge-clamped cup holder from our general desk cup holder guide may better serve the same underlying need, staying fixed regardless of how you sit or move in your chair.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Wheelchair Cup Holder for Armrests"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Wheelchair Cup Holder for Armrests is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where NEO CHAIR PU Leather Office Desk Chair with Adjustable Arms's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Wheelchair Cup Holder for Armrests covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't expect a built-in cup holder from a standard office chair", explanation: "This feature is rare on genuine desk chairs. If it's a hard requirement, plan to pair a chair with a separate clamp-on armrest accessory instead." },
-  { criterion: "Verify armrest compatibility before buying a clamp accessory", explanation: "Fit varies by your specific chair's armrest width and shape. Fixed, solid armrests generally work better than flip-up or heavily contoured designs." },
-  { criterion: "Evaluate the chair on its own merits separately from the cup holder question", explanation: "Choose your chair based on its genuine comfort, support, and review history, then address the cup holder need as a separate accessory decision." },
-  { criterion: "Consider a desk-clamped holder as a simpler alternative", explanation: "A cup holder clamped to your desk edge stays fixed regardless of how you move in your chair, potentially a more reliable solution than a chair-mounted accessory." },
-  { criterion: "Check swivel and recline compatibility if you do add a chair accessory", explanation: "A chair-mounted cup holder experiences different motion-related spill risk during swiveling or reclining than a static desk-mounted holder." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a desk chairs with cup holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the desk chairs with cup holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this desk chairs with cup holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any desk chairs with cup holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A desk chairs with cup holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The TR4720 is a wireless all-in-one with an auto document feeder, which is a genuinely useful feature at this price for scanning multi-page documents straight from an iPhone camera roll or a stack of paper. It supports standard wireless printing over the same network your iPhone or iPad connects to, and the Canon PRINT app adds scan-to-cloud and mobile document capture on top of that.\n\nBuilt-in fax is a legacy feature most buyers will never use, but it does not add meaningfully to the cost. The compact footprint and low price make it a sensible starting point for a shared apartment or dorm printer that mainly needs to handle occasional iOS printing rather than heavy daily volume.",
+      "The TR4720 is a wireless all-in-one with an auto document feeder, which is a genuinely useful feature at this price for scanning multi-page documents straight from an iPhone camera roll or a stack of paper. It supports standard wireless printing over the same network your iPhone or iPad connects to, and the Canon PRINT app adds scan-to-cloud and mobile document capture on top of that.\n\nBuilt-in fax is a legacy feature most buyers will never use, but it does not add meaningfully to the cost. The compact footprint and low price make it a sensible starting point for a shared apartment or dorm printer that mainly needs to handle occasional iOS printing rather than heavy daily volume.\n\nAuto document feeder is rare at this price. On the other hand, cartridge-based ink costs more per page over time. Neither should be a surprise once you know to look for it.",
     specs: [
       "Auto document feeder for multi-page scans",
       "Wireless network printing",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uW+KOhmiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WL4JNH7?tag=deskfinds0d-20",
     description:
-      "The TS5320 is listed with AirPrint support directly, which means it can print from an iPhone or iPad's native share sheet without opening the Canon PRINT app first, a real convenience for quick jobs like printing a boarding pass or a PDF attachment. Alexa compatibility adds voice-triggered print commands for households already using a smart speaker.\n\nThe five-color individual ink system lets you replace only the color that runs out rather than a combined cartridge, which can reduce waste over time. It lacks an automatic document feeder, so scanning multiple pages means lifting the lid and repositioning each sheet by hand.",
+      "The TS5320 is listed with AirPrint support directly, which means it can print from an iPhone or iPad's native share sheet without opening the Canon PRINT app first, a real convenience for quick jobs like printing a boarding pass or a PDF attachment. Alexa compatibility adds voice-triggered print commands for households already using a smart speaker.\n\nThe five-color individual ink system lets you replace only the color that runs out rather than a combined cartridge, which can reduce waste over time. It lacks an automatic document feeder, so scanning multiple pages means lifting the lid and repositioning each sheet by hand.\n\nIndividual ink tanks reduce waste. That's a real strength, but weigh it against the flip side: no auto document feeder for multi-page scans.",
     specs: [
       "AirPrint listed directly",
       "5-color individual ink tanks",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QF6tPh3FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07W69LJ41?tag=deskfinds0d-20",
     description:
-      "This is the white version of the TS5320, carrying the same AirPrint listing, individual ink tanks, and Alexa compatibility as its black counterpart, but in a finish that blends better with a white desk or light-colored home office. The Canon PRINT app remains available for scan-to-cloud and status monitoring beyond what AirPrint's basic print command covers.\n\nLike the black model, it uses a flatbed scanner without an auto document feeder, so bulk scanning from a stack of pages is slower than on printers with a feeder built in. For buyers whose main use case is printing directly from an iPhone or iPad rather than heavy scanning, that tradeoff matters less.",
+      "This is the white version of the TS5320, carrying the same AirPrint listing, individual ink tanks, and Alexa compatibility as its black counterpart, but in a finish that blends better with a white desk or light-colored home office. The Canon PRINT app remains available for scan-to-cloud and status monitoring beyond what AirPrint's basic print command covers.\n\nLike the black model, it uses a flatbed scanner without an auto document feeder, so bulk scanning from a stack of pages is slower than on printers with a feeder built in. For buyers whose main use case is printing directly from an iPhone or iPad rather than heavy scanning, that tradeoff matters less.\n\nWorth calling out specifically: white finish suits light desk setups. The catch is no auto document feeder.",
     specs: [
       "AirPrint listed directly",
       "5-color individual ink tanks",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800 replaces disposable ink cartridges with refillable ink tanks, which sharply lowers the cost per page for anyone printing regularly from an iPhone or iPad, such as recipes, school assignments, or travel documents. It connects over standard wireless printing and pairs with the Epson Smart Panel app for scan-to-cloud and remote print monitoring from iOS.\n\nThe upfront price is higher than a cartridge printer, but for households that print often, the ink savings typically offset that within the first year or two. It does not include an automatic document feeder, so multi-page scanning is manual.",
+      "The ET-2800 replaces disposable ink cartridges with refillable ink tanks, which sharply lowers the cost per page for anyone printing regularly from an iPhone or iPad, such as recipes, school assignments, or travel documents. It connects over standard wireless printing and pairs with the Epson Smart Panel app for scan-to-cloud and remote print monitoring from iOS.\n\nThe upfront price is higher than a cartridge printer, but for households that print often, the ink savings typically offset that within the first year or two. It does not include an automatic document feeder, so multi-page scanning is manual.\n\nNo cartridges to replace or run out of. Set against that, higher upfront price than cartridge models. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free refillable ink tanks",
       "Wireless network printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is HP's entry-level all-in-one, pairing standard wireless printing with the HP Smart app for iOS, which handles setup, print job monitoring, and mobile document scanning through the iPhone or iPad camera. HP has historically had more mixed offline-connectivity reports on forums compared to Canon and Epson, worth knowing going in even though most users won't run into it.\n\nA 3-month Instant Ink trial is included, which auto-ships replacement cartridges but converts to a paid subscription unless canceled, so mark a calendar reminder if you don't want ongoing billing. At $69.99 it is one of the cheapest ways into a wireless all-in-one for occasional iOS printing.",
+      "The DeskJet 4355 is HP's entry-level all-in-one, pairing standard wireless printing with the HP Smart app for iOS, which handles setup, print job monitoring, and mobile document scanning through the iPhone or iPad camera. HP has historically had more mixed offline-connectivity reports on forums compared to Canon and Epson, worth knowing going in even though most users won't run into it.\n\nA 3-month Instant Ink trial is included, which auto-ships replacement cartridges but converts to a paid subscription unless canceled, so mark a calendar reminder if you don't want ongoing billing. At $69.99 it is one of the cheapest ways into a wireless all-in-one for occasional iOS printing.\n\nA genuine advantage here is that hP Smart app handles setup and scanning. The tradeoff is instant Ink trial auto-converts to paid unless canceled.",
     specs: [
       "Wireless network printing",
       "HP Smart app for iOS",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LqmhjzXHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGC43YCL?tag=deskfinds0d-20",
     description:
-      "The Work Smart 1360 adds automatic duplex printing, letting an iPhone or iPad print job come out double-sided without manually flipping paper, useful for anyone printing longer documents to save paper. Its 1.8 inch color display makes checking print status and ink levels easier than squinting at small icon-only screens on cheaper models.\n\nBrother's mobile printing works through the standard iOS print flow, and a Refresh Subscription trial for ink is included, which like other ink subscription trials converts to paid billing unless canceled. Buyers wanting subscription-free ink from day one should watch for that renewal date.",
+      "The Work Smart 1360 adds automatic duplex printing, letting an iPhone or iPad print job come out double-sided without manually flipping paper, useful for anyone printing longer documents to save paper. Its 1.8 inch color display makes checking print status and ink levels easier than squinting at small icon-only screens on cheaper models.\n\nBrother's mobile printing works through the standard iOS print flow, and a Refresh Subscription trial for ink is included, which like other ink subscription trials converts to paid billing unless canceled. Buyers wanting subscription-free ink from day one should watch for that renewal date.\n\nColor display for easy status checks. On the other hand, refresh Subscription trial auto-converts unless canceled. Neither should be a surprise once you know to look for it.",
     specs: [
       "Automatic duplex printing",
       "1.8 inch color display",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 steps up from the ET-2800 with an automatic document feeder and fax, aimed at buyers who scan or copy multi-page documents regularly from an iPhone or iPad alongside printing. Like the ET-2800, it uses refillable ink tanks instead of cartridges, keeping the cost per page low for households with steady print volume.\n\nEthernet support is a nice option for a shared home office where multiple devices need a stable wired connection alongside wireless iOS printing. The Epson Smart Panel app covers remote scanning and print monitoring, matching the rest of the EcoTank lineup.",
+      "The ET-4800 steps up from the ET-2800 with an automatic document feeder and fax, aimed at buyers who scan or copy multi-page documents regularly from an iPhone or iPad alongside printing. Like the ET-2800, it uses refillable ink tanks instead of cartridges, keeping the cost per page low for households with steady print volume.\n\nEthernet support is a nice option for a shared home office where multiple devices need a stable wired connection alongside wireless iOS printing. The Epson Smart Panel app covers remote scanning and print monitoring, matching the rest of the EcoTank lineup.\n\nLow cost per page from refillable tanks. That's a real strength, but weigh it against the flip side: highest price in this list alongside the ET-2800.",
     specs: [
       "Auto document feeder",
       "Cartridge-free refillable ink tanks",
@@ -301,35 +301,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "AirPrint is not guaranteed on every wireless printer",
-    explanation:
-      "Some budget or older printer models only support printing through a manufacturer app rather than Apple's AirPrint standard. Check the specific listing for AirPrint mentioned directly, not just general wireless printing claims, before assuming your iPhone or iPad will print without installing an app first.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Manufacturer apps vary in reliability",
-    explanation:
-      "HP Smart, Canon PRINT, and Epson Smart Panel differ in setup friction and connection stability. If a printer lacks AirPrint and depends entirely on its manufacturer app, expect an extra setup step and occasional reconnection issues compared to AirPrint's plug-and-print simplicity.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "AirPrint offers fewer settings than a full driver",
-    explanation:
-      "AirPrint's share-sheet print dialog covers basics like paper size and color, but it lacks tray selection, print quality tiers, and some duplex controls that a manufacturer app or full desktop driver exposes. For advanced settings, plan to open the manufacturer's app instead of relying on the native iOS print sheet.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Printing from iCloud Photos and the Files app works differently",
-    explanation:
-      "iCloud Photos prints through the Photos app's native share sheet, while documents saved in Files or a cloud drive like Google Drive print through that app's own share sheet. Both route through AirPrint the same way, but confirm the specific app you use most has a working share-to-print option before buying.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Ink subscription trials need a cancellation reminder",
-    explanation:
-      "Several printers in this price range bundle a 1 to 3 month ink subscription trial, like HP Instant Ink or Brother Refresh Subscription, that converts to paid billing automatically. If you don't want ongoing charges, set a calendar reminder before the trial period ends.",
-  },
-  {
-    criterion: "A document feeder changes the iOS scanning workflow",
-    explanation:
-      "Printers without an auto document feeder require lifting the scanner lid and repositioning each page manually, which is slow for multi-page scans triggered from an iPhone or iPad. If you scan regularly, prioritize a model with a feeder over a slightly cheaper flatbed-only option.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -342,63 +332,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By AirPrint Confidence Level",
-    intro: "Whether you want a printer that just works from the native iOS share sheet, or don't mind opening an app first, changes which pick fits best.",
-    table: {
-      headers: ["What you need", "AirPrint status", "Best pick"],
-      rows: [
-        ["Print directly from the iOS share sheet with no app", "AirPrint listed directly", "Canon TS5320 (black or white)"],
-        ["Fine opening an app for setup and scanning", "Wireless printing plus manufacturer app", "Canon PIXMA TR4720 or HP DeskJet 4355"],
-        ["Regular high-volume printing with app-based monitoring", "Wireless printing plus Epson Smart Panel", "Epson EcoTank ET-2800 or ET-4800"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TR4720 All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Primary iOS Use Case",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $200",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Canon PIXMA TR4720 All vs Epson EcoTank ET",
+    "cards": [
       {
-        label: "Occasional documents and PDFs",
-        text: "The Canon PIXMA TR4720 covers basic iOS printing cheaply, and its auto document feeder helps if you also scan paperwork.",
+        "label": "Canon PIXMA TR4720 All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Frequent printing on a budget",
-        text: "The Epson EcoTank ET-2800 keeps cost per page low for households printing recipes, schoolwork, or travel documents often.",
-      },
-      {
-        label: "Photos from iCloud Photos",
-        text: "Any AirPrint-listed pick like the Canon TS5320 handles direct photo printing from the Photos app's share sheet without extra setup.",
-      },
-      {
-        label: "Multi-page scans of paperwork",
-        text: "The Epson EcoTank ET-4800 or Canon PIXMA TR4720, both with an auto document feeder, save time over flatbed-only scanning.",
-      },
+        "label": "Epson EcoTank ET",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TR4720 All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Manufacturer App Comparison for iOS",
-    intro: "If a printer isn't AirPrint-listed, its manufacturer app becomes your main iOS printing path.",
-    table: {
-      headers: ["App", "Used by", "iOS reliability note"],
-      rows: [
-        ["HP Smart", "HP DeskJet 4355", "Generally reliable, but HP has more reported offline-connectivity issues on forums than Canon or Epson"],
-        ["Canon PRINT", "Canon PIXMA TR4720", "Straightforward setup, adds mobile document scanning"],
-        ["Epson Smart Panel", "Epson EcoTank ET-2800, ET-4800", "Handles remote print status and cloud scan reliably"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "AirPrint-listed printers like the Canon TS5320 models can skip the app entirely for basic print jobs, using the app only for scanning or ink status.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Canon PIXMA TR4720 All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["Under $70", "Cartridge ink, no AirPrint listed", "Canon PIXMA TR4720 or HP DeskJet 4355"],
-        ["$110-$115", "AirPrint listed, no document feeder", "Canon TS5320 (black or white), Brother Work Smart 1360"],
-        ["$200", "Refillable ink tanks, higher upfront cost", "Epson EcoTank ET-2800 or ET-4800"],
-      ],
-    },
-    note: "If you print often, the EcoTank tier's ink savings typically make up the price gap within a year or two.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Canon PIXMA TR4720 All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Epson EcoTank ET's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

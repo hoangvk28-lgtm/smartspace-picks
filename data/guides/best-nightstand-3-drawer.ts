@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51fItpM0d4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJMBZ6GJ?tag=deskfinds0d-20",
     description:
-      "The Huuger 3-Drawer pairs P2 particleboard with a powder-coated steel frame, giving it three fabric drawers plus an open shelf at a mid-range 27.6\" height. A patent-pending drawer slide keeps the fabric bins running smoothly even when loaded.\n\nIt includes 2 AC outlets, 1 USB-A, and 1 USB-C port built into the side panel, and the top surface resists stains from spilled water or coffee. Its balance of height, storage, and charging makes it the most broadly practical pick in this list.",
+      "The Huuger 3-Drawer pairs P2 particleboard with a powder-coated steel frame, giving it three fabric drawers plus an open shelf at a mid-range 27.6\" height. A patent-pending drawer slide keeps the fabric bins running smoothly even when loaded.\n\nIt includes 2 AC outlets, 1 USB-A, and 1 USB-C port built into the side panel, and the top surface resists stains from spilled water or coffee. Its balance of height, storage, and charging makes it the most broadly practical pick in this list.\n\nUSB-C port alongside USB-A and AC outlets. That's a real strength, but weigh it against the flip side: no electrical safety certification listed.",
     specs: [
       "15.7\"W x 11.8\"D x 27.6\"H",
       "P2 particleboard + powder-coated steel",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ApseNQRQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLNZFYMN?tag=deskfinds0d-20",
     description:
-      "The Yoobure is the only pick in this list with both FCC and ETL certification on its electrical components, the kind of tested overcurrent, overvoltage, and short-circuit protection worth checking for on any nightstand you plan to charge a phone on overnight. An X-bar support frame keeps the wood board and metal build steady.\n\nBeyond safety, it adds 16 RGB colors and 22 lighting modes controllable by app or remote, plus 2 AC outlets and 2 USB ports. Adjustable feet help it sit level on uneven flooring.",
+      "The Yoobure is the only pick in this list with both FCC and ETL certification on its electrical components, the kind of tested overcurrent, overvoltage, and short-circuit protection worth checking for on any nightstand you plan to charge a phone on overnight. An X-bar support frame keeps the wood board and metal build steady.\n\nBeyond safety, it adds 16 RGB colors and 22 lighting modes controllable by app or remote, plus 2 AC outlets and 2 USB ports. Adjustable feet help it sit level on uneven flooring.\n\nWorth calling out specifically: 16 RGB colors and 22 lighting modes. The catch is smaller review sample than the best-selling pick.",
     specs: [
       "15.4\"W x 11.8\"D x 25.6\"H",
       "Wood board + metal frame + fabric drawers",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41AszYuX1SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2VQVH6N?tag=deskfinds0d-20",
     description:
-      "The Furnulem stands 28.3\" tall, tall enough to pair with beds that use a box spring or a thick mattress topper, and it's the only pick in this list that lets you install the charging unit three different ways: front-facing, back-facing, or left off entirely. That flexibility matters if your outlet placement or cord routing is awkward.\n\nParticleboard and a metal frame support 3 fabric drawers, 2 AC outlets, and 2 USB ports, and an anti-toppling device is included for extra stability at this height.",
+      "The Furnulem stands 28.3\" tall, tall enough to pair with beds that use a box spring or a thick mattress topper, and it's the only pick in this list that lets you install the charging unit three different ways: front-facing, back-facing, or left off entirely. That flexibility matters if your outlet placement or cord routing is awkward.\n\nParticleboard and a metal frame support 3 fabric drawers, 2 AC outlets, and 2 USB ports, and an anti-toppling device is included for extra stability at this height.\n\nTallest budget-tier pick at 28.3\". Set against that, no electrical safety certification listed. Both matter when comparing it to the other picks here.",
     specs: [
       "15.74\"W x 11.5\"D x 28.3\"H",
       "Particleboard + metal frame",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-wHgmqbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL1QKM11?tag=deskfinds0d-20",
     description:
-      "At 29.9\" tall, the SONGMICS BELLAH is the tallest nightstand in this entire list, built to match beds with a box spring or a raised mattress setup. Particleboard, steel, and a PVC leather finish combine for a sturdier, higher-capacity frame than most particleboard-only competitors, rated for 66 lbs.\n\nIt also has the most charging ports here, 2 AC outlets, 2 USB-A, and 1 USB-C, plus app-controlled LED with music sync. An anti-tip kit is included given its height.",
+      "At 29.9\" tall, the SONGMICS BELLAH is the tallest nightstand in this entire list, built to match beds with a box spring or a raised mattress setup. Particleboard, steel, and a PVC leather finish combine for a sturdier, higher-capacity frame than most particleboard-only competitors, rated for 66 lbs.\n\nIt also has the most charging ports here, 2 AC outlets, 2 USB-A, and 1 USB-C, plus app-controlled LED with music sync. An anti-tip kit is included given its height.\n\nA genuine advantage here is that most charging ports at 5 total, including USB-C. The tradeoff is no electrical safety certification listed.",
     specs: [
       "15.6\"W x 11.8\"D x 29.9\"H (tallest in this list)",
       "Particleboard + steel + PVC leather",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rwL5XOy0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB1CWRKW?tag=deskfinds0d-20",
     description:
-      "The Lazzanto in black runs the most capable LED control system in this list, with voice, app, timer, and music-sync modes rather than just a basic color cycle. Particleboard and metal frame the 3 fabric drawers, and rounded corners cut down on bumped-shin incidents in a dark bedroom.\n\nAt 29.4\" tall it suits raised beds, and it carries a 50 lb capacity rating, the highest explicitly rated capacity among the standard-width picks here. A water-resistant tabletop rounds out the build.",
+      "The Lazzanto in black runs the most capable LED control system in this list, with voice, app, timer, and music-sync modes rather than just a basic color cycle. Particleboard and metal frame the 3 fabric drawers, and rounded corners cut down on bumped-shin incidents in a dark bedroom.\n\nAt 29.4\" tall it suits raised beds, and it carries a 50 lb capacity rating, the highest explicitly rated capacity among the standard-width picks here. A water-resistant tabletop rounds out the build.\n\n50 lb capacity, highest among standard-width picks. On the other hand, no electrical safety certification listed. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.6\"W x 11.4\"D x 29.4\"H",
       "Particleboard + metal frame",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31YBCOBtEBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB1CJVMS?tag=deskfinds0d-20",
     description:
-      "This is the white version of the Lazzanto above, with identical specs down to the 50 lb capacity rating and the same voice, app, timer, and music-sync LED modes. It exists mainly for buyers who want the same feature set in a lighter finish to match a white bedroom set.\n\nParticleboard and metal construction, a water-resistant tabletop, and rounded corners carry over unchanged, along with 2 AC outlets and 2 USB ports for overnight charging.",
+      "This is the white version of the Lazzanto above, with identical specs down to the 50 lb capacity rating and the same voice, app, timer, and music-sync LED modes. It exists mainly for buyers who want the same feature set in a lighter finish to match a white bedroom set.\n\nParticleboard and metal construction, a water-resistant tabletop, and rounded corners carry over unchanged, along with 2 AC outlets and 2 USB ports for overnight charging.\n\n50 lb capacity. That's a real strength, but weigh it against the flip side: priced higher than the black version for the same specs.",
     specs: [
       "15.6\"W x 11.4\"D x 29.4\"H",
       "Particleboard + metal frame",
@@ -256,7 +256,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41L43wI7O6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP64LYTG?tag=deskfinds0d-20",
     description:
-      "The WLIVE Tall is built wider and deeper than every other pick here, at 22.99\" wide with 13.78\"-deep drawers, giving it noticeably more usable storage per drawer than the standard 15-16\" wide nightstands in this list. Engineered wood construction is rated for 110 lbs, the highest capacity in this entire guide.\n\nAt 29.06\" tall it works with raised beds, and it includes 2 AC outlets and 2 USB ports along with a waterproof top and smooth metal drawer glides. The extra footprint means it needs more floor space than the compact picks.",
+      "The WLIVE Tall is built wider and deeper than every other pick here, at 22.99\" wide with 13.78\"-deep drawers, giving it noticeably more usable storage per drawer than the standard 15-16\" wide nightstands in this list. Engineered wood construction is rated for 110 lbs, the highest capacity in this entire guide.\n\nAt 29.06\" tall it works with raised beds, and it includes 2 AC outlets and 2 USB ports along with a waterproof top and smooth metal drawer glides. The extra footprint means it needs more floor space than the compact picks.\n\nWorth calling out specifically: widest footprint and deepest drawers for more storage. The catch is most expensive single-unit pick in this list.",
     specs: [
       "22.99\"W x 15.59\"D x 29.06\"H (widest in this list)",
       "Engineered wood",
@@ -288,7 +288,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ETD0+viBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4X6WGN5?tag=deskfinds0d-20",
     description:
-      "This is the only set-of-2 pick in this list, giving both sides of the bed a matching nightstand at 23.62\" wide and 23.62\" tall each. Engineered wood with a smooth paint finish and reinforced panels gives it the most premium look and feel here, closer to furniture-store finish quality than the budget particleboard picks.\n\nEach table includes 3 deep drawers along with 2 AC outlets, 1 USB-A, and 1 USB-C port, so both sides of the bed get identical charging access without buying two separate nightstands.",
+      "This is the only set-of-2 pick in this list, giving both sides of the bed a matching nightstand at 23.62\" wide and 23.62\" tall each. Engineered wood with a smooth paint finish and reinforced panels gives it the most premium look and feel here, closer to furniture-store finish quality than the budget particleboard picks.\n\nEach table includes 3 deep drawers along with 2 AC outlets, 1 USB-A, and 1 USB-C port, so both sides of the bed get identical charging access without buying two separate nightstands.\n\nMost premium paint finish and reinforced panels. Set against that, most expensive pick in this list by a wide margin. Both matter when comparing it to the other picks here.",
     specs: [
       "23.62\"W x 15.75\"D x 23.62\"H per table",
       "Engineered wood, smooth paint finish",
@@ -341,111 +341,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match nightstand height to mattress-top height, not bed frame height",
-    explanation:
-      "The top of your nightstand should land within 2-4 inches of where your mattress top sits, not the bed frame itself. Standard nightstands run 23-28\"H; a unit shorter than 23\" suits a low platform bed, while one taller than 28-30\"H is meant for beds with a box spring or a thick mattress topper that raises the sleeping surface higher.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 3 drawer nightstand often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Never charge overnight without a listed electrical certification",
-    explanation:
-      "If a nightstand has any built-in charging feature, only trust units with a UL or ETL listing on the electrical components, which indicates tested overcurrent, overvoltage, short-circuit, and over-temperature protection. Plugging a phone into an uncertified built-in outlet overnight is a real fire risk worth checking before you buy, not after.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 3 drawer nightstand holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "USB-C matters more than USB-A port count in 2026",
-    explanation:
-      "Most current phones and laptops charge over USB-C, so a nightstand with only USB-A ports is now the less useful configuration for most buyers. Prioritize a unit with at least one USB-C port over one with more total USB-A ports.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 3 drawer nightstand over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Check weight capacity if you're loading real books, not just decor",
-    explanation:
-      "Plain particleboard or MDF drawers and shelves typically cap out around 30-50 lbs, while steel-reinforced frames or units with FCC/ETL certification often rate higher, in the 66-110+ lb range. If you're stacking hardcovers or heavier items, check the specific capacity rating rather than assuming any drawer labeled a nightstand can handle it.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 3 drawer nightstand you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "A 3rd drawer adds sorting space, but also adds height and footprint",
-    explanation:
-      "Going from 2 to 3 drawers usually adds several inches of height and sometimes width, which can push a nightstand above the ideal mattress-top range. If your current 2-drawer table already fits your bed height well, size up carefully rather than assuming more drawers is automatically better.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 3 drawer nightstand that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Mattress-Top Height",
-    intro:
-      "Measure from the floor to the top of your mattress, not the bed frame, then match that number to a nightstand within 2-4 inches of it.",
-    table: {
-      headers: ["Mattress-top height", "Nightstand height needed", "Best pick"],
-      rows: [
-        ["Low platform bed, under 24\"", "23-25.6\"H", "Yoobure 3-Drawer White LED"],
-        ["Standard bed, 24-27\"", "27.6\"H", "Huuger 3-Drawer Rustic Brown"],
-        ["Box spring or thick topper, 27-30\"", "28.3-29.9\"H", "Furnulem, SONGMICS BELLAH, Lazzanto (black or white)"],
-        ["Tall raised bed, 29\"+", "29.06\"H", "WLIVE Tall 3-Drawer Espresso"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Huuger 3"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Huuger 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Charging Needs",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "Furnulem 3"
+        ],
+        [
+          "Up to $250",
+          "Huuger Paint 3"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Furnulem 3 vs Huuger Paint 3",
+    "cards": [
       {
-        label: "Want certified, tested electrical safety",
-        text: "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, worth the priority if you plan to charge devices overnight.",
+        "label": "Furnulem 3",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want the most ports available",
-        text: "The SONGMICS BELLAH packs 5 total ports, 2 AC, 2 USB-A, and 1 USB-C, more than any other pick here.",
-      },
-      {
-        label: "Want flexible charging-unit placement",
-        text: "The Furnulem lets you install the charging unit front-facing, back-facing, or skip it entirely, useful if your outlet is in an awkward spot.",
-      },
-      {
-        label: "Don't need built-in charging at all",
-        text: "If you'd rather avoid trusting an uncertified charging unit, the WLIVE Tall still includes ports but its main strength is capacity, so it's a fine pick even if you plan to skip using the charging feature.",
-      },
+        "label": "Huuger Paint 3",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Furnulem 3 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Weight Capacity Needs",
-    intro:
-      "If you're storing real books or heavier items rather than light decor, prioritize the picks with explicitly rated higher capacity.",
-    table: {
-      headers: ["What you're storing", "Capacity needed", "Best pick"],
-      rows: [
-        ["Phone, glasses, light decor", "Under 30 lbs", "Any pick in this list"],
-        ["A modest stack of books", "50-66 lbs", "SONGMICS BELLAH, Lazzanto (black or white)"],
-        ["Heavy books or stored items", "100 lbs+", "WLIVE Tall 3-Drawer Espresso (110 lbs)"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Huuger 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Room and Bedroom Style",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Want a matching pair for both sides of the bed",
-        text: "The Huuger Paint Set of 2 is the only matched-pair pick in this list, giving both sides identical charging setups and a more premium paint finish.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Want the most advanced LED lighting",
-        text: "The Lazzanto in black or white runs voice, app, timer, and music-sync LED modes, the most capable lighting control in this list.",
-      },
-      {
-        label: "Want maximum storage in a single table",
-        text: "The WLIVE Tall's 22.99\" width and 13.78\"-deep drawers hold noticeably more than the standard 15-16\" wide picks.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Huuger 3 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Certification Quick Reference",
-    intro:
-      "Only one pick in this guide carries a listed electrical certification. If overnight charging safety is your top priority, start there.",
-    table: {
-      headers: ["Pick", "Certification", "What it means"],
-      rows: [
-        ["Yoobure 3-Drawer White LED", "FCC & ETL certified", "Tested overcurrent, overvoltage, short-circuit, and over-temperature protection"],
-        ["All other picks in this list", "None listed", "Charging ports and LED are functional but not independently safety-tested"],
-      ],
-    },
-    note: "If a nightstand's listing doesn't mention UL, ETL, or FCC certification on the electrical parts, treat that as a gap, not a guarantee of safety, especially for overnight use.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Huuger Paint 3's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Furnulem 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

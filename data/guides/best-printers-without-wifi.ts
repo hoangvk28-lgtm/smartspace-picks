@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316tpuWileL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D96T79YF?tag=deskfinds0d-20",
     description:
-      "This is the one printer in this guide that's genuinely wireless-free by design, its listing states wired connection only with a USB cable included, no wifi radio to disable or worry about. Automatic duplex printing and fast laser text output round out a solid home-office pick for anyone who wants wifi off the table permanently, not just switched off in a menu.\n\nBecause it's a monochrome laser, there's no ink to dry out during infrequent use, and print quality for text stays sharp regardless of connection type. It won't scan or copy, this is a print-only device, so pair it with a separate scanner if you need those functions.",
+      "This is the one printer in this guide that's genuinely wireless-free by design, its listing states wired connection only with a USB cable included, no wifi radio to disable or worry about. Automatic duplex printing and fast laser text output round out a solid home-office pick for anyone who wants wifi off the table permanently, not just switched off in a menu.\n\nBecause it's a monochrome laser, there's no ink to dry out during infrequent use, and print quality for text stays sharp regardless of connection type. It won't scan or copy, this is a print-only device, so pair it with a separate scanner if you need those functions.\n\nFast, sharp laser text output. Set against that, print only, no scan or copy. Both matter when comparing it to the other picks here.",
     specs: [
       "Wired connection only, no wifi radio",
       "USB cable included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "This is a wifi-capable printer, not a wireless-free one, but its wifi radio can be switched off in the settings menu while keeping full functionality over its USB-B wired connection. That flexibility is worth having, if you later decide you want wireless printing after all, it's already built in rather than requiring a new printer.\n\nAs a monochrome laser with duplex printing, copy, and scan built in, it's a fuller-featured option than the wired-only HP pick above for buyers willing to run it with wifi disabled. Works with Alexa is a wireless-dependent feature that won't function with wifi off, worth knowing if that's part of your household setup.",
+      "This is a wifi-capable printer, not a wireless-free one, but its wifi radio can be switched off in the settings menu while keeping full functionality over its USB-B wired connection. That flexibility is worth having, if you later decide you want wireless printing after all, it's already built in rather than requiring a new printer.\n\nAs a monochrome laser with duplex printing, copy, and scan built in, it's a fuller-featured option than the wired-only HP pick above for buyers willing to run it with wifi disabled. Works with Alexa is a wireless-dependent feature that won't function with wifi off, worth knowing if that's part of your household setup.\n\nA genuine advantage here is that fast, sharp laser text output. The tradeoff is not wireless-free by design, wifi has to be manually disabled.",
     specs: [
       "Wifi-capable, can be disabled in settings",
       "USB-B wired connection remains fully functional",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "This wifi-capable color laser can be run wired-only over its USB-B connection with wifi disabled in the settings, a reasonable choice if you want color laser output without keeping the wireless radio active. At 35 PPM it's the fastest pick in this guide, useful for a small office with real print volume.\n\nAuto document feeder, scanner, copier, and fax are all included, making this the most feature-complete option here for a buyer who specifically needs color and speed and doesn't mind managing wifi settings themselves. The 3-year limited warranty is a meaningful backing at this price point.",
+      "This wifi-capable color laser can be run wired-only over its USB-B connection with wifi disabled in the settings, a reasonable choice if you want color laser output without keeping the wireless radio active. At 35 PPM it's the fastest pick in this guide, useful for a small office with real print volume.\n\nAuto document feeder, scanner, copier, and fax are all included, making this the most feature-complete option here for a buyer who specifically needs color and speed and doesn't mind managing wifi settings themselves. The 3-year limited warranty is a meaningful backing at this price point.\n\nFull functionality over wired USB-B with wifi off. On the other hand, not wireless-free by design. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wifi-capable, can be disabled in settings",
       "USB-B wired connection remains fully functional",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411M0mBMPwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FN93WW7?tag=deskfinds0d-20",
     description:
-      "This listing explicitly calls out USB Connect alongside its wireless capability, and like the other wifi-capable picks here, its wifi radio can be turned off while the USB-B connection continues to work normally for computer printing. It's the photo-focused option in this guide, worth considering if inkjet color and photo quality matter more to you than laser speed.\n\nDuplex printing, scan, and copy are all included. Since it's an inkjet rather than a laser, plan to run occasional nozzle-check cycles if it sits idle for more than a couple of weeks, regardless of whether wifi is enabled or disabled.",
+      "This listing explicitly calls out USB Connect alongside its wireless capability, and like the other wifi-capable picks here, its wifi radio can be turned off while the USB-B connection continues to work normally for computer printing. It's the photo-focused option in this guide, worth considering if inkjet color and photo quality matter more to you than laser speed.\n\nDuplex printing, scan, and copy are all included. Since it's an inkjet rather than a laser, plan to run occasional nozzle-check cycles if it sits idle for more than a couple of weeks, regardless of whether wifi is enabled or disabled.\n\nStrong photo printing quality. That's a real strength, but weigh it against the flip side: not wireless-free by design.",
     specs: [
       "USB Connect stated directly on listing",
       "Wifi-capable, can be disabled in settings",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qSvRweBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01IIOMMRS?tag=deskfinds0d-20",
     description:
-      "The MAXIFY MB2720 is a wifi-capable business printer that can be run over its wired USB-B connection with wifi disabled, keeping scanner, copier, and fax functions fully intact. It's a mid-priced option for a small office that wants a fuller feature set than the basic wired HP LaserJet pick without the cost of the Canon color laser above.\n\nAs a business-oriented model, it's built for steadier daily use than typical home inkjets. If fax specifically is a requirement for your office and you'd rather keep wifi off, this covers that need at a reasonable price.",
+      "The MAXIFY MB2720 is a wifi-capable business printer that can be run over its wired USB-B connection with wifi disabled, keeping scanner, copier, and fax functions fully intact. It's a mid-priced option for a small office that wants a fuller feature set than the basic wired HP LaserJet pick without the cost of the Canon color laser above.\n\nAs a business-oriented model, it's built for steadier daily use than typical home inkjets. If fax specifically is a requirement for your office and you'd rather keep wifi off, this covers that need at a reasonable price.\n\nWorth calling out specifically: full functionality over wired USB-B with wifi off. The catch is not wireless-free by design.",
     specs: [
       "Wifi-capable, can be disabled in settings",
       "USB-B wired connection remains fully functional",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31C067ZosFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCCWV6T?tag=deskfinds0d-20",
     description:
-      "This wifi-capable INKvestment inkjet can run wired-only over USB-B with wifi disabled, while keeping its higher-yield ink cartridge system, INKvestment cartridges are designed to reduce how often you replace ink compared to standard inkjet cartridges. Its 1.8-inch color display and manual feed slot round out a practical everyday feature set.\n\nManual feed slot support means you can run occasional cardstock or envelopes through separately from the main tray, useful for a small office or home setup even with wifi turned off.",
+      "This wifi-capable INKvestment inkjet can run wired-only over USB-B with wifi disabled, while keeping its higher-yield ink cartridge system, INKvestment cartridges are designed to reduce how often you replace ink compared to standard inkjet cartridges. Its 1.8-inch color display and manual feed slot round out a practical everyday feature set.\n\nManual feed slot support means you can run occasional cardstock or envelopes through separately from the main tray, useful for a small office or home setup even with wifi turned off.\n\nFull functionality over wired USB-B with wifi off. Set against that, not wireless-free by design. Both matter when comparing it to the other picks here.",
     specs: [
       "Wifi-capable, can be disabled in settings",
       "USB-B wired connection remains fully functional",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "This step-up INKvestment model adds a 2.7-inch color touchscreen and automatic 2-sided copy and scan on top of the same higher-yield ink system as the INKvestment 4355 above, all fully usable over a wired USB-B connection with wifi switched off. The larger touchscreen makes navigating settings, including turning wifi off in the first place, noticeably easier than a basic button interface.\n\nAutomatic duplex scanning is a genuine convenience for multi-page documents that the more basic picks in this guide don't offer, worth the price step up if document scanning is part of your regular workflow.",
+      "This step-up INKvestment model adds a 2.7-inch color touchscreen and automatic 2-sided copy and scan on top of the same higher-yield ink system as the INKvestment 4355 above, all fully usable over a wired USB-B connection with wifi switched off. The larger touchscreen makes navigating settings, including turning wifi off in the first place, noticeably easier than a basic button interface.\n\nAutomatic duplex scanning is a genuine convenience for multi-page documents that the more basic picks in this guide don't offer, worth the price step up if document scanning is part of your regular workflow.\n\nA genuine advantage here is that automatic duplex scanning included. The tradeoff is not wireless-free by design.",
     specs: [
       "Wifi-capable, can be disabled in settings",
       "USB-B wired connection remains fully functional",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MCIwNDseL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFLM562?tag=deskfinds0d-20",
     description:
-      "The most fully-featured pick in this guide, this wifi-capable OfficeJet Pro includes fax, ADF, and duplex print and scan, all of which continue to work over its wired USB-B connection with wifi disabled. It's positioned for office-level volume, worth the higher price if you need every feature here rather than a subset.\n\nThe 3-month Instant Ink trial and AI-capable features are wireless-adjacent conveniences that mostly assume an active internet connection, so factor that in if you plan to keep wifi off long-term, some smart features may not function as intended without it.",
+      "The most fully-featured pick in this guide, this wifi-capable OfficeJet Pro includes fax, ADF, and duplex print and scan, all of which continue to work over its wired USB-B connection with wifi disabled. It's positioned for office-level volume, worth the higher price if you need every feature here rather than a subset.\n\nThe 3-month Instant Ink trial and AI-capable features are wireless-adjacent conveniences that mostly assume an active internet connection, so factor that in if you plan to keep wifi off long-term, some smart features may not function as intended without it.\n\nFull core printing functionality over wired USB-B with wifi off. On the other hand, not wireless-free by design. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wifi-capable, can be disabled in settings",
       "USB-B wired connection remains fully functional",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Only 1 of these 8 picks is genuinely wireless-free",
-    explanation:
-      "The HP LaserJet M209d is the only printer in this guide with no wifi radio at all, wired connection only, straight from the listing. The other 7 are wifi-capable printers that can be run with wifi disabled, a legitimate strategy, but a different thing than buying a printer that was never wireless to begin with.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer without wifi often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "\"No wifi is more secure\" is an overstated claim",
-    explanation:
-      "A USB-connected printer still has memory and firmware that's reachable and potentially exploitable via a compromised computer, and many wired printers still retain Bluetooth even with wifi disabled or absent. Going wired-only reduces one attack surface, network-based access, but it isn't a complete security solution on its own.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer without wifi holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "A wired USB printer serves one computer at a time",
-    explanation:
-      "Without wifi, sharing a printer across multiple computers in a household or small office means manually unplugging and replugging the USB cable, or investing in a USB switch box that lets 2 to 4 computers share one printer. Plan for this upfront if more than one person needs to print.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer without wifi over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "USB-B cable length maxes out around 5 meters",
-    explanation:
-      "Standard USB-B cables are only reliable up to roughly 5 meters (about 16 feet) before signal quality degrades, which matters if you're placing a wired printer far from the desk it needs to be plugged into. An active USB extender can push that distance further if needed.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer without wifi you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Windows 11's generic USB driver may not unlock every feature",
-    explanation:
-      "Windows 11 often auto-installs a generic USB print driver the moment you plug in a wired printer, which handles basic printing but can lack full support for scan, fax, or special print modes compared to installing the manufacturer's full OEM driver. Download the complete driver package from the manufacturer's site rather than relying on the auto-detected generic one.",
-  },
-  {
-    criterion: "Buying wifi-capable and disabling it keeps your options open",
-    explanation:
-      "7 of the 8 picks in this guide are wifi-capable printers you can run wired-only today by switching wifi off in the settings menu, without losing the ability to turn it back on later if your needs change. This is often a more flexible choice than a dedicated wired-only model, especially since wired-only options like the HP LaserJet M209d are increasingly rare.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer without wifi that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,79 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Wireless-Free vs. Wifi-Off, by Pick",
-    intro:
-      "Only 1 printer here has no wifi radio at all. The rest are wifi-capable printers that work fine with wifi manually disabled.",
-    table: {
-      headers: ["Printer", "Wireless-free or wifi-off?", "Best for"],
-      rows: [
-        ["HP LaserJet M209d", "Genuinely wireless-free, no wifi radio", "Buyers who want wifi off the table permanently"],
-        ["Brother DCP-L2640DW", "Wifi-capable, disable in settings", "Fuller-featured laser AIO with wifi off"],
-        ["Canon imageCLASS MF753Cdw II", "Wifi-capable, disable in settings", "Fast color laser with wifi off"],
-        ["Epson XP-7100", "Wifi-capable, disable in settings", "Photo printing with wifi off"],
-        ["Canon MAXIFY MB2720", "Wifi-capable, disable in settings", "Office fax with wifi off"],
-        ["Brother INKvestment 4355", "Wifi-capable, disable in settings", "Lower-frequency ink replacement, wired"],
-        ["Brother INKvestment 5010", "Wifi-capable, disable in settings", "Touchscreen wifi control, duplex scanning"],
-        ["HP OfficeJet Pro 9135", "Wifi-capable, disable in settings", "Full-featured high-volume office use"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If having zero wifi hardware matters to you specifically, the HP LaserJet M209d is the only pick here that qualifies. Every other pick requires you to manually turn wifi off and leave it off.",
+      "rows": [
+        [
+          "Highest average rating",
+          "HP LaserJet M209d Laser Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP LaserJet M209d Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Reason for Avoiding Wifi",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $117",
+          "Canon MAXIFY MB2720 Wireless Color Photo Printer"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Canon MAXIFY MB2720 Wireless Color Photo Printer vs Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+    "cards": [
       {
-        label: "I want wifi gone permanently, no chance of it being re-enabled",
-        text: "The HP LaserJet M209d has no wifi radio at all, this is the only pick here that removes the option entirely rather than requiring you to keep it switched off.",
+        "label": "Canon MAXIFY MB2720 Wireless Color Photo Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "I want the option to add wifi back later",
-        text: "Any of the other 7 picks let you run wired-only today and re-enable wifi later without buying a new printer, a more flexible long-term choice.",
-      },
-      {
-        label: "I'm mainly concerned about network security",
-        text: "Going wired-only reduces network-based attack surface, but remember a USB-connected printer still has firmware and memory reachable via a compromised computer, and some models still retain Bluetooth even with wifi off.",
-      },
+        "label": "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon MAXIFY MB2720 Wireless Color Photo Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Multi-Computer Sharing Without Wifi",
-    intro:
-      "A wired USB printer only talks to one computer at a time. Here's how to share it without turning wifi back on.",
-    table: {
-      headers: ["Sharing method", "Works for", "Effort"],
-      rows: [
-        ["Manual unplug/replug", "Occasional sharing between 2 computers", "Low cost, higher daily hassle"],
-        ["USB switch box", "Regular sharing across 2-4 computers", "One-time purchase, minimal ongoing hassle"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HP LaserJet M209d Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "USB Cable Distance and Windows 11 Driver Notes",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Cable distance limit",
-        text: "Standard USB-B cables are reliable up to about 5 meters (16 feet). If your desk sits farther from the computer than that, use an active USB extender rather than a longer passive cable.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Windows 11 driver gotcha",
-        text: "Windows 11 often auto-installs a generic USB driver on first connection, which covers basic printing but can miss full scan, fax, or special-mode support. Download the manufacturer's complete driver package for full feature access.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "HP LaserJet M209d Laser Printer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "What You Lose by Turning Wifi Off",
-    intro:
-      "Wifi-dependent features stop working once wifi is disabled, even on capable hardware.",
-    table: {
-      headers: ["Feature", "Requires wifi?", "Affected picks"],
-      rows: [
-        ["Alexa voice printing", "Yes", "Brother DCP-L2640DW"],
-        ["AI-assisted/smart features", "Usually yes", "HP OfficeJet Pro 9135"],
-        ["Core print/scan/copy/fax", "No, works over wired USB-B", "All 8 picks"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon MAXIFY MB2720 Wireless Color Photo Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

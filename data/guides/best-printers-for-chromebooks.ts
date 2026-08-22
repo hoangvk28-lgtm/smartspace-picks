@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 supports standard wireless printing that generally works with ChromeOS's driverless printing setup over IPP Everywhere, though HP's listing doesn't explicitly call out ChromeOS or Chromebook certification. It's a low-cost entry point for a household that mostly needs occasional document and photo printing from a Chromebook.\n\nBefore buying specifically for a Chromebook, check HP's current support page for this model to confirm IPP Everywhere or Google Cloud Print successor compatibility, since driver-based features some HP printers offer on Windows or Mac won't apply the same way from ChromeOS.",
+      "The DeskJet 4355 supports standard wireless printing that generally works with ChromeOS's driverless printing setup over IPP Everywhere, though HP's listing doesn't explicitly call out ChromeOS or Chromebook certification. It's a low-cost entry point for a household that mostly needs occasional document and photo printing from a Chromebook.\n\nBefore buying specifically for a Chromebook, check HP's current support page for this model to confirm IPP Everywhere or Google Cloud Print successor compatibility, since driver-based features some HP printers offer on Windows or Mac won't apply the same way from ChromeOS.\n\nStandard wireless generally compatible with ChromeOS driverless printing. On the other hand, no explicit ChromeOS/IPP Everywhere certification listed. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless all-in-one: print, scan, copy",
       "Standard wireless protocol support",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 includes an auto document feeder alongside standard wireless printing, useful for a Chromebook user scanning multi-page documents through ChromeOS's built-in scanning support rather than a manufacturer's dedicated app. Its wireless setup follows the same general protocols that typically support driverless ChromeOS printing.\n\nCanon doesn't advertise explicit Chromebook certification for this model, so confirm current IPP Everywhere support on Canon's compatibility page before buying if Chromebook printing is your primary use case rather than a secondary one.",
+      "The PIXMA TR4720 includes an auto document feeder alongside standard wireless printing, useful for a Chromebook user scanning multi-page documents through ChromeOS's built-in scanning support rather than a manufacturer's dedicated app. Its wireless setup follows the same general protocols that typically support driverless ChromeOS printing.\n\nCanon doesn't advertise explicit Chromebook certification for this model, so confirm current IPP Everywhere support on Canon's compatibility page before buying if Chromebook printing is your primary use case rather than a secondary one.\n\nLow upfront cost. That's a real strength, but weigh it against the flip side: no explicit ChromeOS/IPP Everywhere certification listed.",
     specs: [
       "Auto document feeder",
       "Built-in fax",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800's cartridge-free ink tank system pairs with standard wireless printing that generally works with ChromeOS's driverless setup, giving Chromebook households a lower long-run ink cost without any additional Chromebook-specific consideration. As with the other picks here, Epson doesn't explicitly certify this model for ChromeOS in its listing.\n\nBefore buying, check Epson's current IPP Everywhere or driverless printing support page for this exact model, since driverless compatibility can differ even between similar EcoTank models depending on firmware version.",
+      "The ET-2800's cartridge-free ink tank system pairs with standard wireless printing that generally works with ChromeOS's driverless setup, giving Chromebook households a lower long-run ink cost without any additional Chromebook-specific consideration. As with the other picks here, Epson doesn't explicitly certify this model for ChromeOS in its listing.\n\nBefore buying, check Epson's current IPP Everywhere or driverless printing support page for this exact model, since driverless compatibility can differ even between similar EcoTank models depending on firmware version.\n\nWorth calling out specifically: standard wireless generally compatible with ChromeOS driverless printing. The catch is no explicit ChromeOS/IPP Everywhere certification listed.",
     specs: [
       "Cartridge-free ink tank system",
       "Standard wireless protocol support",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 adds an ADF and Ethernet on top of the same ink tank system, giving a Chromebook-based home office an option to connect over a wired network if wireless driverless printing runs into setup issues on a particular router. Its scan and copy functions work through ChromeOS's built-in tools rather than a dedicated app.\n\nAs with the ET-2800, Epson's listing doesn't explicitly certify Chromebook or IPP Everywhere compatibility, so check Epson's current support page for this model, particularly if you plan to rely on the Ethernet connection option for ChromeOS printing reliability.",
+      "The ET-4800 adds an ADF and Ethernet on top of the same ink tank system, giving a Chromebook-based home office an option to connect over a wired network if wireless driverless printing runs into setup issues on a particular router. Its scan and copy functions work through ChromeOS's built-in tools rather than a dedicated app.\n\nAs with the ET-2800, Epson's listing doesn't explicitly certify Chromebook or IPP Everywhere compatibility, so check Epson's current support page for this model, particularly if you plan to rely on the Ethernet connection option for ChromeOS printing reliability.\n\nADF for multi-page scanning. Set against that, no explicit ChromeOS/IPP Everywhere certification listed. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free ink tank system",
       "Automatic document feeder",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LqmhjzXHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGC43YCL?tag=deskfinds0d-20",
     description:
-      "The MFC-J1360DW's 1.8-inch color display makes it easier to confirm the printer's network status and IP address directly on the device, useful when troubleshooting a driverless printing connection from ChromeOS's more limited settings menu. Automatic duplex printing is included alongside standard wireless support.\n\nBrother doesn't advertise explicit Chromebook certification for this model either, so verify current IPP Everywhere support on Brother's compatibility page before buying, especially since ChromeOS's print settings won't expose the same troubleshooting detail as Windows or Mac.",
+      "The MFC-J1360DW's 1.8-inch color display makes it easier to confirm the printer's network status and IP address directly on the device, useful when troubleshooting a driverless printing connection from ChromeOS's more limited settings menu. Automatic duplex printing is included alongside standard wireless support.\n\nBrother doesn't advertise explicit Chromebook certification for this model either, so verify current IPP Everywhere support on Brother's compatibility page before buying, especially since ChromeOS's print settings won't expose the same troubleshooting detail as Windows or Mac.\n\nA genuine advantage here is that duplex printing included. The tradeoff is no explicit ChromeOS/IPP Everywhere certification listed.",
     specs: [
       "1.8\" color display",
       "Automatic duplex printing",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "For a Chromebook household that mostly prints text documents, like school assignments or work paperwork, this monochrome laser's standard wireless support and duplex printing pair with a lower cost per page than any inkjet in this list. Alexa compatibility is a bonus for households with smart speakers already set up.\n\nAs with the other picks, Brother's listing doesn't explicitly certify ChromeOS compatibility, so confirm current driverless printing support on Brother's site, particularly since ChromeOS printing settings expose fewer options than a full driver install would on another platform.",
+      "For a Chromebook household that mostly prints text documents, like school assignments or work paperwork, this monochrome laser's standard wireless support and duplex printing pair with a lower cost per page than any inkjet in this list. Alexa compatibility is a bonus for households with smart speakers already set up.\n\nAs with the other picks, Brother's listing doesn't explicitly certify ChromeOS compatibility, so confirm current driverless printing support on Brother's site, particularly since ChromeOS printing settings expose fewer options than a full driver install would on another platform.\n\nDuplex printing built in. On the other hand, no explicit ChromeOS/IPP Everywhere certification listed. Neither should be a surprise once you know to look for it.",
     specs: [
       "Monochrome laser engine",
       "Duplex printing",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QF6tPh3FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07W69LJ41?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS5320 explicitly advertises AirPrint support, and printers with confirmed AirPrint compatibility are generally more likely to also support IPP Everywhere, the same underlying standard ChromeOS relies on for driverless printing, since both protocols share common ground. That makes this one of the more reassuring picks in this list, though it's still not an explicit Chromebook certification.\n\nConfirm current ChromeOS compatibility on Canon's support page before buying, since AirPrint support and full IPP Everywhere driverless support, while related, aren't guaranteed to be identical across every firmware version.",
+      "The PIXMA TS5320 explicitly advertises AirPrint support, and printers with confirmed AirPrint compatibility are generally more likely to also support IPP Everywhere, the same underlying standard ChromeOS relies on for driverless printing, since both protocols share common ground. That makes this one of the more reassuring picks in this list, though it's still not an explicit Chromebook certification.\n\nConfirm current ChromeOS compatibility on Canon's support page before buying, since AirPrint support and full IPP Everywhere driverless support, while related, aren't guaranteed to be identical across every firmware version.\n\nWireless all-in-one with scan and copy. That's a real strength, but weigh it against the flip side: airPrint support doesn't guarantee full IPP Everywhere ChromeOS certification.",
     specs: [
       "AirPrint support advertised",
       "Wireless all-in-one",
@@ -296,35 +296,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "IPP Everywhere is the actual Chromebook requirement, not brand or price",
-    explanation:
-      "Chromebooks can't install traditional manufacturer print drivers, so printing depends on IPP Everywhere, the driverless printing standard that succeeded Google Cloud Print, working over your network's CUPS-based print system. A printer being wireless doesn't automatically mean it supports this standard, so this is the actual spec to verify, not the brand name.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Check the manufacturer's current compatibility page before buying",
-    explanation:
-      "None of the printers in this list explicitly advertise ChromeOS or IPP Everywhere certification in their listing titles, which is common across the printer market, not unique to these models. Search the specific model name plus \"Chromebook\" or \"IPP Everywhere\" on the manufacturer's support site to confirm before buying if Chromebook printing is a primary requirement.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "AirPrint support is a helpful, not definitive, signal",
-    explanation:
-      "Printers with advertised AirPrint compatibility, like the Canon PIXMA TS5320 in this list, share underlying protocol standards with IPP Everywhere, making them somewhat more likely to work smoothly with ChromeOS. It's still not a guarantee, since AirPrint and full IPP Everywhere driverless support can differ by firmware version.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Expect fewer print settings from ChromeOS than from Windows or Mac",
-    explanation:
-      "ChromeOS's built-in print dialog exposes basic options like paper size and copies but generally lacks the detailed tray selection, color profile, and maintenance tools available through a manufacturer's full Windows or Mac driver. Budget for this limitation as an expectation, not a defect specific to any printer you buy.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "A printer's ADF and scan functions work through ChromeOS's built-in tools",
-    explanation:
-      "Since Chromebooks can't run manufacturer scanning apps the way Windows or Mac can, scanning from a printer's ADF on a Chromebook typically goes through ChromeOS's native scan support rather than a branded app interface. Confirm this workflow specifically if scanning multi-page documents from a Chromebook is a regular need.",
-  },
-  {
-    criterion: "Ethernet is a useful fallback if wireless driverless printing has setup issues",
-    explanation:
-      "Some routers or network configurations interfere with IPP Everywhere's device discovery over wifi. A printer with an Ethernet port, like the Epson EcoTank ET-4800 in this list, gives a wired fallback path that sidesteps wireless discovery issues entirely.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -337,52 +327,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "What Chromebook Printing Actually Requires",
-    intro:
-      "This is the single most important thing to understand before buying a printer for a Chromebook.",
-    cards: [
-      {
-        label: "No traditional drivers",
-        text: "Chromebooks can't install manufacturer print drivers the way Windows or Mac can, so a printer's driver software isn't relevant to ChromeOS compatibility.",
-      },
-      {
-        label: "IPP Everywhere instead",
-        text: "ChromeOS relies on IPP Everywhere, a driverless printing standard, meaning the printer itself must support this protocol over your network for printing to work without extra software.",
-      },
-    ],
-  },
-  {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "What to prioritize", "Best pick"],
-      rows: [
-        ["Under $75", "Lowest cost, standard wireless", "HP DeskJet 4355, Canon PIXMA TR4720"],
-        ["$100-$150", "AirPrint signal or on-device display", "Canon PIXMA TS5320, Brother MFC-J1360DW"],
-        ["$200+", "Ink tank value or laser cost-per-page", "Epson EcoTank ET-2800/ET-4800, Brother DCP-L2640DW"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Before You Buy, Verify Compatibility Directly",
-    note: "Search the exact model name plus \"IPP Everywhere\" or \"Chromebook\" on the manufacturer's support site before purchasing. This guide flags standard wireless and AirPrint-style protocol support as a general positive signal, but no listing here carries explicit ChromeOS certification, and only the manufacturer's current page reflects the latest firmware-level compatibility.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $210",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If Wireless Driverless Printing Has Setup Trouble",
-    cards: [
+    "subheading": "Canon PIXMA TR4720 All vs Brother DCP",
+    "cards": [
       {
-        label: "Try Ethernet if available",
-        text: "The Epson EcoTank ET-4800 in this list includes an Ethernet port as a wired fallback if wireless IPP Everywhere discovery has trouble on your router.",
+        "label": "Canon PIXMA TR4720 All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Check router settings",
-        text: "Some routers isolate devices on guest networks in a way that blocks IPP Everywhere discovery; keeping the printer and Chromebook on the same primary network setting can resolve this.",
-      },
+        "label": "Brother DCP",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TR4720 All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Setting Expectations for ChromeOS Print Settings",
-    note: "Even with a fully compatible printer, ChromeOS's print dialog exposes fewer options, tray selection, color profiles, maintenance tools, than a full Windows or Mac driver install would. This is a ChromeOS-wide limitation, not something a specific printer purchase fixes.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother DCP's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

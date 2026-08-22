@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "For students without a highly specialized major, the DeskJet 4355 covers print, scan, and copy needs in one compact wireless unit with a 3-month Instant Ink trial included. It's a sensible default when your printing is a general mix of essays, worksheets, and the occasional form rather than anything major-specific.\n\nAfter the included trial, run your own semester page estimate, a typical student prints somewhere in the 200-400 page range per semester, before deciding whether to keep the Instant Ink subscription or switch to buying cartridges as needed.",
+      "For students without a highly specialized major, the DeskJet 4355 covers print, scan, and copy needs in one compact wireless unit with a 3-month Instant Ink trial included. It's a sensible default when your printing is a general mix of essays, worksheets, and the occasional form rather than anything major-specific.\n\nAfter the included trial, run your own semester page estimate, a typical student prints somewhere in the 200-400 page range per semester, before deciding whether to keep the Instant Ink subscription or switch to buying cartridges as needed.\n\nWorth calling out specifically: included ink trial reduces upfront ink cost. The catch is not optimized for any single major's specific needs.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Print, scan, copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "Art and design students printing color portfolios, storyboards, or presentation boards need a photo-capable color inkjet more than they need speed or volume, and the PIXMA TS4320's color output handles that better than a monochrome laser ever could. Duplex printing helps when a project calls for printing both sides of thicker paper stock.\n\nColor inkjet cost-per-page runs noticeably higher than a monochrome laser, so this pick fits students whose printing is genuinely color-heavy rather than students defaulting to color for convenience.",
+      "Art and design students printing color portfolios, storyboards, or presentation boards need a photo-capable color inkjet more than they need speed or volume, and the PIXMA TS4320's color output handles that better than a monochrome laser ever could. Duplex printing helps when a project calls for printing both sides of thicker paper stock.\n\nColor inkjet cost-per-page runs noticeably higher than a monochrome laser, so this pick fits students whose printing is genuinely color-heavy rather than students defaulting to color for convenience.\n\nDuplex printing for double-sided project pages. Set against that, higher cost-per-page than laser picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Duplex printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "Law and business students who print hundreds of pages of case text, readings, or contracts a semester get the biggest cost benefit from a monochrome laser like the HL-L2405W, since laser toner has a dramatically lower cost-per-page than inkjet ink at high volume. Toner also doesn't dry out over breaks, unlike inkjet cartridges.\n\nAt a 200-400 page semester volume, the higher upfront price of a laser printer pays for itself faster than most students expect, especially compared to running an inkjet at the same page count.",
+      "Law and business students who print hundreds of pages of case text, readings, or contracts a semester get the biggest cost benefit from a monochrome laser like the HL-L2405W, since laser toner has a dramatically lower cost-per-page than inkjet ink at high volume. Toner also doesn't dry out over breaks, unlike inkjet cartridges.\n\nAt a 200-400 page semester volume, the higher upfront price of a laser printer pays for itself faster than most students expect, especially compared to running an inkjet at the same page count.\n\nA genuine advantage here is that toner doesn't dry out over school breaks. The tradeoff is black and white output only.",
     specs: [
       "Wireless compact monochrome laser printer",
       "Mobile printing support",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "When a professor wants a scanned multi-page handwritten problem set or a signed multi-page form, an auto document feeder like the one on the TR4720 saves real time over feeding pages one at a time on a flatbed. This is a common assignment type in STEM and law coursework that most student printer guides never mention as a purchase factor.\n\nMobile printing support adds flexibility for a student without steady laptop access, and built-in fax covers the rare case a program still requires it for official documents.",
+      "When a professor wants a scanned multi-page handwritten problem set or a signed multi-page form, an auto document feeder like the one on the TR4720 saves real time over feeding pages one at a time on a flatbed. This is a common assignment type in STEM and law coursework that most student printer guides never mention as a purchase factor.\n\nMobile printing support adds flexibility for a student without steady laptop access, and built-in fax covers the rare case a program still requires it for official documents.\n\nMobile printing from a phone. On the other hand, larger footprint than flatbed-only printers. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless all-in-one with auto document feeder",
       "Built-in fax",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-ZgpCGxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DV6FV5?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS3720 is the cheapest full all-in-one in this list, covering basic print, scan, and copy needs without the extras that drive up price on other picks. For a student on a tight budget whose printing is mostly short essays and worksheets, it's the lowest financial commitment that still covers the basics.\n\nIt lacks a document feeder and higher-volume features, so it fits a lighter semester print load better than a heavy-reading major's volume.",
+      "The PIXMA TS3720 is the cheapest full all-in-one in this list, covering basic print, scan, and copy needs without the extras that drive up price on other picks. For a student on a tight budget whose printing is mostly short essays and worksheets, it's the lowest financial commitment that still covers the basics.\n\nIt lacks a document feeder and higher-volume features, so it fits a lighter semester print load better than a heavy-reading major's volume.\n\nCompact and easy to fit on a small desk. That's a real strength, but weigh it against the flip side: no auto document feeder.",
     specs: [
       "Wireless all-in-one color inkjet",
       "Basic home printing focus",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31BXOlNqjZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B010A7TZ76?tag=deskfinds0d-20",
     description:
-      "Students issued a school Chromebook or a locked-down Windows build often can't install traditional printer drivers, and the MG3620's mobile and tablet printing support, including Google Cloud Print-style workflows, is built around exactly that kind of device-restricted printing. It's worth checking your specific device's print support before assuming any printer will pair cleanly with a school-managed laptop.\n\nBeyond device compatibility, it covers standard print, scan, and copy needs in a black finish that hides fingerprints better than white models common in this list.",
+      "Students issued a school Chromebook or a locked-down Windows build often can't install traditional printer drivers, and the MG3620's mobile and tablet printing support, including Google Cloud Print-style workflows, is built around exactly that kind of device-restricted printing. It's worth checking your specific device's print support before assuming any printer will pair cleanly with a school-managed laptop.\n\nBeyond device compatibility, it covers standard print, scan, and copy needs in a black finish that hides fingerprints better than white models common in this list.\n\nWorth calling out specifically: black finish resists visible smudging. The catch is highest price among the inkjet picks in this list.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Mobile and tablet printing support",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zPjelEtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZC56ZH4?tag=deskfinds0d-20",
     description:
-      "This Bluetooth thermal printer supports full 8.5x11-inch Letter and A4 paper without any ink cartridge, which makes it a genuinely useful backup for a student who mostly relies on library printing but occasionally needs a page in a pinch. It works directly from a phone, which sidesteps device-compatibility questions entirely.\n\nThermal prints are black-and-white and fade over time, so this is not a realistic primary printer for a full course load, more a lightweight supplement for a student with minimal printing needs.",
+      "This Bluetooth thermal printer supports full 8.5x11-inch Letter and A4 paper without any ink cartridge, which makes it a genuinely useful backup for a student who mostly relies on library printing but occasionally needs a page in a pinch. It works directly from a phone, which sidesteps device-compatibility questions entirely.\n\nThermal prints are black-and-white and fade over time, so this is not a realistic primary printer for a full course load, more a lightweight supplement for a student with minimal printing needs.\n\nWorks directly from a phone over Bluetooth. Set against that, thermal prints fade over time. Both matter when comparing it to the other picks here.",
     specs: [
       "Bluetooth inkless thermal printer",
       "Supports 8.5x11\" Letter and A4",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314c84l3lcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FDZZK3H?tag=deskfinds0d-20",
     description:
-      "The TS6420 sits at the top of this list's price range with the fullest feature set, a black finish, and Canon's more complete control layout. It suits a group project team or an apartment full of roommates who want one shared printer capable of handling everyone's volume without becoming a bottleneck.\n\nAt this price, it makes the most financial sense split across multiple people rather than bought by a single student with light printing needs.",
+      "The TS6420 sits at the top of this list's price range with the fullest feature set, a black finish, and Canon's more complete control layout. It suits a group project team or an apartment full of roommates who want one shared printer capable of handling everyone's volume without becoming a bottleneck.\n\nAt this price, it makes the most financial sense split across multiple people rather than bought by a single student with light printing needs.\n\nA genuine advantage here is that good fit for shared group or roommate printing. The tradeoff is highest price in this list.",
     specs: [
       "Wireless all-in-one color inkjet",
       "Black finish",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match the printer to your major, not a generic 'student' label",
-    explanation:
-      "Architecture students printing large drafts, art students needing photo-quality color, law and business students running high volumes of black-and-white text, and engineering students needing precise technical diagrams all have genuinely different needs. A monochrome laser that's ideal for a law student running 300 pages a semester is the wrong pick for an art student who needs color output.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Estimate your real semester print volume before buying",
-    explanation:
-      "A typical student prints somewhere in the 200-400 page range per semester, but that varies enormously by major. At that volume, a monochrome laser printer's lower cost-per-page usually beats an inkjet's total ink cost, while a student printing far fewer pages may never recoup a laser printer's higher upfront price.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Check your assignment scan type before assuming any scanner works",
-    explanation:
-      "A flatbed scanner handles single pages and signed forms fine, but a professor requiring a scanned multi-page handwritten problem set is much faster with an auto document feeder. Confirm which type your coursework actually needs rather than assuming a basic scanner covers everything.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Confirm compatibility with a school-issued device before buying",
-    explanation:
-      "Chromebooks and locked-down Windows builds often block standard printer driver installs, and a printer that relies on a traditional driver may simply refuse to print from that device. Look for explicit mobile or cloud printing support if you're required to use a school-managed laptop.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Color inkjet cost-per-page runs well above monochrome laser",
-    explanation:
-      "If your coursework is genuinely color-heavy, like design portfolios or presentation boards, a color inkjet is worth the higher running cost. If your printing is mostly black-and-white text, a monochrome laser like the Brother HL-L2405W will cost meaningfully less to run over a full semester.",
-  },
-  {
-    criterion: "Don't assume printing is always cheaper than campus alternatives",
-    explanation:
-      "For a student with light printing needs, campus library or lab printing fees per semester can come out cheaper than buying a printer plus ink over four years. Run the comparison honestly before assuming ownership is the better financial choice.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,80 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Major",
-    intro:
-      "Different majors put genuinely different demands on a printer, matching to your coursework matters more than matching to a generic student budget.",
-    table: {
-      headers: ["Major", "Primary printing need", "Best pick"],
-      rows: [
-        ["Art & Design", "Photo-quality color output", "Canon PIXMA TS4320"],
-        ["Law & Business", "High-volume black-and-white text", "Brother HL-L2405W (laser)"],
-        ["STEM / Engineering", "Precise diagrams plus multi-page scanning", "Canon PIXMA TR4720"],
-        ["General Education / Undeclared", "Mixed light printing", "HP DeskJet 4355"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Architecture students needing true large-format poster printing are outside what any desktop printer in this list can handle, that job is better sent to a campus print shop regardless of which printer you own.",
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Semester Cost Estimate: Paper + Ink Per Printer",
-    intro:
-      "A realistic semester print volume is 200-400 pages. Here's roughly how that plays out by printer type.",
-    table: {
-      headers: ["Printer type", "Cost-per-page range", "Estimated semester ink cost"],
-      rows: [
-        ["Monochrome laser (Brother HL-L2405W)", "Lowest, toner-based", "Lowest ongoing cost at high volume"],
-        ["Standard color inkjet (Canon PIXMA line)", "Higher per page, especially for color", "Moderate to high if printing color often"],
-        ["Inkless thermal (MT610Pro)", "No ink cost, but thermal paper needed", "Low cost but not viable for high volume"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $54",
+          "Inkless Portable Printer for Travel"
+        ],
+        [
+          "Up to $140",
+          "Brother HL"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Scan Use-Case Guide for Common Assignment Types",
-    cards: [
+    "subheading": "Inkless Portable Printer for Travel vs Brother HL",
+    "cards": [
       {
-        label: "A single signed form or one-page worksheet",
-        text: "Any flatbed scanner in this list handles this fine, including the budget Canon PIXMA TS3720.",
+        "label": "Inkless Portable Printer for Travel",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "A multi-page handwritten problem set",
-        text: "The Canon PIXMA TR4720's auto document feeder scans a stack in one pass instead of one page at a time.",
-      },
-      {
-        label: "A photo or design portfolio piece",
-        text: "The Canon PIXMA TS4320's color inkjet output preserves color detail better than a monochrome scanner-printer combo.",
-      },
+        "label": "Brother HL",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Inkless Portable Printer for Travel unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "School Device Compatibility",
-    intro:
-      "Confirm your printer can actually print from your assigned device before buying, this is one of the most overlooked purchase factors for students.",
-    table: {
-      headers: ["Device", "Compatibility note", "Best pick"],
-      rows: [
-        ["School-issued Chromebook", "Needs mobile/cloud printing support, not a traditional driver", "Canon Pixma MG3620"],
-        ["Locked-down Windows laptop", "May block driver installs regardless of printer", "Canon Pixma MG3620 (mobile printing bypasses drivers)"],
-        ["Personal Mac or Windows laptop", "Standard driver installation works fine", "Any pick in this list"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Budget Tiers",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Under $65",
-        text: "The Canon PIXMA TS3720 covers basic printing, scanning, and copying at the lowest price in this list.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "$65-$100, general use",
-        text: "The HP DeskJet 4355 or Canon PIXMA TS4320 add stronger scanning or color output at a modest step up.",
-      },
-      {
-        label: "$100+, major-specific needs",
-        text: "The Brother HL-L2405W laser or Canon PIXMA TR4720 with document feeder justify the extra cost for heavy text or scan-heavy majors.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother HL's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Inkless Portable Printer for Travel covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

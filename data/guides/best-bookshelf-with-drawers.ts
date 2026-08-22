@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416JTTfKnzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CB3BJYX6?tag=deskfinds0d-20",
     description:
-      "The Furologee is the best-selling and cheapest pick in this list, pairing a P2 MDF and metal frame with 5 open shelves and 1 removable soft fabric drawer sized for folded clothes, toys, or loose clutter. The drawer lifts out entirely, which makes it easy to keep clean and safe around toddlers who might otherwise pinch fingers in a sliding mechanism.\n\nAt just 15.4 inches wide, it fits into corners and narrow gaps where bulkier storage furniture won't. Four adjustable feet keep it level on uneven flooring, and the frame is rated for 30 lbs per shelf with an anti-tip kit included for wall-anchoring.",
+      "The Furologee is the best-selling and cheapest pick in this list, pairing a P2 MDF and metal frame with 5 open shelves and 1 removable soft fabric drawer sized for folded clothes, toys, or loose clutter. The drawer lifts out entirely, which makes it easy to keep clean and safe around toddlers who might otherwise pinch fingers in a sliding mechanism.\n\nAt just 15.4 inches wide, it fits into corners and narrow gaps where bulkier storage furniture won't. Four adjustable feet keep it level on uneven flooring, and the frame is rated for 30 lbs per shelf with an anti-tip kit included for wall-anchoring.\n\nA genuine advantage here is that removable fabric drawer is nursery-safe. The tradeoff is only 1 drawer versus multiple on other picks.",
     specs: [
       "15.4\"W x 10.6\"D x 55.5\"H",
       "P2 MDF + metal frame",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41t-pnwwXmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDH2V9XF?tag=deskfinds0d-20",
     description:
-      "This ladder-style Furologee widens toward the bottom, giving it a distinctive silhouette while also placing more weight capacity where it's needed most. It carries a 215 lb total rating, the highest among the ladder-style bookshelves in this list, and includes the same removable fabric drawer as our top pick.\n\nBackboards run behind each shelf, which stops books and smaller items from sliding off the back rather than just the front and sides. The solid black metal frame and rustic brown shelving give it an industrial look, and four adjustable feet handle uneven floors.",
+      "This ladder-style Furologee widens toward the bottom, giving it a distinctive silhouette while also placing more weight capacity where it's needed most. It carries a 215 lb total rating, the highest among the ladder-style bookshelves in this list, and includes the same removable fabric drawer as our top pick.\n\nBackboards run behind each shelf, which stops books and smaller items from sliding off the back rather than just the front and sides. The solid black metal frame and rustic brown shelving give it an industrial look, and four adjustable feet handle uneven floors.\n\nAttractive ladder silhouette. On the other hand, slightly larger footprint than the standard 5-tier Furologee. Neither should be a surprise once you know to look for it.",
     specs: [
       "16.53\"W x 11.42\"D x 55.51\"H",
       "P2 MDF + solid black metal frame",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Ed-X-hfmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C88XTSMM?tag=deskfinds0d-20",
     description:
-      "The SUNMORY takes a tree-shaped design with 6 tiers branching upward, paired with 2 open storage cabinets at the base that can be joined together into a single wider unit. It's backed by a 2-year warranty with lifetime support, longer and more comprehensive coverage than most bookshelves in this price range.\n\nThe vintage faux-wood finish gives it a warmer look than the more industrial metal-frame picks in this list, and an anti-tip kit is included for securing it to the wall. At under $40, it's one of the better-reviewed options here.",
+      "The SUNMORY takes a tree-shaped design with 6 tiers branching upward, paired with 2 open storage cabinets at the base that can be joined together into a single wider unit. It's backed by a 2-year warranty with lifetime support, longer and more comprehensive coverage than most bookshelves in this price range.\n\nThe vintage faux-wood finish gives it a warmer look than the more industrial metal-frame picks in this list, and an anti-tip kit is included for securing it to the wall. At under $40, it's one of the better-reviewed options here.\n\nDistinctive tree-shaped silhouette. That's a real strength, but weigh it against the flip side: cabinets are open rather than enclosed with doors.",
     specs: [
       "47.4\"H x 14.6\"W x 7.9\"D",
       "MDF construction",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mUWMPhk+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYT23NS9?tag=deskfinds0d-20",
     description:
-      "The Evermagin is the only pick in this list with a built-in adjustable reading lamp, offering 3 color temperatures so you can switch between warm, neutral, and cool light depending on the time of day. It shares the tree-shaped design of the SUNMORY but adds a single storage drawer at the base for smaller items.\n\nThe 6-tier layout holds an estimated 30 to 50 paperbacks depending on size, and the P2 MDF construction includes an anti-tip kit for wall anchoring. The gift-ready presentation and built-in lighting make it a standout for anyone who reads in low light.",
+      "The Evermagin is the only pick in this list with a built-in adjustable reading lamp, offering 3 color temperatures so you can switch between warm, neutral, and cool light depending on the time of day. It shares the tree-shaped design of the SUNMORY but adds a single storage drawer at the base for smaller items.\n\nThe 6-tier layout holds an estimated 30 to 50 paperbacks depending on size, and the P2 MDF construction includes an anti-tip kit for wall anchoring. The gift-ready presentation and built-in lighting make it a standout for anyone who reads in low light.\n\nWorth calling out specifically: tree-shaped design with a storage drawer. The catch is most expensive tree-shaped pick in this list.",
     specs: [
       "15\"W x 7.9\"D x 57.87\"H",
       "P2 MDF construction",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Kxi8xrdiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFXS9X72?tag=deskfinds0d-20",
     description:
-      "The EXPERLAM stands apart as the only genuinely solid pine wood pick in this list, rather than MDF or engineered board, giving it a sturdier, more natural feel. It comes with 4 matching collapsible fabric storage bins with handles that slot directly into the cube openings, plus 2 removable back panels for a more open look when you don't need the backing.\n\nIt's also the most flexible piece here, able to stand vertically, lie horizontally, or serve as a room partition depending on your layout. The odor-free, kid-safe finish and highest rating in this list at 4.7 stars make it a strong pick for anyone prioritizing material quality over price.",
+      "The EXPERLAM stands apart as the only genuinely solid pine wood pick in this list, rather than MDF or engineered board, giving it a sturdier, more natural feel. It comes with 4 matching collapsible fabric storage bins with handles that slot directly into the cube openings, plus 2 removable back panels for a more open look when you don't need the backing.\n\nIt's also the most flexible piece here, able to stand vertically, lie horizontally, or serve as a room partition depending on your layout. The odor-free, kid-safe finish and highest rating in this list at 4.7 stars make it a strong pick for anyone prioritizing material quality over price.\n\nIncludes 4 matching fabric storage bins. Set against that, more expensive than most other picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "47\"L x 11.8\"W x 24\"H",
       "Solid pine wood construction",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31yQT5-GJBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2KNG8SR?tag=deskfinds0d-20",
     description:
-      "At 73.23 inches, the DICTAC is the tallest pick in this list, combining 3 smooth-glide slide-out drawers with 3 tiers of open shelving and a dedicated top storage zone. The engineered wood construction is waterproof and scratch-resistant, which lets it double as a kitchen pantry cabinet or bathroom storage unit rather than being limited to books.\n\nAn anti-tip kit is included given the height, and the tall vertical profile makes efficient use of floor space in rooms where width is at a premium. Reviewers give it a strong 4.7-star average despite a smaller review count so far.",
+      "At 73.23 inches, the DICTAC is the tallest pick in this list, combining 3 smooth-glide slide-out drawers with 3 tiers of open shelving and a dedicated top storage zone. The engineered wood construction is waterproof and scratch-resistant, which lets it double as a kitchen pantry cabinet or bathroom storage unit rather than being limited to books.\n\nAn anti-tip kit is included given the height, and the tall vertical profile makes efficient use of floor space in rooms where width is at a premium. Reviewers give it a strong 4.7-star average despite a smaller review count so far.\n\nA genuine advantage here is that smooth-glide drawers plus a dedicated top storage zone. The tradeoff is tall profile needs a stable, level floor and wall anchoring.",
     specs: [
       "73.23\"H x 23.62\"W x 14.2\"D",
       "Engineered wood construction",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51e7tFl1xkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRVY5SQ3?tag=deskfinds0d-20",
     description:
-      "The FINETONES is the widest pick in this list at 39.4 inches, giving it a double-wide layout with 4 wrap-around drawers plus 8 open shelves for 12 total storage zones. Each shelf is rated to hold roughly 9 to 12 books, and the thickened engineered wood panels keep the frame rigid across such a wide span.\n\nSmooth metal handles and an included anti-reverse belt round out the build quality. If you need to consolidate a large book and media collection into one wide piece rather than several narrow ones, this is the roomiest option here.",
+      "The FINETONES is the widest pick in this list at 39.4 inches, giving it a double-wide layout with 4 wrap-around drawers plus 8 open shelves for 12 total storage zones. Each shelf is rated to hold roughly 9 to 12 books, and the thickened engineered wood panels keep the frame rigid across such a wide span.\n\nSmooth metal handles and an included anti-reverse belt round out the build quality. If you need to consolidate a large book and media collection into one wide piece rather than several narrow ones, this is the roomiest option here.\n\n4 drawers plus 8 open shelves for 12 storage zones. On the other hand, most expensive pick in this list at $159.99. Neither should be a surprise once you know to look for it.",
     specs: [
       "39.4\"W x 11.8\"D x 70.8\"H",
       "Engineered wood, thickened panels",
@@ -275,40 +275,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Drawer type: removable fabric vs slide-out",
-    explanation:
-      "Removable fabric drawers, like those on the Furologee picks, lift out entirely for easy cleaning and are safer around toddlers, while slide-out drawers on the DICTAC and FINETONES stay mounted on glides for quicker daily access.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf with drawer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Number of drawers vs open shelves",
-    explanation:
-      "Most picks here balance 1-4 drawers with several open shelves. The FINETONES offers the most drawers at 4, while the EXPERLAM swaps drawers for 4 fabric bins that slot into an 8-cube layout.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf with drawer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Footprint and height",
-    explanation:
-      "Compact picks like the Furologee 5-Tier at 15.4\" wide fit tight corners, while taller units like the 73\" DICTAC maximize vertical storage in narrow rooms. Measure your available wall space before choosing.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf with drawer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Material quality",
-    explanation:
-      "Most picks use P2 MDF or engineered wood, which keeps costs down. The EXPERLAM is the only solid pine wood option in this list, offering a sturdier, more natural feel at a higher price.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf with drawer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacity ranges from 150 lbs total on the compact Furologee picks up to 215 lbs on the ladder-style version. Check per-shelf ratings if you plan to store heavier items like textbooks or bins.",
-  },
-  {
-    criterion: "Stability and anti-tip hardware",
-    explanation:
-      "Every pick in this list includes an anti-tip kit for wall anchoring, which matters most on taller units like the DICTAC and FINETONES where the risk of tipping is higher. Loaded drawers near the base, like the fabric bins on the EXPERLAM or the wrap-around drawers on the FINETONES, actually help here by keeping the piece's weight low and the center of gravity stable, but that's a bonus, not a substitute for anchoring a tall unit to the wall.",
-  },
-  {
-    criterion: "Weight capacity by material",
-    explanation:
-      "Particleboard and P2 MDF shelves, used on most picks here, typically hold 30-50 lbs each. Solid wood, like the EXPERLAM's pine construction, can exceed 100 lbs per shelf, and reinforced metal-frame designs like the Furologee Ladder Shelf can reach 200+ lbs total. If you're storing hardcover books or bins rather than paperbacks, check the per-shelf rating, not just the total.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf with drawer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

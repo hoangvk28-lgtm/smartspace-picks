@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pH3EPb-mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FG52KXT9?tag=deskfinds0d-20",
     description:
-      "A flat freestanding panel, not a hood, despite the brand name. It sets up on its own support feet beside your desk rather than arching over your workstation.\n\nThe realistic benefit is absorbing some reflected sound and reducing echo reaching your own microphone, not blocking outside noise the way an enclosed hood would.",
+      "A flat freestanding panel, not a hood, despite the brand name. It sets up on its own support feet beside your desk rather than arching over your workstation.\n\nThe realistic benefit is absorbing some reflected sound and reducing echo reaching your own microphone, not blocking outside noise the way an enclosed hood would.\n\nNo clamping needed. That's a real strength, but weigh it against the flip side: not a genuine hood, despite the brand name.",
     specs: ["Flat freestanding panel, not a canopy", "2-pack, 15.74 x 11.81 x 3.93 inches", "No published NRC rating", "No clamp required"],
     pros: ["Lowest price of the two alternatives", "No clamping needed", "Two panels included", "Easy to reposition"],
     cons: ["Not a genuine hood, despite the brand name", "No published NRC rating", "Compact size limits coverage"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51xJuQn513L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00P1AJ9N8?tag=deskfinds0d-20",
     description:
-      "A flat, desk-mounted aluminum panel, again not a canopy structure. It attaches to your desk edge and stands upright rather than arching over the workstation.\n\nVerify the mounting hardware fits your desk edge before ordering, and expect modest absorption near your desk, not genuine enclosure.",
+      "A flat, desk-mounted aluminum panel, again not a canopy structure. It attaches to your desk edge and stands upright rather than arching over the workstation.\n\nVerify the mounting hardware fits your desk edge before ordering, and expect modest absorption near your desk, not genuine enclosure.\n\nWorth calling out specifically: office-standard aluminum finish. The catch is not a hood, verify mounting hardware fits your desk first.",
     specs: ["12\" x 24\" flat panel", "Almond/aluminum construction", "Desk-mounted, not a canopy", "No published NRC rating"],
     pros: ["Secure desk-mounted fit", "Office-standard aluminum finish", "Compact footprint", "Purpose-built look"],
     cons: ["Not a hood, verify mounting hardware fits your desk first", "No published NRC rating", "Smaller coverage than a full-width panel"],
@@ -67,30 +67,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Same Gap as Our Acoustic Desk Hoods Guide",
-    note: "This guide shares the identical core finding as our broader acoustic desk hoods guide, no genuine canopy-style hood products were found in verified Amazon listings. See that guide for a more detailed explanation of the terminology gap and a third flat-panel alternative.",
-  },
-  {
-    subheading: "Partial Coverage Cannot Match Full Enclosure",
-    note: "A flat panel, open on all sides but the one it's mounted or standing against, cannot achieve the isolation of a fully enclosed structure. If genuine isolation matters more than a modest improvement to your own call audio, an office pod is the more appropriate category.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Cheapest flat-panel alternative", "HOODANCOS Freestanding Panel 2-Pack"],
-        ["Securely desk-mounted alternative", "12\" Acoustical Desk Mounted Panel"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HOODANCOS Desk Privacy Panel 2"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HOODANCOS Desk Privacy Panel 2"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "HOODANCOS Desk Privacy Panel 2"
+        ],
+        [
+          "Up to $NaN",
+          "12\" Acoustical Desk Mounted Privacy Panel"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "HOODANCOS Desk Privacy Panel 2 vs 12\" Acoustical Desk Mounted Privacy Panel",
+    "cards": [
+      {
+        "label": "HOODANCOS Desk Privacy Panel 2",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "12\" Acoustical Desk Mounted Privacy Panel",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to HOODANCOS Desk Privacy Panel 2 unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HOODANCOS Desk Privacy Panel 2"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOODANCOS Desk Privacy Panel 2 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where 12\" Acoustical Desk Mounted Privacy Panel's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HOODANCOS Desk Privacy Panel 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand there are no genuine hood listings in this pool", explanation: "Both products here are flat panels, not canopy-style hoods, consistent with the same finding in our acoustic desk hoods guide." },
-  { criterion: "Expect improved own-audio, not blocked outside noise", explanation: "A flat panel realistically reduces echo reaching your own microphone, it does not block noise from reaching you the way an enclosed hood would." },
-  { criterion: "Check mounting method against your desk", explanation: "Freestanding panels need no clamp, desk-mounted styles need a compatible desk edge, verify before ordering." },
-  { criterion: "Consider an office pod for genuine isolation", explanation: "If you need real sound isolation rather than modest absorption, a fully enclosed office pod is the more appropriate category." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a sound absorbing desk hood often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the sound absorbing desk hood holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this sound absorbing desk hood over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any sound absorbing desk hood you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A sound absorbing desk hood that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71TLcAA1fTL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXTWTCWS?tag=deskfinds0d-20",
-    description: "The GTPLAYER gaming chair at $179.48 is the best budget chair for tall users, supporting up to 300 lbs with a seat height range reaching 22 inches. The wide seat and high backrest accommodate taller frames better than standard office chairs at this price.\n\nThe footrest and lumbar pillow add comfort for extended sitting sessions. For tall users who want a budget chair that fits without modification, the GTPLAYER is the top affordable pick.",
-    specs: ["Seat height: 18.5\"–22\"", "Weight capacity: 300 lbs", "Retractable footrest", "Lumbar and headrest pillow", "Reclining backrest 90°–160°", "PU leather upholstery"],
+    description: "The GTPLAYER gaming chair at $179.48 is the best budget chair for tall users, supporting up to 300 lbs with a seat height range reaching 22 inches. The wide seat and high backrest accommodate taller frames better than standard office chairs at this price.\n\nThe footrest and lumbar pillow add comfort for extended sitting sessions. For tall users who want a budget chair that fits without modification, the GTPLAYER is the top affordable pick.\n\n22\" seat height fits tall users. On the other hand, gaming aesthetic not suited for professional offices. Neither should be a surprise once you know to look for it.",
+    specs: ["Seat height: 18.5\"-22\"", "Weight capacity: 300 lbs", "Retractable footrest", "Lumbar and headrest pillow", "Reclining backrest 90°-160°", "PU leather upholstery"],
     pros: ["300 lb weight capacity", "22\" seat height fits tall users", "Footrest included", "Budget-friendly at $179"],
     cons: ["Gaming aesthetic not suited for professional offices", "PU leather less breathable than mesh"],
     bestFor: "Tall users up to 6'3\" who want a budget office/gaming chair with high weight capacity under $180.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71YPWS91dmL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07BDFW1Y7?tag=deskfinds0d-20",
-    description: "The SIHOO M57 is the best ergonomic mesh chair for tall users under $200. The high-back mesh backrest reaches taller than most chairs in this price range, providing lumbar and upper back support for users up to 6'2\".\n\nAt $199.99, the M57 includes adjustable lumbar support, headrest, 3D armrests, and seat height up to 22 inches. The mesh back keeps tall users cool during long work sessions.",
-    specs: ["Seat height: 17.7\"–21.7\"", "High-back mesh backrest", "Adjustable lumbar and headrest", "3D armrests", "Tilt function", "3-year warranty"],
+    description: "The SIHOO M57 is the best ergonomic mesh chair for tall users under $200. The high-back mesh backrest reaches taller than most chairs in this price range, providing lumbar and upper back support for users up to 6'2\".\n\nAt $199.99, the M57 includes adjustable lumbar support, headrest, 3D armrests, and seat height up to 22 inches. The mesh back keeps tall users cool during long work sessions.\n\n3D armrests at $199. That's a real strength, but weigh it against the flip side: 21.7\" max seat height may be low for 6'4\"+ users.",
+    specs: ["Seat height: 17.7\"-21.7\"", "High-back mesh backrest", "Adjustable lumbar and headrest", "3D armrests", "Tilt function", "3-year warranty"],
     pros: ["High-back mesh cools tall users", "3D armrests at $199", "Adjustable lumbar", "S-curve lumbar design"],
     cons: ["21.7\" max seat height may be low for 6'4\"+ users", "3-year warranty"],
     bestFor: "Tall users up to 6'2\" who want ergonomic mesh cooling with adjustable lumbar under $200.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71TkxS-LUHL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5WQ65P2?tag=deskfinds0d-20",
-    description: "The SIHOO B100 is a mid-range ergonomic chair with a high backrest that suits tall users looking for mesh breathability at an accessible price. At $159.99, it delivers adjustable lumbar support and a seat height range up to 21 inches.\n\nThe B100's wider seat and tall backrest make it more accommodating for users above average height compared to standard chairs in this price tier.",
-    specs: ["Seat height: 17\"–21\"", "High-back mesh", "Adjustable lumbar", "Headrest", "2D armrests", "3-year warranty"],
+    description: "The SIHOO B100 is a mid-range ergonomic chair with a high backrest that suits tall users looking for mesh breathability at an accessible price. At $159.99, it delivers adjustable lumbar support and a seat height range up to 21 inches.\n\nThe B100's wider seat and tall backrest make it more accommodating for users above average height compared to standard chairs in this price tier.\n\nWorth calling out specifically: high backrest for tall torsos. The catch is 2D armrests less adjustable than 3D.",
+    specs: ["Seat height: 17\"-21\"", "High-back mesh", "Adjustable lumbar", "Headrest", "2D armrests", "3-year warranty"],
     pros: ["Affordable at $159", "High backrest for tall torsos", "Mesh breathability", "Adjustable lumbar"],
     cons: ["2D armrests less adjustable than 3D", "21\" seat height borderline for 6'3\"+"],
     bestFor: "Tall users on a mid-range budget who want mesh breathability and a high backrest under $160.",
@@ -90,9 +90,9 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/712kZm3lUrL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP22DQQS?tag=deskfinds0d-20",
-    description: "The Marsail high-back chair at $118.94 is the most affordable mesh chair in this guide that provides a tall backrest. The high-back design supports lumbar and upper back for taller users at a price point under $120.\n\nWith adjustable lumbar support and a seat height that reaches 20 inches, the Marsail is the budget pick for tall users who don't want to compromise on back height support.",
-    specs: ["Seat height: 16.5\"–20\"", "High-back mesh", "Adjustable lumbar", "Headrest", "Flip-up armrests", "1-year warranty"],
-    pros: ["Under $120 – most affordable tall mesh", "High backrest height", "Flip-up arms save space", "Adjustable lumbar"],
+    description: "The Marsail high-back chair at $118.94 is the most affordable mesh chair in this guide that provides a tall backrest. The high-back design supports lumbar and upper back for taller users at a price point under $120.\n\nWith adjustable lumbar support and a seat height that reaches 20 inches, the Marsail is the budget pick for tall users who don't want to compromise on back height support.\n\nHigh backrest height. Set against that, 20\" seat height lower than other options. Both matter when comparing it to the other picks here.",
+    specs: ["Seat height: 16.5\"-20\"", "High-back mesh", "Adjustable lumbar", "Headrest", "Flip-up armrests", "1-year warranty"],
+    pros: ["Under $120, most affordable tall mesh", "High backrest height", "Flip-up arms save space", "Adjustable lumbar"],
     cons: ["20\" seat height lower than other options", "1-year warranty", "Flip arms less adjustable than 2D/3D"],
     bestFor: "Tall users on the tightest budget who need a high-back mesh chair under $120.",
   },
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71M28wdmSpL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3T865C2?tag=deskfinds0d-20",
-    description: "The SIHOO Doro C300 is the best mid-range ergonomic chair for tall users who want adaptive lumbar support. The C300's auto-following backrest adjusts to body movement, making it well-suited for tall users who shift positions throughout the day.\n\nAt $299.99, the C300 bridges the gap between budget chairs and premium brands. The suspended mesh back and adaptive lumbar provide superior support compared to fixed-lumbar alternatives in this price range.",
-    specs: ["Seat height: 17.7\"–21.7\"", "Auto-following backrest", "Suspended mesh back", "Adjustable armrests", "Seat depth adjustment", "3-year warranty"],
+    description: "The SIHOO Doro C300 is the best mid-range ergonomic chair for tall users who want adaptive lumbar support. The C300's auto-following backrest adjusts to body movement, making it well-suited for tall users who shift positions throughout the day.\n\nAt $299.99, the C300 bridges the gap between budget chairs and premium brands. The suspended mesh back and adaptive lumbar provide superior support compared to fixed-lumbar alternatives in this price range.\n\nA genuine advantage here is that suspended mesh for even pressure distribution. The tradeoff is $299 higher than mid-range competitors.",
+    specs: ["Seat height: 17.7\"-21.7\"", "Auto-following backrest", "Suspended mesh back", "Adjustable armrests", "Seat depth adjustment", "3-year warranty"],
     pros: ["Auto-adaptive lumbar follows movement", "Suspended mesh for even pressure distribution", "Better than fixed-lumbar at this price", "Seat depth adjustment"],
     cons: ["$299 higher than mid-range competitors", "21.7\" seat height suits up to 6'2\""],
     bestFor: "Tall users who want adaptive lumbar support and suspended mesh at a mid-range price.",
@@ -122,7 +122,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41vJblEokkL._AC_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016OIF2JU?tag=deskfinds0d-20",
-    description: "The Steelcase Gesture is the best premium chair for tall users. The Gesture's seat can be configured with extended cylinder options and the 3D LiveBack adjusts to fit taller spines. Steelcase's 12-year warranty is the longest in this guide.\n\nAt $1,510.48, the Gesture is an investment for tall professionals who sit 8+ hours daily and experience back pain with standard chairs. The arm mechanism follows shoulder and arm movement for users working with multiple devices.",
+    description: "The Steelcase Gesture is the best premium chair for tall users. The Gesture's seat can be configured with extended cylinder options and the 3D LiveBack adjusts to fit taller spines. Steelcase's 12-year warranty is the longest in this guide.\n\nAt $1,510.48, the Gesture is an investment for tall professionals who sit 8+ hours daily and experience back pain with standard chairs. The arm mechanism follows shoulder and arm movement for users working with multiple devices.\n\n12-year warranty. On the other hand, $1,510 premium investment. Neither should be a surprise once you know to look for it.",
     specs: ["Adjustable seat height range", "3D LiveBack lumbar", "360° arm movement", "Seat depth and height adjustment", "Fabric or leather options", "12-year warranty"],
     pros: ["3D LiveBack for tall spine support", "12-year warranty", "Arm mechanism follows device use", "Built for 8+ hour daily use"],
     cons: ["$1,510 premium investment", "Requires proper configuration for tall users"],
@@ -138,7 +138,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81sWuwGx1ML._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B006H1QYBA?tag=deskfinds0d-20",
-    description: "The Steelcase Leap V2 is a top ergonomic office chair for tall users, featuring a flexible back that adjusts to the natural curvature of the spine. The lower back firmness can be adjusted independently, which is critical for tall users with different lumbar needs.\n\nAt $1,398.91 with a 12-year warranty, the Leap V2 is well-suited for tall users with back pain who want a proven ergonomic chair used in corporate environments worldwide.",
+    description: "The Steelcase Leap V2 is a top ergonomic office chair for tall users, featuring a flexible back that adjusts to the natural curvature of the spine. The lower back firmness can be adjusted independently, which is critical for tall users with different lumbar needs.\n\nAt $1,398.91 with a 12-year warranty, the Leap V2 is well-suited for tall users with back pain who want a proven ergonomic chair used in corporate environments worldwide.\n\nIndependent lower back firmness. That's a real strength, but weigh it against the flip side: $1,399 investment.",
     specs: ["Flexible lower back adjustment", "Upper back force adjustment", "Natural glide system", "Height and width adjustable arms", "Seat edge adjustment", "12-year warranty"],
     pros: ["Flexible back for tall spine fit", "Independent lower back firmness", "12-year warranty", "Natural glide system"],
     cons: ["$1,399 investment", "No headrest"],
@@ -154,7 +154,7 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71izlgQABoL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LMM1148?tag=deskfinds0d-20",
-    description: "The Steelcase Gesture with headrest is the best premium tall chair for users who need head and neck support. Tall users frequently experience neck strain in standard chairs without headrests, and the Gesture's headrest adjusts to reach tall users' head heights.\n\nAt $1,721.19, the Gesture with headrest is the most expensive chair in this guide. For tall professionals who need full spine-to-head support during long workdays, it's the definitive option.",
+    description: "The Steelcase Gesture with headrest is the best premium tall chair for users who need head and neck support. Tall users frequently experience neck strain in standard chairs without headrests, and the Gesture's headrest adjusts to reach tall users' head heights.\n\nAt $1,721.19, the Gesture with headrest is the most expensive chair in this guide. For tall professionals who need full spine-to-head support during long workdays, it's the definitive option.\n\nWorth calling out specifically: 3D LiveBack for tall spine. The catch is $1,721 highest price in this guide.",
     specs: ["Gesture chair + adjustable headrest", "3D LiveBack lumbar", "360° arm movement", "Headrest height/angle adjustable", "12-year warranty", "Multiple color options"],
     pros: ["Headrest reaches tall users' head height", "3D LiveBack for tall spine", "12-year warranty", "360° arm movement for device use"],
     cons: ["$1,721 highest price in this guide", "Headrest adds bulk"],
@@ -163,11 +163,26 @@ export const products: GuideProduct[] = [
 ];;
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Seat height range for your leg length", explanation: "The correct seat height positions your feet flat on the floor with your knees at 90 degrees and your thighs parallel to the floor. For tall users, this typically requires a seat height of 19 to 21 inches. Standard chairs reach 17 to 18.5 inches and leave tall users sitting with raised knees and downward-angled thighs, which compresses the back of the legs and reduces circulation." },
-  { criterion: "Back height and lumbar position", explanation: "Standard chair backs are 18 to 22 inches tall. Tall users have longer torsos and need back panels that reach the shoulder blade area and lumbar support that contacts the correct lumbar position. Chairs with fixed lumbar pads at a standard height may miss the tall user's lumbar entirely. Look for adjustable lumbar height, not just depth." },
-  { criterion: "Seat depth for longer legs", explanation: "Standard seat depth is 16 to 18 inches. Tall users often have longer femurs and need 18 to 20 inches of seat depth to support the full length of their thigh without the seat edge cutting into the back of the knee. Adjustable seat depth is the best solution. Fixed-depth seats at 16 inches force tall users to sit forward, losing back contact." },
-  { criterion: "Arm height range", explanation: "Tall users need armrests that reach 9 to 14 inches above the seat. Standard chairs reach 7 to 10 inches. If armrests don't reach your elbow height at the correct desk position, you either raise your shoulders or don't use the armrests, both of which create shoulder and neck tension. 4D armrests with extended height range are preferable." },
-  { criterion: "Weight and size ratings", explanation: "Chairs rated for standard users (up to 250 lbs, 5'11\" or shorter) may have seat pans that feel cramped for tall users even if they are within the weight limit. Look for chairs that explicitly list a user height range that includes your height, or for XL/Tall variants that physically resize the seat, back, and height adjustment range." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 8 best office chair often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 8 best office chair holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 8 best office chair over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 8 best office chair you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 8 best office chair that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [

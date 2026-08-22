@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414zttokqWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5Q671P7?tag=deskfinds0d-20",
     description:
-      "At 7.08 inches wide, the Vantimo is the narrowest nightstand in this entire guide, built for the tightest floor clearance beside a bed. Three open tiers give it real storage despite the sliver-thin footprint, and a black metal frame with a particleboard finish keeps it lightweight and easy to move.\n\nIt's also the cheapest pick here at under $19, with a 40 lb capacity, adjustable footpads for uneven flooring, and a lacquered, stain-resistant finish. The open-tier design means nothing is hidden behind a drawer, which some buyers will prefer and others won't.",
+      "At 7.08 inches wide, the Vantimo is the narrowest nightstand in this entire guide, built for the tightest floor clearance beside a bed. Three open tiers give it real storage despite the sliver-thin footprint, and a black metal frame with a particleboard finish keeps it lightweight and easy to move.\n\nIt's also the cheapest pick here at under $19, with a 40 lb capacity, adjustable footpads for uneven flooring, and a lacquered, stain-resistant finish. The open-tier design means nothing is hidden behind a drawer, which some buyers will prefer and others won't.\n\nA genuine advantage here is that cheapest pick in this guide. The tradeoff is open tiers offer no closed storage.",
     specs: [
       "7.08\"W x 16.92\"D x 22.24\"H",
       "Particleboard + black metal frame",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yluiG91BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MTGKK9R?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is built around a 5-minute, tool-free assembly, the fastest in this guide, using a 2-layer open shelf design over an engineered wood and metal frame. At 15 by 11 inches it's still compact but noticeably roomier than the 7-inch-wide picks in this list.\n\nIts 50 lb capacity is the highest among the sub-$25 picks in this guide, and the industrial look pairs well with metal bed frames. It ties for the highest rating among the budget tier alongside the Furinno.",
+      "The HOOBRO is built around a 5-minute, tool-free assembly, the fastest in this guide, using a 2-layer open shelf design over an engineered wood and metal frame. At 15 by 11 inches it's still compact but noticeably roomier than the 7-inch-wide picks in this list.\n\nIts 50 lb capacity is the highest among the sub-$25 picks in this guide, and the industrial look pairs well with metal bed frames. It ties for the highest rating among the budget tier alongside the Furinno.\n\nHighest capacity among the sub-$25 picks at 50 lbs. On the other hand, 11\" width is wider than the true narrow-clearance picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "15\"L x 11\"W x 19.7\"H",
       "Engineered wood + metal frame",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41f2a5EbPoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CM327PZ1?tag=deskfinds0d-20",
     description:
-      "The Furinno JUST is the best-selling pick in this guide, built from CARB-grade composite wood on reinforced PVC tubes, with rounded corners that suit a narrow space where you'll brush past it constantly. At 13.4 inches wide it fits the moderately tight end of narrow-clearance bedrooms.\n\nIt's also the safest and most certified pick in this guide, carrying both FSC certification for the wood and CARB compliance for formaldehyde emissions, details that matter more in a small bedroom where furniture sits close to where you sleep.",
+      "The Furinno JUST is the best-selling pick in this guide, built from CARB-grade composite wood on reinforced PVC tubes, with rounded corners that suit a narrow space where you'll brush past it constantly. At 13.4 inches wide it fits the moderately tight end of narrow-clearance bedrooms.\n\nIt's also the safest and most certified pick in this guide, carrying both FSC certification for the wood and CARB compliance for formaldehyde emissions, details that matter more in a small bedroom where furniture sits close to where you sleep.\n\nFSC-certified and CARB-compliant, the safest pick here. That's a real strength, but weigh it against the flip side: 30 lb capacity is the lowest among the mid-tier picks.",
     specs: [
       "13.4\"W x 11.5\"D x 22.8\"H",
       "CARB composite wood + PVC tubes",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yjkbGAkaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DR84YT3P?tag=deskfinds0d-20",
     description:
-      "At just 7.1 inches deep, the Homleke is the thinnest pick in this guide that still offers a usable open shelf rather than a bare clip-on caddy. A removable iron mesh magazine basket is unique to this pick, giving it a spot for reading material or a tablet that the other narrow picks don't have.\n\nAn alloy steel frame is rust-resistant and the feet are adjustable for uneven flooring, both useful in a bedroom where the nightstand sits tight against a wall with little room to level it by eye.",
+      "At just 7.1 inches deep, the Homleke is the thinnest pick in this guide that still offers a usable open shelf rather than a bare clip-on caddy. A removable iron mesh magazine basket is unique to this pick, giving it a spot for reading material or a tablet that the other narrow picks don't have.\n\nAn alloy steel frame is rust-resistant and the feet are adjustable for uneven flooring, both useful in a bedroom where the nightstand sits tight against a wall with little room to level it by eye.\n\nWorth calling out specifically: unique magazine basket for reading material. The catch is no charging features.",
     specs: [
       "7.1\"D x 16.9\"W x 23.6\"H",
       "Engineered wood + alloy steel",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4195EcNJiwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPMCQ9B5?tag=deskfinds0d-20",
     description:
-      "The LOAKEKEL is the narrowest pick in this guide that still includes a full charging station, at 7.87 inches wide with 2 AC outlets, 1 USB-A, and 1 USB-C port built into the frame. Two fabric drawers add closed storage that the cheaper open-tier picks skip entirely.\n\nFSC-certified engineered wood and a 44 lb capacity round out a build that prioritizes charging convenience without giving up the narrow footprint a tight bedroom needs.",
+      "The LOAKEKEL is the narrowest pick in this guide that still includes a full charging station, at 7.87 inches wide with 2 AC outlets, 1 USB-A, and 1 USB-C port built into the frame. Two fabric drawers add closed storage that the cheaper open-tier picks skip entirely.\n\nFSC-certified engineered wood and a 44 lb capacity round out a build that prioritizes charging convenience without giving up the narrow footprint a tight bedroom needs.\n\nFull charging station with USB-C. Set against that, lower rating than the non-charging picks at a similar width. Both matter when comparing it to the other picks here.",
     specs: [
       "15.75\"L x 7.87\"W x 23.22\"H",
       "Engineered wood + metal",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41G0IbkaM1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWK2KHSW?tag=deskfinds0d-20",
     description:
-      "The Yoobure includes a fitted storage basket, unique among the narrow no-charging picks in this guide, giving one tier closed-off storage for smaller items while the other two stay open. At 7.9 inches wide it matches the LOAKEKEL for narrowness without the charging hardware.\n\nIt's also the tallest pick among the narrow no-charging options at 24.5 inches, which puts the top tier closer to eye level, useful if you want quicker access to the top shelf without bending down.",
+      "The Yoobure includes a fitted storage basket, unique among the narrow no-charging picks in this guide, giving one tier closed-off storage for smaller items while the other two stay open. At 7.9 inches wide it matches the LOAKEKEL for narrowness without the charging hardware.\n\nIt's also the tallest pick among the narrow no-charging options at 24.5 inches, which puts the top tier closer to eye level, useful if you want quicker access to the top shelf without bending down.\n\nA genuine advantage here is that tallest among the narrow no-charging picks at 24.5\". The tradeoff is no charging features.",
     specs: [
       "7.9\"L x 16.5\"D x 24.5\"H",
       "Engineered wood + metal frame",
@@ -255,7 +255,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51dDpDlqPdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPMCMZFX?tag=deskfinds0d-20",
     description:
-      "This is the only set-of-2 pick among the narrow nightstands in this guide, giving both sides of a bed a matching 7.87-inch-wide table with the same charging hardware as the single LOAKEKEL, 2 AC outlets, 1 USB-A, and 1 USB-C per table.\n\nA rustic brown finish and FSC-certified materials back a lifetime warranty, which is notable at this price point for a set of two. Each table includes 2 fabric drawers, so the pair adds 4 total drawers of closed storage across both sides of the bed.",
+      "This is the only set-of-2 pick among the narrow nightstands in this guide, giving both sides of a bed a matching 7.87-inch-wide table with the same charging hardware as the single LOAKEKEL, 2 AC outlets, 1 USB-A, and 1 USB-C per table.\n\nA rustic brown finish and FSC-certified materials back a lifetime warranty, which is notable at this price point for a set of two. Each table includes 2 fabric drawers, so the pair adds 4 total drawers of closed storage across both sides of the bed.\n\nMatching charging hardware on both tables. On the other hand, lowest rating in this guide at 4.2 stars. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.74\"D x 7.87\"W x 23.22\"H per table",
       "Engineered wood + metal",
@@ -287,7 +287,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/417vUvmWp7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHKQV7SM?tag=deskfinds0d-20",
     description:
-      "The Giantex is the widest pick called narrow in this guide at 12 inches, but it earns its place with a 210 lb weight capacity, the highest of any pick in this entire guide by a wide margin. Rubberwood legs and an MDF and engineered wood body give it a farmhouse look with real structural weight behind it.\n\nOne pull-out drawer plus 2 open shelves balance closed and open storage, and non-slip pads protect flooring. If your clearance allows a full 12 inches, this is the most durable-built option in the guide.",
+      "The Giantex is the widest pick called narrow in this guide at 12 inches, but it earns its place with a 210 lb weight capacity, the highest of any pick in this entire guide by a wide margin. Rubberwood legs and an MDF and engineered wood body give it a farmhouse look with real structural weight behind it.\n\nOne pull-out drawer plus 2 open shelves balance closed and open storage, and non-slip pads protect flooring. If your clearance allows a full 12 inches, this is the most durable-built option in the guide.\n\nMost durable build in this guide with rubberwood legs. That's a real strength, but weigh it against the flip side: widest pick in this guide at 12\", won't fit the tightest clearances.",
     specs: [
       "23.5\"L x 12\"W x 24.5\"H",
       "Engineered wood + MDF + rubberwood legs",
@@ -335,96 +335,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure clear floor space, not the door frame",
-    explanation:
-      "The single most common mistake buyers make is measuring the wrong thing, often the door frame width instead of the actual clear floor space between the bed frame and the wall, or skipping the measurement entirely. Measure the real gap beside the bed before shopping, since that number, not the room size, determines what actually fits.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a nightstand narrow often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "You need at least 12 inches of clearance for any nightstand to work",
-    explanation:
-      "If the floor space beside the bed is under 12 inches, a standard nightstand will block the walking path no matter how narrow its listed width is, since you also need room to actually stand and open a drawer. Below that threshold, a wall-mounted shelf or clip-on caddy is the realistic option, not a floor-standing nightstand.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the nightstand narrow holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Under 14 inches of clearance, go slim rather than standard-depth",
-    explanation:
-      "A standard nightstand runs 14 to 18 inches deep, which won't fit if your floor clearance is under 14 inches. In that range, prioritize a slim table under 8 inches deep, like the Vantimo, Homleke, or LOAKEKEL picks in this guide, over a standard-depth nightstand that technically fits width-wise but eats the walking path.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this nightstand narrow over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Match nightstand height to your mattress top, not the bed frame",
-    explanation:
-      "The top of a nightstand should land within 2 to 4 inches of your mattress-top height, not the bed frame height, so reaching for a phone or lamp doesn't mean reaching up or down awkwardly. Standard nightstands run 23 to 28 inches tall, so measure your actual mattress-top height before assuming any narrow pick in this guide will feel proportional.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any nightstand narrow you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Weight capacity varies a lot by material at this width",
-    explanation:
-      "Plain particleboard or composite-wood narrow nightstands typically cap out around 30 to 50 lbs total, while a steel-reinforced or rubberwood-legged frame like the Giantex can rate over 200 lbs. If you're stacking books, a lamp, and a charging station on a narrow surface, check the capacity rating rather than assuming all narrow nightstands hold the same load.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A nightstand narrow that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Actual Floor Clearance",
-    intro:
-      "Measure the clear floor space between the bed frame and the wall first. This single number determines which of these 8 picks will actually fit without blocking your walking path.",
-    table: {
-      headers: ["Clear floor space", "What fits", "Best pick"],
-      rows: [
-        ["Under 12 inches", "No standard nightstand fits; consider a clip-on shelf instead", "See our nightstand organizer guide's clip-on pick"],
-        ["12-14 inches", "Slim table under 8\" deep", "Vantimo 3-Tier (7.08\"W), Homleke Skinny (7.1\"D)"],
-        ["14-16 inches", "Narrow table with or without charging", "LOAKEKEL Narrow with USB-C, Yoobure Narrow with Basket"],
-        ["16+ inches", "Wider narrow table with higher capacity", "HOOBRO Industrial, Furinno JUST, Giantex Farmhouse"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Measure the true clear opening, not the door frame width, and don't skip measuring floor clearance even if the room itself looks spacious.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Homleke Skinny Narrow Nightstand"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Furinno JUST 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Height vs. Your Mattress",
-    intro:
-      "The top of the nightstand should sit within 2 to 4 inches of your mattress-top height, not the bed frame height, for comfortable reach.",
-    table: {
-      headers: ["Mattress-top height", "Nightstand height needed", "Best pick"],
-      rows: [
-        ["Low platform bed, mattress top under 22\"", "19-24\" nightstand", "Vantimo 3-Tier (22.24\"H)"],
-        ["Standard bed, mattress top 24-26\"", "22-28\" nightstand", "HOOBRO, Furinno JUST, Homleke, LOAKEKEL"],
-        ["Taller bed, mattress top 27\"+", "25-28\" nightstand", "Yoobure Narrow with Basket (24.5\"H), Giantex Farmhouse (24.5\"H)"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $19",
+          "Vantimo 3"
+        ],
+        [
+          "Up to $65",
+          "Giantex Farmhouse Narrow Nightstand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Storage and Charging Needs",
-    cards: [
+    "subheading": "Vantimo 3 vs Giantex Farmhouse Narrow Nightstand",
+    "cards": [
       {
-        label: "Just need surface space, no storage",
-        text: "The Vantimo's 3 open tiers or the HOOBRO's 2-layer shelves work fine if you're not hiding anything, just setting a lamp and a book.",
+        "label": "Vantimo 3",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want charging built in",
-        text: "The LOAKEKEL narrow single or set-of-2 are the only picks in this guide with AC and USB-C outlets built into the narrow frame.",
-      },
-      {
-        label: "Want closed storage without charging",
-        text: "The Yoobure's fitted storage basket hides smaller items in one tier while staying open on the other two.",
-      },
-      {
-        label: "Furnishing both sides of a shared bed",
-        text: "The LOAKEKEL Set of 2 gives both nightstands matching width and charging in one purchase.",
-      },
+        "label": "Giantex Farmhouse Narrow Nightstand",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Vantimo 3 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Weight Capacity by Use Case",
-    intro:
-      "How much you'll actually load onto a narrow nightstand should guide the material, not just the width.",
-    table: {
-      headers: ["What you're loading", "Capacity needed", "Best pick"],
-      rows: [
-        ["A lamp and a phone", "Under 40 lbs", "Vantimo 3-Tier (40 lbs)"],
-        ["Books plus a charging station", "44-50 lbs", "HOOBRO Industrial (50 lbs), LOAKEKEL (44 lbs)"],
-        ["Heavier stacked items or a small TV-adjacent setup", "200 lbs+", "Giantex Farmhouse (210 lbs)"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Plain particleboard and composite-wood narrow nightstands typically cap out around 30-50 lbs, while a rubberwood-legged frame like the Giantex rates far higher.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Furinno JUST 3"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Furinno JUST 3 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Giantex Farmhouse Narrow Nightstand's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Vantimo 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

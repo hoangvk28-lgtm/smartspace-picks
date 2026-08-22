@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31OR4pkm28L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07F8S18D5?tag=deskfinds0d-20",
     description:
-      "This is a static folding stand, not an articulating arm, but its dual-folding aluminum hinge and low-profile footprint make it a genuinely good fit next to a gaming keyboard and mouse where desk space is tight. It has by far the highest review count in this comparison.\n\nThere is no gaming-specific feature here beyond the compact size, an honest tradeoff for the very low price and strong reliability track record.",
+      "This is a static folding stand, not an articulating arm, but its dual-folding aluminum hinge and low-profile footprint make it a genuinely good fit next to a gaming keyboard and mouse where desk space is tight. It has by far the highest review count in this comparison.\n\nThere is no gaming-specific feature here beyond the compact size, an honest tradeoff for the very low price and strong reliability track record.\n\nVery affordable. Set against that, no articulating arm, fixed angle stand only. Both matter when comparing it to the other picks here.",
     specs: ["Full aluminum folding stand", "Compact, low desk footprint", "Adjustable viewing angle", "No moving arm, fixed stand only"],
     pros: ["Extremely high review count and rating", "Very affordable", "Sturdy aluminum build", "Small footprint next to keyboard/mouse"],
     cons: ["No articulating arm, fixed angle stand only", "No gaming-specific features (RGB, branding)", "Not hands-free adjustable mid-use"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41xaBwnZk1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZTSXN5D?tag=deskfinds0d-20",
     description:
-      "Honesty note: this is a novelty item shaped like a miniature gaming chair, and its actual holding capacity is limited to devices up to about 19cm tall, more suited to a Kindle or small phone than a large modern smartphone. It has the smallest review count of any pick here.\n\nWe include it only because it is the single genuinely gaming-themed product this research turned up, appropriate as a desk decoration and light-duty holder rather than a primary phone stand.",
+      "Honesty note: this is a novelty item shaped like a miniature gaming chair, and its actual holding capacity is limited to devices up to about 19cm tall, more suited to a Kindle or small phone than a large modern smartphone. It has the smallest review count of any pick here.\n\nWe include it only because it is the single genuinely gaming-themed product this research turned up, appropriate as a desk decoration and light-duty holder rather than a primary phone stand.\n\nA genuine advantage here is that fun desk accessory. The tradeoff is limited to small/thin devices.",
     specs: ["Miniature gaming-chair-shaped stand", "Holds devices up to 19cm tall", "Novelty desk decoration", "Fixed, non-adjustable design"],
     pros: ["Genuinely gaming-themed novelty item", "Fun desk accessory", "Affordable", "Compact"],
     cons: ["Limited to small/thin devices", "Smallest review count in this comparison", "Not a practical primary stand for large phones"],
@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, reliable stand", "Nulaxy Full Aluminum Dual Folding Stand"],
-        ["Also want Nintendo Switch compatibility", "LISEN Cell Phone Stand for Nintendo Switch"],
-        ["Lowest price, highest rating", "Lamicall 360° Rotation Cell Phone Stand"],
-        ["Want a foldable, portable stand", "COOPER 360° Stand"],
-        ["Want genuine gaming theming as decor", "VELENTI Gamer Chair Phone Stand"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Lamicall 360° Rotation Cell Phone Stand for Desk"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Nulaxy Full Aluminum Dual Folding Cell Phone Stand for Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "None of These Are Hands-Free Articulating Arms",
-    note: "Every pick in this guide is a fixed-angle desk stand. If you want to reposition your phone hands-free during gameplay, or mount it overhead, see our best desk phone arms guide instead, none of those picks are gaming-marketed but they offer real articulation.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $7",
+          "COOPER 360° Stand"
+        ],
+        [
+          "Up to $10",
+          "VELENTI Gamer Chair Phone Stand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "\"Gaming\" Framing Is Mostly Aesthetic Here",
-    cards: [
-      { label: "Genuinely gaming-marketed", text: "Only the LISEN Switch-compatible stand and the VELENTI novelty chair stand have real gaming-specific framing." },
-      { label: "General-purpose, gaming-desk-appropriate", text: "The Nulaxy, Lamicall, and COOPER stands are general phone stands that happen to fit well on a small gaming desk." },
+    "subheading": "COOPER 360° Stand vs VELENTI Gamer Chair Phone Stand",
+    "cards": [
+      {
+        "label": "COOPER 360° Stand",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "VELENTI Gamer Chair Phone Stand",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to COOPER 360° Stand unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Device Size Limits",
-    note: "The VELENTI novelty stand holds devices only up to about 19cm tall, unsuitable for most modern large phones. Check device size limits before buying a novelty-styled stand.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Nulaxy Full Aluminum Dual Folding Cell Phone Stand for Desk"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Nulaxy Full Aluminum Dual Folding Cell Phone Stand for Desk is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where VELENTI Gamer Chair Phone Stand's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where COOPER 360° Stand covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't expect gaming-specific hardware features", explanation: "Most products in this category are general phone stands. Only check for genuine gaming-specific compatibility (like Nintendo Switch support) if that's a real requirement, not just aesthetic branding." },
-  { criterion: "Prioritize a compact footprint for tight gaming desks", explanation: "Gaming desks are often crowded with a keyboard, mouse, mousepad, and monitor arm base. A folding or low-profile stand like the Nulaxy pick preserves more usable surface area." },
-  { criterion: "Check device size limits on novelty-styled stands", explanation: "Novelty-shaped stands, like the VELENTI gamer chair, often have reduced holding capacity compared to standard rectangular stands. Verify your phone's dimensions fit before buying for looks alone." },
-  { criterion: "Consider a folding design if you travel with the stand", explanation: "The COOPER pick folds flat, useful if you move between a gaming desk and a LAN party or another setup regularly." },
-  { criterion: "Choose an articulating arm instead if you need hands-free reach", explanation: "None of these picks reposition hands-free. If that matters for your gameplay setup, a dedicated phone arm from our general guide is the better fit." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a gaming desk phone holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the gaming desk phone holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this gaming desk phone holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any gaming desk phone holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A gaming desk phone holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51M6nLrVD8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWQMZPJC?tag=deskfinds0d-20",
     description:
-      "The SANSUI is both the cheapest and most-reviewed curved monitor in this entire guide, with 4,460 ratings backing a 1500R VA panel that runs at 200Hz. That's a genuinely fast refresh rate for the price, paired with 97% DCI-P3 and 130% sRGB coverage that outperforms what you'd expect at $204.99.\n\n3000:1 contrast, HDR support, and picture-in-picture/picture-by-picture modes round out a feature set that would be respectable even at double the price. It's the easiest recommendation in this guide for anyone trying curved ultrawide for the first time.",
+      "The SANSUI is both the cheapest and most-reviewed curved monitor in this entire guide, with 4,460 ratings backing a 1500R VA panel that runs at 200Hz. That's a genuinely fast refresh rate for the price, paired with 97% DCI-P3 and 130% sRGB coverage that outperforms what you'd expect at $204.99.\n\n3000:1 contrast, HDR support, and picture-in-picture/picture-by-picture modes round out a feature set that would be respectable even at double the price. It's the easiest recommendation in this guide for anyone trying curved ultrawide for the first time.\n\n200Hz is fast for the price point. Set against that, no stated warranty length in the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "34\" VA curved 1500R, 3440x1440",
       "200Hz, 1ms",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HhRKN-D9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXS8J4Y5?tag=deskfinds0d-20",
     description:
-      "The VG34VQ3B steps up to 180Hz on the same 1500R curve as the SANSUI, and adds 4x USB 3.2 ports, the most of any monitor in this guide. That makes it a practical hub for a webcam, headset dongle, and external drive without reaching behind the PC.\n\nBuilt-in speakers and 90% DCI-P3 round out a monitor built for everyday use rather than a single specialty, and the 3-year warranty gives more long-term confidence than the budget SANSUI's unlisted coverage.",
+      "The VG34VQ3B steps up to 180Hz on the same 1500R curve as the SANSUI, and adds 4x USB 3.2 ports, the most of any monitor in this guide. That makes it a practical hub for a webcam, headset dongle, and external drive without reaching behind the PC.\n\nBuilt-in speakers and 90% DCI-P3 round out a monitor built for everyday use rather than a single specialty, and the 3-year warranty gives more long-term confidence than the budget SANSUI's unlisted coverage.\n\nA genuine advantage here is that 180Hz on the same curve radius as the cheaper SANSUI. The tradeoff is costs more than the SANSUI for a similar core spec sheet.",
     specs: [
       "34\" VA curved 1500R, 3440x1440",
       "180Hz, 1ms MPRT",
@@ -127,7 +127,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Vs0YWyaYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F237K67L?tag=deskfinds0d-20",
     description:
-      "The FastIPS pick swaps VA for FastIPS, trading VA's deeper native contrast for more consistent, accurate color at wide viewing angles, a real advantage if you edit photos or video and want less color shift when looking at the screen from an angle. It also runs the fastest refresh rate among the non-OLED picks in this guide at 250Hz.\n\n4000:1 contrast is the highest among the IPS-type panels here, closing much of the gap with VA, and 95% DCI-P3 keeps color output competitive with the pricier picks in this list. Its 1500R curve matches the VA panels above it.",
+      "The FastIPS pick swaps VA for FastIPS, trading VA's deeper native contrast for more consistent, accurate color at wide viewing angles, a real advantage if you edit photos or video and want less color shift when looking at the screen from an angle. It also runs the fastest refresh rate among the non-OLED picks in this guide at 250Hz.\n\n4000:1 contrast is the highest among the IPS-type panels here, closing much of the gap with VA, and 95% DCI-P3 keeps color output competitive with the pricier picks in this list. Its 1500R curve matches the VA panels above it.\n\nHighest contrast among IPS-type panels in this guide. On the other hand, smallest review sample in this guide at only 21 reviews. Neither should be a surprise once you know to look for it.",
     specs: [
       "34\" FastIPS curved 1500R, 3440x1440",
       "250Hz (fastest among non-OLED picks here), 0.5ms",
@@ -159,7 +159,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41um0FZCuPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZL719V1?tag=deskfinds0d-20",
     description:
-      "The AW3425DWM is the highest-rated monitor in this entire guide at 4.6 stars, combining a 1500R curved VA panel with 180Hz, 95% DCI-P3, and the only dedicated console mode among the picks here. That console mode alone sets it apart if your setup mixes PC and console gaming.\n\n3000:1 contrast and 1ms GtG keep motion clean, and the height-adjustable stand plus 3-year warranty round out a monitor built to be a long-term daily driver rather than a short-term upgrade.",
+      "The AW3425DWM is the highest-rated monitor in this entire guide at 4.6 stars, combining a 1500R curved VA panel with 180Hz, 95% DCI-P3, and the only dedicated console mode among the picks here. That console mode alone sets it apart if your setup mixes PC and console gaming.\n\n3000:1 contrast and 1ms GtG keep motion clean, and the height-adjustable stand plus 3-year warranty round out a monitor built to be a long-term daily driver rather than a short-term upgrade.\n\nOnly monitor in this guide with a dedicated console mode. That's a real strength, but weigh it against the flip side: still VA, not the deeper native blacks of the QD-OLED picks here.",
     specs: [
       "34\" VA curved 1500R, 3440x1440",
       "180Hz, 1ms GtG",
@@ -191,7 +191,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "The Dell 34 Plus posts the fastest response time in this entire guide at 0.03ms on a 1500R curved VA panel, alongside 99% sRGB and 95% DCI-P3 coverage that beats every other VA pick here. USB-C at 65W lets it charge a connected laptop while driving the display over a single cable.\n\nDell's Premium Panel warranty adds coverage for dead pixels beyond a typical manufacturer warranty, a detail that matters more on a curved panel than buyers usually expect, and its 120Hz refresh rate is a comfortable middle ground for both productivity and casual gaming.",
+      "The Dell 34 Plus posts the fastest response time in this entire guide at 0.03ms on a 1500R curved VA panel, alongside 99% sRGB and 95% DCI-P3 coverage that beats every other VA pick here. USB-C at 65W lets it charge a connected laptop while driving the display over a single cable.\n\nDell's Premium Panel warranty adds coverage for dead pixels beyond a typical manufacturer warranty, a detail that matters more on a curved panel than buyers usually expect, and its 120Hz refresh rate is a comfortable middle ground for both productivity and casual gaming.\n\nWorth calling out specifically: uSB-C 65W for single-cable laptop charging and display. The catch is 120Hz is the lowest refresh rate among the sub-$400 picks here.",
     specs: [
       "34\" VA curved 1500R, 3440x1440",
       "120Hz, 0.03ms (fastest response time in this guide)",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ntQSLkfRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6724X5N?tag=deskfinds0d-20",
     description:
-      "The AW3425DW steps up to QD-OLED and a gentler 1800R curve radius, a noticeably softer bend than the 1500R VA panels earlier in this list, and still 34 inches. That gentler curve suits sitting slightly farther back or doing color-critical work where straight-line accuracy matters more than an aggressive wraparound feel.\n\n1,500,000:1 contrast and 240Hz make it the best value QD-OLED in this guide relative to its refresh rate, and 99.3% DCI-P3 plus dual G-Sync and FreeSync Premium Pro support round out a genuinely premium spec sheet at a price well below the 49-inch QD-OLED pick above it.",
+      "The AW3425DW steps up to QD-OLED and a gentler 1800R curve radius, a noticeably softer bend than the 1500R VA panels earlier in this list, and still 34 inches. That gentler curve suits sitting slightly farther back or doing color-critical work where straight-line accuracy matters more than an aggressive wraparound feel.\n\n1,500,000:1 contrast and 240Hz make it the best value QD-OLED in this guide relative to its refresh rate, and 99.3% DCI-P3 plus dual G-Sync and FreeSync Premium Pro support round out a genuinely premium spec sheet at a price well below the 49-inch QD-OLED pick above it.\n\nGentler 1800R curve suited to editing work or sitting farther back. Set against that, over double the price of the VA picks in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "34\" QD-OLED curved 1800R (gentler than the 1500R VA picks above), 3440x1440",
       "240Hz, 0.03ms",
@@ -255,7 +255,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Q8Bq+heNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDQMQQS2?tag=deskfinds0d-20",
     description:
-      "The Odyssey G93SC is the largest curved screen in this entire guide at 49 inches, and its 1800R curve has to wrap around considerably more width than any other pick here, which is part of why the gentler radius works better at this size than a tighter 1000R or 1500R curve would. It's also the most-reviewed 49-inch pick in this guide by a wide margin.\n\n240Hz, 1,000,000:1 contrast, and 99% DCI-P3 keep it competitive with the 34-inch QD-OLED pick above despite the much larger canvas, and picture-by-picture mode makes good use of the extra width by running two sources side by side.",
+      "The Odyssey G93SC is the largest curved screen in this entire guide at 49 inches, and its 1800R curve has to wrap around considerably more width than any other pick here, which is part of why the gentler radius works better at this size than a tighter 1000R or 1500R curve would. It's also the most-reviewed 49-inch pick in this guide by a wide margin.\n\n240Hz, 1,000,000:1 contrast, and 99% DCI-P3 keep it competitive with the 34-inch QD-OLED pick above despite the much larger canvas, and picture-by-picture mode makes good use of the extra width by running two sources side by side.\n\nA genuine advantage here is that most-reviewed 49-inch pick in this guide. The tradeoff is needs meaningfully more desk depth than any other pick in this guide.",
     specs: [
       "49\" QD-OLED curved 1800R, 5120x1440",
       "240Hz, 0.03ms",
@@ -307,109 +307,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Understand what the curve radius number actually means",
-    explanation:
-      "A curve radius like 1000R, 1500R, or 1800R describes the radius of the circle the screen's curve is based on, in millimeters, so a lower number means a tighter, more aggressive curve. 1000R is designed to roughly match the curvature of the human eye at close range and feels most immersive at 34-49 inches when sitting close, while 1800R is a gentler curve better suited to viewing from farther back.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a ultrawide monitor curved often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Match curve tightness to your work, not just your gaming",
-    explanation:
-      "If you do photo or video editing where straight-line accuracy matters, an aggressive 1000R curve can distort straight edges near the screen's border more than a gentler 1800R curve or a flat panel would. The FastIPS pick in this guide's 1500R curve plus wide-angle color consistency is a reasonable middle ground for buyers who split time between editing and gaming.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the ultrawide monitor curved holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Bigger curved screens need a gentler radius, not a tighter one",
-    explanation:
-      "The 49-inch Samsung Odyssey G93SC in this guide uses an 1800R curve rather than a tighter radius, because wrapping that much extra width around a 1000R curve would place the edges at an impractical angle relative to the center. Curve tightness and screen size need to be considered together, not separately.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this ultrawide monitor curved over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Curved panels demand more from a monitor arm",
-    explanation:
-      "A curved screen shifts the center of gravity forward compared to a flat panel of the same weight, which can multiply the effective torque on an arm's tilt pivot by roughly 1.5-2x. If you plan to mount any pick in this guide on an arm, confirm the arm is rated for that added torque, not just the panel's listed weight.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any ultrawide monitor curved you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "VA delivers deeper native blacks, but IPS-type panels age better at angles",
-    explanation:
-      "VA panels like the SANSUI and Alienware AW3425DWM in this guide hit 3000-4000:1 contrast natively, while the FastIPS pick trades some of that contrast for more consistent color when viewed off-axis. If two people regularly share the screen from different seating angles, the FastIPS pick's viewing-angle consistency is worth the contrast tradeoff.",
-  },
-  {
-    criterion: "Desk depth scales with curve size, not just screen width",
-    explanation:
-      "Measure usable desk depth, front edge to wall, not the published desktop size, and leave at least 3 inches of clearance behind the display for cables. The 34-inch picks in this guide fit most standard desks, but the 49-inch G93SC needs meaningfully more depth to sit at a comfortable viewing distance.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A ultrawide monitor curved that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Curve Radius",
-    intro:
-      "This guide spans three curve radii, and each suits a slightly different viewing distance and use case.",
-    table: {
-      headers: ["Curve radius", "Feel", "Best picks in this guide"],
-      rows: [
-        ["1500R", "Balanced, immersive at typical desk distance", "SANSUI, ASUS TUF VG34VQ3B, ASUS FastIPS, Alienware AW3425DWM, Dell 34 Plus"],
-        ["1800R", "Gentler, better for farther viewing or editing", "Alienware AW3425DW QD-OLED, Samsung Odyssey G93SC 49\""],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Alienware AW3425DWM"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SANSUI 34\" Curved Ultrawide"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $250", "1500R VA, 200Hz", "SANSUI 34\""],
-        ["$250-$400", "1500R VA or FastIPS, 120-250Hz", "ASUS TUF VG34VQ3B, ASUS FastIPS, Alienware AW3425DWM, Dell 34 Plus"],
-        ["$700+", "1800R QD-OLED, 240Hz", "Alienware AW3425DW or Samsung Odyssey G93SC 49\""],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $205",
+          "SANSUI 34\" Curved Ultrawide"
+        ],
+        [
+          "Up to $900",
+          "Samsung Odyssey G93SC 49\""
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Use Case",
-    cards: [
+    "subheading": "SANSUI 34\" Curved Ultrawide vs Samsung Odyssey G93SC 49\"",
+    "cards": [
       {
-        label: "First curved monitor, tightest budget",
-        text: "The SANSUI covers the fundamentals, 200Hz and a proven 1500R curve, at the lowest price and the largest review base in this guide.",
+        "label": "SANSUI 34\" Curved Ultrawide",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Photo or video editing on the side",
-        text: "The ASUS FastIPS pick trades some VA contrast for far better color consistency at wide viewing angles, useful when reviewing edits from slightly off-center.",
-      },
-      {
-        label: "Mixed PC and console gaming",
-        text: "The Alienware AW3425DWM is the only pick in this guide with a dedicated console mode.",
-      },
-      {
-        label: "Maximum screen real estate",
-        text: "The Samsung Odyssey G93SC 49\" is the largest curved screen in this guide, best suited to a deep desk and a farther seating position.",
-      },
+        "label": "Samsung Odyssey G93SC 49\"",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SANSUI 34\" Curved Ultrawide unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "VA vs FastIPS vs QD-OLED on a Curved Panel",
-    intro:
-      "Panel type changes how the curve actually looks and feels day to day, not just the raw specs.",
-    table: {
-      headers: ["Panel type", "Strength", "Best pick"],
-      rows: [
-        ["VA", "Deepest native contrast at this price tier", "SANSUI or Alienware AW3425DWM"],
-        ["FastIPS", "Best color consistency at wide angles", "ASUS TUF FastIPS"],
-        ["QD-OLED", "Highest contrast and fastest response overall", "Alienware AW3425DW or Samsung G93SC 49\""],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SANSUI 34\" Curved Ultrawide"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Desk Depth by Screen Size",
-    intro:
-      "Curve radius and screen size both affect how much desk depth you actually need to sit comfortably.",
-    table: {
-      headers: ["Usable desk depth", "Recommended pick", "Notes"],
-      rows: [
-        ["Under 26 inches", "Any 34-inch pick in this guide", "Leave 3+ inches behind the display for cables"],
-        ["26-30 inches", "34-inch picks, comfortably", "Fine for any 1500R or 1800R 34-inch pick here"],
-        ["30+ inches", "Samsung Odyssey G93SC 49\"", "Needed for the largest curved screen in this guide to feel comfortable, not cramped"],
-      ],
-    },
-    note: "Measure from the desk's front edge to the wall, not the published desktop dimension, since a curved monitor's stand and cable routing eat into that depth.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SANSUI 34\" Curved Ultrawide is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Samsung Odyssey G93SC 49\"'s build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SANSUI 34\" Curved Ultrawide covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

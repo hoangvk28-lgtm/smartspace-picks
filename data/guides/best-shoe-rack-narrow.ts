@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VvCMnbsXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPF32TQ3?tag=deskfinds0d-20",
     description:
-      "The Autonomier 3-Tier is the narrowest pick in this entire list at just 16.3 inches wide, small enough to tuck beside a door or into a closet corner most racks can't fit. Metal legs and a non-woven fabric shelf surface keep it lightweight and corrosion-resistant.\n\nIt's also the cheapest pick here at under $8, and it stacks either vertically for more tiers or side-by-side for more width, so you can scale it up later without buying a whole new rack.",
+      "The Autonomier 3-Tier is the narrowest pick in this entire list at just 16.3 inches wide, small enough to tuck beside a door or into a closet corner most racks can't fit. Metal legs and a non-woven fabric shelf surface keep it lightweight and corrosion-resistant.\n\nIt's also the cheapest pick here at under $8, and it stacks either vertically for more tiers or side-by-side for more width, so you can scale it up later without buying a whole new rack.\n\nWorth calling out specifically: cheapest pick in this list at $7.99. The catch is only 3 tiers, low overall capacity as a standalone unit.",
     specs: [
       "16.3\"W x 10.2\"D x 14.7\"H",
       "Metal frame + non-woven fabric",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+JCePqlmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPF4548R?tag=deskfinds0d-20",
     description:
-      "The 4-tier version of the Autonomier keeps the same narrow 16.3-inch footprint as the 3-tier model but adds a fourth shelf and stretches to 21.5 inches tall, giving it more capacity without taking up any more floor space. It's built from the same metal-and-fabric combination and holds up to 22 lbs.\n\nAt $8.99 it's the cheapest tall option in this list, and like its 3-tier sibling it's fully stackable, so it can grow into a taller tower or a wider side-by-side setup as your shoe collection does.",
+      "The 4-tier version of the Autonomier keeps the same narrow 16.3-inch footprint as the 3-tier model but adds a fourth shelf and stretches to 21.5 inches tall, giving it more capacity without taking up any more floor space. It's built from the same metal-and-fabric combination and holds up to 22 lbs.\n\nAt $8.99 it's the cheapest tall option in this list, and like its 3-tier sibling it's fully stackable, so it can grow into a taller tower or a wider side-by-side setup as your shoe collection does.\n\nCheapest tall pick in this list at $8.99. Set against that, 22 lb capacity is on the low side. Both matter when comparing it to the other picks here.",
     specs: [
       "16.3\"W x 10.2\"D x 21.5\"H",
       "Metal frame + non-woven fabric",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GrZFMJEeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNQ8VPT7?tag=deskfinds0d-20",
     description:
-      "The ENJOYBASICS is the only pick in this list with an adjustable width, sliding from 17.8 inches up to 32.7 inches so it can fit an odd-shaped nook now and expand later if you move to a wider hallway. Tool-free assembly means it snaps together without a screwdriver.\n\nWith a 4.7-star rating across 1,843 reviews, it's also the highest-rated pick in this entire list. The metal frame holds around 12 pairs across its 3 tiers, and the fold-flat width adjustment is genuinely useful for renters who don't know their next entryway's exact dimensions.",
+      "The ENJOYBASICS is the only pick in this list with an adjustable width, sliding from 17.8 inches up to 32.7 inches so it can fit an odd-shaped nook now and expand later if you move to a wider hallway. Tool-free assembly means it snaps together without a screwdriver.\n\nWith a 4.7-star rating across 1,843 reviews, it's also the highest-rated pick in this entire list. The metal frame holds around 12 pairs across its 3 tiers, and the fold-flat width adjustment is genuinely useful for renters who don't know their next entryway's exact dimensions.\n\nA genuine advantage here is that only pick with adjustable width, 17.8\" to 32.7\". The tradeoff is short 17.05\" height limits it to a single low tier of visibility.",
     specs: [
       "Expandable 17.8\"-32.7\"W x 8.9\"D x 17.05\"H",
       "Metal frame",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41e7Tu2q8mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ42GY8V?tag=deskfinds0d-20",
     description:
-      "At just 11.5 inches wide, the LANTEFUL 10-Tier is the narrowest tall tower in this entire list, built to fit a corner most other racks would overhang. Its corner-fit design uses 10 tiers and 5 side hooks to pack in vertical storage without eating up floor space.\n\nBecause it's a 10-tier fabric-and-connector tower, it splits into two separate 5-tier racks if you'd rather run two shorter units side by side. Given the height-to-width ratio here, an anti-tip kit and wall anchor are worth adding, especially in a home with kids or pets.",
+      "At just 11.5 inches wide, the LANTEFUL 10-Tier is the narrowest tall tower in this entire list, built to fit a corner most other racks would overhang. Its corner-fit design uses 10 tiers and 5 side hooks to pack in vertical storage without eating up floor space.\n\nBecause it's a 10-tier fabric-and-connector tower, it splits into two separate 5-tier racks if you'd rather run two shorter units side by side. Given the height-to-width ratio here, an anti-tip kit and wall anchor are worth adding, especially in a home with kids or pets.\n\nSplits into two separate 5-tier racks for flexibility. On the other hand, 66.93\" height on an 11.5\" base is top-heavy without extra support. Neither should be a surprise once you know to look for it.",
     specs: [
       "11.5\"W x 11.5\"D x 66.93\"H",
       "Metal frame + non-woven fabric",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WPjwLYDKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTHQH9S8?tag=deskfinds0d-20",
     description:
-      "The 17.7-inch-wide version of the LANTEFUL 10-Tier is the most-reviewed pick in this entire list by a wide margin, with over 17,500 ratings behind its 10-tier metal-and-fabric build. It's rated to hold 20-25 pairs and up to 55 lbs, and it splits into two 5-tier racks the same way the narrower version does.\n\nRemember that the 20-25 pair claim assumes small or narrow shoes stacked close together; buyers with men's size 10+ shoes or boots should plan on fewer actual pairs fitting per tier. At 68 inches tall, it's another pick where an anti-tip kit and wall anchor matter, particularly with kids or pets in the house.",
+      "The 17.7-inch-wide version of the LANTEFUL 10-Tier is the most-reviewed pick in this entire list by a wide margin, with over 17,500 ratings behind its 10-tier metal-and-fabric build. It's rated to hold 20-25 pairs and up to 55 lbs, and it splits into two 5-tier racks the same way the narrower version does.\n\nRemember that the 20-25 pair claim assumes small or narrow shoes stacked close together; buyers with men's size 10+ shoes or boots should plan on fewer actual pairs fitting per tier. At 68 inches tall, it's another pick where an anti-tip kit and wall anchor matter, particularly with kids or pets in the house.\n\n55 lb capacity, higher than most narrow fabric racks. That's a real strength, but weigh it against the flip side: advertised 20-25 pair capacity assumes small, closely stacked shoes.",
     specs: [
       "17\"W x 10\"D x 68\"H",
       "Metal frame + non-woven fabric",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qUcjU9qYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Q678QVP?tag=deskfinds0d-20",
     description:
-      "The WEXCISE 10-Tier is both the tallest pick in this entire list at 78.7 inches and the highest-capacity, rated for 100 lbs total across its metal-and-plastic frame. Five hooks add extra hanging storage along the side.\n\nThat height-and-capacity combination makes this the pick where stability matters most. Load heavier shoes and boots on the bottom tiers to keep the center of gravity low, and treat the anti-tip kit and wall anchor as mandatory rather than optional, especially in households with kids or pets.",
+      "The WEXCISE 10-Tier is both the tallest pick in this entire list at 78.7 inches and the highest-capacity, rated for 100 lbs total across its metal-and-plastic frame. Five hooks add extra hanging storage along the side.\n\nThat height-and-capacity combination makes this the pick where stability matters most. Load heavier shoes and boots on the bottom tiers to keep the center of gravity low, and treat the anti-tip kit and wall anchor as mandatory rather than optional, especially in households with kids or pets.\n\nWorth calling out specifically: highest weight capacity in this list at 100 lbs. The catch is height demands anti-tip kit and wall anchoring, not optional here.",
     specs: [
       "11.8\"W x 17.1\"D x 78.7\"H",
       "Metal frame + plastic",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31SeQgMZQxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BTGQK21X?tag=deskfinds0d-20",
     description:
-      "The SONGMICS Metal 8-Tier swaps fabric-and-connector construction for thickened powder-coated steel and dense wire shelving, giving it the highest per-shelf load rating among the narrow metal picks in this list at 30 lbs per shelf. Its 1.47 sq ft footprint is also the smallest of any pick here.\n\nFour adjustable feet let it sit level on uneven flooring, and it ships with 2 anti-tip kits already included rather than leaving stability as an afterthought. The open wire shelving also improves airflow around damp shoes, which helps reduce odor and mold buildup compared to fully enclosed fabric tiers.",
+      "The SONGMICS Metal 8-Tier swaps fabric-and-connector construction for thickened powder-coated steel and dense wire shelving, giving it the highest per-shelf load rating among the narrow metal picks in this list at 30 lbs per shelf. Its 1.47 sq ft footprint is also the smallest of any pick here.\n\nFour adjustable feet let it sit level on uneven flooring, and it ships with 2 anti-tip kits already included rather than leaving stability as an afterthought. The open wire shelving also improves airflow around damp shoes, which helps reduce odor and mold buildup compared to fully enclosed fabric tiers.\n\nSmallest floor footprint in this list at 1.47 sq ft. Set against that, pricier than the fabric-tier picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "17.6\"W x 12\"D x 50.6\"H",
       "Powder-coated steel + dense wire",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DVfsEpWqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXK95YKP?tag=deskfinds0d-20",
     description:
-      "The VASAGLE 7-Tier is the narrowest wood-construction pick in this entire list at 10.4 inches wide, built from particleboard and engineered wood rather than metal or fabric. Left/right adjustable hooks and a raised back panel add a bit more finished styling than the wire and fabric towers in this list.\n\nEach of its 7 shelves holds up to 22 lbs, and it ships with anti-tip hardware given its 43.5-inch height. It's the pick for buyers who want a narrow footprint but prefer a wood-look finish over exposed metal or fabric.",
+      "The VASAGLE 7-Tier is the narrowest wood-construction pick in this entire list at 10.4 inches wide, built from particleboard and engineered wood rather than metal or fabric. Left/right adjustable hooks and a raised back panel add a bit more finished styling than the wire and fabric towers in this list.\n\nEach of its 7 shelves holds up to 22 lbs, and it ships with anti-tip hardware given its 43.5-inch height. It's the pick for buyers who want a narrow footprint but prefer a wood-look finish over exposed metal or fabric.\n\nA genuine advantage here is that 22 lb per-shelf rating across all 7 tiers. The tradeoff is wood construction is heavier to move than metal-and-fabric towers.",
     specs: [
       "10.4\"W x 11.8\"D x 43.5\"H",
       "Particleboard + engineered wood",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "\"Pairs\" capacity on the listing is usually optimistic",
-    explanation:
-      "Most narrow rack listings advertise pair counts that assume small or narrow shoes stacked close together. A 36-inch-wide rack realistically holds 8-10 pairs, and a 30-inch-wide rack more like 6-10 pairs, once you're loading in men's size 10+ shoes or boots. Plan around the realistic number, not the number on the box.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shoe rack narrow often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Tall narrow towers need anti-tip hardware, not just a base",
-    explanation:
-      "Any rack in the 38-inch-and-up range is top-heavy by design, especially fabric-and-connector construction, which sways more at full height than a solid metal frame. Treat an anti-tip kit and wall anchor as mandatory in any household with kids or pets, and load heavier shoes and boots on the bottom tiers to keep the center of gravity low.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shoe rack narrow holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Width and height are a direct tradeoff",
-    explanation:
-      "Every inch you save in width in this category, you generally pay back in height, since narrow racks pack more tiers vertically to hold a comparable number of shoes. Measure your ceiling clearance and closet height before buying a 60-inch-plus tower, not just the footprint on the floor.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shoe rack narrow over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Mesh or open shelving reduces odor and mold",
-    explanation:
-      "Fully enclosed fabric tiers trap moisture against damp shoes, while open wire or mesh shelving lets air circulate and helps shoes dry between uses. If odor control matters more than a tidy enclosed look, prioritize the wire-shelf picks in this list.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shoe rack narrow you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Expandable racks are worth the small premium if you're not settled",
-    explanation:
-      "A fixed-width rack is cheaper up front, but an expandable design lets you adjust to a new entryway without buying a second rack. If you rent or expect to move within a year or two, the flexibility often pays for itself.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shoe rack narrow that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,79 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Available Width",
-    intro:
-      "Match the rack to your actual measured space, not a rounded-up guess, since a half-inch of overhang against a doorframe is enough to matter in a narrow entryway.",
-    table: {
-      headers: ["Available width", "Best pick"],
-      rows: [
-        ["Under 12\"", "LANTEFUL 10-Tier (11.5\" wide) or VASAGLE 7-Tier Vertical (10.4\" wide)"],
-        ["12\"-17\"", "Autonomier 3-Tier or 4-Tier (16.3\" wide)"],
-        ["17\"-20\"", "LANTEFUL 10-Tier (17.7\" wide), SONGMICS Metal 8-Tier (17.6\" wide)"],
-        ["Flexible / unknown yet", "ENJOYBASICS 3-Tier Expandable (17.8\"-32.7\" wide)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "ENJOYBASICS 3"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "LANTEFUL 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Realistic Pair Count",
-    intro:
-      "Advertised pair counts assume small shoes packed tight. Here's what to actually expect based on shelf width, not the listing's headline number.",
-    table: {
-      headers: ["Shelf width", "Realistic pairs (avg. adult shoes)", "Best pick"],
-      rows: [
-        ["11.5\"-11.8\" (single-file towers)", "1 pair per tier, 8-10 pairs across 10 tiers", "LANTEFUL 10-Tier (11.5\")"],
-        ["16.3\"-17.7\"", "8-10 pairs across a full tower", "LANTEFUL 10-Tier (17.7\"), Autonomier 4-Tier"],
-        ["17.8\"-32.7\" (expanded)", "6-12 pairs depending on width setting", "ENJOYBASICS 3-Tier Expandable"],
-        ["Boots or size 10+ shoes", "Expect fewer pairs than advertised on any pick", "WEXCISE 10-Tier (deepest shelves at 17.1\")"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If your household wears larger shoes or boots, size up your width expectations rather than trusting the pair count on the listing.",
+      "rows": [
+        [
+          "Under $8",
+          "Autonomier 3"
+        ],
+        [
+          "Up to $40",
+          "SONGMICS Metal 8"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Height and Stability Needs",
-    cards: [
+    "subheading": "Autonomier 3 vs SONGMICS Metal 8",
+    "cards": [
       {
-        label: "Kids or pets in the house",
-        text: "Prioritize the SONGMICS Metal 8-Tier, which ships with 2 anti-tip kits already included, or add wall anchoring to any tower over 60\" tall like the LANTEFUL or WEXCISE picks.",
+        "label": "Autonomier 3",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Renting and can't drill into a wall",
-        text: "Choose a shorter, wider-based pick like the VASAGLE 7-Tier Vertical (43.5\" tall) over a 78.7\" tower, and always load heavier shoes on the bottom tiers.",
-      },
-      {
-        label: "Maximum capacity and willing to anchor properly",
-        text: "The WEXCISE 10-Tier holds the most weight in this list at 100 lbs, but only makes sense if you commit to the included anti-tip hardware and a wall anchor.",
-      },
-      {
-        label: "Want the sturdiest build without a fabric tower",
-        text: "The SONGMICS Metal 8-Tier's steel-and-wire frame is inherently more rigid than fabric-and-connector towers at comparable height.",
-      },
+        "label": "SONGMICS Metal 8",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Autonomier 3 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Odor and Airflow Concerns",
-    intro:
-      "Damp shoes stored in enclosed fabric tiers dry more slowly than shoes on open shelving, which affects odor and mold risk over time.",
-    table: {
-      headers: ["Priority", "Best pick"],
-      rows: [
-        ["Best airflow / lowest odor risk", "SONGMICS Metal 8-Tier (open wire shelving)"],
-        ["Wood-look finish with decent airflow", "VASAGLE 7-Tier Vertical"],
-        ["Budget fabric tower, expect more odor buildup", "LANTEFUL or Autonomier picks (fabric tiers)"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "LANTEFUL 10"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick"],
-      rows: [
-        ["Under $10", "Autonomier 3-Tier ($7.99) or 4-Tier ($8.99)"],
-        ["$15-$22", "LANTEFUL 10-Tier (either width), WEXCISE 10-Tier, ENJOYBASICS Expandable"],
-        ["$35-$40", "SONGMICS Metal 8-Tier, VASAGLE 7-Tier Vertical"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "LANTEFUL 10 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where SONGMICS Metal 8's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Autonomier 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

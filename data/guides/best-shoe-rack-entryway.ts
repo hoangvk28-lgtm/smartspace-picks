@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EzKoSjkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNGTZ3B5?tag=deskfinds0d-20",
     description:
-      "The Kitsure 3-Tier is the cheapest and best-selling entryway rack in this list, built from a metal frame and non-woven fabric shelving that assembles in a tool-free 4-step process. At 27.5 inches wide, it slides into a narrow entryway without eating up much floor space.\n\nThe rust-proof, weather-resistant construction and stackable design mean you can add a second unit later if your household's shoe collection outgrows one rack. It's the pick to start with if you just need a low-cost, no-fuss shoe catch-all by the door.",
+      "The Kitsure 3-Tier is the cheapest and best-selling entryway rack in this list, built from a metal frame and non-woven fabric shelving that assembles in a tool-free 4-step process. At 27.5 inches wide, it slides into a narrow entryway without eating up much floor space.\n\nThe rust-proof, weather-resistant construction and stackable design mean you can add a second unit later if your household's shoe collection outgrows one rack. It's the pick to start with if you just need a low-cost, no-fuss shoe catch-all by the door.\n\nA genuine advantage here is that best-selling with 15,124 ratings. The tradeoff is fabric shelves aren't as sturdy as solid wood or metal.",
     specs: [
       "27.5\"W x 11.8\"D x 13.7\"H",
       "Metal frame + non-woven fabric",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41107zv6EsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08MJMN4Q9?tag=deskfinds0d-20",
     description:
-      "This SONGMICS rack is the only pick in this list built to work three different ways, upright as a standard rack, upside-down for a different clearance height, or stacked with a second unit for double the capacity. That flexibility makes it easy to adapt as your entryway's shoe volume changes.\n\nAt 36.2 inches wide, it's also the widest freestanding rack in this list, and each tier holds up to 22 lbs of metal tube and plastic connector construction. It's the most-reviewed pick here, with over 21,000 ratings backing the design.",
+      "This SONGMICS rack is the only pick in this list built to work three different ways, upright as a standard rack, upside-down for a different clearance height, or stacked with a second unit for double the capacity. That flexibility makes it easy to adapt as your entryway's shoe volume changes.\n\nAt 36.2 inches wide, it's also the widest freestanding rack in this list, and each tier holds up to 22 lbs of metal tube and plastic connector construction. It's the most-reviewed pick here, with over 21,000 ratings backing the design.\n\nWidest freestanding option at 36.2 inches. On the other hand, lower average rating than most other picks in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "36.2\"W x 11.8\"D x 21.7\"H",
       "Metal tube + plastic connector",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/513meUNqbcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C3R76MWB?tag=deskfinds0d-20",
     description:
-      "The ROMGUAR CRAFT swaps fabric and plastic for FSC-certified carbonized bamboo, giving it a warmer, more natural look than the metal-and-fabric racks in this list. It also carries the highest weight capacity among the freestanding racks here at 90 lbs.\n\nAssembly takes about 10 minutes, and the 3 stackable tiers mean you can expand it the same way as the other freestanding picks. The FSC certification is a genuine sustainability credential, not just marketing language, for buyers who care about sourcing.",
+      "The ROMGUAR CRAFT swaps fabric and plastic for FSC-certified carbonized bamboo, giving it a warmer, more natural look than the metal-and-fabric racks in this list. It also carries the highest weight capacity among the freestanding racks here at 90 lbs.\n\nAssembly takes about 10 minutes, and the 3 stackable tiers mean you can expand it the same way as the other freestanding picks. The FSC certification is a genuine sustainability credential, not just marketing language, for buyers who care about sourcing.\n\nFSC-certified sustainable bamboo construction. That's a real strength, but weigh it against the flip side: narrower than the SONGMICS 3-Tier at 27 inches wide.",
     specs: [
       "27\"W x 11\"D x 20\"H",
       "FSC-certified carbonized bamboo",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yF6vuLbaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8CMDLBT?tag=deskfinds0d-20",
     description:
-      "The HOOBRO adds bench seating on top of 2 mesh storage shelves, letting you sit down to put shoes on instead of balancing at the door. The mesh shelf design also matters more than it looks, since it lets air circulate around damp shoes instead of trapping moisture the way a solid shelf would.\n\nIts 300 lb top load capacity is the highest bench load-bearing rating in this list, and each shelf holds 33 lbs. Combined with a 4.7-star rating, it's one of the two highest-rated picks in this entire guide.",
+      "The HOOBRO adds bench seating on top of 2 mesh storage shelves, letting you sit down to put shoes on instead of balancing at the door. The mesh shelf design also matters more than it looks, since it lets air circulate around damp shoes instead of trapping moisture the way a solid shelf would.\n\nIts 300 lb top load capacity is the highest bench load-bearing rating in this list, and each shelf holds 33 lbs. Combined with a 4.7-star rating, it's one of the two highest-rated picks in this entire guide.\n\nWorth calling out specifically: mesh shelves improve airflow and reduce odor buildup. The catch is only 2 shelves below the seat limits shoe capacity.",
     specs: [
       "29.5\"L x 11.2\"W x 19\"H",
       "Engineered wood + metal",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41U9fB5XU3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N125MU5?tag=deskfinds0d-20",
     description:
-      "This SONGMICS bamboo bench is the most-reviewed pick in this entire guide, with nearly 25,000 ratings behind its 3-tier natural bamboo design. Two open shelves hold roughly 6 pairs, and the flat top panel doubles as seating for putting shoes on.\n\nAt 286 lbs of capacity and a natural bamboo finish, it strikes a middle ground between the bare-bones freestanding racks and the pricier padded benches further down this list, without straying far from the $28 price point.",
+      "This SONGMICS bamboo bench is the most-reviewed pick in this entire guide, with nearly 25,000 ratings behind its 3-tier natural bamboo design. Two open shelves hold roughly 6 pairs, and the flat top panel doubles as seating for putting shoes on.\n\nAt 286 lbs of capacity and a natural bamboo finish, it strikes a middle ground between the bare-bones freestanding racks and the pricier padded benches further down this list, without straying far from the $28 price point.\n\nNatural bamboo finish at an accessible price. Set against that, flat bamboo top isn't padded. Both matter when comparing it to the other picks here.",
     specs: [
       "27.6\"W x 11.3\"D x 17.8\"H",
       "Natural bamboo",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HAAR2ccDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SR2S95R?tag=deskfinds0d-20",
     description:
-      "The padded SONGMICS bench swaps the flat bamboo top for a 2-inch thick foam seat wrapped in cotton-linen, the thickest padded seat in this entire list. That extra cushioning matters if the bench sees daily use for putting on shoes or as a spot to sit while getting ready.\n\nIt carries the highest rating in this entire guide at 4.8 stars, backed by a powder-coated metal frame and 300 lb capacity. Two lower tiers hold roughly 8 pairs, giving it more storage than the unpadded bamboo bench above.",
+      "The padded SONGMICS bench swaps the flat bamboo top for a 2-inch thick foam seat wrapped in cotton-linen, the thickest padded seat in this entire list. That extra cushioning matters if the bench sees daily use for putting on shoes or as a spot to sit while getting ready.\n\nIt carries the highest rating in this entire guide at 4.8 stars, backed by a powder-coated metal frame and 300 lb capacity. Two lower tiers hold roughly 8 pairs, giving it more storage than the unpadded bamboo bench above.\n\nA genuine advantage here is that thickest padded seat in this list at 2 inches. The tradeoff is pricier than both bamboo benches in this list.",
     specs: [
       "31.9\"W x 12.2\"D x 19.3\"H",
       "Metal frame + foam + cotton-linen",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nQXmPrBeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRJR7CMS?tag=deskfinds0d-20",
     description:
-      "The ChooChoo is the only cabinet in this list with a built-in deodorizer, running 4 modes to actively manage odor instead of relying on passive airflow alone. That's a meaningful difference for a fully enclosed cabinet, since sealing shoes away with no ventilation is exactly the setup that leads to lingering smell and mold on soles over time.\n\nAt 42.9 inches tall with 2 flip drawers and side hooks, it holds roughly 16 pairs and includes anti-tip hardware for stability. Assembly takes 20-30 minutes, longer than the freestanding racks but reasonable for a cabinet this size.",
+      "The ChooChoo is the only cabinet in this list with a built-in deodorizer, running 4 modes to actively manage odor instead of relying on passive airflow alone. That's a meaningful difference for a fully enclosed cabinet, since sealing shoes away with no ventilation is exactly the setup that leads to lingering smell and mold on soles over time.\n\nAt 42.9 inches tall with 2 flip drawers and side hooks, it holds roughly 16 pairs and includes anti-tip hardware for stability. Assembly takes 20-30 minutes, longer than the freestanding racks but reasonable for a cabinet this size.\n\nAnti-tip hardware included for a tall cabinet. On the other hand, lower rating than most benches in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "31.5\"W x 9.45\"D x 42.9\"H",
       "Engineered wood",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/511jZhAiF0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBFMK6H8?tag=deskfinds0d-20",
     description:
-      "The Xixini packs the most storage compartments of any pick in this list, 2 flip drawers, 2 top sliding drawers, 24 internal shelves, and 2 side hooks, all inside a 42.7-inch-tall P2 engineered wood cabinet. It's built for households that want one piece to handle shoes, seasonal accessories, and entryway clutter together.\n\nAnti-tip hardware and a scratch-resistant finish round it out, and the sheer number of shelves means shoes can be separated by pair rather than piled together. It's the most complete, highest-capacity cabinet in this entire guide.",
+      "The Xixini packs the most storage compartments of any pick in this list, 2 flip drawers, 2 top sliding drawers, 24 internal shelves, and 2 side hooks, all inside a 42.7-inch-tall P2 engineered wood cabinet. It's built for households that want one piece to handle shoes, seasonal accessories, and entryway clutter together.\n\nAnti-tip hardware and a scratch-resistant finish round it out, and the sheer number of shelves means shoes can be separated by pair rather than piled together. It's the most complete, highest-capacity cabinet in this entire guide.\n\n24 individual shelves keep pairs separated. That's a real strength, but weigh it against the flip side: no active deodorizer, unlike the ChooChoo.",
     specs: [
       "29.92\"W x 9.25\"D x 42.7\"H",
       "P2 engineered wood",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Ventilation matters more than most buyers realize",
-    explanation:
-      "Shoes come in damp from rain or sweat, and sealing them into a closed cabinet with no airflow leads to lingering odor and mold on soles over time. Open or mesh-shelf designs like the HOOBRO let air circulate and dry shoes faster, while a fully enclosed cabinet needs dedicated air holes, vents, or a deodorizer feature like the ChooChoo's to avoid the same problem.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shoe rack often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Advertised pair counts are usually optimistic",
-    explanation:
-      "A 36-inch-wide rack realistically holds 8-10 pairs, and a 30-inch-wide rack 6-10 pairs, not the higher numbers some listings imply. If your household wears men's size 10+ shoes or boots, expect noticeably fewer pairs than advertised and size up a tier or width to compensate.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shoe rack holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Tall, narrow racks need anti-tip hardware, not optional straps",
-    explanation:
-      "Racks roughly 38 inches tall and up are top-heavy by design, especially fabric-and-connector construction, which sways more at full height than a solid metal or wood frame. An anti-tip kit and wall anchor aren't optional extras for households with kids or pets, and heavier shoes and boots belong on the bottom tiers to keep the center of gravity low.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shoe rack over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Match the format to how you actually use the entryway",
-    explanation:
-      "A freestanding open rack suits a quick drop zone, a bench suits a household that sits down to put shoes on, and a cabinet suits buyers who want the mess fully hidden behind doors. Picking the wrong format for your daily routine is a common reason racks end up cluttered or unused within a few months.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shoe rack you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Stackable racks let you scale capacity without rebuying",
-    explanation:
-      "Several picks in this list, including the Kitsure and ROMGUAR CRAFT, are designed to stack. Starting with one tier and adding a second later is cheaper than buying a larger single unit upfront if you're not sure how much shoe storage you'll actually need.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shoe rack that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,81 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Household Shoe Volume",
-    intro:
-      "Match the pick to how many pairs your household actually needs to store day to day, keeping in mind that advertised pair counts run optimistic.",
-    table: {
-      headers: ["Household size", "Realistic pair count", "Best pick"],
-      rows: [
-        ["1-2 people, light use", "6-10 pairs", "Kitsure 3-Tier or SONGMICS 3-Tier"],
-        ["Small family, moderate use", "10-16 pairs", "SONGMICS Bamboo Shoe Bench"],
-        ["Family with kids, larger shoes", "16+ pairs", "ChooChoo Shoe Cabinet"],
-        ["Family wanting maximum organized storage", "20+ pairs, separated", "Xixini 43\" Tall Shoe Cabinet"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "SONGMICS Shoe Bench Padded"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SONGMICS Bamboo Shoe Bench"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Format You Need",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "Kitsure 3"
+        ],
+        [
+          "Up to $94",
+          "Xixini 43\" Tall Shoe Cabinet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Kitsure 3 vs Xixini 43\" Tall Shoe Cabinet",
+    "cards": [
       {
-        label: "Just need a cheap, no-fuss drop zone",
-        text: "The Kitsure 3-Tier at $9.99 is the cheapest, fastest way to get shoes off the floor, with tool-free assembly and stackable tiers if you need more later.",
+        "label": "Kitsure 3",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want somewhere to sit while putting shoes on",
-        text: "The HOOBRO or either SONGMICS bench adds seating on top of storage, and the SONGMICS Padded bench's 2-inch foam top is the most comfortable option in this list.",
-      },
-      {
-        label: "Want the mess fully hidden behind doors",
-        text: "The ChooChoo and Xixini cabinets close everything away, with the ChooChoo adding active odor control and the Xixini adding more total compartments.",
-      },
-      {
-        label: "Have kids or pets and worry about tipping",
-        text: "The ROMGUAR CRAFT bamboo rack and both cabinets include anti-tip or anti-tilt hardware, but always anchor a tall rack to a wall stud when the layout allows it.",
-      },
+        "label": "Xixini 43\" Tall Shoe Cabinet",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Kitsure 3 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Odor and Ventilation Concern",
-    intro:
-      "If your household deals with damp shoes from rain, sweat, or outdoor work, ventilation should weigh as heavily as capacity.",
-    table: {
-      headers: ["Situation", "What to prioritize", "Best pick"],
-      rows: [
-        ["Rainy climate or frequent damp shoes", "Active odor control", "ChooChoo Shoe Cabinet"],
-        ["Gym shoes or sweaty daily wear", "Open airflow, mesh shelving", "HOOBRO Shoe Bench 3-Tier"],
-        ["Mostly dry, occasional use shoes", "Open or closed doesn't matter much", "Any freestanding rack or bench"],
-        ["Want closed storage without a deodorizer", "Confirm vent holes exist before buying", "Xixini 43\" Tall Shoe Cabinet"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "A fully enclosed cabinet with no air holes, vents, or deodorizer will trap moisture the same way a gym bag does, so check for at least one of those features before choosing a closed-door cabinet over an open rack.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SONGMICS Bamboo Shoe Bench"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Entryway Space and Footprint",
-    table: {
-      headers: ["Entryway type", "Recommended footprint", "Best pick"],
-      rows: [
-        ["Narrow hallway or apartment entry", "Under 28\" wide", "Kitsure 3-Tier or ROMGUAR CRAFT Bamboo"],
-        ["Standard entryway with wall space", "30-32\" wide with seating", "HOOBRO or SONGMICS Padded Bench"],
-        ["Wide mudroom or foyer", "36\"+ wide", "SONGMICS 3-Tier or Xixini Cabinet"],
-        ["Tight closet-adjacent nook", "Tall and narrow, wall-anchored", "ChooChoo Shoe Cabinet"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SONGMICS Bamboo Shoe Bench is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Stability Reality Check for Taller Picks",
-    intro:
-      "Anything roughly 38 inches or taller in this list needs deliberate anti-tip planning, especially with kids or pets around.",
-    table: {
-      headers: ["Pick", "Stability feature", "Extra tip"],
-      rows: [
-        ["ChooChoo Shoe Cabinet", "Anti-tip hardware, 42.9\" tall", "Anchor to a wall stud, load lower drawers first"],
-        ["Xixini 43\" Tall Shoe Cabinet", "Anti-tip hardware, 42.7\" tall", "Keep heavier boots on the bottom shelves"],
-        ["SONGMICS 3-Tier (stacked)", "Wider 36.2\" base helps at full height", "Avoid stacking a 3rd tier without extra anchoring"],
-      ],
-    },
-    note: "Bench-style picks under 20 inches tall carry minimal tip risk and don't need wall anchoring the way the taller cabinets do.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Xixini 43\" Tall Shoe Cabinet's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Kitsure 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

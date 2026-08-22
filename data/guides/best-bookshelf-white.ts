@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5145tO05s8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKRJS67K?tag=deskfinds0d-20",
     description:
-      "The TUTOTAK is the highest-rated pick in this entire list, and its party trick is a genuinely clever DIY stackable design that lets it split into 2 low end tables or combine into one tall 6-tier bookcase, whichever your space needs right now. At a narrow 14.5 inches wide and 10.7 inches deep, it slots into corners most full-size bookshelves can't touch.\n\nFour adjustable feet and an anti-tilt wall mount kit round out a build that stays stable despite its slim profile, making it an easy top pick for renters or anyone who might rearrange furniture down the line.",
+      "The TUTOTAK is the highest-rated pick in this entire list, and its party trick is a genuinely clever DIY stackable design that lets it split into 2 low end tables or combine into one tall 6-tier bookcase, whichever your space needs right now. At a narrow 14.5 inches wide and 10.7 inches deep, it slots into corners most full-size bookshelves can't touch.\n\nFour adjustable feet and an anti-tilt wall mount kit round out a build that stays stable despite its slim profile, making it an easy top pick for renters or anyone who might rearrange furniture down the line.\n\nA genuine advantage here is that unique stackable design splits into 2 end tables or one tall bookcase. The tradeoff is narrower shelves hold fewer books per tier than wider units.",
     specs: [
       "14.5\"W x 10.7\"D x 65.3\"H",
       "Engineered wood, 6 tiers",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Jl8corSNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9XZZH1W?tag=deskfinds0d-20",
     description:
-      "The FOTOSOK gives you a full-size, 6-tier bookcase in the slimmest depth of any full-size pick in this list at just 9.3 inches, so it hugs the wall without eating into floor space. A built-in anti-collapse stability device backs up the open shelving, and each tier is rated to hold 22 lbs.\n\nAt 70.9 inches tall and 23.6 inches wide, it has room for a serious book collection while still fitting cleanly against a wall in a living room, bedroom, or office.",
+      "The FOTOSOK gives you a full-size, 6-tier bookcase in the slimmest depth of any full-size pick in this list at just 9.3 inches, so it hugs the wall without eating into floor space. A built-in anti-collapse stability device backs up the open shelving, and each tier is rated to hold 22 lbs.\n\nAt 70.9 inches tall and 23.6 inches wide, it has room for a serious book collection while still fitting cleanly against a wall in a living room, bedroom, or office.\n\nAnti-collapse stability device built in. On the other hand, no enclosed storage. Neither should be a surprise once you know to look for it.",
     specs: [
       "23.6\"W x 9.3\"D x 70.9\"H",
       "Engineered particleboard, 6 open tiers",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41czXLWqp3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3T2R4L4?tag=deskfinds0d-20",
     description:
-      "The SUNMORY takes a tree-shaped silhouette that's arguably the most visually interesting design in this list, staggering 6 tiers around 2 joinable open storage cabinets at the base. It's built from MDF in a vintage white tone that reads warmer than a stark white finish, all in a tiny 14.6\" x 7.9\" footprint.\n\nSUNMORY backs it with a 2-year warranty plus lifetime support, longer coverage than most competitors offer, and includes an anti-tip kit for safe wall anchoring.",
+      "The SUNMORY takes a tree-shaped silhouette that's arguably the most visually interesting design in this list, staggering 6 tiers around 2 joinable open storage cabinets at the base. It's built from MDF in a vintage white tone that reads warmer than a stark white finish, all in a tiny 14.6\" x 7.9\" footprint.\n\nSUNMORY backs it with a 2-year warranty plus lifetime support, longer coverage than most competitors offer, and includes an anti-tip kit for safe wall anchoring.\n\n2-year warranty with lifetime support. That's a real strength, but weigh it against the flip side: shorter than the tallest picks at 47.4\".",
     specs: [
       "14.6\"L x 7.9\"W x 47.4\"H",
       "MDF, tree-shaped design",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31zaJI1xQdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNJ2SCR9?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS carries the highest total capacity among open-shelving white bookcases in this list at 154 lbs, spread across 4 fully adjustable shelves that can be set to 3 different height positions. A footless H-shaped frame gives it a modern look that skips the usual four-leg base.\n\nA slot-in back panel adds rigidity without extra tools, and at 22 lbs per shelf it comfortably handles a mixed load of books, binders, and decor in a Cloud White finish.",
+      "The VASAGLE CUSTOS carries the highest total capacity among open-shelving white bookcases in this list at 154 lbs, spread across 4 fully adjustable shelves that can be set to 3 different height positions. A footless H-shaped frame gives it a modern look that skips the usual four-leg base.\n\nA slot-in back panel adds rigidity without extra tools, and at 22 lbs per shelf it comfortably handles a mixed load of books, binders, and decor in a Cloud White finish.\n\nWorth calling out specifically: 4 fully adjustable shelves with 3 height positions. The catch is lower star rating than most other picks in this list at 4.3.",
     specs: [
       "23.6\"W x 9.4\"D x 63.3\"H",
       "Particleboard + MDF",
@@ -178,7 +178,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51v0HhipEKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5RK4NBT?tag=deskfinds0d-20",
     description:
-      "This FOTOSOK pairs 3 open display shelves with 3 smooth-gliding drawers finished with aluminum handles, giving you roughly 100 gallons of combined storage for both displayed and hidden items. An anti-collapse iron plate reinforces the frame, addressing a common weak point on tall bookshelves.\n\nAt 70.9 inches tall and 23.6 inches wide, it's the best-looking white pick in this list for anyone who wants concealed storage without giving up open shelf display space.",
+      "This FOTOSOK pairs 3 open display shelves with 3 smooth-gliding drawers finished with aluminum handles, giving you roughly 100 gallons of combined storage for both displayed and hidden items. An anti-collapse iron plate reinforces the frame, addressing a common weak point on tall bookshelves.\n\nAt 70.9 inches tall and 23.6 inches wide, it's the best-looking white pick in this list for anyone who wants concealed storage without giving up open shelf display space.\n\nAnti-collapse iron plate reinforcement. Set against that, most expensive pick in this list at $112.99. Both matter when comparing it to the other picks here.",
     specs: [
       "23.6\"W x 13.8\"D x 70.9\"H",
       "Engineered particleboard",
@@ -210,7 +210,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-W1x24xYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BRPKSG14?tag=deskfinds0d-20",
     description:
-      "The OSCHF carries the highest total weight capacity in this entire list at 400 lbs, or 80 lbs per shelf, thanks to P2 MDF shelving paired with genuine solid beech wood legs rather than the metal or composite legs found on most competitors. Three side panels on each shelf keep smaller items from sliding off the edges.\n\nRounded corners and a warm white finish give it the most premium, minimalist look among white bookshelves here, and at 31.5 inches wide it holds a serious book collection without towering over the room.",
+      "The OSCHF carries the highest total weight capacity in this entire list at 400 lbs, or 80 lbs per shelf, thanks to P2 MDF shelving paired with genuine solid beech wood legs rather than the metal or composite legs found on most competitors. Three side panels on each shelf keep smaller items from sliding off the edges.\n\nRounded corners and a warm white finish give it the most premium, minimalist look among white bookshelves here, and at 31.5 inches wide it holds a serious book collection without towering over the room.\n\nA genuine advantage here is that genuine solid beech wood legs, not composite or metal. The tradeoff is shorter than the tallest picks at 53.94\".",
     specs: [
       "31.5\"W x 9.45\"D x 53.94\"H",
       "P2 MDF + solid beech wood legs (30mm)",
@@ -242,7 +242,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aYIIYxIDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4HK9PTC?tag=deskfinds0d-20",
     description:
-      "The Bevfint is both the widest pick in this list at 33 inches and the highest per-shelf capacity among 5-tier white bookshelves at 60 lbs per shelf, a combination that makes it well suited to encyclopedias, binders, and other oversized items most bookshelves can't accommodate. FSC-certified MDF construction backs a sustainable sourcing claim most competitors skip.\n\nAn anti-tipping device is included for wall anchoring, and 11.8 inches of clearance on each shelf gives even tall hardcovers room to stand upright without leaning.",
+      "The Bevfint is both the widest pick in this list at 33 inches and the highest per-shelf capacity among 5-tier white bookshelves at 60 lbs per shelf, a combination that makes it well suited to encyclopedias, binders, and other oversized items most bookshelves can't accommodate. FSC-certified MDF construction backs a sustainable sourcing claim most competitors skip.\n\nAn anti-tipping device is included for wall anchoring, and 11.8 inches of clearance on each shelf gives even tall hardcovers room to stand upright without leaning.\n\nWidest pick in this list at 33\". On the other hand, most expensive pick in this list at $179.99. Neither should be a surprise once you know to look for it.",
     specs: [
       "33\"W x 13\"D x 70\"H",
       "FSC-certified MDF, 5 open tiers",
@@ -267,45 +267,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Footprint vs capacity trade-off",
-    explanation:
-      "Narrow white picks like the TUTOTAK (14.5\" wide) and SUNMORY (14.6\" x 7.9\") save the most space, while wide premium picks like the OSCHF and Bevfint hold the most books thanks to their wider, deeper shelves.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf white often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacity ranges from roughly 12 lbs per shelf on narrow units up to 400 lbs total on the OSCHF. Match capacity to whether you're storing paperbacks or dense hardcovers and binders.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf white holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Open shelving vs drawers",
-    explanation:
-      "Most picks here are fully open, but the FOTOSOK with 3 Drawers (Pick 5) is the best mix of display shelving and hidden storage if you want to keep some items out of sight.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf white over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Material and legs",
-    explanation:
-      "Most picks use engineered wood or MDF, but the OSCHF stands out with genuine solid beech wood legs rather than composite or metal, giving it a more premium feel.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf white you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Stability features",
-    explanation:
-      "Look for anti-collapse devices or iron plates, called out on the FOTOSOK picks, plus anti-tip kits for wall anchoring, included on most picks in this list.",
-  },
-  {
-    criterion: "Flexible or modular design",
-    explanation:
-      "The TUTOTAK's stackable, detachable design is unique in this list, letting it split into 2 end tables or combine into one tall bookcase depending on your space.",
-  },
-  {
-    criterion: "Shelf spacing for your book sizes",
-    explanation:
-      "Standard 10-11 inch spacing suits most hardcovers and paperbacks, while 8-9 inches works if paperbacks are all you're storing. The Bevfint's 11.8-inch shelf height stands out here, purpose-built for oversized books and binders that won't fit on the narrower-spaced picks in this list.",
-  },
-  {
-    criterion: "Weight capacity by material",
-    explanation:
-      "White finishes in this list span budget composite to premium solid wood, and capacity tracks with that. Particleboard picks typically hold 30-50 lbs per shelf, while the OSCHF's solid beech wood legs push its total capacity to 400 lbs, the highest in this list.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf white that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

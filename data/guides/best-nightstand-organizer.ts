@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414lQ1KkCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CL5J9QX?tag=deskfinds0d-20",
     description:
-      "The HOME SMILE ceramic dish is a simple 3.9-inch square tray meant for rings, earrings, or a watch, and it's backed by the largest review base in this entire guide. Glazed ceramic wipes clean in seconds and the piece ships in a gift box, which makes it an easy add for a housewarming or birthday gift alongside its everyday job.\n\nAt this size it holds a handful of small items rather than a full jewelry collection, so it works best as a single catch-all near the bed rather than a primary storage system. Hand washing is the safer bet for keeping the glaze looking new over time.",
+      "The HOME SMILE ceramic dish is a simple 3.9-inch square tray meant for rings, earrings, or a watch, and it's backed by the largest review base in this entire guide. Glazed ceramic wipes clean in seconds and the piece ships in a gift box, which makes it an easy add for a housewarming or birthday gift alongside its everyday job.\n\nAt this size it holds a handful of small items rather than a full jewelry collection, so it works best as a single catch-all near the bed rather than a primary storage system. Hand washing is the safer bet for keeping the glaze looking new over time.\n\nWorth calling out specifically: highest rating tier alongside the monogram tray. The catch is small 3.9\" footprint holds only a handful of items.",
     specs: [
       "3.9\"L x 3.9\"W x 0.6\"H",
       "Glazed ceramic",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41D-v3eaLyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09RPKGVDW?tag=deskfinds0d-20",
     description:
-      "This 4.75-inch round tray is the only pick in this guide explicitly labeled lead-free and cadmium-free, which matters if the tray will sit right where jewelry touches skin overnight or a child might handle it. It also carries the highest star rating of any pick here at 4.9.\n\nA monogram engraving option and a gold-text gift box make it a strong gift pick, not just a functional one. The round shape holds slightly less surface area than the square trays in this guide, but it's plenty for rings, studs, and a watch.",
+      "This 4.75-inch round tray is the only pick in this guide explicitly labeled lead-free and cadmium-free, which matters if the tray will sit right where jewelry touches skin overnight or a child might handle it. It also carries the highest star rating of any pick here at 4.9.\n\nA monogram engraving option and a gold-text gift box make it a strong gift pick, not just a functional one. The round shape holds slightly less surface area than the square trays in this guide, but it's plenty for rings, studs, and a watch.\n\nHighest star rating in this guide at 4.9. Set against that, smaller review base than the HOME SMILE dish. Both matter when comparing it to the other picks here.",
     specs: [
       "4.75\"D x 0.75\"H",
       "Lead-free and cadmium-free ceramic",
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51r7HpnYLFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2HJSJKG?tag=deskfinds0d-20",
     description:
-      "The Zcaukya valet tray packs 5 compartments into a 10.2 by 7.5 inch faux leather base, the most compartments of any pick in this guide. One compartment includes a lid for smaller items and a half-moon slot is sized for loose coins, which separates it from the flat ceramic dishes elsewhere in this list.\n\nThe diamond-stitched faux leather gives it a masculine, desk-adjacent look that fits a men's dresser or nightstand better than a ceramic dish would. It ships in its own gift box, so it doubles as a ready-made gift.",
+      "The Zcaukya valet tray packs 5 compartments into a 10.2 by 7.5 inch faux leather base, the most compartments of any pick in this guide. One compartment includes a lid for smaller items and a half-moon slot is sized for loose coins, which separates it from the flat ceramic dishes elsewhere in this list.\n\nThe diamond-stitched faux leather gives it a masculine, desk-adjacent look that fits a men's dresser or nightstand better than a ceramic dish would. It ships in its own gift box, so it doubles as a ready-made gift.\n\nA genuine advantage here is that lidded compartment and coin slot add real organization. The tradeoff is largest footprint in this guide, needs more nightstand space.",
     specs: [
       "10.2\"L x 7.5\"W x 2.2\"H",
       "Faux leather, diamond pattern",
@@ -158,7 +158,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QXWu8vezL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG3Q4H5Q?tag=deskfinds0d-20",
     description:
-      "This cloud-shaped tray is the widest surface of any ceramic pick in this guide at 7.7 by 5.3 inches, and it's the only one with built-in anti-roll grooves that keep rings and studs from sliding off the edge. That detail alone solves a real annoyance with flat trinket dishes.\n\nIt's dishwasher safe, which the smaller ceramic dishes in this guide don't all confirm, and it's tied for the cheapest pick in the entire lineup. The cloud shape is more of a statement piece than a plain square dish, so it won't suit every decor style.",
+      "This cloud-shaped tray is the widest surface of any ceramic pick in this guide at 7.7 by 5.3 inches, and it's the only one with built-in anti-roll grooves that keep rings and studs from sliding off the edge. That detail alone solves a real annoyance with flat trinket dishes.\n\nIt's dishwasher safe, which the smaller ceramic dishes in this guide don't all confirm, and it's tied for the cheapest pick in the entire lineup. The cloud shape is more of a statement piece than a plain square dish, so it won't suit every decor style.\n\nOnly pick with anti-roll grooves. On the other hand, cloud shape is a stronger style statement than a plain tray. Neither should be a surprise once you know to look for it.",
     specs: [
       "7.7\"L x 5.3\"W x 0.6\"H",
       "Ceramic",
@@ -189,7 +189,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uE85TTyML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Y5CTG36?tag=deskfinds0d-20",
     description:
-      "AISBUGUR is the only set-of-2 pick among the small ceramic trays in this guide, pairing a 3.9 by 3.1 inch dish with a larger 5.1 by 4.1 inch dish in one purchase. That gives you two sizes for two nightstands, or one for rings and one for a watch and wallet.\n\nBoth pieces are dishwasher safe and the cloud-white finish ships with a gift box and greeting card, making the pair an easy two-for-one gift as well as a functional set for a shared bedroom.",
+      "AISBUGUR is the only set-of-2 pick among the small ceramic trays in this guide, pairing a 3.9 by 3.1 inch dish with a larger 5.1 by 4.1 inch dish in one purchase. That gives you two sizes for two nightstands, or one for rings and one for a watch and wallet.\n\nBoth pieces are dishwasher safe and the cloud-white finish ships with a gift box and greeting card, making the pair an easy two-for-one gift as well as a functional set for a shared bedroom.\n\nTwo sizes cover two different item types or two nightstands. That's a real strength, but weigh it against the flip side: individually the trays are smaller than the single larger picks.",
     specs: [
       "Small tray 3.9\"x3.1\", large tray 5.1\"x4.1\"",
       "Ceramic, cloud white",
@@ -220,7 +220,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51VA8xkBLFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08KXKVT4K?tag=deskfinds0d-20",
     description:
-      "The Vtopmart set is a different kind of organizer entirely, 25 clear plastic bins across 4 sizes meant to live inside a nightstand drawer rather than sit on top of it. That makes it the most configurable pick in this guide, letting you mix and match sizes for socks, chargers, jewelry, or supplements in one drawer.\n\nIt's also the second most-reviewed pick in this entire guide, and it ships with 100 silicone non-slip pads so the bins stay put when the drawer opens and closes. The bins stack, so unused pieces can be set aside without cluttering other drawers.",
+      "The Vtopmart set is a different kind of organizer entirely, 25 clear plastic bins across 4 sizes meant to live inside a nightstand drawer rather than sit on top of it. That makes it the most configurable pick in this guide, letting you mix and match sizes for socks, chargers, jewelry, or supplements in one drawer.\n\nIt's also the second most-reviewed pick in this entire guide, and it ships with 100 silicone non-slip pads so the bins stay put when the drawer opens and closes. The bins stack, so unused pieces can be set aside without cluttering other drawers.\n\nWorth calling out specifically: second most-reviewed pick in this guide. The catch is requires an actual drawer, not a tabletop solution.",
     specs: [
       "4 sizes: 9x6\", 9x3\", 6x3\", 3x3\"",
       "Clear plastic, 25 pieces",
@@ -251,7 +251,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51K0r3NOacL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHW96Q5T?tag=deskfinds0d-20",
     description:
-      "The CubesLand caddy trades flat tray storage for 3 upright slots built for a remote, phone, or glasses, items that tend to slide off a flat dish anyway. Paper rope construction over a metal frame gives it a handcrafted, scalloped boho look that stands apart from every other pick in this guide.\n\nThe paper rope is recyclable, and the design leans decorative as much as functional, so it suits a bedroom with a boho or textured aesthetic more than a minimalist one. It won't hold loose jewelry the way a flat tray does.",
+      "The CubesLand caddy trades flat tray storage for 3 upright slots built for a remote, phone, or glasses, items that tend to slide off a flat dish anyway. Paper rope construction over a metal frame gives it a handcrafted, scalloped boho look that stands apart from every other pick in this guide.\n\nThe paper rope is recyclable, and the design leans decorative as much as functional, so it suits a bedroom with a boho or textured aesthetic more than a minimalist one. It won't hold loose jewelry the way a flat tray does.\n\n3 upright slots suit remotes, phones, and glasses. Set against that, not suited for loose jewelry or flat items. Both matter when comparing it to the other picks here.",
     specs: [
       "8.26\"L x 3.93\"W x 5.51\"H",
       "Paper rope + metal frame",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41suitStFyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078SFKVMG?tag=deskfinds0d-20",
     description:
-      "This is the only clip-on pick in this guide, attaching directly to a bed frame instead of sitting on a nightstand, which makes it the right answer when there's no nightstand at all or floor space is too tight for one. It installs in about 60 seconds without tools.\n\nA 50 lb capacity is the highest in this guide by a wide margin, and it includes a cord insert slot plus a built-in cup holder, features none of the tray-style picks offer. The tradeoff is a plastic build and a look that reads more utilitarian than the ceramic or leather options.",
+      "This is the only clip-on pick in this guide, attaching directly to a bed frame instead of sitting on a nightstand, which makes it the right answer when there's no nightstand at all or floor space is too tight for one. It installs in about 60 seconds without tools.\n\nA 50 lb capacity is the highest in this guide by a wide margin, and it includes a cord insert slot plus a built-in cup holder, features none of the tray-style picks offer. The tradeoff is a plastic build and a look that reads more utilitarian than the ceramic or leather options.\n\nA genuine advantage here is that highest weight capacity in this guide at 50 lbs. The tradeoff is plastic construction looks less refined than ceramic or leather.",
     specs: [
       "14.8\"L x 9\"W x 2.5\"H",
       "Plastic, clips onto bed frame",
@@ -330,99 +330,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Glazed ceramic is not automatically lead-free",
-    explanation:
-      "Many buyers assume a ceramic dish is inherently safe, but glazing can contain lead or cadmium unless the product explicitly states otherwise. If the tray will hold jewelry that touches skin, or you have a child in the house, look for an explicit lead-free and cadmium-free claim rather than assuming any glazed ceramic dish qualifies.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a nightstand organizer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Match compartments to what you actually own",
-    explanation:
-      "A flat single-surface dish works fine for a handful of rings, but if you're sorting studs, a watch, cash, and keys separately every night, a multi-compartment valet tray or a drawer organizer set saves real time. Count your nightly items before choosing a single-surface tray over a compartmentalized one.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the nightstand organizer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Dishwasher safe versus hand-wash only",
-    explanation:
-      "Not every ceramic or faux leather piece tolerates a dishwasher cycle, and running a hand-wash-only tray through one can dull the glaze or warp the material. Check the specific care instructions rather than assuming all ceramic trays clean the same way.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this nightstand organizer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "No nightstand does not mean no organizer",
-    explanation:
-      "If there's no room for a nightstand at all, a clip-on shelf that clamps to the bed frame skips the floor footprint entirely. Check the clamp's jaw-opening range against your actual bed rail thickness before buying, since a shelf rated for a narrow clamp opening won't fit a thicker frame.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any nightstand organizer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Anti-roll and anti-slip details matter more than they sound",
-    explanation:
-      "A flat tray with no lip or grooves lets small items like rings and studs roll off with the slightest bump, especially if the nightstand itself wobbles. Grooved or rimmed designs, and non-slip pads under drawer organizers, prevent this small but constant annoyance.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A nightstand organizer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You're Storing",
-    intro:
-      "The right organizer depends less on your nightstand's size and more on the specific items you empty your pockets of every night.",
-    table: {
-      headers: ["What you're storing", "Best format", "Best pick"],
-      rows: [
-        ["A handful of rings or earrings", "Single flat tray", "HOME SMILE Ceramic Trinket Dish"],
-        ["Jewelry with direct skin contact", "Lead-free ceramic tray", "COLLECTIVE HOME Monogram Tray"],
-        ["Watch, cash, keys, and studs separately", "Multi-compartment valet tray", "Zcaukya Men's Valet Tray"],
-        ["Remote, phone, and glasses upright", "Slotted caddy", "CubesLand Bedside Caddy"],
-        ["A full drawer of socks, chargers, and supplements", "Configurable bin set", "Vtopmart 25 PCS Drawer Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "COLLECTIVE HOME Ceramic Monogram Tray"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Vtopmart 25 PCS Clear Drawer Organizer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Nightstand Situation",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "CCINPPY Cloud Ceramic Tray"
+        ],
+        [
+          "Up to $22",
+          "Modern Innovations Bedside Clip"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "CCINPPY Cloud Ceramic Tray vs Modern Innovations Bedside Clip",
+    "cards": [
       {
-        label: "No nightstand or very tight floor clearance",
-        text: "The Modern Innovations clip-on shelf clamps to the bed frame directly, skipping the need for any nightstand at all.",
+        "label": "CCINPPY Cloud Ceramic Tray",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Two nightstands, one shared bedroom",
-        text: "The AISBUGUR set of 2 gives each side of the bed its own tray in one purchase, in two different sizes.",
-      },
-      {
-        label: "Nightstand with a drawer you never use",
-        text: "The Vtopmart 25-piece set turns an empty drawer into organized storage instead of adding another tabletop tray.",
-      },
-      {
-        label: "Small tabletop, want the widest single surface",
-        text: "The CCINPPY cloud tray offers the most surface area of the ceramic trays at 7.7 by 5.3 inches.",
-      },
+        "label": "Modern Innovations Bedside Clip",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to CCINPPY Cloud Ceramic Tray unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Material and Care Preference",
-    intro:
-      "Ceramic, faux leather, plastic, and paper rope all clean and hold up differently over months of nightly use.",
-    table: {
-      headers: ["Material", "Care level", "Best pick"],
-      rows: [
-        ["Dishwasher-safe ceramic", "Lowest maintenance", "CCINPPY Cloud Tray, AISBUGUR Set of 2"],
-        ["Hand-wash ceramic, gift-focused", "Low maintenance", "HOME SMILE, COLLECTIVE HOME Monogram"],
-        ["Faux leather", "Wipe clean, avoid soaking", "Zcaukya Men's Valet Tray"],
-        ["Paper rope + metal", "Dust, avoid moisture", "CubesLand Bedside Caddy"],
-        ["Plastic", "Wipe clean, most durable", "Modern Innovations Clip-On Shelf"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Vtopmart 25 PCS Clear Drawer Organizer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Budget Tiers",
-    intro:
-      "Every pick in this guide sits under $22, so the real tradeoff is capacity and features rather than a large price jump.",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $10", "Single ceramic tray, no compartments", "CCINPPY Cloud Tray, AISBUGUR Set of 2"],
-        ["$11-$15", "Certified-safe or compartmentalized options", "COLLECTIVE HOME Monogram, Zcaukya Valet Tray"],
-        ["$17-$19", "Boho caddy or 25-piece drawer set", "CubesLand Caddy, Vtopmart Drawer Organizer"],
-        ["$20+", "Highest-capacity clip-on alternative", "Modern Innovations Clip-On Shelf"],
-      ],
-    },
-    note: "Because every pick sits under $22, prioritize the material and compartment fit for your actual items over chasing the cheapest option.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Vtopmart 25 PCS Clear Drawer Organizer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Modern Innovations Bedside Clip's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where CCINPPY Cloud Ceramic Tray covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

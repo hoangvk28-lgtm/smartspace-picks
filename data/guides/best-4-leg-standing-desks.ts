@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
-      "This compact 32-inch electric frame targets buyers with a small desktop who still want push-button height adjustment. It includes 4 memory height presets, which is enough for most people who alternate between one sitting and one standing position throughout the day. The listing does not specify a leg configuration, so it should not be assumed to be a 4-leg frame.\n\nAt this size it works well in a dorm room or a tight corner where a full-width frame would not fit. Buyers who need to support dual monitors or a heavier off-center load should check the rated capacity carefully before relying on this size frame.",
+      "This compact 32-inch electric frame targets buyers with a small desktop who still want push-button height adjustment. It includes 4 memory height presets, which is enough for most people who alternate between one sitting and one standing position throughout the day. The listing does not specify a leg configuration, so it should not be assumed to be a 4-leg frame.\n\nAt this size it works well in a dorm room or a tight corner where a full-width frame would not fit. Buyers who need to support dual monitors or a heavier off-center load should check the rated capacity carefully before relying on this size frame.\n\nSimple 4-preset memory control. That's a real strength, but weigh it against the flip side: leg configuration not confirmed on the listing.",
     specs: [
       "32-inch small footprint frame",
       "4 memory height presets",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Wq-+TZNRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08C2LC3H2?tag=deskfinds0d-20",
     description:
-      "This is a frame-only kit rated for desktops up to 70.8 by 31.5 inches, with a 225-pound capacity that covers most home office setups. As a dual-motor frame it is built as a standard 2-leg design, one motor per leg, not a 4-leg frame, and buyers should not read dual motor as a signal of extra legs.\n\nBecause it ships without a desktop, you need to already have a top that matches the frame's width range or plan to buy one separately. The 225-pound capacity gives some headroom for a monitor arm or two, which lighter frames in this list do not offer.",
+      "This is a frame-only kit rated for desktops up to 70.8 by 31.5 inches, with a 225-pound capacity that covers most home office setups. As a dual-motor frame it is built as a standard 2-leg design, one motor per leg, not a 4-leg frame, and buyers should not read dual motor as a signal of extra legs.\n\nBecause it ships without a desktop, you need to already have a top that matches the frame's width range or plan to buy one separately. The 225-pound capacity gives some headroom for a monitor arm or two, which lighter frames in this list do not offer.\n\nWorth calling out specifically: wide desktop compatibility range. The catch is not a 4-leg design despite dual motors.",
     specs: [
       "Frame only, fits tops up to 70.8 x 31.5 inches",
       "Dual motor, standard 2-leg C-frame design",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XkTgfpQgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK3DD4F1?tag=deskfinds0d-20",
     description:
-      "The Furmax comes as a complete 45 by 24 inch desk with the top already included, which simplifies buying compared to frame-only kits. It has 4 height position memory settings and a rustic brown finish. The listing gives no frame-leg detail, so it should be treated as an unconfirmed configuration rather than assumed to be a 4-leg design.\n\nAt 45 inches wide it is a reasonable middle ground between the compact HUANUO pick and full-width home office desks. The lower review count compared to other picks here is worth weighing against the solid 4.6 star average.",
+      "The Furmax comes as a complete 45 by 24 inch desk with the top already included, which simplifies buying compared to frame-only kits. It has 4 height position memory settings and a rustic brown finish. The listing gives no frame-leg detail, so it should be treated as an unconfirmed configuration rather than assumed to be a 4-leg design.\n\nAt 45 inches wide it is a reasonable middle ground between the compact HUANUO pick and full-width home office desks. The lower review count compared to other picks here is worth weighing against the solid 4.6 star average.\n\nGood mid-size footprint for a home office. Set against that, leg configuration not confirmed on the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "45 x 24 inch complete desk with top included",
       "4 height position memory",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41S5Krgo22L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQNV8WBS?tag=deskfinds0d-20",
     description:
-      "This frame's biggest advantage is range, it fits desktops anywhere from 44 to 90 inches wide, and its 264-pound capacity is the highest rated capacity in this guide. Like the other dual-motor frames here, this is a standard 2-leg design, one motor per leg, not a genuine 4-leg frame despite the extra lift power.\n\nThat wide compatibility range makes it useful if you are not sure of your exact desktop width yet or plan to upgrade to a larger top later. The tradeoff is that a wider desktop overhanging a narrower leg spread can feel less stable, so match the frame width to your desktop size rather than just relying on the stated range.",
+      "This frame's biggest advantage is range, it fits desktops anywhere from 44 to 90 inches wide, and its 264-pound capacity is the highest rated capacity in this guide. Like the other dual-motor frames here, this is a standard 2-leg design, one motor per leg, not a genuine 4-leg frame despite the extra lift power.\n\nThat wide compatibility range makes it useful if you are not sure of your exact desktop width yet or plan to upgrade to a larger top later. The tradeoff is that a wider desktop overhanging a narrower leg spread can feel less stable, so match the frame width to your desktop size rather than just relying on the stated range.\n\nA genuine advantage here is that wide 44-90 inch desktop compatibility. The tradeoff is not a true 4-leg frame despite dual motors.",
     specs: [
       "Fits 44-90 inch desktops",
       "264 lb weight capacity",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/312SqhEUIaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D21VTP3R?tag=deskfinds0d-20",
     description:
-      "This frame uses T-shaped legs, which is a stability feature built into a standard 2-leg frame, not a 4-leg design, and it should not be marketed as 4-leg even though the T-shaped base adds ground contact points. It supports desktops up to 75 by 35 inches and uses a brushless motor rated to 220 pounds.\n\nThe automotive-grade steel construction is a reasonable stability upgrade over basic frames at this price, and the T-shaped feet do help resist tipping on level floors. On uneven floors, check whether the included feet have independent leveling adjustment, since T-shaped legs with more contact points can be more sensitive to floor unevenness than a simple 2-point base.",
+      "This frame uses T-shaped legs, which is a stability feature built into a standard 2-leg frame, not a 4-leg design, and it should not be marketed as 4-leg even though the T-shaped base adds ground contact points. It supports desktops up to 75 by 35 inches and uses a brushless motor rated to 220 pounds.\n\nThe automotive-grade steel construction is a reasonable stability upgrade over basic frames at this price, and the T-shaped feet do help resist tipping on level floors. On uneven floors, check whether the included feet have independent leveling adjustment, since T-shaped legs with more contact points can be more sensitive to floor unevenness than a simple 2-point base.\n\nBrushless motor rated for quieter, smoother lift. On the other hand, t-shaped legs are not the same as a genuine 4-leg frame. Neither should be a surprise once you know to look for it.",
     specs: [
       "T-shaped 2-leg frame, automotive-grade steel",
       "220 lb brushless motor capacity",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WJcV8uQrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVQMQMY2?tag=deskfinds0d-20",
     description:
-      "The E6 is a full 55 by 28 inch desk with a 3-stage dual motor frame and a rated capacity of 220 pounds, coming with both the desktop and frame included. Like other dual-motor picks here it is a standard 2-leg C-frame design, not a 4-leg frame, and the 3-stage column construction is what gives it a taller adjustment range rather than extra legs.\n\nMemory height presets make it simple to switch between sit and stand positions throughout the day. It ships in two boxes and, being one of the more elaborate frames in this guide, assembly runs closer to 60 to 90 minutes and is easier with two people given the number of bolts involved.",
+      "The E6 is a full 55 by 28 inch desk with a 3-stage dual motor frame and a rated capacity of 220 pounds, coming with both the desktop and frame included. Like other dual-motor picks here it is a standard 2-leg C-frame design, not a 4-leg frame, and the 3-stage column construction is what gives it a taller adjustment range rather than extra legs.\n\nMemory height presets make it simple to switch between sit and stand positions throughout the day. It ships in two boxes and, being one of the more elaborate frames in this guide, assembly runs closer to 60 to 90 minutes and is easier with two people given the number of bolts involved.\n\n3-stage column gives a taller adjustment range. That's a real strength, but weigh it against the flip side: higher price than frame-only or smaller options.",
     specs: [
       "55 x 28 inch desk, desktop and frame included",
       "3-stage dual motor, standard 2-leg frame",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PnkwnA3VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DYF1SRQ?tag=deskfinds0d-20",
     description:
-      "This is the same 3-stage dual motor frame as the standard E6, upgraded with a solid bamboo desktop instead of a laminate top, and a white frame option. It carries the same 220-pound capacity and 2-leg frame design as its sibling, dual motor here means one motor per leg, not a 4-leg frame.\n\nThe bamboo top is the main reason to pay more here, giving a warmer, more natural look and generally holding up well to daily use. Like the standard E6 it ships in two boxes and assembly is a similarly involved 60 to 90 minute process best done with a second person.",
+      "This is the same 3-stage dual motor frame as the standard E6, upgraded with a solid bamboo desktop instead of a laminate top, and a white frame option. It carries the same 220-pound capacity and 2-leg frame design as its sibling, dual motor here means one motor per leg, not a 4-leg frame.\n\nThe bamboo top is the main reason to pay more here, giving a warmer, more natural look and generally holding up well to daily use. Like the standard E6 it ships in two boxes and assembly is a similarly involved 60 to 90 minute process best done with a second person.\n\nWorth calling out specifically: same reliable 220 lb capacity as the standard E6. The catch is highest price in this guide.",
     specs: [
       "55 x 28 inch solid bamboo desktop",
       "3-stage dual motor, standard 2-leg frame",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+f1oDDjoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B003M96GY0?tag=deskfinds0d-20",
     description:
-      "This is a rolling cart on casters, not a 4-leg or even a 2-leg fixed standing desk frame, and it should not be compared directly against the other picks in this guide as if it were the same category of product. It gives sit-to-stand height adjustment through a manual mechanism and includes storage, at a fraction of the price of a fixed frame.\n\nFor buyers who want mobility around a room, or who cannot commit to a stationary frame in a small space, this is a genuinely useful alternative rather than a compromise. It will not offer the stability of a bolted frame at a full desk width, so it suits a laptop and light accessories rather than a full dual-monitor setup.",
+      "This is a rolling cart on casters, not a 4-leg or even a 2-leg fixed standing desk frame, and it should not be compared directly against the other picks in this guide as if it were the same category of product. It gives sit-to-stand height adjustment through a manual mechanism and includes storage, at a fraction of the price of a fixed frame.\n\nFor buyers who want mobility around a room, or who cannot commit to a stationary frame in a small space, this is a genuinely useful alternative rather than a compromise. It will not offer the stability of a bolted frame at a full desk width, so it suits a laptop and light accessories rather than a full dual-monitor setup.\n\nMobile, easy to move between rooms. Set against that, not a 4-leg or 2-leg fixed frame, a different product category entirely. Both matter when comparing it to the other picks here.",
     specs: [
       "Rolling cart on casters, not a fixed frame",
       "Manual sit-to-stand height adjustment",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "How to tell a 4-leg frame from a 2-leg frame, from photos not titles",
-    explanation:
-      "Amazon titles rarely state leg count directly, and terms like dual motor or T-shaped legs almost always describe a standard 2-leg C-frame or T-frame, not a genuine 4-leg design. Look at the actual product photos for four independent vertical legs and check the Q&A section for buyers who specifically asked about leg configuration before assuming a listing is 4-leg.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk frame often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Rated capacity does not guarantee stability at max height",
-    explanation:
-      "A frame's static weight capacity measures how much it can hold, not how much it wobbles once fully extended. A simple check after setup, placing a full glass of water on the desktop at maximum height and watching for ripples, reveals real-world stability that a capacity number alone does not.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk frame holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "2-motor frames are fine under about 150 lbs of combined load",
-    explanation:
-      "A standard dual-motor 2-leg frame handles typical loads under roughly 150 pounds without issue, but heavier or off-center setups, like a monitor arm holding two displays on one side, benefit from a frame with a higher rated capacity or a stiffer construction. Match the frame's motor and capacity rating to your actual setup, not just your desktop size.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk frame over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Frame width must roughly match your desktop width",
-    explanation:
-      "A frame's leg spread needs to be close to the width of the desktop sitting on top of it, or the desktop overhangs the legs and becomes a tipping risk, especially near the edges. Check both the frame's minimum and maximum leg width against your desktop's actual measurements before ordering.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk frame you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Leveling feet matter more than they look like they should",
-    explanation:
-      "Frames with more ground contact points, like T-shaped or wider bases, are more sensitive to uneven floors than a simple 2-point frame, and budget frames often skip adjustable leveling feet entirely. If your floor is not perfectly flat, check whether the frame includes leveling feet before buying, since a wobble on an uneven floor is often a leveling problem, not a frame defect.",
-  },
-  {
-    criterion: "Assembly time scales with frame complexity",
-    explanation:
-      "Simpler 2-leg frames with fewer bolts typically assemble in 30 to 45 minutes for one person, while 3-stage or full-desk kits with a desktop, frame, and cable management can take 60 to 90 minutes and go faster with two people. Budget the extra time if you are ordering a full desk-and-frame combo rather than a frame-only kit.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk frame that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,86 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Confirming Leg Configuration Before You Buy",
-    intro:
-      "None of the 8 picks in this guide have a listing that explicitly confirms a genuine 4-leg frame. Here is how each one is actually described, and what to check if leg count matters to you.",
-    table: {
-      headers: ["Frame", "What the listing actually says", "What to check yourself"],
-      rows: [
-        ["HUANUO 32-inch", "No leg detail given", "Review product photos for leg count"],
-        ["TOPSKY frame", "Dual motor (standard 2-leg)", "Do not assume dual motor means 4-leg"],
-        ["Furmax desk", "No leg detail given", "Review product photos for leg count"],
-        ["ErGear frame", "Dual motor (standard 2-leg)", "Do not assume dual motor means 4-leg"],
-        ["HUANUO T-Shaped frame", "T-shaped legs (2-leg design)", "T-shaped is a 2-leg stability feature, not 4-leg"],
-        ["FLEXISPOT E6", "3-stage dual motor (standard 2-leg)", "3-stage refers to the lift column, not leg count"],
-        ["FlexiSpot E6 Bamboo", "3-stage dual motor (standard 2-leg)", "Same frame design as the standard E6"],
-        ["Techni Mobili cart", "Rolling cart on casters", "Not a fixed frame of any leg count"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a true 4-leg frame is a hard requirement, search product photos and the Q&A section directly rather than relying on any title in this list, and consider contacting the seller before ordering.",
+      "rows": [
+        [
+          "Highest average rating",
+          "ErGear Dual Motor Standing Desk Legs for 44"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Techni Mobili Sit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desktop Width",
-    intro: "Match the frame's compatible width range to your actual desktop before ordering, not just its overall footprint.",
-    table: {
-      headers: ["Desktop width", "Recommended pick", "Why"],
-      rows: [
-        ["Under 32 inches", "HUANUO 32-inch Small Electric Standing Desk", "Purpose-built compact frame for tight spaces"],
-        ["45 inches (complete desk)", "Furmax Electric Standing Desk", "Desktop already included at this exact size"],
-        ["Up to 70.8 inches", "TOPSKY Dual Motor Frame", "Wide compatible range for frame-only buyers"],
-        ["44 to 90 inches", "ErGear Dual Motor Standing Desk Legs", "Widest adjustable range in this guide"],
-        ["55 x 28 inches (complete desk)", "FLEXISPOT E6", "Full desk and frame included at this size"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $29",
+          "Techni Mobili Sit"
+        ],
+        [
+          "Up to $330",
+          "FlexiSpot E6 Bamboo 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    cards: [
+    "subheading": "Techni Mobili Sit vs FlexiSpot E6 Bamboo 3",
+    "cards": [
       {
-        label: "Under $100",
-        text: "The HUANUO 32-inch ($75.99) and Furmax ($79.99) are the two lowest-priced options that still include electric height adjustment and a usable desktop or compact frame.",
+        "label": "Techni Mobili Sit",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "$100 to $200",
-        text: "The HUANUO T-Shaped frame ($107.34), TOPSKY frame ($150.99), and ErGear legs ($169.98) sit in this range and each offer a stronger rated capacity than the budget tier.",
-      },
-      {
-        label: "Over $250 for a complete desk",
-        text: "The FLEXISPOT E6 ($284.99) and its bamboo version ($329.99) are the most expensive picks, but include a full desktop and frame together with the highest build quality in this guide.",
-      },
-      {
-        label: "Under $30",
-        text: "The Techni Mobili rolling cart ($28.80) is not a fixed frame, but it is by far the cheapest way to get sit-to-stand adjustment if a bolted frame is not necessary for your setup.",
-      },
+        "label": "FlexiSpot E6 Bamboo 3",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Techni Mobili Sit unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "When to Choose the Rolling Cart Instead of a Fixed Frame",
-    intro: "The Techni Mobili cart is a genuinely different product category, not a lesser version of the other 7 picks.",
-    cards: [
-      {
-        label: "Choose the rolling cart if",
-        text: "You use a laptop rather than a full monitor setup, need to move your workspace between rooms, or cannot install a bolted frame in a rented space.",
-      },
-      {
-        label: "Choose a fixed frame instead if",
-        text: "You run a dual-monitor setup, want a stable full-width desktop, or need the higher weight capacity that only a bolted 2-leg or 4-leg frame provides.",
-      },
-    ],
-  },
-  {
-    subheading: "Checking Stability After Setup",
-    intro: "A quick check after assembly catches wobble issues before they become a daily annoyance.",
-    table: {
-      headers: ["Check", "How to do it", "What it tells you"],
-      rows: [
-        ["Glass-of-water test", "Fill a glass, place it on the desktop at max height, tap the desk lightly", "Reveals real wobble that a capacity rating alone does not show"],
-        ["Leveling feet check", "Look underneath each leg for an adjustable foot", "Frames with more ground contact points need leveling on uneven floors"],
-        ["Width match check", "Measure your desktop width against the frame's leg spread", "Prevents desktop overhang and tipping risk"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a frame fails the glass-of-water test even after leveling, the issue is more likely a floor unevenness or width mismatch than a defective unit.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Techni Mobili Sit"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Techni Mobili Sit is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where FlexiSpot E6 Bamboo 3's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Techni Mobili Sit covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

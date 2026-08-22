@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4131dBobQtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01D58DRVC?tag=deskfinds0d-20",
     description:
-      "This over-the-door organizer is the most-reviewed and cheapest pick in this entire guide, and it solves a different problem than shelving does, it adds small-item storage without touching a single shelf or rod. Twenty-four clear pockets across a 64-inch panel make it easy to see and grab shoes, accessories, or toiletries at a glance.\n\nFour-point metal hooks distribute a 40 lb total capacity across the top of any standard door up to 1-3/8 inches thick, so no drilling or wall mounting is involved at all. It's the fastest way to add visible storage to a closet that already has full shelving.",
+      "This over-the-door organizer is the most-reviewed and cheapest pick in this entire guide, and it solves a different problem than shelving does, it adds small-item storage without touching a single shelf or rod. Twenty-four clear pockets across a 64-inch panel make it easy to see and grab shoes, accessories, or toiletries at a glance.\n\nFour-point metal hooks distribute a 40 lb total capacity across the top of any standard door up to 1-3/8 inches thick, so no drilling or wall mounting is involved at all. It's the fastest way to add visible storage to a closet that already has full shelving.\n\nClear pockets make items easy to find at a glance. On the other hand, not a shelf replacement, only supplements existing storage. Neither should be a surprise once you know to look for it.",
     specs: [
       "24 clear pockets, 64\"H x 19\"W",
       "4-point metal door hooks",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/312P+SafvBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SYPLVTG?tag=deskfinds0d-20",
     description:
-      "The YOUDENOVA hanging organizer uses bamboo inserts on each of its 6 shelves, which resist the sagging that plain fabric-only hanging shelves develop within weeks of loading. That makes it the sturdiest hanging shelf pick in this guide despite hanging entirely from a closet rod rather than a wall.\n\nAt 12 inches wide and deep, it suits folded shirts, sweaters, or shoe pairs rather than bulkier bags, and it arrives pre-assembled and foldable, so setup is just hanging it over an existing rod. Rated for 25 lbs, it's a straightforward way to add real shelving without any hardware.",
+      "The YOUDENOVA hanging organizer uses bamboo inserts on each of its 6 shelves, which resist the sagging that plain fabric-only hanging shelves develop within weeks of loading. That makes it the sturdiest hanging shelf pick in this guide despite hanging entirely from a closet rod rather than a wall.\n\nAt 12 inches wide and deep, it suits folded shirts, sweaters, or shoe pairs rather than bulkier bags, and it arrives pre-assembled and foldable, so setup is just hanging it over an existing rod. Rated for 25 lbs, it's a straightforward way to add real shelving without any hardware.\n\nBamboo inserts resist long-term sagging. That's a real strength, but weigh it against the flip side: 12\" depth is tight for bags or bulky items.",
     specs: [
       "12\"W x 12\"D x 48\"H",
       "Bamboo shelf inserts resist sagging",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41fEcPZDP8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FX8RZJZ?tag=deskfinds0d-20",
     description:
-      "MAX Houser's 6-tier hanging organizer uses cardboard inserts inside its non-woven fabric shelves, stiffer than plain fabric alone, at the cheapest price for a rigid-insert hanging organizer in this guide. Two metal hooks keep it secured to the closet rod, and the whole unit folds flat for storage when not needed.\n\nAt 4.5 lbs rated per shelf, it's built for lighter items like folded shirts or accessories rather than heavy stacks, but for the price it adds real compartmentalized storage to any closet rod in minutes.",
+      "MAX Houser's 6-tier hanging organizer uses cardboard inserts inside its non-woven fabric shelves, stiffer than plain fabric alone, at the cheapest price for a rigid-insert hanging organizer in this guide. Two metal hooks keep it secured to the closet rod, and the whole unit folds flat for storage when not needed.\n\nAt 4.5 lbs rated per shelf, it's built for lighter items like folded shirts or accessories rather than heavy stacks, but for the price it adds real compartmentalized storage to any closet rod in minutes.\n\nWorth calling out specifically: cardboard inserts stiffer than plain fabric. The catch is lower per-shelf capacity than the bamboo-insert pick.",
     specs: [
       "11.5\"W x 12\"D x 42\"H",
       "Non-woven fabric + cardboard inserts",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Ks2ENCUwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004C1SFR8?tag=deskfinds0d-20",
     description:
-      "This ClosetMaid basket is the highest-rated wire pick in this guide, an epoxy-coated steel mesh basket that hooks directly onto any existing wire shelf 24 inches wide or more, no tools or drilling required. It effectively doubles usable vertical space above an existing wire shelf.\n\nAs a wire design, it ventilates well and is easy to wipe clean, but small items like socks or jewelry can slip through the mesh gaps, so it suits folded items, shoes, or bins better than loose small accessories. It's also stackable if you already run multiple wire shelves in the same closet.",
+      "This ClosetMaid basket is the highest-rated wire pick in this guide, an epoxy-coated steel mesh basket that hooks directly onto any existing wire shelf 24 inches wide or more, no tools or drilling required. It effectively doubles usable vertical space above an existing wire shelf.\n\nAs a wire design, it ventilates well and is easy to wipe clean, but small items like socks or jewelry can slip through the mesh gaps, so it suits folded items, shoes, or bins better than loose small accessories. It's also stackable if you already run multiple wire shelves in the same closet.\n\nNo tools needed, hooks directly onto existing wire shelving. Set against that, requires an existing wire shelf to mount to. Both matter when comparing it to the other picks here.",
     specs: [
       "18.4\"W x 10.7\"D x 7.9\"H mesh basket",
       "Epoxy-coated steel",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/213CA3aB3RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0014CT6CQ?tag=deskfinds0d-20",
     description:
-      "The SuperSlide kit combines a 4-foot vinyl-coated wire shelf with a built-in SuperSlide hanger rail, giving both shelf storage and a hanging rod in a single install. At 12 inches deep, it's sized correctly for folded clothes rather than bags or bulkier items, and it's rated for 40 lbs across the shelf span.\n\nAll mounting hardware is included, and the shelf is SCS certified for 75% recycled content, a genuine sustainability detail among the wire picks in this guide. This is the most complete entry-level wire shelf-plus-rod system before stepping up to a full multi-shelf kit.",
+      "The SuperSlide kit combines a 4-foot vinyl-coated wire shelf with a built-in SuperSlide hanger rail, giving both shelf storage and a hanging rod in a single install. At 12 inches deep, it's sized correctly for folded clothes rather than bags or bulkier items, and it's rated for 40 lbs across the shelf span.\n\nAll mounting hardware is included, and the shelf is SCS certified for 75% recycled content, a genuine sustainability detail among the wire picks in this guide. This is the most complete entry-level wire shelf-plus-rod system before stepping up to a full multi-shelf kit.\n\nA genuine advantage here is that hardware included for full installation. The tradeoff is requires drilling into the closet wall to mount.",
     specs: [
       "4 ft x 12\" wire shelf + hang rod combo",
       "Vinyl-coated steel",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51uSUrAKFfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000JF7WZC?tag=deskfinds0d-20",
     description:
-      "This Rubbermaid kit adjusts from 4 to 8 feet wide and delivers 22 feet of total shelf space plus 12 feet of hanging space, the most shelf space of any pick in this guide. Five uprights and telescoping rods let it stretch to fit a wide reach-in or small walk-in closet without cutting any components.\n\nAn epoxy finish resists the rust that plain wire can develop in humid closets, and the whole system installs without cutting, though it still requires drilling into the wall to anchor the uprights securely.",
+      "This Rubbermaid kit adjusts from 4 to 8 feet wide and delivers 22 feet of total shelf space plus 12 feet of hanging space, the most shelf space of any pick in this guide. Five uprights and telescoping rods let it stretch to fit a wide reach-in or small walk-in closet without cutting any components.\n\nAn epoxy finish resists the rust that plain wire can develop in humid closets, and the whole system installs without cutting, though it still requires drilling into the wall to anchor the uprights securely.\n\nAdjusts 4-8 ft wide without cutting. On the other hand, requires drilling to anchor the uprights. Neither should be a surprise once you know to look for it.",
     specs: [
       "Adjustable wire shelving, 4-8 ft wide",
       "22 ft shelf space + 12 ft hanging space",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bCEJNY-BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0009WG328?tag=deskfinds0d-20",
     description:
-      "This deluxe version matches the standard Rubbermaid kit's 22 feet of shelving and 12 feet of hanging space but adds 2 extension uprights and a mix of 7 shorter 26-inch shelves plus 2 longer 48-inch shelves, giving more layout flexibility across a wide closet. It's also the most-reviewed full wire system in this guide by a wide margin.\n\nThe Titanium finish reads slightly more modern than plain white wire, and like the standard kit it adjusts from 4 to 8 feet wide without cutting any components, just with more configuration options in exchange for a similar price.",
+      "This deluxe version matches the standard Rubbermaid kit's 22 feet of shelving and 12 feet of hanging space but adds 2 extension uprights and a mix of 7 shorter 26-inch shelves plus 2 longer 48-inch shelves, giving more layout flexibility across a wide closet. It's also the most-reviewed full wire system in this guide by a wide margin.\n\nThe Titanium finish reads slightly more modern than plain white wire, and like the standard kit it adjusts from 4 to 8 feet wide without cutting any components, just with more configuration options in exchange for a similar price.\n\nMixed shelf lengths add layout flexibility. That's a real strength, but weigh it against the flip side: requires drilling to anchor uprights.",
     specs: [
       "Adjustable wire shelving, 4-8 ft wide",
       "22 ft shelving + 12 ft hanging space",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51b5LA8ieGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CGJJJC4M?tag=deskfinds0d-20",
     description:
-      "These SNSLXH baskets solve a different problem than wire or hanging shelving, they sit directly on an existing solid shelf and stack 2 to 4 layers high, giving vertical division to a single flat shelf. Each PP plastic basket measures 16.73 by 13.11 by 7.28 inches and folds flat when empty.\n\nBeing solid plastic rather than wire, they seal better against dust than open mesh and wipe clean with a damp cloth, at the cheapest per-basket price among stackable options in this guide. They work equally well on wire or solid shelving since they don't require mounting at all.",
+      "These SNSLXH baskets solve a different problem than wire or hanging shelving, they sit directly on an existing solid shelf and stack 2 to 4 layers high, giving vertical division to a single flat shelf. Each PP plastic basket measures 16.73 by 13.11 by 7.28 inches and folds flat when empty.\n\nBeing solid plastic rather than wire, they seal better against dust than open mesh and wipe clean with a damp cloth, at the cheapest per-basket price among stackable options in this guide. They work equally well on wire or solid shelving since they don't require mounting at all.\n\nWorth calling out specifically: works on top of any existing shelf, wire or solid. The catch is requires an existing shelf to sit on, not standalone storage.",
     specs: [
       "16.73\"D x 13.11\"W x 7.28\"H each",
       "PP plastic, 5-pack",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match shelf depth to what you're storing",
-    explanation:
-      "Folded clothes need roughly 12 inches of shelf depth, shoes need closer to 14, and bags or larger bins need around 16. A shelf that's too shallow for shoes just means they hang off the edge, so check the exact depth listed, not just the width, before buying.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a closet shelf organizer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Wire ventilates, solid shelving cleans easier",
-    explanation:
-      "Wire shelving lets air circulate, which reduces musty smells on stored clothes and shoes, but small items like socks or jewelry can fall through the gaps. Solid shelving traps more moisture and dust but wipes clean in seconds, so pick wire for airflow-sensitive items and solid for small loose items.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the closet shelf organizer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Shelf spacing needs to match hanging clothes length",
-    explanation:
-      "Shelves placed too close to a hanging rod will crush long dresses or coats, while too much gap wastes vertical space on shorter items like shirts. Leave roughly 40 inches of clearance below a shelf for long-hang items and as little as 24 inches for shirts and folded-length clothes.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this closet shelf organizer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "A second rod can double usable hanging space",
-    explanation:
-      "Most closets only use a single rod height, but adding a second rod below the first, sized for shorter items like shirts or folded pants on hangers, can roughly double the hanging capacity of the same closet without adding a single shelf.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any closet shelf organizer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check stated load-bearing capacity per shelf, not just the total",
-    explanation:
-      "A kit's total weight rating can be misleading if it's spread across many shelves, check the per-shelf number specifically. Hanging fabric organizers in this guide rate as low as 4.5 lbs per shelf, while a mounted wire shelf can rate 40 lbs across its span, a large practical difference for heavier stored items.",
-  },
-  {
-    criterion: "A reach-in closet can be converted toward walk-in functionality",
-    explanation:
-      "Adding a wide adjustable wire kit like the Rubbermaid Configurations systems, combined with stackable bins on top of existing shelves, effectively converts a standard reach-in closet into a more walk-in-style layout with distinct zones for hanging, folded, and boxed items.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A closet shelf organizer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,75 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Item Type and Shelf Depth",
-    intro:
-      "The depth you actually need changes based on what's going on the shelf, not just how much shelving you want overall.",
-    table: {
-      headers: ["Item type", "Depth needed", "Best pick"],
-      rows: [
-        ["Folded shirts and sweaters", "~12\"", "YOUDENOVA 6-Shelf Hanging Bamboo"],
-        ["Shoes", "~14\"", "ClosetMaid SuperSlide 4-Ft Kit"],
-        ["Bags or bulkier bins", "~16\"", "Rubbermaid Configurations 4-8 Ft"],
-        ["Small accessories, toiletries", "Shallow pockets fine", "Simple Houseware 24-Pocket Over-Door"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Simple Houseware 24"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Simple Houseware 24"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wire vs Solid Shelving",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "Simple Houseware 24"
+        ],
+        [
+          "Up to $155",
+          "Rubbermaid Configurations Custom Closet Kit 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Simple Houseware 24 vs Rubbermaid Configurations Custom Closet Kit 4",
+    "cards": [
       {
-        label: "Want airflow to reduce musty closet smells",
-        text: "The Rubbermaid Configurations kits and ClosetMaid SuperSlide are all ventilated wire, best for shoes and everyday-worn clothes.",
+        "label": "Simple Houseware 24",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want to wipe shelves clean easily",
-        text: "The SNSLXH stackable baskets are solid plastic, easier to clean than wire mesh but they trap more dust underneath.",
-      },
-      {
-        label: "Storing small items that could fall through wire gaps",
-        text: "Use the ClosetMaid Wire Hanging Basket for shoes or folded items, not loose jewelry or socks, which slip through the mesh.",
-      },
+        "label": "Rubbermaid Configurations Custom Closet Kit 4",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Simple Houseware 24 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Tools Required vs No-Tools Install",
-    table: {
-      headers: ["Installation type", "Effort", "Best pick"],
-      rows: [
-        ["No tools, hangs on a door", "Under 5 minutes", "Simple Houseware 24-Pocket Over-Door"],
-        ["No tools, hangs on existing rod", "Under 10 minutes", "YOUDENOVA 6-Shelf, MAX Houser 6-Tier"],
-        ["No tools, hooks onto existing wire shelf", "Under 5 minutes", "ClosetMaid Wire Hanging Basket"],
-        ["Requires drilling into the wall", "30-90+ minutes", "ClosetMaid SuperSlide, both Rubbermaid kits"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Simple Houseware 24"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Reach-In to Walk-In Conversion Plan",
-    intro:
-      "Converting a standard reach-in closet toward walk-in-style organization usually combines a few of these picks rather than relying on just one.",
-    table: {
-      headers: ["Conversion step", "What it adds", "Best pick"],
-      rows: [
-        ["Add a wide adjustable wire backbone", "Main shelf + hang structure", "Rubbermaid Configurations 4-8 Ft (either finish)"],
-        ["Add a second lower rod for shorter items", "Doubles hanging capacity", "Included telescoping rods on either Rubbermaid kit"],
-        ["Add stackable bins on top of shelves", "Divides flat shelf space", "SNSLXH 5-Pack Stackable Basket"],
-        ["Add door-mounted storage for small items", "Frees shelf space for larger items", "Simple Houseware 24-Pocket Over-Door"],
-      ],
-    },
-    note: "A double-hang rod setup, one rod for shirts and folded pants, one lower for full-length hanging, is one of the simplest ways to roughly double usable hanging space without adding new shelving at all.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Simple Houseware 24 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Load-Bearing Need",
-    table: {
-      headers: ["What you're loading", "Capacity needed", "Best pick"],
-      rows: [
-        ["Light folded items only", "Under 10 lbs per shelf", "MAX Houser 6-Tier Hanging"],
-        ["Mixed folded clothes and shoes", "20-25 lbs per shelf", "YOUDENOVA 6-Shelf Hanging Bamboo"],
-        ["Heavier mixed shelf storage", "40 lbs across the shelf", "ClosetMaid SuperSlide 4-Ft Kit"],
-        ["Whole-closet heavy-duty storage", "22 ft of load-rated shelving", "Rubbermaid Configurations (either finish)"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Rubbermaid Configurations Custom Closet Kit 4's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Simple Houseware 24 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The Canon PIXMA TS4320 packs printing, copying, and scanning into a compact wireless body that fits the edge of a dorm desk without eating your whole workspace. Duplex printing helps stretch a limited paper supply across a semester of assignments.\n\nSetup uses Canon's standard wireless pairing, which works on most personal-hotspot or WPA2-Personal networks without extra steps. If your dorm runs enterprise wifi, plan on a USB cable as a fallback the first time you connect, since consumer printers like this one are not built to authenticate against WPA2-Enterprise logins directly.",
+      "The Canon PIXMA TS4320 packs printing, copying, and scanning into a compact wireless body that fits the edge of a dorm desk without eating your whole workspace. Duplex printing helps stretch a limited paper supply across a semester of assignments.\n\nSetup uses Canon's standard wireless pairing, which works on most personal-hotspot or WPA2-Personal networks without extra steps. If your dorm runs enterprise wifi, plan on a USB cable as a fallback the first time you connect, since consumer printers like this one are not built to authenticate against WPA2-Enterprise logins directly.\n\nDuplex printing saves paper. Set against that, no direct WPA2-Enterprise login support. Both matter when comparing it to the other picks here.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Print, copy, scan",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS6520 adds a 1.42-inch OLED display and a more intuitive control panel over the base TS4320, which matters when a roommate who has never used the printer before needs to figure it out without asking you every time. It still keeps the same compact, duplex-capable design suited to a dorm desk.\n\nBecause it shares the same Canon wireless stack, expect the same WPA2-Enterprise limitation as other consumer inkjets in this list. A phone hotspot or a one-time USB connection to add it to your laptop's printer list is the reliable workaround on campus networks that block direct device pairing.",
+      "The PIXMA TS6520 adds a 1.42-inch OLED display and a more intuitive control panel over the base TS4320, which matters when a roommate who has never used the printer before needs to figure it out without asking you every time. It still keeps the same compact, duplex-capable design suited to a dorm desk.\n\nBecause it shares the same Canon wireless stack, expect the same WPA2-Enterprise limitation as other consumer inkjets in this list. A phone hotspot or a one-time USB connection to add it to your laptop's printer list is the reliable workaround on campus networks that block direct device pairing.\n\nA genuine advantage here is that duplex printing built in. The tradeoff is costs more than the base TS4320.",
     specs: [
       "Wireless color inkjet all-in-one",
       "1.42\" OLED display",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "HP markets the DeskJet 4355 as a best-for-home pick, and its scan, copy, and print combo in one compact body covers the core dorm workload without extra bulk. A 3-month Instant Ink trial is included, which offsets some of the early cartridge cost while you figure out your actual print volume.\n\nAfter the trial period, standard HP ink pricing applies, so it is worth calculating your real semester page count before deciding whether to keep the subscription. For a dorm printer that mostly sits idle for weeks at a time, a subscription that ships ink whether you use it or not is not automatically the cheaper option.",
+      "HP markets the DeskJet 4355 as a best-for-home pick, and its scan, copy, and print combo in one compact body covers the core dorm workload without extra bulk. A 3-month Instant Ink trial is included, which offsets some of the early cartridge cost while you figure out your actual print volume.\n\nAfter the trial period, standard HP ink pricing applies, so it is worth calculating your real semester page count before deciding whether to keep the subscription. For a dorm printer that mostly sits idle for weeks at a time, a subscription that ships ink whether you use it or not is not automatically the cheaper option.\n\nCompetitive price for a full all-in-one. On the other hand, instant Ink subscription cost applies after the trial. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Print, scan, copy",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 is the only pick in this list with a built-in auto document feeder and fax, which matters if a professor requires scanning a multi-page packet or a signed form rather than a single sheet. Feeding pages one at a time on a flatbed-only scanner gets old fast during finals week.\n\nMobile printing support lets you send documents straight from a phone, useful when your laptop is already tied up with an assignment. It carries the same wireless setup expectations as other consumer printers in this list, so plan on a personal hotspot or USB fallback on enterprise campus networks.",
+      "The PIXMA TR4720 is the only pick in this list with a built-in auto document feeder and fax, which matters if a professor requires scanning a multi-page packet or a signed form rather than a single sheet. Feeding pages one at a time on a flatbed-only scanner gets old fast during finals week.\n\nMobile printing support lets you send documents straight from a phone, useful when your laptop is already tied up with an assignment. It carries the same wireless setup expectations as other consumer printers in this list, so plan on a personal hotspot or USB fallback on enterprise campus networks.\n\nBuilt-in fax for signed forms. That's a real strength, but weigh it against the flip side: larger footprint than flatbed-only models.",
     specs: [
       "Wireless all-in-one with auto document feeder",
       "Built-in fax",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-ZgpCGxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DV6FV5?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS3720 strips down to basic home printing in the smallest, lightest body in this list, which is exactly what matters when you are packing a car for the fourth time in four years. Less bulk means less risk of cracking a scanner lid or feed tray during a move-out weekend.\n\nIt trades away the document feeder and higher-end display found on pricier picks, so it suits students whose printing needs are mostly single-page essays and forms rather than scanning-heavy coursework.",
+      "The PIXMA TS3720 strips down to basic home printing in the smallest, lightest body in this list, which is exactly what matters when you are packing a car for the fourth time in four years. Less bulk means less risk of cracking a scanner lid or feed tray during a move-out weekend.\n\nIt trades away the document feeder and higher-end display found on pricier picks, so it suits students whose printing needs are mostly single-page essays and forms rather than scanning-heavy coursework.\n\nWorth calling out specifically: lowest price among the full all-in-ones here. The catch is no auto document feeder.",
     specs: [
       "Wireless all-in-one color inkjet",
       "Basic home printing focus",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31BXOlNqjZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B010A7TZ76?tag=deskfinds0d-20",
     description:
-      "The Pixma MG3620 leans on strong mobile and tablet printing support, useful if you draft most assignments on a phone or iPad rather than a laptop. It still handles the standard print, scan, and copy trio in a black finish that hides fingerprints better than white models.\n\nIt costs noticeably more than the other inkjets here for a similar core feature set, so it makes the most sense if mobile printing convenience is genuinely a priority rather than an occasional nice-to-have.",
+      "The Pixma MG3620 leans on strong mobile and tablet printing support, useful if you draft most assignments on a phone or iPad rather than a laptop. It still handles the standard print, scan, and copy trio in a black finish that hides fingerprints better than white models.\n\nIt costs noticeably more than the other inkjets here for a similar core feature set, so it makes the most sense if mobile printing convenience is genuinely a priority rather than an occasional nice-to-have.\n\nBlack finish hides smudges better. Set against that, highest price among the inkjet picks in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Wireless color inkjet all-in-one",
       "Mobile and tablet printing support",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zPjelEtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZC56ZH4?tag=deskfinds0d-20",
     description:
-      "This inkless thermal printer supports full 8.5x11-inch US Letter and A4 paper over Bluetooth, and because it uses heat-sensitive thermal paper instead of ink cartridges, it sidesteps the summer dry-out problem entirely, there is no cartridge to dry out in the first place. Its small, light body is the easiest printer in this list to tuck into a moving box or a backpack.\n\nThe tradeoff is print quality and permanence, thermal prints fade over time and are strictly black-and-white, so this is a backup or emergency printer rather than a primary one for a full course load. It is a genuinely useful second option for a student who mostly relies on campus printing but wants something in the room for a quick page in a pinch.",
+      "This inkless thermal printer supports full 8.5x11-inch US Letter and A4 paper over Bluetooth, and because it uses heat-sensitive thermal paper instead of ink cartridges, it sidesteps the summer dry-out problem entirely, there is no cartridge to dry out in the first place. Its small, light body is the easiest printer in this list to tuck into a moving box or a backpack.\n\nThe tradeoff is print quality and permanence, thermal prints fade over time and are strictly black-and-white, so this is a backup or emergency printer rather than a primary one for a full course load. It is a genuinely useful second option for a student who mostly relies on campus printing but wants something in the room for a quick page in a pinch.\n\nA genuine advantage here is that extremely light and packable for moves. The tradeoff is thermal prints fade over time.",
     specs: [
       "Bluetooth inkless thermal printer",
       "Supports 8.5x11\" Letter and A4",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314c84l3lcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FDZZK3H?tag=deskfinds0d-20",
     description:
-      "The TS6420 sits at the top of this list's price range but delivers the most complete feature set, wireless all-in-one printing with a black finish and the fuller control layout Canon's higher tier models use. It is the pick to consider if three or four roommates plan to split the cost and share one printer for the whole year.\n\nAt this price, run the four-year total cost of ownership math before buying, printer plus ink over four years against what your campus charges per semester for library or lab printing. For light printers, buying isn't always the cheaper option, but for a shared room that prints often, splitting this cost across roommates usually wins.",
+      "The TS6420 sits at the top of this list's price range but delivers the most complete feature set, wireless all-in-one printing with a black finish and the fuller control layout Canon's higher tier models use. It is the pick to consider if three or four roommates plan to split the cost and share one printer for the whole year.\n\nAt this price, run the four-year total cost of ownership math before buying, printer plus ink over four years against what your campus charges per semester for library or lab printing. For light printers, buying isn't always the cheaper option, but for a shared room that prints often, splitting this cost across roommates usually wins.\n\nGood candidate for roommate cost-splitting. On the other hand, highest price in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Wireless all-in-one color inkjet",
       "Black finish",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Campus wifi often needs a workaround, not just a password",
-    explanation:
-      "Many dorms run WPA2-Enterprise wireless, which uses individual login credentials instead of a shared network password, and most consumer printers can only pair with simpler WPA2-Personal networks. If your printer won't find the campus network during setup, connect it once by USB cable to register it with your laptop, or use your phone's personal hotspot for the wireless pairing step instead.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Summer break can quietly kill your ink cartridges",
-    explanation:
-      "Inkjet cartridges left unused for the typical 3-month summer break commonly dry out, and replacing a dried-out cartridge set can run $40 to $60. If you're not printing much over break, either plan to run a quick test page every few weeks or lean toward a laser or thermal printer, which don't use liquid ink and avoid the problem entirely.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Run the real 4-year cost math before buying",
-    explanation:
-      "Add up printer price plus expected ink cost over four years, then compare it against what your school charges per semester for library or lab printing. For a student who prints only occasionally, campus printing can genuinely come out cheaper than owning a printer, so buying isn't automatically the right call for every student.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Plan for roommate access, not just your own",
-    explanation:
-      "If two to four people will share one printer, prioritize a model with a simple display and app that a roommate can figure out without asking you every time, and confirm it can be added to more than one laptop over wifi rather than needing to be re-paired for each new user.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Packability matters across four annual moves",
-    explanation:
-      "A dorm printer typically gets boxed up and moved at least four times over a college career, once each summer and possibly each semester. Favor a lighter, more compact body with a sturdy scanner lid if you'll be handling the printer yourself during move-out weekends.",
-  },
-  {
-    criterion: "Match the scanner type to your actual assignments",
-    explanation:
-      "A flatbed-only scanner works fine for single-page work, but a professor requiring a scanned multi-page packet or a signed multi-page form is much faster with an auto document feeder. Check your course syllabus expectations before deciding a basic flatbed is good enough.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,71 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Campus Wifi Situation",
-    intro:
-      "How your dorm's network is set up changes which printer is the least frustrating to get online.",
-    table: {
-      headers: ["Your situation", "Recommended approach", "Best pick"],
-      rows: [
-        ["Campus wifi is WPA2-Enterprise (login-based)", "Set up via USB cable first, then move to wifi", "Canon PIXMA TS4320"],
-        ["You have a reliable personal hotspot", "Pair directly over your hotspot instead of dorm wifi", "HP DeskJet 4355"],
-        ["Multiple roommates need to add the printer", "Pick a model with a clear display for shared setup", "Canon PIXMA TS6520"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Is It Worth Buying? 4-Year Cost vs. Campus Printing",
-    intro:
-      "Add printer price plus estimated ink cost across four years, then compare it to what your school charges per page or per semester for library printing.",
-    table: {
-      headers: ["Print habits", "Estimated 4-year cost", "Verdict"],
-      rows: [
-        ["Rare printing (a few pages a month)", "$60-80 printer + ink you may not fully use", "Campus printing is often cheaper, consider the inkless portable as a backup"],
-        ["Regular printing (essays, forms most weeks)", "$60-70 printer + ~$120-160 ink over 4 years", "Buying usually pays off, Canon PIXMA TS4320 or HP DeskJet 4355"],
-        ["Heavy printing, shared with roommates", "$139 printer split 3-4 ways + shared ink cost", "Buying is clearly worth it, Canon TS6420"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $54",
+          "Inkless Portable Printer for Travel"
+        ],
+        [
+          "Up to $139",
+          "Canon TS6420 All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Roommate Sharing Needs",
-    cards: [
+    "subheading": "Inkless Portable Printer for Travel vs Canon TS6420 All",
+    "cards": [
       {
-        label: "Just you, single dorm room",
-        text: "The Canon PIXMA TS3720's compact, lightweight body is the easiest single-owner printer to manage and move alone.",
+        "label": "Inkless Portable Printer for Travel",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "2 roommates sharing one printer",
-        text: "The Canon PIXMA TS6520's OLED display makes it easier for a roommate to operate without walking them through it every time.",
-      },
-      {
-        label: "3-4 roommates splitting cost and use",
-        text: "The Canon TS6420's fuller feature set justifies its higher price once the cost is divided across a suite.",
-      },
-      {
-        label: "Backup for occasional printing only",
-        text: "The inkless Bluetooth thermal printer needs no cartridges and works from any roommate's phone without setup hassle.",
-      },
+        "label": "Canon TS6420 All",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Inkless Portable Printer for Travel unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Packability for Annual Moves",
-    intro:
-      "Every dorm printer gets boxed up at least four times over a typical college stay, so weight and fragility matter as much as print quality.",
-    table: {
-      headers: ["Move-out priority", "Why it matters", "Best pick"],
-      rows: [
-        ["Lightest, least fragile to pack", "Smallest body, least to crack in a moving box", "Canon PIXMA TS3720"],
-        ["Ultra-portable, fits in a backpack", "No scanner lid or paper tray to protect", "Inkless Portable Printer (MT610Pro)"],
-        ["Willing to trade some bulk for features", "Larger but sturdier all-in-one body", "Canon PIXMA TR4720"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Avoiding the Summer Ink Dry-Out Trap",
-    intro:
-      "A printer that sits untouched for a 3-month summer break is the single most common way dorm students waste money on ink.",
-    note: "If you won't be printing at all over summer, either run a short test print every few weeks to keep the nozzles clear, or lean toward a laser printer or the inkless thermal pick in this list, neither of which uses liquid ink that can dry out.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Canon PIXMA TS4320 Wireless Color Inkjet Printer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon TS6420 All's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Inkless Portable Printer for Travel covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

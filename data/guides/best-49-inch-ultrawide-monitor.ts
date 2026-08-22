@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Gv3FYbiKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTRXCNV8?tag=deskfinds0d-20",
     description:
-      "The MPG 491CQP is the cheapest entry point into 49-inch QD-OLED in this guide, running at 144Hz with a 0.03ms response time and FreeSync Premium Pro support. It's a straightforward way to get true OLED contrast at the 5120x1440 resolution without paying for the higher refresh rates found on pricier picks here.\n\nUSB-C connectivity and a tilt/height-adjustable stand round out the package, making it easy to dial in ergonomics for a panel this wide. Backed by a 2-year warranty, it's the pick for buyers who want QD-OLED image quality on a 49-inch desk without spending close to four figures.",
+      "The MPG 491CQP is the cheapest entry point into 49-inch QD-OLED in this guide, running at 144Hz with a 0.03ms response time and FreeSync Premium Pro support. It's a straightforward way to get true OLED contrast at the 5120x1440 resolution without paying for the higher refresh rates found on pricier picks here.\n\nUSB-C connectivity and a tilt/height-adjustable stand round out the package, making it easy to dial in ergonomics for a panel this wide. Backed by a 2-year warranty, it's the pick for buyers who want QD-OLED image quality on a 49-inch desk without spending close to four figures.\n\nA genuine advantage here is that true OLED contrast at 49-inch scale. The tradeoff is 144Hz is the lowest refresh rate among the QD-OLED picks here.",
     specs: [
       "49\" QD-OLED, 5120x1440",
       "144Hz, 0.03ms",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Q8Bq+heNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDQMQQS2?tag=deskfinds0d-20",
     description:
-      "The Odyssey G93SC is by far the most-reviewed monitor in this entire guide, giving buyers the largest pool of real-world feedback of any pick here. Its 1800R curve, 240Hz refresh rate, and 1,000,000:1 contrast put it well ahead of the entry-level MSI QD-OLED on both speed and proven track record.\n\n99% DCI-P3 color coverage and dual G-Sync plus FreeSync Premium Pro support mean it pairs cleanly with either GPU brand, and picture-by-picture mode lets you split the massive 49-inch canvas into two independent sources.",
+      "The Odyssey G93SC is by far the most-reviewed monitor in this entire guide, giving buyers the largest pool of real-world feedback of any pick here. Its 1800R curve, 240Hz refresh rate, and 1,000,000:1 contrast put it well ahead of the entry-level MSI QD-OLED on both speed and proven track record.\n\n99% DCI-P3 color coverage and dual G-Sync plus FreeSync Premium Pro support mean it pairs cleanly with either GPU brand, and picture-by-picture mode lets you split the massive 49-inch canvas into two independent sources.\n\n240Hz, well above the entry-level QD-OLED pick. On the other hand, slightly lower average rating than several VA picks in this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "49\" QD-OLED curved 1800R, 5120x1440",
       "240Hz, 0.03ms",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41UZD2xhkwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSGJRKCR?tag=deskfinds0d-20",
     description:
-      "The G91SD trades the G93SC's curve for a flat-feeling premium metal chassis, and pairs its QD-OLED panel with HDMI 2.1 and USB-C for a wider range of source devices, including current-generation consoles. 1,000,000:1 contrast and 0.03ms GtG keep image quality on par with the rest of the QD-OLED lineup here.\n\nFreeSync Premium Pro and G-Sync compatibility cover both GPU ecosystems, and picture-by-picture mode makes it easy to run two sources side by side across the full 49-inch width.",
+      "The G91SD trades the G93SC's curve for a flat-feeling premium metal chassis, and pairs its QD-OLED panel with HDMI 2.1 and USB-C for a wider range of source devices, including current-generation consoles. 1,000,000:1 contrast and 0.03ms GtG keep image quality on par with the rest of the QD-OLED lineup here.\n\nFreeSync Premium Pro and G-Sync compatibility cover both GPU ecosystems, and picture-by-picture mode makes it easy to run two sources side by side across the full 49-inch width.\n\nHDMI 2.1 for current-gen console compatibility. That's a real strength, but weigh it against the flip side: 144Hz is on the lower end for a gaming-oriented QD-OLED.",
     specs: [
       "49\" QD-OLED, 5120x1440",
       "144Hz, 0.03ms GtG",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41elejKxHUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWT9XN4D?tag=deskfinds0d-20",
     description:
-      "The G91F is the highest-rated monitor in this entire guide at 4.5 stars, built around a 1000R curved VA panel rather than QD-OLED. That tighter 1000R curve is designed to roughly match the curvature of the human eye at close range, making it feel more immersive up close than the gentler 1800R QD-OLED picks in this guide.\n\nDisplayHDR 600 and 280 nits of brightness support genuinely bright HDR content, and Auto Source Switch+ automatically flips inputs when a connected device wakes up, a small but useful feature on a monitor this wide with multiple sources plugged in.",
+      "The G91F is the highest-rated monitor in this entire guide at 4.5 stars, built around a 1000R curved VA panel rather than QD-OLED. That tighter 1000R curve is designed to roughly match the curvature of the human eye at close range, making it feel more immersive up close than the gentler 1800R QD-OLED picks in this guide.\n\nDisplayHDR 600 and 280 nits of brightness support genuinely bright HDR content, and Auto Source Switch+ automatically flips inputs when a connected device wakes up, a small but useful feature on a monitor this wide with multiple sources plugged in.\n\nWorth calling out specifically: displayHDR 600 certification, higher than the QD-OLED picks' typical tier. The catch is vA panel, not the deeper per-pixel contrast of QD-OLED.",
     specs: [
       "49\" VA curved 1000R, 5120x1440",
       "144Hz, 1ms GtG",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41c6EaTR9CL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHJBWY52?tag=deskfinds0d-20",
     description:
-      "The G95C pairs a 1000R curved VA panel with 240Hz, matching the fastest QD-OLED refresh rate in this guide while hitting a 1000-nit peak brightness, the highest of any monitor in this entire lineup. That brightness ceiling makes a real difference in HDR highlights and in rooms with ambient light that would wash out a dimmer panel.\n\nFreeSync Premium Pro support and picture-by-picture mode keep it competitive on features with the QD-OLED picks, at a lower price than most of them.",
+      "The G95C pairs a 1000R curved VA panel with 240Hz, matching the fastest QD-OLED refresh rate in this guide while hitting a 1000-nit peak brightness, the highest of any monitor in this entire lineup. That brightness ceiling makes a real difference in HDR highlights and in rooms with ambient light that would wash out a dimmer panel.\n\nFreeSync Premium Pro support and picture-by-picture mode keep it competitive on features with the QD-OLED picks, at a lower price than most of them.\n\n240Hz matches the fastest QD-OLED picks here. Set against that, lowest rating among the Samsung VA picks in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "49\" VA curved 1000R, 5120x1440",
       "240Hz, 1ms GtG",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BjzB7UK1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHJ7VBJ4?tag=deskfinds0d-20",
     description:
-      "The G95SD is the only monitor in this guide with a dedicated Glare-Free coating, useful if your desk sits near a window or bright overhead lighting that would otherwise wash out a glossy QD-OLED panel. It also packs built-in Wi-Fi, SmartThings integration, and a Gaming Hub that can stream games directly without a PC connected at all.\n\nWe should be upfront that this is the lowest-rated pick in this entire guide at 3.8 stars, despite having the most smart features of any monitor here. If glare resistance and standalone streaming genuinely matter for your setup it's worth considering, but weigh that against its rating relative to the rest of this lineup.",
+      "The G95SD is the only monitor in this guide with a dedicated Glare-Free coating, useful if your desk sits near a window or bright overhead lighting that would otherwise wash out a glossy QD-OLED panel. It also packs built-in Wi-Fi, SmartThings integration, and a Gaming Hub that can stream games directly without a PC connected at all.\n\nWe should be upfront that this is the lowest-rated pick in this entire guide at 3.8 stars, despite having the most smart features of any monitor here. If glare resistance and standalone streaming genuinely matter for your setup it's worth considering, but weigh that against its rating relative to the rest of this lineup.\n\nA genuine advantage here is that built-in Gaming Hub can stream games without a PC. The tradeoff is lowest rating in this entire guide at 3.8 stars.",
     specs: [
       "49\" QD-OLED with Glare-Free coating (only pick in this guide with it)",
       "5120x1440, 240Hz, 0.03ms GtG",
@@ -255,7 +255,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41A7PYEypCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6QRTBHM?tag=deskfinds0d-20",
     description:
-      "The U4924DW is built for productivity, not gaming, running at 60Hz, the lowest refresh rate in this guide, on an IPS Black panel prioritizing color accuracy and consistency over motion smoothness. It includes an automatic KVM switch, Gigabit 2.5GbE Ethernet, and 11 total USB ports, the most of any connectivity setup in this guide.\n\n100% sRGB coverage plus dual 9W speakers make it a genuinely capable single-monitor replacement for a multi-computer desk, and USB-C at 90W can charge a connected laptop while driving the display over one cable.",
+      "The U4924DW is built for productivity, not gaming, running at 60Hz, the lowest refresh rate in this guide, on an IPS Black panel prioritizing color accuracy and consistency over motion smoothness. It includes an automatic KVM switch, Gigabit 2.5GbE Ethernet, and 11 total USB ports, the most of any connectivity setup in this guide.\n\n100% sRGB coverage plus dual 9W speakers make it a genuinely capable single-monitor replacement for a multi-computer desk, and USB-C at 90W can charge a connected laptop while driving the display over one cable.\n\nAutomatic KVM switch for multi-computer desks. On the other hand, 60Hz refresh rate rules it out for gaming. Neither should be a surprise once you know to look for it.",
     specs: [
       "49\" IPS Black, 5120x1440",
       "60Hz (lowest in this guide, built for productivity)",
@@ -287,7 +287,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jJEMNYH7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRGJF7WL?tag=deskfinds0d-20",
     description:
-      "The S95UA is Samsung's business-line answer to the Dell UltraSharp, running a 1000R curved VA panel at 120Hz with a built-in KVM switch, Ethernet, and USB-C 90W power delivery in one package. It ties the G91F for the highest rating in this guide at 4.5 stars while costing less than the Dell.\n\nDisplayHDR 400 and built-in speakers make it usable as a standalone office monitor without extra peripherals, and its B2B 3-year warranty reflects Samsung's office-oriented support tier rather than a consumer gaming warranty.",
+      "The S95UA is Samsung's business-line answer to the Dell UltraSharp, running a 1000R curved VA panel at 120Hz with a built-in KVM switch, Ethernet, and USB-C 90W power delivery in one package. It ties the G91F for the highest rating in this guide at 4.5 stars while costing less than the Dell.\n\nDisplayHDR 400 and built-in speakers make it usable as a standalone office monitor without extra peripherals, and its B2B 3-year warranty reflects Samsung's office-oriented support tier rather than a consumer gaming warranty.\n\nBuilt-in KVM switch at a lower price than the Dell UltraSharp. That's a real strength, but weigh it against the flip side: 120Hz is below the 144-240Hz gaming-oriented picks in this guide.",
     specs: [
       "49\" VA curved 1000R, 5120x1440",
       "120Hz",
@@ -340,123 +340,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Usable desk depth is the real constraint at 49 inches",
-    explanation:
-      "Measure your usable desk depth, front edge to wall, not the published desktop size. A 49-inch setup realistically needs at least 28-30 inches of desk depth, plus roughly 3 inches of clearance behind the display for cables, before it feels comfortable rather than cramped.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a ultrawide monitor 49 inch often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Sit farther back than you think you need to",
-    explanation:
-      "49-inch super-ultrawides feel best around 35-39 inches away from your eyes, not the roughly 24 inches most people instinctively sit at with a normal monitor. Sitting too close makes the curve feel distorted and forces constant head turning to read the far edges.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the ultrawide monitor 49 inch holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "49 inches means more head rotation than 34 inches",
-    explanation:
-      "Research on wide displays has found some users find 40-inch-plus screens overwhelming for all-day desk work due to the neck twisting required to track content across the full width. If you're replacing a dual-monitor setup mainly for productivity, confirm you actually want the single continuous canvas rather than defaulting to the biggest option.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this ultrawide monitor 49 inch over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Resolution and sharpness are nearly identical to 34-inch panels",
-    explanation:
-      "5120x1440 at 49 inches lands around 108-110 PPI, essentially the same pixel density as a 34-inch 3440x1440 panel. Don't choose a 49-inch monitor expecting sharper text or images, the real difference between the two sizes is desk space and screen real estate, not clarity.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any ultrawide monitor 49 inch you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Curve radius changes with size, not just brand",
-    explanation:
-      "The VA picks in this guide use a 1000R curve, tighter and more immersive up close, while the QD-OLED picks mostly use 1800R, a gentler curve better suited to sitting slightly farther back or to work like photo and video editing where straight-line accuracy matters more than immersion.",
-  },
-  {
-    criterion: "A KVM switch changes what desk this monitor belongs on",
-    explanation:
-      "If you regularly switch between a work laptop and a personal PC, a built-in KVM switch like the ones on the Dell U4924DW and Samsung S95UA saves you from manually swapping cables. Gaming-focused picks in this guide skip this feature entirely, so match the monitor to whether your desk is single-device or multi-device.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A ultrawide monitor 49 inch that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Use Case",
-    intro:
-      "The picks in this guide split cleanly into gaming-oriented QD-OLED/VA panels and productivity-oriented business panels.",
-    table: {
-      headers: ["Primary use", "What matters most", "Best pick"],
-      rows: [
-        ["Competitive or fast-paced gaming", "240Hz refresh rate", "Samsung Odyssey G93SC or G95C"],
-        ["General gaming plus HDR content", "Brightness and contrast balance", "Samsung Odyssey G91F"],
-        ["Multi-computer professional desk", "KVM switch, USB-C, Ethernet", "Dell UltraSharp U4924DW"],
-        ["Office desk on a budget", "Built-in KVM at a lower price", "Samsung Business S95UA"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Samsung Odyssey G9 G91F"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Samsung Odyssey G93SC"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desk Depth",
-    intro:
-      "A 49-inch panel needs real usable depth behind the front edge of your desk, not just enough width to fit the screen.",
-    table: {
-      headers: ["Usable desk depth", "Recommendation", "Best pick"],
-      rows: [
-        ["Under 28 inches", "Reconsider a 34-inch ultrawide instead", "See our 34-inch ultrawide gaming guide"],
-        ["28-30 inches", "Workable with a shallow-mount stand", "MSI MPG 491CQP or Samsung G91F"],
-        ["30+ inches", "Comfortable for any pick in this guide", "Any pick, including curved 1000R panels"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $1",
+          "Samsung Odyssey G9 G95SD"
+        ],
+        [
+          "Up to $1000",
+          "Samsung Odyssey G9 G91F"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    cards: [
+    "subheading": "Samsung Odyssey G9 G95SD vs Samsung Odyssey G9 G91F",
+    "cards": [
       {
-        label: "Under $900",
-        text: "The MSI MPG 491CQP and Samsung Business S95UA are the two cheapest ways into 49-inch QD-OLED and VA respectively in this guide.",
+        "label": "Samsung Odyssey G9 G95SD",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "$900-$1,000",
-        text: "The Samsung Odyssey G91SD and G91F both sit in this range, trading refresh rate for either premium build or the highest rating in the guide.",
-      },
-      {
-        label: "$1,000+",
-        text: "The Dell UltraSharp U4924DW and Samsung G95SD both cross $1,197.99, aimed at professional multi-device desks or smart-feature-heavy setups rather than pure value.",
-      },
+        "label": "Samsung Odyssey G9 G91F",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Samsung Odyssey G9 G95SD unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Curve Radius: 1000R vs 1800R at 49 Inches",
-    intro:
-      "The curve matters more at 49 inches than at 34 inches simply because there's more screen for it to bend around.",
-    table: {
-      headers: ["Curve", "Feel", "Best pick"],
-      rows: [
-        ["1000R", "Tighter, most immersive up close", "Samsung Odyssey G91F, G95C, or Business S95UA"],
-        ["1800R", "Gentler, better for sitting farther back or editing work", "Samsung Odyssey G93SC or G91SD"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "A tighter 1000R curve rewards sitting closer to the recommended 35-39 inch viewing distance; a gentler 1800R curve is more forgiving if you tend to lean back.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Samsung Odyssey G93SC"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Connectivity Needs",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Need a KVM switch built in",
-        text: "The Dell U4924DW and Samsung S95UA both include automatic KVM switching, letting one monitor serve two computers without a separate KVM box.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Need the most raw USB ports",
-        text: "The Dell U4924DW's 11 total USB ports plus 2.5GbE Ethernet are the most connectivity of any pick in this guide.",
-      },
-      {
-        label: "Just need USB-C for a laptop",
-        text: "The MSI MPG 491CQP and Samsung G91SD both offer USB-C without the added complexity of a full KVM setup.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Samsung Odyssey G93SC is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "If You're Prioritizing Rating Over Price",
-    table: {
-      headers: ["Priority", "Best pick", "Why"],
-      rows: [
-        ["Highest rating in this guide", "Samsung Odyssey G91F", "4.5 stars, DisplayHDR 600, tighter 1000R curve"],
-        ["Best rating-to-review-volume balance", "Samsung Odyssey G93SC", "4.2 stars across 1,230 reviews"],
-        ["Avoid", "None outright, but weigh the G95SD's 3.8 stars carefully", "Lowest rating in this guide despite the most smart features"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Samsung Odyssey G9 G91F's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Samsung Odyssey G9 G95SD covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

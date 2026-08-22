@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "681",
     imageUrl: "https://m.media-amazon.com/images/I/51-isfD+f9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHY876Z2?tag=deskfinds0d-20",
-    description: "Eight spacious drawers at 15.55\"L x 12.60\"W x 31.18\"H glide open and closed smoothly on comfortable handles, genuinely built for separating diverse categories, office items, craft supplies, fabric, all in dedicated compartments rather than one open bin. The metal frame holds real weight, 33 pounds on the top plate and 11 pounds per drawer, topped with a waterproof, heat-resistant wooden flat surface.\n\nThe locking feature on some casters is a real usability detail: it fixes the cart in place while you're actively opening and closing drawers, preventing the cart from rolling away mid-use. At the highest rating in this whole comparison, it sits at a strong middle price point between the cheapest 4-drawer carts and the maximum 10-drawer option.",
+    description: "Eight spacious drawers at 15.55\"L x 12.60\"W x 31.18\"H glide open and closed smoothly on comfortable handles, genuinely built for separating diverse categories, office items, craft supplies, fabric, all in dedicated compartments rather than one open bin. The metal frame holds real weight, 33 pounds on the top plate and 11 pounds per drawer, topped with a waterproof, heat-resistant wooden flat surface.\n\nThe locking feature on some casters is a real usability detail: it fixes the cart in place while you're actively opening and closing drawers, preventing the cart from rolling away mid-use. At the highest rating in this whole comparison, it sits at a strong middle price point between the cheapest 4-drawer carts and the maximum 10-drawer option.\n\nA genuine advantage here is that locking casters specifically prevent cart movement during drawer access. The tradeoff is fewer drawers than the 10-drawer maximum option.",
     specs: ["8-drawer, 15.55×12.60×31.18 in, wooden flat top", "33 lb top plate, 11 lb per drawer capacity", "Partial locking casters for drawer-access stability"],
     pros: ["Highest rating in this comparison", "Locking casters specifically prevent cart movement during drawer access"],
     cons: ["Fewer drawers than the 10-drawer maximum option"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "1241",
     imageUrl: "https://m.media-amazon.com/images/I/41qgAWlMj7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4281WTD?tag=deskfinds0d-20",
-    description: "Color-coded drawers here let you classify categories visually rather than relying on written labels, at the same 15.55\"D x 12.60\"W x 25.47\"H footprint as the LEHOM pick, with smooth slide tracks and ergonomic handles. The powder-coated steel frame adds water and rust resistance, holding the same 33 lb top plate / 11 lb per drawer capacity.\n\nFour universal wheels swivel 360 degrees with a locking option, and detailed installation videos walk through assembly. At over 1,200 reviews, this has meaningfully more buyer feedback than the LEHOM alternative despite the identical drawer count.",
+    description: "Color-coded drawers here let you classify categories visually rather than relying on written labels, at the same 15.55\"D x 12.60\"W x 25.47\"H footprint as the LEHOM pick, with smooth slide tracks and ergonomic handles. The powder-coated steel frame adds water and rust resistance, holding the same 33 lb top plate / 11 lb per drawer capacity.\n\nFour universal wheels swivel 360 degrees with a locking option, and detailed installation videos walk through assembly. At over 1,200 reviews, this has meaningfully more buyer feedback than the LEHOM alternative despite the identical drawer count.\n\nColor-coded drawers speed up category identification. On the other hand, slightly lower rating and higher price than the LEHOM pick. Neither should be a surprise once you know to look for it.",
     specs: ["8-drawer, color-coded, 15.55×12.60×25.47 in", "33 lb top plate, 11 lb per drawer, rust-resistant frame", "Video-guided assembly"],
     pros: ["Much larger review base than the LEHOM pick at over 1,200 ratings", "Color-coded drawers speed up category identification"],
     cons: ["Slightly lower rating and higher price than the LEHOM pick"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "5040",
     imageUrl: "https://m.media-amazon.com/images/I/41ri7QTtJoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Q4FHWV9?tag=deskfinds0d-20",
-    description: "At 14.25\"L x 12.05\"W x 26.44\"H with built-in drawer stops that prevent a loaded drawer from sliding all the way out and falling, this is genuinely built for daily classroom and office material organization. The wheels are removable entirely, roll it between desks when needed, then pull them off for stable, wobble-free placement in a fixed spot.\n\nMade in the USA with durable plastic construction and smooth-glide drawers, this has the single largest confirmed review base of any pick in this comparison at over 5,000 reviews, fewer drawers than the 8-10 drawer options, but by far the most proven track record.",
+    description: "At 14.25\"L x 12.05\"W x 26.44\"H with built-in drawer stops that prevent a loaded drawer from sliding all the way out and falling, this is genuinely built for daily classroom and office material organization. The wheels are removable entirely, roll it between desks when needed, then pull them off for stable, wobble-free placement in a fixed spot.\n\nMade in the USA with durable plastic construction and smooth-glide drawers, this has the single largest confirmed review base of any pick in this comparison at over 5,000 reviews, fewer drawers than the 8-10 drawer options, but by far the most proven track record.\n\nRemovable wheels convert between rolling and stationary use. That's a real strength, but weigh it against the flip side: fewer drawers than the higher-capacity options.",
     specs: ["4-drawer + organizer top, 14.25×12.05×26.44 in", "Removable wheels, built-in drawer stops", "Made in USA"],
     pros: ["Largest confirmed review base by a wide margin at over 5,000 reviews", "Removable wheels convert between rolling and stationary use"],
     cons: ["Fewer drawers than the higher-capacity options"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "349",
     imageUrl: "https://m.media-amazon.com/images/I/41f5SO4ZrBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FDB1RTVS?tag=deskfinds0d-20",
-    description: "The reinforced metal frame here is rated for a genuinely heavy 150 lb total, well beyond what a basic plastic cart handles, with 4 drawers sliding on premium tracks with built-in stops against accidental falls. Mesh drawer construction lets you see contents at a glance instead of digging blindly, a real usability edge over the IRIS pick's opaque drawers.\n\nAt 14.6\"W x 11.4\"D x 26.6\"H, with each drawer measuring 12\" x 16.5\" x 4.25\", the wooden top adds a genuinely usable extra work surface unlike the fully metal or plastic alternatives.",
+    description: "The reinforced metal frame here is rated for a genuinely heavy 150 lb total, well beyond what a basic plastic cart handles, with 4 drawers sliding on premium tracks with built-in stops against accidental falls. Mesh drawer construction lets you see contents at a glance instead of digging blindly, a real usability edge over the IRIS pick's opaque drawers.\n\nAt 14.6\"W x 11.4\"D x 26.6\"H, with each drawer measuring 12\" x 16.5\" x 4.25\", the wooden top adds a genuinely usable extra work surface unlike the fully metal or plastic alternatives.\n\nWorth calling out specifically: 150 lb frame capacity, meaningfully sturdier than lighter carts. The catch is smaller review base than the IRIS 4-drawer pick.",
     specs: ["4-drawer, 150 lb frame capacity, wooden top", "Mesh drawers for at-a-glance visibility", "Drawer: 12×16.5×4.25 in each"],
     pros: ["Mesh drawers let you see contents without digging blindly", "150 lb frame capacity, meaningfully sturdier than lighter carts"],
     cons: ["Smaller review base than the IRIS 4-drawer pick"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "203",
     imageUrl: "https://m.media-amazon.com/images/I/41sWBtU3EuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWD4Z5KB?tag=deskfinds0d-20",
-    description: "Ten large, genuinely deep drawers is the highest count here, built for offices sorting supplies into far more categories than a basic 4-drawer cart allows, with a deep design keeping everything tidy while staying accessible. Four 360° swivel casters include two with locking brakes for stability once positioned.\n\nThe wooden work surface is functional, not decorative: waterproof and scratch-resistant, usable for projects or temporary display. Tool-free assembly with all hardware included makes setup straightforward despite the highest price and smallest review base in this comparison.",
+    description: "Ten large, genuinely deep drawers is the highest count here, built for offices sorting supplies into far more categories than a basic 4-drawer cart allows, with a deep design keeping everything tidy while staying accessible. Four 360° swivel casters include two with locking brakes for stability once positioned.\n\nThe wooden work surface is functional, not decorative: waterproof and scratch-resistant, usable for projects or temporary display. Tool-free assembly with all hardware included makes setup straightforward despite the highest price and smallest review base in this comparison.\n\nHighest drawer count in this comparison for maximum category separation. Set against that, highest price in this comparison. Both matter when comparing it to the other picks here.",
     specs: ["10-drawer, wooden waterproof/scratch-resistant tabletop", "4× 360° casters, 2 with locking brakes", "Tool-free assembly"],
     pros: ["Highest drawer count in this comparison for maximum category separation"],
     cons: ["Highest price in this comparison"],
@@ -110,7 +110,7 @@ export const products: GuideProduct[] = [
     reviews: "203",
     imageUrl: "https://m.media-amazon.com/images/I/41uDz7iHDML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5668WXS?tag=deskfinds0d-20",
-    description: "Same specs as the primary 10-drawer listing above: waterproof scratch-resistant wooden tabletop, four 360° swivel casters with two locking brakes, and tool-free assembly with included hardware. This is a duplicate seller listing of the identical product, worth checking for current price or shipping-speed differences before ordering.\n\nCompare both listings directly since pricing or delivery estimates can shift independently between duplicate Amazon listings of the same physical product.",
+    description: "Same specs as the primary 10-drawer listing above: waterproof scratch-resistant wooden tabletop, four 360° swivel casters with two locking brakes, and tool-free assembly with included hardware. This is a duplicate seller listing of the identical product, worth checking for current price or shipping-speed differences before ordering.\n\nCompare both listings directly since pricing or delivery estimates can shift independently between duplicate Amazon listings of the same physical product.\n\nA genuine advantage here is that same confirmed rating and review base as the primary 10-drawer listing. The tradeoff is duplicate listing, verify current price matches or beats the alternative.",
     specs: ["10-drawer, wooden waterproof/scratch-resistant tabletop", "4× 360° casters, 2 with locking brakes", "Duplicate listing of the primary 10-drawer pick"],
     pros: ["Same confirmed rating and review base as the primary 10-drawer listing"],
     cons: ["Duplicate listing, verify current price matches or beats the alternative"],
@@ -126,7 +126,7 @@ export const products: GuideProduct[] = [
     reviews: "70",
     imageUrl: "https://m.media-amazon.com/images/I/51cv3WLqkDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWC695GD?tag=deskfinds0d-20",
-    description: "A coated metal frame plus a 40 lb-rated wooden tabletop gives real load-bearing capacity despite the light white aesthetic, at 15.75\"L x 12.4\"W x 25.67\"H. Three shallow drawers (13.98\"L x 12.28\"W x 2.76\"H) pair with two deeper drawers (13.97\"L x 12.28\"W x 4.53\"H), each 11 lbs capacity and fully detachable for standalone use.\n\nA built-in limiting structure on the sliding rails stops drawers from being accidentally pulled all the way out, and colors differ per drawer for quick visual identification. The smallest review base here, but a genuine style alternative to the black-dominated field in this comparison.",
+    description: "A coated metal frame plus a 40 lb-rated wooden tabletop gives real load-bearing capacity despite the light white aesthetic, at 15.75\"L x 12.4\"W x 25.67\"H. Three shallow drawers (13.98\"L x 12.28\"W x 2.76\"H) pair with two deeper drawers (13.97\"L x 12.28\"W x 4.53\"H), each 11 lbs capacity and fully detachable for standalone use.\n\nA built-in limiting structure on the sliding rails stops drawers from being accidentally pulled all the way out, and colors differ per drawer for quick visual identification. The smallest review base here, but a genuine style alternative to the black-dominated field in this comparison.\n\nDetachable drawers can be carried separately. On the other hand, smallest review base in this comparison. Neither should be a surprise once you know to look for it.",
     specs: ["5-drawer (3 shallow + 2 deep), white finish, 40 lb tabletop", "Detachable drawers, drawer pull-out limiter", "11 lb capacity per drawer"],
     pros: ["White finish, a genuine style alternative to the black options", "Detachable drawers can be carried separately"],
     cons: ["Smallest review base in this comparison"],
@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     reviews: "9",
     imageUrl: "https://m.media-amazon.com/images/I/41Di0QullmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRFJ4D58?tag=deskfinds0d-20",
-    description: "This is genuinely a laptop charging cart, not a pure office-supply drawer unit, included honestly here because it does combine wheeled mobility with device storage. An all-steel frame provides stability for 12 devices without wobbling, and the open-frame design allows natural airflow for cooling during charging alongside quick grab-and-go access.\n\nA 2-layer design adds a rear cable organizer plus a large lower shelf for books or materials, and four locking caster wheels with a push handle ease movement. The lowest rating and thinnest review base in this comparison; stick to the dedicated drawer carts above unless you specifically need laptop charging alongside storage.",
+    description: "This is genuinely a laptop charging cart, not a pure office-supply drawer unit, included honestly here because it does combine wheeled mobility with device storage. An all-steel frame provides stability for 12 devices without wobbling, and the open-frame design allows natural airflow for cooling during charging alongside quick grab-and-go access.\n\nA 2-layer design adds a rear cable organizer plus a large lower shelf for books or materials, and four locking caster wheels with a push handle ease movement. The lowest rating and thinnest review base in this comparison; stick to the dedicated drawer carts above unless you specifically need laptop charging alongside storage.\n\nCombines charging with genuine device storage compartments, unlike pure drawer carts. That's a real strength, but weigh it against the flip side: lowest rating in this comparison.",
     specs: ["12-device charging capacity, all-steel frame", "Lower shelf + rear cable organizer", "4 locking casters, push handle"],
     pros: ["Combines charging with genuine device storage compartments, unlike pure drawer carts"],
     cons: ["Lowest rating in this comparison", "Not a dedicated office-supply drawer cart"],
@@ -161,29 +161,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Drawer Count Needed",
-    table: {
-      headers: ["Supply category count", "Recommended pick"],
-      rows: [
-        ["4 categories, most proven track record", "IRIS USA 4-Drawer Rolling Storage Cart"],
-        ["8 categories, best rated", "LEHOM Rolling Storage Cart with 8 Drawers"],
-        ["8 categories, largest review base", "SYKIARIOL Rolling Storage Cart with 8 Drawers"],
-        ["10+ categories, maximum separation", "10 Drawers Rolling Cart with Wooden Tabletop"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "LEHOM Rolling Storage Cart with 8 Drawers"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "IRIS USA 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Duplicate Listings: Which to Buy",
-    note: "Two entries in this comparison are the same 10-drawer wooden-tabletop cart listed separately with identical rating and review data. Check the current price and shipping estimate on both before ordering, since duplicate listings can shift in price independently over time.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "IRIS USA 4"
+        ],
+        [
+          "Up to $99",
+          "10 Drawers Rolling Cart with Wooden Tabletop"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "IRIS USA 4 vs 10 Drawers Rolling Cart with Wooden Tabletop",
+    "cards": [
+      {
+        "label": "IRIS USA 4",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "10 Drawers Rolling Cart with Wooden Tabletop",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to IRIS USA 4 unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "IRIS USA 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "IRIS USA 4 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where 10 Drawers Rolling Cart with Wooden Tabletop's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where IRIS USA 4 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Match drawer count to actual supply categories, not the highest number available", explanation: "A 10-drawer cart only helps if you genuinely sort into 10 categories; otherwise a 4- or 8-drawer cart is simpler to use daily and costs less." },
-  { criterion: "Weigh review base heavily given the wide spread in this category", explanation: "Review counts here range from 70 to over 5,000. A cart with under 100 reviews carries meaningfully more uncertainty than the top-reviewed picks." },
-  { criterion: "Check for duplicate listings before ordering", explanation: "The 10-drawer wooden-tabletop cart appears as two separate listings with identical data. Compare current price on both rather than assuming they're priced the same." },
-  { criterion: "Consider a wooden top surface if you need extra workspace", explanation: "Two picks here (the wooden-top 4-drawer and 10-drawer carts) offer a usable top surface, useful if the cart doubles as a small standing work area." },
-  { criterion: "Verify loaded drawer-slide behavior for your expected supply weight", explanation: "None of these listings had an independently measured loaded-slide test. Heavier supplies like reams of paper or bulk stock may behave differently than lighter office items." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a office storage carts with drawer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the office storage carts with drawer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this office storage carts with drawer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any office storage carts with drawer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A office storage carts with drawer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tx2mcz3eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YJ7V76J?tag=deskfinds0d-20",
     description:
-      "This 5-gallon pull-out bin includes a patented Safety Lock, a genuine safety feature not every pull-out design offers, useful for homes with kids or pets. Fellowes' established reputation (100+ years in this space) adds real confidence to the slide-rail durability question over time.\n\nRemember this bin needs to fully extend forward to empty, measure your intended placement (under-desk, corner cabinet) for that clearance before assuming it fits.",
+      "This 5-gallon pull-out bin includes a patented Safety Lock, a genuine safety feature not every pull-out design offers, useful for homes with kids or pets. Fellowes' established reputation (100+ years in this space) adds real confidence to the slide-rail durability question over time.\n\nRemember this bin needs to fully extend forward to empty, measure your intended placement (under-desk, corner cabinet) for that clearance before assuming it fits.\n\nEstablished Fellowes brand reputation for durability. Set against that, requires full clearance space to extend the bin for emptying. Both matter when comparing it to the other picks here.",
     specs: ["5-gallon pull-out bin, patented Safety Lock", "14-sheet cross-cut, P-4", "10-minute continuous run time", "Quiet operation, elevated design"],
     pros: ["Patented Safety Lock, a genuine child/pet safety feature", "Established Fellowes brand reputation for durability", "Quiet operation", "Elevated design for a polished look"],
     cons: ["Requires full clearance space to extend the bin for emptying", "10-minute run time is moderate, not the longest in this guide", "Slide-rail long-term wear not independently verified"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FCXr1akDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00IOFD08C?tag=deskfinds0d-20",
     description:
-      "At 6 gallons and 400+ sheets, this is the largest pull-out bin in this guide, meaning a genuinely heavier pull when full, worth factoring into the slide-rail wear consideration over time given the added weight versus smaller bins. Casters help offset that weight when moving the whole unit.\n\nA full-size pull-out bin this large needs meaningful clearance space to extend, plan your placement accordingly.",
+      "At 6 gallons and 400+ sheets, this is the largest pull-out bin in this guide, meaning a genuinely heavier pull when full, worth factoring into the slide-rail wear consideration over time given the added weight versus smaller bins. Casters help offset that weight when moving the whole unit.\n\nA full-size pull-out bin this large needs meaningful clearance space to extend, plan your placement accordingly.\n\nA genuine advantage here is that casters help offset the weight when moving. The tradeoff is heaviest full-bin pull to manage of any pick here.",
     specs: ["6-gallon pull-out bin, 400+ sheets", "18-sheet cross-cut, P-4", "60-minute continuous run time", "Transparent window, casters"],
     pros: ["Largest pull-out bin capacity in this guide", "Casters help offset the weight when moving", "Largest review base here", "Transparent window for fill visibility"],
     cons: ["Heaviest full-bin pull to manage of any pick here", "Needs the most clearance space to extend", "Highest price in this guide"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31lBbbWrCsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
-      "A 6-gallon pull-out bin paired with a 120-sheet auto-feed hopper, meaning this bin fills faster per session than a manual-feed shredder's, worth factoring into how often you'll be pulling it out. 360-degree casters make positioning the whole unit for bin access easier in a shared office.\n\nStatic buildup is a real consideration with cross-cut/micro-cut paper during pull-out, shreds can cling to the bin walls, making it look emptier than it is.",
+      "A 6-gallon pull-out bin paired with a 120-sheet auto-feed hopper, meaning this bin fills faster per session than a manual-feed shredder's, worth factoring into how often you'll be pulling it out. 360-degree casters make positioning the whole unit for bin access easier in a shared office.\n\nStatic buildup is a real consideration with cross-cut/micro-cut paper during pull-out, shreds can cling to the bin walls, making it look emptier than it is.\n\nCasters ease positioning for bin access. On the other hand, fills faster per session due to the large auto-feed hopper. Neither should be a surprise once you know to look for it.",
     specs: ["6-gallon pull-out bin", "120-sheet auto-feed hopper, P-4 micro-cut", "30-minute continuous run time", "360° casters"],
     pros: ["Large pull-out bin matched to a high-capacity auto-feed hopper", "Casters ease positioning for bin access", "Separate manual slot for cards/staples", "P-4 security level"],
     cons: ["Fills faster per session due to the large auto-feed hopper", "Static cling can make the bin look emptier than it is", "Same clearance-space requirement as any large pull-out bin"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VvTJMBXPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
-      "A smaller 4.2-gallon pull-out bin than the rank-3 pick, meaning less clearance space needed to fully extend it, genuinely useful in a tighter under-desk placement. Bin-full indicator helps you plan the pull-out timing rather than being surprised.\n\nA reasonable choice if clearance space is tight and you don't need the largest pull-out bin in this guide.",
+      "A smaller 4.2-gallon pull-out bin than the rank-3 pick, meaning less clearance space needed to fully extend it, genuinely useful in a tighter under-desk placement. Bin-full indicator helps you plan the pull-out timing rather than being surprised.\n\nA reasonable choice if clearance space is tight and you don't need the largest pull-out bin in this guide.\n\nBin-full indicator for planning pull-out timing. That's a real strength, but weigh it against the flip side: smaller capacity requires more frequent emptying.",
     specs: ["4.2-gallon pull-out bin, bin-full indicator", "100-sheet auto-feed hopper, P-4 micro-cut", "30-minute continuous run time", "360° casters"],
     pros: ["Smaller bin needs less clearance space to extend", "Bin-full indicator for planning pull-out timing", "Lower price than the largest bin picks", "Mobile on casters"],
     cons: ["Smaller capacity requires more frequent emptying", "Same static-cling consideration as any micro-cut pull-out bin", "Not the largest option in this guide"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413GY12YKjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CX4DZ4Z?tag=deskfinds0d-20",
     description:
-      "A 5-gallon pull-out bin with the highest rating and review base in this guide, real evidence the slide mechanism holds up reliably across a large number of users over time. LED indicators show bin-full status directly.\n\nA proven, well-trusted pull-out design at a moderate size, not the largest but genuinely reliable based on the volume of positive feedback.",
+      "A 5-gallon pull-out bin with the highest rating and review base in this guide, real evidence the slide mechanism holds up reliably across a large number of users over time. LED indicators show bin-full status directly.\n\nA proven, well-trusted pull-out design at a moderate size, not the largest but genuinely reliable based on the volume of positive feedback.\n\nWorth calling out specifically: real-world evidence of reliable slide-rail durability. The catch is not the largest pull-out bin in this guide.",
     specs: ["5-gallon pull-out bin, LED bin-full indicator", "12-sheet manual feed, P-4 micro-cut", "60-minute continuous run time", "Destroys CDs/credit cards too"],
     pros: ["Highest rating and review base in this guide", "Real-world evidence of reliable slide-rail durability", "Long 60-minute run time", "LED bin-full indicator"],
     cons: ["Not the largest pull-out bin in this guide", "12-sheet manual capacity is modest", "Clearance space still required to extend the bin"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QmnUvb1tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6LXQTST?tag=deskfinds0d-20",
     description:
-      "A 4-gallon pull-out bin with caster wheels for smooth rolling mobility, genuinely useful for repositioning the whole unit to gain pull-out clearance in a tight space rather than needing fixed clearance behind it. P-4 micro-cut security at a moderate price.\n\nA sensible pick if your placement doesn't have permanent fixed clearance and you'd rather roll the unit out to empty it.",
+      "A 4-gallon pull-out bin with caster wheels for smooth rolling mobility, genuinely useful for repositioning the whole unit to gain pull-out clearance in a tight space rather than needing fixed clearance behind it. P-4 micro-cut security at a moderate price.\n\nA sensible pick if your placement doesn't have permanent fixed clearance and you'd rather roll the unit out to empty it.\n\nP-4 security at a moderate price. Set against that, shorter continuous run time than the premium picks. Both matter when comparing it to the other picks here.",
     specs: ["4-gallon pull-out bin, caster wheels", "8-sheet manual feed, P-4 micro-cut", "5-minute continuous run time", "4-mode control, LED indicators"],
     pros: ["Caster wheels let you reposition for clearance rather than needing fixed space", "P-4 security at a moderate price", "Amazon Basics quality-tested", "Reasonable capacity for the price"],
     cons: ["Shorter continuous run time than the premium picks", "8-sheet capacity is modest", "Smaller bin than the top picks in this guide"],
@@ -133,7 +133,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31LSE9gHSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
-      "A 5.3-gallon pull-out bin on casters, proportioned to its higher 14-sheet, 20-minute run capacity, meaning fewer pull-out-and-empty cycles per large session than a smaller bin would require. Real-time overheat/overload indicators are a bonus alongside the pull-out design.\n\nLowest rating among the higher-capacity picks here, weigh that against the genuinely well-matched bin-to-capacity ratio.",
+      "A 5.3-gallon pull-out bin on casters, proportioned to its higher 14-sheet, 20-minute run capacity, meaning fewer pull-out-and-empty cycles per large session than a smaller bin would require. Real-time overheat/overload indicators are a bonus alongside the pull-out design.\n\nLowest rating among the higher-capacity picks here, weigh that against the genuinely well-matched bin-to-capacity ratio.\n\nA genuine advantage here is that casters for repositioning. The tradeoff is lowest rating among the higher-capacity picks in this guide.",
     specs: ["5.3-gallon pull-out bin, casters", "14-sheet manual feed, P-4 cross-cut", "20-minute continuous run, up to 1,400 sheets/session", "Real-time overheat indicators"],
     pros: ["Bin proportioned well to its higher run capacity", "Casters for repositioning", "Real-time overheat/overload status", "ETL listed"],
     cons: ["Lowest rating among the higher-capacity picks in this guide", "Not the largest bin overall", "Slide-rail durability not independently verified over long-term use"],
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310qS+3q87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5XPJ524?tag=deskfinds0d-20",
     description:
-      "A 5.5-gallon pull-out bin at a moderate price, genuinely large for the cost, and the transparent window lets you check fill level without fully extending the bin every time. Jam-proof reverse system keeps sessions moving.\n\nA reasonable, well-rated budget-conscious choice for a genuinely large pull-out bin.",
+      "A 5.5-gallon pull-out bin at a moderate price, genuinely large for the cost, and the transparent window lets you check fill level without fully extending the bin every time. Jam-proof reverse system keeps sessions moving.\n\nA reasonable, well-rated budget-conscious choice for a genuinely large pull-out bin.\n\nTransparent window reduces unnecessary pull-outs to check fill level. On the other hand, shorter run time than the premium picks in this guide. Neither should be a surprise once you know to look for it.",
     specs: ["5.5-gallon pull-out bin, transparent window", "12-sheet manual feed, P-4 cross-cut", "15-minute continuous run, ~900 sheets/cycle", "Jam-proof reverse system"],
     pros: ["Large 5.5-gallon pull-out bin at a moderate price", "Transparent window reduces unnecessary pull-outs to check fill level", "Solid rating", "Jam-proof reverse system"],
     cons: ["Shorter run time than the premium picks in this guide", "12-sheet per-pass capacity limits total volume per session", "Slide-rail durability not independently confirmed long-term"],
@@ -168,27 +168,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Clearance Space: Pull-Out vs. Swing-Open",
-    note: "A pull-out bin needs unobstructed space to fully extend for emptying, unlike a swing-open lid design. If your shredder lives tucked under a desk or in a corner cabinet, measure the actual clearance available before assuming any pull-out bin fits your placement.",
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Highest average rating",
+          "Aurora AU1210MA Professional Grade High Security 12"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Bonsaii 18"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Slide-Rail Wear Over Time",
-    note: "Repeated pulling of a heavy, paper-filled bin on plastic slide rails can cause wear leading to sticking or misalignment after months of regular use, a longevity concern short-term reviews don't directly test. Established brands with large review bases (Fellowes, Aurora, Bonsaii's more popular models) offer more real-world evidence of durability than newer, lower-volume listings.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $75",
+          "Amazon Basics High Security Micro Cut Paper Shredder"
+        ],
+        [
+          "Up to $180",
+          "Bonsaii 120"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Static Cling and Caster Mobility",
-    cards: [
-      { label: "Static cling on cross-cut/micro-cut bins", text: "Shredded paper can cling to bin walls during pull-out, making the bin look emptier than it actually is, a minor but real annoyance during emptying." },
-      { label: "Caster wheels as a clearance-space workaround", text: "Picks with caster wheels (like the Amazon Basics 8-sheet, rank 6) let you roll the whole unit for pull-out access instead of needing fixed clearance space behind it." },
+    "subheading": "Amazon Basics High Security Micro Cut Paper Shredder vs Bonsaii 120",
+    "cards": [
+      {
+        "label": "Amazon Basics High Security Micro Cut Paper Shredder",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Bonsaii 120",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Amazon Basics High Security Micro Cut Paper Shredder unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Bonsaii 18"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Bonsaii 18 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Bonsaii 120's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Amazon Basics High Security Micro Cut Paper Shredder covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Pull-out bins need real clearance space to fully extend", explanation: "Unlike a swing-open lid, a pull-out bin requires unobstructed space in front of or behind the shredder. Measure your actual placement (under-desk, corner cabinet) before assuming any pull-out design fits." },
-  { criterion: "Slide rails can wear with heavy repeated use over months", explanation: "Repeated pulling of a heavy, full bin on plastic slide rails can cause sticking or misalignment over time, a longevity factor short-term reviews don't capture. Established, high-review-count brands offer more real-world evidence of durability." },
-  { criterion: "Static cling can make a bin look emptier than it is", explanation: "Cross-cut and micro-cut shredded paper generates static electricity, causing shreds to cling to the bin walls, especially noticeable during the pull-out motion when the paper is more exposed." },
-  { criterion: "Caster wheels can substitute for fixed clearance space", explanation: "If your placement doesn't have permanent clearance behind or in front of the shredder, a model with caster wheels lets you reposition the whole unit temporarily for pull-out access instead." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shredder with pull-out bin often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shredder with pull-out bin holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shredder with pull-out bin over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shredder with pull-out bin you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shredder with pull-out bin that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

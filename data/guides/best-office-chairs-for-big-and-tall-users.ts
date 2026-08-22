@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lDR7qjYlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXTWTCWS?tag=deskfinds0d-20",
     description:
-      "The GTPLAYER carries the largest buyer feedback base on this list at a stated 400 lb capacity, which is reassuring context for a heavy-duty claim since a rating backed by tens of thousands of purchases has been stress-tested far more than a newer listing. Its high back and 3D pocket spring lumbar support are built into a saddle-shaped cushion designed for sustained sitting rather than short use.\n\nApply the buffer rule here as anywhere else: treat the 400 lb figure as a ceiling, not a target, and look for roughly 50 lbs of headroom above your actual weight before buying. A folding footrest is included, useful for reclined breaks but not a substitute for a properly sized seat if you're near the top of the stated range.",
+      "The GTPLAYER carries the largest buyer feedback base on this list at a stated 400 lb capacity, which is reassuring context for a heavy-duty claim since a rating backed by tens of thousands of purchases has been stress-tested far more than a newer listing. Its high back and 3D pocket spring lumbar support are built into a saddle-shaped cushion designed for sustained sitting rather than short use.\n\nApply the buffer rule here as anywhere else: treat the 400 lb figure as a ceiling, not a target, and look for roughly 50 lbs of headroom above your actual weight before buying. A folding footrest is included, useful for reclined breaks but not a substitute for a properly sized seat if you're near the top of the stated range.\n\nA genuine advantage here is that high stated capacity for the price. The tradeoff is 400 lb rating still needs a buffer against your actual weight.",
     specs: [
       "400 lbs stated weight capacity",
       "High back with pocket spring lumbar support",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TqMt5cRYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8BXBX8?tag=deskfinds0d-20",
     description:
-      "The GABRYLLY's flip-up arms and 90 to 120 degree tilt lock are aimed at genuinely tall users, not just heavy ones, and its headrest adds support that many big and tall chairs skip. Tall buyers over 6'2\" specifically need a seat height range that extends past the 18 to 20 inch standard max to keep a proper knee angle, and this chair's listing targets that use case directly in its product description.\n\nMesh construction breathes better than PU leather over long sitting sessions, a real comfort factor for all-day use. As with any big and tall chair, confirm the actual seat height range against your own leg length before buying rather than assuming \"big and tall\" branding alone covers a tall user's needs.",
+      "The GABRYLLY's flip-up arms and 90 to 120 degree tilt lock are aimed at genuinely tall users, not just heavy ones, and its headrest adds support that many big and tall chairs skip. Tall buyers over 6'2\" specifically need a seat height range that extends past the 18 to 20 inch standard max to keep a proper knee angle, and this chair's listing targets that use case directly in its product description.\n\nMesh construction breathes better than PU leather over long sitting sessions, a real comfort factor for all-day use. As with any big and tall chair, confirm the actual seat height range against your own leg length before buying rather than assuming \"big and tall\" branding alone covers a tall user's needs.\n\nHeadrest included. On the other hand, highest price on this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "High back with adjustable headrest",
       "Flip-up armrests",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rkQ70Jb6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09B3FJHHT?tag=deskfinds0d-20",
     description:
-      "At $99.50 the LEMBERI matches the GTPLAYER's stated 400 lb capacity for roughly half the price, backed by a solid review base of its own. A thickened steel frame and reinforced footrest are called out specifically in the listing, a detail worth noting since frame material is one of the harder specs to verify from photos alone.\n\nLinkage armrests and PU leather upholstery round out the build. As with any stated capacity, build in the roughly 50 lb buffer above your actual weight for dynamic loads like dropping into the seat, which create meaningfully more peak force than sitting down slowly.",
+      "At $99.50 the LEMBERI matches the GTPLAYER's stated 400 lb capacity for roughly half the price, backed by a solid review base of its own. A thickened steel frame and reinforced footrest are called out specifically in the listing, a detail worth noting since frame material is one of the harder specs to verify from photos alone.\n\nLinkage armrests and PU leather upholstery round out the build. As with any stated capacity, build in the roughly 50 lb buffer above your actual weight for dynamic loads like dropping into the seat, which create meaningfully more peak force than sitting down slowly.\n\nThickened steel frame called out explicitly. That's a real strength, but weigh it against the flip side: pU leather runs warmer than mesh over long sessions.",
     specs: [
       "400 lb stated capacity",
       "Thickened steel frame",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tetnrTgxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GF9TKQTW?tag=deskfinds0d-20",
     description:
-      "This chair carries the highest stated capacity on this list at 500 lbs, with an extra-wide seat and a heavy-duty base with upgraded casters to match. That capacity headroom matters most for users near or above 350 lbs, where even a 50 lb buffer against a 400 lb-rated chair starts to feel tight.\n\nIts review count is far smaller than the top picks above, so weigh the strong 4.6 rating against that lower sample size. Check the warranty terms directly on the listing before buying at this capacity tier, since some big and tall chairs carry a weight claim that outlasts a comparatively short one-year warranty.",
+      "This chair carries the highest stated capacity on this list at 500 lbs, with an extra-wide seat and a heavy-duty base with upgraded casters to match. That capacity headroom matters most for users near or above 350 lbs, where even a 50 lb buffer against a 400 lb-rated chair starts to feel tight.\n\nIts review count is far smaller than the top picks above, so weigh the strong 4.6 rating against that lower sample size. Check the warranty terms directly on the listing before buying at this capacity tier, since some big and tall chairs carry a weight claim that outlasts a comparatively short one-year warranty.\n\nWorth calling out specifically: extra wide seat for broader hip width. The catch is much smaller review sample than the top picks.",
     specs: [
       "500 lbs stated weight capacity",
       "Extra wide seat",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k6biuoUcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62NG547?tag=deskfinds0d-20",
     description:
-      "Fizzin pairs a 400 lb stated capacity with breathable mesh and a thickened cushion, a comfort-forward build at a mid-range price. Mesh runs cooler than PU leather over a full workday, worth prioritizing if you're going to be seated for eight or more hours.\n\nIts review count is modest compared to the top two picks, so treat the 4.4 rating as a smaller but still reasonably solid sample. Adjustable lumbar support is included, a feature not every chair at this price point offers standard.",
+      "Fizzin pairs a 400 lb stated capacity with breathable mesh and a thickened cushion, a comfort-forward build at a mid-range price. Mesh runs cooler than PU leather over a full workday, worth prioritizing if you're going to be seated for eight or more hours.\n\nIts review count is modest compared to the top two picks, so treat the 4.4 rating as a smaller but still reasonably solid sample. Adjustable lumbar support is included, a feature not every chair at this price point offers standard.\n\nAdjustable lumbar support included. Set against that, smaller review base than the top picks. Both matter when comparing it to the other picks here.",
     specs: [
       "400 LBS stated capacity",
       "Breathable mesh construction",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51lpZXXyViL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG6V2XGS?tag=deskfinds0d-20",
     description:
-      "TRALT's 330 lb stated capacity sits below the 400 and 500 lb picks above, making it a fit for users comfortably under roughly 280 lbs once you apply the standard buffer rather than anyone pushing the upper range of big and tall sizing. A solid review base of over 6,000 ratings backs the 4.3 star average.\n\nMesh construction and a straightforward wheeled base keep this chair simple and comparatively affordable. If your actual weight is anywhere near this chair's stated limit, one of the 400 or 500 lb rated picks above gives more real headroom.",
+      "TRALT's 330 lb stated capacity sits below the 400 and 500 lb picks above, making it a fit for users comfortably under roughly 280 lbs once you apply the standard buffer rather than anyone pushing the upper range of big and tall sizing. A solid review base of over 6,000 ratings backs the 4.3 star average.\n\nMesh construction and a straightforward wheeled base keep this chair simple and comparatively affordable. If your actual weight is anywhere near this chair's stated limit, one of the 400 or 500 lb rated picks above gives more real headroom.\n\nA genuine advantage here is that mesh breathes better than leather. The tradeoff is lower stated capacity than the other picks.",
     specs: [
       "330 LBS stated capacity",
       "Mesh construction",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412WYSRjpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQD3K8PJ?tag=deskfinds0d-20",
     description:
-      "This TRALT model leads with adjustable lumbar support rather than a headline weight number, and its listing doesn't advertise a big and tall specific capacity the way the other picks on this list do. That makes it a reasonable option mainly for buyers whose primary concern is lumbar adjustability rather than maximum stated capacity.\n\nA strong review base and consistent 4.3 star rating suggest reliable day-to-day comfort. If weight capacity is your main concern, one of the explicitly rated big and tall picks above is the safer choice.",
+      "This TRALT model leads with adjustable lumbar support rather than a headline weight number, and its listing doesn't advertise a big and tall specific capacity the way the other picks on this list do. That makes it a reasonable option mainly for buyers whose primary concern is lumbar adjustability rather than maximum stated capacity.\n\nA strong review base and consistent 4.3 star rating suggest reliable day-to-day comfort. If weight capacity is your main concern, one of the explicitly rated big and tall picks above is the safer choice.\n\nConsistent rating across a large review base. On the other hand, no explicit big and tall weight rating listed. Neither should be a surprise once you know to look for it.",
     specs: [
       "Adjustable lumbar support",
       "Mesh computer chair design",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kNDnGgiRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDCQMGSH?tag=deskfinds0d-20",
     description:
-      "Indulgear matches the highest stated capacity on this list at 500 lbs, with an adjustable lumbar support, quiet rubber wheels, and a pocket spring cushion. It's a solid alternative to the other 500 lb pick if you prefer a high-back executive look over an extra-wide seat design.\n\nIts review count is modest relative to the top picks, so weigh the 4.3 rating against that smaller sample. As with any high-capacity chair, treat the 500 lb figure as a ceiling and build in a buffer against your actual weight rather than buying right at the limit.",
+      "Indulgear matches the highest stated capacity on this list at 500 lbs, with an adjustable lumbar support, quiet rubber wheels, and a pocket spring cushion. It's a solid alternative to the other 500 lb pick if you prefer a high-back executive look over an extra-wide seat design.\n\nIts review count is modest relative to the top picks, so weigh the 4.3 rating against that smaller sample. As with any high-capacity chair, treat the 500 lb figure as a ceiling and build in a buffer against your actual weight rather than buying right at the limit.\n\nQuiet wheels, useful for shared home offices. That's a real strength, but weigh it against the flip side: smaller review base than the top picks.",
     specs: [
       "500lbs stated weight capacity",
       "High back executive design",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Build in a 50 lb buffer above your actual weight",
-    explanation:
-      "Dropping into a chair seat creates 30 to 50 percent more peak force than your static body weight, so a chair rated right at your weight is being pushed toward its limit every time you sit down. As a rule of thumb, buy a chair rated at least 50 lbs above your actual weight, not exactly at it.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a office chair often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Seat width, hip width, and armrest spread are three different measurements",
-    explanation:
-      "A wide seat cushion doesn't guarantee comfortable armrest clearance, since armrest inner spread is a separate measurement that matters more than seat width for wide-hip users. Check both numbers if a listing provides them, not just the headline 'wide seat' description.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the office chair holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Tall users need more seat height range than standard chairs offer",
-    explanation:
-      "Most office chairs max out around 18 to 20 inches of seat height, which isn't enough for users over 6'2\" to maintain a proper knee angle. Look for a chair, like the GABRYLLY on this list, that specifically markets its fit toward tall users rather than assuming 'big and tall' branding alone covers taller frames.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this office chair over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "A gas cylinder's class rating affects sustained heavy use",
-    explanation:
-      "Standard Class 3 gas lift cylinders are common on budget chairs, while Class 4 cylinders are rated for sustained loads above 250 lbs. Most listings in this category don't specify cylinder class directly, so treat an unlisted class as a reason to lean toward the higher end of your buffer rather than assume it's rated for heavy daily use.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any office chair you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check the warranty length against the weight claim, not just the number",
-    explanation:
-      "Some big and tall chairs carry an impressive weight rating but only a one-year warranty, which is short for a chair meant to carry sustained heavy loads daily. A high weight claim backed by a short warranty is a weaker guarantee than the number alone suggests.",
-  },
-  {
-    criterion: "Review count matters as much as star rating at this weight tier",
-    explanation:
-      "A 4.6 star rating on 165 reviews and a 4.5 star rating on 34,180 reviews are not equally reliable signals of durability under heavy sustained use. Where possible, favor picks with both a strong rating and a large review base, and treat smaller-sample high ratings as promising but less proven.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A office chair that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,69 +364,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Actual Weight, with the 50 lb Buffer Applied",
-    intro: "Match your weight to a stated capacity that leaves real headroom, not one you'd be sitting right at the limit of.",
-    table: {
-      headers: ["Your weight", "Target stated capacity", "Best pick"],
-      rows: [
-        ["Under 250 lbs", "330 lb rating or higher", "TRALT 330 LBS Mesh"],
-        ["250-300 lbs", "400 lb rating", "LEMBERI 400 lb Capacity or Fizzin 400 LBS"],
-        ["300-350 lbs", "400 lb rating, high review volume preferred", "GTPLAYER Big and Tall 400 lbs"],
-        ["350-450 lbs", "500 lb rating", "500 lbs Extra Wide Seat or Indulgear 500lbs"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "These are stated capacities minus a 50 lb buffer, not hard limits; when in doubt, size up rather than down.",
+      "rows": [
+        [
+          "Highest average rating",
+          "500 lbs Big and Tall Office Chair"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "GTPLAYER Big and Tall Gaming Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Height, Not Just Weight",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $100",
+          "LEMBERI Big and Tall Gaming Chair"
+        ],
+        [
+          "Up to $213",
+          "GABRYLLY Ergonomic Office Chair"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "LEMBERI Big and Tall Gaming Chair vs GABRYLLY Ergonomic Office Chair",
+    "cards": [
       {
-        label: "Over 6'2\" and need a higher seat height range",
-        text: "The GABRYLLY is the only pick on this list whose listing specifically addresses tall-user seat height and leg room, not just weight capacity.",
+        "label": "LEMBERI Big and Tall Gaming Chair",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Average height, primarily need weight capacity",
-        text: "The GTPLAYER, LEMBERI, or either 500 lb rated pick focus on capacity and frame strength over seat height range.",
-      },
+        "label": "GABRYLLY Ergonomic Office Chair",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to LEMBERI Big and Tall Gaming Chair unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Armrest and Hip Width Needs",
-    intro: "Wide-hip comfort depends on armrest spread more than the seat width number alone.",
-    table: {
-      headers: ["Priority", "Best pick", "Why"],
-      rows: [
-        ["Explicit extra-wide seat callout", "500 lbs Extra Wide Seat", "Listing specifically advertises extra seat width alongside its 500 lb rating"],
-        ["Flip-up arms for flexible clearance", "GABRYLLY High Back Mesh", "Flip-up arms let you adjust clearance rather than a fixed spread"],
-        ["Standard wide cushion, budget-friendly", "LEMBERI 400 lb Capacity", "Reasonable width at a lower price point"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "GTPLAYER Big and Tall Gaming Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When to Spend More",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $110", "330-400 lb capacity, mesh, basic lumbar", "LEMBERI 400 lb Capacity or Fizzin 400 LBS"],
-        ["$125-$180", "400-500 lb capacity, stronger review base or extra features", "TRALT 330 LBS, GTPLAYER 400 lbs, or Indulgear 500lbs"],
-        ["Above $180", "Tall-user specific fit or highest capacity extras", "GABRYLLY High Back Mesh or 500 lbs Extra Wide Seat"],
-      ],
-    },
-  },
-  {
-    subheading: "Warranty and Cylinder Class Quick Reference",
-    intro: "Neither factor is consistently listed across this category, which is itself a signal worth acting on.",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Cylinder class not specified",
-        text: "Every pick in this list omits an explicit gas cylinder class rating; treat this as a reason to keep your weight buffer generous rather than assume heavy-duty Class 4 hardware by default.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Warranty length not itemized",
-        text: "Check the current Amazon listing and manufacturer page directly for warranty terms before buying at the higher end of any weight tier, since terms can be shorter than the weight claim implies.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "GTPLAYER Big and Tall Gaming Chair is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where GABRYLLY Ergonomic Office Chair's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where LEMBERI Big and Tall Gaming Chair covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

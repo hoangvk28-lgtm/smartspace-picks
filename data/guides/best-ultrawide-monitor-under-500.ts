@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51M6nLrVD8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CWQMZPJC?tag=deskfinds0d-20",
     description:
-      "At just over $200, the SANSUI is the cheapest way into a 3440x1440 ultrawide on this list, and its backing of 4,460 ratings makes it the most-reviewed pick here too. A 200Hz refresh rate and strong 97% DCI-P3 color coverage punch well above its price point.\n\nPiP and PbP let you view two input sources at once, and dual HDMI 2.1 ports plus DisplayPort 1.4 cover most setups without needing an adapter. It's the clear budget entry point in this entire guide.",
+      "At just over $200, the SANSUI is the cheapest way into a 3440x1440 ultrawide on this list, and its backing of 4,460 ratings makes it the most-reviewed pick here too. A 200Hz refresh rate and strong 97% DCI-P3 color coverage punch well above its price point.\n\nPiP and PbP let you view two input sources at once, and dual HDMI 2.1 ports plus DisplayPort 1.4 cover most setups without needing an adapter. It's the clear budget entry point in this entire guide.\n\nMost-reviewed pick with 4,460 ratings. Set against that, no USB-C port. Both matter when comparing it to the other picks here.",
     specs: [
       "3440x1440 VA curved panel",
       "200Hz refresh rate",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41pP4kekZ9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08MVBYWGQ?tag=deskfinds0d-20",
     description:
-      "The Odyssey G5's 1000R curve is the most aggressive, most immersive curve in this guide, matching the curvature of the human eye more closely than the 1500R panels elsewhere on this list. That makes a real difference in how wrapped-around the screen feels at close range.\n\nA 3440x1440 VA panel runs at 165Hz with HDR10 support, and FreeSync Premium keeps motion smooth during fast-paced content. It's a strong pick for anyone who wants the deepest curve on a budget.",
+      "The Odyssey G5's 1000R curve is the most aggressive, most immersive curve in this guide, matching the curvature of the human eye more closely than the 1500R panels elsewhere on this list. That makes a real difference in how wrapped-around the screen feels at close range.\n\nA 3440x1440 VA panel runs at 165Hz with HDR10 support, and FreeSync Premium keeps motion smooth during fast-paced content. It's a strong pick for anyone who wants the deepest curve on a budget.\n\nA genuine advantage here is that 165Hz refresh with FreeSync Premium for smooth motion. The tradeoff is slightly lower rating than several other picks here.",
     specs: [
       "3440x1440 VA curved 1000R panel",
       "165Hz refresh rate",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41sbKOnrFpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FFCKFWQX?tag=deskfinds0d-20",
     description:
-      "The AOC CU34G4V pairs a 1500R curve with a 0.5ms MPRT response time, the fastest response time under $250 in this entire guide. A 3440x1440 VA panel runs at 180Hz, well ahead of what most budget ultrawides offer.\n\nA 130mm height, swivel, and tilt adjustable stand is a genuine standout at this price, since many budget ultrawides ship with fixed-height stands only. FreeSync Premium rounds out the smooth-motion package.",
+      "The AOC CU34G4V pairs a 1500R curve with a 0.5ms MPRT response time, the fastest response time under $250 in this entire guide. A 3440x1440 VA panel runs at 180Hz, well ahead of what most budget ultrawides offer.\n\nA 130mm height, swivel, and tilt adjustable stand is a genuine standout at this price, since many budget ultrawides ship with fixed-height stands only. FreeSync Premium rounds out the smooth-motion package.\n\n130mm height-adjustable stand, rare at this price. On the other hand, smallest review sample in this guide at 55 ratings. Neither should be a surprise once you know to look for it.",
     specs: [
       "3440x1440 VA curved 1500R panel",
       "180Hz refresh rate",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HhRKN-D9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXS8J4Y5?tag=deskfinds0d-20",
     description:
-      "The ASUS TUF VG34VQ3B stands out for connectivity, its 4x USB 3.2 ports are the most of any pick in this guide, useful for charging a controller, plugging in a headset dongle, or connecting peripherals without reaching around to the back of the desk. A 3440x1440 VA panel runs at 180Hz with a 1500R curve.\n\n90% DCI-P3 color coverage is solid for the price, and built-in speakers mean it can work as a standalone display without external audio. A 3-year warranty backs the whole unit.",
+      "The ASUS TUF VG34VQ3B stands out for connectivity, its 4x USB 3.2 ports are the most of any pick in this guide, useful for charging a controller, plugging in a headset dongle, or connecting peripherals without reaching around to the back of the desk. A 3440x1440 VA panel runs at 180Hz with a 1500R curve.\n\n90% DCI-P3 color coverage is solid for the price, and built-in speakers mean it can work as a standalone display without external audio. A 3-year warranty backs the whole unit.\n\nBuilt-in speakers work without external audio setup. That's a real strength, but weigh it against the flip side: no USB-C or Power Delivery.",
     specs: [
       "3440x1440 VA curved 1500R panel",
       "180Hz refresh rate",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41um0FZCuPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZL719V1?tag=deskfinds0d-20",
     description:
-      "The Alienware AW3425DWM is the highest-rated pick in this entire guide, backed by 604 ratings at 4.6 stars. Its 1500R curved VA panel runs 3440x1440 at 180Hz with a genuinely fast 1ms response time and 3000:1 contrast.\n\nIt's also the only pick in this guide with a dedicated console mode, a real advantage if you're splitting the monitor between a gaming PC and a console. A 3-year warranty adds peace of mind for a monitor built to run heavy gaming sessions.",
+      "The Alienware AW3425DWM is the highest-rated pick in this entire guide, backed by 604 ratings at 4.6 stars. Its 1500R curved VA panel runs 3440x1440 at 180Hz with a genuinely fast 1ms response time and 3000:1 contrast.\n\nIt's also the only pick in this guide with a dedicated console mode, a real advantage if you're splitting the monitor between a gaming PC and a console. A 3-year warranty adds peace of mind for a monitor built to run heavy gaming sessions.\n\nWorth calling out specifically: only pick here with a dedicated console mode. The catch is no USB-C port.",
     specs: [
       "3440x1440 VA curved 1500R panel",
       "180Hz refresh rate, 1ms response time",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x4uwmvQpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQF8LRGZ?tag=deskfinds0d-20",
     description:
-      "The LG 34WR55QK-B is the best pick under $500 specifically for work or productivity use, its Reader Mode reduces eye strain during long reading and writing sessions, and USB-C 65W Power Delivery charges a laptop over a single cable. PbP support and OnScreen Control software round out the office-focused feature set.\n\nA 3440x1440 VA curved panel runs at 100Hz, noticeably lower than the gaming-focused picks in this list, a fair tradeoff given its productivity-first design. A height and tilt adjustable stand completes the package.",
+      "The LG 34WR55QK-B is the best pick under $500 specifically for work or productivity use, its Reader Mode reduces eye strain during long reading and writing sessions, and USB-C 65W Power Delivery charges a laptop over a single cable. PbP support and OnScreen Control software round out the office-focused feature set.\n\nA 3440x1440 VA curved panel runs at 100Hz, noticeably lower than the gaming-focused picks in this list, a fair tradeoff given its productivity-first design. A height and tilt adjustable stand completes the package.\n\nUSB-C 65W PD charges a laptop over one cable. Set against that, 100Hz is the lowest refresh rate among the gaming-focused picks here. Both matter when comparing it to the other picks here.",
     specs: [
       "3440x1440 VA curved panel",
       "100Hz refresh rate",
@@ -244,7 +244,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41x+8KvLpWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYKJVX71?tag=deskfinds0d-20",
     description:
-      "The MSI MAG 346CQ is the only pick in this guide certified for both G-Sync Compatible and FreeSync, a genuine advantage if you're not sure whether your next GPU will be NVIDIA or AMD. A 3440x1440 VA panel runs at 180Hz with a 1ms MPRT response time and 3000:1 contrast.\n\nA height-adjustable stand and built-in speakers add convenience without pushing the price up much, keeping it a well-rounded mid-tier gaming pick under $300.",
+      "The MSI MAG 346CQ is the only pick in this guide certified for both G-Sync Compatible and FreeSync, a genuine advantage if you're not sure whether your next GPU will be NVIDIA or AMD. A 3440x1440 VA panel runs at 180Hz with a 1ms MPRT response time and 3000:1 contrast.\n\nA height-adjustable stand and built-in speakers add convenience without pushing the price up much, keeping it a well-rounded mid-tier gaming pick under $300.\n\nA genuine advantage here is that fast 1ms MPRT response time. The tradeoff is smaller review count than the top-tier picks.",
     specs: [
       "3440x1440 VA curved panel",
       "180Hz refresh rate, 1ms MPRT",
@@ -276,7 +276,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oTaXgx2fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1H325FN?tag=deskfinds0d-20",
     description:
-      "The Dell S3425DW is the most premium pick still comfortably under $400 in this guide, with a 0.03ms response time that's the fastest in this entire list by a wide margin. A 3440x1440 VA panel runs up to 120Hz, and USB-C 65W Power Delivery adds single-cable laptop charging that most gaming-focused picks here skip.\n\nColor accuracy is excellent at 99% sRGB and 95% DCI-P3, and the Dell Premium Panel warranty backs the display itself. It's the pick for buyers who want both gaming-grade speed and productivity features in one screen.",
+      "The Dell S3425DW is the most premium pick still comfortably under $400 in this guide, with a 0.03ms response time that's the fastest in this entire list by a wide margin. A 3440x1440 VA panel runs up to 120Hz, and USB-C 65W Power Delivery adds single-cable laptop charging that most gaming-focused picks here skip.\n\nColor accuracy is excellent at 99% sRGB and 95% DCI-P3, and the Dell Premium Panel warranty backs the display itself. It's the pick for buyers who want both gaming-grade speed and productivity features in one screen.\n\nUSB-C 65W PD, a rare feature among the gaming-focused picks here. On the other hand, most expensive pick in this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "3440x1440 VA curved panel",
       "Up to 120Hz, 0.03ms response time",
@@ -329,30 +329,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Curve depth changes how immersive a budget ultrawide feels",
-    explanation:
-      "A 1000R curve, like the Samsung Odyssey G5's, matches natural eye curvature more closely than the more common 1500R curve found on most picks in this guide. The tighter the curve number, the more wrap-around the screen feels, though some buyers find an aggressive curve less useful for spreadsheet or document work.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a ultrawide monitor under 500 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Response time only matters if you actually game competitively",
-    explanation:
-      "The Dell S3425DW's 0.03ms response time is the fastest in this guide, but that level of speed mostly benefits fast-paced competitive gaming. For general productivity or casual gaming, the 1ms MPRT panels like the Alienware or MSI picks are already fast enough, so don't pay a premium for speed you won't use.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the ultrawide monitor under 500 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "USB-C is rare under $500, so decide if you need it",
-    explanation:
-      "Only 2 picks in this guide, the LG 34WR55QK-B and Dell S3425DW, include USB-C with Power Delivery. If single-cable laptop charging matters to your setup, that narrows your choice significantly before you even compare gaming specs.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this ultrawide monitor under 500 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Desk depth still matters even at 34\", not just for 49\" screens",
-    explanation:
-      "A 34\" ultrawide is comfortable at roughly 24-31 inches of viewing distance, closer than the 35-39 inches a 49\" panel needs, but it still requires more desk depth than a standard 27\" monitor. Measure your usable desk depth, front edge to wall, before assuming any 34\" panel will fit comfortably.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any ultrawide monitor under 500 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "G-Sync/FreeSync certification depends on your GPU, not the monitor alone",
-    explanation:
-      "The MSI MAG 346CQ is the only pick in this guide certified for both G-Sync Compatible and FreeSync, useful if you switch GPU brands or aren't sure which you'll buy next. Every other pick here supports FreeSync only, which still works fine with NVIDIA cards in most cases but isn't officially certified.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A ultrawide monitor under 500 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -365,71 +360,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Primary Use Case",
-    intro:
-      "The best ultrawide under $500 depends heavily on whether the screen is mainly for gaming, work, or a mix of both.",
-    table: {
-      headers: ["Primary use", "What to prioritize", "Best pick"],
-      rows: [
-        ["Competitive or fast-paced gaming", "Response time under 1ms", "Dell S3425DW or Alienware AW3425DWM"],
-        ["Work, documents, long reading sessions", "USB-C PD + Reader Mode", "LG 34WR55QK-B"],
-        ["Console + PC gaming on one screen", "Dedicated console mode", "Alienware AW3425DWM"],
-        ["Tightest possible budget", "Lowest price, still good specs", "SANSUI 34\" Curved UWQHD"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Alienware AW3425DWM"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SANSUI 34\" Curved UWQHD Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Curve Preference",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $205",
+          "SANSUI 34\" Curved UWQHD Monitor"
+        ],
+        [
+          "Up to $380",
+          "Dell 34 Plus USB"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "SANSUI 34\" Curved UWQHD Monitor vs Dell 34 Plus USB",
+    "cards": [
       {
-        label: "Want the most wrap-around, immersive curve",
-        text: "The Samsung Odyssey G5's 1000R curve is the most aggressive in this guide, matching natural eye curvature more closely than the standard 1500R panels.",
+        "label": "SANSUI 34\" Curved UWQHD Monitor",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Prefer a gentler curve for spreadsheet or document work",
-        text: "The 1500R panels on the AOC CU34G4V, ASUS TUF VG34VQ3B, Alienware AW3425DWM, and MSI MAG 346CQ feel less aggressive for straight-line desktop content.",
-      },
+        "label": "Dell 34 Plus USB",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SANSUI 34\" Curved UWQHD Monitor unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By GPU Brand",
-    table: {
-      headers: ["GPU situation", "Best pick"],
-      rows: [
-        ["NVIDIA GPU now, might switch to AMD later", "MSI MAG 346CQ (only dual G-Sync + FreeSync certified pick)"],
-        ["Sticking with AMD or NVIDIA long-term", "Any FreeSync Premium pick in this guide works fine"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SANSUI 34\" Curved UWQHD Monitor"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Port and Connectivity Needs",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Need front-facing USB ports for controllers or dongles",
-        text: "The ASUS TUF VG34VQ3B's 4x USB 3.2 ports are the most in this guide.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Need to charge a laptop over the monitor cable",
-        text: "The LG 34WR55QK-B and Dell S3425DW are the only 2 picks here with USB-C 65W Power Delivery.",
-      },
-      {
-        label: "Don't need any extra ports",
-        text: "The SANSUI keeps things simple and cheap with standard HDMI and DisplayPort only.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "SANSUI 34\" Curved UWQHD Monitor is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Budget Tiers Under $500",
-    table: {
-      headers: ["Budget", "Best pick"],
-      rows: [
-        ["Under $230", "SANSUI 34\" Curved UWQHD or AOC CU34G4V"],
-        ["$230-$300", "Samsung Odyssey G5, ASUS TUF VG34VQ3B, Alienware AW3425DWM, LG 34WR55QK-B, or MSI MAG 346CQ"],
-        ["$300-$400", "Dell S3425DW (fastest response time, USB-C included)"],
-      ],
-    },
-    note: "Every pick in this guide is comfortably under the $500 ceiling, leaving room in the budget for a monitor arm or a desk mat if needed.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Dell 34 Plus USB's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SANSUI 34\" Curved UWQHD Monitor covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

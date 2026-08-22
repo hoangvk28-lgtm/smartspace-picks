@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720's automatic document feeder is a genuine time-saver for scanning multi-page documents, a stack of standard letter paper goes through without repositioning each sheet on the glass manually. Mobile printing setup follows a short guided process, and built-in fax remains for anyone who still needs it.\n\nBudget ADFs like this one are best suited to standard text documents rather than photos, thick cardstock, or glossy paper, which generally shouldn't go through an ADF mechanism at all regardless of the printer. For everyday multi-page scanning at the lowest price in this list, it's a reasonable starting point.",
+      "The PIXMA TR4720's automatic document feeder is a genuine time-saver for scanning multi-page documents, a stack of standard letter paper goes through without repositioning each sheet on the glass manually. Mobile printing setup follows a short guided process, and built-in fax remains for anyone who still needs it.\n\nBudget ADFs like this one are best suited to standard text documents rather than photos, thick cardstock, or glossy paper, which generally shouldn't go through an ADF mechanism at all regardless of the printer. For everyday multi-page scanning at the lowest price in this list, it's a reasonable starting point.\n\nAutomatic document feeder handles standard multi-page scans. That's a real strength, but weigh it against the flip side: budget ADF mechanisms are more prone to skew and multi-feed than premium models.",
     specs: [
       "Automatic document feeder for standard paper",
       "Print, scan, copy, fax",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e's ADF is paired with duplex printing, aimed at a home office that regularly handles both scanning stacks of documents and printing two-sided reports. A 3-month Instant Ink trial helps offset early ink cost on a printer built for more consistent volume than the budget picks in this list.\n\nAs with any inkjet ADF, standard weight paper is the safe zone, thick cardstock and photo paper should still go on the flatbed rather than through the feeder to avoid a jam.",
+      "The OfficeJet Pro 8125e's ADF is paired with duplex printing, aimed at a home office that regularly handles both scanning stacks of documents and printing two-sided reports. A 3-month Instant Ink trial helps offset early ink cost on a printer built for more consistent volume than the budget picks in this list.\n\nAs with any inkjet ADF, standard weight paper is the safe zone, thick cardstock and photo paper should still go on the flatbed rather than through the feeder to avoid a jam.\n\nWorth calling out specifically: instant Ink trial reduces early ink cost. The catch is higher upfront price than budget ADF picks.",
     specs: [
       "Automatic document feeder with duplex printing",
       "3-month Instant Ink trial included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/319DqCyLa3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TRZLPXP?tag=deskfinds0d-20",
     description:
-      "The TR8620a combines an automatic document feeder with AirPrint support, Alexa compatibility, and photo printing quality, a fuller feature set than the more basic ADF picks here. It's the pricier option in this list, worth it if you'll use the extra capability rather than just the ADF.\n\nLike other inkjet ADFs, keep photo paper and thick cardstock on the flatbed instead. For document-heavy scanning combined with better photo output than a typical budget inkjet, this covers both jobs reasonably well.",
+      "The TR8620a combines an automatic document feeder with AirPrint support, Alexa compatibility, and photo printing quality, a fuller feature set than the more basic ADF picks here. It's the pricier option in this list, worth it if you'll use the extra capability rather than just the ADF.\n\nLike other inkjet ADFs, keep photo paper and thick cardstock on the flatbed instead. For document-heavy scanning combined with better photo output than a typical budget inkjet, this covers both jobs reasonably well.\n\nBetter photo printing than basic ADF inkjets. Set against that, most expensive inkjet pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Automatic document feeder",
       "Print, copy, scan, fax",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "This is the most capable ADF pick in this list, a color laser printer rated at 35 pages per minute with a full copier, scanner, and fax built in, backed by a 3-year limited warranty. The ADF on a laser-class machine like this is generally built to handle sustained daily volume better than the inkjet ADFs above.\n\nIt's a genuinely higher price point than the rest of this list, appropriate for a home office scanning and printing documents at real volume rather than occasionally. For lighter needs, one of the lower-priced inkjet ADF picks will do the job for far less money.",
+      "This is the most capable ADF pick in this list, a color laser printer rated at 35 pages per minute with a full copier, scanner, and fax built in, backed by a 3-year limited warranty. The ADF on a laser-class machine like this is generally built to handle sustained daily volume better than the inkjet ADFs above.\n\nIt's a genuinely higher price point than the rest of this list, appropriate for a home office scanning and printing documents at real volume rather than occasionally. For lighter needs, one of the lower-priced inkjet ADF picks will do the job for far less money.\n\nA genuine advantage here is that 35 PPM print speed with duplex support. The tradeoff is significantly higher price than the rest of this list.",
     specs: [
       "Automatic document feeder, laser-class reliability",
       "35 PPM duplex color laser printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "The standard OfficeJet Pro 8125 offers the same ADF and duplex printing combination as the 8125e, a solid middle-ground price for a home office that needs both multi-page scanning and two-sided printing without stepping up to laser pricing. A 3-month Instant Ink trial is included.\n\nAs with the 8125e, standard weight paper is the safe zone for this ADF, thicker stock belongs on the flatbed.",
+      "The standard OfficeJet Pro 8125 offers the same ADF and duplex printing combination as the 8125e, a solid middle-ground price for a home office that needs both multi-page scanning and two-sided printing without stepping up to laser pricing. A 3-month Instant Ink trial is included.\n\nAs with the 8125e, standard weight paper is the safe zone for this ADF, thicker stock belongs on the flatbed.\n\nInstant Ink trial reduces early ink cost. On the other hand, thick paper and photo stock should skip the ADF. Neither should be a surprise once you know to look for it.",
     specs: [
       "Automatic document feeder with duplex printing",
       "3-month Instant Ink trial included",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31JMZ0fsKTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC5KYF71?tag=deskfinds0d-20",
     description:
-      "The ET-4950 pairs an automatic document feeder with Epson's refillable ink tank system rated for up to 3 years of ink, a strong option for a home office that scans and prints regularly and wants to avoid frequent cartridge purchases. A 2.4-inch color touchscreen makes navigating scan and copy settings straightforward.\n\nThe higher upfront cost is offset by the long-run ink savings if your volume justifies a supertank system, for occasional light use, a cheaper cartridge-based ADF pick will be more cost-effective overall.",
+      "The ET-4950 pairs an automatic document feeder with Epson's refillable ink tank system rated for up to 3 years of ink, a strong option for a home office that scans and prints regularly and wants to avoid frequent cartridge purchases. A 2.4-inch color touchscreen makes navigating scan and copy settings straightforward.\n\nThe higher upfront cost is offset by the long-run ink savings if your volume justifies a supertank system, for occasional light use, a cheaper cartridge-based ADF pick will be more cost-effective overall.\n\nColor touchscreen simplifies scan and copy tasks. That's a real strength, but weigh it against the flip side: high upfront price compared to cartridge-based picks.",
     specs: [
       "Automatic document feeder",
       "Refillable ink tanks, up to 3 years of ink",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 brings supertank ink economics and an automatic document feeder to a lower price point than the ET-4950, still including a scanner, copier, fax, and Ethernet for a wired network option if WiFi isn't reliable in your space. It's a genuinely useful middle ground for home offices weighing ink cost against upfront price.\n\nLike the ET-4950, the higher upfront cost pays off mainly at moderate-to-higher print and scan volume, not for someone printing a handful of pages a month.",
+      "The ET-4800 brings supertank ink economics and an automatic document feeder to a lower price point than the ET-4950, still including a scanner, copier, fax, and Ethernet for a wired network option if WiFi isn't reliable in your space. It's a genuinely useful middle ground for home offices weighing ink cost against upfront price.\n\nLike the ET-4950, the higher upfront cost pays off mainly at moderate-to-higher print and scan volume, not for someone printing a handful of pages a month.\n\nWorth calling out specifically: ethernet option for a wired network alternative. The catch is higher upfront price than basic cartridge-based ADF picks.",
     specs: [
       "Automatic document feeder",
       "Cartridge-free supertank ink system",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/312N971RNPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGCH2QK2?tag=deskfinds0d-20",
     description:
-      "This Brother INKvestment model features a 2.7-inch color touchscreen and 2 paper trays, useful for a home office juggling different paper sizes without swapping trays constantly. The listing highlights the touchscreen and dual trays prominently rather than explicitly confirming an automatic document feeder in its title.\n\nBrother's MFC-series printers commonly include an ADF, but since it isn't stated outright in this listing, confirm the automatic document feeder spec on the full product page before buying if that's the feature you specifically need. The dual paper trays and ink-tank system are solid selling points either way.",
+      "This Brother INKvestment model features a 2.7-inch color touchscreen and 2 paper trays, useful for a home office juggling different paper sizes without swapping trays constantly. The listing highlights the touchscreen and dual trays prominently rather than explicitly confirming an automatic document feeder in its title.\n\nBrother's MFC-series printers commonly include an ADF, but since it isn't stated outright in this listing, confirm the automatic document feeder spec on the full product page before buying if that's the feature you specifically need. The dual paper trays and ink-tank system are solid selling points either way.\n\nColor touchscreen simplifies navigation. Set against that, automatic document feeder is not explicitly confirmed in the listing title, verify before buying. Both matter when comparing it to the other picks here.",
     specs: [
       "2.7-inch color touchscreen",
       "2 paper trays",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Budget ADFs are more prone to skew and multi-feed",
-    explanation:
-      "A cheaper ADF mechanism is more likely to feed a page in crooked or pull two sheets through at once than a premium ADF on a higher-tier model. If you scan important documents regularly, like signed contracts, budget for a mid-tier pick like the HP OfficeJet Pro 8125e rather than the cheapest ADF option.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer with automatic document feeder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Know the ADF paper weight and type limits before you scan",
-    explanation:
-      "Thick cardstock, glossy photo paper, and thermal receipt paper generally cannot go through an ADF mechanism safely on any printer, regardless of price. Route those materials to the flatbed instead; forcing them through the ADF is a common cause of jams and paper damage.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer with automatic document feeder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "ADF suits multi-page text, flatbed suits everything else",
-    explanation:
-      "An ADF is built for stacks of standard letter or A4 text documents. Books, photos, thick items, and fragile or damaged documents need the flatbed, an ADF's feed rollers can crease or tear delicate pages that a flatbed handles safely.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer with automatic document feeder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "ADF scanning is louder than flatbed scanning",
-    explanation:
-      "The mechanical feeding process of an ADF is noticeably noisier than the quiet pass of a flatbed scan head. If your printer sits near a desk used for video calls, factor this in, scan multi-page batches when you're not on a call, or use the flatbed for one-off pages during meetings.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer with automatic document feeder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "ADF jams happen more often than tray jams, and are harder to clear",
-    explanation:
-      "Creased paper, stray staples, or paper that's too thin all increase ADF jam frequency compared to a standard paper tray jam, and the feed path is often less accessible to clear. Remove staples and straighten paper edges before loading a stack into any ADF.",
-  },
-  {
-    criterion: "Duplex ADF saves real time over single-sided ADF",
-    explanation:
-      "A duplex ADF scans both sides of each page automatically in one pass. A single-sided ADF requires manually flipping the entire stack halfway through to get the second side, a meaningful time cost on a document like a 20-page double-sided contract.",
-  },
-  {
-    criterion: "Match ADF capacity to your typical document length",
-    explanation:
-      "A 35-sheet ADF is fine for short documents, but scanning something like a 20-page tax return in one pass benefits from a higher-capacity ADF closer to 50 sheets, otherwise you'll be reloading partway through. Check the rated sheet capacity, not just whether an ADF exists.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer with automatic document feeder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,70 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "ADF vs. Flatbed Decision Guide",
-    intro:
-      "Use the ADF for stacks of standard paper, use the flatbed for anything fragile, thick, or glossy.",
-    table: {
-      headers: ["What you're scanning", "Use ADF or flatbed", "Best pick for this job"],
-      rows: [
-        ["Multi-page text document, standard paper", "ADF", "Canon PIXMA TR4720 (budget) or HP OfficeJet Pro 8125e"],
-        ["Old photographs or fragile documents", "Flatbed only", "Any pick, use the glass, not the feeder"],
-        ["Thick cardstock or glossy photo paper", "Flatbed only", "Any pick, ADF can jam or damage the item"],
-        ["High volume of double-sided contracts", "Duplex ADF", "HP OfficeJet Pro 8125e or 8125"],
-        ["Sustained daily high-volume scanning", "High-capacity ADF, laser-class", "Canon imageCLASS MF753Cdw II"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TR4720 All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "ADF Paper Type Support",
-    table: {
-      headers: ["Paper type", "Safe for ADF?", "Recommendation"],
-      rows: [
-        ["Standard letter/A4 text paper", "Yes", "Any pick in this list"],
-        ["Thermal receipt paper", "No", "Use the flatbed instead"],
-        ["Glossy photo paper", "No", "Use the flatbed instead"],
-        ["Heavy cardstock", "No", "Use the flatbed instead"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "This applies across all ADF printers, not just the picks in this list, ADF mechanisms are built for standard-weight paper.",
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Duplex Laser Printer with ADF"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Document Volume",
-    cards: [
+    "subheading": "Canon PIXMA TR4720 All vs Canon Color imageCLASS MF753Cdw II Duplex Laser Printer with ADF",
+    "cards": [
       {
-        label: "Occasional multi-page scanning",
-        text: "The Canon PIXMA TR4720 covers this well at the lowest price in this list.",
+        "label": "Canon PIXMA TR4720 All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Regular scanning plus duplex printing",
-        text: "The HP OfficeJet Pro 8125e or 8125 pair ADF scanning with two-sided printing in one workflow.",
-      },
-      {
-        label: "Sustained daily document volume",
-        text: "The Canon imageCLASS MF753Cdw II's laser-class ADF is built to hold up better under consistent heavy use.",
-      },
+        "label": "Canon Color imageCLASS MF753Cdw II Duplex Laser Printer with ADF",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TR4720 All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "ADF Noise Consideration for Quiet Spaces",
-    intro:
-      "ADF scanning is mechanically louder than flatbed scanning across all printers.",
-    note: "If your desk is also used for video calls, batch-scan multi-page ADF jobs outside of meeting times, or use the flatbed for single urgent pages during a call.",
-  },
-  {
-    subheading: "Jam Frequency and Clearing Difficulty",
-    intro:
-      "ADF jams are more common than tray jams and vary in how easy they are to clear by design.",
-    table: {
-      headers: ["Pick", "ADF tier", "Jam-clearing accessibility"],
-      rows: [
-        ["Canon PIXMA TR4720", "Budget", "Moderate, standard access panel"],
-        ["HP OfficeJet Pro 8125e / 8125", "Mid-tier", "Good, clearly labeled access points"],
-        ["Canon imageCLASS MF753Cdw II", "Laser-class, higher-volume", "Good, built for frequent clearing"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Removing staples and straightening the stack before feeding it reduces jam frequency regardless of which pick you choose.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Canon PIXMA TR4720 All"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Canon PIXMA TR4720 All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon Color imageCLASS MF753Cdw II Duplex Laser Printer with ADF's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

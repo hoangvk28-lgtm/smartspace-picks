@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51P0hhxgYxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5VH3H97?tag=deskfinds0d-20",
     description:
-      "The VASAGLE Liry carries the highest total weight capacity in this list at 374.8 lbs, built from particleboard and MDF with three adjustable open shelves up top and an enclosed 2-door cabinet below for files and paperwork you'd rather keep out of view. Its cloud white and warm brown farmhouse styling looks intentional in a home office rather than purely functional.\n\nA 3.5-inch base is specifically designed to let a robot vacuum pass underneath, a small but genuinely useful detail for anyone who keeps their office floor on a cleaning schedule.",
+      "The VASAGLE Liry carries the highest total weight capacity in this list at 374.8 lbs, built from particleboard and MDF with three adjustable open shelves up top and an enclosed 2-door cabinet below for files and paperwork you'd rather keep out of view. Its cloud white and warm brown farmhouse styling looks intentional in a home office rather than purely functional.\n\nA 3.5-inch base is specifically designed to let a robot vacuum pass underneath, a small but genuinely useful detail for anyone who keeps their office floor on a cleaning schedule.\n\n2-door cabinet conceals clutter and paperwork. On the other hand, larger footprint than the narrower VASAGLE picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "24.8\"W x 10\"D x 70.7\"H",
       "Particleboard + MDF",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41zgzmQKuwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FR5SMRW?tag=deskfinds0d-20",
     description:
-      "With nearly 6,800 ratings and a 4.7-star average, this is the best-selling pick in this entire list. An X-brace reinforcement keeps the wide 26-inch frame from racking under load, and a 22 lb per-shelf rating adds up to 132 lbs total across the alloy steel and particleboard build.\n\nIts industrial rustic brown and steel look suits a home office or a shared workspace equally well, and adjustable feet plus an anti-tip kit round out a build that's proven itself over thousands of reviews.",
+      "With nearly 6,800 ratings and a 4.7-star average, this is the best-selling pick in this entire list. An X-brace reinforcement keeps the wide 26-inch frame from racking under load, and a 22 lb per-shelf rating adds up to 132 lbs total across the alloy steel and particleboard build.\n\nIts industrial rustic brown and steel look suits a home office or a shared workspace equally well, and adjustable feet plus an anti-tip kit round out a build that's proven itself over thousands of reviews.\n\nX-brace reinforcement adds real rigidity. That's a real strength, but weigh it against the flip side: open-shelf design offers no concealed storage.",
     specs: [
       "11.8\"D x 26\"W x 73.2\"H",
       "Particleboard + alloy steel",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41dxHGUL7hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NDZ1119?tag=deskfinds0d-20",
     description:
-      "This is the compact sibling of VASAGLE's wide bookcase, shrinking the footprint down to just 15.7 inches while keeping the same X-brace reinforcement and alloy steel frame. It's the pick to reach for in a small home office or a corner where the 26-inch version simply won't fit.\n\nDespite the smaller footprint, it holds up to the same 4.7-star rating as its wider counterpart, and adjustable feet plus an anti-tip kit make it just as stable.",
+      "This is the compact sibling of VASAGLE's wide bookcase, shrinking the footprint down to just 15.7 inches while keeping the same X-brace reinforcement and alloy steel frame. It's the pick to reach for in a small home office or a corner where the 26-inch version simply won't fit.\n\nDespite the smaller footprint, it holds up to the same 4.7-star rating as its wider counterpart, and adjustable feet plus an anti-tip kit make it just as stable.\n\nWorth calling out specifically: same trusted X-brace reinforcement as the wider model. The catch is narrower shelves hold fewer items per tier.",
     specs: [
       "11.8\"D x 15.7\"W x 73.2\"H",
       "Particleboard + alloy steel",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kTT7kaFgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BFFFKXRX?tag=deskfinds0d-20",
     description:
-      "IRONCK's doored bookshelf pairs four open display shelves with two concealing doors at the base, giving you a dedicated place to lock away office documents and files during video calls or when clients visit. An MDF build with a tipover-resistance device keeps the tall unit steady.\n\nIndustrial vintage black styling and strengthened hardware make it the most versatile pick here for buyers who want to combine open display with genuine hidden storage in one unit.",
+      "IRONCK's doored bookshelf pairs four open display shelves with two concealing doors at the base, giving you a dedicated place to lock away office documents and files during video calls or when clients visit. An MDF build with a tipover-resistance device keeps the tall unit steady.\n\nIndustrial vintage black styling and strengthened hardware make it the most versatile pick here for buyers who want to combine open display with genuine hidden storage in one unit.\n\nIndustrial vintage styling suits a work office. Set against that, highest price point in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "23.8\"W x 9.3\"D x 70.9\"H",
       "MDF construction",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31zcIjQrqVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LM3FMXH?tag=deskfinds0d-20",
     description:
-      "The open version of IRONCK's bookshelf is the brand's best-selling office option, with over 4,400 ratings and a 4.6-star average. It shares the same 132 lb total capacity and strengthened screw construction as the doored version but skips the cabinet for a cleaner, more open industrial look.\n\nA tipover-resistance device is included as standard, and the vintage black finish and clean lines make it an easy match for most office decor.",
+      "The open version of IRONCK's bookshelf is the brand's best-selling office option, with over 4,400 ratings and a 4.6-star average. It shares the same 132 lb total capacity and strengthened screw construction as the doored version but skips the cabinet for a cleaner, more open industrial look.\n\nA tipover-resistance device is included as standard, and the vintage black finish and clean lines make it an easy match for most office decor.\n\nA genuine advantage here is that clean industrial lines suit most office styles. The tradeoff is no concealed storage, unlike the doored version.",
     specs: [
       "23.8\"W x 9.3\"D x 70.8\"H",
       "MDF particleboard",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41p8nGWmCmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08DR542S9?tag=deskfinds0d-20",
     description:
-      "The NUMENN is the best-selling vintage-toned pick in this list, equally suited to an office or a study room, and its 4.7-star average across more than 4,000 ratings makes it one of the most trusted picks here. An X-shaped back rod removes the wobble that plagues cheaper metal-frame shelves.\n\nWaterproof and anti-scratch coatings help it survive the daily wear of an office environment, and its 150 lb total capacity across premium metal and teak particle board handles a real reference library.",
+      "The NUMENN is the best-selling vintage-toned pick in this list, equally suited to an office or a study room, and its 4.7-star average across more than 4,000 ratings makes it one of the most trusted picks here. An X-shaped back rod removes the wobble that plagues cheaper metal-frame shelves.\n\nWaterproof and anti-scratch coatings help it survive the daily wear of an office environment, and its 150 lb total capacity across premium metal and teak particle board handles a real reference library.\n\nWaterproof and scratch-resistant finish. On the other hand, no concealed storage. Neither should be a surprise once you know to look for it.",
     specs: [
       "23.6\"L x 11.8\"W x 62.2\"H",
       "Premium metal + teak particle board",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/510fPP+lFkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXDP61M2?tag=deskfinds0d-20",
     description:
-      "Shintenchi rates each shelf for 40 lbs, the highest per-shelf capacity among the standard 5-tier picks in this list, for a 200 lb total. FSC-certified eco wood pairs with a metal frame and X-shaped back rod for the same anti-wobble reinforcement found on pricier office bookshelves.\n\nWaterproof and anti-scratch coatings keep it looking sharp through daily office use, and the wide 23.6-inch frame gives you more usable shelf surface for binders and reference books than the narrower picks on this list.",
+      "Shintenchi rates each shelf for 40 lbs, the highest per-shelf capacity among the standard 5-tier picks in this list, for a 200 lb total. FSC-certified eco wood pairs with a metal frame and X-shaped back rod for the same anti-wobble reinforcement found on pricier office bookshelves.\n\nWaterproof and anti-scratch coatings keep it looking sharp through daily office use, and the wide 23.6-inch frame gives you more usable shelf surface for binders and reference books than the narrower picks on this list.\n\nFSC-certified eco wood. That's a real strength, but weigh it against the flip side: no concealed storage.",
     specs: [
       "23.6\"W x 11.8\"D x 62.2\"H",
       "FSC-certified wood + metal",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51rHIYOuk6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2KR6BVM?tag=deskfinds0d-20",
     description:
-      "The only desktop-mounted pick in this list, the Tangkula hutch sits directly on your desk surface and spans over a 27-inch monitor, turning otherwise wasted vertical desk space into five shelves of storage. Anti-falling baffles and two anti-tip wall anchors keep books and folders from sliding off during use.\n\nRounded corners and an engineered wood build make it a safe, practical addition to a desk that's short on room for a full floor-standing bookcase, ideal for organizing reference books, files, and desk supplies within arm's reach.",
+      "The only desktop-mounted pick in this list, the Tangkula hutch sits directly on your desk surface and spans over a 27-inch monitor, turning otherwise wasted vertical desk space into five shelves of storage. Anti-falling baffles and two anti-tip wall anchors keep books and folders from sliding off during use.\n\nRounded corners and an engineered wood build make it a safe, practical addition to a desk that's short on room for a full floor-standing bookcase, ideal for organizing reference books, files, and desk supplies within arm's reach.\n\nWorth calling out specifically: fits directly over a 27-inch monitor. The catch is limited to desktop use, not a floor-standing bookshelf.",
     specs: [
       "37\"L x 10\"W x 29\"H",
       "Engineered wood",
@@ -300,45 +300,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Trusted, stable builds",
-    explanation:
-      "The VASAGLE 6-Tier picks, with their X-brace reinforcement and adjustable feet, are the most trusted and stable options in this list, backed by thousands of reviews each.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Capacity for a real reference library",
-    explanation:
-      "The VASAGLE Liry Farmhouse has the highest capacity in this list at 374.8 lbs and looks the most intentional in a home office, making it the pick if you're storing a large collection of books or binders.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Concealed storage for documents",
-    explanation:
-      "The IRONCK with Doors is the only pick in this list with concealing doors, useful for hiding paperwork or files during video calls or client visits.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Desk-mounted storage",
-    explanation:
-      "Tangkula's desktop bookshelf is the only pick designed to sit directly on a desk rather than the floor, which matters if your office has no remaining floor space.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Per-shelf capacity for heavy binders",
-    explanation:
-      "Shintenchi has the highest per-shelf capacity among standard 5-tier picks at 40 lbs per shelf, a detail that matters more than total capacity if you're storing dense binders or textbooks.",
-  },
-  {
-    criterion: "Footprint vs. wall space",
-    explanation:
-      "Measure your available wall space before choosing between the wide (26\") and narrow (15.7\") VASAGLE options; both share the same build quality, just at different widths.",
-  },
-  {
-    criterion: "Material matters more here than in most rooms",
-    explanation:
-      "Office shelves often hold binders and file boxes rather than paperbacks, which pushes weight loads higher than a typical living-room bookcase. Particleboard shelves generally handle 30-50 lbs each, plywood around 50-80 lbs, and metal-reinforced frames like the VASAGLE Liry and Shintenchi can reach 70-80+ lbs per shelf. Wider spacing of 12-14 inches also matters more here for binders and file boxes than the tighter 10-11 inches that suits standard books.",
-  },
-  {
-    criterion: "Doors matter for document privacy",
-    explanation:
-      "If you're storing paperwork you don't want visible during video calls or client visits, the IRONCK with Doors and the VASAGLE Liry's enclosed cabinet section are the only picks here that fully hide their contents, unlike the open-shelf-only options.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

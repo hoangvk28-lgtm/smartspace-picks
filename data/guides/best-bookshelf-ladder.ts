@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41dfCyD8qYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074X7WT6D?tag=deskfinds0d-20",
     description:
-      "The VASAGLE BARNET is by far the most-reviewed pick in this entire list, with over 19,000 ratings backing a 4.7-star average, and it's easy to see why once you look at the build. An X-brace support runs across the alloy steel frame, holding a 213 lb total capacity, and adjustable feet keep it level on uneven flooring.\n\nAt 22 inches wide with 13 inches of spacing between shelves, the widest tier gap among the 4-tier picks here, it comfortably fits taller items like binders or decorative pieces most narrower ladder shelves can't accommodate.",
+      "The VASAGLE BARNET is by far the most-reviewed pick in this entire list, with over 19,000 ratings backing a 4.7-star average, and it's easy to see why once you look at the build. An X-brace support runs across the alloy steel frame, holding a 213 lb total capacity, and adjustable feet keep it level on uneven flooring.\n\nAt 22 inches wide with 13 inches of spacing between shelves, the widest tier gap among the 4-tier picks here, it comfortably fits taller items like binders or decorative pieces most narrower ladder shelves can't accommodate.\n\nA genuine advantage here is that x-brace reinforcement adds real rigidity. The tradeoff is shortest pick in this list at 54.1\" tall.",
     specs: [
       "22\"W x 13.6\"D x 54.1\"H",
       "Particleboard + alloy steel frame",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ModNrpWYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C2Q7RS3S?tag=deskfinds0d-20",
     description:
-      "This is the same bestselling BARNET design as our top pick, scaled up to a 31.5-inch-wide frame that pushes total capacity to 253 lbs, the highest of any VASAGLE ladder shelf in this list. The wider footprint gives you noticeably more shelf surface per tier without sacrificing the X-brace stability that makes this line so well-reviewed.\n\nIt shares the same 4.7-star rating and massive review count as the narrower version, along with adjustable feet, and it's the pick to reach for if you need more shelf width than the standard 22-inch frame offers.",
+      "This is the same bestselling BARNET design as our top pick, scaled up to a 31.5-inch-wide frame that pushes total capacity to 253 lbs, the highest of any VASAGLE ladder shelf in this list. The wider footprint gives you noticeably more shelf surface per tier without sacrificing the X-brace stability that makes this line so well-reviewed.\n\nIt shares the same 4.7-star rating and massive review count as the narrower version, along with adjustable feet, and it's the pick to reach for if you need more shelf width than the standard 22-inch frame offers.\n\nSame trusted bestseller design in a wider frame. On the other hand, double the price of the narrower 22\" version. Neither should be a surprise once you know to look for it.",
     specs: [
       "31.5\"W x 13.6\"D x 54.1\"H",
       "Particleboard + alloy steel frame",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41L2FUJNdDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1MTGZSJ?tag=deskfinds0d-20",
     description:
-      "The Hzuaneri is built from FSC-certified engineered wood over a steel frame, and at just 13.4 inches wide it's the slimmest ladder shelf in this list, ideal for a narrow corner or a tight spot beside a couch. X-shaped support bars run through the frame for stability, and 2 built-in hooks near the top give you a spot to hang bags or keys.\n\nAt 63 inches tall, it's also among the tallest narrow picks here, rated for 30 lbs per shelf, 150 lbs total, with an anti-tip kit included for wall anchoring.",
+      "The Hzuaneri is built from FSC-certified engineered wood over a steel frame, and at just 13.4 inches wide it's the slimmest ladder shelf in this list, ideal for a narrow corner or a tight spot beside a couch. X-shaped support bars run through the frame for stability, and 2 built-in hooks near the top give you a spot to hang bags or keys.\n\nAt 63 inches tall, it's also among the tallest narrow picks here, rated for 30 lbs per shelf, 150 lbs total, with an anti-tip kit included for wall anchoring.\n\nSlimmest footprint in this list at 13.4\" wide. That's a real strength, but weigh it against the flip side: lower total capacity than the VASAGLE picks.",
     specs: [
       "11.8\"D x 13.4\"W x 63\"H",
       "FSC-certified engineered wood + steel",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XV4H7bYWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DW4152BY?tag=deskfinds0d-20",
     description:
-      "This is the same slim, FSC-certified Hzuaneri design as Pick 3, finished in a bright white oak tone instead of rustic brown. It keeps the same 13.4-inch width, X-shaped support bars, 2 built-in hooks, and 150 lb total capacity, just with a lighter look that suits brighter rooms or coastal-style decor.\n\nIt's an easy pick if you want the same compact, corner-friendly ladder shelf but need it to blend into a whiter or more neutral color scheme.",
+      "This is the same slim, FSC-certified Hzuaneri design as Pick 3, finished in a bright white oak tone instead of rustic brown. It keeps the same 13.4-inch width, X-shaped support bars, 2 built-in hooks, and 150 lb total capacity, just with a lighter look that suits brighter rooms or coastal-style decor.\n\nIt's an easy pick if you want the same compact, corner-friendly ladder shelf but need it to blend into a whiter or more neutral color scheme.\n\nWorth calling out specifically: fSC-certified sustainable materials. The catch is same lower total capacity as the rustic brown version.",
     specs: [
       "11.8\"D x 13.4\"W x 63\"H",
       "FSC-certified engineered wood",
@@ -182,7 +182,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41t-pnwwXmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDH2V9XF?tag=deskfinds0d-20",
     description:
-      "The Furologee stands out with a removable fabric drawer built into its base, a feature none of the other ladder shelves in this list offer, giving you a spot for items you'd rather keep out of sight. Engineered wood shelves back with solid black metal framing, and backboards run behind every tier for added stability.\n\nIt carries the highest total weight capacity in this list at 215 lbs, and 4 adjustable feet help keep it level, making it the most versatile 5-tier ladder shelf here if you want both open display and hidden storage.",
+      "The Furologee stands out with a removable fabric drawer built into its base, a feature none of the other ladder shelves in this list offer, giving you a spot for items you'd rather keep out of sight. Engineered wood shelves back with solid black metal framing, and backboards run behind every tier for added stability.\n\nIt carries the highest total weight capacity in this list at 215 lbs, and 4 adjustable feet help keep it level, making it the most versatile 5-tier ladder shelf here if you want both open display and hidden storage.\n\nUnique removable fabric drawer for hidden storage. Set against that, lower rating than the VASAGLE and HOOBRO picks. Both matter when comparing it to the other picks here.",
     specs: [
       "16.54\"W x 11.38\"D x 55.59\"H",
       "Engineered wood + solid black metal",
@@ -215,7 +215,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31w6w8Vqx2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5CQR6ZB?tag=deskfinds0d-20",
     description:
-      "At 79 inches tall, this HOOBRO is the tallest ladder shelf in this list, and its slim 9.4-inch depth makes it one of the narrowest too. A no-tool twist assembly system gets it built quickly, and it's genuinely DIY combinable, meaning you can join two or more units together for a custom wall of shelving.\n\nEngineered wood shelves sit on a matte black iron frame rated for 22 lbs per shelf, 132 lbs total, with adjustable feet for leveling on uneven floors.",
+      "At 79 inches tall, this HOOBRO is the tallest ladder shelf in this list, and its slim 9.4-inch depth makes it one of the narrowest too. A no-tool twist assembly system gets it built quickly, and it's genuinely DIY combinable, meaning you can join two or more units together for a custom wall of shelving.\n\nEngineered wood shelves sit on a matte black iron frame rated for 22 lbs per shelf, 132 lbs total, with adjustable feet for leveling on uneven floors.\n\nA genuine advantage here is that fastest no-tool twist assembly. The tradeoff is lower per-shelf capacity than most other picks.",
     specs: [
       "15.4\"L x 9.4\"W x 79\"H",
       "Engineered wood + matte black iron",
@@ -248,7 +248,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41whI381uZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5DH86H5?tag=deskfinds0d-20",
     description:
-      "The HOOBRO Arched stands apart visually with a curved top that ties the two side frames together, adding real structural rigidity while giving the whole unit a distinctive vintage silhouette none of the straight-topped ladder shelves in this list can match. Matte black metal contrasts against engineered wood shelving for a look that suits a living room or study.\n\nAssembly uses the same tool-free twist system as the HOOBRO DIY pick, and 13 inches of spacing between shelves comfortably fits taller items like binders or decorative pieces.",
+      "The HOOBRO Arched stands apart visually with a curved top that ties the two side frames together, adding real structural rigidity while giving the whole unit a distinctive vintage silhouette none of the straight-topped ladder shelves in this list can match. Matte black metal contrasts against engineered wood shelving for a look that suits a living room or study.\n\nAssembly uses the same tool-free twist system as the HOOBRO DIY pick, and 13 inches of spacing between shelves comfortably fits taller items like binders or decorative pieces.\n\nNo-tool assembly. On the other hand, pricier than several straight-frame alternatives. Neither should be a surprise once you know to look for it.",
     specs: [
       "16.9\"L x 11.8\"W x 69.3\"H",
       "Engineered wood + matte black metal",
@@ -281,7 +281,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/313L+Rlj3NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PMK78R8?tag=deskfinds0d-20",
     description:
-      "Unlike every other pick in this list, which relies on engineered wood or particleboard, the Amazon Basics ladder shelf is built from genuinely solid rubberwood, painted in a rich espresso finish. That makes it the most premium material choice here, and it's backed by a trusted brand name with over 8,600 ratings.\n\nAt 24.8 inches wide, it's also the widest pick in this list, giving each of its 5 tiers a 44 lb capacity, the highest per-shelf rating among the wood-frame picks here, and a freestanding design that doesn't require wall anchoring in most setups.",
+      "Unlike every other pick in this list, which relies on engineered wood or particleboard, the Amazon Basics ladder shelf is built from genuinely solid rubberwood, painted in a rich espresso finish. That makes it the most premium material choice here, and it's backed by a trusted brand name with over 8,600 ratings.\n\nAt 24.8 inches wide, it's also the widest pick in this list, giving each of its 5 tiers a 44 lb capacity, the highest per-shelf rating among the wood-frame picks here, and a freestanding design that doesn't require wall anchoring in most setups.\n\nTrusted Amazon Basics brand with over 8,600 ratings. That's a real strength, but weigh it against the flip side: lowest rating in this list at 4.2 stars.",
     specs: [
       "14\"D x 24.8\"W x 70.1\"H",
       "Solid rubberwood",
@@ -306,45 +306,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Total capacity ranges from 132 lbs on the tall, slim HOOBRO DIY up to 253 lbs on the wider VASAGLE BARNET. The Furologee has the highest capacity among 5-tier picks at 215 lbs thanks to its reinforced backboards.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf ladder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Footprint and width",
-    explanation:
-      "The Hzuaneri picks are the slimmest at just 13.4 inches wide, ideal for tight corners, while the Amazon Basics is the widest at 24.8 inches, giving each shelf more usable surface area.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf ladder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Open shelving vs drawers",
-    explanation:
-      "Most ladder shelves in this list are fully open, but the Furologee (Pick 5) adds a removable fabric drawer at the base if you want a spot for items you'd rather keep out of sight.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf ladder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Assembly speed",
-    explanation:
-      "The HOOBRO picks (Picks 6 and 7) use a tool-free twist assembly system that's noticeably faster than the standard screwdriver-and-Allen-key process used on most other ladder shelves here.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf ladder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Material",
-    explanation:
-      "Most picks use particleboard or engineered wood over a metal frame. The Amazon Basics (Pick 8) is the only genuinely solid-wood option, and the Hzuaneri picks are FSC-certified for sustainable sourcing.",
-  },
-  {
-    criterion: "Height and vertical storage",
-    explanation:
-      "The HOOBRO DIY (Pick 6) is the tallest at 79 inches and can be combined with additional units, while the VASAGLE BARNET picks max out around 54 inches, better suited to rooms with lower visual clutter.",
-  },
-  {
-    criterion: "Shelf spacing narrows as you go up",
-    explanation:
-      "A ladder shelf's leaning frame means each shelf is shallower and narrower than the one below it. The bottom shelf typically has enough depth for oversized or coffee-table books, the middle shelves suit standard hardcovers at 10-11 inches of clearance, and the top shelf is often tight enough that only paperbacks or decor fit comfortably.",
-  },
-  {
-    criterion: "Anchoring matters more on a leaning frame",
-    explanation:
-      "Ladder shelves are tall, narrow, and lean against the wall by design, which makes them more tip-prone than a standard boxy bookcase. Always use the included anti-tip strap or an L-bracket, and keep heavier items on the lower shelves. Note that the CPSC's mandatory tip-over standard (ASTM F2057-23) applies to clothing storage furniture like dressers, not bookshelves, so a listing that references safety standards isn't citing a bookshelf-specific regulation; the anchoring hardware itself is what actually keeps it upright.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf ladder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

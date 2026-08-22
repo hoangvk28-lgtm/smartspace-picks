@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41U9fB5XU3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N125MU5?tag=deskfinds0d-20",
     description:
-      "The SONGMICS Bamboo is the most proven pick in this entire guide, with nearly 25,000 ratings behind its 3-tier natural bamboo design. Two open shelves hold roughly 6 pairs, and the flat top panel doubles as seating for putting shoes on.\n\nAt 286 lbs of capacity and a straightforward natural bamboo finish, it's the pick to start with if you want a dependable bench without paying for extra padding or enclosed storage.",
+      "The SONGMICS Bamboo is the most proven pick in this entire guide, with nearly 25,000 ratings behind its 3-tier natural bamboo design. Two open shelves hold roughly 6 pairs, and the flat top panel doubles as seating for putting shoes on.\n\nAt 286 lbs of capacity and a straightforward natural bamboo finish, it's the pick to start with if you want a dependable bench without paying for extra padding or enclosed storage.\n\nNatural bamboo finish at the lowest price in this list. Set against that, flat bamboo top isn't padded. Both matter when comparing it to the other picks here.",
     specs: [
       "27.6\"W x 11.3\"D x 17.8\"H",
       "Natural bamboo",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+dxZKNj4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SSWHJJ2?tag=deskfinds0d-20",
     description:
-      "Pipishell's bamboo bench matches the SONGMICS Bamboo closely in size and style but rates for 300 lbs, higher than the SONGMICS's 286 lbs. It's built from 100 percent natural bamboo across all 3 tiers, keeping the eco-friendly angle consistent throughout the piece.\n\nWith nearly 18,000 ratings at a 4.6-star average, it's a close alternative to the best-selling SONGMICS pick for buyers who want a small edge in load capacity for a similar price.",
+      "Pipishell's bamboo bench matches the SONGMICS Bamboo closely in size and style but rates for 300 lbs, higher than the SONGMICS's 286 lbs. It's built from 100 percent natural bamboo across all 3 tiers, keeping the eco-friendly angle consistent throughout the piece.\n\nWith nearly 18,000 ratings at a 4.6-star average, it's a close alternative to the best-selling SONGMICS pick for buyers who want a small edge in load capacity for a similar price.\n\nA genuine advantage here is that 100% natural bamboo throughout. The tradeoff is flat bamboo top isn't padded.",
     specs: [
       "27.5\"W x 11\"D x 17.5\"H",
       "100% natural bamboo",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IcEtwbj0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082ZZ9JYP?tag=deskfinds0d-20",
     description:
-      "This SONGMICS pairs a bamboo frame with a 1.7-inch thick foam seat wrapped in cotton-linen, the thickest padded seat among the bamboo benches in this list. That extra cushioning makes a real difference if the bench sees daily use rather than the occasional sit-down.\n\nIt carries a 4.7-star rating, the highest among the bamboo padded benches here, and sharp-point screws make assembly noticeably easier than benches using standard hardware. Two shelves hold roughly 6 pairs, in line with the unpadded bamboo benches above.",
+      "This SONGMICS pairs a bamboo frame with a 1.7-inch thick foam seat wrapped in cotton-linen, the thickest padded seat among the bamboo benches in this list. That extra cushioning makes a real difference if the bench sees daily use rather than the occasional sit-down.\n\nIt carries a 4.7-star rating, the highest among the bamboo padded benches here, and sharp-point screws make assembly noticeably easier than benches using standard hardware. Two shelves hold roughly 6 pairs, in line with the unpadded bamboo benches above.\n\nThickest padded seat among the bamboo benches at 1.7 inches. On the other hand, pricier than the 2 unpadded bamboo benches. Neither should be a surprise once you know to look for it.",
     specs: [
       "28.3\"W x 11.9\"D x 19.2\"H",
       "Bamboo + foam + cotton-linen",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41yF6vuLbaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B8CMDLBT?tag=deskfinds0d-20",
     description:
-      "The HOOBRO trades the bamboo look for an industrial engineered wood and metal frame with 2 mesh storage shelves. The mesh design matters beyond looks, since it lets air circulate around damp shoes instead of trapping moisture the way a solid shelf would.\n\nIts 300 lb top load capacity ties the padded bamboo benches in this list, and it seats up to 3 people at once, more than the narrower bamboo benches can comfortably fit. It shares the highest rating in this guide at 4.7 stars.",
+      "The HOOBRO trades the bamboo look for an industrial engineered wood and metal frame with 2 mesh storage shelves. The mesh design matters beyond looks, since it lets air circulate around damp shoes instead of trapping moisture the way a solid shelf would.\n\nIts 300 lb top load capacity ties the padded bamboo benches in this list, and it seats up to 3 people at once, more than the narrower bamboo benches can comfortably fit. It shares the highest rating in this guide at 4.7 stars.\n\nMesh shelves improve airflow and reduce odor buildup. That's a real strength, but weigh it against the flip side: top isn't padded, unlike the SONGMICS Padded Bamboo.",
     specs: [
       "29.5\"L x 11.2\"W x 19\"H",
       "Engineered wood + metal",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+gmLodH-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JRYJMQP?tag=deskfinds0d-20",
     description:
-      "PETKABOO is the only pick in this list with a concealed drawer built into the seat itself, giving you closed storage for small items alongside the open 2-tier shelving below. A removable linen cushion sits on top, so the drawer stays hidden until you need it.\n\nAt 39.4 inches long with a 400 lb capacity, the highest among the cushioned benches in this list, it's built for a wider entryway that can accommodate the extra length in exchange for hidden storage.",
+      "PETKABOO is the only pick in this list with a concealed drawer built into the seat itself, giving you closed storage for small items alongside the open 2-tier shelving below. A removable linen cushion sits on top, so the drawer stays hidden until you need it.\n\nAt 39.4 inches long with a 400 lb capacity, the highest among the cushioned benches in this list, it's built for a wider entryway that can accommodate the extra length in exchange for hidden storage.\n\nWorth calling out specifically: highest capacity among cushioned benches at 400 lbs. The catch is lower rating than most other picks in this list.",
     specs: [
       "39.4\"L x 11.6\"W x 19.5\"H",
       "FSC-certified bamboo",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zjS2DmITL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHTY8GCJ?tag=deskfinds0d-20",
     description:
-      "The astimey uses 2 flip-open drawers with internal panels you can adjust, the only pick in this list that lets you reconfigure drawer compartments to fit different shoe sizes. A leather-padded seat sits on top, adding a different feel than the fabric or cotton-linen cushions on the other picks.\n\nAt 40 inches wide with a 330 lb capacity, it's built waterproof and dustproof, useful if the bench sits somewhere exposed to weather tracked in from outside.",
+      "The astimey uses 2 flip-open drawers with internal panels you can adjust, the only pick in this list that lets you reconfigure drawer compartments to fit different shoe sizes. A leather-padded seat sits on top, adding a different feel than the fabric or cotton-linen cushions on the other picks.\n\nAt 40 inches wide with a 330 lb capacity, it's built waterproof and dustproof, useful if the bench sits somewhere exposed to weather tracked in from outside.\n\nLeather-padded seat feels different from fabric cushions. Set against that, smaller review sample than most other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "40\"W x 11\"D x 21\"H",
       "Engineered wood",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eBvXAhWjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJ8YMKKF?tag=deskfinds0d-20",
     description:
-      "The Homleke is the widest bench in this entire list at 45.3 inches, with 4 doors enclosing an adjustable shelf behind a fully padded 2-inch thick foam seat, the thickest seat among all the cabinet-style benches here. EPA-certified board construction backs the build.\n\nA removable, washable seat cover keeps long-term maintenance simple, and the 300 lb capacity matches several of the mid-tier picks in this list despite the larger enclosed footprint.",
+      "The Homleke is the widest bench in this entire list at 45.3 inches, with 4 doors enclosing an adjustable shelf behind a fully padded 2-inch thick foam seat, the thickest seat among all the cabinet-style benches here. EPA-certified board construction backs the build.\n\nA removable, washable seat cover keeps long-term maintenance simple, and the 300 lb capacity matches several of the mid-tier picks in this list despite the larger enclosed footprint.\n\nA genuine advantage here is that thickest seat among the cabinet-style benches at 2 inches. The tradeoff is largest footprint in this list needs a spacious entryway.",
     specs: [
       "45.3\"W x 13.8\"D x 18.5\"H",
       "EPA-certified board",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41u47rBOXmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQGCYFSN?tag=deskfinds0d-20",
     description:
-      "The LBT is the only genuinely solid-wood pick in this list, built from solid rubberwood with eco-leather accents rather than engineered board or bamboo. It carries a 550 lb capacity, by far the highest in this entire guide and well beyond what any other bench here rates for.\n\nA stay-open safety hinge prevents the lid from slamming shut, and an adjustable 6.3-inch shelf plus hidden storage round out a build that reads as the most premium pick in this list, at the highest price to match.",
+      "The LBT is the only genuinely solid-wood pick in this list, built from solid rubberwood with eco-leather accents rather than engineered board or bamboo. It carries a 550 lb capacity, by far the highest in this entire guide and well beyond what any other bench here rates for.\n\nA stay-open safety hinge prevents the lid from slamming shut, and an adjustable 6.3-inch shelf plus hidden storage round out a build that reads as the most premium pick in this list, at the highest price to match.\n\nOnly genuinely solid-wood pick in this list. On the other hand, most expensive pick in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "39.4\"W x 12\"D x 21.2\"H",
       "Solid rubberwood + eco-leather",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Ventilation still matters on enclosed bench styles",
-    explanation:
-      "Shoes come in damp from rain or sweat, and sealing them into a closed flip-drawer or 4-door bench with no airflow leads to lingering odor and mold on soles over time. Open or mesh-shelf benches like the HOOBRO let air circulate and dry shoes faster, while enclosed picks like the astimey or Homleke need occasional airing out to avoid the same problem.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shoe rack bench often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Advertised pair counts run optimistic on narrower benches",
-    explanation:
-      "A 27-28 inch wide bamboo bench realistically holds 6-10 pairs, not always the higher figure some listings suggest, especially with men's size 10+ shoes or boots. If your household wears larger shoes, a wider bench like the astimey or Homleke fits more comfortably than the narrower bamboo options.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shoe rack bench holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Match seat padding to how often the bench gets used",
-    explanation:
-      "A flat bamboo top like the SONGMICS Bamboo works fine for occasional use, but daily sitting is more comfortable on a padded seat like the 1.7-inch SONGMICS Padded Bamboo or the 2-inch foam on the Homleke. Padding thickness is worth prioritizing over a few extra pounds of load capacity if the bench doubles as a spot to sit each morning.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shoe rack bench over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Weight capacity should exceed your heaviest regular user with margin",
-    explanation:
-      "A 286-300 lb rating is fine for most households, but if the bench regularly seats a heavier adult or multiple people at once, the HOOBRO's 3-person capacity or the LBT's 550 lb rating leaves far more safety margin than the lighter-duty bamboo benches.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shoe rack bench you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Enclosed drawer benches trade visibility for tidiness",
-    explanation:
-      "Open-shelf benches keep shoes visible and easy to grab but show clutter more. Flip-drawer or 4-door benches like the astimey, PETKABOO, or Homleke hide everything behind a closed front, useful if a tidy entryway matters more than quick access.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shoe rack bench that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,92 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Load Capacity Needed",
-    intro:
-      "Capacity in this list ranges from 286 lbs on the entry-level bamboo bench up to 550 lbs on the solid rubberwood pick, so match it to who's actually going to sit on it.",
-    table: {
-      headers: ["Who's sitting on it", "Capacity needed", "Best pick"],
-      rows: [
-        ["One adult, occasional use", "286-300 lbs", "SONGMICS Bamboo or Pipishell Bamboo"],
-        ["One adult, daily use", "300 lbs with padding", "SONGMICS Padded Bamboo"],
-        ["Multiple people or heavier use", "330-400 lbs", "astimey Flip Drawer or PETKABOO Hidden Drawer"],
-        ["Maximum safety margin", "550 lbs", "LBT Rubberwood Shoe Bench"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "SONGMICS Padded Shoe Bench"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SONGMICS Bamboo Shoe Bench"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Storage Style You Need",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $29",
+          "SONGMICS Bamboo Shoe Bench"
+        ],
+        [
+          "Up to $126",
+          "LBT Rubberwood Shoe Bench"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "SONGMICS Bamboo Shoe Bench vs LBT Rubberwood Shoe Bench",
+    "cards": [
       {
-        label: "Want everything visible and easy to grab",
-        text: "The SONGMICS Bamboo, Pipishell Bamboo, and HOOBRO Industrial use fully open shelving, the fastest way to see and reach shoes without opening a drawer.",
+        "label": "SONGMICS Bamboo Shoe Bench",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want small items hidden but not full enclosure",
-        text: "The PETKABOO's under-seat hidden drawer conceals small items while leaving the 2-tier shelving below fully open.",
-      },
-      {
-        label: "Want everything fully enclosed",
-        text: "The astimey and Homleke close shoes behind flip drawers or full doors, keeping the entryway looking tidy at a glance.",
-      },
-      {
-        label: "Want reconfigurable compartments",
-        text: "The astimey's adjustable internal drawer panels are the only pick in this list built to resize compartments for different shoe sizes.",
-      },
+        "label": "LBT Rubberwood Shoe Bench",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SONGMICS Bamboo Shoe Bench unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Seat Comfort Priority",
-    table: {
-      headers: ["Comfort level wanted", "Seat type", "Best pick"],
-      rows: [
-        ["Don't need padding", "Flat bamboo top", "SONGMICS Bamboo or Pipishell Bamboo"],
-        ["Some cushioning", "1.7-inch foam, cotton-linen", "SONGMICS Padded Bamboo"],
-        ["Maximum cushioning", "2-inch foam", "Homleke 45.3\" Padded 4-Door"],
-        ["Premium feel", "Eco-leather cushion", "LBT Rubberwood Shoe Bench"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SONGMICS Bamboo Shoe Bench"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Entryway Width",
-    intro:
-      "Bench footprints in this list range from 27.5 inches up to 45.3 inches, so measure your entryway before ordering.",
-    table: {
-      headers: ["Available width", "Best pick"],
-      rows: [
-        ["Under 30\"", "SONGMICS Bamboo, Pipishell Bamboo, or SONGMICS Padded Bamboo"],
-        ["30-35\"", "HOOBRO Industrial or PETKABOO Hidden Drawer"],
-        ["36-40\"", "astimey 40\" Flip Drawer or LBT Rubberwood"],
-        ["40\"+", "Homleke 45.3\" Padded 4-Door"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SONGMICS Bamboo Shoe Bench is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Ventilation Reality Check for Enclosed Benches",
-    intro:
-      "Enclosed flip-drawer and 4-door benches look tidier but need more deliberate airflow management than open-shelf styles.",
-    table: {
-      headers: ["Pick", "Enclosure level", "Extra tip"],
-      rows: [
-        ["astimey 40\" Flip Drawer", "2 flip drawers, waterproof", "Leave drawers cracked open after wet days to air out"],
-        ["Homleke 45.3\" 4-Door", "Fully enclosed, 4 doors", "Open all doors periodically, especially after rain"],
-        ["PETKABOO Hidden Drawer", "Partial, only the seat drawer is closed", "Lower shelves stay open, lower odor risk than full cabinets"],
-      ],
-    },
-    note: "Open-shelf benches like the HOOBRO or either bamboo bench avoid this issue entirely since air moves freely around the shoes at all times.",
-  },
-  {
-    subheading: "When to Spend More Than the Entry-Level Bamboo Bench",
-    table: {
-      headers: ["Reason to upgrade", "Best pick"],
-      rows: [
-        ["Need daily seating comfort", "SONGMICS Padded Bamboo"],
-        ["Need hidden storage for small items", "PETKABOO Hidden Drawer"],
-        ["Need a fully enclosed, tidy look", "Homleke 45.3\" Padded 4-Door"],
-        ["Need maximum weight capacity and premium build", "LBT Rubberwood Shoe Bench"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where LBT Rubberwood Shoe Bench's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SONGMICS Bamboo Shoe Bench covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

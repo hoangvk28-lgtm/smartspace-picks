@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Compact, visible-content clamp drawer", "INLDY Under Desk Drawer"],
-        ["Two separate compartments", "Homeify Under Desk Drawer Organizer, 2 Drawer"],
-        ["Specifically for hanging files", "SB Simpli Better File Organizer"],
-        ["Much higher capacity, rolling cart", "Rolling File Cart with 3 Storage Drawers"],
-        ["Customizable vertical filing, rolling", "Tiaoheka Rolling File Cabinet"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "INLDY Under Desk Drawer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Homeify Under Desk Drawer Organizer Clamp"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Measure Knee Clearance Before Mounting",
-    note: "An under-desk clamp organizer mounted too close to your typical seated leg position can interfere with legroom. Measure your available clearance before choosing a mount point, especially in a smaller desk footprint.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "SB Simpli Better File Organizer that Attaches Under the Desk"
+        ],
+        [
+          "Up to $47",
+          "Rolling File Cart with 3 Storage Drawers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Clamp-On Drawer vs. Freestanding Rolling Cart",
-    cards: [
-      { label: "Clamp-on drawer", text: "No drilling, compact, but limited capacity, suited to small supplies and occasional documents." },
-      { label: "Freestanding rolling cart", text: "Much higher capacity with full drawers, but a genuinely different product type occupying floor space rather than hanging under the desk." },
+    "subheading": "SB Simpli Better File Organizer that Attaches Under the Desk vs Rolling File Cart with 3 Storage Drawers",
+    "cards": [
+      {
+        "label": "SB Simpli Better File Organizer that Attaches Under the Desk",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Rolling File Cart with 3 Storage Drawers",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SB Simpli Better File Organizer that Attaches Under the Desk unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Check Your Desk's Underside Construction",
-    note: "Cross-bracing, support beams, or existing drawers can limit the available mounting surface for a clamp-on organizer. Check your specific desk's underside before ordering to confirm a clear mounting spot.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Homeify Under Desk Drawer Organizer Clamp"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Homeify Under Desk Drawer Organizer Clamp is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Rolling File Cart with 3 Storage Drawers's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SB Simpli Better File Organizer that Attaches Under the Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Measure knee clearance before mounting", explanation: "An under-desk organizer mounted too close to your seated leg position can interfere with legroom. Measure your available clearance first." },
-  { criterion: "Check your desk's underside construction", explanation: "Cross-bracing or existing drawers can limit available mounting surface. Verify your specific desk has a clear spot before ordering a clamp-on organizer." },
-  { criterion: "Decide between clamp-on convenience and rolling-cart capacity", explanation: "A clamp-on drawer is more compact and requires no drilling, but a freestanding rolling cart offers substantially more storage if your needs exceed small supplies." },
-  { criterion: "Verify capacity against your realistic storage needs", explanation: "Clamp-on drawers suit small supplies and occasional documents; a full filing need is better served by a rolling cart or dedicated file cabinet." },
-  { criterion: "Consider mesh construction for content visibility", explanation: "A mesh-walled drawer lets you see contents at a glance without fully opening it, a genuine convenience for frequently accessed items." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a under-desk hanging organizer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the under-desk hanging organizer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this under-desk hanging organizer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any under-desk hanging organizer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A under-desk hanging organizer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

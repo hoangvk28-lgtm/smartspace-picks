@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71cMYhSQ8+L._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
-    description: "The BestOffice ergonomic chair at $38.99 is the most affordable option in this guide and fits short users with its low minimum seat height of 15.7 inches. The compact seat dimensions suit petite frames better than oversized office chairs.\n\nFor users on the tightest budget who need an office chair that reaches low enough for short legs to touch the floor, the BestOffice is the entry-level pick.",
-    specs: ["Seat height: 15.7\"–19.3\"", "Seat width: 17.3\"", "Weight capacity: 250 lbs", "Lumbar support cushion", "Breathable mesh back", "Adjustable armrests"],
+    description: "The BestOffice ergonomic chair at $38.99 is the most affordable option in this guide and fits short users with its low minimum seat height of 15.7 inches. The compact seat dimensions suit petite frames better than oversized office chairs.\n\nFor users on the tightest budget who need an office chair that reaches low enough for short legs to touch the floor, the BestOffice is the entry-level pick.\n\nWorth calling out specifically: 15.7\" min seat height suits short users. The catch is basic build quality at this price.",
+    specs: ["Seat height: 15.7\"-19.3\"", "Seat width: 17.3\"", "Weight capacity: 250 lbs", "Lumbar support cushion", "Breathable mesh back", "Adjustable armrests"],
     pros: ["$38.99 lowest price in guide", "15.7\" min seat height suits short users", "Compact seat fits petite frames", "Mesh back breathability"],
     cons: ["Basic build quality at this price", "Limited adjustability", "250 lb max capacity"],
     bestFor: "Short users on the tightest budget who need a chair with seat height low enough for their feet to reach the floor.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71YwSR6jIoL._AC_SL1250_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXGB6L96?tag=deskfinds0d-20",
-    description: "The NEO CHAIR at $35.98 is the lowest-priced chair in this guide with ergonomic certification. For short users who want a chair with a low seat height and some certification backing, the NEO CHAIR delivers at the most accessible price point.\n\nThe compact design and low seat height range make it well-suited for users under 5'4\".",
-    specs: ["Seat height: 15.5\"–18.9\"", "BIFMA certified", "Lumbar support", "Adjustable armrests", "Breathable mesh back", "Tilt function"],
+    description: "The NEO CHAIR at $35.98 is the lowest-priced chair in this guide with ergonomic certification. For short users who want a chair with a low seat height and some certification backing, the NEO CHAIR delivers at the most accessible price point.\n\nThe compact design and low seat height range make it well-suited for users under 5'4\".\n\nBIFMA certified budget option. Set against that, minimal padding at this price. Both matter when comparing it to the other picks here.",
+    specs: ["Seat height: 15.5\"-18.9\"", "BIFMA certified", "Lumbar support", "Adjustable armrests", "Breathable mesh back", "Tilt function"],
     pros: ["$35.98 lowest in guide", "BIFMA certified budget option", "15.5\" min height for petite users", "Compact mesh design"],
     cons: ["Minimal padding at this price", "Limited lumbar adjustment range"],
     bestFor: "Short users who want the most affordable certified budget chair with a low seat height.",
@@ -74,9 +74,9 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81LG+VImyTL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4C4GPKB?tag=deskfinds0d-20",
-    description: "The HeroSet high-back leather chair at $99.99 is the best leather option for short users, featuring a low minimum seat height of 14.6 inches – the lowest in this guide. At 4.6 stars it's one of the highest-rated chairs in this roundup.\n\nThe compact seat dimensions and low height range make the HeroSet particularly well-suited for users under 5'2\". The PU leather adds a professional aesthetic at a mid-range price.",
-    specs: ["Seat height: 14.6\"–18.5\"", "PU leather upholstery", "High backrest", "Adjustable lumbar", "2D armrests", "Weight capacity: 250 lbs"],
-    pros: ["14.6\" minimum seat height – lowest in guide", "4.6 stars rating", "PU leather professional look", "Compact seat for petite users"],
+    description: "The HeroSet high-back leather chair at $99.99 is the best leather option for short users, featuring a low minimum seat height of 14.6 inches, the lowest in this guide. At 4.6 stars it's one of the highest-rated chairs in this roundup.\n\nThe compact seat dimensions and low height range make the HeroSet particularly well-suited for users under 5'2\". The PU leather adds a professional aesthetic at a mid-range price.\n\nA genuine advantage here is that 4.6 stars rating. The tradeoff is pU leather less breathable than mesh.",
+    specs: ["Seat height: 14.6\"-18.5\"", "PU leather upholstery", "High backrest", "Adjustable lumbar", "2D armrests", "Weight capacity: 250 lbs"],
+    pros: ["14.6\" minimum seat height, lowest in guide", "4.6 stars rating", "PU leather professional look", "Compact seat for petite users"],
     cons: ["PU leather less breathable than mesh", "2D armrests"],
     bestFor: "Short users under 5'2\" who want a professional leather chair with the lowest seat height available in this price range.",
   },
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81R1fahxU2L._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3KYSY3F?tag=deskfinds0d-20",
-    description: "The Brick Attic ergonomic chair at $99.99 is designed with short users in mind, featuring a seat height range starting at 15 inches and a compact seat depth that prevents the front edge from cutting into short users' legs.\n\nThe adjustable lumbar and headrest make it a well-rounded mid-range option for short office workers who need ergonomic support without paying premium prices.",
-    specs: ["Seat height: 15\"–19\"", "Compact seat depth", "Adjustable lumbar", "Headrest", "2D flip-up arms", "Mesh back"],
+    description: "The Brick Attic ergonomic chair at $99.99 is designed with short users in mind, featuring a seat height range starting at 15 inches and a compact seat depth that prevents the front edge from cutting into short users' legs.\n\nThe adjustable lumbar and headrest make it a well-rounded mid-range option for short office workers who need ergonomic support without paying premium prices.\n\n15\" min height for short users. On the other hand, 2D flip-up arms less adjustable. Neither should be a surprise once you know to look for it.",
+    specs: ["Seat height: 15\"-19\"", "Compact seat depth", "Adjustable lumbar", "Headrest", "2D flip-up arms", "Mesh back"],
     pros: ["Compact seat depth prevents leg pressure", "15\" min height for short users", "Adjustable lumbar and headrest", "Mid-range budget"],
     cons: ["2D flip-up arms less adjustable", "Limited color options"],
     bestFor: "Short office workers who need a compact seat depth ergonomic chair with lumbar and headrest at $99.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71oIVTS7MrL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5GRYWTJ?tag=deskfinds0d-20",
-    description: "The GTPLAYER gaming chair at $99.99 is the best gaming-style chair for short users, with a minimum seat height of 15.5 inches and adjustable lumbar and neck pillows. Gaming chairs often fit shorter users better than office chairs because of their bucket seat design.\n\nFor short users who prefer the gaming chair aesthetic and need a low seat height for foot contact with the floor, the GTPLAYER at $99.99 is the top pick.",
-    specs: ["Seat height: 15.5\"–19.5\"", "PU leather gaming style", "Lumbar and headrest pillow", "Reclining backrest", "Adjustable armrests", "300 lb capacity"],
+    description: "The GTPLAYER gaming chair at $99.99 is the best gaming-style chair for short users, with a minimum seat height of 15.5 inches and adjustable lumbar and neck pillows. Gaming chairs often fit shorter users better than office chairs because of their bucket seat design.\n\nFor short users who prefer the gaming chair aesthetic and need a low seat height for foot contact with the floor, the GTPLAYER at $99.99 is the top pick.\n\nGaming chair bucket design fits petite frames. That's a real strength, but weigh it against the flip side: gaming aesthetic not suited for all offices.",
+    specs: ["Seat height: 15.5\"-19.5\"", "PU leather gaming style", "Lumbar and headrest pillow", "Reclining backrest", "Adjustable armrests", "300 lb capacity"],
     pros: ["15.5\" min seat height for short users", "Gaming chair bucket design fits petite frames", "Reclining function", "300 lb capacity"],
     cons: ["Gaming aesthetic not suited for all offices", "PU leather heat retention"],
     bestFor: "Short users who prefer the gaming chair bucket seat design and need a low seat height for floor contact.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/717Tlu+mQKL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FR8W9CS1?tag=deskfinds0d-20",
-    description: "The COMHOMA office chair at $79.99 features a swing mode function that allows gentle rocking motion during work. At 4.6 stars it's tied for highest-rated in this guide and offers a unique comfort feature not found in other budget chairs.\n\nWith a seat height starting at 15.4 inches and compact seat dimensions, the COMHOMA suits short users while delivering the swing function that reduces back tension during long sessions.",
-    specs: ["Seat height: 15.4\"–18.9\"", "Swing/rock mode", "Mesh back", "Lumbar cushion", "Adjustable armrests", "250 lb capacity"],
+    description: "The COMHOMA office chair at $79.99 features a swing mode function that allows gentle rocking motion during work. At 4.6 stars it's tied for highest-rated in this guide and offers a unique comfort feature not found in other budget chairs.\n\nWith a seat height starting at 15.4 inches and compact seat dimensions, the COMHOMA suits short users while delivering the swing function that reduces back tension during long sessions.\n\nWorth calling out specifically: 4.6 stars. The catch is 250 lb capacity lower than some competitors.",
+    specs: ["Seat height: 15.4\"-18.9\"", "Swing/rock mode", "Mesh back", "Lumbar cushion", "Adjustable armrests", "250 lb capacity"],
     pros: ["Swing mode reduces back tension", "4.6 stars", "15.4\" min seat height", "Under $80"],
     cons: ["250 lb capacity lower than some competitors", "Swing may distract in some environments"],
     bestFor: "Short users who want a budget chair with a swing/rock function to reduce back tension under $80.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71TkxS-LUHL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5WQ65P2?tag=deskfinds0d-20",
-    description: "The SIHOO B100 is the best mid-range ergonomic option for short users who need adjustable seat depth. The seat depth adjustment is critical for short users because standard seat depths are often too long, causing the front edge to press against the back of short users' knees.\n\nAt $159.99 with mesh breathability and adjustable lumbar, the B100 provides proper ergonomic support that's specifically beneficial for shorter frames.",
-    specs: ["Seat height: 16.5\"–20.5\"", "Adjustable seat depth", "Mesh back", "Adjustable lumbar", "Headrest", "3-year warranty"],
+    description: "The SIHOO B100 is the best mid-range ergonomic option for short users who need adjustable seat depth. The seat depth adjustment is critical for short users because standard seat depths are often too long, causing the front edge to press against the back of short users' knees.\n\nAt $159.99 with mesh breathability and adjustable lumbar, the B100 provides proper ergonomic support that's specifically beneficial for shorter frames.\n\nMesh breathability. Set against that, $159 mid-range price. Both matter when comparing it to the other picks here.",
+    specs: ["Seat height: 16.5\"-20.5\"", "Adjustable seat depth", "Mesh back", "Adjustable lumbar", "Headrest", "3-year warranty"],
     pros: ["Adjustable seat depth critical for short users", "Mesh breathability", "Adjustable lumbar and headrest", "3-year warranty"],
     cons: ["$159 mid-range price", "20.5\" max seat may be too high for very short users with low desk"],
     bestFor: "Short users who want adjustable seat depth to prevent knee pressure from an oversized seat.",
@@ -154,8 +154,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71rKDjDjbBL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9W7C2H5?tag=deskfinds0d-20",
-    description: "The TopJob Mochi is designed specifically for petite users under 5'4\", with a seat depth, width, and backrest height all sized for shorter frames. Unlike other chairs in this guide that accommodate short users, the Mochi is built from the ground up for petite ergonomics.\n\nAt $349.00, the Mochi is the most expensive chair in this guide, but it's the only one designed specifically for petite users rather than adapted from a standard chair.",
-    specs: ["Seat height: 14.5\"–18.5\"", "Petite-specific seat dimensions", "Shorter backrest for petite torsos", "Adjustable lumbar", "3D armrests", "5-year warranty"],
+    description: "The TopJob Mochi is designed specifically for petite users under 5'4\", with a seat depth, width, and backrest height all sized for shorter frames. Unlike other chairs in this guide that accommodate short users, the Mochi is built from the ground up for petite ergonomics.\n\nAt $349.00, the Mochi is the most expensive chair in this guide, but it's the only one designed specifically for petite users rather than adapted from a standard chair.\n\nA genuine advantage here is that petite seat depth prevents knee pressure. The tradeoff is $349 highest price in this guide.",
+    specs: ["Seat height: 14.5\"-18.5\"", "Petite-specific seat dimensions", "Shorter backrest for petite torsos", "Adjustable lumbar", "3D armrests", "5-year warranty"],
     pros: ["Designed specifically for petite users", "Petite seat depth prevents knee pressure", "3D armrests", "5-year warranty"],
     cons: ["$349 highest price in this guide", "Smaller capacity due to petite design"],
     bestFor: "Petite users under 5'4\" who want a chair designed specifically for their body size rather than a standard chair with adjustments.",
@@ -163,11 +163,26 @@ export const products: GuideProduct[] = [
 ];;
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Seat height minimum - the most important spec for short users", explanation: "The correct seat height places your feet flat on the floor with knees at 90 degrees. For users 5'1\" to 5'4\", this requires a seat height of 15 to 17 inches. Most standard office chairs start at 17 to 18 inches, which leaves short users with feet dangling or knees above hip level. Always verify the minimum seat height before purchasing." },
-  { criterion: "Seat depth for shorter thigh length", explanation: "Standard seat depth is 16 to 19 inches, designed for users with longer thighs. For short users, a seat that is too deep forces you to either sit with your back not contacting the lumbar pad, or slide forward with unsupported legs. Look for a seat depth minimum of 14 to 16 inches, or for chairs with adjustable seat depth that can be shortened." },
-  { criterion: "Lumbar support height for shorter torsos", explanation: "Standard lumbar pads are positioned for users 5'5\" and above. For short users, the lumbar pad often hits mid-back rather than lower lumbar, providing no actual L4/L5 support. Adjustable lumbar height (not just depth) is the solution. Chairs with fixed lumbar pads at 8 to 10 inches from the seat will typically miss a short user's correct lumbar zone." },
-  { criterion: "Armrest height range for shorter arms", explanation: "Standard armrests begin at 7 to 8 inches above the seat and reach 10 to 12 inches. For short users, the minimum armrest position may already be too high, preventing a 90-degree elbow bend when seated correctly. Look for chairs with armrest height minimums below 7 inches, or use armrests lowered to the table's edge if the arm can be set lower." },
-  { criterion: "Purpose-built small chairs vs standard chairs lowered", explanation: "Most chairs marketed to short users are standard chairs with the height range pushed slightly lower. Purpose-built small chairs (Herman Miller Aeron Size A, Secretlab TITAN Evo S) physically resize the seat pan, back height, and armrest proportions for a shorter body. If you are 5'3\" or shorter and can invest in a premium chair, a purpose-built small chair will provide superior ergonomic fit to any standard chair at any price." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 8 best office chair often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 8 best office chair holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 8 best office chair over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 8 best office chair you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 8 best office chair that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [

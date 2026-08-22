@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WX0LRwktL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BFRHWCFV?tag=deskfinds0d-20",
     description:
-      "This lap desk includes 4 USB ports alongside its cup holder and storage drawer, drawing power from your connected laptop rather than requiring a separate wall plug, a genuine convenience for using the ports away from an outlet.\n\nThe ports function as charging-only pass-through rather than data connections, useful for topping off a phone or accessory but not for data transfer between devices.",
+      "This lap desk includes 4 USB ports alongside its cup holder and storage drawer, drawing power from your connected laptop rather than requiring a separate wall plug, a genuine convenience for using the ports away from an outlet.\n\nThe ports function as charging-only pass-through rather than data connections, useful for topping off a phone or accessory but not for data transfer between devices.\n\nStorage drawer for small accessories. On the other hand, ports are charging-only, not data connections. Neither should be a surprise once you know to look for it.",
     specs: ["4 USB ports (charging, laptop-powered)", "Cup holder", "Storage drawer", "Foldable design"],
     pros: ["Ports draw from connected laptop, no separate outlet needed", "Storage drawer for small accessories", "Solid review count", "Genuinely multi-function design"],
     cons: ["Ports are charging-only, not data connections", "Heaviest and bulkiest pick in this comparison", "Highest price here"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WX0LRwktL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQW29RCV?tag=deskfinds0d-20",
     description:
-      "Honesty note: this listing's core marketing emphasizes its cup holder tray and foldable design rather than USB ports specifically; check the current listing for exact port count and type before assuming full parity with the more USB-focused picks above.\n\nIts wide 23.4 inch platform remains a genuine stability advantage for combined laptop, cup, and charging accessory use.",
+      "Honesty note: this listing's core marketing emphasizes its cup holder tray and foldable design rather than USB ports specifically; check the current listing for exact port count and type before assuming full parity with the more USB-focused picks above.\n\nIts wide 23.4 inch platform remains a genuine stability advantage for combined laptop, cup, and charging accessory use.\n\nFoldable storage. That's a real strength, but weigh it against the flip side: uSB port details less prominently disclosed than competitors.",
     specs: ["23.4in wide platform", "Foldable, flat storage", "Cup holder tray", "Check listing for current USB spec"],
     pros: ["Wide platform for extra stability margin", "Foldable storage", "Good rating", "Solid review count"],
     cons: ["USB port details less prominently disclosed than competitors", "Larger folded size than compact alternatives", "Verify current USB spec before purchase"],
@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most ports plus storage drawer", "Zapuno Laptop Lap Desk"],
-        ["Bed use, stable legged base", "Laptop Bed Table with USB Charge Port"],
-        ["Also want a fan and reading light", "23.6\" Portable Bed Desk with Fan and LED Light"],
-        ["Want to fine-tune working height", "Lap Desk for Bed Adjustable Height"],
-        ["Widest, most stable platform", "BUYIFY 23.4\" Foldable Lap Desk"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Zapuno Laptop Lap Desk"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Laptop Bed Table"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Charging-Only vs. Data-Capable USB Ports",
-    note: "Every pick in this guide provides charging-only USB pass-through, not genuine data transfer. If you need to move files between devices, don't rely on these ports for that function.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $24",
+          "23.6\" Portable Bed Desk"
+        ],
+        [
+          "Up to $33",
+          "Zapuno Laptop Lap Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Where Does the Power Actually Come From?",
-    cards: [
-      { label: "Laptop-powered pass-through", text: "Most picks here draw USB power from your connected laptop, convenient away from an outlet but limited by your laptop's own battery and port output." },
-      { label: "Separate wall plug", text: "Not used by any pick in this specific comparison, worth checking directly on the listing if you specifically want independent power." },
+    "subheading": "23.6\" Portable Bed Desk vs Zapuno Laptop Lap Desk",
+    "cards": [
+      {
+        "label": "23.6\" Portable Bed Desk",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Zapuno Laptop Lap Desk",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to 23.6\" Portable Bed Desk unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "This Overlaps With Our General Lap Desk Cup Holder Guide",
-    note: "If USB charging isn't essential to you, our broader lap desks with cup holders guide includes additional picks without this specific feature that may better suit your priorities.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Laptop Bed Table"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Laptop Bed Table is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Zapuno Laptop Lap Desk's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where 23.6\" Portable Bed Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm whether USB ports are charging-only or data-capable", explanation: "Every pick in this guide provides charging-only pass-through. If you need genuine data transfer, these ports won't serve that purpose." },
-  { criterion: "Check the actual power source for the USB function", explanation: "Most picks here draw power from your connected laptop rather than a separate wall plug, a real consideration if you want charging independent of your laptop's own battery." },
-  { criterion: "Consider port count against your actual charging needs", explanation: "Some picks offer up to 4 ports, others just one. Match the count to how many devices you realistically charge simultaneously while using the lap desk." },
-  { criterion: "Weigh additional powered features against combined draw", explanation: "A built-in fan or LED light draws from the same laptop-powered connection as the USB ports, worth considering if you plan to use everything simultaneously." },
-  { criterion: "Verify current USB specs directly on less USB-focused listings", explanation: "Some picks in this comparison emphasize other features over USB details in their marketing. Check the current listing specs before assuming full feature parity." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a lap desks with cup holders and usb port often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the lap desks with cup holders and usb port holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this lap desks with cup holders and usb port over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any lap desks with cup holders and usb port you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A lap desks with cup holders and usb port that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

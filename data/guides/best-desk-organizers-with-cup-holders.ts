@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IGPpikgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9VBM6R?tag=deskfinds0d-20",
     description:
-      "This is the most feature-dense organizer in this comparison, adding controller or accessory storage to the cup holder and headphone hanger combination, at the lowest price of the KDD lineup here despite the added function.\n\nEach individual function is necessarily more compact than a dedicated single-purpose product, a real tradeoff for this combined design's desk-space savings.",
+      "This is the most feature-dense organizer in this comparison, adding controller or accessory storage to the cup holder and headphone hanger combination, at the lowest price of the KDD lineup here despite the added function.\n\nEach individual function is necessarily more compact than a dedicated single-purpose product, a real tradeoff for this combined design's desk-space savings.\n\nA genuine advantage here is that strong review count. The tradeoff is each individual feature more compact than a dedicated organizer.",
     specs: ["5-in-1 combined clamp base", "Cup holder, headphone hanger, controller storage", "Under-desk clamp mount", "Lowest price in the KDD lineup"],
     pros: ["Most functions combined for the price", "Strong review count", "Saves significant desk-edge space", "Under-desk mountable"],
     cons: ["Each individual feature more compact than a dedicated organizer", "Bulkier combined structure", "Only worth it if you want all bundled functions"],
@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by What You Need to Organize",
-    table: {
-      headers: ["What you need", "Recommended pick"],
-      rows: [
-        ["Cup holder plus headphone hanger, most proven", "KDD 4-in-1 Desk Cup Holder"],
-        ["Also need cable routing", "KDD 4-in-1 with Wire Holes"],
-        ["Most functions for the lowest price", "KDD 5-in-1 Desk Controller Holder"],
-        ["Drink plus a small secondary item slot", "Dual Slots Clip On Metal Desk Cup Holder"],
-        ["Large drink plus gaming accessory storage", "4 in 1 Metal Clip On Cup Holder"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "KDD 4"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "KDD 4"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Is the Combo Actually Worth It?",
-    note: "Compare the combined product's price against buying a separate cup holder and organizer or headphone hook. For the KDD lineup, the combined designs are priced competitively with standalone cup holders alone, making the added organizer function close to free.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $14",
+          "KDD 5"
+        ],
+        [
+          "Up to $27",
+          "4 in 1 Metal Clip On Cup Holder Attachment for Gaming Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Structural Stability When Fully Loaded",
-    cards: [
-      { label: "Cup holder plus light accessories", text: "Minimal stability concern for headphones or small items alongside a drink." },
-      { label: "Cup holder plus heavier stored items", text: "Check that the combined clamp base doesn't become top-heavy or unbalanced when all compartments are loaded simultaneously." },
+    "subheading": "KDD 5 vs 4 in 1 Metal Clip On Cup Holder Attachment for Gaming Desk",
+    "cards": [
+      {
+        "label": "KDD 5",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "4 in 1 Metal Clip On Cup Holder Attachment for Gaming Desk",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to KDD 5 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Spill Risk to Nearby Stored Items",
-    note: "If your organizer stores papers, small electronics, or other spill-sensitive items near the cup holder, consider the cavity depth and placement carefully, since a spill here could affect more than just your desk surface.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "KDD 4"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "KDD 4 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where 4 in 1 Metal Clip On Cup Holder Attachment for Gaming Desk's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where KDD 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify the organizer feature is genuinely useful, not a token add-on", explanation: "Check that features like wire holes, accessory hooks, or secondary slots serve a real purpose for your setup, not just added to the listing title for search visibility." },
-  { criterion: "Compare combo pricing against separate purchases", explanation: "Calculate whether the combined product costs meaningfully less than buying a standalone cup holder and organizer separately before assuming it's the better value." },
-  { criterion: "Check structural stability when fully loaded", explanation: "A combined organizer with multiple compartments can become unbalanced if heavier items are stored unevenly. Verify the clamp base is rated for combined loaded weight." },
-  { criterion: "Consider spill proximity to stored items", explanation: "If your organizer stores papers or small electronics near the cup holder, favor a deeper cavity design and thoughtful compartment placement to minimize spill risk to those items." },
-  { criterion: "Decide if under-desk or edge mounting suits your workflow better", explanation: "Under-desk mounting keeps your visible desk surface clearest, while edge mounting is faster to reach. Choose based on how often you access the organizer's contents." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a desk organizers with cup holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the desk organizers with cup holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this desk organizers with cup holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any desk organizers with cup holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A desk organizers with cup holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

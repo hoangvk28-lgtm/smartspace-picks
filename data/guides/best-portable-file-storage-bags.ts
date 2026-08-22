@@ -118,40 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Most proven, genuine hanging file support", "UNICITII File Organizer Box, Portable Tote Bag"],
-        ["Want to fold flat between uses", "abcxgood Desktop File Organizer Box, Collapsible"],
-        ["Better long-term storage suitability with a lid", "Qozary 2 Pack File Folder Organizer Box with Lids"],
-        ["Verify potentially more rigid, storage-suited option", "Fireproof File Box with Lock, Document Storage Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "abcxgood Desktop File Organizer Box"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Fireproof File Box with Lock"
+        ]
+      ]
+    }
   },
   {
-    subheading: "\"Storage Bag\" and \"Tote Bag\" Mostly Describe the Same Thing",
-    note: "Several products in this comparison use both terms in their own product names, confirming substantial overlap. See our portable file tote bags guide for additional options within this same soft-sided category.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $20",
+          "UNICITII File Organizer Box"
+        ],
+        [
+          "Up to $30",
+          "Qozary 2 Pack File Folder Organizer Box"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Transport-Only vs. Long-Term Storage Suitability",
-    cards: [
-      { label: "Open-top or basic soft bags", text: "Better suited to occasional transport than permanent stationary storage." },
-      { label: "Lidded soft bags", text: "Meaningfully better long-term storage suitability while remaining genuinely portable." },
+    "subheading": "UNICITII File Organizer Box vs Qozary 2 Pack File Folder Organizer Box",
+    "cards": [
+      {
+        "label": "UNICITII File Organizer Box",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Qozary 2 Pack File Folder Organizer Box",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to UNICITII File Organizer Box unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Consider a Rigid Box for Primary Storage",
-    note: "If your main need is long-term stationary storage rather than regular transport, a rigid file box (see our other portable file box guides) offers meaningfully better protection than any soft-sided bag design.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Fireproof File Box with Lock"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Fireproof File Box with Lock is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Qozary 2 Pack File Folder Organizer Box's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where UNICITII File Organizer Box covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Recognize the overlap with 'tote bag' terminology", explanation: "'Storage bag' and 'tote bag' largely describe the same soft-sided product category in this research. Compare across both our guides for the full range of options." },
-  { criterion: "Weigh long-term storage suitability against transport-only use", explanation: "A soft bag may be less suitable than a rigid box for extended stationary storage even if it's adequate for occasional transport. Match your choice to your actual primary use case." },
-  { criterion: "Favor a lidded design for better long-term protection", explanation: "A lid meaningfully improves a soft bag's suitability for stationary storage compared to an open-top design, while remaining genuinely portable when needed." },
-  { criterion: "Verify genuine hanging file support before assuming compatibility", explanation: "Not every soft bag includes a structural frame for hanging folders. Check specifically if this feature matters to your organization system." },
-  { criterion: "Consider a rigid box instead if long-term storage is your primary need", explanation: "If regular transport isn't your main use case, a rigid file box offers meaningfully better protection than any soft-sided bag for permanent stationary storage." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a portable file storage bag often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the portable file storage bag holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this portable file storage bag over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any portable file storage bag you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A portable file storage bag that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

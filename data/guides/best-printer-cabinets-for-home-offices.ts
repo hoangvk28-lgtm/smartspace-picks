@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
-      "This is a lateral mobile file cabinet with 3 open drawers, not an enclosed cabinet with doors, and it belongs in this list as a flat-top printer stand and file storage combo rather than as a fully sealed printer cabinet. The open drawer design means no ventilation concerns at all, since nothing about the printer itself is enclosed.\n\nIts rustic brown finish looks like real furniture, and the wide flat top gives a printer a stable, roomy surface while the 3 drawers underneath handle documents, paper, or ink.",
+      "This is a lateral mobile file cabinet with 3 open drawers, not an enclosed cabinet with doors, and it belongs in this list as a flat-top printer stand and file storage combo rather than as a fully sealed printer cabinet. The open drawer design means no ventilation concerns at all, since nothing about the printer itself is enclosed.\n\nIts rustic brown finish looks like real furniture, and the wide flat top gives a printer a stable, roomy surface while the 3 drawers underneath handle documents, paper, or ink.\n\nWorth calling out specifically: 3 full drawers of genuine file storage. The catch is not an enclosed cabinet, printer stays visible.",
     specs: [
       "3 lateral open drawers",
       "Rolling caster base",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Nz-Myx-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09YVJN8R7?tag=deskfinds0d-20",
     description:
-      "The Letaya is a mobile metal file cabinet with 3 lockable drawers and an open flat top, not an enclosed printer cabinet with doors. It fits letter, legal, and A4 documents, and the lock adds real security for sensitive files, a feature most enclosed printer cabinets don't offer at all.\n\nBecause the top is open rather than sealed, a printer placed on it has full airflow, no ventilation planning required, though it also means the printer stays visible rather than hidden away.",
+      "The Letaya is a mobile metal file cabinet with 3 lockable drawers and an open flat top, not an enclosed printer cabinet with doors. It fits letter, legal, and A4 documents, and the lock adds real security for sensitive files, a feature most enclosed printer cabinets don't offer at all.\n\nBecause the top is open rather than sealed, a printer placed on it has full airflow, no ventilation planning required, though it also means the printer stays visible rather than hidden away.\n\nFully assembled out of the box. Set against that, not an enclosed cabinet, no doors. Both matter when comparing it to the other picks here.",
     specs: [
       "3 lockable drawers",
       "Metal construction",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
-      "Another Letaya lateral file cabinet, this 2-drawer version is again an open-top metal file cabinet rather than an enclosed cabinet with doors. Its slightly smaller 2-drawer footprint suits a home office with less document volume than the 3-drawer version above.\n\nThe lockable drawers keep files secure, and the flat metal top gives a printer a stable, ventilated surface since nothing about the design traps heat or air around the unit.",
+      "Another Letaya lateral file cabinet, this 2-drawer version is again an open-top metal file cabinet rather than an enclosed cabinet with doors. Its slightly smaller 2-drawer footprint suits a home office with less document volume than the 3-drawer version above.\n\nThe lockable drawers keep files secure, and the flat metal top gives a printer a stable, ventilated surface since nothing about the design traps heat or air around the unit.\n\nA genuine advantage here is that locking drawers for security. The tradeoff is not an enclosed cabinet, no doors.",
     specs: [
       "2 lockable lateral drawers",
       "Metal construction",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31xyJKdJz-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQJ5WL24?tag=deskfinds0d-20",
     description:
-      "The VASAGLE CUSTOS is explicitly marketed as both a small rolling file cabinet and a printer stand, making it one of the more honestly dual-purpose picks in this list. It is an open-top design rather than a fully enclosed cabinet, sized for A4 and letter-size documents in its 2 drawers.\n\nRolling casters make it easy to reposition, and the matte black finish gives it a clean, modern look that fits most home office styles without drawing attention to itself.",
+      "The VASAGLE CUSTOS is explicitly marketed as both a small rolling file cabinet and a printer stand, making it one of the more honestly dual-purpose picks in this list. It is an open-top design rather than a fully enclosed cabinet, sized for A4 and letter-size documents in its 2 drawers.\n\nRolling casters make it easy to reposition, and the matte black finish gives it a clean, modern look that fits most home office styles without drawing attention to itself.\n\nRolling casters for easy repositioning. On the other hand, open-top design, not an enclosed cabinet. Neither should be a surprise once you know to look for it.",
     specs: [
       "2 drawers, fits A4/letter size",
       "15.7 x 16.5 x 27.6 inches",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RwvBmm-PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMZ1M3W?tag=deskfinds0d-20",
     description:
-      "DUMOS built this as an open-top wood file cabinet explicitly positioned as an under-desk printer stand, with 3 drawers for document and supply storage beneath a flat wood-finish top. It is not an enclosed cabinet with doors, so a printer placed on top has open airflow by default.\n\nThe wood finish gives it a warmer look than the metal file cabinets in this list, and its under-desk sizing means it tucks into a knee space rather than sitting out as a standalone piece.",
+      "DUMOS built this as an open-top wood file cabinet explicitly positioned as an under-desk printer stand, with 3 drawers for document and supply storage beneath a flat wood-finish top. It is not an enclosed cabinet with doors, so a printer placed on top has open airflow by default.\n\nThe wood finish gives it a warmer look than the metal file cabinets in this list, and its under-desk sizing means it tucks into a knee space rather than sitting out as a standalone piece.\n\n3 drawers of storage below an open top. That's a real strength, but weigh it against the flip side: open-top design, not enclosed with doors.",
     specs: [
       "3 drawers",
       "Wood construction",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Aix6uWuJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZ98D94?tag=deskfinds0d-20",
     description:
-      "The GYIIYUO is an open-top mobile file cabinet with a 24-inch extended desktop surface, larger than a standard file cabinet lid, giving a printer more room than most of the compact drawer units in this list. Fabric-lined drawers hold documents and supplies, and a side bag adds extra catch-all storage.\n\nAs with the other file-cabinet-style picks here, there is no enclosure or door, so ventilation is a non-issue, though the printer sits exposed on top rather than hidden.",
+      "The GYIIYUO is an open-top mobile file cabinet with a 24-inch extended desktop surface, larger than a standard file cabinet lid, giving a printer more room than most of the compact drawer units in this list. Fabric-lined drawers hold documents and supplies, and a side bag adds extra catch-all storage.\n\nAs with the other file-cabinet-style picks here, there is no enclosure or door, so ventilation is a non-issue, though the printer sits exposed on top rather than hidden.\n\nWorth calling out specifically: rolls easily on caster base. The catch is open-top design, not an enclosed cabinet.",
     specs: [
       "2 drawers, fits A4/letter size",
       "24\" extended desktop surface",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31QINv8WoNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4KYBC1R?tag=deskfinds0d-20",
     description:
-      "With 7 drawers, the OLIXIS offers by far the most individual storage compartments in this list, useful for organizing small supplies, labels, ink cartridges, and paper stock separately rather than lumping everything into 2 or 3 large drawers. It is explicitly marketed as a printer stand, and like the other drawer-based picks here, the top is open rather than enclosed.\n\nRolling wheels make it easy to reposition, and the sheer number of small drawers makes it the most organized option for buyers who accumulate a lot of small printer-adjacent supplies.",
+      "With 7 drawers, the OLIXIS offers by far the most individual storage compartments in this list, useful for organizing small supplies, labels, ink cartridges, and paper stock separately rather than lumping everything into 2 or 3 large drawers. It is explicitly marketed as a printer stand, and like the other drawer-based picks here, the top is open rather than enclosed.\n\nRolling wheels make it easy to reposition, and the sheer number of small drawers makes it the most organized option for buyers who accumulate a lot of small printer-adjacent supplies.\n\nGreat for organizing small supplies separately. Set against that, open-top design, not an enclosed cabinet. Both matter when comparing it to the other picks here.",
     specs: [
       "7 drawers",
       "Rolling caster wheels",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31cXnfFFSML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQL795FX?tag=deskfinds0d-20",
     description:
-      "The SISESOL is a narrow, open-top vertical metal file cabinet with a lock, the most budget-friendly locking option in this list. Its slim vertical footprint suits tight home offices better than the wider lateral cabinets above, though that also means less top surface area for a larger printer.\n\nEasy assembly and a straightforward metal build make it a low-fuss pick for buyers who mainly want secure document storage with a flat printer-ready surface on top.",
+      "The SISESOL is a narrow, open-top vertical metal file cabinet with a lock, the most budget-friendly locking option in this list. Its slim vertical footprint suits tight home offices better than the wider lateral cabinets above, though that also means less top surface area for a larger printer.\n\nEasy assembly and a straightforward metal build make it a low-fuss pick for buyers who mainly want secure document storage with a flat printer-ready surface on top.\n\nA genuine advantage here is that narrow footprint fits tight spaces. The tradeoff is open-top design, not an enclosed cabinet.",
     specs: [
       "2 lockable drawers",
       "Narrow vertical footprint",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Ventilation matters more than most buying guides admit",
-    explanation:
-      "Laser printers generate real heat and trace ozone during operation, and inkjets still need air circulation to avoid trapping moisture inside an enclosure. None of the picks in this list are fully sealed cabinets, they're all open-top designs, which sidesteps the ventilation problem entirely, but if you're shopping beyond this list for a fully enclosed door-front cabinet, confirm it has a vent slot or gap before buying.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer cabinet often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "An enclosed door and easy print access are in direct tension",
-    explanation:
-      "Closing a cabinet door during an active print job can cause paper jams or block access to the output tray, which defeats the point of hiding the printer in the first place. A cabinet with a paper passthrough slot solves this, but it's a design detail worth specifically asking about since most enclosed cabinets on the market don't include one.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer cabinet holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Know the difference between a file cabinet and an enclosed printer cabinet before buying",
-    explanation:
-      "Several of the picks in this list, and in this product category broadly, are mobile file cabinets with an open top and drawers underneath, not fully enclosed cabinets with doors. Both serve the same basic function, a flat printer-ready surface plus storage, but only a true enclosed cabinet actually hides the printer from view.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer cabinet over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Interior height needs to account for a scanner lid, not just the printer body",
-    explanation:
-      "If you're considering a fully enclosed cabinet for an all-in-one with a scanner lid that opens upward, budget roughly 12-15 extra inches of interior clearance above the printer's closed height. Measure your printer's height with the lid open, not just its resting footprint, before assuming it will fit inside a sealed cabinet.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer cabinet you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Route cables through the back, not around the door",
-    explanation:
-      "If you buy a fully enclosed cabinet elsewhere, check whether it has a grommet hole or cutout in the back panel for cable routing. Without one, power and USB cables end up pinched in the door gap, which strains the cord and can eventually damage the connector.",
-  },
-  {
-    criterion: "Noise reduction from an enclosure is real but modest, not dramatic",
-    explanation:
-      "An enclosed cabinet can reduce the perceived noise of a 40-55 dB laser printer, but typically only by an estimated 5-10 dB, not enough to make a loud printer silent. Don't buy a cabinet purely for noise control expecting dramatic results; it's a secondary benefit, not the main reason to choose one.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer cabinet that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,75 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Enclosed Cabinet vs. Open-Top File Cabinet",
-    intro:
-      "Every pick in this list is an open-top file cabinet with a flat printer-ready surface, not a fully enclosed cabinet with doors, so match your expectations accordingly.",
-    table: {
-      headers: ["What you want", "What to expect", "Best pick"],
-      rows: [
-        ["Maximum document storage, printer visible", "Open-top file cabinet with several drawers", "OLIXIS 7 Drawer, DEVAISE 3-Drawer"],
-        ["Honest printer stand + file storage combo", "Marketed explicitly for printer use", "VASAGLE CUSTOS, DUMOS Wood Cabinet"],
-        ["Fully hidden printer behind doors", "Not offered by picks in this list, seek a dedicated enclosed cabinet with a vent slot", "None of these 8 (see note below)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a fully enclosed, door-front cabinet is a hard requirement, prioritize one with either a vent slot or a rear grommet hole before buying, since sealed cabinets without airflow can trap heat and, for laser printers, ozone.",
+      "rows": [
+        [
+          "Highest average rating",
+          "DEVAISE 3"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "DEVAISE 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Printer Type",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $45",
+          "SISESOL 2 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Up to $100",
+          "Letaya 2 Drawer File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "SISESOL 2 Drawer File Cabinet with Lock vs Letaya 2 Drawer File Cabinet with Lock",
+    "cards": [
       {
-        label: "Laser printer (heat and ozone concerns)",
-        text: "Favor the open-top picks in this list, like the Simple lateral file cabinets, since open airflow avoids any heat or ozone buildup that a sealed enclosure could cause.",
+        "label": "SISESOL 2 Drawer File Cabinet with Lock",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Inkjet printer (moisture and airflow)",
-        text: "Any open-top pick works well; the DUMOS Wood Cabinet or GYIIYUO Extended Desktop give a wide, stable surface for a bulkier inkjet all-in-one.",
-      },
-      {
-        label: "All-in-one with a scanner lid",
-        text: "Check the printer's height with the lid open, not just closed, since a scanner lid needs roughly 12-15 extra inches of clearance if you're later pairing it with any enclosed cabinet.",
-      },
+        "label": "Letaya 2 Drawer File Cabinet with Lock",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SISESOL 2 Drawer File Cabinet with Lock unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Document Storage Needs",
-    intro:
-      "Drawer count and lock availability vary widely across these picks, so match the cabinet to how much filing you actually do.",
-    table: {
-      headers: ["Storage need", "Recommended drawer count", "Best pick"],
-      rows: [
-        ["Light document storage, tight space", "1-2 drawers, narrow footprint", "SISESOL 2 Drawer, Letaya 2 Drawer Lateral"],
-        ["Moderate storage with security", "2-3 lockable drawers", "Letaya 3 Drawer, VASAGLE CUSTOS"],
-        ["Heavy filing plus small-item organization", "3-7 drawers", "OLIXIS 7 Drawer, DEVAISE 3-Drawer"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "DEVAISE 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Noise Expectations from an Enclosure",
-    intro:
-      "None of these picks are acoustically sealed, but this is worth understanding before you shop for a fully enclosed cabinet elsewhere.",
-    table: {
-      headers: ["Printer noise level", "Enclosed cabinet reduction (estimate)", "Realistic result"],
-      rows: [
-        ["Laser printer, 40-55 dB", "Roughly 5-10 dB with a sealed door", "Noticeably quieter, not silent"],
-        ["Inkjet printer, 35-45 dB", "Roughly 5-10 dB with a sealed door", "Modest reduction only"],
-      ],
-    },
-    note: "Don't buy an enclosed cabinet expecting to eliminate printer noise entirely; treat any reduction as a bonus on top of the storage and concealment benefits.",
-  },
-  {
-    subheading: "Cable Routing Setup",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Open-top file cabinets (all 8 picks in this list)",
-        text: "Cables run freely over the back or side of the unit since there's no enclosure to route around, the simplest setup of any printer furniture category.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "If you later add a fully enclosed cabinet",
-        text: "Check for a grommet hole or cutout in the back panel; without one, cables get pinched in the door gap, which strains the connector over time.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "DEVAISE 3 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Letaya 2 Drawer File Cabinet with Lock's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SISESOL 2 Drawer File Cabinet with Lock covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

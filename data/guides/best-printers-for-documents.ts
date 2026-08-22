@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "As the only true laser printer in this list, the DCP-L2640DW is the sharpest text output here, because toner fuses to the page with clean, crisp edges rather than absorbing into the paper fibers the way inkjet ink does. That mechanical difference is why a 600dpi laser regularly looks sharper for plain text than a higher-resolution inkjet, even though the spec sheet number is lower.\n\nToner is also more archivally stable than dye-based inkjet ink, holding up for decades without the fading that can affect inkjet documents stored for the long term. Duplex printing and a mobile-ready design round it out, making this the pick for anyone whose documents are mostly black-and-white text that needs to stay legible for years.",
+      "As the only true laser printer in this list, the DCP-L2640DW is the sharpest text output here, because toner fuses to the page with clean, crisp edges rather than absorbing into the paper fibers the way inkjet ink does. That mechanical difference is why a 600dpi laser regularly looks sharper for plain text than a higher-resolution inkjet, even though the spec sheet number is lower.\n\nToner is also more archivally stable than dye-based inkjet ink, holding up for decades without the fading that can affect inkjet documents stored for the long term. Duplex printing and a mobile-ready design round it out, making this the pick for anyone whose documents are mostly black-and-white text that needs to stay legible for years.\n\nLong archival stability for legal or important documents. On the other hand, monochrome only, no color printing. Neither should be a surprise once you know to look for it.",
     specs: [
       "Monochrome laser engine",
       "Duplex printing",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "This is a color laser all-in-one, and it keeps the sharp, feathering-free text edges that any laser engine delivers while adding color for charts, letterhead, and colored forms. It fuses toner cleanly onto pre-printed letterhead and colored stock rather than risking the bleed an inkjet can show on the same paper, a real advantage for professional document output.\n\nAt this price it's aimed at a household or small office producing a genuine mix of text-heavy documents and color materials at real volume, not an occasional user. The auto document feeder and 35ppm speed support that higher-volume document workflow well.",
+      "This is a color laser all-in-one, and it keeps the sharp, feathering-free text edges that any laser engine delivers while adding color for charts, letterhead, and colored forms. It fuses toner cleanly onto pre-printed letterhead and colored stock rather than risking the bleed an inkjet can show on the same paper, a real advantage for professional document output.\n\nAt this price it's aimed at a household or small office producing a genuine mix of text-heavy documents and color materials at real volume, not an occasional user. The auto document feeder and 35ppm speed support that higher-volume document workflow well.\n\nHandles letterhead and colored stock cleanly. That's a real strength, but weigh it against the flip side: highest price in this list by a wide margin.",
     specs: [
       "Color laser engine",
       "Auto document feeder",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "The HL-L3220CDW brings laser-sharp text and clean letterhead handling at a lower price than the imageCLASS above, at 19ppm with a 250-sheet tray for a household producing regular document volume. It's a genuine step-up option for anyone who wants laser's text quality and archival stability without needing the higher-volume Canon's price or footprint.\n\nIt's a printer engine only, without a built-in scanner or auto document feeder, so it's best paired with a separate scanning solution if you regularly need to digitize incoming paperwork rather than just output it.",
+      "The HL-L3220CDW brings laser-sharp text and clean letterhead handling at a lower price than the imageCLASS above, at 19ppm with a 250-sheet tray for a household producing regular document volume. It's a genuine step-up option for anyone who wants laser's text quality and archival stability without needing the higher-volume Canon's price or footprint.\n\nIt's a printer engine only, without a built-in scanner or auto document feeder, so it's best paired with a separate scanning solution if you regularly need to digitize incoming paperwork rather than just output it.\n\nWorth calling out specifically: large 250-sheet tray reduces refill frequency. The catch is no built-in scanner or ADF.",
     specs: [
       "Color laser engine",
       "19 ppm print speed",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e pairs an auto document feeder and duplex printing with color inkjet output, a practical choice for a household doing a genuine mix of text documents, forms, and the occasional color chart or photo. Text won't be quite as crisp-edged as a laser printer's, since ink absorbs into paper fibers rather than fusing on top, but it's a reasonable middle ground for mixed document needs.\n\nFor archival documents you plan to keep for decades, be aware that dye-based inkjet output can fade over 25-50 years, noticeably faster than laser toner. Pigment-based inkjet output lasts longer, though this model uses standard dye-based cartridges.",
+      "The OfficeJet Pro 8125e pairs an auto document feeder and duplex printing with color inkjet output, a practical choice for a household doing a genuine mix of text documents, forms, and the occasional color chart or photo. Text won't be quite as crisp-edged as a laser printer's, since ink absorbs into paper fibers rather than fusing on top, but it's a reasonable middle ground for mixed document needs.\n\nFor archival documents you plan to keep for decades, be aware that dye-based inkjet output can fade over 25-50 years, noticeably faster than laser toner. Pigment-based inkjet output lasts longer, though this model uses standard dye-based cartridges.\n\nHandles both text documents and color output. Set against that, text edges softer than any laser pick. Both matter when comparing it to the other picks here.",
     specs: [
       "Auto document feeder",
       "Duplex printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MuruhvCqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFHCYK7?tag=deskfinds0d-20",
     description:
-      "The standard OfficeJet Pro 8125 shares the 8125e's auto document feeder and duplex printing at a slightly higher price, without tying you to HP's specific Instant Ink enrollment defaults. Document quality is the same inkjet-level sharpness as its sibling, a step below laser but perfectly usable for everyday text output.\n\nFor letterhead or pre-printed colored forms, keep in mind inkjet ink can occasionally bleed at edges where laser toner fuses cleanly, worth testing on a spare sheet before running a full batch of official stationery through it.",
+      "The standard OfficeJet Pro 8125 shares the 8125e's auto document feeder and duplex printing at a slightly higher price, without tying you to HP's specific Instant Ink enrollment defaults. Document quality is the same inkjet-level sharpness as its sibling, a step below laser but perfectly usable for everyday text output.\n\nFor letterhead or pre-printed colored forms, keep in mind inkjet ink can occasionally bleed at edges where laser toner fuses cleanly, worth testing on a spare sheet before running a full batch of official stationery through it.\n\nA genuine advantage here is that auto document feeder and duplex printing. The tradeoff is text edges softer than any laser pick here.",
     specs: [
       "Auto document feeder",
       "Duplex printing",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 brings an auto document feeder and built-in fax to a budget price, useful for a household that occasionally needs to scan or send a signed multi-page form without paying for a pricier office machine. Text quality is standard inkjet, fine for everyday paperwork but not the crispest option on this list.\n\nFor matte paper and standard letter documents it performs reliably; glossy finishes and heavy color coverage aren't its strength, so keep it to plain text and light color documents rather than anything archival or client-facing.",
+      "The PIXMA TR4720 brings an auto document feeder and built-in fax to a budget price, useful for a household that occasionally needs to scan or send a signed multi-page form without paying for a pricier office machine. Text quality is standard inkjet, fine for everyday paperwork but not the crispest option on this list.\n\nFor matte paper and standard letter documents it performs reliably; glossy finishes and heavy color coverage aren't its strength, so keep it to plain text and light color documents rather than anything archival or client-facing.\n\nBuilt-in fax for households that still need it. On the other hand, softer text edges than any laser pick. Neither should be a surprise once you know to look for it.",
     specs: [
       "Auto document feeder",
       "Built-in fax",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "Brother's INKvestment cartridges hold more ink than typical inkjet cartridges, cutting how often you're replacing them for a household printing a real volume of documents rather than occasional pages. Automatic two-sided copy and scan through a color touchscreen makes handling multi-page paperwork straightforward.\n\nAs an inkjet, text still won't match a laser printer's crisp toner edges, and dye-based ink is less archivally stable than toner for documents you need to last decades. It's the better choice over a standard inkjet specifically when you want inkjet's color flexibility at higher document volume without stepping up to a laser's price.",
+      "Brother's INKvestment cartridges hold more ink than typical inkjet cartridges, cutting how often you're replacing them for a household printing a real volume of documents rather than occasional pages. Automatic two-sided copy and scan through a color touchscreen makes handling multi-page paperwork straightforward.\n\nAs an inkjet, text still won't match a laser printer's crisp toner edges, and dye-based ink is less archivally stable than toner for documents you need to last decades. It's the better choice over a standard inkjet specifically when you want inkjet's color flexibility at higher document volume without stepping up to a laser's price.\n\nAutomatic duplex copy and scan. That's a real strength, but weigh it against the flip side: text still softer than any laser pick here.",
     specs: [
       "INKvestment high-capacity cartridges",
       "Automatic 2-sided copy and scan",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520 is the most compact pick in this list, with a 1.42-inch OLED display and duplex printing for a household that only needs light, occasional document output. It won't match a laser's text sharpness, but for everyday letters, forms, and school paperwork the difference isn't noticeable at typical reading distance.\n\nMatte paper is the better choice for legibility with this or any inkjet in this list; glossy finishes introduce glare that makes dense text harder to read under overhead lighting.",
+      "The TS6520 is the most compact pick in this list, with a 1.42-inch OLED display and duplex printing for a household that only needs light, occasional document output. It won't match a laser's text sharpness, but for everyday letters, forms, and school paperwork the difference isn't noticeable at typical reading distance.\n\nMatte paper is the better choice for legibility with this or any inkjet in this list; glossy finishes introduce glare that makes dense text harder to read under overhead lighting.\n\nWorth calling out specifically: duplex printing built in. The catch is softer text than any laser pick here.",
     specs: [
       "1.42\" OLED display",
       "Duplex printing",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Laser text is sharper because of how it's applied to the page",
-    explanation:
-      "Laser printers fuse toner onto the paper surface with crisp, clean edges, while inkjet ink absorbs into the paper fibers and can feather slightly at text edges. This mechanical difference is why laser text consistently looks sharper at typical reading distance, regardless of the printer's stated resolution.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "DPI is not the deciding factor for text quality",
-    explanation:
-      "A 600dpi laser printer often produces sharper-looking text than a 1200dpi inkjet, because the way toner sits on the page matters more than the raw dot count. Don't choose a document printer based on DPI alone; check whether it's laser or inkjet first.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Archival quality matters for legal or long-term documents",
-    explanation:
-      "Laser toner is stable for well over 100 years in normal storage conditions. Dye-based inkjet ink, the type used in most budget inkjets, can fade noticeably within 25-50 years. Pigment-based inkjet ink lasts longer than dye but still isn't as stable as toner. Choose a laser printer for contracts, legal records, or anything you need to remain legible for decades.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Match paper finish to how the document will be read",
-    explanation:
-      "Matte paper is more legible for dense text under overhead lighting, since glossy finishes introduce glare. Save glossy paper for photos or marketing materials, not everyday document printing.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Laser handles letterhead and pre-printed forms more cleanly",
-    explanation:
-      "Inkjet ink can bleed slightly at the edges when printed over pre-printed colored forms or letterhead, while laser toner fuses cleanly on top without that risk. If you regularly print onto company letterhead, a laser printer is the safer choice.",
-  },
-  {
-    criterion: "Match the printer to real document volume, not just quality",
-    explanation:
-      "A laser printer's higher upfront cost pays off faster the more you print, especially for text-heavy volume above roughly 100-300 pages a month. Below that, a document-capable inkjet with an auto document feeder, like the OfficeJet Pro 8125e, is usually the more cost-effective choice.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,67 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Document Type",
-    intro:
-      "Different documents have different priorities, and the right printer changes depending on what you're producing.",
-    table: {
-      headers: ["Document type", "Priority", "Best pick"],
-      rows: [
-        ["Text-heavy letters, forms, contracts", "Sharp text, archival stability", "Brother DCP-L2640DW"],
-        ["Mixed text and color charts, regular volume", "Sharp text plus color", "Canon Color imageCLASS MF753Cdw II or Brother HL-L3220CDW"],
-        ["Everyday mixed documents, lower budget", "Balance of cost and ADF", "HP OfficeJet Pro 8125e"],
-        ["Occasional light letters and school paperwork", "Low cost, small footprint", "Canon PIXMA TS6520"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother DCP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why 600dpi Laser Beats 1200dpi Inkjet for Text",
-    cards: [
-      {
-        label: "How laser works",
-        text: "Toner particles fuse onto the paper surface under heat, forming clean, well-defined edges regardless of the exact DPI rating.",
-      },
-      {
-        label: "How inkjet works",
-        text: "Liquid ink is absorbed into the paper fibers, which can cause slight feathering at text edges even at a higher stated resolution.",
-      },
-      {
-        label: "The takeaway",
-        text: "For plain text specifically, check print technology before comparing DPI numbers between models. A lower-DPI laser will often out-perform a higher-DPI inkjet on text sharpness alone.",
-      },
-    ],
-  },
-  {
-    subheading: "Archival Quality for Legal and Important Documents",
-    table: {
-      headers: ["Ink or toner type", "Approximate stability", "Best pick"],
-      rows: [
-        ["Laser toner", "100+ years in normal storage", "Brother DCP-L2640DW, Brother HL-L3220CDW, Canon imageCLASS MF753Cdw II"],
-        ["Pigment-based inkjet ink", "Longer than dye, but less than toner", "Not used by default in this list's inkjets"],
-        ["Dye-based inkjet ink", "Roughly 25-50 years before visible fading", "HP OfficeJet Pro 8125/8125e, Canon PIXMA and Brother INKvestment picks"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If you're printing something you need to remain legible in 20+ years, a laser printer is the safer bet over any dye-based inkjet in this list.",
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Letterhead and Pre-Printed Form Printing",
-    intro:
-      "Printing onto colored or pre-printed stationery is one place laser and inkjet visibly diverge.",
-    note: "Laser toner fuses cleanly over pre-printed letterhead and colored forms without bleeding. Inkjet ink can bleed slightly at the edges of existing print, so test a spare sheet before running a full batch of official stationery through an inkjet pick like the OfficeJet Pro 8125 or PIXMA TR4720.",
-  },
-  {
-    subheading: "Paper Finish Recommendation",
-    cards: [
+    "subheading": "Canon PIXMA TR4720 All vs Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+    "cards": [
       {
-        label: "Matte paper",
-        text: "The better choice for legibility on dense text documents, since it doesn't introduce glare under overhead office lighting.",
+        "label": "Canon PIXMA TR4720 All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Glossy paper",
-        text: "Reserve for photos or marketing pieces where color vibrancy matters more than reading comfort; it isn't the right choice for everyday document printing.",
-      },
+        "label": "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TR4720 All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Brother DCP"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Brother DCP is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

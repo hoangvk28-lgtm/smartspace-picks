@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 keeps things simple with print, scan, and copy in a low upfront package, ideal for a household that prints a handful of times a month rather than daily. The included Instant Ink trial gives a soft landing on early ink costs while you gauge your actual usage.\n\nBecause this is a standard cartridge printer rather than an ink-tank model, it fits occasional use better than high volume, cartridges left idle between uses can dry out over weeks, so plan to run a nozzle check before an important print job after a quiet stretch.",
+      "The DeskJet 4355 keeps things simple with print, scan, and copy in a low upfront package, ideal for a household that prints a handful of times a month rather than daily. The included Instant Ink trial gives a soft landing on early ink costs while you gauge your actual usage.\n\nBecause this is a standard cartridge printer rather than an ink-tank model, it fits occasional use better than high volume, cartridges left idle between uses can dry out over weeks, so plan to run a nozzle check before an important print job after a quiet stretch.\n\nWorth calling out specifically: simple setup for infrequent use. The catch is cartridge ink can dry out over long idle stretches.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The TS4320 is one of the least expensive printers in this list, a straightforward inkjet built for compact spaces and easy setup rather than sustained daily use. Duplex printing and built-in copy and scan cover the basics.\n\nFor a quarterly or monthly user, unplugging the printer between uses helps, many inkjets skip periodic auto-clean cycles when unpowered, which reduces the ink wasted maintaining a printer that's mostly sitting idle.",
+      "The TS4320 is one of the least expensive printers in this list, a straightforward inkjet built for compact spaces and easy setup rather than sustained daily use. Duplex printing and built-in copy and scan cover the basics.\n\nFor a quarterly or monthly user, unplugging the printer between uses helps, many inkjets skip periodic auto-clean cycles when unpowered, which reduces the ink wasted maintaining a printer that's mostly sitting idle.\n\nCompact footprint. Set against that, cartridge ink can dry out during long idle periods. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet with duplex printing",
       "Built-in copier and scanner",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520's 1.42-inch OLED display makes it easier to check ink status or clear an error without a phone app, useful for an occasional user who might forget how the printer behaves after weeks away from it. Duplex printing and built-in copy and scan round out the basics.\n\nExpect the first print after a long idle period to sometimes show streaks or missing lines from settled ink, running a quick test page before anything important sets the right expectation and catches issues early.",
+      "The TS6520's 1.42-inch OLED display makes it easier to check ink status or clear an error without a phone app, useful for an occasional user who might forget how the printer behaves after weeks away from it. Duplex printing and built-in copy and scan round out the basics.\n\nExpect the first print after a long idle period to sometimes show streaks or missing lines from settled ink, running a quick test page before anything important sets the right expectation and catches issues early.\n\nA genuine advantage here is that duplex printing built in. The tradeoff is cartridge ink can dry out with infrequent use.",
     specs: [
       "Color inkjet, duplex printing",
       "Built-in copier and scanner",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 includes an automatic document feeder, unusual at this price point, useful for someone who occasionally needs to scan a small stack of pages rather than feeding them one at a time. Mobile printing and built-in fax round out a fuller feature set than most budget printers.\n\nAs a cartridge-based printer, it's better suited to occasional or light use than sustained daily volume, where an ink-tank model would pull ahead on cost per page.",
+      "The PIXMA TR4720 includes an automatic document feeder, unusual at this price point, useful for someone who occasionally needs to scan a small stack of pages rather than feeding them one at a time. Mobile printing and built-in fax round out a fuller feature set than most budget printers.\n\nAs a cartridge-based printer, it's better suited to occasional or light use than sustained daily volume, where an ink-tank model would pull ahead on cost per page.\n\nMobile printing from phone or tablet. On the other hand, cartridge ink costs more per page than ink-tank models at real volume. Neither should be a surprise once you know to look for it.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Mobile printing support",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-ZgpCGxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DV6FV5?tag=deskfinds0d-20",
     description:
-      "The TS3720 strips things down to basic print, scan, and copy at the lowest price in this list, a sensible pick for a household that prints rarely and doesn't want to pay for features they won't use. Setup is straightforward.\n\nBecause a very-low-volume user may go months between print jobs, unplugging the printer when it's not needed and running a quick nozzle check before printing helps avoid streaky first pages from settled ink.",
+      "The TS3720 strips things down to basic print, scan, and copy at the lowest price in this list, a sensible pick for a household that prints rarely and doesn't want to pay for features they won't use. Setup is straightforward.\n\nBecause a very-low-volume user may go months between print jobs, unplugging the printer when it's not needed and running a quick nozzle check before printing helps avoid streaky first pages from settled ink.\n\nNo unnecessary extra features to pay for. That's a real strength, but weigh it against the flip side: cartridge ink can dry out with infrequent use.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Wireless printing",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31BXOlNqjZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B010A7TZ76?tag=deskfinds0d-20",
     description:
-      "The MG3620 emphasizes mobile and tablet printing, useful for someone who occasionally prints a boarding pass, recipe, or PDF straight from a phone rather than a computer. Wireless setup covers the basics for a shared home network.\n\nAt a higher price than the more basic picks in this list, it makes the most sense if tablet or mobile printing convenience specifically matters to you, rather than as a pure low-cost option.",
+      "The MG3620 emphasizes mobile and tablet printing, useful for someone who occasionally prints a boarding pass, recipe, or PDF straight from a phone rather than a computer. Wireless setup covers the basics for a shared home network.\n\nAt a higher price than the more basic picks in this list, it makes the most sense if tablet or mobile printing convenience specifically matters to you, rather than as a pure low-cost option.\n\nWorth calling out specifically: simple print, scan, copy feature set. The catch is higher price than the more basic picks in this list.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Mobile and tablet printing emphasis",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314c84l3lcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FDZZK3H?tag=deskfinds0d-20",
     description:
-      "The TS6420 is priced higher than most picks in this list but delivers better photo output, worth it if occasional use for you means printing family photos a few times a year rather than only documents. Print, scan, and copy round out the feature set.\n\nAt this price, it's the priciest cartridge-based option here, so it fits best when photo quality specifically matters more than minimizing upfront spend.",
+      "The TS6420 is priced higher than most picks in this list but delivers better photo output, worth it if occasional use for you means printing family photos a few times a year rather than only documents. Print, scan, and copy round out the feature set.\n\nAt this price, it's the priciest cartridge-based option here, so it fits best when photo quality specifically matters more than minimizing upfront spend.\n\nSimple print, scan, copy feature set. Set against that, priciest cartridge-based pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one",
       "Wireless printing",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zPjelEtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZC56ZH4?tag=deskfinds0d-20",
     description:
-      "This inkless thermal printer sidesteps the ink dry-out problem entirely, there's no ink to dry out because there isn't any, making it a genuinely different fit for someone who prints extremely rarely, once every few months or less. It supports full 8.5 by 11 inch US Letter and A4 pages over Bluetooth from a phone or laptop.\n\nThe tradeoff is thermal printing quality and paper cost, thermal paper is pricier per page than standard paper and doesn't hold up as well long-term as ink or toner on regular paper, so this suits quick, disposable documents rather than anything you need to keep for years.",
+      "This inkless thermal printer sidesteps the ink dry-out problem entirely, there's no ink to dry out because there isn't any, making it a genuinely different fit for someone who prints extremely rarely, once every few months or less. It supports full 8.5 by 11 inch US Letter and A4 pages over Bluetooth from a phone or laptop.\n\nThe tradeoff is thermal printing quality and paper cost, thermal paper is pricier per page than standard paper and doesn't hold up as well long-term as ink or toner on regular paper, so this suits quick, disposable documents rather than anything you need to keep for years.\n\nA genuine advantage here is that lowest price in this list. The tradeoff is thermal paper costs more per page than standard paper.",
     specs: [
       "Inkless thermal printing, no ink or toner needed",
       "Supports 8.5 x 11 inch US Letter and A4",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Define your actual frequency before choosing",
-    explanation:
-      "Weekly, monthly, and quarterly printing carry very different ink-drying risk profiles. A weekly printer can safely use any cartridge-based model in this list, while a quarterly printer should lean toward the inkless thermal option or plan to run maintenance cycles before each rare use.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Auto power-on and nozzle-check cycles quietly consume ink",
-    explanation:
-      "Inkjet printers left plugged in run periodic auto-clean and nozzle-check cycles even when not actively printing, consuming a measurable amount of ink over months for an occasional user. Over a year, this can amount to a meaningful fraction of a cartridge's total ink for a printer that's rarely used.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Unplug an idle inkjet printer between uses",
-    explanation:
-      "Many inkjet models skip their scheduled auto-clean cycles when fully unpowered, which reduces the ink wasted maintaining a printer nobody's using. Fully unplugging, not just leaving it in sleep mode, is the more effective habit for occasional use.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Laser toner has a shelf life too",
-    explanation:
-      "Bundled toner commonly has a shelf life of around 2 years from the date of manufacture, meaning a very-low-volume laser user could see toner expire before finishing it. If you're considering a laser printer for occasional use, check the toner's manufacture date rather than assuming it lasts indefinitely.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Expect the first print after a long idle period to need a check",
-    explanation:
-      "Inkjet printers commonly show streaks or missing nozzle lines on the first job after weeks of idle time, while laser printers are more forgiving. Run a test page before anything important rather than trusting the first print to look right.",
-  },
-  {
-    criterion: "Don't over-invest in ink-tank economics for rare printing",
-    explanation:
-      "Ink-tank printers only pay back their higher upfront price at real volume, hundreds of pages a month. An occasional user printing a handful of pages a month is almost always better served by a basic cartridge inkjet or the inkless thermal option in this list.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,60 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Print Frequency",
-    intro: "Match your realistic print frequency to the right pick, not the printer with the most features.",
-    table: {
-      headers: ["Frequency", "Ink dry-out risk", "Recommended pick"],
-      rows: [
-        ["Weekly", "Low, ink stays fresh with regular use", "Canon PIXMA TS6520 or HP DeskJet 4355"],
-        ["Monthly", "Moderate, worth a nozzle check occasionally", "Canon PIXMA TR4720 or TS3720"],
-        ["Quarterly or less", "High for cartridge printers", "MT610Pro inkless thermal printer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By What You Actually Print",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $54",
+          "MT610Pro Inkless Portable Thermal Printer for Travel and Home Office"
+        ],
+        [
+          "Up to $139",
+          "Canon TS6420 All"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "MT610Pro Inkless Portable Thermal Printer for Travel and Home Office vs Canon TS6420 All",
+    "cards": [
       {
-        label: "Mostly documents and forms",
-        text: "The Canon PIXMA TS3720 or HP DeskJet 4355 cover basic document printing at the lowest cost.",
+        "label": "MT610Pro Inkless Portable Thermal Printer for Travel and Home Office",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Occasional multi-page scanning",
-        text: "The Canon PIXMA TR4720 includes an automatic document feeder at a budget price.",
-      },
-      {
-        label: "A few photos a year",
-        text: "The Canon TS6420 delivers noticeably better photo output than the more basic picks.",
-      },
-      {
-        label: "Quick throwaway prints, labels, or notes",
-        text: "The MT610Pro inkless thermal printer skips ink maintenance entirely for disposable prints.",
-      },
+        "label": "Canon TS6420 All",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to MT610Pro Inkless Portable Thermal Printer for Travel and Home Office unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "The Unplug Habit for Inkjet Owners",
-    note:
-      "If you own any of the cartridge-based inkjets in this list, unplugging the printer fully between uses, rather than leaving it in sleep mode, reduces the ink wasted on periodic auto-clean and nozzle-check cycles that run even when the printer sits idle. This one habit meaningfully extends how long a single cartridge lasts for an occasional user.",
-  },
-  {
-    subheading: "Inkjet vs. Inkless Thermal for Rare Use",
-    table: {
-      headers: ["Factor", "Cartridge inkjet", "Inkless thermal (MT610Pro)"],
-      rows: [
-        ["Ink dry-out risk after months idle", "Real risk, may need a nozzle check", "None, no ink involved"],
-        ["Per-page paper cost", "Lower, standard paper", "Higher, thermal paper"],
-        ["Document longevity", "Good on standard paper", "Weaker, thermal print fades over time"],
-        ["Best for", "Occasional documents you'll keep", "Quick, disposable prints"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "First Print After a Long Break: What to Expect",
-    note:
-      "For any cartridge-based inkjet in this list, don't trust the first print after weeks or months of idle time to look right. Run a nozzle check or test page first, streaking or missing lines are common after a long break and usually clear up after a cleaning cycle or two.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon TS6420 All's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where MT610Pro Inkless Portable Thermal Printer for Travel and Home Office covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

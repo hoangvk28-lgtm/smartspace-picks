@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31WP4JM4puL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNT2F4Q5?tag=deskfinds0d-20",
     description:
-      "This Rongta 80mm printer covers the standard receipt width most POS software expects by default, which matters because formatting a receipt for a mismatched paper width causes cut-off totals and wasted paper. An automatic cutter trims each receipt cleanly without a manual tear bar, a small detail that speeds up a busy checkout line.\n\nIt connects over USB for a simple counter setup and handles the daily volume of a retail shop or small restaurant without issue. The tradeoff is a slightly larger footprint than the mini printer in this list, so measure your counter space before buying if the surface is tight.",
+      "This Rongta 80mm printer covers the standard receipt width most POS software expects by default, which matters because formatting a receipt for a mismatched paper width causes cut-off totals and wasted paper. An automatic cutter trims each receipt cleanly without a manual tear bar, a small detail that speeds up a busy checkout line.\n\nIt connects over USB for a simple counter setup and handles the daily volume of a retail shop or small restaurant without issue. The tradeoff is a slightly larger footprint than the mini printer in this list, so measure your counter space before buying if the surface is tight.\n\nWorth calling out specifically: auto cutter speeds up checkout. The catch is larger footprint than a mini 58mm printer.",
     specs: [
       "80mm thermal paper width",
       "Automatic paper cutter",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ZmM7etUEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08V4H7T47?tag=deskfinds0d-20",
     description:
-      "The RP326 adds cash drawer support alongside USB, serial, and Ethernet interfaces, which makes it a fit for a shop that already runs a kick-open cash drawer at checkout and wants the receipt printer to trigger it directly. This is not something every receipt printer in this list handles out of the box.\n\nIts 80mm width and auto cutter match the standard restaurant and retail workflow, and the multiple interface options give more flexibility for shops networking several registers together rather than running a single standalone counter.",
+      "The RP326 adds cash drawer support alongside USB, serial, and Ethernet interfaces, which makes it a fit for a shop that already runs a kick-open cash drawer at checkout and wants the receipt printer to trigger it directly. This is not something every receipt printer in this list handles out of the box.\n\nIts 80mm width and auto cutter match the standard restaurant and retail workflow, and the multiple interface options give more flexibility for shops networking several registers together rather than running a single standalone counter.\n\nMultiple connection options for networked setups. Set against that, more setup steps than a plug-and-play USB-only printer. Both matter when comparing it to the other picks here.",
     specs: [
       "80mm thermal paper width",
       "Automatic paper cutter",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41El+d9Kg4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B099MLDBKJ?tag=deskfinds0d-20",
     description:
-      "This is a shipping label printer rather than a receipt printer, built for a 4x6 format that matches Amazon, Shopify, Etsy, and USPS label sizing directly. Bluetooth connects it to a phone or tablet, which suits a home-based e-commerce seller who packs and labels orders without a dedicated checkout counter.\n\nBecause it prints labels rather than register receipts, it is a poor substitute for a POS receipt printer at a physical counter, but for a seller shipping several packages a day it removes the trip to a shipping store or the cost of pre-printed labels.",
+      "This is a shipping label printer rather than a receipt printer, built for a 4x6 format that matches Amazon, Shopify, Etsy, and USPS label sizing directly. Bluetooth connects it to a phone or tablet, which suits a home-based e-commerce seller who packs and labels orders without a dedicated checkout counter.\n\nBecause it prints labels rather than register receipts, it is a poor substitute for a POS receipt printer at a physical counter, but for a seller shipping several packages a day it removes the trip to a shipping store or the cost of pre-printed labels.\n\nA genuine advantage here is that bluetooth makes it easy to print from a phone while packing orders. The tradeoff is not a substitute for a checkout-counter receipt printer.",
     specs: [
       "4x6 label format",
       "Bluetooth wireless connection",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/516JTpeV2EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DX6RVJF7?tag=deskfinds0d-20",
     description:
-      "This budget 4x6 label printer covers the same core job as the JADENS pick above at a lower price point, printing shipping labels over Bluetooth for a small business packing and shipping its own orders. It skips extras like cash drawer support since it is not designed as a checkout register printer at all.\n\nFor a seller shipping a handful of packages a day rather than running a full retail counter, this is the cheapest way into dedicated label printing without relying on a home inkjet and adhesive label sheets, which cost more per label and print far slower.",
+      "This budget 4x6 label printer covers the same core job as the JADENS pick above at a lower price point, printing shipping labels over Bluetooth for a small business packing and shipping its own orders. It skips extras like cash drawer support since it is not designed as a checkout register printer at all.\n\nFor a seller shipping a handful of packages a day rather than running a full retail counter, this is the cheapest way into dedicated label printing without relying on a home inkjet and adhesive label sheets, which cost more per label and print far slower.\n\nBluetooth printing from a phone or tablet. On the other hand, not a receipt printer for a checkout counter. Neither should be a surprise once you know to look for it.",
     specs: [
       "4x6 thermal label format",
       "Bluetooth wireless connection",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31bM-Xs2inL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL481GS1?tag=deskfinds0d-20",
     description:
-      "The Sunydog mini printer uses 58mm paper, narrower than the 80mm standard, which suits a compact receipt format or a mobile vendor stand rather than a full-size register. Its small footprint and portability fit a market stall, pop-up shop, or side counter where space is limited.\n\nBefore buying, confirm your POS software supports a 58mm receipt template, since some platforms default to 80mm formatting and will cut off content on the narrower paper without a manual template adjustment. This is the lowest-priced pick in this list and the best fit for genuinely low-volume or occasional use.",
+      "The Sunydog mini printer uses 58mm paper, narrower than the 80mm standard, which suits a compact receipt format or a mobile vendor stand rather than a full-size register. Its small footprint and portability fit a market stall, pop-up shop, or side counter where space is limited.\n\nBefore buying, confirm your POS software supports a 58mm receipt template, since some platforms default to 80mm formatting and will cut off content on the narrower paper without a manual template adjustment. This is the lowest-priced pick in this list and the best fit for genuinely low-volume or occasional use.\n\nCompact footprint fits tight counters or mobile stands. That's a real strength, but weigh it against the flip side: 58mm width needs POS software template configuration.",
     specs: [
       "58mm thermal paper width",
       "Portable, compact design",
@@ -232,35 +232,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match paper width to your POS software",
-    explanation:
-      "Most POS software, including Square and Shopify POS, formats receipts for 80mm paper by default, and using a 58mm printer without adjusting the template causes cut-off totals or misaligned text. Confirm your POS platform supports a 58mm receipt template before buying the narrower mini printer.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a receipt printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Thermal receipts fade, plan for records accordingly",
-    explanation:
-      "Thermal paper receipts commonly fade within 1 to 2 years, which matters for any business that needs to keep receipts for tax records or warranty documentation. Photocopy or scan any receipt you need to keep long term rather than relying on the thermal original staying legible.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the receipt printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Verify POS software compatibility before buying",
-    explanation:
-      "Not every thermal printer works with every POS platform out of the box. Check that your printer is listed as compatible with Square, Shopify POS, Clover, or whichever system you run, since driver support varies by brand and model.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this receipt printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Receipt printers and label printers solve different problems",
-    explanation:
-      "An 80mm receipt printer is built for checkout transactions, while a 4x6 label printer is built for shipping labels matching Amazon, Etsy, and USPS formats. Buying the wrong type for your workflow means paying for a printer that cannot do the job you actually need.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any receipt printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Auto cutter versus manual tear bar",
-    explanation:
-      "An automatic cutter speeds up a busy checkout line by trimming each receipt without a manual tear, which matters more at higher transaction volume. A manual tear bar works fine for lower-volume counters or mobile stands where speed is less critical.",
-  },
-  {
-    criterion: "Connection type should match your setup",
-    explanation:
-      "A fixed checkout counter is well served by a wired USB connection, while a mobile vendor or home-based shipper benefits more from Bluetooth printing directly from a phone. Cash-drawer-triggering support only matters if you already run a physical cash drawer at checkout.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A receipt printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -273,65 +263,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Business Type",
-    intro: "The right pick depends heavily on whether you're running a checkout counter or a shipping workflow.",
-    cards: [
-      {
-        label: "Retail counter or restaurant",
-        text: "The Rongta 80mm Thermal POS Receipt Printer matches standard POS receipt formatting and handles daily transaction volume reliably.",
-      },
-      {
-        label: "Shop with a cash drawer",
-        text: "The Rongta RP326 triggers a cash drawer directly and supports networked multi-register setups.",
-      },
-      {
-        label: "E-commerce seller shipping orders",
-        text: "The JADENS Bluetooth 4x6 Label Printer matches Amazon, Shopify, Etsy, and USPS label formats exactly.",
-      },
-      {
-        label: "Market stall or pop-up shop",
-        text: "The Sunydog 58mm Mini Thermal Printer is the most compact and portable option in this list.",
-      },
-    ],
-  },
-  {
-    subheading: "58mm vs 80mm: Which Width Do You Need",
-    table: {
-      headers: ["Paper width", "Typical use", "Recommended pick"],
-      rows: [
-        ["80mm", "Standard POS receipts, most software defaults", "Rongta 80mm Thermal POS Receipt Printer or RP326"],
-        ["58mm", "Compact receipts, mobile stands, needs template setup", "Sunydog 58mm Mini Thermal Printer"],
-        ["4x6 label", "Shipping labels, not register receipts", "JADENS Bluetooth Label Printer or the budget label maker"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Check your POS software's receipt template settings before buying a 58mm printer, some platforms default to 80mm and require manual reconfiguration.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Rongta 80mm Thermal POS Receipt Printer with Auto Cutter"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Rongta 80mm Thermal POS Receipt Printer with Auto Cutter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "POS Software Compatibility",
-    table: {
-      headers: ["POS platform", "Typical connection", "Notes"],
-      rows: [
-        ["Square", "USB or Bluetooth", "Widely compatible with standard 80mm thermal printers"],
-        ["Shopify POS", "USB or Bluetooth", "Check the printer's listed compatibility before buying"],
-        ["Clover", "USB, often requires certified hardware", "Verify certification status with Clover's hardware list"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "POS software compatibility changes over time as platforms update supported hardware lists, always confirm current compatibility on the software provider's site before purchasing.",
+      "rows": [
+        [
+          "Under $35",
+          "Sunydog 58mm Mini Portable Thermal Receipt Printer"
+        ],
+        [
+          "Up to $80",
+          "Rongta 80mm Thermal POS Receipt Printer with Auto Cutter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Protecting Receipt Records Long Term",
-    intro: "Thermal paper fades, which creates a real gap for tax and warranty recordkeeping.",
-    cards: [
+    "subheading": "Sunydog 58mm Mini Portable Thermal Receipt Printer vs Rongta 80mm Thermal POS Receipt Printer with Auto Cutter",
+    "cards": [
       {
-        label: "For tax records",
-        text: "Photocopy or scan any thermal receipt you need to keep for more than a year, since the original print will fade and become illegible over time.",
+        "label": "Sunydog 58mm Mini Portable Thermal Receipt Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "For customer warranty proof",
-        text: "Consider emailing a digital receipt copy in addition to the printed thermal one if your POS software supports it, giving customers a record that won't fade.",
-      },
+        "label": "Rongta 80mm Thermal POS Receipt Printer with Auto Cutter",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Sunydog 58mm Mini Portable Thermal Receipt Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Rongta 80mm Thermal POS Receipt Printer with Auto Cutter"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Rongta 80mm Thermal POS Receipt Printer with Auto Cutter is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Rongta 80mm Thermal POS Receipt Printer with Auto Cutter's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Sunydog 58mm Mini Portable Thermal Receipt Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

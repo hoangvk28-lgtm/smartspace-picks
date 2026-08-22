@@ -42,8 +42,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81sLDLdB8CL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
-    description: "The BestOffice ergonomic chair at $38.99 is the most affordable office chair in this guide under $300. The mesh back and basic lumbar cushion provide more breathability and support than standard task chairs at this price.\n\nFor users who need any functional office chair at minimum cost, the BestOffice is the entry point at under $40.",
-    specs: ["Mesh back", "Seat height: 15.7\"–19.3\"", "Adjustable armrests", "Lumbar cushion", "Basic tilt", "250 lb capacity"],
+    description: "The BestOffice ergonomic chair at $38.99 is the most affordable office chair in this guide under $300. The mesh back and basic lumbar cushion provide more breathability and support than standard task chairs at this price.\n\nFor users who need any functional office chair at minimum cost, the BestOffice is the entry point at under $40.\n\nMesh breathability. Set against that, minimal ergonomic features. Both matter when comparing it to the other picks here.",
+    specs: ["Mesh back", "Seat height: 15.7\"-19.3\"", "Adjustable armrests", "Lumbar cushion", "Basic tilt", "250 lb capacity"],
     pros: ["$38.99 cheapest in guide", "Mesh breathability", "Low seat height option", "Quick setup"],
     cons: ["Minimal ergonomic features", "Basic build quality", "Short expected lifespan"],
     bestFor: "Users on the absolute minimum budget who need any functional office chair under $40.",
@@ -58,8 +58,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81lCJOQwKVL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BGWZKVPX?tag=deskfinds0d-20",
-    description: "The NEO CHAIR at $59.98 features flip-up arms that save desk space when not needed – a practical feature for compact desk setups. The mesh back and BIFMA-adjacent construction make it a reliable budget choice under $60.\n\nFor users with limited desk space who want a chair with arms that fold away, the NEO CHAIR flip-arm model is the most functional budget option.",
-    specs: ["Flip-up armrests", "Mesh back", "Seat height: 15.5\"–19.5\"", "Lumbar support", "BIFMA certified", "Tilt function"],
+    description: "The NEO CHAIR at $59.98 features flip-up arms that save desk space when not needed, a practical feature for compact desk setups. The mesh back and BIFMA-adjacent construction make it a reliable budget choice under $60.\n\nFor users with limited desk space who want a chair with arms that fold away, the NEO CHAIR flip-arm model is the most functional budget option.\n\nA genuine advantage here is that under $60. The tradeoff is flip arms less adjustable than 2D/3D.",
+    specs: ["Flip-up armrests", "Mesh back", "Seat height: 15.5\"-19.5\"", "Lumbar support", "BIFMA certified", "Tilt function"],
     pros: ["Flip-up arms save desk space", "Under $60", "BIFMA certified", "Compact mesh design"],
     cons: ["Flip arms less adjustable than 2D/3D", "Minimal padding"],
     bestFor: "Users with compact desk setups who want a budget chair with space-saving flip-up arms under $60.",
@@ -74,8 +74,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71h3GAsF7ML._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085XQRBC5?tag=deskfinds0d-20",
-    description: "The Hbada ergonomic chair at $159.99 provides high-back mesh, adjustable lumbar, reclining function, and footrest at a mid-range price. The built-in footrest is rare at this price point and allows users to alternate between standard sitting and reclined positions.\n\nFor users who want multi-position sitting with a footrest option in a budget-friendly ergonomic chair, the Hbada delivers more features per dollar than most competitors in this range.",
-    specs: ["High-back mesh", "Retractable footrest", "Adjustable lumbar", "Reclining 90°–155°", "Seat height: 17.5\"–21.5\"", "Headrest"],
+    description: "The Hbada ergonomic chair at $159.99 provides high-back mesh, adjustable lumbar, reclining function, and footrest at a mid-range price. The built-in footrest is rare at this price point and allows users to alternate between standard sitting and reclined positions.\n\nFor users who want multi-position sitting with a footrest option in a budget-friendly ergonomic chair, the Hbada delivers more features per dollar than most competitors in this range.\n\nMulti-position reclining. On the other hand, 4.0 star rating. Neither should be a surprise once you know to look for it.",
+    specs: ["High-back mesh", "Retractable footrest", "Adjustable lumbar", "Reclining 90°-155°", "Seat height: 17.5\"-21.5\"", "Headrest"],
     pros: ["Footrest included at $159", "Multi-position reclining", "High-back mesh", "Adjustable lumbar and headrest"],
     cons: ["4.0 star rating", "Reclining reduces desk work posture"],
     bestFor: "Users who want a multi-position reclining mesh chair with footrest at a mid-range budget.",
@@ -90,8 +90,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71-w+1c6JPL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GNDDNMW?tag=deskfinds0d-20",
-    description: "The SIHOO M18 at $139.99 is the best high-back mesh chair under $140 with adjustable lumbar and headrest. At 4.4 stars it's one of the highest-rated chairs in this guide and provides meaningful ergonomic features at an accessible price.\n\nThe high-back design and lumbar adjustment make the M18 significantly more supportive than budget chairs under $100.",
-    specs: ["High-back mesh", "Seat height: 17.5\"–21\"", "Adjustable lumbar", "Adjustable headrest", "2D armrests", "3-year warranty"],
+    description: "The SIHOO M18 at $139.99 is the best high-back mesh chair under $140 with adjustable lumbar and headrest. At 4.4 stars it's one of the highest-rated chairs in this guide and provides meaningful ergonomic features at an accessible price.\n\nThe high-back design and lumbar adjustment make the M18 significantly more supportive than budget chairs under $100.\n\nHigh-back support. That's a real strength, but weigh it against the flip side: 2D armrests.",
+    specs: ["High-back mesh", "Seat height: 17.5\"-21\"", "Adjustable lumbar", "Adjustable headrest", "2D armrests", "3-year warranty"],
     pros: ["4.4 stars high rating", "High-back support", "Adjustable lumbar and headrest", "3-year warranty"],
     cons: ["2D armrests", "139 investment above entry-level"],
     bestFor: "Mid-range buyers who want a high-rated high-back mesh chair with lumbar and headrest under $140.",
@@ -106,8 +106,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71nLBIhG+0L._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XXNQT2Y?tag=deskfinds0d-20",
-    description: "The SIHOO M57 at $199.99 is the best ergonomic mesh chair under $200, featuring 3D armrests and an S-curve back that other chairs in this guide don't offer at the same price. The 3D armrests adjust in three dimensions, which prevents arm and shoulder strain that 2D arm chairs create.\n\nFor under $200, the M57 delivers 3D arm adjustability that typically costs more in other brands.",
-    specs: ["S-curve high-back mesh", "3D armrests", "Seat height: 17.7\"–21.7\"", "Adjustable lumbar", "Headrest", "3-year warranty"],
+    description: "The SIHOO M57 at $199.99 is the best ergonomic mesh chair under $200, featuring 3D armrests and an S-curve back that other chairs in this guide don't offer at the same price. The 3D armrests adjust in three dimensions, which prevents arm and shoulder strain that 2D arm chairs create.\n\nFor under $200, the M57 delivers 3D arm adjustability that typically costs more in other brands.\n\nWorth calling out specifically: s-curve back support. The catch is $199 higher than mid-range options.",
+    specs: ["S-curve high-back mesh", "3D armrests", "Seat height: 17.7\"-21.7\"", "Adjustable lumbar", "Headrest", "3-year warranty"],
     pros: ["3D armrests under $200", "S-curve back support", "Adjustable lumbar", "4.4 stars"],
     cons: ["$199 higher than mid-range options", "3-year warranty"],
     bestFor: "Users who want 3D arm adjustability and S-curve mesh support without exceeding $200.",
@@ -122,8 +122,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/81rJG1VNeLL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKP341VM?tag=deskfinds0d-20",
-    description: "The Marsail ergonomic chair at $179.99 features an adaptive lumbar system that adjusts automatically to posture changes. The auto-adaptive lumbar is a feature typically found in higher-priced ergonomic chairs, making the Marsail a strong value at under $180.\n\nFor users who want some form of adaptive lumbar support without paying $300+, the Marsail is the best value option in this guide.",
-    specs: ["Adaptive lumbar system", "High-back mesh", "Seat height: 17\"–21\"", "Adjustable headrest", "3D armrests", "Weight capacity: 300 lbs"],
+    description: "The Marsail ergonomic chair at $179.99 features an adaptive lumbar system that adjusts automatically to posture changes. The auto-adaptive lumbar is a feature typically found in higher-priced ergonomic chairs, making the Marsail a strong value at under $180.\n\nFor users who want some form of adaptive lumbar support without paying $300+, the Marsail is the best value option in this guide.\n\n3D armrests. Set against that, 4.0 star rating. Both matter when comparing it to the other picks here.",
+    specs: ["Adaptive lumbar system", "High-back mesh", "Seat height: 17\"-21\"", "Adjustable headrest", "3D armrests", "Weight capacity: 300 lbs"],
     pros: ["Adaptive lumbar at under $180", "3D armrests", "300 lb capacity", "High-back mesh"],
     cons: ["4.0 star rating", "Less proven than SIHOO or Steelcase adaptive systems"],
     bestFor: "Budget-conscious users who want some adaptive lumbar functionality without paying premium prices.",
@@ -138,8 +138,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/71crI8HDP9L._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0797HZ8W1?tag=deskfinds0d-20",
-    description: "The Duramont ergonomic chair at $198.99 features a wide lumbar adjustment range that lets users position lumbar support exactly where their pain point is. Most budget chairs offer a single lumbar position; the Duramont's adjustable range accommodates different spine heights.\n\nFor users with a specific lumbar pain location who need precise lumbar positioning, the Duramont delivers more control than fixed-lumbar alternatives at similar prices.",
-    specs: ["Adjustable lumbar height and depth", "Mesh high-back", "Seat height: 17\"–21\"", "Adjustable headrest", "2D armrests", "3-year warranty"],
+    description: "The Duramont ergonomic chair at $198.99 features a wide lumbar adjustment range that lets users position lumbar support exactly where their pain point is. Most budget chairs offer a single lumbar position; the Duramont's adjustable range accommodates different spine heights.\n\nFor users with a specific lumbar pain location who need precise lumbar positioning, the Duramont delivers more control than fixed-lumbar alternatives at similar prices.\n\nA genuine advantage here is that 3-year warranty. The tradeoff is 2D armrests.",
+    specs: ["Adjustable lumbar height and depth", "Mesh high-back", "Seat height: 17\"-21\"", "Adjustable headrest", "2D armrests", "3-year warranty"],
     pros: ["Wide lumbar position adjustment range", "3-year warranty", "Headrest included", "Mesh breathability"],
     cons: ["2D armrests", "$198 near top of mid-range"],
     bestFor: "Users with a specific lumbar pain location who need precise lumbar height and depth control under $200.",
@@ -154,8 +154,8 @@ export const products: GuideProduct[] = [
     reviews: "Verified ratings",
     imageUrl: "https://m.media-amazon.com/images/I/91bA1LZMqFL._AC_SL1500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8BXBX8?tag=deskfinds0d-20",
-    description: "The GABRYLLY mesh chair at $204.73 supports 280 lbs with a wider seat than standard office chairs, making it the best big and tall option in this guide under $300. At 4.4 stars it's among the highest-rated chairs in the roundup.\n\nFor larger users who need a wider seat and higher weight capacity without paying big-and-tall premium prices, the GABRYLLY is the top value in this guide.",
-    specs: ["Wider mesh high-back", "280 lb capacity", "Seat height: 18\"–22\"", "Adjustable lumbar", "Headrest", "Flip-up arms"],
+    description: "The GABRYLLY mesh chair at $204.73 supports 280 lbs with a wider seat than standard office chairs, making it the best big and tall option in this guide under $300. At 4.4 stars it's among the highest-rated chairs in the roundup.\n\nFor larger users who need a wider seat and higher weight capacity without paying big-and-tall premium prices, the GABRYLLY is the top value in this guide.\n\nWider seat for larger users. On the other hand, flip-up arms limited adjustability. Neither should be a surprise once you know to look for it.",
+    specs: ["Wider mesh high-back", "280 lb capacity", "Seat height: 18\"-22\"", "Adjustable lumbar", "Headrest", "Flip-up arms"],
     pros: ["280 lb capacity", "Wider seat for larger users", "4.4 stars", "Adjustable lumbar and headrest"],
     cons: ["Flip-up arms limited adjustability", "Slightly over $200"],
     bestFor: "Larger users who need above-average weight capacity and a wider seat in a mesh chair under $210.",
@@ -163,11 +163,26 @@ export const products: GuideProduct[] = [
 ];;
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "What features actually matter under $300", explanation: "At $300, you cannot get everything - choose your priority. The highest-value features for daily use are: adjustable lumbar height (not just depth), correct seat height range for your body, and a warranty of 3-plus years. Secondary features (4D armrests, adjustable seat depth, mesh seat) are good to have but shouldn't override the primary three. A chair with great lumbar adjustment and 7-year warranty (Branch) outperforms a chair with 5 features and a 1-year warranty." },
-  { criterion: "Mesh vs padded: choosing your priority", explanation: "Mesh breathes and is consistently cool. Padded foam provides a softer initial feel but compresses over time. For warm offices or users who work for 5-plus hours, mesh is the practical choice. For cool offices where thermal comfort is not an issue, padded chairs feel plush initially. Beware of padded chairs at low prices where cheap foam flattens within 6 months - look for chairs with high-density foam claims or known foam brands (Serta)." },
-  { criterion: "Warranty as a durability signal under $300", explanation: "At $300, warranty length is the best proxy for manufacturer confidence in longevity. A 7-year warranty (Branch) means the company expects the chair to function for 7 years. A 1-year warranty means they only commit to 12 months. Most chairs in this price tier offer 2 to 3 years. The Branch's 7-year warranty is the outlier and reflects a genuine quality commitment, not just marketing." },
-  { criterion: "Armrest requirements for your desk setup", explanation: "If your desk is at standard height (28-30 inches) and your elbows rest at 90 degrees with height-adjustable arms, height-only adjustment is sufficient. If you have an unusual desk height or tend to hold your arms at varied angles, 4D armrests that also adjust depth, pivot, and lateral position become more useful. Most chairs under $300 offer 3D armrests (height, pivot, depth). 4D (adding lateral) is available in the Branch and SIHOO C300." },
-  { criterion: "Seat height range for your body", explanation: "Always verify both minimum and maximum seat height against your body. At 5'3\", you need a chair that lowers to 16 inches or below. At 6'2\", you need 19 to 20 inches. The default 17.5 to 20-inch range on many chairs in this guide works well for 5'5\" to 6'1\". Outside that range, specifically check the specs against your sitting height requirement before buying." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 8 best office chairs under $300 in 2026 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 8 best office chairs under $300 in 2026 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 8 best office chairs under $300 in 2026 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 8 best office chairs under $300 in 2026 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 8 best office chairs under $300 in 2026 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: { q: string; a: string }[] = [

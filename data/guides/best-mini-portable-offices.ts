@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DQC0oZUHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSBLCYZX?tag=deskfinds0d-20",
     description:
-      "A solo, single-occupant pod on wheels and feet, with a built-in table, LED lighting, and USB ports, positioned as the most mobile option in this pool. Its listing is one of the few in this category that mentions ventilation at all, describing it as \"Silent Ventilation,\" though no airflow rate, CFM figure, or independent test data backs that claim.\n\nAmazon's listing does not include a star rating or review count. The wheels make repositioning within a room realistic, but this is still a heavy, large structure that needs freight delivery and real floor-loading consideration, wheels do not substitute for verifying weight limits on an upper-floor apartment or shared office.",
+      "A solo, single-occupant pod on wheels and feet, with a built-in table, LED lighting, and USB ports, positioned as the most mobile option in this pool. Its listing is one of the few in this category that mentions ventilation at all, describing it as \"Silent Ventilation,\" though no airflow rate, CFM figure, or independent test data backs that claim.\n\nAmazon's listing does not include a star rating or review count. The wheels make repositioning within a room realistic, but this is still a heavy, large structure that needs freight delivery and real floor-loading consideration, wheels do not substitute for verifying weight limits on an upper-floor apartment or shared office.\n\nBuilt-in table, LED lighting, and USB ports included. On the other hand, no star rating or review count available from Amazon. Neither should be a surprise once you know to look for it.",
     specs: ["Solo (single-occupant) pod", "Wheels and feet for repositioning", "Built-in table, LED lighting, USB ports", "Listing states \"Silent Ventilation\" as a feature"],
     pros: ["Solo occupancy pod on wheels for easier repositioning within a room", "Built-in table, LED lighting, and USB ports included", "One of the few listings in this pool to mention ventilation at all, though unverified", "Lowest price point among the fully-featured single-person pods in this pool"],
     cons: ["No star rating or review count available from Amazon", "\"Silent Ventilation\" is a marketing claim with no CFM or airflow-rate data to verify it", "Still requires freight delivery and floor-loading planning despite the wheels"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31KSQuhuwNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62Z8CFF?tag=deskfinds0d-20",
     description:
-      "A one-to-two-person pod at W55in D48in H92in exterior dimensions, one of the few listings in this pool to explicitly state a small occupancy range rather than a single fixed number. Amazon's listing does not include a star rating or review count.\n\nThe wider W55in footprint compared to the strictly solo pods gives a bit more room for a second occupant or a visitor chair, though interior usable space will still run smaller than the exterior dimensions once acoustic wall thickness is accounted for. No STC/NRC data or ventilation specs are disclosed.",
+      "A one-to-two-person pod at W55in D48in H92in exterior dimensions, one of the few listings in this pool to explicitly state a small occupancy range rather than a single fixed number. Amazon's listing does not include a star rating or review count.\n\nThe wider W55in footprint compared to the strictly solo pods gives a bit more room for a second occupant or a visitor chair, though interior usable space will still run smaller than the exterior dimensions once acoustic wall thickness is accounted for. No STC/NRC data or ventilation specs are disclosed.\n\nExact exterior dimensions disclosed (W55 x D48 x H92in). That's a real strength, but weigh it against the flip side: no star rating or review count available from Amazon.",
     specs: ["1 to 2 person capacity", "Exterior dimensions W55in D48in H92in", "Acoustic panel interior", "Generic/private-label manufacturer"],
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
@@ -67,30 +67,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "\"Mini\" Isn't a Defined Size Tier in This Category Yet",
-    note: "No verified listing in this niche uses \"mini\" or a comparable compact-specific label. We selected the most solo- and mobility-oriented options as the closest match, but this is an editorial judgment, not a manufacturer-stated size class.",
-  },
-  {
-    subheading: "Smaller Volume Makes Ventilation More Important, Not Less",
-    note: "A smaller interior volume means CO2 can build up faster for a given airflow rate. Since no listing in this niche discloses a specific ventilation spec, ask the seller directly before committing to a compact pod for full workday use.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most compact, mobile solo option", "Mobile Office Pod Booth"],
-        ["Small footprint with occasional second occupant", "Soundproof Office Pod Booth"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Mobile Office Pod Booth"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Mobile Office Pod Booth"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $4",
+          "Mobile Office Pod Booth"
+        ],
+        [
+          "Up to $4",
+          "Soundproof Office Pod Booth"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Mobile Office Pod Booth vs Soundproof Office Pod Booth",
+    "cards": [
+      {
+        "label": "Mobile Office Pod Booth",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Soundproof Office Pod Booth",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Mobile Office Pod Booth unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Mobile Office Pod Booth"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Mobile Office Pod Booth is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Soundproof Office Pod Booth's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Mobile Office Pod Booth covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't expect a manufacturer-defined \"mini\" tier", explanation: "No listing in this niche uses mini or compact sizing language, compare actual exterior dimensions rather than trusting a size label." },
-  { criterion: "Ask about ventilation before committing to a compact pod", explanation: "Smaller interior volume compounds CO2 buildup concerns, and no listing in this niche discloses airflow specs, ask directly for multi-hour use." },
-  { criterion: "Check for wheels or mobility features if repositioning matters", explanation: "Only one product in this pool is explicitly described with wheels for repositioning, verify this feature directly rather than assuming all compact pods are equally mobile." },
-  { criterion: "Compare exterior dimensions directly, not marketing size language", explanation: "Words like \"solo\" or \"compact\" aren't standardized across sellers, compare actual stated dimensions where available." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a mini portable office often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the mini portable office holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this mini portable office over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any mini portable office you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A mini portable office that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31pu6SVe35L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01LY6Z2M6?tag=deskfinds0d-20",
     description:
-      "The Blue Yeti is a true condenser microphone with 4 selectable pickup patterns, cardioid, omnidirectional, bidirectional, and stereo, and Blue VO!CE software for real-time voice shaping. It is the most flexible condenser in this list for switching between solo recording and room capture.\n\nGain staging matters here, set the input gain too high and loud passages clip, too low and you introduce audible noise, a common reason a mic sounds bad even though nothing is actually broken. Start with gain around the midpoint and adjust while monitoring through headphones rather than guessing by ear alone.",
+      "The Blue Yeti is a true condenser microphone with 4 selectable pickup patterns, cardioid, omnidirectional, bidirectional, and stereo, and Blue VO!CE software for real-time voice shaping. It is the most flexible condenser in this list for switching between solo recording and room capture.\n\nGain staging matters here, set the input gain too high and loud passages clip, too low and you introduce audible noise, a common reason a mic sounds bad even though nothing is actually broken. Start with gain around the midpoint and adjust while monitoring through headphones rather than guessing by ear alone.\n\nBlue VO!CE software adds real-time voice shaping. That's a real strength, but weigh it against the flip side: sensitive capsule picks up untreated-room noise readily.",
     specs: [
       "4 pickup patterns: cardioid, omnidirectional, bidirectional, stereo",
       "True condenser capsule",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31iHEugSZ6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QLNYBG9?tag=deskfinds0d-20",
     description:
-      "The Blue Yeti Nano is a true condenser mic in a smaller body, with cardioid and omnidirectional patterns covering the two most common use cases, solo voice and small-room capture. It works as plug and play on both Mac and Windows without extra driver setup.\n\nDriver behavior is worth checking either way, some condenser mics need a driver install on Windows but run plug and play on Mac, or vice versa, so confirm compatibility with your specific OS version before assuming zero setup is required. Its compact footprint makes it easier to fit on a small desk than the full-size Yeti.",
+      "The Blue Yeti Nano is a true condenser mic in a smaller body, with cardioid and omnidirectional patterns covering the two most common use cases, solo voice and small-room capture. It works as plug and play on both Mac and Windows without extra driver setup.\n\nDriver behavior is worth checking either way, some condenser mics need a driver install on Windows but run plug and play on Mac, or vice versa, so confirm compatibility with your specific OS version before assuming zero setup is required. Its compact footprint makes it easier to fit on a small desk than the full-size Yeti.\n\nWorth calling out specifically: simple 2-pattern selection. The catch is fewer patterns than the full Yeti.",
     specs: [
       "2 pickup patterns: cardioid, omnidirectional",
       "True condenser capsule",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GaUMJg2pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XCKGLTP?tag=deskfinds0d-20",
     description:
-      "The K669B is a genuine condenser mic in a metal body at the lowest price in this list, with a cardioid pattern for meeting audio, voice recording, and casual streaming. It records at 16-bit, which is fine for most desk use but worth knowing if you plan to do heavier post-production.\n\nSelf-noise is the spec that separates a clean-sounding budget condenser from a hissy one, mics under roughly 20dB-A self-noise sound clean in quiet recordings, while mics above 25dB-A introduce audible hiss. FIFINE does not publish a self-noise figure for this model, so treat it as an unknown at this price rather than assuming it matches pricier condensers.",
+      "The K669B is a genuine condenser mic in a metal body at the lowest price in this list, with a cardioid pattern for meeting audio, voice recording, and casual streaming. It records at 16-bit, which is fine for most desk use but worth knowing if you plan to do heavier post-production.\n\nSelf-noise is the spec that separates a clean-sounding budget condenser from a hissy one, mics under roughly 20dB-A self-noise sound clean in quiet recordings, while mics above 25dB-A introduce audible hiss. FIFINE does not publish a self-noise figure for this model, so treat it as an unknown at this price rather than assuming it matches pricier condensers.\n\nMetal body feels sturdier than the price suggests. Set against that, 16-bit recording, not 24-bit. Both matter when comparing it to the other picks here.",
     specs: [
       "True condenser capsule",
       "Metal body construction",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FYNR1PLxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCV74CL7?tag=deskfinds0d-20",
     description:
-      "The TC310+ is a true condenser paired with an included boom arm, RGB lighting, and a tap-to-mute button, aimed at streaming and content creation. Onboard gain control lets you adjust input level at the mic itself rather than relying only on software.\n\nA boom arm matters more on a condenser than on a dynamic mic precisely because the condenser is more sensitive, keeping it off the desk surface reduces the keyboard clatter and desk vibration a flat-mounted condenser would otherwise capture in full detail. This is one of the more complete budget condenser kits in this list.",
+      "The TC310+ is a true condenser paired with an included boom arm, RGB lighting, and a tap-to-mute button, aimed at streaming and content creation. Onboard gain control lets you adjust input level at the mic itself rather than relying only on software.\n\nA boom arm matters more on a condenser than on a dynamic mic precisely because the condenser is more sensitive, keeping it off the desk surface reduces the keyboard clatter and desk vibration a flat-mounted condenser would otherwise capture in full detail. This is one of the more complete budget condenser kits in this list.\n\nA genuine advantage here is that onboard gain control for quick adjustment. The tradeoff is condenser sensitivity still needs a reasonably quiet room.",
     specs: [
       "True condenser capsule",
       "Included boom arm",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rKkw3TT2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C74GYW3J?tag=deskfinds0d-20",
     description:
-      "Also worth flagging honestly, the AM8T is a dynamic mic, not a condenser, but it ships as a complete kit with a boom arm, hardware mute button, and headphone jack included. For a desk with a mechanical keyboard, the combination of a dynamic capsule and a boom arm off the desk surface handles noise better than any condenser in this list, regardless of mounting.\n\nMac vs Windows driver behavior can differ between condenser mics, but dynamic USB mics like this one are generally more plug-and-play consistent across platforms, one more reason to consider it over a condenser in a mixed-noise environment.",
+      "Also worth flagging honestly, the AM8T is a dynamic mic, not a condenser, but it ships as a complete kit with a boom arm, hardware mute button, and headphone jack included. For a desk with a mechanical keyboard, the combination of a dynamic capsule and a boom arm off the desk surface handles noise better than any condenser in this list, regardless of mounting.\n\nMac vs Windows driver behavior can differ between condenser mics, but dynamic USB mics like this one are generally more plug-and-play consistent across platforms, one more reason to consider it over a condenser in a mixed-noise environment.\n\nDynamic capsule outperforms any condenser here in noisy rooms. On the other hand, not a condenser, captures less room detail. Neither should be a surprise once you know to look for it.",
     specs: [
       "Dynamic capsule (not condenser)",
       "Dual USB and XLR output",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WQG5fyf7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D458QDVN?tag=deskfinds0d-20",
     description:
-      "One more honest flag, the K688 is a dynamic mic rather than a condenser, positioned here as the podcast-focused alternative for buyers whose room can't support a condenser's sensitivity. It includes a boom arm, hardware mute button, and headphone jack in one kit.\n\nDynamic mics like this one are generally less picky about gain staging than condensers, since they capture less ambient detail overall, but you should still monitor levels through the headphone jack rather than assuming the default gain is correct for your voice.",
+      "One more honest flag, the K688 is a dynamic mic rather than a condenser, positioned here as the podcast-focused alternative for buyers whose room can't support a condenser's sensitivity. It includes a boom arm, hardware mute button, and headphone jack in one kit.\n\nDynamic mics like this one are generally less picky about gain staging than condensers, since they capture less ambient detail overall, but you should still monitor levels through the headphone jack rather than assuming the default gain is correct for your voice.\n\nDynamic capsule suits untreated home offices. That's a real strength, but weigh it against the flip side: not a condenser, no pattern switching.",
     specs: [
       "Dynamic capsule (not condenser)",
       "Dual USB and XLR output",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qpzNSp0LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GR31BZZ?tag=deskfinds0d-20",
     description:
-      "This renewed Blue Yeti is a true condenser with the same 4 pickup patterns as the full-price model, cardioid, omnidirectional, bidirectional, and stereo, at a lower price for buyers comfortable with a factory-refurbished unit. Recording is 24-bit/48kHz, matching the non-renewed version's specs.\n\nAs with any condenser, room treatment matters more here than with a dynamic mic, and it's worth checking the seller's return window on a renewed unit before committing. For anyone set on a true condenser rather than one of the dynamic alternatives above, this is the most affordable way into full Yeti pattern flexibility.",
+      "This renewed Blue Yeti is a true condenser with the same 4 pickup patterns as the full-price model, cardioid, omnidirectional, bidirectional, and stereo, at a lower price for buyers comfortable with a factory-refurbished unit. Recording is 24-bit/48kHz, matching the non-renewed version's specs.\n\nAs with any condenser, room treatment matters more here than with a dynamic mic, and it's worth checking the seller's return window on a renewed unit before committing. For anyone set on a true condenser rather than one of the dynamic alternatives above, this is the most affordable way into full Yeti pattern flexibility.\n\nWorth calling out specifically: same 4-pattern flexibility as the full-price model. The catch is renewed condition means checking the return policy closely.",
     specs: [
       "4 pickup patterns: cardioid, omnidirectional, bidirectional, stereo",
       "True condenser capsule",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Confirm your room can actually support a condenser",
-    explanation:
-      "Condenser mics pick up rain, AC units, street noise, and keyboard clatter far more readily than dynamic mics. If your room isn't at least somewhat quiet or lightly treated, a dynamic alternative like the FIFINE AmpliGame AM8 will likely sound cleaner than any condenser in this list, regardless of price.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a usb condenser microphone often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Self-noise under 20dB-A is the clean-sounding threshold",
-    explanation:
-      "A condenser's self-noise spec, measured in dB-A, determines whether quiet recordings sound clean or hissy. Under roughly 20dB-A is good, above 25dB-A produces audible hiss in quiet passages. Not every budget condenser publishes this figure, so treat an unlisted spec as an unknown rather than assuming it's fine.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the usb condenser microphone holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Gain staging matters more than the mic itself",
-    explanation:
-      "Gain set too high causes clipping and distortion, too low introduces noise you then have to boost in post, amplifying that noise along with it. This is the most common reason a condenser mic sounds bad even though nothing is broken, start near the midpoint and adjust while monitoring through headphones.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this usb condenser microphone over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "16-bit vs 24-bit recording, in plain terms",
-    explanation:
-      "24-bit recording captures more dynamic range and gives you more headroom to fix levels in post-production without introducing noise, while 16-bit is adequate for straightforward voice recording without heavy editing. Most casual desk use won't notice the difference, but it matters more for anyone doing serious post-production.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any usb condenser microphone you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check Mac vs Windows driver requirements before buying",
-    explanation:
-      "Some condenser mics need a driver install on one platform but run plug and play on the other, a detail that's rarely mentioned per product. Dynamic USB mics tend to be more consistently plug and play across both platforms, worth factoring in if you switch between a Mac and a Windows machine.",
-  },
-  {
-    criterion: "A boom arm matters more on a condenser than on a dynamic mic",
-    explanation:
-      "Because a condenser is more sensitive overall, setting it flat on the desk captures keyboard clatter and desk vibration in more detail than a dynamic mic would in the same position. If you're set on a condenser and have a mechanical keyboard nearby, prioritize a model that includes or supports a boom arm.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A usb condenser microphone that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,65 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Is Your Room Actually Suitable for a Condenser?",
-    intro:
-      "This is the question to answer before comparing any specs, since the wrong capsule type for your room undoes every other advantage a mic has.",
-    table: {
-      headers: ["Room description", "Right capsule type", "Best pick"],
-      rows: [
-        ["Quiet room, some soft furnishings", "True condenser", "Blue Yeti or Blue Yeti Nano"],
-        ["Budget-first, still quiet enough", "True condenser", "FIFINE K669B or TONOR TC310+"],
-        ["Untreated bedroom, shared apartment", "Dynamic", "FIFINE AmpliGame AM8"],
-        ["Loud street, mechanical keyboard nearby", "Dynamic + boom arm", "FIFINE AmpliGame AM8T"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Logitech Blue Yeti USB Microphone"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Logitech Blue Yeti USB Microphone"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Self-Noise Comparison",
-    intro:
-      "Only some listings publish a self-noise figure. Where it's unknown, treat the mic as unverified for quiet-room use rather than assuming it matches a pricier condenser.",
-    table: {
-      headers: ["Pick", "Capsule type", "Self-noise spec"],
-      rows: [
-        ["Blue Yeti / Blue Yeti Nano", "True condenser", "Not published, assume moderate"],
-        ["FIFINE K669B", "True condenser", "Not published, budget-tier expectation"],
-        ["TONOR TC310+", "True condenser", "Not published, budget-tier expectation"],
-        ["FIFINE AM8 / AM8T / K688", "Dynamic (less self-noise sensitive by design)", "Not applicable, dynamic capsules are inherently quieter in self-noise"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $30",
+          "FIFINE K669B Metal Condenser USB Microphone"
+        ],
+        [
+          "Up to $90",
+          "Logitech Blue Yeti USB Microphone"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Bit Depth and Gain Staging Needs",
-    cards: [
+    "subheading": "FIFINE K669B Metal Condenser USB Microphone vs Logitech Blue Yeti USB Microphone",
+    "cards": [
       {
-        label: "Want the most post-production headroom",
-        text: "The Blue Yeti and its renewed version record at 24-bit/48kHz, giving more room to fix levels after recording without introducing extra noise.",
+        "label": "FIFINE K669B Metal Condenser USB Microphone",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Straightforward voice recording, minimal editing",
-        text: "The FIFINE K669B records at 16-bit, which is perfectly adequate for meetings, voice notes, and casual streaming.",
-      },
-      {
-        label: "Want onboard gain control at the mic",
-        text: "The TONOR TC310+ includes gain control directly on the base, letting you set input level without opening software.",
-      },
+        "label": "Logitech Blue Yeti USB Microphone",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to FIFINE K669B Metal Condenser USB Microphone unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Condenser vs Dynamic: The Honest Trade-off",
-    intro:
-      "Half of this list is technically dynamic, not condenser, included because condenser sensitivity is genuinely the wrong call for a lot of desks.",
-    table: {
-      headers: ["What you want", "Condenser or dynamic", "Best pick"],
-      rows: [
-        ["Maximum detail and pattern flexibility", "Condenser", "Blue Yeti"],
-        ["Best background-noise rejection", "Dynamic", "FIFINE AmpliGame AM8"],
-        ["Boom arm plus condenser detail", "Condenser", "TONOR TC310+"],
-        ["Boom arm plus noise rejection", "Dynamic", "FIFINE AmpliGame AM8T"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If you're not sure which your room needs, a dynamic mic is the safer default, it forgives more mistakes than a condenser does.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Logitech Blue Yeti USB Microphone"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Logitech Blue Yeti USB Microphone is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Logitech Blue Yeti USB Microphone's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where FIFINE K669B Metal Condenser USB Microphone covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TvmvIlxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFW9D66S?tag=deskfinds0d-20",
     description:
-      "This 55-inch U-shaped desk explicitly confirms a keyboard tray in its title, one of the clearer confirmations in this guide. The U-shape gives a wraparound work surface, and the tray sits below the main desktop for a lower typing position than typing directly on the desk surface.\n\nThe listing does not specify whether the tray angle is negative, flat, or positive, so buyers who need a true negative tilt for wrist positioning should verify this in the product Q&A before assuming. Even without confirmed negative tilt, a lower tray position is generally an improvement over typing at standing-desk height with no tray at all.",
+      "This 55-inch U-shaped desk explicitly confirms a keyboard tray in its title, one of the clearer confirmations in this guide. The U-shape gives a wraparound work surface, and the tray sits below the main desktop for a lower typing position than typing directly on the desk surface.\n\nThe listing does not specify whether the tray angle is negative, flat, or positive, so buyers who need a true negative tilt for wrist positioning should verify this in the product Q&A before assuming. Even without confirmed negative tilt, a lower tray position is generally an improvement over typing at standing-desk height with no tray at all.\n\nU-shape adds wraparound work surface. That's a real strength, but weigh it against the flip side: tilt angle not specified, verify negative tilt before assuming.",
     specs: [
       "55-inch U-shaped desk",
       "Keyboard tray confirmed in title",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Nha7Yua3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0784HWPN6?tag=deskfinds0d-20",
     description:
-      "This converter's title and description focus on dual monitor and laptop workstation features and do not explicitly confirm a keyboard tray, so we are including it here as a reference point rather than a genuine keyboard-tray recommendation. It has the largest review base in this guide by a wide margin, which speaks to its general reliability as a converter.\n\nIf a dedicated negative-tilt keyboard tray is a requirement, this listing does not confirm one, and buyers should check current product images and the Q&A section directly rather than assume the V Series includes it. Treat this as a strong converter pick for other reasons, not for tray ergonomics specifically.",
+      "This converter's title and description focus on dual monitor and laptop workstation features and do not explicitly confirm a keyboard tray, so we are including it here as a reference point rather than a genuine keyboard-tray recommendation. It has the largest review base in this guide by a wide margin, which speaks to its general reliability as a converter.\n\nIf a dedicated negative-tilt keyboard tray is a requirement, this listing does not confirm one, and buyers should check current product images and the Q&A section directly rather than assume the V Series includes it. Treat this as a strong converter pick for other reasons, not for tray ergonomics specifically.\n\nWorth calling out specifically: quick sit-to-stand mechanism. The catch is keyboard tray not confirmed in the title or description.",
     specs: [
       "36-inch tabletop converter",
       "Dual monitor riser workstation",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description:
-      "The K Series explicitly confirms a wide keyboard tray in its title, and it has by far the largest review base of any pick in this guide, which gives real confidence in its long-term reliability. It supports a dual monitor and laptop workstation on top while the tray sits below for typing.\n\nWide keyboard trays like this one generally have enough room for a full keyboard and a right-hand mouse platform, though left-handed mouse placement is rarely offered on any tray in this price range. As with the OffiGo pick, tilt angle is not explicitly stated, so verify negative tilt in the Q&A if that specific angle matters to you.",
+      "The K Series explicitly confirms a wide keyboard tray in its title, and it has by far the largest review base of any pick in this guide, which gives real confidence in its long-term reliability. It supports a dual monitor and laptop workstation on top while the tray sits below for typing.\n\nWide keyboard trays like this one generally have enough room for a full keyboard and a right-hand mouse platform, though left-handed mouse placement is rarely offered on any tray in this price range. As with the OffiGo pick, tilt angle is not explicitly stated, so verify negative tilt in the Q&A if that specific angle matters to you.\n\nMassive review base at over 15,500 ratings. Set against that, tilt angle not specified, verify negative tilt before assuming. Both matter when comparing it to the other picks here.",
     specs: [
       "32-inch tabletop converter",
       "Wide keyboard tray confirmed in title",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41daFWT9JPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNH9SQT7?tag=deskfinds0d-20",
     description:
-      "This converter's model number includes KB, which could suggest keyboard tray, but the title and description describe a dual monitor mount and desk riser without explicitly stating a keyboard tray feature. We are not going to assume a tray exists just because of a model code, so treat this listing as unconfirmed until verified directly with the seller or through current product photos.\n\nIf you need a confirmed keyboard tray, the VIVO K Series or the OffiGo U-shaped desk above are safer bets. This 42-inch converter's real strength is the dual 13 to 30 inch monitor stand, which is a separate and well-documented feature.",
+      "This converter's model number includes KB, which could suggest keyboard tray, but the title and description describe a dual monitor mount and desk riser without explicitly stating a keyboard tray feature. We are not going to assume a tray exists just because of a model code, so treat this listing as unconfirmed until verified directly with the seller or through current product photos.\n\nIf you need a confirmed keyboard tray, the VIVO K Series or the OffiGo U-shaped desk above are safer bets. This 42-inch converter's real strength is the dual 13 to 30 inch monitor stand, which is a separate and well-documented feature.\n\nA genuine advantage here is that solid rating and reasonable review base. The tradeoff is keyboard tray not explicitly confirmed in the listing.",
     specs: [
       "42-inch tabletop converter",
       "Dual 13 to 30 inch monitor stand",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Vqj+7wfmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBQFGY9S?tag=deskfinds0d-20",
     description:
-      "This is a full 44x24 inch electric standing desk with a keyboard tray explicitly confirmed in the title, giving both the elevated main desktop and a lower typing surface in one unit. The tray adds meaningful depth reduction to an already moderate 24-inch desktop, so measure your remaining usable depth before committing to a monitor arm or other accessories.\n\nBecause the tray sits below a full standing desk rather than on a tabletop converter, this suits buyers who want a dedicated standing desk from the ground up rather than converting an existing one. Tilt angle is not stated, so check the Q&A if negative tilt specifically matters for your wrists.",
+      "This is a full 44x24 inch electric standing desk with a keyboard tray explicitly confirmed in the title, giving both the elevated main desktop and a lower typing surface in one unit. The tray adds meaningful depth reduction to an already moderate 24-inch desktop, so measure your remaining usable depth before committing to a monitor arm or other accessories.\n\nBecause the tray sits below a full standing desk rather than on a tabletop converter, this suits buyers who want a dedicated standing desk from the ground up rather than converting an existing one. Tilt angle is not stated, so check the Q&A if negative tilt specifically matters for your wrists.\n\nDedicated desk design, not a tabletop conversion. On the other hand, tray further reduces an already moderate 24-inch depth. Neither should be a surprise once you know to look for it.",
     specs: [
       "44x24 inch full standing desk",
       "Keyboard tray confirmed in title",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41pe4BGTQxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR1CM8JK?tag=deskfinds0d-20",
     description:
-      "This 55-inch desk confirms both drawers and a keyboard tray directly in the title, making it one of the more feature-complete picks in this guide for anyone who also wants built-in storage. The rustic brown finish and wider footprint suit a dedicated home office setup rather than a compact space.\n\nWith drawers taking up some under-desk clearance, check that the drawer placement does not conflict with the tray's slide range at your typical sitting distance. As with most picks here, tilt angle is not explicitly stated, so verify before assuming negative tilt.",
+      "This 55-inch desk confirms both drawers and a keyboard tray directly in the title, making it one of the more feature-complete picks in this guide for anyone who also wants built-in storage. The rustic brown finish and wider footprint suit a dedicated home office setup rather than a compact space.\n\nWith drawers taking up some under-desk clearance, check that the drawer placement does not conflict with the tray's slide range at your typical sitting distance. As with most picks here, tilt angle is not explicitly stated, so verify before assuming negative tilt.\n\nWider 55-inch surface for a dedicated home office. That's a real strength, but weigh it against the flip side: drawer placement should be checked against tray slide range.",
     specs: [
       "55-inch standing desk with drawers",
       "Keyboard tray confirmed in title",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IHCTuRt6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2H4X11C?tag=deskfinds0d-20",
     description:
-      "This converter explicitly confirms a large keyboard tray in its title, and the extra tray size gives more room for a keyboard plus mouse platform than the standard-width trays on some other picks. It supports a dual monitor and laptop workstation on the upper riser.\n\nThe review count here is the lowest among the converters in this guide, so treat the rating as a smaller sample size than the VIVO picks with thousands of reviews. If a large tray specifically matters for your setup, this is the clearest confirmed option, but weigh that against the limited review history.",
+      "This converter explicitly confirms a large keyboard tray in its title, and the extra tray size gives more room for a keyboard plus mouse platform than the standard-width trays on some other picks. It supports a dual monitor and laptop workstation on the upper riser.\n\nThe review count here is the lowest among the converters in this guide, so treat the rating as a smaller sample size than the VIVO picks with thousands of reviews. If a large tray specifically matters for your setup, this is the clearest confirmed option, but weigh that against the limited review history.\n\nWorth calling out specifically: more tray room than standard-width alternatives. The catch is lowest review count among the converters in this guide.",
     specs: [
       "42-inch tabletop converter",
       "Large keyboard tray confirmed in title",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411n64r8kAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCFZV2GP?tag=deskfinds0d-20",
     description:
-      "This is a standalone keyboard tray add-on that clamps to an existing desk, not a full standing desk or converter, and it should not be compared directly against the other 7 picks as if it were the same product category. It gives a 27.3-inch slide-out platform, extending to about 32.5 inches including the clamps, for buyers who want to add a tray to a desk that does not already have one.\n\nThe C-clamp mount system is rated for the added lean pressure of resting your wrists while typing, not just the static weight of a keyboard and mouse, which is a meaningfully higher bar than some integrated trays quietly assume. This is a genuinely useful low-cost option if you already own a standing desk without a tray.",
+      "This is a standalone keyboard tray add-on that clamps to an existing desk, not a full standing desk or converter, and it should not be compared directly against the other 7 picks as if it were the same product category. It gives a 27.3-inch slide-out platform, extending to about 32.5 inches including the clamps, for buyers who want to add a tray to a desk that does not already have one.\n\nThe C-clamp mount system is rated for the added lean pressure of resting your wrists while typing, not just the static weight of a keyboard and mouse, which is a meaningfully higher bar than some integrated trays quietly assume. This is a genuinely useful low-cost option if you already own a standing desk without a tray.\n\nSturdy C-clamp mount rated for lean pressure. Set against that, not a full desk or converter, a different product category. Both matter when comparing it to the other picks here.",
     specs: [
       "Standalone tray, C-clamp mount, not a full desk",
       "27.3-inch slide-out platform, 32.5 inches including clamps",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Negative tilt is the ergonomically correct angle, not flat or positive",
-    explanation:
-      "A keyboard tray angled negatively, meaning the front edge tilts down and away from you, keeps wrists in a neutral position instead of bending upward the way a flat or positive-tilt surface forces. None of the 8 listings in this guide explicitly state their tilt angle, so verify this in the Q&A or product photos if a true negative tilt is a hard requirement.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk with keyboard tray often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Mouse platform height should match the keyboard tray, and left-hand versions are rare",
-    explanation:
-      "A mouse resting on the main desktop while the keyboard sits on a lower tray creates an awkward height mismatch that strains the shoulder over a full workday. Most trays with a mouse platform are right-hand only, so left-handed users should specifically check for that accommodation before assuming it exists.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk with keyboard tray holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "A tray typically costs 6 to 8 inches of usable desktop depth",
-    explanation:
-      "Adding or using a keyboard tray reduces the desktop depth you have left for a monitor, notebook, or other items by roughly 6 to 8 inches, which matters far more on a desk that was already 24 inches deep than on a deeper 28-inch surface. Factor this into your depth planning before ordering.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk with keyboard tray over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Track extension length should match your typical sitting distance",
-    explanation:
-      "Keyboard tray slide tracks generally extend 18 to 24 inches, and a track shorter than your usual sitting distance from the desk edge leaves the tray feeling cramped rather than genuinely adjustable. Measure your typical seated distance before assuming any given track length will fit comfortably.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk with keyboard tray you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Weight rating should account for lean pressure, not just keyboard and mouse weight",
-    explanation:
-      "Typing puts ongoing lean pressure on a tray's front edge, generally in the range of 20 to 25 pounds, well beyond the static weight of the keyboard and mouse sitting on it. A tray rated only for static load may flex or fail under sustained daily lean pressure even if it looks sturdy at rest.",
-  },
-  {
-    criterion: "Do not assume a model number or category listing confirms a tray",
-    explanation:
-      "Two picks in this guide have model numbers or category placements that hint at a keyboard tray without the listing explicitly confirming one. Always check the title, bullet points, and current product photos directly rather than inferring a feature from a naming convention.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk with keyboard tray that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,75 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Which Listings Actually Confirm a Keyboard Tray",
-    intro:
-      "Of the 8 picks in this guide, 6 explicitly confirm a keyboard tray in the title. Two do not, and we are flagging that honestly rather than assuming a model number or product category implies the feature.",
-    table: {
-      headers: ["Pick", "Tray confirmed?", "What to check yourself"],
-      rows: [
-        ["OffiGo 55-inch U-Shaped", "Yes, confirmed in title", "Tilt angle not stated, verify in Q&A"],
-        ["VIVO 36-inch V Series", "Not confirmed", "Check current photos and Q&A before assuming"],
-        ["VIVO 32-inch K Series", "Yes, wide tray confirmed", "Tilt angle not stated, verify in Q&A"],
-        ["VIVO 42-inch Converter", "Not confirmed (KB in model number only)", "Do not assume from model code alone"],
-        ["ErGear 44x24", "Yes, confirmed in title", "Tilt angle not stated, verify in Q&A"],
-        ["AODK 55-inch with Drawers", "Yes, confirmed in title", "Check drawer clearance against tray slide"],
-        ["SANODESK 42-inch", "Yes, large tray confirmed", "Lower review count, verify before buying"],
-        ["AX WABER standalone", "Yes, this is a tray itself", "Confirm desk edge is compatible with C-clamp"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a confirmed keyboard tray is a hard requirement, skip the two unconfirmed VIVO listings unless you verify directly with current photos or the Q&A section.",
+      "rows": [
+        [
+          "Highest average rating",
+          "OffiGo 55 Inch U Shaped Electric Standing Desk with Keyboard Tray"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO 32 Inch Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desktop Depth Remaining After the Tray",
-    intro: "A tray costs roughly 6 to 8 inches of usable depth, so shallower desks feel the loss more.",
-    table: {
-      headers: ["Starting desktop depth", "Recommended pick", "Why"],
-      rows: [
-        ["24 inches (tight after tray)", "ErGear 44x24 with Keyboard Tray", "Confirmed tray, but plan for a tighter remaining depth"],
-        ["Converter with adjustable riser depth", "VIVO 32-inch K Series", "Wide confirmed tray with the largest review base"],
-        ["Wider desk with drawers", "AODK 55-inch with Drawers and Tray", "More overall surface to absorb the tray's depth cost"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $42",
+          "AX WABER Keyboard Tray Under Desk Pull Out with Extra Sturdy Adjustable C Clamp Mount"
+        ],
+        [
+          "Up to $220",
+          "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Standalone Tray vs. Integrated Desk",
-    cards: [
+    "subheading": "AX WABER Keyboard Tray Under Desk Pull Out with Extra Sturdy Adjustable C Clamp Mount vs VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
+    "cards": [
       {
-        label: "Choose the AX WABER standalone tray if",
-        text: "You already own a standing desk without a tray and want a low-cost, clamp-mounted add-on rather than replacing the whole desk.",
+        "label": "AX WABER Keyboard Tray Under Desk Pull Out with Extra Sturdy Adjustable C Clamp Mount",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Choose an integrated desk or converter if",
-        text: "You are buying new anyway and want the tray built in from the start, avoiding a separate clamp installation step.",
-      },
+        "label": "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to AX WABER Keyboard Tray Under Desk Pull Out with Extra Sturdy Adjustable C Clamp Mount unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Budget",
-    cards: [
-      {
-        label: "Under $50 tray add-on",
-        text: "The AX WABER standalone tray ($41.99) is the cheapest way to add tray ergonomics to a desk you already own.",
-      },
-      {
-        label: "$140 to $220 for a confirmed tray",
-        text: "The VIVO K Series ($139.99), ErGear ($149.99), AODK ($199.98), OffiGo ($199.99), and SANODESK ($213.99) all confirm a tray in this price band.",
-      },
-    ],
-  },
-  {
-    subheading: "Checking Lean Pressure Tolerance After Setup",
-    intro: "A tray's static weight rating does not tell you how it holds up under real typing pressure.",
-    table: {
-      headers: ["Check", "How to do it", "What it tells you"],
-      rows: [
-        ["Lean test", "Rest your forearms on the tray edge as if typing for a minute", "Reveals flex under ongoing lean pressure, not just static load"],
-        ["Track extension check", "Slide the tray fully out and sit at your normal distance", "Confirms the 18-24 inch track matches your sitting distance"],
-        ["Mouse platform height check", "Compare mouse platform height to the keyboard surface", "Flags a height mismatch that strains the shoulder over a workday"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a tray fails the lean test with noticeable flex, treat the static weight rating on the listing with skepticism regardless of the stated number.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "VIVO 32 Inch Desk Converter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO 32 Inch Desk Converter is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where AX WABER Keyboard Tray Under Desk Pull Out with Extra Sturdy Adjustable C Clamp Mount covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

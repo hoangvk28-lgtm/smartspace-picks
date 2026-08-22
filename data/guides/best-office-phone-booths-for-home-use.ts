@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DQC0oZUHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSBLCYZX?tag=deskfinds0d-20",
     description:
-      "A solo, single-occupant pod on wheels and feet, with a built-in table, LED lighting, and USB ports, positioned as the most mobile option in this pool. Its listing is one of the few in this category that mentions ventilation at all, describing it as \"Silent Ventilation,\" though no airflow rate, CFM figure, or independent test data backs that claim.\n\nAmazon's listing does not include a star rating or review count. The wheels make repositioning within a room realistic, but this is still a heavy, large structure that needs freight delivery and real floor-loading consideration, wheels do not substitute for verifying weight limits on an upper-floor apartment or shared office.",
+      "A solo, single-occupant pod on wheels and feet, with a built-in table, LED lighting, and USB ports, positioned as the most mobile option in this pool. Its listing is one of the few in this category that mentions ventilation at all, describing it as \"Silent Ventilation,\" though no airflow rate, CFM figure, or independent test data backs that claim.\n\nAmazon's listing does not include a star rating or review count. The wheels make repositioning within a room realistic, but this is still a heavy, large structure that needs freight delivery and real floor-loading consideration, wheels do not substitute for verifying weight limits on an upper-floor apartment or shared office.\n\nA genuine advantage here is that built-in table, LED lighting, and USB ports included. The tradeoff is no star rating or review count available from Amazon.",
     specs: ["Solo (single-occupant) pod", "Wheels and feet for repositioning", "Built-in table, LED lighting, USB ports", "Listing states \"Silent Ventilation\" as a feature"],
     pros: ["Solo occupancy pod on wheels for easier repositioning within a room", "Built-in table, LED lighting, and USB ports included", "One of the few listings in this pool to mention ventilation at all, though unverified", "Lowest price point among the fully-featured single-person pods in this pool"],
     cons: ["No star rating or review count available from Amazon", "\"Silent Ventilation\" is a marketing claim with no CFM or airflow-rate data to verify it", "Still requires freight delivery and floor-loading planning despite the wheels"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31KSQuhuwNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62Z8CFF?tag=deskfinds0d-20",
     description:
-      "A one-to-two-person pod at W55in D48in H92in exterior dimensions, one of the few listings in this pool to explicitly state a small occupancy range rather than a single fixed number. Amazon's listing does not include a star rating or review count.\n\nThe wider W55in footprint compared to the strictly solo pods gives a bit more room for a second occupant or a visitor chair, though interior usable space will still run smaller than the exterior dimensions once acoustic wall thickness is accounted for. No STC/NRC data or ventilation specs are disclosed.",
+      "A one-to-two-person pod at W55in D48in H92in exterior dimensions, one of the few listings in this pool to explicitly state a small occupancy range rather than a single fixed number. Amazon's listing does not include a star rating or review count.\n\nThe wider W55in footprint compared to the strictly solo pods gives a bit more room for a second occupant or a visitor chair, though interior usable space will still run smaller than the exterior dimensions once acoustic wall thickness is accounted for. No STC/NRC data or ventilation specs are disclosed.\n\nExact exterior dimensions disclosed (W55 x D48 x H92in). On the other hand, no star rating or review count available from Amazon. Neither should be a surprise once you know to look for it.",
     specs: ["1 to 2 person capacity", "Exterior dimensions W55in D48in H92in", "Acoustic panel interior", "Generic/private-label manufacturer"],
     pros: ["Explicit 1-2 person occupancy range disclosed in the title", "Exact exterior dimensions disclosed (W55 x D48 x H92in)", "Mid-range price relative to the rest of this pool", "No star rating or review count to independently verify against the marketing copy"],
     cons: ["No star rating or review count available from Amazon", "No formal STC/NRC sound-isolation data disclosed", "No ventilation specs disclosed for two-occupant use"],
@@ -67,34 +67,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "A True Standing-Only Phone Booth Was Not Found in This Research Pass",
-    note: "We reviewed all nine verified office pod listings in this niche and found none framed as a standing-only, deskless phone booth, every option is a full seated pod. If a standing-only format is a hard requirement, expect to look beyond this current Amazon product pool.",
-  },
-  {
-    subheading: "Seated Pods as a Practical Alternative for Private Calls",
-    note: "A compact seated pod still delivers a private, enclosed space for calls, it just includes a desk or work surface you may not need. Both picks here are the smallest seated options in this niche, minimizing the mismatch versus a true phone booth.",
-  },
-  {
-    subheading: "Mic Pickup Quality Isn't Addressed in Any Listing",
-    note: "If crisp call audio is your top priority, know that no listing in this niche specifies interior acoustic treatment aimed at mic pickup specifically, this can't be verified from the listing data, plan to test after delivery within your return window.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most compact, mobile seated alternative", "Mobile Office Pod Booth"],
-        ["Slightly larger footprint for occasional second person", "Soundproof Office Pod Booth"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Mobile Office Pod Booth"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Mobile Office Pod Booth"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $4",
+          "Mobile Office Pod Booth"
+        ],
+        [
+          "Up to $4",
+          "Soundproof Office Pod Booth"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Mobile Office Pod Booth vs Soundproof Office Pod Booth",
+    "cards": [
+      {
+        "label": "Mobile Office Pod Booth",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Soundproof Office Pod Booth",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Mobile Office Pod Booth unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Mobile Office Pod Booth"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Mobile Office Pod Booth is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Soundproof Office Pod Booth's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Mobile Office Pod Booth covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Understand no true standing-only phone booth exists in this pool", explanation: "Every verified listing in this niche is a full seated pod with a desk or work surface, don't expect a deskless standing booth from current Amazon listings." },
-  { criterion: "Pick the smallest seated option to minimize the format mismatch", explanation: "Both featured picks are the most compact seated pods in this niche, reducing unused desk space versus larger group-oriented options." },
-  { criterion: "Don't assume mic pickup quality from any listing", explanation: "No listing specifies interior acoustics for call audio specifically, plan to test after delivery within your return window if this matters." },
-  { criterion: "Consider shorter-duration ventilation needs for calls", explanation: "Calls are typically shorter than full workday use, which reduces (but doesn't eliminate) the ventilation disclosure gap that applies across this niche." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a office phone booth often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the office phone booth holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this office phone booth over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any office phone booth you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A office phone booth that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

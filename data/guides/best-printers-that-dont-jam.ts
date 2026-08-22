@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "As a monochrome laser with duplex printing built in, the DCP-L2640DW uses a sturdier paper path than most inkjets in its price range, and laser engines generally handle a wider range of paper weights without the curling that trips up inkjet rollers. Its 250-sheet capacity tray reduces how often paper gets refilled, which matters since overfilling a tray is one of the most common jam triggers.\n\nLike any printer, it will still jam if fed damp or curled paper, or if the tray is stuffed past its fill line. Keeping paper stored flat and dry and never exceeding the tray's marked capacity does more for reliability here than any spec on the box.",
+      "As a monochrome laser with duplex printing built in, the DCP-L2640DW uses a sturdier paper path than most inkjets in its price range, and laser engines generally handle a wider range of paper weights without the curling that trips up inkjet rollers. Its 250-sheet capacity tray reduces how often paper gets refilled, which matters since overfilling a tray is one of the most common jam triggers.\n\nLike any printer, it will still jam if fed damp or curled paper, or if the tray is stuffed past its fill line. Keeping paper stored flat and dry and never exceeding the tray's marked capacity does more for reliability here than any spec on the box.\n\nLarge tray reduces refill-related overfilling. On the other hand, monochrome only. Neither should be a surprise once you know to look for it.",
     specs: [
       "Monochrome laser engine",
       "250-sheet paper tray",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "The HL-L3220CDW pairs color laser output with a 250-sheet tray and duplex printing, giving it the same paper-path advantages as a monochrome laser without giving up color capability. Its rated 19ppm output means paper moves through the mechanism at a steady, predictable pace, which reduces the chance of paper bunching mid-feed.\n\nColor laser toner cartridges are pricier to replace than mono toner, a tradeoff worth weighing against how often you actually need color. The feed path itself doesn't differ meaningfully from the mono model in this list.",
+      "The HL-L3220CDW pairs color laser output with a 250-sheet tray and duplex printing, giving it the same paper-path advantages as a monochrome laser without giving up color capability. Its rated 19ppm output means paper moves through the mechanism at a steady, predictable pace, which reduces the chance of paper bunching mid-feed.\n\nColor laser toner cartridges are pricier to replace than mono toner, a tradeoff worth weighing against how often you actually need color. The feed path itself doesn't differ meaningfully from the mono model in this list.\n\nLarge tray capacity. That's a real strength, but weigh it against the flip side: color toner costs more to replace than mono.",
     specs: [
       "Color laser engine",
       "19ppm rated output",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "The MCF-J5010DW is an inkjet, so it relies on rollers gripping paper through a curved path rather than a straight laser feed, which makes correct paper loading more important here than on the laser picks. Its 2.7-inch color touchscreen makes it easier to catch and clear a misfeed early instead of forcing paper through blind.\n\nInkjet rollers are more sensitive to humidity swings than laser rollers, so paper stored somewhere humid is more likely to cause a curved-path jam on this model than on the Brother laser printers above it in this list.",
+      "The MCF-J5010DW is an inkjet, so it relies on rollers gripping paper through a curved path rather than a straight laser feed, which makes correct paper loading more important here than on the laser picks. Its 2.7-inch color touchscreen makes it easier to catch and clear a misfeed early instead of forcing paper through blind.\n\nInkjet rollers are more sensitive to humidity swings than laser rollers, so paper stored somewhere humid is more likely to cause a curved-path jam on this model than on the Brother laser printers above it in this list.\n\nWorth calling out specifically: duplex printing built in. The catch is curved inkjet feed path is more humidity-sensitive than laser.",
     specs: [
       "Color inkjet all-in-one",
       "Automatic 2-sided printing",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800 keeps a simple single-tray feed path without a rear straight-through slot, so its jam resistance comes down mostly to keeping the tray at the correct fill level and using paper within its supported weight range. As a cartridge-free ink tank printer, there's no cartridge-related feed obstruction to worry about, one less variable than standard inkjets.\n\nBecause it lacks a straight-through rear slot for thicker stock, don't push cardstock or heavier specialty paper through the standard tray; stick to regular printer paper for the most reliable results on this model.",
+      "The ET-2800 keeps a simple single-tray feed path without a rear straight-through slot, so its jam resistance comes down mostly to keeping the tray at the correct fill level and using paper within its supported weight range. As a cartridge-free ink tank printer, there's no cartridge-related feed obstruction to worry about, one less variable than standard inkjets.\n\nBecause it lacks a straight-through rear slot for thicker stock, don't push cardstock or heavier specialty paper through the standard tray; stick to regular printer paper for the most reliable results on this model.\n\nSimple, predictable single feed path. Set against that, no rear straight-through slot for thick stock. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free ink tank system",
       "Single-tray feed path",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 adds an automatic document feeder on top of the ink-tank system, which matters for jam prevention because a well-designed ADF separates sheets one at a time rather than relying on you to feed pages individually. Ethernet support also gives it a more stable wired connection option for a home office that wants to rule out wireless drops as a source of stalled or repeated print jobs.\n\nADFs are still a common jam point if fed stapled pages, torn edges, or stacks that exceed the feeder's rated capacity, so keeping multi-page originals in good condition before scanning matters more here than tray paper quality alone.",
+      "The ET-4800 adds an automatic document feeder on top of the ink-tank system, which matters for jam prevention because a well-designed ADF separates sheets one at a time rather than relying on you to feed pages individually. Ethernet support also gives it a more stable wired connection option for a home office that wants to rule out wireless drops as a source of stalled or repeated print jobs.\n\nADFs are still a common jam point if fed stapled pages, torn edges, or stacks that exceed the feeder's rated capacity, so keeping multi-page originals in good condition before scanning matters more here than tray paper quality alone.\n\nA genuine advantage here is that ethernet option avoids wireless-related job stalls. The tradeoff is aDF requires undamaged, unstapled originals to avoid jams.",
     specs: [
       "Cartridge-free ink tank system",
       "Automatic document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "At its price point, the PIXMA TR4720 includes an auto document feeder, a genuine convenience for jam-conscious buyers since manually feeding multi-page originals sheet by sheet increases the chance of a skewed feed. Its standard cartridge inkjet mechanism is a simpler, cheaper feed path than the ink-tank models, with fewer moving parts around the ink delivery system itself.\n\nAs a budget printer, its rollers are lighter-duty and will show wear sooner under heavy daily use than the laser or ink-tank picks in this list, so expect jam frequency to creep up with age faster here than on the pricier options.",
+      "At its price point, the PIXMA TR4720 includes an auto document feeder, a genuine convenience for jam-conscious buyers since manually feeding multi-page originals sheet by sheet increases the chance of a skewed feed. Its standard cartridge inkjet mechanism is a simpler, cheaper feed path than the ink-tank models, with fewer moving parts around the ink delivery system itself.\n\nAs a budget printer, its rollers are lighter-duty and will show wear sooner under heavy daily use than the laser or ink-tank picks in this list, so expect jam frequency to creep up with age faster here than on the pricier options.\n\nSimple cartridge feed mechanism. On the other hand, lighter-duty rollers wear faster under heavy use. Neither should be a surprise once you know to look for it.",
     specs: [
       "Auto document feeder",
       "Built-in fax",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 uses a single-tray feed path with no ADF, which actually simplifies where a jam can happen since there's one feed mechanism to keep clean and correctly loaded rather than two. It's a fine fit for a single-desk setup that mostly prints single documents rather than scanning multi-page originals.\n\nBecause it's an entry-level cartridge inkjet, keep paper stacked well below the tray's fill line and store paper away from humid areas like a garage or basement to get the most reliable performance out of it over time.",
+      "The DeskJet 4355 uses a single-tray feed path with no ADF, which actually simplifies where a jam can happen since there's one feed mechanism to keep clean and correctly loaded rather than two. It's a fine fit for a single-desk setup that mostly prints single documents rather than scanning multi-page originals.\n\nBecause it's an entry-level cartridge inkjet, keep paper stacked well below the tray's fill line and store paper away from humid areas like a garage or basement to get the most reliable performance out of it over time.\n\nCompact for small desks. That's a real strength, but weigh it against the flip side: no ADF for multi-page scanning.",
     specs: [
       "Wireless all-in-one: print, scan, copy",
       "Single-tray feed path, no ADF",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LqmhjzXHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGC43YCL?tag=deskfinds0d-20",
     description:
-      "The MFC-J1360DW adds automatic duplex printing and a 1.8-inch color display at a mid-budget price, and the display helps surface a paper-out or misfeed alert faster than a printer with no screen at all. Its LC501 series ink cartridges use a standard feed path similar to the other Brother inkjet in this list.\n\nDuplex printing itself adds a second pass through the feed rollers per sheet, so if you notice more jams specifically on two-sided jobs, switching that particular print job to single-sided is a reasonable workaround rather than a sign the printer is defective.",
+      "The MFC-J1360DW adds automatic duplex printing and a 1.8-inch color display at a mid-budget price, and the display helps surface a paper-out or misfeed alert faster than a printer with no screen at all. Its LC501 series ink cartridges use a standard feed path similar to the other Brother inkjet in this list.\n\nDuplex printing itself adds a second pass through the feed rollers per sheet, so if you notice more jams specifically on two-sided jobs, switching that particular print job to single-sided is a reasonable workaround rather than a sign the printer is defective.\n\nWorth calling out specifically: duplex printing included. The catch is duplex jobs add a second feed pass per sheet.",
     specs: [
       "Automatic duplex printing",
       "1.8\" color display",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "No printer has a verified jam rate",
-    explanation:
-      "No manufacturer publishes jam-frequency data, and no independent lab tracks it across models, so treat any \"jam-free\" claim, including implied ones, with skepticism. What you can evaluate honestly is feed path design and paper handling features, which is what this guide focuses on.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer that doesn't jam often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Straight paths beat curved paths for thick or curled paper",
-    explanation:
-      "A straight-through feed path, common on laser rear slots, pulls paper in a flat line with fewer points of resistance, while a curved C-path forces paper to bend, which is harder on cardstock, curled sheets, or paper stored improperly. If you regularly print on anything heavier than standard paper, a straight-path option reduces risk.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer that doesn't jam holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Humidity is a bigger factor than most buyers realize",
-    explanation:
-      "Paper absorbs ambient moisture and swells slightly, which changes how it feeds through rollers; storing paper in a humid garage, basement, or bathroom-adjacent closet measurably increases jam frequency on any printer. Keep printer paper in its sealed ream wrapper until use and store it in the same climate-controlled room as the printer.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer that doesn't jam over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Overfilling the tray is the single most common self-inflicted jam",
-    explanation:
-      "Every tray has a maximum fill line, usually a small embossed marking on the tray's side wall, and stacking paper above it is a leading cause of multi-sheet feeds and jams. Fan the paper stack lightly before loading and never load past the marked line, even if it looks like there's room.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer that doesn't jam you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Mixed paper weights in one tray cause misfeeds",
-    explanation:
-      "Loading a few sheets of cardstock or photo paper on top of a stack of standard 20lb paper confuses the feed rollers, which are calibrated for one weight at a time. Load a single paper weight per tray and use a rear straight-feed slot if your printer has one for anything heavier than standard paper.",
-  },
-  {
-    criterion: "Roller wear increases jam frequency as a printer ages",
-    explanation:
-      "A printer's pickup rollers gradually lose grip over years of use regardless of brand, so a 3-year-old printer will jam more often than it did new, and that's a maintenance issue, not necessarily a defect. Many models have inexpensive replacement roller kits available if jams increase noticeably after a couple of years.",
-  },
-  {
-    criterion: "ADFs need undamaged, unstapled originals",
-    explanation:
-      "Automatic document feeders jam far more often on stapled pages, torn edges, or stacks that exceed the feeder's rated sheet capacity than on flat, clean paper. Remove staples and straighten dog-eared corners before scanning multi-page originals through an ADF.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that doesn't jam that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,60 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Feed Path Design",
-    intro:
-      "Feed path shape matters more for jam resistance than brand reputation.",
-    table: {
-      headers: ["Feed path type", "Best for", "Pick from this list"],
-      rows: [
-        ["Straight-through laser path", "Mixed paper types, cardstock-adjacent use", "Brother DCP-L2640DW, Brother HL-L3220CDW"],
-        ["Curved inkjet path with touchscreen alerts", "Color documents with easier misfeed troubleshooting", "Brother MCF-J5010DW"],
-        ["Simple single-tray path", "Standard paper only, lowest complexity", "Epson EcoTank ET-2800, HP DeskJet 4355"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother DCP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If You Regularly Scan Multi-Page Documents",
-    intro:
-      "An ADF is only jam-resistant if the originals feeding into it are in good condition.",
-    table: {
-      headers: ["Scenario", "What to prioritize", "Best pick"],
-      rows: [
-        ["Frequent multi-page scanning", "ADF with clean sheet separation", "Epson EcoTank ET-4800"],
-        ["Occasional scanning on a budget", "Basic ADF at a low price", "Canon PIXMA TR4720"],
-        ["Mostly single-page printing", "No ADF needed, simpler path", "HP DeskJet 4355"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $69",
+          "Canon PIXMA TR4720 All"
+        ],
+        [
+          "Up to $285",
+          "Brother HL"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Root Causes of Jams That Have Nothing to Do With the Printer",
-    cards: [
+    "subheading": "Canon PIXMA TR4720 All vs Brother HL",
+    "cards": [
       {
-        label: "Humidity",
-        text: "Paper stored somewhere humid swells slightly and feeds less reliably on any printer. Keep paper sealed until use.",
+        "label": "Canon PIXMA TR4720 All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Overfilled trays",
-        text: "Stacking paper above the tray's fill line is a leading cause of multi-sheet feeds regardless of brand.",
-      },
-      {
-        label: "Mixed paper weights",
-        text: "A few heavier sheets mixed into a standard paper stack confuses feed rollers calibrated for one weight.",
-      },
-      {
-        label: "Roller age",
-        text: "Rollers lose grip over years of normal use; a 3-year-old printer jamming more than it did new is expected wear, not a defect.",
-      },
+        "label": "Brother HL",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TR4720 All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "If You Print Cardstock or Heavier Stock Occasionally",
-    note: "Neither ink-tank pick in this list has a dedicated rear straight-feed slot for heavy stock, so stick to standard paper on the Epson EcoTank models. The Brother laser printers tolerate a wider weight range through their standard path, making them the safer occasional choice for slightly heavier paper.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Duplex Printing and Jam Risk",
-    note: "Two-sided printing runs each sheet through the feed rollers twice, which modestly increases the chance of a jam on any duplex-capable printer compared to single-sided jobs. If a specific duplex job keeps jamming, switching it to single-sided is a reasonable workaround rather than a sign of a defective unit.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Brother DCP is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother HL's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TR4720 All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

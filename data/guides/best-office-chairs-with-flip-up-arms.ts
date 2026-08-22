@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
-      "This chair states flip-up arms directly in its listing title, and its highest review count in this list gives buyers a solid pool of real feedback to check on how the flip mechanism holds up over time. A PU leather seat and mesh back combine two materials, offering breathability where it matters most while keeping a more polished executive look than an all-mesh chair.\n\nAdjustable lumbar support adds another point of fit customization alongside the flip-up arms, useful for sliding fully under a small desk when the arms are raised. At $129.99 it's the highest priced chair in this list, a reasonable cost for the confirmed arm mechanism and higher review volume.",
+      "This chair states flip-up arms directly in its listing title, and its highest review count in this list gives buyers a solid pool of real feedback to check on how the flip mechanism holds up over time. A PU leather seat and mesh back combine two materials, offering breathability where it matters most while keeping a more polished executive look than an all-mesh chair.\n\nAdjustable lumbar support adds another point of fit customization alongside the flip-up arms, useful for sliding fully under a small desk when the arms are raised. At $129.99 it's the highest priced chair in this list, a reasonable cost for the confirmed arm mechanism and higher review volume.\n\nLargest review base in this list. Set against that, highest price in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Confirmed flip-up armrests",
       "PU leather seat, mesh back",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qifS1PZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41X9SMT?tag=deskfinds0d-20",
     description:
-      "The Primy is a tall drafting-style chair with confirmed flip-up armrests, built specifically for taller standing desks where you need extra seat height plus an adjustable footrest ring rather than a standard task chair height range. Flipping the arms up here is especially useful for sliding in and out of a taller desk setup without catching the armrest on the desktop edge.\n\nLumbar support and an adjustable footrest ring add real ergonomic value for extended standing-desk use, though the tall design is a specific fit, not a general-purpose replacement for a standard-height desk chair.",
+      "The Primy is a tall drafting-style chair with confirmed flip-up armrests, built specifically for taller standing desks where you need extra seat height plus an adjustable footrest ring rather than a standard task chair height range. Flipping the arms up here is especially useful for sliding in and out of a taller desk setup without catching the armrest on the desktop edge.\n\nLumbar support and an adjustable footrest ring add real ergonomic value for extended standing-desk use, though the tall design is a specific fit, not a general-purpose replacement for a standard-height desk chair.\n\nA genuine advantage here is that built for taller standing-desk height ranges. The tradeoff is tall design isn't suited to a standard-height desk.",
     specs: [
       "Confirmed flip-up armrests",
       "Tall drafting chair height range",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411wlpMNg+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP22DQQS?tag=deskfinds0d-20",
     description:
-      "The Marsail's listing describes 3D armrests rather than flip-up arms, and those are two different adjustment systems worth understanding before buying. 3D armrests typically move up and down, forward and back, and pivot inward or outward, giving strong horizontal and depth adjustment, but the listing does not state that they also fold flat against the chair back the way a true flip-up arm does.\n\nWe're including it here because it's part of the same product set as the confirmed flip-up picks and offers genuinely useful arm adjustability, but if tucking fully under a low desk with the arm folded flat is your specific need, verify flip capability with the seller before buying rather than assuming it from the 3D description alone.",
+      "The Marsail's listing describes 3D armrests rather than flip-up arms, and those are two different adjustment systems worth understanding before buying. 3D armrests typically move up and down, forward and back, and pivot inward or outward, giving strong horizontal and depth adjustment, but the listing does not state that they also fold flat against the chair back the way a true flip-up arm does.\n\nWe're including it here because it's part of the same product set as the confirmed flip-up picks and offers genuinely useful arm adjustability, but if tucking fully under a low desk with the arm folded flat is your specific need, verify flip capability with the seller before buying rather than assuming it from the 3D description alone.\n\nHigh back mesh with headrest. On the other hand, listing does not confirm the arms flip up flat. Neither should be a surprise once you know to look for it.",
     specs: [
       "3D adjustable armrests (up/down, forward/back, pivot)",
       "High back mesh design",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DJb5724iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPLP3BND?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR states flip-up arms in its listing title at a price under $60, making it the most affordable confirmed flip-up option in this list. A mesh seat helps with breathability, and the lumbar support and adjustable height cover the basics for a home office task chair.\n\nAt this price point, the flip mechanism itself is more likely to use a plastic pivot pin rather than metal, which can wear faster than a metal hinge under frequent daily flipping, so buyers who plan to flip the arms up and down constantly rather than occasionally should factor that into long-term durability expectations.",
+      "This NEO CHAIR states flip-up arms in its listing title at a price under $60, making it the most affordable confirmed flip-up option in this list. A mesh seat helps with breathability, and the lumbar support and adjustable height cover the basics for a home office task chair.\n\nAt this price point, the flip mechanism itself is more likely to use a plastic pivot pin rather than metal, which can wear faster than a metal hinge under frequent daily flipping, so buyers who plan to flip the arms up and down constantly rather than occasionally should factor that into long-term durability expectations.\n\nLowest price among confirmed flip-up picks. That's a real strength, but weigh it against the flip side: budget pivot pin material may wear faster with frequent flipping.",
     specs: [
       "Confirmed flip-up armrests",
       "Mesh chair back",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
-      "A near-twin to the previous NEO CHAIR pick, this model also states flip-up armrests directly and adds a high back design for more upper back and shoulder coverage. It's priced almost identically, making the choice between the two mostly a matter of high-back versus standard coverage preference.\n\nThe same budget pivot pin durability note applies here as with other sub-$60 flip-up chairs, so expect the flip mechanism to be less robust over years of frequent daily use than the metal hinges typically found on higher-priced executive chairs in this list.",
+      "A near-twin to the previous NEO CHAIR pick, this model also states flip-up armrests directly and adds a high back design for more upper back and shoulder coverage. It's priced almost identically, making the choice between the two mostly a matter of high-back versus standard coverage preference.\n\nThe same budget pivot pin durability note applies here as with other sub-$60 flip-up chairs, so expect the flip mechanism to be less robust over years of frequent daily use than the metal hinges typically found on higher-priced executive chairs in this list.\n\nWorth calling out specifically: high back design for more upper-back coverage. The catch is budget pivot pin may wear with frequent flipping.",
     specs: [
       "Confirmed flip-up armrests",
       "High back mesh design",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR listing does not mention flip-up, folding, or any specific armrest adjustment style at all, unlike its two siblings above in this list. We're flagging that directly rather than assuming it shares the flip-up feature just because it's the same brand and product family, since arm design can differ between similarly named models.\n\nIt's the lowest priced chair in this list and a reasonable basic mid-back option, but if flip-up arms are a must-have for your desk clearance, confirm the exact arm mechanism with the seller before ordering rather than assuming it from the NEO CHAIR name alone.",
+      "This NEO CHAIR listing does not mention flip-up, folding, or any specific armrest adjustment style at all, unlike its two siblings above in this list. We're flagging that directly rather than assuming it shares the flip-up feature just because it's the same brand and product family, since arm design can differ between similarly named models.\n\nIt's the lowest priced chair in this list and a reasonable basic mid-back option, but if flip-up arms are a must-have for your desk clearance, confirm the exact arm mechanism with the seller before ordering rather than assuming it from the NEO CHAIR name alone.\n\nDecent review base for the price. Set against that, listing does not confirm flip-up or any specific arm type. Both matter when comparing it to the other picks here.",
     specs: [
       "Arm adjustment style not specified in listing",
       "Mid back mesh design",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
-      "The BestOffice has by far the largest review count in this entire list, a genuinely useful data point for a budget chair, but its listing does not mention flip-up arms or any specific armrest adjustment style. We're flagging that clearly since it's easy to assume a chair grouped with flip-up models shares that feature when the listing itself doesn't say so.\n\nAt this price it's a solid basic ergonomic chair with breathable backrest and lumbar support, worth considering if flip-up arms aren't a strict requirement for your desk setup.",
+      "The BestOffice has by far the largest review count in this entire list, a genuinely useful data point for a budget chair, but its listing does not mention flip-up arms or any specific armrest adjustment style. We're flagging that clearly since it's easy to assume a chair grouped with flip-up models shares that feature when the listing itself doesn't say so.\n\nAt this price it's a solid basic ergonomic chair with breathable backrest and lumbar support, worth considering if flip-up arms aren't a strict requirement for your desk setup.\n\nA genuine advantage here is that very low price. The tradeoff is listing does not confirm flip-up or any specific arm type.",
     specs: [
       "Arm adjustment style not specified in listing",
       "Mid-back breathable backrest",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41b4JMojCoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
     description:
-      "The Furmax is a high-back PU leather executive chair, but like the two picks above, its listing does not mention flip-up arms or specify any particular armrest adjustment style. It's included here as part of the same product set, and its executive styling and PU leather build make it a reasonable alternative if you're open to a fixed or unspecified armrest in exchange for a more polished managerial look.\n\nIf flip-up capability specifically matters for your desk clearance, prioritize one of the confirmed flip-up picks above and treat this one as a fixed-arm executive alternative unless the seller confirms otherwise.",
+      "The Furmax is a high-back PU leather executive chair, but like the two picks above, its listing does not mention flip-up arms or specify any particular armrest adjustment style. It's included here as part of the same product set, and its executive styling and PU leather build make it a reasonable alternative if you're open to a fixed or unspecified armrest in exchange for a more polished managerial look.\n\nIf flip-up capability specifically matters for your desk clearance, prioritize one of the confirmed flip-up picks above and treat this one as a fixed-arm executive alternative unless the seller confirms otherwise.\n\nHigh back for full upper body coverage. On the other hand, listing does not confirm flip-up or any specific arm type. Neither should be a surprise once you know to look for it.",
     specs: [
       "Arm adjustment style not specified in listing",
       "High back PU leather design",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Flip-up, folding, and fixed arms are three different designs",
-    explanation:
-      "A flip-up arm pivots upward and folds flat against the chair back, a folding arm typically collapses inward or downward, and a fixed or 3D arm adjusts position but doesn't fold away at all. Listings sometimes group these loosely under similar marketing language, so check the exact wording, not just the product category, before assuming flip-up capability.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a office chair with flip-up arm often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Plastic pivot pins wear faster than metal under frequent flipping",
-    explanation:
-      "Budget flip-up chairs under roughly $60 in this list are more likely to use a plastic pivot pin at the arm hinge, which can loosen or crack faster than a metal pivot under repeated daily flipping. If you plan to flip the arms up and down multiple times a day rather than occasionally, a metal-hinge chair is the more durable long-term choice.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the office chair with flip-up arm holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "3D arms and flip-up arms solve different problems",
-    explanation:
-      "A 3D armrest, like the Marsail's, typically adjusts up and down, forward and back, and pivots inward or outward, giving strong horizontal positioning for typing posture. That's a different feature from folding flat to clear under-desk space, so don't assume a 3D-adjustable arm also flips up unless the listing states it.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this office chair with flip-up arm over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Arms-down height should land near elbow height, not just any position",
-    explanation:
-      "When the arms are down, they should sit roughly 23 to 26 inches from the floor to support a relaxed elbow angle at a standard desk height. An armrest that's too high in its lowest position causes shoulder tension even on a chair with otherwise good adjustability.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any office chair with flip-up arm you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Flipping the arm up increases the chair's vertical profile",
-    explanation:
-      "A flipped-up arm adds height above the seat back, which can catch on a low overhead shelf, hutch, or wall-mounted cabinet if the chair is stored or rolled under low clearance furniture. Measure the space above where the chair will sit with arms raised before assuming it clears.",
-  },
-  {
-    criterion: "When a listing doesn't specify arm type, ask before assuming",
-    explanation:
-      "Three chairs in this list, the NEO CHAIR mid-back, the BestOffice, and the Furmax, don't state flip-up, folding, or any specific arm adjustment in their listings. If flip capability is a requirement for your desk clearance, confirm directly with the seller rather than assuming it based on the product category or brand.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A office chair with flip-up arm that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,68 +364,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Confirmed Arm Type",
-    intro: "Not every chair in this product set has confirmed flip-up arms. Here's what's actually stated in each listing.",
-    table: {
-      headers: ["Arm type", "Chairs", "Recommendation"],
-      rows: [
-        ["Confirmed flip-up arms", "Leather Flip-Up Executive, Primy Drafting, NEO CHAIR Pink, NEO CHAIR Black", "Safe to buy for flip-up needs"],
-        ["3D adjustable, not confirmed flip-up", "Marsail 3D Armrest", "Confirm with seller before assuming flip capability"],
-        ["Arm type not specified", "NEO CHAIR Mid Back, BestOffice, Furmax", "Confirm with seller before assuming flip capability"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Ergonomic Desk Chair"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Ergonomic Desk Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desk Clearance Need",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $39",
+          "NEO CHAIR Office Computer Chair"
+        ],
+        [
+          "Up to $130",
+          "Ergonomic Desk Chair"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NEO CHAIR Office Computer Chair vs Ergonomic Desk Chair",
+    "cards": [
       {
-        label: "Must tuck fully under a small desk",
-        text: "Choose a confirmed flip-up pick like the Leather Flip-Up Executive or NEO CHAIR Pink, both of which explicitly state flip-up arms in their listings.",
+        "label": "NEO CHAIR Office Computer Chair",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Need strong horizontal arm adjustment for typing",
-        text: "The Marsail's 3D armrests give more positioning range than a basic flip-up arm, though flip capability itself isn't confirmed.",
-      },
-      {
-        label: "Flip-up isn't a strict requirement",
-        text: "The BestOffice offers the largest review base and lowest price in this list if you're open to an unspecified arm type.",
-      },
+        "label": "Ergonomic Desk Chair",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to NEO CHAIR Office Computer Chair unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Metal vs. Plastic Pivot: Durability by Price Tier",
-    intro: "Frequent daily flipping wears differently depending on pivot pin material, which tends to track with price tier here.",
-    table: {
-      headers: ["Price tier", "Likely pivot material", "Best pick"],
-      rows: [
-        ["Under $60", "More likely plastic pivot pin", "NEO CHAIR Pink or NEO CHAIR Black"],
-        ["$100-$130", "More likely metal hinge", "Leather Flip-Up Executive or Primy Drafting"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If you'll flip the arms multiple times a day for years, the higher-priced metal-hinge chairs are the safer long-term bet.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Ergonomic Desk Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Standing Desk vs. Standard Desk Height",
-    table: {
-      headers: ["Desk type", "Chair height need", "Best pick"],
-      rows: [
-        ["Standard-height desk", "Standard task chair range", "Leather Flip-Up Executive or NEO CHAIR Pink"],
-        ["Taller standing desk", "Extended drafting-height range", "Primy Drafting Chair"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Ergonomic Desk Chair is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["Under $40", "Arm type not specified in listing", "NEO CHAIR Mid Back or BestOffice"],
-        ["$58-$60", "Confirmed flip-up, budget pivot material", "NEO CHAIR Pink or NEO CHAIR Black"],
-        ["$89.99", "Executive styling, arm type not specified", "Furmax Executive"],
-        ["$108.96-$129.99", "Confirmed flip-up, higher build quality", "Primy Drafting or Leather Flip-Up Executive"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Ergonomic Desk Chair's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where NEO CHAIR Office Computer Chair covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

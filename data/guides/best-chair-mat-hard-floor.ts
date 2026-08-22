@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/511cDPpcZXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM4VCWWJ?tag=deskfinds0d-20",
     description:
-      "The Sycoodeal is the cheapest mat in this list and the only one built specifically to cut rolling noise, a real consideration if your desk sits over a downstairs bedroom or a shared apartment floor. At 0.16 inches thick, the TPR material is noticeably softer underfoot than the PVC mats here, which is part of how it dampens sound.\n\nIts non-slip adsorption backing grips hard floors without adhesive, and the mat can be trimmed down to a custom size with scissors. The tradeoff is a lower star rating than the pricier picks, so buyers wanting a longer-term showpiece mat should look further down this list.",
+      "The Sycoodeal is the cheapest mat in this list and the only one built specifically to cut rolling noise, a real consideration if your desk sits over a downstairs bedroom or a shared apartment floor. At 0.16 inches thick, the TPR material is noticeably softer underfoot than the PVC mats here, which is part of how it dampens sound.\n\nIts non-slip adsorption backing grips hard floors without adhesive, and the mat can be trimmed down to a custom size with scissors. The tradeoff is a lower star rating than the pricier picks, so buyers wanting a longer-term showpiece mat should look further down this list.\n\nOnly pick built specifically for noise reduction. On the other hand, lowest star rating in this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "48\"x36\", black finish",
       "TPR material, 0.16\" thick",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414FROmaZML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FCDNGYB?tag=deskfinds0d-20",
     description:
-      "Yecaye's clear PVC mat is built to resist the curling and cracking that thinner clear mats develop after months on the floor, with rounded corners that keep the edges from catching a chair leg or a shoe. At 0.07 inches thick, it strikes a middle ground between the flimsiest budget mats and the rigid glass options later in this list.\n\nIt's rated for any hard floor surface and stays fully transparent, though like most clear PVC it's worth knowing that this material can develop a slight yellow tint after a year or two of UV exposure, something to weigh if you want a mat that still looks brand new in year two.",
+      "Yecaye's clear PVC mat is built to resist the curling and cracking that thinner clear mats develop after months on the floor, with rounded corners that keep the edges from catching a chair leg or a shoe. At 0.07 inches thick, it strikes a middle ground between the flimsiest budget mats and the rigid glass options later in this list.\n\nIt's rated for any hard floor surface and stays fully transparent, though like most clear PVC it's worth knowing that this material can develop a slight yellow tint after a year or two of UV exposure, something to weigh if you want a mat that still looks brand new in year two.\n\nResists curling better than thinner clear mats. That's a real strength, but weigh it against the flip side: clear PVC can yellow slightly after a year or two.",
     specs: [
       "36\"x48\"",
       "PVC, 0.07\" (1.7mm) thick",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/517k2eNhAvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SBVXQ7B?tag=deskfinds0d-20",
     description:
-      "The Azadx is the only mat in this list with a genuinely reversible design, a smooth side for gliding and a textured matte side that adds traction when a chair tends to drift on a slicker floor. That flexibility lets one mat adapt to two different floor conditions without buying a second product.\n\nAt 30x48 inches and 0.06 inches thick, it's built from transparent PVC that works across wood, tile, laminate, and vinyl. As with any clear PVC mat, expect a very gradual yellow tint over a year or two rather than the mat staying showroom-clear forever.",
+      "The Azadx is the only mat in this list with a genuinely reversible design, a smooth side for gliding and a textured matte side that adds traction when a chair tends to drift on a slicker floor. That flexibility lets one mat adapt to two different floor conditions without buying a second product.\n\nAt 30x48 inches and 0.06 inches thick, it's built from transparent PVC that works across wood, tile, laminate, and vinyl. As with any clear PVC mat, expect a very gradual yellow tint over a year or two rather than the mat staying showroom-clear forever.\n\nWorth calling out specifically: textured side adds grip on slicker floors. The catch is narrower than the 36\"-wide picks.",
     specs: [
       "30\"x48\"",
       "PVC, 0.06\" thick",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-SqFH4ZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0893BD69B?tag=deskfinds0d-20",
     description:
-      "Kuyal's mat is built at 2mm thick with an anti-slide coating on the underside that's designed to hold on wood, tile, laminate, vinyl, stone, and concrete alike, useful if you're not sure exactly how your specific hard floor will grip a mat. The top surface uses a dull polish finish rather than a glossy one, which noticeably reduces how visible fine scratches look over time.\n\nIt's odorless and BPA-free with no lead or cadmium, and at 36x48 inches it covers a standard desk chair's full swivel radius. Its anti-slide backing is a middle-ground suction approach rather than a true rubber or adhesive backing, so extremely smooth polished floors may still see minor shifting under heavy rolling.",
+      "Kuyal's mat is built at 2mm thick with an anti-slide coating on the underside that's designed to hold on wood, tile, laminate, vinyl, stone, and concrete alike, useful if you're not sure exactly how your specific hard floor will grip a mat. The top surface uses a dull polish finish rather than a glossy one, which noticeably reduces how visible fine scratches look over time.\n\nIt's odorless and BPA-free with no lead or cadmium, and at 36x48 inches it covers a standard desk chair's full swivel radius. Its anti-slide backing is a middle-ground suction approach rather than a true rubber or adhesive backing, so extremely smooth polished floors may still see minor shifting under heavy rolling.\n\nDull polish finish hides light scratches well. Set against that, suction-style backing grips less aggressively than true rubber. Both matter when comparing it to the other picks here.",
     specs: [
       "36\"x48\"",
       "PVC, 2mm thick",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XIeKF3CtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ87K7RL?tag=deskfinds0d-20",
     description:
-      "The Blvornl stands out visually with a rattan-like woven pattern, the only mat in this list that looks like a decor piece rather than a purely functional plastic sheet. Underneath, a rubber non-slip base grips hard floors without needing industrial adhesive, so it won't leave residue behind when moved.\n\nAt 0.08 inches thick, it's also flame-retardant, waterproof, oil-resistant, and heat-resistant, a broader durability spec sheet than most clear PVC competitors. The pattern does mean it's less transparent than the fully clear picks, so buyers wanting an invisible mat should look elsewhere.",
+      "The Blvornl stands out visually with a rattan-like woven pattern, the only mat in this list that looks like a decor piece rather than a purely functional plastic sheet. Underneath, a rubber non-slip base grips hard floors without needing industrial adhesive, so it won't leave residue behind when moved.\n\nAt 0.08 inches thick, it's also flame-retardant, waterproof, oil-resistant, and heat-resistant, a broader durability spec sheet than most clear PVC competitors. The pattern does mean it's less transparent than the fully clear picks, so buyers wanting an invisible mat should look elsewhere.\n\nA genuine advantage here is that rubber base grips without adhesive residue. The tradeoff is pattern is more visible than fully clear mats.",
     specs: [
       "36\"x48\"",
       "PVC, 0.08\" thick",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PScNXF1QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCBDMRSS?tag=deskfinds0d-20",
     description:
-      "The BARoyal combines a PVC top layer with a rubber backing, an approach that grips hard floors more consistently than PVC alone while still gliding smoothly for a rolling chair. It carries the highest star rating of any PVC-based mat in this guide at 4.6, backed by testing through over 10,000 durability cycles per the listing.\n\nIts curl-free flat edges and water-resistant build hold up well over time, and the Espresso color option is the only non-clear, non-black finish in this list. Silent glide performance rounds out a mat built for buyers who want PVC-level affordability with rubber-level grip.",
+      "The BARoyal combines a PVC top layer with a rubber backing, an approach that grips hard floors more consistently than PVC alone while still gliding smoothly for a rolling chair. It carries the highest star rating of any PVC-based mat in this guide at 4.6, backed by testing through over 10,000 durability cycles per the listing.\n\nIts curl-free flat edges and water-resistant build hold up well over time, and the Espresso color option is the only non-clear, non-black finish in this list. Silent glide performance rounds out a mat built for buyers who want PVC-level affordability with rubber-level grip.\n\nRubber backing grips more reliably than PVC alone. On the other hand, smaller review count than the budget best-sellers. Neither should be a surprise once you know to look for it.",
     specs: [
       "36\"x48\", Espresso color",
       "PVC + rubber backing",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51umupvRX3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKKMDSP?tag=deskfinds0d-20",
     description:
-      "At 5mm thick, the MuArts is the thickest and most rigid mat in this list short of tempered glass, and it's rated to support up to 1,400 lbs, the highest capacity of any pick here. That rigidity means it lies flat immediately and doesn't flex or bow under a rolling chair the way thinner PVC mats can.\n\nIt works dual-use on either hard floors or carpet, so it's a reasonable pick if you might move the mat between rooms later. The crystal-clear finish and 12-month warranty round out a mat built for buyers who want glass-level flatness without paying for actual glass.",
+      "At 5mm thick, the MuArts is the thickest and most rigid mat in this list short of tempered glass, and it's rated to support up to 1,400 lbs, the highest capacity of any pick here. That rigidity means it lies flat immediately and doesn't flex or bow under a rolling chair the way thinner PVC mats can.\n\nIt works dual-use on either hard floors or carpet, so it's a reasonable pick if you might move the mat between rooms later. The crystal-clear finish and 12-month warranty round out a mat built for buyers who want glass-level flatness without paying for actual glass.\n\nThickest, most rigid non-glass pick. That's a real strength, but weigh it against the flip side: pricier than every PVC pick in this list.",
     specs: [
       "54\"x32\"",
       "Rigid material, 5mm thick",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Dfg8DnF5S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PD3ZHJT?tag=deskfinds0d-20",
     description:
-      "The GLSLAND is the only tempered glass mat in this guide, and that material choice solves the two biggest long-term complaints about clear PVC mats at once: glass will not yellow with age and will not develop the fine surface scratches a plastic mat eventually shows. At 5mm thick and rated for 1,200 lbs, it's built to last far longer than any plastic option here.\n\nFour anti-slip pads keep it from shifting on the floor, and it's BPA-free, phthalate-free, and odorless. It works dual-use on carpet or hard floor, making it the most durable long-term investment in this list, at a price that reflects that durability.",
+      "The GLSLAND is the only tempered glass mat in this guide, and that material choice solves the two biggest long-term complaints about clear PVC mats at once: glass will not yellow with age and will not develop the fine surface scratches a plastic mat eventually shows. At 5mm thick and rated for 1,200 lbs, it's built to last far longer than any plastic option here.\n\nFour anti-slip pads keep it from shifting on the floor, and it's BPA-free, phthalate-free, and odorless. It works dual-use on carpet or hard floor, making it the most durable long-term investment in this list, at a price that reflects that durability.\n\nWorth calling out specifically: highest star rating among the premium picks at 4.6. The catch is most expensive pick in this guide.",
     specs: [
       "36\"x46\"",
       "Tempered glass, 5mm thick",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match backing type to your specific hard floor",
-    explanation:
-      "Suction-cup style backing works best on smooth, sealed floors like polished tile, rubber-backed mats grip a wider range of surfaces including laminate and engineered wood, and adhesive-backed mats hold most aggressively but can leave marks on some finishes if repositioned often. Picking the wrong backing for your floor is the single most common reason a mat slides.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a chair mat often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Some hard floors don't need a mat at all",
-    explanation:
-      "Vinyl plank flooring and sealed or polished concrete are already scratch-resistant enough that a chair mat may be an unnecessary expense on these two surfaces specifically. Save the money and put it toward furniture-grade caster wheels or felt pads instead if this describes your floor.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the chair mat holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "A caster or felt-pad upgrade is sometimes the better fix",
-    explanation:
-      "If your real complaint is noise or minor scuffing rather than needing a defined chair zone, upgrading to soft furniture-grade caster wheels or adding felt pads under stationary furniture legs can solve the problem for less than a mat costs. Consider this before buying a mat, not after.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this chair mat over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Clear PVC mats can yellow within 1-2 years",
-    explanation:
-      "Clear PVC mats like the Yecaye, Azadx, and Kuyal picks in this guide are prone to a gradual yellow tint after roughly a year or two of exposure, a tradeoff worth knowing upfront if you're choosing clear specifically for how it looks. Tempered glass, like the GLSLAND pick, does not have this issue.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any chair mat you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Humidity can affect mat adhesion in basements",
-    explanation:
-      "In basements or other humid spaces, moisture can interfere with how well a mat's backing grips the floor over time, particularly for adhesive-backed designs. A rubber-backed or heavier rigid mat tends to hold up more consistently in these conditions than a light suction-style mat.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A chair mat that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,68 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Exact Hard Floor Type",
-    intro:
-      "Hardwood, laminate, tile, vinyl, and concrete each grip a mat differently, so match the backing to your actual floor rather than assuming any mat works everywhere.",
-    table: {
-      headers: ["Floor type", "Best backing approach", "Best pick"],
-      rows: [
-        ["Hardwood or laminate", "Rubber backing, gentler on finish", "BARoyal PVC + Rubber, Blvornl Rattan-Pattern"],
-        ["Tile or polished stone", "Suction/anti-slide coating", "Kuyal Anti-Slide"],
-        ["Vinyl plank (often needs no mat)", "Skip a mat or use lightest budget option", "Sycoodeal TPR (if desired)"],
-        ["Polished concrete (often needs no mat)", "Skip a mat, consider caster upgrade instead", "None needed in most cases"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "BARoyal Office Chair Mat for Hardwood Floor"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "MuArts Crystal Clear 5mm Heavy Duty Chair Mat"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Whether You Even Need a Mat",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $19",
+          "Sycoodeal TPR Chair Mat for Hardwood Floor"
+        ],
+        [
+          "Up to $61",
+          "GLSLAND Tempered Glass Chair Mat"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Sycoodeal TPR Chair Mat for Hardwood Floor vs GLSLAND Tempered Glass Chair Mat",
+    "cards": [
       {
-        label: "Your floor is vinyl plank or polished concrete",
-        text: "Both surfaces already resist scratching well. A cheaper fix like furniture-grade caster wheels or felt pads may solve noise or comfort concerns without buying a mat at all.",
+        "label": "Sycoodeal TPR Chair Mat for Hardwood Floor",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Your floor is hardwood, laminate, or tile",
-        text: "These surfaces benefit most from a mat's protective layer. Start with the Kuyal Anti-Slide for broad floor compatibility or the BARoyal for the highest-rated PVC option.",
-      },
-      {
-        label: "You want a mat that never yellows or scratches",
-        text: "Choose the GLSLAND Tempered Glass pick. It's the only material in this guide immune to both issues long-term.",
-      },
-      {
-        label: "You're on a tight budget",
-        text: "The Sycoodeal TPR at $18.99 is the cheapest pick in this guide and also reduces rolling noise, a rare combination at this price.",
-      },
+        "label": "GLSLAND Tempered Glass Chair Mat",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Sycoodeal TPR Chair Mat for Hardwood Floor unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Noise and Grip Priority",
-    intro:
-      "Some buyers care most about a silent roll, others about a mat that simply won't shift underfoot.",
-    table: {
-      headers: ["Priority", "Best pick", "Why"],
-      rows: [
-        ["Quietest rolling", "Sycoodeal TPR", "Softer TPR material dampens sound better than rigid PVC"],
-        ["Most reliable grip across floor types", "Kuyal Anti-Slide", "Backing designed for wood, tile, laminate, vinyl, stone, and concrete"],
-        ["Best grip with zero adhesive residue", "Blvornl Rattan-Pattern", "Rubber base holds without industrial adhesive"],
-        ["Adaptive grip for uncertain floors", "Azadx Dual-Sided", "Reversible smooth/textured design covers two grip needs in one mat"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "MuArts Crystal Clear 5mm Heavy Duty Chair Mat"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Clear PVC vs Glass for Long-Term Looks",
-    intro:
-      "If keeping a showroom-clear finish for years matters more than upfront price, the material choice below matters more than any other spec.",
-    table: {
-      headers: ["What you want", "Tradeoff", "Best pick"],
-      rows: [
-        ["Cheapest clear option now", "Will likely yellow in 1-2 years", "Yecaye Clear or Azadx Clear"],
-        ["Clear finish that won't yellow", "Higher upfront cost", "GLSLAND Tempered Glass"],
-        ["Maximum weight capacity, dual-use", "Heavier, less easy to reposition", "MuArts Crystal Clear 5mm"],
-      ],
-    },
-    note: "If a clear look matters to you specifically for aesthetics rather than just floor protection, budget for the glass pick from the start rather than replacing a yellowed PVC mat in a year or two.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "MuArts Crystal Clear 5mm Heavy Duty Chair Mat is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where GLSLAND Tempered Glass Chair Mat's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Sycoodeal TPR Chair Mat for Hardwood Floor covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

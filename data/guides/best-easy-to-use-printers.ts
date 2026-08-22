@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 leans on HP's straightforward wireless setup flow and simple print, scan, copy button layout, making it a reasonable pick for an elderly relative or someone printing for the first time in years. AI-capable printing features are optional rather than required to get a basic print job done.\n\nCartridge swaps take a couple of minutes with a clearly labeled access door, and the included 3-month Instant Ink trial means a first-time buyer doesn't have to research cartridge purchasing right away. It won't handle high volume well long-term, but for straightforward setup and daily use it's one of the simplest picks here.",
+      "The DeskJet 4355 leans on HP's straightforward wireless setup flow and simple print, scan, copy button layout, making it a reasonable pick for an elderly relative or someone printing for the first time in years. AI-capable printing features are optional rather than required to get a basic print job done.\n\nCartridge swaps take a couple of minutes with a clearly labeled access door, and the included 3-month Instant Ink trial means a first-time buyer doesn't have to research cartridge purchasing right away. It won't handle high volume well long-term, but for straightforward setup and daily use it's one of the simplest picks here.\n\nQuick cartridge swaps with clear access door. On the other hand, not built for high daily volume. Neither should be a surprise once you know to look for it.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "Canon markets the PIXMA TS4320 around easy setup, and in practice its compact single-tray design keeps daily operation simple, load paper, hit print, done, without extra trays or settings to manage. Duplex printing is built in without requiring manual page-flipping.\n\nThe companion app handles mobile printing setup in a few steps, and Canon's app has historically drawn fewer complaints about forced account creation than some competitors, worth checking current app store reviews before buying since app quality can shift between updates.",
+      "Canon markets the PIXMA TS4320 around easy setup, and in practice its compact single-tray design keeps daily operation simple, load paper, hit print, done, without extra trays or settings to manage. Duplex printing is built in without requiring manual page-flipping.\n\nThe companion app handles mobile printing setup in a few steps, and Canon's app has historically drawn fewer complaints about forced account creation than some competitors, worth checking current app store reviews before buying since app quality can shift between updates.\n\nDuplex printing without manual flipping. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Color inkjet, duplex printing",
       "Copier/scanner built in",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "A 1.42-inch OLED display gives the PIXMA TS6520 a real advantage when something goes wrong, plain status messages and error prompts are easier to act on than a cryptic blinking light code, which is where cheaper printers often leave users guessing. Duplex printing and built-in scan and copy round out the feature set.\n\nThe intuitive control panel keeps common tasks a button press away rather than buried in a menu, which matters most in the moment a jam or low-ink warning actually appears.",
+      "A 1.42-inch OLED display gives the PIXMA TS6520 a real advantage when something goes wrong, plain status messages and error prompts are easier to act on than a cryptic blinking light code, which is where cheaper printers often leave users guessing. Duplex printing and built-in scan and copy round out the feature set.\n\nThe intuitive control panel keeps common tasks a button press away rather than buried in a menu, which matters most in the moment a jam or low-ink warning actually appears.\n\nWorth calling out specifically: intuitive control panel for common tasks. The catch is cartridge ink costs more at high volume.",
     specs: [
       "Color inkjet, duplex printing",
       "Built-in copier and scanner",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720's automatic document feeder simplifies a task that's normally fiddly on budget printers, scanning multiple pages without repositioning each one manually on the glass. Mobile printing setup follows a short, guided process for pairing a phone or tablet.\n\nBuilt-in fax is a legacy holdover most buyers won't touch, but it doesn't complicate daily use. For anyone who scans regularly and wants that specific task to be simple, this is the easiest pick in this list for that job.",
+      "The PIXMA TR4720's automatic document feeder simplifies a task that's normally fiddly on budget printers, scanning multiple pages without repositioning each one manually on the glass. Mobile printing setup follows a short, guided process for pairing a phone or tablet.\n\nBuilt-in fax is a legacy holdover most buyers won't touch, but it doesn't complicate daily use. For anyone who scans regularly and wants that specific task to be simple, this is the easiest pick in this list for that job.\n\nGuided mobile printing setup. Set against that, cartridge-based ink costs more at high volume. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Mobile printing support",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "This is the same easy setup and document-feeder convenience as the white PIXMA TR4720 above in a black finish, a straightforward wireless pairing process and simple button layout for everyday printing, scanning, and copying. It's a reliable, low-fuss option for a shared household printer.\n\nAs with the white version, the built-in fax feature is rarely used but doesn't complicate the interface, and mobile printing setup follows the same short, guided steps.",
+      "This is the same easy setup and document-feeder convenience as the white PIXMA TR4720 above in a black finish, a straightforward wireless pairing process and simple button layout for everyday printing, scanning, and copying. It's a reliable, low-fuss option for a shared household printer.\n\nAs with the white version, the built-in fax feature is rarely used but doesn't complicate the interface, and mobile printing setup follows the same short, guided steps.\n\nA genuine advantage here is that automatic document feeder included. The tradeoff is cartridge-based ink costs more at high volume.",
     specs: [
       "Color inkjet all-in-one with auto document feeder",
       "Mobile printing support",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-ZgpCGxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DV6FV5?tag=deskfinds0d-20",
     description:
-      "With the fewest features of any pick in this list, print, scan, copy, and nothing else, the PIXMA TS3720 has correspondingly little to configure or go wrong. Fewer buttons and no extra modes make it genuinely hard to get lost in a menu.\n\nThis simplicity is a trade-off, no automatic document feeder or fax, but for a buyer who wants a printer that does exactly one job with minimal friction, that's a feature rather than a limitation. It's also the cheapest pick in this list.",
+      "With the fewest features of any pick in this list, print, scan, copy, and nothing else, the PIXMA TS3720 has correspondingly little to configure or go wrong. Fewer buttons and no extra modes make it genuinely hard to get lost in a menu.\n\nThis simplicity is a trade-off, no automatic document feeder or fax, but for a buyer who wants a printer that does exactly one job with minimal friction, that's a feature rather than a limitation. It's also the cheapest pick in this list.\n\nLowest price in this list. On the other hand, no automatic document feeder. Neither should be a surprise once you know to look for it.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Basic home printing design",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31BXOlNqjZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B010A7TZ76?tag=deskfinds0d-20",
     description:
-      "The MG3620 is built around mobile and tablet printing as its primary interaction model, which suits a buyer who'd rather manage everything from a phone screen than a physical control panel. Setup pairs the printer with Canon's app in a short guided flow.\n\nDaily use then largely happens through the app rather than the printer's own limited controls, a smoother experience for anyone already comfortable with app-based devices, though it depends on the app itself staying reliable and well-maintained over time.",
+      "The MG3620 is built around mobile and tablet printing as its primary interaction model, which suits a buyer who'd rather manage everything from a phone screen than a physical control panel. Setup pairs the printer with Canon's app in a short guided flow.\n\nDaily use then largely happens through the app rather than the printer's own limited controls, a smoother experience for anyone already comfortable with app-based devices, though it depends on the app itself staying reliable and well-maintained over time.\n\nSimple guided app pairing at setup. That's a real strength, but weigh it against the flip side: relies on the companion app staying well-maintained.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Mobile and tablet printing emphasis",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314c84l3lcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FDZZK3H?tag=deskfinds0d-20",
     description:
-      "The Canon TS6420 keeps the same easy-setup wireless pairing and simple control layout as the other Canon picks in this list, in a slightly more feature-complete all-in-one body with print, scan, and copy built in. It's a reasonable middle ground for someone who wants a bit more capability without stepping up to app-first or ink-tank complexity.\n\nDaily operation stays straightforward with clearly labeled buttons rather than a deep settings menu, and cartridge access follows the same quick swap process as Canon's other budget models in this list.",
+      "The Canon TS6420 keeps the same easy-setup wireless pairing and simple control layout as the other Canon picks in this list, in a slightly more feature-complete all-in-one body with print, scan, and copy built in. It's a reasonable middle ground for someone who wants a bit more capability without stepping up to app-first or ink-tank complexity.\n\nDaily operation stays straightforward with clearly labeled buttons rather than a deep settings menu, and cartridge access follows the same quick swap process as Canon's other budget models in this list.\n\nWorth calling out specifically: clearly labeled controls for daily use. The catch is higher price than the more basic Canon picks in this list.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Simple wireless setup flow",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Ease of use is 4 separate things, not one",
-    explanation:
-      "Setup, daily use, maintenance, and troubleshooting are genuinely different skills a printer can be good or bad at independently. A printer with the simplest setup wizard, like the DeskJet 4355, isn't automatically the easiest to troubleshoot when a jam happens 6 months later, evaluate each dimension separately against how you'll actually use the printer.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a easy to use printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Non-tech users need a different setup path than tech-comfortable buyers",
-    explanation:
-      "A WPS button pairing process is faster for someone comfortable with routers and networks, but a fully guided app-based setup wizard, like the PIXMA MG3620's app-first flow, is friendlier for someone who'd rather not touch network settings at all. Match the setup style to who will actually be using the printer, not just who's buying it.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the easy to use printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Cartridge swaps are fast, ink-tank refills are less frequent",
-    explanation:
-      "A cartridge swap typically takes 2 to 3 minutes and happens often at moderate volume, while an ink-tank refill takes 5 to 10 minutes, unscrewing caps and pouring carefully without spilling, but happens far less often. If frequent quick tasks feel easier to you than occasional longer ones, weigh that trade-off rather than assuming one option is universally easier.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this easy to use printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "A display with plain-language error messages beats blinking lights",
-    explanation:
-      "A printer that shows a plain message like a paper jam location beside a specific door on-screen is far easier to act on than a cryptic blinking light code that requires pulling up a manual. The PIXMA TS6520's OLED display is a genuine ease-of-use advantage over cheaper printers relying on light codes alone.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any easy to use printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check current app store ratings before assuming an app is simple",
-    explanation:
-      "Companion app quality shifts over time with updates, an app that was well-reviewed a year ago can pick up complaints about forced account creation or bugs after a redesign. If you plan to rely on a printer's mobile app for daily use, check its current app store rating rather than assuming past reputation holds.",
-  },
-  {
-    criterion: "Fewer features often means fewer things to go wrong",
-    explanation:
-      "A stripped-down printer like the PIXMA TS3720, with just print, scan, and copy, has fewer menus and settings where a first-time or infrequent user can get lost. If you rarely use advanced features like fax or automatic document feeding anyway, a simpler printer can genuinely be the easier long-term choice over one packed with capability you won't touch.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A easy to use printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,63 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Which Ease-of-Use Dimension Matters Most to You",
-    intro:
-      "Setup, daily use, maintenance, and troubleshooting are different skills, pick based on which one you actually care about most.",
-    table: {
-      headers: ["What matters most to you", "Why", "Best pick"],
-      rows: [
-        ["Simplest possible initial setup", "Guided wizard, minimal steps", "HP DeskJet 4355"],
-        ["Simplest daily print routine", "Fewest buttons and settings", "Canon PIXMA TS3720"],
-        ["Clear troubleshooting when something breaks", "Plain-language OLED display", "Canon PIXMA TS6520"],
-        ["Fewest features and settings to manage", "Nothing extra to configure", "Canon PIXMA TS3720"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By User Comfort with Technology",
-    cards: [
-      {
-        label: "Elderly or first-time printer user",
-        text: "The HP DeskJet 4355 has a straightforward wireless setup flow and simple button layout that doesn't assume prior printer experience.",
-      },
-      {
-        label: "Comfortable with apps, prefers phone-based control",
-        text: "The Canon PIXMA MG3620 is built around app-first daily interaction, a natural fit for someone who already manages most devices from a phone.",
-      },
-      {
-        label: "Wants the fewest possible decisions to make",
-        text: "The Canon PIXMA TS3720 strips features down to print, scan, and copy only, minimizing menus and configuration choices.",
-      },
-    ],
-  },
-  {
-    subheading: "Jam Clearing and Maintenance Reality Check",
-    intro:
-      "Every printer eventually jams or needs ink, all 8 picks in this list use cartridge-based ink, so a quick cartridge swap with a clearly labeled access door is what to expect from any of them.",
-    table: {
-      headers: ["Maintenance type", "Typical time and effort", "Picks using this system"],
-      rows: [
-        ["Cartridge swap", "2-3 minutes, clearly labeled access door", "All 8 picks in this list"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If you'd rather deal with ink less often even at the cost of a longer refill process each time, an ink-tank printer is worth comparing separately, cartridge-based printers like the ones in this list trade lower per-event effort for more frequent replacement.",
+      "rows": [
+        [
+          "Under $59",
+          "Canon PIXMA TS3720 Wireless All"
+        ],
+        [
+          "Up to $139",
+          "Canon TS6420 All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Troubleshooting and Error Clarity",
-    intro:
-      "When something goes wrong, how a printer communicates the problem matters as much as how often problems happen.",
-    cards: [
+    "subheading": "Canon PIXMA TS3720 Wireless All vs Canon TS6420 All",
+    "cards": [
       {
-        label: "Printers with a clear status display",
-        text: "The Canon PIXMA TS6520's 1.42-inch OLED display shows plain-language messages rather than requiring you to decode a blinking light pattern.",
+        "label": "Canon PIXMA TS3720 Wireless All",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Printers relying on basic indicator lights",
-        text: "Budget picks like the PIXMA TS3720 and TR4720 use simpler indicator lights, functional but less specific when something needs attention.",
-      },
+        "label": "Canon TS6420 All",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon PIXMA TS3720 Wireless All unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon TS6420 All's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TS3720 Wireless All covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

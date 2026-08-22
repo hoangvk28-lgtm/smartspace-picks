@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ecyaoQKJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBK1JLNW?tag=deskfinds0d-20",
     description:
-      "The UNITSTAGE is the cheapest fully enclosed shoe rack in this list, using a non-woven fabric door over a metal frame to keep 5 tiers of shoes out of sight for under $25. The fabric door is dustproof, waterproof, and pet-proof, which matters more than it sounds for a rack that sits low near a door where paws and rain both show up.\n\nAt 20 pairs of listed capacity across a 27.76\" wide frame, it's sized for a smaller household or a closet corner rather than a full family entryway. Fabric doors also flex and zip rather than swing on hinges, so they take up less clearance in a tight hallway than a rigid cabinet door would.",
+      "The UNITSTAGE is the cheapest fully enclosed shoe rack in this list, using a non-woven fabric door over a metal frame to keep 5 tiers of shoes out of sight for under $25. The fabric door is dustproof, waterproof, and pet-proof, which matters more than it sounds for a rack that sits low near a door where paws and rain both show up.\n\nAt 20 pairs of listed capacity across a 27.76\" wide frame, it's sized for a smaller household or a closet corner rather than a full family entryway. Fabric doors also flex and zip rather than swing on hinges, so they take up less clearance in a tight hallway than a rigid cabinet door would.\n\nDustproof, waterproof, and pet-proof fabric door. Set against that, no dedicated ventilation feature besides the fabric itself. Both matter when comparing it to the other picks here.",
     specs: [
       "27.76\"L x 11.82\"W x 25.2\"H",
       "Non-woven fabric + metal frame",
@@ -95,7 +95,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41a7DzzlTVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08N4C97TS?tag=deskfinds0d-20",
     description:
-      "The HOMIDEC pairs a PP plastic and metal-wire cabinet body with a set of dedicated air circulation holes, giving it the best ventilation of any enclosed pick in this list. That airflow matters because sealing damp shoes into a fully closed box with no vents is one of the most common ways an entryway rack starts to smell.\n\nSix tiers and removable partitions let you customize the layout for boots or sneakers, and anti-toppling hardware is included on a rack tall enough (37.2\") to warrant it. It's also the most-reviewed pick in this entire list by a wide margin.",
+      "The HOMIDEC pairs a PP plastic and metal-wire cabinet body with a set of dedicated air circulation holes, giving it the best ventilation of any enclosed pick in this list. That airflow matters because sealing damp shoes into a fully closed box with no vents is one of the most common ways an entryway rack starts to smell.\n\nSix tiers and removable partitions let you customize the layout for boots or sneakers, and anti-toppling hardware is included on a rack tall enough (37.2\") to warrant it. It's also the most-reviewed pick in this entire list by a wide margin.\n\nA genuine advantage here is that most-reviewed pick in this list at 11,653 ratings. The tradeoff is plastic build feels less premium than the wood picks.",
     specs: [
       "33.07\"L x 12.4\"W x 37.2\"H",
       "PP plastic + metal wire + ABS connectors",
@@ -127,7 +127,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rHrnSiwdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPVT7R2S?tag=deskfinds0d-20",
     description:
-      "This taller UNITSTAGE stretches the same fabric-door design to 7 tiers, the most of any fabric-door pick in this list, pushing listed capacity up to 28 pairs without switching materials. The dustproof, waterproof, pet-proof door carries over from the 5-tier version, so the enclosure quality doesn't drop as the rack gets taller.\n\nQuick assembly keeps setup simple despite the added height, and the narrow 11.82\" depth still fits against a closet wall or behind a door. It's the pick for buyers who want fabric-door enclosure but need more vertical capacity than the 5-tier version offers.",
+      "This taller UNITSTAGE stretches the same fabric-door design to 7 tiers, the most of any fabric-door pick in this list, pushing listed capacity up to 28 pairs without switching materials. The dustproof, waterproof, pet-proof door carries over from the 5-tier version, so the enclosure quality doesn't drop as the rack gets taller.\n\nQuick assembly keeps setup simple despite the added height, and the narrow 11.82\" depth still fits against a closet wall or behind a door. It's the pick for buyers who want fabric-door enclosure but need more vertical capacity than the 5-tier version offers.\n\n28-pair listed capacity at a low price. On the other hand, no dedicated ventilation holes beyond the fabric door. Neither should be a surprise once you know to look for it.",
     specs: [
       "27.76\"L x 11.82\"W x 37.8\"H",
       "Non-woven fabric + metal frame",
@@ -159,7 +159,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51mrvTZu2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7RTLXRM?tag=deskfinds0d-20",
     description:
-      "The QIVOMIX moves from soft fabric to engineered wood with 2 flip-down drawers and arc-shaped handles, the most distinctive handle design in this list. The curved hardware doubles as a design statement in an entryway, not just a functional pull.\n\nA removable center divider lets each flip drawer flex between shoe rows and general storage, and the frame carries an 80 lb top load rating so it can double as a bench or console surface. Listed capacity of 14-20 pairs is modest next to the taller racks here, but the flip-drawer format hides shoes more completely than an open-tier fabric door.",
+      "The QIVOMIX moves from soft fabric to engineered wood with 2 flip-down drawers and arc-shaped handles, the most distinctive handle design in this list. The curved hardware doubles as a design statement in an entryway, not just a functional pull.\n\nA removable center divider lets each flip drawer flex between shoe rows and general storage, and the frame carries an 80 lb top load rating so it can double as a bench or console surface. Listed capacity of 14-20 pairs is modest next to the taller racks here, but the flip-drawer format hides shoes more completely than an open-tier fabric door.\n\n80 lb top load doubles as a console surface. That's a real strength, but weigh it against the flip side: lower capacity than the taller fabric and wood picks.",
     specs: [
       "31.5\"W x 9.4\"D x 38\"H",
       "Engineered wood",
@@ -191,7 +191,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51L2YK92tGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBRBVL61?tag=deskfinds0d-20",
     description:
-      "The BORNOON is the highest-rated pick in this entire list at 4.7 stars across nearly 2,000 ratings, built from FSC-certified engineered wood with 3 flip drawers plus 6 open shelves. That combination gives it 18-24 pairs of listed capacity, the most among the flip-drawer wood cabinets in this list.\n\nAt 47.24\" tall, it's one of the taller enclosed picks here, so the included anti-tipping hardware isn't optional, especially in a household with kids or pets. Adjustable panels let you reconfigure shelf height as your shoe collection changes.",
+      "The BORNOON is the highest-rated pick in this entire list at 4.7 stars across nearly 2,000 ratings, built from FSC-certified engineered wood with 3 flip drawers plus 6 open shelves. That combination gives it 18-24 pairs of listed capacity, the most among the flip-drawer wood cabinets in this list.\n\nAt 47.24\" tall, it's one of the taller enclosed picks here, so the included anti-tipping hardware isn't optional, especially in a household with kids or pets. Adjustable panels let you reconfigure shelf height as your shoe collection changes.\n\nWorth calling out specifically: most capacity among the flip-drawer wood cabinets in this list. The catch is most expensive pick in this list.",
     specs: [
       "47.24\"H x 31.5\"W x 9.45\"D",
       "FSC-certified engineered wood",
@@ -223,7 +223,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MAdbTNZAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJ92VYLT?tag=deskfinds0d-20",
     description:
-      "The Homleke trades a flat cabinet front for barn-door styling, the most distinctive farmhouse look among the enclosed picks in this list. Tapered legs and a fence-style top shelf round out the look, so it reads as an entryway console first and a shoe rack second.\n\nUnderneath the styling it's still a functional 2 flip-drawer cabinet with 4 adjustable shelves and anti-tipping hardware, at 38.6\" tall. It's a good fit for buyers who want their enclosed shoe storage to double as a piece of entryway furniture rather than a purely functional rack.",
+      "The Homleke trades a flat cabinet front for barn-door styling, the most distinctive farmhouse look among the enclosed picks in this list. Tapered legs and a fence-style top shelf round out the look, so it reads as an entryway console first and a shoe rack second.\n\nUnderneath the styling it's still a functional 2 flip-drawer cabinet with 4 adjustable shelves and anti-tipping hardware, at 38.6\" tall. It's a good fit for buyers who want their enclosed shoe storage to double as a piece of entryway furniture rather than a purely functional rack.\n\n4 adjustable shelves inside a compact cabinet. Set against that, barn-door front doesn't open as wide as a standard flip drawer. Both matter when comparing it to the other picks here.",
     specs: [
       "31.5\"W x 9.5\"D x 38.6\"H",
       "Engineered wood",
@@ -255,7 +255,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41b0CsN1PrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ73YQY8?tag=deskfinds0d-20",
     description:
-      "The VEVOR is the only pick in this list with a PVC rattan door design, giving it the most distinctive natural-look front here without the maintenance of real wicker. Aluminum alloy handles and 15mm thickened panels back up the woven look with real structural weight.\n\nA particleboard, PVC rattan, and solid wood build keeps the frame narrow at just 6.61\" wide per section, and the 80 lb top load rating means it can hold a lamp or decor on top. Two flip drawers keep the pair count modest, so it suits a smaller household more than a large family entryway.",
+      "The VEVOR is the only pick in this list with a PVC rattan door design, giving it the most distinctive natural-look front here without the maintenance of real wicker. Aluminum alloy handles and 15mm thickened panels back up the woven look with real structural weight.\n\nA particleboard, PVC rattan, and solid wood build keeps the frame narrow at just 6.61\" wide per section, and the 80 lb top load rating means it can hold a lamp or decor on top. Two flip drawers keep the pair count modest, so it suits a smaller household more than a large family entryway.\n\nA genuine advantage here is that aluminum alloy handles and thickened panels. The tradeoff is lower pair capacity than the taller fabric or plastic picks.",
     specs: [
       "23.62\"D x 6.61\"W x 34.53\"H",
       "Particleboard + PVC rattan + solid wood",
@@ -287,7 +287,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41AAiNIvZML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPF1573Q?tag=deskfinds0d-20",
     description:
-      "The LEYAOYAO holds the highest listed capacity in this entire guide at 24-32 pairs, despite sitting in the middle of the price range rather than at the top. Four compartments split across 2 flip drawers and a wood-and-metal-leg frame explain how it packs in that much room without ballooning in width.\n\nA removable center panel lets you reconfigure each compartment for taller boots or stacked sneakers, and anti-tip hardware is included on a frame that reaches 40\" tall. Keep in mind that pair-count claims on any rack usually assume smaller shoes stacked close together, so a household with men's size 10+ shoes should expect somewhat fewer pairs than the top of that range.",
+      "The LEYAOYAO holds the highest listed capacity in this entire guide at 24-32 pairs, despite sitting in the middle of the price range rather than at the top. Four compartments split across 2 flip drawers and a wood-and-metal-leg frame explain how it packs in that much room without ballooning in width.\n\nA removable center panel lets you reconfigure each compartment for taller boots or stacked sneakers, and anti-tip hardware is included on a frame that reaches 40\" tall. Keep in mind that pair-count claims on any rack usually assume smaller shoes stacked close together, so a household with men's size 10+ shoes should expect somewhat fewer pairs than the top of that range.\n\nMid-range price for the pair count it offers. On the other hand, advertised pair count assumes smaller shoes stacked closely. Neither should be a surprise once you know to look for it.",
     specs: [
       "31.5\"W x 9.5\"D x 40\"H",
       "Wood + metal legs",
@@ -335,125 +335,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "A closed door needs its own ventilation, not just a seal",
-    explanation:
-      "Shoes come in damp from rain, sweat, or snow more often than buyers plan for, and sealing them into a fully enclosed rack with no airflow is a common way to end up with lingering odor or even mold on the soles. Look for dedicated air holes, mesh panels, or vents like the ones on the HOMIDEC, or a fabric door specifically rated dustproof and waterproof rather than a solid slab door with no airflow feature at all.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shoe rack with door often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Pair-count claims are usually optimistic",
-    explanation:
-      "Most listed \"holds 20 pairs\" style claims assume small or narrow shoes stacked close together. If your household wears men's size 10+ shoes or boots, plan on noticeably fewer actual pairs than advertised and size up a tier or compartment count to compensate.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shoe rack with door holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Anti-tip hardware is mandatory above roughly 38 inches",
-    explanation:
-      "Tall enclosed racks are top-heavy, especially with a drawer flipped open or a door swung wide, so anti-tipping hardware isn't optional in a household with kids or pets. Confirm the rack actually ships with anti-tip hardware, not just a wider decorative base, before buying anything in this height range.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shoe rack with door over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Fabric doors trade durability for weight and price",
-    explanation:
-      "Fabric-door racks like the UNITSTAGE picks are the lightest and cheapest way to fully enclose shoes, but the fabric itself will wear faster than a plastic or wood door over years of daily use. They're a strong fit for a dorm room or apartment on a budget, less so for a permanent family entryway.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shoe rack with door you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Flip drawers hide shoes better but hold fewer pairs per tier",
-    explanation:
-      "A flip-down drawer conceals shoes more completely than an open fabric or wire tier, but each drawer typically holds fewer pairs than an equivalent open shelf. If capacity matters more than concealment, an open-tier design with a door over the whole unit, not per-shelf, will usually fit more shoes in the same footprint.",
-  },
-  {
-    criterion: "Match depth to your shoe type, not just width",
-    explanation:
-      "A rack under 10 inches deep, common among the wood flip-drawer picks in this list, fits sneakers and flats but can crowd boots or wide athletic shoes. If boots are a regular part of your household's footwear, favor the deeper plastic or fabric-tier picks instead.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shoe rack with door that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Budget",
-    intro:
-      "Price in this list runs from $24.99 to $119.99, and the jump in price generally buys you more material durability and capacity, not just looks.",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $30", "Fabric door, basic tiers", "UNITSTAGE 5-Tier Fabric Door"],
-        ["$30-$70", "Plastic or rattan cabinet with more tiers", "HOMIDEC 6-Tier Plastic, VEVOR Rattan"],
-        ["$70-$100", "Wood cabinet with styling details", "QIVOMIX Modern, Homleke Farmhouse, LEYAOYAO Natural"],
-        ["$100+", "Highest-rated, highest-capacity wood cabinet", "BORNOON 3 Flip Drawer White"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "BORNOON 3 Flip Drawer White Shoe Cabinet"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HOMIDEC 6"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Household Size and Shoe Count",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $25",
+          "UNITSTAGE 5"
+        ],
+        [
+          "Up to $120",
+          "BORNOON 3 Flip Drawer White Shoe Cabinet"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "UNITSTAGE 5 vs BORNOON 3 Flip Drawer White Shoe Cabinet",
+    "cards": [
       {
-        label: "1-2 people, smaller shoe collection",
-        text: "The UNITSTAGE 5-Tier Fabric Door or VEVOR Rattan fit a modest pair count without taking up much floor space.",
+        "label": "UNITSTAGE 5",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Family entryway with mixed shoe sizes",
-        text: "The HOMIDEC 6-Tier Plastic Cabinet or BORNOON 3 Flip Drawer both list 18-24 pairs and are built to handle daily family traffic.",
-      },
-      {
-        label: "Household with size 10+ shoes or boots",
-        text: "Size up a tier from what the pair count suggests. The LEYAOYAO's 24-32 pair range gives the most real-world headroom for larger shoes.",
-      },
-      {
-        label: "Maximum pairs regardless of style",
-        text: "The LEYAOYAO Natural Flip Drawer has the highest listed capacity in this entire list at a mid-range price.",
-      },
+        "label": "BORNOON 3 Flip Drawer White Shoe Cabinet",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to UNITSTAGE 5 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Ventilation and Odor Control",
-    intro:
-      "A closed door with no airflow feature is one of the most common reasons an enclosed shoe rack starts to smell after a few months of daily use.",
-    table: {
-      headers: ["Ventilation feature", "Picks that have it", "Why it matters"],
-      rows: [
-        ["Dedicated air circulation holes", "HOMIDEC 6-Tier Plastic Cabinet", "Best odor control among the enclosed picks in this list"],
-        ["Waterproof, breathable fabric door", "UNITSTAGE 5-Tier and 7-Tier", "Fabric flexes and doesn't fully seal like a rigid door"],
-        ["No dedicated ventilation feature", "QIVOMIX, BORNOON, Homleke, VEVOR, LEYAOYAO", "Air out shoes before storing, and crack the door periodically"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If you go with one of the solid wood or rattan cabinets that lack a dedicated vent, let shoes dry out fully before closing them in, and leave the door cracked when possible.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HOMIDEC 6"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Design Style",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Minimal, budget-friendly",
-        text: "The UNITSTAGE fabric-door picks disappear into a closet without demanding attention.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Modern with a design detail",
-        text: "The QIVOMIX's arc-shaped handles stand out as an entryway design statement.",
-      },
-      {
-        label: "Farmhouse furniture look",
-        text: "The Homleke's barn-door front and tapered legs read as a console, not a rack.",
-      },
-      {
-        label: "Natural, woven texture",
-        text: "The VEVOR Rattan's PVC rattan door is the most distinctive natural-look front in this list.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "HOMIDEC 6 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Stability Reality Check for Tall Enclosed Racks",
-    intro:
-      "Every pick at 37 inches or taller in this list ships with anti-tip or anti-toppling hardware, and it should be installed, not skipped, especially with kids or pets around.",
-    table: {
-      headers: ["Pick", "Height", "Stability feature"],
-      rows: [
-        ["HOMIDEC 6-Tier Plastic", "37.2\"", "Anti-toppling hardware"],
-        ["UNITSTAGE 7-Tier Fabric", "37.8\"", "Wide metal frame base"],
-        ["QIVOMIX 2 Flip Drawer", "38\"", "Anti-tipping hardware"],
-        ["Homleke Farmhouse Barn Door", "38.6\"", "Anti-tipping hardware, tapered legs"],
-        ["LEYAOYAO Natural Flip Drawer", "40\"", "Anti-tip hardware"],
-        ["BORNOON 3 Flip Drawer", "47.24\"", "Anti-tipping hardware, adjustable panels"],
-      ],
-    },
-    note: "Confirm anti-tip hardware actually ships in the box before buying any rack in this height range, rather than assuming a wide base alone is enough.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where BORNOON 3 Flip Drawer White Shoe Cabinet's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where UNITSTAGE 5 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PNTa55d1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4XW9167?tag=deskfinds0d-20",
     description:
-      "This is a fixed-height L-shaped desk rather than a height-adjustable standing desk, but it earns a spot on this list for buyers weighing storage against sit-stand capability, since its file drawer and two built-in monitor stands offer real storage and surface organization that many standing desk frames lack entirely. The reversible L-shape design also gives more total surface area than most single-motor standing desks, useful if storage is your bigger priority than adjustability.\n\nBecause the height is fixed, there's no motor stability tradeoff to worry about with a loaded drawer, and no floor clearance concern from raising and lowering. If you decide you need height adjustment later, pair a separate standing desk converter with this surface rather than expecting this desk itself to adjust.",
+      "This is a fixed-height L-shaped desk rather than a height-adjustable standing desk, but it earns a spot on this list for buyers weighing storage against sit-stand capability, since its file drawer and two built-in monitor stands offer real storage and surface organization that many standing desk frames lack entirely. The reversible L-shape design also gives more total surface area than most single-motor standing desks, useful if storage is your bigger priority than adjustability.\n\nBecause the height is fixed, there's no motor stability tradeoff to worry about with a loaded drawer, and no floor clearance concern from raising and lowering. If you decide you need height adjustment later, pair a separate standing desk converter with this surface rather than expecting this desk itself to adjust.\n\nA genuine advantage here is that power outlet built into the desk. The tradeoff is not height-adjustable.",
     specs: [
       "66 inch L-shaped fixed-height desk",
       "Built-in file drawer",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41A3q0YLcML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJ8SSP2Q?tag=deskfinds0d-20",
     description:
-      "Like the Furologee above, this is a fixed-height L-shaped desk, chosen here for buyers who want a fabric drawer and open storage shelves without any of the drawer-versus-motor tradeoffs that come with an adjustable frame. The reversible corner design and built-in power outlet make it flexible for either side of a room.\n\nOpen shelves add visible storage that a closed drawer doesn't, useful for items you want within reach rather than tucked away. As with the Furologee, if height adjustment matters later, plan on adding it separately rather than expecting this desk to convert.",
+      "Like the Furologee above, this is a fixed-height L-shaped desk, chosen here for buyers who want a fabric drawer and open storage shelves without any of the drawer-versus-motor tradeoffs that come with an adjustable frame. The reversible corner design and built-in power outlet make it flexible for either side of a room.\n\nOpen shelves add visible storage that a closed drawer doesn't, useful for items you want within reach rather than tucked away. As with the Furologee, if height adjustment matters later, plan on adding it separately rather than expecting this desk to convert.\n\nPower outlet included. On the other hand, not height-adjustable. Neither should be a surprise once you know to look for it.",
     specs: [
       "47 inch L-shaped fixed-height desk",
       "Fabric drawer included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/5106rxAZBUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FVDDHRRH?tag=deskfinds0d-20",
     description:
-      "Six fabric drawers make this the highest-storage-capacity desk in this list, all built into a fixed-height frame so there's no motor to stress and no floor clearance issue to worry about as the drawers fill up. Storage-heavy desks like this reduce usable desktop surface area by design, since drawer units take up depth that would otherwise be open desktop space.\n\nAt $59.98 it's also one of the most affordable picks here. If you need this much closed storage on a height-adjustable frame instead, expect to pay significantly more and to actively manage drawer weight and placement to protect motor performance.",
+      "Six fabric drawers make this the highest-storage-capacity desk in this list, all built into a fixed-height frame so there's no motor to stress and no floor clearance issue to worry about as the drawers fill up. Storage-heavy desks like this reduce usable desktop surface area by design, since drawer units take up depth that would otherwise be open desktop space.\n\nAt $59.98 it's also one of the most affordable picks here. If you need this much closed storage on a height-adjustable frame instead, expect to pay significantly more and to actively manage drawer weight and placement to protect motor performance.\n\nNo motor stability concerns. That's a real strength, but weigh it against the flip side: fixed height only.",
     specs: [
       "47 inch fixed-height desk",
       "6 fabric storage drawers",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+f1oDDjoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B003M96GY0?tag=deskfinds0d-20",
     description:
-      "This is a manually adjustable rolling cart rather than a motorized standing desk, and its low price and small footprint make it a genuinely different category of storage-plus-adjustability than the larger desks on this list. Because the height adjustment is manual, there's no motor to worry about stressing under a loaded shelf, though you should still confirm the shelf itself stays level and doesn't shift as you roll and adjust it.\n\nIts open shelf storage is minimal compared to a drawer-equipped desk, better suited to a laptop, a notebook, and a few accessories than files or heavier equipment. For genuinely tight spaces where a full standing desk doesn't fit, this cart is the most flexible and least expensive option here.",
+      "This is a manually adjustable rolling cart rather than a motorized standing desk, and its low price and small footprint make it a genuinely different category of storage-plus-adjustability than the larger desks on this list. Because the height adjustment is manual, there's no motor to worry about stressing under a loaded shelf, though you should still confirm the shelf itself stays level and doesn't shift as you roll and adjust it.\n\nIts open shelf storage is minimal compared to a drawer-equipped desk, better suited to a laptop, a notebook, and a few accessories than files or heavier equipment. For genuinely tight spaces where a full standing desk doesn't fit, this cart is the most flexible and least expensive option here.\n\nWorth calling out specifically: no motor, so no motor stability concern. The catch is manual adjustment, not motorized.",
     specs: [
       "Manual height adjustment",
       "Rolling casters",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
-      "The HUANUO is a genuine motorized standing desk without built-in storage, included here because its compact 32 inch top and single-motor frame make it a realistic base for pairing with a separate rolling storage cart or under-desk drawer, a common real-world setup for buyers who want both adjustability and storage without an expensive combined unit. Because it's a single-motor frame, an off-center loaded add-on drawer stresses it more than a centered load would, so plan any added storage carefully.\n\nFour memory height presets make repeated sit-stand transitions simple. Before pairing this desk with an under-desk drawer, confirm the combined desktop plus drawer load stays within the frame's stated capacity, and check that any drawer clears the floor at the desk's lowest height setting.",
+      "The HUANUO is a genuine motorized standing desk without built-in storage, included here because its compact 32 inch top and single-motor frame make it a realistic base for pairing with a separate rolling storage cart or under-desk drawer, a common real-world setup for buyers who want both adjustability and storage without an expensive combined unit. Because it's a single-motor frame, an off-center loaded add-on drawer stresses it more than a centered load would, so plan any added storage carefully.\n\nFour memory height presets make repeated sit-stand transitions simple. Before pairing this desk with an under-desk drawer, confirm the combined desktop plus drawer load stays within the frame's stated capacity, and check that any drawer clears the floor at the desk's lowest height setting.\n\nCompact size suits small offices. Set against that, no built-in storage, requires separate cart or drawer. Both matter when comparing it to the other picks here.",
     specs: [
       "32 inch motorized standing desk",
       "4 memory height presets",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XkTgfpQgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FK3DD4F1?tag=deskfinds0d-20",
     description:
-      "Furmax offers a larger 45 by 24 inch top than the HUANUO at a similar price, another genuinely motorized desk without built-in storage that's best paired with a separate cart or under-desk unit. Its four memory height positions work the same way, letting you save your preferred sit and stand heights.\n\nThe larger surface leaves more usable desktop space even after accounting for a paired storage cart taking up some of the footprint beside it. As with any single-motor desk, watch drawer or cart placement to avoid an off-center load that stresses the motor unevenly over time.",
+      "Furmax offers a larger 45 by 24 inch top than the HUANUO at a similar price, another genuinely motorized desk without built-in storage that's best paired with a separate cart or under-desk unit. Its four memory height positions work the same way, letting you save your preferred sit and stand heights.\n\nThe larger surface leaves more usable desktop space even after accounting for a paired storage cart taking up some of the footprint beside it. As with any single-motor desk, watch drawer or cart placement to avoid an off-center load that stresses the motor unevenly over time.\n\nA genuine advantage here is that true motorized height adjustment. The tradeoff is no built-in storage.",
     specs: [
       "45 x 24 inch motorized standing desk",
       "4 height position memory",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WJcV8uQrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVQMQMY2?tag=deskfinds0d-20",
     description:
-      "A dual-motor frame handles an off-center loaded drawer or paired storage cart far more evenly than a single-motor desk, since the second motor compensates for the load imbalance a single motor would otherwise absorb alone. At 220 lbs of stated desktop capacity and a 55 by 28 inch surface, the E6 has real headroom to pair with under-desk storage while keeping the combined system load in check.\n\nNo storage is built in, so you'll still need to add your own drawer or cart, and you should still confirm any added unit clears the floor at the desk's lowest height setting. For buyers who want to store meaningfully heavier items than a rolling laptop cart, the dual-motor stability here is worth the higher price.",
+      "A dual-motor frame handles an off-center loaded drawer or paired storage cart far more evenly than a single-motor desk, since the second motor compensates for the load imbalance a single motor would otherwise absorb alone. At 220 lbs of stated desktop capacity and a 55 by 28 inch surface, the E6 has real headroom to pair with under-desk storage while keeping the combined system load in check.\n\nNo storage is built in, so you'll still need to add your own drawer or cart, and you should still confirm any added unit clears the floor at the desk's lowest height setting. For buyers who want to store meaningfully heavier items than a rolling laptop cart, the dual-motor stability here is worth the higher price.\n\nHigh stated desktop capacity. On the other hand, no built-in storage. Neither should be a surprise once you know to look for it.",
     specs: [
       "55 x 28 inch dual motor standing desk",
       "220 lbs stated desktop capacity",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PnkwnA3VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DYF1SRQ?tag=deskfinds0d-20",
     description:
-      "Same dual-motor frame and 220 lb stated desktop capacity as the E6 above, in a solid bamboo desktop with a white frame instead of the standard black one-piece top. The dual motor advantage for off-center storage loads applies equally here, a meaningful stability benefit if you're pairing this desk with an under-desk drawer or filing cart rather than relying on the bare desktop alone.\n\nBamboo is a genuinely more durable and premium desktop material than laminate, though it adds to the price over the standard E6. As with the other motorized desks here, no storage is built in, so budget separately for a cart or drawer and check its floor clearance at your desk's lowest setting.",
+      "Same dual-motor frame and 220 lb stated desktop capacity as the E6 above, in a solid bamboo desktop with a white frame instead of the standard black one-piece top. The dual motor advantage for off-center storage loads applies equally here, a meaningful stability benefit if you're pairing this desk with an under-desk drawer or filing cart rather than relying on the bare desktop alone.\n\nBamboo is a genuinely more durable and premium desktop material than laminate, though it adds to the price over the standard E6. As with the other motorized desks here, no storage is built in, so budget separately for a cart or drawer and check its floor clearance at your desk's lowest setting.\n\nPremium bamboo desktop material. That's a real strength, but weigh it against the flip side: highest price on this list.",
     specs: [
       "55 x 28 inch dual motor standing desk",
       "Solid bamboo desktop",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Off-center drawer load stresses a single motor more than a dual motor",
-    explanation:
-      "A drawer or storage unit mounted to one side of a standing desk creates an uneven load that a single-motor frame absorbs less evenly than a dual-motor frame. If you're adding meaningful storage weight to a motorized desk, a dual-motor frame like the FlexiSpot E6 handles that imbalance more reliably over years of daily raising and lowering.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk with storage often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Check that a drawer clears the floor at minimum desk height",
-    explanation:
-      "Drawer contents, especially hanging files, can drag the floor once the desk lowers to its minimum height setting, even if the empty drawer itself clears fine. Test this at the desk's actual lowest setting with the drawer loaded the way you intend to use it, not just with it empty.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk with storage holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Desktop load capacity and drawer load capacity are separate ratings",
-    explanation:
-      "A desk's stated weight capacity usually refers to the desktop surface alone, not a combined total that includes an added drawer or storage cart. Add up your monitor, equipment, and storage weight together and confirm it stays under the frame's total rated capacity, not just the desktop capacity in isolation.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk with storage over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Storage reduces usable desktop surface area, often more than expected",
-    explanation:
-      "Drawers, pedestals, or a paired rolling cart can reduce usable desktop depth or width by 2 to 4 inches or more once accounted for. Factor this into your actual working surface, not just the desk's raw listed dimensions, especially on a desk already sized for a small room.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk with storage you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Drawer position can block cable grommet pass-through",
-    explanation:
-      "Some storage drawer placements sit directly under or beside a desk's cable grommet, blocking clean cable routing to a power strip or dock below. Check drawer position against grommet location before buying if cable management matters to your setup.",
-  },
-  {
-    criterion: "A fixed-height desk removes every motor-related storage tradeoff",
-    explanation:
-      "If height adjustment isn't a priority, a fixed-height L-shaped desk with built-in drawers, like the Furologee or Lufeiya on this list, sidesteps every motor stability and floor clearance concern entirely, since there's no mechanism to stress or clear in the first place.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk with storage that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,68 +364,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Storage Priority vs Adjustability",
-    intro: "Decide first whether built-in storage or motorized height adjustment matters more, since few desks here offer both together.",
-    table: {
-      headers: ["Priority", "Tradeoff", "Best pick"],
-      rows: [
-        ["Maximum built-in storage, fixed height", "No motor stability concerns, but no sit-stand capability", "Sweetcrispy 6 Drawer Desk"],
-        ["Balanced storage plus surface, fixed height", "Good file storage, no adjustability", "Furologee L-Shaped or Lufeiya White L-Shaped"],
-        ["True motorized adjustability, add your own storage", "Best motor stability for storage pairing", "FLEXISPOT E6 Dual Motor or Bamboo E6"],
-        ["Cheapest flexible option, minimal storage", "Manual adjustment, small shelf only", "Techni Mobili Rolling Cart"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HUANUO 32"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Techni Mobili Sit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Motor Type If You Plan to Add Storage",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $29",
+          "Techni Mobili Sit"
+        ],
+        [
+          "Up to $330",
+          "FlexiSpot E6 Bamboo 3"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Techni Mobili Sit vs FlexiSpot E6 Bamboo 3",
+    "cards": [
       {
-        label: "Adding a heavier under-desk drawer or filing cart",
-        text: "Choose the FLEXISPOT E6 or Bamboo E6, both dual-motor frames that handle an off-center load better than a single-motor desk over years of daily use.",
+        "label": "Techni Mobili Sit",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Adding a light laptop shelf or small organizer only",
-        text: "The HUANUO or Furmax single-motor desks are a reasonable and more affordable base, since the added load is light enough not to meaningfully stress a single motor.",
-      },
+        "label": "FlexiSpot E6 Bamboo 3",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Techni Mobili Sit unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Floor Clearance Check Before You Buy",
-    intro: "This is the detail most buyers skip until the drawer is already installed and dragging.",
-    table: {
-      headers: ["Desk type", "Clearance risk", "Recommendation"],
-      rows: [
-        ["Fixed-height desk with built-in drawer", "None, height never changes", "Any fixed desk on this list"],
-        ["Motorized desk with a paired hanging cart", "High risk at minimum height with loaded files", "Test at your desk's actual lowest setting before buying files/carts to match"],
-        ["Motorized desk with a shallow rolling cart", "Lower risk, cart typically clears easily", "Techni Mobili Rolling Cart paired with any motorized desk"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Always test floor clearance with the drawer loaded the way you'll actually use it, not empty.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Techni Mobili Sit"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Combined Load Capacity Quick Reference",
-    table: {
-      headers: ["Desk", "Stated desktop capacity", "Recommendation with added storage"],
-      rows: [
-        ["FLEXISPOT E6 / Bamboo E6", "220 lbs", "Comfortable headroom for a loaded drawer plus monitor and equipment"],
-        ["HUANUO 32 inch", "Not separately itemized for storage add-ons", "Keep added storage light, single motor"],
-        ["Furmax 45x24", "Not separately itemized for storage add-ons", "Keep added storage light, single motor"],
-      ],
-    },
-  },
-  {
-    subheading: "Cable Management vs Storage Position",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Cable grommet routing is a priority",
-        text: "On any motorized desk, check where the grommet sits before choosing a drawer or cart position, since a drawer directly beneath it can block clean cable pass-through.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Cable routing is not a major concern",
-        text: "Any pick on this list works without a grommet conflict if you're comfortable running cables along the desk leg instead.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Techni Mobili Sit is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where FlexiSpot E6 Bamboo 3's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Techni Mobili Sit covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51feVjKUbVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B84ZQDB7?tag=deskfinds0d-20",
     description:
-      "The IRONCK carries the highest weight capacity in this guide at 500 lbs, thanks to a sturdy P2 MDF and iron X-frame construction that also gives it a distinctive industrial look. Four open shelves can be installed on either the left or right side of the desk, so the bookshelf setup adapts to whichever wall or corner you're working with.\n\nA built-in power strip adds 2 AC outlets and 2 USB ports right at desk height, and adjustable footpads keep the frame level on uneven flooring. The shelves double easily as a CPU stand or bookcase, making this one of the more flexible bookshelf desks in this list for the price.",
+      "The IRONCK carries the highest weight capacity in this guide at 500 lbs, thanks to a sturdy P2 MDF and iron X-frame construction that also gives it a distinctive industrial look. Four open shelves can be installed on either the left or right side of the desk, so the bookshelf setup adapts to whichever wall or corner you're working with.\n\nA built-in power strip adds 2 AC outlets and 2 USB ports right at desk height, and adjustable footpads keep the frame level on uneven flooring. The shelves double easily as a CPU stand or bookcase, making this one of the more flexible bookshelf desks in this list for the price.\n\n4 reversible shelves fit either side of the desk. That's a real strength, but weigh it against the flip side: reversible shelf design has a smaller desktop footprint than L-shaped picks.",
     specs: [
       "47.2\"W x 23.6\"D x 47.64\"H",
       "P2 MDF + iron X-frame",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41El-SG+CpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D8G5N258?tag=deskfinds0d-20",
     description:
-      "The Treesland tucks neatly into a room corner, with a 4-tier bookshelf built directly into the L-shaped side rather than bolted on as an afterthought. That corner-fit approach makes it one of the more space-efficient picks here, freeing up wall space elsewhere in a small bedroom or home office.\n\nA metal frame paired with engineered wood keeps the whole unit lightweight but stable, and a side storage bag adds a bit of extra soft storage for cables, notebooks, or accessories. At under $100, it's the most affordable L-shaped bookshelf desk in this guide.",
+      "The Treesland tucks neatly into a room corner, with a 4-tier bookshelf built directly into the L-shaped side rather than bolted on as an afterthought. That corner-fit approach makes it one of the more space-efficient picks here, freeing up wall space elsewhere in a small bedroom or home office.\n\nA metal frame paired with engineered wood keeps the whole unit lightweight but stable, and a side storage bag adds a bit of extra soft storage for cables, notebooks, or accessories. At under $100, it's the most affordable L-shaped bookshelf desk in this guide.\n\nWorth calling out specifically: corner-fit design ideal for small rooms. The catch is no built-in power outlets or USB ports.",
     specs: [
       "47\"W x 19.7\"D x 55\"H",
       "Metal frame + engineered wood",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gBJ1zm9tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9Q542SF?tag=deskfinds0d-20",
     description:
-      "The Huuger packs the most ports of any 47-inch desk in this guide, with a power hub offering 4 AC outlets, 1 USB, and 1 USB-C port all built into the frame. Two reversible open shelves handle books and display items, while 3 fabric drawers underneath give closed storage for supplies you'd rather keep out of sight.\n\nAn X-shaped back support brace adds rigidity to the L-shaped frame, and P2 MDF construction keeps the whole desk sturdy under daily use. Between the drawers, shelves, and extensive power setup, this is one of the most complete storage-plus-power combinations in this list.",
+      "The Huuger packs the most ports of any 47-inch desk in this guide, with a power hub offering 4 AC outlets, 1 USB, and 1 USB-C port all built into the frame. Two reversible open shelves handle books and display items, while 3 fabric drawers underneath give closed storage for supplies you'd rather keep out of sight.\n\nAn X-shaped back support brace adds rigidity to the L-shaped frame, and P2 MDF construction keeps the whole desk sturdy under daily use. Between the drawers, shelves, and extensive power setup, this is one of the most complete storage-plus-power combinations in this list.\n\n3 drawers plus reversible open shelves. Set against that, lower desktop height (29.5\") than most other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "47.2\"W x 17.7\"D x 29.5\"H",
       "P2 MDF + metal frame",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51VN9V+4ijL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXPKSPZ4?tag=deskfinds0d-20",
     description:
-      "The AODK's 2-tier upper shelf rack doubles as either a bookshelf or a monitor stand, giving it more flexibility than a fixed hutch design. It's built on an alloy steel frame for extra rigidity, and app or remote-controlled RGB LED lighting cycles through 10 colors and 8 brightness levels, with a memory function that remembers your last setting.\n\nBuilt-in power includes 3 AC outlets and 2 USB ports, and the package adds a CPU stand, a hook, and a storage bag, extras aimed squarely at gaming and streaming setups. For anyone who wants shelving that can flex between books and monitors, this is a strong pick.",
+      "The AODK's 2-tier upper shelf rack doubles as either a bookshelf or a monitor stand, giving it more flexibility than a fixed hutch design. It's built on an alloy steel frame for extra rigidity, and app or remote-controlled RGB LED lighting cycles through 10 colors and 8 brightness levels, with a memory function that remembers your last setting.\n\nBuilt-in power includes 3 AC outlets and 2 USB ports, and the package adds a CPU stand, a hook, and a storage bag, extras aimed squarely at gaming and streaming setups. For anyone who wants shelving that can flex between books and monitors, this is a strong pick.\n\nA genuine advantage here is that sturdy alloy steel frame. The tradeoff is only 2 shelf tiers versus 4+ on some other picks.",
     specs: [
       "53.15\"W x 18.9\"D x 58.27\"H",
       "Alloy steel + engineered wood",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tgDLPbkzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCHXTF6K?tag=deskfinds0d-20",
     description:
-      "The DLisiting takes the classic hutch approach, mounting a bookshelf directly above the desktop rather than to the side, which keeps books and reference materials within arm's reach without eating into corner space. Its patent-pending design pairs the hutch with 3 fabric drawers below, plus 3 AC outlets and 2 USB ports built into the frame.\n\nThe desktop itself is scratch-resistant and waterproof, useful for anyone who eats or works with drinks at their desk, and a headphone hook adds a small but handy touch. It also assembles the fastest of any pick in this guide, in roughly 20 minutes.",
+      "The DLisiting takes the classic hutch approach, mounting a bookshelf directly above the desktop rather than to the side, which keeps books and reference materials within arm's reach without eating into corner space. Its patent-pending design pairs the hutch with 3 fabric drawers below, plus 3 AC outlets and 2 USB ports built into the frame.\n\nThe desktop itself is scratch-resistant and waterproof, useful for anyone who eats or works with drinks at their desk, and a headphone hook adds a small but handy touch. It also assembles the fastest of any pick in this guide, in roughly 20 minutes.\n\nWaterproof, scratch-resistant desktop. On the other hand, lowest rating among the straight hutch-style picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "47.2\"L x 18.9\"W x 56.1\"H",
       "P2 particle board + metal",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vSptde8LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBVD9PP5?tag=deskfinds0d-20",
     description:
-      "The SEDETA has the most shelves of any pick in this guide, 7 tiers of open shelving plus a glass-front storage cabinet for items you'd rather keep dust-free and visible at the same time. That combination gives it more total bookshelf capacity than any other desk here, with room for a large book collection alongside desk gear.\n\nApp or remote-controlled RGB LED lighting cycles through more than 60,000 colors with music-sync capability, and the 300 lb capacity comfortably supports 2 desktop monitors plus a notebook on the work surface. Reversible installation lets you mirror the L-shape to fit either side of a room.",
+      "The SEDETA has the most shelves of any pick in this guide, 7 tiers of open shelving plus a glass-front storage cabinet for items you'd rather keep dust-free and visible at the same time. That combination gives it more total bookshelf capacity than any other desk here, with room for a large book collection alongside desk gear.\n\nApp or remote-controlled RGB LED lighting cycles through more than 60,000 colors with music-sync capability, and the 300 lb capacity comfortably supports 2 desktop monitors plus a notebook on the work surface. Reversible installation lets you mirror the L-shape to fit either side of a room.\n\n300 lb capacity fits 2 monitors and a notebook. That's a real strength, but weigh it against the flip side: largest footprint among the mid-priced picks.",
     specs: [
       "58\"L x 21.6\"W x 61\"H",
       "P2 particle board + steel",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41z20cEFE1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PDSH538?tag=deskfinds0d-20",
     description:
-      "The HOMCOM is the most space-saving pick in this guide by a wide margin, a wall-mounted desk that folds flat to just 7.7 inches deep when not in use. Nine total shelves, 6 fixed upper shelves plus 3 adjustable lower ones, provide real bookshelf capacity even though the whole unit disappears against the wall between work sessions.\n\nA built-in chalkboard panel doubles as a spot for to-do lists or reminders, and the desk surface still supports dual monitors when folded down and in use. For tiny rooms, dorms, or apartments where floor space is at a premium, this is the clear standout.",
+      "The HOMCOM is the most space-saving pick in this guide by a wide margin, a wall-mounted desk that folds flat to just 7.7 inches deep when not in use. Nine total shelves, 6 fixed upper shelves plus 3 adjustable lower ones, provide real bookshelf capacity even though the whole unit disappears against the wall between work sessions.\n\nA built-in chalkboard panel doubles as a spot for to-do lists or reminders, and the desk surface still supports dual monitors when folded down and in use. For tiny rooms, dorms, or apartments where floor space is at a premium, this is the clear standout.\n\nWorth calling out specifically: 9 shelves plus a built-in chalkboard. The catch is lowest weight capacity in this guide at 132 lbs.",
     specs: [
       "38.5\"W x 20\"D x 60.25\"H",
       "P2 MDF + metal",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51sKa2Q2REL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5BDH5GC?tag=deskfinds0d-20",
     description:
-      "The AODK 79-inch is the largest desk in this guide by far, combining 6-tier open shelving with 5 fabric drawers, including a dedicated file drawer sized for A4 and legal paper, for the most total storage of any pick here. Two separate power hubs each offer 3 AC outlets and 2 USB ports, for 6 AC and 4 USB connections across the whole desk.\n\nA milky diffuser LED strip cycles through 10 colors for softer ambient lighting than exposed LED strips, and a CPU stand keeps a desktop tower off the floor. This is the pick for anyone furnishing a serious home office that needs a bookshelf, filing system, and workstation all in one footprint.",
+      "The AODK 79-inch is the largest desk in this guide by far, combining 6-tier open shelving with 5 fabric drawers, including a dedicated file drawer sized for A4 and legal paper, for the most total storage of any pick here. Two separate power hubs each offer 3 AC outlets and 2 USB ports, for 6 AC and 4 USB connections across the whole desk.\n\nA milky diffuser LED strip cycles through 10 colors for softer ambient lighting than exposed LED strips, and a CPU stand keeps a desktop tower off the floor. This is the pick for anyone furnishing a serious home office that needs a bookshelf, filing system, and workstation all in one footprint.\n\n6-tier shelves plus 5 drawers including a file drawer. Set against that, most expensive pick in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "79\"W x 18.9\"D x 60.71\"H",
       "6-tier open shelves + 5 fabric drawers",
@@ -308,45 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "L-shaped vs straight hutch desks",
-    explanation:
-      "L-shaped bookshelf desks like the AODK, SEDETA, Huuger, and Treesland fit into a room corner to maximize floor space while adding a full side of shelving. Straight desks with a hutch, like the DLisiting and IRONCK, suit smaller rooms that need a bookshelf directly above or beside the desk rather than a full corner setup.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a bookshelf desk often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Shelf count and configuration",
-    explanation:
-      "Shelf count ranges from 2 tiers on the AODK 53\" up to 9 shelves on the HOMCOM and 7 tiers plus a glass cabinet on the SEDETA. More shelves mean more book capacity, but also a larger overall footprint.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the bookshelf desk holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Built-in power and USB",
-    explanation:
-      "Most picks in this guide include some combination of AC outlets and USB ports built into the frame. The Huuger and AODK 79\" offer the most ports, useful for anyone charging multiple devices at a desk regularly.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this bookshelf desk over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Drawers vs open shelving",
-    explanation:
-      "Open shelves display books and decor but leave them exposed to dust, while drawers, found on the Huuger, DLisiting, and AODK 79\", keep supplies and paperwork out of sight. Several picks combine both formats.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any bookshelf desk you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Footprint and room fit",
-    explanation:
-      "Desk width ranges from 47 inches on the more compact picks up to 79 inches on the AODK's largest desk. The HOMCOM's wall-mounted foldable design is the most space-saving option, folding away like a shelf when not in use, ideal for the smallest rooms.",
-  },
-  {
-    criterion: "Weight capacity",
-    explanation:
-      "Capacity ranges from 132 lbs on the foldable HOMCOM up to 500 lbs on the IRONCK. Match capacity to how many books, monitors, and accessories you plan to load onto the shelves and desktop combined.",
-  },
-  {
-    criterion: "Weight capacity by material",
-    explanation:
-      "The wide range in listed capacity comes down to frame material as much as design. The IRONCK's iron X-frame supports 500 lbs, well beyond the roughly 30-80 lbs per shelf typical of particleboard or plywood construction, while lighter picks like the HOMCOM's 132 lb rating reflect an all-MDF build. If you're stacking textbooks, binders, and monitors on the same shelves, a metal-frame pick will hold up better long-term than an MDF-only one with a similar shelf count.",
-  },
-  {
-    criterion: "Open shelving vs closed storage",
-    explanation:
-      "Most picks here are fully open shelving, which is cheaper and gives instant access but needs regular dusting and offers no barrier to keep items from sliding off. The SEDETA's glass-front cabinet and the DLisiting's hutch are the exceptions, trading some of that open display space for a dust-free, enclosed section, useful if you want part of your desk storage to stay hidden and protected.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A bookshelf desk that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

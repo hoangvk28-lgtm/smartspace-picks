@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21ZCgx+xmkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B097QZGRCQ?tag=deskfinds0d-20",
     description:
-      "Built by Logitech specifically for streaming and video calls, genuinely engineered diffusion designed to illuminate a face evenly without the harsh shadows a general-purpose desk lamp produces. Established brand with quality LED driver design, meaningfully reducing PWM flicker risk versus unbranded budget lights.\n\nSolid, well-established review base for a premium pick, real evidence of consistent performance across many video call setups.",
+      "Built by Logitech specifically for streaming and video calls, genuinely engineered diffusion designed to illuminate a face evenly without the harsh shadows a general-purpose desk lamp produces. Established brand with quality LED driver design, meaningfully reducing PWM flicker risk versus unbranded budget lights.\n\nSolid, well-established review base for a premium pick, real evidence of consistent performance across many video call setups.\n\nEstablished brand with quality driver design, lower PWM flicker risk. Set against that, higher price than generic ring lights. Both matter when comparing it to the other picks here.",
     specs: ["Premium LED streaming/video call light", "Engineered face-illumination diffusion", "Quality LED driver design", "Solid review base"],
     pros: ["Purpose-built diffusion for face illumination, not a general work-surface lamp", "Established brand with quality driver design, lower PWM flicker risk", "Solid, well-established review base", "Reasonable price for a premium branded light"],
     cons: ["Higher price than generic ring lights", "CRI not explicitly disclosed", "Smaller light surface than a large panel"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414WSIzKGyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZMPX2PW?tag=deskfinds0d-20",
     description:
-      "Highest rating of any pick in this guide, a genuine dual-purpose design that works as a normal desk lamp for reading and tasks as well as ambient fill light during video calls, though it won't illuminate your face as directly as a purpose-built ring light or streaming panel.\n\nSoft edge-lit design genuinely reduces harsh shadow risk compared to a basic single-bulb desk lamp.",
+      "Highest rating of any pick in this guide, a genuine dual-purpose design that works as a normal desk lamp for reading and tasks as well as ambient fill light during video calls, though it won't illuminate your face as directly as a purpose-built ring light or streaming panel.\n\nSoft edge-lit design genuinely reduces harsh shadow risk compared to a basic single-bulb desk lamp.\n\nA genuine advantage here is that genuine dual-purpose as both a desk lamp and video call light. The tradeoff is won't illuminate your face as directly as a purpose-built ring light.",
     specs: ["LED desk lamp, soft edge-lit design", "Dual-purpose: task lighting and video call fill light", "Modern style", "Highest rating in this guide"],
     pros: ["Highest rating of any pick in this guide", "Genuine dual-purpose as both a desk lamp and video call light", "Soft edge-lit design reduces harsh shadows", "Modern aesthetic fits a home office"],
     cons: ["Won't illuminate your face as directly as a purpose-built ring light", "Higher price than dedicated video lights", "Beam angle designed for desk surface, not face-forward like a streaming light"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Phq+HhoVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2XMLRL3?tag=deskfinds0d-20",
     description:
-      "A disclosed CRI of 97.8, genuinely important for accurate skin tone rendering during video calls, combined with 30 light modes for granular brightness and temperature control. Explicitly designed and marketed for video call use.\n\nQuality LED design at this CRI level generally implies better dimming circuitry, reducing the PWM flicker risk more common in unbranded budget lights.",
+      "A disclosed CRI of 97.8, genuinely important for accurate skin tone rendering during video calls, combined with 30 light modes for granular brightness and temperature control. Explicitly designed and marketed for video call use.\n\nQuality LED design at this CRI level generally implies better dimming circuitry, reducing the PWM flicker risk more common in unbranded budget lights.\n\n30 light modes for granular control. On the other hand, higher price than basic ring lights. Neither should be a surprise once you know to look for it.",
     specs: ["CRI 97.8, 30 light modes", "Purpose-built for video calls", "Desk ring light with stand", "Solid review base"],
     pros: ["Explicit high CRI (97.8) for accurate skin tone rendering", "30 light modes for granular control", "Purpose-built video call design", "Solid review base"],
     cons: ["Higher price than basic ring lights", "Stand-mounted, less flexible than a desk lamp for general tasks", "PWM flicker not explicitly ruled out despite quality design"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41r5nA1roKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095741MZS?tag=deskfinds0d-20",
     description:
-      "A large, well-established review base at a genuinely affordable price for a purpose-built video call desk light with stand. Adjustable color temperature adds flexibility for matching room lighting.\n\nCRI and PWM flicker specs not disclosed, common gaps at this price point, but the large review volume suggests most buyers are satisfied with real-world performance.",
+      "A large, well-established review base at a genuinely affordable price for a purpose-built video call desk light with stand. Adjustable color temperature adds flexibility for matching room lighting.\n\nCRI and PWM flicker specs not disclosed, common gaps at this price point, but the large review volume suggests most buyers are satisfied with real-world performance.\n\nGenuinely affordable. That's a real strength, but weigh it against the flip side: cRI not disclosed.",
     specs: ["Desk ring light with stand", "Adjustable color temperature", "Large, well-established review base", "Budget-friendly"],
     pros: ["Large, well-established review base", "Genuinely affordable", "Adjustable color temperature", "Stand included"],
     cons: ["CRI not disclosed", "PWM flicker risk not addressed", "Lower rating than the premium picks"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WMggt9RXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087CZ85GV?tag=deskfinds0d-20",
     description:
-      "A 9-inch panel design, genuinely more even facial illumination than a smaller ring light due to its larger diffusion surface. Wide 2500K-6500K color temperature range for matching varied room lighting.\n\nSolid review base, real-world evidence of consistent performance across this larger panel format.",
+      "A 9-inch panel design, genuinely more even facial illumination than a smaller ring light due to its larger diffusion surface. Wide 2500K-6500K color temperature range for matching varied room lighting.\n\nSolid review base, real-world evidence of consistent performance across this larger panel format.\n\nWorth calling out specifically: wide color temperature range. The catch is larger footprint than a compact clip-on or ring light.",
     specs: ["9-inch LED panel, desk stand", "2500K-6500K color temperature range", "Larger diffusion surface than compact ring lights", "Solid review base"],
     pros: ["Larger panel provides more even facial illumination", "Wide color temperature range", "Solid review base", "Desk stand included"],
     cons: ["Larger footprint than a compact clip-on or ring light", "CRI not explicitly disclosed", "Higher price than basic ring lights"],
@@ -116,7 +116,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415a2-2URFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4JTPPYY?tag=deskfinds0d-20",
     description:
-      "A traditional 17-inch clamp-mounted desk lamp with stepless dimming, genuinely useful as ambient fill light during video calls if positioned correctly, though its beam angle is designed for illuminating a desk surface, not your face directly, unlike a purpose-built video light.\n\nLarge, well-established review base and a strong rating, real evidence of reliable general-purpose desk lamp performance.",
+      "A traditional 17-inch clamp-mounted desk lamp with stepless dimming, genuinely useful as ambient fill light during video calls if positioned correctly, though its beam angle is designed for illuminating a desk surface, not your face directly, unlike a purpose-built video light.\n\nLarge, well-established review base and a strong rating, real evidence of reliable general-purpose desk lamp performance.\n\nStepless dimming for fine brightness control. Set against that, beam angle designed for desk surface, not face-forward illumination. Both matter when comparing it to the other picks here.",
     specs: ["17-inch clamp-mounted desk lamp", "Stepless dimming", "General-purpose beam angle", "Large, well-established review base"],
     pros: ["Large, well-established review base", "Stepless dimming for fine brightness control", "Very affordable", "Doubles as a genuinely useful task lamp beyond video calls"],
     cons: ["Beam angle designed for desk surface, not face-forward illumination", "No specific CRI or color temperature adjustability disclosed", "Not purpose-built for video call facial lighting"],
@@ -134,32 +134,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "PWM Flicker Can Be Invisible to the Eye But Visible on Camera",
-    note: "Some budget LED lights use PWM (pulse-width modulation) dimming, which can introduce flicker invisible to the naked eye but visible as banding or strobing on camera, especially at lower brightness settings. This is rarely disclosed in listings, established brands with quality LED driver design (like Logitech's Litra Glow) generally carry lower risk than unbranded budget options.",
-  },
-  {
-    subheading: "Purpose-Built Video Lights vs. General Desk Lamps",
-    note: "A dedicated video-call light is engineered with diffusion designed to illuminate your face evenly without harsh shadows. A standard desk lamp, even a good one like the Airlonv clamp lamp, is designed to light a work surface, its beam angle isn't optimized for face-forward illumination the way a ring light or streaming panel is.",
-  },
-  {
-    subheading: "Matching Picks to Your Priority",
-    table: {
-      headers: ["Priority", "Pick"],
-      rows: [
-        ["Premium, purpose-built, established brand", "Logitech Litra Glow (rank 1)"],
-        ["Dual-purpose desk lamp and video light", "LitONES LED Desk Lamp (rank 2)"],
-        ["Highest disclosed CRI", "Zoom Lighting, CRI 97.8 (rank 3)"],
-        ["Versatile general desk lamp with some video benefit", "Airlonv Clamp Lamp (rank 6)"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "LitONES LED Desk Lamp for Home Office"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Airlonv LED Desk Lamp with Clamp"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $21",
+          "Airlonv LED Desk Lamp with Clamp"
+        ],
+        [
+          "Up to $65",
+          "LitONES LED Desk Lamp for Home Office"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Airlonv LED Desk Lamp with Clamp vs LitONES LED Desk Lamp for Home Office",
+    "cards": [
+      {
+        "label": "Airlonv LED Desk Lamp with Clamp",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "LitONES LED Desk Lamp for Home Office",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Airlonv LED Desk Lamp with Clamp unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Airlonv LED Desk Lamp with Clamp"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Airlonv LED Desk Lamp with Clamp is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where LitONES LED Desk Lamp for Home Office's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Airlonv LED Desk Lamp with Clamp covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "PWM flicker can hurt video quality even when invisible to your eyes", explanation: "Budget LED dimming circuitry can introduce flicker that shows up as banding or strobing on camera, especially at lower brightness, established brands with quality driver design generally carry lower risk." },
-  { criterion: "Purpose-built video lights differ from general desk lamps in beam design", explanation: "A dedicated video light is engineered to illuminate a face evenly without harsh shadows, a general-purpose desk lamp's beam angle is optimized for a work surface, not your face." },
-  { criterion: "CRI matters more than brightness for accurate skin tone on camera", explanation: "A disclosed high CRI rating (95+) indicates more accurate color and skin tone rendering than raw brightness or a large number of preset modes alone." },
-  { criterion: "A dual-purpose desk lamp can work for both tasks and calls, with tradeoffs", explanation: "A well-designed desk lamp can serve as both task lighting and video call fill light, but won't illuminate your face as directly as a purpose-built ring light or streaming panel." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a desk light often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the desk light holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this desk light over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any desk light you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A desk light that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

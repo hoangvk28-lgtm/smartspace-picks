@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "This is a dedicated monochrome laser printer, and it produces the sharpest black-and-white text in this list, since toner fuses cleanly onto the page rather than absorbing into paper fibers the way ink does. For a household that's mostly printing text documents, forms, and paperwork, this is the strongest single-purpose fit.\n\nGrayscale photos and gradients are its one weak spot: laser engines can show visible banding in smooth grayscale transitions, so photo-heavy grayscale work looks noticeably better on a good inkjet. If your printing is genuinely mostly text, that tradeoff is worth it.",
+      "This is a dedicated monochrome laser printer, and it produces the sharpest black-and-white text in this list, since toner fuses cleanly onto the page rather than absorbing into paper fibers the way ink does. For a household that's mostly printing text documents, forms, and paperwork, this is the strongest single-purpose fit.\n\nGrayscale photos and gradients are its one weak spot: laser engines can show visible banding in smooth grayscale transitions, so photo-heavy grayscale work looks noticeably better on a good inkjet. If your printing is genuinely mostly text, that tradeoff is worth it.\n\nNo idle-ink drying risk between print jobs. That's a real strength, but weigh it against the flip side: grayscale photos and gradients can show banding.",
     specs: [
       "Monochrome laser engine",
       "Duplex printing",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316tpuWileL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D96T79YF?tag=deskfinds0d-20",
     description:
-      "The LaserJet M209d is a dedicated monochrome laser at a lower price than the Brother above, with automatic duplex printing built in. It's wired-only, no wifi, which some buyers will see as a downside and others will see as one less thing that can go offline mid-print.\n\nLike any laser engine, it's the stronger choice for crisp text and a weaker one for smooth grayscale photo gradients, where banding can show. For a household that mostly prints forms, homework, and documents and doesn't need wireless printing, it's the most budget-friendly true laser here.",
+      "The LaserJet M209d is a dedicated monochrome laser at a lower price than the Brother above, with automatic duplex printing built in. It's wired-only, no wifi, which some buyers will see as a downside and others will see as one less thing that can go offline mid-print.\n\nLike any laser engine, it's the stronger choice for crisp text and a weaker one for smooth grayscale photo gradients, where banding can show. For a household that mostly prints forms, homework, and documents and doesn't need wireless printing, it's the most budget-friendly true laser here.\n\nWorth calling out specifically: no wireless dropout issues since it's wired only. The catch is no wireless connectivity.",
     specs: [
       "Monochrome laser engine",
       "Automatic duplex printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d5wmSRcAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP3LJ74G?tag=deskfinds0d-20",
     description:
-      "This is a color laser printer, and switching it to black-only or grayscale mode gives text just as sharp as a dedicated mono laser, since it's still fusing toner onto the page the same way. The advantage over a mono-only laser is obvious: color capability stays available for the occasional chart or graphic without owning a second printer.\n\nThe real cost consideration is that color laser toner sets cost meaningfully more than a mono laser's single cartridge, even if you print in B&W mode most of the time. It only makes financial sense over a dedicated mono laser like the DCP-L2640DW if you genuinely need color sometimes too.",
+      "This is a color laser printer, and switching it to black-only or grayscale mode gives text just as sharp as a dedicated mono laser, since it's still fusing toner onto the page the same way. The advantage over a mono-only laser is obvious: color capability stays available for the occasional chart or graphic without owning a second printer.\n\nThe real cost consideration is that color laser toner sets cost meaningfully more than a mono laser's single cartridge, even if you print in B&W mode most of the time. It only makes financial sense over a dedicated mono laser like the DCP-L2640DW if you genuinely need color sometimes too.\n\nColor capability available when needed. Set against that, much higher price than a dedicated mono laser. Both matter when comparing it to the other picks here.",
     specs: [
       "Color laser engine, usable in B&W mode",
       "Auto document feeder",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "A more affordable color laser than the Canon above, the HL-L3220CDW still delivers laser-sharp black-and-white text when set to mono mode, at 19ppm with a 250-sheet tray. It's a reasonable middle ground for a household that wants laser text quality with occasional color use, without paying for the Canon's higher-volume features.\n\nIt has no built-in scanner, so it's a printing-only solution. If your black-and-white document needs are 90% or more of your printing, a dedicated mono laser will still cost less to own over time than running this in B&W mode.",
+      "A more affordable color laser than the Canon above, the HL-L3220CDW still delivers laser-sharp black-and-white text when set to mono mode, at 19ppm with a 250-sheet tray. It's a reasonable middle ground for a household that wants laser text quality with occasional color use, without paying for the Canon's higher-volume features.\n\nIt has no built-in scanner, so it's a printing-only solution. If your black-and-white document needs are 90% or more of your printing, a dedicated mono laser will still cost less to own over time than running this in B&W mode.\n\nA genuine advantage here is that large 250-sheet tray reduces refill frequency. The tradeoff is no built-in scanner.",
     specs: [
       "Color laser engine, usable in B&W mode",
       "19 ppm print speed",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MCIwNDseL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPFLM562?tag=deskfinds0d-20",
     description:
-      "This is a color inkjet, not a laser printer, and it's included here specifically because inkjet handles smooth grayscale gradients better than laser does, avoiding the banding a laser engine can show in grayscale photos or shaded graphics. For a household that prints grayscale photos or design proofs regularly alongside text, that's a genuine advantage.\n\nText documents won't be quite as crisp-edged as any of the laser picks above, since ink absorbs into paper rather than fusing on top. If your printing is overwhelmingly plain text, a laser pick will serve you better; if grayscale image quality matters, this inkjet is the stronger choice.",
+      "This is a color inkjet, not a laser printer, and it's included here specifically because inkjet handles smooth grayscale gradients better than laser does, avoiding the banding a laser engine can show in grayscale photos or shaded graphics. For a household that prints grayscale photos or design proofs regularly alongside text, that's a genuine advantage.\n\nText documents won't be quite as crisp-edged as any of the laser picks above, since ink absorbs into paper rather than fusing on top. If your printing is overwhelmingly plain text, a laser pick will serve you better; if grayscale image quality matters, this inkjet is the stronger choice.\n\nAuto document feeder and duplex scanning. On the other hand, text edges softer than any laser pick. Neither should be a surprise once you know to look for it.",
     specs: [
       "Color inkjet, not laser",
       "Auto document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qSvRweBuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01IIOMMRS?tag=deskfinds0d-20",
     description:
-      "Another color inkjet rather than a laser, the MAXIFY MB2720 is a lower-cost way to get smoother grayscale output than a laser printer manages, with scan, copy, and fax built in. It's a reasonable all-around pick for a household whose black-and-white printing includes some grayscale photos alongside text.\n\nAs with any inkjet, text sharpness is a step below the laser picks in this list, and idle cartridges can dry out if the printer sits unused for a few weeks. Toner-save style draft printing isn't standard on inkjets the way it is on laser, so cost-saving draft printing works differently here.",
+      "Another color inkjet rather than a laser, the MAXIFY MB2720 is a lower-cost way to get smoother grayscale output than a laser printer manages, with scan, copy, and fax built in. It's a reasonable all-around pick for a household whose black-and-white printing includes some grayscale photos alongside text.\n\nAs with any inkjet, text sharpness is a step below the laser picks in this list, and idle cartridges can dry out if the printer sits unused for a few weeks. Toner-save style draft printing isn't standard on inkjets the way it is on laser, so cost-saving draft printing works differently here.\n\nFull scan, copy, fax feature set. That's a real strength, but weigh it against the flip side: text edges softer than any laser pick.",
     specs: [
       "Color inkjet, not laser",
       "Scan, copy, fax built in",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41wQemMt6wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTN9ZGRS?tag=deskfinds0d-20",
     description:
-      "This is a color inkjet with high-capacity INKvestment cartridges, not a laser printer, aimed at a household printing a real volume of mixed text and grayscale content without wanting to replace cartridges constantly. Automatic two-sided copy and scan through a color touchscreen handles multi-page black-and-white paperwork well.\n\nText still won't be as crisp as the laser picks in this list, but for a household that values grayscale photo quality and higher-volume ink capacity over the sharpest possible text, it's a solid non-laser option.",
+      "This is a color inkjet with high-capacity INKvestment cartridges, not a laser printer, aimed at a household printing a real volume of mixed text and grayscale content without wanting to replace cartridges constantly. Automatic two-sided copy and scan through a color touchscreen handles multi-page black-and-white paperwork well.\n\nText still won't be as crisp as the laser picks in this list, but for a household that values grayscale photo quality and higher-volume ink capacity over the sharpest possible text, it's a solid non-laser option.\n\nWorth calling out specifically: automatic duplex copy and scan. The catch is text softer than any laser pick here.",
     specs: [
       "INKvestment high-capacity cartridges",
       "Automatic 2-sided copy and scan",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411M0mBMPwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FN93WW7?tag=deskfinds0d-20",
     description:
-      "A photo-focused color inkjet, not a laser printer, the XP-7100 is the strongest pick here specifically for grayscale photo quality, with smooth gradient handling that laser engines can't match. Duplex printing and a compact design round out its document-handling side.\n\nIf your black-and-white printing is genuinely mostly grayscale photography, portraits, or design work rather than plain text, this is the pick built for that job. For plain text documents, any of the laser picks above will look sharper and cost less per page over time.",
+      "A photo-focused color inkjet, not a laser printer, the XP-7100 is the strongest pick here specifically for grayscale photo quality, with smooth gradient handling that laser engines can't match. Duplex printing and a compact design round out its document-handling side.\n\nIf your black-and-white printing is genuinely mostly grayscale photography, portraits, or design work rather than plain text, this is the pick built for that job. For plain text documents, any of the laser picks above will look sharper and cost less per page over time.\n\nDuplex printing included. Set against that, text softer than any laser pick here. Both matter when comparing it to the other picks here.",
     specs: [
       "Photo-focused color inkjet, not laser",
       "Duplex printing",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Separate text quality from grayscale photo quality",
-    explanation:
-      "Laser printers produce the sharpest black-and-white text but can show visible banding in smooth grayscale photo gradients. Inkjet printers produce smoother grayscale gradients but softer text edges. Decide which matters more for your actual printing before choosing.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "A color printer in B&W mode versus a dedicated mono laser",
-    explanation:
-      "If 90% or more of your printing is black-and-white, a dedicated mono-only laser like the Brother DCP-L2640DW or HP LaserJet M209d is cheaper to buy and cheaper to run than a color laser or inkjet used mostly in B&W mode. Only step up to a color-capable printer if you genuinely need color sometimes too.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Watch for ghost imaging on laser printers over time",
-    explanation:
-      "Drum contamination on some laser models can cause faint repeats of previous prints to appear on later pages, a long-term quality issue rather than a day-one defect. If you notice faint ghosted text or images, the drum unit likely needs cleaning or replacement.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Toner-save or draft mode can roughly halve toner cost",
-    explanation:
-      "Most laser printers include a toner-save or draft mode that uses roughly half the toner per page, with a slightly lighter but still legible result. Use it for internal drafts, notes, or anything that doesn't need to look final, and save full-density printing for finished documents.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Idle ink is a real cost on every inkjet pick here",
-    explanation:
-      "Inkjet cartridges left unused for 2-4 weeks can dry out and trigger a wasted cleaning cycle. None of the laser picks in this list have that issue, since toner doesn't dry out sitting idle.",
-  },
-  {
-    criterion: "Higher upfront laser cost pays off at real text volume",
-    explanation:
-      "A mono laser costs more upfront than a budget inkjet but less per page at volume above roughly 100-300 pages a month of mostly text. Below that volume, an inkjet is often still the more cost-effective overall choice.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,67 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Document Type: Text vs Grayscale Photo",
-    intro:
-      "The single biggest factor in this list is what you're actually printing in black and white.",
-    table: {
-      headers: ["Mostly printing", "Best technology", "Best pick"],
-      rows: [
-        ["Plain text, forms, paperwork", "Dedicated mono laser", "Brother DCP-L2640DW or HP LaserJet M209d"],
-        ["Text plus occasional color", "Color laser in B&W mode", "Brother HL-L3220CDW"],
-        ["Grayscale photos and design work", "Photo-focused inkjet", "Epson XP-7100"],
-        ["Mixed text and grayscale, higher volume", "High-capacity inkjet", "Brother INKvestment MCF-J5010DW"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother DCP"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Color Printer in B&W Mode vs Dedicated Mono Laser",
-    intro:
-      "This is the most common decision point for buyers browsing this list.",
-    table: {
-      headers: ["Scenario", "Recommendation", "Pick"],
-      rows: [
-        ["90%+ of printing is B&W, rarely need color", "Buy a dedicated mono laser, cheaper to own", "Brother DCP-L2640DW, HP LaserJet M209d"],
-        ["Regularly need both B&W and color", "A color laser used in B&W mode is worth the premium", "Brother HL-L3220CDW, Canon imageCLASS MF753Cdw II"],
-        ["Mostly B&W but grayscale photo quality matters", "An inkjet beats laser for gradients here", "HP OfficeJet Pro 9135, Epson XP-7100"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "The extra cost of a color-capable printer only pays for itself if you actually use the color capability with some regularity.",
+      "rows": [
+        [
+          "Under $117",
+          "Canon MAXIFY MB2720 Wireless Color Photo Printer"
+        ],
+        [
+          "Up to $491",
+          "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Ghost Imaging: A Long-Term Laser Quality Issue",
-    cards: [
+    "subheading": "Canon MAXIFY MB2720 Wireless Color Photo Printer vs Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+    "cards": [
       {
-        label: "What it is",
-        text: "Drum contamination on a laser printer can cause faint repeats of a previous print to appear on later pages, usually after extended use.",
+        "label": "Canon MAXIFY MB2720 Wireless Color Photo Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "How to spot it",
-        text: "Look for a faint, lighter version of earlier text or images appearing where it shouldn't on a fresh print job.",
-      },
-      {
-        label: "What to do",
-        text: "Run the printer's built-in cleaning cycle first; if it persists, the drum unit likely needs replacement rather than the toner cartridge itself.",
-      },
+        "label": "Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon MAXIFY MB2720 Wireless Color Photo Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Toner-Save Mode: A Real Cost-Halving Option",
-    intro:
-      "Available on the laser picks in this list, toner-save or draft mode is worth using more than most buyers realize.",
-    table: {
-      headers: ["Mode", "Toner use", "Best for"],
-      rows: [
-        ["Standard print", "Full toner density", "Final documents, anything client-facing"],
-        ["Toner-save / draft mode", "Roughly 50% less toner", "Internal drafts, notes, anything not final"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Switching to draft mode for internal-only printing on the Brother or HP laser picks can meaningfully stretch a toner cartridge's lifespan at essentially no real cost.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Brother DCP"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When Grayscale Photo Quality Should Win Over Text Sharpness",
-    note: "If a meaningful share of your black-and-white printing is photography, portraits, or shaded design work rather than plain text, choose an inkjet like the Epson XP-7100 or HP OfficeJet Pro 9135 over any laser pick here, since laser's banding in smooth gradients is the more noticeable flaw for that kind of content.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Brother DCP is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon Color imageCLASS MF753Cdw II Wireless Duplex Laser Printer's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon MAXIFY MB2720 Wireless Color Photo Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

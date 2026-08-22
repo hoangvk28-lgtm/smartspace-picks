@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TqMt5cRYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8BXBX8?tag=deskfinds0d-20",
     description:
-      "The GABRYLLY's high back and adjustable headrest support the neck during long video calls or reclined breaks, a genuine advantage over the mid-back chairs in this list for full-day sitting. Its flip-up arms and 90-120 degree tilt lock give real range for shifting posture across an eight-hour day, and its mesh back helps with airflow against the upper body.\n\nAt 14,478 ratings and a 4.4-star average, it has strong, broad buyer feedback. The wide cushion seat suits most body types, though buyers with hip width above the standard 18-20 inch range should verify actual seat width before buying, since the listing doesn't specify plus-size accommodation.",
+      "The GABRYLLY's high back and adjustable headrest support the neck during long video calls or reclined breaks, a genuine advantage over the mid-back chairs in this list for full-day sitting. Its flip-up arms and 90-120 degree tilt lock give real range for shifting posture across an eight-hour day, and its mesh back helps with airflow against the upper body.\n\nAt 14,478 ratings and a 4.4-star average, it has strong, broad buyer feedback. The wide cushion seat suits most body types, though buyers with hip width above the standard 18-20 inch range should verify actual seat width before buying, since the listing doesn't specify plus-size accommodation.\n\nHeadrest supports neck during long calls. On the other hand, higher price than several other picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "High back with adjustable headrest",
       "Flip-up armrests",
@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tetnrTgxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GF9TKQTW?tag=deskfinds0d-20",
     description:
-      "This chair's adjustable lumbar support is height-adjustable rather than a fixed foam bump, letting you align it closer to your natural belt line, roughly the L1-L5 region, instead of settling for a one-size position. Its extra-wide seat and 500-pound capacity rating make it a genuine option for larger body types where standard 18-20 inch seat width falls short.\n\nWith 165 ratings at a 4.6-star average, the highest rating in this list, feedback is strongly positive though on a smaller sample than the top review-count picks. The thick armrest pad and upgraded wheels are useful details for a chair meant to be sat in for a full workday.",
+      "This chair's adjustable lumbar support is height-adjustable rather than a fixed foam bump, letting you align it closer to your natural belt line, roughly the L1-L5 region, instead of settling for a one-size position. Its extra-wide seat and 500-pound capacity rating make it a genuine option for larger body types where standard 18-20 inch seat width falls short.\n\nWith 165 ratings at a 4.6-star average, the highest rating in this list, feedback is strongly positive though on a smaller sample than the top review-count picks. The thick armrest pad and upgraded wheels are useful details for a chair meant to be sat in for a full workday.\n\nAdjustable lumbar height, not just a fixed bump. That's a real strength, but weigh it against the flip side: smaller review base than the top-count picks.",
     specs: [
       "500 lb weight capacity",
       "Height-adjustable lumbar support",
@@ -111,7 +111,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51lpZXXyViL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CG6V2XGS?tag=deskfinds0d-20",
     description:
-      "This mesh chair's breathable back matters less for heat than the seat pan material underneath you, and buyer feedback at this price point generally reports reasonable comfort across a workday without the heat buildup foam-only seats develop after two to three hours. Its 330-pound capacity and mesh construction target long-hour comfort at a mid-range price.\n\nAt 6,155 ratings and a 4.3-star average, it has a large, consistent review base. For sub-$150 mesh chairs, expect a thinner frame than premium options, generally rated for a 2-3 year lifespan under daily use rather than the 10-plus years of a premium compact chair.",
+      "This mesh chair's breathable back matters less for heat than the seat pan material underneath you, and buyer feedback at this price point generally reports reasonable comfort across a workday without the heat buildup foam-only seats develop after two to three hours. Its 330-pound capacity and mesh construction target long-hour comfort at a mid-range price.\n\nAt 6,155 ratings and a 4.3-star average, it has a large, consistent review base. For sub-$150 mesh chairs, expect a thinner frame than premium options, generally rated for a 2-3 year lifespan under daily use rather than the 10-plus years of a premium compact chair.\n\nWorth calling out specifically: mesh seat pan reduces heat buildup vs foam-only seats. The catch is budget-tier frame, shorter expected lifespan than premium chairs.",
     specs: [
       "330 lb weight capacity",
       "Mesh back and seat construction",
@@ -141,7 +141,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/412WYSRjpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQD3K8PJ?tag=deskfinds0d-20",
     description:
-      "This TRALT variant adds explicitly adjustable lumbar support to a mesh build, a meaningful upgrade over a fixed foam bump for anyone sitting long hours, since it lets you move support height closer to your actual belt line. Its mesh construction carries the same cooling benefit as the other TRALT pick in this list.\n\nAt $107.99 with 4,362 ratings and a 4.3-star average, it is one of the more affordable adjustable-lumbar options here. As with any budget-tier mesh chair, expect a shorter frame lifespan than premium chairs under daily eight-hour use.",
+      "This TRALT variant adds explicitly adjustable lumbar support to a mesh build, a meaningful upgrade over a fixed foam bump for anyone sitting long hours, since it lets you move support height closer to your actual belt line. Its mesh construction carries the same cooling benefit as the other TRALT pick in this list.\n\nAt $107.99 with 4,362 ratings and a 4.3-star average, it is one of the more affordable adjustable-lumbar options here. As with any budget-tier mesh chair, expect a shorter frame lifespan than premium chairs under daily eight-hour use.\n\nLarge review base at 4,362 ratings. Set against that, weight capacity not stated in listing title. Both matter when comparing it to the other picks here.",
     specs: [
       "Adjustable lumbar support",
       "Mesh computer chair design",
@@ -171,7 +171,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k6biuoUcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62NG547?tag=deskfinds0d-20",
     description:
-      "Fizzin's 400-pound capacity rating and thickened cushion target long-hour comfort for heavier body types at a price well below the 500lbs big and tall pick above. Its breathable mesh design pairs with adjustable lumbar support, a solid combination for full workdays.\n\nWith 546 ratings at 4.4 stars, feedback is positive on a moderate sample size. For heavier users, remember that dropping into a seat creates 30-50% more peak force than static body weight, so a buffer of roughly 50 lbs above your actual weight against the rated capacity is a reasonable safety margin.",
+      "Fizzin's 400-pound capacity rating and thickened cushion target long-hour comfort for heavier body types at a price well below the 500lbs big and tall pick above. Its breathable mesh design pairs with adjustable lumbar support, a solid combination for full workdays.\n\nWith 546 ratings at 4.4 stars, feedback is positive on a moderate sample size. For heavier users, remember that dropping into a seat creates 30-50% more peak force than static body weight, so a buffer of roughly 50 lbs above your actual weight against the rated capacity is a reasonable safety margin.\n\nA genuine advantage here is that adjustable lumbar support included. The tradeoff is smaller review base than the top mesh picks.",
     specs: [
       "400 lb weight capacity",
       "Adjustable lumbar support",
@@ -201,7 +201,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41lDR7qjYlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXTWTCWS?tag=deskfinds0d-20",
     description:
-      "This chair carries the largest review base in this entire list at 34,180 ratings, a strong signal of proven reliability across a huge buyer population. Its built-in footrest is a genuine long-hour feature, useful for brief reclined breaks during a workday without leaving the chair, and its pocket spring lumbar support offers more nuanced cushioning than a solid foam bump.\n\nAt 400 lbs capacity and a 4.5-star average, it balances gaming-chair styling with genuine ergonomic features. The high-back 3D saddle cushion is worth trying if you're sensitive to seat pan shape, since it differs from a flat cushion design.",
+      "This chair carries the largest review base in this entire list at 34,180 ratings, a strong signal of proven reliability across a huge buyer population. Its built-in footrest is a genuine long-hour feature, useful for brief reclined breaks during a workday without leaving the chair, and its pocket spring lumbar support offers more nuanced cushioning than a solid foam bump.\n\nAt 400 lbs capacity and a 4.5-star average, it balances gaming-chair styling with genuine ergonomic features. The high-back 3D saddle cushion is worth trying if you're sensitive to seat pan shape, since it differs from a flat cushion design.\n\nBuilt-in footrest for long-hour breaks. On the other hand, gaming-chair styling may not suit all office settings. Neither should be a surprise once you know to look for it.",
     specs: [
       "400 lb weight capacity",
       "Built-in foot rest",
@@ -231,7 +231,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rkQ70Jb6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09B3FJHHT?tag=deskfinds0d-20",
     description:
-      "LEMBERI offers a 400-pound capacity chair with a reinforced footrest and thickened steel frame at under $100, a strong value for long-hour big-and-tall seating. Its linkage armrests move together for more natural arm positioning during typing versus fixed armrests on cheaper chairs.\n\nWith 10,760 ratings and a 4.4-star average, it has strong, broad buyer confidence. The PU leather surface, unlike mesh, may trap more heat over a long workday, worth considering if you tend to run warm during extended sitting.",
+      "LEMBERI offers a 400-pound capacity chair with a reinforced footrest and thickened steel frame at under $100, a strong value for long-hour big-and-tall seating. Its linkage armrests move together for more natural arm positioning during typing versus fixed armrests on cheaper chairs.\n\nWith 10,760 ratings and a 4.4-star average, it has strong, broad buyer confidence. The PU leather surface, unlike mesh, may trap more heat over a long workday, worth considering if you tend to run warm during extended sitting.\n\nReinforced footrest and steel frame for durability. That's a real strength, but weigh it against the flip side: pU leather traps more heat than mesh over long hours.",
     specs: [
       "400 lb weight capacity",
       "Reinforced footrest",
@@ -261,7 +261,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
-      "This BestOffice chair has by far the largest review count of any pick in this entire list at 64,003 ratings, an enormous sample size backing its 4.3-star average even at a $38.99 price point. Its breathable backrest and adjustable height cover the basics, though as a mid-back design it offers less upper-body and neck support for very long sessions than the high-back picks above.\n\nAt this price, expect the lightest-duty frame in this list, better suited to shorter stretches of long-hour work broken up with regular movement than an all-day marathon session without breaks. The sponge seat lacks the mesh cooling benefit of several pricier picks here.",
+      "This BestOffice chair has by far the largest review count of any pick in this entire list at 64,003 ratings, an enormous sample size backing its 4.3-star average even at a $38.99 price point. Its breathable backrest and adjustable height cover the basics, though as a mid-back design it offers less upper-body and neck support for very long sessions than the high-back picks above.\n\nAt this price, expect the lightest-duty frame in this list, better suited to shorter stretches of long-hour work broken up with regular movement than an all-day marathon session without breaks. The sponge seat lacks the mesh cooling benefit of several pricier picks here.\n\nWorth calling out specifically: lowest price in this list by a wide margin. The catch is mid-back design offers less neck and upper-body support.",
     specs: [
       "Mid-back swivel design",
       "Adjustable height",
@@ -317,35 +317,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Seat depth adjustment matters as much as seat height",
-    explanation:
-      "Correct seat depth leaves 2-4 finger widths of space between the back of your knee and the front edge of the seat. Many chairs marketed as ergonomic only adjust seat height, not depth, so if a listing doesn't mention seat depth adjustment, assume it's fixed and check your own leg length against the stated seat dimensions.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a office chair often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Seat pan material matters more than back material for heat",
-    explanation:
-      "A mesh back looks cooling but a foam seat pan traps heat after 2-3 hours of sitting regardless of what the backrest is made of. If long-hour heat buildup is a concern, prioritize chairs with a perforated foam or mesh seat pan, not just a mesh back panel.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the office chair holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Lumbar adjustment ranges from fixed to fully dynamic",
-    explanation:
-      "Budget chairs typically have a fixed foam lumbar bump in one position. Better chairs offer height-adjustable lumbar support, and premium chairs add depth or firmness adjustment on top of height. For an eight-hour day, height-adjustable lumbar at minimum is worth prioritizing over a fixed bump.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this office chair over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Seat width needs to exceed hip width, not just match it",
-    explanation:
-      "Standard chair seats run 18-20 inches wide, sized for average hip width. Above roughly 250 lbs or for wider hip measurements, look for plus-size or big-and-tall rated chairs with 21-24 inch seat width, since a too-narrow seat causes pressure points during long sitting.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any office chair you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Recline tension needs to match your body weight",
-    explanation:
-      "Recline tension that's too light causes unexpected backward tipping when you lean back, while tension that's too heavy prevents reclining at all. Most chairs with a tension knob need it adjusted specifically for your body weight after setup, not left at the factory default.",
-  },
-  {
-    criterion: "Dynamic seating force means buying above your actual weight",
-    explanation:
-      "Dropping into a chair seat creates roughly 30-50% more peak force than your static body weight alone. For long-hour daily use, choose a chair rated at least 50 lbs above your actual weight rather than cutting it close to the stated maximum capacity.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A office chair that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -358,58 +348,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Body Type and Weight Capacity",
-    intro: "Match rated capacity to your actual weight plus a safety buffer, not just the closest number.",
-    table: {
-      headers: ["Body type", "Recommended capacity buffer", "Best pick"],
-      rows: [
-        ["Standard build, under 250 lbs", "Any chair rated 300+ lbs is fine", "TRALT Ergonomic 330 LBS or BestOffice Mid-Back"],
-        ["Larger build, 250-350 lbs", "Choose a 400 lb rated chair for buffer", "Fizzin Ergonomic 400 LBS or LEMBERI Big and Tall 400lb"],
-        ["Big and tall, above 350 lbs", "Choose the 500 lb rated chair", "500lbs Big and Tall Office Chair with Adjustable Lumbar"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "500lbs Big and Tall Office Chair with Adjustable Lumbar Support for Back Pain"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "BestOffice Ergonomic Office Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Lumbar Support Need",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $39",
+          "BestOffice Ergonomic Office Chair"
+        ],
+        [
+          "Up to $213",
+          "GABRYLLY Ergonomic Office Chair"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "BestOffice Ergonomic Office Chair vs GABRYLLY Ergonomic Office Chair",
+    "cards": [
       {
-        label: "Chronic back pain, need real position control",
-        text: "The 500lbs Big and Tall Office Chair and the TRALT Adjustable Lumbar pick both offer height-adjustable lumbar support, not just a fixed foam bump.",
+        "label": "BestOffice Ergonomic Office Chair",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "General comfort, budget-conscious",
-        text: "The Fizzin Ergonomic 400 LBS pairs adjustable lumbar support with a lower price point than premium options.",
-      },
-      {
-        label: "Occasional discomfort, lowest budget",
-        text: "The BestOffice Mid-Back includes basic lumbar support, best paired with regular standing breaks during long sessions.",
-      },
+        "label": "GABRYLLY Ergonomic Office Chair",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to BestOffice Ergonomic Office Chair unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Mesh vs Foam Seat Pan for Long-Hour Heat",
-    intro: "The seat pan under you matters more for heat buildup than the backrest material.",
-    table: {
-      headers: ["Seat pan type", "Heat buildup over 3+ hours", "Best pick"],
-      rows: [
-        ["Mesh seat pan", "Lowest, air circulates through the weave", "TRALT Ergonomic 330 LBS or TRALT Adjustable Lumbar"],
-        ["Perforated or thickened foam", "Moderate, better than solid foam", "Fizzin Ergonomic 400 LBS or GTPLAYER with Foot Rest"],
-        ["Solid foam or PU leather", "Highest, traps heat over long sessions", "LEMBERI Big and Tall or BestOffice Mid-Back"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If you tend to run warm during long sitting sessions, prioritize a mesh seat pan over backrest material alone.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "BestOffice Ergonomic Office Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Trade-off", "Best pick"],
-      rows: [
-        ["Under $50", "Fixed lumbar, foam seat, largest review base", "BestOffice Mid-Back Swivel"],
-        ["$100-$145", "Adjustable lumbar, mesh or PU options", "TRALT Adjustable Lumbar, LEMBERI Big and Tall, Fizzin, TRALT 330 LBS"],
-        ["$180-$213", "Premium features, footrest or headrest", "GTPLAYER with Foot Rest or GABRYLLY with Headrest"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "BestOffice Ergonomic Office Chair is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where GABRYLLY Ergonomic Office Chair's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where BestOffice Ergonomic Office Chair covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nrPCFGjNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B095PF22B8?tag=deskfinds0d-20",
     description:
-      "The WLIVE 9-Drawer is the most proven fabric dresser in this list, built on a steel frame with a water-resistant wood top that resists the warping plain particleboard tops develop near humidity. Nine fabric drawers slide on the frame rather than wood rails, which keeps the unit lighter and easier to reposition inside a closet.\n\nIt ships with an anti-tipping kit and adjustable feet to level it on uneven closet flooring, both genuinely useful details on a tall freestanding piece. At 40.2 inches tall and 39.6 inches wide, it fits most standard reach-in closets without needing to be pushed flush against a back wall.",
+      "The WLIVE 9-Drawer is the most proven fabric dresser in this list, built on a steel frame with a water-resistant wood top that resists the warping plain particleboard tops develop near humidity. Nine fabric drawers slide on the frame rather than wood rails, which keeps the unit lighter and easier to reposition inside a closet.\n\nIt ships with an anti-tipping kit and adjustable feet to level it on uneven closet flooring, both genuinely useful details on a tall freestanding piece. At 40.2 inches tall and 39.6 inches wide, it fits most standard reach-in closets without needing to be pushed flush against a back wall.\n\nWorth calling out specifically: water-resistant wood top resists warping. The catch is fabric drawers sag under heavy folded jeans over time.",
     specs: [
       "39.6\"W x 11.8\"D x 40.2\"H",
       "Steel frame + water-resistant wood top",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4180Tfi7X5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SH4T5J5?tag=deskfinds0d-20",
     description:
-      "With 11 fabric drawers, the WLIVE Tall Dresser packs more individual compartments into a closet footprint than any other pick in this list, useful for splitting socks, underwear, and accessories into their own drawers instead of piling them together. A P2-grade wood top and smooth slide track keep the drawers moving cleanly even when several are loaded at once.\n\nIt's also the only pick in this guide with a built-in safety stop feature on the drawer track, which keeps a fully-open drawer from sliding all the way out and tipping the unit forward. Four all-directional feet make it easier to square up in a tight closet corner.",
+      "With 11 fabric drawers, the WLIVE Tall Dresser packs more individual compartments into a closet footprint than any other pick in this list, useful for splitting socks, underwear, and accessories into their own drawers instead of piling them together. A P2-grade wood top and smooth slide track keep the drawers moving cleanly even when several are loaded at once.\n\nIt's also the only pick in this guide with a built-in safety stop feature on the drawer track, which keeps a fully-open drawer from sliding all the way out and tipping the unit forward. Four all-directional feet make it easier to square up in a tight closet corner.\n\nSafety stop prevents drawers sliding fully out. Set against that, narrower per-drawer width than lower-drawer-count picks. Both matter when comparing it to the other picks here.",
     specs: [
       "35.63\"W x 11.73\"D x 42.24\"H",
       "P2-grade wood top",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31KsBhKkY3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09537H92X?tag=deskfinds0d-20",
     description:
-      "At just 15.7 inches wide, the WLIVE 4-Drawer is built for the narrow leftover space at the end of a closet rod rather than as a standalone dresser. Its steel frame and wood top keep it stable despite the slim footprint, and the four foldable fabric drawers are fully removable for quick cleaning or repositioning.\n\nThis is the cheapest pick in the entire guide, which makes it an easy add-on rather than a full closet system. It won't replace a bigger organizer on its own, but it's a low-cost way to add drawer storage to a corner that would otherwise sit empty.",
+      "At just 15.7 inches wide, the WLIVE 4-Drawer is built for the narrow leftover space at the end of a closet rod rather than as a standalone dresser. Its steel frame and wood top keep it stable despite the slim footprint, and the four foldable fabric drawers are fully removable for quick cleaning or repositioning.\n\nThis is the cheapest pick in the entire guide, which makes it an easy add-on rather than a full closet system. It won't replace a bigger organizer on its own, but it's a low-cost way to add drawer storage to a corner that would otherwise sit empty.\n\nA genuine advantage here is that removable drawers simplify cleaning. The tradeoff is only 4 drawers, limited total storage.",
     specs: [
       "15.7\"W x 11.8\"D x 38.1\"H",
       "Steel frame + wood top",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41gyXrjo3gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SJ2CTV5?tag=deskfinds0d-20",
     description:
-      "The Amazon Basics 5-Drawer trades height for width, using extra-wide fabric drawers instead of stacking many narrow ones. That wider format is a real advantage for folded sweaters, sweatshirts, and bulky items that get squeezed or folded awkwardly in narrower drawers.\n\nA steel frame with a laminated wood top keeps the unit sturdy at just 21.7 inches tall, low enough to slide under a closet shelf or hanging rod in many reach-in closets. Adjustable feet help it sit level on uneven closet flooring.",
+      "The Amazon Basics 5-Drawer trades height for width, using extra-wide fabric drawers instead of stacking many narrow ones. That wider format is a real advantage for folded sweaters, sweatshirts, and bulky items that get squeezed or folded awkwardly in narrower drawers.\n\nA steel frame with a laminated wood top keeps the unit sturdy at just 21.7 inches tall, low enough to slide under a closet shelf or hanging rod in many reach-in closets. Adjustable feet help it sit level on uneven closet flooring.\n\nLow height fits under an existing closet rod. On the other hand, fewer drawers than the 8-11 drawer picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "40.2\"W x 11.85\"D x 21.7\"H",
       "Steel frame + laminated wood top",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CFbGVD9EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08H595DHB?tag=deskfinds0d-20",
     description:
-      "YITAHOME's 8-Drawer is the highest-rated fabric dresser in this list, helped by an MDF wood top that resists sagging better than the thinner tops on some cheaper picks. Eight removable fabric drawers give a good balance between drawer count and per-drawer width, wide enough for folded shirts without stacking too many narrow compartments.\n\nIt's also the only pick in this guide with actual wooden handles on every drawer, a small detail that makes it feel closer to furniture than a bare fabric bin system. The steel frame keeps the whole unit stable at 38.3 inches tall.",
+      "YITAHOME's 8-Drawer is the highest-rated fabric dresser in this list, helped by an MDF wood top that resists sagging better than the thinner tops on some cheaper picks. Eight removable fabric drawers give a good balance between drawer count and per-drawer width, wide enough for folded shirts without stacking too many narrow compartments.\n\nIt's also the only pick in this guide with actual wooden handles on every drawer, a small detail that makes it feel closer to furniture than a bare fabric bin system. The steel frame keeps the whole unit stable at 38.3 inches tall.\n\nWooden handles add a furniture-like finish. That's a real strength, but weigh it against the flip side: smaller review sample than the best-selling picks.",
     specs: [
       "33.7\"W x 11.8\"D x 38.3\"H",
       "Steel frame + MDF wood top",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31JDlfrg2qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQCPD79R?tag=deskfinds0d-20",
     description:
-      "This YITAHOME tower is the only pick in this guide with two different drawer sizes built into the same unit, mixing smaller drawers for socks and accessories with larger ones for folded clothing. That mixed sizing makes it easier to actually sort a closet by item type instead of using identical drawers for everything.\n\nAt 25 inches wide and 28.7 inches tall, it's compact enough for a shallower closet or a narrower gap between a rod and a side wall. An MDF wood top and steel frame keep it stable, and adjustable legs help it sit level on an uneven closet floor.",
+      "This YITAHOME tower is the only pick in this guide with two different drawer sizes built into the same unit, mixing smaller drawers for socks and accessories with larger ones for folded clothing. That mixed sizing makes it easier to actually sort a closet by item type instead of using identical drawers for everything.\n\nAt 25 inches wide and 28.7 inches tall, it's compact enough for a shallower closet or a narrower gap between a rod and a side wall. An MDF wood top and steel frame keep it stable, and adjustable legs help it sit level on an uneven closet floor.\n\nWorth calling out specifically: compact footprint for shallower closets. The catch is shorter height means less total capacity than taller picks.",
     specs: [
       "25\"W x 11.8\"D x 28.7\"H",
       "MDF wood top + steel frame",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/312nD2+dw9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07P935GCX?tag=deskfinds0d-20",
     description:
-      "The ClosetMaid Modular is the only genuinely hard-wood-built pick in this guide, using engineered wood construction with a full backer panel and decorative trim rather than a fabric-and-steel build. That solid construction holds heavy folded items like jeans and shoes without the sagging fabric drawers eventually show.\n\nIt's also built to stack and connect with the wider ClosetMaid Modular system, so it can expand alongside additional cube or shelf units later rather than being a one-and-done purchase. That flexibility comes at a real price premium over the fabric picks in this list.",
+      "The ClosetMaid Modular is the only genuinely hard-wood-built pick in this guide, using engineered wood construction with a full backer panel and decorative trim rather than a fabric-and-steel build. That solid construction holds heavy folded items like jeans and shoes without the sagging fabric drawers eventually show.\n\nIt's also built to stack and connect with the wider ClosetMaid Modular system, so it can expand alongside additional cube or shelf units later rather than being a one-and-done purchase. That flexibility comes at a real price premium over the fabric picks in this list.\n\nHolds heavy items without sagging. Set against that, most expensive drawer count per dollar in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "21.38\"W x 15.91\"D x 40.29\"H",
       "Engineered wood construction",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411FYDEgAVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVJPX9SW?tag=deskfinds0d-20",
     description:
-      "The SONGMICS system is not a standalone dresser, it's a full wall-mounted walk-in closet layout that expands from 4 to 9.6 feet wide, combining 3 integrated drawers with 5 hanging zones, a top shelf, and dedicated shoe space. That makes it the most complete organizer in this guide for anyone rebuilding an entire closet interior rather than just adding a dresser.\n\nFour adjustable rods, ranging 26 to 49 inches, let you set up both short-hang and long-hang zones in the same closet, and each drawer is rated for 22 lbs. Because it's wall-mounted, it's the least renter-friendly pick in this list and better suited to a home a buyer plans to stay in.",
+      "The SONGMICS system is not a standalone dresser, it's a full wall-mounted walk-in closet layout that expands from 4 to 9.6 feet wide, combining 3 integrated drawers with 5 hanging zones, a top shelf, and dedicated shoe space. That makes it the most complete organizer in this guide for anyone rebuilding an entire closet interior rather than just adding a dresser.\n\nFour adjustable rods, ranging 26 to 49 inches, let you set up both short-hang and long-hang zones in the same closet, and each drawer is rated for 22 lbs. Because it's wall-mounted, it's the least renter-friendly pick in this list and better suited to a home a buyer plans to stay in.\n\nA genuine advantage here is that combines drawers, hanging zones, and shelving in one layout. The tradeoff is wall-mounted, not suited to renters who can't drill.",
     specs: [
       "Expandable 4-9.6 ft wide",
       "Wall-mounted",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Measure your closet before ordering any kit",
-    explanation:
-      "Measure the interior width, depth, and height of your closet, including any door swing or trim that eats into usable space, before choosing a size. A dresser that measures fine on paper can still fail to fit past a closet door frame or under a shelf once you account for real clearance.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a closet organizer with drawer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Drawer material determines durability and ease of use",
-    explanation:
-      "Fabric drawers are the lightest and cheapest but sag fastest under heavy folded items; engineered or solid wood drawers like the ClosetMaid Modular hold their shape far longer under the same load. If you're storing jeans, sweaters, or shoes rather than light accessories, prioritize a wood-drawer pick even at a higher price.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the closet organizer with drawer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Check drawer weight capacity for heavy items",
-    explanation:
-      "Fabric drawers in this guide are built for light-to-moderate loads; a drawer stuffed with denim or shoes can quickly exceed what a thin fabric bottom and steel frame were designed to hold. If a listing doesn't state a per-drawer weight rating, assume it's built for clothing, not heavier items like books or boots.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this closet organizer with drawer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Freestanding vs wall-mounted matters most for renters",
-    explanation:
-      "Freestanding fabric and wood dressers need no drilling and can move with you, while a wall-mounted system like the SONGMICS closet layout requires anchoring into the wall. Renters who can't drill into closet walls should default to a freestanding pick unless their lease explicitly allows mounted installations.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any closet organizer with drawer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Budget realistic assembly time, not the box estimate",
-    explanation:
-      "A simple 4-drawer fabric dresser typically assembles in 20-30 minutes, while a full wall-mounted system with multiple rods and drawers can take several hours across two people. Plan assembly time based on drawer count and mounting complexity, not just the picture on the box.",
-  },
-  {
-    criterion: "Declutter before you measure and buy",
-    explanation:
-      "Sort and remove clothing you no longer wear before choosing a drawer count or system size, since a smaller organizer often fits a decluttered closet just as well as a larger one fits a cluttered one. Buying based on your current mess usually leads to oversizing the purchase.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A closet organizer with drawer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,86 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Closet Measurement",
-    intro:
-      "Measure interior width, depth, and height first, then match the number against these picks rather than guessing based on the product photo.",
-    table: {
-      headers: ["Your closet space", "What fits", "Best pick"],
-      rows: [
-        ["Narrow leftover corner (under 16\" wide)", "A slim add-on unit", "WLIVE 4-Drawer Charcoal Black"],
-        ["Standard reach-in closet (33-40\" wide)", "A full-width dresser", "WLIVE 9-Drawer, YITAHOME 8-Drawer"],
-        ["Low clearance under an existing shelf/rod", "A unit under 22\" tall", "Amazon Basics 5-Drawer Wide"],
-        ["Full walk-in closet needing a total rebuild", "A wall-mounted multi-zone system", "SONGMICS Closet System"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "YITAHOME 8"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "WLIVE 9"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Drawer Material Needed",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $36",
+          "WLIVE 4"
+        ],
+        [
+          "Up to $158",
+          "ClosetMaid Modular 4"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "WLIVE 4 vs ClosetMaid Modular 4",
+    "cards": [
       {
-        label: "Storing light items like socks and accessories",
-        text: "Any fabric-drawer pick in this guide works fine, the WLIVE 11-Drawer gives the most individual compartments to sort small items.",
+        "label": "WLIVE 4",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Storing heavy folded jeans or shoes",
-        text: "The ClosetMaid Modular 4-Drawer Wood Unit holds shape under heavy loads far better than fabric drawers, which sag over time.",
-      },
-      {
-        label: "Want a furniture-like finish without a full wood build",
-        text: "The YITAHOME 8-Drawer's MDF top and wooden handles give a nicer look than plain fabric-and-steel dressers at a similar price.",
-      },
-      {
-        label: "Sorting by item type in different drawer sizes",
-        text: "The YITAHOME 7-Drawer Tower is the only pick with mixed small and large drawers built into one unit.",
-      },
+        "label": "ClosetMaid Modular 4",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to WLIVE 4 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Renters vs Homeowners",
-    intro:
-      "Whether you can drill into your closet wall changes which picks are actually usable, not just which ones look best.",
-    table: {
-      headers: ["Situation", "Recommendation", "Best pick"],
-      rows: [
-        ["Renting and can't drill into walls", "Choose a freestanding unit", "WLIVE 9-Drawer, YITAHOME 8-Drawer, Amazon Basics 5-Drawer"],
-        ["Renting but want maximum drawers", "Freestanding tall unit", "WLIVE 11-Drawer Tall Dresser"],
-        ["Own the home, want a full closet rebuild", "Wall-mounted system", "SONGMICS Closet System"],
-        ["Own the home, want expandable wood storage", "Modular wood system", "ClosetMaid Modular 4-Drawer"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If you're renting, default to a freestanding pick even if a wall-mounted system looks more complete in photos, since removing wall anchors at move-out can cost a security deposit.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "WLIVE 9"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Realistic Assembly Time by Pick",
-    table: {
-      headers: ["Pick", "Estimated assembly time", "Notes"],
-      rows: [
-        ["WLIVE 4-Drawer Charcoal Black", "20-30 minutes", "Simplest build in this guide"],
-        ["WLIVE 9-Drawer / YITAHOME 8-Drawer", "45-60 minutes", "Standard steel-frame dresser build"],
-        ["ClosetMaid Modular 4-Drawer", "45-75 minutes", "Solid wood panels take longer to align"],
-        ["SONGMICS Closet System", "2-4 hours", "Wall mounting and multiple rods, best with two people"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WLIVE 9 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Declutter-First Sizing Guide",
-    intro:
-      "A quick declutter pass before buying often changes which drawer count actually makes sense.",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Haven't decluttered yet",
-        text: "Sort clothing into keep, donate, and toss piles first, most closets shrink their real storage need once this is done.",
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where ClosetMaid Modular 4's build gives real headroom over the cheaper picks."
       },
       {
-        label: "Already decluttered and know your volume",
-        text: "Match drawer count directly to sorted item categories using the closet measurement table above.",
-      },
-      {
-        label: "Sharing a closet with roommates or a partner",
-        text: "Consider a higher drawer-count pick like the WLIVE 11-Drawer so each person gets dedicated drawers instead of sharing.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where WLIVE 4 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

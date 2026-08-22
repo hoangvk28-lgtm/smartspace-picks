@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rUtvN6YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS9B1X5X?tag=deskfinds0d-20",
     description:
-      "This is the only desk in this guide that explicitly confirms built-in power outlets and a USB-C port directly in its title, making it the clear pick if genuine built-in power is a hard requirement. The listing does not specify surge protection or the exact wattage the USB-C port delivers, so treat it as pass-through power rather than assuming laptop-grade fast charging.\n\nThe review count here is lower than several other picks in this guide, so weigh the strong 4.6 star rating against that smaller sample size. Before relying on the outlet for a monitor, laptop charger, and desk lamp simultaneously, check the total amperage against your actual equipment load rather than assuming the built-in outlet can handle everything at once.",
+      "This is the only desk in this guide that explicitly confirms built-in power outlets and a USB-C port directly in its title, making it the clear pick if genuine built-in power is a hard requirement. The listing does not specify surge protection or the exact wattage the USB-C port delivers, so treat it as pass-through power rather than assuming laptop-grade fast charging.\n\nThe review count here is lower than several other picks in this guide, so weigh the strong 4.6 star rating against that smaller sample size. Before relying on the outlet for a monitor, laptop charger, and desk lamp simultaneously, check the total amperage against your actual equipment load rather than assuming the built-in outlet can handle everything at once.\n\nUSB-C port adds device charging without extra cables. Set against that, lower review count than most other picks in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "47 x 24 inch complete desk",
       "Built-in power outlets confirmed in title",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41pe4BGTQxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR1CM8JK?tag=deskfinds0d-20",
     description:
-      "This desk's listing does not confirm a built-in power outlet, so it is included here as a strong desk for other reasons, drawers and a keyboard tray, rather than a genuine outlet recommendation. Do not assume a desk with this much built-in storage also includes power routing just because the two features often appear together on similar products.\n\nIf built-in power matters to you, plan on a separate power strip or clamp-on outlet unless you confirm otherwise directly with the seller. The drawers and keyboard tray here are genuinely well reviewed and worth considering on their own merits.",
+      "This desk's listing does not confirm a built-in power outlet, so it is included here as a strong desk for other reasons, drawers and a keyboard tray, rather than a genuine outlet recommendation. Do not assume a desk with this much built-in storage also includes power routing just because the two features often appear together on similar products.\n\nIf built-in power matters to you, plan on a separate power strip or clamp-on outlet unless you confirm otherwise directly with the seller. The drawers and keyboard tray here are genuinely well reviewed and worth considering on their own merits.\n\nA genuine advantage here is that solid 4.6 star rating. The tradeoff is built-in power outlet not confirmed in the listing.",
     specs: [
       "55-inch standing desk with drawers",
       "Keyboard tray included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TvmvIlxoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFW9D66S?tag=deskfinds0d-20",
     description:
-      "Like the AODK pick above, this U-shaped desk's listing does not confirm a built-in power outlet, so we are not marketing it here as an outlet pick despite its overall strength. It has the highest rating in this guide at 4.7 stars, driven by its wraparound U-shape layout and confirmed keyboard tray.\n\nIf you need built-in power specifically, this is not the confirmed option, the Huuger pick above is. Consider this desk on the strength of its layout and tray instead, and plan for a separate power strip if outlets matter.",
+      "Like the AODK pick above, this U-shaped desk's listing does not confirm a built-in power outlet, so we are not marketing it here as an outlet pick despite its overall strength. It has the highest rating in this guide at 4.7 stars, driven by its wraparound U-shape layout and confirmed keyboard tray.\n\nIf you need built-in power specifically, this is not the confirmed option, the Huuger pick above is. Consider this desk on the strength of its layout and tray instead, and plan for a separate power strip if outlets matter.\n\nU-shape adds wraparound work surface. On the other hand, built-in power outlet not confirmed in the listing. Neither should be a surprise once you know to look for it.",
     specs: [
       "55-inch U-shaped desk",
       "Keyboard tray confirmed in title",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oHg37v77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Y1X96?tag=deskfinds0d-20",
     description:
-      "This is a different SKU from the Huuger pick that confirms outlets above, and its own listing does not mention built-in power, instead highlighting 2 hooks and 3 preset heights. Do not assume every desk from the same brand shares the same outlet feature, since this model's description is genuinely different.\n\nThe 27.6-inch depth is the deepest desktop in this guide, which is useful for monitor arm bases and multiple accessories regardless of power routing. If built-in outlets matter, choose the other Huuger pick or plan for a separate power strip with this one.",
+      "This is a different SKU from the Huuger pick that confirms outlets above, and its own listing does not mention built-in power, instead highlighting 2 hooks and 3 preset heights. Do not assume every desk from the same brand shares the same outlet feature, since this model's description is genuinely different.\n\nThe 27.6-inch depth is the deepest desktop in this guide, which is useful for monitor arm bases and multiple accessories regardless of power routing. If built-in outlets matter, choose the other Huuger pick or plan for a separate power strip with this one.\n\nIncluded hooks for bags or headphones. That's a real strength, but weigh it against the flip side: built-in power outlet not confirmed, despite same brand as the confirmed pick.",
     specs: [
       "55 x 28 inch complete desk",
       "27.6-inch deep desktop",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g8lw1sh+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBQ4JX85?tag=deskfinds0d-20",
     description:
-      "This 63-inch L-shaped desk with 4 drawers does not confirm a built-in power outlet in its listing, and its corner layout is the main draw here rather than any power feature. The L-shape gives a genuinely larger total work surface than the straight desks in this guide.\n\nWith 4 drawers built in, cable and power strip placement takes more planning since drawer clearance competes with under-desk space. If built-in power matters, this is not a confirmed pick, consider it for the corner layout and storage instead.",
+      "This 63-inch L-shaped desk with 4 drawers does not confirm a built-in power outlet in its listing, and its corner layout is the main draw here rather than any power feature. The L-shape gives a genuinely larger total work surface than the straight desks in this guide.\n\nWith 4 drawers built in, cable and power strip placement takes more planning since drawer clearance competes with under-desk space. If built-in power matters, this is not a confirmed pick, consider it for the corner layout and storage instead.\n\nWorth calling out specifically: 4 drawers for built-in storage. The catch is built-in power outlet not confirmed in the listing.",
     specs: [
       "63-inch L-shaped desk",
       "4 built-in drawers",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
-      "This desk's listing focuses on its height adjustment and does not confirm a built-in power outlet, despite carrying the largest review base in this entire guide. Its inclusion here is as a reliably reviewed standard desk, not as an outlet recommendation.\n\nIf you want proven reliability at a low price and are fine adding your own power strip, this is a reasonable pick on that basis alone. It should not be confused with the confirmed-outlet Huuger pick at the top of this guide.",
+      "This desk's listing focuses on its height adjustment and does not confirm a built-in power outlet, despite carrying the largest review base in this entire guide. Its inclusion here is as a reliably reviewed standard desk, not as an outlet recommendation.\n\nIf you want proven reliability at a low price and are fine adding your own power strip, this is a reasonable pick on that basis alone. It should not be confused with the confirmed-outlet Huuger pick at the top of this guide.\n\nAffordable price point. Set against that, built-in power outlet not confirmed in the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "48 x 24 inch complete desk",
       "Built-in power outlet not confirmed",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
-      "This desk's splice-board maple top does not come with a confirmed built-in power outlet, and its strength here is desktop material and build quality rather than power routing. It has a strong review base backing its overall fit and finish.\n\nIf you plan to add a monitor arm or other grommet-mounted accessories, the thicker top is a genuine advantage. Pair it with a separate power strip if outlet access matters, since the listing does not confirm one built in.",
+      "This desk's splice-board maple top does not come with a confirmed built-in power outlet, and its strength here is desktop material and build quality rather than power routing. It has a strong review base backing its overall fit and finish.\n\nIf you plan to add a monitor arm or other grommet-mounted accessories, the thicker top is a genuine advantage. Pair it with a separate power strip if outlet access matters, since the listing does not confirm one built in.\n\nA genuine advantage here is that high review volume with solid rating. The tradeoff is built-in power outlet not confirmed in the listing.",
     specs: [
       "48 x 24 inch complete desk",
       "White frame, maple splice-board top",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
-      "This 55-inch gaming-oriented desk does not confirm a built-in power outlet, and it is included here for its wide surface and strong rating rather than any power feature. The white finish and dual-monitor-friendly width are the real selling points.\n\nGiven the wider surface, a separate power strip with a longer cable run may be needed to reach all your equipment comfortably. If built-in power is a requirement, this is not the confirmed pick, choose the Huuger option above instead.",
+      "This 55-inch gaming-oriented desk does not confirm a built-in power outlet, and it is included here for its wide surface and strong rating rather than any power feature. The white finish and dual-monitor-friendly width are the real selling points.\n\nGiven the wider surface, a separate power strip with a longer cable run may be needed to reach all your equipment comfortably. If built-in power is a requirement, this is not the confirmed pick, choose the Huuger option above instead.\n\nStrong review volume and rating. On the other hand, built-in power outlet not confirmed in the listing. Neither should be a surprise once you know to look for it.",
     specs: [
       "55-inch complete desk",
       "White finish",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Only 1 of these 8 listings confirms a built-in power outlet",
-    explanation:
-      "The Huuger 47x24 desk is the only pick in this guide whose listing explicitly states built-in power outlets and a USB-C port. The other 7 are strong desks for other reasons, drawers, trays, depth, or review volume, but do not confirm built-in power, and buyers should not assume otherwise based on brand or category alone.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk with power outlet often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Most built-in desk outlets offer no surge protection",
-    explanation:
-      "Built-in outlets on standing desks are typically pass-through power with no surge suppression, meaning a power spike passes straight through to whatever is plugged in. If surge protection matters for your equipment, plan on a dedicated surge-protected power strip regardless of whether the desk has a built-in outlet.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk with power outlet holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "USB-C PD wattage varies from 18W to 100W and often will not fast-charge a laptop",
-    explanation:
-      "A USB-C port on a desk can deliver anywhere from 18 watts, enough for a phone, up to 100 watts, enough for many laptops, and most listings do not specify which end of that range applies. Check the actual wattage before assuming a built-in USB-C port can replace your laptop's charger.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk with power outlet over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Outlet cord slack must cover the full height travel range",
-    explanation:
-      "A standing desk's height range typically runs 20 to 26 inches from lowest to highest setting, and an outlet cord without enough slack for that full travel can stress the connector every time the desk moves. Check cord routing and slack before relying on a built-in outlet through repeated height changes.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk with power outlet you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check total outlet wattage against your actual equipment load",
-    explanation:
-      "A built-in outlet's total wattage or amperage rating needs to cover your monitor, laptop charger, and desk lamp running simultaneously, not just one device at a time. Add up your equipment's actual draw before assuming a compact built-in outlet can handle everything plugged in at once.",
-  },
-  {
-    criterion: "UL or ETL certification should apply to the outlet component, not just the desk frame",
-    explanation:
-      "A desk frame carrying a general safety certification does not automatically mean its integrated outlet component is separately certified. If certification matters for the electrical component specifically, look for that called out separately rather than assuming overall desk certification covers it.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk with power outlet that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,76 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Which Listings Actually Confirm Built-In Power",
-    intro:
-      "This is the most important table in this guide. Only 1 of the 8 picks confirms built-in power outlets in its listing.",
-    table: {
-      headers: ["Desk", "Outlet confirmed?", "What to do instead if not"],
-      rows: [
-        ["Huuger 47x24 with Power Outlets", "Yes, confirmed with USB-C", "N/A, this is the confirmed pick"],
-        ["AODK 55-inch with Drawers", "Not confirmed", "Add a separate power strip"],
-        ["OffiGo 55-inch U-Shaped", "Not confirmed", "Add a separate power strip"],
-        ["Huuger 55x28 (different SKU)", "Not confirmed", "Do not assume same-brand outlet feature"],
-        ["OffiGo 63-inch L-Shaped", "Not confirmed", "Add a separate power strip"],
-        ["ErGear 48x24", "Not confirmed", "Add a separate power strip"],
-        ["FEZIBO 48x24", "Not confirmed", "Add a separate power strip"],
-        ["Veken 55-inch", "Not confirmed", "Add a separate power strip with longer cable run"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If built-in power is a hard requirement, the Huuger 47x24 is the only pick here that genuinely delivers it. Everything else needs a separate power strip.",
+      "rows": [
+        [
+          "Highest average rating",
+          "OffiGo 55 Inch U Shaped Electric Standing Desk with Keyboard Tray"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Surge Protection: What Built-In Outlets Actually Offer",
-    intro: "None of the 8 listings, including the confirmed outlet pick, state surge protection.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $95",
+          "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk"
+        ],
+        [
+          "Up to $200",
+          "OffiGo 63 Inch L Shaped Electric Standing Desk with 4 Drawers"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk vs OffiGo 63 Inch L Shaped Electric Standing Desk with 4 Drawers",
+    "cards": [
       {
-        label: "If surge protection matters",
-        text: "Use a dedicated surge-protected power strip regardless of which desk you choose, since built-in desk outlets are generally pass-through power only.",
+        "label": "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "If you just need extra outlets",
-        text: "The Huuger 47x24's built-in outlets and USB-C port are convenient for basic device charging and reduce visible cable clutter, even without surge protection.",
-      },
+        "label": "OffiGo 63 Inch L Shaped Electric Standing Desk with 4 Drawers",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "USB-C Wattage: What to Check Before Assuming Fast Charging",
-    table: {
-      headers: ["USB-C wattage range", "What it can charge", "What to verify"],
-      rows: [
-        ["18W", "Phone or small tablet only", "Check listing or contact seller for exact wattage"],
-        ["30-45W", "Most tablets, some ultrabooks", "Check listing or contact seller for exact wattage"],
-        ["65-100W", "Most laptops including many gaming laptops", "Check listing or contact seller for exact wattage"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "The Huuger 47x24 listing does not state which of these ranges its USB-C port falls into, so confirm directly before assuming it can replace your laptop charger.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Feature Priority When Power Is Not Confirmed",
-    intro: "Since 7 of 8 picks lack a confirmed outlet, here is what to prioritize instead for each one.",
-    table: {
-      headers: ["Priority", "Recommended pick", "Why"],
-      rows: [
-        ["Drawer storage", "AODK 55-inch with Drawers and Keyboard Tray", "Confirmed drawers plus a keyboard tray"],
-        ["Corner layout", "OffiGo 63-inch L-Shaped with 4 Drawers", "Largest total surface area in this guide"],
-        ["Desktop depth", "Huuger 55x28 (27.6-inch deep)", "Deepest desktop for monitor arms and accessories"],
-        ["Proven reliability", "ErGear 48x24", "Largest review base in this guide"],
-        ["Desktop material", "FEZIBO 48x24 Maple Top", "Thicker splice-board top for grommet accessories"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Checking Cord Slack and Outlet Wattage After Setup",
-    intro: "A quick check after assembly confirms your outlet setup will hold up to daily use.",
-    table: {
-      headers: ["Check", "How to do it", "What it tells you"],
-      rows: [
-        ["Full height travel test", "Raise and lower the desk fully with the cord connected", "Confirms enough slack to avoid connector stress"],
-        ["Equipment load tally", "Add up the wattage of everything you plan to plug in", "Confirms the outlet's total capacity is not exceeded"],
-        ["Certification check", "Look for UL or ETL marking on the outlet component itself", "Confirms the electrical component is separately certified, not just the frame"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where OffiGo 63 Inch L Shaped Electric Standing Desk with 4 Drawers's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

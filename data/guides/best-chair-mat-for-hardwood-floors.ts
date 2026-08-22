@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41R0aNdrj4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CBRY92M?tag=deskfinds0d-20",
     description:
-      "The SHAREWIN pairs a frosted anti-slip top surface with a smooth underside, giving it better rolling control than most budget mats while still protecting the wood underneath from direct caster contact. At 1.5mm thick and 36x47 inches, it's sized to cover a full swivel radius for most desk chairs.\n\nIt's BPA-free with no volatile toxins and stays fully transparent. Like any standard PVC mat, it's a reasonable choice for engineered hardwood or floors you're not precious about long-term, but buyers with a premium solid hardwood floor may prefer a rubber-backed or glass-level option further down this list for extra peace of mind.",
+      "The SHAREWIN pairs a frosted anti-slip top surface with a smooth underside, giving it better rolling control than most budget mats while still protecting the wood underneath from direct caster contact. At 1.5mm thick and 36x47 inches, it's sized to cover a full swivel radius for most desk chairs.\n\nIt's BPA-free with no volatile toxins and stays fully transparent. Like any standard PVC mat, it's a reasonable choice for engineered hardwood or floors you're not precious about long-term, but buyers with a premium solid hardwood floor may prefer a rubber-backed or glass-level option further down this list for extra peace of mind.\n\nWorth calling out specifically: best rolling control among the budget picks. The catch is standard PVC, not the gentlest option for premium hardwood finishes.",
     specs: [
       "36\"x47\"",
       "PVC, 1.5mm thick",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414FROmaZML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FCDNGYB?tag=deskfinds0d-20",
     description:
-      "Yecaye's clear PVC mat holds its shape well over time, with a smooth gliding surface that won't curl, bend, or crack the way thinner clear mats can after months of use. Rounded corners make it easy to roll a chair on and off without catching an edge.\n\nAt 1.7mm thick and 36x48 inches, it's a solid everyday pick for hardwood, though standard PVC sitting in one spot for years is worth watching if your floor has an oil or wax finish rather than polyurethane, since these finishes can respond differently to prolonged plastic contact.",
+      "Yecaye's clear PVC mat holds its shape well over time, with a smooth gliding surface that won't curl, bend, or crack the way thinner clear mats can after months of use. Rounded corners make it easy to roll a chair on and off without catching an edge.\n\nAt 1.7mm thick and 36x48 inches, it's a solid everyday pick for hardwood, though standard PVC sitting in one spot for years is worth watching if your floor has an oil or wax finish rather than polyurethane, since these finishes can respond differently to prolonged plastic contact.\n\nRounded, easy-to-roll-over edges. Set against that, standard PVC underside, not rubber. Both matter when comparing it to the other picks here.",
     specs: [
       "36\"x48\"",
       "PVC, 1.7mm thick",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/517k2eNhAvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SBVXQ7B?tag=deskfinds0d-20",
     description:
-      "The Azadx is dual-sided, a smooth side down against the hardwood and a textured matte side up for extra grip under a rolling chair. That reversibility gives it flexibility most single-sided mats in this guide don't offer.\n\nAt 30x48 inches and 0.06 inches thick, it's transparent PVC that works well for everyday hardwood protection. As with the other clear PVC picks here, it's a fine choice for engineered hardwood or a floor you replace or refinish periodically, though a rubber-backed or glass option is the safer long-term bet on a floor you never want to risk.",
+      "The Azadx is dual-sided, a smooth side down against the hardwood and a textured matte side up for extra grip under a rolling chair. That reversibility gives it flexibility most single-sided mats in this guide don't offer.\n\nAt 30x48 inches and 0.06 inches thick, it's transparent PVC that works well for everyday hardwood protection. As with the other clear PVC picks here, it's a fine choice for engineered hardwood or a floor you replace or refinish periodically, though a rubber-backed or glass option is the safer long-term bet on a floor you never want to risk.\n\nA genuine advantage here is that reversible design adds grip flexibility. The tradeoff is narrower than the 36\"-wide picks.",
     specs: [
       "30\"x48\"",
       "PVC, 0.06\" thick",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XIeKF3CtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQ87K7RL?tag=deskfinds0d-20",
     description:
-      "The Blvornl's rattan-like woven pattern makes it the most visually distinctive mat in this guide, a real alternative to the plain clear PVC look most competitors default to. Its rubber non-slip base grips the hardwood without needing adhesive, which also means less risk of residue interacting with the floor's finish over time.\n\nAt 0.08 inches thick, it's flame-retardant, waterproof, oil-resistant, and heat-resistant. The rubber base is gentler against a wood finish than a hard plastic underside sitting flush against the floor for years, making it a reasonable middle-ground pick for buyers who want style along with some finish-conscious peace of mind.",
+      "The Blvornl's rattan-like woven pattern makes it the most visually distinctive mat in this guide, a real alternative to the plain clear PVC look most competitors default to. Its rubber non-slip base grips the hardwood without needing adhesive, which also means less risk of residue interacting with the floor's finish over time.\n\nAt 0.08 inches thick, it's flame-retardant, waterproof, oil-resistant, and heat-resistant. The rubber base is gentler against a wood finish than a hard plastic underside sitting flush against the floor for years, making it a reasonable middle-ground pick for buyers who want style along with some finish-conscious peace of mind.\n\nRubber base is gentler on hardwood finish long-term than plain PVC. On the other hand, pattern reduces transparency versus fully clear mats. Neither should be a surprise once you know to look for it.",
     specs: [
       "36\"x48\"",
       "PVC, 0.08\" thick",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41PScNXF1QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCBDMRSS?tag=deskfinds0d-20",
     description:
-      "The BARoyal's PVC-plus-rubber construction is a meaningful step up for hardwood specifically, since a rubber backing sitting against your floor's finish for years is generally gentler than a plain PVC underside. It carries the highest star rating of any PVC-based pick in this guide at 4.6, backed by testing through over 10,000 durability cycles per the listing.\n\nCurl-free edges and a water-resistant build hold their shape well over time, and the Espresso color is the only non-clear finish option in this list. Silent glide performance rounds out a mat built for hardwood owners who want PVC-level affordability with more finish-conscious backing than a basic clear mat.",
+      "The BARoyal's PVC-plus-rubber construction is a meaningful step up for hardwood specifically, since a rubber backing sitting against your floor's finish for years is generally gentler than a plain PVC underside. It carries the highest star rating of any PVC-based pick in this guide at 4.6, backed by testing through over 10,000 durability cycles per the listing.\n\nCurl-free edges and a water-resistant build hold their shape well over time, and the Espresso color is the only non-clear finish option in this list. Silent glide performance rounds out a mat built for hardwood owners who want PVC-level affordability with more finish-conscious backing than a basic clear mat.\n\nRubber backing is gentler on hardwood finish than plain PVC. That's a real strength, but weigh it against the flip side: smaller review count than the top budget picks.",
     specs: [
       "36\"x48\", Espresso color",
       "PVC + rubber backing",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51umupvRX3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKKMDSP?tag=deskfinds0d-20",
     description:
-      "At 5mm thick, the MuArts is the thickest and most rigid pick in this guide short of the glass-hardness and beveled composite options, and it's rated to support up to 1,400 lbs, the highest capacity here. Its rigid, flat-lying design distributes chair weight evenly rather than flexing against the wood the way a thin PVC sheet can.\n\nIt works dual-use on hardwood or carpet, so it's a sensible pick if you move furniture between rooms. The crystal-clear finish and 12-month warranty make it a strong middle-tier choice, though buyers who specifically want to rule out any material reaction with their floor's finish should consider the glass-hardness pick further down this list.",
+      "At 5mm thick, the MuArts is the thickest and most rigid pick in this guide short of the glass-hardness and beveled composite options, and it's rated to support up to 1,400 lbs, the highest capacity here. Its rigid, flat-lying design distributes chair weight evenly rather than flexing against the wood the way a thin PVC sheet can.\n\nIt works dual-use on hardwood or carpet, so it's a sensible pick if you move furniture between rooms. The crystal-clear finish and 12-month warranty make it a strong middle-tier choice, though buyers who specifically want to rule out any material reaction with their floor's finish should consider the glass-hardness pick further down this list.\n\nWorth calling out specifically: thickest, most rigid pick short of the glass-level option. The catch is pricier than every basic PVC pick in this list.",
     specs: [
       "54\"x32\"",
       "Rigid material, 5mm thick",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/511Loe1T1PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F2DV524X?tag=deskfinds0d-20",
     description:
-      "The MESAILUP is built from a polycarbonate and ceramic composite rated at 4H hardness, glass-level hardness that is the only rating of its kind in this guide, meaning it is far less likely to scratch or chemically react with a hardwood finish the way standard plastic can over years of contact. At 0.25 inches thick, it's also the thickest and most rigid mat in this entire list.\n\nRated for 1,500 lbs and 92-95% transparent, it includes a beveled edge for a smoother roll-on transition and 6 residue-free anti-slip pads that won't leave marks on the finish underneath. This is the pick for anyone with a premium solid hardwood floor who wants the strongest possible peace of mind that a mat will not affect the wood.",
+      "The MESAILUP is built from a polycarbonate and ceramic composite rated at 4H hardness, glass-level hardness that is the only rating of its kind in this guide, meaning it is far less likely to scratch or chemically react with a hardwood finish the way standard plastic can over years of contact. At 0.25 inches thick, it's also the thickest and most rigid mat in this entire list.\n\nRated for 1,500 lbs and 92-95% transparent, it includes a beveled edge for a smoother roll-on transition and 6 residue-free anti-slip pads that won't leave marks on the finish underneath. This is the pick for anyone with a premium solid hardwood floor who wants the strongest possible peace of mind that a mat will not affect the wood.\n\nLeast likely material to react with any hardwood finish. Set against that, most expensive pick in this guide by a wide margin. Both matter when comparing it to the other picks here.",
     specs: [
       "36\"x48\"",
       "Polycarbonate + ceramic composite, 0.25\" thick",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/417+4zxitgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DY2PP1K6?tag=deskfinds0d-20",
     description:
-      "The Gorilla Grip uses PET (polyethylene terephthalate) instead of standard PVC, a material that's inherently more chemically stable against hardwood finishes over long-term contact. It ships completely flat rather than rolled, so there's no waiting for it to lie down or fighting stubborn curl at the edges out of the box.\n\nAt 0.087 inches thick with an ultra-thick double-layer construction, it won't bend, curl, crack, or leave divots, and its slip-resistant backing holds it in place on hardwood. It's a newer, smaller-review-count pick, but the PET material choice makes it a reasonable middle ground between basic PVC and the pricier glass-level option above.",
+      "The Gorilla Grip uses PET (polyethylene terephthalate) instead of standard PVC, a material that's inherently more chemically stable against hardwood finishes over long-term contact. It ships completely flat rather than rolled, so there's no waiting for it to lie down or fighting stubborn curl at the edges out of the box.\n\nAt 0.087 inches thick with an ultra-thick double-layer construction, it won't bend, curl, crack, or leave divots, and its slip-resistant backing holds it in place on hardwood. It's a newer, smaller-review-count pick, but the PET material choice makes it a reasonable middle ground between basic PVC and the pricier glass-level option above.\n\nA genuine advantage here is that ships flat, no curling to fight out of the box. The tradeoff is very small review count so far.",
     specs: [
       "29\"x47\"",
       "PET, 0.087\" thick, double-layer",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Some PVC mats can react with a hardwood finish over years",
-    explanation:
-      "Standard PVC sitting in one spot on a hardwood floor for years can occasionally cause discoloration or finish damage underneath, depending on the specific finish. If you have a nicer floor you plan to keep for a long time, a rubber-backed pick like the BARoyal or a glass-level hardness pick like the MESAILUP offers more long-term peace of mind than a plain clear PVC mat.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a chair mat often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Know your hardwood finish type before choosing a mat",
-    explanation:
-      "Polyurethane, oil, and wax finishes each interact differently with a mat sitting on top of them for years. Polyurethane is generally the most resilient of the three, while oil and wax finishes are more sensitive to prolonged plastic contact, so they benefit most from a rubber-backed or glass-level pick rather than basic PVC.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the chair mat holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "A chair mat is not the same fix as felt pads or caster upgrades",
-    explanation:
-      "A chair mat protects a defined rolling zone under your desk chair, while felt pads protect stationary furniture legs and caster upgrades change how the wheels themselves interact with the floor. If your main concern is a filing cabinet or bookshelf rather than a rolling chair, felt pads solve that more directly than a mat would.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this chair mat over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Engineered hardwood is more vulnerable than solid hardwood",
-    explanation:
-      "Engineered hardwood has a thinner wear layer than solid hardwood, meaning it has less material to absorb scratches or wear before showing damage. If your floor is engineered rather than solid hardwood, lean toward a gentler rubber-backed or glass-level pick rather than a basic PVC mat.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any chair mat you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Seasonal wood movement can affect a rigid mat's edge fit",
-    explanation:
-      "Hardwood floors expand and contract slightly with seasonal humidity changes, and a rigid mat edge that fit perfectly in summer may sit slightly differently in winter. This is a minor consideration but worth knowing if you notice a rigid mat's edge shifting position across seasons.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A chair mat that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,77 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Hardwood Finish Type",
-    intro:
-      "Polyurethane, oil, and wax finishes each respond differently to a mat sitting on top of them for years, so match the mat material to your specific finish.",
-    table: {
-      headers: ["Finish type", "Recommended material", "Best pick"],
-      rows: [
-        ["Polyurethane (most common, most resilient)", "Standard PVC is generally fine", "SHAREWIN, Yecaye Clear"],
-        ["Oil finish (more sensitive to contact)", "Rubber-backed or PET", "BARoyal PVC + Rubber, GORILLA GRIP PET"],
-        ["Wax finish (most sensitive to contact)", "Glass-level hardness for zero risk", "MESAILUP Beveled Edge"],
-        ["Not sure / want maximum peace of mind either way", "Glass-level hardness", "MESAILUP Beveled Edge"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "BARoyal Office Chair Mat for Hardwood Floor"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "MuArts Crystal Clear 5mm Chair Mat Dual"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Engineered vs Solid Hardwood",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $22",
+          "SHAREWIN Office Chair Mat for Hardwood Floor"
+        ],
+        [
+          "Up to $140",
+          "MESAILUP Beveled Edge Chair Mat for Hardwood Floor"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "SHAREWIN Office Chair Mat for Hardwood Floor vs MESAILUP Beveled Edge Chair Mat for Hardwood Floor",
+    "cards": [
       {
-        label: "You have engineered hardwood",
-        text: "Its thinner wear layer is more vulnerable to scratches and finish contact issues. Lean toward the BARoyal rubber-backed pick or the MESAILUP glass-level pick rather than basic PVC.",
+        "label": "SHAREWIN Office Chair Mat for Hardwood Floor",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "You have solid hardwood",
-        text: "The thicker wear layer is more forgiving, so a standard clear PVC mat like the Yecaye or SHAREWIN is a reasonable everyday choice.",
-      },
-      {
-        label: "You're not sure which type you have",
-        text: "Treat it like engineered hardwood and choose the more finish-conscious rubber-backed or glass-level option to be safe.",
-      },
+        "label": "MESAILUP Beveled Edge Chair Mat for Hardwood Floor",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SHAREWIN Office Chair Mat for Hardwood Floor unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Chair Mat vs Felt Pads vs Caster Upgrades",
-    intro:
-      "These three floor-protection approaches solve different problems, and buyers often reach for a mat when a cheaper fix would work just as well.",
-    table: {
-      headers: ["Your situation", "Best approach", "Why"],
-      rows: [
-        ["Rolling desk chair wears a path in the floor", "Chair mat", "Only a mat protects a full rolling radius"],
-        ["Stationary bookshelf or cabinet legs scuff the floor", "Felt pads", "Cheaper and more targeted than a mat for non-rolling furniture"],
-        ["Chair itself feels rough on the floor even off the mat", "Caster upgrade", "Softer furniture-grade wheels reduce wear at the source"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "MuArts Crystal Clear 5mm Chair Mat Dual"
+        ]
+      ]
+    }
   },
   {
-    subheading: "If a Scratch Happens Anyway",
-    intro:
-      "No mat eliminates risk entirely, so it helps to know the repair path before you need it.",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Light surface scratch on polyurethane",
-        text: "A hardwood touch-up marker or matching stain pen made for polyurethane finishes can usually blend a light scratch well enough that it's not noticeable at normal viewing distance.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Deeper scratch or discoloration",
-        text: "This typically requires a professional refinish of that section rather than a DIY fix, which is exactly why choosing a gentler mat material upfront is worth the extra cost on a floor you care about.",
-      },
-    ],
-    note: "Switching to a rubber-backed or glass-level mat after noticing early discoloration can stop further damage, but it won't reverse marks that have already set into the finish.",
+        "label": "In this comparison",
+        "text": "MuArts Crystal Clear 5mm Chair Mat Dual is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Budget vs Peace-of-Mind Tiers",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $25", "Basic clear PVC, fine for polyurethane", "SHAREWIN, Azadx Clear"],
-        ["$30-$40", "Rubber backing or distinctive design", "Blvornl Rattan-Pattern, BARoyal, GORILLA GRIP PET"],
-        ["$55-$65", "High capacity, dual-use rigidity", "MuArts Crystal Clear 5mm"],
-        ["$140", "Glass-level hardness, maximum finish safety", "MESAILUP Beveled Edge"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where MESAILUP Beveled Edge Chair Mat for Hardwood Floor's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SHAREWIN Office Chair Mat for Hardwood Floor covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

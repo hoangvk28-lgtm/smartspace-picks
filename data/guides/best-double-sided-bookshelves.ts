@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OXUOdhrKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3J58T4N?tag=deskfinds0d-20",
     description:
-      "The IRONCK is a genuine bookshelf-style unit, a triple-wide 6-tier frame with a back fence on each shelf that keeps books from sliding through to the other side. That back fence is what gives it real visual privacy rather than the open sightlines you get on shelves without one, though gaps between books themselves can still allow glimpses through depending on how full each shelf is loaded.\n\nAt $219.99 with 4.6 stars across 420 ratings, it has the strongest buyer feedback of the true bookshelf-style picks in this guide. As with any tall, wide open shelving unit intended for center-of-room placement, plan on anchoring it since no wall is available to lean it against for tip resistance.",
+      "The IRONCK is a genuine bookshelf-style unit, a triple-wide 6-tier frame with a back fence on each shelf that keeps books from sliding through to the other side. That back fence is what gives it real visual privacy rather than the open sightlines you get on shelves without one, though gaps between books themselves can still allow glimpses through depending on how full each shelf is loaded.\n\nAt $219.99 with 4.6 stars across 420 ratings, it has the strongest buyer feedback of the true bookshelf-style picks in this guide. As with any tall, wide open shelving unit intended for center-of-room placement, plan on anchoring it since no wall is available to lean it against for tip resistance.\n\nA genuine advantage here is that 4.6 stars, 420 ratings, strongest feedback here. The tradeoff is no wall support when used center-of-room, anchoring needed.",
     specs: ["Triple-wide 6-tier design", "Back fence on shelves for privacy", "Genuinely bookshelf-style", "Easy assembly"],
     pros: ["Back fence provides real visual privacy, not just open shelving", "4.6 stars, 420 ratings, strongest feedback here", "Wide 6-tier design for real book storage", "Genuinely bookshelf-style construction"],
     cons: ["No wall support when used center-of-room, anchoring needed", "Gaps between books can still allow partial visibility through"],
@@ -68,7 +68,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/512GcnTIgpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZNVB9M5?tag=deskfinds0d-20",
     description:
-      "The SILKYDRY is a genuinely bookshelf-style piece with a staggered S-shaped tier design, marketed directly as a book shelf room divider at 75 inches tall. It's built as open shelving without a solid back fence, which means light and sightlines pass through freely from one side to the other, this is an aesthetic divider first and a privacy divider only as much as the books you place on it block the view.\n\nAt 4.4 stars across 376 ratings it's a well-reviewed choice for buyers who want visual separation and a decorative geometric silhouette more than genuine privacy. Its 75-inch height is taller than most picks in this category, worth noting if ceiling clearance or tipping risk is a concern.",
+      "The SILKYDRY is a genuinely bookshelf-style piece with a staggered S-shaped tier design, marketed directly as a book shelf room divider at 75 inches tall. It's built as open shelving without a solid back fence, which means light and sightlines pass through freely from one side to the other, this is an aesthetic divider first and a privacy divider only as much as the books you place on it block the view.\n\nAt 4.4 stars across 376 ratings it's a well-reviewed choice for buyers who want visual separation and a decorative geometric silhouette more than genuine privacy. Its 75-inch height is taller than most picks in this category, worth noting if ceiling clearance or tipping risk is a concern.\n\n75 in height, tallest true bookshelf here. On the other hand, open back gives no real privacy on its own. Neither should be a surprise once you know to look for it.",
     specs: ["Genuinely bookshelf-style, marketed as room divider", "6-tier staggered geometric design", "75 in height", "Open back, no solid fence"],
     pros: ["Genuinely bookshelf-style and marketed as a room divider", "75 in height, tallest true bookshelf here", "Distinctive staggered geometric look", "4.4 stars, 376 ratings"],
     cons: ["Open back gives no real privacy on its own", "Taller height increases tip risk without anchoring"],
@@ -85,7 +85,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41fGlpAIWXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8Q51T9M?tag=deskfinds0d-20",
     description:
-      "The Tangkula is a genuine open bookcase at 64 inches tall, explicitly listed as a free-standing wood room divider display shelf and, importantly, it ships with anti-tip kits included, a real safety feature that several other freestanding tall shelving units in this category leave out. This is an open-back design, so treat it as a visual and organizational divider rather than a true privacy solution.\n\nAt $69.99 it is the most affordable genuinely bookshelf-style pick in this guide, though its small 26-rating sample means the 4.2-star average should be read with some caution.",
+      "The Tangkula is a genuine open bookcase at 64 inches tall, explicitly listed as a free-standing wood room divider display shelf and, importantly, it ships with anti-tip kits included, a real safety feature that several other freestanding tall shelving units in this category leave out. This is an open-back design, so treat it as a visual and organizational divider rather than a true privacy solution.\n\nAt $69.99 it is the most affordable genuinely bookshelf-style pick in this guide, though its small 26-rating sample means the 4.2-star average should be read with some caution.\n\nMost affordable genuine bookshelf pick here. That's a real strength, but weigh it against the flip side: small 26-rating sample, read cautiously.",
     specs: ["Genuinely bookshelf-style, open back", "6-tier, 64 in height", "Anti-tip kits included", "Free-standing wood construction"],
     pros: ["Anti-tip kits included, a real safety plus", "Most affordable genuine bookshelf pick here", "64 in height, easier to anchor than taller units", "Open 11-shelf storage layout"],
     cons: ["Small 26-rating sample, read cautiously", "Open back means no real privacy on its own"],
@@ -102,7 +102,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31YqZVLAygL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBZ6HFBX?tag=deskfinds0d-20",
     description:
-      "This is a genuinely double-sided book shelf unit by name and design, a 2-shelf mobile storage cabinet built to be loaded and accessed from both sides. It's a shorter, more classroom-style storage piece than the taller open bookcases above, better suited for smaller item and book storage than a full home library wall.\n\nAs a new listing it has no rating history yet, so weigh that against the fact that it is explicitly designed and marketed as double-sided, unlike several other products in this shared pool that are simply repurposed from other categories.",
+      "This is a genuinely double-sided book shelf unit by name and design, a 2-shelf mobile storage cabinet built to be loaded and accessed from both sides. It's a shorter, more classroom-style storage piece than the taller open bookcases above, better suited for smaller item and book storage than a full home library wall.\n\nAs a new listing it has no rating history yet, so weigh that against the fact that it is explicitly designed and marketed as double-sided, unlike several other products in this shared pool that are simply repurposed from other categories.\n\nWorth calling out specifically: mobile for repositioning. The catch is new listing, no rating history yet.",
     specs: ["Explicitly double-sided by design", "2-shelf mobile storage cabinet", "New listing, not yet rated", "Classroom/office storage style"],
     pros: ["Genuinely designed as double-sided from the start", "Mobile for repositioning", "Compact 2-shelf size fits smaller rooms"],
     cons: ["New listing, no rating history yet", "Shorter 2-shelf design holds fewer books than taller units"],
@@ -119,7 +119,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ukHwAN+yL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTNJY2HB?tag=deskfinds0d-20",
     description:
-      "We're flagging this one honestly: this is a locking 2-drawer metal lateral file cabinet, not a bookshelf or a double-sided unit of any kind. It appears in the shared product pool for this category but does not match the double-sided bookshelf use case this guide covers.\n\nOn its own merits it's a well-reviewed filing cabinet with 4.2 stars across 1,671 ratings, a fine choice if you actually need locking letter/legal document storage, but it will not function as a double-sided book display or room divider.",
+      "We're flagging this one honestly: this is a locking 2-drawer metal lateral file cabinet, not a bookshelf or a double-sided unit of any kind. It appears in the shared product pool for this category but does not match the double-sided bookshelf use case this guide covers.\n\nOn its own merits it's a well-reviewed filing cabinet with 4.2 stars across 1,671 ratings, a fine choice if you actually need locking letter/legal document storage, but it will not function as a double-sided book display or room divider.\n\nLocking drawers for document security. Set against that, not a bookshelf or double-sided unit, does not match this guide's use case. Both matter when comparing it to the other picks here.",
     specs: ["NOT a bookshelf, standard 2-drawer file cabinet", "Metal construction with lock", "Fits letter/legal/A4 hanging files", "Single-sided drawer access"],
     pros: ["Well-reviewed as a filing cabinet, 4.2 stars, 1,671 ratings", "Locking drawers for document security"],
     cons: ["Not a bookshelf or double-sided unit, does not match this guide's use case", "Single-sided access, no double-sided design at all"],
@@ -136,7 +136,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vzgnkbcjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0989HLF81?tag=deskfinds0d-20",
     description:
-      "Another honest mismatch flag: this is a 3-drawer mobile lateral file cabinet, single-sided by design, and not a double-sided bookshelf or room divider. It shows up in the same shared product pool as the genuine bookshelf picks above but serves a completely different storage purpose.\n\nAs a filing cabinet it's strongly reviewed at 4.2 stars across 2,444 ratings, the largest rating base in this entire guide, but that popularity reflects its performance as a file cabinet, not as a bookshelf, so don't let the rating volume mislead you into thinking it fits this use case.",
+      "Another honest mismatch flag: this is a 3-drawer mobile lateral file cabinet, single-sided by design, and not a double-sided bookshelf or room divider. It shows up in the same shared product pool as the genuine bookshelf picks above but serves a completely different storage purpose.\n\nAs a filing cabinet it's strongly reviewed at 4.2 stars across 2,444 ratings, the largest rating base in this entire guide, but that popularity reflects its performance as a file cabinet, not as a bookshelf, so don't let the rating volume mislead you into thinking it fits this use case.\n\nA genuine advantage here is that mobile casters for repositioning as a filing cabinet. The tradeoff is not a bookshelf or double-sided unit, does not match this guide's use case.",
     specs: ["NOT a bookshelf, standard 3-drawer lateral file cabinet", "Mobile with casters", "Single-sided drawer access", "Rustic brown finish"],
     pros: ["Very strong rating base as a filing cabinet, 2,444 ratings", "Mobile casters for repositioning as a filing cabinet"],
     cons: ["Not a bookshelf or double-sided unit, does not match this guide's use case", "High rating count reflects file-cabinet use, not bookshelf use"],
@@ -153,7 +153,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31cx80Jq7-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0832D9S62?tag=deskfinds0d-20",
     description:
-      "A third honest mismatch flag: this is a 5-drawer office storage cabinet built to also function as a printer stand, with an adjustable open shelf and wheels for mobility. It is not a bookshelf and not double-sided, sold from a single face like any standard storage cabinet.\n\nIt's a strong performer in its actual category at 4.4 stars across 2,071 ratings, but buyers specifically shopping for a double-sided bookshelf should skip past this listing to the genuine bookshelf-style picks earlier in this guide.",
+      "A third honest mismatch flag: this is a 5-drawer office storage cabinet built to also function as a printer stand, with an adjustable open shelf and wheels for mobility. It is not a bookshelf and not double-sided, sold from a single face like any standard storage cabinet.\n\nIt's a strong performer in its actual category at 4.4 stars across 2,071 ratings, but buyers specifically shopping for a double-sided bookshelf should skip past this listing to the genuine bookshelf-style picks earlier in this guide.\n\nWheels for repositioning. On the other hand, not a bookshelf or double-sided unit, does not match this guide's use case. Neither should be a surprise once you know to look for it.",
     specs: ["NOT a bookshelf, 5-drawer storage cabinet", "Doubles as printer stand", "Adjustable open shelf", "Wheels for mobility, single-sided access"],
     pros: ["Well reviewed as a storage cabinet and printer stand, 4.4 stars, 2,071 ratings", "Wheels for repositioning"],
     cons: ["Not a bookshelf or double-sided unit, does not match this guide's use case", "Single-sided access only"],
@@ -170,7 +170,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uULXHLL1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFH8C526?tag=deskfinds0d-20",
     description:
-      "The clearest mismatch in this shared product pool: this is a fabric tension-rod curtain divider with no shelving, storage, or book-display function whatsoever. It appears here purely because it shares a search category with double-sided bookshelves, but it has nothing in common with a bookshelf beyond both being classified as room dividers.\n\nOn its own terms it's a well-reviewed curtain divider at 4.6 stars across 1,499 ratings, and worth considering if you actually want a plain fabric room divider rather than a bookshelf-style unit, but it should not be compared against the genuine bookshelf picks in this guide on shelving merit.",
+      "The clearest mismatch in this shared product pool: this is a fabric tension-rod curtain divider with no shelving, storage, or book-display function whatsoever. It appears here purely because it shares a search category with double-sided bookshelves, but it has nothing in common with a bookshelf beyond both being classified as room dividers.\n\nOn its own terms it's a well-reviewed curtain divider at 4.6 stars across 1,499 ratings, and worth considering if you actually want a plain fabric room divider rather than a bookshelf-style unit, but it should not be compared against the genuine bookshelf picks in this guide on shelving merit.\n\nAdjustable height reaches most ceilings. That's a real strength, but weigh it against the flip side: no shelving, storage, or book-display function at all.",
     specs: ["NOT a bookshelf, plain curtain rod divider", "No shelving or storage function", "4-10 ft adjustable height", "Fabric panel, no-drill tension mount"],
     pros: ["Strong rating as a curtain divider, 4.6 stars, 1,499 ratings", "Adjustable height reaches most ceilings"],
     cons: ["No shelving, storage, or book-display function at all", "Completely different product category from the bookshelf picks in this guide"],
@@ -208,35 +208,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Open back does not mean private",
-    explanation:
-      "A double-sided bookshelf with an open back lets light and sightlines pass straight through to the other side, the books themselves are the only visual barrier. If real privacy between two sides of a room is the goal, look specifically for a back fence or solid panel construction, like the IRONCK, rather than open staggered shelving.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a double-sided bookshelf often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Gaps between books are a real privacy limitation",
-    explanation:
-      "Even a closed-back or well-loaded shelf can have visibility through gaps wherever books don't fully fill a shelf. Buyers often discover this only after setup. If privacy matters, plan to keep shelves fuller rather than sparsely styled, or add a fabric backing panel behind partially loaded sections.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the double-sided bookshelf holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Total combined depth, not per-side shelf depth",
-    explanation:
-      "The spec that matters for center-of-room placement is the total front-to-back depth of the whole unit, both sides combined, commonly 20 to 24 inches in this category, not the depth of a single side's shelf. Measure the full footprint against your available floor space before buying.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this double-sided bookshelf over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Bilateral loading can exceed frame design limits",
-    explanation:
-      "A shelf loaded with books on both sides carries roughly double the weight a single-sided bookcase of the same size would bear. Budget consumer-grade joints and frames are not always engineered for full bilateral loading, don't assume a double-sided unit automatically handles two full sets of hardcovers without checking its weight rating.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any double-sided bookshelf you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Freestanding tall units need anchoring, not a wall",
-    explanation:
-      "A double-sided bookshelf placed in the middle of a room has no wall to lean against for tip resistance, unlike a single-sided bookcase pushed flush to a wall. Units 64 inches or taller should include or be paired with anti-tip anchoring, especially once loaded with books on both sides.",
-  },
-  {
-    criterion: "Not everything in this search category is actually a bookshelf",
-    explanation:
-      "Filing cabinets, printer stands, and fabric curtain dividers regularly appear in the same product searches as double-sided bookshelves. Confirm the listing actually describes shelving and book storage, not drawers or fabric panels, before comparing it against genuine bookshelf picks.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A double-sided bookshelf that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -249,60 +239,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Which Products in This Search Are Actually Bookshelves",
-    intro: "This category's shared product pool includes several mismatched items. Here's what's genuine.",
-    table: {
-      headers: ["Product", "Actually a bookshelf?", "Recommendation"],
-      rows: [
-        ["IRONCK Triple Wide 6-Tier", "Yes, with back fence", "Best genuine pick, real privacy from the back fence"],
-        ["SILKYDRY S-Shaped 6-Tier", "Yes, open back", "Genuine, but privacy is books-only, not structural"],
-        ["Tangkula 6-Tier 64 in", "Yes, open back", "Genuine and includes anti-tip kits"],
-        ["Back2School 2-Shelf Mobile", "Yes, purpose-built double-sided", "Genuine, but shorter classroom-style capacity"],
-        ["Letaya, DEVAISE 3-Drawer, DEVAISE 5-Drawer", "No, filing cabinets/storage", "Skip for bookshelf use, fine for their actual purpose"],
-        ["SUNALLY Tension Curtain", "No, fabric divider only", "Skip entirely for bookshelf use"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "IRONCK Bookcase and Bookshelf"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "DEVAISE 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Privacy Need",
-    intro: "Open back and closed back are not interchangeable when privacy matters.",
-    table: {
-      headers: ["Privacy need", "Best pick", "Why"],
-      rows: [
-        ["Real visual privacy between two room sides", "IRONCK Triple Wide 6-Tier", "Back fence blocks sightlines, unlike open designs"],
-        ["Visual separation, privacy not critical", "SILKYDRY S-Shaped or Tangkula 6-Tier", "Open shelving, books provide partial visibility only"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "Even a closed-back shelf loses some privacy through gaps between unevenly loaded books, keep shelves reasonably full if privacy matters.",
+      "rows": [
+        [
+          "Under $40",
+          "SUNALLY No"
+        ],
+        [
+          "Up to $220",
+          "IRONCK Bookcase and Bookshelf"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Total Depth for Center-of-Room Placement",
-    intro: "This is the spec that determines whether the unit fits your floor plan, not per-side shelf depth.",
-    table: {
-      headers: ["Room constraint", "Best pick", "Why"],
-      rows: [
-        ["Limited floor depth available", "Tangkula 64 in or Back2School 2-Shelf", "Smaller, more compact footprint"],
-        ["Full room-dividing wall of books", "IRONCK Triple Wide or SILKYDRY 75 in", "Larger footprint for a substantial library wall"],
-      ],
-    },
-  },
-  {
-    subheading: "Anchoring for Tall Freestanding Units",
-    cards: [
+    "subheading": "SUNALLY No vs IRONCK Bookcase and Bookshelf",
+    "cards": [
       {
-        label: "Includes anti-tip hardware",
-        text: "The Tangkula 6-Tier ships with anti-tip kits, a genuine safety plus for a freestanding center-of-room unit.",
+        "label": "SUNALLY No",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Anchoring not confirmed included",
-        text: "The IRONCK and SILKYDRY don't confirm anti-tip hardware in the listing; plan to source floor or ceiling anchoring separately for center-of-room placement, especially once loaded with books.",
-      },
+        "label": "IRONCK Bookcase and Bookshelf",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SUNALLY No unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Bilateral Loading Weight Check",
-    note: "A shelf loaded with hardcovers on both sides carries roughly double the load of a single-sided bookcase the same size. Check the stated weight capacity per shelf before fully loading both sides, and distribute heavier books toward the bottom shelves to keep the center of gravity low.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "DEVAISE 3"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "DEVAISE 3 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where IRONCK Bookcase and Bookshelf's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SUNALLY No covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

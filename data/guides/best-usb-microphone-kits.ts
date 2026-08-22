@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41B+stBkkiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09Q2ZZGH2?tag=deskfinds0d-20",
     description:
-      "The A6T is a genuine box-included kit, condenser mic, boom arm, and pop filter, which covers the most common gap in beginner setups where a pop filter is bought as an afterthought. A mute button on the mic body rounds out a setup aimed squarely at first-time streamers and callers.\n\nAt this price point the boom arm's spring is lighter duty than a standalone arm bought separately, so expect some gradual drooping over a long session rather than the rock-solid hold of a premium arm. For casual streaming or calls, that tradeoff is reasonable.",
+      "The A6T is a genuine box-included kit, condenser mic, boom arm, and pop filter, which covers the most common gap in beginner setups where a pop filter is bought as an afterthought. A mute button on the mic body rounds out a setup aimed squarely at first-time streamers and callers.\n\nAt this price point the boom arm's spring is lighter duty than a standalone arm bought separately, so expect some gradual drooping over a long session rather than the rock-solid hold of a premium arm. For casual streaming or calls, that tradeoff is reasonable.\n\nBudget-friendly starter kit price. Set against that, boom arm spring tension is lighter duty, may droop over long sessions. Both matter when comparing it to the other picks here.",
     specs: [
       "Condenser capsule",
       "Boom arm included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rKkw3TT2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C74GYW3J?tag=deskfinds0d-20",
     description:
-      "The AM8T bundles a dynamic capsule with a boom arm, mute button, and headphone jack for direct monitoring, making it the most complete dynamic-mic kit in this list. Dynamic capsules need closer mic positioning than a condenser, typically 6 to 8 inches from your mouth at roughly a 45-degree off-axis angle, which the included boom arm's reach comfortably accommodates on most standard desks.\n\nUSB or XLR output gives it a real upgrade path if you eventually add an audio interface or mixer, letting you keep the same mic rather than replacing it.",
+      "The AM8T bundles a dynamic capsule with a boom arm, mute button, and headphone jack for direct monitoring, making it the most complete dynamic-mic kit in this list. Dynamic capsules need closer mic positioning than a condenser, typically 6 to 8 inches from your mouth at roughly a 45-degree off-axis angle, which the included boom arm's reach comfortably accommodates on most standard desks.\n\nUSB or XLR output gives it a real upgrade path if you eventually add an audio interface or mixer, letting you keep the same mic rather than replacing it.\n\nA genuine advantage here is that headphone jack for real-time monitoring. The tradeoff is no pop filter included.",
     specs: [
       "USB/XLR dynamic capsule",
       "Boom arm included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WQG5fyf7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D458QDVN?tag=deskfinds0d-20",
     description:
-      "The K688 is built specifically around podcast and voice-over recording, with a dynamic capsule, boom arm, mute button, and headphone jack all included in the box. For an L-shaped desk or one with a shelf behind it, check the boom arm's stated reach against your desk depth before buying, kit arms typically extend 30-40cm, which may not leave enough clearance behind a shelf to fully articulate.\n\nUSB or XLR connectivity again gives this kit an upgrade path to a dedicated mixer down the line without replacing the mic itself.",
+      "The K688 is built specifically around podcast and voice-over recording, with a dynamic capsule, boom arm, mute button, and headphone jack all included in the box. For an L-shaped desk or one with a shelf behind it, check the boom arm's stated reach against your desk depth before buying, kit arms typically extend 30-40cm, which may not leave enough clearance behind a shelf to fully articulate.\n\nUSB or XLR connectivity again gives this kit an upgrade path to a dedicated mixer down the line without replacing the mic itself.\n\nDynamic capsule well suited to voice recording. On the other hand, no pop filter included, worth adding separately for recording. Neither should be a surprise once you know to look for it.",
     specs: [
       "USB/XLR dynamic capsule",
       "Boom arm included",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41FYNR1PLxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCV74CL7?tag=deskfinds0d-20",
     description:
-      "At $29.99, the TC310+ is the lowest-priced complete kit in this list that still genuinely includes a boom arm, condenser mic, gain control, and a tap-mute surface. For a beginner just testing whether streaming or calls are a regular habit, this is a reasonable low-cost way to get a full setup in one box.\n\nAs with any budget kit, treat the bundled boom arm as a starter piece rather than a long-term one. If you outgrow it, the arm's thread mount is a standard size, so upgrading to a premium standalone arm later while keeping this mic is straightforward.",
+      "At $29.99, the TC310+ is the lowest-priced complete kit in this list that still genuinely includes a boom arm, condenser mic, gain control, and a tap-mute surface. For a beginner just testing whether streaming or calls are a regular habit, this is a reasonable low-cost way to get a full setup in one box.\n\nAs with any budget kit, treat the bundled boom arm as a starter piece rather than a long-term one. If you outgrow it, the arm's thread mount is a standard size, so upgrading to a premium standalone arm later while keeping this mic is straightforward.\n\nGain control included. That's a real strength, but weigh it against the flip side: touch mute has a higher accidental-trigger risk than a click button.",
     specs: [
       "Condenser capsule",
       "Boom arm included",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41CAkB3jY5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01L3LL95O?tag=deskfinds0d-20",
     description:
-      "To be upfront, this is a standalone boom arm, not a mic-and-arm kit, and it belongs in this list as the accessory pick for anyone whose current mic came with only a desktop stand. It's compatible with a wide range of mics including Blue Yeti, HyperX QuadCast, SoloCast, Snowball, FIFINE, and Shure SM7B, covering both common thread sizes.\n\nIf you already own a mic without a bundled arm, this is the straightforward way to add one without replacing the mic entirely, and its better spring tension calibration compared to what ships in budget bundled kits holds position more reliably over a long session.",
+      "To be upfront, this is a standalone boom arm, not a mic-and-arm kit, and it belongs in this list as the accessory pick for anyone whose current mic came with only a desktop stand. It's compatible with a wide range of mics including Blue Yeti, HyperX QuadCast, SoloCast, Snowball, FIFINE, and Shure SM7B, covering both common thread sizes.\n\nIf you already own a mic without a bundled arm, this is the straightforward way to add one without replacing the mic entirely, and its better spring tension calibration compared to what ships in budget bundled kits holds position more reliably over a long session.\n\nWorth calling out specifically: better spring tension than arms bundled in budget kits. The catch is does not include a microphone, this is arm-only.",
     specs: [
       "Standalone boom arm (no microphone included)",
       "Compatible with Blue Yeti, QuadCast, SoloCast, Snowball, FIFINE, Shure SM7B",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31vZkgLpKmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMFQP2ZZ?tag=deskfinds0d-20",
     description:
-      "The AM8 ships with a desktop stand rather than a boom arm, so despite sharing the same dynamic capsule and mute button as its AM8T sibling, it's not a boom-arm kit on its own. It earns a spot here as the pick for buyers who prefer a fixed desktop stand or plan to pair it with the InnoGear arm above.\n\nA headphone jack for monitoring and RGB lighting carry over from the AM8T, and the dynamic capsule keeps the same room-noise rejection advantage.",
+      "The AM8 ships with a desktop stand rather than a boom arm, so despite sharing the same dynamic capsule and mute button as its AM8T sibling, it's not a boom-arm kit on its own. It earns a spot here as the pick for buyers who prefer a fixed desktop stand or plan to pair it with the InnoGear arm above.\n\nA headphone jack for monitoring and RGB lighting carry over from the AM8T, and the dynamic capsule keeps the same room-noise rejection advantage.\n\nHeadphone jack for direct monitoring. Set against that, no boom arm included despite similar naming to kit variants. Both matter when comparing it to the other picks here.",
     specs: [
       "USB/XLR dynamic capsule",
       "Desktop stand included (not a boom arm)",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418a-WT28NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0932BCM2T?tag=deskfinds0d-20",
     description:
-      "Like the AM8, the ZealSound is a mic-only pick, its listing doesn't include a boom arm, so it's not a true kit despite sitting in similar search results as one. What it does offer is built-in noise cancellation and broad device compatibility across PC, Mac, iPhone, iPad, and Android.\n\nIf you want this mic on a boom arm, the InnoGear accessory above covers standard thread sizes and is a straightforward add-on rather than starting over with a different mic entirely.",
+      "Like the AM8, the ZealSound is a mic-only pick, its listing doesn't include a boom arm, so it's not a true kit despite sitting in similar search results as one. What it does offer is built-in noise cancellation and broad device compatibility across PC, Mac, iPhone, iPad, and Android.\n\nIf you want this mic on a boom arm, the InnoGear accessory above covers standard thread sizes and is a straightforward add-on rather than starting over with a different mic entirely.\n\nA genuine advantage here is that noise cancellation reduces room pickup. The tradeoff is no boom arm included, despite appearing in kit-adjacent searches.",
     specs: [
       "Built-in noise cancellation",
       "Desktop stand (no boom arm)",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GaUMJg2pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06XCKGLTP?tag=deskfinds0d-20",
     description:
-      "The K669B rounds out this list as the cheapest mic-only option, no boom arm and no mute button per its listing, included at this price point. It's a fine standalone condenser for basic recording, but it needs the InnoGear arm above or a similar accessory if you want boom-arm positioning.\n\nWe're including it specifically to illustrate the price gap between a true all-in-one kit and a bare mic, since buyers searching for a kit will otherwise see this listed alongside genuine kits without realizing the arm is missing.",
+      "The K669B rounds out this list as the cheapest mic-only option, no boom arm and no mute button per its listing, included at this price point. It's a fine standalone condenser for basic recording, but it needs the InnoGear arm above or a similar accessory if you want boom-arm positioning.\n\nWe're including it specifically to illustrate the price gap between a true all-in-one kit and a bare mic, since buyers searching for a kit will otherwise see this listed alongside genuine kits without realizing the arm is missing.\n\nSolid metal build for the price. On the other hand, not a kit, no boom arm or mute button included. Neither should be a surprise once you know to look for it.",
     specs: [
       "Metal cardioid condenser capsule",
       "No boom arm included",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Confirm the boom arm is actually in the box",
-    explanation:
-      "Several listings that show up in \"microphone kit\" searches ship with only a desktop stand, not a boom arm, despite similar product names to kit variants. Read the specific listing's included-items list rather than assuming every result in a kit search includes an arm.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a usb microphone kit often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Check boom arm reach against your desk depth",
-    explanation:
-      "Bundled boom arms typically extend 30-40cm. If your mic needs to sit 15-20cm from your mouth and you have an L-shaped desk or a shelf behind your monitor, measure first, the arm may not have room to fully articulate into position.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the usb microphone kit holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Expect a bundled arm's spring tension to be lighter duty",
-    explanation:
-      "Budget kit boom arms often have less-calibrated spring tension than a standalone arm, and can gradually droop during a long session, pulling the mic out of ideal position. This isn't a defect so much as a cost tradeoff, factor it in if you plan on long recording sessions.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this usb microphone kit over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Position the mic 6-8 inches away at a 45-degree angle",
-    explanation:
-      "For dynamic mics especially, start with the capsule 6 to 8 inches from your mouth, angled roughly 45 degrees off-axis rather than pointed straight on. This reduces plosives and sibilance without needing a separate pop filter in many cases.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any usb microphone kit you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Check the desk clamp's thickness compatibility",
-    explanation:
-      "Standard boom arm clamps fit desks up to roughly 5cm thick. Solid wood or thicker composite desks may exceed this, so check the clamp's rated range against your desk before ordering, especially if your desk is a heavier build.",
-  },
-  {
-    criterion: "Plan your upgrade path around thread size, not just the mic",
-    explanation:
-      "Most mic and arm threads use either 5/8\" or 3/8\" mounts. If you might want to swap just the mic later while keeping the arm, or vice versa, confirm the thread size matches standard adapters rather than assuming compatibility.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A usb microphone kit that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,75 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "What's in the Box, By Product",
-    intro:
-      "Not every listing that shows up in a kit search actually includes a boom arm. Here's what each pick in this list genuinely ships with.",
-    table: {
-      headers: ["Product", "Mic", "Boom arm", "Pop filter", "Mute"],
-      rows: [
-        ["FIFINE A6T", "Yes", "Yes", "Yes", "Yes"],
-        ["FIFINE AM8T", "Yes", "Yes", "No", "Yes"],
-        ["FIFINE K688", "Yes", "Yes", "No", "Yes"],
-        ["TONOR TC310+", "Yes", "Yes", "No", "Yes (touch)"],
-        ["InnoGear Boom Arm", "No (arm only)", "Yes", "No", "No"],
-        ["FIFINE AM8", "Yes", "No (stand)", "No", "Yes"],
-        ["ZealSound", "Yes", "No (stand)", "No", "Yes"],
-        ["FIFINE K669B", "Yes", "No", "No", "No"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If a true all-in-one kit matters to you, the A6T, AM8T, K688, and TC310+ are the genuine boom-arm kits in this list.",
+      "rows": [
+        [
+          "Highest average rating",
+          "FIFINE AmpliGame A6T USB Microphone Kit with Boom Arm and Pop Filter"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "FIFINE AmpliGame A6T USB Microphone Kit with Boom Arm and Pop Filter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Desk Setup and Boom Arm Reach",
-    table: {
-      headers: ["Desk type", "Consideration", "Best pick"],
-      rows: [
-        ["Standard rectangular desk", "Bundled arm reach is usually sufficient", "FIFINE A6T or TC310+"],
-        ["L-shaped desk or shelf behind monitor", "Measure clearance before buying a kit arm", "InnoGear standalone arm for more reach flexibility"],
-        ["Thick solid wood or composite desk", "Check clamp compatibility, typically up to ~5cm", "InnoGear Boom Arm (verify against your desk first)"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $19",
+          "InnoGear Boom Arm Microphone Stand"
+        ],
+        [
+          "Up to $68",
+          "FIFINE AmpliGame AM8T XLR/USB Microphone Set with Boom Arm"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget and What You Already Own",
-    cards: [
+    "subheading": "InnoGear Boom Arm Microphone Stand vs FIFINE AmpliGame AM8T XLR/USB Microphone Set with Boom Arm",
+    "cards": [
       {
-        label: "Starting from zero, want everything in one box",
-        text: "The FIFINE A6T at $49.99 includes mic, boom arm, and pop filter, the most complete beginner kit here.",
+        "label": "InnoGear Boom Arm Microphone Stand",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Already own a mic on a desktop stand",
-        text: "Add the InnoGear Boom Arm at $18.99 instead of buying a whole new kit.",
-      },
-      {
-        label: "Want an eventual XLR/mixer upgrade path",
-        text: "The FIFINE AM8T or K688 both support USB and XLR, so the mic itself doesn't need replacing later.",
-      },
-      {
-        label: "Tightest possible budget, building piece by piece",
-        text: "Pair the FIFINE K669B mic with the InnoGear arm for a sub-$50 combined setup, just confirm thread size compatibility.",
-      },
+        "label": "FIFINE AmpliGame AM8T XLR/USB Microphone Set with Boom Arm",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to InnoGear Boom Arm Microphone Stand unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Beginner Mic Placement Guide",
-    intro:
-      "Correct placement matters more than most kit marketing suggests, and it's rarely explained clearly for first-time buyers.",
-    cards: [
-      {
-        label: "Distance",
-        text: "Start with the mic capsule 6-8 inches from your mouth. Closer picks up more bass warmth but also more breath noise.",
-      },
-      {
-        label: "Angle",
-        text: "Angle the mic about 45 degrees off-axis rather than pointing it straight at your mouth, this reduces plosives (hard \"p\" and \"b\" sounds) without needing a pop filter in many cases.",
-      },
-      {
-        label: "Height",
-        text: "Position the capsule roughly at chin to mouth height on the boom arm rather than aimed down from above, which can make audio sound distant or hollow.",
-      },
-    ],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "FIFINE AmpliGame A6T USB Microphone Kit with Boom Arm and Pop Filter"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "FIFINE AmpliGame A6T USB Microphone Kit with Boom Arm and Pop Filter is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where FIFINE AmpliGame AM8T XLR/USB Microphone Set with Boom Arm's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where InnoGear Boom Arm Microphone Stand covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GLN4Wv-1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPC7XF5D?tag=deskfinds0d-20",
     description:
-      "The SIAGO gives a heavy setup the most desktop surface in this list at 60 by 28 inches, with a 1 inch thick top that resists sag better than the thinner boards common on budget desks. That extra depth also helps keep a monitor arm base and its clamp closer to the center of the frame instead of hanging off the front edge, which reduces the leverage a heavy arm puts on the desktop.\n\nA thicker top is not the same thing as a wobble-free frame, so pair this desk with center cable and support bracing if you plan to run dual monitors on arms at full standing height. It is the highest priced desk here, a reasonable tradeoff for buyers who specifically need the larger surface.",
+      "The SIAGO gives a heavy setup the most desktop surface in this list at 60 by 28 inches, with a 1 inch thick top that resists sag better than the thinner boards common on budget desks. That extra depth also helps keep a monitor arm base and its clamp closer to the center of the frame instead of hanging off the front edge, which reduces the leverage a heavy arm puts on the desktop.\n\nA thicker top is not the same thing as a wobble-free frame, so pair this desk with center cable and support bracing if you plan to run dual monitors on arms at full standing height. It is the highest priced desk here, a reasonable tradeoff for buyers who specifically need the larger surface.\n\nA genuine advantage here is that thicker top resists sag under monitor arm load. The tradeoff is highest price in this list.",
     specs: [
       "60 x 28 inch desktop",
       "1 inch thick tabletop",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
-      "The Veken offers a 55 inch desktop at a price well under the SIAGO, making it a practical choice for a heavy gaming or dual-monitor rig without paying for the largest surface available. Its higher review count than most desks here also gives buyers a larger pool of real feedback on long-term stability to check before ordering.\n\nAs with any desk in this weight class, keep heavy components like a full tower PC or a large monitor arm base positioned toward the center rather than the corners, since off-center weight is what actually causes wobble at height, not the total load number alone. The white finish is a useful option for lighter room setups.",
+      "The Veken offers a 55 inch desktop at a price well under the SIAGO, making it a practical choice for a heavy gaming or dual-monitor rig without paying for the largest surface available. Its higher review count than most desks here also gives buyers a larger pool of real feedback on long-term stability to check before ordering.\n\nAs with any desk in this weight class, keep heavy components like a full tower PC or a large monitor arm base positioned toward the center rather than the corners, since off-center weight is what actually causes wobble at height, not the total load number alone. The white finish is a useful option for lighter room setups.\n\nHighest review count in this list. On the other hand, not as deep as the SIAGO for very large monitor arm setups. Neither should be a surprise once you know to look for it.",
     specs: [
       "55 inch desktop",
       "Electric height adjustment",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
-      "The ErGear carries the largest volume of buyer feedback in this list by a wide margin, which is useful evidence when researching how a desk actually holds up over months of daily use rather than relying on the spec sheet alone. Its 48 by 24 inch footprint is more compact than the SIAGO or Veken, a tradeoff worth weighing if your setup includes two full-size monitors on arms plus a keyboard tray.\n\nAt this price and footprint, it suits a single heavy monitor or a compact dual-monitor arm setup better than a full dual-PC battle station. Keep any monitor arm clamp centered on the desk's depth rather than pushed to the front edge to reduce tipping leverage at standing height.",
+      "The ErGear carries the largest volume of buyer feedback in this list by a wide margin, which is useful evidence when researching how a desk actually holds up over months of daily use rather than relying on the spec sheet alone. Its 48 by 24 inch footprint is more compact than the SIAGO or Veken, a tradeoff worth weighing if your setup includes two full-size monitors on arms plus a keyboard tray.\n\nAt this price and footprint, it suits a single heavy monitor or a compact dual-monitor arm setup better than a full dual-PC battle station. Keep any monitor arm clamp centered on the desk's depth rather than pushed to the front edge to reduce tipping leverage at standing height.\n\nLowest price alongside the FEZIBO and Claiks. That's a real strength, but weigh it against the flip side: smaller desktop than the SIAGO or Veken.",
     specs: [
       "48 x 24 inch desktop",
       "Electric height adjustment",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41fVLrl+dnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BHPMYGK?tag=deskfinds0d-20",
     description:
-      "The FLEXISPOT EN1 states a 176 lbs weight capacity, one of the highest published numbers in this list, and comes from a brand with a large enough review base to cross-check that number against real long-term buyer experience. A one-piece frame design also tends to hold alignment better over time than desks assembled from separate leg sets, which matters once a heavy load has been sitting on the desktop for months.\n\nRemember that a static capacity rating describes how much weight the desk can hold, not how little it sways at full height with that weight distributed unevenly. Four memory presets make it easy to return to a tested, stable working height instead of re-adjusting by feel each time.",
+      "The FLEXISPOT EN1 states a 176 lbs weight capacity, one of the highest published numbers in this list, and comes from a brand with a large enough review base to cross-check that number against real long-term buyer experience. A one-piece frame design also tends to hold alignment better over time than desks assembled from separate leg sets, which matters once a heavy load has been sitting on the desktop for months.\n\nRemember that a static capacity rating describes how much weight the desk can hold, not how little it sways at full height with that weight distributed unevenly. Four memory presets make it easy to return to a tested, stable working height instead of re-adjusting by feel each time.\n\nWorth calling out specifically: one-piece frame for consistent alignment over time. The catch is 24 inch depth limits room for very large monitor arms.",
     specs: [
       "48 x 24 inch desktop",
       "One-piece frame construction",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
-      "The FEZIBO uses a splice-board desktop, two panels joined at a center seam, which keeps manufacturing cost down but is worth checking for flex right at that seam if you plan to mount a heavy monitor arm near the center of the desk. Its white frame and maple-look top is a lighter aesthetic option among the mostly black desks in this list.\n\nAt under $100 with a large review base, it is a reasonable value pick for a moderately heavy single-monitor or light dual-monitor setup, though buyers running true heavy dual-PC rigs should lean toward the one-piece FLEXISPOT or the deeper SIAGO instead.",
+      "The FEZIBO uses a splice-board desktop, two panels joined at a center seam, which keeps manufacturing cost down but is worth checking for flex right at that seam if you plan to mount a heavy monitor arm near the center of the desk. Its white frame and maple-look top is a lighter aesthetic option among the mostly black desks in this list.\n\nAt under $100 with a large review base, it is a reasonable value pick for a moderately heavy single-monitor or light dual-monitor setup, though buyers running true heavy dual-PC rigs should lean toward the one-piece FLEXISPOT or the deeper SIAGO instead.\n\nLighter white and maple aesthetic option. Set against that, splice-board seam can flex under a centered heavy monitor arm. Both matter when comparing it to the other picks here.",
     specs: [
       "48 x 24 inch desktop",
       "Splice-board top construction",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oErF+y4gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     description:
-      "The Claiks shares the same splice-board construction and 48 by 24 inch dimensions as the FEZIBO at a similar price, differentiated mainly by its rustic brown top finish and slightly lower review count. It is a serviceable choice for buyers who want the darker wood-tone look rather than the FEZIBO's maple finish.\n\nAs with the FEZIBO, the center seam in the desktop is the spot most likely to show flex under a heavy centered monitor arm, so consider positioning arm clamps toward one side rather than dead center if you notice any give at full height.",
+      "The Claiks shares the same splice-board construction and 48 by 24 inch dimensions as the FEZIBO at a similar price, differentiated mainly by its rustic brown top finish and slightly lower review count. It is a serviceable choice for buyers who want the darker wood-tone look rather than the FEZIBO's maple finish.\n\nAs with the FEZIBO, the center seam in the desktop is the spot most likely to show flex under a heavy centered monitor arm, so consider positioning arm clamps toward one side rather than dead center if you notice any give at full height.\n\nA genuine advantage here is that rustic brown top offers a distinct finish option. The tradeoff is splice-board seam is a flex point under centered heavy loads.",
     specs: [
       "48 x 24 inch desktop",
       "Splice-board top construction",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oHg37v77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Y1X96?tag=deskfinds0d-20",
     description:
-      "The Huuger's 27.6 inch depth is close to the SIAGO's 28 inches, giving heavy setups more room to keep a monitor arm base or a second PC tower centered on the frame rather than perched near the front edge. Two built-in hooks add a small amount of side storage for headphones or bags without eating into desktop space.\n\nIts review count is lower than the top picks here, so weigh that smaller feedback pool against its useful depth and mid-range price. Three preset heights are fewer than the four offered on the FLEXISPOT, a minor tradeoff for buyers who only need a couple of fixed positions.",
+      "The Huuger's 27.6 inch depth is close to the SIAGO's 28 inches, giving heavy setups more room to keep a monitor arm base or a second PC tower centered on the frame rather than perched near the front edge. Two built-in hooks add a small amount of side storage for headphones or bags without eating into desktop space.\n\nIts review count is lower than the top picks here, so weigh that smaller feedback pool against its useful depth and mid-range price. Three preset heights are fewer than the four offered on the FLEXISPOT, a minor tradeoff for buyers who only need a couple of fixed positions.\n\nExtra depth helps center heavy monitor arms. On the other hand, smaller review base than most picks in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "55 x 28 inch desktop",
       "27.6 inch desktop depth",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rUtvN6YIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GS9B1X5X?tag=deskfinds0d-20",
     description:
-      "This Huuger model builds power outlets and a USB-C port directly into the desktop edge, useful for a heavy multi-device setup that would otherwise need a separate power strip and its own cable running up through a grommet. That built-in power strip also means one less item competing for surface space on an already crowded heavy setup.\n\nAt 47 by 24 inches it is the second-smallest desktop in this list, so it suits a single heavy monitor or a compact dual-PC arrangement better than a full dual-monitor-arm rig. Its review count is the smallest here, worth factoring in alongside its strong 4.6 average.",
+      "This Huuger model builds power outlets and a USB-C port directly into the desktop edge, useful for a heavy multi-device setup that would otherwise need a separate power strip and its own cable running up through a grommet. That built-in power strip also means one less item competing for surface space on an already crowded heavy setup.\n\nAt 47 by 24 inches it is the second-smallest desktop in this list, so it suits a single heavy monitor or a compact dual-PC arrangement better than a full dual-monitor-arm rig. Its review count is the smallest here, worth factoring in alongside its strong 4.6 average.\n\nStrong 4.6 average rating. That's a real strength, but weigh it against the flip side: smallest review base in this list.",
     specs: [
       "47 x 24 inch desktop",
       "Built-in power outlets",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Static weight capacity is not the same as stability at full height",
-    explanation:
-      "A desk rated to hold 176 lbs while sitting at its lowest height can still sway noticeably once raised to a 45-inch standing position, especially with weight concentrated on one side. Treat the stated capacity number as a load ceiling, not a stability guarantee, and look for buyer feedback specifically describing behavior at full extension.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Off-center loading is the real wobble risk, not total weight",
-    explanation:
-      "A single-motor desk lifting an off-center load, such as a monitor arm mounted to one side or a full tower PC on one leg, tends to rise unevenly and develop more wobble than a centered load of the same total weight. Dual-motor desks generally handle uneven loads more evenly, and centering heavy components on the desktop reduces this risk regardless of motor count.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Desktop material affects vibration and sag under sustained load",
-    explanation:
-      "A thin particle-board top will flex and sag more over time under a sustained heavy load than a thicker MDF or solid-wood top. If your setup includes a heavy monitor arm or dual-PC load that sits in place for months, a thicker top like the SIAGO's 1-inch tabletop resists sag better than a standard splice-board panel.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "A heavy monitor arm concentrates weight at a single clamp point",
-    explanation:
-      "A dual-monitor arm can weigh 50 to 70 lbs once both displays are mounted, and that weight is concentrated at the clamp rather than spread across the desktop. A thin cross-bar frame without center support can flex noticeably at that single point, so favor a desk with a deeper top and a centered mounting position for heavy arms.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Cable management needs to handle the full height travel range",
-    explanation:
-      "A standing desk can travel 20 to 26 inches from lowest to highest setting, and a rigid cable grommet can pull tight and stress connectors across that range. A flexible cable tray or sleeve that moves with the desk avoids this, which matters more on a heavy setup with multiple monitor, PC, and peripheral cables running to the desktop.",
-  },
-  {
-    criterion: "Frame construction affects long-term alignment under heavy load",
-    explanation:
-      "A one-piece frame, like the FLEXISPOT EN1, tends to hold its alignment better over months of heavy use than a desk assembled from separate leg sections that can loosen at the joints. If your setup will sit at a fixed heavy load for extended periods, frame construction is worth checking alongside the weight rating.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,71 +364,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Setup Type",
-    intro: "What you're actually putting on the desk matters more than the raw weight number.",
-    table: {
-      headers: ["Setup type", "What matters most", "Best pick"],
-      rows: [
-        ["Dual monitors on arms plus keyboard tray", "Desktop depth to center the arm clamp", "SIAGO 60x28 or Huuger 55x28 Deep"],
-        ["Single heavy monitor, budget-conscious", "Proven track record, lower price", "ErGear 48x24"],
-        ["Dual-PC or heavy tower setup", "Highest stated capacity, one-piece frame", "FLEXISPOT EN1"],
-        ["Multi-device setup needing power on the desk", "Built-in outlets and USB-C", "Huuger with Power Outlets and USB-C"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "SIAGO Black 60x28 in Electric Standing Desk"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SIAGO Black 60x28 in Electric Standing Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Desktop Depth vs. Monitor Arm Clearance",
-    intro: "A deeper desktop gives a heavy monitor arm clamp more room to sit centered instead of near the front edge, which reduces leverage-driven wobble.",
-    table: {
-      headers: ["Desktop depth", "Monitor arm fit", "Best pick"],
-      rows: [
-        ["28 inches", "Best clearance for large dual-monitor arms", "SIAGO 60x28"],
-        ["27.6 inches", "Strong clearance at a lower price than the SIAGO", "Huuger 55x28 Deep"],
-        ["24 inches", "Workable for a single arm, tighter for dual", "ErGear, FLEXISPOT EN1, FEZIBO, Claiks"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If your monitor arm clamp sits within 4 inches of the front edge on a 24 inch deep desk, expect more visible flex than on a 28 inch top.",
+      "rows": [
+        [
+          "Under $95",
+          "ErGear 48 X 24 Inch Height Adjustable Electric Standing Desk"
+        ],
+        [
+          "Up to $170",
+          "SIAGO Black 60x28 in Electric Standing Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "One-Piece Top vs. Splice-Board Top",
-    intro: "This construction difference rarely gets explained clearly, but it affects how the desktop behaves under a centered heavy load.",
-    table: {
-      headers: ["Top construction", "Flex risk under load", "Best pick"],
-      rows: [
-        ["One-piece, no center seam", "Lowest flex risk at the center", "SIAGO 60x28 or FLEXISPOT EN1"],
-        ["Splice-board, center seam", "More flex risk directly at the seam", "FEZIBO or Claiks"],
-      ],
-    },
-  },
-  {
-    subheading: "Motor and Frame Considerations for Off-Center Loads",
-    cards: [
+    "subheading": "ErGear 48 X 24 Inch Height Adjustable Electric Standing Desk vs SIAGO Black 60x28 in Electric Standing Desk",
+    "cards": [
       {
-        label: "Loading a monitor arm to one side",
-        text: "Favor a desk with a dual-motor lift and, where possible, position the arm clamp toward the desktop's center to reduce uneven lift strain.",
+        "label": "ErGear 48 X 24 Inch Height Adjustable Electric Standing Desk",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Running a fixed heavy load for months",
-        text: "A one-piece frame like the FLEXISPOT EN1 holds alignment better over time than desks with separate leg-to-frame joints.",
-      },
-      {
-        label: "Multiple cables through the full height range",
-        text: "Use a flexible cable sleeve or tray rather than a rigid grommet, since the desk travels 20 to 26 inches between lowest and highest settings.",
-      },
+        "label": "SIAGO Black 60x28 in Electric Standing Desk",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to ErGear 48 X 24 Inch Height Adjustable Electric Standing Desk unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["Under $100", "Splice-board top or smaller desktop", "ErGear 48x24 or FEZIBO Splice Board"],
-        ["$100-$110", "Larger desktop or built-in power", "Veken 55 Inch or FLEXISPOT EN1"],
-        ["$139.99", "Extra depth for monitor arm clearance", "Huuger 55x28 Deep"],
-        ["$169.99", "Maximum desktop surface and thickness", "SIAGO 60x28"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SIAGO Black 60x28 in Electric Standing Desk"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SIAGO Black 60x28 in Electric Standing Desk is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where SIAGO Black 60x28 in Electric Standing Desk's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where ErGear 48 X 24 Inch Height Adjustable Electric Standing Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

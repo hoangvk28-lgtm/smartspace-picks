@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/41a-xcPsuBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQMLXYV6?tag=deskfinds0d-20",
-    description: "The lowest price per unit for a 12-pack of adjustable cup holders in this comparison, built specifically for classroom desk edges rather than repurposed from a general-use holder.\n\nAdjustable sizing accommodates different bottle and cup diameters, useful across a classroom of students with different drink containers.",
+    description: "The lowest price per unit for a 12-pack of adjustable cup holders in this comparison, built specifically for classroom desk edges rather than repurposed from a general-use holder.\n\nAdjustable sizing accommodates different bottle and cup diameters, useful across a classroom of students with different drink containers.\n\nWorth calling out specifically: adjustable to fit different bottle and cup sizes. The catch is no review history available yet on this specific listing.",
     specs: ["12-pack, adjustable sizing, desk clip"],
     pros: ["Lowest price per unit in this comparison", "Adjustable to fit different bottle and cup sizes"],
     cons: ["No review history available yet on this specific listing"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/51k0-N+hxxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F82XP4MR?tag=deskfinds0d-20",
-    description: "Includes 50 zip ties alongside the 12 cup holders, useful for mounting to chair frames rather than just desk edges, and marketed with an anti-spill design.\n\nA slightly higher price than the Ferrochef pack, but the included zip ties add real value if you're mounting to chairs rather than desks specifically.",
+    description: "Includes 50 zip ties alongside the 12 cup holders, useful for mounting to chair frames rather than just desk edges, and marketed with an anti-spill design.\n\nA slightly higher price than the Ferrochef pack, but the included zip ties add real value if you're mounting to chairs rather than desks specifically.\n\nAnti-spill design feature. Set against that, slightly higher price than the Ferrochef 12-pack. Both matter when comparing it to the other picks here.",
     specs: ["12-pack, anti-spill design, includes 50 zip ties"],
     pros: ["Zip ties included for chair-frame mounting", "Anti-spill design feature"],
     cons: ["Slightly higher price than the Ferrochef 12-pack"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/51OM1XYgptL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMFKJH4D?tag=deskfinds0d-20",
-    description: "A 24-pack for larger classrooms or multiple classroom sets, with a 360-degree rotating design and compatibility with both desk and chair mounting.\n\nAt roughly double the unit count of the other packs, this is the better per-classroom value if you need to outfit two full rooms or a larger single class.",
+    description: "A 24-pack for larger classrooms or multiple classroom sets, with a 360-degree rotating design and compatibility with both desk and chair mounting.\n\nAt roughly double the unit count of the other packs, this is the better per-classroom value if you need to outfit two full rooms or a larger single class.\n\nA genuine advantage here is that rotating design and dual desk/chair compatibility. The tradeoff is higher total cost than the smaller packs if you only need 12 units.",
     specs: ["24-pack, 360-degree rotation, desk or chair mount"],
     pros: ["Largest pack size for outfitting bigger classrooms", "Rotating design and dual desk/chair compatibility"],
     cons: ["Higher total cost than the smaller packs if you only need 12 units", "No review history available yet"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "0",
     imageUrl: "https://m.media-amazon.com/images/I/412z4nVerUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C77Z8WMM?tag=deskfinds0d-20",
-    description: "Unlike the classroom multi-packs above, this is a single-unit organizer aimed at one desk, adding a rotating cup holder and headphone hanger in one clamp-on accessory.\n\nA better fit for a single dorm room or home-study desk than a classroom set, since it's sold individually rather than in bulk.",
+    description: "Unlike the classroom multi-packs above, this is a single-unit organizer aimed at one desk, adding a rotating cup holder and headphone hanger in one clamp-on accessory.\n\nA better fit for a single dorm room or home-study desk than a classroom set, since it's sold individually rather than in bulk.\n\nBetter suited to a single dorm or home desk than a bulk classroom order. On the other hand, sold as a single unit, not cost-effective for outfitting a full classroom. Neither should be a surprise once you know to look for it.",
     specs: ["Single unit, rotating cup holder, headphone hanger"],
     pros: ["Adds headphone storage alongside the cup holder", "Better suited to a single dorm or home desk than a bulk classroom order"],
     cons: ["Sold as a single unit, not cost-effective for outfitting a full classroom"],
@@ -97,29 +97,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Matters Most",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Lowest per-unit cost for a classroom", "Ferrochef 12 Pcs Classroom Water Bottle Holder"],
-        ["Need to mount to chairs, not desks", "12 Pcs Water Bottle Holder with 50 Pcs Zip Ties"],
-        ["Outfitting a large classroom", "gisgfim 24 Pcs Water Bottle Holder"],
-        ["Single dorm or home desk", "KDD 4-in-1 Desk Organizer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Calculate Per-Unit Cost Before Comparing Total Price",
-    note: "A 24-pack at $41.99 works out to about $1.75 per holder, cheaper per unit than a 12-pack at $15.99 ($1.33 per holder) is actually more expensive by comparison. Always divide total price by pack count before deciding which listing is the better deal for your specific classroom size.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $16",
+          "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk"
+        ],
+        [
+          "Up to $42",
+          "gisgfim 24 Pcs Water Bottle Holder for Classroom"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk vs gisgfim 24 Pcs Water Bottle Holder for Classroom",
+    "cards": [
+      {
+        "label": "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "gisgfim 24 Pcs Water Bottle Holder for Classroom",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where gisgfim 24 Pcs Water Bottle Holder for Classroom's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Ferrochef 12 Pcs Classroom Adjustable Water Bottle Holder for Desk covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Don't expect a built-in cup holder on a student desk", explanation: "We found no classroom or student desk with a factory-integrated cup holder; the genuine solution is a clip-on accessory, sold individually or in bulk packs." },
-  { criterion: "Calculate true per-unit cost across different pack sizes", explanation: "Compare total price divided by holder count, not just the sticker price, since pack sizes range from a single unit to 24 units in this comparison." },
-  { criterion: "Check whether you need desk-edge or chair-frame mounting", explanation: "Some packs include zip ties specifically for chair-frame mounting; verify this matches your classroom's furniture before ordering." },
-  { criterion: "Buy in bulk only if outfitting multiple desks", explanation: "A single-unit organizer like the KDD pick is better value for one desk; a 12 or 24-pack only makes sense if you're equipping a full classroom." },
-  { criterion: "Verify adjustable sizing fits your students' bottle and cup diameters", explanation: "Bottle and cup sizes vary widely among students; an adjustable clip design accommodates more container sizes than a fixed-diameter holder." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a student desk with cup holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the student desk with cup holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this student desk with cup holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any student desk with cup holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A student desk with cup holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

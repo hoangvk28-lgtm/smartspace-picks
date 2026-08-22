@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Nha7Yua3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0784HWPN6?tag=deskfinds0d-20",
     description:
-      "At $199.99, this converter sits comfortably under $1,000, well within the lower-price tier that dominates this entire guide. It has a massive review base of over 10,000 ratings, which is a strong signal of consistent quality at this price point.\n\nA quick sit-to-stand mechanism and dual monitor support make this a genuine upgrade over the cheapest converters without approaching the higher-end price tiers a $1,000 budget could technically afford. Since it is a tabletop unit, it needs an existing desk underneath it.",
+      "At $199.99, this converter sits comfortably under $1,000, well within the lower-price tier that dominates this entire guide. It has a massive review base of over 10,000 ratings, which is a strong signal of consistent quality at this price point.\n\nA quick sit-to-stand mechanism and dual monitor support make this a genuine upgrade over the cheapest converters without approaching the higher-end price tiers a $1,000 budget could technically afford. Since it is a tabletop unit, it needs an existing desk underneath it.\n\nWell under $1,000, in the mid tier of this guide's range. On the other hand, requires an existing desk underneath. Neither should be a surprise once you know to look for it.",
     specs: [
       "36-inch tabletop converter, $199.99",
       "Dual monitor riser workstation",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DEPeG3thL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B075JYG2TB?tag=deskfinds0d-20",
     description:
-      "At $139.99, this converter is priced well under the $200-400 tier where dual motor electric desks typically start, and it has the largest review base of any pick in this guide at over 15,500 ratings. A wide keyboard tray is included, a feature that costs extra on many electric desks in the higher tiers.\n\nThis is a manual mechanism, not a motorized one, which is the actual tradeoff for the low price rather than any compromise in build quality. If motorized height adjustment is a requirement, look at the electric desks further down this list instead.",
+      "At $139.99, this converter is priced well under the $200-400 tier where dual motor electric desks typically start, and it has the largest review base of any pick in this guide at over 15,500 ratings. A wide keyboard tray is included, a feature that costs extra on many electric desks in the higher tiers.\n\nThis is a manual mechanism, not a motorized one, which is the actual tradeoff for the low price rather than any compromise in build quality. If motorized height adjustment is a requirement, look at the electric desks further down this list instead.\n\nMassive review base at over 15,500 ratings. That's a real strength, but weigh it against the flip side: manual mechanism, not motorized.",
     specs: [
       "32-inch tabletop converter, $139.99",
       "Wide keyboard tray included",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
-      "At $75.99, this is the cheapest desk in this guide and the clearest example of the entry-level tier: single motor, 4 presets, complete desk with the top included. It already includes 4 memory presets, which is the minimum this guide recommends, so you are not sacrificing preset count to hit this price.\n\nWhat you do give up at this tier is desktop size and any accessory features like drawers or built-in power. This is a genuine budget pick, not a compromised version of a pricier desk, since the core electric adjustment works the same way regardless of price tier.",
+      "At $75.99, this is the cheapest desk in this guide and the clearest example of the entry-level tier: single motor, 4 presets, complete desk with the top included. It already includes 4 memory presets, which is the minimum this guide recommends, so you are not sacrificing preset count to hit this price.\n\nWhat you do give up at this tier is desktop size and any accessory features like drawers or built-in power. This is a genuine budget pick, not a compromised version of a pricier desk, since the core electric adjustment works the same way regardless of price tier.\n\nWorth calling out specifically: complete desk, top and frame matched. The catch is small 32-inch footprint.",
     specs: [
       "32-inch complete desk, $75.99",
       "4 memory height presets",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
-      "At $109.99, this desk sits in the low-mid tier and buys you a genuinely larger 55-inch surface compared to the entry-level HUANUO pick, a real feature jump rather than just a different finish. The white gaming-oriented design and electric adjustment come at a modest premium over the cheapest picks.\n\nThis is a reasonable example of what a roughly $30 to $35 price increase actually buys in this niche, meaningfully more desktop surface, rather than a marginal cosmetic change. Motor warranty details are not specified in the listing.",
+      "At $109.99, this desk sits in the low-mid tier and buys you a genuinely larger 55-inch surface compared to the entry-level HUANUO pick, a real feature jump rather than just a different finish. The white gaming-oriented design and electric adjustment come at a modest premium over the cheapest picks.\n\nThis is a reasonable example of what a roughly $30 to $35 price increase actually buys in this niche, meaningfully more desktop surface, rather than a marginal cosmetic change. Motor warranty details are not specified in the listing.\n\nStrong review volume and rating. Set against that, motor warranty not stated on the listing. Both matter when comparing it to the other picks here.",
     specs: [
       "55-inch complete desk, $109.99",
       "White finish",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
-      "At $94.98, this desk stays under $100 while carrying the largest review base in this entire guide, a strong signal of reliability that is not guaranteed just by paying more. It is a solid example of the sub-$100 tier delivering genuine long-term value rather than a corner-cut product.\n\nThe 48x24 footprint is a standard mid-size option, and the price includes a complete desk with a matched top, no separate desktop purchase needed. As with most picks in this tier, motor warranty specifics are not listed, so factor that uncertainty into your decision if longevity matters most to you.",
+      "At $94.98, this desk stays under $100 while carrying the largest review base in this entire guide, a strong signal of reliability that is not guaranteed just by paying more. It is a solid example of the sub-$100 tier delivering genuine long-term value rather than a corner-cut product.\n\nThe 48x24 footprint is a standard mid-size option, and the price includes a complete desk with a matched top, no separate desktop purchase needed. As with most picks in this tier, motor warranty specifics are not listed, so factor that uncertainty into your decision if longevity matters most to you.\n\nA genuine advantage here is that under $100 with a complete matched desk. The tradeoff is motor warranty not stated on the listing.",
     specs: [
       "48 x 24 inch complete desk, $94.98",
       "Black finish",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
-      "At $99.99, right at the edge of the sub-$100 tier, this desk buys a thicker splice-board maple top instead of basic laminate, a genuine material upgrade rather than a marginal price bump. It carries a strong review base similar in scale to the ErGear pick just below it in price.\n\nThat thicker top matters if you plan to add a monitor arm or other grommet-mounted accessories later, since thin desktops are more prone to stripped mounting screws over time. This remains a budget-tier desk overall, just with one meaningful material improvement.",
+      "At $99.99, right at the edge of the sub-$100 tier, this desk buys a thicker splice-board maple top instead of basic laminate, a genuine material upgrade rather than a marginal price bump. It carries a strong review base similar in scale to the ErGear pick just below it in price.\n\nThat thicker top matters if you plan to add a monitor arm or other grommet-mounted accessories later, since thin desktops are more prone to stripped mounting screws over time. This remains a budget-tier desk overall, just with one meaningful material improvement.\n\nHigh review volume with solid rating. On the other hand, motor warranty not stated on the listing. Neither should be a surprise once you know to look for it.",
     specs: [
       "48 x 24 inch complete desk, $99.99",
       "White frame, maple splice-board top",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41daFWT9JPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNH9SQT7?tag=deskfinds0d-20",
     description:
-      "At $219.99, this is the single most expensive pick in this guide, and it is still less than a quarter of a $1,000 budget, which underscores how far a genuinely useful standing setup goes without approaching that ceiling. The dual 13 to 30 inch monitor stand built into the riser is the main reason for the higher price relative to the other converters here.\n\nBecause it is a tabletop converter, it requires an existing desk underneath, and the price premium buys monitor stand flexibility rather than a larger work surface. This is the closest any pick in this guide comes to a genuinely higher price tier, and it is still firmly in budget territory.",
+      "At $219.99, this is the single most expensive pick in this guide, and it is still less than a quarter of a $1,000 budget, which underscores how far a genuinely useful standing setup goes without approaching that ceiling. The dual 13 to 30 inch monitor stand built into the riser is the main reason for the higher price relative to the other converters here.\n\nBecause it is a tabletop converter, it requires an existing desk underneath, and the price premium buys monitor stand flexibility rather than a larger work surface. This is the closest any pick in this guide comes to a genuinely higher price tier, and it is still firmly in budget territory.\n\nHighest-tier pick in this guide, still a fraction of $1,000. That's a real strength, but weigh it against the flip side: highest price in this guide relative to the other picks.",
     specs: [
       "42-inch tabletop converter, $219.99",
       "Dual 13 to 30 inch monitor stand",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oErF+y4gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     description:
-      "At $99.99, this desk matches the FEZIBO pick in price while offering a rustic brown finish instead of a maple top, a style choice rather than a functional upgrade. It rounds out the sub-$100 tier in this guide alongside the HUANUO, ErGear, and FEZIBO picks.\n\nThe rating here is slightly lower than the other sub-$100 picks, worth weighing against the finish if aesthetics are your deciding factor. As with the rest of this tier, motor warranty specifics are not stated on the listing.",
+      "At $99.99, this desk matches the FEZIBO pick in price while offering a rustic brown finish instead of a maple top, a style choice rather than a functional upgrade. It rounds out the sub-$100 tier in this guide alongside the HUANUO, ErGear, and FEZIBO picks.\n\nThe rating here is slightly lower than the other sub-$100 picks, worth weighing against the finish if aesthetics are your deciding factor. As with the rest of this tier, motor warranty specifics are not stated on the listing.\n\nWorth calling out specifically: matches other sub-$100 picks on price. The catch is slightly lower rating than similarly priced picks.",
     specs: [
       "24x48 inch complete desk, $99.99",
       "Black frame, rustic brown top",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "All 8 picks in this guide fall in the sub-$220 tier, not spread to $1,000",
-    explanation:
-      "Despite the $1,000 ceiling in this guide's title, every pick here is verified from the manifest price field at $219.99 or less, and most sit under $150. If you are expecting options that stretch toward a full four-figure budget, this niche simply does not require it for genuinely useful standing desks.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk under 1000 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Feature tiers under $1,000 break down roughly as $75-150 basic, $150-220 mid, and rare $200-1,000+ premium",
-    explanation:
-      "In the broader standing desk market, $200 to 400 typically buys single motor with basic features, $500 to 700 adds dual motor and 4 presets, and $700 to 1,000 adds anti-collision sensors and accessories. None of the 8 picks in this guide reach that middle or premium tier, so treat this as an honest budget-to-low-mid roundup rather than a full tier spread.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk under 1000 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Motor warranty matters more than frame warranty since motors fail first",
-    explanation:
-      "A standing desk's motor is generally the first component to wear out, often well before the frame or desktop show any issues, yet motor-specific warranty length is rarely called out separately from the overall desk warranty. None of the 8 listings in this guide state motor warranty explicitly, so ask the seller directly if this is a deciding factor.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk under 1000 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Achievable noise level under $1,000 tops out around 40-44 dB for dual motor, 48-55 dB for single motor",
-    explanation:
-      "Single motor desks, which make up most of this guide, typically run 48 to 55 dB during height adjustment, noticeably louder than the 40 to 44 dB a dual motor brushless design can achieve. If a quiet lift matters for shared spaces or video calls, factor that into your choice even within this budget tier.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk under 1000 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Minimum desk height varies significantly and matters most for shorter users",
-    explanation:
-      "Minimum sitting height across standing desks in this price range can vary from roughly 22.8 to 29 inches, a meaningful difference for anyone shorter than average who needs the desk to go low enough for proper seated posture. None of the listings in this guide state exact minimum height, so verify directly before ordering if you are on the shorter side.",
-  },
-  {
-    criterion: "Parts availability and resale value differ between established brands and generic imports",
-    explanation:
-      "Desks from brands with a large, sustained review history, like the ErGear and FEZIBO picks in this guide, generally have better long-term parts availability and resale value than lesser-known generic imports. Factor brand track record into your decision beyond just the sticker price, especially if you might need a replacement part years down the line.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk under 1000 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,69 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Feature Tier Map for This Guide's Actual Price Range",
-    intro:
-      "All 8 picks fall between $75.99 and $219.99, well inside the broader $200-1,000 market this niche can reach. Here is what each sub-tier within this guide actually buys.",
-    table: {
-      headers: ["Price tier", "Recommended pick", "What you get"],
-      rows: [
-        ["Under $80", "HUANUO 32-inch ($75.99)", "Entry electric desk, 4 presets, small footprint"],
-        ["$90-100", "ErGear ($94.98), FEZIBO ($99.99), Claiks ($99.99)", "Standard 48x24 footprint, proven review base"],
-        ["$100-150", "Veken 55-inch ($109.99), VIVO K Series ($139.99)", "Wider surface or a confirmed keyboard tray"],
-        ["$150-220", "VIVO V Series ($199.99), VIVO 42-inch Converter ($219.99)", "Dual monitor riser features on a converter"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of these tiers reach the $500-1,000 range where anti-collision sensors and premium accessories typically appear, so this guide is honestly a budget-to-low-mid roundup despite its title.",
+      "rows": [
+        [
+          "Highest average rating",
+          "VIVO 36 Inch Height Adjustable Stand Up Desk Converter"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO 32 Inch Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Motor Warranty: Why It Matters More Than Frame Warranty",
-    intro: "The motor is usually the first part to fail, but none of these 8 listings state motor-specific warranty length.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $76",
+          "HUANUO 32"
+        ],
+        [
+          "Up to $220",
+          "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "HUANUO 32 vs VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
+    "cards": [
       {
-        label: "Before buying",
-        text: "Ask the seller directly what the motor-specific warranty covers, separate from any general frame or structural warranty language in the listing.",
+        "label": "HUANUO 32",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "After buying",
-        text: "Keep your order confirmation and note the purchase date, since motor issues are the most likely reason you would need to file a warranty claim within the first year or two.",
-      },
+        "label": "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to HUANUO 32 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Noise Level: What Video Calls Actually Reveal",
-    table: {
-      headers: ["Motor type", "Typical noise level", "Impact on video calls"],
-      rows: [
-        ["Single motor (most picks in this guide)", "48-55 dB during adjustment", "Noticeable but brief interruption during height changes"],
-        ["Dual motor brushless (not present in this guide's price range)", "40-44 dB during adjustment", "Barely noticeable on a call, but not achieved by any pick here"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of these 8 picks are dual-motor brushless designs, so expect the louder single-motor range during height adjustments regardless of which one you choose.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "VIVO 32 Inch Desk Converter"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Minimum Height for Shorter Users",
-    intro: "None of the 8 listings state exact minimum sitting height, a real gap if you are shorter than average.",
-    table: {
-      headers: ["Concern", "Recommended action", "Why"],
-      rows: [
-        ["You are under 5'4\" and need a low minimum height", "Verify minimum height directly with the seller before ordering", "None of these listings state the exact figure, and it can vary 22.8-29 inches across similar-looking desks"],
-        ["You are average or taller height", "Any pick in this guide is a reasonable starting point", "Minimum height matters far less once you are not near the lower end of the adjustment range"],
-      ],
-    },
-  },
-  {
-    subheading: "Brand Track Record and Parts Availability",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Established brands in this guide",
-        text: "ErGear (11,572 ratings) and FEZIBO (8,463 ratings) have the deepest review history here, generally a better signal for long-term parts availability than lower-volume listings.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Lower-volume picks",
-        text: "The Huuger 47x24 with outlets has only 155 ratings, meaningfully less track record than the higher-volume picks, worth weighing if resale value or replacement parts matter to you.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "VIVO 32 Inch Desk Converter is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HUANUO 32 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

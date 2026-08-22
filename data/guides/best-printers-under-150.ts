@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "The HL-L2405W is the only laser printer at this price tier in our lineup, and it changes the running-cost math meaningfully for anyone printing mostly black-and-white text. Toner costs less per page than inkjet cartridges over time, and toner doesn't dry out the way idle ink cartridges can.\n\nIt skips scan and copy to keep the price under $150, so pair it with a separate scanner if you need one. Mobile printing and wireless setup make it easy to add to a home network without extra cabling.",
+      "The HL-L2405W is the only laser printer at this price tier in our lineup, and it changes the running-cost math meaningfully for anyone printing mostly black-and-white text. Toner costs less per page than inkjet cartridges over time, and toner doesn't dry out the way idle ink cartridges can.\n\nIt skips scan and copy to keep the price under $150, so pair it with a separate scanner if you need one. Mobile printing and wireless setup make it easy to add to a home network without extra cabling.\n\nToner doesn't dry out during slow weeks. Set against that, no scan or copy functions. Both matter when comparing it to the other picks here.",
     specs: [
       "Monochrome laser engine",
       "Print only, no scan or copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GFXE7NdOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00K5UZO0Q?tag=deskfinds0d-20",
     description:
-      "This compact laser undercuts the Brother laser above on price while offering the same core toner economics, up to 19 pages per minute of monochrome output with a lower cost per page than any inkjet in this list. It's print-only, which keeps both the price and the footprint small.\n\nFor anyone deciding between the two laser picks here, this is the better fit if budget matters more than the small speed and build differences the pricier Brother offers.",
+      "This compact laser undercuts the Brother laser above on price while offering the same core toner economics, up to 19 pages per minute of monochrome output with a lower cost per page than any inkjet in this list. It's print-only, which keeps both the price and the footprint small.\n\nFor anyone deciding between the two laser picks here, this is the better fit if budget matters more than the small speed and build differences the pricier Brother offers.\n\nA genuine advantage here is that low true cost per page for text printing. The tradeoff is no scan or copy.",
     specs: [
       "Monochrome laser engine, up to 19 PPM",
       "Print only",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520 brings a 1.42-inch OLED display and clearer controls than most inkjets at this tier, with automatic duplex printing plus scan and copy included. It's a well-rounded home printer that balances usability against ongoing ink cost.\n\nColor output still runs on a combined cartridge design common at this price, so heavy single-color printing draws down the whole cartridge faster than a separate-tank system would. For general home use it remains one of the easiest printers in this list to live with day to day.",
+      "The TS6520 brings a 1.42-inch OLED display and clearer controls than most inkjets at this tier, with automatic duplex printing plus scan and copy included. It's a well-rounded home printer that balances usability against ongoing ink cost.\n\nColor output still runs on a combined cartridge design common at this price, so heavy single-color printing draws down the whole cartridge faster than a separate-tank system would. For general home use it remains one of the easiest printers in this list to live with day to day.\n\nDuplex printing included. On the other hand, combined color cartridge design. Neither should be a surprise once you know to look for it.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic duplex printing",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 keeps an automatic document feeder and built-in fax, features many printers drop well before this price ceiling. That makes it a fit for a home office that still occasionally needs to scan or fax multi-page paperwork.\n\nAt $69, it leaves plenty of budget headroom under the $150 ceiling for anyone deciding whether to spend more elsewhere, like an ink-tank system, once monthly volume is factored in.",
+      "The PIXMA TR4720 keeps an automatic document feeder and built-in fax, features many printers drop well before this price ceiling. That makes it a fit for a home office that still occasionally needs to scan or fax multi-page paperwork.\n\nAt $69, it leaves plenty of budget headroom under the $150 ceiling for anyone deciding whether to spend more elsewhere, like an ink-tank system, once monthly volume is factored in.\n\nFull document workflow support. That's a real strength, but weigh it against the flip side: combined color cartridge design.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy, fax",
       "Automatic document feeder (ADF)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 covers print, scan, and copy at the lowest price in this list, with a 3-month Instant Ink trial to soften early cartridge cost. It's wireless and simple to set up, a solid entry point for light home printing needs.\n\nIf your household prints only occasionally, this frees up the most budget headroom of any pick here to put toward paper, extra ink, or another desk accessory instead.",
+      "The DeskJet 4355 covers print, scan, and copy at the lowest price in this list, with a 3-month Instant Ink trial to soften early cartridge cost. It's wireless and simple to set up, a solid entry point for light home printing needs.\n\nIf your household prints only occasionally, this frees up the most budget headroom of any pick here to put toward paper, extra ink, or another desk accessory instead.\n\nWorth calling out specifically: instant Ink trial offsets early ink cost. The catch is combined color cartridge design.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 is the least expensive pick in this list that still includes automatic duplex printing, a genuinely useful feature for anyone printing multi-page documents regularly. Scan and copy are included in a compact, easy-to-set-up design.\n\nAt $64 it leaves the most budget room under the $150 ceiling of any pick here, which is worth considering if you'd rather put the savings toward extra ink or a printer stand instead.",
+      "The PIXMA TS4320 is the least expensive pick in this list that still includes automatic duplex printing, a genuinely useful feature for anyone printing multi-page documents regularly. Scan and copy are included in a compact, easy-to-set-up design.\n\nAt $64 it leaves the most budget room under the $150 ceiling of any pick here, which is worth considering if you'd rather put the savings toward extra ink or a printer stand instead.\n\nFull print, scan, copy function set. Set against that, combined color cartridge design. Both matter when comparing it to the other picks here.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic duplex (2-sided) printing",
@@ -264,35 +264,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Consider whether ink-tank crosses the break-even point for you",
-    explanation:
-      "An ink-tank printer typically costs more upfront than any pick in this list, but the ink-tank refill economics break even against cartridge costs after roughly a few hundred pages of printing for most households. If you print more than about 100 pages a month, it's worth pricing an ink-tank model even if it pushes past $150.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printers under $150 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Laser wins on cost per page for text at this tier",
-    explanation:
-      "Both laser picks in this list, the Brother HL-L2405W and Canon imageCLASS LBP6030w, cost less per printed page than any inkjet here once toner is factored in. Choose laser if your printing is mostly black-and-white text rather than color images.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printers under $150 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Refurbished or open-box can stretch your $150 further",
-    explanation:
-      "A refurbished or open-box printer at this price tier is sometimes the same model that sells new for $250 or more, a legitimate way to get more features for your budget. Buy only from a seller offering a return window or warranty on the refurbished unit.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printers under $150 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Duplex printing isn't universal even at $150",
-    explanation:
-      "Not every printer at this tier includes automatic duplex printing, check the spec sheet directly rather than assuming it's included once you're spending more than $100. Three of the six picks in this list include it, three don't.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printers under $150 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "A combined color cartridge still raises cost at this tier",
-    explanation:
-      "Most inkjets under $150 still use one cartridge for all three colors instead of separate tanks, so heavy single-color printing depletes the whole cartridge faster. This matters more the higher your color print volume climbs.",
-  },
-  {
-    criterion: "Match feature completeness to what you'll actually use",
-    explanation:
-      "Fax and an automatic document feeder are genuinely useful for some home offices and dead weight for others. Don't pay for features you won't use when a simpler, cheaper pick in this list covers the same core printing need.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printers under $150 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -305,65 +295,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You Print Most",
-    cards: [
-      {
-        label: "Mostly black-and-white text",
-        text: "The Brother HL-L2405W or Canon imageCLASS LBP6030w laser printers have the lowest cost per page in this list.",
-      },
-      {
-        label: "Regular double-sided documents",
-        text: "The Canon PIXMA TS4320 is the cheapest pick here with automatic duplex printing included.",
-      },
-      {
-        label: "Occasional fax or multi-page scanning",
-        text: "The Canon PIXMA TR4720 is the only pick in this list with both an ADF and fax.",
-      },
-      {
-        label: "Light, occasional home printing",
-        text: "The HP DeskJet 4355 covers the basics at the lowest price in this list.",
-      },
-    ],
-  },
-  {
-    subheading: "Ink-Tank Break-Even at This Price Tier",
-    intro: "The core decision at $150 is whether to stay with a cartridge printer or stretch toward an ink-tank system.",
-    table: {
-      headers: ["Monthly print volume", "Better economics", "Recommendation"],
-      rows: [
-        ["Under 50 pages/month", "Cartridge inkjet", "Any inkjet pick in this list, HP DeskJet 4355 saves the most upfront"],
-        ["50-150 pages/month, mostly text", "Laser toner", "Brother HL-L2405W or Canon imageCLASS LBP6030w"],
-        ["150+ pages/month, mixed color", "Ink-tank system", "Worth pricing an ink-tank model above this $150 ceiling"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Ink-tank refill bottles typically cost a fraction of cartridge replacements per page, the upfront price premium usually pays back within months at consistent volume rather than years.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Brother HL"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Brother HL"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Refurbished and Open-Box Guidance",
-    cards: [
-      {
-        label: "Look for a stated return window",
-        text: "A refurbished listing without at least a 30-day return window carries more risk, prioritize sellers who offer one.",
-      },
-      {
-        label: "Check for a manufacturer or seller warranty",
-        text: "Genuine refurbished units often still carry a shortened warranty, confirm this before buying instead of assuming none exists.",
-      },
-    ],
-    note: "A refurbished $150 unit that sold new for $250 can outperform every new pick in this list on features, but only buy from a seller with clear return and warranty terms.",
-  },
-  {
-    subheading: "Feature Checklist Against the $150 Ceiling",
-    table: {
-      headers: ["Feature", "Included in this list?", "Which picks"],
-      rows: [
-        ["Automatic duplex printing", "Yes, partially", "Canon PIXMA TS6520, TS4320"],
-        ["Automatic document feeder", "Yes, one pick", "Canon PIXMA TR4720"],
-        ["Fax", "Yes, one pick", "Canon PIXMA TR4720"],
-        ["Laser toner economics", "Yes, two picks", "Brother HL-L2405W, Canon imageCLASS LBP6030w"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $64",
+          "Canon PIXMA TS4320 Wireless Color Inkjet Printer"
+        ],
+        [
+          "Up to $140",
+          "Brother HL"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "Canon PIXMA TS4320 Wireless Color Inkjet Printer vs Brother HL",
+    "cards": [
+      {
+        "label": "Canon PIXMA TS4320 Wireless Color Inkjet Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Brother HL",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to Canon PIXMA TS4320 Wireless Color Inkjet Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Brother HL"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Brother HL is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother HL's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon PIXMA TS4320 Wireless Color Inkjet Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

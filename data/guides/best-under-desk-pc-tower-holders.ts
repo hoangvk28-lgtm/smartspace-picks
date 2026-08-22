@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GmNtILiJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MEDE9WO?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick in this guide, this holder is purpose-built for standard upright tower dimensions with an adjustable width range that fits most vertical mid-tower cases without needing a separate bracket.\n\nAs with our broader pillar guide's findings, verify your specific tower's loaded weight against the rated capacity, and check that your case orientation faces rear ports in a reachable direction once mounted vertically.",
+      "By far the largest review base of any pick in this guide, this holder is purpose-built for standard upright tower dimensions with an adjustable width range that fits most vertical mid-tower cases without needing a separate bracket.\n\nAs with our broader pillar guide's findings, verify your specific tower's loaded weight against the rated capacity, and check that your case orientation faces rear ports in a reachable direction once mounted vertically.\n\nWorth calling out specifically: adjustable width covers most standard upright mid-towers. The catch is verify loaded tower weight against rated capacity per our pillar guide's findings.",
     specs: ["Vertical tower orientation", "Adjustable width fit", "Budget price", "Massive review base"],
     pros: ["Largest review base of any pick, proven vertical tower fit", "Adjustable width covers most standard upright mid-towers", "Budget-friendly price", "Simple, proven bracket design"],
     cons: ["Verify loaded tower weight against rated capacity per our pillar guide's findings", "Positioned near knee or foot level, worth checking bump exposure", "Rear-IO access still needs planning before installation"],
@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31t8nBX+HEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBB2W47P?tag=deskfinds0d-20",
     description:
-      "A 66-pound rated capacity with adjustable width and secure locking, purpose-built for a heavier vertical tower rather than the horizontal-orientation designs covered in our separate horizontal mount guide.\n\nThe locking mechanism adds real resistance against incidental bumps, a genuine benefit for a vertical holder positioned where a knee or foot commonly makes accidental contact during normal desk use.",
+      "A 66-pound rated capacity with adjustable width and secure locking, purpose-built for a heavier vertical tower rather than the horizontal-orientation designs covered in our separate horizontal mount guide.\n\nThe locking mechanism adds real resistance against incidental bumps, a genuine benefit for a vertical holder positioned where a knee or foot commonly makes accidental contact during normal desk use.\n\nSecure locking adds real bump resistance. Set against that, higher price than the most basic holders. Both matter when comparing it to the other picks here.",
     specs: ["Vertical tower orientation, up to 66 lbs", "Secure locking mechanism", "Adjustable width", "Mid-range price"],
     pros: ["66lb capacity for a heavier upright tower", "Secure locking adds real bump resistance", "Solid review base and rating", "Adjustable width fits varied vertical tower sizes"],
     cons: ["Higher price than the most basic holders", "Locking mechanism adds a small extra installation step", "Verify rear-IO reach for your specific vertical orientation"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411DK8AbQ1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C98RW5D7?tag=deskfinds0d-20",
     description:
-      "A fixed-width 17-inch design purpose-built for small form factor vertical towers, appropriate for buyers wanting a holder specifically sized rather than a general adjustable range that may fit loosely on a smaller case.\n\nFixed-width compatibility is more restrictive than an adjustable design, verify your case's exact height and width fall within this holder's dimensions before ordering, since it won't accommodate a full-tower case.",
+      "A fixed-width 17-inch design purpose-built for small form factor vertical towers, appropriate for buyers wanting a holder specifically sized rather than a general adjustable range that may fit loosely on a smaller case.\n\nFixed-width compatibility is more restrictive than an adjustable design, verify your case's exact height and width fall within this holder's dimensions before ordering, since it won't accommodate a full-tower case.\n\nA genuine advantage here is that solid 4.2-star rating across a meaningful review base. The tradeoff is fixed width is more restrictive than an adjustable design, verify exact case dimensions first.",
     specs: ["Fixed 17-inch design", "Small form factor specific", "Solid review base", "Mid-range price"],
     pros: ["Purpose-built fixed-width fit for small form factor towers", "Solid 4.2-star rating across a meaningful review base", "Snugger, more secure fit than an oversized adjustable holder", "Compact footprint under the desk"],
     cons: ["Fixed width is more restrictive than an adjustable design, verify exact case dimensions first", "Not appropriate for a full-tower or mid-tower case", "Adjustable-width picks in this guide offer more flexibility if you might change cases"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41uzdCGRrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G6YWLKQH?tag=deskfinds0d-20",
     description:
-      "The highest average rating in this guide, this height-adjustable vertical tower holder carries a 66-pound capacity in a compact footprint, appropriate for buyers wanting the strongest available rating on a standard upright tower.\n\nHeight adjustment lets you position the tower to minimize accidental knee or foot contact during normal desk use, a genuine bump-resistance consideration worth using deliberately rather than mounting at a fixed default height.",
+      "The highest average rating in this guide, this height-adjustable vertical tower holder carries a 66-pound capacity in a compact footprint, appropriate for buyers wanting the strongest available rating on a standard upright tower.\n\nHeight adjustment lets you position the tower to minimize accidental knee or foot contact during normal desk use, a genuine bump-resistance consideration worth using deliberately rather than mounting at a fixed default height.\n\nHeight adjustment allows positioning to reduce bump exposure. On the other hand, smaller review base limits confidence versus the top two picks. Neither should be a surprise once you know to look for it.",
     specs: ["Height adjustable, up to 66 lbs", "Highest average rating", "Compact vertical footprint", "Mid-range price"],
     pros: ["Highest average rating in this guide", "Height adjustment allows positioning to reduce bump exposure", "66lb capacity suits most standard vertical towers", "Compact footprint despite the adjustability"],
     cons: ["Smaller review base limits confidence versus the top two picks", "Verify rear-IO access for your specific mounted height", "Not sized for the largest full-tower cases"],
@@ -101,36 +101,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "This Guide Builds on Our Broader Pillar Guide, Here's the Focus",
-    note: "This guide carries forward the weight-capacity, rear-IO access, and thermal findings from our best-under-desk-pc-mounts pillar guide rather than re-deriving them, and focuses specifically on vertical tower-orientation holders. If you're deciding between vertical and horizontal mounting first, start with our pillar guide and our horizontal-mount guide before narrowing down here.",
-  },
-  {
-    subheading: "Verify Tower Height and Width, Not Just 'Fits Most Cases'",
-    note: "'Tower holder' implies a purpose-built fit for standard upright dimensions. Measure your specific case's height and width and compare against each holder's stated compatibility range or adjustable range, rather than trusting a general 'fits most cases' claim.",
-  },
-  {
-    subheading: "Plan Around Incidental Bump Exposure",
-    note: "A mounted vertical tower commonly sits at knee or foot level, and gets accidentally contacted more often than most buyers expect during normal desk use. A holder with secure locking, or height adjustment you can use to reposition the tower away from your usual leg space, meaningfully reduces this risk.",
-  },
-  {
-    subheading: "Match Your Priority to a Specific Pick",
-    table: {
-      headers: ["Your priority", "Recommended pick"],
-      rows: [
-        ["Most-proven adjustable-width vertical holder", "VIVO MOUNT-PC01"],
-        ["Heavier tower with locking bump resistance", "VIVO MOUNT-PC04B (66 lbs)"],
-        ["Snug fixed-width fit for a small form factor tower", "JINGCHENGMEI 17\" SFF Mount"],
-        ["Strongest rating with height flexibility", "Heavy Duty PC Mount, 66 lbs"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Heavy Duty Under Desk PC Mount"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "VIVO Black Under Desk and Wall Office PC Mount"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $35",
+          "VIVO Black Under Desk and Wall Office PC Mount"
+        ],
+        [
+          "Up to $60",
+          "VIVO Heavy Duty Adjustable Under"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "VIVO Black Under Desk and Wall Office PC Mount vs VIVO Heavy Duty Adjustable Under",
+    "cards": [
+      {
+        "label": "VIVO Black Under Desk and Wall Office PC Mount",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "VIVO Heavy Duty Adjustable Under",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
+    ],
+    "note": "Default to VIVO Black Under Desk and Wall Office PC Mount unless your specific need genuinely calls for the pricier pick's extra headroom."
+  },
+  {
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "VIVO Black Under Desk and Wall Office PC Mount"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "VIVO Black Under Desk and Wall Office PC Mount is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where VIVO Heavy Duty Adjustable Under's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where VIVO Black Under Desk and Wall Office PC Mount covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Carry forward weight-capacity and rear-IO findings from the pillar guide", explanation: "This category shares the same core weight-capacity and rear-IO access considerations as our broader under-desk PC mounts guide, review those findings rather than assuming they don't apply here." },
-  { criterion: "Verify exact tower height and width compatibility", explanation: "'Tower holder' implies a purpose-built fit for standard upright dimensions, measure your case and compare against the stated or adjustable range rather than trusting a general fit claim." },
-  { criterion: "Choose adjustable width if you might change cases later", explanation: "Adjustable-width holders offer more flexibility than fixed-width designs, which give a snugger fit but only for cases within their fixed dimensions." },
-  { criterion: "Plan for incidental bump exposure at knee or foot level", explanation: "A mounted vertical tower gets accidentally contacted during normal desk use more often than expected, favor secure locking or a height-adjustable position away from your usual leg space." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a under desk pc tower holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the under desk pc tower holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this under desk pc tower holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any under desk pc tower holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A under desk pc tower holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

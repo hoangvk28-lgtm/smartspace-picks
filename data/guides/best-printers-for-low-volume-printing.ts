@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is the lowest upfront price in this list, and it covers print, scan, and copy for a household that mostly needs occasional convenience printing. The included 3-month Instant Ink trial softens the first cartridge purchase, which matters more for a low-volume buyer who doesn't want to commit to a subscription right away.\n\nAt genuinely low volume, standard cartridges left idle for 2-4 weeks can dry out and trigger a wasted cleaning cycle, so a household printing only a few pages a month should expect to print a test page periodically rather than let it sit untouched.",
+      "The DeskJet 4355 is the lowest upfront price in this list, and it covers print, scan, and copy for a household that mostly needs occasional convenience printing. The included 3-month Instant Ink trial softens the first cartridge purchase, which matters more for a low-volume buyer who doesn't want to commit to a subscription right away.\n\nAt genuinely low volume, standard cartridges left idle for 2-4 weeks can dry out and trigger a wasted cleaning cycle, so a household printing only a few pages a month should expect to print a test page periodically rather than let it sit untouched.\n\nWorth calling out specifically: instant Ink trial reduces first cartridge spend. The catch is standard cartridges can dry out with infrequent use.",
     specs: [
       "Wireless all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21igSrZPOwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBGXC2C?tag=deskfinds0d-20",
     description:
-      "The PIXMA TS4320 is built around a compact footprint for homes without a dedicated office nook, with duplex printing so double-sided pages don't need a manual flip. For a low-volume household this is genuinely one of the cheapest ways to own a real printer rather than relying on a library or copy shop.\n\nIt's a light-duty inkjet best kept under roughly 20 pages a month. At that volume the printer will run occasional auto-cleaning cycles between uses, which is a normal part of owning any cartridge inkjet at this tier rather than a defect.",
+      "The PIXMA TS4320 is built around a compact footprint for homes without a dedicated office nook, with duplex printing so double-sided pages don't need a manual flip. For a low-volume household this is genuinely one of the cheapest ways to own a real printer rather than relying on a library or copy shop.\n\nIt's a light-duty inkjet best kept under roughly 20 pages a month. At that volume the printer will run occasional auto-cleaning cycles between uses, which is a normal part of owning any cartridge inkjet at this tier rather than a defect.\n\nDuplex printing saves paper. Set against that, best suited to lighter print volumes. Both matter when comparing it to the other picks here.",
     specs: [
       "Compact design",
       "Duplex (double-sided) printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21U5jLy1DeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMBTJLX6?tag=deskfinds0d-20",
     description:
-      "The TS6520 adds a 1.42-inch OLED display and a clearer control panel over the base PIXMA models, useful in a household where more than one person prints occasionally and doesn't want to guess at menu icons. Duplex printing and a compact body carry over from the rest of the lineup.\n\nIt remains a standard cartridge inkjet, so the same low-volume math applies: it's most cost-effective well under 100 pages a month, and idle cartridges still need an occasional test print to stay healthy between uses.",
+      "The TS6520 adds a 1.42-inch OLED display and a clearer control panel over the base PIXMA models, useful in a household where more than one person prints occasionally and doesn't want to guess at menu icons. Duplex printing and a compact body carry over from the rest of the lineup.\n\nIt remains a standard cartridge inkjet, so the same low-volume math applies: it's most cost-effective well under 100 pages a month, and idle cartridges still need an occasional test print to stay healthy between uses.\n\nA genuine advantage here is that duplex printing built in. The tradeoff is standard cartridges, not an ink-tank system.",
     specs: [
       "1.42\" OLED display",
       "Duplex printing",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nVDhGd67L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXC13T?tag=deskfinds0d-20",
     description:
-      "The PIXMA TR4720 pairs a low-volume-friendly price with an auto document feeder and built-in fax, features usually reserved for pricier office printers. That combination suits a household that only occasionally scans or faxes a multi-page form, like a signed lease or school paperwork, without buying a separate machine for it.\n\nAs a standard inkjet it shares the same idle-ink consideration as any cartridge printer at low volume: expect an occasional wasted cleaning cycle if it sits unused for a few weeks between print jobs.",
+      "The PIXMA TR4720 pairs a low-volume-friendly price with an auto document feeder and built-in fax, features usually reserved for pricier office printers. That combination suits a household that only occasionally scans or faxes a multi-page form, like a signed lease or school paperwork, without buying a separate machine for it.\n\nAs a standard inkjet it shares the same idle-ink consideration as any cartridge printer at low volume: expect an occasional wasted cleaning cycle if it sits unused for a few weeks between print jobs.\n\nBuilt-in fax, useful for the rare household that still needs it. On the other hand, fax is a feature most low-volume households won't use. Neither should be a surprise once you know to look for it.",
     specs: [
       "Auto document feeder",
       "Built-in fax",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-ZgpCGxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1DV6FV5?tag=deskfinds0d-20",
     description:
-      "The TS3720 strips things down to basic wireless printing, scanning, and copying for the lowest price point of any all-in-one on this list. It's a sensible pick for a household that prints only occasionally and doesn't want to pay for a display or duplex printing it won't use.\n\nBecause it lacks duplex printing, double-sided pages need a manual flip, a fine tradeoff at genuinely low volume where that's rare anyway. Like every inkjet here, plan on an occasional test print to prevent nozzle clogging if it sits idle for weeks.",
+      "The TS3720 strips things down to basic wireless printing, scanning, and copying for the lowest price point of any all-in-one on this list. It's a sensible pick for a household that prints only occasionally and doesn't want to pay for a display or duplex printing it won't use.\n\nBecause it lacks duplex printing, double-sided pages need a manual flip, a fine tradeoff at genuinely low volume where that's rare anyway. Like every inkjet here, plan on an occasional test print to prevent nozzle clogging if it sits idle for weeks.\n\nSimple setup for infrequent use. That's a real strength, but weigh it against the flip side: no auto duplex printing.",
     specs: [
       "Basic wireless all-in-one",
       "Print, scan, copy",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31BXOlNqjZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B010A7TZ76?tag=deskfinds0d-20",
     description:
-      "The MG3620 leans on strong mobile and tablet printing support, a genuine convenience for a low-volume household that prints occasionally straight from a phone rather than sitting down at a computer. Print, scan, and copy round out the basics.\n\nIt costs more upfront than the other PIXMA picks here without adding duplex printing or a display, so it's worth choosing specifically for its mobile printing strength rather than as a default budget pick in this tier.",
+      "The MG3620 leans on strong mobile and tablet printing support, a genuine convenience for a low-volume household that prints occasionally straight from a phone rather than sitting down at a computer. Print, scan, and copy round out the basics.\n\nIt costs more upfront than the other PIXMA picks here without adding duplex printing or a display, so it's worth choosing specifically for its mobile printing strength rather than as a default budget pick in this tier.\n\nWorth calling out specifically: simple all-in-one feature set. The catch is pricier than other PIXMA picks without duplex printing.",
     specs: [
       "Strong mobile and tablet printing support",
       "Wireless all-in-one",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314c84l3lcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FDZZK3H?tag=deskfinds0d-20",
     description:
-      "The TS6420 is the most fully featured all-in-one on this list, aimed at a low-volume household that still wants a display, duplex printing, and solid photo quality in one machine rather than the bare minimum. It's the pick for someone who prints infrequently but wants the printer to feel less basic when they do use it.\n\nThe higher price only makes sense if you'll use the extra features. A household printing a handful of plain text pages a month is better served by a cheaper PIXMA pick in this list.",
+      "The TS6420 is the most fully featured all-in-one on this list, aimed at a low-volume household that still wants a display, duplex printing, and solid photo quality in one machine rather than the bare minimum. It's the pick for someone who prints infrequently but wants the printer to feel less basic when they do use it.\n\nThe higher price only makes sense if you'll use the extra features. A household printing a handful of plain text pages a month is better served by a cheaper PIXMA pick in this list.\n\nDuplex printing and a real display. Set against that, highest price among the standard inkjets here. Both matter when comparing it to the other picks here.",
     specs: [
       "Duplex printing",
       "Display and intuitive controls",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51zPjelEtML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZC56ZH4?tag=deskfinds0d-20",
     description:
-      "This is a Bluetooth inkless thermal printer, not a standard inkjet or laser printer, and it's included here specifically for buyers whose real need is portable, occasional printing of letter-size or A4 pages, like boarding passes, worksheets, or quick documents in a car or small apartment. Because it uses heat-sensitive paper instead of ink or toner, it has zero idle-ink risk, which actually makes it a strong fit for extremely low-volume use.\n\nThe tradeoff is real: output quality and paper cost per page do not match a true inkjet or laser printer, and it's not a substitute for a full home printer if you occasionally need photo-quality prints or heavier document volume. Treat it as the pick for someone who prints rarely and wants zero maintenance rather than the best all-around low-volume printer on this list.",
+      "This is a Bluetooth inkless thermal printer, not a standard inkjet or laser printer, and it's included here specifically for buyers whose real need is portable, occasional printing of letter-size or A4 pages, like boarding passes, worksheets, or quick documents in a car or small apartment. Because it uses heat-sensitive paper instead of ink or toner, it has zero idle-ink risk, which actually makes it a strong fit for extremely low-volume use.\n\nThe tradeoff is real: output quality and paper cost per page do not match a true inkjet or laser printer, and it's not a substitute for a full home printer if you occasionally need photo-quality prints or heavier document volume. Treat it as the pick for someone who prints rarely and wants zero maintenance rather than the best all-around low-volume printer on this list.\n\nA genuine advantage here is that portable, works with phone or laptop. The tradeoff is not a substitute for a full inkjet or laser printer.",
     specs: [
       "Inkless thermal printing technology",
       "Bluetooth wireless connection",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Define your actual volume tier before shopping",
-    explanation:
-      "Under 20 pages a month is occasional use, 20-100 pages a month is low but regular, and 100-500 pages a month is moderate. Most buyers overestimate how much they print. Track your last month's page count if you're unsure, since it changes which pick makes financial sense.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "A new cartridge loses pages to startup calibration",
-    explanation:
-      "Every new printer runs a startup and alignment routine the first time it's set up, which can consume a noticeable percentage of a starter cartridge's total page yield before you print anything real. Budget a slightly shorter first-cartridge lifespan than the box suggests.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Compare a budget laser against an ink-tank printer honestly",
-    explanation:
-      "For 20-100 pages a month, a standard cartridge inkjet is usually still cheaper overall than either option, since both a laser and an ink-tank printer carry a higher upfront cost that only pays off at higher volume. Above roughly 100-300 pages a month, a monochrome laser like the Brother DCP-L2640DW typically wins on cost per page for text; an ink-tank system pays off faster if you print in color regularly.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Idle ink is a real, quantifiable cost at low volume",
-    explanation:
-      "Standard inkjet cartridges left unused for 2-4 weeks can dry out, triggering an automatic cleaning cycle that consumes ink without printing a page, often wasting 1-2 cartridges a year for the lightest users. Printing one test page every 1-2 weeks even without a real need to print keeps nozzles clear and avoids this waste.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Don't buy features you'll never use at this volume",
-    explanation:
-      "Auto document feeders, displays, and duplex printing add real cost and are worth it only if you'll genuinely use them. A household printing under 20 pages a month rarely needs an ADF, since multi-page scanning is uncommon at that volume.",
-  },
-  {
-    criterion: "Consider whether you need a printer at all",
-    explanation:
-      "If your printing is truly rare, under a few pages a month, a portable inkless thermal printer or an occasional trip to a copy shop can genuinely cost less over a few years than owning and maintaining any inkjet or laser printer, since there's no ink or toner to buy, dry out, or expire.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,71 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Monthly Print Volume",
-    intro:
-      "Volume tier is the single biggest factor in which pick actually saves money for a low-volume household.",
-    table: {
-      headers: ["Pages per month", "Best fit", "Best pick"],
-      rows: [
-        ["Under 20 pages", "Cheapest basic inkjet", "Canon PIXMA TS3720, HP DeskJet 4355"],
-        ["20-100 pages", "Slightly higher-capacity inkjet", "Canon PIXMA TS6520, Canon TS6420"],
-        ["Occasional multi-page scanning", "Inkjet with auto document feeder", "Canon PIXMA TR4720"],
-        ["A few pages a month, portable", "Inkless thermal, zero ink maintenance", "MT610Pro Inkless Portable Printer"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HP DeskJet 4355 Wireless All"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Real Monthly Ink Cost by Tier",
-    intro:
-      "Approximate monthly ink cost scales with pages printed, not just which printer you own, at these low volumes.",
-    table: {
-      headers: ["Volume tier", "Typical monthly ink cost profile", "Notes"],
-      rows: [
-        ["Under 20 pages/month", "Low direct cost, but idle-ink waste risk is highest", "Print a test page every 1-2 weeks to avoid clogs"],
-        ["20-100 pages/month", "Moderate, cartridge inkjets remain cost-competitive", "Higher-capacity cartridges on the OfficeJet or TS6420 help"],
-        ["100-500 pages/month", "Cost per page starts favoring laser or ink-tank", "Worth comparing against a laser like the Brother DCP-L2640DW"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "These are directional cost profiles based on stated cartridge capacity and print technology, not measured lab results.",
+      "rows": [
+        [
+          "Under $54",
+          "MT610Pro Inkless Portable Thermal Printer"
+        ],
+        [
+          "Up to $139",
+          "Canon TS6420 All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "The Startup Calibration Page Cost",
-    cards: [
+    "subheading": "MT610Pro Inkless Portable Thermal Printer vs Canon TS6420 All",
+    "cards": [
       {
-        label: "The hidden cost",
-        text: "A brand-new printer runs alignment and calibration pages the first time it's powered on, consuming a real slice of the starter cartridge before you print anything you actually need.",
+        "label": "MT610Pro Inkless Portable Thermal Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Who it affects most",
-        text: "Genuinely low-volume buyers feel this the most, since the starter cartridge is often already the smallest capacity included with the printer.",
-      },
-      {
-        label: "What to expect",
-        text: "Budget a first-cartridge yield slightly below the box's advertised page count, and don't be alarmed if the first replacement comes sooner than expected.",
-      },
+        "label": "Canon TS6420 All",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to MT610Pro Inkless Portable Thermal Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Budget Laser vs Ink-Tank for a Low-Volume Buyer",
-    intro:
-      "Neither a laser printer nor an ink-tank printer is included in this specific lineup, but the comparison matters when deciding whether to step up from any pick above.",
-    table: {
-      headers: ["Factor", "Budget laser", "Ink-tank printer"],
-      rows: [
-        ["Upfront cost", "Higher, often $150-220", "Higher, often $200-300"],
-        ["Best at this volume", "Only pays off above roughly 100-300 pages/month, mostly text", "Pays off faster if color printing is regular"],
-        ["Idle risk", "None, toner doesn't dry out", "Low, but ink can settle if idle 4+ weeks"],
-        ["Verdict for under 100 pages/month", "Usually not worth it yet", "Usually not worth it yet"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Below roughly 100 pages a month, a standard cartridge inkjet from this list is almost always the cheaper overall choice; step up only once volume or color needs genuinely increase.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HP DeskJet 4355 Wireless All"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When to Skip a Printer Entirely",
-    intro:
-      "For truly rare printing, owning any inkjet or laser printer may cost more in maintenance than it saves.",
-    note: "If you print only a handful of pages a year, the MT610Pro inkless thermal printer or an occasional copy-shop visit can beat owning and maintaining a full printer, since there's no ink or toner to dry out, clog, or expire while it sits unused.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HP DeskJet 4355 Wireless All is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Canon TS6420 All's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where MT610Pro Inkless Portable Thermal Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

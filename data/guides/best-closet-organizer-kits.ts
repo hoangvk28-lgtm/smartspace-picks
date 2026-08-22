@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316MjqTAk5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CBX0SI8?tag=deskfinds0d-20",
     description:
-      "The ClosetMaid ShelfTrack packs 144 inches of shelf space and 96 inches of hanging space into a single 4-6 foot kit, the most shelf space per dollar of any wire kit in this guide. Vinyl-coated steel wire keeps the SuperSlide rod smooth for hangers while resisting rust.\n\nEach shelf is rated for 50 lbs, and the kit includes all mounting hardware, making it a genuine beginner-friendly installation, no separate hardware purchase needed. The wire construction is SCS certified for 90% recycled content, a small sustainability detail on an otherwise standard shelving kit.",
+      "The ClosetMaid ShelfTrack packs 144 inches of shelf space and 96 inches of hanging space into a single 4-6 foot kit, the most shelf space per dollar of any wire kit in this guide. Vinyl-coated steel wire keeps the SuperSlide rod smooth for hangers while resisting rust.\n\nEach shelf is rated for 50 lbs, and the kit includes all mounting hardware, making it a genuine beginner-friendly installation, no separate hardware purchase needed. The wire construction is SCS certified for 90% recycled content, a small sustainability detail on an otherwise standard shelving kit.\n\nAll mounting hardware included. That's a real strength, but weigh it against the flip side: 50 lb per-shelf rating is lower than the wood system options.",
     specs: [
       "4-6 ft adjustable width",
       "96\" hanging space + 144\" shelf space",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51uSUrAKFfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000JF7WZC?tag=deskfinds0d-20",
     description:
-      "Rubbermaid's Configurations kit stretches from 4 to 8 feet wide with 5 uprights and telescoping rods, the widest adjustable range among the standard wire kits in this guide. That range makes it a fit for closets that don't match a fixed 4-6 foot layout.\n\nIt requires no cutting to fit a specific width, a genuine time-saver for a first DIY install, and the white epoxy finish resists rust the same way the ShelfTrack's vinyl coating does. With 14 ft of shelving and 12 ft of hanging space, it covers a mid-size reach-in or small walk-in closet.",
+      "Rubbermaid's Configurations kit stretches from 4 to 8 feet wide with 5 uprights and telescoping rods, the widest adjustable range among the standard wire kits in this guide. That range makes it a fit for closets that don't match a fixed 4-6 foot layout.\n\nIt requires no cutting to fit a specific width, a genuine time-saver for a first DIY install, and the white epoxy finish resists rust the same way the ShelfTrack's vinyl coating does. With 14 ft of shelving and 12 ft of hanging space, it covers a mid-size reach-in or small walk-in closet.\n\nWorth calling out specifically: no cutting needed to fit your closet width. The catch is less total shelf space than the Titanium version below.",
     specs: [
       "4-8 ft adjustable width",
       "14 ft shelving + 12 ft hanging space",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bCEJNY-BL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0009WG328?tag=deskfinds0d-20",
     description:
-      "The Deluxe Titanium kit is the most-reviewed closet organizer kit in this entire guide, with over 8,100 ratings backing the same 4-8 foot adjustable wire format as the White Configurations kit, but with more shelving. It steps up to 22 ft of shelving plus 12 ft of hanging space using 5 uprights and 2 extensions.\n\nThe darker Titanium finish hides scuffs better than white over time, and the extension pieces let you scale the kit up as storage needs grow rather than replacing the whole system. It's the safer pick for buyers who want proof this kit works well at scale before committing.",
+      "The Deluxe Titanium kit is the most-reviewed closet organizer kit in this entire guide, with over 8,100 ratings backing the same 4-8 foot adjustable wire format as the White Configurations kit, but with more shelving. It steps up to 22 ft of shelving plus 12 ft of hanging space using 5 uprights and 2 extensions.\n\nThe darker Titanium finish hides scuffs better than white over time, and the extension pieces let you scale the kit up as storage needs grow rather than replacing the whole system. It's the safer pick for buyers who want proof this kit works well at scale before committing.\n\nMore total shelving than the White Configurations kit. Set against that, similar price to the White kit despite more shelving, check current stock. Both matter when comparing it to the other picks here.",
     specs: [
       "4-8 ft adjustable width",
       "22 ft shelving + 12 ft hanging space",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31sa8wvungL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01F2II920?tag=deskfinds0d-20",
     description:
-      "The SuiteSymphony 25-inch kit is the best engineered-wood starter system in this guide, with a 175 lb load rating, the highest among the wood kits here, spread across 6 shelves, 2 of them adjustable. Three expandable rods stretch from 30 to 48 inches to fit a range of closet widths.\n\nAt 82.46 inches tall, it fits closets 5 to 10 feet wide and gives a built-in look that a wire kit can't match. TSCA VI compliant board construction is a formaldehyde-emission standard worth knowing if you're sensitive to new-furniture off-gassing.",
+      "The SuiteSymphony 25-inch kit is the best engineered-wood starter system in this guide, with a 175 lb load rating, the highest among the wood kits here, spread across 6 shelves, 2 of them adjustable. Three expandable rods stretch from 30 to 48 inches to fit a range of closet widths.\n\nAt 82.46 inches tall, it fits closets 5 to 10 feet wide and gives a built-in look that a wire kit can't match. TSCA VI compliant board construction is a formaldehyde-emission standard worth knowing if you're sensitive to new-furniture off-gassing.\n\nA genuine advantage here is that built-in look without a full custom install. The tradeoff is heavier and more involved install than a wire kit.",
     specs: [
       "82.46\"H, fits closets 5-10 ft wide",
       "6 shelves (2 adjustable)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311TmU4P84L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01NBPEQAJ?tag=deskfinds0d-20",
     description:
-      "The 16-inch Small Starter Kit is the most compact wood system in this guide, fitting closets as narrow as 4 feet wide, well below what most wood kits can handle. It still gives 5 interior shelves, 2 adjustable and 3 fixed, plus a top shelf and 3 expandable rods from 30 to 48 inches.\n\nIts 125 lb rating is lower than the 25-inch version above, a reasonable tradeoff for the narrower footprint. This is the kit to reach for in a small reach-in closet where the full-size SuiteSymphony simply won't fit.",
+      "The 16-inch Small Starter Kit is the most compact wood system in this guide, fitting closets as narrow as 4 feet wide, well below what most wood kits can handle. It still gives 5 interior shelves, 2 adjustable and 3 fixed, plus a top shelf and 3 expandable rods from 30 to 48 inches.\n\nIts 125 lb rating is lower than the 25-inch version above, a reasonable tradeoff for the narrower footprint. This is the kit to reach for in a small reach-in closet where the full-size SuiteSymphony simply won't fit.\n\nStill includes 2 adjustable shelves and 3 rods. On the other hand, lower 4.2-star rating than the other wood kits in this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "82.46\"H, fits closets as narrow as 4-9 ft wide",
       "5 interior shelves (2 adjustable + 3 fixed) plus top shelf",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+ieJ5trFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00AZMCHK4?tag=deskfinds0d-20",
     description:
-      "The EZ SHELF is a single expandable steel shelf and rod system rated for 200 lbs, the highest single-shelf load rating in this entire guide, all without any cutting since it expands from 40.5 to 73 inches to fit the wall. It mounts to 2 side walls rather than needing a full upright frame.\n\nIt ships with a magnetic level, a detail that speeds up getting the shelf perfectly horizontal on a first DIY attempt, and the listing claims roughly 50% faster install time than a full wire system. This is the pick for someone who wants one strong, simple shelf rather than a full multi-tier system.",
+      "The EZ SHELF is a single expandable steel shelf and rod system rated for 200 lbs, the highest single-shelf load rating in this entire guide, all without any cutting since it expands from 40.5 to 73 inches to fit the wall. It mounts to 2 side walls rather than needing a full upright frame.\n\nIt ships with a magnetic level, a detail that speeds up getting the shelf perfectly horizontal on a first DIY attempt, and the listing claims roughly 50% faster install time than a full wire system. This is the pick for someone who wants one strong, simple shelf rather than a full multi-tier system.\n\nNo cutting required, expands to fit. That's a real strength, but weigh it against the flip side: only a single shelf and rod, not a multi-tier system.",
     specs: [
       "Expandable 40.5\"-73\"",
       "200 lb rating (highest single-shelf rating in this guide)",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51jaUg9bD0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZS96WJR?tag=deskfinds0d-20",
     description:
-      "The Armocity system spans 96 inches with 3 shelving towers, 3 expandable rods, and 3 large drawers, and it carries the highest overall system load rating in this guide at 1,000 lbs. That rating reflects the full assembled system rather than a single shelf, useful context when comparing it to the EZ SHELF's per-shelf number above.\n\nFive adjustable shelf heights across the towers let you customize storage zones for folded clothing, hanging garments, and drawer storage in one 96-inch run, fitting closets 5 to 8 feet wide.",
+      "The Armocity system spans 96 inches with 3 shelving towers, 3 expandable rods, and 3 large drawers, and it carries the highest overall system load rating in this guide at 1,000 lbs. That rating reflects the full assembled system rather than a single shelf, useful context when comparing it to the EZ SHELF's per-shelf number above.\n\nFive adjustable shelf heights across the towers let you customize storage zones for folded clothing, hanging garments, and drawer storage in one 96-inch run, fitting closets 5 to 8 feet wide.\n\nWorth calling out specifically: combines drawers, rods, and shelving towers in one system. The catch is most expensive individual kit in this guide.",
     specs: [
       "96\"L x 16\"W x 75\"H",
       "3 shelving towers + 3 expandable rods + 3 drawers",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411FYDEgAVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVJPX9SW?tag=deskfinds0d-20",
     description:
-      "SONGMICS packs the most zones of any kit in this guide into one system, 5 hanging zones across 4 expandable rods from 26 to 49 inches, 3 drawers, a top shelf, and dedicated shoe space, all in a metal and particleboard build that spans 4 to 9.6 feet wide. That range of dedicated zones makes it closer to a full walk-in closet buildout than a simple shelf-and-rod kit.\n\nFour anti-tip points anchor the tall system, and each drawer is rated for 22 lbs. It's the newest and least-reviewed kit in this guide, so factor that smaller review sample into the decision alongside its more complete feature set.",
+      "SONGMICS packs the most zones of any kit in this guide into one system, 5 hanging zones across 4 expandable rods from 26 to 49 inches, 3 drawers, a top shelf, and dedicated shoe space, all in a metal and particleboard build that spans 4 to 9.6 feet wide. That range of dedicated zones makes it closer to a full walk-in closet buildout than a simple shelf-and-rod kit.\n\nFour anti-tip points anchor the tall system, and each drawer is rated for 22 lbs. It's the newest and least-reviewed kit in this guide, so factor that smaller review sample into the decision alongside its more complete feature set.\n\nDedicated shoe space plus 5 hanging zones. Set against that, lowest rating and smallest review count in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "4-9.6 ft adjustable width",
       "5 hanging zones, 4 rods (26\"-49\")",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Rate your own install skill honestly before choosing a kit",
-    explanation:
-      "Wire kits like the ClosetMaid ShelfTrack are genuinely beginner-friendly, mounting brackets and a rod with basic tools. Full wood systems like the Armocity 96\" or SuiteSymphony require more precise leveling and more hardware steps, closer to an intermediate DIY project. If you've never installed shelving before, start with a wire kit rather than a full wood system.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a closet organizer kit often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Build a tools checklist before you start, not mid-install",
-    explanation:
-      "At minimum you'll need a drill, a level, a stud finder, and the correct screw type for your wall material, drywall anchors for hollow walls, wood screws directly into studs where possible. Running out partway through, especially without a stud finder, is the most common reason a DIY closet install stalls overnight.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the closet organizer kit holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Find studs before you drill, not after something falls",
-    explanation:
-      "Many DIY closet installs fail or partially collapse because weight was anchored into drywall alone rather into a stud. A stud finder costs under $15 and takes minutes to use, always anchor into at least 2 studs for anything rated over 100 lbs, like the EZ SHELF's 200 lb single shelf or the wood systems' full ratings.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this closet organizer kit over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Expandable kits forgive a mismeasured closet, fixed kits don't",
-    explanation:
-      "Expandable and telescoping kits like the Rubbermaid Configurations or EZ SHELF adjust to fit a range of widths without cutting, useful if you're not 100% sure of your exact closet dimensions. Fixed-width kits are often cheaper but require an exact or near-exact match, or you'll need to cut and finish the cut edge yourself.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any closet organizer kit you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Weigh a kit against hiring a professional installer",
-    explanation:
-      "A DIY kit in this guide runs $110-$171 plus a few hours of your own time, while a professional closet installer typically charges more for labor on top of materials. If your closet has angled ceilings, support posts, or plumbing runs, factor in that professional installers price around obstacles that a DIY kit's standard hardware may not handle well.",
-  },
-  {
-    criterion: "Budget beyond the kit price for the full project cost",
-    explanation:
-      "The kit price rarely covers everything, extra screws or anchors for non-standard studs, touch-up paint if you patch old holes, and sometimes an additional shelf or basket to fill gaps. Add 10-15% to the sticker price as a realistic project budget rather than assuming the kit box has everything you'll need.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A closet organizer kit that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,80 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Installation Difficulty",
-    intro:
-      "Not every buyer wants a full weekend project, match the kit to how much DIY time and skill you're actually willing to put in.",
-    table: {
-      headers: ["Skill level", "Best format", "Best pick"],
-      rows: [
-        ["Beginner, first DIY install", "Wire shelving kit with included hardware", "ClosetMaid ShelfTrack Wire Kit"],
-        ["Beginner, wants a single strong shelf", "Expandable no-cut shelf", "EZ SHELF Closet Shelf with Hanging Rod"],
-        ["Intermediate, comfortable with a drill and level", "Engineered-wood starter kit", "ClosetMaid SuiteSymphony 25\" Starter Kit"],
-        ["Advanced, full multi-zone system", "Full wood closet system", "Armocity 96\" Wood Closet System"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "ClosetMaid ShelfTrack Wire Closet Kit"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Rubbermaid Configurations Deluxe Closet Kit Titanium"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Tools Checklist Before You Start",
-    cards: [
-      { label: "Drill and correct drill bits", text: "Needed for pilot holes into studs or drywall anchors, regardless of which kit you choose." },
-      { label: "Stud finder", text: "Essential before drilling into any wall, anchoring into studs is what prevents a wire or wood kit from pulling loose under load." },
-      { label: "Level", text: "The EZ SHELF ships with a magnetic level built in, but every other kit in this guide needs a separate level for a straight install." },
-      { label: "Correct screw type for your wall", text: "Wood screws for direct stud mounting, drywall anchors when a stud isn't available at the exact spot you need." },
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $111",
+          "EZ SHELF Closet Shelf with Hanging Rod"
+        ],
+        [
+          "Up to $171",
+          "Armocity 96\" Wood Closet System 3 Drawers + 3 Shelving Towers"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "EZ SHELF Closet Shelf with Hanging Rod vs Armocity 96\" Wood Closet System 3 Drawers + 3 Shelving Towers",
+    "cards": [
+      {
+        "label": "EZ SHELF Closet Shelf with Hanging Rod",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Armocity 96\" Wood Closet System 3 Drawers + 3 Shelving Towers",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to EZ SHELF Closet Shelf with Hanging Rod unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Expandable vs Fixed-Width Kits",
-    intro:
-      "Whether your closet is an exact standard size or an odd width changes which kit style saves you the most hassle.",
-    table: {
-      headers: ["Closet width situation", "Best kit type", "Best pick"],
-      rows: [
-        ["Exact 4-6 ft standard closet", "Fixed-width wire kit", "ClosetMaid ShelfTrack"],
-        ["Unsure of exact width or an odd size", "Expandable/telescoping wire kit", "Rubbermaid Configurations White or Titanium"],
-        ["Narrow closet under 4 ft", "Small compact wood starter kit", "ClosetMaid SuiteSymphony 16\" Small Starter Kit"],
-        ["Wide walk-in, 8-9.6 ft", "Wide expandable system", "SONGMICS Walk-In Closet System"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Rubbermaid Configurations Deluxe Closet Kit Titanium"
+        ]
+      ]
+    }
   },
   {
-    subheading: "DIY Kit vs Hiring a Professional Installer",
-    intro:
-      "A kit saves on labor cost but takes your own time and carries some install risk if studs are missed or the closet has unusual features.",
-    cards: [
-      { label: "Standard rectangular closet, no obstacles", text: "A DIY kit like the ClosetMaid ShelfTrack or SuiteSymphony is straightforward and saves on labor cost entirely." },
-      { label: "Angled ceilings, support posts, or plumbing runs", text: "Non-standard closets often need custom cuts or offset mounting that a professional installer prices around more reliably than a standard kit's included hardware." },
-      { label: "Want the highest possible load rating with no guesswork", text: "The Armocity 96\" system's 1,000 lb rating gives DIY installers a wide safety margin even with an average install." },
-    ],
-    note: "If your closet has any of the non-standard features above, ceiling angles, posts, or plumbing, measure around them carefully before ordering a fixed-width kit, since a mismatch is harder to return once cut or mounted.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Rubbermaid Configurations Deluxe Closet Kit Titanium is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Total Cost Beyond the Kit Price",
-    intro:
-      "The kit price on the box rarely covers the entire project.",
-    table: {
-      headers: ["Extra cost item", "When you'll need it", "Typical impact"],
-      rows: [
-        ["Drywall anchors or extra screws", "Non-standard stud spacing", "Small, a few extra dollars"],
-        ["Touch-up paint", "Patching old shelf holes or scuffed walls", "Small to moderate"],
-        ["Additional shelving or baskets", "Kit doesn't fully use available closet height", "Moderate, can add 20%+ to project cost"],
-        ["Professional installer labor", "Non-standard closet or no DIY time available", "Largest single addition to project cost"],
-      ],
-    },
-  },
-  {
-    subheading: "Load Rating Quick Reference",
-    table: {
-      headers: ["Pick", "Load rating", "Rating type"],
-      rows: [
-        ["ClosetMaid ShelfTrack", "50 lbs", "Per shelf"],
-        ["ClosetMaid SuiteSymphony 25\"", "175 lbs", "Full kit"],
-        ["ClosetMaid SuiteSymphony 16\"", "125 lbs", "Full kit"],
-        ["EZ SHELF", "200 lbs", "Per shelf (highest single-shelf rating in this guide)"],
-        ["Armocity 96\" System", "1,000 lbs", "Full system (highest overall rating in this guide)"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Armocity 96\" Wood Closet System 3 Drawers + 3 Shelving Towers's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where EZ SHELF Closet Shelf with Hanging Rod covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

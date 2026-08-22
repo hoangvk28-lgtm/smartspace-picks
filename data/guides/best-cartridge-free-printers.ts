@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800 is Epson's entry point into cartridge-free printing, swapping disposable ink cartridges for four refillable tanks visible right on the front of the printer. Scan and copy are included alongside wireless printing, covering the basics most households need without extra bulk.\n\nInk bottles run far cheaper per page than cartridges once you're printing regularly, though the printhead on this model is integrated rather than separately replaceable, so treat routine nozzle checks as real maintenance rather than an optional step.",
+      "The ET-2800 is Epson's entry point into cartridge-free printing, swapping disposable ink cartridges for four refillable tanks visible right on the front of the printer. Scan and copy are included alongside wireless printing, covering the basics most households need without extra bulk.\n\nInk bottles run far cheaper per page than cartridges once you're printing regularly, though the printhead on this model is integrated rather than separately replaceable, so treat routine nozzle checks as real maintenance rather than an optional step.\n\nBottled ink costs a fraction of cartridges per page. That's a real strength, but weigh it against the flip side: no automatic document feeder.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Yt+pSHuGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8CNBZ?tag=deskfinds0d-20",
     description:
-      "This is the same ET-2800 as the black version above with a white finish that blends better into a light-colored desk setup or home office. Every internal spec, tank capacity, print speed, and ink cost per page, is identical to the black model.\n\nChoose based on color preference alone rather than expecting any functional difference, both share the same integrated printhead and lack of an automatic document feeder.",
+      "This is the same ET-2800 as the black version above with a white finish that blends better into a light-colored desk setup or home office. Every internal spec, tank capacity, print speed, and ink cost per page, is identical to the black model.\n\nChoose based on color preference alone rather than expecting any functional difference, both share the same integrated printhead and lack of an automatic document feeder.\n\nWorth calling out specifically: white finish suits a lighter desk aesthetic. The catch is no automatic document feeder.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41NRmd9wP9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B1J5PYCF?tag=deskfinds0d-20",
     description:
-      "The ET-3850 steps up from the entry ET-2800 with an automatic document feeder, Ethernet, and mobile printing, a fuller home office feature set built around cartridge-free economics. It includes a bonus black ink bottle and USB cable at setup.\n\nThe higher price reflects the added hardware, ADF, wired networking, more durable build, rather than a different ink system, so weigh whether you actually need those extras against the cheaper ET-2800.",
+      "The ET-3850 steps up from the entry ET-2800 with an automatic document feeder, Ethernet, and mobile printing, a fuller home office feature set built around cartridge-free economics. It includes a bonus black ink bottle and USB cable at setup.\n\nThe higher price reflects the added hardware, ADF, wired networking, more durable build, rather than a different ink system, so weigh whether you actually need those extras against the cheaper ET-2800.\n\nEthernet option for a stable wired connection. Set against that, significantly pricier than the entry-level ET-2800. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31TonwUym9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9BFLMX?tag=deskfinds0d-20",
     description:
-      "The ET-2400 is the lowest-priced model in this list, built for everyday home printing rather than heavy office volume. Scan and copy are included, and the tank system keeps ink cost per page low even at this entry price point.\n\nLike the ET-2800, the printhead is integrated into the printer body, so a printer left idle for a month or more should get a nozzle check before a big print job to avoid streaks from settled ink.",
+      "The ET-2400 is the lowest-priced model in this list, built for everyday home printing rather than heavy office volume. Scan and copy are included, and the tank system keeps ink cost per page low even at this entry price point.\n\nLike the ET-2800, the printhead is integrated into the printer body, so a printer left idle for a month or more should get a nozzle check before a big print job to avoid streaks from settled ink.\n\nA genuine advantage here is that cheap ink cost per page for a light-to-moderate home printer. The tradeoff is no automatic document feeder.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31JMZ0fsKTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC5KYF71?tag=deskfinds0d-20",
     description:
-      "The ET-4950 pairs up to 3 years of ink refills with a 2.4-inch color touchscreen and an automatic document feeder, a genuine step up for anyone scanning multi-page documents regularly. At a rated 18 pages per minute, it's noticeably faster than the entry-level EcoTank models.\n\nThe touchscreen makes checking ink levels and clearing errors simpler than button-based navigation, useful if more than one person in the household relies on the printer.",
+      "The ET-4950 pairs up to 3 years of ink refills with a 2.4-inch color touchscreen and an automatic document feeder, a genuine step up for anyone scanning multi-page documents regularly. At a rated 18 pages per minute, it's noticeably faster than the entry-level EcoTank models.\n\nThe touchscreen makes checking ink levels and clearing errors simpler than button-based navigation, useful if more than one person in the household relies on the printer.\n\nTouchscreen simplifies status checks and troubleshooting. On the other hand, higher price than the entry-level ET-2400 and ET-2800. Neither should be a surprise once you know to look for it.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31r7o2eQ5TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N9JMXF?tag=deskfinds0d-20",
     description:
-      "The ET-4850 adds fax and Ethernet to the EcoTank lineup, aimed at a small office that still needs those legacy connections alongside cartridge-free ink savings. Scanner, copier, and an automatic document feeder round out the feature set.\n\nMost households won't use the fax feature, but it doesn't add meaningful cost, and Ethernet gives a more stable connection than wifi in offices with a lot of network interference.",
+      "The ET-4850 adds fax and Ethernet to the EcoTank lineup, aimed at a small office that still needs those legacy connections alongside cartridge-free ink savings. Scanner, copier, and an automatic document feeder round out the feature set.\n\nMost households won't use the fax feature, but it doesn't add meaningful cost, and Ethernet gives a more stable connection than wifi in offices with a lot of network interference.\n\nAutomatic document feeder for multi-page scans. That's a real strength, but weigh it against the flip side: fax is unnecessary for most households.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Fax and Ethernet included",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31W+8GDKNLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XZQVWZW?tag=deskfinds0d-20",
     description:
-      "Canon's MegaTank system is the direct competitor to Epson EcoTank, and the G620 leans specifically toward photo output, useful if you print photos alongside documents. It works with Alexa for voice-triggered print jobs and covers print, copy, and scan.\n\nCanon and Epson tanks aren't interchangeable, so factor in brand-specific ink availability at your local store before committing, since online-only generic ink can mean a multi-day wait when a tank runs low.",
+      "Canon's MegaTank system is the direct competitor to Epson EcoTank, and the G620 leans specifically toward photo output, useful if you print photos alongside documents. It works with Alexa for voice-triggered print jobs and covers print, copy, and scan.\n\nCanon and Epson tanks aren't interchangeable, so factor in brand-specific ink availability at your local store before committing, since online-only generic ink can mean a multi-day wait when a tank runs low.\n\nWorth calling out specifically: cartridge-free MegaTank ink economics. The catch is no automatic document feeder.",
     specs: [
       "Cartridge-free MegaTank refillable ink system",
       "Photo-focused color output",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/417kJNlHT6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084TV6BVM?tag=deskfinds0d-20",
     description:
-      "The EcoTank Pro ET-5800 is the top of this list on price and capability, built for an office that prints heavily and needs fax and Ethernet in a single reliable machine. Scanner and copier round out a full feature set aimed at replacing a shared office printer entirely.\n\nAt this price, it competes with small business laser printers rather than home inkjets, so it makes the most sense for a household or small office genuinely printing hundreds of pages a month rather than an occasional user.",
+      "The EcoTank Pro ET-5800 is the top of this list on price and capability, built for an office that prints heavily and needs fax and Ethernet in a single reliable machine. Scanner and copier round out a full feature set aimed at replacing a shared office printer entirely.\n\nAt this price, it competes with small business laser printers rather than home inkjets, so it makes the most sense for a household or small office genuinely printing hundreds of pages a month rather than an occasional user.\n\nFax and Ethernet cover full small-office needs. Set against that, highest upfront price in this list by a wide margin. Both matter when comparing it to the other picks here.",
     specs: [
       "Cartridge-free EcoTank Pro refillable ink system",
       "Fax and Ethernet",
@@ -328,40 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Cartridge-free still means recurring ink purchases",
-    explanation:
-      "It is a marketing distinction, not truly free of consumables, ink bottles are still a recurring cost, just a much cheaper one per page than cartridges. Budget for occasional bottle refills rather than expecting zero ongoing ink spend.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a cartridge-free printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Check whether the printhead is replaceable before buying",
-    explanation:
-      "On many ink-tank printers, including most EcoTank and MegaTank models, the printhead is integrated into the printer rather than a separate replaceable part. A clogged printhead after 3 to 5 years often means replacing the whole printer, so factor that into the real long-term cost.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the cartridge-free printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "HP Smart Tank and Epson EcoTank aren't interchangeable",
-    explanation:
-      "Ink bottles, tank layouts, and firmware are brand-specific, so compare warranty terms and local ink availability for the specific brand you're buying rather than assuming all ink-tank printers behave the same.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this cartridge-free printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Third-party refill ink carries real risk",
-    explanation:
-      "Cheaper generic ink bottles can cause clogs, void warranty coverage, and produce noticeably different color output than OEM ink. Stick with the manufacturer's bottles unless you're comfortable accepting that risk for the savings.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any cartridge-free printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Ink tanks can still dry out during extended idle periods",
-    explanation:
-      "A common misconception is that ink-tank ink never dries out. In reality, ink can settle and clog nozzles if the printer sits unused for 4 or more weeks, so run a nozzle check before a big print job after a long break.",
-  },
-  {
-    criterion: "Match tank capacity to your actual print volume",
-    explanation:
-      "A small entry-level EcoTank makes sense for light home use, but sustained office volume of several hundred pages a month justifies stepping up to a higher-capacity model like the ET-4950 or EcoTank Pro ET-5800 for lower cost per page.",
-  },
-  {
-    criterion: "Print quality tradeoff versus cartridge printers",
-    explanation:
-      "Text output from ink-tank printers is excellent and comparable to cartridge inkjets, but photo quality is good rather than photo-lab tier. If photo printing is a priority, the Canon PIXMA G620's photo-focused MegaTank design is the stronger pick here.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A cartridge-free printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,66 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $200", "Basic cartridge-free print, scan, copy", "Epson EcoTank ET-2400 or ET-2800"],
-        ["$400-500", "Faster speed, ADF, or photo focus", "Epson EcoTank ET-4950 or Canon PIXMA G620"],
-        ["$450+", "Fax, Ethernet, and full office feature set", "Epson EcoTank ET-4850 or EcoTank Pro ET-5800"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Epson EcoTank ET"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "HP Smart Tank vs. Epson EcoTank vs. Canon MegaTank",
-    intro: "This list is Epson- and Canon-heavy, here's how the ink-tank landscape breaks down if you're comparing brands.",
-    table: {
-      headers: ["Brand", "Strength", "Watch for"],
-      rows: [
-        ["Epson EcoTank", "Widest model range from entry to office-grade", "Integrated printhead on most consumer models"],
-        ["Canon MegaTank", "Strong photo output on models like the G620", "Fewer budget-tier options"],
-        ["HP Smart Tank", "Often the cheapest tank system upfront", "Not represented in this specific list, check current pricing separately"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If photo quality matters most, prioritize the Canon PIXMA G620. For the broadest range of price points and features, Epson EcoTank covers the most ground.",
+      "rows": [
+        [
+          "Under $190",
+          "Epson EcoTank ET"
+        ],
+        [
+          "Up to $800",
+          "Epson EcoTank Pro ET"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Document Workflow",
-    cards: [
+    "subheading": "Epson EcoTank ET vs Epson EcoTank Pro ET",
+    "cards": [
       {
-        label: "Multi-page scanning regularly",
-        text: "The Epson EcoTank ET-3850, ET-4950, or ET-4850 all include an automatic document feeder for scanning stacks in one pass.",
+        "label": "Epson EcoTank ET",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Simple print, scan, copy only",
-        text: "The Epson EcoTank ET-2400 or ET-2800 cover the basics without paying for a feeder you won't use.",
-      },
-      {
-        label: "Need fax or Ethernet",
-        text: "The Epson EcoTank ET-4850 or EcoTank Pro ET-5800 include both for small-office setups.",
-      },
-      {
-        label: "Photo printing alongside documents",
-        text: "The Canon PIXMA G620 is the strongest photo performer in this list.",
-      },
+        "label": "Epson EcoTank Pro ET",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Epson EcoTank ET unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Printhead Longevity: What to Expect",
-    note:
-      "Most ink-tank printers integrate the printhead into the printer body rather than making it a separate replaceable part. A clog after several years of use, especially if the printer sits idle for long stretches, can mean replacing the printer rather than a single component. Running a nozzle check periodically, even during light-use months, helps avoid this outcome.",
-  },
-  {
-    subheading: "By Print Volume",
-    table: {
-      headers: ["Monthly volume", "Recommended pick"],
-      rows: [
-        ["Under 100 pages", "Epson EcoTank ET-2400"],
-        ["100-400 pages", "Epson EcoTank ET-2800 or Canon PIXMA G620"],
-        ["400+ pages, office use", "Epson EcoTank ET-4950 or EcoTank Pro ET-5800"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Epson EcoTank ET is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Epson EcoTank Pro ET's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Epson EcoTank ET covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

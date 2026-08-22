@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/310m+F+gY5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N99XMM2?tag=deskfinds0d-20",
     description:
-      "This PU vinyl mat is 2.2mm thick in a 36x48 footprint with an extended lip and ramped edges so the carpet-to-mat transition doesn't create a lip that catches your casters. Molded anchor bars and cleats on the underside are built specifically to grip low pile carpet up to 1/4 inch, and the top has an anti-skid finish.\n\nIts 5-year warranty is the longest of any pick in this guide. It's a carpet-only mat, so if your floor is hardwood, tile, or laminate, look at one of the hard-floor or dual-use picks instead.",
+      "This PU vinyl mat is 2.2mm thick in a 36x48 footprint with an extended lip and ramped edges so the carpet-to-mat transition doesn't create a lip that catches your casters. Molded anchor bars and cleats on the underside are built specifically to grip low pile carpet up to 1/4 inch, and the top has an anti-skid finish.\n\nIts 5-year warranty is the longest of any pick in this guide. It's a carpet-only mat, so if your floor is hardwood, tile, or laminate, look at one of the hard-floor or dual-use picks instead.\n\nRamped lip smooths the transition. On the other hand, carpet only, not usable on hard floor. Neither should be a surprise once you know to look for it.",
     specs: [
       "36\"W x 48\"D, PU vinyl, 2.2mm thick",
       "Rated for low pile carpet up to 1/4\"",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51umupvRX3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKKMDSP?tag=deskfinds0d-20",
     description:
-      "MuArts uses a special rigid material 5mm thick in a 54x32 footprint that stays flat rather than curling, and it's rated for 1,400 lbs, the highest capacity in this guide. Because it's rigid instead of flexible vinyl, it performs the same whether it sits on carpet or hard floor.\n\nThat dual-use flexibility makes it a good pick if you move offices or rooms and aren't sure what floor the mat will end up on next. It carries a 12-month warranty, shorter than some of the vinyl carpet-only picks.",
+      "MuArts uses a special rigid material 5mm thick in a 54x32 footprint that stays flat rather than curling, and it's rated for 1,400 lbs, the highest capacity in this guide. Because it's rigid instead of flexible vinyl, it performs the same whether it sits on carpet or hard floor.\n\nThat dual-use flexibility makes it a good pick if you move offices or rooms and aren't sure what floor the mat will end up on next. It carries a 12-month warranty, shorter than some of the vinyl carpet-only picks.\n\nWorks on both carpet and hard floor. That's a real strength, but weigh it against the flip side: shorter warranty than the top carpet pick.",
     specs: [
       "54\"W x 32\"D, special rigid material, 5mm thick",
       "Rated 1,400 lbs, highest in this guide",
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51-SqFH4ZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0893BD69B?tag=deskfinds0d-20",
     description:
-      "Kuyal's mat is 2mm PVC in a 36x48 footprint built specifically for hard floors, with a smooth top and an anti-slide coating on the underside rather than cleats, since hard floor doesn't need fiber grip the way carpet does. A dull polish finish keeps small scratches less visible over time compared to a glossy surface.\n\nIt's odorless and BPA-free with no lead or cadmium, and at under $33 it's the cheapest clear hard-floor pick in this guide. Don't use it on carpet, its flat anti-slide coating isn't designed to anchor into carpet fibers.",
+      "Kuyal's mat is 2mm PVC in a 36x48 footprint built specifically for hard floors, with a smooth top and an anti-slide coating on the underside rather than cleats, since hard floor doesn't need fiber grip the way carpet does. A dull polish finish keeps small scratches less visible over time compared to a glossy surface.\n\nIt's odorless and BPA-free with no lead or cadmium, and at under $33 it's the cheapest clear hard-floor pick in this guide. Don't use it on carpet, its flat anti-slide coating isn't designed to anchor into carpet fibers.\n\nWorth calling out specifically: dull polish finish hides minor scratches. The catch is hard floor only, will not grip carpet.",
     specs: [
       "36\"W x 48\"D, PVC, 2mm thick",
       "Anti-slide coating underside (hard floor only)",
@@ -145,7 +145,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31d9jTEL4sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00272N7RM?tag=deskfinds0d-20",
     description:
-      "Floortex builds this polycarbonate mat 0.09 inches thick in a 48x60 footprint, the largest polycarbonate carpet mat in this guide, with a gripper back rated for carpet up to 1/2 inch, covering low and medium pile. Polycarbonate resists impact and wear better than standard PVC over years of daily rolling.\n\nIt's fire-resistant and GREENGUARD certified, both relevant if the mat sits in a shared or regulated workspace, and it carries a 5-year warranty, tied for the longest in this guide.",
+      "Floortex builds this polycarbonate mat 0.09 inches thick in a 48x60 footprint, the largest polycarbonate carpet mat in this guide, with a gripper back rated for carpet up to 1/2 inch, covering low and medium pile. Polycarbonate resists impact and wear better than standard PVC over years of daily rolling.\n\nIt's fire-resistant and GREENGUARD certified, both relevant if the mat sits in a shared or regulated workspace, and it carries a 5-year warranty, tied for the longest in this guide.\n\nRated for a wider pile range than most PVC picks. Set against that, most expensive polycarbonate pick in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "48\"W x 60\"D, polycarbonate, 0.09\" thick",
       "Gripper back",
@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51UDuDStG2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D96LWLZ7?tag=deskfinds0d-20",
     description:
-      "Marvelux's polycarbonate mat is 0.11 inches thick in a 48x60 footprint and rated for carpet up to 3/4 inch, the only pick in this guide's polycarbonate lineup rated for medium and high pile. Its rigidity means it doesn't sink into thick carpet the way a thinner mat would, and a studded underside keeps it anchored.\n\nIt's made using 50% renewable energy and is 100% recyclable, a detail worth noting if sustainability factors into your purchase. At $121.99 it's the priciest pick in this guide, but it's also solving a problem most competitors don't address at all.",
+      "Marvelux's polycarbonate mat is 0.11 inches thick in a 48x60 footprint and rated for carpet up to 3/4 inch, the only pick in this guide's polycarbonate lineup rated for medium and high pile. Its rigidity means it doesn't sink into thick carpet the way a thinner mat would, and a studded underside keeps it anchored.\n\nIt's made using 50% renewable energy and is 100% recyclable, a detail worth noting if sustainability factors into your purchase. At $121.99 it's the priciest pick in this guide, but it's also solving a problem most competitors don't address at all.\n\nA genuine advantage here is that rigid enough to avoid sinking into thick carpet. The tradeoff is most expensive pick in this guide.",
     specs: [
       "48\"W x 60\"D, polycarbonate, 0.11\" thick",
       "Rated for carpet up to 3/4\" (medium-high pile)",
@@ -209,7 +209,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51Dfg8DnF5S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PD3ZHJT?tag=deskfinds0d-20",
     description:
-      "GLSLAND's tempered glass mat is 0.2 inches thick in a 36x46 footprint, rated for 1,200 lbs, with 4 anti-slip pads underneath rather than cleats or spikes. Glass is naturally the most durable material category of the 3 in this guide, PVC, polycarbonate, and glass, and it won't scratch, dent, or yellow the way plastic mats eventually do.\n\nIt's dual-use on carpet or hard floor and BPA-free, phthalate-free, and odorless. At $60.99 it's the cheapest tempered glass pick in this guide, a reasonable entry point if you want glass's durability without the largest glass mat's price.",
+      "GLSLAND's tempered glass mat is 0.2 inches thick in a 36x46 footprint, rated for 1,200 lbs, with 4 anti-slip pads underneath rather than cleats or spikes. Glass is naturally the most durable material category of the 3 in this guide, PVC, polycarbonate, and glass, and it won't scratch, dent, or yellow the way plastic mats eventually do.\n\nIt's dual-use on carpet or hard floor and BPA-free, phthalate-free, and odorless. At $60.99 it's the cheapest tempered glass pick in this guide, a reasonable entry point if you want glass's durability without the largest glass mat's price.\n\nMost durable material category, won't scratch or yellow. On the other hand, heaviest material to move or reposition. Neither should be a surprise once you know to look for it.",
     specs: [
       "36\"W x 46\"D, tempered glass, 0.2\" thick",
       "Rated 1,200 lbs",
@@ -241,7 +241,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41UO1C7z6QL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXSFBQLH?tag=deskfinds0d-20",
     description:
-      "Koonmi's tempered glass mat is 0.2 inches thick in a 46x55 footprint, the largest glass mat in this guide, and rated for over 1,000 lbs. A detachable anti-slip pad underneath lets you position grip exactly where the chair rolls most.\n\nLike the other glass pick in this guide, it's dual-use on carpet or hard floor and has polished rounded corners. Its larger footprint suits bigger desks or setups where the chair covers more ground, at a price that reflects the extra glass and size.",
+      "Koonmi's tempered glass mat is 0.2 inches thick in a 46x55 footprint, the largest glass mat in this guide, and rated for over 1,000 lbs. A detachable anti-slip pad underneath lets you position grip exactly where the chair rolls most.\n\nLike the other glass pick in this guide, it's dual-use on carpet or hard floor and has polished rounded corners. Its larger footprint suits bigger desks or setups where the chair covers more ground, at a price that reflects the extra glass and size.\n\nHighest-rated pick in this guide at 4.7 stars. That's a real strength, but weigh it against the flip side: most expensive glass pick in this guide.",
     specs: [
       "46\"W x 55\"D, tempered glass, 0.2\" thick",
       "Rated over 1,000 lbs",
@@ -273,7 +273,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21V7PYvl22L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07K95V7X2?tag=deskfinds0d-20",
     description:
-      "Lorell's tempered glass mat is 0.25 inches thick, the thickest glass in this guide, in a 46x36 footprint rated for 1,000 lbs and for any floor type, including carpet, hard floor, or even marble. Its scratch-resistant surface and 5-year warranty make it the strongest all-around glass pick in this list.\n\nAvailability on this listing can fluctuate, so confirm current stock and pricing before buying rather than assuming a fixed price. It's the most-reviewed and highest-rated pick in this entire guide, with nearly 10,700 ratings at 4.8 stars.",
+      "Lorell's tempered glass mat is 0.25 inches thick, the thickest glass in this guide, in a 46x36 footprint rated for 1,000 lbs and for any floor type, including carpet, hard floor, or even marble. Its scratch-resistant surface and 5-year warranty make it the strongest all-around glass pick in this list.\n\nAvailability on this listing can fluctuate, so confirm current stock and pricing before buying rather than assuming a fixed price. It's the most-reviewed and highest-rated pick in this entire guide, with nearly 10,700 ratings at 4.8 stars.\n\nWorth calling out specifically: thickest glass in this guide. The catch is listing availability can be limited, check price before buying.",
     specs: [
       "46\"W x 36\"D, tempered glass, 0.25\" thick (thickest in this guide)",
       "Rated 1,000 lbs",
@@ -325,35 +325,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Decide carpet vs hard floor before comparing anything else",
-    explanation:
-      "A mat built for hard floor has a smooth, flat underside meant to protect the finish, while a carpet mat needs cleats or spikes to anchor into the fibers. Using a hard-floor mat on carpet leaves it sliding around, and using a carpet mat's studded underside on hardwood can scratch the finish, so this decision comes before any spec comparison.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a chair mat often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Match carpet mats to your actual pile height",
-    explanation:
-      "Low pile carpet is under 1/4 inch, medium pile runs 1/4 to 1/2 inch, high pile is 1/2 to 3/4 inch or more, and extra-high pile with padding runs over 1 inch. The Marvelux pick in this guide is the only polycarbonate mat here rated for high pile, so most of the other carpet picks are a poor fit if your carpet has real cushion underfoot.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the chair mat holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Give a new mat 24 hours to lie flat",
-    explanation:
-      "Mats shipped rolled up need about 24 hours flat before they fully relax. A mat that looks curled on day one is usually still settling, not defective, so don't judge flatness immediately after unboxing.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this chair mat over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Understand what each material category actually buys you",
-    explanation:
-      "PVC/vinyl is cheapest but least durable long-term. Polycarbonate costs more but resists impact better and can be rated for higher pile. Tempered glass, like the GLSLAND, Koonmi, and Lorell picks here, is the most durable and heaviest option and works on carpet or hard floor, but it's also the priciest category.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any chair mat you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Weight capacity covers chair plus user combined",
-    explanation:
-      "A mat's stated weight limit is for the chair and the person sitting in it together, not just the chair. The MuArts pick in this guide is rated for 1,400 lbs, the highest here, worth prioritizing if either the chair or the user is on the heavier side.",
-  },
-  {
-    criterion: "You might not need a mat at all on good hardwood",
-    explanation:
-      "If your hard floor is in good condition and your chair has quality, non-marking casters, a mat may be an unnecessary purchase for floor protection, though it can still help a chair roll more smoothly. Consider skipping a mat entirely if your only goal is scratch prevention on a durable, well-maintained hard floor.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A chair mat that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -366,81 +356,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Decision Tree: Carpet, Hard Floor, or Dual-Use",
-    intro:
-      "Start here before comparing any other spec, floor type determines which picks are even viable options.",
-    table: {
-      headers: ["Your situation", "What you need", "Best pick"],
-      rows: [
-        ["Carpet, low pile", "Cleated PVC or vinyl mat", "HON/OFM Essentials"],
-        ["Carpet, medium to high pile", "Rigid polycarbonate rated for thicker pile", "Marvelux Heavy Duty (or Floortex for low-medium)"],
-        ["Hard floor only", "Smooth-backed mat, no cleats needed", "Kuyal Clear Chair Mat"],
-        ["Might move rooms or floors later", "Rigid dual-use material", "MuArts Crystal Clear or either tempered glass pick"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Lorell Tempered Glass Chairmat Multi"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HON/OFM Essentials Chair Mat for Low Pile Carpet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "When You Might Not Need a Mat At All",
-    intro:
-      "A chair mat solves 2 problems: floor protection and easier rolling. If your floor and chair already handle both well, a mat may be unnecessary spending.",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $33",
+          "Kuyal Clear Chair Mat for Hard Floors"
+        ],
+        [
+          "Up to $NaN",
+          "Lorell Tempered Glass Chairmat Multi"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Kuyal Clear Chair Mat for Hard Floors vs Lorell Tempered Glass Chairmat Multi",
+    "cards": [
       {
-        label: "Good hardwood + quality casters",
-        text: "Well-maintained hardwood or laminate paired with soft, non-marking casters often doesn't need a protective mat at all for scratch prevention.",
+        "label": "Kuyal Clear Chair Mat for Hard Floors",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Low-traffic occasional use",
-        text: "A desk used a few hours a week sees far less wear than a daily 8-hour setup, reducing the case for a mat purely for floor protection.",
-      },
-      {
-        label: "When a mat still helps anyway",
-        text: "Even on a floor that doesn't need protecting, a mat can make rolling smoother and reduce noise, so it's a comfort upgrade rather than a necessity in that case.",
-      },
+        "label": "Lorell Tempered Glass Chairmat Multi",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Kuyal Clear Chair Mat for Hard Floors unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Weight Capacity",
-    table: {
-      headers: ["Capacity needed", "Best pick"],
-      rows: [
-        ["Standard chair and user", "HON/OFM Essentials, Kuyal, Floortex, Marvelux"],
-        ["Heavier chair or user, up to 1,200 lbs", "GLSLAND Tempered Glass"],
-        ["Highest capacity in this guide, 1,400 lbs", "MuArts Crystal Clear Heavy Duty"],
-        ["Over 1,000 lbs, any floor type", "Lorell Tempered Glass Multi-Surface"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HON/OFM Essentials Chair Mat for Low Pile Carpet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Best pick"],
-      rows: [
-        ["Under $35", "Kuyal Clear Chair Mat for Hard Floors"],
-        ["$45-$65, carpet or dual-use", "HON/OFM Essentials, MuArts Crystal Clear, GLSLAND Tempered Glass"],
-        ["$100-$125, wider or higher-pile carpet", "Floortex Ultimat, Marvelux Heavy Duty"],
-        ["$135+, largest or most versatile glass", "Koonmi Tempered Glass, Lorell (check current price)"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HON/OFM Essentials Chair Mat for Low Pile Carpet is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Material Trade-Offs at a Glance",
-    intro:
-      "Understanding these 3 categories up front prevents comparing a $32 mat and a $135 mat as if they solve the same problem.",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "PVC/vinyl",
-        text: "Cheapest, good for standard low pile carpet or hard floor, but least durable over years of daily use and prone to yellowing.",
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Lorell Tempered Glass Chairmat Multi's build gives real headroom over the cheaper picks."
       },
       {
-        label: "Polycarbonate",
-        text: "More impact-resistant than PVC and, in the Marvelux pick's case, rated for thicker carpet pile than any PVC mat in this guide.",
-      },
-      {
-        label: "Tempered glass",
-        text: "Most durable and heaviest, dual-use on carpet or hard floor, but priciest, the GLSLAND, Koonmi, and Lorell picks all fall in this category.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Kuyal Clear Chair Mat for Hard Floors covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

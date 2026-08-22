@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/3196RLRDnSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLN4RFQ8?tag=deskfinds0d-20",
     description:
-      "The Sweetcrispy is the cheapest white nightstand in this list, built from a metal frame and engineered wood with arch handles and an end-stop design that keeps drawers from being pulled all the way out by accident. A water-resistant wooden top adds some spill protection despite the low price.\n\nIt skips charging entirely and rates for 44 lbs, and assembly takes about 15 minutes, making it a straightforward pick for a first apartment or guest room on a tight budget.",
+      "The Sweetcrispy is the cheapest white nightstand in this list, built from a metal frame and engineered wood with arch handles and an end-stop design that keeps drawers from being pulled all the way out by accident. A water-resistant wooden top adds some spill protection despite the low price.\n\nIt skips charging entirely and rates for 44 lbs, and assembly takes about 15 minutes, making it a straightforward pick for a first apartment or guest room on a tight budget.\n\nWorth calling out specifically: end-stop design prevents drawers pulling all the way out. The catch is no charging ports at all.",
     specs: [
       "18\"W x 11.8\"D x 20\"H",
       "Metal frame + engineered wood",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31TLpyPoKqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6XX3Q7B?tag=deskfinds0d-20",
     description:
-      "The WLIVE White is the best-selling pick in this list, with three removable, foldable fabric drawers set into an MDF and steel frame. At 29.5\" tall it's also the tallest pick here, suiting beds with a box spring or a thick mattress topper.\n\nIts removable drawer design is unique in this list, useful for quick cleaning, and it works as a slim dresser as easily as a nightstand. It skips charging entirely, keeping it simple and affordable.",
+      "The WLIVE White is the best-selling pick in this list, with three removable, foldable fabric drawers set into an MDF and steel frame. At 29.5\" tall it's also the tallest pick here, suiting beds with a box spring or a thick mattress topper.\n\nIts removable drawer design is unique in this list, useful for quick cleaning, and it works as a slim dresser as easily as a nightstand. It skips charging entirely, keeping it simple and affordable.\n\nTallest pick, suits raised beds. Set against that, no charging ports at all. Both matter when comparing it to the other picks here.",
     specs: [
       "15.7\"L x 11.8\"W x 29.5\"H (tallest in this list)",
       "MDF + steel frame",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31nQLXIPNTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DPFP1F4S?tag=deskfinds0d-20",
     description:
-      "The BOLUO combines metal, engineered wood, and MDF with removable wooden handles, a detail no other pick in this list offers, letting you swap or remove the handles for a cleaner look. LED lighting cycles through 20-plus DIY color options.\n\nCharging includes 2 AC outlets and 2 USB ports, and adjustable feet help it sit level on uneven flooring at its 23.6\" height.",
+      "The BOLUO combines metal, engineered wood, and MDF with removable wooden handles, a detail no other pick in this list offers, letting you swap or remove the handles for a cleaner look. LED lighting cycles through 20-plus DIY color options.\n\nCharging includes 2 AC outlets and 2 USB ports, and adjustable feet help it sit level on uneven flooring at its 23.6\" height.\n\nA genuine advantage here is that 20+ DIY color LED options. The tradeoff is no electrical safety certification listed.",
     specs: [
       "15.7\"W x 11.8\"D x 23.6\"H",
       "Metal + engineered wood + MDF",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41irszZ0b7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL1TMR52?tag=deskfinds0d-20",
     description:
-      "The SONGMICS BELLAH packs more charging ports than any other pick in this list, 2 AC outlets, 2 USB-A, and 1 USB-C for 5 total. Particleboard, steel, and a PVC leather finish combine for a 66 lb capacity rating.\n\nApp-controlled LED adds music sync, and an anti-tip kit is included, a sensible addition on any nightstand with this much built-in electronics.",
+      "The SONGMICS BELLAH packs more charging ports than any other pick in this list, 2 AC outlets, 2 USB-A, and 1 USB-C for 5 total. Particleboard, steel, and a PVC leather finish combine for a 66 lb capacity rating.\n\nApp-controlled LED adds music sync, and an anti-tip kit is included, a sensible addition on any nightstand with this much built-in electronics.\n\nSolid 66 lb capacity rating. On the other hand, no electrical safety certification listed. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.6\"W x 11.8\"D x 23.8\"H",
       "Particleboard + steel + PVC leather",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419Xl-xmf5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBMY2SBB?tag=deskfinds0d-20",
     description:
-      "The Somdot runs the most capable LED system in this list alongside the Yoobure below, with voice, app, timer, and music-sync modes rather than a basic color cycle. E1-grade MDF and a powder-coated steel frame are FSC certified with a lead-free coating, the only pick in this list with that eco and material safety certification.\n\nIt includes 2 AC outlets, 1 USB-A, and 1 USB-C port for charging, at a 23.6\" height that suits low to mid-height beds.",
+      "The Somdot runs the most capable LED system in this list alongside the Yoobure below, with voice, app, timer, and music-sync modes rather than a basic color cycle. E1-grade MDF and a powder-coated steel frame are FSC certified with a lead-free coating, the only pick in this list with that eco and material safety certification.\n\nIt includes 2 AC outlets, 1 USB-A, and 1 USB-C port for charging, at a 23.6\" height that suits low to mid-height beds.\n\nAdvanced LED control: voice, app, timer, music sync. That's a real strength, but weigh it against the flip side: fSC certification covers material sourcing, not electrical safety.",
     specs: [
       "15.7\"W x 11.8\"D x 23.6\"H",
       "E1 MDF + powder-coated steel",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ApseNQRQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CLNZFYMN?tag=deskfinds0d-20",
     description:
-      "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, the kind of tested overcurrent and short-circuit protection worth prioritizing on any nightstand you plan to charge a phone on overnight. A solid wood frame and engineered wood construction are reinforced by an X-bar support frame.\n\nIt adds 16 RGB colors and 22 lighting modes controllable by app or remote, along with 2 AC outlets and 2 USB ports, and it ties for the highest rating in this list at 4.5 stars.",
+      "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, the kind of tested overcurrent and short-circuit protection worth prioritizing on any nightstand you plan to charge a phone on overnight. A solid wood frame and engineered wood construction are reinforced by an X-bar support frame.\n\nIt adds 16 RGB colors and 22 lighting modes controllable by app or remote, along with 2 AC outlets and 2 USB ports, and it ties for the highest rating in this list at 4.5 stars.\n\nWorth calling out specifically: 16 RGB colors and 22 lighting modes. The catch is smaller review sample than the best-selling picks.",
     specs: [
       "15.4\"W x 11.8\"D x 25.6\"H",
       "Solid wood frame + engineered wood",
@@ -256,7 +256,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41YcasPJsML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9PX3NTF?tag=deskfinds0d-20",
     description:
-      "The WLIVE White LED packs 3 USB ports (2 front-facing plus 1 rear for the LED strip) alongside 2 AC outlets, tying for the most total USB ports in this list. MDF and a steel frame support a 55 lb capacity rating, second only to the SONGMICS BELLAH's 66 lbs.\n\nRGB LED lighting runs through an app called iStrip+, and the top surface is waterproof, useful for a nightstand that doubles as a spot for a water glass.",
+      "The WLIVE White LED packs 3 USB ports (2 front-facing plus 1 rear for the LED strip) alongside 2 AC outlets, tying for the most total USB ports in this list. MDF and a steel frame support a 55 lb capacity rating, second only to the SONGMICS BELLAH's 66 lbs.\n\nRGB LED lighting runs through an app called iStrip+, and the top surface is waterproof, useful for a nightstand that doubles as a spot for a water glass.\n\nTies for the most USB ports at 3 total. Set against that, no electrical safety certification listed. Both matter when comparing it to the other picks here.",
     specs: [
       "15.67\"W x 11.73\"D x 25.19\"H",
       "MDF + steel",
@@ -288,7 +288,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411Z-DMTEAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYB7M3TY?tag=deskfinds0d-20",
     description:
-      "The JOONEE stands apart in this list with a vertically textured paint pattern and solid pine wood legs, the only pick here with genuine solid-wood legs rather than an all-engineered-wood or metal-frame build. It combines 2 drawers with a dedicated charging station, LED atmosphere lighting, and an open shelf.\n\nAnti-slip rubber pads round out the base, and the design-forward look makes it the most premium pick in this list for buyers who want a nightstand that reads as furniture rather than a budget storage unit.",
+      "The JOONEE stands apart in this list with a vertically textured paint pattern and solid pine wood legs, the only pick here with genuine solid-wood legs rather than an all-engineered-wood or metal-frame build. It combines 2 drawers with a dedicated charging station, LED atmosphere lighting, and an open shelf.\n\nAnti-slip rubber pads round out the base, and the design-forward look makes it the most premium pick in this list for buyers who want a nightstand that reads as furniture rather than a budget storage unit.\n\nA genuine advantage here is that most unique, design-forward look in this list. The tradeoff is most expensive pick in this list.",
     specs: [
       "15.7\"W x 11.8\"D x 25.2\"H",
       "MDF + solid pine legs",
@@ -341,116 +341,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match nightstand height to mattress-top height, not bed frame height",
-    explanation:
-      "The top of your nightstand should land within 2-4 inches of where your mattress top sits, not the bed frame itself. Standard nightstands run 23-28\"H; a unit shorter than 23\" suits a low platform bed, while a taller unit like the WLIVE White 3-Drawer at 29.5\"H suits a bed with a box spring or a thick mattress topper.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a nightstand white often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Never charge overnight without a listed electrical certification",
-    explanation:
-      "If a nightstand has any built-in charging feature, only trust units with a UL or ETL listing on the electrical components, which indicates tested overcurrent, overvoltage, short-circuit, and over-temperature protection. In this list, only the Yoobure carries that certification.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the nightstand white holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "White finishes show scuffs and dust more visibly than darker colors",
-    explanation:
-      "A white nightstand near a bed gets bumped by knees, phone chargers, and books more than most furniture, and scuffs show up faster on white than on brown or black finishes. Look for a wipeable, water-resistant top coating rather than a raw painted surface if you want it to stay looking clean.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this nightstand white over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "USB-C matters more than USB-A port count in 2026",
-    explanation:
-      "Most current phones and laptops charge over USB-C, so a nightstand with only USB-A ports is now the less useful configuration for most buyers. Picks like the BOLUO, SONGMICS BELLAH, Somdot, and Yoobure all include USB-C worth checking for before you buy.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any nightstand white you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Material certifications (like FSC) are not the same as electrical safety certifications",
-    explanation:
-      "An FSC certification, like the one on the Somdot, confirms responsibly sourced wood and a lead-free coating, which is a material and health claim, not a guarantee about the safety of its charging electronics. Check for FCC or ETL separately if electrical safety is your priority.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A nightstand white that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Your Mattress-Top Height",
-    intro:
-      "Measure from the floor to the top of your mattress, not the bed frame, then match that number to a nightstand within 2-4 inches of it.",
-    table: {
-      headers: ["Mattress-top height", "Nightstand height needed", "Best pick"],
-      rows: [
-        ["Low platform bed, under 21\"", "20\"H", "Sweetcrispy White 2-Drawer"],
-        ["Standard bed, 22-24\"", "23.6-23.8\"H", "BOLUO White LED, Somdot White Leather, SONGMICS BELLAH White"],
-        ["Box spring or thick topper, 25-26\"", "25.2-25.6\"H", "Yoobure White 3-Drawer, WLIVE White LED, JOONEE Pine Legs"],
-        ["Tall raised bed, 29\"+", "29.5\"H", "WLIVE White 3-Drawer Fabric Dresser"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Sweetcrispy White 2"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "WLIVE White 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Charging Needs",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $22",
+          "Sweetcrispy White 2"
+        ],
+        [
+          "Up to $66",
+          "JOONEE White Nightstand with Vertical Texture and Solid Pine Legs"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Sweetcrispy White 2 vs JOONEE White Nightstand with Vertical Texture and Solid Pine Legs",
+    "cards": [
       {
-        label: "Want certified, tested electrical safety",
-        text: "The Yoobure is the only pick in this list with FCC and ETL certification on its charging components, worth prioritizing if you plan to charge devices overnight.",
+        "label": "Sweetcrispy White 2",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want the most ports available",
-        text: "The SONGMICS BELLAH packs 5 total ports, 2 AC, 2 USB-A, and 1 USB-C, more than any other pick here.",
-      },
-      {
-        label: "Want responsibly sourced materials",
-        text: "The Somdot is FSC certified with a lead-free coating, worth checking if material sourcing matters as much as charging to you.",
-      },
-      {
-        label: "Don't need charging at all",
-        text: "The Sweetcrispy and WLIVE White 3-Drawer both skip charging entirely, removing the electrical safety question altogether.",
-      },
+        "label": "JOONEE White Nightstand with Vertical Texture and Solid Pine Legs",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Sweetcrispy White 2 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Weight Capacity Needs",
-    intro:
-      "If you're storing real books or heavier items rather than light decor, prioritize the picks with explicitly rated higher capacity.",
-    table: {
-      headers: ["What you're storing", "Capacity needed", "Best pick"],
-      rows: [
-        ["Phone, glasses, light decor", "Under 44 lbs", "Sweetcrispy White, WLIVE White 3-Drawer"],
-        ["A modest stack of books", "50-55 lbs", "WLIVE White LED"],
-        ["Heaviest-rated capacity in this list", "66 lbs", "SONGMICS BELLAH White"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "WLIVE White 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Design Priority",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Want the most unique, premium design",
-        text: "The JOONEE's vertical texture and solid pine legs make it the most furniture-like, design-forward pick in this list.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "Want customizable handles",
-        text: "The BOLUO is the only pick with removable wooden handles you can swap out or remove for a cleaner look.",
-      },
-      {
-        label: "Want the most proven, simplest option",
-        text: "The WLIVE White 3-Drawer is the best-selling pick in this list, with removable fabric drawers that also double as a slim dresser.",
-      },
-      {
-        label: "Want the absolute lowest price",
-        text: "The Sweetcrispy White is the cheapest pick in this list at $21.99, with no charging features.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "WLIVE White 3 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Certification Quick Reference",
-    intro:
-      "Only two picks in this guide carry a listed certification, and they cover different things. Check which one matters more for your needs.",
-    table: {
-      headers: ["Pick", "Certification", "What it means"],
-      rows: [
-        ["Yoobure White 3-Drawer", "FCC & ETL certified", "Tested overcurrent, overvoltage, short-circuit, and over-temperature protection"],
-        ["Somdot White Leather", "FSC certified, lead-free coating", "Responsibly sourced wood and a health-safe coating, not an electrical safety claim"],
-        ["All other picks in this list", "None listed", "Charging ports (where included) are functional but not independently safety-tested"],
-      ],
-    },
-    note: "If a nightstand's listing doesn't mention UL, ETL, or FCC certification on the electrical parts, treat that as a gap, not a guarantee of safety, especially for overnight use.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where JOONEE White Nightstand with Vertical Texture and Solid Pine Legs's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Sweetcrispy White 2 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

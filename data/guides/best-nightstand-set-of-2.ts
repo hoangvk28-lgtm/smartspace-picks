@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41kJnJnybVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9GXYT5D?tag=deskfinds0d-20",
     description:
-      "HOOBRO's set of 2 is the best-reviewed pair in this list, with each 15 x 11 x 21.7 inch table built from particleboard and metal and fitted with 1 AC outlet, 1 USB-A, and 1 USB-C port. Two open shelf tiers per table keep books and chargers within easy reach.\n\nA 4.9 foot cord on each table gives more reach to a wall outlet than most compact nightstand sets, and adjustable feet keep both tables level even on uneven bedroom flooring. It's a straightforward, well-reviewed pair for buyers who want charging without paying for drawers.",
+      "HOOBRO's set of 2 is the best-reviewed pair in this list, with each 15 x 11 x 21.7 inch table built from particleboard and metal and fitted with 1 AC outlet, 1 USB-A, and 1 USB-C port. Two open shelf tiers per table keep books and chargers within easy reach.\n\nA 4.9 foot cord on each table gives more reach to a wall outlet than most compact nightstand sets, and adjustable feet keep both tables level even on uneven bedroom flooring. It's a straightforward, well-reviewed pair for buyers who want charging without paying for drawers.\n\nUSB-C included on both tables. On the other hand, open shelves only, no drawers. Neither should be a surprise once you know to look for it.",
     specs: [
       "15\"L x 11\"W x 21.7\"H per table",
       "Particleboard + metal, set of 2",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/315P-IjJKpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VL3VWDN?tag=deskfinds0d-20",
     description:
-      "Bonnlo is the only soft-close pick in this list, with 2 drawers per table gliding shut on plastic stoppers instead of slamming, a real difference for a light sleeper on the other side of the bed. P2 MDF and wood construction is finished with a waterproof surface.\n\nCurved legs give the pair a softer silhouette than the boxy metal-frame sets elsewhere in this list, and each table is rated for 50 lbs. There's no charging station here, so it's built for buyers who want quiet, closed drawer storage over USB ports.",
+      "Bonnlo is the only soft-close pick in this list, with 2 drawers per table gliding shut on plastic stoppers instead of slamming, a real difference for a light sleeper on the other side of the bed. P2 MDF and wood construction is finished with a waterproof surface.\n\nCurved legs give the pair a softer silhouette than the boxy metal-frame sets elsewhere in this list, and each table is rated for 50 lbs. There's no charging station here, so it's built for buyers who want quiet, closed drawer storage over USB ports.\n\nWaterproof surface. That's a real strength, but weigh it against the flip side: no charging ports at all.",
     specs: [
       "15.74\"L x 11.81\"W x 23.66\"H per table",
       "P2 MDF + wood, set of 2",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41TjFL9gjNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3L38M1N?tag=deskfinds0d-20",
     description:
-      "Furologee pairs app-controlled LED lighting with 2 outlets and 2 USB ports on each 14.96 x 11 x 23.62 inch table, giving both sides of the bed matching ambient lighting alongside charging. Two fabric drawers per table sit above a 2-tier open shelf.\n\nParticleboard and metal construction keeps the set affordable relative to its LED and charging feature set, and a 4.9 foot cord per table matches the reach of the HOOBRO pair. It's the pick for buyers who want LED lighting on both nightstands without paying set-of-2 prices for a premium finish.",
+      "Furologee pairs app-controlled LED lighting with 2 outlets and 2 USB ports on each 14.96 x 11 x 23.62 inch table, giving both sides of the bed matching ambient lighting alongside charging. Two fabric drawers per table sit above a 2-tier open shelf.\n\nParticleboard and metal construction keeps the set affordable relative to its LED and charging feature set, and a 4.9 foot cord per table matches the reach of the HOOBRO pair. It's the pick for buyers who want LED lighting on both nightstands without paying set-of-2 prices for a premium finish.\n\nWorth calling out specifically: 2 outlets + 2 USB per table. The catch is no USB-C port confirmed.",
     specs: [
       "14.96\"W x 11\"D x 23.62\"H per table",
       "Particleboard + metal, set of 2",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41HhnVgvz5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCS7WTTF?tag=deskfinds0d-20",
     description:
-      "LOAKEKEL's black set is the only pair in this list backed by a lifetime warranty, a meaningful detail on furniture meant to stay in a bedroom for years. Each 15.35 x 11.41 x 23.3 inch table includes 2 outlets, 1 USB-A, and 1 USB-C port alongside RGB LED lighting.\n\nFSC-certified wood and metal construction spans 4 tiers per table with 2 fabric drawers, and a stain-resistant finish helps the set hold up to daily bedside use. It's a strong middle-ground pick between the budget open-shelf sets and the pricier farmhouse-style option in this list.",
+      "LOAKEKEL's black set is the only pair in this list backed by a lifetime warranty, a meaningful detail on furniture meant to stay in a bedroom for years. Each 15.35 x 11.41 x 23.3 inch table includes 2 outlets, 1 USB-A, and 1 USB-C port alongside RGB LED lighting.\n\nFSC-certified wood and metal construction spans 4 tiers per table with 2 fabric drawers, and a stain-resistant finish helps the set hold up to daily bedside use. It's a strong middle-ground pick between the budget open-shelf sets and the pricier farmhouse-style option in this list.\n\nUSB-C included on both tables. Set against that, smaller review sample than the top-ranked picks. Both matter when comparing it to the other picks here.",
     specs: [
       "15.35\"W x 11.41\"D x 23.3\"H per table",
       "FSC wood + metal, set of 2",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51KbeMg9hNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK76LPP4?tag=deskfinds0d-20",
     description:
-      "This rustic brown LOAKEKEL set is the cheapest pair in this list that still includes USB-C charging, at 2 outlets, 1 USB-A, and 1 USB-C per table. A 3-tier layout with 1 fabric drawer per table keeps the design lightweight and simple to move.\n\nFSC wood and metal construction carries the same lifetime warranty and stain-resistant finish as the brand's other sets, just with fewer drawers and a lower price. It's the pick for buyers who want charging on a genuinely tight budget.",
+      "This rustic brown LOAKEKEL set is the cheapest pair in this list that still includes USB-C charging, at 2 outlets, 1 USB-A, and 1 USB-C per table. A 3-tier layout with 1 fabric drawer per table keeps the design lightweight and simple to move.\n\nFSC wood and metal construction carries the same lifetime warranty and stain-resistant finish as the brand's other sets, just with fewer drawers and a lower price. It's the pick for buyers who want charging on a genuinely tight budget.\n\nA genuine advantage here is that lifetime warranty. The tradeoff is only 1 drawer per table.",
     specs: [
       "15.35\"W x 11.41\"D x 23.3\"H per table",
       "FSC wood + metal, set of 2",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51M3iGrdtGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK75DY1R?tag=deskfinds0d-20",
     description:
-      "This LOAKEKEL variant steps up to 2 fabric drawers per table across a 4-tier layout, the most drawer capacity per table among the charging sets in this list. Charging stays the same as the brand's other models, 2 outlets, 1 USB-A, and 1 USB-C per table.\n\nFSC wood and metal construction, a stain-resistant finish, and a lifetime warranty carry over from the rest of the LOAKEKEL lineup, making this the pick within the brand's range for buyers who want more enclosed storage than the 3-tier or 1-drawer versions.",
+      "This LOAKEKEL variant steps up to 2 fabric drawers per table across a 4-tier layout, the most drawer capacity per table among the charging sets in this list. Charging stays the same as the brand's other models, 2 outlets, 1 USB-A, and 1 USB-C per table.\n\nFSC wood and metal construction, a stain-resistant finish, and a lifetime warranty carry over from the rest of the LOAKEKEL lineup, making this the pick within the brand's range for buyers who want more enclosed storage than the 3-tier or 1-drawer versions.\n\nUSB-C included on both tables. On the other hand, costs more than the brand's 3-tier version. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.35\"W x 11.41\"D x 23.3\"H per table",
       "FSC wood + metal, set of 2",
@@ -256,7 +256,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41O4afcv2xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CHJ5WDG2?tag=deskfinds0d-20",
     description:
-      "VASAGLE LIRY is the widest and highest-capacity set in this list, with each 17.7 x 15.7 x 23.6 inch table rated for a 132 lb total load and fitted with 2 outlets, 1 USB-A, and 1 USB-C port. A farmhouse-style mix of 1 drawer and 1 open shelf per table balances enclosed and quick-access storage.\n\nMDF construction comes in 2 colorways, Rustic White and Honey Brown, giving more finish flexibility than the single-color sets elsewhere in this list. The larger per-table footprint suits bigger bedrooms better than the more compact pairs here.",
+      "VASAGLE LIRY is the widest and highest-capacity set in this list, with each 17.7 x 15.7 x 23.6 inch table rated for a 132 lb total load and fitted with 2 outlets, 1 USB-A, and 1 USB-C port. A farmhouse-style mix of 1 drawer and 1 open shelf per table balances enclosed and quick-access storage.\n\nMDF construction comes in 2 colorways, Rustic White and Honey Brown, giving more finish flexibility than the single-color sets elsewhere in this list. The larger per-table footprint suits bigger bedrooms better than the more compact pairs here.\n\nWidest per-table footprint in this list. That's a real strength, but weigh it against the flip side: most expensive set in this list.",
     specs: [
       "17.7\"W x 15.7\"D x 23.6\"H per table",
       "MDF, set of 2",
@@ -304,94 +304,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Set-of-2 pricing is per pair, so compare per-table value",
-    explanation:
-      "Every price in this list is for the full set, so a $99.99 set at roughly $50 per table can actually cost less per nightstand than a $59.99 set with smaller tables. Divide the set price by 2 before comparing it to single-nightstand pricing elsewhere.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a nightstands set of 2 often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Only trust a charging set with UL or ETL listed components",
-    explanation:
-      "The same electrical safety rule applies to sets as single nightstands: only buy a charging set of 2 if the outlet strip has a UL or ETL listing, since that confirms overcurrent, overvoltage, short-circuit, and over-temperature protection. Skip any set with no certification stated, no matter how good the price per table looks.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the nightstands set of 2 holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "USB-C should be on both tables, not just described once",
-    explanation:
-      "Since most 2026 phones and laptops charge over USB-C, confirm the listing states USB-C on a per-table basis, not just once in the general description. Every charging set in this list that includes USB-C provides it on both tables, and that consistency is worth checking before buying any competing set.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this nightstands set of 2 over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Matching height matters more in a set than in a single nightstand",
-    explanation:
-      "Because both tables sit visibly on either side of the same bed, even a half-inch height mismatch between mismatched brands looks obvious. Buying a genuine matched set, rather than 2 separate single nightstands from different lines, guarantees both sides sit level with your mattress top.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any nightstands set of 2 you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Soft-close drawers reduce nighttime noise for light sleepers",
-    explanation:
-      "A drawer that slams shut can wake a partner who's already asleep, which matters more in a set of 2 than a single nightstand since both tables get used nightly. If noise is a concern, prioritize a soft-close mechanism like Bonnlo's plastic stoppers over a marginally cheaper set without one.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A nightstands set of 2 that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What Both Sides of the Bed Need",
-    intro:
-      "A matching set only works well if both partners' actual needs, charging, quiet drawers, or storage, are covered by the same pair.",
-    table: {
-      headers: ["Need", "What to prioritize", "Best pick"],
-      rows: [
-        ["Both people charge phones nightly", "USB-C on both tables", "HOOBRO Set of 2, LOAKEKEL Rustic Brown 3-Tier"],
-        ["One partner is a light sleeper", "Soft-close drawers", "Bonnlo White Set of 2"],
-        ["Both want ambient bedside lighting", "App-controlled LED on both tables", "Furologee Black Oak LED"],
-        ["Larger bedroom, want a premium look", "Wider farmhouse-style footprint", "VASAGLE LIRY Farmhouse"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HOOBRO Set of 2 End Tables"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HOOBRO Set of 2 End Tables"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget per Table",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "HOOBRO Set of 2 End Tables"
+        ],
+        [
+          "Up to $100",
+          "VASAGLE LIRY Set of 2"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "HOOBRO Set of 2 End Tables vs VASAGLE LIRY Set of 2",
+    "cards": [
       {
-        label: "Under $25 per table",
-        text: "HOOBRO Set of 2 at $39.98 total works out to under $20 per table with USB-C charging included.",
+        "label": "HOOBRO Set of 2 End Tables",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "$25-30 per table",
-        text: "LOAKEKEL Rustic Brown 3-Tier ($49.98) and 2 Drawers ($56.98) both land in this range with USB-C on both tables.",
-      },
-      {
-        label: "$30-40 per table",
-        text: "Furologee Black Oak LED ($59.98) and LOAKEKEL Black LED ($59.99) add lighting at roughly $30 per table.",
-      },
-      {
-        label: "$40+ per table",
-        text: "Bonnlo White ($79.96) and VASAGLE LIRY Farmhouse ($99.99) trade charging speed or price for soft-close drawers or the highest per-table load capacity.",
-      },
+        "label": "VASAGLE LIRY Set of 2",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to HOOBRO Set of 2 End Tables unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Drawer Count per Table Across This List",
-    intro:
-      "Drawer count varies more than most buyers expect within a single set-of-2 niche.",
-    table: {
-      headers: ["Drawers per table", "Sets", "Best for"],
-      rows: [
-        ["0 (open shelves only)", "HOOBRO Set of 2", "Buyers who don't need enclosed storage"],
-        ["1", "LOAKEKEL Rustic Brown 3-Tier, VASAGLE LIRY Farmhouse", "Light enclosed storage plus open shelving"],
-        ["2", "Bonnlo White, Furologee Black Oak, LOAKEKEL Black LED, LOAKEKEL Rustic Brown 2 Drawers", "Buyers who want the most enclosed storage per table"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HOOBRO Set of 2 End Tables"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Warranty and Long-Term Ownership",
-    intro:
-      "A matching set stays in view every day for years, so warranty length is worth checking the way you would for any large furniture purchase.",
-    table: {
-      headers: ["Pick", "Warranty", "Note"],
-      rows: [
-        ["LOAKEKEL Black LED, Rustic Brown 3-Tier, Rustic Brown 2 Drawers", "Lifetime", "Only lifetime-warranty picks in this list"],
-        ["HOOBRO, Furologee, Bonnlo, VASAGLE LIRY", "Standard manufacturer terms", "Check the listing for the exact coverage window before buying"],
-      ],
-    },
-    note: "If a lifetime warranty matters to you, all 3 LOAKEKEL variants in this list carry it, so the deciding factor between them becomes drawer count and price rather than coverage.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOOBRO Set of 2 End Tables is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where VASAGLE LIRY Set of 2's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HOOBRO Set of 2 End Tables covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

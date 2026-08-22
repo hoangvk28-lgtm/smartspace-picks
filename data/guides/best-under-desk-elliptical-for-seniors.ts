@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31DkFSvNqcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074F1S194?tag=deskfinds0d-20",
     description:
-      "The Cubii JR1 offers a manual, low-impact motion across 8 magnetic resistance levels that's gentle on joints, an important factor for anyone easing into more movement rather than jumping into a high-effort routine. Its 18-inch stride and LCD display keep the basics simple to read at a glance.\n\nAt 25.4 lbs and battery powered, it's easy to position without wrestling with a cord, and Bluetooth syncing to the Cubii App is optional rather than required to use the unit. Its 150 lb max user weight is worth checking against your own weight before buying, since it's the lowest capacity in this guide.",
+      "The Cubii JR1 offers a manual, low-impact motion across 8 magnetic resistance levels that's gentle on joints, an important factor for anyone easing into more movement rather than jumping into a high-effort routine. Its 18-inch stride and LCD display keep the basics simple to read at a glance.\n\nAt 25.4 lbs and battery powered, it's easy to position without wrestling with a cord, and Bluetooth syncing to the Cubii App is optional rather than required to use the unit. Its 150 lb max user weight is worth checking against your own weight before buying, since it's the lowest capacity in this guide.\n\nSimple LCD display, no app required to use it. That's a real strength, but weigh it against the flip side: requires active pedaling effort, not motorized.",
     specs: [
       "Manual magnetic resistance, 8 levels",
       "18-inch stride, low-impact motion",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41eMf-mqUQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DF2WS15J?tag=deskfinds0d-20",
     description:
-      "The Putnen runs on an electric motor with 12 manual speeds plus 3 automatic programs, so it can move the pedals with or without active effort depending on how you set it. Forward and reverse direction and silent operation make it easy to use during a call without drawing attention.\n\nA remote control means no bending down to change settings, a meaningful convenience for anyone with limited mobility. Its 500 lb max user weight is the highest in this guide, backed by an alloy steel frame and a 2-year warranty, all at the cheapest price among the electric picks here.",
+      "The Putnen runs on an electric motor with 12 manual speeds plus 3 automatic programs, so it can move the pedals with or without active effort depending on how you set it. Forward and reverse direction and silent operation make it easy to use during a call without drawing attention.\n\nA remote control means no bending down to change settings, a meaningful convenience for anyone with limited mobility. Its 500 lb max user weight is the highest in this guide, backed by an alloy steel frame and a 2-year warranty, all at the cheapest price among the electric picks here.\n\nWorth calling out specifically: highest weight capacity in this guide at 500 lbs. The catch is smaller review sample than the Cubii JR1.",
     specs: [
       "Electric motor, 12 manual speeds + 3 auto programs",
       "Forward/reverse, silent operation",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51rKK7bnSkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBT7YZG3?tag=deskfinds0d-20",
     description:
-      "The GUGTTR ships fully assembled and runs the same electric motor setup as the Putnen, 12 manual speeds plus 3 automatic programs, with forward and backward direction and silent operation. A 16-inch stride and remote control round out a design built for minimal setup effort.\n\nBacked by a 1-year warranty plus a 3-month return window and lifetime after-sales support, it's the most-reviewed electric pick in this guide. Its 500 lb max user weight matches the Putnen, making either a strong option for higher-capacity needs.",
+      "The GUGTTR ships fully assembled and runs the same electric motor setup as the Putnen, 12 manual speeds plus 3 automatic programs, with forward and backward direction and silent operation. A 16-inch stride and remote control round out a design built for minimal setup effort.\n\nBacked by a 1-year warranty plus a 3-month return window and lifetime after-sales support, it's the most-reviewed electric pick in this guide. Its 500 lb max user weight matches the Putnen, making either a strong option for higher-capacity needs.\n\nShips fully assembled. Set against that, shorter warranty than the Putnen's 2 years. Both matter when comparing it to the other picks here.",
     specs: [
       "Electric motor, 12 manual speeds + 3 auto programs",
       "Ships fully assembled",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51wVaGt8vjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F32YZ2H7?tag=deskfinds0d-20",
     description:
-      "The MERACH MR-E32 uses a 60W motor with 12 manual speeds and 12 automatic programs, the most program variety in this guide, and is rated at just 15dB, the quietest pick here. That noise level feels nearly silent during a call, an important detail for anyone sharing a room with family or on frequent video calls.\n\nAt only 11 lbs with an alloy steel frame, it's also the lightest pick in this guide, easy to lift and reposition without strain. An LED touchscreen plus a remote cover the controls, backed by a 1-year warranty.",
+      "The MERACH MR-E32 uses a 60W motor with 12 manual speeds and 12 automatic programs, the most program variety in this guide, and is rated at just 15dB, the quietest pick here. That noise level feels nearly silent during a call, an important detail for anyone sharing a room with family or on frequent video calls.\n\nAt only 11 lbs with an alloy steel frame, it's also the lightest pick in this guide, easy to lift and reposition without strain. An LED touchscreen plus a remote cover the controls, backed by a 1-year warranty.\n\nA genuine advantage here is that lightest pick, easiest to lift and reposition. The tradeoff is 250 lb max user weight is lower than the Putnen or GUGTTR.",
     specs: [
       "60W motor, 12 manual speeds + 12 auto programs",
       "Rated at 15dB (quietest in this guide)",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51aTXaODIIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCFLWLMW?tag=deskfinds0d-20",
     description:
-      "The Yagud runs on electric/air resistance across 13 speeds ranging from 13 to 105 RPM, controlled entirely by remote so there's no bending down to adjust the pace. An LCD tracks time, speed, calories, and distance for basic session logging.\n\nAt just 6.5kg with a built-in carry handle, it's the lightest and most portable pick in this guide, easy to move between rooms or store in a closet. It's also the cheapest pick in this entire guide and tied with the Cubii JR1 for the highest rating.",
+      "The Yagud runs on electric/air resistance across 13 speeds ranging from 13 to 105 RPM, controlled entirely by remote so there's no bending down to adjust the pace. An LCD tracks time, speed, calories, and distance for basic session logging.\n\nAt just 6.5kg with a built-in carry handle, it's the lightest and most portable pick in this guide, easy to move between rooms or store in a closet. It's also the cheapest pick in this entire guide and tied with the Cubii JR1 for the highest rating.\n\nLightest and most portable, with a built-in carry handle. On the other hand, 200 lb max user weight is on the lower end of this guide. Neither should be a surprise once you know to look for it.",
     specs: [
       "Electric/air resistance, 13 speeds (13-105 RPM)",
       "Remote control included",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41P-VnY+6lL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B009N9PW1Q?tag=deskfinds0d-20",
     description:
-      "The Stamina InMotion E1000 is the only pick in this guide that works both standing and seated, giving flexibility for anyone who wants to alternate positions throughout the day. Manual magnetic resistance across 8 levels with forward and reverse direction keeps the motion adjustable to comfort level.\n\nNon-slip pedals add a stability detail worth noting for anyone concerned about footing, and the müüv app plus LCD cover basic tracking. Unlike the motorized picks in this guide, it still requires active pedaling effort from the user.",
+      "The Stamina InMotion E1000 is the only pick in this guide that works both standing and seated, giving flexibility for anyone who wants to alternate positions throughout the day. Manual magnetic resistance across 8 levels with forward and reverse direction keeps the motion adjustable to comfort level.\n\nNon-slip pedals add a stability detail worth noting for anyone concerned about footing, and the müüv app plus LCD cover basic tracking. Unlike the motorized picks in this guide, it still requires active pedaling effort from the user.\n\nNon-slip pedals add footing stability. That's a real strength, but weigh it against the flip side: requires active pedaling effort, no motorized option.",
     specs: [
       "Manual magnetic resistance, 8 levels",
       "Forward/reverse, non-slip pedals",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vsz0zWT9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FMT1XCHJ?tag=deskfinds0d-20",
     description:
-      "The LifePro AutoGlide combines an electric motorized mode with a manual mode, 10 speeds in each, and forward/reverse direction across both. It's the only pick in this guide with built-in red light therapy, 630nm and 660nm LEDs on each pedal, marketed for reducing inflammation and supporting rehab, a feature worth researching against your own needs before relying on it.\n\nA remote plus LCD cover controls, and its 500 lb max user weight matches the highest capacity picks in this guide. Worth noting: with only 60 reviews, its track record is far smaller than every other pick here, so treat early impressions with some caution.",
+      "The LifePro AutoGlide combines an electric motorized mode with a manual mode, 10 speeds in each, and forward/reverse direction across both. It's the only pick in this guide with built-in red light therapy, 630nm and 660nm LEDs on each pedal, marketed for reducing inflammation and supporting rehab, a feature worth researching against your own needs before relying on it.\n\nA remote plus LCD cover controls, and its 500 lb max user weight matches the highest capacity picks in this guide. Worth noting: with only 60 reviews, its track record is far smaller than every other pick here, so treat early impressions with some caution.\n\nWorth calling out specifically: both motorized and manual modes in one unit. The catch is only 60 reviews, far smaller sample than every other pick in this guide.",
     specs: [
       "Electric motorized + manual mode, 10 speeds per mode",
       "Forward/reverse",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-ppoSRPiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B085DBBQM9?tag=deskfinds0d-20",
     description:
-      "The Exerpeutic 2000M uses an electric motor to move the pedals on its own, controlled by a hand-held remote on a 6-foot cord, the longest remote cord in this guide, useful for anyone who wants the control comfortably within reach at all times. An automatic 15-minute timer keeps sessions simple to manage.\n\nFoldable pedals with adjustable straps work for arms as well as legs, and a floor mat is included. Rated for users up to 286 lbs, its passive movement style makes it a good fit for anyone easing into more activity without active pedaling effort.",
+      "The Exerpeutic 2000M uses an electric motor to move the pedals on its own, controlled by a hand-held remote on a 6-foot cord, the longest remote cord in this guide, useful for anyone who wants the control comfortably within reach at all times. An automatic 15-minute timer keeps sessions simple to manage.\n\nFoldable pedals with adjustable straps work for arms as well as legs, and a floor mat is included. Rated for users up to 286 lbs, its passive movement style makes it a good fit for anyone easing into more activity without active pedaling effort.\n\nFully passive movement, no active pedaling needed. Set against that, 286 lb max user weight is lower than the Putnen or GUGTTR. Both matter when comparing it to the other picks here.",
     specs: [
       "Electric motor, passive movement",
       "Hand-held remote on 6-foot cord (longest in this guide)",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Decide between passive motorized movement and active manual pedaling",
-    explanation:
-      "A motorized pick like the Putnen, GUGTTR, MERACH, Yagud, or Exerpeutic 2000M moves the pedals for you, useful for anyone easing into movement or managing limited mobility. A manual pick like the Cubii JR1 or Stamina InMotion E1000 requires you to drive the motion yourself, which is a more active workout but demands more from the user.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a under desk elliptical often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "A remote control avoids the most common daily friction point",
-    explanation:
-      "Bending down repeatedly to adjust resistance or speed on a floor-level unit is a real barrier for many seniors. Every motorized pick in this guide includes a remote, and the Exerpeutic 2000M's 6-foot cord specifically keeps the control within comfortable reach at all times.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the under desk elliptical holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Aim under 15dB for a nearly silent unit, tolerate up to 30dB",
-    explanation:
-      "A unit rated under 15dB, like the MERACH MR-E32, feels nearly silent, useful in a shared living space. Up to 30dB is still tolerable but noticeable, so if noise is a top concern, prioritize the quietest-rated pick over other features.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this under desk elliptical over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Weight capacity above your own weight adds stability margin",
-    explanation:
-      "Several picks here rate up to 500 lbs, well above what most users weigh, and that extra headroom generally reflects a sturdier overall frame rather than being only relevant to heavier users. A higher-rated frame tends to feel more stable during use regardless of your own weight.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any under desk elliptical you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Be cautious with health claims on newer, less-reviewed products",
-    explanation:
-      "The LifePro AutoGlide's built-in red light therapy is an appealing feature, but with only 60 reviews its track record is far smaller than the other picks in this guide. Research red light therapy claims independently and don't treat marketing language as a substitute for medical advice.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A under desk elliptical that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,68 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Mobility Level",
-    intro:
-      "The right pick depends heavily on whether you want to actively pedal or prefer the motor to do the work.",
-    table: {
-      headers: ["Mobility situation", "What to look for", "Best pick"],
-      rows: [
-        ["Comfortable with active pedaling", "Manual resistance, low-impact motion", "Cubii JR1"],
-        ["Want the motor to do the work", "Motorized with a remote", "Putnen, GUGTTR, MERACH MR-E32"],
-        ["Recovering from injury or very limited mobility", "Fully passive movement", "Exerpeutic 2000M"],
-        ["Want to try both modes without buying two units", "Motorized + manual in one unit", "LifePro AutoGlide"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Cubii JR1 Under Desk Elliptical"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Cubii JR1 Under Desk Elliptical"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Weight Capacity",
-    table: {
-      headers: ["Your weight range", "Recommended capacity", "Best pick"],
-      rows: [
-        ["Under 150 lbs", "Any pick works, prioritize other features", "Cubii JR1"],
-        ["150-250 lbs", "Standard capacity is fine", "MERACH MR-E32, Yagud, Stamina InMotion E1000"],
-        ["Over 250 lbs, want extra stability margin", "500 lb-rated frame", "Putnen, GUGTTR, LifePro AutoGlide"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $60",
+          "Yagud Motorized Under Desk Elliptical"
+        ],
+        [
+          "Up to $200",
+          "LifePro AutoGlide Elliptical"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Noise Sensitivity",
-    cards: [
+    "subheading": "Yagud Motorized Under Desk Elliptical vs LifePro AutoGlide Elliptical",
+    "cards": [
       {
-        label: "Shared living space or frequent calls",
-        text: "The MERACH MR-E32's 15dB rating is the quietest in this guide, feeling nearly silent during use.",
+        "label": "Yagud Motorized Under Desk Elliptical",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Some background noise is fine",
-        text: "The Putnen and GUGTTR's silent-operation motorized designs are still comfortably quiet for most rooms.",
-      },
+        "label": "LifePro AutoGlide Elliptical",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Yagud Motorized Under Desk Elliptical unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Portability Needs",
-    intro:
-      "If you plan to move the unit between rooms or store it away when not in use, weight and built-in handles matter.",
-    table: {
-      headers: ["Need", "What to prioritize", "Best pick"],
-      rows: [
-        ["Move it daily between rooms", "Lightest weight, built-in handle", "Yagud (6.5kg, carry handle)"],
-        ["Occasional repositioning", "Lightweight but not carry-focused", "MERACH MR-E32 (11 lbs)"],
-        ["Stays in one spot", "Weight doesn't matter as much", "Putnen, GUGTTR, LifePro AutoGlide"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Cubii JR1 Under Desk Elliptical"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $65", "Motorized, remote-controlled, portable", "Yagud"],
-        ["$85-$95", "Motorized with high weight capacity", "Putnen, GUGTTR, MERACH MR-E32"],
-        ["$120-$200", "Manual dual-mode, or motorized plus red light therapy", "Stamina InMotion E1000, LifePro AutoGlide"],
-      ],
-    },
-    note: "The LifePro AutoGlide's red light therapy feature is a newer addition with only 60 reviews backing it, worth factoring into your budget decision as a less-proven premium feature rather than a core need.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Cubii JR1 Under Desk Elliptical is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where LifePro AutoGlide Elliptical's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Yagud Motorized Under Desk Elliptical covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

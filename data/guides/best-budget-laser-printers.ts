@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GFXE7NdOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00K5UZO0Q?tag=deskfinds0d-20",
     description:
-      "At under $90, the LBP6030w is one of the cheapest true laser printers available, and it sticks to print-only duty rather than trying to be an all-in-one on a limited budget. Rated at 19 PPM, it's built for straightforward monochrome documents rather than photos or graphics-heavy pages.\n\nA compact wireless single-function design keeps the footprint small on a shared desk, and the 1-year limited warranty is standard for the price tier. Buyers should plan for a toner replacement cartridge purchase sooner than the box implies, since the included starter toner is a lower-yield cartridge.",
+      "At under $90, the LBP6030w is one of the cheapest true laser printers available, and it sticks to print-only duty rather than trying to be an all-in-one on a limited budget. Rated at 19 PPM, it's built for straightforward monochrome documents rather than photos or graphics-heavy pages.\n\nA compact wireless single-function design keeps the footprint small on a shared desk, and the 1-year limited warranty is standard for the price tier. Buyers should plan for a toner replacement cartridge purchase sooner than the box implies, since the included starter toner is a lower-yield cartridge.\n\nA genuine advantage here is that fast, crisp monochrome text output. The tradeoff is print only, no scan or copy.",
     specs: [
       "Monochrome laser, print only",
       "19 PPM rated speed",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31n0Y8gzpfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPL7HRQN?tag=deskfinds0d-20",
     description:
-      "Brother's HL-L2405W wraps mobile printing and Alexa compatibility into a compact monochrome laser body, which suits a home office that wants wireless convenience without stepping up to an all-in-one. The included Refresh Subscription trial gives new buyers a chance to test automatic toner reordering before committing to it.\n\nBuild quality at this tier leans on Brother's reputation for durable budget laser hardware, though like any sub-$150 laser printer it uses lighter-duty internal components than a mid-tier model, expect a 2 to 3 year comfortable lifespan under moderate home use rather than a decade of heavy office duty.",
+      "Brother's HL-L2405W wraps mobile printing and Alexa compatibility into a compact monochrome laser body, which suits a home office that wants wireless convenience without stepping up to an all-in-one. The included Refresh Subscription trial gives new buyers a chance to test automatic toner reordering before committing to it.\n\nBuild quality at this tier leans on Brother's reputation for durable budget laser hardware, though like any sub-$150 laser printer it uses lighter-duty internal components than a mid-tier model, expect a 2 to 3 year comfortable lifespan under moderate home use rather than a decade of heavy office duty.\n\nAlexa voice print command support. On the other hand, no scan or copy functions. Neither should be a surprise once you know to look for it.",
     specs: [
       "Monochrome laser, print only",
       "Wireless and mobile printing",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/316tpuWileL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D96T79YF?tag=deskfinds0d-20",
     description:
-      "The M209d is one of the few printers in this price range with automatic duplex printing built in, which matters for anyone printing double-sided reports or coursework regularly, it saves both paper and the manual flip-and-reload step other budget lasers require. It's wired-only, no wireless connection, which is a real limitation for a shared household setup.\n\nHP markets this as best-for-home-office, and the included USB cable means it's ready to print out of the box without hunting for a cable first. Buyers who need wireless printing should look elsewhere in this list, but for a desk with a dedicated computer connection, the duplex feature is a genuine step up.",
+      "The M209d is one of the few printers in this price range with automatic duplex printing built in, which matters for anyone printing double-sided reports or coursework regularly, it saves both paper and the manual flip-and-reload step other budget lasers require. It's wired-only, no wireless connection, which is a real limitation for a shared household setup.\n\nHP markets this as best-for-home-office, and the included USB cable means it's ready to print out of the box without hunting for a cable first. Buyers who need wireless printing should look elsewhere in this list, but for a desk with a dedicated computer connection, the duplex feature is a genuine step up.\n\nUSB cable included, ready to connect. That's a real strength, but weigh it against the flip side: no wireless connectivity.",
     specs: [
       "Monochrome laser with automatic duplex",
       "Wired USB connection only",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "Stepping up from print-only models, the DCP-L2640DW adds copy and scan alongside automatic duplex printing, making it the most complete budget laser all-in-one in this list. Wireless and mobile printing round out the connectivity, and it works with Alexa for voice-triggered print jobs.\n\nThe higher price reflects the added hardware, a scanner bed and copy function mean more moving parts than a print-only laser, so expect a moderate step down in mechanical simplicity in exchange for genuine multi-function capability. The included Refresh Subscription trial applies here too.",
+      "Stepping up from print-only models, the DCP-L2640DW adds copy and scan alongside automatic duplex printing, making it the most complete budget laser all-in-one in this list. Wireless and mobile printing round out the connectivity, and it works with Alexa for voice-triggered print jobs.\n\nThe higher price reflects the added hardware, a scanner bed and copy function mean more moving parts than a print-only laser, so expect a moderate step down in mechanical simplicity in exchange for genuine multi-function capability. The included Refresh Subscription trial applies here too.\n\nWorth calling out specifically: wireless setup with Alexa support. The catch is most expensive monochrome pick in this list.",
     specs: [
       "Monochrome laser with copy, scan, and duplex",
       "Wireless and mobile printing",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/311SOXNvLIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CFCYYZLM?tag=deskfinds0d-20",
     description:
-      "Color laser printers cost more upfront than monochrome, and the HL-L3220CDW sits at the top of this budget list at just under $285, but it's the only pick here that prints color documents with laser speed and duplex built in. A 250-sheet paper tray reduces how often you're reloading paper compared to the smaller trays on the cheaper picks.\n\nRunning a full 4-toner color laser system means replacement costs are higher than any monochrome pick here when all four cartridges eventually need replacing, budget for that before assuming color laser is automatically cheaper per page than a comparable inkjet for color-heavy printing.",
+      "Color laser printers cost more upfront than monochrome, and the HL-L3220CDW sits at the top of this budget list at just under $285, but it's the only pick here that prints color documents with laser speed and duplex built in. A 250-sheet paper tray reduces how often you're reloading paper compared to the smaller trays on the cheaper picks.\n\nRunning a full 4-toner color laser system means replacement costs are higher than any monochrome pick here when all four cartridges eventually need replacing, budget for that before assuming color laser is automatically cheaper per page than a comparable inkjet for color-heavy printing.\n\nLarge 250-sheet paper tray. Set against that, most expensive pick in this list. Both matter when comparing it to the other picks here.",
     specs: [
       "Color laser with automatic duplex",
       "19 PPM rated output",
@@ -232,35 +232,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "The starter toner cartridge is not the real per-page cost",
-    explanation:
-      "Budget laser printers commonly ship with a starter toner cartridge that prints roughly half the pages of the standard replacement cartridge you'll eventually buy. Look up the replacement cartridge's rated page yield and price before assuming the box's advertised low cost per page applies from day one.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a budget laser printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Budget laser hardware has a shorter realistic lifespan",
-    explanation:
-      "Entry-tier laser printers commonly use plastic gears and lighter-duty pickup rollers, and typically last around 2 to 3 years under moderate home use, compared to 5 or more years for a mid-tier laser model. That's a fair trade for the lower price, but budget for eventual replacement rather than expecting decade-long service.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the budget laser printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Monochrome laser is the cheapest per-page option for text",
-    explanation:
-      "If you're mostly printing text documents, forms, or coursework, a monochrome laser like the Canon LBP6030w or Brother HL-L2405W will have a lower cost per page than any inkjet or color laser. Save color laser for when you specifically need color output regularly.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this budget laser printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Color laser toner replacement costs more than monochrome",
-    explanation:
-      "A color laser printer uses four separate toner cartridges, black, cyan, magenta, and yellow, and replacing all four costs meaningfully more than a single monochrome toner swap. Only choose color laser, like the HL-L3220CDW, if you regularly need color documents rather than occasional use.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any budget laser printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Duplex printing saves paper but isn't universal at this price",
-    explanation:
-      "Automatic duplex printing is available on the HP LaserJet M209d, Brother DCP-L2640DW, and Brother HL-L3220CDW in this list, but not on the two cheapest picks. If you print double-sided documents often, factor the paper and time savings into the higher price of a duplex-equipped model.",
-  },
-  {
-    criterion: "Print-only versus all-in-one changes what breaks first",
-    explanation:
-      "A print-only laser like the LBP6030w or HL-L2405W has fewer mechanical parts than an all-in-one with a scanner bed, which generally means fewer things that can wear out. If you don't need scan or copy, a print-only model is both cheaper and simpler to maintain.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A budget laser printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -273,73 +263,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Print Volume and Function Needs",
-    intro:
-      "Match the printer to how much you actually print and whether you need scan or copy, not just the lowest sticker price.",
-    table: {
-      headers: ["Your situation", "Why", "Best pick"],
-      rows: [
-        ["Occasional light printing, print only", "Lowest cost, no wasted features", "Canon imageCLASS LBP6030w"],
-        ["Want wireless and voice printing", "Alexa and mobile support built in", "Brother HL-L2405W"],
-        ["Print double-sided reports regularly", "Automatic duplex included", "HP LaserJet M209d"],
-        ["Need scan and copy alongside printing", "Only true all-in-one laser here", "Brother DCP-L2640DW"],
-        ["Need color documents at laser speed", "Only color laser pick", "Brother HL-L3220CDW"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon imageCLASS LBP6030w Monochrome Laser Printer"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon imageCLASS LBP6030w Monochrome Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Monochrome or Color Laser",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $88",
+          "Canon imageCLASS LBP6030w Monochrome Laser Printer"
+        ],
+        [
+          "Up to $285",
+          "Brother HL"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Canon imageCLASS LBP6030w Monochrome Laser Printer vs Brother HL",
+    "cards": [
       {
-        label: "Mostly text documents, forms, coursework",
-        text: "A monochrome laser like the Canon LBP6030w or Brother HL-L2405W has the lowest per-page cost and simplest toner system in this list.",
+        "label": "Canon imageCLASS LBP6030w Monochrome Laser Printer",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Regularly need color output",
-        text: "The Brother HL-L3220CDW is the only color laser pick here, budget for a four-cartridge toner replacement when it eventually comes due.",
-      },
+        "label": "Brother HL",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Canon imageCLASS LBP6030w Monochrome Laser Printer unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "The Starter Toner Reality Check",
-    intro:
-      "Every printer in this list ships with a starter toner cartridge rather than a full-yield cartridge, plan your first replacement purchase sooner than the box suggests.",
-    table: {
-      headers: ["What you'll see", "What it means", "What to do"],
-      rows: [
-        ["Advertised cost-per-page on the box", "Usually based on the standard replacement cartridge, not the starter", "Look up the replacement cartridge's own price and page yield separately"],
-        ["Starter cartridge runs out faster than expected", "Starter toner is commonly rated for roughly half the pages of a standard cartridge", "Budget a toner purchase within the first few months of regular use"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "This isn't unique to any one brand, it's standard practice across budget laser printers, so treat the box's advertised page count as a starter-cartridge number, not a lifetime figure.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Canon imageCLASS LBP6030w Monochrome Laser Printer"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Wireless vs Wired Connectivity",
-    intro:
-      "Only one pick in this list is wired-only, which matters if you want to place the printer away from a computer.",
-    table: {
-      headers: ["Connectivity", "Picks", "Best for"],
-      rows: [
-        ["Wireless with mobile printing", "Canon LBP6030w, Brother HL-L2405W, Brother DCP-L2640DW, Brother HL-L3220CDW", "Shared households, flexible placement"],
-        ["Wired USB only", "HP LaserJet M209d", "A dedicated desk with one primary computer"],
-      ],
-    },
-  },
-  {
-    subheading: "Build Quality and Lifespan Expectations",
-    intro:
-      "Setting an honest expectation up front avoids disappointment later, budget laser printers are not built to the same duty cycle as mid-tier office laser models.",
-    cards: [
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
       {
-        label: "Expected lifespan under moderate home use",
-        text: "Plan for roughly 2 to 3 years of comfortable service from any printer in this list. Lighter internal components are the trade-off for the lower price, not a defect specific to one model.",
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
       },
       {
-        label: "When to consider a mid-tier laser instead",
-        text: "If you're printing daily at higher volume, a mid-tier laser with a higher rated duty cycle will likely cost less over 5 years despite a higher purchase price.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "Canon imageCLASS LBP6030w Monochrome Laser Printer is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Brother HL's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Canon imageCLASS LBP6030w Monochrome Laser Printer covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

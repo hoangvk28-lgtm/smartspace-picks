@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51+XOllBO4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQQRSL5S?tag=deskfinds0d-20",
     description:
-      "The OYREL is the most-reviewed fabric 5-tier pick in this list with over 7,300 ratings behind its metal-and-non-woven-fabric build. It holds 20-25 pairs across 5 tiers and includes a side storage bag plus hooks for accessories.\n\nAt 110 lbs total capacity, it's rated higher than most of the other fabric 5-tier picks in this list, and it's waterproof and stackable if you need to expand later. Remember the 20-25 pair figure assumes small shoes stacked close together, real capacity runs lower with larger sizes or boots.",
+      "The OYREL is the most-reviewed fabric 5-tier pick in this list with over 7,300 ratings behind its metal-and-non-woven-fabric build. It holds 20-25 pairs across 5 tiers and includes a side storage bag plus hooks for accessories.\n\nAt 110 lbs total capacity, it's rated higher than most of the other fabric 5-tier picks in this list, and it's waterproof and stackable if you need to expand later. Remember the 20-25 pair figure assumes small shoes stacked close together, real capacity runs lower with larger sizes or boots.\n\n110 lb capacity, highest among the fabric picks here. On the other hand, advertised 20-25 pair capacity assumes small, tightly packed shoes. Neither should be a surprise once you know to look for it.",
     specs: [
       "33.3\"W x 11.2\"D x 35.6\"H",
       "Metal frame + non-woven fabric",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51U8jUhEH+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CTGDZMDG?tag=deskfinds0d-20",
     description:
-      "The VILICK matches the OYREL's overall footprint but adds 3 side pockets, the most of any pick in this list, useful for shoe brushes, polish, or umbrellas that would otherwise clutter the shelves themselves. Metal and non-woven fabric construction keeps it lightweight and waterproof.\n\nRemovable tiers make room for taller boots when needed, and side hooks add further hanging storage. Its 50 lb total capacity is lower than the OYREL's, so it suits everyday shoes better than a heavy boot collection.",
+      "The VILICK matches the OYREL's overall footprint but adds 3 side pockets, the most of any pick in this list, useful for shoe brushes, polish, or umbrellas that would otherwise clutter the shelves themselves. Metal and non-woven fabric construction keeps it lightweight and waterproof.\n\nRemovable tiers make room for taller boots when needed, and side hooks add further hanging storage. Its 50 lb total capacity is lower than the OYREL's, so it suits everyday shoes better than a heavy boot collection.\n\nRemovable tiers accommodate boots. That's a real strength, but weigh it against the flip side: lower 50 lb total capacity than the OYREL.",
     specs: [
       "33.5\"W x 11.2\"D x 35.6\"H",
       "Metal frame + non-woven fabric",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ecyaoQKJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBK1JLNW?tag=deskfinds0d-20",
     description:
-      "The UNITSTAGE is the only pick in this entire list with an enclosed door, wrapping its non-woven fabric and metal frame in a fully closed exterior rather than leaving shelves open. That makes it dustproof, waterproof, and pet-proof, a real advantage if pets or curious kids are getting into an open rack.\n\nAt 27.76 by 30 inches and 64 inches tall, it holds around 20 pairs behind the closed door. The tradeoff versus the open-shelf picks in this list is airflow, an enclosed design traps more moisture around damp shoes than open shelving does.",
+      "The UNITSTAGE is the only pick in this entire list with an enclosed door, wrapping its non-woven fabric and metal frame in a fully closed exterior rather than leaving shelves open. That makes it dustproof, waterproof, and pet-proof, a real advantage if pets or curious kids are getting into an open rack.\n\nAt 27.76 by 30 inches and 64 inches tall, it holds around 20 pairs behind the closed door. The tradeoff versus the open-shelf picks in this list is airflow, an enclosed design traps more moisture around damp shoes than open shelving does.\n\nWorth calling out specifically: dustproof, waterproof, and pet-proof. The catch is enclosed design reduces airflow versus open mesh or wire shelving.",
     specs: [
       "27.76\"L x 30\"W x 64\"H",
       "Non-woven fabric + metal",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51pYRcM954L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N51B6G?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is the only pick in this list with tilt-adjustable mesh shelves, letting you angle each tier for easier viewing or better airflow. Engineered wood combined with metal mesh gives it an industrial look while the mesh itself helps reduce odor by letting air move around stored shoes.\n\nWith a 4.7-star rating, it's the highest-rated wood-and-mesh pick in this list. The top shelf holds up to 44 lbs, while the mesh shelves below are rated for 22 lbs each, a sensible split for heavier daily shoes on top and lighter pairs below.",
+      "The HOOBRO is the only pick in this list with tilt-adjustable mesh shelves, letting you angle each tier for easier viewing or better airflow. Engineered wood combined with metal mesh gives it an industrial look while the mesh itself helps reduce odor by letting air move around stored shoes.\n\nWith a 4.7-star rating, it's the highest-rated wood-and-mesh pick in this list. The top shelf holds up to 44 lbs, while the mesh shelves below are rated for 22 lbs each, a sensible split for heavier daily shoes on top and lighter pairs below.\n\nOnly pick in this list with tilt-adjustable shelves. Set against that, priciest pick in this list at $43.09. Both matter when comparing it to the other picks here.",
     specs: [
       "29.5\"W x 11.8\"D x 31.8\"H",
       "Engineered wood + metal mesh",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41JBvBHx5SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F21GY3VC?tag=deskfinds0d-20",
     description:
-      "The Sakugi is built from thickened metal and rated for 500 lbs per shelf, the highest load-per-shelf rating in this entire guide by a wide margin over every other pick. That capacity makes it the clear choice for a household with heavy boots, work shoes, or simply a lot of shoes concentrated on fewer shelves.\n\nSix side hooks and 4 side rods add hanging storage, and leveling feet plus included wall-anchor hardware round out a rack built with stability in mind at its taller 56.8-inch height.",
+      "The Sakugi is built from thickened metal and rated for 500 lbs per shelf, the highest load-per-shelf rating in this entire guide by a wide margin over every other pick. That capacity makes it the clear choice for a household with heavy boots, work shoes, or simply a lot of shoes concentrated on fewer shelves.\n\nSix side hooks and 4 side rods add hanging storage, and leveling feet plus included wall-anchor hardware round out a rack built with stability in mind at its taller 56.8-inch height.\n\nA genuine advantage here is that wall-anchor hardware included. The tradeoff is narrower 18.1\" width than most other 5-tier picks in this list.",
     specs: [
       "18.1\"W x 12.4\"D x 56.8\"H",
       "Thickened metal",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GrZFMJEeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DNQ8VPT7?tag=deskfinds0d-20",
     description:
-      "The ENJOYBASICS ships as a 3-tier expandable unit, but stacking two together turns it into a 5-tier or 6-tier configuration, giving you a path to more storage without committing to a single fixed-height rack upfront. Its width also expands from 17.8 to 32.7 inches per unit, and assembly is entirely tool-free.\n\nWith a 4.7-star rating, it's the highest-rated expandable-stackable pick in this list. Each unit holds around 12 pairs, so a stacked 5-tier setup lands in the mid-20s pair range once you account for realistic capacity rather than the optimistic per-unit figure.",
+      "The ENJOYBASICS ships as a 3-tier expandable unit, but stacking two together turns it into a 5-tier or 6-tier configuration, giving you a path to more storage without committing to a single fixed-height rack upfront. Its width also expands from 17.8 to 32.7 inches per unit, and assembly is entirely tool-free.\n\nWith a 4.7-star rating, it's the highest-rated expandable-stackable pick in this list. Each unit holds around 12 pairs, so a stacked 5-tier setup lands in the mid-20s pair range once you account for realistic capacity rather than the optimistic per-unit figure.\n\nAdjustable width from 17.8\" to 32.7\" per unit. On the other hand, requires buying and stacking 2 units to reach 5 tiers. Neither should be a surprise once you know to look for it.",
     specs: [
       "Expandable 17.8\"-32.7\"W x 8.9\"D x 17.05\"H per unit",
       "Metal",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41107zv6EsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08MJMN4Q9?tag=deskfinds0d-20",
     description:
-      "This SONGMICS 3-tier unit is both the cheapest and most-reviewed pick in this entire list, with over 21,000 ratings backing its simple stackable metal design. Two units stack into a 5-tier or 6-tier configuration, and it's the only pick in this list that can be used upright or upside-down.\n\nEach tier holds 22 lbs, for 66 lbs total per unit, and tool-free assembly keeps setup quick. At this price, it's a practical starting point if you want to build toward a taller rack over time rather than buying a single fixed 5-tier unit upfront.",
+      "This SONGMICS 3-tier unit is both the cheapest and most-reviewed pick in this entire list, with over 21,000 ratings backing its simple stackable metal design. Two units stack into a 5-tier or 6-tier configuration, and it's the only pick in this list that can be used upright or upside-down.\n\nEach tier holds 22 lbs, for 66 lbs total per unit, and tool-free assembly keeps setup quick. At this price, it's a practical starting point if you want to build toward a taller rack over time rather than buying a single fixed 5-tier unit upfront.\n\nOnly pick in this list usable upright or upside-down. That's a real strength, but weigh it against the flip side: lowest rating in this list at 4.1 stars despite the huge review count.",
     specs: [
       "11.8\"D x 36.2\"W x 21.7\"H per unit",
       "Metal",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51mFbP-en8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BBZYKGYV?tag=deskfinds0d-20",
     description:
-      "The KEETDY is a wide 43-inch metal wire unit with rust-resistant construction and 8-inch tier spacing, the best clearance for boots of any pick in this list. Two units stack into a 6-tier configuration, giving a path past a standard 5-tier setup if needed.\n\nEach shelf holds 50 lbs, and the open wire grid improves airflow around stored shoes compared to solid or fabric shelving, helping reduce odor and moisture buildup. With a 4.7-star rating, it ties the HOOBRO and ENJOYBASICS as the highest-rated picks in this list.",
+      "The KEETDY is a wide 43-inch metal wire unit with rust-resistant construction and 8-inch tier spacing, the best clearance for boots of any pick in this list. Two units stack into a 6-tier configuration, giving a path past a standard 5-tier setup if needed.\n\nEach shelf holds 50 lbs, and the open wire grid improves airflow around stored shoes compared to solid or fabric shelving, helping reduce odor and moisture buildup. With a 4.7-star rating, it ties the HOOBRO and ENJOYBASICS as the highest-rated picks in this list.\n\nWorth calling out specifically: best boot clearance in this list at 8 inches of tier spacing. The catch is requires 2 units stacked to reach a full 5-6 tier setup.",
     specs: [
       "43\"W x 11.4\"D x 24.4\"H per unit",
       "Metal wire, rust-resistant",
@@ -328,30 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "\"Pairs\" capacity claims run optimistic on 5-tier racks too",
-    explanation:
-      "The same inflated pair-count problem seen on narrower and rolling racks applies here, a 33-36 inch wide 5-tier rack advertised at 20-25 pairs usually holds closer to 8-10 pairs per comparable width once you're storing average adult shoes or boots rather than small shoes packed tight.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a 5 tier shoe rack often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Per-shelf load rating varies more than most buyers expect",
-    explanation:
-      "Fabric tiers in this list run as low as 15-22 lbs per shelf, while the Sakugi's thickened metal frame is rated for 500 lbs per shelf. If you're storing heavy boots or work shoes rather than sneakers, prioritize the metal picks with a higher per-shelf rating over a cheaper fabric unit.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the 5 tier shoe rack holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Mesh and wire shelving reduce odor from damp shoes",
-    explanation:
-      "Open mesh or wire shelves let air circulate around stored shoes and help them dry between uses, reducing the odor and mold buildup that solid, fabric, or fully enclosed designs are more prone to trap. If odor control matters, prioritize the mesh or wire-grid picks over an enclosed-door design.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this 5 tier shoe rack over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "An enclosed door trades airflow for full concealment",
-    explanation:
-      "A fully enclosed rack keeps shoes out of sight and protected from dust, pets, and curious kids, but it also reduces airflow compared to open shelving, which matters more if shoes go in still damp. Choose an enclosed design only if concealment matters more than fast drying.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any 5 tier shoe rack you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Stackable units let you scale gradually instead of overbuying",
-    explanation:
-      "Several picks in this list ship as a 3-tier base that stacks into a 5 or 6-tier configuration, letting you start smaller and add a second unit later rather than committing to a single fixed-height rack you might outgrow or overbuy for.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A 5 tier shoe rack that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -364,77 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By What You're Storing",
-    intro:
-      "Match the rack's shelf material and load rating to what's actually going on it, everyday sneakers and heavy boots have very different needs.",
-    table: {
-      headers: ["What you're storing", "Best pick"],
-      rows: [
-        ["Everyday sneakers and flats", "OYREL 5-Tier or SONGMICS 3-Tier Stackable"],
-        ["Heavy boots or work shoes", "Sakugi 5-Tier Heavy-Duty (500 lb/shelf)"],
-        ["Mixed shoes needing more clearance", "KEETDY 3-Tier Wide (8\" tier spacing)"],
-        ["Shoes that need to stay hidden from pets/kids", "UNITSTAGE 5-Tier with Door"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "HOOBRO 5"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "SONGMICS 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "Best pick"],
-      rows: [
-        ["Under $18", "SONGMICS 3-Tier Stackable ($13.99), OYREL ($16.99), ENJOYBASICS ($17.99), VILICK ($17.99)"],
-        ["$24-$31", "UNITSTAGE with Door ($24.99), Sakugi Heavy-Duty ($30.39), KEETDY Wide Wire ($30.97)"],
-        ["$40+", "HOOBRO Adjustable Mesh ($43.09)"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $14",
+          "SONGMICS 3"
+        ],
+        [
+          "Up to $44",
+          "HOOBRO 5"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Extra Feature Priority",
-    cards: [
+    "subheading": "SONGMICS 3 vs HOOBRO 5",
+    "cards": [
       {
-        label: "Want side storage for shoe care items",
-        text: "The VILICK's 3 side pockets are the most in this list, ideal for brushes, polish, or a small umbrella.",
+        "label": "SONGMICS 3",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Want shoes fully hidden and protected",
-        text: "The UNITSTAGE is the only enclosed-door pick in this list, dustproof, waterproof, and pet-proof.",
-      },
-      {
-        label: "Want adjustable, tiltable shelves",
-        text: "The HOOBRO is the only pick in this list where shelves tilt for easier viewing and better mesh airflow.",
-      },
-      {
-        label: "Want the option to grow the rack later",
-        text: "The ENJOYBASICS, SONGMICS 3-Tier, and KEETDY all stack from a smaller base into a full 5 or 6-tier setup.",
-      },
+        "label": "HOOBRO 5",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to SONGMICS 3 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "By Realistic Pair Capacity",
-    intro:
-      "As with narrower and rolling racks, treat the advertised pair count as a best case, not a guarantee.",
-    table: {
-      headers: ["Advertised pairs", "Realistic pairs with average adult shoes", "Best pick"],
-      rows: [
-        ["20-25 pairs (OYREL, VILICK)", "12-16 pairs", "OYREL 5-Tier"],
-        ["20 pairs (UNITSTAGE, enclosed)", "12-15 pairs", "UNITSTAGE 5-Tier with Door"],
-        ["12 pairs per unit (ENJOYBASICS)", "8-10 pairs per unit", "ENJOYBASICS stacked to 5-tier"],
-        ["24 pairs per unit (KEETDY)", "16-18 pairs per unit", "KEETDY 3-Tier Wide"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Boots and men's size 10+ shoes will reduce the realistic count further on every pick in this list.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "SONGMICS 3"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Load-Bearing Needs",
-    table: {
-      headers: ["Per-shelf load need", "Best pick"],
-      rows: [
-        ["Light everyday shoes (15-22 lb/shelf)", "OYREL, VILICK, SONGMICS 3-Tier Stackable"],
-        ["Moderate mixed use (44-50 lb/shelf)", "HOOBRO top shelf, KEETDY 3-Tier Wide"],
-        ["Heavy boots or overloaded shelves (500 lb/shelf)", "Sakugi 5-Tier Heavy-Duty"],
-      ],
-    },
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "SONGMICS 3 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where HOOBRO 5's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where SONGMICS 3 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

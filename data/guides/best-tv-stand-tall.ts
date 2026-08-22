@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jT-ee9G9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08SC31C54?tag=deskfinds0d-20",
     description:
-      "The Yaheetech 3-Tier Tall TV Stand stands 31.5 inches tall, the tallest budget pick in this list, and fits TVs up to 45 inches on a tabletop rated for 55 pounds. Reinforced X-shape side frames add stability so the extra height doesn't come at the cost of a wobbly base, and CARB P2-certified MDF construction keeps material quality in check.\n\nThree open tiers give flexible storage for a streaming box, game console, and books or decor, and the surface is treated to resist dirt and stains for easy cleaning. It carries the highest rating in this entire list at 4.7 stars, making it the strongest overall pick for anyone who wants extra height without a big budget.",
+      "The Yaheetech 3-Tier Tall TV Stand stands 31.5 inches tall, the tallest budget pick in this list, and fits TVs up to 45 inches on a tabletop rated for 55 pounds. Reinforced X-shape side frames add stability so the extra height doesn't come at the cost of a wobbly base, and CARB P2-certified MDF construction keeps material quality in check.\n\nThree open tiers give flexible storage for a streaming box, game console, and books or decor, and the surface is treated to resist dirt and stains for easy cleaning. It carries the highest rating in this entire list at 4.7 stars, making it the strongest overall pick for anyone who wants extra height without a big budget.\n\nTallest budget option at 31.5 inches. On the other hand, max TV size of 45 inches is the smallest fit in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 45 inches",
       "42\" L x 14\" W x 31.5\" H",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GxiO7g3pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09SHDW2KT?tag=deskfinds0d-20",
     description:
-      "The JUMMICO Farmhouse TV Stand stands 27.5 inches tall and fits TVs up to 65 inches, with sliding barn doors that hide storage behind a bright white farmhouse finish. Three levels of adjustable shelving let you configure the interior around different equipment sizes, and the tabletop supports up to 175 pounds.\n\nMetal handles add a finishing touch, and numbered assembly instructions make setup more straightforward than stands that ship with generic diagrams. With over 4,200 ratings at 4.6 stars, it's the most-reviewed tall stand in this list by a wide margin, giving buyers a large track record to lean on before purchasing.",
+      "The JUMMICO Farmhouse TV Stand stands 27.5 inches tall and fits TVs up to 65 inches, with sliding barn doors that hide storage behind a bright white farmhouse finish. Three levels of adjustable shelving let you configure the interior around different equipment sizes, and the tabletop supports up to 175 pounds.\n\nMetal handles add a finishing touch, and numbered assembly instructions make setup more straightforward than stands that ship with generic diagrams. With over 4,200 ratings at 4.6 stars, it's the most-reviewed tall stand in this list by a wide margin, giving buyers a large track record to lean on before purchasing.\n\n175 lb weight capacity. That's a real strength, but weigh it against the flip side: not as tall as the swivel or industrial picks in this list.",
     specs: [
       "Fits TV up to 65 inches",
       "58\" L x 15.5\" W x 27.5\" H",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41BhqoEynRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07MKK75K8?tag=deskfinds0d-20",
     description:
-      "The TAVR Swivel Floor TV Stand is the most height-adjustable pick in this list, extending from 46 to 56.3 inches to fit TVs from 32 to 75 inches with a VESA pattern up to 400x400mm. A plus or minus 30 degree swivel lets you angle the screen toward a couch or kitchen counter without repositioning the entire base.\n\nA tempered glass AV shelf holds a streaming device like an Apple TV or Roku Ultra, and the whole unit supports up to 110 pounds. Setup takes about 15 minutes, and TAVR backs the frame with a 5-year warranty, the longest of any pick in this list. For anyone who wants to dial in an exact height and viewing angle, this is the most flexible option here.",
+      "The TAVR Swivel Floor TV Stand is the most height-adjustable pick in this list, extending from 46 to 56.3 inches to fit TVs from 32 to 75 inches with a VESA pattern up to 400x400mm. A plus or minus 30 degree swivel lets you angle the screen toward a couch or kitchen counter without repositioning the entire base.\n\nA tempered glass AV shelf holds a streaming device like an Apple TV or Roku Ultra, and the whole unit supports up to 110 pounds. Setup takes about 15 minutes, and TAVR backs the frame with a 5-year warranty, the longest of any pick in this list. For anyone who wants to dial in an exact height and viewing angle, this is the most flexible option here.\n\nWorth calling out specifically: ±30° swivel for flexible viewing angles. The catch is slimmer profile offers less storage than cabinet-style stands.",
     specs: [
       "Fits TV 32-75 inches",
       "46\"-56.3\" height adjustable",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nprnhsX8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXPL9XT7?tag=deskfinds0d-20",
     description:
-      "The SIMPLIHOME Artisan Solid Wood TV Stand stands 30 inches tall and is built from 100 percent solid pine rather than engineered wood or MDF, giving it a heavier, more premium feel than most other picks in this list. A tempered glass door with a bronze frame sits alongside 2 smooth metal-glide drawers, and tapered legs lift the whole piece off the floor for a lighter visual footprint.\n\nAn NC lacquer finish highlights the natural wood grain, and the piece fits TVs up to 55 inches. It's the most expensive stand in this list by a wide margin, but for buyers who specifically want solid wood construction rather than particleboard, it's the clear standout.",
+      "The SIMPLIHOME Artisan Solid Wood TV Stand stands 30 inches tall and is built from 100 percent solid pine rather than engineered wood or MDF, giving it a heavier, more premium feel than most other picks in this list. A tempered glass door with a bronze frame sits alongside 2 smooth metal-glide drawers, and tapered legs lift the whole piece off the floor for a lighter visual footprint.\n\nAn NC lacquer finish highlights the natural wood grain, and the piece fits TVs up to 55 inches. It's the most expensive stand in this list by a wide margin, but for buyers who specifically want solid wood construction rather than particleboard, it's the clear standout.\n\nSmooth metal-glide drawers. Set against that, most expensive pick in this list by a wide margin. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TV up to 55 inches",
       "48\" W x 16\" D x 30\" H",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41NEw2qgl+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWD7QH7C?tag=deskfinds0d-20",
     description:
-      "The IFGET 70 inch Tall TV Stand stands 30 inches tall and fits TVs up to 80 inches, the largest TV size supported anywhere in this list. Four large cabinet doors with metal handles hide storage behind a natural oak finish, and a curved safety profile softens the edges around the piece.\n\nTwo levels of adjustable shelving let you reconfigure the interior, and the 100 lb capacity comfortably covers a large TV plus accessories. With a 4.6 star rating, it holds a strong score, though the review count is still building at 102 ratings. For anyone with a large-screen TV who also wants extra height, this is the sized-right option in this list.",
+      "The IFGET 70 inch Tall TV Stand stands 30 inches tall and fits TVs up to 80 inches, the largest TV size supported anywhere in this list. Four large cabinet doors with metal handles hide storage behind a natural oak finish, and a curved safety profile softens the edges around the piece.\n\nTwo levels of adjustable shelving let you reconfigure the interior, and the 100 lb capacity comfortably covers a large TV plus accessories. With a 4.6 star rating, it holds a strong score, though the review count is still building at 102 ratings. For anyone with a large-screen TV who also wants extra height, this is the sized-right option in this list.\n\nA genuine advantage here is that 4 cabinet doors for ample enclosed storage. The tradeoff is smaller review sample (102 ratings) than most other picks.",
     specs: [
       "Fits TV up to 80 inches",
       "70\" W x 15.75\" D x 30\" H",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41cNvygz-uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08M31S9NL?tag=deskfinds0d-20",
     description:
-      "The WLIVE Industrial TV Stand stands 32.5 inches tall, the tallest pick in this entire list, and fits TVs up to 55 inches on a frame built from thick black industrial steel. Five adjustable shelves give plenty of room to organize equipment, and 2 ventilated mesh doors let heat escape from gaming consoles or cable boxes stored inside.\n\nA charcoal black finish leans into an industrial loft aesthetic that pairs well with exposed brick or metal decor accents. The tabletop supports up to 150 pounds, and with 1,370 ratings at 4.6 stars, it has a solid, well-established review base. For anyone who wants maximum height above all else, this is the tallest option evaluated here.",
+      "The WLIVE Industrial TV Stand stands 32.5 inches tall, the tallest pick in this entire list, and fits TVs up to 55 inches on a frame built from thick black industrial steel. Five adjustable shelves give plenty of room to organize equipment, and 2 ventilated mesh doors let heat escape from gaming consoles or cable boxes stored inside.\n\nA charcoal black finish leans into an industrial loft aesthetic that pairs well with exposed brick or metal decor accents. The tabletop supports up to 150 pounds, and with 1,370 ratings at 4.6 stars, it has a solid, well-established review base. For anyone who wants maximum height above all else, this is the tallest option evaluated here.\n\n150 lb capacity. On the other hand, max TV size of 55 inches is smaller than the oak and barn door picks. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TV up to 55 inches",
       "50.4\" W x 14\" D x 32.5\" H",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51lvFmey9eL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJR8WV91?tag=deskfinds0d-20",
     description:
-      "The Casaottima Farmhouse TV Stand fits TVs up to 65 inches and stands 25.6 inches tall with multi-color LED lighting plus 2 AC outlets and 2 USB ports built directly into the frame. A mix of 2 cabinets and 4 open shelves spreads storage across 6 total compartments, giving both concealed and display space in one piece.\n\nA 1-inch-thick tabletop adds a sturdier feel underfoot, and the center shelf adjusts to fit taller equipment. Finished in white, it leans into a versatile farmhouse look that works in most living rooms. With built-in power and LED lighting, it's the most feature-rich tall stand in this list outside of the premium solid wood pick.",
+      "The Casaottima Farmhouse TV Stand fits TVs up to 65 inches and stands 25.6 inches tall with multi-color LED lighting plus 2 AC outlets and 2 USB ports built directly into the frame. A mix of 2 cabinets and 4 open shelves spreads storage across 6 total compartments, giving both concealed and display space in one piece.\n\nA 1-inch-thick tabletop adds a sturdier feel underfoot, and the center shelf adjusts to fit taller equipment. Finished in white, it leans into a versatile farmhouse look that works in most living rooms. With built-in power and LED lighting, it's the most feature-rich tall stand in this list outside of the premium solid wood pick.\n\n6 total storage compartments mix open and enclosed. That's a real strength, but weigh it against the flip side: shorter than the WLIVE and IFGET picks in this list at 25.6 inches.",
     specs: [
       "Fits TV up to 65 inches",
       "59.1\" L x 13.8\" W x 25.6\" H",
@@ -282,7 +282,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qUNoE9YJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NY1J3SP?tag=deskfinds0d-20",
     description:
-      "The Bush Home Key West Tall TV Stand stands 30 inches tall, a height Bush specifically designed for comfortable sofa viewing, and fits TVs up to 65 inches. Farmhouse-style X-pattern doors show off a reclaimed pine wood grain finish, and a mix of adjustable and fixed shelving gives flexibility without sacrificing structural stability.\n\nA center cable cubby keeps wiring organized behind the TV, and the 75 lb capacity comfortably covers a mid-size TV setup. Bush backs the piece with a 1-year warranty. At 4.5 stars across 310 ratings, it holds a solid mid-pack rating, and the reclaimed pine styling stands apart from the more common oak and grey finishes elsewhere in this list.",
+      "The Bush Home Key West Tall TV Stand stands 30 inches tall, a height Bush specifically designed for comfortable sofa viewing, and fits TVs up to 65 inches. Farmhouse-style X-pattern doors show off a reclaimed pine wood grain finish, and a mix of adjustable and fixed shelving gives flexibility without sacrificing structural stability.\n\nA center cable cubby keeps wiring organized behind the TV, and the 75 lb capacity comfortably covers a mid-size TV setup. Bush backs the piece with a 1-year warranty. At 4.5 stars across 310 ratings, it holds a solid mid-pack rating, and the reclaimed pine styling stands apart from the more common oak and grey finishes elsewhere in this list.\n\nWorth calling out specifically: distinctive reclaimed pine wood grain finish. The catch is 75 lb capacity is lower than the industrial and oak picks in this list.",
     specs: [
       "Fits TV up to 65 inches",
       "60\" W x 17\" D x 30\" H",
@@ -308,35 +308,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Stand height vs sofa height",
-    explanation:
-      "A taller stand raises the TV closer to eye level when seated, which reduces neck strain on longer viewing sessions. Measure your sofa's seat height and aim for a stand that puts the screen center roughly at eye level from that seated position.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a tv stand tall often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "TV size fit",
-    explanation:
-      "Taller stands don't automatically support larger TVs, several picks here max out at 45 to 65 inches even at 30+ inches tall. Match the stand's supported TV size to your actual screen, not just its height.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the tv stand tall holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Taller, narrower stands can have lower weight capacity than wide, low consoles because the load sits higher off the base. If you have a large or heavy TV, prioritize stands with a higher rated capacity like the WLIVE (150 lbs) or JUMMICO (175 lbs).",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this tv stand tall over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Fixed height vs adjustable",
-    explanation:
-      "Most tall TV stands have a fixed height, but the TAVR Swivel Floor TV Stand in this list lets you dial in an exact height from 46 to 56.3 inches. If you're unsure of the ideal height for your room, an adjustable base removes the guesswork.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any tv stand tall you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Stability at height",
-    explanation:
-      "Taller stands are more prone to wobble if the base isn't reinforced. Look for details like the Yaheetech's X-shape side frames or a wide, low base, since a tall but narrow stand can feel less stable than a shorter, wider one.",
-  },
-  {
-    criterion: "Storage style",
-    explanation:
-      "Open tiers keep gear accessible but visible, while cabinet doors hide clutter at the cost of easy access. Several tall stands in this list, like the Casaottima, mix both styles across multiple compartments.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A tv stand tall that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

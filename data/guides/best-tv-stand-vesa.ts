@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31MxmRl745L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07KFDS3PT?tag=deskfinds0d-20",
     description:
-      "The PERLESMITH Universal TV Stand Legs PSTVS33 fits TVs from 24 to 60 inches and holds up to 99 pounds, with a max VESA pattern of 400x400mm, covering the vast majority of common mid-size TV mount patterns. It offers 12 total height levels, more adjustment range than any other pick in this list, and the base swivels up to 50 degrees to each side.\n\nWith over 16,400 ratings at 4.7 stars, it's both the most reviewed and the highest rated stand here. An 8mm tempered glass base anchors the unit, and 2 included cable clips keep cords tidy. It's compatible with most major brands including Samsung, LG, and Sony, and installs without drilling into furniture. For most VESA patterns up to 400x400mm, this is the safest starting point.",
+      "The PERLESMITH Universal TV Stand Legs PSTVS33 fits TVs from 24 to 60 inches and holds up to 99 pounds, with a max VESA pattern of 400x400mm, covering the vast majority of common mid-size TV mount patterns. It offers 12 total height levels, more adjustment range than any other pick in this list, and the base swivels up to 50 degrees to each side.\n\nWith over 16,400 ratings at 4.7 stars, it's both the most reviewed and the highest rated stand here. An 8mm tempered glass base anchors the unit, and 2 included cable clips keep cords tidy. It's compatible with most major brands including Samsung, LG, and Sony, and installs without drilling into furniture. For most VESA patterns up to 400x400mm, this is the safest starting point.\n\nA genuine advantage here is that widest swivel range among tabletop picks at 50 degrees. The tradeoff is max VESA 400x400mm won't fit TVs with a wider mount pattern.",
     specs: [
       "Fits TVs 24-60 inches",
       "Max VESA 400x400mm",
@@ -84,7 +84,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41J3pnn8IWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B078MBL6KM?tag=deskfinds0d-20",
     description:
-      "The PERLESMITH Universal TV Stand PSTVS01 is rated for TVs from 20 to 75 inches and up to 110 pounds, with a max VESA support of 800x600mm, the largest hole-pattern range in this list. That wide range is what lets it accommodate larger, heavier TVs whose mount holes are spaced further apart than typical mid-size sets.\n\nOver 18,200 buyers have rated it 4.5 stars, and it ships with 2 different mounting configurations to match whichever holes your TV actually uses within that range. A 10-year warranty backs the stand, the longest coverage among the tabletop options here. If your TV's VESA pattern runs wide, this is the pick built to reach it.",
+      "The PERLESMITH Universal TV Stand PSTVS01 is rated for TVs from 20 to 75 inches and up to 110 pounds, with a max VESA support of 800x600mm, the largest hole-pattern range in this list. That wide range is what lets it accommodate larger, heavier TVs whose mount holes are spaced further apart than typical mid-size sets.\n\nOver 18,200 buyers have rated it 4.5 stars, and it ships with 2 different mounting configurations to match whichever holes your TV actually uses within that range. A 10-year warranty backs the stand, the longest coverage among the tabletop options here. If your TV's VESA pattern runs wide, this is the pick built to reach it.\n\nHighest capacity among tabletop stands at 110 lbs. On the other hand, no swivel function mentioned. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TVs 20-75 inches",
       "Max VESA 800x600mm",
@@ -117,7 +117,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IgKR8lCkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096M4G1H6?tag=deskfinds0d-20",
     description:
-      "The PERLESMITH Universal Swivel TV Stand PSTVS02 fits TVs from 32 to 75 inches and supports a max VESA pattern of 600x400mm, a middle ground between the two picks above. It offers 9 height levels and swivels up to 35 degrees, with a center-column design that saves more floor and tabletop space than the two-leg stands elsewhere in this list.\n\nAt 4.7 stars across nearly 2,000 ratings, it matches the top pick's rating with a solid review base of its own. A tempered glass base adds stability, and the compact center-post footprint makes it well suited to bedrooms, offices, and classrooms where desk space is tight. For a VESA 600x400mm pattern with strong height flexibility, this is the standout.",
+      "The PERLESMITH Universal Swivel TV Stand PSTVS02 fits TVs from 32 to 75 inches and supports a max VESA pattern of 600x400mm, a middle ground between the two picks above. It offers 9 height levels and swivels up to 35 degrees, with a center-column design that saves more floor and tabletop space than the two-leg stands elsewhere in this list.\n\nAt 4.7 stars across nearly 2,000 ratings, it matches the top pick's rating with a solid review base of its own. A tempered glass base adds stability, and the compact center-post footprint makes it well suited to bedrooms, offices, and classrooms where desk space is tight. For a VESA 600x400mm pattern with strong height flexibility, this is the standout.\n\n9 height levels for fine-tuned eye-level adjustment. That's a real strength, but weigh it against the flip side: pricier than the other two PERLESMITH picks in this list.",
     specs: [
       "Fits TVs 32-75 inches",
       "Max VESA 600x400mm",
@@ -150,7 +150,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41486-cr87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00TFXO4Q4?tag=deskfinds0d-20",
     description:
-      "The VIVO Mobile TV Cart STAND-TV03E fits TVs from 32 to 83 inches and holds up to 110 pounds, with a max VESA support of 600x400mm, the largest mount-pattern range among the mobile floor stands in this list. Four locking casters let it roll between rooms and then lock firmly in place, and the frame tilts up to 15 degrees for better viewing angles.\n\nWith over 11,400 ratings at 4.7 stars, it's the highest-rated mobile pick here. A built-in AV shelf holds a DVD player or streaming box, and the cart supports very large TVs up to 83 inches. For anyone who needs the TV to move between spaces while still matching a wide VESA pattern, this is the strongest option.",
+      "The VIVO Mobile TV Cart STAND-TV03E fits TVs from 32 to 83 inches and holds up to 110 pounds, with a max VESA support of 600x400mm, the largest mount-pattern range among the mobile floor stands in this list. Four locking casters let it roll between rooms and then lock firmly in place, and the frame tilts up to 15 degrees for better viewing angles.\n\nWith over 11,400 ratings at 4.7 stars, it's the highest-rated mobile pick here. A built-in AV shelf holds a DVD player or streaming box, and the cart supports very large TVs up to 83 inches. For anyone who needs the TV to move between spaces while still matching a wide VESA pattern, this is the strongest option.\n\nWorth calling out specifically: fits very large TVs up to 83 inches at 110 lbs. The catch is larger floor footprint than tabletop stands.",
     specs: [
       "Fits TVs 32-83 inches (mobile floor stand)",
       "Max VESA 600x400mm",
@@ -183,7 +183,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31Fu+CumYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BYRKVRG6?tag=deskfinds0d-20",
     description:
-      "The Perlegear Floor TV Stand with Power Outlet PGFS06 fits TVs from 32 to 75 inches and holds up to 110 pounds, with a max VESA support of 600x400mm. What sets it apart from the other floor stands here is a built-in power strip with 3 AC outlets and 2 USB ports directly on the frame, so streaming boxes and consoles don't need a separate extension cord.\n\nWith over 1,500 ratings at 4.6 stars, it has a solid track record. The stand offers 12 to 18 height levels across a 35.2 to 46.7 inch range, swivels up to 30 degrees, and rests on a scratch-resistant wood base. A 22 pound capacity AV shelf holds additional gear. For a VESA-compatible floor stand with power built in, this is the strongest pick.",
+      "The Perlegear Floor TV Stand with Power Outlet PGFS06 fits TVs from 32 to 75 inches and holds up to 110 pounds, with a max VESA support of 600x400mm. What sets it apart from the other floor stands here is a built-in power strip with 3 AC outlets and 2 USB ports directly on the frame, so streaming boxes and consoles don't need a separate extension cord.\n\nWith over 1,500 ratings at 4.6 stars, it has a solid track record. The stand offers 12 to 18 height levels across a 35.2 to 46.7 inch range, swivels up to 30 degrees, and rests on a scratch-resistant wood base. A 22 pound capacity AV shelf holds additional gear. For a VESA-compatible floor stand with power built in, this is the strongest pick.\n\n12-18 height levels, the most range among floor stands here. Set against that, fixed floor footprint, no wheels for repositioning. Both matter when comparing it to the other picks here.",
     specs: [
       "Fits TVs 32-75 inches (fixed floor stand)",
       "Max VESA 600x400mm",
@@ -216,7 +216,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419IRtOt9uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08JV1P92F?tag=deskfinds0d-20",
     description:
-      "The YOMT Universal TV Floor Stand fits TVs from 27 to 70 inches and holds up to 88 pounds, with a max VESA support of 400x400mm. Its slim, space-saving frame tucks under a media console more easily than bulkier floor stands, while still swiveling up to 30 degrees on a tempered glass base for stability.\n\nAt 4.7 stars across 1,845 ratings, it holds one of the highest ratings among floor stands in this list. Velcro cable ties keep wiring organized along the pole, and installation is drill-free. For anyone who wants a fixed floor stand that doesn't dominate the room visually, this is the best-looking option evaluated here.",
+      "The YOMT Universal TV Floor Stand fits TVs from 27 to 70 inches and holds up to 88 pounds, with a max VESA support of 400x400mm. Its slim, space-saving frame tucks under a media console more easily than bulkier floor stands, while still swiveling up to 30 degrees on a tempered glass base for stability.\n\nAt 4.7 stars across 1,845 ratings, it holds one of the highest ratings among floor stands in this list. Velcro cable ties keep wiring organized along the pole, and installation is drill-free. For anyone who wants a fixed floor stand that doesn't dominate the room visually, this is the best-looking option evaluated here.\n\nA genuine advantage here is that high 4.7 star rating among floor stands in this list. The tradeoff is max VESA 400x400mm, narrower than the other floor stands here.",
     specs: [
       "Fits TVs 27-70 inches (fixed floor stand)",
       "Max VESA 400x400mm",
@@ -249,7 +249,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31BecNVNatL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08SJGQLFW?tag=deskfinds0d-20",
     description:
-      "The Hemudu Universal Floor TV Stand HT1002B fits TVs from 27 to 65 inches and holds up to 88 pounds, with a max VESA support of 400x400mm. It offers the widest adjustment range in this list, swiveling a full 80 degrees and tilting up to 40 degrees, useful for corner placements or rooms with seating spread across a wide angle.\n\nWith over 3,300 ratings at 4.6 stars, it has a strong, well-established track record. A 10mm tempered glass base is the thickest of any pick here, and 4 height levels allow basic eye-line adjustment. Setup takes about 15 minutes. For tight room corners where the viewing angle changes throughout the day, this is the strongest pick.",
+      "The Hemudu Universal Floor TV Stand HT1002B fits TVs from 27 to 65 inches and holds up to 88 pounds, with a max VESA support of 400x400mm. It offers the widest adjustment range in this list, swiveling a full 80 degrees and tilting up to 40 degrees, useful for corner placements or rooms with seating spread across a wide angle.\n\nWith over 3,300 ratings at 4.6 stars, it has a strong, well-established track record. A 10mm tempered glass base is the thickest of any pick here, and 4 height levels allow basic eye-line adjustment. Setup takes about 15 minutes. For tight room corners where the viewing angle changes throughout the day, this is the strongest pick.\n\nWidest tilt range in this list at 40 degrees. On the other hand, max VESA 400x400mm, narrower than the larger-capacity floor stands. Neither should be a surprise once you know to look for it.",
     specs: [
       "Fits TVs 27-65 inches (fixed floor stand)",
       "Max VESA 400x400mm",
@@ -275,35 +275,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Matching your TV's exact VESA pattern",
-    explanation:
-      "VESA hole spacing is measured in millimeters, like 400x400mm or 600x400mm. A stand's \"max VESA\" number is an upper limit, not a guarantee it covers every pattern below it, so measure your TV's mounting holes or check the manufacturer spec sheet before ordering.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a tv stand vesa often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Weight capacity",
-    explanation:
-      "Match the stand's rated capacity to your TV's actual weight with a margin, not just its screen size. Larger TVs can vary significantly in weight depending on panel technology, so check your TV's spec sheet rather than assuming size alone determines the right stand.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the tv stand vesa holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Tabletop vs floor-standing",
-    explanation:
-      "Tabletop VESA stands sit on existing furniture and need less floor space, while floor-standing units are freestanding and often include AV shelves or built-in power outlets. Choose based on whether you already have furniture to place the TV on.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this tv stand vesa over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Height adjustability",
-    explanation:
-      "More height levels mean finer control over eye-level viewing height, which matters most when the stand sits on furniture of a fixed height. Stands with only a few levels still work but offer less precision than those with 9 or more.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any tv stand vesa you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Swivel and tilt",
-    explanation:
-      "Swivel angle lets you angle the screen toward a seating area off to the side, while tilt helps reduce glare from windows or overhead lighting. Corner placements benefit most from a wider swivel range like the Hemudu's 80 degrees.",
-  },
-  {
-    criterion: "Base material and mobility",
-    explanation:
-      "Tempered glass bases add weight low to the ground for stability, while locking casters on mobile carts trade some stability for the ability to roll the TV between rooms. Pick based on whether the stand needs to stay fixed or move.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A tv stand vesa that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

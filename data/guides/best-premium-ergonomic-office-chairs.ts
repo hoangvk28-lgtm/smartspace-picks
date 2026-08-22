@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
-      "This is the highest priced chair in this list at $129.99, and while that's still well below true premium-brand territory, it packs the strongest combined ergonomic feature set here, adjustable lumbar support, flip-up arms, and a PU leather and mesh hybrid build with an executive profile. The largest review base among the higher-priced picks in this list backs up its real-world durability at this price point.\n\nGetting genuine value from any adjustable ergonomic chair, this one included, generally requires an initial setup period of 6 or more individual adjustments and 30 minutes or so to dial in seat height, lumbar depth, and arm position correctly, not just sitting down and expecting instant comfort. Budget for that setup time rather than judging the chair in the first five minutes.",
+      "This is the highest priced chair in this list at $129.99, and while that's still well below true premium-brand territory, it packs the strongest combined ergonomic feature set here, adjustable lumbar support, flip-up arms, and a PU leather and mesh hybrid build with an executive profile. The largest review base among the higher-priced picks in this list backs up its real-world durability at this price point.\n\nGetting genuine value from any adjustable ergonomic chair, this one included, generally requires an initial setup period of 6 or more individual adjustments and 30 minutes or so to dial in seat height, lumbar depth, and arm position correctly, not just sitting down and expecting instant comfort. Budget for that setup time rather than judging the chair in the first five minutes.\n\nA genuine advantage here is that adjustable lumbar support and flip-up arms. The tradeoff is still budget-to-midrange, not true premium-brand pricing.",
     specs: [
       "PU leather seat, mesh back",
       "Adjustable lumbar support",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qifS1PZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41X9SMT?tag=deskfinds0d-20",
     description:
-      "The Primy is a tall drafting-style chair built for standing desks, extending the usual seat height range with flip-up armrests and an adjustable footrest ring. Fit matters more than brand here, and this chair suits a specific body-plus-desk combination, taller users at a standing desk, better than a general-purpose ergonomic chair built for a standard-height desk would.\n\nLumbar support is included alongside the taller adjustable range, though as with any adjustable chair, expect a real setup period to dial in footrest height, seat height, and lumbar position correctly before it delivers its intended ergonomic value.",
+      "The Primy is a tall drafting-style chair built for standing desks, extending the usual seat height range with flip-up armrests and an adjustable footrest ring. Fit matters more than brand here, and this chair suits a specific body-plus-desk combination, taller users at a standing desk, better than a general-purpose ergonomic chair built for a standard-height desk would.\n\nLumbar support is included alongside the taller adjustable range, though as with any adjustable chair, expect a real setup period to dial in footrest height, seat height, and lumbar position correctly before it delivers its intended ergonomic value.\n\nFlip-up armrests and adjustable footrest ring. On the other hand, tall design is a specific fit, not general-purpose. Neither should be a surprise once you know to look for it.",
     specs: [
       "Tall drafting chair height range",
       "Flip-up armrests",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411wlpMNg+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP22DQQS?tag=deskfinds0d-20",
     description:
-      "The Marsail leads this list on arm adjustability specifically, with 3D armrests that move up and down, forward and back, and pivot inward or outward, plus a confirmed headrest and high-back mesh design. This kind of multi-axis adjustment is the type of feature that genuinely differentiates an ergonomic chair from a basic task chair, regardless of overall price tier.\n\nMesh breathes cooler than the PU leather picks in this list over long sessions, and the confirmed headrest adds neck support other picks here lack. As with any highly adjustable chair, plan for a proper setup session covering seat height, lumbar depth, arm position, and headrest height rather than a five-minute first impression.",
+      "The Marsail leads this list on arm adjustability specifically, with 3D armrests that move up and down, forward and back, and pivot inward or outward, plus a confirmed headrest and high-back mesh design. This kind of multi-axis adjustment is the type of feature that genuinely differentiates an ergonomic chair from a basic task chair, regardless of overall price tier.\n\nMesh breathes cooler than the PU leather picks in this list over long sessions, and the confirmed headrest adds neck support other picks here lack. As with any highly adjustable chair, plan for a proper setup session covering seat height, lumbar depth, arm position, and headrest height rather than a five-minute first impression.\n\nConfirmed headrest. That's a real strength, but weigh it against the flip side: higher price than several other picks.",
     specs: [
       "3D adjustable armrests",
       "High back mesh design",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR pick offers a genuinely useful ergonomic combination for under $60, flip-up armrests, adjustable height, lumbar support, and a high-back mesh design for more upper body coverage than a mid-back alternative. It's a clear value pick in this list rather than a true premium option, and we're honest about that positioning.\n\nAt this price the flip mechanism and adjustment hardware are more likely to use lower-cost materials than the higher-priced picks in this list, so expect somewhat less long-term durability under frequent daily adjustment in exchange for the lower upfront cost.",
+      "This NEO CHAIR pick offers a genuinely useful ergonomic combination for under $60, flip-up armrests, adjustable height, lumbar support, and a high-back mesh design for more upper body coverage than a mid-back alternative. It's a clear value pick in this list rather than a true premium option, and we're honest about that positioning.\n\nAt this price the flip mechanism and adjustment hardware are more likely to use lower-cost materials than the higher-priced picks in this list, so expect somewhat less long-term durability under frequent daily adjustment in exchange for the lower upfront cost.\n\nWorth calling out specifically: high back for more upper body coverage. The catch is lower-cost hardware materials at this price point.",
     specs: [
       "Flip-up armrests",
       "High back mesh design",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
-      "At $38.98 this is the lowest priced chair in this list, and it's genuinely an entry-level ergonomic chair rather than a premium one, covering the basics of lumbar support, adjustable height, and mesh breathability without additional adjustability like flip-up arms or a headrest. We're including it because it's a fair budget baseline against the more feature-rich picks above it.\n\nIf your budget is firmly under $40, this is a reasonable starting point for basic ergonomic support, but expect a shorter break-in period assessment since simpler chairs like this typically have less adjustment range to fine-tune over the first 60 to 90 days of regular use.",
+      "At $38.98 this is the lowest priced chair in this list, and it's genuinely an entry-level ergonomic chair rather than a premium one, covering the basics of lumbar support, adjustable height, and mesh breathability without additional adjustability like flip-up arms or a headrest. We're including it because it's a fair budget baseline against the more feature-rich picks above it.\n\nIf your budget is firmly under $40, this is a reasonable starting point for basic ergonomic support, but expect a shorter break-in period assessment since simpler chairs like this typically have less adjustment range to fine-tune over the first 60 to 90 days of regular use.\n\nCovers basic lumbar and height adjustment. Set against that, no flip-up arms or headrest. Both matter when comparing it to the other picks here.",
     specs: [
       "Mid back mesh design",
       "Lumbar support",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41b4JMojCoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
     description:
-      "The Furmax leans on executive PU leather styling and a high back rather than a deep adjustable feature set, its listing doesn't confirm flip-up arms or a headrest the way several other picks in this list do. Fit matters more than brand or looks here too, so if your priority is genuinely more adjustment points rather than a polished managerial look, this isn't the strongest ergonomic pick in this list.\n\nIt has a solid review base and reasonable price, and remains a fair option if executive appearance matters as much to you as adjustability, but buyers focused purely on ergonomic feature depth should look at the Marsail or the top pick instead.",
+      "The Furmax leans on executive PU leather styling and a high back rather than a deep adjustable feature set, its listing doesn't confirm flip-up arms or a headrest the way several other picks in this list do. Fit matters more than brand or looks here too, so if your priority is genuinely more adjustment points rather than a polished managerial look, this isn't the strongest ergonomic pick in this list.\n\nIt has a solid review base and reasonable price, and remains a fair option if executive appearance matters as much to you as adjustability, but buyers focused purely on ergonomic feature depth should look at the Marsail or the top pick instead.\n\nA genuine advantage here is that high back for full upper body coverage. The tradeoff is fewer confirmed adjustable ergonomic features than other picks.",
     specs: [
       "High back PU leather design",
       "Lumbar support",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
-      "The BestOffice has the largest review count in this entire list by a wide margin, a genuinely useful signal for a budget chair even though it's the most basic feature set here, breathable backrest, lumbar support, and adjustable height without arm adjustability or a headrest. This is clearly entry-level, not premium, and we're upfront about that positioning.\n\nAt this price the sponge seat cushioning is more basic than the higher-priced picks' cushioning materials, and there's no adjustable armrest or headrest to fine-tune, so the setup period here is shorter and simpler than for a more feature-rich chair.",
+      "The BestOffice has the largest review count in this entire list by a wide margin, a genuinely useful signal for a budget chair even though it's the most basic feature set here, breathable backrest, lumbar support, and adjustable height without arm adjustability or a headrest. This is clearly entry-level, not premium, and we're upfront about that positioning.\n\nAt this price the sponge seat cushioning is more basic than the higher-priced picks' cushioning materials, and there's no adjustable armrest or headrest to fine-tune, so the setup period here is shorter and simpler than for a more feature-rich chair.\n\nVery low price. On the other hand, basic entry-level feature set, not premium. Neither should be a surprise once you know to look for it.",
     specs: [
       "Mid-back breathable backrest",
       "Lumbar support",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XIOlHd8WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXGB6L96?tag=deskfinds0d-20",
     description:
-      "This NEO CHAIR variant covers similar entry-level ground to the other budget mid-back picks in this list, mesh seat, lumbar support, adjustable height, without flip-up arms or a headrest. It's a reasonable low-cost option for buyers whose priority is basic mesh breathability and lumbar support over deeper ergonomic adjustability.\n\nAs with the other sub-$40 picks in this list, this one is honestly entry-level rather than premium, and buyers wanting a true premium ergonomic experience should weigh the certified refurbished path covered in this guide's advisory section instead of expecting premium-brand performance from any pick at this price.",
+      "This NEO CHAIR variant covers similar entry-level ground to the other budget mid-back picks in this list, mesh seat, lumbar support, adjustable height, without flip-up arms or a headrest. It's a reasonable low-cost option for buyers whose priority is basic mesh breathability and lumbar support over deeper ergonomic adjustability.\n\nAs with the other sub-$40 picks in this list, this one is honestly entry-level rather than premium, and buyers wanting a true premium ergonomic experience should weigh the certified refurbished path covered in this guide's advisory section instead of expecting premium-brand performance from any pick at this price.\n\nMesh cushion seat for breathability. That's a real strength, but weigh it against the flip side: no arm adjustability or headrest.",
     specs: [
       "Mesh cushion seat",
       "Lumbar support",
@@ -333,35 +333,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "None of these chairs are premium-brand priced, and that's stated upfront",
-    explanation:
-      "Every chair in this list sits between $38.98 and $129.99, a budget-to-midrange price band, not the $600 to $1,500+ range of established premium ergonomic brands. We're covering them for genuinely useful ergonomic features at accessible prices, not claiming brand-level premium positioning.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a premium ergonomic office chair often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "True cost of ownership favors a durable chair over repeated budget replacements",
-    explanation:
-      "A genuinely well-built premium chair can average out to roughly 125 dollars per year over a 12 year lifespan, while repeatedly replacing a failing budget chair every 1 to 2 years can cost more over time and comes with a real health-outcome cost from poor support. Weigh total cost over years, not just the sticker price today.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the premium ergonomic office chair holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Fit matters more than brand or price tier",
-    explanation:
-      "Different chair designs suit different body types and use patterns, a tall drafting chair fits a standing desk user, a chair with strong 3D arms fits someone who needs precise typing posture, better than a general-purpose chair regardless of price. Match the chair's specific design to your actual use case rather than assuming the highest-priced option is automatically the best fit.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this premium ergonomic office chair over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Certified refurbished premium chairs are a legitimate alternative path",
-    explanation:
-      "If true premium-brand ergonomics is your actual goal rather than budget-tier features at a lower price, a certified refurbished chair from an established premium brand often sells for 40 to 60 percent of its new price and is rarely mentioned as an option by budget-focused roundups. This is worth researching directly if brand-level build quality matters more to you than price.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any premium ergonomic office chair you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Real ergonomic value requires an initial setup investment",
-    explanation:
-      "Getting proper value out of any adjustable ergonomic chair, budget or premium, typically requires 6 or more individual adjustments, seat height, lumbar depth, arm height and width, headrest position, and 30 minutes or more to dial in correctly. Judging a chair's comfort in the first five minutes without adjusting it is a common reason buyers underrate a chair that could otherwise fit them well.",
-  },
-  {
-    criterion: "The break-in period can outlast a short return window",
-    explanation:
-      "Many ergonomic chairs have a break-in period of roughly 60 to 90 days before the cushioning and mechanisms settle into their long-term feel, but many retailers offer return windows shorter than that. Some buyers return a chair prematurely during the break-in period before it's had a chance to settle, so check the return window length against the expected break-in period before deciding a chair isn't working.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A premium ergonomic office chair that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -374,73 +364,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Honest Price-Tier Reality Check",
-    intro: "None of these chairs are premium-brand priced. Here's what tier each one actually sits in.",
-    table: {
-      headers: ["Price tier", "Chairs", "Honest positioning"],
-      rows: [
-        ["Under $40", "NEO CHAIR Mid Back, NEO CHAIR Mesh Black, BestOffice", "Entry-level ergonomic basics"],
-        ["$58-$90", "NEO CHAIR Black Flip-Up, Furmax Executive", "Budget-to-midrange, more features or styling"],
-        ["$108-$130", "Primy Drafting, Marsail, Leather Flip-Up Executive", "Highest tier in this list, still budget-to-midrange overall"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "True premium-brand chairs from established manufacturers typically start around $600 new. If that positioning matters to you, see the certified refurbished section below.",
+      "rows": [
+        [
+          "Highest average rating",
+          "Office Chair Ergonomic Desk Chair"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Office Chair Ergonomic Desk Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Body-Fit Decision Tree",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $39",
+          "NEO CHAIR Office Computer Chair"
+        ],
+        [
+          "Up to $130",
+          "Office Chair Ergonomic Desk Chair"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NEO CHAIR Office Computer Chair vs Office Chair Ergonomic Desk Chair",
+    "cards": [
       {
-        label: "Standing desk, taller user",
-        text: "The Primy Drafting Chair's extended height range and adjustable footrest ring fit this use case better than any standard-height chair in this list.",
+        "label": "NEO CHAIR Office Computer Chair",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Need precise typing posture with strong arm adjustment",
-        text: "The Marsail's 3D armrests give the most multi-axis arm positioning in this list.",
-      },
-      {
-        label: "Want the broadest ergonomic feature set at one price",
-        text: "The Leather Flip-Up Executive combines lumbar support, flip-up arms, and mesh plus leather materials in a single pick.",
-      },
-      {
-        label: "Firmly budget-constrained under $40",
-        text: "The BestOffice or either NEO CHAIR budget pick cover lumbar support and height adjustment without paying for extra features.",
-      },
+        "label": "Office Chair Ergonomic Desk Chair",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to NEO CHAIR Office Computer Chair unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Certified Refurbished as a Path to True Premium",
-    intro: "If brand-level premium ergonomics is your actual goal, this is worth researching alongside the picks above.",
-    table: {
-      headers: ["Goal", "Option", "Consideration"],
-      rows: [
-        ["Budget-friendly ergonomic features now", "Any pick in this list", "$38.98-$129.99, genuinely useful features, not brand-premium"],
-        ["True premium-brand build quality", "Certified refurbished premium chair", "Often 40-60% of new price for an established brand, rarely mentioned by budget roundups"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Office Chair Ergonomic Desk Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Setup Time Investment by Feature Depth",
-    table: {
-      headers: ["Feature depth", "Setup time estimate", "Example picks"],
-      rows: [
-        ["Basic lumbar and height only", "Roughly 10-15 minutes", "BestOffice, NEO CHAIR Mid Back"],
-        ["Flip-up arms plus lumbar and height", "Roughly 20-25 minutes", "NEO CHAIR Black Flip-Up, Leather Flip-Up Executive"],
-        ["Full 3D arms, headrest, lumbar, height", "30+ minutes, 6 or more adjustment points", "Marsail"],
-      ],
-    },
-    note: "Budget the full setup time before judging comfort. A chair that feels mediocre unadjusted can feel very different after 30 minutes of proper fitting.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Office Chair Ergonomic Desk Chair is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Break-In Period vs Return Window",
-    table: {
-      headers: ["Consideration", "Typical range", "Recommendation"],
-      rows: [
-        ["Chair break-in period", "60-90 days", "Give any new chair this long before final judgment"],
-        ["Typical retailer return window", "Often 30 days or less", "Check your specific return window before buying if you're on the fence"],
-      ],
-    },
-    note: "A chair that feels off in week one may still be within its normal break-in period. Don't judge permanently until you've hit at least the 30 day mark.",
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Office Chair Ergonomic Desk Chair's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where NEO CHAIR Office Computer Chair covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

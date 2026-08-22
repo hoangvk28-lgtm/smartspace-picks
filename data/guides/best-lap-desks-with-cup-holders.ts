@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Hk-fkvyYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B074473Z6T?tag=deskfinds0d-20",
     description:
-      "This lightweight lap desk includes a built-in cup holder cutout on its surface, positioned to remain reachable without shifting your laptop's balance. At 2.2 pounds and 0.6 inches thick, it is easy to reposition on your lap if you need to adjust for stability.\n\nIts retractable mouse tray is a bonus feature beyond the cup holder itself, and its strong review count gives real confidence in the surface's stability under combined laptop-and-drink use.",
+      "This lightweight lap desk includes a built-in cup holder cutout on its surface, positioned to remain reachable without shifting your laptop's balance. At 2.2 pounds and 0.6 inches thick, it is easy to reposition on your lap if you need to adjust for stability.\n\nIts retractable mouse tray is a bonus feature beyond the cup holder itself, and its strong review count gives real confidence in the surface's stability under combined laptop-and-drink use.\n\nWorth calling out specifically: strong review history. The catch is no active cooling fan.",
     specs: ["Built-in cup holder cutout", "Retractable mouse tray", "2.2 lbs, 0.6in thick", "Fits up to 15.6in laptops"],
     pros: ["Very lightweight and easy to reposition for stability", "Strong review history", "Retractable mouse tray bonus feature", "Affordable"],
     cons: ["No active cooling fan", "Smaller platform, up to 15.6in laptops only", "Cup holder is a simple cutout, not a deep cavity"],
@@ -118,41 +118,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 export interface HowToChooseSection { subheading: string; intro?: string; table?: { headers: string[]; rows: string[][] }; cards?: { label: string; text: string }[]; note?: string; }
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Choose by Priority",
-    table: {
-      headers: ["Priority", "Recommended pick"],
-      rows: [
-        ["Lightest, most proven pick", "AboveTEK Portable Laptop Lap Desk"],
-        ["Most widely trusted overall", "Lap Desk with Cup Holder, Foldable Laptop Table"],
-        ["Wider platform, extra stability margin", "BUYIFY 23.4\" Foldable Lap Desk"],
-        ["Storage drawer plus USB ports", "Zapuno Laptop Lap Desk"],
-        ["Primarily bed use, want a legged base", "Laptop Bed Table with USB Charge Port"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Lap Desk with Cup Holder"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Lap Desk with Cup Holder"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Why Lap Use Changes the Stability Math",
-    note: "A desk-clamped cup holder stays fixed regardless of your movement. A lap desk's whole platform can shift as you adjust position, cross your legs, or lean forward, meaningfully changing the stability calculation for the cup holder built into it.",
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $26",
+          "AboveTEK Portable Laptop Lap Desk with Retractable Mouse Pad Tray"
+        ],
+        [
+          "Up to $33",
+          "Zapuno Laptop Lap Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Flat Lap Desk vs. Legged Bed Desk",
-    cards: [
-      { label: "Flat lap desk", text: "Rests directly on your legs, more portable but relies entirely on your body staying still for stability." },
-      { label: "Legged bed desk", text: "Stands on its own legs over your lap or the mattress, meaningfully more stable but bulkier and less portable." },
+    "subheading": "AboveTEK Portable Laptop Lap Desk with Retractable Mouse Pad Tray vs Zapuno Laptop Lap Desk",
+    "cards": [
+      {
+        "label": "AboveTEK Portable Laptop Lap Desk with Retractable Mouse Pad Tray",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
+      },
+      {
+        "label": "Zapuno Laptop Lap Desk",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to AboveTEK Portable Laptop Lap Desk with Retractable Mouse Pad Tray unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Spilling in Your Lap Is Worse Than Spilling on a Desk",
-    note: "A lap spill lands directly on your clothing and potentially your laptop, a more consequential outcome than a desk spill. Favor picks with strong review histories and, if you use the desk on a soft surface like a bed, consider a legged design for extra stability.",
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Lap Desk with Cup Holder"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Lap Desk with Cup Holder is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Zapuno Laptop Lap Desk's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where AboveTEK Portable Laptop Lap Desk with Retractable Mouse Pad Tray covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Favor picks with strong, proven review histories for stability", explanation: "Lap use shifts with body movement in ways a desk-clamped holder never experiences. A strong review history is real evidence the platform holds up under this realistic combined load." },
-  { criterion: "Consider a legged design for bed or soft-surface use", explanation: "A flat lap desk relies entirely on your body staying still. A legged design that stands independently is meaningfully more stable on a mattress or couch cushion." },
-  { criterion: "Weigh wider platforms for extra stability margin", explanation: "A wider lap desk surface, like the BUYIFY 23.4in pick, provides more stability margin for a laptop and drink combined than a narrower design." },
-  { criterion: "Check cup holder depth for genuine spill protection", explanation: "A simple cutout offers less containment than a deeper cavity. Given the elevated stakes of a lap spill, favor a more protective cup holder design where available." },
-  { criterion: "Consider added features against total weight on your lap", explanation: "A storage drawer or USB hub adds genuine utility but also weight and bulk you'll be balancing directly on your legs for extended periods." },
+  {
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a lap desks with cup holder often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
+  },
+  {
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the lap desks with cup holder holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
+  },
+  {
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this lap desks with cup holder over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
+  },
+  {
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any lap desks with cup holder you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
+  },
+  {
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A lap desks with cup holder that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

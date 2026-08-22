@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4148oCjs9pL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0953928GW?tag=deskfinds0d-20",
     description:
-      "The WLIVE is the most-reviewed nightstand in this entire niche, with over 21,000 ratings backing its simple 2-drawer, MDF-and-steel-frame design. A water-resistant wooden top holds up to spilled water glasses and everyday bedside use.\n\nFCC and ETL certification is confirmed on this listing, and the frame is rated for 100 lbs, a solid capacity for a budget-priced nightstand. It's the safest default pick for buyers who just want a reliable, well-proven 2-drawer nightstand without extras.",
+      "The WLIVE is the most-reviewed nightstand in this entire niche, with over 21,000 ratings backing its simple 2-drawer, MDF-and-steel-frame design. A water-resistant wooden top holds up to spilled water glasses and everyday bedside use.\n\nFCC and ETL certification is confirmed on this listing, and the frame is rated for 100 lbs, a solid capacity for a budget-priced nightstand. It's the safest default pick for buyers who just want a reliable, well-proven 2-drawer nightstand without extras.\n\nFCC and ETL certified. On the other hand, no charging ports. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.7\"L x 11.8\"W x 20.9\"H",
       "MDF + steel frame",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41RmCkzjnML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1Y5VL8D?tag=deskfinds0d-20",
     description:
-      "This Huuger model adds a built-in charging station to a straightforward 2-drawer layout, with 2 AC outlets and a USB-C port alongside the fabric drawers. Powder-coated steel and P2 particleboard construction keep it sturdy at a compact 15.7 x 11.8 x 23.6 inch footprint.\n\nA stain-resistant top and an open shelf below the drawers round out the storage, making it a strong middle-ground pick for buyers who want both enclosed drawers and charging without stepping up to an LED model.",
+      "This Huuger model adds a built-in charging station to a straightforward 2-drawer layout, with 2 AC outlets and a USB-C port alongside the fabric drawers. Powder-coated steel and P2 particleboard construction keep it sturdy at a compact 15.7 x 11.8 x 23.6 inch footprint.\n\nA stain-resistant top and an open shelf below the drawers round out the storage, making it a strong middle-ground pick for buyers who want both enclosed drawers and charging without stepping up to an LED model.\n\nUSB-C included. That's a real strength, but weigh it against the flip side: costs slightly more than the non-charging WLIVE.",
     specs: [
       "15.7\"W x 11.8\"D x 23.6\"H",
       "P2 particleboard + powder-coated steel",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41rJvH8XJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BS98NNCN?tag=deskfinds0d-20",
     description:
-      "Yoobure holds the highest rating among the budget picks in this list at 4.6 stars, built from engineered wood and steel with 2 fabric drawers and a built-in charging station. Two USB ports pair with 2 AC outlets for a straightforward charging layout.\n\nFCC and ETL certification is confirmed, matching the WLIVE's safety credentials, and the frame is rated for the same 100 lb capacity. At 15.75 x 11.81 x 23.62 inches, it's a taller table than the WLIVE, better suited to beds with a thicker mattress or box spring.",
+      "Yoobure holds the highest rating among the budget picks in this list at 4.6 stars, built from engineered wood and steel with 2 fabric drawers and a built-in charging station. Two USB ports pair with 2 AC outlets for a straightforward charging layout.\n\nFCC and ETL certification is confirmed, matching the WLIVE's safety credentials, and the frame is rated for the same 100 lb capacity. At 15.75 x 11.81 x 23.62 inches, it's a taller table than the WLIVE, better suited to beds with a thicker mattress or box spring.\n\nWorth calling out specifically: fCC and ETL certified charging station. The catch is smaller review sample than the WLIVE.",
     specs: [
       "15.75\"L x 11.81\"W x 23.62\"H",
       "Engineered wood + steel",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/314mdkocajL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GL7Z3V7G?tag=deskfinds0d-20",
     description:
-      "Sweetcrispy stands apart from the other budget picks by offering 4 drawers instead of 2, effectively working as a slim dresser rather than a standard nightstand. Alloy steel and engineered wood construction supports the extra drawer count without a big jump in price.\n\nAt 37.5 inches tall, it's significantly taller than any other budget pick in this list, useful if you need vertical storage next to the bed rather than a low, wide surface. A water-resistant wooden top matches the other budget picks, though there's no charging station on this model.",
+      "Sweetcrispy stands apart from the other budget picks by offering 4 drawers instead of 2, effectively working as a slim dresser rather than a standard nightstand. Alloy steel and engineered wood construction supports the extra drawer count without a big jump in price.\n\nAt 37.5 inches tall, it's significantly taller than any other budget pick in this list, useful if you need vertical storage next to the bed rather than a low, wide surface. A water-resistant wooden top matches the other budget picks, though there's no charging station on this model.\n\nTallest budget pick, doubles as a slim dresser. Set against that, no charging ports. Both matter when comparing it to the other picks here.",
     specs: [
       "17.65\"W x 11.82\"D x 37.5\"H",
       "Alloy steel + engineered wood",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51e5gTQeGqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BDFRN629?tag=deskfinds0d-20",
     description:
-      "SUPERJARE's fabric drawer adjusts between 2 depth positions, a patent-pending mechanism that lets you reconfigure the drawer for small items or bulkier gear without buying a different nightstand. A USB-C port and 3-tier open shelving add flexibility on top of the drawer.\n\nP2 particleboard construction keeps the price low despite the adjustable mechanism, and the stain-resistant top holds up to daily use. It's the pick for buyers who want a drawer that can change shape rather than a fixed size.",
+      "SUPERJARE's fabric drawer adjusts between 2 depth positions, a patent-pending mechanism that lets you reconfigure the drawer for small items or bulkier gear without buying a different nightstand. A USB-C port and 3-tier open shelving add flexibility on top of the drawer.\n\nP2 particleboard construction keeps the price low despite the adjustable mechanism, and the stain-resistant top holds up to daily use. It's the pick for buyers who want a drawer that can change shape rather than a fixed size.\n\nA genuine advantage here is that uSB-C included. The tradeoff is only 1 drawer.",
     specs: [
       "15.7\"W x 11.8\"D x 23.4\"H",
       "P2 particleboard + metal",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51fItpM0d4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJMBZ6GJ?tag=deskfinds0d-20",
     description:
-      "This Huuger variant steps up to 3 fabric drawers, the most drawer capacity of any Huuger model in this list, while keeping the same 2 AC outlet and USB-C charging layout as the brand's 2-drawer version. P2 particleboard and powder-coated steel construction carries over unchanged.\n\nAt 27.6 inches tall, it's also the tallest model in the Huuger lineup, which pairs well with a bed that has a thicker mattress or box spring. It's the pick within the brand's range for buyers who need more enclosed storage than the standard 2-drawer model offers.",
+      "This Huuger variant steps up to 3 fabric drawers, the most drawer capacity of any Huuger model in this list, while keeping the same 2 AC outlet and USB-C charging layout as the brand's 2-drawer version. P2 particleboard and powder-coated steel construction carries over unchanged.\n\nAt 27.6 inches tall, it's also the tallest model in the Huuger lineup, which pairs well with a bed that has a thicker mattress or box spring. It's the pick within the brand's range for buyers who need more enclosed storage than the standard 2-drawer model offers.\n\nUSB-C charging included. On the other hand, priciest Huuger model in this list. Neither should be a surprise once you know to look for it.",
     specs: [
       "15.7\"W x 11.8\"D x 27.6\"H",
       "P2 particleboard + powder-coated steel",
@@ -256,7 +256,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31uJPg8lryL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CB31VBK8?tag=deskfinds0d-20",
     description:
-      "Furologee's white end table includes 2 S-hooks built into the frame, a detail unique to this pick in the whole list, useful for hanging a bag or a pair of headphones off the side. Two outlets and 2 USB ports handle charging alongside the 2 fabric drawers.\n\nEngineered wood and metal construction keeps the compact 11.75 x 14.96 x 22.25 inch table light enough to reposition easily, and a 2-tier open shelf below the drawers adds more storage. A 50 lb capacity is on the lower end of this list, so it suits lighter loads.",
+      "Furologee's white end table includes 2 S-hooks built into the frame, a detail unique to this pick in the whole list, useful for hanging a bag or a pair of headphones off the side. Two outlets and 2 USB ports handle charging alongside the 2 fabric drawers.\n\nEngineered wood and metal construction keeps the compact 11.75 x 14.96 x 22.25 inch table light enough to reposition easily, and a 2-tier open shelf below the drawers adds more storage. A 50 lb capacity is on the lower end of this list, so it suits lighter loads.\n\nCompact and easy to reposition. That's a real strength, but weigh it against the flip side: lowest weight capacity in this list at 50 lbs.",
     specs: [
       "11.75\"W x 14.96\"D x 22.25\"H",
       "Engineered wood + metal",
@@ -288,7 +288,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31-wHgmqbjL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FL1QKM11?tag=deskfinds0d-20",
     description:
-      "The SONGMICS BELLAH is the tallest pick in this entire list at 29.9 inches, built from particleboard, steel, and a PVC leather finish with 3 drawers for the most enclosed storage among the charging picks here. Five charging ports, 2 AC outlets, 2 USB-A, and 1 USB-C, is also the most of any pick in this list.\n\nApp-controlled LED with music sync adds ambient lighting, and an anti-tip kit is included given the table's height. A 66 lb capacity is solid for the drawer count, and the PVC leather finish gives it a different texture than the wood-tone picks elsewhere in this list.",
+      "The SONGMICS BELLAH is the tallest pick in this entire list at 29.9 inches, built from particleboard, steel, and a PVC leather finish with 3 drawers for the most enclosed storage among the charging picks here. Five charging ports, 2 AC outlets, 2 USB-A, and 1 USB-C, is also the most of any pick in this list.\n\nApp-controlled LED with music sync adds ambient lighting, and an anti-tip kit is included given the table's height. A 66 lb capacity is solid for the drawer count, and the PVC leather finish gives it a different texture than the wood-tone picks elsewhere in this list.\n\nWorth calling out specifically: most charging ports of any pick here. The catch is 29.9\" height only suits taller beds or thick mattresses.",
     specs: [
       "15.6\"W x 11.8\"D x 29.9\"H",
       "Particleboard + steel + PVC leather",
@@ -336,96 +336,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Drawer capacity depends on frame material, not just price",
-    explanation:
-      "Particleboard and MDF drawers in this list typically top out around 50 lbs total, while steel-reinforced frames like the WLIVE and Yoobure reach 100 lbs. If you're storing anything heavier than books and small electronics, check the stated capacity rather than assuming a similarly priced nightstand handles the same load.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a nightstand with drawer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Nightstand height should match your mattress top, not the frame",
-    explanation:
-      "The top of the nightstand should land within 2 to 4 inches of your mattress-top height, not the bed frame height. This list spans 20.9\" to 29.9\" tall, so a low platform bed pairs better with the WLIVE at 20.9\", while a bed with a thick mattress or box spring suits the SONGMICS BELLAH at 29.9\".",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the nightstand with drawer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Only trust a charging drawer nightstand with FCC and ETL listing",
-    explanation:
-      "Every charging pick in this list that lists certification carries FCC and ETL marks, which confirm the electrical components were checked for overcurrent, overvoltage, short-circuit, and over-temperature protection. Skip any charging nightstand with no certification stated, and avoid covering the outlet strip with fabric during overnight charging.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this nightstand with drawer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "More drawers means less open shelf space, usually",
-    explanation:
-      "A 4-drawer design like the Sweetcrispy trades away most open shelving for enclosed storage, while a 2-drawer table like the WLIVE or Huuger usually pairs its drawers with 1 open shelf. Decide whether you want everything hidden or want quick, uncovered access to a book or glasses before drawer count alone.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any nightstand with drawer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "USB-C availability separates modern charging picks from older ones",
-    explanation:
-      "Among the charging picks in this list, only the Huuger and SUPERJARE models include a USB-C port; the Yoobure and Furologee options offer USB-A and outlets only. Since most 2026 devices charge over USB-C, that's worth checking before assuming any charging nightstand covers your actual devices.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A nightstand with drawer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Drawer Count Needed",
-    intro:
-      "This list spans single-drawer to 4-drawer designs, so match the count to how much you actually need hidden versus how much surface simplicity you want.",
-    table: {
-      headers: ["Drawers needed", "Best pick", "Why"],
-      rows: [
-        ["1 (flexible size)", "SUPERJARE Adjustable Drawer", "Only pick with an adjustable-depth drawer"],
-        ["2 (standard)", "WLIVE Rustic Brown, Huuger 2-Drawer + Charging, Yoobure Vintage Brown", "Most common configuration, best-reviewed options"],
-        ["3", "Huuger 3-Drawer, SONGMICS BELLAH", "More enclosed storage plus charging or LED"],
-        ["4 (dresser-style)", "Sweetcrispy Small Dresser", "Most drawers in this list, works as a slim dresser"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Yoobure Nightstand with 2 Drawers + Charging"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "WLIVE Night Stand with 2 Drawers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Matching Height to Your Mattress",
-    intro:
-      "Measure to the top of your mattress, not the bed frame, then find the closest match in this list.",
-    table: {
-      headers: ["Mattress-top height", "Best pick", "Height"],
-      rows: [
-        ["Low platform bed", "WLIVE Rustic Brown 2 Drawers", "20.9\""],
-        ["Standard bed frame", "Huuger 2-Drawer + Charging, Furologee End Table", "22.25-23.6\""],
-        ["Bed with thicker mattress or box spring", "Yoobure Vintage Brown, SUPERJARE Adjustable Drawer", "23.4-23.62\""],
-        ["Tall bed or thick topper", "Huuger 3-Drawer, SONGMICS BELLAH", "27.6-29.9\""],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If your current nightstand looks noticeably short or tall next to your mattress, it's almost always because the frame height was measured instead of the mattress-top height.",
+      "rows": [
+        [
+          "Under $28",
+          "WLIVE Night Stand with 2 Drawers"
+        ],
+        [
+          "Up to $43",
+          "Huuger Nightstand with 3 Drawers"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Charging Needs",
-    cards: [
+    "subheading": "WLIVE Night Stand with 2 Drawers vs Huuger Nightstand with 3 Drawers",
+    "cards": [
       {
-        label: "No charging needed, just storage",
-        text: "WLIVE Rustic Brown or Sweetcrispy Small Dresser skip charging entirely and focus on drawer capacity and reviews or drawer count.",
+        "label": "WLIVE Night Stand with 2 Drawers",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Basic charging is enough",
-        text: "Yoobure Vintage Brown and Furologee End Table cover 2 USB and 2 outlets without USB-C.",
-      },
-      {
-        label: "USB-C is a must",
-        text: "Huuger 2-Drawer, Huuger 3-Drawer, and SUPERJARE Adjustable Drawer all include a dedicated USB-C port.",
-      },
-      {
-        label: "Want the most ports plus LED",
-        text: "SONGMICS BELLAH offers 5 total charging ports and app-controlled LED, the most of any pick in this list.",
-      },
+        "label": "Huuger Nightstand with 3 Drawers",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to WLIVE Night Stand with 2 Drawers unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Weight Capacity Reality Check",
-    intro:
-      "Stated capacity varies more by material than by drawer count across this list.",
-    table: {
-      headers: ["Capacity", "Picks", "Frame material"],
-      rows: [
-        ["50 lbs", "Furologee End Table", "Engineered wood + metal"],
-        ["66 lbs", "SONGMICS BELLAH", "Particleboard + steel + PVC leather"],
-        ["100 lbs", "WLIVE Rustic Brown, Yoobure Vintage Brown", "MDF/engineered wood + steel frame"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "WLIVE Night Stand with 2 Drawers"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "WLIVE Night Stand with 2 Drawers is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Huuger Nightstand with 3 Drawers's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where WLIVE Night Stand with 2 Drawers covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

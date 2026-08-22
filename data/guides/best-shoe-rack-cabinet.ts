@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41a7DzzlTVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08N4C97TS?tag=deskfinds0d-20",
     description:
-      "The HOMIDEC is the cheapest cabinet in this list and also the only one built with dedicated air circulation holes, which matters because a fully enclosed cabinet with zero airflow is a common way to end up with lingering shoe odor. PP plastic and metal wire construction keep the price down without giving up the closed-cabinet look most buyers searching for a shoe rack cabinet actually want.\n\nSix tiers with removable partitions let you reconfigure the interior for boots or sneakers, and anti-toppling hardware is included at 37.2\" tall. It's also the most-reviewed cabinet in this entire list, with a review count well beyond every other pick here.",
+      "The HOMIDEC is the cheapest cabinet in this list and also the only one built with dedicated air circulation holes, which matters because a fully enclosed cabinet with zero airflow is a common way to end up with lingering shoe odor. PP plastic and metal wire construction keep the price down without giving up the closed-cabinet look most buyers searching for a shoe rack cabinet actually want.\n\nSix tiers with removable partitions let you reconfigure the interior for boots or sneakers, and anti-toppling hardware is included at 37.2\" tall. It's also the most-reviewed cabinet in this entire list, with a review count well beyond every other pick here.\n\nMost-reviewed pick in this list at 11,653 ratings. That's a real strength, but weigh it against the flip side: plastic finish looks less like furniture than the wood cabinets.",
     specs: [
       "33.07\"L x 12.4\"W x 37.2\"H",
       "PP plastic + metal wire + ABS connectors",
@@ -96,7 +96,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51L2YK92tGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBRBVL61?tag=deskfinds0d-20",
     description:
-      "The BORNOON in white is the highest-rated cabinet in this entire list, built from FSC-certified engineered wood, the most eco-certified material of any pick here. Three flip drawers plus 6 open shelves give it 18-24 pairs of capacity behind a clean white cabinet front that reads as real entryway furniture rather than a plastic organizer.\n\nAt 47.24\" tall, it's the tallest cabinet in this list, and anti-tipping hardware along with adjustable panels are both included. The white finish is the more popular choice for buyers who want their entryway to feel bright and open rather than heavy.",
+      "The BORNOON in white is the highest-rated cabinet in this entire list, built from FSC-certified engineered wood, the most eco-certified material of any pick here. Three flip drawers plus 6 open shelves give it 18-24 pairs of capacity behind a clean white cabinet front that reads as real entryway furniture rather than a plastic organizer.\n\nAt 47.24\" tall, it's the tallest cabinet in this list, and anti-tipping hardware along with adjustable panels are both included. The white finish is the more popular choice for buyers who want their entryway to feel bright and open rather than heavy.\n\nWorth calling out specifically: most eco-certified material (FSC-certified wood). The catch is most expensive cabinet in this list.",
     specs: [
       "47.24\"H x 31.5\"W x 9.45\"D",
       "FSC-certified engineered wood",
@@ -128,7 +128,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51vsts0s5KL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDHFQP13?tag=deskfinds0d-20",
     description:
-      "This is the same BORNOON cabinet build as the white version above, in a black finish with a scratch-resistant coating that hides daily wear better than a light finish. Three flip drawers and 6 compartments hold the same 18-24 pairs, and the engineered wood construction carries over unchanged.\n\nIt's the highest-rated black cabinet in this list, matching the white version's 4.7-star rating, and anti-tipping hardware is included at the same 47.24\" height. Choose this over the white version if your entryway leans toward a darker, more modern palette or if you'd rather not worry about visible scuffs.",
+      "This is the same BORNOON cabinet build as the white version above, in a black finish with a scratch-resistant coating that hides daily wear better than a light finish. Three flip drawers and 6 compartments hold the same 18-24 pairs, and the engineered wood construction carries over unchanged.\n\nIt's the highest-rated black cabinet in this list, matching the white version's 4.7-star rating, and anti-tipping hardware is included at the same 47.24\" height. Choose this over the white version if your entryway leans toward a darker, more modern palette or if you'd rather not worry about visible scuffs.\n\nScratch-resistant finish hides daily wear. Set against that, most expensive cabinet in this list, tied with the white version. Both matter when comparing it to the other picks here.",
     specs: [
       "9.45\"D x 31.5\"W x 47.24\"H",
       "Engineered wood",
@@ -160,7 +160,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51mrvTZu2PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F7RTLXRM?tag=deskfinds0d-20",
     description:
-      "The QIVOMIX stands out with arc-shaped rose-gold handles, the most distinctive hardware detail in this list, on an otherwise clean engineered-wood cabinet body. It's the kind of detail that turns a functional cabinet into a design piece an entryway is actually built around.\n\nTwo flip drawers with a removable center divider hold 14-20 pairs, and an 80 lb top load rating means the flat top can double as a console surface for keys, mail, or decor. Anti-tipping hardware is included, and the 38\" height keeps it more compact than the tallest cabinets in this list.",
+      "The QIVOMIX stands out with arc-shaped rose-gold handles, the most distinctive hardware detail in this list, on an otherwise clean engineered-wood cabinet body. It's the kind of detail that turns a functional cabinet into a design piece an entryway is actually built around.\n\nTwo flip drawers with a removable center divider hold 14-20 pairs, and an 80 lb top load rating means the flat top can double as a console surface for keys, mail, or decor. Anti-tipping hardware is included, and the 38\" height keeps it more compact than the tallest cabinets in this list.\n\nA genuine advantage here is that 80 lb top load doubles as a console surface. The tradeoff is lower capacity than the taller cabinets in this list.",
     specs: [
       "31.5\"W x 9.4\"D x 38\"H",
       "Engineered wood",
@@ -192,7 +192,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41QiduloQCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ8SM4BS?tag=deskfinds0d-20",
     description:
-      "The Homleke in white brings genuine barn-door styling to a shoe cabinet, the most distinctive farmhouse design in this list, with 2 sliding barn doors instead of a flip-drawer or flat-panel front. Wood legs and a 5-tier interior with 3 adjustable shelves round out the farmhouse-console look.\n\nAt 31.5\" tall, it's one of the more compact cabinets here, which keeps it proportional in a smaller entryway while still holding 15+ pairs. Anti-tipping hardware is included, and the white finish leans bright and cottage-style rather than heavy or industrial.",
+      "The Homleke in white brings genuine barn-door styling to a shoe cabinet, the most distinctive farmhouse design in this list, with 2 sliding barn doors instead of a flip-drawer or flat-panel front. Wood legs and a 5-tier interior with 3 adjustable shelves round out the farmhouse-console look.\n\nAt 31.5\" tall, it's one of the more compact cabinets here, which keeps it proportional in a smaller entryway while still holding 15+ pairs. Anti-tipping hardware is included, and the white finish leans bright and cottage-style rather than heavy or industrial.\n\nCompact 31.5\" height suits smaller entryways. On the other hand, lower capacity than the taller flip-drawer cabinets. Neither should be a surprise once you know to look for it.",
     specs: [
       "13.8\"D x 27.6\"W x 31.5\"H",
       "Engineered wood",
@@ -224,7 +224,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41MAdbTNZAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DJ92VYLT?tag=deskfinds0d-20",
     description:
-      "This black Homleke swaps the sliding barn doors of the white version above for 2 flip drawers, still under the same farmhouse-styled frame with tapered legs and a fence-style top shelf. Four adjustable shelves, the most among the farmhouse-style cabinets in this list, sit behind the flip drawers for flexible storage.\n\nAt 38.6\" tall, it's noticeably taller than its white farmhouse sibling, giving it more vertical storage in the same footprint. Anti-tipping hardware is included, which matters at this height, and the black finish hides scuffs better than a light farmhouse cabinet would.",
+      "This black Homleke swaps the sliding barn doors of the white version above for 2 flip drawers, still under the same farmhouse-styled frame with tapered legs and a fence-style top shelf. Four adjustable shelves, the most among the farmhouse-style cabinets in this list, sit behind the flip drawers for flexible storage.\n\nAt 38.6\" tall, it's noticeably taller than its white farmhouse sibling, giving it more vertical storage in the same footprint. Anti-tipping hardware is included, which matters at this height, and the black finish hides scuffs better than a light farmhouse cabinet would.\n\nTaller than the white farmhouse pick for more storage. That's a real strength, but weigh it against the flip side: no dedicated ventilation feature.",
     specs: [
       "31.5\"W x 9.5\"D x 38.6\"H",
       "Engineered wood",
@@ -256,7 +256,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51je9c8YkdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJFH9RCT?tag=deskfinds0d-20",
     description:
-      "The Boonatu is built from P2-grade engineered wood, the highest board grade among the flip-drawer cabinets in this list, and pairs it with a genuine ventilation feature to help reduce odor inside the closed cabinet. Three flip drawers plus 6 compartments and adjustable dividers give it a flexible interior layout.\n\nAssembly takes about 20 minutes, the fastest among the multi-drawer cabinets in this list, which matters if you'd rather not spend an afternoon building furniture. Anti-tip hardware is included on the 47.2\" tall frame, matching the height class of the BORNOON cabinets above.",
+      "The Boonatu is built from P2-grade engineered wood, the highest board grade among the flip-drawer cabinets in this list, and pairs it with a genuine ventilation feature to help reduce odor inside the closed cabinet. Three flip drawers plus 6 compartments and adjustable dividers give it a flexible interior layout.\n\nAssembly takes about 20 minutes, the fastest among the multi-drawer cabinets in this list, which matters if you'd rather not spend an afternoon building furniture. Anti-tip hardware is included on the 47.2\" tall frame, matching the height class of the BORNOON cabinets above.\n\nWorth calling out specifically: highest-grade board among the flip-drawer cabinets in this list. The catch is priced above the BORNOON cabinets despite fewer ratings.",
     specs: [
       "47.2\"H x 31.5\"W x 9.25\"D",
       "P2-grade engineered wood",
@@ -288,7 +288,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nQXmPrBeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRJR7CMS?tag=deskfinds0d-20",
     description:
-      "The ChooChoo is the only cabinet in this entire list with a built-in active deodorizer, running 4 modes to actively manage odor rather than relying on passive vents or holes. That's a meaningfully different approach to the ventilation problem every fully enclosed cabinet faces, and it's worth prioritizing if odor control is your top concern.\n\nTwo flip drawers hold 16 pairs behind a fence-top, side-hook design, and anti-tipping hardware is included at 42.9\" tall. Capacity is more modest than the BORNOON or Boonatu cabinets, but the active deodorizer is a feature none of the other picks in this list offer.",
+      "The ChooChoo is the only cabinet in this entire list with a built-in active deodorizer, running 4 modes to actively manage odor rather than relying on passive vents or holes. That's a meaningfully different approach to the ventilation problem every fully enclosed cabinet faces, and it's worth prioritizing if odor control is your top concern.\n\nTwo flip drawers hold 16 pairs behind a fence-top, side-hook design, and anti-tipping hardware is included at 42.9\" tall. Capacity is more modest than the BORNOON or Boonatu cabinets, but the active deodorizer is a feature none of the other picks in this list offer.\n\n4 deodorizer modes for different needs. Set against that, lower pair capacity than the BORNOON or Boonatu cabinets. Both matter when comparing it to the other picks here.",
     specs: [
       "31.5\"W x 9.45\"D x 42.9\"H",
       "Engineered wood",
@@ -336,111 +336,121 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "A cabinet needs its own ventilation feature, not just a closed door",
-    explanation:
-      "Shoes often go into a cabinet still damp, and sealing them into a fully enclosed box with zero airflow is a common way to end up with lingering odor or mold on the soles. Look for dedicated air holes like the HOMIDEC, a ventilation feature like the Boonatu, or an active deodorizer like the ChooChoo, rather than a solid cabinet front with no airflow feature at all.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a shoe rack cabinet often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Pair-count claims assume smaller shoes than yours might be",
-    explanation:
-      "Most \"holds 24 pairs\" style claims on cabinet listings assume small or narrow shoes stacked close together. A household with men's size 10+ shoes or boots should plan on fewer real pairs than advertised and size up a compartment tier to compensate.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the shoe rack cabinet holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Anti-tip hardware is mandatory above roughly 38 inches",
-    explanation:
-      "Cabinets in this height range, including the BORNOON, Boonatu, and ChooChoo picks, are top-heavy with a flip drawer open, so anti-tipping hardware isn't optional in a household with kids or pets. Confirm the cabinet ships with real anti-tip hardware, not just a wider decorative base, before buying.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this shoe rack cabinet over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Matching white and black finishes let you match existing furniture",
-    explanation:
-      "Several cabinets in this list, including the BORNOON and Homleke farmhouse pairs, come in matching white and black builds with identical dimensions and hardware. Picking by finish rather than spec sheet is reasonable here since the underlying cabinet is functionally the same.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any shoe rack cabinet you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Board grade affects how a cabinet holds up over years, not just months",
-    explanation:
-      "P2-grade engineered wood, like the Boonatu, is a higher board grade than standard engineered wood and holds screws and hinges better over repeated flip-drawer use. If you plan to keep the cabinet long-term, board grade is worth checking beyond just the finish color.",
-  },
-  {
-    criterion: "An active deodorizer is a different tool than passive ventilation",
-    explanation:
-      "Passive vents and air holes rely on ambient airflow, while an active deodorizer like the ChooChoo's 4-mode system actively treats the air inside the cabinet. If odor control is your top priority over capacity or finish, the active option is worth the tradeoff in pair count.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A shoe rack cabinet that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Finish and Design Style",
-    intro:
-      "This guide leans into cabinetry details since buyers searching for a shoe rack cabinet generally want a piece that reads as real furniture, not a bare organizer.",
-    table: {
-      headers: ["Design style", "Finish available", "Best pick"],
-      rows: [
-        ["Clean modern white", "White", "BORNOON White 3 Flip Drawer"],
-        ["Clean modern black", "Black", "BORNOON Black 3 Flip Drawer"],
-        ["Farmhouse barn door", "White", "Homleke Barn Door White"],
-        ["Farmhouse with more shelves", "Black", "Homleke Farmhouse Barn Door Black"],
-        ["Design-forward hardware", "Wood tone", "QIVOMIX with rose-gold handles"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "BORNOON White 3 Flip Drawer Shoe Cabinet"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "HOMIDEC 6"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Ventilation and Odor Control",
-    intro:
-      "A sealed cabinet with no airflow feature is one of the most common reasons a shoe rack cabinet starts to smell after months of daily use.",
-    table: {
-      headers: ["Ventilation approach", "Picks that have it", "Best for"],
-      rows: [
-        ["Active deodorizer (4 modes)", "ChooChoo Deodorizer Flip Cabinet", "Buyers prioritizing odor control above all else"],
-        ["Dedicated air circulation holes", "HOMIDEC 6-Tier Plastic Cabinet", "Best passive ventilation at the lowest price"],
-        ["Built-in ventilation feature", "Boonatu White 3 Flip Drawer", "Ventilation plus fast assembly"],
-        ["No dedicated ventilation feature", "BORNOON, QIVOMIX, Homleke pairs", "Air shoes out before storing, crack the door periodically"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
-    note: "If you choose a cabinet with no built-in ventilation feature, let shoes dry fully before closing them in to avoid lingering odor.",
+      "rows": [
+        [
+          "Under $33",
+          "HOMIDEC 6"
+        ],
+        [
+          "Up to $120",
+          "BORNOON Black 3 Flip Drawer Shoe Cabinet"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget",
-    table: {
-      headers: ["Budget", "What you get", "Best pick"],
-      rows: [
-        ["Under $40", "Ventilated plastic cabinet", "HOMIDEC 6-Tier Plastic Cabinet"],
-        ["$80-$100", "Wood cabinet with a design detail or farmhouse styling", "QIVOMIX, Homleke White or Black"],
-        ["$100+", "Highest-rated flip-drawer wood cabinet, fastest assembly, or active deodorizer", "BORNOON White or Black, Boonatu, ChooChoo"],
-      ],
-    },
-  },
-  {
-    subheading: "By How Fast You Want It Assembled",
-    cards: [
+    "subheading": "HOMIDEC 6 vs BORNOON Black 3 Flip Drawer Shoe Cabinet",
+    "cards": [
       {
-        label: "Want the cabinet built and in use the same day",
-        text: "The Boonatu's 20-minute assembly is the fastest among the multi-drawer cabinets in this list.",
+        "label": "HOMIDEC 6",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Don't mind a longer build for the best rating",
-        text: "The BORNOON White or Black cabinets take longer to assemble but carry the highest rating in this list.",
-      },
-      {
-        label: "Want the simplest possible cabinet build",
-        text: "The HOMIDEC's plastic-and-wire construction with ABS connectors is a quicker, lighter assembly than the wood flip-drawer cabinets.",
-      },
+        "label": "BORNOON Black 3 Flip Drawer Shoe Cabinet",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to HOMIDEC 6 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Stability Reality Check for Tall Cabinets",
-    intro:
-      "Every cabinet at 38 inches or taller in this list ships with anti-tipping hardware, and it should be installed, not left in the box, especially with kids or pets around.",
-    table: {
-      headers: ["Pick", "Height", "Stability feature"],
-      rows: [
-        ["Homleke Farmhouse Barn Door Black", "38.6\"", "Anti-tipping hardware, tapered legs"],
-        ["ChooChoo Deodorizer Flip Cabinet", "42.9\"", "Anti-tipping hardware"],
-        ["Boonatu White 3 Flip Drawer", "47.2\"", "Anti-tip hardware, adjustable dividers"],
-        ["BORNOON White / Black 3 Flip Drawer", "47.24\"", "Anti-tipping hardware, adjustable panels"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "Verify anti-tip hardware is actually in the box before assembly, especially on any cabinet at 42 inches or taller.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "HOMIDEC 6"
+        ]
+      ]
+    }
   },
+  {
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HOMIDEC 6 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where BORNOON Black 3 Flip Drawer Shoe Cabinet's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HOMIDEC 6 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jMGauB1nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLL4H69Z?tag=deskfinds0d-20",
     description:
-      "This is the only pick in this guide explicitly marketed for two people, with a 78-inch length that gives each person roughly 39 inches of surface, enough for a monitor and keyboard without crowding a shared centerline. It is a fixed-height desk rather than an electric standing desk, so there is no motorized height adjustment.\n\nBecause it is not height adjustable, both people sit at the same fixed height, which works fine if you are similar in height but is a real limitation if you differ by more than a few inches. The rustic wood and metal build is stable across its long span, though a fixed desk this wide should still be checked for center sag if you plan to load it heavily.",
+      "This is the only pick in this guide explicitly marketed for two people, with a 78-inch length that gives each person roughly 39 inches of surface, enough for a monitor and keyboard without crowding a shared centerline. It is a fixed-height desk rather than an electric standing desk, so there is no motorized height adjustment.\n\nBecause it is not height adjustable, both people sit at the same fixed height, which works fine if you are similar in height but is a real limitation if you differ by more than a few inches. The rustic wood and metal build is stable across its long span, though a fixed desk this wide should still be checked for center sag if you plan to load it heavily.\n\nWorth calling out specifically: 78-inch length gives real per-person surface area. The catch is fixed height only, no electric sit-stand adjustment.",
     specs: [
       "78-inch length, purpose-built for 2 people",
       "Rustic wood and metal construction",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ikoMgen5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X3FDYY?tag=deskfinds0d-20",
     description:
-      "This is a single-user electric standing desk with a 32-inch width, well under the 36-inch-plus per-person minimum that makes side-by-side sharing workable. It is included here only as a reference point for how narrow a desk needs to avoid becoming for two people, not as a genuine recommendation for shared use.\n\nIts 4 memory height presets are shared by whoever is at the desk, which is fine for one person but would mean constant re-adjusting between two users with different heights. Treat this as a single-person desk, not a two-person option.",
+      "This is a single-user electric standing desk with a 32-inch width, well under the 36-inch-plus per-person minimum that makes side-by-side sharing workable. It is included here only as a reference point for how narrow a desk needs to avoid becoming for two people, not as a genuine recommendation for shared use.\n\nIts 4 memory height presets are shared by whoever is at the desk, which is fine for one person but would mean constant re-adjusting between two users with different heights. Treat this as a single-person desk, not a two-person option.\n\nCompact footprint for small rooms. Set against that, 32-inch width is too narrow for two people side by side. Both matter when comparing it to the other picks here.",
     specs: [
       "32-inch width, single-user desk",
       "4 memory height presets",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41k4VBjAQzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWMNPW7D?tag=deskfinds0d-20",
     description:
-      "At 55 inches wide, this desk sits right at the edge of workable per-person surface area for two people, giving roughly 27 to 28 inches each, tighter than the 36-inch-plus that comfortable side-by-side use generally needs. It is marketed as a single-user gaming desk, not a two-person desk, so treat any shared use as a tight compromise rather than the intended design.\n\nIt has one set of shared electric height presets, meaning two people of different heights would need to renegotiate the setting every time they swap places. It could work for two people who are close in height and keep setups minimal, like two laptops rather than two full monitor rigs.",
+      "At 55 inches wide, this desk sits right at the edge of workable per-person surface area for two people, giving roughly 27 to 28 inches each, tighter than the 36-inch-plus that comfortable side-by-side use generally needs. It is marketed as a single-user gaming desk, not a two-person desk, so treat any shared use as a tight compromise rather than the intended design.\n\nIt has one set of shared electric height presets, meaning two people of different heights would need to renegotiate the setting every time they swap places. It could work for two people who are close in height and keep setups minimal, like two laptops rather than two full monitor rigs.\n\nA genuine advantage here is that could work as a tight two-person split for minimal setups. The tradeoff is marketed as single-user, not a genuine two-person desk.",
     specs: [
       "55-inch width, marketed as single-user",
       "White finish",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415He+cLvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41YH9B6?tag=deskfinds0d-20",
     description:
-      "This is a well-reviewed single-user desk at 48 inches wide, still under the roughly 60 to 72 inches needed for two people to each get 30 or more inches of usable surface. It appears in searches for two-person desks mainly because of its width, not because it is designed for shared use.\n\nWith one shared set of height presets and a single cable management channel, this desk is best treated as a solid single-user pick rather than a genuine two-person option. Two people could split it in a pinch for very minimal setups, but it is not what this desk was built for.",
+      "This is a well-reviewed single-user desk at 48 inches wide, still under the roughly 60 to 72 inches needed for two people to each get 30 or more inches of usable surface. It appears in searches for two-person desks mainly because of its width, not because it is designed for shared use.\n\nWith one shared set of height presets and a single cable management channel, this desk is best treated as a solid single-user pick rather than a genuine two-person option. Two people could split it in a pinch for very minimal setups, but it is not what this desk was built for.\n\nSolid mid-size footprint for one person. On the other hand, 48-inch width is tight for genuine two-person use. Neither should be a surprise once you know to look for it.",
     specs: [
       "48 x 24 inch, single-user desk",
       "Black finish",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418JjdqdnpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8MHPVPH?tag=deskfinds0d-20",
     description:
-      "Like the ErGear pick above, this is a 48 by 24 inch single-user desk, not a two-person design, and it lacks the surface width, independent presets, or doubled cable capacity that a genuine shared desk needs. Its splice-board maple top is a step up in material over basic laminate.\n\nIf two people were to share this desk, each would get about 24 inches of surface, tight even for two laptops side by side. This is a strong single-user pick that happens to surface in two-person searches due to its width, not a recommendation for actual shared use.",
+      "Like the ErGear pick above, this is a 48 by 24 inch single-user desk, not a two-person design, and it lacks the surface width, independent presets, or doubled cable capacity that a genuine shared desk needs. Its splice-board maple top is a step up in material over basic laminate.\n\nIf two people were to share this desk, each would get about 24 inches of surface, tight even for two laptops side by side. This is a strong single-user pick that happens to surface in two-person searches due to its width, not a recommendation for actual shared use.\n\nHigh review volume with solid rating. That's a real strength, but weigh it against the flip side: not built for two people, surface too tight if split.",
     specs: [
       "48 x 24 inch, single-user desk",
       "White frame, maple splice-board top",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41daFWT9JPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNH9SQT7?tag=deskfinds0d-20",
     description:
-      "This converter's dual monitor stand supports two displays for one person, not two separate users, and it is worth clarifying that distinction since dual monitor and two-person are easy to conflate in a search. It sits on top of an existing desk rather than being a standalone two-person surface.\n\nAt 42 inches wide with a single riser platform, it has no independent space for a second person's keyboard and mouse. This is a genuinely useful single-user upgrade for someone who wants two screens, not a shared-desk solution.",
+      "This converter's dual monitor stand supports two displays for one person, not two separate users, and it is worth clarifying that distinction since dual monitor and two-person are easy to conflate in a search. It sits on top of an existing desk rather than being a standalone two-person surface.\n\nAt 42 inches wide with a single riser platform, it has no independent space for a second person's keyboard and mouse. This is a genuinely useful single-user upgrade for someone who wants two screens, not a shared-desk solution.\n\nWorth calling out specifically: no floor assembly needed, sits on existing desk. The catch is dual monitor stand is for one person, not two users.",
     specs: [
       "42-inch width, single riser platform",
       "Dual monitor stand for one user",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oErF+y4gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZ7GXM4M?tag=deskfinds0d-20",
     description:
-      "This 24x48 inch desk is another single-user design that surfaces in two-person searches due to its width, but at 48 inches it offers the same tight per-person split as the similarly sized ErGear and FEZIBO picks above. The rustic brown finish gives it a warmer look than plain black or white options.\n\nWith one shared preset set and no doubled cable channel, it is best treated as a solid single-user desk at a reasonable price rather than a two-person recommendation. Two people would each get about 24 inches, workable only for the lightest of setups.",
+      "This 24x48 inch desk is another single-user design that surfaces in two-person searches due to its width, but at 48 inches it offers the same tight per-person split as the similarly sized ErGear and FEZIBO picks above. The rustic brown finish gives it a warmer look than plain black or white options.\n\nWith one shared preset set and no doubled cable channel, it is best treated as a solid single-user desk at a reasonable price rather than a two-person recommendation. Two people would each get about 24 inches, workable only for the lightest of setups.\n\nReasonable price for the size. Set against that, not built for two people, tight surface split. Both matter when comparing it to the other picks here.",
     specs: [
       "24x48 inch, single-user desk",
       "Black frame, rustic brown top",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41oHg37v77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3Y1X96?tag=deskfinds0d-20",
     description:
-      "At 55 inches wide and 27.6 inches deep, this is the widest and deepest single-user desk in this guide, which puts it closest to workable two-person dimensions among the non-purpose-built options. It is still marketed as a single-user desk, not a shared design, and includes only one set of height presets.\n\nIf two people share this desk, each gets roughly 27 to 28 inches of width with a genuinely useful 27.6-inch depth, better than the other single-user picks here for fitting two keyboards and monitors. It remains a compromise compared to the purpose-built HSH desk, but the extra depth helps.",
+      "At 55 inches wide and 27.6 inches deep, this is the widest and deepest single-user desk in this guide, which puts it closest to workable two-person dimensions among the non-purpose-built options. It is still marketed as a single-user desk, not a shared design, and includes only one set of height presets.\n\nIf two people share this desk, each gets roughly 27 to 28 inches of width with a genuinely useful 27.6-inch depth, better than the other single-user picks here for fitting two keyboards and monitors. It remains a compromise compared to the purpose-built HSH desk, but the extra depth helps.\n\nA genuine advantage here is that extra depth helps a tight two-person split more than shallower desks. The tradeoff is still marketed and built as single-user, not two-person.",
     specs: [
       "55 x 28 inch, single-user desk",
       "27.6-inch deep desktop",
@@ -336,91 +336,121 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "Genuinely Built for Two vs. Wide Enough for Two",
-    intro:
-      "Only one pick in this guide is actually marketed for two people. The rest are single-user desks wide enough to work as a two-person substitute, but they were not designed for it.",
-    table: {
-      headers: ["Pick", "Marketed for", "What that means for you"],
-      rows: [
-        ["HSH 78-inch Extra Large Desk", "Two people", "Only pick with genuine two-person marketing and roughly 39 inches per person"],
-        ["The other 7 single-user desks (48-55 inch)", "One person", "Included only as width-based substitutes, not true two-person desks"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "If two-person use is a hard requirement rather than a nice-to-have, the HSH is the only pick in this guide built for it.",
+      "rows": [
+        [
+          "Highest average rating",
+          "HSH Extra Large Home Office Desk for 2 People"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Per-Person Surface Width",
-    table: {
-      headers: ["Desk width", "Per-person estimate", "Fit for two full setups"],
-      rows: [
-        ["78 inches (HSH)", "~39 inches", "Comfortable for two monitors and keyboards"],
-        ["55 inches", "~27-28 inches", "Tight, workable for lighter setups"],
-        ["48 inches", "~24 inches", "Very tight, best for one laptop-only user plus one light user"],
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Under $76",
+          "HUANUO 32"
+        ],
+        [
+          "Up to $220",
+          "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Height Presets for Two Different Users",
-    cards: [
+    "subheading": "HUANUO 32 vs VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
+    "cards": [
       {
-        label: "4+ presets recommended",
-        text: "Lets each person save their own seated and standing height instead of re-adjusting on every swap. Check the preset count on any desk before assuming it works well for two people of different heights.",
+        "label": "HUANUO 32",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Height difference over 5 inches",
-        text: "None of the picks in this guide offer independent dual-zone motors, so a single shared motor forces both users to the same height at any given moment. Weigh this limitation carefully if you and your desk partner differ significantly in height.",
-      },
+        "label": "VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to HUANUO 32 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Cable Management for Two Full Workstations",
-    intro:
-      "A cable tray sized for one person's cables will overflow once a second full setup (monitor, PC, peripherals) is added.",
-    table: {
-      headers: ["Setup type", "Recommended pick", "Why"],
-      rows: [
-        ["Two full desktop setups", "HSH 78-inch", "Widest surface gives the most room to separate two cable runs"],
-        ["Light/laptop-only two-person use", "Any 48-55 inch single-user desk", "Adequate if cable volume stays low"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Stability Across a Wide Span",
-    note: "Desks spanning 72 inches or more without a center support leg are more prone to midpoint sag under a loaded two-person setup. Check specifically for center leg support on any desk this wide before buying it for two-person daily use.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "ErGear 48 x 24 Inch Height Adjustable Electric Standing Desk is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where VIVO Height Adjustable 42 Inch Standing Desk Converter with Dual Monitor Stand's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where HUANUO 32 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "4 or more height presets are a minimum for genuinely shared use",
-    explanation:
-      "When two people with different heights share one desk, at least 4 memory presets let each person save a preferred setting instead of manually re-adjusting every swap. A desk with only 2 or 3 presets, or a single shared setting, works fine for one person but becomes a daily friction point for two.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a standing desk often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Each person needs 36 inches or more of surface width, not less",
-    explanation:
-      "A rule of thumb for comfortable side-by-side desk use is roughly 36 inches or more of usable surface per person, once you account for a keyboard, mouse, and monitor base. A 55-inch desk split between two people gives only about 27 inches each, workable for light use but tight for two full monitor setups.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the standing desk holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Independent motors matter once users differ by 5 inches or more in height",
-    explanation:
-      "A shared single-motor system forces the whole desk to one height at a time, which is fine if both users are close in height but becomes a real limitation once the height difference exceeds about 5 inches. If that describes your situation, look specifically for independent-zone or dual-desk configurations rather than a single wide desk.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this standing desk over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Cable management capacity should roughly double for two workstations",
-    explanation:
-      "A cable tray or channel sized for one person's power cable, monitor cable, and peripherals will overflow quickly once a second full workstation is added. Check whether a desk's cable management is described as supporting multiple devices before assuming it scales to two setups.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any standing desk you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Wide single-surface desks over 72 inches need a center support check",
-    explanation:
-      "Desks spanning 72 to 80 inches or more without a center leg can develop visible sag at the midpoint under a loaded two-person setup, since the load is concentrated further from the end legs. Check for a center support leg or brace on any desk this wide before assuming it will hold up long term.",
-  },
-  {
-    criterion: "Fixed-height desks avoid motor cost but lock in one shared height",
-    explanation:
-      "A fixed-height two-person desk, like the purpose-built HSH pick in this guide, sidesteps motor and preset complexity entirely, but both people are stuck at the same seated or standing height with no adjustment. This works well for two people of similar height and is a real limitation otherwise.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A standing desk that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export const faq: FaqItem[] = [

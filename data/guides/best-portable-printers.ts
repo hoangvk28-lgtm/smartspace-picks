@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31ZOqtUE8mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1Z1VLV6?tag=deskfinds0d-20",
     description:
-      "The TR160 is genuinely built for travel, a lightweight, battery-capable inkjet with a 1.44 inch display and a 50-sheet paper tray, standing apart from a standard desktop AIO repurposed for occasional portable use. Its rated page count per charge, like most portable printers, reflects light text documents rather than dense or graphic-heavy pages, so plan on fewer pages per charge for mixed content like boarding passes with barcodes or photos.\n\nCanon's standard cartridges are not something you'll find at a random convenience store while traveling, so pack a spare set if you're heading somewhere without easy access to an office supply store. The compact, lightweight body travels well in a bag, though it is not rated for drop resistance or dust sealing, so a padded case is worth adding for actual travel use.",
+      "The TR160 is genuinely built for travel, a lightweight, battery-capable inkjet with a 1.44 inch display and a 50-sheet paper tray, standing apart from a standard desktop AIO repurposed for occasional portable use. Its rated page count per charge, like most portable printers, reflects light text documents rather than dense or graphic-heavy pages, so plan on fewer pages per charge for mixed content like boarding passes with barcodes or photos.\n\nCanon's standard cartridges are not something you'll find at a random convenience store while traveling, so pack a spare set if you're heading somewhere without easy access to an office supply store. The compact, lightweight body travels well in a bag, though it is not rated for drop resistance or dust sealing, so a padded case is worth adding for actual travel use.\n\nLarger 50-sheet tray than most portable printers. Set against that, cartridges aren't available at typical travel stops, pack spares. Both matter when comparing it to the other picks here.",
     specs: [
       "Rechargeable battery for cordless printing",
       "1.44 inch display",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51pOVkHzLVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CYP944DP?tag=deskfinds0d-20",
     description:
-      "The Gloryang is a genuinely portable inkless thermal printer, meaning it uses heat to darken specially coated paper instead of ink, which trades ink cost for paper cost and limits output to black and white text or graphics rather than full color photo quality. It includes a carry case and three rolls of thermal paper to start, a real convenience since thermal paper rolls aren't something you'll find at a typical hotel front desk.\n\nBattery life claims should be read as a best case, since dense graphics or full-page prints draw more power per page than simple text. Thermal prints also fade over time, so anything you'll want to keep long-term is worth photocopying onto regular paper once you're back home.",
+      "The Gloryang is a genuinely portable inkless thermal printer, meaning it uses heat to darken specially coated paper instead of ink, which trades ink cost for paper cost and limits output to black and white text or graphics rather than full color photo quality. It includes a carry case and three rolls of thermal paper to start, a real convenience since thermal paper rolls aren't something you'll find at a typical hotel front desk.\n\nBattery life claims should be read as a best case, since dense graphics or full-page prints draw more power per page than simple text. Thermal prints also fade over time, so anything you'll want to keep long-term is worth photocopying onto regular paper once you're back home.\n\nA genuine advantage here is that includes carry case and starter paper rolls. The tradeoff is black and white output only, no full-color photo printing.",
     specs: [
       "Inkless thermal printing technology",
       "Bluetooth wireless connectivity",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41mTdQ1WgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9YBMJDV?tag=deskfinds0d-20",
     description:
-      "The NDYIN N80 is the cheapest genuinely portable printer in this list, another inkless thermal design supporting standard US Letter and A4 paper sizes over Bluetooth. Like the Gloryang, it trades ink cost for thermal paper cost and produces black and white output only, so it fits note-taking, boarding passes, or itineraries better than color documents or photos.\n\nAt this price point, expect a lighter-duty build than the pricier Canon TR160, and pack extra thermal paper rolls before a trip since specialty paper isn't something you can grab at a typical drugstore. Compatibility with iOS, Android, and laptops covers most travel device combinations without needing extra drivers.",
+      "The NDYIN N80 is the cheapest genuinely portable printer in this list, another inkless thermal design supporting standard US Letter and A4 paper sizes over Bluetooth. Like the Gloryang, it trades ink cost for thermal paper cost and produces black and white output only, so it fits note-taking, boarding passes, or itineraries better than color documents or photos.\n\nAt this price point, expect a lighter-duty build than the pricier Canon TR160, and pack extra thermal paper rolls before a trip since specialty paper isn't something you can grab at a typical drugstore. Compatibility with iOS, Android, and laptops covers most travel device combinations without needing extra drivers.\n\nNo ink cartridges to run out of. On the other hand, black and white output only. Neither should be a surprise once you know to look for it.",
     specs: [
       "Inkless thermal printing",
       "Bluetooth wireless connectivity",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 is not a battery-powered portable printer, it's a standard AIO some longer-stay travelers pack for an extended relocation, a semester abroad, or a temporary work assignment where a full-size printer earns its space. Refillable ink tanks mean you won't need to hunt for cartridges while away, a real advantage over cartridge-based travel printing if you're setting up for weeks or months rather than a short trip.\n\nIt requires a power outlet and has no battery, so it isn't suited to printing away from a desk. Include it here only if your travel plans involve a fixed location long enough to justify checked-baggage-sized printing gear.",
+      "The ET-4800 is not a battery-powered portable printer, it's a standard AIO some longer-stay travelers pack for an extended relocation, a semester abroad, or a temporary work assignment where a full-size printer earns its space. Refillable ink tanks mean you won't need to hunt for cartridges while away, a real advantage over cartridge-based travel printing if you're setting up for weeks or months rather than a short trip.\n\nIt requires a power outlet and has no battery, so it isn't suited to printing away from a desk. Include it here only if your travel plans involve a fixed location long enough to justify checked-baggage-sized printing gear.\n\nFull color inkjet print quality, unlike inkless thermal picks. That's a real strength, but weigh it against the flip side: not battery-powered, requires a wall outlet.",
     specs: [
       "Cartridge-free refillable ink tanks",
       "Auto document feeder",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LqmhjzXHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FGC43YCL?tag=deskfinds0d-20",
     description:
-      "Like the EcoTank above, the Work Smart 1360 is a standard desktop AIO rather than a battery-powered portable, worth including only for travelers setting up a temporary but semi-permanent home office, a furnished rental for a work trip, or a seasonal second home. It plugs into a wall outlet and needs a stable surface, not a bag.\n\nAutomatic duplex printing and a color display make it a capable everyday printer once it's set up somewhere. Its cartridge-based ink means restocking supplies while traveling requires the same planning as any standard printer, buy what you need before you arrive if the destination lacks easy access to office supplies.",
+      "Like the EcoTank above, the Work Smart 1360 is a standard desktop AIO rather than a battery-powered portable, worth including only for travelers setting up a temporary but semi-permanent home office, a furnished rental for a work trip, or a seasonal second home. It plugs into a wall outlet and needs a stable surface, not a bag.\n\nAutomatic duplex printing and a color display make it a capable everyday printer once it's set up somewhere. Its cartridge-based ink means restocking supplies while traveling requires the same planning as any standard printer, buy what you need before you arrive if the destination lacks easy access to office supplies.\n\nWorth calling out specifically: automatic duplex saves paper. The catch is not battery-powered or truly portable.",
     specs: [
       "Automatic duplex printing",
       "1.8 inch color display",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is another standard plug-in AIO, included here as the lightest and cheapest full-featured option for travelers who need scan and copy functions in addition to printing during an extended stay, rather than a battery-powered on-the-go printer. It has no battery and needs a wall outlet, so it stays behind at your destination rather than in a daypack.\n\nA 3-month Instant Ink trial is included and converts to paid billing unless canceled, worth noting if you're setting it up somewhere temporary and don't want ongoing charges follow you home. Its compact size among full AIOs makes it easier to pack in checked luggage than bulkier alternatives.",
+      "The DeskJet 4355 is another standard plug-in AIO, included here as the lightest and cheapest full-featured option for travelers who need scan and copy functions in addition to printing during an extended stay, rather than a battery-powered on-the-go printer. It has no battery and needs a wall outlet, so it stays behind at your destination rather than in a daypack.\n\nA 3-month Instant Ink trial is included and converts to paid billing unless canceled, worth noting if you're setting it up somewhere temporary and don't want ongoing charges follow you home. Its compact size among full AIOs makes it easier to pack in checked luggage than bulkier alternatives.\n\nScan and copy functions beyond print-only portables. Set against that, not battery-powered or pocket-portable. Both matter when comparing it to the other picks here.",
     specs: [
       "Wireless network printing",
       "Scan and copy functions",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415PuxvZ1wL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CDXKNB9?tag=deskfinds0d-20",
     description:
-      "The TR4720 rounds out this list as another standard plug-in AIO, not a battery-powered portable, worth packing only for a longer relocation where its auto document feeder earns its keep scanning paperwork. It stays plugged in at a desk rather than traveling with you day to day.\n\nCartridge-based ink means the same advance planning as any standard printer applies if your destination lacks easy access to replacement cartridges. Its compact footprint among full AIOs makes it one of the easier options to fit in checked luggage if a printer is genuinely needed at a temporary location.",
+      "The TR4720 rounds out this list as another standard plug-in AIO, not a battery-powered portable, worth packing only for a longer relocation where its auto document feeder earns its keep scanning paperwork. It stays plugged in at a desk rather than traveling with you day to day.\n\nCartridge-based ink means the same advance planning as any standard printer applies if your destination lacks easy access to replacement cartridges. Its compact footprint among full AIOs makes it one of the easier options to fit in checked luggage if a printer is genuinely needed at a temporary location.\n\nA genuine advantage here is that lowest price among the full AIO options here. The tradeoff is not battery-powered or genuinely pocket-portable.",
     specs: [
       "Auto document feeder",
       "Wireless network printing",
@@ -301,35 +301,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Rated battery life assumes simple text, not real documents",
-    explanation:
-      "A portable printer's advertised page-per-charge number is typically measured on light text pages. Boarding passes with barcodes, itineraries with logos, or any graphic-heavy page draw more power per print, so expect noticeably fewer pages per charge than the spec sheet states for mixed real-world content.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a portable printer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Pack spare cartridges or paper before you travel",
-    explanation:
-      "Specialty printer cartridges and thermal paper rolls are not something you can reliably buy at a hotel front desk, drugstore, or convenience store while traveling. Pack enough spares for your trip length before you leave, especially for a printer using a less common cartridge or thermal paper size.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the portable printer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Charging time matters as much as battery capacity",
-    explanation:
-      "A portable printer with a lower rated page count but a fast charge time can be more useful on a trip than a higher-capacity model that takes hours to top up. Check the charging time alongside the battery specs before assuming higher capacity always means more convenience.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this portable printer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Inkless thermal printers trade ink cost for paper cost and color",
-    explanation:
-      "Inkless thermal printers like the Gloryang and NDYIN never need ink, but they print in black and white only and rely on heat-sensitive paper that costs more per sheet than plain paper. They suit boarding passes, notes, and itineraries better than color documents or photos.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any portable printer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Thermal prints fade, so don't rely on them for records",
-    explanation:
-      "Thermal paper output darkens with heat rather than ink, and that image fades over time, typically within a year or two depending on storage conditions. Photocopy anything from a thermal portable printer onto regular paper if you need to keep it long-term.",
-  },
-  {
-    criterion: "Drop resistance and dust sealing are rarely stated, don't assume it",
-    explanation:
-      "A compact, lightweight printer is not automatically rugged. None of the portable picks in this list have a stated drop-resistance or dust-sealing rating, so a padded case is worth adding if the printer will travel loose in a bag rather than in dedicated protective packaging.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A portable printer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -342,63 +332,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Trip Type",
-    intro: "The right pick depends heavily on whether you need color inkjet quality on the go or just basic black and white output.",
-    table: {
-      headers: ["Trip type", "What you need", "Best pick"],
-      rows: [
-        ["Short trip needing real color print quality", "Battery-powered inkjet", "Canon PIXMA TR160"],
-        ["Short trip, black and white only, tight budget", "Inkless thermal, lightest and cheapest", "NDYIN N80"],
-        ["Short trip, black and white, want a carry case included", "Inkless thermal with accessories", "Gloryang Inkless Portable"],
-        ["Extended stay or relocation", "Full-size plug-in AIO", "Epson EcoTank ET-4800 or Brother Work Smart 1360"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "Canon PIXMA TR160 Wireless Portable Lightweight Compact Printer with Battery and Display"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Canon PIXMA TR160 Wireless Portable Lightweight Compact Printer with Battery and Display"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Battery-Powered vs Plug-In: Know Which You're Buying",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "NDYIN Portable Printer Wireless for Travel"
+        ],
+        [
+          "Up to $200",
+          "Epson EcoTank ET"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NDYIN Portable Printer Wireless for Travel vs Epson EcoTank ET",
+    "cards": [
       {
-        label: "Genuinely portable, battery included",
-        text: "Only the Canon PIXMA TR160, Gloryang Inkless, and NDYIN N80 in this list have batteries and are built for on-the-go printing.",
+        "label": "NDYIN Portable Printer Wireless for Travel",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Standard AIO, needs an outlet",
-        text: "The Epson EcoTank ET-4800, Brother Work Smart 1360, HP DeskJet 4355, and Canon PIXMA TR4720 are full desktop printers, not travel devices, useful only for extended stays.",
-      },
-      {
-        label: "Color output needed on the go",
-        text: "Only the Canon PIXMA TR160 offers true color inkjet output in a battery-powered body.",
-      },
-      {
-        label: "Black and white is fine",
-        text: "The Gloryang or NDYIN inkless thermal printers save weight and eliminate ink entirely.",
-      },
+        "label": "Epson EcoTank ET",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to NDYIN Portable Printer Wireless for Travel unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Consumables to Pack Before You Leave",
-    table: {
-      headers: ["Printer", "Consumable", "Where to buy in advance"],
-      rows: [
-        ["Canon PIXMA TR160", "Canon ink cartridges", "Office supply store or online before departure"],
-        ["Gloryang Inkless", "8.5 x 11 inch thermal paper (3 rolls included to start)", "Order extra rolls online before a longer trip"],
-        ["NDYIN N80", "Letter/A4 thermal paper", "Order extra rolls online before a longer trip"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
-    note: "None of these consumables are reliably available at a typical hotel, drugstore, or convenience store while traveling.",
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Canon PIXMA TR160 Wireless Portable Lightweight Compact Printer with Battery and Display"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Budget Tier",
-    table: {
-      headers: ["Budget", "Tradeoff", "Best pick"],
-      rows: [
-        ["Under $40", "Black and white only, lighter-duty build", "NDYIN N80"],
-        ["$70-$115", "Full color, but not battery-powered", "HP DeskJet 4355, Canon PIXMA TR4720, Brother Work Smart 1360"],
-        ["$72-$199", "True portability with battery", "Gloryang Inkless or Canon PIXMA TR160"],
-      ],
-    },
-    note: "If genuine portability matters more than color, the Canon PIXMA TR160 is the only battery-powered pick with full inkjet color output.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Canon PIXMA TR160 Wireless Portable Lightweight Compact Printer with Battery and Display is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where Epson EcoTank ET's build gives real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where NDYIN Portable Printer Wireless for Travel covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [

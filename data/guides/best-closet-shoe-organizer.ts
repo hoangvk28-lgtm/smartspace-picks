@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/4131dBobQtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01D58DRVC?tag=deskfinds0d-20",
     description:
-      "The Simple Houseware over-door organizer is the cheapest and most broadly proven pick in this list, with 24 clear pockets stretched across a 64-inch frame that hangs from 4 metal hooks. Clear pockets make it easy to spot a specific pair without pulling several out first.\n\nIt's rated for 40 lbs total, which is enough for lighter sneakers and flats but worth watching if you're loading it with bulkier boots. It fits doors up to 1-3/8 inches thick, so measure your door before ordering if it's an unusually thick interior door.",
+      "The Simple Houseware over-door organizer is the cheapest and most broadly proven pick in this list, with 24 clear pockets stretched across a 64-inch frame that hangs from 4 metal hooks. Clear pockets make it easy to spot a specific pair without pulling several out first.\n\nIt's rated for 40 lbs total, which is enough for lighter sneakers and flats but worth watching if you're loading it with bulkier boots. It fits doors up to 1-3/8 inches thick, so measure your door before ordering if it's an unusually thick interior door.\n\nMost-reviewed pick with over 132,000 ratings. Set against that, sealed clear pockets trap moisture against leather shoes. Both matter when comparing it to the other picks here.",
     specs: [
       "64\"H x 19\"W, 24 clear pockets",
       "40 lb total capacity",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31W1MuOfXyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089WJH8G7?tag=deskfinds0d-20",
     description:
-      "GORILLA GRIP swaps solid clear pockets for breathable mesh, which matters more than it sounds like for leather shoes, sealed plastic traps humidity against the material and can lead to mold over time, while mesh lets air move through. The 24-pocket, 64-inch frame matches the Simple Houseware's footprint almost exactly.\n\nIt carries the same 40 lb capacity and 4 sturdy hooks, plus a stain-resistant fabric backing and a foldable design for storage when not in use. This is the pick to reach for if your closet holds any leather dress shoes or boots alongside sneakers.",
+      "GORILLA GRIP swaps solid clear pockets for breathable mesh, which matters more than it sounds like for leather shoes, sealed plastic traps humidity against the material and can lead to mold over time, while mesh lets air move through. The 24-pocket, 64-inch frame matches the Simple Houseware's footprint almost exactly.\n\nIt carries the same 40 lb capacity and 4 sturdy hooks, plus a stain-resistant fabric backing and a foldable design for storage when not in use. This is the pick to reach for if your closet holds any leather dress shoes or boots alongside sneakers.\n\nA genuine advantage here is that same footprint and hook count as the top pick. The tradeoff is same 40 lb capacity as the cheaper clear-pocket version.",
     specs: [
       "64\"H x 19\"W, 24 breathable mesh pockets",
       "40 lb total capacity",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51uekjWg6TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FG6MR8HJ?tag=deskfinds0d-20",
     description:
-      "The UVIAHOMI is built for closets storing 20-30 pairs at once, with 10 tiers and 20 pockets stretched across a 73-inch frame, taller than either of the 64-inch organizers above. Its 80 lb capacity is the highest among the over-door picks in this guide, giving it real headroom for a mix of sneakers, sandals, and boots.\n\nA clear PVC window on each pocket keeps shoes visible, and it fits doors from 1.37 to 1.98 inches thick, wider than the other over-door organizers here, so it works on thicker interior and exterior doors. It's also the highest-rated pick in this entire guide.",
+      "The UVIAHOMI is built for closets storing 20-30 pairs at once, with 10 tiers and 20 pockets stretched across a 73-inch frame, taller than either of the 64-inch organizers above. Its 80 lb capacity is the highest among the over-door picks in this guide, giving it real headroom for a mix of sneakers, sandals, and boots.\n\nA clear PVC window on each pocket keeps shoes visible, and it fits doors from 1.37 to 1.98 inches thick, wider than the other over-door organizers here, so it works on thicker interior and exterior doors. It's also the highest-rated pick in this entire guide.\n\nHighest rating in this entire guide at 4.8 stars. On the other hand, higher price than the two basic over-door picks above. Neither should be a surprise once you know to look for it.",
     specs: [
       "73\"H x 22.5\"W, 20 pockets, 10 tiers",
       "80 lb total capacity",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41EzKoSjkGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CNGTZ3B5?tag=deskfinds0d-20",
     description:
-      "For closets without a usable door, the Kitsure floor rack is the cheapest freestanding option in this guide, a 27.5-inch-wide, 3-tier frame in non-woven fabric over a metal skeleton. It assembles tool-free in 4 steps and stacks with additional units if you need more tiers later.\n\nOpen-sided tiers give better airflow around each pair than a sealed pocket organizer, which helps sneakers and boots alike. It's a better fit for a walk-in closet floor or a closet with no door to hang from than for a reach-in closet door.",
+      "For closets without a usable door, the Kitsure floor rack is the cheapest freestanding option in this guide, a 27.5-inch-wide, 3-tier frame in non-woven fabric over a metal skeleton. It assembles tool-free in 4 steps and stacks with additional units if you need more tiers later.\n\nOpen-sided tiers give better airflow around each pair than a sealed pocket organizer, which helps sneakers and boots alike. It's a better fit for a walk-in closet floor or a closet with no door to hang from than for a reach-in closet door.\n\nOpen-sided tiers allow airflow around shoes. That's a real strength, but weigh it against the flip side: lower per-tier capacity than a wall-mounted or over-door option.",
     specs: [
       "27.5\"W x 11.8\"D x 13.7\"H",
       "Non-woven fabric + metal frame",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51pYRcM954L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B9N51B6G?tag=deskfinds0d-20",
     description:
-      "The HOOBRO is the only rack in this guide with tilt-adjustable mesh shelves, which solves the heel clearance problem that flat shelves create for boots and heels. Each of the 5 tiers can angle and slide to different heights, letting a single rack hold sneakers on one shelf and taller boots on another.\n\nBuilt from particleboard and metal mesh at 29.5 inches wide, the top shelf handles 44 lbs and each remaining shelf 22 lbs, enough for 16-20 pairs total. Mesh shelving also keeps air moving around each pair, which matters for anything leather.",
+      "The HOOBRO is the only rack in this guide with tilt-adjustable mesh shelves, which solves the heel clearance problem that flat shelves create for boots and heels. Each of the 5 tiers can angle and slide to different heights, letting a single rack hold sneakers on one shelf and taller boots on another.\n\nBuilt from particleboard and metal mesh at 29.5 inches wide, the top shelf handles 44 lbs and each remaining shelf 22 lbs, enough for 16-20 pairs total. Mesh shelving also keeps air moving around each pair, which matters for anything leather.\n\nWorth calling out specifically: solves heel clearance for boots and heels vs flat sneakers. The catch is pricier than the basic freestanding racks in this guide.",
     specs: [
       "29.5\"W x 11.8\"D x 31.8\"H",
       "Particleboard + metal mesh shelves",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51L2YK92tGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CBRBVL61?tag=deskfinds0d-20",
     description:
-      "The BORNOON is the only fully enclosed option in this guide, a 47.24-inch-tall engineered wood cabinet with 3 flip-down drawers that hide shoes behind a clean white front. That enclosure keeps dust off shoes entirely, something no open rack or pocket organizer in this guide can offer.\n\nIt holds 18-24 pairs with adjustable and removable panels to fit different shoe heights, and it ships with an anti-tip kit, a genuinely necessary feature on a tall freestanding cabinet. FSC-certified wood is a small but real sustainability detail worth noting.",
+      "The BORNOON is the only fully enclosed option in this guide, a 47.24-inch-tall engineered wood cabinet with 3 flip-down drawers that hide shoes behind a clean white front. That enclosure keeps dust off shoes entirely, something no open rack or pocket organizer in this guide can offer.\n\nIt holds 18-24 pairs with adjustable and removable panels to fit different shoe heights, and it ships with an anti-tip kit, a genuinely necessary feature on a tall freestanding cabinet. FSC-certified wood is a small but real sustainability detail worth noting.\n\nHighest-rated cabinet pick at 4.7 stars. Set against that, most expensive pick in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "47.24\"H x 31.5\"W x 9.45\"D",
       "Engineered wood, 3 flip drawers",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-s6pXX2-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FJ83F7KH?tag=deskfinds0d-20",
     description:
-      "Each NestOrganix box measures 17 by 17 by 12.99 inches and holds 16-24 pairs with adjustable dividers, letting you set the compartment size to fit anything from sneakers to boots in the same box. Oxford fabric construction is waterproof, and a clear PVC lid keeps contents visible without opening it.\n\nWhen empty, the box folds down to just 1.38 inches thick, useful for seasonal rotation, storing off-season shoes flat under a bed or on a closet shelf without eating up standing storage space year-round. It's tied for the highest rating in this guide.",
+      "Each NestOrganix box measures 17 by 17 by 12.99 inches and holds 16-24 pairs with adjustable dividers, letting you set the compartment size to fit anything from sneakers to boots in the same box. Oxford fabric construction is waterproof, and a clear PVC lid keeps contents visible without opening it.\n\nWhen empty, the box folds down to just 1.38 inches thick, useful for seasonal rotation, storing off-season shoes flat under a bed or on a closet shelf without eating up standing storage space year-round. It's tied for the highest rating in this guide.\n\nA genuine advantage here is that adjustable dividers fit mixed shoe sizes. The tradeoff is not wall or door mounted, so it needs floor or shelf space.",
     specs: [
       "17\"L x 17\"W x 12.99\"H per unit",
       "Holds 16-24 pairs per unit",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51eN2HmWpDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09GVFPNKD?tag=deskfinds0d-20",
     description:
-      "When a closet has zero floor space and no door to spare, the Lifewit under-bed organizer moves shoe storage out of the closet entirely. Each of the 2 units measures 30 by 24 by 4.3 inches with 12 compartments, for 24 pairs total across the pair, and a clear PVC window keeps them identifiable without unzipping.\n\nNon-woven fabric folds flat and includes 2 handles for pulling the unit out from under a bed frame. It's the cheapest option in this guide for anyone who has already maxed out closet storage and needs an overflow solution.",
+      "When a closet has zero floor space and no door to spare, the Lifewit under-bed organizer moves shoe storage out of the closet entirely. Each of the 2 units measures 30 by 24 by 4.3 inches with 12 compartments, for 24 pairs total across the pair, and a clear PVC window keeps them identifiable without unzipping.\n\nNon-woven fabric folds flat and includes 2 handles for pulling the unit out from under a bed frame. It's the cheapest option in this guide for anyone who has already maxed out closet storage and needs an overflow solution.\n\nCheapest option for closets with no floor space left. On the other hand, lowest rating in this guide at 4.3 stars. Neither should be a surprise once you know to look for it.",
     specs: [
       "30\"L x 24\"W x 4.3\"H per unit",
       "12 compartments per unit, 24 pairs total (2-pack)",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Match capacity to your real shoe count, not a round number",
-    explanation:
-      "Count your actual pairs before shopping, 10, 30, or 50 pairs need very different organizers. A 24-pocket over-door organizer like the Simple Houseware fits a modest 20-24 pair collection, while a 50-pair household needs either a higher-capacity option like the UVIAHOMI 10-Tier or multiple units combined.",
+    "criterion": "Match actual size and capacity to your real need, not the category label alone",
+    "explanation": "Listings for a closet shoe organizer often use a size or capacity label (\"compact,\" \"large,\" \"heavy-duty\") that isn't standardized across brands, so the same label can mean meaningfully different actual dimensions or capacity from one product to the next.\n\nThis matters because buying based on the category label rather than the specific listed dimensions or capacity is a common way to end up with something that doesn't actually fit your space or handle your real load.\n\nCheck the listing for exact measurements or a stated capacity figure, and compare that directly against your actual space or need, not just the marketing size category."
   },
   {
-    criterion: "Check pocket width against your actual shoe sizes",
-    explanation:
-      "Many pocket-style organizers are sized for average women's shoes and don't stretch enough for men's size 12+ sneakers or wide boots. Measure a large pair against the listed pocket dimensions before buying, and lean toward adjustable rack shelves like the HOOBRO if your household has larger shoe sizes.",
+    "criterion": "Verify build material and construction quality from reviews, not just spec-sheet claims",
+    "explanation": "A product description can describe material or construction in flattering terms that don't always hold up under real, sustained use, and the gap between a listing's claimed quality and its actual durability only shows up in how the product performs after weeks or months of real use, not in day-one photos.\n\nThis matters more for anything you'll use daily or under real load, less for occasional light use where durability matters less.\n\nCheck reviews specifically for mentions of how the closet shoe organizer holds up over time, not just unboxing-day impressions, and treat a listing's own quality claims as a starting point to verify, not a guarantee."
   },
   {
-    criterion: "Heel height needs its own clearance, not just shelf count",
-    explanation:
-      "Flat shelves sized for sneakers often crush the toe box of tall boots or the heel of pumps when tiers are too close together. Adjustable, tiltable shelving like the HOOBRO 5-Tier solves this by letting you widen the gap for taller footwear on specific shelves.",
+    "criterion": "Confirm any headline feature actually works as advertised, not just that it's listed",
+    "explanation": "A feature appearing in a product's bullet points doesn't guarantee it performs well in practice, some features are functional but limited, and a few are closer to a marketing checkbox than a genuinely useful capability.\n\nThis matters directly if a specific feature is the main reason you're choosing this closet shoe organizer over a simpler, cheaper alternative, since a feature that underperforms in practice undermines the whole reason for paying more.\n\nCheck reviews specifically for real-world experiences with the exact feature that matters most to you, not just whether the feature is listed at all."
   },
   {
-    criterion: "Leather shoes need airflow, not a sealed pocket",
-    explanation:
-      "Clear PVC pockets look tidy but trap humidity against leather, which can lead to mold over weeks of storage. Mesh pockets like the GORILLA GRIP or open-sided racks like the Kitsure let air circulate and are the safer choice for any leather dress shoes or boots.",
+    "criterion": "Weigh review count alongside rating, not rating alone",
+    "explanation": "A high star rating built on a small number of reviews carries meaningfully less confidence than a slightly lower rating built on a large, established review base, since a small sample can be skewed by a handful of early, enthusiastic buyers before any longer-term issues would show up in later reviews.\n\nThis matters more for a purchase you're relying on to perform consistently over time, less for a low-stakes, easily replaceable item.\n\nCheck both the star rating and the review count together for any closet shoe organizer you're considering, and treat a high rating on a very small review count as a promising but less-proven signal."
   },
   {
-    criterion: "Match mount type to your actual closet, not the other way around",
-    explanation:
-      "Over-door organizers need a door that swings clear and isn't too thick, floor racks need spare floor space, and hanging organizers need rod space instead. Measure your closet type first, a walk-in with no usable door calls for a floor rack like the Kitsure or HOOBRO, not an over-door pick.",
-  },
-  {
-    criterion: "Respect the stated weight limit",
-    explanation:
-      "Most over-door organizers in this guide cap out between 40 and 80 lbs total, and overloading them is one of the most common reasons they sag or the hooks bend. Spread heavier boots across multiple pockets rather than stacking them all at the bottom.",
-  },
+    "criterion": "Check compatibility and fit with your existing setup before ordering",
+    "explanation": "A closet shoe organizer that looks like a straightforward fit in photos can still have a compatibility detail, a connector type, a mounting requirement, a size threshold, that doesn't match your existing setup, and this kind of mismatch is one of the most common and avoidable reasons for a return.\n\nThis matters directly if the product needs to physically connect to, mount on, or otherwise integrate with something you already own.\n\nCheck the listing's specific compatibility details against your exact existing setup, not just the general product category, before ordering."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,88 +359,98 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By How Many Pairs You Own",
-    intro:
-      "Capacity is the single biggest factor in choosing a shoe organizer, and pair count varies a lot more than most product listings make clear.",
-    table: {
-      headers: ["Pair count", "Best format", "Best pick"],
-      rows: [
-        ["10-15 pairs", "Small hanging organizer or 3-tier rack", "Kitsure 3-Tier Non-Woven Shoe Rack"],
-        ["20-24 pairs", "Standard 24-pocket over-door", "Simple Houseware or GORILLA GRIP 24-Pocket"],
-        ["20-30 pairs", "High-capacity over-door", "UVIAHOMI 10-Tier Over-Door"],
-        ["18-24 pairs, hidden storage", "Enclosed cabinet", "BORNOON Shoe Cabinet 3 Flip Drawers"],
-        ["24+ pairs, overflow", "Under-bed or foldable box", "Lifewit Under-Bed 2-Pack, NestOrganix Foldable Box"],
+    "subheading": "By Rating Confidence: Highest Rated vs Most Reviewed",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Highest average rating",
+          "UVIAHOMI 10"
+        ],
+        [
+          "Largest review base, strongest reliability signal",
+          "Simple Houseware 24"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Shoe Size and Type",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $10",
+          "Simple Houseware 24"
+        ],
+        [
+          "Up to $120",
+          "BORNOON Shoe Cabinet 3 Flip Drawers"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Simple Houseware 24 vs BORNOON Shoe Cabinet 3 Flip Drawers",
+    "cards": [
       {
-        label: "Standard sneakers and flats",
-        text: "Any pocket-style over-door organizer works well, the Simple Houseware or GORILLA GRIP both fit typical sizes comfortably.",
+        "label": "Simple Houseware 24",
+        "text": "The lower-priced option in this comparison, worth checking its actual specs and review history against your specific need before assuming it's enough."
       },
       {
-        label: "Men's size 12+ or wide shoes",
-        text: "Adjustable mesh shelving like the HOOBRO 5-Tier gives more usable width than a fixed pocket, since shelves don't stretch-fit the way fabric pockets do.",
-      },
-      {
-        label: "Boots and heels needing height",
-        text: "The HOOBRO's tilt-adjustable shelves are the only pick in this guide built to widen clearance for taller footwear on specific tiers.",
-      },
-      {
-        label: "Leather dress shoes",
-        text: "Choose breathable mesh or open-sided storage, the GORILLA GRIP mesh pockets or Kitsure open rack, over sealed clear-pocket organizers.",
-      },
+        "label": "BORNOON Shoe Cabinet 3 Flip Drawers",
+        "text": "The higher-priced option, worth it if it offers real, checkable headroom in build quality, capacity, or features over the cheaper pick."
+      }
     ],
+    "note": "Default to Simple Houseware 24 unless your specific need genuinely calls for the pricier pick's extra headroom."
   },
   {
-    subheading: "Over-Door vs Floor Rack vs Hanging vs Cabinet",
-    intro:
-      "Closet layout dictates format more than personal preference does, since not every closet has a usable door or spare floor space.",
-    table: {
-      headers: ["Closet type", "Best format", "Best pick"],
-      rows: [
-        ["Standard reach-in closet with a door", "Over-door pocket organizer", "Simple Houseware or UVIAHOMI 10-Tier"],
-        ["Walk-in closet, no usable door", "Floor rack", "Kitsure 3-Tier or HOOBRO 5-Tier"],
-        ["Closet with rod space but no floor room", "Hanging organizer over the rod", "GORILLA GRIP or Simple Houseware repurposed on a rod hook"],
-        ["Bedroom with a wall to spare", "Enclosed cabinet", "BORNOON Shoe Cabinet"],
-        ["No closet space left at all", "Under-bed storage", "Lifewit Under-Bed 2-Pack"],
+    "subheading": "By Review Base Confidence",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Largest, most-established review base",
+          "Simple Houseware 24"
+        ]
+      ]
+    }
   },
   {
-    subheading: "Weight Limits by Pick",
-    intro:
-      "Overloading an over-door organizer is a common and avoidable failure, check the stated limit against your actual pairs before hanging it.",
-    table: {
-      headers: ["Pick", "Stated weight limit", "Practical pair guidance"],
-      rows: [
-        ["Simple Houseware / GORILLA GRIP 24-Pocket", "40 lbs total", "Best for lighter sneakers and flats, not heavy boots"],
-        ["UVIAHOMI 10-Tier", "80 lbs total", "Handles a mixed load of boots and sneakers"],
-        ["HOOBRO 5-Tier", "44 lbs top shelf, 22 lbs per other shelf", "Distribute heavier pairs across shelves, not stacked on one"],
-        ["BORNOON Cabinet", "Not pocket-based, drawer capacity varies by shoe size", "Adjustable panels accommodate mixed heights"],
-      ],
-    },
-    note: "If you're unsure how heavy your shoe collection actually is, weigh a full shelf's worth on a bathroom scale once, it's a fast way to confirm you're not near the stated limit.",
+    "subheading": "For a First-Time Buyer Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "Clear, specific dimensions or capacity and a real, established review history, not just marketing language."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Simple Houseware 24 is worth checking against its listed specs before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "Shoe Care and Maintenance Tips",
-    cards: [
+    "subheading": "When to Spend More",
+    "cards": [
       {
-        label: "Let damp shoes dry before storing",
-        text: "Never put wet or damp shoes straight into a sealed pocket or enclosed cabinet, trapped moisture is what leads to mold, even with a breathable mesh design.",
+        "label": "Spend more if",
+        "text": "You need real durability and feature depth for regular use, where BORNOON Shoe Cabinet 3 Flip Drawers's build gives real headroom over the cheaper picks."
       },
       {
-        label: "Rotate seasonal pairs out of the main organizer",
-        text: "Move off-season boots or sandals into a foldable box like the NestOrganix when not in use, freeing up prime pocket or shelf space for current-season shoes.",
-      },
-      {
-        label: "Wipe pockets and shelves periodically",
-        text: "Fabric and mesh pockets collect dust and shed skin over months of use, a quick wipe-down every season keeps the organizer from becoming its own odor source.",
-      },
-    ],
-  },
+        "label": "Save if",
+        "text": "You only need this for light or occasional use, where Simple Houseware 24 covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
