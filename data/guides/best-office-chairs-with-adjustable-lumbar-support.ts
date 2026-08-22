@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41tzbvyly7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09D33BXHL?tag=deskfinds0d-20",
     description:
-      "This chair pairs a mesh back with PU leather seating and lists adjustable lumbar support alongside flip-up arms, a combination that suits buyers who want an executive look without the executive price. The mesh back panel helps with airflow during longer sitting sessions, while the PU leather seat cushion is easier to wipe down than fabric.\n\nFlip-up armrests are useful if the chair needs to tuck under a desk that's on the shorter side. Based on product specs and buyer feedback, it holds up well for typical home office use, though as with every chair in this guide, the exact lumbar adjustment mechanism isn't specified on the listing.",
+      "This chair pairs a mesh back with PU leather seating and lists adjustable lumbar support alongside flip-up arms, a combination that suits buyers who want an executive look without the executive price. The mesh back panel helps with airflow during longer sitting sessions, while the PU leather seat cushion is easier to wipe down than fabric.\n\nFlip-up armrests are useful if the chair needs to tuck under a desk that's on the shorter side. Based on product specs and buyer feedback, it holds up well for typical home office use, though as with every chair in this guide, the exact lumbar adjustment mechanism isn't specified on the listing.\n\nMesh back improves airflow over full upholstery. That's a real strength, but weigh it against the flip side: costs more than the budget picks in this guide.",
     specs: [
       "Mesh back with PU leather seat",
       "Adjustable lumbar support",
@@ -83,7 +83,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41qkMtzBIdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQDM23S4?tag=deskfinds0d-20",
     description:
-      "With the highest review count in this guide by a wide margin, this mid-back chair is the entry point for buyers who want lumbar support without spending much. The breathable backrest and sponge seat keep the price low while still covering the basics of an adjustable-height task chair.\n\nRolling wheels and a simple swivel base make it easy to move around a small home office. Based on product specs and buyer feedback, it's best suited to shorter sitting sessions rather than an all-day desk job, and like the rest of this guide, the lumbar adjustment mechanism isn't detailed on the listing.",
+      "With the highest review count in this guide by a wide margin, this mid-back chair is the entry point for buyers who want lumbar support without spending much. The breathable backrest and sponge seat keep the price low while still covering the basics of an adjustable-height task chair.\n\nRolling wheels and a simple swivel base make it easy to move around a small home office. Based on product specs and buyer feedback, it's best suited to shorter sitting sessions rather than an all-day desk job, and like the rest of this guide, the lumbar adjustment mechanism isn't detailed on the listing.\n\nWorth calling out specifically: largest number of Amazon ratings in this guide. The catch is sponge seat may compress faster than higher-density foam.",
     specs: [
       "Mid-back breathable design",
       "Adjustable lumbar support",
@@ -115,7 +115,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41b4JMojCoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07T291QPJ?tag=deskfinds0d-20",
     description:
-      "The Furmax executive chair uses a high-back PU leather design that supports the upper back and shoulders in addition to the lumbar area listed on the product page. Its managerial styling and swivel base make it a reasonable fit for a home office that doubles as a video call background.\n\nThe high-back shape gives more head and shoulder coverage than the mid-back picks in this guide, which matters for buyers who lean back frequently. Based on product specs and buyer feedback, build quality is solid at this price, though the exact lumbar mechanism isn't stated on the listing.",
+      "The Furmax executive chair uses a high-back PU leather design that supports the upper back and shoulders in addition to the lumbar area listed on the product page. Its managerial styling and swivel base make it a reasonable fit for a home office that doubles as a video call background.\n\nThe high-back shape gives more head and shoulder coverage than the mid-back picks in this guide, which matters for buyers who lean back frequently. Based on product specs and buyer feedback, build quality is solid at this price, though the exact lumbar mechanism isn't stated on the listing.\n\nManagerial look suited to video calls. Set against that, bulkier footprint than mid-back chairs. Both matter when comparing it to the other picks here.",
     specs: [
       "High-back PU leather design",
       "Adjustable lumbar support",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/411wlpMNg+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CP22DQQS?tag=deskfinds0d-20",
     description:
-      "This chair leans into a full mesh build with a headrest and 3D armrests, features that put it closer to a higher-tier ergonomic chair than most picks in this guide. The high-back mesh design supports better airflow than PU leather across long sitting sessions.\n\n3D armrests adjust in more directions than the flip-up-only arms on other picks here, which helps buyers dial in elbow position more precisely. Based on product specs and buyer feedback, it's a strong value for the added headrest and armrest flexibility, though the lumbar adjustment mechanism isn't specified on the listing.",
+      "This chair leans into a full mesh build with a headrest and 3D armrests, features that put it closer to a higher-tier ergonomic chair than most picks in this guide. The high-back mesh design supports better airflow than PU leather across long sitting sessions.\n\n3D armrests adjust in more directions than the flip-up-only arms on other picks here, which helps buyers dial in elbow position more precisely. Based on product specs and buyer feedback, it's a strong value for the added headrest and armrest flexibility, though the lumbar adjustment mechanism isn't specified on the listing.\n\nA genuine advantage here is that 3D armrests adjust in more directions than flip-up arms. The tradeoff is costs more than the budget and mid-tier picks in this guide.",
     specs: [
       "Full mesh high-back design",
       "Adjustable lumbar support",
@@ -179,7 +179,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41vkBVigJkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXX75JN5?tag=deskfinds0d-20",
     description:
-      "This mid-back mesh chair from NEO CHAIR matches the budget pick in this guide on price while offering a mesh seat instead of a padded one. It's built around a simple, compact frame that fits well in a small home office or dorm setup.\n\nAdjustable height and a rolling base cover the essentials, and the mesh seat helps with airflow more than a foam-and-fabric design would at this price. Based on product specs and buyer feedback, it's a reasonable entry-level option, with the lumbar adjustment mechanism itself left unspecified on the listing.",
+      "This mid-back mesh chair from NEO CHAIR matches the budget pick in this guide on price while offering a mesh seat instead of a padded one. It's built around a simple, compact frame that fits well in a small home office or dorm setup.\n\nAdjustable height and a rolling base cover the essentials, and the mesh seat helps with airflow more than a foam-and-fabric design would at this price. Based on product specs and buyer feedback, it's a reasonable entry-level option, with the lumbar adjustment mechanism itself left unspecified on the listing.\n\nMesh seat improves airflow over foam-only designs. That's a real strength, but weigh it against the flip side: fewer premium features than the higher-priced picks here.",
     specs: [
       "Mid-back mesh design",
       "Adjustable lumbar support",
@@ -211,7 +211,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41g7G7Hgo4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKNN49QP?tag=deskfinds0d-20",
     description:
-      "This high-back version from NEO CHAIR adds flip-up armrests and taller back coverage to the same mesh-and-mid-range price formula as the brand's mid-back pick. The high-back shape gives more support for buyers who lean back frequently during the day.\n\nFlip-up arms make it easier to slide under a low desk when not in use. Based on product specs and buyer feedback, it holds up as a solid mid-tier option, and as with the rest of this guide, the exact lumbar adjustment mechanism isn't stated on the product page.",
+      "This high-back version from NEO CHAIR adds flip-up armrests and taller back coverage to the same mesh-and-mid-range price formula as the brand's mid-back pick. The high-back shape gives more support for buyers who lean back frequently during the day.\n\nFlip-up arms make it easier to slide under a low desk when not in use. Based on product specs and buyer feedback, it holds up as a solid mid-tier option, and as with the rest of this guide, the exact lumbar adjustment mechanism isn't stated on the product page.\n\nWorth calling out specifically: flip-up arms for tight desk clearance. The catch is slightly lower average rating than other NEO CHAIR picks in this guide.",
     specs: [
       "High-back mesh design",
       "Adjustable lumbar support",
@@ -243,7 +243,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31qifS1PZSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B41X9SMT?tag=deskfinds0d-20",
     description:
-      "This is the drafting-style chair in this guide, built with an extended height range and a footrest ring specifically for use with a standing desk raised to counter height. Lumbar support and flip-up armrests are listed alongside the taller gas lift needed for this format.\n\nThe adjustable footrest ring is a feature none of the other 7 picks here offer, which matters if the chair needs to work at a raised desk rather than a standard-height one. Based on product specs and buyer feedback, it's a solid option specifically for that use case, with the lumbar adjustment mechanism itself unspecified on the listing.",
+      "This is the drafting-style chair in this guide, built with an extended height range and a footrest ring specifically for use with a standing desk raised to counter height. Lumbar support and flip-up armrests are listed alongside the taller gas lift needed for this format.\n\nThe adjustable footrest ring is a feature none of the other 7 picks here offer, which matters if the chair needs to work at a raised desk rather than a standard-height one. Based on product specs and buyer feedback, it's a solid option specifically for that use case, with the lumbar adjustment mechanism itself unspecified on the listing.\n\nAdjustable footrest ring for counter-height desks. Set against that, not the right fit for a standard-height desk. Both matter when comparing it to the other picks here.",
     specs: [
       "Tall drafting-height gas lift",
       "Adjustable lumbar support",
@@ -275,7 +275,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41DJb5724iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPLP3BND?tag=deskfinds0d-20",
     description:
-      "This is the pink colorway from NEO CHAIR's mesh chair lineup, aimed at buyers who want the same mid-range mesh and lumbar support formula in a less common finish for a vanity desk or home office. Flip-up arms and adjustable height carry over from the brand's other picks in this guide.\n\nThe mesh build keeps airflow reasonable, and rolling wheels make it easy to reposition. Based on product specs and buyer feedback, it performs comparably to the brand's other entries here, with the lumbar adjustment mechanism itself not detailed on the listing.",
+      "This is the pink colorway from NEO CHAIR's mesh chair lineup, aimed at buyers who want the same mid-range mesh and lumbar support formula in a less common finish for a vanity desk or home office. Flip-up arms and adjustable height carry over from the brand's other picks in this guide.\n\nThe mesh build keeps airflow reasonable, and rolling wheels make it easy to reposition. Based on product specs and buyer feedback, it performs comparably to the brand's other entries here, with the lumbar adjustment mechanism itself not detailed on the listing.\n\nA genuine advantage here is that mesh build for airflow. The tradeoff is smallest rating count among the NEO CHAIR picks in this guide.",
     specs: [
       "Mesh chair design",
       "Adjustable lumbar support",
@@ -328,35 +328,25 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Adjustable lumbar support covers four different mechanisms",
-    explanation:
-      "The phrase adjustable lumbar support can mean a pad that slides only up and down, one that moves in and out, one that does both, or a dynamic pad that flexes as you shift position. Amazon listings rarely specify which type a chair actually uses, so if the exact mechanism matters to you, check the product Q&A or the listing images for a visible dial, lever, or slider on the lumbar area before buying.",
+    "criterion": "Verify lumbar support is genuinely adjustable, not just a fixed cushion",
+    "explanation": "Many office chairs include a lumbar cushion or built-in curve marketed as \"ergonomic support,\" but a fixed, non-adjustable lumbar shape only fits correctly for a body proportioned exactly the way the chair was designed for, while a genuinely adjustable lumbar system (height-adjustable, inflatable, or a repositionable pad) can be tuned to your actual lower back curve.\n\nThis matters directly if you experience real lower back discomfort during long workdays, a fixed lumbar shape that doesn't match your body can feel worse than no lumbar support at all.\n\nCheck whether lumbar support is described as adjustable and how (height, firmness, or depth), not just whether the word \"lumbar\" appears in the listing."
   },
   {
-    criterion: "Lumbar position matters more than most buyers expect",
-    explanation:
-      "The lumbar pad should sit at belt-line level, roughly the L1 to L5 region of your lower back, about 2 to 3 inches above the seat pan. Most people leave the default position too high when they first sit down, which can make an otherwise well-built lumbar feature feel like it isn't doing anything.",
+    "criterion": "Check whether the footrest is truly integrated and stable, not a flimsy add-on",
+    "explanation": "A pull-out or flip-up footrest built into a reclining office chair varies significantly in real stability, some are solidly built extensions that support real leg weight when reclined, while others are thin, lightly-supported panels that flex or wobble under actual use.\n\nThis matters directly if you plan to genuinely recline and rest your legs on the footrest regularly, a weak footrest defeats the purpose of the feature entirely.\n\nCheck reviews specifically for mentions of footrest sturdiness under real weight, not just whether a footrest is present in the listing."
   },
   {
-    criterion: "Firmness and position are two separate adjustments",
-    explanation:
-      "A lumbar pad's firmness and its vertical or depth position solve different problems. General muscle tension usually responds better to a softer pad, while disc-related discomfort often needs firmer support, so don't assume moving the pad alone will fix a firmness complaint.",
+    "criterion": "Consider armrest range of motion for your actual desk height and typing posture",
+    "explanation": "Armrest adjustability ranges from simple height-only adjustment to full 4D armrests that move up, down, forward, back, and pivot, and this range matters directly for matching the armrest height to your specific desk and keyboard position, a mismatched armrest height forces shoulders up or wrists at an awkward angle during long workdays.\n\nThis matters more for anyone typing many hours daily, less for occasional use where posture matters less.\n\nCheck the specific armrest adjustment axes listed (2D, 3D, or 4D), not just whether armrests are present."
   },
   {
-    criterion: "Seat depth can cancel out even a great lumbar feature",
-    explanation:
-      "If the seat is too deep for your leg length, you end up perching forward on the front edge to keep your feet flat, which pulls your lower back away from the lumbar pad entirely. No amount of lumbar adjustability helps if the seat depth pushes you out of contact with it in the first place.",
+    "criterion": "Weigh recline range and locking positions against how you actually use the chair",
+    "explanation": "Recline range varies from a modest 90-135 degrees on basic task chairs to a near-flat 155-180 degrees on recliner-style office chairs, and a wider recline range only matters if you'll actually use it, for a brief rest between tasks versus sitting upright for focused work most of the day.\n\nThis matters because a chair with an impressive recline range but a weak recline lock can feel unstable at extreme angles, while a more basic recline range with a solid lock mechanism holds position reliably.\n\nCheck both the maximum recline angle and whether the recline lock holds at multiple positions, not just the maximum angle alone."
   },
   {
-    criterion: "Short-torso users may run out of adjustment range",
-    explanation:
-      "Most adjustable lumbar mechanisms only travel about 2 to 4 inches. Buyers under roughly 5 feet 4 inches sometimes need the pad positioned lower than that travel range allows, so it's worth checking buyer photos or reviews from shorter users before assuming the range will fit.",
-  },
-  {
-    criterion: "Mesh versus PU leather changes long-session comfort",
-    explanation:
-      "Mesh backs breathe better across multi-hour sitting sessions, while PU leather is easier to wipe clean but can feel warmer over time. If you sit for most of the workday, prioritize a mesh-back pick from this guide over a leather one, even if the leather chair looks more polished.",
-  },
+    "criterion": "Check weight capacity and base material for real long-term stability",
+    "explanation": "The chair's rated weight capacity is the absolute structural maximum, not a comfortable operating range, so a chair rated just barely above your actual weight runs closer to its limit than one with genuine headroom, and the 5-star base and caster wheels bear that full weight through thousands of rolling and swiveling cycles over the chair's life.\n\nThis matters more for daily long-workday use than occasional sitting.\n\nCheck the listed weight capacity with real margin above your actual weight, and check the base material specifically (steel or reinforced nylon holds up better than basic plastic) rather than assuming any five-star base is equally durable."
+  }
 ];
 
 export interface HowToChooseSection {
@@ -369,75 +359,83 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    subheading: "By Budget Tier",
-    intro: "Price in this guide ranges from about $39 to $130. Here's where to land based on what you're willing to spend.",
-    table: {
-      headers: ["Budget", "Pick", "Why"],
-      rows: [
-        ["Under $40", "BestOffice Ergonomic Office Chair or NEO CHAIR Mid Back Mesh", "Lowest prices in this guide with basic adjustable lumbar covered"],
-        ["$50 to $70", "NEO CHAIR High Back Mesh or NEO CHAIR Pink Mesh", "Mid-tier mesh builds with flip-up arms"],
-        ["$90 to $120", "Furmax Executive Chair or Marsail Ergonomic Mesh", "High-back coverage or 3D armrests and a headrest"],
-        ["$120 and up", "Office Chair Ergonomic Desk Chair (PU Leather)", "Executive styling with the highest rating count in this guide"],
+    "subheading": "By Weight Capacity",
+    "table": {
+      "headers": [
+        "Your priority",
+        "Recommended pick"
       ],
-    },
+      "rows": [
+        [
+          "Most-reviewed, strongest reliability signal",
+          "BestOffice Ergonomic Office Chair"
+        ]
+      ]
+    }
   },
   {
-    subheading: "By Sitting Duration",
-    cards: [
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $39",
+          "NEO CHAIR Office Computer Chair Mid Back Desk Ergonomic Mesh Gaming Seat Comfy Lumbar Support Rolling Wheels Adjustable Height Swivel for Home Task"
+        ],
+        [
+          "Up to $130",
+          "Office Chair Ergonomic Desk Chair"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Mesh Back vs Padded/Fabric Back",
+    "cards": [
       {
-        label: "Under 4 hours a day",
-        text: "The BestOffice Ergonomic Office Chair or the NEO CHAIR Mid Back Mesh cover the basics without paying for features you won't use in short sessions.",
+        "label": "Mesh back",
+        "text": "Breathable and cooler for long sessions, worth it in a warmer room or for anyone who runs hot. In this comparison: Office Chair Ergonomic Desk Chair, Marsail Ergonomic Office Chair, NEO CHAIR Office Computer Chair Mid Back Desk Ergonomic Mesh Gaming Seat Comfy Lumbar Support Rolling Wheels Adjustable Height Swivel for Home Task, NEO CHAIR Office Desk Gaming Chair Computer High Back Mesh Seat with Rolling Wheels Ergonomic Adjustable Comfy Flip, NEO CHAIR Office Desk Gaming Ergonomic Computer Chair with Lumbar Back Support Adjustable Height Swivel Rolling Wheels Flip."
       },
       {
-        label: "4 to 8 hours a day",
-        text: "The Marsail Ergonomic Mesh or the Furmax Executive Chair hold up better for full workdays thanks to mesh breathability or high-back coverage.",
-      },
-      {
-        label: "8-plus hours or shared desk use",
-        text: "The Office Chair Ergonomic Desk Chair is the sturdiest overall build in this guide and the best fit if the chair needs to handle heavy daily use.",
-      },
+        "label": "Padded/fabric back",
+        "text": "Softer feel and often better cushioned support. In this comparison: BestOffice Ergonomic Office Chair, Furmax Office Executive Chair High Back Adjustable Managerial Home Desk Chair, Primy Drafting Chair Tall Office Chair with Flip."
+      }
     ],
+    "note": "Default to mesh if breathability matters for long sessions, padded fabric for a softer feel."
   },
   {
-    subheading: "If You're Under 5 Feet 4 Inches (Torso Height and Lumbar Travel)",
-    intro: "Most lumbar mechanisms only travel 2 to 4 inches, which can leave shorter users without enough downward range.",
-    table: {
-      headers: ["Situation", "Recommendation", "Why"],
-      rows: [
-        ["Under 5'4\", need the pad lower", "NEO CHAIR Mid Back Mesh", "Compact frame and mid-back height are easier to fit to a shorter torso than a tall high-back design"],
-        ["Under 5'4\", using a standing desk", "Primy Drafting Chair (with footrest ring)", "Height range is built for counter-height desks, and the footrest ring compensates for shorter leg reach"],
-        ["Average or taller height", "Any of the high-back picks in this guide", "Longer backs need the added shoulder coverage a mid-back chair doesn't provide"],
-      ],
-    },
-    note: "If your torso is on the shorter side, check buyer photos or reviews from shorter users before buying, since the listing itself won't state the exact lumbar travel range.",
+    "subheading": "By Armrest Adjustability",
+    "note": "Check each pick's listed armrest adjustment axes (2D, 3D, or 4D) against your desk height and typing posture before buying. BestOffice Ergonomic Office Chair is the most-reviewed option here if you want the safer bet."
   },
   {
-    subheading: "By Need for Flip-Up Arms",
-    intro: "Flip-up arms matter most for buyers with a narrow desk or one that sits lower than standard height.",
-    cards: [
+    "subheading": "For Long Workdays Specifically",
+    "cards": [
       {
-        label: "Desk is at or below 28 inches",
-        text: "The Office Chair Ergonomic Desk Chair, the NEO CHAIR High Back Mesh, or the Primy Drafting Chair all list flip-up arms that let the chair slide fully under a low desk.",
+        "label": "Look for",
+        "text": "Genuinely adjustable lumbar support and 3D or 4D armrests, not just a fixed cushion and basic height-only armrests."
       },
       {
-        label: "Desk clearance isn't a concern",
-        text: "The Marsail Ergonomic Mesh's 3D armrests trade flip-up convenience for more precise elbow-height and width adjustment.",
-      },
-    ],
+        "label": "In this comparison",
+        "text": "BestOffice Ergonomic Office Chair is worth checking against its listed adjustability before buying, given its strong review base."
+      }
+    ]
   },
   {
-    subheading: "When to Spend More Than $60",
-    intro: "The jump from budget to mid-tier buys specific features, not just a nicer badge.",
-    table: {
-      headers: ["Feature", "Where you get it", "Worth it if"],
-      rows: [
-        ["Headrest", "Marsail Ergonomic Mesh", "You lean back frequently during calls or breaks"],
-        ["High-back coverage", "Furmax Executive Chair or NEO CHAIR High Back Mesh", "You want shoulder support, not just lower-back support"],
-        ["3D armrests", "Marsail Ergonomic Mesh", "You want finer elbow-position control than flip-up arms allow"],
-        ["Executive styling", "Office Chair Ergonomic Desk Chair", "The chair will be visible on video calls"],
-      ],
-    },
-  },
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You spend many hours daily at your desk, where Office Chair Ergonomic Desk Chair's adjustability and build quality give real headroom over the cheaper picks."
+      },
+      {
+        "label": "Save if",
+        "text": "You only need the chair for occasional or light use, where NEO CHAIR Office Computer Chair Mid Back Desk Ergonomic Mesh Gaming Seat Comfy Lumbar Support Rolling Wheels Adjustable Height Swivel for Home Task covers the same job at a lower price."
+      }
+    ]
+  }
 ];
 
 export const faq: FaqItem[] = [
