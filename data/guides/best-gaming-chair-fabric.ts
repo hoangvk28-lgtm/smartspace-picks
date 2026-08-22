@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41fC1Jf3TBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FG2LWB5N?tag=deskfinds0d-20",
     description:
-      "This GTPLAYER model combines a 45D pocket spring seat with 30D memory foam and a mesh fabric rated twice as breathable as standard upholstery, aimed squarely at buyers who overheat in PU leather chairs. Self-adjusting linkage armrests move together as you shift position, and it reclines to 135 degrees with a footrest included.\n\nAt 4.5 stars, it holds the highest rating of any chair in this guide, backed by 581 ratings. With a 300 lb capacity and 1-year warranty at $89.96, it's the pick for buyers who want the best-reviewed breathable fabric chair without paying premium prices.",
+      "This GTPLAYER model combines a 45D pocket spring seat with 30D memory foam and a mesh fabric rated twice as breathable as standard upholstery, aimed squarely at buyers who overheat in PU leather chairs. Self-adjusting linkage armrests move together as you shift position, and it reclines to 135 degrees with a footrest included.\n\nAt 4.5 stars, it holds the highest rating of any chair in this guide, backed by 581 ratings. With a 300 lb capacity and 1-year warranty at $89.96, it's the pick for buyers who want the best-reviewed breathable fabric chair without paying premium prices.\n\nPocket spring plus memory foam cushioning. That's a real strength, but weigh it against the flip side: fewer ratings (581) than some other GTPLAYER and Dowinx models.",
     specs: [
       "45D pocket spring + 30D memory foam",
       "Mesh fabric, 2x more breathable",
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41o72f-ElIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9YFX3QN?tag=deskfinds0d-20",
     description:
-      "This GTPLAYER variant swaps standard mesh for a proprietary Leatheraire fabric also rated twice as breathable as typical upholstery, combined with the same pocket spring cushioning and self-adjusting linkage armrests as its sibling model. A butterfly embroidery detail adds a distinct look, and the frame carries FSC certification for responsibly sourced wood.\n\nWith 2,016 ratings at 4.4 stars, it has a much larger review base than the mesh version above, making it the better-proven pick if you want Leatheraire's texture over mesh. It ships with a 1-year warranty and the same smooth recline as other GTPLAYER models in this guide.",
+      "This GTPLAYER variant swaps standard mesh for a proprietary Leatheraire fabric also rated twice as breathable as typical upholstery, combined with the same pocket spring cushioning and self-adjusting linkage armrests as its sibling model. A butterfly embroidery detail adds a distinct look, and the frame carries FSC certification for responsibly sourced wood.\n\nWith 2,016 ratings at 4.4 stars, it has a much larger review base than the mesh version above, making it the better-proven pick if you want Leatheraire's texture over mesh. It ships with a 1-year warranty and the same smooth recline as other GTPLAYER models in this guide.\n\nWorth calling out specifically: leatheraire fabric texture with breathability. The catch is slightly higher price than the mesh version.",
     specs: [
       "Leatheraire fabric, 2x more breathable",
       "Pocket spring cushioning",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41nlVoDus6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DTGBHK2N?tag=deskfinds0d-20",
     description:
-      "Dowinx's self-developed breathable mesh is also rated at 2x airflow versus standard fabric, paired with a sofa-like pocket spring seat and a wingless design that widens the usable seat area compared to typical winged gaming chair shapes. It reclines to 135 degrees with a footrest and rests on an FSC-certified frame.\n\nWith 2,629 ratings at 4.3 stars, it sits in the middle of this guide's review counts. The wingless wide seat is the standout feature here, useful for buyers who find traditional wing-back gaming chairs too narrow or confining.",
+      "Dowinx's self-developed breathable mesh is also rated at 2x airflow versus standard fabric, paired with a sofa-like pocket spring seat and a wingless design that widens the usable seat area compared to typical winged gaming chair shapes. It reclines to 135 degrees with a footrest and rests on an FSC-certified frame.\n\nWith 2,629 ratings at 4.3 stars, it sits in the middle of this guide's review counts. The wingless wide seat is the standout feature here, useful for buyers who find traditional wing-back gaming chairs too narrow or confining.\n\nWingless wide seat design. Set against that, 4.3 stars, on the lower end of this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "Self-developed breathable mesh, 2x airflow",
       "Sofa-like pocket spring seat",
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41in1T98NVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRD8344V?tag=deskfinds0d-20",
     description:
-      "This Dowinx model builds on the same pocket spring and wingless wide seat as Pick 3, adding a removable cooling gel pad for dual cooling on top of the fabric's natural breathability. Upscale embroidery detailing distinguishes it visually, and it reclines to 135 degrees with a footrest included.\n\nAt 4.4 stars across 2,193 ratings, it's rated slightly higher than the non-gel Dowinx model above, though at a higher price. For buyers in warm climates or who run hot during long sessions, the added gel pad is the differentiator worth paying extra for.",
+      "This Dowinx model builds on the same pocket spring and wingless wide seat as Pick 3, adding a removable cooling gel pad for dual cooling on top of the fabric's natural breathability. Upscale embroidery detailing distinguishes it visually, and it reclines to 135 degrees with a footrest included.\n\nAt 4.4 stars across 2,193 ratings, it's rated slightly higher than the non-gel Dowinx model above, though at a higher price. For buyers in warm climates or who run hot during long sessions, the added gel pad is the differentiator worth paying extra for.\n\nA genuine advantage here is that 4.4 stars across 2,193 ratings. The tradeoff is higher price than the non-gel Dowinx model.",
     specs: [
       "Pocket spring + removable cooling gel pad",
       "Dual cooling system",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/413jImEN9HL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D4TKP2M1?tag=deskfinds0d-20",
     description:
-      "This GTPLAYER model swaps mesh or Leatheraire for a soft flannel fabric over an integrated spring system, sized for bigger users with a 350 lb capacity, the second highest in this guide. Embroidery detailing and self-adjusting linkage armrests carry over from GTPLAYER's other fabric chairs, and it reclines further, to 150 degrees.\n\nAn SGS-rated gas lift backs the higher weight rating, and it ships with a footrest and 1-year warranty. At $139.99 with 419 ratings, it's the more affordable of the two big and tall fabric chairs in this guide.",
+      "This GTPLAYER model swaps mesh or Leatheraire for a soft flannel fabric over an integrated spring system, sized for bigger users with a 350 lb capacity, the second highest in this guide. Embroidery detailing and self-adjusting linkage armrests carry over from GTPLAYER's other fabric chairs, and it reclines further, to 150 degrees.\n\nAn SGS-rated gas lift backs the higher weight rating, and it ships with a footrest and 1-year warranty. At $139.99 with 419 ratings, it's the more affordable of the two big and tall fabric chairs in this guide.\n\nDeeper 150° recline. That's a real strength, but weigh it against the flip side: only 419 ratings, less proven than other GTPLAYER models.",
     specs: [
       "Integrated spring + soft flannel fabric",
       "Embroidery design",
@@ -171,7 +171,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41aIG29WmgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2XC9MH2?tag=deskfinds0d-20",
     description:
-      "Dowinx uses a premium microsuede fabric here that's both water-resistant and temperature-regulating, a step up from the mesh and flannel used elsewhere in this guide. It's built with the highest capacity of any chair in this list at 440 lbs, paired with an extra-wide 21.5-inch seat and the same pocket spring cushioning as Dowinx's other fabric models.\n\nAn FSC-certified frame and a lifetime warranty, the longest coverage in this guide, back the premium price. At 4.4 stars with 133 ratings, it's less reviewed than most picks here, but the combination of capacity, seat width, and fabric quality makes it the top big and tall pick for buyers who don't mind paying more.",
+      "Dowinx uses a premium microsuede fabric here that's both water-resistant and temperature-regulating, a step up from the mesh and flannel used elsewhere in this guide. It's built with the highest capacity of any chair in this list at 440 lbs, paired with an extra-wide 21.5-inch seat and the same pocket spring cushioning as Dowinx's other fabric models.\n\nAn FSC-certified frame and a lifetime warranty, the longest coverage in this guide, back the premium price. At 4.4 stars with 133 ratings, it's less reviewed than most picks here, but the combination of capacity, seat width, and fabric quality makes it the top big and tall pick for buyers who don't mind paying more.\n\nWorth calling out specifically: extra-wide 21.5-inch seat. The catch is only 133 ratings, least proven in this guide.",
     specs: [
       "Premium microsuede, water-resistant, temperature-regulating",
       "Pocket spring cushioning",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Qa+ghgoOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DF2CW7SS?tag=deskfinds0d-20",
     description:
-      "The Ferghana stands apart from every other chair in this guide by using velvet fabric with a fire embroidery design, a distinctly different look from the mesh, suede, and flannel options elsewhere. Dowinx and GTPLAYER models emphasize breathability and cooling, but the Ferghana leans into style, while still including a massage lumbar cushion, footrest, and linkage armrests.\n\nAn SGS-rated gas lift backs the 250 lb capacity, and it ships with a 1-year warranty. At 4.1 stars with 237 ratings, it's the lowest-rated chair in this guide, but for buyers who specifically want a standout velvet look, nothing else here matches it.",
+      "The Ferghana stands apart from every other chair in this guide by using velvet fabric with a fire embroidery design, a distinctly different look from the mesh, suede, and flannel options elsewhere. Dowinx and GTPLAYER models emphasize breathability and cooling, but the Ferghana leans into style, while still including a massage lumbar cushion, footrest, and linkage armrests.\n\nAn SGS-rated gas lift backs the 250 lb capacity, and it ships with a 1-year warranty. At 4.1 stars with 237 ratings, it's the lowest-rated chair in this guide, but for buyers who specifically want a standout velvet look, nothing else here matches it.\n\nDistinct fire embroidery design. Set against that, 4.1 stars, lowest rating in this guide. Both matter when comparing it to the other picks here.",
     specs: [
       "Velvet fabric with fire embroidery design",
       "Massage lumbar cushion",
@@ -219,7 +219,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31+SyqrT5rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3RJS9CL?tag=deskfinds0d-20",
     description:
-      "Secretlab is a top esports chair brand, and the Titan Evo's proprietary SoftWeave fabric is a different tier of material entirely compared to the mesh, suede, and velvet fabrics elsewhere in this guide. 4D armrests, a 4-way adjustable lumbar system, and a magnetic memory foam head pillow round out a chair built for daily, multi-hour use rather than occasional gaming.\n\nIt reclines to 165 degrees, the deepest in this guide, rated for 285 lbs and backed by a 5-year warranty. At $689.00 it's by far the most expensive chair here, roughly 4 to 7 times the price of most other picks, but it matches that price with build quality and adjustability none of the budget fabric chairs in this guide offer.",
+      "Secretlab is a top esports chair brand, and the Titan Evo's proprietary SoftWeave fabric is a different tier of material entirely compared to the mesh, suede, and velvet fabrics elsewhere in this guide. 4D armrests, a 4-way adjustable lumbar system, and a magnetic memory foam head pillow round out a chair built for daily, multi-hour use rather than occasional gaming.\n\nIt reclines to 165 degrees, the deepest in this guide, rated for 285 lbs and backed by a 5-year warranty. At $689.00 it's by far the most expensive chair here, roughly 4 to 7 times the price of most other picks, but it matches that price with build quality and adjustability none of the budget fabric chairs in this guide offer.\n\nA genuine advantage here is that deepest recline in this guide at 165°. The tradeoff is most expensive chair in this guide by a wide margin.",
     specs: [
       "Proprietary SoftWeave fabric",
       "4D adjustable armrests",
@@ -236,30 +236,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Mesh vs suede vs velvet vs proprietary weave",
-    explanation:
-      "Most chairs in this guide use a breathable mesh or Leatheraire fabric from GTPLAYER or Dowinx, both rated around 2x more breathable than standard upholstery. The Dowinx Big & Tall model uses water-resistant microsuede instead, the Ferghana uses velvet for a distinct look, and the Secretlab Titan Evo uses a proprietary SoftWeave fabric found only on premium esports chairs. Pick based on whether breathability, texture, or style matters most.",
+    "criterion": "Check weight capacity against your actual body weight with real safety margin",
+    "explanation": "A gaming chair's rated weight capacity is the absolute maximum before the frame, gas lift, and casters are at real risk of failure, not a comfortable operating range, so a chair rated just barely above your actual weight is running much closer to its structural limit than a chair with genuine headroom.\n\nThis matters because a chair operating near its weight limit tends to develop wobble, sagging, or gas-lift failure faster than one with real margin, even if it doesn't fail outright.\n\nCheck the listed weight capacity, and favor a chair rated at least 50-75 lbs above your actual weight rather than one that just barely clears it."
   },
   {
-    criterion: "Pocket spring cushioning shows up across most picks",
-    explanation:
-      "Six of the eight chairs here, including every GTPLAYER and Dowinx model, use pocket spring cushioning rather than solid foam, which generally holds shape better over years of use. The Ferghana and Secretlab use different cushioning approaches, memory foam and Secretlab's proprietary foam system respectively, so don't assume pocket springs are universal just because they dominate the budget-to-mid tier here.",
+    "criterion": "Verify lumbar support is genuinely adjustable, not just a fixed cushion",
+    "explanation": "Many gaming chairs include a lumbar cushion or built-in curve marketed as \"ergonomic support,\" but a fixed, non-adjustable lumbar shape only fits correctly for a body proportioned exactly the way the chair was designed for, while a genuinely adjustable lumbar system (height-adjustable, inflatable, or a repositionable pillow) can be tuned to your actual lower back curve.\n\nThis matters directly if you experience real lower back discomfort during long sessions, a fixed lumbar shape that doesn't match your body can be worse than no lumbar support at all.\n\nCheck whether lumbar support is described as adjustable and how (height, firmness, or position), not just whether the word \"lumbar\" appears in the listing."
   },
   {
-    criterion: "Cooling features are not standard even on fabric chairs",
-    explanation:
-      "Fabric alone helps with breathability, but only the Dowinx Gel Pad model in this guide adds an actual cooling gel pad for active heat management. If you run hot during long sessions, that's the one chair here built specifically to address it, rather than relying on fabric breathability alone.",
+    "criterion": "Consider armrest range of motion for your actual desk height and typing posture",
+    "explanation": "Armrest adjustability ranges from simple height-only adjustment to full 4D armrests that move up, down, forward, back, and pivot, and this range matters directly for matching the armrest height to your specific desk and keyboard position, a mismatched armrest height forces shoulders up or wrists at an awkward angle during long sessions.\n\nThis matters more for anyone spending many hours daily typing or gaming, less for occasional use where posture matters less.\n\nCheck the specific armrest adjustment axes listed (2D, 3D, or 4D), not just whether armrests are present, and match that against how much your desk height or seating position varies."
   },
   {
-    criterion: "Weight capacity varies more than fabric type does",
-    explanation:
-      "Standard fabric chairs in this guide, like the GTPLAYER mesh and Leatheraire models, cap around 300 lbs. The GTPLAYER Big & Tall reaches 350 lbs, and the Dowinx Big & Tall Suede tops this guide at 440 lbs with a wider 21.5-inch seat. The Secretlab Titan Evo, despite its premium price, is rated lower at 285 lbs, so capacity and price don't always move together.",
+    "criterion": "Weigh recline range and locking positions against how you actually use the chair",
+    "explanation": "Recline range varies from a modest 90-135 degrees on basic gaming chairs to a near-flat 180 degrees on recliner-style models, and a wider recline range only matters if you'll actually use it, for napping, watching content reclined, or relaxing between gaming sessions, versus sitting upright for focused work or gaming most of the time.\n\nThis matters because a chair with an impressive recline range but a weak recline lock can feel unstable at extreme angles, while a more basic recline range with a solid lock mechanism holds position reliably.\n\nCheck both the maximum recline angle and whether the recline lock holds at multiple positions, not just the maximum angle alone."
   },
   {
-    criterion: "Warranty length as a durability signal",
-    explanation:
-      "Most fabric chairs in this guide carry a standard 1-year warranty, but the Dowinx Big & Tall Suede model stands out with a lifetime warranty, and the Secretlab Titan Evo offers 5 years. Given that fabric and cushioning are the components most likely to wear over time, a longer warranty on a fabric chair is a meaningful signal of the manufacturer's confidence in the material.",
-  },
+    "criterion": "Check base material and caster quality for real long-term stability",
+    "explanation": "The 5-star base and caster wheels bear the chair's full weight through thousands of rolling and swiveling cycles over the chair's life, and material quality here varies significantly, a genuine steel or reinforced nylon base holds up far better under real weight than a cheaper plastic base that can crack or flex over time, and caster wheel quality affects both smooth rolling and floor protection.\n\nThis matters more for a heavier user or daily long-session use, less for occasional light use.\n\nCheck the listed base material specifically, not just the overall chair material, and check reviews for mentions of base or caster durability after months of use, not just initial assembly quality."
+  }
 ];
 
 export const faq: FaqItem[] = [

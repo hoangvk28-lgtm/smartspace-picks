@@ -51,7 +51,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jbM5vVc0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH239CN5?tag=deskfinds0d-20",
     description:
-      "This Best Choice Products rocker sits directly on the floor and pivots a full 360 degrees, letting you swivel toward a TV or turn to talk to someone in the room without lifting the chair. It folds flat for storage between sessions, and the cover is machine washable, a rare feature among floor rockers.\n\nWith 11,239 ratings at 4.4 stars, it's the best-selling rocker in this guide by a wide margin. Rated for 300 lbs and available with next-day delivery on many listings, it's the pick for most buyers who want a proven, easy-to-store swivel rocker without paying for extras like speakers.",
+      "This Best Choice Products rocker sits directly on the floor and pivots a full 360 degrees, letting you swivel toward a TV or turn to talk to someone in the room without lifting the chair. It folds flat for storage between sessions, and the cover is machine washable, a rare feature among floor rockers.\n\nWith 11,239 ratings at 4.4 stars, it's the best-selling rocker in this guide by a wide margin. Rated for 300 lbs and available with next-day delivery on many listings, it's the pick for most buyers who want a proven, easy-to-store swivel rocker without paying for extras like speakers.\n\nFull 360° swivel. That's a real strength, but weigh it against the flip side: no built-in speakers or electronics.",
     specs: [
       "360° swivel floor rocker",
       "Foldable for storage",
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41WdK6FQUKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0899BXLXD?tag=deskfinds0d-20",
     description:
-      "The X Rocker Galaxy adds built-in low-latency 2.0 Bluetooth speakers directly into the headrest, connecting wirelessly to a PS5, Xbox, or Switch so the rocking motion doubles as an immersive audio seat. The vegan leather shell folds flat for storage when not in use, the same way the Best Choice Products model does.\n\nAt 4.6 stars, it holds the highest rating in this guide despite a smaller review base of 844 ratings. Rated for 300 lbs and suited to both teens and adults, it's the pick for anyone who specifically wants audio built into the rocking seat itself.",
+      "The X Rocker Galaxy adds built-in low-latency 2.0 Bluetooth speakers directly into the headrest, connecting wirelessly to a PS5, Xbox, or Switch so the rocking motion doubles as an immersive audio seat. The vegan leather shell folds flat for storage when not in use, the same way the Best Choice Products model does.\n\nAt 4.6 stars, it holds the highest rating in this guide despite a smaller review base of 844 ratings. Rated for 300 lbs and suited to both teens and adults, it's the pick for anyone who specifically wants audio built into the rocking seat itself.\n\nWorth calling out specifically: built-in Bluetooth 2.0 speakers. The catch is fewer ratings (844) than the Best Choice Products floor rocker.",
     specs: [
       "Built-in low-latency 2.0 Bluetooth speakers",
       "Connects to PS5, Xbox, Switch",
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31b9qXUr9rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089B17Z21?tag=deskfinds0d-20",
     description:
-      "The Eclipse is X Rocker's step-up rocker design, pairing the same 2.0 headrest speakers as the Galaxy with both Bluetooth and a wired 3.5mm option, useful if your console or PC doesn't support wireless audio reliably. Breathable mesh replaces the Galaxy's vegan leather, and it folds flat the same way for storage.\n\nWith 2,257 ratings at 4.4 stars, it has a more established review base than the Galaxy while keeping the same 300 lb capacity. For buyers who want a wired audio backup option alongside Bluetooth, the Eclipse is the better-proven choice over the Galaxy.",
+      "The Eclipse is X Rocker's step-up rocker design, pairing the same 2.0 headrest speakers as the Galaxy with both Bluetooth and a wired 3.5mm option, useful if your console or PC doesn't support wireless audio reliably. Breathable mesh replaces the Galaxy's vegan leather, and it folds flat the same way for storage.\n\nWith 2,257 ratings at 4.4 stars, it has a more established review base than the Galaxy while keeping the same 300 lb capacity. For buyers who want a wired audio backup option alongside Bluetooth, the Eclipse is the better-proven choice over the Galaxy.\n\nBoth Bluetooth and wired audio options. Set against that, slightly higher price than the Galaxy. Both matter when comparing it to the other picks here.",
     specs: [
       "2.0 headrest speakers",
       "Bluetooth + wired 3.5mm audio",
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/416YqWwMTFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYF75L59?tag=deskfinds0d-20",
     description:
-      "Where the Best Choice Products and X Rocker models fold for storage, the GTPLAYER is a one-piece rocker built around an adjustable angle limiter that controls exactly how far the seat rocks back, useful if you want to dial in a gentler motion. At 8.6 lbs it's the lightest chair in this guide by a wide margin.\n\nWith 8,705 ratings, it has the largest review base here after the Best Choice Products floor rocker. Its 200 lb capacity is the lowest in this guide, and the low price at $44.99 makes it an easy secondary or budget rocker pick.",
+      "Where the Best Choice Products and X Rocker models fold for storage, the GTPLAYER is a one-piece rocker built around an adjustable angle limiter that controls exactly how far the seat rocks back, useful if you want to dial in a gentler motion. At 8.6 lbs it's the lightest chair in this guide by a wide margin.\n\nWith 8,705 ratings, it has the largest review base here after the Best Choice Products floor rocker. Its 200 lb capacity is the lowest in this guide, and the low price at $44.99 makes it an easy secondary or budget rocker pick.\n\nA genuine advantage here is that adjustable rocking angle limiter. The tradeoff is 200 lb capacity, lowest in this guide.",
     specs: [
       "Adjustable angle limiter for rocking motion",
       "8.6 lbs, lightest in this guide",
@@ -147,7 +147,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31svghcZskL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B001T4XU2G?tag=deskfinds0d-20",
     description:
-      "The Crew Furniture Classic is a one-piece floor rocker sized for kids and teens, with the safest frame design in this guide since there are no folding hinges, pedestal joints, or moving base parts for small hands to catch on. It rocks gently with the body rather than pivoting on a mechanism, and requires no assembly out of the box.\n\nWith 8,730 ratings at 4.4 stars, it's the highest-rated rocker in this guide. At a 200 lb capacity and $49.68, it's built specifically as an entry-level rocking seat for younger gamers rather than a full-size adult chair.",
+      "The Crew Furniture Classic is a one-piece floor rocker sized for kids and teens, with the safest frame design in this guide since there are no folding hinges, pedestal joints, or moving base parts for small hands to catch on. It rocks gently with the body rather than pivoting on a mechanism, and requires no assembly out of the box.\n\nWith 8,730 ratings at 4.4 stars, it's the highest-rated rocker in this guide. At a 200 lb capacity and $49.68, it's built specifically as an entry-level rocking seat for younger gamers rather than a full-size adult chair.\n\nNo assembly needed. That's a real strength, but weigh it against the flip side: 200 lb capacity limits it to lighter users.",
     specs: [
       "One-piece rocking frame, no moving base parts",
       "Sized for kids and teens",
@@ -171,7 +171,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51fgMLstK5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07WCTSX7G?tag=deskfinds0d-20",
     description:
-      "The VITESSE takes rocking in a different direction than the floor rockers above: instead of a fixed rock angle, it reclines from 90 to 180 degrees like a sofa, letting you settle into any position rather than just tipping back and forth. A steel and hardwood frame supports the design, and side storage keeps a controller or remote within reach.\n\nWaterproof PU leather wipes clean easily, and non-marking feet keep it stationary once you've picked an angle. With 3,914 ratings at 4.4 stars and a 10-minute assembly, it's the pick for buyers who want reclining flexibility rather than a fixed rocking motion.",
+      "The VITESSE takes rocking in a different direction than the floor rockers above: instead of a fixed rock angle, it reclines from 90 to 180 degrees like a sofa, letting you settle into any position rather than just tipping back and forth. A steel and hardwood frame supports the design, and side storage keeps a controller or remote within reach.\n\nWaterproof PU leather wipes clean easily, and non-marking feet keep it stationary once you've picked an angle. With 3,914 ratings at 4.4 stars and a 10-minute assembly, it's the pick for buyers who want reclining flexibility rather than a fixed rocking motion.\n\nWorth calling out specifically: full 90-180° reclining range. The catch is no true rocking or swivel motion, recline only.",
     specs: [
       "Reclines 90-180° like a sofa",
       "Steel and hardwood frame",
@@ -195,7 +195,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31VosJN1ELL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DLG8H23J?tag=deskfinds0d-20",
     description:
-      "Unlike the floor-level rockers in this guide, the RESPAWN 800 sits on a raised pedestal base that swivels a full 360 degrees and rocks back to 117 degrees, closer to a traditional desk chair height. Flip-up armrests make it easy to get in and out of, and breathable fabric with lumbar support carries over from RESPAWN's larger chairs.\n\nWith a heavy-duty metal frame and no wheels involved, it's built for console setups where you want pedestal-height seating rather than sitting on the floor. At 931 ratings and 4.1 stars, it's less reviewed than the floor rockers here but offers a genuinely different rocking experience.",
+      "Unlike the floor-level rockers in this guide, the RESPAWN 800 sits on a raised pedestal base that swivels a full 360 degrees and rocks back to 117 degrees, closer to a traditional desk chair height. Flip-up armrests make it easy to get in and out of, and breathable fabric with lumbar support carries over from RESPAWN's larger chairs.\n\nWith a heavy-duty metal frame and no wheels involved, it's built for console setups where you want pedestal-height seating rather than sitting on the floor. At 931 ratings and 4.1 stars, it's less reviewed than the floor rockers here but offers a genuinely different rocking experience.\n\nFull 360° swivel plus 117° rock. Set against that, fewer ratings (931) than floor rocker alternatives. Both matter when comparing it to the other picks here.",
     specs: [
       "Raised pedestal base, no wheels",
       "360° swivel, rocks to 117°",
@@ -219,7 +219,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41XTooEFbuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9H3PDSY?tag=deskfinds0d-20",
     description:
-      "The RESPAWN 900 is the most premium recliner-rocker hybrid in this guide, combining independent recline to 135 degrees, a separate pull-out footrest, and a 360 degree swivel base in one chair. A built-in cup holder and side pouch round out the console-focused design, and it's backed by 4,007 ratings at 4.4 stars.\n\nBacked by RESPAWN's 5-year warranty, it's the chair to pick if you want the full range of rocking, swiveling, and reclining motion in a single premium seat rather than choosing between a floor rocker's simplicity and a recliner's comfort.",
+      "The RESPAWN 900 is the most premium recliner-rocker hybrid in this guide, combining independent recline to 135 degrees, a separate pull-out footrest, and a 360 degree swivel base in one chair. A built-in cup holder and side pouch round out the console-focused design, and it's backed by 4,007 ratings at 4.4 stars.\n\nBacked by RESPAWN's 5-year warranty, it's the chair to pick if you want the full range of rocking, swiveling, and reclining motion in a single premium seat rather than choosing between a floor rocker's simplicity and a recliner's comfort.\n\nA genuine advantage here is that pull-out footrest included. The tradeoff is most expensive chair in this guide at $314.45.",
     specs: [
       "Independent recline to 135°",
       "Separate pull-out footrest",
@@ -236,30 +236,25 @@ export const products: GuideProduct[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   {
-    criterion: "Floor rocker vs pedestal rocker vs recliner-rocker",
-    explanation:
-      "Floor rockers like the Best Choice Products and X Rocker models sit directly on the ground and rock or swivel low to the floor. Pedestal rockers like the RESPAWN 800 raise the seat to a more traditional chair height while still swiveling and rocking. Recliner-rockers like the VITESSE and RESPAWN 900 trade a fixed rocking angle for a full reclining range instead. Pick based on whether you want floor-level, chair-height, or sofa-style seating.",
+    "criterion": "Check weight capacity against your actual body weight with real safety margin",
+    "explanation": "A gaming chair's rated weight capacity is the absolute maximum before the frame, gas lift, and casters are at real risk of failure, not a comfortable operating range, so a chair rated just barely above your actual weight is running much closer to its structural limit than a chair with genuine headroom.\n\nThis matters because a chair operating near its weight limit tends to develop wobble, sagging, or gas-lift failure faster than one with real margin, even if it doesn't fail outright.\n\nCheck the listed weight capacity, and favor a chair rated at least 50-75 lbs above your actual weight rather than one that just barely clears it."
   },
   {
-    criterion: "Swivel range matters as much as rocking angle",
-    explanation:
-      "The Best Choice Products, X Rocker, and RESPAWN 800 models all offer a full 360 degree swivel, letting you turn toward a TV, desk, or another person in the room. The VITESSE recliner-rocker has no swivel at all, focusing purely on reclining angle instead. If turning to face different directions matters more than reclining depth, prioritize the swivel-rated models.",
+    "criterion": "Verify lumbar support is genuinely adjustable, not just a fixed cushion",
+    "explanation": "Many gaming chairs include a lumbar cushion or built-in curve marketed as \"ergonomic support,\" but a fixed, non-adjustable lumbar shape only fits correctly for a body proportioned exactly the way the chair was designed for, while a genuinely adjustable lumbar system (height-adjustable, inflatable, or a repositionable pillow) can be tuned to your actual lower back curve.\n\nThis matters directly if you experience real lower back discomfort during long sessions, a fixed lumbar shape that doesn't match your body can be worse than no lumbar support at all.\n\nCheck whether lumbar support is described as adjustable and how (height, firmness, or position), not just whether the word \"lumbar\" appears in the listing."
   },
   {
-    criterion: "Built-in speakers add a real feature, not just a gimmick",
-    explanation:
-      "The X Rocker Galaxy and Eclipse both build 2.0 speakers directly into the headrest, connecting via Bluetooth (and wired 3.5mm on the Eclipse) to a console or PC. No other rocker in this guide has integrated audio. If you already have a soundbar or headset, this feature matters less, but for a dedicated console rocking seat it adds real value.",
+    "criterion": "Consider armrest range of motion for your actual desk height and typing posture",
+    "explanation": "Armrest adjustability ranges from simple height-only adjustment to full 4D armrests that move up, down, forward, back, and pivot, and this range matters directly for matching the armrest height to your specific desk and keyboard position, a mismatched armrest height forces shoulders up or wrists at an awkward angle during long sessions.\n\nThis matters more for anyone spending many hours daily typing or gaming, less for occasional use where posture matters less.\n\nCheck the specific armrest adjustment axes listed (2D, 3D, or 4D), not just whether armrests are present, and match that against how much your desk height or seating position varies."
   },
   {
-    criterion: "Foldability and storage",
-    explanation:
-      "The Best Choice Products floor rocker and both X Rocker models fold flat for storage between sessions, useful in shared or small living spaces. The GTPLAYER, Crew Furniture, VITESSE, and both RESPAWN models are one-piece or fixed-base designs that stay assembled. If floor space is limited when the chair isn't in use, prioritize a folding model.",
+    "criterion": "Weigh recline range and locking positions against how you actually use the chair",
+    "explanation": "Recline range varies from a modest 90-135 degrees on basic gaming chairs to a near-flat 180 degrees on recliner-style models, and a wider recline range only matters if you'll actually use it, for napping, watching content reclined, or relaxing between gaming sessions, versus sitting upright for focused work or gaming most of the time.\n\nThis matters because a chair with an impressive recline range but a weak recline lock can feel unstable at extreme angles, while a more basic recline range with a solid lock mechanism holds position reliably.\n\nCheck both the maximum recline angle and whether the recline lock holds at multiple positions, not just the maximum angle alone."
   },
   {
-    criterion: "Weight capacity and who the rocker is for",
-    explanation:
-      "Most rockers in this guide are rated for 300 lbs, but the GTPLAYER and Crew Furniture models cap at 200 lbs, reflecting their lighter, more budget or kid-focused builds. The Crew Furniture rocker is explicitly sized for kids and teens, while the RESPAWN and X Rocker models suit teens and adults at higher capacities.",
-  },
+    "criterion": "Check base material and caster quality for real long-term stability",
+    "explanation": "The 5-star base and caster wheels bear the chair's full weight through thousands of rolling and swiveling cycles over the chair's life, and material quality here varies significantly, a genuine steel or reinforced nylon base holds up far better under real weight than a cheaper plastic base that can crack or flex over time, and caster wheel quality affects both smooth rolling and floor protection.\n\nThis matters more for a heavier user or daily long-session use, less for occasional light use.\n\nCheck the listed base material specifically, not just the overall chair material, and check reviews for mentions of base or caster durability after months of use, not just initial assembly quality."
+  }
 ];
 
 export const faq: FaqItem[] = [

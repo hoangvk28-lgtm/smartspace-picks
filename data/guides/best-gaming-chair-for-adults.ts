@@ -50,7 +50,7 @@ export const products: GuideProduct[] = [
     reviews: "420 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31AWZq4SytL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B3RHCV9R?tag=deskfinds0d-20",
-    description: "The Secretlab Titan Evo has been rated a top gaming chair by outlets like PCMag and PC Gamer, and the spec sheet explains why. It combines 4D armrests, a magnetic memory foam head pillow, and 4-way adjustable lumbar support that lets adults dial in support at the exact height their spine needs.\n\nWith a 285 lb weight capacity, a recline range up to 165 degrees, and a 5-year warranty, it is built for adults who sit for long stretches and want a chair that holds up over years of daily use rather than months.",
+    description: "The Secretlab Titan Evo has been rated a top gaming chair by outlets like PCMag and PC Gamer, and the spec sheet explains why. It combines 4D armrests, a magnetic memory foam head pillow, and 4-way adjustable lumbar support that lets adults dial in support at the exact height their spine needs.\n\nWith a 285 lb weight capacity, a recline range up to 165 degrees, and a 5-year warranty, it is built for adults who sit for long stretches and want a chair that holds up over years of daily use rather than months.\n\n4-way lumbar adjustment. That's a real strength, but weigh it against the flip side: highest price in this guide.",
     specs: ["4D armrests", "Magnetic memory foam head pillow", "4-way lumbar support", "Reclines to 165°", "285 lb capacity", "5-year warranty"],
     pros: ["Top-rated by major gaming outlets", "4-way lumbar adjustment", "285 lb capacity", "5-year warranty"],
     cons: ["Highest price in this guide", "4D armrests add setup complexity for first-time buyers"],
@@ -66,7 +66,7 @@ export const products: GuideProduct[] = [
     reviews: "850 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31vW0gyD7GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B351YTS8?tag=deskfinds0d-20",
-    description: "The Anda Seat Kaiser 3 XL is built around a 395 lb weight capacity and a steel frame, making it one of the sturdiest options for larger adults in this guide. The MagSwap AD+ 4-way lumbar system and magnetic memory foam pillow bring premium-tier comfort features without reaching Secretlab pricing.\n\nMagnetic 4D armrests and a recline range from 90 to 160 degrees round out a chair that adjusts to a wide range of body types, and the lifetime warranty signals real confidence in the steel frame's durability.",
+    description: "The Anda Seat Kaiser 3 XL is built around a 395 lb weight capacity and a steel frame, making it one of the sturdiest options for larger adults in this guide. The MagSwap AD+ 4-way lumbar system and magnetic memory foam pillow bring premium-tier comfort features without reaching Secretlab pricing.\n\nMagnetic 4D armrests and a recline range from 90 to 160 degrees round out a chair that adjusts to a wide range of body types, and the lifetime warranty signals real confidence in the steel frame's durability.\n\nWorth calling out specifically: lifetime warranty. The catch is pVC leather runs warmer than fabric options.",
     specs: ["395 lb capacity", "MagSwap AD+ 4-way lumbar", "Magnetic memory foam pillow", "Reclines 90-160°", "Magnetic 4D armrests", "Lifetime warranty"],
     pros: ["395 lb capacity", "Lifetime warranty", "Magnetic 4-way lumbar system", "Steel frame construction"],
     cons: ["PVC leather runs warmer than fabric options", "Bulkier footprint than mid-size chairs"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     reviews: "11 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/312AeAIbr-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8BYWH6N?tag=deskfinds0d-20",
-    description: "The Anda Seat Novis brings breathable linen fabric to a segment usually dominated by PU leather, which makes a real difference for adults who game or work in warmer rooms. It still includes 4D armrests and integrated lumbar support, features often reserved for chairs twice its price.\n\nA CNC steel frame and recline up to 155 degrees back up the comfort features with real durability, and the early rating average suggests buyers who have tried it are impressed with the value at this price point.",
+    description: "The Anda Seat Novis brings breathable linen fabric to a segment usually dominated by PU leather, which makes a real difference for adults who game or work in warmer rooms. It still includes 4D armrests and integrated lumbar support, features often reserved for chairs twice its price.\n\nA CNC steel frame and recline up to 155 degrees back up the comfort features with real durability, and the early rating average suggests buyers who have tried it are impressed with the value at this price point.\n\n4D armrests at a mid-range price. Set against that, 198 lb capacity is lower than other picks. Both matter when comparing it to the other picks here.",
     specs: ["Breathable linen fabric", "4D armrests", "Integrated lumbar", "Reclines to 155°", "CNC steel frame", "198 lb capacity"],
     pros: ["Breathable fabric alternative to leather", "4D armrests at a mid-range price", "CNC steel frame", "Highest rating in this guide"],
     cons: ["198 lb capacity is lower than other picks", "Small review sample size so far"],
@@ -98,7 +98,7 @@ export const products: GuideProduct[] = [
     reviews: "33 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/31tKzyPay-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GFPWZ82H?tag=deskfinds0d-20",
-    description: "The Razer Iskur V2 X NewGen uses CoolTouch Gen-2 EPU leather that Razer rates as 13 times more durable than standard PU leather, addressing one of the most common complaints about gaming chairs: leather that peels within a year or two. Integrated lumbar support and a wide steel base give it a stable, supportive foundation.\n\nWith a 299 lb capacity, recline up to 152 degrees, and a 3-year warranty, it is built for adults who want the durability of a premium material without committing to full 4D armrest complexity, since it uses simpler 2D armrests instead.",
+    description: "The Razer Iskur V2 X NewGen uses CoolTouch Gen-2 EPU leather that Razer rates as 13 times more durable than standard PU leather, addressing one of the most common complaints about gaming chairs: leather that peels within a year or two. Integrated lumbar support and a wide steel base give it a stable, supportive foundation.\n\nWith a 299 lb capacity, recline up to 152 degrees, and a 3-year warranty, it is built for adults who want the durability of a premium material without committing to full 4D armrest complexity, since it uses simpler 2D armrests instead.\n\nA genuine advantage here is that 299 lb capacity. The tradeoff is 2D armrests less adjustable than 4D options.",
     specs: ["CoolTouch Gen-2 EPU leather", "Integrated lumbar", "Wide steel base", "Reclines to 152°", "2D armrests", "299 lb capacity", "3-year warranty"],
     pros: ["EPU leather rated 13x more durable", "299 lb capacity", "Wide stable base", "3-year warranty"],
     cons: ["2D armrests less adjustable than 4D options", "Integrated lumbar isn't independently adjustable"],
@@ -114,7 +114,7 @@ export const products: GuideProduct[] = [
     reviews: "11,049 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/418XL3oa87L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B6JN5TK4?tag=deskfinds0d-20",
-    description: "The RESPAWN 110 Pro has racked up over 11,000 ratings, making it one of the most purchased and reviewed gaming chairs adults buy in this price range. A pull-out footrest lets you recline up to 155 degrees and stretch out during longer sessions, backed by 2-layer thick foam cushioning.\n\nA headrest pillow and 275 lb capacity round out a chair that covers the essentials well, and the 5-year warranty is unusually long for a chair at this price point.",
+    description: "The RESPAWN 110 Pro has racked up over 11,000 ratings, making it one of the most purchased and reviewed gaming chairs adults buy in this price range. A pull-out footrest lets you recline up to 155 degrees and stretch out during longer sessions, backed by 2-layer thick foam cushioning.\n\nA headrest pillow and 275 lb capacity round out a chair that covers the essentials well, and the 5-year warranty is unusually long for a chair at this price point.\n\nBuilt-in footrest. That's a real strength, but weigh it against the flip side: 4.2 stars is lower than premium picks.",
     specs: ["Pull-out footrest", "Reclines to 155°", "2-layer thick foam", "Headrest pillow", "275 lb capacity", "5-year warranty"],
     pros: ["Over 11,000 ratings", "Built-in footrest", "5-year warranty", "275 lb capacity"],
     cons: ["4.2 stars is lower than premium picks", "Foam may compress faster under heavy daily use"],
@@ -130,7 +130,7 @@ export const products: GuideProduct[] = [
     reviews: "3,278 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41rfEKecDtL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FZHHL9LP?tag=deskfinds0d-20",
-    description: "The GTPLAYER F59GT packs a 350 lb weight capacity and a pull-out footrest into a chair priced under $100, which is rare for a big and tall design. High-resilience memory foam latex cushioning is a step up from the basic foam typically found in this price bracket.\n\nA reinforced metal frame, recline up to 155 degrees, and adjustable headrest and lumbar pillows make it a well-rounded budget pick for larger adults who don't want to spend $300-plus for a bigger seat.",
+    description: "The GTPLAYER F59GT packs a 350 lb weight capacity and a pull-out footrest into a chair priced under $100, which is rare for a big and tall design. High-resilience memory foam latex cushioning is a step up from the basic foam typically found in this price bracket.\n\nA reinforced metal frame, recline up to 155 degrees, and adjustable headrest and lumbar pillows make it a well-rounded budget pick for larger adults who don't want to spend $300-plus for a bigger seat.\n\nWorth calling out specifically: memory foam latex cushioning. The catch is no 4D or 3D armrests.",
     specs: ["High-resilience memory foam latex", "350 lb capacity", "Reclines to 155°", "Pull-out footrest", "Adjustable headrest + lumbar pillow", "Reinforced metal frame"],
     pros: ["350 lb capacity under $100", "Memory foam latex cushioning", "Pull-out footrest", "3,278 ratings at 4.4 stars"],
     cons: ["No 4D or 3D armrests", "Pillow-style lumbar less precise than integrated systems"],
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     reviews: "10,743 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41C1HWbEZDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07X5WDP2L?tag=deskfinds0d-20",
-    description: "The LEMBERI gaming chair supports an extreme 400 lb capacity, the highest in this guide, while staying under $100. With over 10,700 ratings at 4.4 stars, it has proven itself as a reliable budget option for adults who need extra weight capacity without a premium price tag.\n\nA detachable footrest, massage lumbar, headrest pillow, and recline range from 90 to 155 degrees add real comfort features, while casters rated for 1000 miles help the chair hold up to daily rolling on hard floors.",
+    description: "The LEMBERI gaming chair supports an extreme 400 lb capacity, the highest in this guide, while staying under $100. With over 10,700 ratings at 4.4 stars, it has proven itself as a reliable budget option for adults who need extra weight capacity without a premium price tag.\n\nA detachable footrest, massage lumbar, headrest pillow, and recline range from 90 to 155 degrees add real comfort features, while casters rated for 1000 miles help the chair hold up to daily rolling on hard floors.\n\nMassage lumbar feature. Set against that, pU leather build quality reflects the budget price. Both matter when comparing it to the other picks here.",
     specs: ["400 lb capacity", "Reclines 90-155°", "Detachable footrest", "Massage lumbar", "Headrest pillow", "1000-mile rated casters"],
     pros: ["400 lb capacity, highest in guide", "Massage lumbar feature", "10,743 ratings at 4.4 stars", "Detachable footrest"],
     cons: ["PU leather build quality reflects the budget price", "Massage function adds another part that can wear out"],
@@ -162,7 +162,7 @@ export const products: GuideProduct[] = [
     reviews: "2,629 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41VyP4utKyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDCK8JPB?tag=deskfinds0d-20",
-    description: "The Dowinx Fabric Gaming Chair swaps standard foam for a sofa-like pocket spring cushion under premium breathable mesh fabric, giving it a noticeably different seat feel than the leather and PU options that dominate this list. A massage lumbar function adds targeted comfort during long sitting sessions.\n\nWith a footrest, recline range from 90 to 135 degrees, and a 300 lb capacity, it is built for adults who prioritize seat comfort and breathability over maximum recline angle or armrest adjustability.",
+    description: "The Dowinx Fabric Gaming Chair swaps standard foam for a sofa-like pocket spring cushion under premium breathable mesh fabric, giving it a noticeably different seat feel than the leather and PU options that dominate this list. A massage lumbar function adds targeted comfort during long sitting sessions.\n\nWith a footrest, recline range from 90 to 135 degrees, and a 300 lb capacity, it is built for adults who prioritize seat comfort and breathability over maximum recline angle or armrest adjustability.\n\nA genuine advantage here is that breathable fabric. The tradeoff is recline maxes out at 135°, lower than most picks.",
     specs: ["Breathable mesh fabric", "Pocket spring cushion", "Massage lumbar", "Footrest", "Reclines 90-135°", "300 lb capacity"],
     pros: ["Pocket spring seat feels different from standard foam", "Breathable fabric", "Massage lumbar included", "300 lb capacity"],
     cons: ["Recline maxes out at 135°, lower than most picks", "Fabric shows wear differently than leather over time"],
@@ -171,12 +171,26 @@ export const products: GuideProduct[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weight capacity should have real margin, not just clear it", explanation: "Manufacturers list a maximum weight capacity, but chairs perform best and last longest when your body weight sits comfortably below that ceiling, not right at it. If you're close to a chair's stated limit, step up to a higher-capacity model like the Anda Seat Kaiser 3 XL (395 lbs) or LEMBERI (400 lbs) rather than one rated closer to your exact weight." },
-  { criterion: "4-way lumbar beats a fixed lumbar pillow for adults with back issues", explanation: "Chairs like the Secretlab Titan Evo and Anda Seat Kaiser 3 XL let you adjust lumbar support up, down, and in depth to match your specific spine curvature. Chairs with a simple attached lumbar pillow, like the RESPAWN 110 Pro or LEMBERI, offer less precision but still help compared to no lumbar support at all." },
-  { criterion: "Leather material quality varies more than the price tag suggests", explanation: "Standard PU leather on budget chairs can start peeling within one to two years of regular use. The Razer Iskur V2 X NewGen's CoolTouch Gen-2 EPU leather is rated 13 times more durable than standard PU, which matters more for adults who sit in the chair daily than for occasional users." },
-  { criterion: "Recline range determines whether the chair doubles as a rest spot", explanation: "Chairs that recline to 155-165 degrees, like the Secretlab Titan Evo and RESPAWN 110 Pro, let you lean back for breaks between gaming sessions. Chairs capped around 135 degrees, like the Dowinx, are built more for upright sitting than full recline relaxation." },
-  { criterion: "Fabric vs leather changes the temperature comfort equation", explanation: "PU and PVC leather chairs can trap heat during long sessions, especially in warmer rooms. The Anda Seat Novis's linen fabric and the Dowinx's mesh fabric both breathe better than leather, which is worth prioritizing if you tend to run warm or don't have strong climate control in your gaming space." },
-  { criterion: "Warranty length is a proxy for how long the frame is built to last", explanation: "The Anda Seat Kaiser 3 XL's lifetime warranty and the Secretlab Titan Evo's 5-year warranty reflect confidence in steel frame durability. Budget picks under $110 typically carry shorter or unlisted warranties, which is a reasonable tradeoff at that price but worth factoring in if you want a chair to last five-plus years." },
+  {
+    "criterion": "Check weight capacity against your actual body weight with real safety margin",
+    "explanation": "A gaming chair's rated weight capacity is the absolute maximum before the frame, gas lift, and casters are at real risk of failure, not a comfortable operating range, so a chair rated just barely above your actual weight is running much closer to its structural limit than a chair with genuine headroom.\n\nThis matters because a chair operating near its weight limit tends to develop wobble, sagging, or gas-lift failure faster than one with real margin, even if it doesn't fail outright.\n\nCheck the listed weight capacity, and favor a chair rated at least 50-75 lbs above your actual weight rather than one that just barely clears it."
+  },
+  {
+    "criterion": "Verify lumbar support is genuinely adjustable, not just a fixed cushion",
+    "explanation": "Many gaming chairs include a lumbar cushion or built-in curve marketed as \"ergonomic support,\" but a fixed, non-adjustable lumbar shape only fits correctly for a body proportioned exactly the way the chair was designed for, while a genuinely adjustable lumbar system (height-adjustable, inflatable, or a repositionable pillow) can be tuned to your actual lower back curve.\n\nThis matters directly if you experience real lower back discomfort during long sessions, a fixed lumbar shape that doesn't match your body can be worse than no lumbar support at all.\n\nCheck whether lumbar support is described as adjustable and how (height, firmness, or position), not just whether the word \"lumbar\" appears in the listing."
+  },
+  {
+    "criterion": "Consider armrest range of motion for your actual desk height and typing posture",
+    "explanation": "Armrest adjustability ranges from simple height-only adjustment to full 4D armrests that move up, down, forward, back, and pivot, and this range matters directly for matching the armrest height to your specific desk and keyboard position, a mismatched armrest height forces shoulders up or wrists at an awkward angle during long sessions.\n\nThis matters more for anyone spending many hours daily typing or gaming, less for occasional use where posture matters less.\n\nCheck the specific armrest adjustment axes listed (2D, 3D, or 4D), not just whether armrests are present, and match that against how much your desk height or seating position varies."
+  },
+  {
+    "criterion": "Weigh recline range and locking positions against how you actually use the chair",
+    "explanation": "Recline range varies from a modest 90-135 degrees on basic gaming chairs to a near-flat 180 degrees on recliner-style models, and a wider recline range only matters if you'll actually use it, for napping, watching content reclined, or relaxing between gaming sessions, versus sitting upright for focused work or gaming most of the time.\n\nThis matters because a chair with an impressive recline range but a weak recline lock can feel unstable at extreme angles, while a more basic recline range with a solid lock mechanism holds position reliably.\n\nCheck both the maximum recline angle and whether the recline lock holds at multiple positions, not just the maximum angle alone."
+  },
+  {
+    "criterion": "Check base material and caster quality for real long-term stability",
+    "explanation": "The 5-star base and caster wheels bear the chair's full weight through thousands of rolling and swiveling cycles over the chair's life, and material quality here varies significantly, a genuine steel or reinforced nylon base holds up far better under real weight than a cheaper plastic base that can crack or flex over time, and caster wheel quality affects both smooth rolling and floor protection.\n\nThis matters more for a heavier user or daily long-session use, less for occasional light use.\n\nCheck the listed base material specifically, not just the overall chair material, and check reviews for mentions of base or caster durability after months of use, not just initial assembly quality."
+  }
 ];
 
 export const faq: FaqItem[] = [
