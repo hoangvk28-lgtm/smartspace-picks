@@ -48,23 +48,32 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Google Analytics and Microsoft Clarity must only fire in production. Both scripts previously
+  // loaded unconditionally, so any `npm run dev` session (including automated local testing)
+  // reported real pageviews into the live production GA/Clarity properties, polluting analytics
+  // with dev traffic that has nothing to do with real visitors. Gate both behind NODE_ENV.
+  const isProd = process.env.NODE_ENV === "production";
   return (
     <html lang="en" className={`${inter.variable} h-full`}>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NR734FVRW1" />
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-NR734FVRW1');
-        `}} />
-        <script dangerouslySetInnerHTML={{ __html: `
-          (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "xaiyksyeyk");
-        `}} />
+        {isProd && (
+          <>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-NR734FVRW1" />
+            <script dangerouslySetInnerHTML={{ __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NR734FVRW1');
+            `}} />
+            <script dangerouslySetInnerHTML={{ __html: `
+              (function(c,l,a,r,i,t,y){
+                  c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                  t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                  y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "xaiyksyeyk");
+            `}} />
+          </>
+        )}
       </head>
       <body className="h-full antialiased">
         <ScrollToTop />
