@@ -1,6 +1,6 @@
 export const guideSlug = "best-matrix-video-switchers";
-export const guideTitle = "8 Matrix Video Switchers in 2026";
-export const metaTitle = "Matrix Video Switchers";
+export const guideTitle = "8 Best Matrix Video Switchers in 2026";
+export const metaTitle = "Best Matrix Video Switchers";
 export const metaDescription = "We compared video switch matrix models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "video switch matrix";
 export const introParagraphs = [

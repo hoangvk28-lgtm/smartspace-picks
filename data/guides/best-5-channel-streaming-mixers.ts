@@ -1,6 +1,6 @@
 export const guideSlug = "best-5-channel-streaming-mixers";
-export const guideTitle = "8 5-Channel Streaming Mixers in 2026";
-export const metaTitle = "5-Channel Streaming Mixers";
+export const guideTitle = "8 Best 5-Channel Streaming Mixers in 2026";
+export const metaTitle = "Best 5-Channel Streaming Mixers";
 export const metaDescription = "We compared 5 channel mixers models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "5 channel mixers";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-hardware-video-switchers";
-export const guideTitle = "8 Hardware Video Switchers in 2026";
-export const metaTitle = "Hardware Video Switchers";
+export const guideTitle = "8 Best Hardware Video Switchers in 2026";
+export const metaTitle = "Best Hardware Video Switchers";
 export const metaDescription = "We compared hardware video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "hardware video switcher";
 export const introParagraphs = [

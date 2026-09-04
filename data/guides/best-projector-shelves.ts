@@ -1,6 +1,6 @@
 export const guideSlug = "best-projector-shelves";
-export const guideTitle = "8 Projector Shelves in 2026";
-export const metaTitle = "Projector Shelves";
+export const guideTitle = "8 Best Projector Shelves in 2026";
+export const metaTitle = "Best Projector Shelves";
 export const metaDescription = "We compared projector shelf models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector shelf";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-streaming-mixers-for-dual-pc-streaming";
-export const guideTitle = "8 Streaming Mixers for Dual-PC Streaming in 2026";
-export const metaTitle = "Streaming Mixers for Dual-PC Streaming";
+export const guideTitle = "8 Best Streaming Mixers for Dual-PC Streaming in 2026";
+export const metaTitle = "Best Streaming Mixers for Dual-PC Streaming";
 export const metaDescription = "We compared best audio mixer for dual pc streaming models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "best audio mixer for dual pc streaming";
 export const introParagraphs = [

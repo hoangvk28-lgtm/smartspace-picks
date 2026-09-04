@@ -1,6 +1,6 @@
 export const guideSlug = "best-retractable-projector-screen";
-export const guideTitle = "8 Retractable Projector Screen in 2026";
-export const metaTitle = "Retractable Projector Screen";
+export const guideTitle = "8 Best Retractable Projector Screen in 2026";
+export const metaTitle = "Best Retractable Projector Screen";
 export const metaDescription = "We compared retractable projector screen models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "retractable projector screen";
 export const introParagraphs = [

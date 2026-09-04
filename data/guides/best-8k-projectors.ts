@@ -1,6 +1,6 @@
 export const guideSlug = "best-8k-projectors";
-export const guideTitle = "8 8K Projectors in 2026";
-export const metaTitle = "8K Projectors";
+export const guideTitle = "8 Best 8K Projectors in 2026";
+export const metaTitle = "Best 8K Projectors";
 export const metaDescription = "We compared 8k projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "8k projector";
 export const introParagraphs = [

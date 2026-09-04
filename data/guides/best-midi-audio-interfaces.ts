@@ -1,6 +1,6 @@
 export const guideSlug = "best-midi-audio-interfaces";
-export const guideTitle = "8 MIDI Audio Interfaces in 2026";
-export const metaTitle = "MIDI Audio Interfaces";
+export const guideTitle = "8 Best MIDI Audio Interfaces in 2026";
+export const metaTitle = "Best MIDI Audio Interfaces";
 export const metaDescription = "We compared audio interface midi models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface midi";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-motu-audio-interfaces";
-export const guideTitle = "8 MOTU Audio Interfaces in 2026";
-export const metaTitle = "MOTU Audio Interfaces";
+export const guideTitle = "8 Best MOTU Audio Interfaces in 2026";
+export const metaTitle = "Best MOTU Audio Interfaces";
 export const metaDescription = "We compared audio interface motu models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface motu";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-3-way-studio-monitors";
-export const guideTitle = "8 3-Way Studio Monitors in 2026";
-export const metaTitle = "3-Way Studio Monitors";
+export const guideTitle = "8 Best 3-Way Studio Monitors in 2026";
+export const metaTitle = "Best 3-Way Studio Monitors";
 export const metaDescription = "We compared 3 way studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "3 way studio monitor";
 export const introParagraphs = [

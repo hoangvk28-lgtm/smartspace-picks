@@ -1,6 +1,6 @@
 export const guideSlug = "best-portable-podcast-mixers";
-export const guideTitle = "8 Portable Podcast Mixers in 2026";
-export const metaTitle = "Portable Podcast Mixers";
+export const guideTitle = "8 Best Portable Podcast Mixers in 2026";
+export const metaTitle = "Best Portable Podcast Mixers";
 export const metaDescription = "We compared portable podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "portable podcast mixer";
 export const introParagraphs = [

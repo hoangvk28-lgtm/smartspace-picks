@@ -1,6 +1,6 @@
 export const guideSlug = "best-mini-studio-monitors";
-export const guideTitle = "8 Mini Studio Monitors in 2026";
-export const metaTitle = "Mini Studio Monitors";
+export const guideTitle = "8 Best Mini Studio Monitors in 2026";
+export const metaTitle = "Best Mini Studio Monitors";
 export const metaDescription = "We compared mini studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "mini studio monitor";
 export const introParagraphs = [

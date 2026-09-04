@@ -1,6 +1,6 @@
 export const guideSlug = "best-crestron-video-switchers";
-export const guideTitle = "8 Crestron Video Switchers in 2026";
-export const metaTitle = "Crestron Video Switchers";
+export const guideTitle = "8 Best Crestron Video Switchers in 2026";
+export const metaTitle = "Best Crestron Video Switchers";
 export const metaDescription = "We compared crestron video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "crestron video switcher";
 export const introParagraphs = [

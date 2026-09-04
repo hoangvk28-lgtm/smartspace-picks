@@ -1,6 +1,6 @@
 export const guideSlug = "best-gpx-mini-home-theater-projectors";
-export const guideTitle = "8 Gpx Mini Home Theater Projectors in 2026";
-export const metaTitle = "Gpx Mini Home Theater Projectors";
+export const guideTitle = "8 Best Gpx Mini Home Theater Projectors in 2026";
+export const metaTitle = "Best Gpx Mini Home Theater Projectors";
 export const metaDescription = "We compared gpx mini home theater projector models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "gpx mini home theater projector";
 export const introParagraphs = [

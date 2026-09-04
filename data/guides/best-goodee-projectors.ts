@@ -1,6 +1,6 @@
 export const guideSlug = "best-goodee-projectors";
-export const guideTitle = "8 GooDee Projectors in 2026";
-export const metaTitle = "GooDee Projectors";
+export const guideTitle = "8 Best GooDee Projectors in 2026";
+export const metaTitle = "Best GooDee Projectors";
 export const metaDescription = "We compared goodee projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "goodee projector";
 export const introParagraphs = [

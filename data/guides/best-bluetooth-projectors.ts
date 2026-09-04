@@ -1,6 +1,6 @@
 export const guideSlug = "best-bluetooth-projectors";
-export const guideTitle = "8 Bluetooth Projectors in 2026";
-export const metaTitle = "Bluetooth Projectors";
+export const guideTitle = "8 Best Bluetooth Projectors in 2026";
+export const metaTitle = "Best Bluetooth Projectors";
 export const metaDescription = "We compared projector bluetooth models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector bluetooth";
 export const introParagraphs = [

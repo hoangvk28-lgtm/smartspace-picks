@@ -1,6 +1,6 @@
 export const guideSlug = "best-yamaha-streaming-mixers";
-export const guideTitle = "8 Yamaha Streaming Mixers in 2026";
-export const metaTitle = "Yamaha Streaming Mixers";
+export const guideTitle = "8 Best Yamaha Streaming Mixers in 2026";
+export const metaTitle = "Best Yamaha Streaming Mixers";
 export const metaDescription = "We compared yamaha streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "yamaha streaming mixer";
 export const introParagraphs = [

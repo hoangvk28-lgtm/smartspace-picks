@@ -1,6 +1,6 @@
 export const guideSlug = "best-projector-ceiling-mounts";
-export const guideTitle = "8 Projector Ceiling Mounts in 2026";
-export const metaTitle = "Projector Ceiling Mounts";
+export const guideTitle = "8 Best Projector Ceiling Mounts in 2026";
+export const metaTitle = "Best Projector Ceiling Mounts";
 export const metaDescription = "We compared projector ceiling mount models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "projector ceiling mount";
 export const introParagraphs = [

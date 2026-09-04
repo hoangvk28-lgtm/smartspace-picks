@@ -1,6 +1,6 @@
 export const guideSlug = "best-floor-rising-projector-screen";
-export const guideTitle = "8 Floor-Rising Projector Screen in 2026";
-export const metaTitle = "Floor-Rising Projector Screen";
+export const guideTitle = "8 Best Floor-Rising Projector Screen in 2026";
+export const metaTitle = "Best Floor-Rising Projector Screen";
 export const metaDescription = "We compared floor rising projector screen models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "floor rising projector screen";
 export const introParagraphs = [

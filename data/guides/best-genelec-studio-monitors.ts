@@ -1,6 +1,6 @@
 export const guideSlug = "best-genelec-studio-monitors";
-export const guideTitle = "8 Genelec Studio Monitors in 2026";
-export const metaTitle = "Genelec Studio Monitors";
+export const guideTitle = "8 Best Genelec Studio Monitors in 2026";
+export const metaTitle = "Best Genelec Studio Monitors";
 export const metaDescription = "We compared genelec studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "genelec studio monitor";
 export const introParagraphs = [

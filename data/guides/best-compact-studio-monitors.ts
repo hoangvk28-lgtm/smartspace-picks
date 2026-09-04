@@ -1,6 +1,6 @@
 export const guideSlug = "best-compact-studio-monitors";
-export const guideTitle = "8 Compact Studio Monitors in 2026";
-export const metaTitle = "Compact Studio Monitors";
+export const guideTitle = "8 Best Compact Studio Monitors in 2026";
+export const metaTitle = "Best Compact Studio Monitors";
 export const metaDescription = "We compared compact studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "compact studio monitor";
 export const introParagraphs = [

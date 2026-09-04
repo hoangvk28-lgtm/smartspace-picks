@@ -1,6 +1,6 @@
 export const guideSlug = "best-motorized-projector-screen";
-export const guideTitle = "7 Motorized Projector Screen in 2026";
-export const metaTitle = "Motorized Projector Screen";
+export const guideTitle = "7 Best Motorized Projector Screen in 2026";
+export const metaTitle = "Best Motorized Projector Screen";
 export const metaDescription = "We compared motorized projector screen models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "motorized projector screen";
 export const introParagraphs = [

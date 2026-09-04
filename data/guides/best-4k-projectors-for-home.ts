@@ -1,6 +1,6 @@
 export const guideSlug = "best-4k-projectors-for-home";
-export const guideTitle = "8 4K Projectors for Home in 2026";
-export const metaTitle = "4K Projectors for Home";
+export const guideTitle = "8 Best 4K Projectors for Home in 2026";
+export const metaTitle = "Best 4K Projectors for Home";
 export const metaDescription = "We compared projector 4k for home models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "projector 4k for home";
 export const introParagraphs = [

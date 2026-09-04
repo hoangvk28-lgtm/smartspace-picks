@@ -1,6 +1,6 @@
 export const guideSlug = "best-inflatable-projector-screen";
-export const guideTitle = "8 Inflatable Projector Screen in 2026";
-export const metaTitle = "Inflatable Projector Screen";
+export const guideTitle = "8 Best Inflatable Projector Screen in 2026";
+export const metaTitle = "Best Inflatable Projector Screen";
 export const metaDescription = "We compared inflatable projector screen models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "inflatable projector screen";
 export const introParagraphs = [

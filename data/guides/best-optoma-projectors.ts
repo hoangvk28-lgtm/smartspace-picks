@@ -1,6 +1,6 @@
 export const guideSlug = "best-optoma-projectors";
-export const guideTitle = "8 Optoma Projectors in 2026";
-export const metaTitle = "Optoma Projectors";
+export const guideTitle = "8 Best Optoma Projectors in 2026";
+export const metaTitle = "Best Optoma Projectors";
 export const metaDescription = "We compared optoma projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "optoma projector";
 export const introParagraphs = [

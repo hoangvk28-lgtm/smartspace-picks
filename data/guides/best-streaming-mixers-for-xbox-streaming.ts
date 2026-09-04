@@ -1,6 +1,6 @@
 export const guideSlug = "best-streaming-mixers-for-xbox-streaming";
-export const guideTitle = "8 Streaming Mixers for Xbox Streaming in 2026";
-export const metaTitle = "Streaming Mixers for Xbox Streaming";
+export const guideTitle = "8 Best Streaming Mixers for Xbox Streaming in 2026";
+export const metaTitle = "Best Streaming Mixers for Xbox Streaming";
 export const metaDescription = "We compared xbox streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "xbox streaming mixer";
 export const introParagraphs = [

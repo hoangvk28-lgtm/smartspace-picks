@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-drums";
-export const guideTitle = "8 Audio Interfaces for Drums in 2026";
-export const metaTitle = "Audio Interfaces for Drums";
+export const guideTitle = "8 Best Audio Interfaces for Drums in 2026";
+export const metaTitle = "Best Audio Interfaces for Drums";
 export const metaDescription = "We compared 8 channel audio interface for drums models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "8 channel audio interface for drums";
 export const introParagraphs = [

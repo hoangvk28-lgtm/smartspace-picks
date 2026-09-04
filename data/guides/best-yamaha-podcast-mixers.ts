@@ -1,6 +1,6 @@
 export const guideSlug = "best-yamaha-podcast-mixers";
-export const guideTitle = "8 Yamaha Podcast Mixers in 2026";
-export const metaTitle = "Yamaha Podcast Mixers";
+export const guideTitle = "8 Best Yamaha Podcast Mixers in 2026";
+export const metaTitle = "Best Yamaha Podcast Mixers";
 export const metaDescription = "We compared yamaha podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "yamaha podcast mixer";
 export const introParagraphs = [

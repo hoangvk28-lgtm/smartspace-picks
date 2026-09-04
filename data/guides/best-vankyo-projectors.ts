@@ -1,6 +1,6 @@
 export const guideSlug = "best-vankyo-projectors";
-export const guideTitle = "8 Vankyo Projectors in 2026";
-export const metaTitle = "Vankyo Projectors";
+export const guideTitle = "8 Best Vankyo Projectors in 2026";
+export const metaTitle = "Best Vankyo Projectors";
 export const metaDescription = "We compared vankyo projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "vankyo projector";
 export const introParagraphs = [

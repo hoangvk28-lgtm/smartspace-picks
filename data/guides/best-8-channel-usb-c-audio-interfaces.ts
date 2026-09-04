@@ -1,6 +1,6 @@
 export const guideSlug = "best-8-channel-usb-c-audio-interfaces";
-export const guideTitle = "8 8-Channel USB-C Audio Interfaces in 2026";
-export const metaTitle = "8-Channel USB-C Audio Interfaces";
+export const guideTitle = "8 Best 8-Channel USB-C Audio Interfaces in 2026";
+export const metaTitle = "Best 8-Channel USB-C Audio Interfaces";
 export const metaDescription = "We compared 8 channel audio interface usb c models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "8 channel audio interface usb c";
 export const introParagraphs = [

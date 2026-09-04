@@ -1,6 +1,6 @@
 export const guideSlug = "best-powered-studio-monitors";
-export const guideTitle = "8 Powered Studio Monitors in 2026";
-export const metaTitle = "Powered Studio Monitors";
+export const guideTitle = "8 Best Powered Studio Monitors in 2026";
+export const metaTitle = "Best Powered Studio Monitors";
 export const metaDescription = "We compared powered studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "powered studio monitor";
 export const introParagraphs = [

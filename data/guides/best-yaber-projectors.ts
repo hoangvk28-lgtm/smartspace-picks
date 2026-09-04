@@ -1,6 +1,6 @@
 export const guideSlug = "best-yaber-projectors";
-export const guideTitle = "8 YABER Projectors in 2026";
-export const metaTitle = "YABER Projectors";
+export const guideTitle = "8 Best YABER Projectors in 2026";
+export const metaTitle = "Best YABER Projectors";
 export const metaDescription = "We compared yaber projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "yaber projector";
 export const introParagraphs = [

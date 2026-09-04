@@ -1,6 +1,6 @@
 export const guideSlug = "best-apogee-audio-interfaces";
-export const guideTitle = "8 Apogee Audio Interfaces in 2026";
-export const metaTitle = "Apogee Audio Interfaces";
+export const guideTitle = "8 Best Apogee Audio Interfaces in 2026";
+export const metaTitle = "Best Apogee Audio Interfaces";
 export const metaDescription = "We compared apogee audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "apogee audio interface";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-adat-audio-interfaces";
-export const guideTitle = "8 ADAT Audio Interfaces in 2026";
-export const metaTitle = "ADAT Audio Interfaces";
+export const guideTitle = "8 Best ADAT Audio Interfaces in 2026";
+export const metaTitle = "Best ADAT Audio Interfaces";
 export const metaDescription = "We compared adat audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "adat audio interface";
 export const introParagraphs = [

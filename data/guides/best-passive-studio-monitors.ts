@@ -1,6 +1,6 @@
 export const guideSlug = "best-passive-studio-monitors";
-export const guideTitle = "8 Passive Studio Monitors in 2026";
-export const metaTitle = "Passive Studio Monitors";
+export const guideTitle = "8 Best Passive Studio Monitors in 2026";
+export const metaTitle = "Best Passive Studio Monitors";
 export const metaDescription = "We compared passive studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "passive studio monitor";
 export const introParagraphs = [

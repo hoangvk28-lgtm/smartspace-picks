@@ -1,6 +1,6 @@
 export const guideSlug = "best-podcast-mixers-for-usb-microphones";
-export const guideTitle = "8 Podcast Mixers for USB Microphones in 2026";
-export const metaTitle = "Podcast Mixers for USB Microphones";
+export const guideTitle = "8 Best Podcast Mixers for USB Microphones in 2026";
+export const metaTitle = "Best Podcast Mixers for USB Microphones";
 export const metaDescription = "We compared podcast mixer for usb microphones models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "podcast mixer for usb microphones";
 export const introParagraphs = [

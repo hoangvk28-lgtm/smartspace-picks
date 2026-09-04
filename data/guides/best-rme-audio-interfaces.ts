@@ -1,6 +1,6 @@
 export const guideSlug = "best-rme-audio-interfaces";
-export const guideTitle = "8 RME Audio Interfaces in 2026";
-export const metaTitle = "RME Audio Interfaces";
+export const guideTitle = "8 Best RME Audio Interfaces in 2026";
+export const metaTitle = "Best RME Audio Interfaces";
 export const metaDescription = "We compared rme audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "rme audio interface";
 export const introParagraphs = [

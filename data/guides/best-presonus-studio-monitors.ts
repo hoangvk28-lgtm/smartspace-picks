@@ -1,6 +1,6 @@
 export const guideSlug = "best-presonus-studio-monitors";
-export const guideTitle = "8 PreSonus Studio Monitors in 2026";
-export const metaTitle = "PreSonus Studio Monitors";
+export const guideTitle = "8 Best PreSonus Studio Monitors in 2026";
+export const metaTitle = "Best PreSonus Studio Monitors";
 export const metaDescription = "We compared presonus studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "presonus studio monitor";
 export const introParagraphs = [

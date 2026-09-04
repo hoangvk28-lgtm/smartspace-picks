@@ -1,6 +1,6 @@
 export const guideSlug = "best-hdmi-video-switchers";
-export const guideTitle = "8 HDMI Video Switchers in 2026";
-export const metaTitle = "HDMI Video Switchers";
+export const guideTitle = "8 Best HDMI Video Switchers in 2026";
+export const metaTitle = "Best HDMI Video Switchers";
 export const metaDescription = "We compared hdmi video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "hdmi video switcher";
 export const introParagraphs = [

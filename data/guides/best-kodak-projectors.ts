@@ -1,6 +1,6 @@
 export const guideSlug = "best-kodak-projectors";
-export const guideTitle = "8 Kodak Projectors in 2026";
-export const metaTitle = "Kodak Projectors";
+export const guideTitle = "8 Best Kodak Projectors in 2026";
+export const metaTitle = "Best Kodak Projectors";
 export const metaDescription = "We compared kodak carousel projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "kodak carousel projector";
 export const introParagraphs = [

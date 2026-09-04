@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-for-outdoor-movies";
-export const guideTitle = "8 Projectors for Outdoor Movies in 2026";
-export const metaTitle = "Projectors for Outdoor Movies";
+export const guideTitle = "8 Best Projectors for Outdoor Movies in 2026";
+export const metaTitle = "Best Projectors for Outdoor Movies";
 export const metaDescription = "We compared projector for outdoor movies models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "projector for outdoor movies";
 export const introParagraphs = [

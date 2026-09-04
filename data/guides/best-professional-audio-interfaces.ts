@@ -1,6 +1,6 @@
 export const guideSlug = "best-professional-audio-interfaces";
-export const guideTitle = "8 Professional Audio Interfaces in 2026";
-export const metaTitle = "Professional Audio Interfaces";
+export const guideTitle = "8 Best Professional Audio Interfaces in 2026";
+export const metaTitle = "Best Professional Audio Interfaces";
 export const metaDescription = "We compared professional audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "professional audio interface";
 export const introParagraphs = [

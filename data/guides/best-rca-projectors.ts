@@ -1,6 +1,6 @@
 export const guideSlug = "best-rca-projectors";
-export const guideTitle = "8 RCA Projectors in 2026";
-export const metaTitle = "RCA Projectors";
+export const guideTitle = "8 Best RCA Projectors in 2026";
+export const metaTitle = "Best RCA Projectors";
 export const metaDescription = "We compared rca projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "rca projector";
 export const introParagraphs = [

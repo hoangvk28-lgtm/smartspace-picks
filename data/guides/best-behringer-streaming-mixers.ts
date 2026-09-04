@@ -1,6 +1,6 @@
 export const guideSlug = "best-behringer-streaming-mixers";
-export const guideTitle = "8 Behringer Streaming Mixers in 2026";
-export const metaTitle = "Behringer Streaming Mixers";
+export const guideTitle = "8 Best Behringer Streaming Mixers in 2026";
+export const metaTitle = "Best Behringer Streaming Mixers";
 export const metaDescription = "We compared behringer streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "behringer streaming mixer";
 export const introParagraphs = [

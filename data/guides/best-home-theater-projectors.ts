@@ -1,6 +1,6 @@
 export const guideSlug = "best-home-theater-projectors";
-export const guideTitle = "8 Home Theater Projectors in 2026";
-export const metaTitle = "Home Theater Projectors";
+export const guideTitle = "8 Best Home Theater Projectors in 2026";
+export const metaTitle = "Best Home Theater Projectors";
 export const metaDescription = "We compared 4k projector for home theater models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "4k projector for home theater";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-epson-projectors";
-export const guideTitle = "8 Epson Projectors in 2026";
-export const metaTitle = "Epson Projectors";
+export const guideTitle = "8 Best Epson Projectors in 2026";
+export const metaTitle = "Best Epson Projectors";
 export const metaDescription = "We compared epson projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "epson projector";
 export const introParagraphs = [

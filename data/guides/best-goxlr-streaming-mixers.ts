@@ -1,6 +1,6 @@
 export const guideSlug = "best-goxlr-streaming-mixers";
-export const guideTitle = "8 GoXLR Streaming Mixers in 2026";
-export const metaTitle = "GoXLR Streaming Mixers";
+export const guideTitle = "8 Best GoXLR Streaming Mixers in 2026";
+export const metaTitle = "Best GoXLR Streaming Mixers";
 export const metaDescription = "We compared goxlr streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "goxlr streaming mixer";
 export const introParagraphs = [

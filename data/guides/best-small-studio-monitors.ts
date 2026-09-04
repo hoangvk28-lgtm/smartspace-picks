@@ -1,6 +1,6 @@
 export const guideSlug = "best-small-studio-monitors";
-export const guideTitle = "8 Small Studio Monitors in 2026";
-export const metaTitle = "Small Studio Monitors";
+export const guideTitle = "8 Best Small Studio Monitors in 2026";
+export const metaTitle = "Best Small Studio Monitors";
 export const metaDescription = "We compared small studio monitor speakers models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "small studio monitor speakers";
 export const introParagraphs = [

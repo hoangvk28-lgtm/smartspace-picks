@@ -1,6 +1,6 @@
 export const guideSlug = "best-podcast-mixers-for-beginners";
-export const guideTitle = "8 Podcast Mixers for Beginners in 2026";
-export const metaTitle = "Podcast Mixers for Beginners";
+export const guideTitle = "8 Best Podcast Mixers for Beginners in 2026";
+export const metaTitle = "Best Podcast Mixers for Beginners";
 export const metaDescription = "We compared podcast mixer for beginners models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "podcast mixer for beginners";
 export const introParagraphs = [

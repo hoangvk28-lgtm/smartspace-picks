@@ -1,6 +1,6 @@
 export const guideSlug = "best-projector-tripods";
-export const guideTitle = "8 Projector Tripods in 2026";
-export const metaTitle = "Projector Tripods";
+export const guideTitle = "8 Best Projector Tripods in 2026";
+export const metaTitle = "Best Projector Tripods";
 export const metaDescription = "We compared projector tripod models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector tripod";
 export const introParagraphs = [

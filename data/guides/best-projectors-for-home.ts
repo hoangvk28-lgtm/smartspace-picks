@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-for-home";
-export const guideTitle = "8 Projectors for Home in 2026";
-export const metaTitle = "Projectors for Home";
+export const guideTitle = "8 Best Projectors for Home in 2026";
+export const metaTitle = "Best Projectors for Home";
 export const metaDescription = "We compared home projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "home projector";
 export const introParagraphs = [

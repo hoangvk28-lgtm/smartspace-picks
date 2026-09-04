@@ -1,6 +1,6 @@
 export const guideSlug = "best-xlr-audio-interfaces-for-pc";
-export const guideTitle = "8 XLR Audio Interfaces for PC in 2026";
-export const metaTitle = "XLR Audio Interfaces for PC";
+export const guideTitle = "8 Best XLR Audio Interfaces for PC in 2026";
+export const metaTitle = "Best XLR Audio Interfaces for PC";
 export const metaDescription = "We compared xlr audio interface for pc models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "xlr audio interface for pc";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-blackmagic-design-video-switchers";
-export const guideTitle = "8 Blackmagic Design Video Switchers in 2026";
-export const metaTitle = "Blackmagic Design Video Switchers";
+export const guideTitle = "8 Best Blackmagic Design Video Switchers in 2026";
+export const metaTitle = "Best Blackmagic Design Video Switchers";
 export const metaDescription = "We compared blackmagic video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "blackmagic video switcher";
 export const introParagraphs = [

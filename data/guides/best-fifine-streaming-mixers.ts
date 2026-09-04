@@ -1,6 +1,6 @@
 export const guideSlug = "best-fifine-streaming-mixers";
-export const guideTitle = "8 FIFINE Streaming Mixers in 2026";
-export const metaTitle = "FIFINE Streaming Mixers";
+export const guideTitle = "8 Best FIFINE Streaming Mixers in 2026";
+export const metaTitle = "Best FIFINE Streaming Mixers";
 export const metaDescription = "We compared fifine gaming audio mixer for streaming models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "fifine gaming audio mixer for streaming";
 export const introParagraphs = [

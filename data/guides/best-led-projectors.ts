@@ -1,6 +1,6 @@
 export const guideSlug = "best-led-projectors";
-export const guideTitle = "8 LED Projectors in 2026";
-export const metaTitle = "LED Projectors";
+export const guideTitle = "8 Best LED Projectors in 2026";
+export const metaTitle = "Best LED Projectors";
 export const metaDescription = "We compared led projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "led projector";
 export const introParagraphs = [

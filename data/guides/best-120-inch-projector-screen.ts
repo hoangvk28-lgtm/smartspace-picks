@@ -1,6 +1,6 @@
 export const guideSlug = "best-120-inch-projector-screen";
-export const guideTitle = "8 120-Inch Projector Screen in 2026";
-export const metaTitle = "120-Inch Projector Screen";
+export const guideTitle = "8 Best 120-Inch Projector Screen in 2026";
+export const metaTitle = "Best 120-Inch Projector Screen";
 export const metaDescription = "We compared 120 inch projector screen models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "120 inch projector screen";
 export const introParagraphs = [

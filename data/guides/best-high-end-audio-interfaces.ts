@@ -1,6 +1,6 @@
 export const guideSlug = "best-high-end-audio-interfaces";
-export const guideTitle = "8 High-End Audio Interfaces in 2026";
-export const metaTitle = "High-End Audio Interfaces";
+export const guideTitle = "8 Best High-End Audio Interfaces in 2026";
+export const metaTitle = "Best High-End Audio Interfaces";
 export const metaDescription = "We compared high end audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "high end audio interface";
 export const introParagraphs = [

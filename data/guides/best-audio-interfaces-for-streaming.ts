@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-streaming";
-export const guideTitle = "8 Audio Interfaces for Streaming in 2026";
-export const metaTitle = "Audio Interfaces for Streaming";
+export const guideTitle = "8 Best Audio Interfaces for Streaming in 2026";
+export const metaTitle = "Best Audio Interfaces for Streaming";
 export const metaDescription = "We compared xlr audio interface for streaming models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "xlr audio interface for streaming";
 export const introParagraphs = [

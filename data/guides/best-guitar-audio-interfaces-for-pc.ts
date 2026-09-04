@@ -1,6 +1,6 @@
 export const guideSlug = "best-guitar-audio-interfaces-for-pc";
-export const guideTitle = "8 Guitar Audio Interfaces for PC in 2026";
-export const metaTitle = "Guitar Audio Interfaces for PC";
+export const guideTitle = "8 Best Guitar Audio Interfaces for PC in 2026";
+export const metaTitle = "Best Guitar Audio Interfaces for PC";
 export const metaDescription = "We compared guitar audio interface for pc models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "guitar audio interface for pc";
 export const introParagraphs = [

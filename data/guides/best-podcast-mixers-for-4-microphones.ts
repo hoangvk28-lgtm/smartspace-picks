@@ -1,6 +1,6 @@
 export const guideSlug = "best-podcast-mixers-for-4-microphones";
-export const guideTitle = "8 Podcast Mixers for 4 Microphones in 2026";
-export const metaTitle = "Podcast Mixers for 4 Microphones";
+export const guideTitle = "8 Best Podcast Mixers for 4 Microphones in 2026";
+export const metaTitle = "Best Podcast Mixers for 4 Microphones";
 export const metaDescription = "We compared 4 mic podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "4 mic podcast mixer";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-studio-monitor-subwoofers";
-export const guideTitle = "8 Studio Monitor Subwoofers in 2026";
-export const metaTitle = "Studio Monitor Subwoofers";
+export const guideTitle = "8 Best Studio Monitor Subwoofers in 2026";
+export const metaTitle = "Best Studio Monitor Subwoofers";
 export const metaDescription = "We compared studio monitor subwoofer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "studio monitor subwoofer";
 export const introParagraphs = [

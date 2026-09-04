@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-ipad";
-export const guideTitle = "8 Audio Interfaces for iPad in 2026";
-export const metaTitle = "Audio Interfaces for iPad";
+export const guideTitle = "8 Best Audio Interfaces for iPad in 2026";
+export const metaTitle = "Best Audio Interfaces for iPad";
 export const metaDescription = "We compared ipad audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "ipad audio interface";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-active-studio-monitors";
-export const guideTitle = "8 Active Studio Monitors in 2026";
-export const metaTitle = "Active Studio Monitors";
+export const guideTitle = "8 Best Active Studio Monitors in 2026";
+export const metaTitle = "Best Active Studio Monitors";
 export const metaDescription = "We compared active studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "active studio monitor";
 export const introParagraphs = [

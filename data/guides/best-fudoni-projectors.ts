@@ -1,6 +1,6 @@
 export const guideSlug = "best-fudoni-projectors";
-export const guideTitle = "8 FUDONI Projectors in 2026";
-export const metaTitle = "FUDONI Projectors";
+export const guideTitle = "8 Best FUDONI Projectors in 2026";
+export const metaTitle = "Best FUDONI Projectors";
 export const metaDescription = "We compared fudoni projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "fudoni projector";
 export const introParagraphs = [

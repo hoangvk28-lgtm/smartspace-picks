@@ -1,6 +1,6 @@
 export const guideSlug = "best-wall-mount-studio-monitor-stands";
-export const guideTitle = "8 Wall-Mount Studio Monitor Stands in 2026";
-export const metaTitle = "Wall-Mount Studio Monitor Stands";
+export const guideTitle = "8 Best Wall-Mount Studio Monitor Stands in 2026";
+export const metaTitle = "Best Wall-Mount Studio Monitor Stands";
 export const metaDescription = "We compared wall mount studio monitor stands models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "wall mount studio monitor stands";
 export const introParagraphs = [

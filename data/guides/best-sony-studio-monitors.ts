@@ -1,6 +1,6 @@
 export const guideSlug = "best-sony-studio-monitors";
-export const guideTitle = "8 Sony Studio Monitors in 2026";
-export const metaTitle = "Sony Studio Monitors";
+export const guideTitle = "8 Best Sony Studio Monitors in 2026";
+export const metaTitle = "Best Sony Studio Monitors";
 export const metaDescription = "We compared sony studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "sony studio monitor";
 export const introParagraphs = [

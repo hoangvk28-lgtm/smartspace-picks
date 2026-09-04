@@ -1,6 +1,6 @@
 export const guideSlug = "5-inch-powered";
-export const guideTitle = "8 5-Inch Powered in 2026";
-export const metaTitle = "5-Inch Powered";
+export const guideTitle = "8 Best 5-Inch Powered in 2026";
+export const metaTitle = "Best 5-Inch Powered";
 export const metaDescription = "We compared 5 inch powered studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "5 inch powered studio monitor";
 export const introParagraphs = [

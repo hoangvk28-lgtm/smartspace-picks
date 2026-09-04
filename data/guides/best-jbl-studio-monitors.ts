@@ -1,6 +1,6 @@
 export const guideSlug = "best-jbl-studio-monitors";
-export const guideTitle = "8 JBL Studio Monitors in 2026";
-export const metaTitle = "JBL Studio Monitors";
+export const guideTitle = "8 Best JBL Studio Monitors in 2026";
+export const metaTitle = "Best JBL Studio Monitors";
 export const metaDescription = "We compared jbl studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "jbl studio monitor";
 export const introParagraphs = [

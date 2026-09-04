@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-for-camping";
-export const guideTitle = "8 Projectors for Camping in 2026";
-export const metaTitle = "Projectors for Camping";
+export const guideTitle = "8 Best Projectors for Camping in 2026";
+export const metaTitle = "Best Projectors for Camping";
 export const metaDescription = "We compared camping projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "camping projector";
 export const introParagraphs = [

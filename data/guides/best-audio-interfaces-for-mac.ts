@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-mac";
-export const guideTitle = "8 Audio Interfaces for Mac in 2026";
-export const metaTitle = "Audio Interfaces for Mac";
+export const guideTitle = "8 Best Audio Interfaces for Mac in 2026";
+export const metaTitle = "Best Audio Interfaces for Mac";
 export const metaDescription = "We compared audio interface for mac models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface for mac";
 export const introParagraphs = [

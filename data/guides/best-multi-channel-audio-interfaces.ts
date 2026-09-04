@@ -1,6 +1,6 @@
 export const guideSlug = "best-multi-channel-audio-interfaces";
-export const guideTitle = "8 Multi-Channel Audio Interfaces in 2026";
-export const metaTitle = "Multi-Channel Audio Interfaces";
+export const guideTitle = "8 Best Multi-Channel Audio Interfaces in 2026";
+export const metaTitle = "Best Multi-Channel Audio Interfaces";
 export const metaDescription = "We compared multi channel audio interface models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "multi channel audio interface";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-4-channel-audio-interfaces";
-export const guideTitle = "8 4-Channel Audio Interfaces in 2026";
-export const metaTitle = "4-Channel Audio Interfaces";
+export const guideTitle = "8 Best 4-Channel Audio Interfaces in 2026";
+export const metaTitle = "Best 4-Channel Audio Interfaces";
 export const metaDescription = "We compared 4 channel audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "4 channel audio interface";
 export const introParagraphs = [

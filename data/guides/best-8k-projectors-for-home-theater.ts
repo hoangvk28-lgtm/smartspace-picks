@@ -1,6 +1,6 @@
 export const guideSlug = "best-8k-projectors-for-home-theater";
-export const guideTitle = "8 8K Projectors for Home Theater in 2026";
-export const metaTitle = "8K Projectors for Home Theater";
+export const guideTitle = "8 Best 8K Projectors for Home Theater in 2026";
+export const metaTitle = "Best 8K Projectors for Home Theater";
 export const metaDescription = "We compared 8k projector for home theater models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "8k projector for home theater";
 export const introParagraphs = [

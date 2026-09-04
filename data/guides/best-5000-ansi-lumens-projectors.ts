@@ -1,6 +1,6 @@
 export const guideSlug = "best-5000-ansi-lumens-projectors";
-export const guideTitle = "8 5000 Ansi Lumens Projectors in 2026";
-export const metaTitle = "5000 Ansi Lumens Projectors";
+export const guideTitle = "8 Best 5000 Ansi Lumens Projectors in 2026";
+export const metaTitle = "Best 5000 Ansi Lumens Projectors";
 export const metaDescription = "We compared 5000 ansi lumens projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "5000 ansi lumens projector";
 export const introParagraphs = [

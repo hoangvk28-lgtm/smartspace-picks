@@ -1,6 +1,6 @@
 export const guideSlug = "best-nebula-projectors";
-export const guideTitle = "8 Nebula Projectors in 2026";
-export const metaTitle = "Nebula Projectors";
+export const guideTitle = "8 Best Nebula Projectors in 2026";
+export const metaTitle = "Best Nebula Projectors";
 export const metaDescription = "We compared nebula projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "nebula projector";
 export const introParagraphs = [

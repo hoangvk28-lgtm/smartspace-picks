@@ -1,6 +1,6 @@
 export const guideSlug = "best-6000-ansi-lumens-projectors";
-export const guideTitle = "8 6000 Ansi Lumens Projectors in 2026";
-export const metaTitle = "6000 Ansi Lumens Projectors";
+export const guideTitle = "8 Best 6000 Ansi Lumens Projectors in 2026";
+export const metaTitle = "Best 6000 Ansi Lumens Projectors";
 export const metaDescription = "We compared 6000 ansi lumens projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "6000 ansi lumens projector";
 export const introParagraphs = [

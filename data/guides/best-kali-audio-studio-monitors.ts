@@ -1,6 +1,6 @@
 export const guideSlug = "best-kali-audio-studio-monitors";
-export const guideTitle = "8 Kali Audio Studio Monitors in 2026";
-export const metaTitle = "Kali Audio Studio Monitors";
+export const guideTitle = "8 Best Kali Audio Studio Monitors in 2026";
+export const metaTitle = "Best Kali Audio Studio Monitors";
 export const metaDescription = "We compared kali studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "kali studio monitor";
 export const introParagraphs = [

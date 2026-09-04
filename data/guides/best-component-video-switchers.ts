@@ -1,6 +1,6 @@
 export const guideSlug = "best-component-video-switchers";
-export const guideTitle = "8 Component Video Switchers in 2026";
-export const metaTitle = "Component Video Switchers";
+export const guideTitle = "8 Best Component Video Switchers in 2026";
+export const metaTitle = "Best Component Video Switchers";
 export const metaDescription = "We compared component video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "component video switcher";
 export const introParagraphs = [

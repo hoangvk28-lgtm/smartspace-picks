@@ -1,6 +1,6 @@
 export const guideSlug = "best-white-studio-monitors";
-export const guideTitle = "8 White Studio Monitors in 2026";
-export const metaTitle = "White Studio Monitors";
+export const guideTitle = "8 Best White Studio Monitors in 2026";
+export const metaTitle = "Best White Studio Monitors";
 export const metaDescription = "We compared studio monitor white models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "studio monitor white";
 export const introParagraphs = [

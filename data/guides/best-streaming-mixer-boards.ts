@@ -1,6 +1,6 @@
 export const guideSlug = "best-streaming-mixer-boards";
-export const guideTitle = "8 Streaming Mixer Boards in 2026";
-export const metaTitle = "Streaming Mixer Boards";
+export const guideTitle = "8 Best Streaming Mixer Boards in 2026";
+export const metaTitle = "Best Streaming Mixer Boards";
 export const metaDescription = "We compared streaming mixer board models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "streaming mixer board";
 export const introParagraphs = [

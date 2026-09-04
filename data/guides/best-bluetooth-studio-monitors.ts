@@ -1,6 +1,6 @@
 export const guideSlug = "best-bluetooth-studio-monitors";
-export const guideTitle = "8 Bluetooth Studio Monitors in 2026";
-export const metaTitle = "Bluetooth Studio Monitors";
+export const guideTitle = "8 Best Bluetooth Studio Monitors in 2026";
+export const metaTitle = "Best Bluetooth Studio Monitors";
 export const metaDescription = "We compared studio monitor with bluetooth models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "studio monitor with bluetooth";
 export const introParagraphs = [

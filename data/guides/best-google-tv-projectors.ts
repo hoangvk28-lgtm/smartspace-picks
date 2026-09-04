@@ -1,6 +1,6 @@
 export const guideSlug = "best-google-tv-projectors";
-export const guideTitle = "8 Google Tv Projectors in 2026";
-export const metaTitle = "Google Tv Projectors";
+export const guideTitle = "8 Best Google Tv Projectors in 2026";
+export const metaTitle = "Best Google Tv Projectors";
 export const metaDescription = "We compared google tv projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "google tv projector";
 export const introParagraphs = [

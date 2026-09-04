@@ -1,6 +1,6 @@
 export const guideSlug = "best-podcast-mixers-for-podcast-recording";
-export const guideTitle = "8 Podcast Mixers for Podcast Recording in 2026";
-export const metaTitle = "Podcast Mixers for Podcast Recording";
+export const guideTitle = "8 Best Podcast Mixers for Podcast Recording in 2026";
+export const metaTitle = "Best Podcast Mixers for Podcast Recording";
 export const metaDescription = "We compared mixer for podcast recording models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "mixer for podcast recording";
 export const introParagraphs = [

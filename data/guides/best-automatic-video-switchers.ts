@@ -1,6 +1,6 @@
 export const guideSlug = "best-automatic-video-switchers";
-export const guideTitle = "8 Automatic Video Switchers in 2026";
-export const metaTitle = "Automatic Video Switchers";
+export const guideTitle = "8 Best Automatic Video Switchers in 2026";
+export const metaTitle = "Best Automatic Video Switchers";
 export const metaDescription = "We compared automatic video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "automatic video switcher";
 export const introParagraphs = [

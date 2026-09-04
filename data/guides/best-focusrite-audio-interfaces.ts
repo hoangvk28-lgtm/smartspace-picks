@@ -1,6 +1,6 @@
 export const guideSlug = "best-focusrite-audio-interfaces";
-export const guideTitle = "8 Focusrite Audio Interfaces in 2026";
-export const metaTitle = "Focusrite Audio Interfaces";
+export const guideTitle = "8 Best Focusrite Audio Interfaces in 2026";
+export const metaTitle = "Best Focusrite Audio Interfaces";
 export const metaDescription = "We compared focusrite scarlett solo audio interface models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "focusrite scarlett solo audio interface";
 export const introParagraphs = [

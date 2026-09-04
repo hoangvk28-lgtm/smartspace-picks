@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-video-switchers";
-export const guideTitle = "8 Audio Video Switchers in 2026";
-export const metaTitle = "Audio Video Switchers";
+export const guideTitle = "8 Best Audio Video Switchers in 2026";
+export const metaTitle = "Best Audio Video Switchers";
 export const metaDescription = "We compared audio video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio video switcher";
 export const introParagraphs = [

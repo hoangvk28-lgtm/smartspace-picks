@@ -1,6 +1,6 @@
 export const guideSlug = "best-streaming-mixers";
-export const guideTitle = "8 Streaming Mixers in 2026";
-export const metaTitle = "Streaming Mixers";
+export const guideTitle = "8 Best Streaming Mixers in 2026";
+export const metaTitle = "Best Streaming Mixers";
 export const metaDescription = "We compared audio mixer for streaming models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "audio mixer for streaming";
 export const introParagraphs = [

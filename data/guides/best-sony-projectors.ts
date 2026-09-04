@@ -1,6 +1,6 @@
 export const guideSlug = "best-sony-projectors";
-export const guideTitle = "8 Sony Projectors in 2026";
-export const metaTitle = "Sony Projectors";
+export const guideTitle = "8 Best Sony Projectors in 2026";
+export const metaTitle = "Best Sony Projectors";
 export const metaDescription = "We compared sony projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "sony projector";
 export const introParagraphs = [

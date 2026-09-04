@@ -1,6 +1,6 @@
 export const guideSlug = "best-clamp-on-studio-monitor-stands";
-export const guideTitle = "8 Clamp-On Studio Monitor Stands in 2026";
-export const metaTitle = "Clamp-On Studio Monitor Stands";
+export const guideTitle = "8 Best Clamp-On Studio Monitor Stands in 2026";
+export const metaTitle = "Best Clamp-On Studio Monitor Stands";
 export const metaDescription = "We compared clamp on studio monitor stands models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "clamp on studio monitor stands";
 export const introParagraphs = [

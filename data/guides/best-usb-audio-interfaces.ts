@@ -1,6 +1,6 @@
 export const guideSlug = "best-usb-audio-interfaces";
-export const guideTitle = "8 USB Audio Interfaces in 2026";
-export const metaTitle = "USB Audio Interfaces";
+export const guideTitle = "8 Best USB Audio Interfaces in 2026";
+export const metaTitle = "Best USB Audio Interfaces";
 export const metaDescription = "We compared audio interface usb models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "audio interface usb";
 export const introParagraphs = [

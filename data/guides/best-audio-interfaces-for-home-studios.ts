@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-home-studios";
-export const guideTitle = "8 Audio Interfaces for Home Studios in 2026";
-export const metaTitle = "Audio Interfaces for Home Studios";
+export const guideTitle = "8 Best Audio Interfaces for Home Studios in 2026";
+export const metaTitle = "Best Audio Interfaces for Home Studios";
 export const metaDescription = "We compared best audio interface for home studio models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "best audio interface for home studio";
 export const introParagraphs = [

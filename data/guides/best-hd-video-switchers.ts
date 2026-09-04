@@ -1,6 +1,6 @@
 export const guideSlug = "best-hd-video-switchers";
-export const guideTitle = "8 HD Video Switchers in 2026";
-export const metaTitle = "HD Video Switchers";
+export const guideTitle = "8 Best HD Video Switchers in 2026";
+export const metaTitle = "Best HD Video Switchers";
 export const metaDescription = "We compared hd video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "hd video switcher";
 export const introParagraphs = [

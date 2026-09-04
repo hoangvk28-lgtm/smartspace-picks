@@ -1,6 +1,6 @@
 export const guideSlug = "best-behringer-audio-interfaces";
-export const guideTitle = "8 Behringer Audio Interfaces in 2026";
-export const metaTitle = "Behringer Audio Interfaces";
+export const guideTitle = "8 Best Behringer Audio Interfaces in 2026";
+export const metaTitle = "Best Behringer Audio Interfaces";
 export const metaDescription = "We compared audio interface behringer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "audio interface behringer";
 export const introParagraphs = [

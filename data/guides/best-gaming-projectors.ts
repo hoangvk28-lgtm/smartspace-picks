@@ -1,6 +1,6 @@
 export const guideSlug = "best-gaming-projectors";
-export const guideTitle = "8 Gaming Projectors in 2026";
-export const metaTitle = "Gaming Projectors";
+export const guideTitle = "8 Best Gaming Projectors in 2026";
+export const metaTitle = "Best Gaming Projectors";
 export const metaDescription = "We compared gaming projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "gaming projector";
 export const introParagraphs = [

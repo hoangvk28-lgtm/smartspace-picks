@@ -1,6 +1,6 @@
 export const guideSlug = "best-4k-short-throw-projectors";
-export const guideTitle = "8 4K Short-Throw Projectors in 2026";
-export const metaTitle = "4K Short-Throw Projectors";
+export const guideTitle = "8 Best 4K Short-Throw Projectors in 2026";
+export const metaTitle = "Best 4K Short-Throw Projectors";
 export const metaDescription = "We compared 4k short throw projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "4k short throw projector";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-for-golf-simulator";
-export const guideTitle = "8 Projectors for Golf Simulator in 2026";
-export const metaTitle = "Projectors for Golf Simulator";
+export const guideTitle = "8 Best Projectors for Golf Simulator in 2026";
+export const metaTitle = "Best Projectors for Golf Simulator";
 export const metaDescription = "We compared golf simulator projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "golf simulator projector";
 export const introParagraphs = [

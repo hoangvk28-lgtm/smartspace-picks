@@ -1,6 +1,6 @@
 export const guideSlug = "best-podcast-mixers-for-4-people";
-export const guideTitle = "8 Podcast Mixers for 4 People in 2026";
-export const metaTitle = "Podcast Mixers for 4 People";
+export const guideTitle = "8 Best Podcast Mixers for 4 People in 2026";
+export const metaTitle = "Best Podcast Mixers for 4 People";
 export const metaDescription = "We compared podcast mixer 4 person models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "podcast mixer 4 person";
 export const introParagraphs = [

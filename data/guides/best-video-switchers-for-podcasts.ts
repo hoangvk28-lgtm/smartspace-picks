@@ -1,6 +1,6 @@
 export const guideSlug = "best-video-switchers-for-podcasts";
-export const guideTitle = "8 Video Switchers for Podcasts in 2026";
-export const metaTitle = "Video Switchers for Podcasts";
+export const guideTitle = "8 Best Video Switchers for Podcasts in 2026";
+export const metaTitle = "Best Video Switchers for Podcasts";
 export const metaDescription = "We compared video switcher for podcast models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "video switcher for podcast";
 export const introParagraphs = [

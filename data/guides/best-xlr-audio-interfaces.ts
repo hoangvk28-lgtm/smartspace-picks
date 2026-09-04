@@ -1,6 +1,6 @@
 export const guideSlug = "best-xlr-audio-interfaces";
-export const guideTitle = "8 XLR Audio Interfaces in 2026";
-export const metaTitle = "XLR Audio Interfaces";
+export const guideTitle = "8 Best XLR Audio Interfaces in 2026";
+export const metaTitle = "Best XLR Audio Interfaces";
 export const metaDescription = "We compared audio interface xlr models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "audio interface xlr";
 export const introParagraphs = [

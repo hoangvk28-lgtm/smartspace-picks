@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-pc";
-export const guideTitle = "8 Audio Interfaces for PC in 2026";
-export const metaTitle = "Audio Interfaces for PC";
+export const guideTitle = "8 Best Audio Interfaces for PC in 2026";
+export const metaTitle = "Best Audio Interfaces for PC";
 export const metaDescription = "We compared pc audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "pc audio interface";
 export const introParagraphs = [

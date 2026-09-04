@@ -1,6 +1,6 @@
 export const guideSlug = "best-2-way-studio-monitors";
-export const guideTitle = "8 2-Way Studio Monitors in 2026";
-export const metaTitle = "2-Way Studio Monitors";
+export const guideTitle = "8 Best 2-Way Studio Monitors in 2026";
+export const metaTitle = "Best 2-Way Studio Monitors";
 export const metaDescription = "We compared 2 way studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "2 way studio monitor";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-compact-audio-interfaces";
-export const guideTitle = "8 Compact Audio Interfaces in 2026";
-export const metaTitle = "Compact Audio Interfaces";
+export const guideTitle = "8 Best Compact Audio Interfaces in 2026";
+export const metaTitle = "Best Compact Audio Interfaces";
 export const metaDescription = "We compared compact audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "compact audio interface";
 export const introParagraphs = [

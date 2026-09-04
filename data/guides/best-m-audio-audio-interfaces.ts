@@ -1,6 +1,6 @@
 export const guideSlug = "best-m-audio-audio-interfaces";
-export const guideTitle = "8 M-Audio Audio Interfaces in 2026";
-export const metaTitle = "M-Audio Audio Interfaces";
+export const guideTitle = "8 Best M-Audio Audio Interfaces in 2026";
+export const metaTitle = "Best M-Audio Audio Interfaces";
 export const metaDescription = "We compared audio interface m audio models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface m audio";
 export const introParagraphs = [

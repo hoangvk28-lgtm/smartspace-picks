@@ -1,6 +1,6 @@
 export const guideSlug = "best-adam-audio-studio-monitors";
-export const guideTitle = "8 ADAM Audio Studio Monitors in 2026";
-export const metaTitle = "ADAM Audio Studio Monitors";
+export const guideTitle = "8 Best ADAM Audio Studio Monitors in 2026";
+export const metaTitle = "Best ADAM Audio Studio Monitors";
 export const metaDescription = "We compared adam studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "adam studio monitor";
 export const introParagraphs = [

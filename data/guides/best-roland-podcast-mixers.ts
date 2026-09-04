@@ -1,6 +1,6 @@
 export const guideSlug = "best-roland-podcast-mixers";
-export const guideTitle = "8 Roland Podcast Mixers in 2026";
-export const metaTitle = "Roland Podcast Mixers";
+export const guideTitle = "8 Best Roland Podcast Mixers in 2026";
+export const metaTitle = "Best Roland Podcast Mixers";
 export const metaDescription = "We compared roland podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "roland podcast mixer";
 export const introParagraphs = [

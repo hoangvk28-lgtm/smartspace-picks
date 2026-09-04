@@ -1,6 +1,6 @@
 export const guideSlug = "best-studio-monitor-isolation-stands";
-export const guideTitle = "8 Studio Monitor Isolation Stands in 2026";
-export const metaTitle = "Studio Monitor Isolation Stands";
+export const guideTitle = "8 Best Studio Monitor Isolation Stands in 2026";
+export const metaTitle = "Best Studio Monitor Isolation Stands";
 export const metaDescription = "We compared studio monitor isolation stands models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "studio monitor isolation stands";
 export const introParagraphs = [

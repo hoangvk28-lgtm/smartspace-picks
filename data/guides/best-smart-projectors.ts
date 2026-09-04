@@ -1,6 +1,6 @@
 export const guideSlug = "best-smart-projectors";
-export const guideTitle = "8 Smart Projectors in 2026";
-export const metaTitle = "Smart Projectors";
+export const guideTitle = "8 Best Smart Projectors in 2026";
+export const metaTitle = "Best Smart Projectors";
 export const metaDescription = "We compared smart projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "smart projector";
 export const introParagraphs = [

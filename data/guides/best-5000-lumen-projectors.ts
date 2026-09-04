@@ -1,6 +1,6 @@
 export const guideSlug = "best-5000-lumen-projectors";
-export const guideTitle = "8 5000 Lumen Projectors in 2026";
-export const metaTitle = "5000 Lumen Projectors";
+export const guideTitle = "8 Best 5000 Lumen Projectors in 2026";
+export const metaTitle = "Best 5000 Lumen Projectors";
 export const metaDescription = "We compared 5000 lumen projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "5000 lumen projector";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-digital-audio-interfaces";
-export const guideTitle = "8 Digital Audio Interfaces in 2026";
-export const metaTitle = "Digital Audio Interfaces";
+export const guideTitle = "8 Best Digital Audio Interfaces in 2026";
+export const metaTitle = "Best Digital Audio Interfaces";
 export const metaDescription = "We compared digital audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "digital audio interface";
 export const introParagraphs = [

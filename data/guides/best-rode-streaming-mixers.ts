@@ -1,6 +1,6 @@
 export const guideSlug = "best-rode-streaming-mixers";
-export const guideTitle = "8 RØDE Streaming Mixers in 2026";
-export const metaTitle = "RØDE Streaming Mixers";
+export const guideTitle = "8 Best RØDE Streaming Mixers in 2026";
+export const metaTitle = "Best RØDE Streaming Mixers";
 export const metaDescription = "We compared rodecaster duo streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "rodecaster duo streaming mixer";
 export const introParagraphs = [

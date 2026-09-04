@@ -1,6 +1,6 @@
 export const guideSlug = "best-roland-streaming-mixers";
-export const guideTitle = "8 Roland Streaming Mixers in 2026";
-export const metaTitle = "Roland Streaming Mixers";
+export const guideTitle = "8 Best Roland Streaming Mixers in 2026";
+export const metaTitle = "Best Roland Streaming Mixers";
 export const metaDescription = "We compared roland streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "roland streaming mixer";
 export const introParagraphs = [

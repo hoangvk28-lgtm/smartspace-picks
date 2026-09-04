@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-with-apps";
-export const guideTitle = "8 Projectors With Apps in 2026";
-export const metaTitle = "Projectors With Apps";
+export const guideTitle = "8 Best Projectors With Apps in 2026";
+export const metaTitle = "Best Projectors With Apps";
 export const metaDescription = "We compared projector with apps models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector with apps";
 export const introParagraphs = [

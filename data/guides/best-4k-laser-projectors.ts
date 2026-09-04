@@ -1,6 +1,6 @@
 export const guideSlug = "best-4k-laser-projectors";
-export const guideTitle = "8 4K Laser Projectors in 2026";
-export const metaTitle = "4K Laser Projectors";
+export const guideTitle = "8 Best 4K Laser Projectors in 2026";
+export const metaTitle = "Best 4K Laser Projectors";
 export const metaDescription = "We compared 4k laser projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "4k laser projector";
 export const introParagraphs = [

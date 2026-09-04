@@ -1,6 +1,6 @@
 export const guideSlug = "best-xlr-mixers-for-streaming";
-export const guideTitle = "8 XLR Mixers for Streaming in 2026";
-export const metaTitle = "XLR Mixers for Streaming";
+export const guideTitle = "8 Best XLR Mixers for Streaming in 2026";
+export const metaTitle = "Best XLR Mixers for Streaming";
 export const metaDescription = "We compared best xlr mixer for streaming models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "best xlr mixer for streaming";
 export const introParagraphs = [

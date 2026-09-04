@@ -1,6 +1,6 @@
 export const guideSlug = "best-lcd-projectors";
-export const guideTitle = "8 LCD Projectors in 2026";
-export const metaTitle = "LCD Projectors";
+export const guideTitle = "8 Best LCD Projectors in 2026";
+export const metaTitle = "Best LCD Projectors";
 export const metaDescription = "We compared lcd projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "lcd projector";
 export const introParagraphs = [

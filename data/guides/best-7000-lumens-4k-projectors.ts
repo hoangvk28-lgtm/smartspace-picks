@@ -1,6 +1,6 @@
 export const guideSlug = "best-7000-lumens-4k-projectors";
-export const guideTitle = "8 7000 Lumens 4K Projectors in 2026";
-export const metaTitle = "7000 Lumens 4K Projectors";
+export const guideTitle = "8 Best 7000 Lumens 4K Projectors in 2026";
+export const metaTitle = "Best 7000 Lumens 4K Projectors";
 export const metaDescription = "We compared projector 7000 lumens 4k models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "projector 7000 lumens 4k";
 export const introParagraphs = [

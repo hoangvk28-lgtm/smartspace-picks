@@ -1,6 +1,6 @@
 export const guideSlug = "best-16-channel-usb-audio-interfaces";
-export const guideTitle = "8 16-Channel USB Audio Interfaces in 2026";
-export const metaTitle = "16-Channel USB Audio Interfaces";
+export const guideTitle = "8 Best 16-Channel USB Audio Interfaces in 2026";
+export const metaTitle = "Best 16-Channel USB Audio Interfaces";
 export const metaDescription = "We compared 16 channel audio interface usb models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "16 channel audio interface usb";
 export const introParagraphs = [

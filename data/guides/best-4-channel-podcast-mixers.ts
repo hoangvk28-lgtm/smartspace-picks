@@ -1,6 +1,6 @@
 export const guideSlug = "best-4-channel-podcast-mixers";
-export const guideTitle = "8 4-Channel Podcast Mixers in 2026";
-export const metaTitle = "4-Channel Podcast Mixers";
+export const guideTitle = "8 Best 4-Channel Podcast Mixers in 2026";
+export const metaTitle = "Best 4-Channel Podcast Mixers";
 export const metaDescription = "We compared 4 channel podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "4 channel podcast mixer";
 export const introParagraphs = [

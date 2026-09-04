@@ -1,6 +1,6 @@
 export const guideSlug = "best-budget-audio-interfaces";
-export const guideTitle = "8 Budget Audio Interfaces in 2026";
-export const metaTitle = "Budget Audio Interfaces";
+export const guideTitle = "8 Best Budget Audio Interfaces in 2026";
+export const metaTitle = "Best Budget Audio Interfaces";
 export const metaDescription = "We compared good cheap audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "good cheap audio interface";
 export const introParagraphs = [

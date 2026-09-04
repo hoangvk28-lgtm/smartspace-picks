@@ -1,6 +1,6 @@
 export const guideSlug = "best-mackie-streaming-mixers";
-export const guideTitle = "8 Mackie Streaming Mixers in 2026";
-export const metaTitle = "Mackie Streaming Mixers";
+export const guideTitle = "8 Best Mackie Streaming Mixers in 2026";
+export const metaTitle = "Best Mackie Streaming Mixers";
 export const metaDescription = "We compared mackie streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "mackie streaming mixer";
 export const introParagraphs = [

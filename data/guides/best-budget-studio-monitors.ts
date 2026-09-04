@@ -1,6 +1,6 @@
 export const guideSlug = "best-budget-studio-monitors";
-export const guideTitle = "8 Budget Studio Monitors in 2026";
-export const metaTitle = "Budget Studio Monitors";
+export const guideTitle = "8 Best Budget Studio Monitors in 2026";
+export const metaTitle = "Best Budget Studio Monitors";
 export const metaDescription = "We compared best budget studio monitor models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "best budget studio monitor";
 export const introParagraphs = [

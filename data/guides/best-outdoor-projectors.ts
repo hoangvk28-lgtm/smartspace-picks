@@ -1,6 +1,6 @@
 export const guideSlug = "best-outdoor-projectors";
-export const guideTitle = "8 Outdoor Projectors in 2026";
-export const metaTitle = "Outdoor Projectors";
+export const guideTitle = "8 Best Outdoor Projectors in 2026";
+export const metaTitle = "Best Outdoor Projectors";
 export const metaDescription = "We compared outdoor projector screen models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "outdoor projector screen";
 export const introParagraphs = [

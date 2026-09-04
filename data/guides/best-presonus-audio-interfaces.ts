@@ -1,6 +1,6 @@
 export const guideSlug = "best-presonus-audio-interfaces";
-export const guideTitle = "8 PreSonus Audio Interfaces in 2026";
-export const metaTitle = "PreSonus Audio Interfaces";
+export const guideTitle = "8 Best PreSonus Audio Interfaces in 2026";
+export const metaTitle = "Best PreSonus Audio Interfaces";
 export const metaDescription = "We compared audio interface presonus models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface presonus";
 export const introParagraphs = [

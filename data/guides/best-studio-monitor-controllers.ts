@@ -1,6 +1,6 @@
 export const guideSlug = "best-studio-monitor-controllers";
-export const guideTitle = "8 Studio Monitor Controllers in 2026";
-export const metaTitle = "Studio Monitor Controllers";
+export const guideTitle = "8 Best Studio Monitor Controllers in 2026";
+export const metaTitle = "Best Studio Monitor Controllers";
 export const metaDescription = "We compared studio monitor controller models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "studio monitor controller";
 export const introParagraphs = [

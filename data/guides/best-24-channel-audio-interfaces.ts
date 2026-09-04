@@ -1,6 +1,6 @@
 export const guideSlug = "best-24-channel-audio-interfaces";
-export const guideTitle = "8 24-Channel Audio Interfaces in 2026";
-export const metaTitle = "24-Channel Audio Interfaces";
+export const guideTitle = "8 Best 24-Channel Audio Interfaces in 2026";
+export const metaTitle = "Best 24-Channel Audio Interfaces";
 export const metaDescription = "We compared 24 channel audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "24 channel audio interface";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-projector-mounts";
-export const guideTitle = "8 Projector Mounts in 2026";
-export const metaTitle = "Projector Mounts";
+export const guideTitle = "8 Best Projector Mounts in 2026";
+export const metaTitle = "Best Projector Mounts";
 export const metaDescription = "We compared projector mount models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector mount";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-preamp-audio-interfaces";
-export const guideTitle = "8 Preamp Audio Interfaces in 2026";
-export const metaTitle = "Preamp Audio Interfaces";
+export const guideTitle = "8 Best Preamp Audio Interfaces in 2026";
+export const metaTitle = "Best Preamp Audio Interfaces";
 export const metaDescription = "We compared audio interface preamp models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface preamp";
 export const introParagraphs = [

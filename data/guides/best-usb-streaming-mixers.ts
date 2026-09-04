@@ -1,6 +1,6 @@
 export const guideSlug = "best-usb-streaming-mixers";
-export const guideTitle = "8 USB Streaming Mixers in 2026";
-export const metaTitle = "USB Streaming Mixers";
+export const guideTitle = "8 Best USB Streaming Mixers in 2026";
+export const metaTitle = "Best USB Streaming Mixers";
 export const metaDescription = "We compared usb streaming mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "usb streaming mixer";
 export const introParagraphs = [

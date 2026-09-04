@@ -1,6 +1,6 @@
 export const guideSlug = "best-universal-audio-audio-interfaces";
-export const guideTitle = "8 Universal Audio Audio Interfaces in 2026";
-export const metaTitle = "Universal Audio Audio Interfaces";
+export const guideTitle = "8 Best Universal Audio Audio Interfaces in 2026";
+export const metaTitle = "Best Universal Audio Audio Interfaces";
 export const metaDescription = "We compared universal audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "universal audio interface";
 export const introParagraphs = [

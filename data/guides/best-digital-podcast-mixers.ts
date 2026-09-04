@@ -1,6 +1,6 @@
 export const guideSlug = "best-digital-podcast-mixers";
-export const guideTitle = "8 Digital Podcast Mixers in 2026";
-export const metaTitle = "Digital Podcast Mixers";
+export const guideTitle = "8 Best Digital Podcast Mixers in 2026";
+export const metaTitle = "Best Digital Podcast Mixers";
 export const metaDescription = "We compared digital podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "digital podcast mixer";
 export const introParagraphs = [

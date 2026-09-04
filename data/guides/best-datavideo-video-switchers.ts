@@ -1,6 +1,6 @@
 export const guideSlug = "best-datavideo-video-switchers";
-export const guideTitle = "8 Datavideo Video Switchers in 2026";
-export const metaTitle = "Datavideo Video Switchers";
+export const guideTitle = "8 Best Datavideo Video Switchers in 2026";
+export const metaTitle = "Best Datavideo Video Switchers";
 export const metaDescription = "We compared datavideo switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "datavideo switcher";
 export const introParagraphs = [

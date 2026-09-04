@@ -1,6 +1,6 @@
 export const guideSlug = "best-ndi-video-switchers";
-export const guideTitle = "8 NDI Video Switchers in 2026";
-export const metaTitle = "NDI Video Switchers";
+export const guideTitle = "8 Best NDI Video Switchers in 2026";
+export const metaTitle = "Best NDI Video Switchers";
 export const metaDescription = "We compared ndi video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "ndi video switcher";
 export const introParagraphs = [

@@ -1,6 +1,6 @@
 export const guideSlug = "best-studio-monitors-for-pc-desks";
-export const guideTitle = "8 Studio Monitors for PC Desks in 2026";
-export const metaTitle = "Studio Monitors for PC Desks";
+export const guideTitle = "8 Best Studio Monitors for PC Desks in 2026";
+export const metaTitle = "Best Studio Monitors for PC Desks";
 export const metaDescription = "We compared studio monitor pc models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "studio monitor pc";
 export const introParagraphs = [

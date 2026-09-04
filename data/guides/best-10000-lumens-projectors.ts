@@ -1,6 +1,6 @@
 export const guideSlug = "best-10000-lumens-projectors";
-export const guideTitle = "8 10000 Lumens Projectors in 2026";
-export const metaTitle = "10000 Lumens Projectors";
+export const guideTitle = "8 Best 10000 Lumens Projectors in 2026";
+export const metaTitle = "Best 10000 Lumens Projectors";
 export const metaDescription = "We compared projector 10000 lumens models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "projector 10000 lumens";
 export const introParagraphs = [

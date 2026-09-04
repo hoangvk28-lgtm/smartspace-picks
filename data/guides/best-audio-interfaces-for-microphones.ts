@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-for-microphones";
-export const guideTitle = "8 Audio Interfaces for Microphones in 2026";
-export const metaTitle = "Audio Interfaces for Microphones";
+export const guideTitle = "8 Best Audio Interfaces for Microphones in 2026";
+export const metaTitle = "Best Audio Interfaces for Microphones";
 export const metaDescription = "We compared audio interface microphone models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "audio interface microphone";
 export const introParagraphs = [

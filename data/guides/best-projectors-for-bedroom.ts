@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-for-bedroom";
-export const guideTitle = "8 Projectors for Bedroom in 2026";
-export const metaTitle = "Projectors for Bedroom";
+export const guideTitle = "8 Best Projectors for Bedroom in 2026";
+export const metaTitle = "Best Projectors for Bedroom";
 export const metaDescription = "We compared projector for bedroom models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "projector for bedroom";
 export const introParagraphs = [

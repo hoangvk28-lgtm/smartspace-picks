@@ -1,6 +1,6 @@
 export const guideSlug = "best-jvc-projectors";
-export const guideTitle = "8 JVC Projectors in 2026";
-export const metaTitle = "JVC Projectors";
+export const guideTitle = "8 Best JVC Projectors in 2026";
+export const metaTitle = "Best JVC Projectors";
 export const metaDescription = "We compared jvc projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "jvc projector";
 export const introParagraphs = [

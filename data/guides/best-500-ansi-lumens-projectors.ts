@@ -1,6 +1,6 @@
 export const guideSlug = "best-500-ansi-lumens-projectors";
-export const guideTitle = "8 500 Ansi Lumens Projectors in 2026";
-export const metaTitle = "500 Ansi Lumens Projectors";
+export const guideTitle = "8 Best 500 Ansi Lumens Projectors in 2026";
+export const metaTitle = "Best 500 Ansi Lumens Projectors";
 export const metaDescription = "We compared projector 500 ansi lumens models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "projector 500 ansi lumens";
 export const introParagraphs = [

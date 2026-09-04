@@ -1,6 +1,6 @@
 export const guideSlug = "best-4k-video-switchers-for-live-streaming";
-export const guideTitle = "8 4K Video Switchers for Live Streaming in 2026";
-export const metaTitle = "4K Video Switchers for Live Streaming";
+export const guideTitle = "8 Best 4K Video Switchers for Live Streaming in 2026";
+export const metaTitle = "Best 4K Video Switchers for Live Streaming";
 export const metaDescription = "We compared 4k video switcher for live streaming models by verified specs and real-world tradeoffs, not marketing claims alone.";
 export const mainKeyword = "4k video switcher for live streaming";
 export const introParagraphs = [

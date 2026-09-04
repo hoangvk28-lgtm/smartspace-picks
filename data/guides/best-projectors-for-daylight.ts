@@ -1,6 +1,6 @@
 export const guideSlug = "best-projectors-for-daylight";
-export const guideTitle = "8 Projectors for Daylight in 2026";
-export const metaTitle = "Projectors for Daylight";
+export const guideTitle = "8 Best Projectors for Daylight in 2026";
+export const metaTitle = "Best Projectors for Daylight";
 export const metaDescription = "We compared projector daylight models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector daylight";
 export const introParagraphs = [

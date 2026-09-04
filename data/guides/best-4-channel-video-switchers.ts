@@ -1,6 +1,6 @@
 export const guideSlug = "best-4-channel-video-switchers";
-export const guideTitle = "8 4-Channel Video Switchers in 2026";
-export const metaTitle = "4-Channel Video Switchers";
+export const guideTitle = "8 Best 4-Channel Video Switchers in 2026";
+export const metaTitle = "Best 4-Channel Video Switchers";
 export const metaDescription = "We compared 4 channel video switcher models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "4 channel video switcher";
 export const introParagraphs = [

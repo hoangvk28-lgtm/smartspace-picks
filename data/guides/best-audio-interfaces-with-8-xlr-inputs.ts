@@ -1,6 +1,6 @@
 export const guideSlug = "best-audio-interfaces-with-8-xlr-inputs";
-export const guideTitle = "8 Audio Interfaces With 8 XLR Inputs in 2026";
-export const metaTitle = "Audio Interfaces With 8 XLR Inputs";
+export const guideTitle = "8 Best Audio Interfaces With 8 XLR Inputs in 2026";
+export const metaTitle = "Best Audio Interfaces With 8 XLR Inputs";
 export const metaDescription = "We compared 8 xlr input audio interface models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "8 xlr input audio interface";
 export const introParagraphs = [

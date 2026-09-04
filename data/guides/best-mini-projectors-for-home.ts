@@ -1,6 +1,6 @@
 export const guideSlug = "best-mini-projectors-for-home";
-export const guideTitle = "8 Mini Projectors for Home in 2026";
-export const metaTitle = "Mini Projectors for Home";
+export const guideTitle = "8 Best Mini Projectors for Home in 2026";
+export const metaTitle = "Best Mini Projectors for Home";
 export const metaDescription = "We compared mini projector for home models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "mini projector for home";
 export const introParagraphs = [

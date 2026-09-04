@@ -1,6 +1,6 @@
 export const guideSlug = "best-zoom-audio-interfaces";
-export const guideTitle = "8 Zoom Audio Interfaces in 2026";
-export const metaTitle = "Zoom Audio Interfaces";
+export const guideTitle = "8 Best Zoom Audio Interfaces in 2026";
+export const metaTitle = "Best Zoom Audio Interfaces";
 export const metaDescription = "We compared audio interface zoom models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "audio interface zoom";
 export const introParagraphs = [

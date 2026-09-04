@@ -1,6 +1,6 @@
 export const guideSlug = "best-desktop-studio-monitor-stands";
-export const guideTitle = "8 Desktop Studio Monitor Stands in 2026";
-export const metaTitle = "Desktop Studio Monitor Stands";
+export const guideTitle = "8 Best Desktop Studio Monitor Stands in 2026";
+export const metaTitle = "Best Desktop Studio Monitor Stands";
 export const metaDescription = "We compared desk studio monitor stands models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real.";
 export const mainKeyword = "desk studio monitor stands";
 export const introParagraphs = [

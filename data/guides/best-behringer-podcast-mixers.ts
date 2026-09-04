@@ -1,6 +1,6 @@
 export const guideSlug = "best-behringer-podcast-mixers";
-export const guideTitle = "8 Behringer Podcast Mixers in 2026";
-export const metaTitle = "Behringer Podcast Mixers";
+export const guideTitle = "8 Best Behringer Podcast Mixers in 2026";
+export const metaTitle = "Best Behringer Podcast Mixers";
 export const metaDescription = "We compared behringer podcast mixer models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
 export const mainKeyword = "behringer podcast mixer";
 export const introParagraphs = [

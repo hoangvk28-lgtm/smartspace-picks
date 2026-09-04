@@ -1,6 +1,6 @@
 export const guideSlug = "best-elephas-projectors";
-export const guideTitle = "8 ELEPHAS Projectors in 2026";
-export const metaTitle = "ELEPHAS Projectors";
+export const guideTitle = "8 Best ELEPHAS Projectors in 2026";
+export const metaTitle = "Best ELEPHAS Projectors";
 export const metaDescription = "We compared elephas projector models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "elephas projector";
 export const introParagraphs = [

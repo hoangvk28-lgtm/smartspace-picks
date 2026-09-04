@@ -1,6 +1,6 @@
 export const guideSlug = "best-projector-stands";
-export const guideTitle = "8 Projector Stands in 2026";
-export const metaTitle = "Projector Stands";
+export const guideTitle = "8 Best Projector Stands in 2026";
+export const metaTitle = "Best Projector Stands";
 export const metaDescription = "We compared projector stand models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
 export const mainKeyword = "projector stand";
 export const introParagraphs = [
