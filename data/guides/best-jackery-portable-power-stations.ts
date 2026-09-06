@@ -1,15 +1,15 @@
 export const guideSlug = "best-jackery-portable-power-stations";
-export const guideTitle = "6 Best Jackery Portable Power Stations in 2026";
-export const metaTitle = "Best Jackery Portable Power Stations 2026";
-export const metaDescription = "We compared jackery portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
-export const mainKeyword = "jackery portable power stations";
+export const guideTitle = "8 Best Jackery Portable Power Stations in 2026";
+export const metaTitle = "Best Jackery Portable Power Stations";
+export const metaDescription = "We compared power bank generator models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage.";
+export const mainKeyword = "power bank generator";
 export const introParagraphs = [
-  "A quick scan of jackery portable power stations listings rarely settles the question of mapping Jackery's current model lineup instead of assuming every listing is a current product, so that's where we started.",
-  "We compared this lineup on measured usable energy and safety documentation plus mapping Jackery's current model lineup instead of assuming every listing is a current product, since rated capacity alone regularly overstates real-world runtime."
+  "Across best jackery portable power stations, vary more than the keyword suggests, given that the real gap is in the details.",
+  "What separates these picks is honest cycle life and long-term capacity, since these details matter more than claims."
 ];
-export const lastUpdated = "2026-08-19";
-export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/31+D1tNXreL._SL500_.jpg";
+export const lastUpdated = "2026-08-31";
+export const readTime = "11 min";
+export const heroImage = "https://m.media-amazon.com/images/I/41-Ey75o-WL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,120 +21,152 @@ export const products: GuideProduct[] = [
     id: "best-jackery-portable-power-stations-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W",
-    price: "$499.00",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/31+D1tNXreL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0D7PPG25F?tag=deskfinds0d-20",
-    description: "A 1500W AC output with a 3000W surge peak handles fridges and electric pots, and at 23.8 lbs with a foldable handle it stays genuinely liftable for camping trips. ChargeShield 2.0 technology backs a real 1-hour full charge once emergency charging is enabled in the Jackery App, defaulting to a battery-friendlier 1.7 hours otherwise.\n\nThe LFP battery retains over 70% capacity after 4000 cycles, a documented decade-plus lifespan. Three pure sine wave AC ports, two USB-C, one USB-A, and a DC car port cover most devices at once, and the app's 30dB quiet overnight mode is a genuine option for light sleepers.",
-    specs: ["1070Wh, 1500W AC, 3000W surge","1hr fast charge via app","23.8 lbs, foldable handle"],
-    pros: ["1-hour emergency charging is a genuine app-enabled feature","70% capacity retained after 4000 cycles is documented","23.8 lbs keeps this genuinely easy to carry"],
-    cons: ["Only compatible with Jackery's own solar panels","1-hour charging needs the app enabled every time"],
-    bestFor: "buyers prioritizing 1070wh, 1500w ac, 3000w surge",
-  },
-  {
-    id: "best-jackery-portable-power-stations-2",
-    rank: 2,
-    badge: "Runner-Up",
     name: "Jackery Explorer 300 Portable Power Station, 292Wh",
     price: "$259.00",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41-Ey75o-WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B082TMBYR6?tag=deskfinds0d-20",
-    description: "At just 7.5 lbs, this is documented 17% lighter than the industry average for its class, with an integrated handle genuinely built for long hikes. Six devices connect at once across 2 AC outlets, a 100W USB-C PD port, 2 USB-A ports, and a 120W car port, with 300W rated output and 600W peak surge.\n\nPremium LiFePO4 chemistry delivers over 4000 charge cycles before dropping to 70% capacity, a documented 11-plus year service life. Solar charging with a 100W panel reaches 80% in about 2.8 hours, or a portable 40W panel gets there in 7.5 hours, genuinely flexible for different outdoor setups.",
-    specs: ["292Wh, 300W (600W surge), 7.5 lbs","11+ year life, 4000+ cycles","6 devices, USB-C PD 100W"],
-    pros: ["7.5 lbs is documented 17% lighter than the industry average","11+ year service life is genuinely long for this capacity","USB-C PD 100W charges devices without a separate adapter"],
-    cons: ["300W rated output limits higher-draw appliances","No included solar panel for the documented charge times"],
-    bestFor: "buyers prioritizing 292wh, 300w (600w surge), 7.5 lbs",
+    description: "Jackery Explorer 300 Portable Power Station, 292Wh is our overall pick in this lineup. At only 7.5 lbs, the explorer 300 delivers a robust 292wh capacity while remaining 17% lighter than the industry average. Versatile power for 6 devices: equipped with 2 ac outlets, a 100w USB-C pd port, 2 USB-a ports, and a 120w car port.\n\nSet next to Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W, the two land close enough on paper that it's worth comparing both listings directly on the spec that matters most for your setup.\n\nReach for this pick if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["At only 7.5 lbs", "Versatile power for 6 devices", "Built to last"],
+    pros: ["At only 7.5 lbs", "Versatile power for 6 devices", "Built to last", "Fast solar charging"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want the strongest all-around pick in this comparison and would rather not keep shopping around",
+  },
+  {
+    id: "best-jackery-portable-power-stations-2",
+    rank: 2,
+    badge: "Also Worth Considering",
+    name: "Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W",
+    price: "$499.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31+D1tNXreL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D7PPG25F?tag=deskfinds0d-20",
+    description: "Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W is a strong alternative worth comparing directly against the top pick. Boasting a 1,500w ac output and a 3,000w surge peak, the solar generator 1000 v2 can power multiple appliances, including ac units, fridges, and electric pots. Charge your explorer 1000 v2 portable power station from 0% to 100% battery level in just one hour with emergency charging activated via the Jackery app.\n\n1 * Explorer 1000 v2, 1 * user manual, which is the main thing that distinguishes this pick from Jackery Explorer 300 Portable Power Station, 292Wh.\n\nThis fits best if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["Boasting", "One hour fast charging", "10 Year lifespan"],
+    pros: ["Boasting", "One hour fast charging", "10 Year lifespan", "Tailored for versatility"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
   {
     id: "best-jackery-portable-power-stations-3",
     rank: 3,
-    badge: "Also Great",
-    name: "Jackery Explorer 2000 v2 Portable Power Station, 2042Wh, 2200W",
-    price: "$899.00",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/41-aYRSzjEL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0DFG2WDQH?tag=deskfinds0d-20",
-    description: "At 39.5 lbs, this is documented as 41% lighter and 34% smaller than typical 2kWh LiFePO4 stations, using EV-grade CTB technology for a more compact, secure structure. Three AC ports total 2200W output, and USB-C PD 100W enables fast device charging without a separate adapter.\n\nAC Fast Charging hits 0-80% in 66 minutes, or 102 minutes to full via Emergency Super Charging in the app, while Silent Charging Mode completes a full charge in 5 hours at under 30dB for uninterrupted sleep. UL1778-certified 20ms UPS switching keeps essentials running through storms, and the LFP battery is rated for a genuine 10-year lifespan.",
-    specs: ["2042Wh, 2200W AC, 39.5 lbs","66-min 0-80% AC fast charge","UL1778 certified, 20ms UPS"],
-    pros: ["39.5 lbs is documented 41% lighter than typical 2kWh rivals","UL1778 certification specifically validates the UPS function","Silent Charging Mode completes a full charge at under 30dB"],
-    cons: ["Solar charging in 6 hours needs a 400W panel sold separately","Genuinely large footprint despite the weight reduction"],
-    bestFor: "buyers prioritizing 2042wh, 2200w ac, 39.5 lbs",
-  },
-  {
-    id: "best-jackery-portable-power-stations-4",
-    rank: 4,
-    badge: "Strong Alternative",
-    name: "Jackery HomePower 3600 Plus Portable Power Station, 3600W, 3584Wh",
-    price: "$1,899.00",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/31MKjmDYAXL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0FM8653F1?tag=deskfinds0d-20",
-    description: "Dual voltage (120V and 240V in parallel) delivers 3600W output, doubling to 7200W when paired, genuinely enough to run pumps, heaters, and dryers. High-temp resistant ceramic membrane cells tested at 302°F specifically prevent thermal runaway, backed by 6000 rated cycles and a 10-year lifespan claim documented down to -4°F operation.\n\nExpandable from 3584Wh to 21kWh per unit (43kWh with multiple units), Jackery states this can power a 3-person household for over 2 weeks. The plug-and-play design paired with MTS needs no complex installation, and the luggage-style design with wheels and a telescopic handle makes rolling it between rooms genuinely practical despite the scale.",
-    specs: ["3584Wh (expandable to 21kWh), 3600W","Ceramic membrane cells, 302°F tested","Wheeled luggage-style design"],
-    pros: ["Ceramic membrane cells are specifically tested against thermal runaway","Expandable to a genuine 21kWh per unit for extended backup","Wheeled luggage design makes rolling between rooms practical"],
-    cons: ["Full 21kWh expansion requires purchasing additional units","Genuinely large footprint even with the lighter, smaller claims"],
-    bestFor: "buyers prioritizing 3584wh (expandable to 21kwh), 3600w",
-  },
-  {
-    id: "best-jackery-portable-power-stations-5",
-    rank: 5,
-    badge: "Worth Considering",
-    name: "Jackery Solar Generator 1000 v2 and 200W Solar Panel, 1070Wh, 1500W",
+    badge: "Solid Alternative",
+    name: "Jackery Solar Generator 1000 v2 and 200W Solar Panel, 1070Wh, 1500W AC",
     price: "$699.00",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Li2jDBgqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2L1G66J?tag=deskfinds0d-20",
-    description: "This pairs the same 1500W AC, 3000W surge Explorer 1000 v2 station with a genuine bundled 200W solar panel, a real value versus buying separately, plus 5 years of coverage instead of the standard warranty. At 23.8 lbs with a foldable handle, it stays genuinely liftable for camping trips.\n\nWith the bundled 200W panel specifically, charging to 80% takes about 6 hours, or a full charge via a 600W Alternator Charger (sold separately) takes 3 hours. The LFP battery retains over 70% capacity after 4000 cycles for a documented decade-plus lifespan, and note the station and panel ship separately per the listing.",
-    specs: ["1070Wh, 1500W, includes 200W solar panel","5 years of coverage included","80% in 6hr with bundled panel"],
-    pros: ["Bundles a genuine 200W panel with 5 years of coverage","80% charge in 6 hours with the included panel is genuinely usable","70% capacity retained after 4000 cycles is documented"],
-    cons: ["Station and 200W panel ship separately per the listing","23.8 lbs plus a 200W panel adds real bulk to transport"],
-    bestFor: "buyers prioritizing 1070wh, 1500w, includes 200w solar panel",
+    description: "Jackery Solar Generator 1000 v2 and 200W Solar Panel, 1070Wh, 1500W AC is a strong alternative worth comparing directly against the top pick. To enjoy the 1-hour super charging, please enable the emergency charging function in the Jackery app before charging each time. Please provide an actual address for any of your orders.\n\nAgainst Jackery Explorer 300 Portable Power Station, 292Wh, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nChoose this if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["Effortlessly switch between different charging modes with Jackery’s app", "To enjoy the 1-hour super charging", "Please provide an actual address for any of your orders"],
+    pros: ["Effortlessly switch between different charging modes with Jackery’s app", "To enjoy the 1-hour super charging", "Please provide an actual address for any of your orders"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
   {
-    id: "best-jackery-portable-power-stations-6",
-    rank: 6,
-    badge: "Budget Pick",
+    id: "best-jackery-portable-power-stations-4",
+    rank: 4,
+    badge: "Another Strong Option",
     name: "Jackery Solar Generator 300 and 40W Solar Panel, 292Wh, 300W AC",
     price: "$339.00",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41S0DhkhCvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G429L5B4?tag=deskfinds0d-20",
-    description: "This pairs the same 7.5 lbs, 17%-lighter-than-average Explorer 300 station with a genuine 40W Air Solar Panel bundled in, a real cost saver versus buying the panel separately. Six devices connect at once across 2 AC outlets, a 100W USB-C PD port, 2 USB-A ports, and a 120W car port.\n\nPremium LiFePO4 chemistry delivers over 4000 charge cycles before dropping to 70% capacity, a documented 11-plus year service life. With the bundled 40W panel specifically, reaching 80% capacity takes about 7.5 hours, genuinely useful for extended off-grid stays. Note the station and panel ship separately per the listing.",
-    specs: ["292Wh, 300W AC, includes 40W solar panel","11+ year life, 4000+ cycles","80% in 7.5hr with bundled panel"],
-    pros: ["Bundles a genuine 40W panel, a real savings over buying separately","11+ year service life is genuinely long for this capacity","6 devices charge simultaneously across 5 port types"],
-    cons: ["Station and panel ship separately per the listing","40W panel charges meaningfully slower than the 100W option"],
-    bestFor: "buyers prioritizing 292wh, 300w ac, includes 40w solar panel",
+    description: "Jackery Solar Generator 300 and 40W Solar Panel, 292Wh, 300W AC is a strong alternative worth comparing directly against the top pick. Weighing only 7.5 lbs, the new explorer 300 is 17% lighter than the industry average for its class. 1* Jackery explorer 300 portable power station, 1*40w air solar panel, 1* ac adapter, 1* car charger cable, 1* user guide.\n\nAgainst Jackery Explorer 300 Portable Power Station, 292Wh, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["Weighing only 7.5 lbs", "Versatile power for 6 devices", "Built to last"],
+    pros: ["Weighing only 7.5 lbs", "Versatile power for 6 devices", "Built to last", "Fast solar charging"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-jackery-portable-power-stations-5",
+    rank: 5,
+    badge: "Runner-Up Pick",
+    name: "Jackery HomePower 3600 Plus Portable Power Station",
+    price: "$1,709.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31MKjmDYAXL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FM8653F1?tag=deskfinds0d-20",
+    description: "Jackery HomePower 3600 Plus Portable Power Station is a strong alternative worth comparing directly against the top pick. The Jackery homepower 3600 plus delivers 3600w output (7200w in parallel) to run pumps, heaters, and dryers with ease. Built with high-temp resistant ceramic membrane battery cells tested at 302 °f, the Jackery homepower 3600 plus portable power station prevents thermal runaway from heat or overcharge.\n\nJackery Explorer 300 Portable Power Station, 292Wh is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nIt's worth picking this one if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["Essential home backup", "Safe power that lasts", "Easy plug-and-play design"],
+    pros: ["Essential home backup", "Safe power that lasts", "Easy plug-and-play design", "4 Charging options"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-jackery-portable-power-stations-6",
+    rank: 6,
+    badge: "Worth a Look",
+    name: "Jackery Explorer 2000 v2 Portable Power Station",
+    price: "$899.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41-aYRSzjEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DFG2WDQH?tag=deskfinds0d-20",
+    description: "Jackery Explorer 2000 v2 Portable Power Station is a strong alternative worth comparing directly against the top pick. With 3 ac ports delivering a total output of 2200w and a massive 2042wh capacity, the Jackery explorer 2000 v2 solar generator effortlessly meets your power needs for home backup, outdoor camping, and small businesses. Smallest & lightest 2kwh power: weighing just 39.5 lbs, the Jackery explorer 2000 v2 weighs less than other bulky units, making it easy to carry along on all outdoor adventures.\n\nAgainst Jackery Explorer 300 Portable Power Station, 292Wh, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nChoose this if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["High-capacity power solution", "Smallest & lightest 2kwh power", "Charge the explorer 2000 v2 from 0 to 80% in just 66 minutes"],
+    pros: ["High-capacity power solution", "Smallest & lightest 2kwh power", "Charge the explorer 2000 v2 from 0 to 80% in just 66 minutes", "Durable for 10 years"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-jackery-portable-power-stations-7",
+    rank: 7,
+    badge: "Best Premium Pick",
+    name: "Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels",
+    price: "$2,459.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/417PSNnMsLL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FMXCPWBN?tag=deskfinds0d-20",
+    description: "Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels is the priciest pick in this lineup. The Jackery homepower 3600 plus, the lightest 3.6kwh lfp power station, boasts automotive-grade ctb tech and is 34% smaller and 29.3% lighter than other models. The homepower 3600 plus and solar panels are shipped separately, and may arrive in separate packages.\n\nAgainst Jackery Explorer 300 Portable Power Station, 292Wh, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nChoose this if you are willing to spend the most in this comparison for the fuller feature set that comes with it. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["Essential home backup", "Safe power that lasts", "Easy plug-and-play design"],
+    pros: ["Essential home backup", "Safe power that lasts", "Easy plug-and-play design", "4 Charging options"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who are willing to spend the most in this comparison for the fuller feature set that comes with it",
+  },
+  {
+    id: "best-jackery-portable-power-stations-8",
+    rank: 8,
+    badge: "Also Worth Considering",
+    name: "Jackery Explorer 2000 Plus Portable Power Station",
+    price: "$899.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31U-xkAN1wL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0C6DHK68Q?tag=deskfinds0d-20",
+    description: "Jackery Explorer 2000 Plus Portable Power Station is a strong alternative worth comparing directly against the top pick. Charge directly from the sun or via wall outlet, conveniently, quickly and additionally worry free. 2Kwh - 24kwh flexible expansion: the Jackery explorer 2000 plus supports up to 5 expandable battery packs, featuring power expanded from 2k to 12kwh.\n\nEasily manage your explorer 2000 plus using the wi-fi or bluetooth function, a detail worth checking closely before choosing between this and Jackery Explorer 300 Portable Power Station, 292Wh.\n\nChoose this if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["Magnificent performance", "Charge directly from the sun or via wall outlet", "2Kwh - 24kwh flexible expansion"],
+    pros: ["Magnificent performance", "Charge directly from the sun or via wall outlet", "2Kwh - 24kwh flexible expansion", "First-rate safety"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   }
 ];
 
 export const howWeEvaluated = [
   {
-    "title": "Rated Wh Verified Against Usable Energy",
-    "description": "Checked documented battery capacity separately from continuous AC output, since a high wattage rating doesn't guarantee enough stored energy to run a device for long."
+    "title": "mAh vs Real Usable Charge",
+    "description": "A power bank's advertised mAh rating is measured at the battery's own internal voltage, not the 5V (or higher) your phone actually charges at, so the real usable charge you get is meaningfully lower than the number on the box suggests, often 60 to 70% of the rated capacity once conversion losses are accounted for."
   },
   {
-    "title": "Continuous Output vs Surge Separated",
-    "description": "Compared continuous inverter rating against surge or boost mode claims, since many listings blend the two into one headline number."
+    "title": "Watt-Hours Determine Airline Legality, Not mAh",
+    "description": "If you're buying a power bank with air travel in mind, the relevant spec is watt-hours, not mAh: the standard rule allows up to 100Wh without airline approval, up to 160Wh with prior permission, and nothing above that on any commercial flight, since power banks must also travel in carry-on luggage, never checked bags."
   },
   {
-    "title": "Charging Speed and Path Documented",
-    "description": "Verified AC, solar, and car charging times from official specs, noting where fastest speeds require specific modes, apps, or additional hardware."
+    "title": "Fast-Charging Wattage vs Your Actual Devices",
+    "description": "A power bank's fast-charging wattage only helps if your specific device can actually accept that charging speed, an 18W-capable phone won't charge any faster from a 65W power bank than it would from an 18W one, so match the power bank's output wattage to your device's actual charging spec rather than assuming a higher number always means faster real-world charging."
   },
   {
-    "title": "Safety and Certification Evidence Checked",
-    "description": "Looked for UL, UL2743, or other documented safety certification and battery chemistry evidence rather than trusting a safety claim alone."
+    "title": "Pass-Through Charging for Desk Setups",
+    "description": "For a power bank you plan to keep plugged in at your desk as backup power rather than carrying around, pass-through charging (charging your device while the power bank itself charges) is the feature that actually matters, not raw capacity."
   },
   {
-    "title": "Real Ownership Costs Included",
-    "description": "Weighed included cables, solar panel bundling, warranty length, and app requirements as part of the real cost and usability of each pick."
+    "title": "Cycle Life and Long-Term Battery Degradation",
+    "description": "Every rechargeable power bank loses capacity over repeated charge cycles, typically retaining 80% of its original capacity after 300 to 500 full cycles for a standard lithium-ion cell, or meaningfully more for a lithium-polymer or LiFePO4 cell in premium models."
   }
 ];
 
@@ -148,71 +180,160 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Build a Current Model Map First",
-    "note": "Confirm which jackery models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations."
+    "subheading": "By Device You're Charging",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Phone, occasional use",
+          "Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W"
+        ],
+        [
+          "Phone plus tablet, daily use",
+          "Jackery Explorer 300 Portable Power Station, 292Wh"
+        ],
+        [
+          "Laptop or multiple devices",
+          "Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Publish Rated Wh and Continuous W by Model",
-    "note": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general."
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest price in this lineup",
+          "Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W"
+        ],
+        [
+          "Mid-range pick",
+          "Jackery Solar Generator 1000 v2 and 200W Solar Panel, 1070Wh, 1500W AC"
+        ],
+        [
+          "Higher budget",
+          "Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Verify AC/Solar/Car Charging Input",
-    "note": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically."
+    "subheading": "Capacity vs Portability",
+    "cards": [
+      {
+        "label": "Higher capacity (e.g. Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels)",
+        "text": "More charges before a recharge, but heavier and bulkier to carry."
+      },
+      {
+        "label": "Lower capacity (e.g. Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W)",
+        "text": "Pocket-friendly and light, but needs more frequent recharging."
+      }
+    ],
+    "note": "Match this to whether you're carrying it daily or leaving it in a bag for emergencies."
   },
   {
-    "subheading": "Compare Cycle-Life Claims and Warranty",
-    "note": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model."
+    "subheading": "By Travel Needs",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Flying with it",
+          "Check the watt-hour (Wh) rating stays under 100Wh"
+        ],
+        [
+          "Never flying with it",
+          "Jackery Explorer 300 Portable Power Station, 292Wh"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Separate Current Generation From Older Listings",
-    "note": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded."
+    "subheading": "For Laptop Charging Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "USB-PD support at 45W or higher, not just any USB-C port."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels is worth checking against your specific laptop's wattage requirement before assuming any power bank charges it."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need higher capacity, faster charging, and support for a laptop, where Jackery HomePower 3600 Plus Portable Power Station with 2X 200W Solar Panels justifies the extra cost."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need backup charges for a phone, where Jackery Explorer 1000 v2 Portable Power Station, 1070Wh, 1500W already covers the job at the lowest price here."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria = [
   {
-    "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which jackery models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations."
+    "criterion": "mAh vs Real Usable Charge",
+    "explanation": "A power bank's advertised mAh rating is measured at the battery's own internal voltage, not the 5V (or higher) your phone actually charges at, so the real usable charge you get is meaningfully lower than the number on the box suggests, often 60 to 70% of the rated capacity once conversion losses are accounted for. A 20,000mAh power bank realistically delivers something closer to 3 to 4 full phone charges, not the 5-plus a naive mAh-to-phone-battery math would suggest."
   },
   {
-    "criterion": "Publish Rated Wh and Continuous W by Model",
-    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general."
+    "criterion": "Watt-Hours Determine Airline Legality, Not mAh",
+    "explanation": "If you're buying a power bank with air travel in mind, the relevant spec is watt-hours, not mAh: the standard rule allows up to 100Wh without airline approval, up to 160Wh with prior permission, and nothing above that on any commercial flight, since power banks must also travel in carry-on luggage, never checked bags. Convert mAh to Wh (mAh times voltage, divided by 1000) before assuming a high-mAh power bank is automatically flight-legal."
   },
   {
-    "criterion": "Verify AC/Solar/Car Charging Input",
-    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically."
+    "criterion": "Fast-Charging Wattage vs Your Actual Devices",
+    "explanation": "A power bank's fast-charging wattage only helps if your specific device can actually accept that charging speed, an 18W-capable phone won't charge any faster from a 65W power bank than it would from an 18W one, so match the power bank's output wattage to your device's actual charging spec rather than assuming a higher number always means faster real-world charging. For laptop charging specifically, check that the power bank supports USB-PD at a wattage your laptop actually requires (often 45 to 100W), not just any USB-C port."
   },
   {
-    "criterion": "Compare Cycle-Life Claims and Warranty",
-    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model."
+    "criterion": "Pass-Through Charging for Desk Setups",
+    "explanation": "For a power bank you plan to keep plugged in at your desk as backup power rather than carrying around, pass-through charging (charging your device while the power bank itself charges) is the feature that actually matters, not raw capacity. Not all power banks handle this safely due to heat buildup during simultaneous charge and discharge, so check the listing or manual specifically rather than assuming every USB-C power bank supports it."
   },
   {
-    "criterion": "Separate Current Generation From Older Listings",
-    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded."
+    "criterion": "Cycle Life and Long-Term Battery Degradation",
+    "explanation": "Every rechargeable power bank loses capacity over repeated charge cycles, typically retaining 80% of its original capacity after 300 to 500 full cycles for a standard lithium-ion cell, or meaningfully more for a lithium-polymer or LiFePO4 cell in premium models. If you'll be charging the power bank daily, that degradation curve matters more than the day-one capacity spec, since a cheaper cell can noticeably underperform its rated capacity within a year of regular use."
   }
 ];
 
 export const faq = [
   {
-    "q": "Are all jackery models currently sold, or does the lineup include discontinued products?",
-    "a": "Check current first-party store pages directly, since older portable power stations often stay heavily indexed in search results long after being succeeded by newer generations."
+    "q": "Why does my power bank charge my phone fewer times than the mAh suggests?",
+    "a": "The mAh rating is measured at the battery's internal voltage, not the voltage your phone charges at, so conversion losses mean you get roughly 60 to 70% of the rated capacity as real usable charge, closer to 3 to 4 phone charges from a 20,000mAh power bank rather than 5-plus."
   },
   {
-    "q": "Does buying jackery guarantee the same battery chemistry across every model?",
-    "a": "No. A brand's lineup can span different battery chemistries and generations, so verify the exact model's documented chemistry and cycle-life rather than assuming brand consistency."
+    "q": "Can I bring my power bank on a plane?",
+    "a": "It depends on watt-hours (Wh), not mAh: up to 100Wh is allowed without airline approval, up to 160Wh with prior permission, and nothing above that on any commercial flight; power banks must also go in carry-on luggage, never checked bags."
   },
   {
-    "q": "What's the real difference between watts and watt-hours for a power station?",
-    "a": "Watts (W) measure how much power the station can deliver at once, essentially how many devices it can run simultaneously, while watt-hours (Wh) measure total stored energy, essentially how long it can run those devices. A station with high W but low Wh can power a lot at once but only briefly."
+    "q": "How do I convert power bank mAh to Wh for flying?",
+    "a": "Multiply the mAh by the battery's voltage (commonly 3.7V) and divide by 1000; a 27,000mAh power bank at 3.7V works out to roughly 100Wh, right at the limit allowed without airline approval."
   },
   {
-    "q": "Does a surge or peak wattage rating mean the station can run appliances at that power level?",
-    "a": "No. Surge or peak ratings describe a brief burst the inverter can handle, typically for a compressor or motor startup, not a sustained output level. Always check the continuous or rated wattage figure for what the station can actually run for extended periods."
+    "q": "Does a higher-wattage power bank charge my phone faster?",
+    "a": "Only if your phone supports that charging speed; an 18W-capable phone won't charge any faster from a 65W power bank than an 18W one, so match the power bank's wattage to your specific device's actual charging spec, not just the highest number available."
   },
   {
-    "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
-    "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
+    "q": "What is pass-through charging on a power bank?",
+    "a": "It lets the power bank charge your device while it's simultaneously being charged itself, useful if you're leaving it plugged in at a desk as backup power; not every power bank supports this safely due to heat buildup, so check the listing specifically."
+  },
+  {
+    "q": "How long does a power bank's battery actually last?",
+    "a": "A standard lithium-ion cell typically retains about 80% of its original capacity after 300 to 500 full charge cycles, while premium lithium-polymer or LiFePO4 cells hold up longer, so daily charging habits matter as much as the day-one capacity spec."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-power-banks","title":"Best Power Banks"},{"href":"/guide/best-power-banks-for-laptops","title":"Best Power Banks for Laptops"},{"href":"/guide/best-tsa-approved-airplane-safe-power-banks","title":"Best TSA-Approved Power Banks"}];

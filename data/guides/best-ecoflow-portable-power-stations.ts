@@ -1,14 +1,14 @@
 export const guideSlug = "best-ecoflow-portable-power-stations";
-export const guideTitle = "5 Best EcoFlow Portable Power Stations in 2026";
-export const metaTitle = "Best EcoFlow Portable Power Stations 2026";
-export const metaDescription = "We compared ecoflow portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
-export const mainKeyword = "ecoflow portable power stations";
+export const guideTitle = "8 Best EcoFlow Portable Power Stations in 2026";
+export const metaTitle = "Best EcoFlow Portable Power Stations";
+export const metaDescription = "We compared power bank ecoflow models by verified specs and real-world tradeoffs, not marketing claims alone. Every pick is checked against a real usage floor.";
+export const mainKeyword = "power bank ecoflow";
 export const introParagraphs = [
-  "Choosing among ecoflow portable power stations means starting with checking current firmware and app requirements rather than the brand name alone rather than star rating alone.",
-  "Every entry on this list was screened for measured usable energy and safety documentation plus checking current firmware and app requirements rather than the brand name alone before anything else was weighed."
+  "Best EcoFlow Portable Power Stations differ more than titles suggest, so price alone misses what matters.",
+  "Every pick here was judged on true watt-hours versus advertised mAh, because this predicts real day-to-day battery life."
 ];
-export const lastUpdated = "2026-08-19";
-export const readTime = "7 min";
+export const lastUpdated = "2026-08-31";
+export const readTime = "11 min";
 export const heroImage = "https://m.media-amazon.com/images/I/31F8BqUk3HL._SL500_.jpg";
 
 export interface GuideProduct {
@@ -21,104 +21,152 @@ export const products: GuideProduct[] = [
     id: "best-ecoflow-portable-power-stations-1",
     rank: 1,
     badge: "Best Overall",
-    name: "EcoFlow DELTA 3 Classic Portable Power Station, 1024Wh 1800W",
-    price: "$499.00",
+    name: "EF ECOFLOW Portable Power Station Delta 3 Classic",
+    price: "$529.00",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31F8BqUk3HL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQVC4RF5?tag=deskfinds0d-20",
-    description: "X-Boost technology pushes rated 1800W output to a documented 3600W surge, expandable to 2600W continuous with X-Boost for heavier loads like refrigerators and microwaves. X-Stream AC charging hits 0-80% in a genuine 45 minutes.\n\nUnder-10ms UPS switchover protects PCs and medical devices from data loss during outages, and LiFePO4 cells rated for 10+ years pair with EV-grade CTC design for durability. A 500W solar panel (sold separately) recharges the unit in 2.5 hours, and the EcoFlow app adds Storm Alert and Self-Powered Mode for proactive outage prep.",
-    specs: ["1024Wh, 1800W (3600W X-Boost surge)","45-min 0-80% X-Stream charge","<10ms UPS switchover"],
-    pros: ["X-Boost expands rated output to a genuine 2600W continuous","45-minute 0-80% charge is genuinely fast via X-Stream","Storm Alert mode proactively preps for incoming outages"],
-    cons: ["Not compatible with DELTA 2 or Delta 3 Smart Extra Batteries","Solar panel for the 2.5-hour charge is sold separately"],
-    bestFor: "buyers prioritizing 1024wh, 1800w (3600w x-boost surge)",
+    description: "EF ECOFLOW Portable Power Station Delta 3 Classic is the strongest all-around choice here. EcoFlow delta 3 classic delivers 1800w output (3600w surge) with x-boost technology, enough for refrigerators, microwaves, laptops, and more. 80% In just 45 minutes with x-stream ac charging.\n\nEF ECOFLOW Portable Power Station RIVER 2 covers similar ground, though <10Ms ups: protect sensitive electronics like pcs, servers, and medical devices is what tips the choice one way or the other.\n\nChoose this if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["Power for every scenario", "80% In just 45 minutes with x-stream ac charging", "10Ms ups"],
+    pros: ["Power for every scenario", "80% In just 45 minutes with x-stream ac charging", "10Ms ups", "Built to last"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want the strongest all-around pick in this comparison and would rather not keep shopping around",
   },
   {
     id: "best-ecoflow-portable-power-stations-2",
     rank: 2,
-    badge: "Runner-Up",
-    name: "EcoFlow DELTA 3 Max Portable Power Station, 2048Wh, 2400W",
-    price: "$899.00",
+    badge: "Best Value",
+    name: "EF ECOFLOW Portable Power Station RIVER 2",
+    price: "$219.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/31hRboIX8pL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0FQV6LMVX?tag=deskfinds0d-20",
-    description: "X-Stream technology delivers a genuine 0-80% charge in just over an hour, and X-Boost Mode pushes continuous output to 3400W, enough to run fridges, microwaves, and power tools without overload according to EcoFlow. Under-10ms transfer time protects sensitive electronics like servers and medical devices during outages.\n\nThe LiFePO4 battery is engineered for 10+ years of daily use with EV-grade CTC design, and an extended 5-year service plan ships standard, longer than many rivals' base warranty. The EcoFlow app adds Storm Alert and Self-Powered Mode for scheduled charging and cost management.",
-    specs: ["2048Wh, 2400W (3400W X-Boost)","0-80% in 1.13hr via X-Stream","5-year service included"],
-    pros: ["3400W X-Boost output handles high-demand appliances directly","5-year service plan ships standard, longer than many rivals","1.13-hour 0-80% charge is genuinely fast for 2048Wh"],
-    cons: ["X-Boost mode likely has real thermal or duration limits","Genuinely heavy at this capacity despite lighter design claims"],
-    bestFor: "buyers prioritizing 2048wh, 2400w (3400w x-boost)",
+    imageUrl: "https://m.media-amazon.com/images/I/31oJJr5KzCL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0B8MXPRDB?tag=deskfinds0d-20",
+    description: "EF ECOFLOW Portable Power Station RIVER 2 is the most affordable pick here that still clears the capability floor for this category. Fully recharge the electric generator using an ac outlet in only 1 hour with EcoFlow's x-stream fast charging technology. With an output of up to 600w, run 6 essential appliances simultaneously without worrying about overloading.\n\nAgainst EF ECOFLOW Portable Power Station Delta 3 Classic, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nIt's worth picking this one if you want a genuinely capable pick without paying for headroom you won't use. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["1 Hour ac recharge", "Power all your essentials", "Lfp long-life battery"],
+    pros: ["1 Hour ac recharge", "Power all your essentials", "Lfp long-life battery", "Fast solar charging"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuinely capable pick without paying for headroom you won't use",
   },
   {
     id: "best-ecoflow-portable-power-stations-3",
     rank: 3,
-    badge: "Also Great",
-    name: "EcoFlow DELTA Pro Portable Power Station, 3600Wh, 3600W AC",
+    badge: "Solid Alternative",
+    name: "EF ECOFLOW Delta 3 Portable Power Station",
+    price: "$599.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31QO9wVU+QL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DCBYMC9D?tag=deskfinds0d-20",
+    description: "EF ECOFLOW Delta 3 Portable Power Station is a strong alternative worth comparing directly against the top pick. Flexible expansion up to 5kwh. Durable and reliable for 10 years.\n\nPower 13 appliances simultaneously, a detail worth checking closely before choosing between this and EF ECOFLOW Portable Power Station Delta 3 Classic.\n\nGo with this pick if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["Full charge in 56 min", "Flexible expansion up to 5kwh", "Durable and reliable for 10 years"],
+    pros: ["Full charge in 56 min", "Flexible expansion up to 5kwh", "Durable and reliable for 10 years", "Power 13 appliances simultaneously"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-ecoflow-portable-power-stations-4",
+    rank: 4,
+    badge: "Best Premium Pick",
+    name: "EF ECOFLOW Portable Power Station 3600Wh DELTA Pro",
     price: "$1,899.00",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pVhqDjojL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1Z4GLKS?tag=deskfinds0d-20",
-    description: "A 3600Wh LFP battery expands to 25kWh with Extra Batteries or Smart Generators, genuine flexibility for scaling from camping to whole-home backup. A single unit delivers 3600W AC, expandable to 4500W with X-Boost, or 7200W when pairing two units together, covering a stated 99.99% of heavy-duty devices.\n\nX-Stream Fast Charging hits a full recharge in 1.8 hours via 240V outlets, 2.7 hours via 1800W wall outlets, or 2.8 hours with four 400W solar panels at up to 23% conversion efficiency. Fifteen output methods across USB-A, USB-C, AC, DC, car, and Anderson ports cover essentially every device type, with the EcoFlow app tracking charge level and temperature remotely.",
-    specs: ["3600Wh (expandable to 25kWh), 3600W","1.8hr full charge via 240V","15 output methods, 5 charge sources"],
-    pros: ["Expandable to a genuine 25kWh with additional batteries","1.8-hour full charge via 240V is genuinely fast at this scale","15 output methods cover nearly every device connection type"],
-    cons: ["Full expansion requires purchasing Extra Batteries separately","Genuinely heavy and bulky given the 3600Wh base capacity"],
-    bestFor: "buyers prioritizing 3600wh (expandable to 25kwh), 3600w",
-  },
-  {
-    id: "best-ecoflow-portable-power-stations-4",
-    rank: 4,
-    badge: "Strong Alternative",
-    name: "EcoFlow RIVER 2 Pro Portable Power Station, 768Wh 800W",
-    price: "$369.00",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/31fGKfidOAL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0BVLPGS79?tag=deskfinds0d-20",
-    description: "X-Stream fast charging technology delivers a genuine 70-minute full recharge via AC outlet, among the fastest in this capacity class. An 800W output (documented to run 80% of appliances) spans 11 outlets from 800W AC to USB-C, letting you charge or run multiple devices without overload concerns.\n\nLFP battery cells rated for over 3000 cycles before hitting 80% translate to roughly 10 years of regular use, backed by advanced BMS monitoring voltage, current, and temperature. At 17.2 lbs with a built-in handle, it's genuinely portable for off-grid adventures, and 220W solar input recharges in as fast as 3.5 hours.",
-    specs: ["768Wh, 800W output, 17.2 lbs","70-min full AC recharge","3000+ cycles, ~10yr lifespan"],
-    pros: ["70-minute full recharge is genuinely among the fastest here","17.2 lbs keeps this genuinely portable for off-grid trips","5-year service included alongside the standard warranty"],
-    cons: ["800W output caps out before higher-demand appliances","768Wh capacity is modest for multi-day backup use"],
-    bestFor: "buyers prioritizing 768wh, 800w output, 17.2 lbs",
+    description: "EF ECOFLOW Portable Power Station 3600Wh DELTA Pro is the priciest pick in this lineup. Featuring a 3600wh lfp battery capacity, delta pro provides strong electrical storage for home battery backup power supply and outdoor camping. A single delta pro unit packs a 3600w ac output, which can be expanded up to 4500w with x-boost technology.\n\nEF ECOFLOW Portable Power Station Delta 3 Classic is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nThis one is the right call if you are willing to spend the most in this comparison for the fuller feature set that comes with it. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["3600wh lfp battery capacity", "Single delta pro unit packs a 3600w ac output", "X-stream fast charging"],
+    pros: ["3600wh lfp battery capacity", "Single delta pro unit packs a 3600w ac output", "X-stream fast charging", "5 Ways to charge"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who are willing to spend the most in this comparison for the fuller feature set that comes with it",
   },
   {
     id: "best-ecoflow-portable-power-stations-5",
     rank: 5,
-    badge: "Budget Pick",
-    name: "EcoFlow RIVER 3 230, 230Wh, 550W (up to 600W)",
-    price: "$196.00",
+    badge: "Runner-Up Pick",
+    name: "EF ECOFLOW Portable Power Station River 2 Max 500",
+    price: "$329.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31xXsyUVFbL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0CVZQ5RN1?tag=deskfinds0d-20",
+    description: "EF ECOFLOW Portable Power Station River 2 Max 500 is a strong alternative worth comparing directly against the top pick. With an output of up to 1000w, run 11 essential appliances simultaneously without worrying about overloading. Enjoy over 10 years of use with our lifepo4 battery cells.\n\nRiver 2 max 500 power station, ac charging cable, user manual, and 5-year service, a detail worth checking closely before choosing between this and EF ECOFLOW Portable Power Station Delta 3 Classic.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["Lifepo4 long-life battery", "Lightweight & portable", "What's included"],
+    pros: ["Lifepo4 long-life battery", "Lightweight & portable", "What's included"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-ecoflow-portable-power-stations-6",
+    rank: 6,
+    badge: "Worth a Look",
+    name: "EF ECOFLOW Portable Power Station Delta 2",
+    price: "$842.06",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41Z1F2hQsEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0B9XB57XM?tag=deskfinds0d-20",
+    description: "EF ECOFLOW Portable Power Station Delta 2 is a strong alternative worth comparing directly against the top pick. Expandable capacity from 1-3kwh. With up to 500w of solar panel input, delta 2 is a solar generator that can be charged while camping, on an RV trip or off-grid.\n\nAgainst EF ECOFLOW Portable Power Station Delta 3 Classic, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nThis fits best if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["7 X faster charging", "Expandable capacity from 1-3kwh", "Power almost anything"],
+    pros: ["7 X faster charging", "Expandable capacity from 1-3kwh", "Power almost anything", "Up to 500w of solar panel input"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-ecoflow-portable-power-stations-7",
+    rank: 7,
+    badge: "Great Alternative",
+    name: "EF ECOFLOW Solar Generator Delta 3 Classic with 220W Solar Panel",
+    price: "$699.00",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/31k4M4wngWL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FRMQPZF6?tag=deskfinds0d-20",
+    description: "EF ECOFLOW Solar Generator Delta 3 Classic with 220W Solar Panel is a strong alternative worth comparing directly against the top pick. *To ensure prompt arrived, please note that the delta 3 classic solar generator and 220w solar panel will be arrived separately. Recharge in just 5.8 hours with a 220w solar panel.\n\nAgainst EF ECOFLOW Portable Power Station Delta 3 Classic, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nIt's worth picking this one if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Airlines cap carry-on power banks at 100 watt-hours without prior approval, and 160Wh is the hard ceiling even with permission, so check the Wh rating, not just the mAh number, before flying with one.",
+    specs: ["*To ensure prompt arrived", "Fast solar recharging", "High-efficiency solar panel"],
+    pros: ["*To ensure prompt arrived", "Fast solar recharging", "High-efficiency solar panel"],
+    cons: ["Capacity above 100Wh needs airline approval or can't fly at all", "Real-world output is usually lower than the advertised mAh figure"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-ecoflow-portable-power-stations-8",
+    rank: 8,
+    badge: "Also Worth Considering",
+    name: "EF ECOFLOW Portable Power Station RIVER 3 230,230 Wh, 550W Up to 600W",
+    price: "$239.00",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31kWLxC0SYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYV9FNHZ?tag=deskfinds0d-20",
-    description: "X-GaNPower technology specifically doubles runtime for appliances under 100W while keeping noise under 30dB at 1.5 feet, a genuine efficiency and acoustic improvement over standard inverter designs. A single-cable 1-hour full charge via X-Stream tech needs no separate adapter, and 110W solar input recharges in 2.6 hours.\n\nX-Guard technology adds cloud-based battery monitoring with over 40 documented safety measures across current, voltage, temperature, and circuit risks. Under-20ms auto-switching UPS keeps vital appliances running during outages, and at 7.8 lbs with IP54 battery protection, this is documented 30% smaller than the industry average while staying waterproof, fireproof, and drop-resistant.",
-    specs: ["230Wh, 550W (600W X-Boost), 7.8 lbs","GaN tech, <30dB noise, 1hr charge","IP54 rated, 40+ safety measures"],
-    pros: ["GaN tech genuinely doubles runtime for sub-100W appliances","IP54 rating adds real water and drop resistance","7.8 lbs and 30% smaller than average is genuinely portable"],
-    cons: ["230Wh capacity is small for anything beyond light devices","550W rated output limits higher-draw appliance use"],
-    bestFor: "buyers prioritizing 230wh, 550w (600w x-boost), 7.8 lbs",
+    description: "EF ECOFLOW Portable Power Station RIVER 3 230,230 Wh, 550W Up to 600W is a strong alternative worth comparing directly against the top pick. Fast ac charging from 0-100% in 1 hour with x-stream technology. With an upgraded lfp battery, charge and recharge 3000+ times for 10 years of power.\n\nThe gap between this and EF ECOFLOW Portable Power Station Delta 3 Classic isn't in the essentials, it shows up in equipped with 6 outlets, charge 6 devices at once with an ac output of 300w.\n\nThis makes sense for anyone who want a genuine alternative to the top pick with a different tradeoff worth comparing directly. The mAh figure on the box is measured at the battery's internal voltage, not the 5V your phone actually charges at, so the real usable charge is meaningfully lower than the advertised number suggests.",
+    specs: ["Groundbreaking x-ganpower, river 3 230 revolutionizes energy efficiency, delivering", "1 Hour fast charging", "Long-lasting and safe"],
+    pros: ["Groundbreaking x-ganpower, river 3 230 revolutionizes energy efficiency, delivering", "1 Hour fast charging", "Long-lasting and safe", "<20 Ms auto-switching ups"],
+    cons: ["Real-world output is usually lower than the advertised mAh figure", "Capacity above 100Wh needs airline approval or can't fly at all"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   }
 ];
 
 export const howWeEvaluated = [
   {
-    "title": "Rated Wh Verified Against Usable Energy",
-    "description": "Checked documented battery capacity separately from continuous AC output, since a high wattage rating doesn't guarantee enough stored energy to run a device for long."
+    "title": "mAh vs Real Usable Charge",
+    "description": "A power bank's advertised mAh rating is measured at the battery's own internal voltage, not the 5V (or higher) your phone actually charges at, so the real usable charge you get is meaningfully lower than the number on the box suggests, often 60 to 70% of the rated capacity once conversion losses are accounted for."
   },
   {
-    "title": "Continuous Output vs Surge Separated",
-    "description": "Compared continuous inverter rating against surge or boost mode claims, since many listings blend the two into one headline number."
+    "title": "Watt-Hours Determine Airline Legality, Not mAh",
+    "description": "If you're buying a power bank with air travel in mind, the relevant spec is watt-hours, not mAh: the standard rule allows up to 100Wh without airline approval, up to 160Wh with prior permission, and nothing above that on any commercial flight, since power banks must also travel in carry-on luggage, never checked bags."
   },
   {
-    "title": "Charging Speed and Path Documented",
-    "description": "Verified AC, solar, and car charging times from official specs, noting where fastest speeds require specific modes, apps, or additional hardware."
+    "title": "Fast-Charging Wattage vs Your Actual Devices",
+    "description": "A power bank's fast-charging wattage only helps if your specific device can actually accept that charging speed, an 18W-capable phone won't charge any faster from a 65W power bank than it would from an 18W one, so match the power bank's output wattage to your device's actual charging spec rather than assuming a higher number always means faster real-world charging."
   },
   {
-    "title": "Safety and Certification Evidence Checked",
-    "description": "Looked for UL, UL2743, or other documented safety certification and battery chemistry evidence rather than trusting a safety claim alone."
+    "title": "Pass-Through Charging for Desk Setups",
+    "description": "For a power bank you plan to keep plugged in at your desk as backup power rather than carrying around, pass-through charging (charging your device while the power bank itself charges) is the feature that actually matters, not raw capacity."
   },
   {
-    "title": "Real Ownership Costs Included",
-    "description": "Weighed included cables, solar panel bundling, warranty length, and app requirements as part of the real cost and usability of each pick."
+    "title": "Cycle Life and Long-Term Battery Degradation",
+    "description": "Every rechargeable power bank loses capacity over repeated charge cycles, typically retaining 80% of its original capacity after 300 to 500 full cycles for a standard lithium-ion cell, or meaningfully more for a lithium-polymer or LiFePO4 cell in premium models."
   }
 ];
 
@@ -132,71 +180,160 @@ export interface HowToChooseSection {
 
 export const howToChoose: HowToChooseSection[] = [
   {
-    "subheading": "Build a Current Model Map First",
-    "note": "Confirm which ecoflow models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations."
+    "subheading": "By Device You're Charging",
+    "table": {
+      "headers": [
+        "Your device",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Phone, occasional use",
+          "EF ECOFLOW Portable Power Station RIVER 2"
+        ],
+        [
+          "Phone plus tablet, daily use",
+          "EF ECOFLOW Portable Power Station Delta 3 Classic"
+        ],
+        [
+          "Laptop or multiple devices",
+          "EF ECOFLOW Portable Power Station 3600Wh DELTA Pro"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Publish Rated Wh and Continuous W by Model",
-    "note": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general."
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Budget",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Lowest price in this lineup",
+          "EF ECOFLOW Portable Power Station RIVER 2"
+        ],
+        [
+          "Mid-range pick",
+          "EF ECOFLOW Delta 3 Portable Power Station"
+        ],
+        [
+          "Higher budget",
+          "EF ECOFLOW Portable Power Station 3600Wh DELTA Pro"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Verify AC/Solar/Car Charging Input",
-    "note": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically."
+    "subheading": "Capacity vs Portability",
+    "cards": [
+      {
+        "label": "Higher capacity (e.g. EF ECOFLOW Portable Power Station 3600Wh DELTA Pro)",
+        "text": "More charges before a recharge, but heavier and bulkier to carry."
+      },
+      {
+        "label": "Lower capacity (e.g. EF ECOFLOW Portable Power Station RIVER 2)",
+        "text": "Pocket-friendly and light, but needs more frequent recharging."
+      }
+    ],
+    "note": "Match this to whether you're carrying it daily or leaving it in a bag for emergencies."
   },
   {
-    "subheading": "Compare Cycle-Life Claims and Warranty",
-    "note": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model."
+    "subheading": "By Travel Needs",
+    "table": {
+      "headers": [
+        "Your situation",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Flying with it",
+          "Check the watt-hour (Wh) rating stays under 100Wh"
+        ],
+        [
+          "Never flying with it",
+          "EF ECOFLOW Portable Power Station Delta 3 Classic"
+        ]
+      ]
+    }
   },
   {
-    "subheading": "Separate Current Generation From Older Listings",
-    "note": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded."
+    "subheading": "For Laptop Charging Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "USB-PD support at 45W or higher, not just any USB-C port."
+      },
+      {
+        "label": "In this comparison",
+        "text": "EF ECOFLOW Portable Power Station 3600Wh DELTA Pro is worth checking against your specific laptop's wattage requirement before assuming any power bank charges it."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "You need higher capacity, faster charging, and support for a laptop, where EF ECOFLOW Portable Power Station 3600Wh DELTA Pro justifies the extra cost."
+      },
+      {
+        "label": "Save if",
+        "text": "You just need backup charges for a phone, where EF ECOFLOW Portable Power Station RIVER 2 already covers the job at the lowest price here."
+      }
+    ]
   }
 ];
 
 export const buyingCriteria = [
   {
-    "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which ecoflow models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations."
+    "criterion": "mAh vs Real Usable Charge",
+    "explanation": "A power bank's advertised mAh rating is measured at the battery's own internal voltage, not the 5V (or higher) your phone actually charges at, so the real usable charge you get is meaningfully lower than the number on the box suggests, often 60 to 70% of the rated capacity once conversion losses are accounted for. A 20,000mAh power bank realistically delivers something closer to 3 to 4 full phone charges, not the 5-plus a naive mAh-to-phone-battery math would suggest."
   },
   {
-    "criterion": "Publish Rated Wh and Continuous W by Model",
-    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general."
+    "criterion": "Watt-Hours Determine Airline Legality, Not mAh",
+    "explanation": "If you're buying a power bank with air travel in mind, the relevant spec is watt-hours, not mAh: the standard rule allows up to 100Wh without airline approval, up to 160Wh with prior permission, and nothing above that on any commercial flight, since power banks must also travel in carry-on luggage, never checked bags. Convert mAh to Wh (mAh times voltage, divided by 1000) before assuming a high-mAh power bank is automatically flight-legal."
   },
   {
-    "criterion": "Verify AC/Solar/Car Charging Input",
-    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically."
+    "criterion": "Fast-Charging Wattage vs Your Actual Devices",
+    "explanation": "A power bank's fast-charging wattage only helps if your specific device can actually accept that charging speed, an 18W-capable phone won't charge any faster from a 65W power bank than it would from an 18W one, so match the power bank's output wattage to your device's actual charging spec rather than assuming a higher number always means faster real-world charging. For laptop charging specifically, check that the power bank supports USB-PD at a wattage your laptop actually requires (often 45 to 100W), not just any USB-C port."
   },
   {
-    "criterion": "Compare Cycle-Life Claims and Warranty",
-    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model."
+    "criterion": "Pass-Through Charging for Desk Setups",
+    "explanation": "For a power bank you plan to keep plugged in at your desk as backup power rather than carrying around, pass-through charging (charging your device while the power bank itself charges) is the feature that actually matters, not raw capacity. Not all power banks handle this safely due to heat buildup during simultaneous charge and discharge, so check the listing or manual specifically rather than assuming every USB-C power bank supports it."
   },
   {
-    "criterion": "Separate Current Generation From Older Listings",
-    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded."
+    "criterion": "Cycle Life and Long-Term Battery Degradation",
+    "explanation": "Every rechargeable power bank loses capacity over repeated charge cycles, typically retaining 80% of its original capacity after 300 to 500 full cycles for a standard lithium-ion cell, or meaningfully more for a lithium-polymer or LiFePO4 cell in premium models. If you'll be charging the power bank daily, that degradation curve matters more than the day-one capacity spec, since a cheaper cell can noticeably underperform its rated capacity within a year of regular use."
   }
 ];
 
 export const faq = [
   {
-    "q": "Are all ecoflow models currently sold, or does the lineup include discontinued products?",
-    "a": "Check current first-party store pages directly, since older portable power stations often stay heavily indexed in search results long after being succeeded by newer generations."
+    "q": "Why does my power bank charge my phone fewer times than the mAh suggests?",
+    "a": "The mAh rating is measured at the battery's internal voltage, not the voltage your phone charges at, so conversion losses mean you get roughly 60 to 70% of the rated capacity as real usable charge, closer to 3 to 4 phone charges from a 20,000mAh power bank rather than 5-plus."
   },
   {
-    "q": "Does buying ecoflow guarantee the same battery chemistry across every model?",
-    "a": "No. A brand's lineup can span different battery chemistries and generations, so verify the exact model's documented chemistry and cycle-life rather than assuming brand consistency."
+    "q": "Can I bring my power bank on a plane?",
+    "a": "It depends on watt-hours (Wh), not mAh: up to 100Wh is allowed without airline approval, up to 160Wh with prior permission, and nothing above that on any commercial flight; power banks must also go in carry-on luggage, never checked bags."
   },
   {
-    "q": "What's the real difference between watts and watt-hours for a power station?",
-    "a": "Watts (W) measure how much power the station can deliver at once, essentially how many devices it can run simultaneously, while watt-hours (Wh) measure total stored energy, essentially how long it can run those devices. A station with high W but low Wh can power a lot at once but only briefly."
+    "q": "How do I convert power bank mAh to Wh for flying?",
+    "a": "Multiply the mAh by the battery's voltage (commonly 3.7V) and divide by 1000; a 27,000mAh power bank at 3.7V works out to roughly 100Wh, right at the limit allowed without airline approval."
   },
   {
-    "q": "Does a surge or peak wattage rating mean the station can run appliances at that power level?",
-    "a": "No. Surge or peak ratings describe a brief burst the inverter can handle, typically for a compressor or motor startup, not a sustained output level. Always check the continuous or rated wattage figure for what the station can actually run for extended periods."
+    "q": "Does a higher-wattage power bank charge my phone faster?",
+    "a": "Only if your phone supports that charging speed; an 18W-capable phone won't charge any faster from a 65W power bank than an 18W one, so match the power bank's wattage to your specific device's actual charging spec, not just the highest number available."
   },
   {
-    "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
-    "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
+    "q": "What is pass-through charging on a power bank?",
+    "a": "It lets the power bank charge your device while it's simultaneously being charged itself, useful if you're leaving it plugged in at a desk as backup power; not every power bank supports this safely due to heat buildup, so check the listing specifically."
+  },
+  {
+    "q": "How long does a power bank's battery actually last?",
+    "a": "A standard lithium-ion cell typically retains about 80% of its original capacity after 300 to 500 full charge cycles, while premium lithium-polymer or LiFePO4 cells hold up longer, so daily charging habits matter as much as the day-one capacity spec."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-power-banks","title":"Best Power Banks"},{"href":"/guide/best-power-banks-for-laptops","title":"Best Power Banks for Laptops"},{"href":"/guide/best-tsa-approved-airplane-safe-power-banks","title":"Best TSA-Approved Power Banks"}];
