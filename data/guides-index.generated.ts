@@ -3246,6 +3246,7 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-usb-c-portable-ssds": () => import("./guides/best-usb-c-portable-ssds"),
   "best-usb-c-power-banks": () => import("./guides/best-usb-c-power-banks"),
   "best-usb-c-to-2-5gbe-ethernet-adapters": () => import("./guides/best-usb-c-to-2-5gbe-ethernet-adapters"),
+  "best-usb-c-to-2-5gbe-ethernet-adapters-under-30": () => import("./guides/best-usb-c-to-2-5gbe-ethernet-adapters-under-30"),
   "best-usb-c-to-ethernet-adapters": () => import("./guides/best-usb-c-to-ethernet-adapters"),
   "best-usb-c-to-gigabit-ethernet-adapters": () => import("./guides/best-usb-c-to-gigabit-ethernet-adapters"),
   "best-usb-c-vertical-mice": () => import("./guides/best-usb-c-vertical-mice"),
