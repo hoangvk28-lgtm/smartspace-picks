@@ -120,6 +120,13 @@ import { pegboardDeskOrganizationExplainedGuide } from "@/data/guides/pegboard-d
 import { underDeskStorageOptionsExplainedGuide } from "@/data/guides/under-desk-storage-options-explained";
 import { deskDeclutterChecklistGuide } from "@/data/guides/desk-declutter-checklist";
 import { deskCaddyVsPenCupGuide } from "@/data/guides/desk-caddy-vs-pen-cup";
+import { blueLightGlassesExplainedGuide } from "@/data/guides/blue-light-glasses-explained";
+import { twentyTwentyTwentyRuleExplainedGuide } from "@/data/guides/20-20-20-rule-explained";
+import { monitorBrightnessAndEyeStrainGuide } from "@/data/guides/monitor-brightness-and-eye-strain";
+import { screenGlareReductionExplainedGuide } from "@/data/guides/screen-glare-reduction-explained";
+import { monitorDistanceAndHeightForEyeComfortGuide } from "@/data/guides/monitor-distance-and-height-for-eye-comfort";
+import { dryEyesFromScreenUseExplainedGuide } from "@/data/guides/dry-eyes-from-screen-use-explained";
+import { fontSizeAndScalingForEyeComfortGuide } from "@/data/guides/font-size-and-scaling-for-eye-comfort";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68017,4 +68024,11 @@ export const guides: Guide[] = [
   underDeskStorageOptionsExplainedGuide,
   deskDeclutterChecklistGuide,
   deskCaddyVsPenCupGuide,
+  blueLightGlassesExplainedGuide,
+  twentyTwentyTwentyRuleExplainedGuide,
+  monitorBrightnessAndEyeStrainGuide,
+  screenGlareReductionExplainedGuide,
+  monitorDistanceAndHeightForEyeComfortGuide,
+  dryEyesFromScreenUseExplainedGuide,
+  fontSizeAndScalingForEyeComfortGuide,
 ];
