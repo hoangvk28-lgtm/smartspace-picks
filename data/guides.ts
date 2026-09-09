@@ -274,6 +274,13 @@ import { smartDeskTroubleshootingGuide } from "@/data/guides/smart-desk-troubles
 import { smartPlugVsSmartOutletExplainedGuide } from "@/data/guides/smart-plug-vs-smart-outlet-explained";
 import { smartDeskPrivacyConsiderationsGuide } from "@/data/guides/smart-desk-privacy-considerations";
 import { smartLightingScheduleExplainedGuide } from "@/data/guides/smart-lighting-schedule-explained";
+import { filingCabinetVsFileBoxGuide } from "@/data/guides/filing-cabinet-vs-file-box";
+import { fireproofDocumentStorageExplainedGuide } from "@/data/guides/fireproof-document-storage-explained";
+import { documentScanningVsPhysicalStorageGuide } from "@/data/guides/document-scanning-vs-physical-storage";
+import { documentStorageTroubleshootingGuide } from "@/data/guides/document-storage-troubleshooting";
+import { rollingFileCartVsStationaryCabinetGuide } from "@/data/guides/rolling-file-cart-vs-stationary-cabinet";
+import { hangingFolderVsManilaFolderGuide } from "@/data/guides/hanging-folder-vs-manila-folder";
+import { documentRetentionScheduleExplainedGuide } from "@/data/guides/document-retention-schedule-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68325,4 +68332,11 @@ export const guides: Guide[] = [
   smartPlugVsSmartOutletExplainedGuide,
   smartDeskPrivacyConsiderationsGuide,
   smartLightingScheduleExplainedGuide,
+  filingCabinetVsFileBoxGuide,
+  fireproofDocumentStorageExplainedGuide,
+  documentScanningVsPhysicalStorageGuide,
+  documentStorageTroubleshootingGuide,
+  rollingFileCartVsStationaryCabinetGuide,
+  hangingFolderVsManilaFolderGuide,
+  documentRetentionScheduleExplainedGuide,
 ];
