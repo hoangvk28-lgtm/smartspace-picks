@@ -281,6 +281,13 @@ import { documentStorageTroubleshootingGuide } from "@/data/guides/document-stor
 import { rollingFileCartVsStationaryCabinetGuide } from "@/data/guides/rolling-file-cart-vs-stationary-cabinet";
 import { hangingFolderVsManilaFolderGuide } from "@/data/guides/hanging-folder-vs-manila-folder";
 import { documentRetentionScheduleExplainedGuide } from "@/data/guides/document-retention-schedule-explained";
+import { underDeskBikeVsEllipticalGuide } from "@/data/guides/under-desk-bike-vs-elliptical";
+import { deskExerciseEquipmentNoiseExplainedGuide } from "@/data/guides/desk-exercise-equipment-noise-explained";
+import { underDeskBikeDeskHeightCompatibilityGuide } from "@/data/guides/under-desk-bike-desk-height-compatibility";
+import { deskExerciseEquipmentTroubleshootingGuide } from "@/data/guides/desk-exercise-equipment-troubleshooting";
+import { standingDeskTreadmillExplainedGuide } from "@/data/guides/standing-desk-treadmill-explained";
+import { deskExerciseEquipmentDeskMatProtectionGuide } from "@/data/guides/desk-exercise-equipment-desk-mat-protection";
+import { startingDeskExerciseRoutineExplainedGuide } from "@/data/guides/starting-desk-exercise-routine-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68339,4 +68346,11 @@ export const guides: Guide[] = [
   rollingFileCartVsStationaryCabinetGuide,
   hangingFolderVsManilaFolderGuide,
   documentRetentionScheduleExplainedGuide,
+  underDeskBikeVsEllipticalGuide,
+  deskExerciseEquipmentNoiseExplainedGuide,
+  underDeskBikeDeskHeightCompatibilityGuide,
+  deskExerciseEquipmentTroubleshootingGuide,
+  standingDeskTreadmillExplainedGuide,
+  deskExerciseEquipmentDeskMatProtectionGuide,
+  startingDeskExerciseRoutineExplainedGuide,
 ];
