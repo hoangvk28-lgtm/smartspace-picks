@@ -21,6 +21,13 @@ import { howToMeasureDeskForMonitorArmGuide } from "@/data/guides/how-to-measure
 import { deskLampLumensGuideGuide } from "@/data/guides/desk-lamp-lumens-guide";
 import { deskLampKelvinColorTemperatureGuide } from "@/data/guides/desk-lamp-kelvin-color-temperature";
 import { whatSizeDeskDoINeedGuide } from "@/data/guides/what-size-desk-do-i-need";
+import { microphoneArmReachChartGuide } from "@/data/guides/microphone-arm-reach-chart";
+import { audioInterfaceChannelsChartGuide } from "@/data/guides/audio-interface-channels-chart";
+import { xlrVsUsbMicrophoneGuide } from "@/data/guides/xlr-vs-usb-microphone";
+import { dynamicVsCondenserMicrophoneGuide } from "@/data/guides/dynamic-vs-condenser-microphone";
+import { boomArmVsDeskStandMicrophoneGuide } from "@/data/guides/boom-arm-vs-desk-stand-microphone";
+import { polarPatternsExplainedGuide } from "@/data/guides/polar-patterns-explained";
+import { phantomPowerExplainedGuide } from "@/data/guides/phantom-power-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67819,4 +67826,11 @@ export const guides: Guide[] = [
   deskLampLumensGuideGuide,
   deskLampKelvinColorTemperatureGuide,
   whatSizeDeskDoINeedGuide,
+  microphoneArmReachChartGuide,
+  audioInterfaceChannelsChartGuide,
+  xlrVsUsbMicrophoneGuide,
+  dynamicVsCondenserMicrophoneGuide,
+  boomArmVsDeskStandMicrophoneGuide,
+  polarPatternsExplainedGuide,
+  phantomPowerExplainedGuide,
 ];
