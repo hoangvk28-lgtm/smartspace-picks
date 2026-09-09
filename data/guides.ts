@@ -71,6 +71,13 @@ import { usbCPowerDeliveryExplainedGuide } from "@/data/guides/usb-c-power-deliv
 import { thunderboltVsUsbCExplainedGuide } from "@/data/guides/thunderbolt-vs-usb-c-explained";
 import { dockingStationTroubleshootingGuide } from "@/data/guides/docking-station-troubleshooting";
 import { singleCableVsDualCableDockingGuide } from "@/data/guides/single-cable-vs-dual-cable-docking";
+import { webcamResolutionExplainedGuide } from "@/data/guides/webcam-resolution-explained";
+import { webcamLightingExplainedGuide } from "@/data/guides/webcam-lighting-explained";
+import { ringLightVsKeyLightGuide } from "@/data/guides/ring-light-vs-key-light";
+import { webcamFovExplainedGuide } from "@/data/guides/webcam-fov-explained";
+import { webcamMountTypesExplainedGuide } from "@/data/guides/webcam-mount-types-explained";
+import { webcamPrivacyCoverExplainedGuide } from "@/data/guides/webcam-privacy-cover-explained";
+import { webcamTroubleshootingGuide } from "@/data/guides/webcam-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67919,4 +67926,11 @@ export const guides: Guide[] = [
   thunderboltVsUsbCExplainedGuide,
   dockingStationTroubleshootingGuide,
   singleCableVsDualCableDockingGuide,
+  webcamResolutionExplainedGuide,
+  webcamLightingExplainedGuide,
+  ringLightVsKeyLightGuide,
+  webcamFovExplainedGuide,
+  webcamMountTypesExplainedGuide,
+  webcamPrivacyCoverExplainedGuide,
+  webcamTroubleshootingGuide,
 ];
