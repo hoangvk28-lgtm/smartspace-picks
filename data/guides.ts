@@ -85,6 +85,13 @@ import { laptopStandVsLaptopRiserGuide } from "@/data/guides/laptop-stand-vs-lap
 import { laptopSleeveVsHardCaseGuide } from "@/data/guides/laptop-sleeve-vs-hard-case";
 import { laptopPrivacyScreenExplainedGuide } from "@/data/guides/laptop-privacy-screen-explained";
 import { laptopCoolingPadEffectivenessExplainedGuide } from "@/data/guides/laptop-cooling-pad-effectiveness-explained";
+import { mechanicalSwitchTypesExplainedGuide } from "@/data/guides/mechanical-switch-types-explained";
+import { wiredVsWirelessMouseGuide } from "@/data/guides/wired-vs-wireless-mouse";
+import { mouseDpiExplainedGuide } from "@/data/guides/mouse-dpi-explained";
+import { mouseGripStylesExplainedGuide } from "@/data/guides/mouse-grip-styles-explained";
+import { wristRestExplainedGuide } from "@/data/guides/wrist-rest-explained";
+import { mousePadSizeGuideGuide } from "@/data/guides/mouse-pad-size-guide";
+import { keyboardCleaningMaintenanceGuide } from "@/data/guides/keyboard-cleaning-maintenance";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67947,4 +67954,11 @@ export const guides: Guide[] = [
   laptopSleeveVsHardCaseGuide,
   laptopPrivacyScreenExplainedGuide,
   laptopCoolingPadEffectivenessExplainedGuide,
+  mechanicalSwitchTypesExplainedGuide,
+  wiredVsWirelessMouseGuide,
+  mouseDpiExplainedGuide,
+  mouseGripStylesExplainedGuide,
+  wristRestExplainedGuide,
+  mousePadSizeGuideGuide,
+  keyboardCleaningMaintenanceGuide,
 ];
