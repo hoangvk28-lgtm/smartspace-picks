@@ -113,6 +113,13 @@ import { velcroVsZipTiesCableManagementGuide } from "@/data/guides/velcro-vs-zip
 import { cableClipsVsCableRacewayGuide } from "@/data/guides/cable-clips-vs-cable-raceway";
 import { howManyOutletsDoYouNeedDeskSetupGuide } from "@/data/guides/how-many-outlets-do-you-need-desk-setup";
 import { cableManagementTroubleshootingGuide } from "@/data/guides/cable-management-troubleshooting";
+import { deskOrganizerTypesExplainedGuide } from "@/data/guides/desk-organizer-types-explained";
+import { deskDrawerOrganizerVsTrayGuide } from "@/data/guides/desk-drawer-organizer-vs-tray";
+import { monitorStandWithStorageExplainedGuide } from "@/data/guides/monitor-stand-with-storage-explained";
+import { pegboardDeskOrganizationExplainedGuide } from "@/data/guides/pegboard-desk-organization-explained";
+import { underDeskStorageOptionsExplainedGuide } from "@/data/guides/under-desk-storage-options-explained";
+import { deskDeclutterChecklistGuide } from "@/data/guides/desk-declutter-checklist";
+import { deskCaddyVsPenCupGuide } from "@/data/guides/desk-caddy-vs-pen-cup";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68003,4 +68010,11 @@ export const guides: Guide[] = [
   cableClipsVsCableRacewayGuide,
   howManyOutletsDoYouNeedDeskSetupGuide,
   cableManagementTroubleshootingGuide,
+  deskOrganizerTypesExplainedGuide,
+  deskDrawerOrganizerVsTrayGuide,
+  monitorStandWithStorageExplainedGuide,
+  pegboardDeskOrganizationExplainedGuide,
+  underDeskStorageOptionsExplainedGuide,
+  deskDeclutterChecklistGuide,
+  deskCaddyVsPenCupGuide,
 ];
