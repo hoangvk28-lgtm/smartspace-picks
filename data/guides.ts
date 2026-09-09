@@ -225,6 +225,13 @@ import { monitorArmDeskClampVsGrommetGuide } from "@/data/guides/monitor-arm-des
 import { monitorDaisyChainingExplainedGuide } from "@/data/guides/monitor-daisy-chaining-explained";
 import { verticalMonitorOrientationExplainedGuide } from "@/data/guides/vertical-monitor-orientation-explained";
 import { multiMonitorTroubleshootingGuide } from "@/data/guides/multi-monitor-troubleshooting";
+import { balanceBoardVsAntiFatigueMatGuide } from "@/data/guides/balance-board-vs-anti-fatigue-mat";
+import { standingDeskFootrestExplainedGuide } from "@/data/guides/standing-desk-footrest-explained";
+import { standingDeskShoesExplainedGuide } from "@/data/guides/standing-desk-shoes-explained";
+import { sitStandRatioExplainedGuide } from "@/data/guides/sit-stand-ratio-explained";
+import { standingDeskMonitorArmPairingGuide } from "@/data/guides/standing-desk-monitor-arm-pairing";
+import { compressionSocksStandingDeskExplainedGuide } from "@/data/guides/compression-socks-standing-desk-explained";
+import { standingAccessoriesTroubleshootingGuide } from "@/data/guides/standing-accessories-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68227,4 +68234,11 @@ export const guides: Guide[] = [
   monitorDaisyChainingExplainedGuide,
   verticalMonitorOrientationExplainedGuide,
   multiMonitorTroubleshootingGuide,
+  balanceBoardVsAntiFatigueMatGuide,
+  standingDeskFootrestExplainedGuide,
+  standingDeskShoesExplainedGuide,
+  sitStandRatioExplainedGuide,
+  standingDeskMonitorArmPairingGuide,
+  compressionSocksStandingDeskExplainedGuide,
+  standingAccessoriesTroubleshootingGuide,
 ];
