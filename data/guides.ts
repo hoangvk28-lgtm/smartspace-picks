@@ -78,6 +78,13 @@ import { webcamFovExplainedGuide } from "@/data/guides/webcam-fov-explained";
 import { webcamMountTypesExplainedGuide } from "@/data/guides/webcam-mount-types-explained";
 import { webcamPrivacyCoverExplainedGuide } from "@/data/guides/webcam-privacy-cover-explained";
 import { webcamTroubleshootingGuide } from "@/data/guides/webcam-troubleshooting";
+import { laptopStandHeightChartGuide } from "@/data/guides/laptop-stand-height-chart";
+import { laptopStandVsExternalMonitorGuide } from "@/data/guides/laptop-stand-vs-external-monitor";
+import { externalKeyboardMouseWithLaptopStandGuide } from "@/data/guides/external-keyboard-mouse-with-laptop-stand";
+import { laptopStandVsLaptopRiserGuide } from "@/data/guides/laptop-stand-vs-laptop-riser";
+import { laptopSleeveVsHardCaseGuide } from "@/data/guides/laptop-sleeve-vs-hard-case";
+import { laptopPrivacyScreenExplainedGuide } from "@/data/guides/laptop-privacy-screen-explained";
+import { laptopCoolingPadEffectivenessExplainedGuide } from "@/data/guides/laptop-cooling-pad-effectiveness-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67933,4 +67940,11 @@ export const guides: Guide[] = [
   webcamMountTypesExplainedGuide,
   webcamPrivacyCoverExplainedGuide,
   webcamTroubleshootingGuide,
+  laptopStandHeightChartGuide,
+  laptopStandVsExternalMonitorGuide,
+  externalKeyboardMouseWithLaptopStandGuide,
+  laptopStandVsLaptopRiserGuide,
+  laptopSleeveVsHardCaseGuide,
+  laptopPrivacyScreenExplainedGuide,
+  laptopCoolingPadEffectivenessExplainedGuide,
 ];
