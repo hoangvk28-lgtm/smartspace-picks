@@ -106,6 +106,13 @@ import { backupStrategy321RuleExplainedGuide } from "@/data/guides/backup-strate
 import { nasVsExternalDriveExplainedGuide } from "@/data/guides/nas-vs-external-drive-explained";
 import { externalDriveTroubleshootingGuide } from "@/data/guides/external-drive-troubleshooting";
 import { externalDriveCareMaintenanceGuide } from "@/data/guides/external-drive-care-maintenance";
+import { surgeProtectorJouleRatingExplainedGuide } from "@/data/guides/surge-protector-joule-rating-explained";
+import { powerStripVsSurgeProtectorGuide } from "@/data/guides/power-strip-vs-surge-protector";
+import { upsRuntimeExplainedGuide } from "@/data/guides/ups-runtime-explained";
+import { velcroVsZipTiesCableManagementGuide } from "@/data/guides/velcro-vs-zip-ties-cable-management";
+import { cableClipsVsCableRacewayGuide } from "@/data/guides/cable-clips-vs-cable-raceway";
+import { howManyOutletsDoYouNeedDeskSetupGuide } from "@/data/guides/how-many-outlets-do-you-need-desk-setup";
+import { cableManagementTroubleshootingGuide } from "@/data/guides/cable-management-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67989,4 +67996,11 @@ export const guides: Guide[] = [
   nasVsExternalDriveExplainedGuide,
   externalDriveTroubleshootingGuide,
   externalDriveCareMaintenanceGuide,
+  surgeProtectorJouleRatingExplainedGuide,
+  powerStripVsSurgeProtectorGuide,
+  upsRuntimeExplainedGuide,
+  velcroVsZipTiesCableManagementGuide,
+  cableClipsVsCableRacewayGuide,
+  howManyOutletsDoYouNeedDeskSetupGuide,
+  cableManagementTroubleshootingGuide,
 ];
