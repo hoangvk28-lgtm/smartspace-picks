@@ -295,6 +295,17 @@ import { wirelessInterferenceDeskExplainedGuide } from "@/data/guides/wireless-i
 import { wirelessWebcamVsWiredWebcamGuide } from "@/data/guides/wireless-webcam-vs-wired-webcam";
 import { wirelessSetupTroubleshootingGuide } from "@/data/guides/wireless-setup-troubleshooting";
 import { wirelessEarbudsVsHeadsetForWorkGuide } from "@/data/guides/wireless-earbuds-vs-headset-for-work";
+import { deskPlantSelfWateringPotsExplainedGuide } from "@/data/guides/desk-plant-self-watering-pots-explained";
+import { deskCandleSafetyExplainedGuide } from "@/data/guides/desk-candle-safety-explained";
+import { deskRugVsBareFloorExplainedGuide } from "@/data/guides/desk-rug-vs-bare-floor-explained";
+import { deskGlobeVsWallMapDecorGuide } from "@/data/guides/desk-globe-vs-wall-map-decor";
+import { deskPhotoFrameDigitalVsPhysicalGuide } from "@/data/guides/desk-photo-frame-digital-vs-physical";
+import { deskOrganizationSeasonalRefreshGuide } from "@/data/guides/desk-organization-seasonal-refresh";
+import { deskSetupBudgetPlanningExplainedGuide } from "@/data/guides/desk-setup-budget-planning-explained";
+import { deskSetupForTwoPeopleExplainedGuide } from "@/data/guides/desk-setup-for-two-people-explained";
+import { movingDeskSetupNewHomeExplainedGuide } from "@/data/guides/moving-desk-setup-new-home-explained";
+import { deskSetupForSideHustleExplainedGuide } from "@/data/guides/desk-setup-for-side-hustle-explained";
+import { deskSetupLongevityPlanningExplainedGuide } from "@/data/guides/desk-setup-longevity-planning-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68367,4 +68378,15 @@ export const guides: Guide[] = [
   wirelessWebcamVsWiredWebcamGuide,
   wirelessSetupTroubleshootingGuide,
   wirelessEarbudsVsHeadsetForWorkGuide,
+  deskPlantSelfWateringPotsExplainedGuide,
+  deskCandleSafetyExplainedGuide,
+  deskRugVsBareFloorExplainedGuide,
+  deskGlobeVsWallMapDecorGuide,
+  deskPhotoFrameDigitalVsPhysicalGuide,
+  deskOrganizationSeasonalRefreshGuide,
+  deskSetupBudgetPlanningExplainedGuide,
+  deskSetupForTwoPeopleExplainedGuide,
+  movingDeskSetupNewHomeExplainedGuide,
+  deskSetupForSideHustleExplainedGuide,
+  deskSetupLongevityPlanningExplainedGuide,
 ];
