@@ -141,6 +141,13 @@ import { smartDeskLampFeaturesExplainedGuide } from "@/data/guides/smart-desk-la
 import { ledVsHalogenDeskLampGuide } from "@/data/guides/led-vs-halogen-desk-lamp";
 import { deskLampArmReachExplainedGuide } from "@/data/guides/desk-lamp-arm-reach-explained";
 import { deskLampTroubleshootingGuide } from "@/data/guides/desk-lamp-troubleshooting";
+import { whiteboardVsCorkboardGuide } from "@/data/guides/whiteboard-vs-corkboard";
+import { magneticVsNonMagneticWhiteboardGuide } from "@/data/guides/magnetic-vs-non-magnetic-whiteboard";
+import { wallMountedVsDesktopPlannerBoardGuide } from "@/data/guides/wall-mounted-vs-desktop-planner-board";
+import { whiteboardSizeGuideGuide } from "@/data/guides/whiteboard-size-guide";
+import { glassWhiteboardVsMelamineWhiteboardGuide } from "@/data/guides/glass-whiteboard-vs-melamine-whiteboard";
+import { stickyNoteSystemVsDigitalPlannerGuide } from "@/data/guides/sticky-note-system-vs-digital-planner";
+import { planningBoardTroubleshootingGuide } from "@/data/guides/planning-board-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68059,4 +68066,11 @@ export const guides: Guide[] = [
   ledVsHalogenDeskLampGuide,
   deskLampArmReachExplainedGuide,
   deskLampTroubleshootingGuide,
+  whiteboardVsCorkboardGuide,
+  magneticVsNonMagneticWhiteboardGuide,
+  wallMountedVsDesktopPlannerBoardGuide,
+  whiteboardSizeGuideGuide,
+  glassWhiteboardVsMelamineWhiteboardGuide,
+  stickyNoteSystemVsDigitalPlannerGuide,
+  planningBoardTroubleshootingGuide,
 ];
