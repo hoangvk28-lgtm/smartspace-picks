@@ -43,6 +43,13 @@ import { lumbarSupportExplainedGuide } from "@/data/guides/lumbar-support-explai
 import { chairTiltMechanismsExplainedGuide } from "@/data/guides/chair-tilt-mechanisms-explained";
 import { officeChairCasterTypesExplainedGuide } from "@/data/guides/office-chair-caster-types-explained";
 import { officeChairTroubleshootingGuide } from "@/data/guides/office-chair-troubleshooting";
+import { monitorSizeChartGuide } from "@/data/guides/monitor-size-chart";
+import { monitorResolutionExplainedGuide } from "@/data/guides/monitor-resolution-explained";
+import { refreshRateExplainedGuide } from "@/data/guides/refresh-rate-explained";
+import { ipsVsVaVsTnPanelGuide } from "@/data/guides/ips-vs-va-vs-tn-panel";
+import { monitorVesaCompatibilityExplainedGuide } from "@/data/guides/monitor-vesa-compatibility-explained";
+import { curvedVsFlatMonitorGuide } from "@/data/guides/curved-vs-flat-monitor";
+import { monitorTroubleshootingGuide } from "@/data/guides/monitor-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67863,4 +67870,11 @@ export const guides: Guide[] = [
   chairTiltMechanismsExplainedGuide,
   officeChairCasterTypesExplainedGuide,
   officeChairTroubleshootingGuide,
+  monitorSizeChartGuide,
+  monitorResolutionExplainedGuide,
+  refreshRateExplainedGuide,
+  ipsVsVaVsTnPanelGuide,
+  monitorVesaCompatibilityExplainedGuide,
+  curvedVsFlatMonitorGuide,
+  monitorTroubleshootingGuide,
 ];
