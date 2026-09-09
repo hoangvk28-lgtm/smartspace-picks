@@ -239,6 +239,13 @@ import { drawingTabletTroubleshootingGuide } from "@/data/guides/drawing-tablet-
 import { drawingTabletStylusBatteryExplainedGuide } from "@/data/guides/drawing-tablet-stylus-battery-explained";
 import { nibTypesDrawingTabletExplainedGuide } from "@/data/guides/nib-types-drawing-tablet-explained";
 import { drawingTabletDeskSetupErgonomicsGuide } from "@/data/guides/drawing-tablet-desk-setup-ergonomics";
+import { conferenceSpeakerphoneVsHeadsetGuide } from "@/data/guides/conference-speakerphone-vs-headset";
+import { videoCallBackgroundNoiseReductionGuide } from "@/data/guides/video-call-background-noise-reduction";
+import { dualCameraSetupVideoCallsGuide } from "@/data/guides/dual-camera-setup-video-calls";
+import { videoCallEtiquetteTechnicalSetupGuide } from "@/data/guides/video-call-etiquette-technical-setup";
+import { echoCancellationExplainedGuide } from "@/data/guides/echo-cancellation-explained";
+import { screenSharingResolutionExplainedGuide } from "@/data/guides/screen-sharing-resolution-explained";
+import { videoConferencingTroubleshootingGuide } from "@/data/guides/video-conferencing-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68255,4 +68262,11 @@ export const guides: Guide[] = [
   drawingTabletStylusBatteryExplainedGuide,
   nibTypesDrawingTabletExplainedGuide,
   drawingTabletDeskSetupErgonomicsGuide,
+  conferenceSpeakerphoneVsHeadsetGuide,
+  videoCallBackgroundNoiseReductionGuide,
+  dualCameraSetupVideoCallsGuide,
+  videoCallEtiquetteTechnicalSetupGuide,
+  echoCancellationExplainedGuide,
+  screenSharingResolutionExplainedGuide,
+  videoConferencingTroubleshootingGuide,
 ];
