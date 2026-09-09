@@ -28,6 +28,13 @@ import { dynamicVsCondenserMicrophoneGuide } from "@/data/guides/dynamic-vs-cond
 import { boomArmVsDeskStandMicrophoneGuide } from "@/data/guides/boom-arm-vs-desk-stand-microphone";
 import { polarPatternsExplainedGuide } from "@/data/guides/polar-patterns-explained";
 import { phantomPowerExplainedGuide } from "@/data/guides/phantom-power-explained";
+import { openBackVsClosedBackHeadphonesGuide } from "@/data/guides/open-back-vs-closed-back-headphones";
+import { dbSplExplainedGuide } from "@/data/guides/db-spl-explained";
+import { headphoneImpedanceChartGuide } from "@/data/guides/headphone-impedance-chart";
+import { howToMeasureDeskClearanceForBoomArmGuide } from "@/data/guides/how-to-measure-desk-clearance-for-boom-arm";
+import { sampleRateBitDepthExplainedGuide } from "@/data/guides/sample-rate-bit-depth-explained";
+import { studioMonitorsVsRegularSpeakersGuide } from "@/data/guides/studio-monitors-vs-regular-speakers";
+import { latencyExplainedGuide } from "@/data/guides/latency-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67833,4 +67840,11 @@ export const guides: Guide[] = [
   boomArmVsDeskStandMicrophoneGuide,
   polarPatternsExplainedGuide,
   phantomPowerExplainedGuide,
+  openBackVsClosedBackHeadphonesGuide,
+  dbSplExplainedGuide,
+  headphoneImpedanceChartGuide,
+  howToMeasureDeskClearanceForBoomArmGuide,
+  sampleRateBitDepthExplainedGuide,
+  studioMonitorsVsRegularSpeakersGuide,
+  latencyExplainedGuide,
 ];
