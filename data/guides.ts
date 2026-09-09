@@ -197,6 +197,13 @@ import { stickyNoteAdhesiveExplainedGuide } from "@/data/guides/sticky-note-adhe
 import { binderClipVsPaperclipGuide } from "@/data/guides/binder-clip-vs-paperclip";
 import { labelMakerWorthItExplainedGuide } from "@/data/guides/label-maker-worth-it-explained";
 import { officeSuppliesTroubleshootingGuide } from "@/data/guides/office-supplies-troubleshooting";
+import { laptopBackpackVsMessengerBagGuide } from "@/data/guides/laptop-backpack-vs-messenger-bag";
+import { laptopBagCompartmentOrganizationGuide } from "@/data/guides/laptop-bag-compartment-organization";
+import { waterResistantVsWaterproofBagGuide } from "@/data/guides/water-resistant-vs-waterproof-bag";
+import { backpackBackPanelVentilationExplainedGuide } from "@/data/guides/backpack-back-panel-ventilation-explained";
+import { antiTheftBackpackFeaturesExplainedGuide } from "@/data/guides/anti-theft-backpack-features-explained";
+import { laptopBagSizeForScreenSizeGuide } from "@/data/guides/laptop-bag-size-for-screen-size";
+import { workBagTroubleshootingGuide } from "@/data/guides/work-bag-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68171,4 +68178,11 @@ export const guides: Guide[] = [
   binderClipVsPaperclipGuide,
   labelMakerWorthItExplainedGuide,
   officeSuppliesTroubleshootingGuide,
+  laptopBackpackVsMessengerBagGuide,
+  laptopBagCompartmentOrganizationGuide,
+  waterResistantVsWaterproofBagGuide,
+  backpackBackPanelVentilationExplainedGuide,
+  antiTheftBackpackFeaturesExplainedGuide,
+  laptopBagSizeForScreenSizeGuide,
+  workBagTroubleshootingGuide,
 ];
