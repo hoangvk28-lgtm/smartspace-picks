@@ -176,6 +176,13 @@ import { webcamVsDslrForStreamingGuide } from "@/data/guides/webcam-vs-dslr-for-
 import { audioMixerVsAudioInterfaceGuide } from "@/data/guides/audio-mixer-vs-audio-interface";
 import { streamingDeskLayoutExplainedGuide } from "@/data/guides/streaming-desk-layout-explained";
 import { streamingPcVsConsoleCaptureGuide } from "@/data/guides/streaming-pc-vs-console-capture";
+import { dormDeskSizeRestrictionsExplainedGuide } from "@/data/guides/dorm-desk-size-restrictions-explained";
+import { loftBedDeskSetupExplainedGuide } from "@/data/guides/loft-bed-desk-setup-explained";
+import { wallMountedFoldDownDeskExplainedGuide } from "@/data/guides/wall-mounted-fold-down-desk-explained";
+import { cornerDeskVsStraightDeskSmallRoomGuide } from "@/data/guides/corner-desk-vs-straight-desk-small-room";
+import { multiPurposeRoomDeskSetupGuide } from "@/data/guides/multi-purpose-room-desk-setup";
+import { compactDeskAccessoryChecklistGuide } from "@/data/guides/compact-desk-accessory-checklist";
+import { smallSpaceTroubleshootingGuide } from "@/data/guides/small-space-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68129,4 +68136,11 @@ export const guides: Guide[] = [
   audioMixerVsAudioInterfaceGuide,
   streamingDeskLayoutExplainedGuide,
   streamingPcVsConsoleCaptureGuide,
+  dormDeskSizeRestrictionsExplainedGuide,
+  loftBedDeskSetupExplainedGuide,
+  wallMountedFoldDownDeskExplainedGuide,
+  cornerDeskVsStraightDeskSmallRoomGuide,
+  multiPurposeRoomDeskSetupGuide,
+  compactDeskAccessoryChecklistGuide,
+  smallSpaceTroubleshootingGuide,
 ];
