@@ -267,6 +267,13 @@ import { ergonomicAccessoriesTroubleshootingGuide } from "@/data/guides/ergonomi
 import { verticalMouseExplainedGuide } from "@/data/guides/vertical-mouse-explained";
 import { splitKeyboardExplainedGuide } from "@/data/guides/split-keyboard-explained";
 import { ergonomicAssessmentChecklistGuide } from "@/data/guides/ergonomic-assessment-checklist";
+import { smartPlugDeskSetupExplainedGuide } from "@/data/guides/smart-plug-desk-setup-explained";
+import { voiceAssistantDeskIntegrationGuide } from "@/data/guides/voice-assistant-desk-integration";
+import { smartDeskHeightMemoryExplainedGuide } from "@/data/guides/smart-desk-height-memory-explained";
+import { smartDeskTroubleshootingGuide } from "@/data/guides/smart-desk-troubleshooting";
+import { smartPlugVsSmartOutletExplainedGuide } from "@/data/guides/smart-plug-vs-smart-outlet-explained";
+import { smartDeskPrivacyConsiderationsGuide } from "@/data/guides/smart-desk-privacy-considerations";
+import { smartLightingScheduleExplainedGuide } from "@/data/guides/smart-lighting-schedule-explained";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68311,4 +68318,11 @@ export const guides: Guide[] = [
   verticalMouseExplainedGuide,
   splitKeyboardExplainedGuide,
   ergonomicAssessmentChecklistGuide,
+  smartPlugDeskSetupExplainedGuide,
+  voiceAssistantDeskIntegrationGuide,
+  smartDeskHeightMemoryExplainedGuide,
+  smartDeskTroubleshootingGuide,
+  smartPlugVsSmartOutletExplainedGuide,
+  smartDeskPrivacyConsiderationsGuide,
+  smartLightingScheduleExplainedGuide,
 ];
