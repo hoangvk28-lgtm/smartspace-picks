@@ -3271,6 +3271,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-usb4-das-storage": () => import("./guides/best-usb4-das-storage"),
   "best-usb4-egpu-enclosures": () => import("./guides/best-usb4-egpu-enclosures"),
   "best-usb4-nvme-enclosures": () => import("./guides/best-usb4-nvme-enclosures"),
+  "best-usb4-nvme-enclosures-under-100": () => import("./guides/best-usb4-nvme-enclosures-under-100"),
+  "best-usb4-nvme-enclosures-under-150": () => import("./guides/best-usb4-nvme-enclosures-under-150"),
   "best-usb4-portable-ssds": () => import("./guides/best-usb4-portable-ssds"),
   "best-utility-carts": () => import("./guides/best-utility-carts"),
   "best-uv-laser-engravers": () => import("./guides/best-uv-laser-engravers"),
