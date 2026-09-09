@@ -35,6 +35,14 @@ import { howToMeasureDeskClearanceForBoomArmGuide } from "@/data/guides/how-to-m
 import { sampleRateBitDepthExplainedGuide } from "@/data/guides/sample-rate-bit-depth-explained";
 import { studioMonitorsVsRegularSpeakersGuide } from "@/data/guides/studio-monitors-vs-regular-speakers";
 import { latencyExplainedGuide } from "@/data/guides/latency-explained";
+import { officeChairSizeChartGuide } from "@/data/guides/office-chair-size-chart";
+import { meshVsFabricOfficeChairGuide } from "@/data/guides/mesh-vs-fabric-office-chair";
+import { officeChairWeightCapacityExplainedGuide } from "@/data/guides/office-chair-weight-capacity-explained";
+import { howToMeasureOfficeChairFitGuide } from "@/data/guides/how-to-measure-office-chair-fit";
+import { lumbarSupportExplainedGuide } from "@/data/guides/lumbar-support-explained";
+import { chairTiltMechanismsExplainedGuide } from "@/data/guides/chair-tilt-mechanisms-explained";
+import { officeChairCasterTypesExplainedGuide } from "@/data/guides/office-chair-caster-types-explained";
+import { officeChairTroubleshootingGuide } from "@/data/guides/office-chair-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67847,4 +67855,12 @@ export const guides: Guide[] = [
   sampleRateBitDepthExplainedGuide,
   studioMonitorsVsRegularSpeakersGuide,
   latencyExplainedGuide,
+  officeChairSizeChartGuide,
+  meshVsFabricOfficeChairGuide,
+  officeChairWeightCapacityExplainedGuide,
+  howToMeasureOfficeChairFitGuide,
+  lumbarSupportExplainedGuide,
+  chairTiltMechanismsExplainedGuide,
+  officeChairCasterTypesExplainedGuide,
+  officeChairTroubleshootingGuide,
 ];
