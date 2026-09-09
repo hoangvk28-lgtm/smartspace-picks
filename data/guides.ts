@@ -15,6 +15,12 @@ import { grommetMountVsClampMountGuide } from "@/data/guides/grommet-mount-vs-cl
 import { cClampVsBoltThroughMountGuide } from "@/data/guides/c-clamp-vs-bolt-through-mount";
 import { vesaMountPatternExplainedGuide } from "@/data/guides/vesa-mount-pattern-explained";
 import { gasSpringVsFrictionArmMonitorMountGuide } from "@/data/guides/gas-spring-vs-friction-arm-monitor-mount";
+import { cableManagementTypesExplainedGuide } from "@/data/guides/cable-management-types-explained";
+import { monitorArmWeightCapacityChartGuide } from "@/data/guides/monitor-arm-weight-capacity-chart";
+import { howToMeasureDeskForMonitorArmGuide } from "@/data/guides/how-to-measure-desk-for-monitor-arm";
+import { deskLampLumensGuideGuide } from "@/data/guides/desk-lamp-lumens-guide";
+import { deskLampKelvinColorTemperatureGuide } from "@/data/guides/desk-lamp-kelvin-color-temperature";
+import { whatSizeDeskDoINeedGuide } from "@/data/guides/what-size-desk-do-i-need";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67807,4 +67813,10 @@ export const guides: Guide[] = [
   cClampVsBoltThroughMountGuide,
   vesaMountPatternExplainedGuide,
   gasSpringVsFrictionArmMonitorMountGuide,
+  cableManagementTypesExplainedGuide,
+  monitorArmWeightCapacityChartGuide,
+  howToMeasureDeskForMonitorArmGuide,
+  deskLampLumensGuideGuide,
+  deskLampKelvinColorTemperatureGuide,
+  whatSizeDeskDoINeedGuide,
 ];
