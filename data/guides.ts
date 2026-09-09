@@ -99,6 +99,13 @@ import { antiFatigueMatExplainedGuide } from "@/data/guides/anti-fatigue-mat-exp
 import { singleMotorVsDualMotorStandingDeskGuide } from "@/data/guides/single-motor-vs-dual-motor-standing-desk";
 import { standingDeskCableManagementGuide } from "@/data/guides/standing-desk-cable-management";
 import { standingDeskTroubleshootingGuide } from "@/data/guides/standing-desk-troubleshooting";
+import { externalSsdVsHddGuide } from "@/data/guides/external-ssd-vs-hdd";
+import { usb4NvmeEnclosureExplainedGuide } from "@/data/guides/usb4-nvme-enclosure-explained";
+import { externalDriveStorageSizeChartGuide } from "@/data/guides/external-drive-storage-size-chart";
+import { backupStrategy321RuleExplainedGuide } from "@/data/guides/backup-strategy-3-2-1-rule-explained";
+import { nasVsExternalDriveExplainedGuide } from "@/data/guides/nas-vs-external-drive-explained";
+import { externalDriveTroubleshootingGuide } from "@/data/guides/external-drive-troubleshooting";
+import { externalDriveCareMaintenanceGuide } from "@/data/guides/external-drive-care-maintenance";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67975,4 +67982,11 @@ export const guides: Guide[] = [
   singleMotorVsDualMotorStandingDeskGuide,
   standingDeskCableManagementGuide,
   standingDeskTroubleshootingGuide,
+  externalSsdVsHddGuide,
+  usb4NvmeEnclosureExplainedGuide,
+  externalDriveStorageSizeChartGuide,
+  backupStrategy321RuleExplainedGuide,
+  nasVsExternalDriveExplainedGuide,
+  externalDriveTroubleshootingGuide,
+  externalDriveCareMaintenanceGuide,
 ];
