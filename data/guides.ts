@@ -148,6 +148,13 @@ import { whiteboardSizeGuideGuide } from "@/data/guides/whiteboard-size-guide";
 import { glassWhiteboardVsMelamineWhiteboardGuide } from "@/data/guides/glass-whiteboard-vs-melamine-whiteboard";
 import { stickyNoteSystemVsDigitalPlannerGuide } from "@/data/guides/sticky-note-system-vs-digital-planner";
 import { planningBoardTroubleshootingGuide } from "@/data/guides/planning-board-troubleshooting";
+import { floatingShelfVsBookcaseGuide } from "@/data/guides/floating-shelf-vs-bookcase";
+import { shelfWeightCapacityExplainedGuide } from "@/data/guides/shelf-weight-capacity-explained";
+import { openShelvingVsClosedCabinetGuide } from "@/data/guides/open-shelving-vs-closed-cabinet";
+import { wallShelfInstallationExplainedGuide } from "@/data/guides/wall-shelf-installation-explained";
+import { ladderShelfVsCornerShelfGuide } from "@/data/guides/ladder-shelf-vs-corner-shelf";
+import { adjustableVsFixedShelvingGuide } from "@/data/guides/adjustable-vs-fixed-shelving";
+import { shelvingTroubleshootingGuide } from "@/data/guides/shelving-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68073,4 +68080,11 @@ export const guides: Guide[] = [
   glassWhiteboardVsMelamineWhiteboardGuide,
   stickyNoteSystemVsDigitalPlannerGuide,
   planningBoardTroubleshootingGuide,
+  floatingShelfVsBookcaseGuide,
+  shelfWeightCapacityExplainedGuide,
+  openShelvingVsClosedCabinetGuide,
+  wallShelfInstallationExplainedGuide,
+  ladderShelfVsCornerShelfGuide,
+  adjustableVsFixedShelvingGuide,
+  shelvingTroubleshootingGuide,
 ];
