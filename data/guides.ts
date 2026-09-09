@@ -169,6 +169,13 @@ import { vpnForRemoteWorkExplainedGuide } from "@/data/guides/vpn-for-remote-wor
 import { routerPlacementExplainedGuide } from "@/data/guides/router-placement-explained";
 import { bandwidthNeedsForRemoteWorkGuide } from "@/data/guides/bandwidth-needs-for-remote-work";
 import { homeNetworkTroubleshootingGuide } from "@/data/guides/home-network-troubleshooting";
+import { greenScreenVsVirtualBackgroundGuide } from "@/data/guides/green-screen-vs-virtual-background";
+import { streamingBackdropLightingExplainedGuide } from "@/data/guides/streaming-backdrop-lighting-explained";
+import { collapsibleVsFixedBackdropGuide } from "@/data/guides/collapsible-vs-fixed-backdrop";
+import { webcamVsDslrForStreamingGuide } from "@/data/guides/webcam-vs-dslr-for-streaming";
+import { audioMixerVsAudioInterfaceGuide } from "@/data/guides/audio-mixer-vs-audio-interface";
+import { streamingDeskLayoutExplainedGuide } from "@/data/guides/streaming-desk-layout-explained";
+import { streamingPcVsConsoleCaptureGuide } from "@/data/guides/streaming-pc-vs-console-capture";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68115,4 +68122,11 @@ export const guides: Guide[] = [
   routerPlacementExplainedGuide,
   bandwidthNeedsForRemoteWorkGuide,
   homeNetworkTroubleshootingGuide,
+  greenScreenVsVirtualBackgroundGuide,
+  streamingBackdropLightingExplainedGuide,
+  collapsibleVsFixedBackdropGuide,
+  webcamVsDslrForStreamingGuide,
+  audioMixerVsAudioInterfaceGuide,
+  streamingDeskLayoutExplainedGuide,
+  streamingPcVsConsoleCaptureGuide,
 ];
