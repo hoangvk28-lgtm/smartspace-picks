@@ -134,6 +134,13 @@ import { chairMatVsCasterUpgradeGuide } from "@/data/guides/chair-mat-vs-caster-
 import { chairMatMaterialComparisonGuide } from "@/data/guides/chair-mat-material-comparison";
 import { deskMatVsChairMatExplainedGuide } from "@/data/guides/desk-mat-vs-chair-mat-explained";
 import { chairMatTroubleshootingGuide } from "@/data/guides/chair-mat-troubleshooting";
+import { taskLightingVsAmbientLightingGuide } from "@/data/guides/task-lighting-vs-ambient-lighting";
+import { dimmableVsFixedBrightnessDeskLampGuide } from "@/data/guides/dimmable-vs-fixed-brightness-desk-lamp";
+import { clampLampVsBaseLampGuide } from "@/data/guides/clamp-lamp-vs-base-lamp";
+import { smartDeskLampFeaturesExplainedGuide } from "@/data/guides/smart-desk-lamp-features-explained";
+import { ledVsHalogenDeskLampGuide } from "@/data/guides/led-vs-halogen-desk-lamp";
+import { deskLampArmReachExplainedGuide } from "@/data/guides/desk-lamp-arm-reach-explained";
+import { deskLampTroubleshootingGuide } from "@/data/guides/desk-lamp-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68045,4 +68052,11 @@ export const guides: Guide[] = [
   chairMatMaterialComparisonGuide,
   deskMatVsChairMatExplainedGuide,
   chairMatTroubleshootingGuide,
+  taskLightingVsAmbientLightingGuide,
+  dimmableVsFixedBrightnessDeskLampGuide,
+  clampLampVsBaseLampGuide,
+  smartDeskLampFeaturesExplainedGuide,
+  ledVsHalogenDeskLampGuide,
+  deskLampArmReachExplainedGuide,
+  deskLampTroubleshootingGuide,
 ];
