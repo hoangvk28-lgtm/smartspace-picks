@@ -260,6 +260,13 @@ import { portableMonitorTroubleshootingGuide } from "@/data/guides/portable-moni
 import { portableMonitorBrightnessOutdoorUseGuide } from "@/data/guides/portable-monitor-brightness-outdoor-use";
 import { portableMonitorCaseProtectionGuide } from "@/data/guides/portable-monitor-case-protection";
 import { portableMonitorMultiDeviceCompatibilityGuide } from "@/data/guides/portable-monitor-multi-device-compatibility";
+import { officeFootrestTypesExplainedGuide } from "@/data/guides/office-footrest-types-explained";
+import { palmRestLaptopTypingExplainedGuide } from "@/data/guides/palm-rest-laptop-typing-explained";
+import { seatCushionVsLumbarPillowGuide } from "@/data/guides/seat-cushion-vs-lumbar-pillow";
+import { ergonomicAccessoriesTroubleshootingGuide } from "@/data/guides/ergonomic-accessories-troubleshooting";
+import { verticalMouseExplainedGuide } from "@/data/guides/vertical-mouse-explained";
+import { splitKeyboardExplainedGuide } from "@/data/guides/split-keyboard-explained";
+import { ergonomicAssessmentChecklistGuide } from "@/data/guides/ergonomic-assessment-checklist";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68297,4 +68304,11 @@ export const guides: Guide[] = [
   portableMonitorBrightnessOutdoorUseGuide,
   portableMonitorCaseProtectionGuide,
   portableMonitorMultiDeviceCompatibilityGuide,
+  officeFootrestTypesExplainedGuide,
+  palmRestLaptopTypingExplainedGuide,
+  seatCushionVsLumbarPillowGuide,
+  ergonomicAccessoriesTroubleshootingGuide,
+  verticalMouseExplainedGuide,
+  splitKeyboardExplainedGuide,
+  ergonomicAssessmentChecklistGuide,
 ];
