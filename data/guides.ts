@@ -288,6 +288,13 @@ import { deskExerciseEquipmentTroubleshootingGuide } from "@/data/guides/desk-ex
 import { standingDeskTreadmillExplainedGuide } from "@/data/guides/standing-desk-treadmill-explained";
 import { deskExerciseEquipmentDeskMatProtectionGuide } from "@/data/guides/desk-exercise-equipment-desk-mat-protection";
 import { startingDeskExerciseRoutineExplainedGuide } from "@/data/guides/starting-desk-exercise-routine-explained";
+import { fullyWirelessDeskSetupExplainedGuide } from "@/data/guides/fully-wireless-desk-setup-explained";
+import { wirelessPeripheralBatteryManagementGuide } from "@/data/guides/wireless-peripheral-battery-management";
+import { bluetoothVsUsbDongleExplainedGuide } from "@/data/guides/bluetooth-vs-usb-dongle-explained";
+import { wirelessInterferenceDeskExplainedGuide } from "@/data/guides/wireless-interference-desk-explained";
+import { wirelessWebcamVsWiredWebcamGuide } from "@/data/guides/wireless-webcam-vs-wired-webcam";
+import { wirelessSetupTroubleshootingGuide } from "@/data/guides/wireless-setup-troubleshooting";
+import { wirelessEarbudsVsHeadsetForWorkGuide } from "@/data/guides/wireless-earbuds-vs-headset-for-work";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68353,4 +68360,11 @@ export const guides: Guide[] = [
   standingDeskTreadmillExplainedGuide,
   deskExerciseEquipmentDeskMatProtectionGuide,
   startingDeskExerciseRoutineExplainedGuide,
+  fullyWirelessDeskSetupExplainedGuide,
+  wirelessPeripheralBatteryManagementGuide,
+  bluetoothVsUsbDongleExplainedGuide,
+  wirelessInterferenceDeskExplainedGuide,
+  wirelessWebcamVsWiredWebcamGuide,
+  wirelessSetupTroubleshootingGuide,
+  wirelessEarbudsVsHeadsetForWorkGuide,
 ];
