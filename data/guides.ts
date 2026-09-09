@@ -162,6 +162,13 @@ import { magsafeVsStandardPhoneMountGuide } from "@/data/guides/magsafe-vs-stand
 import { phoneStandAngleExplainedGuide } from "@/data/guides/phone-stand-angle-explained";
 import { deviceStandMaterialComparisonGuide } from "@/data/guides/device-stand-material-comparison";
 import { deviceStandTroubleshootingGuide } from "@/data/guides/device-stand-troubleshooting";
+import { wifi6VsWifi5ExplainedGuide } from "@/data/guides/wifi-6-vs-wifi-5-explained";
+import { meshWifiVsSingleRouterGuide } from "@/data/guides/mesh-wifi-vs-single-router";
+import { ethernetVsWifiForDeskSetupGuide } from "@/data/guides/ethernet-vs-wifi-for-desk-setup";
+import { vpnForRemoteWorkExplainedGuide } from "@/data/guides/vpn-for-remote-work-explained";
+import { routerPlacementExplainedGuide } from "@/data/guides/router-placement-explained";
+import { bandwidthNeedsForRemoteWorkGuide } from "@/data/guides/bandwidth-needs-for-remote-work";
+import { homeNetworkTroubleshootingGuide } from "@/data/guides/home-network-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68101,4 +68108,11 @@ export const guides: Guide[] = [
   phoneStandAngleExplainedGuide,
   deviceStandMaterialComparisonGuide,
   deviceStandTroubleshootingGuide,
+  wifi6VsWifi5ExplainedGuide,
+  meshWifiVsSingleRouterGuide,
+  ethernetVsWifiForDeskSetupGuide,
+  vpnForRemoteWorkExplainedGuide,
+  routerPlacementExplainedGuide,
+  bandwidthNeedsForRemoteWorkGuide,
+  homeNetworkTroubleshootingGuide,
 ];
