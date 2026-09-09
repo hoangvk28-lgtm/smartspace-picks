@@ -253,6 +253,13 @@ import { personalComfortTroubleshootingGuide } from "@/data/guides/personal-comf
 import { deskHumidifierVsDiffuserGuide } from "@/data/guides/desk-humidifier-vs-diffuser";
 import { deskCoolingPadForPeopleExplainedGuide } from "@/data/guides/desk-cooling-pad-for-people-explained";
 import { deskTemperatureZoneManagementGuide } from "@/data/guides/desk-temperature-zone-management";
+import { portableMonitorVsLaptopScreenExtenderGuide } from "@/data/guides/portable-monitor-vs-laptop-screen-extender";
+import { portableMonitorPowerRequirementsGuide } from "@/data/guides/portable-monitor-power-requirements";
+import { portableMonitorStandOptionsGuide } from "@/data/guides/portable-monitor-stand-options";
+import { portableMonitorTroubleshootingGuide } from "@/data/guides/portable-monitor-troubleshooting";
+import { portableMonitorBrightnessOutdoorUseGuide } from "@/data/guides/portable-monitor-brightness-outdoor-use";
+import { portableMonitorCaseProtectionGuide } from "@/data/guides/portable-monitor-case-protection";
+import { portableMonitorMultiDeviceCompatibilityGuide } from "@/data/guides/portable-monitor-multi-device-compatibility";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68283,4 +68290,11 @@ export const guides: Guide[] = [
   deskHumidifierVsDiffuserGuide,
   deskCoolingPadForPeopleExplainedGuide,
   deskTemperatureZoneManagementGuide,
+  portableMonitorVsLaptopScreenExtenderGuide,
+  portableMonitorPowerRequirementsGuide,
+  portableMonitorStandOptionsGuide,
+  portableMonitorTroubleshootingGuide,
+  portableMonitorBrightnessOutdoorUseGuide,
+  portableMonitorCaseProtectionGuide,
+  portableMonitorMultiDeviceCompatibilityGuide,
 ];
