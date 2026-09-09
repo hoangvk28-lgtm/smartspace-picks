@@ -155,6 +155,13 @@ import { wallShelfInstallationExplainedGuide } from "@/data/guides/wall-shelf-in
 import { ladderShelfVsCornerShelfGuide } from "@/data/guides/ladder-shelf-vs-corner-shelf";
 import { adjustableVsFixedShelvingGuide } from "@/data/guides/adjustable-vs-fixed-shelving";
 import { shelvingTroubleshootingGuide } from "@/data/guides/shelving-troubleshooting";
+import { tabletStandVsPhoneStandGuide } from "@/data/guides/tablet-stand-vs-phone-stand";
+import { wirelessChargingStandExplainedGuide } from "@/data/guides/wireless-charging-stand-explained";
+import { adjustableTabletArmExplainedGuide } from "@/data/guides/adjustable-tablet-arm-explained";
+import { magsafeVsStandardPhoneMountGuide } from "@/data/guides/magsafe-vs-standard-phone-mount";
+import { phoneStandAngleExplainedGuide } from "@/data/guides/phone-stand-angle-explained";
+import { deviceStandMaterialComparisonGuide } from "@/data/guides/device-stand-material-comparison";
+import { deviceStandTroubleshootingGuide } from "@/data/guides/device-stand-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68087,4 +68094,11 @@ export const guides: Guide[] = [
   ladderShelfVsCornerShelfGuide,
   adjustableVsFixedShelvingGuide,
   shelvingTroubleshootingGuide,
+  tabletStandVsPhoneStandGuide,
+  wirelessChargingStandExplainedGuide,
+  adjustableTabletArmExplainedGuide,
+  magsafeVsStandardPhoneMountGuide,
+  phoneStandAngleExplainedGuide,
+  deviceStandMaterialComparisonGuide,
+  deviceStandTroubleshootingGuide,
 ];
