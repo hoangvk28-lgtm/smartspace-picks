@@ -64,6 +64,13 @@ import { wifiVsUsbPrinterGuide } from "@/data/guides/wifi-vs-usb-printer";
 import { printerTroubleshootingGuide } from "@/data/guides/printer-troubleshooting";
 import { printerCareMaintenanceGuide } from "@/data/guides/printer-care-maintenance";
 import { allInOneVsStandalonePrinterGuide } from "@/data/guides/all-in-one-vs-standalone-printer";
+import { usbCDockingStationPortsChartGuide } from "@/data/guides/usb-c-docking-station-ports-chart";
+import { dockingStationVsUsbHubGuide } from "@/data/guides/docking-station-vs-usb-hub";
+import { kvmSwitchExplainedGuide } from "@/data/guides/kvm-switch-explained";
+import { usbCPowerDeliveryExplainedGuide } from "@/data/guides/usb-c-power-delivery-explained";
+import { thunderboltVsUsbCExplainedGuide } from "@/data/guides/thunderbolt-vs-usb-c-explained";
+import { dockingStationTroubleshootingGuide } from "@/data/guides/docking-station-troubleshooting";
+import { singleCableVsDualCableDockingGuide } from "@/data/guides/single-cable-vs-dual-cable-docking";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67905,4 +67912,11 @@ export const guides: Guide[] = [
   printerTroubleshootingGuide,
   printerCareMaintenanceGuide,
   allInOneVsStandalonePrinterGuide,
+  usbCDockingStationPortsChartGuide,
+  dockingStationVsUsbHubGuide,
+  kvmSwitchExplainedGuide,
+  usbCPowerDeliveryExplainedGuide,
+  thunderboltVsUsbCExplainedGuide,
+  dockingStationTroubleshootingGuide,
+  singleCableVsDualCableDockingGuide,
 ];
