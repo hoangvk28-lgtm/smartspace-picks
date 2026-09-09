@@ -232,6 +232,13 @@ import { sitStandRatioExplainedGuide } from "@/data/guides/sit-stand-ratio-expla
 import { standingDeskMonitorArmPairingGuide } from "@/data/guides/standing-desk-monitor-arm-pairing";
 import { compressionSocksStandingDeskExplainedGuide } from "@/data/guides/compression-socks-standing-desk-explained";
 import { standingAccessoriesTroubleshootingGuide } from "@/data/guides/standing-accessories-troubleshooting";
+import { drawingTabletVsDisplayTabletGuide } from "@/data/guides/drawing-tablet-vs-display-tablet";
+import { drawingTabletPressureSensitivityExplainedGuide } from "@/data/guides/drawing-tablet-pressure-sensitivity-explained";
+import { drawingTabletSizeGuideGuide } from "@/data/guides/drawing-tablet-size-guide";
+import { drawingTabletTroubleshootingGuide } from "@/data/guides/drawing-tablet-troubleshooting";
+import { drawingTabletStylusBatteryExplainedGuide } from "@/data/guides/drawing-tablet-stylus-battery-explained";
+import { nibTypesDrawingTabletExplainedGuide } from "@/data/guides/nib-types-drawing-tablet-explained";
+import { drawingTabletDeskSetupErgonomicsGuide } from "@/data/guides/drawing-tablet-desk-setup-ergonomics";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68241,4 +68248,11 @@ export const guides: Guide[] = [
   standingDeskMonitorArmPairingGuide,
   compressionSocksStandingDeskExplainedGuide,
   standingAccessoriesTroubleshootingGuide,
+  drawingTabletVsDisplayTabletGuide,
+  drawingTabletPressureSensitivityExplainedGuide,
+  drawingTabletSizeGuideGuide,
+  drawingTabletTroubleshootingGuide,
+  drawingTabletStylusBatteryExplainedGuide,
+  nibTypesDrawingTabletExplainedGuide,
+  drawingTabletDeskSetupErgonomicsGuide,
 ];
