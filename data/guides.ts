@@ -183,6 +183,13 @@ import { cornerDeskVsStraightDeskSmallRoomGuide } from "@/data/guides/corner-des
 import { multiPurposeRoomDeskSetupGuide } from "@/data/guides/multi-purpose-room-desk-setup";
 import { compactDeskAccessoryChecklistGuide } from "@/data/guides/compact-desk-accessory-checklist";
 import { smallSpaceTroubleshootingGuide } from "@/data/guides/small-space-troubleshooting";
+import { gamingDeskVsOfficeDeskGuide } from "@/data/guides/gaming-desk-vs-office-desk";
+import { rgbLightingDeskSetupExplainedGuide } from "@/data/guides/rgb-lighting-desk-setup-explained";
+import { gamingChairVsErgonomicChairRevisitedGuide } from "@/data/guides/gaming-chair-vs-ergonomic-chair-revisited";
+import { pcTowerPlacementDeskSetupGuide } from "@/data/guides/pc-tower-placement-desk-setup";
+import { controllerStorageDeskSetupGuide } from "@/data/guides/controller-storage-desk-setup";
+import { deskFanVsAcForGamingSetupGuide } from "@/data/guides/desk-fan-vs-ac-for-gaming-setup";
+import { gamingDeskTroubleshootingGuide } from "@/data/guides/gaming-desk-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68143,4 +68150,11 @@ export const guides: Guide[] = [
   multiPurposeRoomDeskSetupGuide,
   compactDeskAccessoryChecklistGuide,
   smallSpaceTroubleshootingGuide,
+  gamingDeskVsOfficeDeskGuide,
+  rgbLightingDeskSetupExplainedGuide,
+  gamingChairVsErgonomicChairRevisitedGuide,
+  pcTowerPlacementDeskSetupGuide,
+  controllerStorageDeskSetupGuide,
+  deskFanVsAcForGamingSetupGuide,
+  gamingDeskTroubleshootingGuide,
 ];
