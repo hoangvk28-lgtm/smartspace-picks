@@ -190,6 +190,13 @@ import { pcTowerPlacementDeskSetupGuide } from "@/data/guides/pc-tower-placement
 import { controllerStorageDeskSetupGuide } from "@/data/guides/controller-storage-desk-setup";
 import { deskFanVsAcForGamingSetupGuide } from "@/data/guides/desk-fan-vs-ac-for-gaming-setup";
 import { gamingDeskTroubleshootingGuide } from "@/data/guides/gaming-desk-troubleshooting";
+import { gelVsBallpointPenExplainedGuide } from "@/data/guides/gel-vs-ballpoint-pen-explained";
+import { paperShredderSecurityLevelsExplainedGuide } from "@/data/guides/paper-shredder-security-levels-explained";
+import { staplerTypesExplainedGuide } from "@/data/guides/stapler-types-explained";
+import { stickyNoteAdhesiveExplainedGuide } from "@/data/guides/sticky-note-adhesive-explained";
+import { binderClipVsPaperclipGuide } from "@/data/guides/binder-clip-vs-paperclip";
+import { labelMakerWorthItExplainedGuide } from "@/data/guides/label-maker-worth-it-explained";
+import { officeSuppliesTroubleshootingGuide } from "@/data/guides/office-supplies-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68157,4 +68164,11 @@ export const guides: Guide[] = [
   controllerStorageDeskSetupGuide,
   deskFanVsAcForGamingSetupGuide,
   gamingDeskTroubleshootingGuide,
+  gelVsBallpointPenExplainedGuide,
+  paperShredderSecurityLevelsExplainedGuide,
+  staplerTypesExplainedGuide,
+  stickyNoteAdhesiveExplainedGuide,
+  binderClipVsPaperclipGuide,
+  labelMakerWorthItExplainedGuide,
+  officeSuppliesTroubleshootingGuide,
 ];
