@@ -218,6 +218,13 @@ import { deskAccentColorExplainedGuide } from "@/data/guides/desk-accent-color-e
 import { framedVsFramelessDeskArtGuide } from "@/data/guides/framed-vs-frameless-desk-art";
 import { deskPlantPotDrainageExplainedGuide } from "@/data/guides/desk-plant-pot-drainage-explained";
 import { deskDecorTroubleshootingGuide } from "@/data/guides/desk-decor-troubleshooting";
+import { tripleMonitorSetupExplainedGuide } from "@/data/guides/triple-monitor-setup-explained";
+import { matchingMonitorsVsMixedMonitorsGuide } from "@/data/guides/matching-monitors-vs-mixed-monitors";
+import { monitorBezelThicknessExplainedGuide } from "@/data/guides/monitor-bezel-thickness-explained";
+import { monitorArmDeskClampVsGrommetGuide } from "@/data/guides/monitor-arm-desk-clamp-vs-grommet";
+import { monitorDaisyChainingExplainedGuide } from "@/data/guides/monitor-daisy-chaining-explained";
+import { verticalMonitorOrientationExplainedGuide } from "@/data/guides/vertical-monitor-orientation-explained";
+import { multiMonitorTroubleshootingGuide } from "@/data/guides/multi-monitor-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68213,4 +68220,11 @@ export const guides: Guide[] = [
   framedVsFramelessDeskArtGuide,
   deskPlantPotDrainageExplainedGuide,
   deskDecorTroubleshootingGuide,
+  tripleMonitorSetupExplainedGuide,
+  matchingMonitorsVsMixedMonitorsGuide,
+  monitorBezelThicknessExplainedGuide,
+  monitorArmDeskClampVsGrommetGuide,
+  monitorDaisyChainingExplainedGuide,
+  verticalMonitorOrientationExplainedGuide,
+  multiMonitorTroubleshootingGuide,
 ];
