@@ -92,6 +92,13 @@ import { mouseGripStylesExplainedGuide } from "@/data/guides/mouse-grip-styles-e
 import { wristRestExplainedGuide } from "@/data/guides/wrist-rest-explained";
 import { mousePadSizeGuideGuide } from "@/data/guides/mouse-pad-size-guide";
 import { keyboardCleaningMaintenanceGuide } from "@/data/guides/keyboard-cleaning-maintenance";
+import { standingDeskConverterVsFullStandingDeskGuide } from "@/data/guides/standing-desk-converter-vs-full-standing-desk";
+import { standingDeskWeightCapacityExplainedGuide } from "@/data/guides/standing-desk-weight-capacity-explained";
+import { standingDeskHeightChartGuide } from "@/data/guides/standing-desk-height-chart";
+import { antiFatigueMatExplainedGuide } from "@/data/guides/anti-fatigue-mat-explained";
+import { singleMotorVsDualMotorStandingDeskGuide } from "@/data/guides/single-motor-vs-dual-motor-standing-desk";
+import { standingDeskCableManagementGuide } from "@/data/guides/standing-desk-cable-management";
+import { standingDeskTroubleshootingGuide } from "@/data/guides/standing-desk-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67961,4 +67968,11 @@ export const guides: Guide[] = [
   wristRestExplainedGuide,
   mousePadSizeGuideGuide,
   keyboardCleaningMaintenanceGuide,
+  standingDeskConverterVsFullStandingDeskGuide,
+  standingDeskWeightCapacityExplainedGuide,
+  standingDeskHeightChartGuide,
+  antiFatigueMatExplainedGuide,
+  singleMotorVsDualMotorStandingDeskGuide,
+  standingDeskCableManagementGuide,
+  standingDeskTroubleshootingGuide,
 ];
