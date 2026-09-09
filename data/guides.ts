@@ -127,6 +127,13 @@ import { screenGlareReductionExplainedGuide } from "@/data/guides/screen-glare-r
 import { monitorDistanceAndHeightForEyeComfortGuide } from "@/data/guides/monitor-distance-and-height-for-eye-comfort";
 import { dryEyesFromScreenUseExplainedGuide } from "@/data/guides/dry-eyes-from-screen-use-explained";
 import { fontSizeAndScalingForEyeComfortGuide } from "@/data/guides/font-size-and-scaling-for-eye-comfort";
+import { chairMatTypesExplainedGuide } from "@/data/guides/chair-mat-types-explained";
+import { chairMatSizeGuideGuide } from "@/data/guides/chair-mat-size-guide";
+import { carpetVsHardwoodDeskSetupGuide } from "@/data/guides/carpet-vs-hardwood-desk-setup";
+import { chairMatVsCasterUpgradeGuide } from "@/data/guides/chair-mat-vs-caster-upgrade";
+import { chairMatMaterialComparisonGuide } from "@/data/guides/chair-mat-material-comparison";
+import { deskMatVsChairMatExplainedGuide } from "@/data/guides/desk-mat-vs-chair-mat-explained";
+import { chairMatTroubleshootingGuide } from "@/data/guides/chair-mat-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68031,4 +68038,11 @@ export const guides: Guide[] = [
   monitorDistanceAndHeightForEyeComfortGuide,
   dryEyesFromScreenUseExplainedGuide,
   fontSizeAndScalingForEyeComfortGuide,
+  chairMatTypesExplainedGuide,
+  chairMatSizeGuideGuide,
+  carpetVsHardwoodDeskSetupGuide,
+  chairMatVsCasterUpgradeGuide,
+  chairMatMaterialComparisonGuide,
+  deskMatVsChairMatExplainedGuide,
+  chairMatTroubleshootingGuide,
 ];
