@@ -204,6 +204,13 @@ import { backpackBackPanelVentilationExplainedGuide } from "@/data/guides/backpa
 import { antiTheftBackpackFeaturesExplainedGuide } from "@/data/guides/anti-theft-backpack-features-explained";
 import { laptopBagSizeForScreenSizeGuide } from "@/data/guides/laptop-bag-size-for-screen-size";
 import { workBagTroubleshootingGuide } from "@/data/guides/work-bag-troubleshooting";
+import { deskCoffeeMakerVsElectricKettleGuide } from "@/data/guides/desk-coffee-maker-vs-electric-kettle";
+import { insulatedMugVsRegularMugDeskGuide } from "@/data/guides/insulated-mug-vs-regular-mug-desk";
+import { coffeeMachineDescalingExplainedGuide } from "@/data/guides/coffee-machine-descaling-explained";
+import { deskFridgeWorthItExplainedGuide } from "@/data/guides/desk-fridge-worth-it-explained";
+import { waterBottleVsPitcherDeskGuide } from "@/data/guides/water-bottle-vs-pitcher-desk";
+import { deskBeverageSpillPreventionGuide } from "@/data/guides/desk-beverage-spill-prevention";
+import { deskBeverageStationTroubleshootingGuide } from "@/data/guides/desk-beverage-station-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68185,4 +68192,11 @@ export const guides: Guide[] = [
   antiTheftBackpackFeaturesExplainedGuide,
   laptopBagSizeForScreenSizeGuide,
   workBagTroubleshootingGuide,
+  deskCoffeeMakerVsElectricKettleGuide,
+  insulatedMugVsRegularMugDeskGuide,
+  coffeeMachineDescalingExplainedGuide,
+  deskFridgeWorthItExplainedGuide,
+  waterBottleVsPitcherDeskGuide,
+  deskBeverageSpillPreventionGuide,
+  deskBeverageStationTroubleshootingGuide,
 ];
