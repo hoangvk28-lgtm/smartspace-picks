@@ -6,6 +6,15 @@ import { sixtyVs65Vs75KeyboardGuide } from "@/data/guides/60-vs-65-vs-75-keyboar
 import { keyboardSizeChartGuide } from "@/data/guides/keyboard-size-chart";
 import { bestBudget1080pWebcamGuide } from "@/data/guides/best-budget-1080p-webcam";
 import { bestWebcamForVideoCallsGuide } from "@/data/guides/best-webcam-for-video-calls";
+import { deskSizeChartGuide } from "@/data/guides/desk-size-chart";
+import { monitorArmSizeChartGuide } from "@/data/guides/monitor-arm-size-chart";
+import { cableSleeveSizeChartGuide } from "@/data/guides/cable-sleeve-size-chart";
+import { monitorArmVsMonitorStandGuide } from "@/data/guides/monitor-arm-vs-monitor-stand";
+import { deskMatVsDeskPadGuide } from "@/data/guides/desk-mat-vs-desk-pad";
+import { grommetMountVsClampMountGuide } from "@/data/guides/grommet-mount-vs-clamp-mount";
+import { cClampVsBoltThroughMountGuide } from "@/data/guides/c-clamp-vs-bolt-through-mount";
+import { vesaMountPatternExplainedGuide } from "@/data/guides/vesa-mount-pattern-explained";
+import { gasSpringVsFrictionArmMonitorMountGuide } from "@/data/guides/gas-spring-vs-friction-arm-monitor-mount";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67789,4 +67798,13 @@ export const guides: Guide[] = [
     relatedGuideSlugs: ["best-laptop-cooling-pads-under-50","best-budget-laptop-cooling-pads"],
     buyingCriteria: [],
   },
+  deskSizeChartGuide,
+  monitorArmSizeChartGuide,
+  cableSleeveSizeChartGuide,
+  monitorArmVsMonitorStandGuide,
+  deskMatVsDeskPadGuide,
+  grommetMountVsClampMountGuide,
+  cClampVsBoltThroughMountGuide,
+  vesaMountPatternExplainedGuide,
+  gasSpringVsFrictionArmMonitorMountGuide,
 ];
