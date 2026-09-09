@@ -211,6 +211,13 @@ import { deskFridgeWorthItExplainedGuide } from "@/data/guides/desk-fridge-worth
 import { waterBottleVsPitcherDeskGuide } from "@/data/guides/water-bottle-vs-pitcher-desk";
 import { deskBeverageSpillPreventionGuide } from "@/data/guides/desk-beverage-spill-prevention";
 import { deskBeverageStationTroubleshootingGuide } from "@/data/guides/desk-beverage-station-troubleshooting";
+import { wallArtHangingHeightExplainedGuide } from "@/data/guides/wall-art-hanging-height-explained";
+import { deskPlantTypesForBeginnersGuide } from "@/data/guides/desk-plant-types-for-beginners";
+import { deskDecorClutterBalanceGuide } from "@/data/guides/desk-decor-clutter-balance";
+import { deskAccentColorExplainedGuide } from "@/data/guides/desk-accent-color-explained";
+import { framedVsFramelessDeskArtGuide } from "@/data/guides/framed-vs-frameless-desk-art";
+import { deskPlantPotDrainageExplainedGuide } from "@/data/guides/desk-plant-pot-drainage-explained";
+import { deskDecorTroubleshootingGuide } from "@/data/guides/desk-decor-troubleshooting";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68199,4 +68206,11 @@ export const guides: Guide[] = [
   waterBottleVsPitcherDeskGuide,
   deskBeverageSpillPreventionGuide,
   deskBeverageStationTroubleshootingGuide,
+  wallArtHangingHeightExplainedGuide,
+  deskPlantTypesForBeginnersGuide,
+  deskDecorClutterBalanceGuide,
+  deskAccentColorExplainedGuide,
+  framedVsFramelessDeskArtGuide,
+  deskPlantPotDrainageExplainedGuide,
+  deskDecorTroubleshootingGuide,
 ];
