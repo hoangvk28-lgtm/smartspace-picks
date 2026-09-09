@@ -246,6 +246,13 @@ import { videoCallEtiquetteTechnicalSetupGuide } from "@/data/guides/video-call-
 import { echoCancellationExplainedGuide } from "@/data/guides/echo-cancellation-explained";
 import { screenSharingResolutionExplainedGuide } from "@/data/guides/screen-sharing-resolution-explained";
 import { videoConferencingTroubleshootingGuide } from "@/data/guides/video-conferencing-troubleshooting";
+import { towerFanVsDeskFanGuide } from "@/data/guides/tower-fan-vs-desk-fan";
+import { usbDeskFanVsPlugInFanGuide } from "@/data/guides/usb-desk-fan-vs-plug-in-fan";
+import { deskHeatedBlanketVsSpaceHeaterGuide } from "@/data/guides/desk-heated-blanket-vs-space-heater";
+import { personalComfortTroubleshootingGuide } from "@/data/guides/personal-comfort-troubleshooting";
+import { deskHumidifierVsDiffuserGuide } from "@/data/guides/desk-humidifier-vs-diffuser";
+import { deskCoolingPadForPeopleExplainedGuide } from "@/data/guides/desk-cooling-pad-for-people-explained";
+import { deskTemperatureZoneManagementGuide } from "@/data/guides/desk-temperature-zone-management";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -68269,4 +68276,11 @@ export const guides: Guide[] = [
   echoCancellationExplainedGuide,
   screenSharingResolutionExplainedGuide,
   videoConferencingTroubleshootingGuide,
+  towerFanVsDeskFanGuide,
+  usbDeskFanVsPlugInFanGuide,
+  deskHeatedBlanketVsSpaceHeaterGuide,
+  personalComfortTroubleshootingGuide,
+  deskHumidifierVsDiffuserGuide,
+  deskCoolingPadForPeopleExplainedGuide,
+  deskTemperatureZoneManagementGuide,
 ];
