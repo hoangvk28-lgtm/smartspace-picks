@@ -50,6 +50,13 @@ import { ipsVsVaVsTnPanelGuide } from "@/data/guides/ips-vs-va-vs-tn-panel";
 import { monitorVesaCompatibilityExplainedGuide } from "@/data/guides/monitor-vesa-compatibility-explained";
 import { curvedVsFlatMonitorGuide } from "@/data/guides/curved-vs-flat-monitor";
 import { monitorTroubleshootingGuide } from "@/data/guides/monitor-troubleshooting";
+import { spaceHeaterRoomSizeChartGuide } from "@/data/guides/space-heater-room-size-chart";
+import { ceramicVsInfraredSpaceHeaterGuide } from "@/data/guides/ceramic-vs-infrared-space-heater";
+import { deskFanCfmExplainedGuide } from "@/data/guides/desk-fan-cfm-explained";
+import { spaceHeaterSafetyExplainedGuide } from "@/data/guides/space-heater-safety-explained";
+import { humidifierRoomSizeChartGuide } from "@/data/guides/humidifier-room-size-chart";
+import { airPurifierCadrExplainedGuide } from "@/data/guides/air-purifier-cadr-explained";
+import { deskPlantLightingRequirementsGuide } from "@/data/guides/desk-plant-lighting-requirements";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67877,4 +67884,11 @@ export const guides: Guide[] = [
   monitorVesaCompatibilityExplainedGuide,
   curvedVsFlatMonitorGuide,
   monitorTroubleshootingGuide,
+  spaceHeaterRoomSizeChartGuide,
+  ceramicVsInfraredSpaceHeaterGuide,
+  deskFanCfmExplainedGuide,
+  spaceHeaterSafetyExplainedGuide,
+  humidifierRoomSizeChartGuide,
+  airPurifierCadrExplainedGuide,
+  deskPlantLightingRequirementsGuide,
 ];
