@@ -57,6 +57,13 @@ import { spaceHeaterSafetyExplainedGuide } from "@/data/guides/space-heater-safe
 import { humidifierRoomSizeChartGuide } from "@/data/guides/humidifier-room-size-chart";
 import { airPurifierCadrExplainedGuide } from "@/data/guides/air-purifier-cadr-explained";
 import { deskPlantLightingRequirementsGuide } from "@/data/guides/desk-plant-lighting-requirements";
+import { inkjetVsLaserPrinterGuide } from "@/data/guides/inkjet-vs-laser-printer";
+import { printerPageYieldExplainedGuide } from "@/data/guides/printer-page-yield-explained";
+import { tonerVsInkCostExplainedGuide } from "@/data/guides/toner-vs-ink-cost-explained";
+import { wifiVsUsbPrinterGuide } from "@/data/guides/wifi-vs-usb-printer";
+import { printerTroubleshootingGuide } from "@/data/guides/printer-troubleshooting";
+import { printerCareMaintenanceGuide } from "@/data/guides/printer-care-maintenance";
+import { allInOneVsStandalonePrinterGuide } from "@/data/guides/all-in-one-vs-standalone-printer";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -67891,4 +67898,11 @@ export const guides: Guide[] = [
   humidifierRoomSizeChartGuide,
   airPurifierCadrExplainedGuide,
   deskPlantLightingRequirementsGuide,
+  inkjetVsLaserPrinterGuide,
+  printerPageYieldExplainedGuide,
+  tonerVsInkCostExplainedGuide,
+  wifiVsUsbPrinterGuide,
+  printerTroubleshootingGuide,
+  printerCareMaintenanceGuide,
+  allInOneVsStandalonePrinterGuide,
 ];
