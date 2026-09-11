@@ -116,9 +116,10 @@ function buildContent(product, fileTheme, rank, badge, idBase) {
     if (trimmed.length <= 95) return trimmed;
     const cut = trimmed.slice(0, 95);
     const lastSpace = cut.lastIndexOf(" ");
-    return (lastSpace > 40 ? cut.slice(0, lastSpace) : cut).trim();
+    const base = (lastSpace > 40 ? cut.slice(0, lastSpace) : cut).trim();
+    return trimDangling(base.split(" ")).join(" ");
   }
-  const cleanTitle = stripNonAscii(safeTruncateTitle(title));
+  const cleanTitle = trimDangling(stripNonAscii(safeTruncateTitle(title)).split(" ")).join(" ");
   const feats = (features || []).slice(0, 5);
   const rawLabels = feats.map(shortLabel).filter(Boolean); // drop nulls from unusable feature text
 

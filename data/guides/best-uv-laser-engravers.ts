@@ -69,18 +69,19 @@ export const products: GuideProduct[] = [
     id: "best-uv-laser-engravers-4",
     rank: 4,
     badge: "Another Strong Option",
-    name: "UV Laser Marking Engraver Machine",
-    price: "See price on Amazon",
+    name: "10W (0.874mW, Class 2) UV Laser Marking Machine Water Cooling UV Laser Engraver for Glass,",
+    price: "$5,299.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0H5Q3MZ6N?tag=deskfinds0d-20",
-    description: "UV Laser Marking Engraver Machine doesn't just check boxes. Integrated photoelectric system. Interference resistant design.\n\nIt doesn't stop there either. Resistant to dust accumulation. Internal cavity self-cleaning. That combination alone makes it worth a second look.",
-    specs: ["Integrated photoelectric system", "Interference resistant design", "Resistant to dust accumulation"],
-    pros: ["Integrated photoelectric system", "Interference resistant design", "Resistant to dust accumulation"],
-    cons: ["Software workflow varies, confirm it matches your setup", "Double-check wattage and cutting depth before buying"],
-    bestFor: "buyers who specifically want integrated photoelectric system",
+    imageUrl: "https://m.media-amazon.com/images/I/410MAX9SZKL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DFCM28G4?tag=deskfinds0d-20",
+    description: "10W (0.874mW, Class 2) UV Laser Marking Machine Water Cooling UV Laser Engraver for Glass, measures 200x200 and is built around laser class ii, 0.874mw output power, fda, positioning it for uv buyers specifically.\n\nLaser Source Power is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for uv, though as with any equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["200x200 dimensions","Laser Class II, 0.874mW Output Power, FDA","Laser Source Power"],
+    pros: ["Laser Class II, 0.874mW Output Power, FDA, confirmed directly in the listing's own spec details","Laser Source Power, confirmed directly in the listing's own spec details","Efficient Cooling, confirmed directly in the listing's own spec details"],
+    cons: ["At $5,299.00, worth comparing against similarly specced laser engravers before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for uv",
   }
+
 ];
 
 export const howWeEvaluated = [
