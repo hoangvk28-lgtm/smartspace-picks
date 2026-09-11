@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-15";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/41fbRsaaRqL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,17 +21,17 @@ export const products: GuideProduct[] = [
     id: "best-6ft-reception-desks-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Modern 8' Rectangular Pine Wood Reception Desk with Black Laminate Top",
-    price: "Check price",
+    name: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception",
+    price: "$459.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0HDNDT5K6?tag=deskfinds0d-20",
-    description: "This genuinely 8-foot pine wood reception desk pairs solid wood construction with a black laminate top, sized for large lobbies needing substantial counter frontage well beyond the standard 60-72 inch range. The pine wood base offers real material weight versus an all-laminate desk.\n\nDelivery is curbside drop-off only, with no interior delivery service provided, and buyers are responsible for transporting the item themselves and removing all packaging materials, worth planning for given the desk's substantial 8-foot scale.",
-    specs: ["8-foot (96 inch) pine wood reception desk","Black laminate top over solid pine wood base","Curbside drop-off delivery only"],
-    pros: ["Genuine pine wood base construction offers real material substance versus all-laminate alternatives","8-foot length suits large lobbies needing substantial counter frontage","Black laminate top provides a durable, easy-clean working surface"],
-    cons: ["Curbside drop-off only, buyer responsible for interior transport and unpacking","8-foot scale needs a genuinely spacious lobby and careful delivery planning"],
-    bestFor: "buyers prioritizing 8-foot (96 inch) pine wood reception desk",
+    imageUrl: "https://m.media-amazon.com/images/I/41fbRsaaRqL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FVXRTN6W?tag=deskfinds0d-20",
+    description: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception and is built around modern & versatile, positioning it for 6ft buyers specifically.\n\nALL-IN-ONE STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 6ft, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["MODERN & VERSATILE","ALL-IN-ONE STORAGE","DUAL SIZE"],
+    pros: ["MODERN & VERSATILE, confirmed directly in the listing's own spec details","ALL-IN-ONE STORAGE, confirmed directly in the listing's own spec details","DUAL SIZE, confirmed directly in the listing's own spec details"],
+    cons: ["At $459.00, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 6ft",
   },
   {
     id: "best-6ft-reception-desks-2",

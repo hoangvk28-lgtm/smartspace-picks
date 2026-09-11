@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-15";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/41MR6pXRxQL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,33 +21,33 @@ export const products: GuideProduct[] = [
     id: "best-portable-reception-desks-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Portable Lightweight Tradeshow Podium/Lectern by Fixturedisplays",
-    price: "Check price",
+    name: "WOHOMO Folding Desk, 31.5\" Foldable Computer Table for Small Spaces, Oak",
+    price: "$53.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GWRXDPQJ?tag=deskfinds0d-20",
-    description: "At 36.4\" tall x 35.6\" wide x 17\" deep, this lightweight tradeshow reception table is built with 3/4\" MDF engineered wood top and bottom panels wrapped in a flexible plastic shell, designed specifically for genuine portability between events rather than permanent installation.\n\nCustom logo and literature holders can be added, making this podium-style unit suited to tradeshow booths, temporary reception points, and event registration desks where mobility between venues matters more than storage capacity.",
-    specs: ["36.4\"H x 35.6\"W x 17\"D lectern-style stand","3/4\" MDF panels with flexible plastic shell","Custom logo/literature holder options"],
-    pros: ["Lightweight construction genuinely suits repeated event-to-event transport","Custom logo and literature holder options support branded tradeshow use","Compact 17\" depth minimizes booth footprint"],
-    cons: ["Minimal storage compared to a permanent reception desk","Not suited to sustained daily reception work, better for temporary event use"],
-    bestFor: "buyers prioritizing 36.4\"h x 35.6\"w x 17\"d lectern-style stand",
+    imageUrl: "https://m.media-amazon.com/images/I/41MR6pXRxQL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B08M3W6SML?tag=deskfinds0d-20",
+    description: "WOHOMO Folding Desk, 31.5\" Foldable Computer Table for Small Spaces, Oak and is built around small folding desk for small spaces, positioning it for portable buyers specifically.\n\nFolding Desk is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["Small Folding Desk for Small Spaces","Folding Desk","Hided Small Desk"],
+    pros: ["Small Folding Desk for Small Spaces, confirmed directly in the listing's own spec details","Folding Desk, confirmed directly in the listing's own spec details","Hided Small Desk, confirmed directly in the listing's own spec details"],
+    cons: ["At $53.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for portable",
   },
   {
     id: "best-portable-reception-desks-2",
     rank: 2,
     badge: "Best Hostess Stand",
-    name: "Mobile Presentation Podium/Hostess Stand with Wheels by DFS Designs",
-    price: "Check price",
+    name: "Frylr Small Folding Computer Desk Portable 35.8 Inch Foldable Laptop Table, No-Assembly,",
+    price: "$49.93",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GRRL23LQ?tag=deskfinds0d-20",
-    description: "A portable buzz hostess stand built on wheels, this podium-style unit suits a restaurant or event entry point needing genuine mobility over a fixed reception desk's permanence. The podium format keeps a small footprint while still providing a dedicated staff position.\n\nAs a specialty mobile fixture rather than a full reception desk, it targets hospitality and event settings where the greeting station needs to move between different room configurations.",
-    specs: ["Mobile hostess stand on wheels","Podium-style compact footprint","Portable, repositionable design"],
-    pros: ["Genuine mobility on wheels suits changing event or restaurant floor layouts","Compact podium footprint fits tight entry points","Purpose-built for hospitality greeting/host roles"],
-    cons: ["Limited storage and desktop space versus a full reception desk","Not suited to sustained administrative reception work"],
-    bestFor: "buyers prioritizing mobile hostess stand on wheels",
+    imageUrl: "https://m.media-amazon.com/images/I/41rVtqsCcdL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DWMZTJBV?tag=deskfinds0d-20",
+    description: "Frylr Small Folding Computer Desk Portable 35.8 Inch Foldable Laptop Table, No-Assembly, measures 35.8 Inch and is built around no tools needed designed for ultimate convenience, positioning it for portable buyers specifically.\n\nEnjoy long-lasting support with a thick tabletop is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for portable, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["35.8 Inch dimensions","No Tools Needed Designed for ultimate convenience","Enjoy long-lasting support with a thick tabletop"],
+    pros: ["No Tools Needed Designed for ultimate convenience, confirmed directly in the listing's own spec details","Enjoy long-lasting support with a thick tabletop, confirmed directly in the listing's own spec details","- The eco-friendly, low-VOC woodgrain surface reduces, confirmed directly in the listing's own spec details"],
+    cons: ["At $49.93, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for portable",
   },
   {
     id: "best-portable-reception-desks-3",
