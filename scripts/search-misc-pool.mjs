@@ -39,9 +39,8 @@ async function search(token, keywords) {
 }
 const token = await getToken();
 const queries = [
-  "24U server rack cabinet",
-  "network switch under 500",
-  "PoE 10GbE switch",
+  "portable power station 2000wh",
+  "portable power station 5000wh large capacity",
 ];
 const pool = {};
 for (const q of queries) {
@@ -57,4 +56,4 @@ for (const q of queries) {
   pool[q].forEach(x => console.log(x.asin, x.price, x.title));
   await new Promise(r => setTimeout(r, 400));
 }
-writeFileSync(resolve(ROOT, "/tmp/networking_pool.json"), JSON.stringify(pool, null, 2));
+writeFileSync(resolve(ROOT, "/tmp/pps_pool.json"), JSON.stringify(pool, null, 2));
