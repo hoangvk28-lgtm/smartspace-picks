@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-network-switches-under-500-8",
     rank: 8,
     badge: "Also Worth Considering",
-    name: "28-Port Gigabit Managed Switch by YuanLey with 24 10/100/1000Mbps Ports",
-    price: "See price on Amazon",
+    name: "NETGEAR 5-Port Gigabit Ethernet Unmanaged Network Switch (GS305)",
+    price: "$13.49",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GYCCZ6RS?tag=deskfinds0d-20",
-    description: "28-Port Gigabit Managed Switch by YuanLey with 24 10/100/1000Mbps Ports is a strong alternative worth comparing directly against the top pick. 24-port gigabit switch with management. Robust network capabilities.\n\nAgainst TP-Link TL-SG108S-M2, the gap isn't in the basics, so the real decision comes down to a specific detail rather than a big capability gap: adaptable control options.\n\nChoose this if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Retail pricing on this listing can shift with sales or stock changes, so confirm the current price and availability before buying rather than relying on the figure shown here.",
-    specs: ["24-port gigabit switch with management", "Robust network capabilities", "Adaptable control options"],
-    pros: ["24-port gigabit switch with management", "Robust network capabilities", "Adaptable control options"],
-    cons: ["Confirm this stays in stock at the price checked here", "Setup or mounting hardware may be sold separately"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+    imageUrl: "https://m.media-amazon.com/images/I/31JUxKEND6L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B07S98YLHM?tag=deskfinds0d-20",
+    description: "NETGEAR 5-Port Gigabit Ethernet Unmanaged Network Switch (GS305) and is built around gigabit ethernet ports, positioning it for under 500 buyers specifically.\n\nPLUG-AND-PLAY UNMANAGED NETWORK SWITCH is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 500, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["GIGABIT ETHERNET PORTS","PLUG-AND-PLAY UNMANAGED NETWORK SWITCH","FLEXIBLE MOUNTING OPTIONS"],
+    pros: ["GIGABIT ETHERNET PORTS, confirmed directly in the listing's own spec details","PLUG-AND-PLAY UNMANAGED NETWORK SWITCH, confirmed directly in the listing's own spec details","FLEXIBLE MOUNTING OPTIONS, confirmed directly in the listing's own spec details"],
+    cons: ["At $13.49, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for under 500",
   }
+
 ];
 
 export const howWeEvaluated = [
