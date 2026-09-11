@@ -88,18 +88,19 @@ export const products: GuideProduct[] = [
     id: "b0grfxgy3l-dayclock",
     rank: 5,
     badge: "Most Alarms",
-    name: "Large Digital Calendar Day Clock with 6-Alarms by Yescom",
-    price: "See listing",
-    rating: "n/a",
-    reviews: "0",
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GRFXGY3L?tag=deskfinds0d-20",
-    description: "A large digital calendar day clock from Yescom with 6 alarm slots, a straightforward option for buyers who want a simple large-format display without extra configuration.\n\nOne spot below SSYA 7 Inch Calendar Clock in this ranking, it's priced lower than SSYA 7 Inch Calendar Clock. The compromise here is straightforward: Current price not confirmed at research time, verify on listing. What you gain in return: Straightforward, large-format display. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Straightforward, large-format display. On the other side, No review history available yet. That's the main tradeoff to weigh against everything above.",
-    specs: ["Large display, 6 alarms"],
-    pros: ["Straightforward, large-format display"],
-    cons: ["Current price not confirmed at research time, verify on listing","No review history available yet"],
-    bestFor: "Buyers who want a simple large day clock without extensive extra features.",
+    name: "Clock with Day and Date for Elderly,7\" Large Display Digital Calendar Clock",
+    price: "$25.49",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/41pMYakghzL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DJW6NP4M?tag=deskfinds0d-20",
+    description: "Clock with Day and Date for Elderly,7\" Large Display Digital Calendar Clock and is built around hd display & larg font, positioning it for a general-purpose desk accessory buyers specifically.\n\n20 Normal Alarms & 20 Custom Reminders is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for a general-purpose desk accessory, though as with any purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["HD Display & Larg Font","20 Normal Alarms & 20 Custom Reminders","One-Touch Sleep Mode & 10-Level Brightness"],
+    pros: ["HD Display & Larg Font, confirmed directly in the listing's own spec details","20 Normal Alarms & 20 Custom Reminders, confirmed directly in the listing's own spec details","One-Touch Sleep Mode & 10-Level Brightness, confirmed directly in the listing's own spec details"],
+    cons: ["At $25.49, worth comparing against similarly specced desk accessories before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for a general-purpose desk accessory",
   }
+
 ];
 
 export interface HowWeEvaluatedItem { title: string; description: string; }

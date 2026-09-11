@@ -39,8 +39,11 @@ async function search(token, keywords) {
 }
 const token = await getToken();
 const queries = [
-  "portable power station 2000wh",
-  "portable power station 5000wh large capacity",
+  "digital day clock with calendar for seniors",
+  "NVMe SSD enclosure USB",
+  "pink portable file box with handle",
+  "room divider for home office folding screen",
+  "standing desk converter",
 ];
 const pool = {};
 for (const q of queries) {
@@ -56,4 +59,4 @@ for (const q of queries) {
   pool[q].forEach(x => console.log(x.asin, x.price, x.title));
   await new Promise(r => setTimeout(r, 400));
 }
-writeFileSync(resolve(ROOT, "/tmp/pps_pool.json"), JSON.stringify(pool, null, 2));
+writeFileSync(resolve(ROOT, "/tmp/singles_pool.json"), JSON.stringify(pool, null, 2));
