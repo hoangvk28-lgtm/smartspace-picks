@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-black-conference-tables-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "GOUUN 94.49-Inch Modern Black-Brown Conference Table",
-    price: "Check price",
+    name: "Tribesigns 8ft Conference Table",
+    price: "$389.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GSF3CGYQ?tag=deskfinds0d-20",
-    description: "At 94.49\"x47.24\" this GOUUN table sits in the 8ft bracket with a modern black-brown two-tone finish similar to other budget-friendly conference tables in this size range. Listing detail beyond dimensions and finish is limited, so verify specific construction and included hardware directly with the seller before ordering.\n\nAs a newer, less-established brand entry in this category, buyers should weigh the lower likely price against the more detailed spec sheets available from established names like Tribesigns.",
-    specs: ["94.49\"x47.24\" table, black-brown finish","8ft conference table format","Limited additional listing detail available"],
-    pros: ["Black-brown two-tone finish matches the popular look of pricier established-brand tables","94.49\" length fits the standard 8-10 person bracket"],
-    cons: ["Limited technical detail available beyond dimensions and general finish description","Less-established brand than Tribesigns or other frequently reviewed options in this size range"],
-    bestFor: "buyers prioritizing 94.49\"x47.24\" table, black-brown finish",
+    imageUrl: "https://m.media-amazon.com/images/I/517OXC5hBEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FSS31WD9?tag=deskfinds0d-20",
+    description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for black buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for black, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
+    pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
+    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for black",
   }
+
 ];
 
 export const howWeEvaluated = [

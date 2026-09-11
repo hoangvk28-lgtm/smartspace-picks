@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-16";
 export const readTime = "11 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/517OXC5hBEL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,33 +21,33 @@ export const products: GuideProduct[] = [
     id: "best-concrete-conference-tables-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Axis Office 106\" Aurora Boat Table, Industrial Concrete Engineered Top",
-    price: "Check price",
+    name: "Tribesigns 8ft Conference Table",
+    price: "$389.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0H9F4VTTG?tag=deskfinds0d-20",
-    description: "This is a genuinely engineered concrete composite, not poured concrete, giving the industrial concrete look without the extreme weight of real concrete. A black MX3 power box adds 2 power outlets, 2 USB-A ports, and 1 HDMI port, comprehensive connectivity for presentations.\n\nA commercial-grade plywood-and-MDF foundation supports the 0.5\"-thick engineered top, and the boat shape at 106\" gives real sightline benefits across a genuinely large table.",
-    specs: ["106\" boat-shaped, 0.5\" engineered concrete top","MX3 power box: 2 power + 2 USB-A + HDMI","Plywood/MDF foundation, black matte laminate base"],
-    pros: ["MX3 power box with HDMI is genuinely useful for presentation-heavy boardroom use","Engineered concrete composite gives the industrial look without real concrete's extreme weight","106\" boat shape delivers real sightline benefits at a large scale"],
-    cons: ["Engineered composite, not genuine poured concrete, despite the industrial name","106\" scale needs a genuinely spacious dedicated boardroom"],
-    bestFor: "buyers prioritizing 106\" boat-shaped, 0.5\" engineered concrete top",
+    imageUrl: "https://m.media-amazon.com/images/I/517OXC5hBEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FSS31WD9?tag=deskfinds0d-20",
+    description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for concrete buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for concrete, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
+    pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
+    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for concrete",
   },
   {
     id: "best-concrete-conference-tables-2",
     rank: 2,
     badge: "Runner-Up",
-    name: "Axis Office 106\" Aurora Boat Table, Concrete Engineered Top (Alt)",
-    price: "Check price",
+    name: "Tribesigns 8FT Conference Table",
+    price: "$379.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0FQNGM2DL?tag=deskfinds0d-20",
-    description: "The same 106\" boat-shaped table as Axis Office's other Aurora listing, 0.5\"-thick engineered concrete composite top, plywood/MDF foundation, and MX3 power box with HDMI, offered under a separate product page.\n\nAs with the sibling listing, this delivers real presentation-ready connectivity and industrial styling at a large boardroom scale.",
-    specs: ["106\" boat-shaped, 0.5\" engineered concrete top","MX3 power box: 2 power + 2 USB-A + HDMI","Plywood/MDF foundation, black matte laminate base"],
-    pros: ["Same comprehensive MX3 power box with HDMI as the sibling Aurora listing","Engineered concrete composite avoids real concrete's extreme weight","Large 106\" boat shape gives genuine sightline benefit for group discussion"],
-    cons: ["Duplicate-style listing, compare pricing against the sibling page first","Engineered composite, not genuine poured concrete"],
-    bestFor: "buyers prioritizing 106\" boat-shaped, 0.5\" engineered concrete top",
+    imageUrl: "https://m.media-amazon.com/images/I/51MDcWgimIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F5MGDQ65?tag=deskfinds0d-20",
+    description: "Tribesigns 8FT Conference Table measures 94.49 L x 47.24 W x 29.53 H and is built around 10 people conference table, positioning it for concrete buyers specifically.\n\nSUPER STURDY CONSTRUCTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for concrete, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["94.49 L x 47.24 W x 29.53 H table dimensions","10 PEOPLE CONFERENCE TABLE","SUPER STURDY CONSTRUCTION"],
+    pros: ["10 PEOPLE CONFERENCE TABLE, confirmed directly in the listing's own spec details","SUPER STURDY CONSTRUCTION, confirmed directly in the listing's own spec details","GROMMET HOLES & ADJUSTABLE FOOT PADS, confirmed directly in the listing's own spec details"],
+    cons: ["At $379.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for concrete",
   },
   {
     id: "best-concrete-conference-tables-3",

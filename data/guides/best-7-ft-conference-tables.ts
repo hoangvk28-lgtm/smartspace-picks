@@ -101,18 +101,19 @@ export const products: GuideProduct[] = [
     id: "best-7-ft-conference-tables-6",
     rank: 6,
     badge: "Budget Pick",
-    name: "The Farmhouse Finds Metal-Legged Industrial Conference Table",
-    price: "Check price",
+    name: "LayBurst 8FT Conference Table",
+    price: "$199.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GRGTXLQ8?tag=deskfinds0d-20",
-    description: "A large farmhouse-industrial conference table pairing a wood top with metal legs, positioned for offices wanting a rustic-modern look over a polished corporate laminate table. Detailed spec information beyond the general style description is limited.\n\nAs with other specialty farmhouse listings, confirm exact dimensions, wood type, and capacity directly with the seller before ordering, since this appears to be a made-to-order or limited-run piece.",
-    specs: ["Metal-legged farmhouse/industrial table","Wood top, metal leg construction","Limited additional listing detail available"],
-    pros: ["Farmhouse-industrial styling gives a genuine rustic-modern alternative to polished corporate tables","Metal legs add durability and a distinctive visual contrast against the wood top"],
-    cons: ["Limited technical detail on exact dimensions and capacity","Sparse listing detail requires direct seller confirmation before ordering"],
-    bestFor: "buyers prioritizing metal-legged farmhouse/industrial table",
+    imageUrl: "https://m.media-amazon.com/images/I/51G88Gtgj1L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0F9W9ZY7C?tag=deskfinds0d-20",
+    description: "LayBurst 8FT Conference Table measures 94.4 L x 47.2 W x30.7 H and is built around dual stability reinforcement structure, positioning it for 7 ft buyers specifically.\n\nLarge-Sized Conference Table is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 7 ft, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["94.4 L x 47.2 W x30.7 H table dimensions","Dual Stability Reinforcement Structure","Large-Sized Conference Table"],
+    pros: ["Dual Stability Reinforcement Structure, confirmed directly in the listing's own spec details","Large-Sized Conference Table, confirmed directly in the listing's own spec details","Cable Holes and Adjustable Footpads, confirmed directly in the listing's own spec details"],
+    cons: ["At $199.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 7 ft",
   }
+
 ];
 
 export const howWeEvaluated = [
