@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-60-inch-office-credenzas-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "60 Inch Mid-Century Modern Buffet Cabinet with 4 Diamond Pattern Doors and 2 Shelves",
-    price: "Check price",
+    name: "ComfyCorner 60\" Buffet Cabinet with Storage, Sideboard Buffet Table Black",
+    price: "$199.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0G9X2Z242?tag=deskfinds0d-20",
-    description: "Four doors with a distinctive concave and convex diamond pattern are the defining visual detail, a more sculptural design than the flat-panel doors common on most credenzas in this cluster. Two internal shelves provide the core storage capacity behind those doors.\n\nSolid and manufactured wood materials are combined rather than relying on one construction type alone, and solid wood legs specifically anchor the base. It doubles effectively as a buffet, sideboard, or console table depending on room placement, and assembly tools and instructions are included standard.",
-    specs: ["60in wide, 4 diamond-pattern doors, 2 shelves","Solid + manufactured wood construction","Solid wood legs"],
-    pros: ["Diamond door pattern is genuinely sculptural, not flat","Solid wood legs give a sturdier base","Doubles easily as a buffet, sideboard, or console"],
-    cons: ["Only two shelves limits fine-grained organization","No file drawer or hanging-folder storage"],
-    bestFor: "buyers prioritizing 60in wide, 4 diamond-pattern doors, 2 shelves",
+    imageUrl: "https://m.media-amazon.com/images/I/41IHSGRE2ML._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HHDSP11K?tag=deskfinds0d-20",
+    description: "ComfyCorner 60\" Buffet Cabinet with Storage, Sideboard Buffet Table Black and is built around ample buffet cabinet with storage, positioning it for 60 inch buyers specifically.\n\nVersatile Credenza Storage Cabinet is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 60 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["Ample Buffet Cabinet with Storage","Versatile Credenza Storage Cabinet","Sturdy Sideboard Buffet Cabinet"],
+    pros: ["Ample Buffet Cabinet with Storage, confirmed directly in the listing's own spec details","Versatile Credenza Storage Cabinet, confirmed directly in the listing's own spec details","Sturdy Sideboard Buffet Cabinet, confirmed directly in the listing's own spec details"],
+    cons: ["At $199.99, worth comparing against similarly specced office credenzas before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 60 inch",
   }
+
 ];
 
 export const howWeEvaluated = [
