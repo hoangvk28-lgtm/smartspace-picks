@@ -83,7 +83,7 @@ function shortLabel(feature) {
     if (clean.length >= 3) return clean;
   }
   // or plain "Label: rest of sentence"
-  const colonMatch = feature.match(/^([A-Z][A-Za-z0-9\/&\-' ]{3,40}):\s*/);
+  const colonMatch = feature.match(/^([A-Z][A-Za-z0-9\/&,\-' ]{3,40}):\s*/);
   if (colonMatch) {
     const clean = stripNonAscii(colonMatch[1]);
     if (clean.length >= 3) return clean;
