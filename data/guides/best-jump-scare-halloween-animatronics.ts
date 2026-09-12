@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-animatronics","title":"Best Halloween Animatronics"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-animatronics","title":"Best Halloween Animatronics in 2026"},{"href":"/guide/best-halloween-clown-animatronics","title":"Best Halloween Clown Animatronics in 2026"},{"href":"/guide/best-giant-halloween-animatronics","title":"Best Giant Halloween Animatronics in 2026"},{"href":"/guide/best-halloween-skeleton-animatronics","title":"Best Halloween Skeleton Animatronics in 2026"}];

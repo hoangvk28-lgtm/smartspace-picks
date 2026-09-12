@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-skeletons","title":"Best Halloween Skeletons"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-skeletons","title":"Best Halloween Skeletons in 2026"},{"href":"/guide/best-halloween-dinosaur-skeletons","title":"Best Halloween Dinosaur Skeletons in 2026"},{"href":"/guide/best-animated-halloween-skeletons","title":"Best Animated Halloween Skeletons in 2026"},{"href":"/guide/best-12-ft-halloween-skeletons","title":"Best 12 ft Halloween Skeletons in 2026"}];

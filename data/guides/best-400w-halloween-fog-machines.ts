@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-fog-machines","title":"Best Halloween Fog Machines"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-fog-machines","title":"Best Halloween Fog Machines in 2026"},{"href":"/guide/best-halloween-cauldron-fog-machines","title":"Best Halloween Cauldron Fog Machines in 2026"},{"href":"/guide/best-outdoor-halloween-fog-machines","title":"Best Outdoor Halloween Fog Machines in 2026"},{"href":"/guide/best-halloween-fog-machines-with-timer","title":"Best Halloween Fog Machines With Timer in 2026"}];

@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-lights","title":"Best Halloween Lights"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-lights","title":"Best Halloween Lights in 2026"},{"href":"/guide/best-halloween-string-lights","title":"Best Halloween String Lights in 2026"},{"href":"/guide/best-orange-halloween-lights","title":"Best Orange Halloween Lights in 2026"},{"href":"/guide/best-battery-operated-halloween-lights","title":"Best Battery Operated Halloween Lights in 2026"}];

@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-lights","title":"Best Halloween Lights"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-lights","title":"Best Halloween Lights in 2026"},{"href":"/guide/best-vintage-halloween-lights","title":"Best Vintage Halloween Lights in 2026"},{"href":"/guide/best-halloween-lights-under-20","title":"Best Halloween Lights Under $20 in 2026"},{"href":"/guide/best-halloween-lights-under-30","title":"Best Halloween Lights Under $30 in 2026"}];

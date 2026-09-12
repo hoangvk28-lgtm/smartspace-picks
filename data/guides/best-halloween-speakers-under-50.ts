@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-speakers","title":"Best Halloween Speakers"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-speakers","title":"Best Halloween Speakers in 2026"},{"href":"/guide/best-halloween-speakers-under-30","title":"Best Halloween Speakers Under $30 in 2026"},{"href":"/guide/best-halloween-speakers-under-100","title":"Best Halloween Speakers Under $100 in 2026"},{"href":"/guide/best-external-speakers-for-halloween-animatronics","title":"Best External Speakers for Halloween Animatronics in 2026"}];

@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-air-quality-monitors","title":"Best Air Quality Monitors"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-air-quality-monitors","title":"Best Air Quality Monitors in 2026"},{"href":"/guide/best-office-air-quality-monitors","title":"Best Office Air Quality Monitors in 2026"},{"href":"/guide/best-voc-tvoc-air-quality-monitors","title":"Best VOC / TVOC Air Quality Monitors in 2026"},{"href":"/guide/best-multi-sensor-air-quality-monitors","title":"Best Multi-Sensor Air Quality Monitors in 2026"}];

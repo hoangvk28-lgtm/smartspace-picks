@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-inflatables","title":"Best Halloween Inflatables"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-inflatables","title":"Best Halloween Inflatables in 2026"},{"href":"/guide/best-halloween-ghost-inflatables","title":"Best Halloween Ghost Inflatables in 2026"},{"href":"/guide/best-halloween-skeleton-inflatables","title":"Best Halloween Skeleton Inflatables in 2026"},{"href":"/guide/best-10-ft-halloween-inflatables","title":"Best 10 ft Halloween Inflatables in 2026"}];

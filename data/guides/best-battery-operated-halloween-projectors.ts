@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-projectors","title":"Best Halloween Projectors"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-halloween-projectors","title":"Best Halloween Projectors in 2026"},{"href":"/guide/best-halloween-laser-projectors","title":"Best Halloween Laser Projectors in 2026"},{"href":"/guide/best-outdoor-halloween-projectors","title":"Best Outdoor Halloween Projectors in 2026"},{"href":"/guide/best-animated-halloween-projectors","title":"Best Animated Halloween Projectors in 2026"}];
