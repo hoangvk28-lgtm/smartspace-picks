@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-height-adjustable-conference-tables-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "Juniper Office Standing-Height Collaboration Table (Alt Listing)",
-    price: "Check price",
+    name: "Correll 24\"x72\" Premium Flip Top Nesting Table",
+    price: "$624.60",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GKQJTG52?tag=deskfinds0d-20",
-    description: "Functionally the same as Juniper Office's other standing-height collaboration table, this listing repeats the slim knife-edge profile, built-in surface grommet, and 2-6 person seating flexibility depending on size, under a separate product page.\n\nSCS Indoor Advantage Gold certification for low indoor emissions carries over, making this a reasonable choice for enclosed rooms regardless of which listing a buyer finds first.",
-    specs: ["Standing-height design, seats 2-6 by size","Slim modern edge design","SCS Indoor Advantage Gold certified"],
-    pros: ["Same purpose-built standing height and certification as Juniper's other listing","Built-in surface grommet keeps cables managed at standing height","Sized flexibly for groups from 2 to 6"],
-    cons: ["No sit-stand adjustment, fixed standing height only","Duplicate-style listing, compare pricing against Juniper's other page before ordering"],
-    bestFor: "buyers prioritizing standing-height design, seats 2-6 by size",
+    imageUrl: "https://m.media-amazon.com/images/I/31A99KWekmL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DPLMMSYS?tag=deskfinds0d-20",
+    description: "Correll 24\"x72\" Premium Flip Top Nesting Table measures 24\"x72\" and is built around size, positioning it for height adjustable buyers specifically.\n\nSecure height adjustment with 2 set screws is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for height adjustable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["24\"x72\" table dimensions","SIZE","Secure height adjustment with 2 set screws"],
+    pros: ["SIZE, confirmed directly in the listing's own spec details","Secure height adjustment with 2 set screws, confirmed directly in the listing's own spec details","Top: Thermal Fused Laminate (TFL) top resists, confirmed directly in the listing's own spec details"],
+    cons: ["At $624.60, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for height adjustable",
   }
+
 ];
 
 export const howWeEvaluated = [

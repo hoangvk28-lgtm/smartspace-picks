@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-wood-conference-tables-with-power-outlets-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "GOUUN Boat-Shaped Conference Table with Charging Station",
-    price: "Check price",
+    name: "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port",
+    price: "$1,158.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GSF4VYLB?tag=deskfinds0d-20",
-    description: "A boat-shaped table from GOUUN bundling a built-in charging station, following the same general playbook as YITAHOME's power-outlet boat tables but from a newer market entrant. Listing detail on exact outlet count and cord length is limited compared to more established competitors.\n\nAs with other budget/newer-brand listings in this category, weigh the likely lower price against the thinner documentation versus Tribesigns or YITAHOME's more detailed spec sheets.",
-    specs: ["Boat-shaped conference table with charging station","Built-in power access for devices","Limited additional listing detail available"],
-    pros: ["Boat-shape design still delivers the standard sightline benefit around the table","Built-in charging station included at what's typically a competitive price point"],
-    cons: ["Limited technical detail available on exact outlet count, cord length, or material thickness","Newer, less-established brand than YITAHOME or Tribesigns in this category"],
-    bestFor: "buyers prioritizing boat-shaped conference table with charging station",
+    imageUrl: "https://m.media-amazon.com/images/I/313e1pRKhxL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0843C8G21?tag=deskfinds0d-20",
+    description: "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port measures 10 ft and is built around make presentations memorable with legacy's conference collection!, positioning it for wood with power outlets buyers specifically.\n\nSeats 8 to 10 people is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for wood with power outlets, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["10 ft table dimensions","Make presentations memorable with Legacy's Conference collection!","Seats 8 to 10 people"],
+    pros: ["Make presentations memorable with Legacy's Conference collection!, confirmed directly in the listing's own spec details","Seats 8 to 10 people, confirmed directly in the listing's own spec details","Power and Data port makes tabletop connectivity, confirmed directly in the listing's own spec details"],
+    cons: ["At $1,158.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for wood with power outlets",
   }
+
 ];
 
 export const howWeEvaluated = [

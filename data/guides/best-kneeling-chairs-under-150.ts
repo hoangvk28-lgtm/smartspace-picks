@@ -101,18 +101,19 @@ export const products: GuideProduct[] = [
     id: "best-kneeling-chairs-under-150-6",
     rank: 6,
     badge: "Worth a Look",
-    name: "Kneeling Chair by Yaheetech",
-    price: "See price on Amazon",
+    name: "Kneeling Chair with Backrest Ergonomic Adjustable Office Kneel Chair",
+    price: "$119.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GRT7SZZV?tag=deskfinds0d-20",
-    description: "Kneeling Chair by Yaheetech is a strong alternative worth comparing directly against the top pick. Features an angled seat with added knee support to transform standard sitting into a healthier, biologically optimal posture. The cushion is wrapped in high-quality faux leather that resists water, wear, and deformation for long-lasting performance.\n\nAgainst Luxton Home Ergonomic Kneeling Chair with Extra Padding, the gap isn't in the basics, so the real decision comes down to a specific detail rather than a big capability gap: offers three distinct tilt settings between 91° and 130°, enabling users of any age to find their ideal seating angle.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Retail pricing on this listing can shift with sales or stock changes, so confirm the current price and availability before buying rather than relying on the figure shown here.",
-    specs: ["Features an angled seat with added knee support to transform", "The cushion is wrapped in high-quality faux leather that resists", "Offers three distinct tilt settings between 91° and 130°"],
-    pros: ["Features an angled seat with added knee support to transform standard", "Cushion is wrapped in high-quality faux leather that resists water, wear,", "Offers three distinct tilt settings between 91° and 130°, enabling users"],
-    cons: ["Budget tier means fewer premium finish options", "Manufacturer claims here aren't independently lab-verified"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+    imageUrl: "https://m.media-amazon.com/images/I/41T3GA74jVL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HDPJQVWS?tag=deskfinds0d-20",
+    description: "Kneeling Chair with Backrest Ergonomic Adjustable Office Kneel Chair and is built around ergonomic design for healthy sitting, positioning it for under 150 buyers specifically.\n\nAdjustable Height & Dual Upholstery Options: Comes is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 150, though as with any ergonomic furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["Ergonomic Design for Healthy Sitting","Adjustable Height & Dual Upholstery Options: Comes","Silent Lockable Caster Wheels"],
+    pros: ["Ergonomic Design for Healthy Sitting, confirmed directly in the listing's own spec details","Adjustable Height & Dual Upholstery Options: Comes, confirmed directly in the listing's own spec details","Silent Lockable Caster Wheels, confirmed directly in the listing's own spec details"],
+    cons: ["At $119.99, worth comparing against similarly specced kneeling chairs before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for under 150",
   }
+
 ];
 
 export const howWeEvaluated = [

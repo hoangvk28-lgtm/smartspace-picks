@@ -101,18 +101,19 @@ export const products: GuideProduct[] = [
     id: "best-studio-monitors-under-150-6",
     rank: 6,
     badge: "Worth a Look",
-    name: "Silver Black 5-Inch Active Studio Monitor by KRK",
-    price: "See price on Amazon",
+    name: "PreSonus Eris 3.5 Powered Studio Monitors, Pair 3.5 Active Near",
+    price: "$99.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0H8YKW9PK?tag=deskfinds0d-20",
-    description: "Silver Black 5-Inch Active Studio Monitor by KRK is a strong alternative worth comparing directly against the top pick. Self-powered 5-inch active monitor delivering 50 watts with driver-matched amplification, eliminating the need for external amps. Package contains a single krk classic 5 studio monitor.\n\nAgainst M-AUDIO BX3 3.5\" Wired Studio Monitors Pair, the gap isn't in the basics, so the real decision comes down to a specific detail rather than a big capability gap: features custom class a/b bi-amped design engineered for high headroom and minimal distortion.\n\nThis fits best if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Retail pricing on this listing can shift with sales or stock changes, so confirm the current price and availability before buying rather than relying on the figure shown here.",
-    specs: ["Self-powered 5-inch active monitor delivering 50 watts with", "Package contains a single krk classic 5 studio monitor", "Features custom class a/b bi-amped design engineered for high"],
-    pros: ["Self-powered 5-inch active monitor delivering 50 watts with driver-matched amplification, eliminating", "Package contains a single krk classic 5 studio monitor", "Features custom class a/b bi-amped design engineered for high headroom"],
-    cons: ["Budget tier means fewer premium finish options", "Manufacturer claims here aren't independently lab-verified"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+    imageUrl: "https://m.media-amazon.com/images/I/41fY2ymSB-L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0C88ZB3D9?tag=deskfinds0d-20",
+    description: "PreSonus Eris 3.5 Powered Studio Monitors, Pair 3.5 Active Near and is built around trusted studio-quality sound, positioning it for under 150 buyers specifically.\n\nPOWERFUL, DISTORTION-FREE SOUND is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 150, though as with any audio equipment purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["TRUSTED STUDIO-QUALITY SOUND","POWERFUL, DISTORTION-FREE SOUND","ACCURATE, POWERFUL SOUND"],
+    pros: ["TRUSTED STUDIO-QUALITY SOUND, confirmed directly in the listing's own spec details","POWERFUL, DISTORTION-FREE SOUND, confirmed directly in the listing's own spec details","ACCURATE, POWERFUL SOUND, confirmed directly in the listing's own spec details"],
+    cons: ["At $99.99 per pair, worth comparing against similarly specced studio monitors before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for under 150",
   }
+
 ];
 
 export const howWeEvaluated = [

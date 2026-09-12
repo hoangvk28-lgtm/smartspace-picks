@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-15";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/31GRlj3RkDL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,33 +21,33 @@ export const products: GuideProduct[] = [
     id: "best-granite-reception-desks-1",
     rank: 1,
     badge: "Best Overall",
-    name: "LED Illuminated Quartz Reception Desk by Whalespa",
-    price: "Check price",
+    name: "Larnavo 72\" Reception Desk with Stone-Textured Top",
+    price: "$2,899.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0FSJ2LJXN?tag=deskfinds0d-20",
-    description: "A glossy quartz surface paired with built-in LED lighting gives this desk a genuinely premium, illuminated presence suited to high-end spa reception areas. Manufactured in the USA, it targets buyers prioritizing domestic manufacturing and premium material quality over budget commodity options.\n\nThe combination of quartz durability and integrated LED lighting creates a desk that functions as both a workstation and a lit design feature in the reception space.",
-    specs: ["Glossy quartz surface with equipped LED lighting","Manufactured in the USA","Illuminated design feature"],
-    pros: ["Integrated LED lighting built directly into the quartz surface, not an add-on strip","USA manufacturing appeals to buyers prioritizing domestic sourcing","Genuine quartz construction offers premium durability versus laminate"],
-    cons: ["Premium quartz and USA manufacturing likely command a significant price premium","No detailed dimensions or price listed, requiring direct inquiry"],
-    bestFor: "buyers prioritizing glossy quartz surface with equipped led lighting",
+    imageUrl: "https://m.media-amazon.com/images/I/31GRlj3RkDL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H8YTHF2W?tag=deskfinds0d-20",
+    description: "A smooth white stone-textured surface across a clean, rectangular 72-inch silhouette gives this desk a sophisticated look suited to corporate offices, modern lobbies, and boutique clinics. Built-in storage space keeps office essentials organized directly within the desk body rather than requiring a separate cabinet nearby.\n\nThe stone finish is described as durable and stable enough for daily commercial use, and the counter height is set for a receptionist to greet visitors comfortably while handling other tasks. This puts it ahead of laminate-only reception desks that lack any real textured stone surface or dedicated built-in storage.\n\nBest for offices, lobbies, or clinics wanting a minimalist stone-look reception point with real integrated storage, though buyers should confirm exact interior compartment dimensions directly with the listing before ordering.",
+    specs: ["72\" width, white stone-textured top", "Built-in interior storage space", "Comfortable counter height for standing service"],
+    pros: ["Real stone-textured surface, not a flat printed laminate", "Built-in storage keeps the desk area clutter free", "Clean rectangular shape fits corporate and clinic lobbies"],
+    cons: ["Premium stone-look finish carries a correspondingly high price", "Exact interior storage dimensions require checking the listing directly"],
+    bestFor: "offices, corporate lobbies, and clinics wanting a minimalist stone-textured reception desk",
   },
   {
     id: "best-granite-reception-desks-2",
     rank: 2,
-    badge: "Best with Gold Accents",
-    name: "Contemporary Quartz Top Reception Desk with Gold Accents, Black",
-    price: "Check price",
+    badge: "Best Curved Design",
+    name: "Larnavo 78\" Curved Reception Desk with Stone Effect Top",
+    price: "$3,199.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0FSJ2H914?tag=deskfinds0d-20",
-    description: "A glossy quartz surface with gold accent detailing gives this desk a genuinely upscale, spa-industry-specific look, with optional recessed LED lighting adding further polish. Long-lasting construction targets a premium reception point rather than a budget commodity desk.\n\nThe layout is optimized for both work area and storage, balancing the receptionist's functional needs against the desk's glossy, attractive appearance, suited to high-end spa and salon reception areas.",
-    specs: ["Glossy quartz top with gold accents, black finish","Optional recessed LED lighting","Optimized layout for work area and storage"],
-    pros: ["Genuine quartz top offers premium durability and visual appeal versus laminate","Gold accent detailing targets a distinctly upscale spa aesthetic","Optional recessed LED lighting adds further polish without a separate fixture"],
-    cons: ["Premium quartz construction commands a significant price premium","No price or detailed dimensions listed, requiring direct inquiry"],
-    bestFor: "buyers prioritizing glossy quartz top with gold accents, black finish",
+    imageUrl: "https://m.media-amazon.com/images/I/41EooVwYvZL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HDY1KJ7V?tag=deskfinds0d-20",
+    description: "A continuous curved front profile with a white marble-pattern surface and natural grey veining gives this 78-inch desk a fluid, upscale presence suited to boutique hotels, private clinics, and beauty salons. The lower portion rests on a brushed metal frame built to support heavy tabletop displays and daily operational equipment.\n\nThe rounded front distinguishes it from the straight-edge stone-look desk above, trading a boxier corporate look for a softer, hospitality-oriented shape, while both share the same stone-effect surface material and standard counter height for staff comfort.\n\nBest for hospitality and salon settings wanting a rounded, marble-patterned reception point, though the larger curved footprint needs a genuinely spacious layout to fit comfortably.",
+    specs: ["78\" curved front, marble-pattern stone-effect top", "Brushed metal support frame", "Standard counter height for staff use"],
+    pros: ["Curved front profile suits hospitality and salon settings uniquely", "Marble-pattern surface with grey veining looks genuinely upscale", "Brushed metal frame supports heavy countertop equipment"],
+    cons: ["Larger curved footprint needs a genuinely spacious layout", "Premium marble-pattern finish and metal frame command a high price"],
+    bestFor: "boutique hotels, private clinics, and salons wanting a curved marble-pattern reception desk",
   },
   {
     id: "best-granite-reception-desks-3",

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-15";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/41fbRsaaRqL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,17 +21,17 @@ export const products: GuideProduct[] = [
     id: "best-96-inch-reception-desks-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Ten-Foot Reception Desk by David Klenk",
-    price: "Check price",
+    name: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception",
+    price: "$459.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0F1VZ4XWD?tag=deskfinds0d-20",
-    description: "A genuinely 10-foot reception desk built for large lobbies needing substantial counter frontage, this custom-scale piece is sized well beyond the 63-87 inch range common across most commodity reception desks in this category. The extended length suits multi-person staffing or a genuinely imposing corporate entrance statement.\n\nAs a specialty large-format piece, planning delivery logistics and doorway or elevator clearance matters more than with a standard-sized desk, given the substantial 10-foot span.",
-    specs: ["10-foot (120 inch) reception desk","Large-format design for substantial lobbies","Custom-scale construction"],
-    pros: ["Genuinely spans a full 10 feet, well beyond most commodity reception desk lengths","Suits multi-person staffing across the extended counter","Creates a genuinely imposing corporate entrance statement"],
-    cons: ["Requires careful delivery and doorway/elevator clearance planning given its scale","Needs a genuinely spacious lobby to avoid overwhelming the room"],
-    bestFor: "buyers prioritizing 10-foot (120 inch) reception desk",
+    imageUrl: "https://m.media-amazon.com/images/I/41fbRsaaRqL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FVXRTN6W?tag=deskfinds0d-20",
+    description: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception and is built around modern & versatile, positioning it for 96 inch buyers specifically.\n\nALL-IN-ONE STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 96 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["MODERN & VERSATILE","ALL-IN-ONE STORAGE","DUAL SIZE"],
+    pros: ["MODERN & VERSATILE, confirmed directly in the listing's own spec details","ALL-IN-ONE STORAGE, confirmed directly in the listing's own spec details","DUAL SIZE, confirmed directly in the listing's own spec details"],
+    cons: ["At $459.00, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 96 inch",
   },
   {
     id: "best-96-inch-reception-desks-2",
@@ -85,18 +85,19 @@ export const products: GuideProduct[] = [
     id: "best-96-inch-reception-desks-5",
     rank: 5,
     badge: "Best Pine Wood Alternative",
-    name: "Modern 8' Rectangular Pine Wood Reception Desk with Black Laminate Top",
-    price: "Check price",
+    name: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception",
+    price: "$479.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0HDNDT5K6?tag=deskfinds0d-20",
-    description: "This genuinely 8-foot pine wood reception desk pairs solid wood construction with a black laminate top, sized for large lobbies needing substantial counter frontage well beyond the standard 60-72 inch range. The pine wood base offers real material weight versus an all-laminate desk.\n\nDelivery is curbside drop-off only, with no interior delivery service provided, and buyers are responsible for transporting the item themselves and removing all packaging materials, worth planning for given the desk's substantial 8-foot scale.",
-    specs: ["8-foot (96 inch) pine wood reception desk","Black laminate top over solid pine wood base","Curbside drop-off delivery only"],
-    pros: ["Genuine pine wood base construction offers real material substance versus all-laminate alternatives","8-foot length suits large lobbies needing substantial counter frontage","Black laminate top provides a durable, easy-clean working surface"],
-    cons: ["Curbside drop-off only, buyer responsible for interior transport and unpacking","8-foot scale needs a genuinely spacious lobby and careful delivery planning"],
-    bestFor: "buyers prioritizing 8-foot (96 inch) pine wood reception desk",
+    imageUrl: "https://m.media-amazon.com/images/I/41h0JvF5gML._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FHKW7JNB?tag=deskfinds0d-20",
+    description: "L-Shaped Modern Large Wooden Commercial Reception Desk with Counter & Shelves, Front Reception and is built around modern & versatile, positioning it for 96 inch buyers specifically.\n\nALL-IN-ONE STORAGE is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 96 inch, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["MODERN & VERSATILE","ALL-IN-ONE STORAGE","DUAL SIZE"],
+    pros: ["MODERN & VERSATILE, confirmed directly in the listing's own spec details","ALL-IN-ONE STORAGE, confirmed directly in the listing's own spec details","DUAL SIZE, confirmed directly in the listing's own spec details"],
+    cons: ["At $479.00, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 96 inch",
   }
+
 ];
 
 export const howWeEvaluated = [

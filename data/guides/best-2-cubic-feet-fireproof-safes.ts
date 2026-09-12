@@ -101,18 +101,19 @@ export const products: GuideProduct[] = [
     id: "best-2-cubic-feet-fireproof-safes-6",
     rank: 6,
     badge: "Budget Pick",
-    name: "2.2 Cu Ft Steel Security Safe with Fingerprint & Digital Keypad",
-    price: "Check price",
+    name: "2.0 Cub Large Fireproof Safes for Home Use, Digital Security Safe Box Fireproof Waterproof",
+    price: "$99.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0H5MQFK79?tag=deskfinds0d-20",
-    description: "CE-certified alloy steel construction backs this 2.2 cu ft safe, which offers a genuine three-way access system: key, numeric code, or fingerprint, with an external battery backup for power failures, more access flexibility than most competitors in this bracket.\n\nA dual alarm mechanism triggers on multiple failed password attempts or physical impact, and pre-drilled holes with expansion screws support mounting to walls, floors, or shelves for theft deterrence.",
-    specs: ["2.2 cu ft, CE-certified alloy steel","3-way access: key, code, fingerprint","External battery backup for power failures"],
-    pros: ["Three genuinely different access methods (key, code, fingerprint) give real flexibility for different users","Dual alarm triggers on both failed passwords and physical impact","External battery backup specifically addresses power-failure lockout"],
-    cons: ["No independent UL/ETL fire-duration classification cited","Fingerprint sensors add another component that can eventually need maintenance"],
-    bestFor: "buyers prioritizing 2.2 cu ft, ce-certified alloy steel",
+    imageUrl: "https://m.media-amazon.com/images/I/413ZyU3I2ZL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FT6VKTMN?tag=deskfinds0d-20",
+    description: "2.0 Cub Large Fireproof Safes for Home Use, Digital Security Safe Box Fireproof Waterproof and is built around fire safe box for home, positioning it for 2 cubic feet buyers specifically.\n\nALL STEEL STRUCTURE & THICKENED DOOR is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 2 cubic feet, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["FIRE SAFE BOX FOR HOME","ALL STEEL STRUCTURE & THICKENED DOOR","ALARM SYSTEM & ANCHORING DESIGN"],
+    pros: ["FIRE SAFE BOX FOR HOME, confirmed directly in the listing's own spec details","ALL STEEL STRUCTURE & THICKENED DOOR, confirmed directly in the listing's own spec details","ALARM SYSTEM & ANCHORING DESIGN, confirmed directly in the listing's own spec details"],
+    cons: ["At $99.99, worth comparing against similarly specced safes before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 2 cubic feet",
   }
+
 ];
 
 export const howWeEvaluated = [

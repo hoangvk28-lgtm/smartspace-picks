@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-22";
 export const readTime = "12 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/41y3uxz374L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,17 +21,17 @@ export const products: GuideProduct[] = [
     id: "best-drawing-tablets-with-screens-under-90-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Quality Drawing Tablets under $100: Top Picks",
-    price: "See price on Amazon",
+    name: "VEIKK VK1200 V2 Drawing Tablet with Screen,11.6'',16384 Pressure Sentivity",
+    price: "$142.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GRCD1Q7G?tag=deskfinds0d-20",
-    description: "Quality Drawing Tablets under $100: Top Picks is the top pick in this comparison. 10.1-inch full HD screen with anti-glare laminate. Ax3-smart-chip stylus included.\n\nAgainst HUION Drawing Tablet H420X Graphics Tablet with 8192 Level Pen Pressure, the gap isn't in the basics, so the real decision comes down to a specific detail rather than a big capability gap: effortless control with 8 shortcut keys and a wheel.\n\nThis fits best if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Retail pricing on this listing can shift with sales or stock changes, so confirm the current price and availability before buying rather than relying on the figure shown here.",
-    specs: ["10.1-inch full HD screen with anti-glare laminate", "Ax3-smart-chip stylus included", "Bluetooth connectivity"],
-    pros: ["10.1-inch full HD screen with anti-glare laminate", "Ax3-smart-chip stylus included", "Bluetooth connectivity"],
-    cons: ["Verify exact fit and specs against your device before buying", "Compatibility varies by exact model, double-check before ordering"],
-    bestFor: "buyers who want the strongest all-around pick in this comparison and would rather not keep shopping around",
+    imageUrl: "https://m.media-amazon.com/images/I/41y3uxz374L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B08G8CKSWK?tag=deskfinds0d-20",
+    description: "VEIKK VK1200 V2 Drawing Tablet with Screen,11.6'',16384 Pressure Sentivity and is built around full-laminated technology & anti-glare glass:the veikk vk1200, positioning it for under 90 buyers specifically.\n\nTilt Function & 16384-Level Pressure-Sensitive Battery-Free Pen:This is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for under 90, though as with any tablet purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["Full-Laminated Technology & Anti-Glare Glass:The VEIKK VK1200","Tilt Function & 16384-Level Pressure-Sensitive Battery-Free Pen:This","Easy Setup"],
+    pros: ["Full-Laminated Technology & Anti-Glare Glass:The VEIKK VK1200, confirmed directly in the listing's own spec details","Tilt Function & 16384-Level Pressure-Sensitive Battery-Free Pen:This, confirmed directly in the listing's own spec details","Easy Setup, confirmed directly in the listing's own spec details"],
+    cons: ["Currently priced above this guide's original $90 ceiling, screen-equipped drawing tablets have gotten pricier industry-wide, confirm current price before assuming it still fits this budget tier","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for under 90",
   },
   {
     id: "best-drawing-tablets-with-screens-under-90-2",

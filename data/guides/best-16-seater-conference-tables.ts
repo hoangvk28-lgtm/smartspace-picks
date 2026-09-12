@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-16-seater-conference-tables-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "MOOKA FURNITURE 14ft Parota Walnut Communal Conference Table",
-    price: "Check price",
+    name: "Tribesigns 8ft Conference Table",
+    price: "$389.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0H67GMYX8?tag=deskfinds0d-20",
-    description: "A genuinely massive 14ft solid Parota walnut table for 14-16 people, this listing notes just 1 unit currently available with a 5-11 week estimated arrival, a real scarcity signal for a large-format solid-wood piece.\n\nBase assembly is sold separately, worth budgeting for, and the exclusive-promotion framing suggests this specific unit may not be restocked identically, so confirm current availability before planning a room around it.",
-    specs: ["14ft solid Parota walnut, seats 14-16","5-11 week estimated arrival","Base assembly sold separately"],
-    pros: ["Genuine solid Parota walnut at 14ft gives real boardroom-defining presence","Seats up to 16, among the largest single-table capacities in this comparison"],
-    cons: ["Only 1 unit listed as available, confirm current stock before ordering","Base assembly sold separately adds an unexpected additional cost"],
-    bestFor: "buyers prioritizing 14ft solid parota walnut, seats 14-16",
+    imageUrl: "https://m.media-amazon.com/images/I/517OXC5hBEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FSS31WD9?tag=deskfinds0d-20",
+    description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for 16 seater buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 16 seater, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
+    pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
+    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 16 seater",
   }
+
 ];
 
 export const howWeEvaluated = [

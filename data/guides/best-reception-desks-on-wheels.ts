@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-15";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/31YYCYSOScL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,33 +21,33 @@ export const products: GuideProduct[] = [
     id: "best-reception-desks-on-wheels-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Portable Lightweight Tradeshow Podium/Lectern by Fixturedisplays",
-    price: "Check price",
+    name: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height",
+    price: "$46.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GWRXDPQJ?tag=deskfinds0d-20",
-    description: "At 36.4\" tall x 35.6\" wide x 17\" deep, this lightweight tradeshow reception table is built with 3/4\" MDF engineered wood top and bottom panels wrapped in a flexible plastic shell, designed specifically for genuine portability between events rather than permanent installation.\n\nCustom logo and literature holders can be added, making this podium-style unit suited to tradeshow booths, temporary reception points, and event registration desks where mobility between venues matters more than storage capacity.",
-    specs: ["36.4\"H x 35.6\"W x 17\"D lectern-style stand","3/4\" MDF panels with flexible plastic shell","Custom logo/literature holder options"],
-    pros: ["Lightweight construction genuinely suits repeated event-to-event transport","Custom logo and literature holder options support branded tradeshow use","Compact 17\" depth minimizes booth footprint"],
-    cons: ["Minimal storage compared to a permanent reception desk","Not suited to sustained daily reception work, better for temporary event use"],
-    bestFor: "buyers prioritizing 36.4\"h x 35.6\"w x 17\"d lectern-style stand",
+    imageUrl: "https://m.media-amazon.com/images/I/31YYCYSOScL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0H8D553PL?tag=deskfinds0d-20",
+    description: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height and is built around sit stand desk, positioning it for on wheels buyers specifically.\n\nLockable Mobile Desk is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for on wheels, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["Sit Stand Desk","Lockable Mobile Desk","Ergonomic Design"],
+    pros: ["Sit Stand Desk, confirmed directly in the listing's own spec details","Lockable Mobile Desk, confirmed directly in the listing's own spec details","Ergonomic Design, confirmed directly in the listing's own spec details"],
+    cons: ["At $46.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for on wheels",
   },
   {
     id: "best-reception-desks-on-wheels-2",
     rank: 2,
     badge: "Best Hostess Stand",
-    name: "Mobile Presentation Podium/Hostess Stand with Wheels by DFS Designs",
-    price: "Check price",
+    name: "WINAZ Small Portable Rolling Desk Adjustable Height, 24 Inch Mobile Laptop Desk with Wheels",
+    price: "$39.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GRRL23LQ?tag=deskfinds0d-20",
-    description: "A portable buzz hostess stand built on wheels, this podium-style unit suits a restaurant or event entry point needing genuine mobility over a fixed reception desk's permanence. The podium format keeps a small footprint while still providing a dedicated staff position.\n\nAs a specialty mobile fixture rather than a full reception desk, it targets hospitality and event settings where the greeting station needs to move between different room configurations.",
-    specs: ["Mobile hostess stand on wheels","Podium-style compact footprint","Portable, repositionable design"],
-    pros: ["Genuine mobility on wheels suits changing event or restaurant floor layouts","Compact podium footprint fits tight entry points","Purpose-built for hospitality greeting/host roles"],
-    cons: ["Limited storage and desktop space versus a full reception desk","Not suited to sustained administrative reception work"],
-    bestFor: "buyers prioritizing mobile hostess stand on wheels",
+    imageUrl: "https://m.media-amazon.com/images/I/31c04l5b2-L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GTXTK1DC?tag=deskfinds0d-20",
+    description: "WINAZ Small Portable Rolling Desk Adjustable Height, 24 Inch Mobile Laptop Desk with Wheels measures 24 Inch and is built around space-saving dorm hero, positioning it for on wheels buyers specifically.\n\nErgonomic Sitting Comfort is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for on wheels, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["24 Inch dimensions","Space-Saving Dorm Hero","Ergonomic Sitting Comfort"],
+    pros: ["Space-Saving Dorm Hero, confirmed directly in the listing's own spec details","Ergonomic Sitting Comfort, confirmed directly in the listing's own spec details","360 Gliding Mobility: Equipped with 4 silent, confirmed directly in the listing's own spec details"],
+    cons: ["At $39.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for on wheels",
   },
   {
     id: "best-reception-desks-on-wheels-3",

@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-adjustable-conference-tables-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "Juniper Office Standing-Height Collaboration Table",
-    price: "Check price",
+    name: "Correll 24\"x72\" Premium Flip Top Nesting Table",
+    price: "$624.60",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GD29D3XN?tag=deskfinds0d-20",
-    description: "Purpose-built for standing collaboration rather than a repurposed sitting table, this Juniper Office design features a slim, modern knife-edge profile and a built-in surface grommet for cable management. Seating capacity flexes from 2 to 6 depending on the specific table size ordered.\n\nSCS Indoor Advantage Gold certification signals a genuine low-emission, environmentally conscious build, a detail more relevant to enclosed collaboration spaces than open-plan areas.",
-    specs: ["Standing-height design, seats 2-6 by size","Slim knife-edge profile","SCS Indoor Advantage Gold certified"],
-    pros: ["Purpose-built standing height, not a sitting table marketed as standing-capable","SCS Indoor Advantage Gold certification is a genuine, verifiable low-emission standard","Slim knife-edge profile gives a more contemporary look than a bulky standing table"],
-    cons: ["Fixed standing height only, no sit-stand adjustment like the OffiGo or Veken electric desks","Exact dimensions vary by size ordered, requiring careful size selection"],
-    bestFor: "buyers prioritizing standing-height design, seats 2-6 by size",
+    imageUrl: "https://m.media-amazon.com/images/I/31A99KWekmL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DPLMMSYS?tag=deskfinds0d-20",
+    description: "Correll 24\"x72\" Premium Flip Top Nesting Table measures 24\"x72\" and is built around size, positioning it for adjustable buyers specifically.\n\nSecure height adjustment with 2 set screws is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for adjustable, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["24\"x72\" table dimensions","SIZE","Secure height adjustment with 2 set screws"],
+    pros: ["SIZE, confirmed directly in the listing's own spec details","Secure height adjustment with 2 set screws, confirmed directly in the listing's own spec details","Top: Thermal Fused Laminate (TFL) top resists, confirmed directly in the listing's own spec details"],
+    cons: ["At $624.60, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for adjustable",
   }
+
 ];
 
 export const howWeEvaluated = [

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-15";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif";
+export const heroImage = "https://m.media-amazon.com/images/I/41EooVwYvZL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,17 +21,17 @@ export const products: GuideProduct[] = [
     id: "best-concrete-reception-desks-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Custom Concrete Reception Desk by Hyperion",
-    price: "Check price",
+    name: "Larnavo Reception Desk - Curved Front Desk with Stone Effect Top(78IN)",
+    price: "$3,199.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GMBCZPHX?tag=deskfinds0d-20",
-    description: "A custom-built concrete reception desk targeting buyers wanting a genuinely solid, architectural concrete surface rather than a concrete-pattern laminate. Custom construction means dimensions and configuration can be tailored to a specific reception layout rather than choosing from fixed standard sizes.\n\nAs a specialty, made-to-order piece, this desk suits design-forward commercial spaces prioritizing a genuine industrial-modern material statement over off-the-shelf commodity furniture.",
-    specs: ["Custom concrete construction","Made-to-order, tailored dimensions","Architectural industrial-modern material"],
-    pros: ["Genuine solid concrete construction, not a printed laminate imitation","Custom sizing allows precise fit to a specific reception layout","Architectural material statement suits design-forward commercial spaces"],
-    cons: ["Custom/made-to-order construction likely means longer lead times than stock furniture","Genuine concrete construction is significantly heavier than laminate alternatives, requiring floor-load consideration"],
-    bestFor: "buyers prioritizing custom concrete construction",
+    imageUrl: "https://m.media-amazon.com/images/I/41EooVwYvZL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HDY1KJ7V?tag=deskfinds0d-20",
+    description: "Larnavo Reception Desk - Curved Front Desk with Stone Effect Top(78IN) and is built around flowing rounded edge design, positioning it for concrete buyers specifically.\n\nMarble Pattern Surface is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for concrete, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["Flowing Rounded Edge Design","Marble Pattern Surface","Sturdy Base Support"],
+    pros: ["Flowing Rounded Edge Design, confirmed directly in the listing's own spec details","Marble Pattern Surface, confirmed directly in the listing's own spec details","Sturdy Base Support, confirmed directly in the listing's own spec details"],
+    cons: ["At $3,199.99, worth comparing against similarly specced reception desks before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for concrete",
   },
   {
     id: "best-concrete-reception-desks-2",

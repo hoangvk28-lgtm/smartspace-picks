@@ -133,18 +133,19 @@ export const products: GuideProduct[] = [
     id: "best-8-person-conference-tables-8",
     rank: 8,
     badge: "Budget Pick",
-    name: "Giantexus 94.5\"x48\" Conference Table for 8-10",
-    price: "Check price",
+    name: "Tribesigns 8ft Conference Table",
+    price: "$389.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GNX21J9P?tag=deskfinds0d-20",
-    description: "A rust-resistant metal frame on six legs with adjustable foot pads supports this 94.5\"x48\" table, giving it more structural points of contact than a standard four-leg design at this length. Two cable grommets manage wire clutter for tech-heavy meetings.\n\nGiantexus positions this as versatile beyond the boardroom, workshops, classrooms, and conventions, and the simple-to-clean surface keeps maintenance low for high-traffic use.",
-    specs: ["94.5\"x48\" top, seats 8-10","6 legs, adjustable foot pads","Rust-resistant metal frame, 2 cable grommets"],
-    pros: ["Six-leg frame with adjustable foot pads gives more stability points than a standard four-leg table at this length","Rust-resistant coating adds durability beyond basic metal legs","Versatile enough for classrooms and conventions, not just boardrooms"],
-    cons: ["No integrated power outlet, cable grommets only","Modern styling may read too casual for a formal executive boardroom"],
-    bestFor: "buyers prioritizing 94.5\"x48\" top, seats 8-10",
+    imageUrl: "https://m.media-amazon.com/images/I/517OXC5hBEL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FSS31WD9?tag=deskfinds0d-20",
+    description: "Tribesigns 8ft Conference Table measures 8ft and is built around spacious 8-10 person capacity, positioning it for 8 person buyers specifically.\n\nElegant Walnut & Black Aesthetic is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for 8 person, though as with any furniture purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["8ft table dimensions","Spacious 8-10 Person Capacity","Elegant Walnut & Black Aesthetic"],
+    pros: ["Spacious 8-10 Person Capacity, confirmed directly in the listing's own spec details","Elegant Walnut & Black Aesthetic, confirmed directly in the listing's own spec details","Integrated Cable Management, confirmed directly in the listing's own spec details"],
+    cons: ["At $389.99, worth comparing against similarly sized tables before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for 8 person",
   }
+
 ];
 
 export const howWeEvaluated = [

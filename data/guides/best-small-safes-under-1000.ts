@@ -117,18 +117,19 @@ export const products: GuideProduct[] = [
     id: "best-small-safes-under-1000-7",
     rank: 7,
     badge: "Great Alternative",
-    name: "Fireproof Safe with Digital Lock",
-    price: "See price on Amazon",
+    name: "SentrySafe Fireproof Safe Box with Key Lock, Chest Safe with Carrying Handle to Secure Money,",
+    price: "Check price",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GR9CNW4G?tag=deskfinds0d-20",
-    description: "Fireproof Safe with Digital Lock is a strong alternative worth comparing directly against the top pick. Fire-resistant certified by us etl for 1 hour. Robust anti-theft protection.\n\nAgainst TIGERKING 3.47 Cu Ft Fireproof Safe for Home Office, the gap isn't in the basics, so the real decision comes down to a specific detail rather than a big capability gap: spacious fireproof home safe.\n\nGo with this pick if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Retail pricing on this listing can shift with sales or stock changes, so confirm the current price and availability before buying rather than relying on the figure shown here.",
-    specs: ["Fire-resistant certified by us etl for 1 hour", "Robust anti-theft protection", "Spacious fireproof home safe"],
-    pros: ["Fire-resistant certified by us etl for 1 hour", "Robust anti-theft protection", "Spacious fireproof home safe"],
-    cons: ["Verify exact fit and specs against your device before buying", "Compatibility varies by exact model, double-check before ordering"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+    imageUrl: "https://m.media-amazon.com/images/I/41M7+ORMEuL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
+    description: "SentrySafe Fireproof Safe Box with Key Lock, Chest Safe with Carrying Handle to Secure Money, measures 6.3 x 15.3 x 12.1 and is built around fire resistant box, positioning it for small under 1000 buyers specifically.\n\nADVANCED FIRE PROTECTION is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for small under 1000, though as with any security purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["6.3 x 15.3 x 12.1 dimensions","FIRE RESISTANT BOX","ADVANCED FIRE PROTECTION"],
+    pros: ["FIRE RESISTANT BOX, confirmed directly in the listing's own spec details","ADVANCED FIRE PROTECTION, confirmed directly in the listing's own spec details","KEY LOCK, confirmed directly in the listing's own spec details"],
+    cons: ["Price not listed, requiring a direct check on the current Amazon listing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for small under 1000",
   }
+
 ];
 
 export const howWeEvaluated = [

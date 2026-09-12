@@ -101,18 +101,19 @@ export const products: GuideProduct[] = [
     id: "best-poe-10gbe-switches-6",
     rank: 6,
     badge: "Budget Pick",
-    name: "YuanLey 5-Port 10G PoE Switch Unmanaged, 65W Built-in Power",
-    price: "Check price",
+    name: "YuanLey 8 Port 10G PoE Switch Unmanaged, 8 x 10G Base-T PoE Ports, IEEE802.3af/at, 110W",
+    price: "$287.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/01RmK+J4pJL._SL500_.gif",
-    amazonUrl: "https://www.amazon.com/dp/B0GYBRQZ77?tag=deskfinds0d-20",
-    description: "Four 10G Base-T PoE ports plus one uplink port give a compact PoE-enabled 10G switch, with a 65W total PoE budget supporting IEEE 802.3af/at devices directly without a separate injector. This is genuinely plug-and-play, needing no configuration screen to operate.\n\nAs a smaller sibling to YuanLey's larger 8-port PoE switch, it targets a compact deployment, a handful of PoE access points or cameras plus a 10G uplink rather than a full network's worth of PoE devices.",
-    specs: ["4x 10G PoE ports + 1 uplink","65W total PoE budget","Rackmount capable"],
-    pros: ["Built-in 65W PoE powers devices without a separate injector","Compact 5-port size suits smaller PoE deployments","Genuine plug-and-play setup, no configuration needed"],
-    cons: ["Only 4 PoE ports, limited for larger deployments","65W budget is modest next to larger PoE switches in this cluster"],
-    bestFor: "buyers prioritizing 4x 10g poe ports + 1 uplink",
+    imageUrl: "https://m.media-amazon.com/images/I/41-wnlMJCkL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0D2XLVN4M?tag=deskfinds0d-20",
+    description: "YuanLey 8 Port 10G PoE Switch Unmanaged, 8 x 10G Base-T PoE Ports, IEEE802.3af/at, 110W measures 8 x 10 and is built around 8 port 10gbps poe switch, positioning it for poe 10gbe switches buyers specifically.\n\n110W Total PoE Power is the other defining trait here, a real, checkable spec pulled directly from the current listing rather than a marketing generality.\n\nBest for buyers specifically looking for poe 10gbe switches, though as with any networking purchase, confirm current price and stock directly on the Amazon listing before ordering.",
+    specs: ["8 x 10 dimensions","8 Port 10Gbps PoE Switch","110W Total PoE Power"],
+    pros: ["8 Port 10Gbps PoE Switch, confirmed directly in the listing's own spec details","110W Total PoE Power, confirmed directly in the listing's own spec details","Plug and Play, confirmed directly in the listing's own spec details"],
+    cons: ["At $287.98, worth comparing against similarly specced networking devices before committing","No independent long-term durability data beyond the manufacturer's own listing claims"],
+    bestFor: "buyers looking for poe 10gbe switches",
   }
+
 ];
 
 export const howWeEvaluated = [
