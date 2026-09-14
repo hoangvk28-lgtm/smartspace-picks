@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41fyho-2g3L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$75.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41fyho-2g3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8CZB5S7?tag=deskfinds0d-20",
     description: "This enclosure's certified Intel JHL7440 chip provides dual-chip stability for true USB4 support, a genuinely different chip choice from the ASM2464PD used in the lower tier, specifically engineered for reliable Thunderbolt 4 and Thunderbolt 3 compatibility. Its built-in cooling fan with precision-engineered heat dissipation holes is specifically designed to prevent thermal throttling during heavy workloads.\n\nCompared to the ICY BOX pick below, this one delivers tested read and write speeds up to 2805/2734 MB/s verified with a Samsung 980 Pro on MacBook, giving you a real-world benchmark rather than just a theoretical maximum. Its compact, rugged design specifically targets professional users needing high-capacity drives like the Samsung 990 Pro 4TB for demanding workstation use.\n\nBest for buyers who want an Intel-certified chip with active cooling for professional workloads.",
     specs: ["40Gbps, Intel JHL7440 chip, active fan cooling", "Tested 2805/2734 MB/s read/write", "Supports high-capacity professional drives"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410oCxpOnqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1THCT9G?tag=deskfinds0d-20",
     description: "This enclosure comes from ICY BOX, a brand with a stated 26-year German engineering history in storage products, backed by a 24-month warranty with lifetime expert support. Its heatsink-style aluminum body paired with a thermal pad transfers heat away from the SSD during heavy use, keeping temperatures stable during long transfers.\n\nCompared to the ACASIS pick above, this one uses a completely fanless design, operating silently through passive heat dissipation alone while still supporting the same broad range of M.2 NVMe SSD sizes from 2230 to 2280. It transfers 10GB in under 7 seconds, a specific benchmark figure that gives you a concrete performance expectation.\n\nBest for buyers who want an established German engineering brand with silent fanless operation.",
     specs: ["40Gbps, ASM2464PD chip, fanless design", "10GB transfer in under 7 seconds", "26-year brand history, 24-month warranty"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$71.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZghIdQFvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FCMSYS6Z?tag=deskfinds0d-20",
     description: "This enclosure's dual-sided aluminum fins provide silent passive cooling with zero moving parts and no fan failure risk, making it specifically well suited for recording studios, quiet offices, and overnight backups where noise matters. It uses the same certified Intel JHL7440 chip as the pricier ACASIS pick above, delivering the same real-world performance in a fanless design.\n\nCompared to the ICY BOX pick, this one is compatible with Thunderbolt 5 in addition to Thunderbolt 4/3 and USB4, future-proofing your purchase against newer Thunderbolt 5 hosts as they become more common. Its compact, pocket-sized design fits easily in a laptop bag for travel-friendly professional use.\n\nBest for buyers who want the same Intel-certified chip as the pricier ACASIS pick with zero fan noise.",
     specs: ["40Gbps, Intel JHL7440 chip, fanless aluminum fins", "Thunderbolt 5/4/3 and USB4 compatible", "Zero moving parts, no fan failure risk"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41JHbCBZxkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F62NG7K3?tag=deskfinds0d-20",
     description: "This enclosure's unique double-sided fin design paired with a three-dimensional cooling system delivers several times the heat dissipation efficiency of standard structures, ensuring quiet operation without fan noise or lifespan concerns. Its ASM2464PD chip reaches a maximum speed of 3600MB/s when paired with a genuine Thunderbolt 4 cable and device.\n\nCompared to the ICY BOX and Aluminum Fins ACASIS picks, this one is the cheapest in this tier while still supporting drives up to 8TB across the standard 2230-2280 size range. Its ultra-slim, portable aluminum design makes it easy to carry alongside a laptop for travel.\n\nBest for buyers who want efficient passive cooling and high-speed transfers at the lowest price in this tier.",
     specs: ["40Gbps, ASM2464PD chip, double-sided fin cooling", "Up to 3600MB/s with Thunderbolt 4", "8TB support, ultra-slim design"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/317t71geL6L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$149.95",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/317t71geL6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H7J7S859?tag=deskfinds0d-20",
     description: "This pad's QuietClimb 8% incline system is specifically upgraded to turn daily walking into a more effective workout while keeping noise under 45 dB, supporting up to 265 lbs on its 2.5HP motor. Its 15 x 35.4 inch belt uses 6-layer shock absorption to reduce joint impact during extended sessions.\n\nCompared to the LONTEK pick below, this one focuses on a simpler, single fixed incline rather than multiple selectable levels, trading incline flexibility for a more compact, streamlined design. The 1.0-4.0 MPH speed range keeps pace options focused on walking rather than jogging.\n\nBest for buyers who want a quiet, upgraded incline system in the most compact frame in this tier.",
     specs: ["8% incline, 15in x 35.4in belt", "2.5HP motor, under 45 dB", "1.0-4.0 MPH, 265 lb capacity"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$129.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rg0740FuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HDSSGJGP?tag=deskfinds0d-20",
     description: "This pad's 3 walking levels, flat, 10% incline via flip-out legs, or 15% incline via included red pads under the front legs, give you genuine manual incline flexibility not found on the fixed-incline QuietClimb pick above. Its 3.0HP brushless motor supports up to 350 lbs, the highest capacity in this comparison.\n\nCompared to the QuietClimb pick, this one requires manually adjusting the incline setup rather than a built-in switch, a real tradeoff between flexibility and convenience. A removable phone or pad holder and a recessed slot for the remote round out its practical design touches.\n\nBest for buyers who want manual multi-level incline flexibility with the highest weight capacity.",
     specs: ["3 incline levels: flat, 10%, 15%", "3.0HP brushless motor, 350 lb capacity", "37.4in x 15in belt, side impact strips"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$169.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410Vo64H2jL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G4WBQ31F?tag=deskfinds0d-20",
     description: "This pad's app connectivity synchronizes motion data in real time, letting you run competitions with friends and access more scientific exercise tracking than the non-app picks in this comparison. Its 10% manual incline simulates real hill climbing to boost fat-burning, and a 2.5HP motor delivers a 0.6-6.2 MPH speed range, the widest range in this tier.\n\nCompared to the LONTEK pick, this one supports slightly less weight at 300 lbs but adds 7 layers of anti-slip belt cushioning plus 6 silicone shock absorbers and 2 rubber pads, more cushioning components than any other pick here. It includes 24/7 customer service with a 2-year protection plan.\n\nBest for buyers who want app-based workout tracking with the widest speed range.",
     specs: ["10% manual incline, 40in x 16in belt", "2.5HP motor, 0.6-6.2 MPH", "300 lb capacity, app connectivity"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$111.10",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41gHcXEF4zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HHDQ966M?tag=deskfinds0d-20",
     description: "This pad's side rails support you from any position, front, middle, or back, rather than the restrictive front-only handle bars on the LONTEK or Acezoe picks, a genuinely different stability approach. Its 6% incline is stated to boost calorie burn by 30% in the same 30-minute session compared to flat walking.\n\nCompared to the other three picks in this tier, this one is the cheapest by a meaningful margin while still supporting up to 300 lbs on a reinforced alloy steel frame. It sets up in seconds with no tools or assembly, and pairs with the PitPat App for tracking metrics.\n\nBest for buyers who want the lowest price in this tier with flexible side-rail support.",
     specs: ["6% incline, side rail support", "2.5HP motor, under 45 dB", "300 lb capacity, PitPat App compatible"],

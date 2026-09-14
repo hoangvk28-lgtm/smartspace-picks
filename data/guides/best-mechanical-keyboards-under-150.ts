@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41FBNsAaL4L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41FBNsAaL4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LK1P1RD?tag=deskfinds0d-20",
     description: "This board's low-profile mechanical switches deliver a tactile bump with noticeably less noise than a standard-height mechanical switch, specifically engineered for office environments where typing sound matters. Its smart illumination automatically lights up as your hands approach and adjusts to ambient lighting conditions, a genuinely convenient touch none of the other picks in this comparison offer.\n\nCompared to the Keychron picks below, this one is built around Logitech's broader ecosystem, supporting Flow for seamless cross-computer control and multi-device pairing through Logi Options+. USB-C quick charging keeps the board powered up to 15 days with backlighting on, or up to 10 months with it off.\n\nBest for buyers who want low-profile quiet switches with automatic smart illumination and cross-device Flow support.",
     specs: ["Low-profile tactile switches, smart illumination", "Up to 15 days battery with backlight, 10 months without", "Logi Options+ software, Flow cross-computer control"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$119.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Z0vx-o7JL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWLXBJPM?tag=deskfinds0d-20",
     description: "This board's interactive LED dot-matrix display paired with a physical dial lets you adjust report rate, volume, and brightness without leaving your game, a genuinely unique on-board control feature not found on any other pick in this comparison. Its 8kHz report rate delivers near-instantaneous responsiveness for competitive play, while hot-swappable switches let you customize feel without soldering.\n\nCompared to the Logitech MX Mechanical pick above, this one prioritizes gaming performance and customization over quiet office use, with a gasket-mounted structure using sound-dampening silicone and foam layers for a refined yet still audible typing experience. Its space-saving 98% layout retains a full number pad in a more compact footprint than a traditional full-size board.\n\nBest for buyers who want on-board display controls with hot-swappable competitive gaming performance.",
     specs: ["98% layout, 8kHz report rate, hot-swappable", "LED dot-matrix display, control dial", "Gasket-mounted, sound-dampening foam"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$119.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31Mho+ADAoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D62XJCYP?tag=deskfinds0d-20",
     description: "This board's advanced IXPE acoustic foam paired with resilient EPDM foam for switch support represents a more sophisticated dual-foam acoustic engineering approach than the single-foam-layer designs found in lower tiers, working alongside a steel plate for both responsive feedback and a genuinely quieter typing sound. Its 108-key 100% layout supports full QMK firmware plus the Keychron Launcher web app for complete key remapping.\n\nCompared to the Logitech G316 X pick above, this one connects via 2.4GHz, Bluetooth, or wired at a 1000Hz polling rate rather than pursuing an 8kHz report rate, positioning it more toward productivity and general use than pure competitive gaming. Pre-lubed tactile brown switches are hot-swappable with nearly any 3-pin or 5-pin MX-style switch.\n\nBest for buyers who want the most sophisticated acoustic foam engineering with full QMK customization.",
     specs: ["108 keys, 100% layout, dual-foam acoustic design", "QMK and Keychron Launcher programmable", "2.4GHz, Bluetooth, wired connectivity"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$104.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31YbNgziu0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR165Y3J?tag=deskfinds0d-20",
     description: "This board's compact 96% layout retains a full number pad while saving desk space compared to the 100% layout Keychron K10 Max pick above, and its upgraded MCU alongside gasket design and sound-absorbing foam deliver all-around typing comfort at a meaningfully lower price than the other three picks in this tier. Both 2.4GHz wireless and wired connections support a 1000Hz polling rate.\n\nCompared to the K10 Max, this one costs about $15 less while still offering full QMK programmability through the Keychron Launcher web app and hot-swap support for nearly any 3-pin or 5-pin MX-style switch on the market. OSA profile double-shot PBT keycaps provide excellent oil resistance and prevent legend fading over time.\n\nBest for buyers who want QMK programmability and gasket-mount comfort at the lowest price in this tier.",
     specs: ["96% layout, gasket design, hot-swappable", "QMK and Keychron Launcher programmable", "2.4GHz and Bluetooth 5.1 connectivity"],

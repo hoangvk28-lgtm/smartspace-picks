@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41mRfxzGifL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mRfxzGifL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP9GYKVX?tag=deskfinds0d-20",
     description: "This enclosure's JHL9480 chip delivers actual theoretical test speeds up to 7000MB/s when paired with genuine Thunderbolt 5 hardware, the highest stated speed figure in this comparison. Its aluminum construction paired with a built-in cooling fan that activates specifically at 40 degrees Celsius provides extreme heat dissipation for sustained high-speed transfers.\n\nCompared to the ACASIS pick below, this one specifically notes that Thunderbolt 3 compatibility requires macOS 15 or higher, a detail worth checking against your specific operating system version before purchase. Its ultra-slim design with an included silicone case makes it durable yet portable for travel alongside its 8TB capacity support.\n\nBest for buyers who want the highest stated speed figure with genuine active cooling.",
     specs: ["80Gbps, JHL9480 chip, up to 7000MB/s", "Active cooling fan, activates at 40C", "8TB support, silicone travel case included"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41bs9VykurL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPQN5RBS?tag=deskfinds0d-20",
     description: "This enclosure's Intel JHL9480 controller delivers sequential speeds over 6,300MB/s write and 5,900MB/s read via Thunderbolt 5, achieved through a completely fanless design using an internal copper plate to dissipate heat from the SSD. Its Realtek RTD9210 chip specifically provides backward compatibility with Thunderbolt 4/3 and USB4, ensuring broad connectivity.\n\nCompared to the UGREEN pick above, this one skips the fan entirely in favor of a sleek, grooved aluminum body that stays cool through passive design alone, a genuinely silent alternative for buyers prioritizing quiet operation. It supports both PCIe Gen 5 and Gen 4 NVMe M.2 SSDs, and includes a screwdriver, thermal pads, and a velvet drawstring gift bag in the package.\n\nBest for buyers who want genuine 80Gbps speed with completely fanless, silent operation.",
     specs: ["80Gbps, Intel JHL9480 + Realtek RTD9210, fanless", "6,300MB/s write, 5,900MB/s read", "PCIe Gen 5 and Gen 4 support, includes accessories"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$151.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41LWoUFub-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FWC16GK6?tag=deskfinds0d-20",
     description: "This enclosure's LCD screen displays real-time temperature readings categorized as Normal, Medium, or High alongside fan speed, a genuinely unique visual monitoring feature none of the other picks in this comparison offer. Its Intel JHL9480 plus RTL9210B chipset combination transfers 100GB of data in 15 seconds, 6 to 7 times faster than a 10Gbps SSD reader.\n\nCompared to the Qwiizlab pick above, this one uses an active 3-speed fan system (Low/Medium/High) rather than fully passive cooling, actively preventing thermal throttling during intensive workloads while giving you visual confirmation of exactly how hard the cooling system is working. Universal compatibility spans Thunderbolt 5/4/3 and USB4/3.2/3.1/3.0/2.0 across both Mac and Windows systems.\n\nBest for buyers who specifically want real-time visual status monitoring during transfers.",
     specs: ["80Gbps, Intel JHL9480 + RTL9210B, LCD display", "3-speed active fan (Low/Medium/High)", "100GB transfer in 15 seconds"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$149.61",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415akCu3nZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXF5SV2L?tag=deskfinds0d-20",
     description: "This enclosure's smart cooling fan specifically auto-starts at 55 degrees Celsius and stops at 40 degrees, a more precise and slightly higher activation threshold than the UGREEN pick's 40-degree trigger, balancing quiet operation with adequate cooling response. Its JHL9480 chip supports PCIe 5.0 SSDs with read and write speeds up to 6000 MB/s for content creators and professionals handling data-heavy tasks.\n\nCompared to the other three picks, this one is the cheapest in this tier while still delivering genuine 80Gbps USB4 V2.0 support, though the listing specifically notes it is not compatible with Thunderbolt 3 devices, a real limitation to check against your hardware. Manual fan override is available by pressing and holding the switch for 1 second if you want to force active cooling proactively.\n\nBest for buyers who want genuine 80Gbps speed at the lowest price in this tier.",
     specs: ["80Gbps, JHL9480 chip, USB4 V2.0", "Auto fan: starts 55C, stops 40C", "Up to 6000 MB/s, manual fan override"],

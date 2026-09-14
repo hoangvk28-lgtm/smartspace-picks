@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/414YSqywoKL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$74.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414YSqywoKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G24KLD4V?tag=deskfinds0d-20",
     description: "This board's 8000Hz polling rate delivers near-zero latency, a stated 8 times faster response than standard keyboards, and its gasket-mounted design paired with sound-absorbing foam creates the 'thocky' sound profile enthusiasts specifically seek out. Hot-swappable factory-lubricated Keychron Super switches deliver smooth, consistent presses right out of the box.\n\nCompared to the Keychron V3 pick below, this one uses a more compact 75% layout that retains function and arrow keys while saving desk space, whereas the V3 opts for the slightly larger 80% TKL footprint. QMK support through the Keychron Launcher web app lets you remap keys and program the metal knob without installing separate software.\n\nBest for buyers who want the highest polling rate with a space-saving 75% layout.",
     specs: ["75% layout, 8000Hz polling, hot-swappable", "Gasket-mount, sound-absorbing foam", "QMK programmable via web launcher"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$74.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Zz6iwL0sL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJ6943DQ?tag=deskfinds0d-20",
     description: "This board matches the V1's 8000Hz polling rate and hot-swap support while using an 80% tenkeyless layout that retains dedicated editing keys alongside the arrow keys, a layout preference some typists favor over the more compact 75%. Its tactile banana switches offer a different feel profile from the V1's linear brown switches, giving buyers a genuine choice between switch feels at the same price.\n\nCompared to the Keychron V1 pick, this one requires an Intel i7 9th generation or AMD Ryzen 7 2nd generation processor or above to fully utilize the 8000Hz polling rate, a specific hardware requirement worth checking against your system. The 22+ customizable RGB backlights pair with oil-resistant PBT keycaps for long-term visual consistency.\n\nBest for buyers who prefer a TKL layout with dedicated editing keys and tactile switches.",
     specs: ["80% TKL layout, 8000Hz polling, hot-swappable", "Tactile banana switches", "22+ customizable RGB backlights"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41gvYA4qsmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14N2QZF?tag=deskfinds0d-20",
     description: "This board's tri-mode connectivity spans Bluetooth 5.0, 2.4GHz wireless, and USB wired, connecting up to 5 devices simultaneously with quick switching, more device flexibility than the wired-only Keychron picks above. Its multi-function control knob switches between gaming mode, adjusting RGB brightness, and office mode, adjusting media volume, with a long press toggling between the two.\n\nCompared to the Keychron V1 and V3 picks, this one trades the 8000Hz polling rate and QMK programmability for genuine wireless freedom and a 4000mAh battery for extended cordless use. Pre-lubricated stabilizers and LEOBOG reaper switches provide the smooth typing feel and 'creamy' sound this board is specifically marketed around.\n\nBest for buyers who want genuine wireless flexibility with a dual-mode control knob.",
     specs: ["75% layout, tri-mode wireless, hot-swappable", "4000mAh battery, multi-function knob", "16.8 million RGB colors, 16 preset effects"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31hUfgJWI9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Z7J4KV3?tag=deskfinds0d-20",
     description: "This board's black-brushed aluminum-magnesium alloy top case provides a robust body with minimal flex, a genuine premium material choice distinct from the plastic cases on the other picks in this comparison. Heat- and wear-resistant PBT keycaps are specifically called out as the most durable keycap material used in the industry.\n\nCompared to the AULA F75 Pro pick, this one is the cheapest in this tier while trading wireless connectivity and hot-swap support for a simpler, more traditional tactile mechanical switch design with 6-key rollover anti-ghosting. Twelve function keys provide dedicated media controls without needing a secondary function layer.\n\nBest for buyers who want a genuine aluminum build at the lowest price in this tier.",
     specs: ["TKL layout, tactile switches, aluminum top case", "PBT keycaps, 6-key rollover anti-ghosting", "12 dedicated FN media control keys"],

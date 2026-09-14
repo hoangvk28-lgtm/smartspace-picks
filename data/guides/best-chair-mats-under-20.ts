@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61vJ8pXqLoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ZDNb22h7L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$18.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61vJ8pXqLoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZDNb22h7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1RNTLF2?tag=deskfinds0d-20",
     description: "This mat's rattan-like woven top surface is a genuine design departure from the plain clear PVC look of the other picks in this comparison, giving it a more finished appearance suited to visible home office spaces. Its rubber anti-slip backing delivers strong grip on hard floors including vinyl, stone, tile, wood, laminate, and concrete.\n\nCompared to the GORILLA GRIP pick below, this one adds waterproof and oil-resistant properties along with noise reduction from chair wheel movement, a detail useful in shared living spaces where quiet matters. At 36 by 48 inches, it covers a standard single-chair rolling area.\n\nBest for buyers who want a mat that looks intentional rather than purely functional in a visible space.",
     specs: ["36in x 48in, woven top surface", "Rubber anti-slip backing", "Waterproof, oil-resistant, noise-reducing"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GsmHV83OL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJ7D1YRW?tag=deskfinds0d-20",
     description: "This mat's low profile design with reinforced edges specifically resists fraying, curling, and cracking over time, a durability detail backed by third-party scratch and crack resistance testing. Its slim construction lets chairs glide smoothly across the flat, seamless border without the mat shifting underfoot.\n\nCompared to the Wansimoo pick above, this one is 100 percent waterproof on its woven topside while trading the rattan aesthetic for a simpler black finish at 45 by 28 inches, a smaller footprint that suits tighter desk arrangements. The stain-resistant surface wipes clean quickly after spills.\n\nBest for buyers who specifically want third-party tested scratch and crack resistance.",
     specs: ["45in x 28in, low profile reinforced edges", "Third-party tested scratch and crack resistant", "100 percent waterproof woven topside"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$23.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/517k2eNhAvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SBVXQ7B?tag=deskfinds0d-20",
     description: "This mat's dual-sided design has a smooth bottom for placement stability and a grinding top surface that lets a rolling chair move easily without slipping, a genuine two-way approach the single-surface picks in this comparison don't offer. Its fully clear PVC construction lets the wood or texture flooring underneath show through completely.\n\nCompared to the GORILLA GRIP pick above, this one skips the opaque woven look entirely in favor of transparency, appealing to buyers who specifically want their existing floor visible rather than covered by a patterned mat. At 30 by 48 inches, it's sized for a compact single-chair area.\n\nBest for buyers who specifically want their hardwood or tile floor visible beneath the mat.",
     specs: ["30in x 48in, clear PVC construction", "Smooth bottom, textured grip top surface", "Suitable for wood, laminate, stone, tile, concrete"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$25.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k8m3qXqrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414FROmaZML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FCDNGYB?tag=deskfinds0d-20",
     description: "This mat's 36 by 48 inch clear PVC surface matches the Wansimoo pick's coverage area while staying fully transparent, giving you a larger rolling radius than the compact Azadx pick without sacrificing floor visibility. Its durable PVC construction is built to resist scratches, scuffs, and discoloration without curling or cracking under normal daily use.\n\nCompared to the other three picks, this one is explicitly designed only for hard floors like wood, tile, or vinyl, with the listing specifically warning against carpet use, a restriction shared across this entire tier. The smooth gliding surface reduces leg and back strain during long work sessions.\n\nBest for buyers who want the largest clear coverage area in this tier.",
     specs: ["36in x 48in, clear PVC, hard floors only", "Smooth gliding surface", "Resists scratches, scuffs, discoloration"],

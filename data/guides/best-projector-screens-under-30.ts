@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Tix-q+A6S._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$24.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Tix-q+A6S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07FB6VW1M?tag=deskfinds0d-20",
     description: "This screen's 120 inch diagonal offers a 104 by 58 inch viewing area, the largest in this comparison, made from natural polyester fabric that's specifically thickened and smooth to avoid wrinkling when folded or crushed. Its anti-crease, high-absorbance material delivers sharper and brighter projection than typical budget fabric screens.\n\nCompared to the AAJK pick below, this one supports double-sided projection, letting you project from either the front or rear depending on your setup constraints. The compact one-piece folding design fits into a backpack or suitcase for portable use across home theater, office, or outdoor settings.\n\nBest for buyers who want the largest viewing area with double-sided projection support.",
     specs: ["120in diagonal, 104in x 58in viewing area", "Natural polyester, anti-crease material", "Double-sided projection support"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$21.28",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51nyrjdbd5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09339X99P?tag=deskfinds0d-20",
     description: "This screen's white, soft-touch material is specifically washable by hand or in a washing machine, a genuine maintenance advantage over screens that only recommend spot-cleaning. Its 89 by 50 inch viewing area with a 160 degree wide viewing angle delivers a nontransparent, crease-free surface for brighter colors.\n\nCompared to the Mdbebbron pick above, this one is cheaper while offering machine-washable fabric, a real convenience if the screen gets dusty or dirty during outdoor use. It fastens easily with hooks, brackets, nails, or double-sided tape depending on your specific mounting surface.\n\nBest for buyers who want genuinely machine-washable fabric at a lower price.",
     specs: ["100in diagonal, 89in x 50in viewing area", "Machine-washable white fabric", "160 degree wide viewing angle"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$18.58",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51M494AQBZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKMPKDLQ?tag=deskfinds0d-20",
     description: "This screen shares the same washable, thickened fabric construction as the larger AAJK pick above, scaled down to a 75 by 44 inch viewing area at 80 inches diagonal, making it the more affordable option in this tier while retaining the same quality construction. Its 160 degree wide viewing angle matches the larger AAJK pick's coverage.\n\nCompared to the 100 inch AAJK pick, this one costs meaningfully less while sacrificing some viewing area, a reasonable tradeoff for smaller rooms or more casual, occasional use. The lightweight, foldable design fits into a backpack or suitcase for portability.\n\nBest for buyers with smaller rooms who want the same washable quality at a lower price.",
     specs: ["80in diagonal, 75in x 44in viewing area", "Machine-washable white fabric", "160 degree wide viewing angle"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$11.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51cts2wVGAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BLBRW9N?tag=deskfinds0d-20",
     description: "This screen's high-density polyester construction is specifically designed for casual, temporary setups rather than dedicated home theater use, and the listing transparently states it's thin and lightweight rather than a thick, heavy-duty professional screen. Included ropes, hooks, and double-sided tape provide multiple mounting options depending on your wall surface.\n\nCompared to the AAJK picks in this comparison, this one is the cheapest by a meaningful margin while still delivering a 100 inch diagonal screen for camping trips, backyard movie nights, or temporary setups. The listing honestly notes creases are normal upon arrival and provides specific removal guidance.\n\nBest for buyers who want the lowest possible price for occasional, casual projection use.",
     specs: ["100in diagonal, high-density polyester", "Ropes, hooks, double-sided tape included", "Lightweight, backpack-portable folding design"],

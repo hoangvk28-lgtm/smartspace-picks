@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41XhHxmIEZL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$88.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XhHxmIEZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPYQPCVP?tag=deskfinds0d-20",
     description: "This enclosure's tiered warranty structure offers 2 years of coverage on the enclosure itself or 3 years when purchased as a complete solution with an OWC SSD, a genuinely flexible warranty approach none of the other picks in this comparison structure the same way. Its patented heat-dissipating design specifically offers rugged protection while silently keeping the drive cool for consistent top speed, delivering up to 3836MB/s real-world performance.\n\nCompared to the Lexar pick below, this one includes both the 40Gb/s USB-C cable and a screwdriver for enclosure assembly in the box, a complete accessory package that saves you from needing separate tools. Its palm-sized, bus-powered design works flexibly across USB4, Thunderbolt, and USB-C computers and devices.\n\nBest for buyers who want a flexible tiered warranty structure with a complete accessory package.",
     specs: ["40Gb/s, patented heat dissipation", "Up to 3836MB/s real-world performance", "2-3 year tiered warranty, includes cable and screwdriver"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$89.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41XjivlyqZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQD5ZSD3?tag=deskfinds0d-20",
     description: "This enclosure's aircraft-grade aluminum body combined with a heat dissipation groove and thermal pads offers efficient cooling and rugged protection in a genuinely quick, tool-free installation process. All Lexar products specifically undergo extensive testing in Lexar Quality Labs, a stated quality assurance process the other picks in this comparison don't explicitly mention.\n\nCompared to the OWC pick above, this one skips the screwdriver requirement entirely, letting you install your SSD without any tools at all. Its Thunderbolt 4 compatibility is backwards-compatible with USB 3.2, 3.1, 3.0, 2.0, and Thunderbolt 3, providing broad connectivity across older and newer devices alike.\n\nBest for buyers who want a genuinely tool-free installation process with in-house quality lab testing.",
     specs: ["40Gbps, aircraft-grade aluminum, tool-free installation", "Lexar Quality Labs tested", "Thunderbolt 4 compatible, backward compatible"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$89.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412jGLhzaPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FT59SB6?tag=deskfinds0d-20",
     description: "This enclosure specifically states SABRENT is one of the only manufacturers fully certified by Intel to use genuine Thunderbolt 3 technology, a distinction the listing directly contrasts against devices that are merely 'compatible' with Thunderbolt 3 without formal certification. Its fully detachable cable design lets you use a cable of whatever length suits your specific task, a flexibility not every fixed-cable enclosure offers.\n\nCompared to the OWC and Lexar picks above, this one is explicitly incompatible with standard USB-C ports and requires a genuine Thunderbolt 3 port to function, a real limitation worth checking against your specific computer's ports before purchase. Its 100% tool-free design uses a pin-based mechanism to hold the SSD securely in place.\n\nBest for buyers who specifically want formally Intel-certified Thunderbolt 3 technology with a detachable cable.",
     specs: ["Thunderbolt 3 only, Intel-certified", "Detachable cable, tool-free pin design", "Requires genuine Thunderbolt 3 port"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/410oCxpOnqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F1THCT9G?tag=deskfinds0d-20",
     description: "This enclosure's 26-year German engineering heritage backs a 24-month warranty with lifetime expert support, a track record and support commitment competitive with the pricier branded picks in this comparison. Its fanless design with heatsink-style aluminum construction transfers 10GB in under 7 seconds, a specific stated benchmark you can hold the manufacturer to.\n\nCompared to the SABRENT pick, this one works broadly across Thunderbolt 3/4 and USB4/3.2/3.1 rather than being locked into Thunderbolt 3 exclusively, giving you more flexible compatibility across different computers. Its tool-free installation and wide M.2 NVMe SSD size support from 2230 to 2280 round out a genuinely complete package at the lowest price in this tier.\n\nBest for buyers who want established brand engineering with the most flexible port compatibility at the lowest price.",
     specs: ["40Gbps, ASM2464PD chip, fanless design", "10GB transfer in under 7 seconds", "Thunderbolt 3/4 and USB4/3.2/3.1 compatible"],

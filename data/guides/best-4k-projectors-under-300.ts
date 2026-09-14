@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41KNs-ATsNL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$285.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KNs-ATsNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GT4HXFRB?tag=deskfinds0d-20",
     description: "This projector's stated 100,000-hour lamp life is the longest rated lifespan in this comparison, engineered for years of dependable entertainment without needing a lamp replacement. Its Android 14 OS with a built-in Play Store provides access to over 10,000 apps plus 800+ free live channels, and an upgraded H726 chip delivers over 30% faster system response than standard chips.\n\nCompared to the KOGATA pick below, this one adds a 20W HiFi stereo speaker with Dolby Atmos and Hi-Res Audio support, delivering richer sound than the smaller speaker setups typical at this price. Its 1.08:1 short throw ratio makes it well suited to smaller spaces, dorms, or apartments where a full-size projector's throw distance requirements don't fit.\n\nBest for buyers who want the longest lamp life with a genuine short-throw design for small spaces.",
     specs: ["Native 1080P, 1500 ANSI lumens, 100,000 hour lamp", "Android 14 OS, 10,000+ apps", "20W HiFi speaker, 1.08:1 short throw"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$309.79",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51F5hjVx-3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5D3XTSF?tag=deskfinds0d-20",
     description: "This projector's Dolby and DTS-certified audio delivers a specifically dual-certified sound standard none of the other picks in this comparison state explicitly, providing crisp, clear sound for music, dialogue, and concert-style content. Its MTK9660 chipset with a robust 2+8GB memory configuration delivers stronger app performance than typical budget projectors.\n\nCompared to the X7 pick above, this one adds AI-powered picture quality enhancement combined with German high-transmittance lenses, specifically engineered for natural light-to-dark transitions and lifelike skin tones. Its 6D keystone correction provides finer-grained image alignment than standard 4D correction found on cheaper picks.\n\nBest for buyers who specifically want dual Dolby and DTS audio certification with enhanced picture processing.",
     specs: ["Native 1080P, 4K decoding, HDR 10+", "Dolby and DTS certified audio", "6D keystone, German lenses, AI picture enhancement"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$345.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51ZTRYT+DuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1M9GBWB?tag=deskfinds0d-20",
     description: "This projector's dual 36W stereo speakers with certified Dolby Audio deliver full 360-degree surround stereo, the highest stated speaker wattage in this comparison, genuinely reducing the need for external soundbars. Its 1200 ANSI lumens delivers vivid images without needing a fully darkened room, ideal for daytime viewing.\n\nCompared to the X7 and KOGATA picks, this one specifically advertises US-based lifetime technical support alongside a 1-year hassle-free return policy, a support commitment worth noting for buyers wary of overseas customer service. Its AI voice remote lets you search movies, adjust playback, or check weather with simple spoken commands.\n\nBest for buyers who specifically want US-based support with the highest speaker wattage in this tier.",
     specs: ["Native 1080P, 4K/8K decoding, 1200 ANSI lumens", "Dual 36W Dolby speakers", "US-based lifetime technical support"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$359.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51wz-TAtaoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DDT9FQCQ?tag=deskfinds0d-20",
     description: "This projector's 2000 ANSI lumens brightness paired with a 20000:1 contrast ratio and 95% color gamut delivers richer light and dark level details than the lower-brightness picks in this comparison, ensuring vivid images day or night. Its AI smart screen adjustment achieves a clear rectangular picture within 5 seconds of startup through auto focus and 6D auto-keystone technology.\n\nCompared to the Google TV-Licensed pick above, this one adds bidirectional Bluetooth 5.2 letting you use the projector as a Bluetooth speaker for music playback beyond just projection use. Its dual HDMI and USB ports plus AV and headphone jack provide the most complete connectivity in this comparison.\n\nBest for buyers who want the highest stated brightness with the most complete connectivity options.",
     specs: ["4K decoding, 2000 ANSI lumens, 20000:1 contrast", "8W speaker, bidirectional Bluetooth 5.2", "HDMIx2, USBx2, AV, headphone jack"],

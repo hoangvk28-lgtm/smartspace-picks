@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$299.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51H6j9qVxwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00CYPV29W?tag=deskfinds0d-20",
     description: "This kit's American-made steel construction and commercial-grade pistons come backed by over 35 years in business and a lifetime warranty, a track record none of the other picks in this comparison can match. Detailed online instructional videos, illustrated booklets, cut sheets, and bills of materials are included, though lumber and mattress are not.\n\nCompared to the smaller hardware kit below, this one delivers a complete, finished cabinet design at 87-1/8 inches tall by 65-7/8 inches wide when closed, trusted by major hotel chains for daily commercial use. You'll still need to source plywood separately to complete the cabinet structure around the included mechanism.\n\nBest for buyers who want a proven, decades-tested hardware system backed by a lifetime warranty.",
     specs: ["Queen vertical, steel frame, gas pistons", "87-1/8in H x 65-7/8in W closed", "Lifetime warranty, 35+ years in business"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$271.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Gn37tjCSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FHV3B85R?tag=deskfinds0d-20",
     description: "This bed's dual desk-and-bed mode design lets it function as a workspace during the day, folding smoothly via a hydraulic lifting system rather than springs, a genuinely different mechanism from the spring-based hardware kits in this comparison. Closely spaced wood slats support your mattress directly without needing a box spring.\n\nCompared to the Create-A-Bed kit above, this one arrives as a complete, ready-to-assemble furniture piece rather than a bare hardware system requiring separate lumber purchases, making it the more straightforward option for buyers who don't want a DIY construction project. It must anchor to solid concrete or wood stud walls specifically.\n\nBest for buyers who want a complete, ready-to-assemble bed without a separate lumber purchase.",
     specs: ["Twin, desk and bed dual mode, hydraulic lift", "Solid wood and MDF frame", "No box spring needed, wood slat support"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$207.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51cJy2xSRpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B017701FUE?tag=deskfinds0d-20",
     description: "This kit's patented 2-in-1 auto-locking stainless steel pivot plates specifically eliminate the complex measurements required by competitor C-clip systems, and it comes backed by a lifetime warranty with U.S.-based phone and email support. The listing transparently states total build cost runs $350-500 once you add plywood, versus $800-2,000 for a pre-built wall bed.\n\nCompared to the Create-A-Bed kit above, this one is cheaper upfront but requires more careful attention to mattress and wall requirements, holding up to 700 lbs and specifically requiring installation into wall studs rather than plaster-only walls. Gas pistons are calibrated specifically by mattress size and weight, so kits aren't interchangeable between sizes.\n\nBest for buyers who want the most transparent cost breakdown and patented auto-locking pivot plates.",
     specs: ["Queen vertical, gas piston lift, 700+ lb capacity", "Auto-locking stainless steel pivot plates", "Requires wall stud installation, not plaster-only"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$85.26",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Jdnnq93uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PZT3628?tag=deskfinds0d-20",
     description: "This kit's 9 premium internal springs provide high rebound strength so one person can fold the bed out or up without straining, using adjustable spring tension to accommodate king or queen sized mattresses with the included stainless steel legs. Its weighted iron construction with a chromed surface is built for long service life.\n\nCompared to the other three picks in this tier, this one is the cheapest by a significant margin, reflecting that it's purely the spring mechanism itself without any of the guidebooks, cut lists, or warranty support the pricier kits include. The listing specifically notes installation is more complicated and recommends professional carpenter assistance.\n\nBest for buyers who want the lowest-cost core mechanism and already have carpentry help lined up.",
     specs: ["9 internal springs, adjustable tension", "Fits 1.2-1.8m width beds, king or queen", "Weighted iron, chromed surface"],

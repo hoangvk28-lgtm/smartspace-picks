@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51jI83fzh1L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$99.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51jI83fzh1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1GGMDQN?tag=deskfinds0d-20",
     description: "This screen's 2-in-1 mode lets you choose between tripod or wall-mounted installation depending on your setup needs, a genuine flexibility none of the other picks in this comparison offer as explicitly. Its professional-grade reinforced antioxidant aluminum alloy X-type tripod adjusts from 64 to 85 inches, adapting to a variety of heights and viewing environments.\n\nCompared to the LEORFI pick below, this one uses upgraded multi-layer PVC material specifically engineered for excellent wrinkle resistance while maintaining professional display quality. The tripod can flexibly adjust angle and position, and it comes with a storage tube plus carrying bag for straightforward transport.\n\nBest for buyers who want the flexibility to switch between tripod and wall-mounted installation.",
     specs: ["100in, 2-in-1 tripod or wall mount", "X-type aluminum tripod, 64-85in adjustable", "Multi-layer PVC, storage tube included"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51vLNVTUuWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCY1T3T9?tag=deskfinds0d-20",
     description: "This screen's cinema-grade 1.5 gain PVC material with multi-layer coating delivers clear, bright, color-accurate projection, a specific gain figure higher than most picks in the lower tiers of this comparison series. Its reinforced aluminum X-shaped tripod adjusts from 64 to 85 inches, with extra ground nails included for outdoor stability in windy conditions.\n\nCompared to the 2-in-1 pick above, this one focuses purely on tripod-based setup rather than offering a wall-mount alternative, letting one person complete assembly in 2 minutes with only 3 steps. Lifetime customer support with 24/7 service backs the purchase for classroom, home theater, or outdoor projector screen use.\n\nBest for buyers who want cinema-grade 1.5 gain material with the fastest 2-minute setup.",
     specs: ["100in, 1.5 gain PVC, multi-layer coating", "Aluminum X-tripod, 64-85in adjustable", "2-minute setup, ground nails included"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$96.03",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41YfCJ0qtCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01953VSH6?tag=deskfinds0d-20",
     description: "This screen's premium matte fabric with a black masking border provides the same precise image alignment feature found on the smaller Pyle model, scaled up to a 50 inch viewing size with a 25 to 48 inch height adjustment range. Its retractable design is specifically built for travel, making setup convenient wherever you need a quick presentation.\n\nCompared to the 100 inch picks above, this one trades screen size for a more compact footprint and established Pyle brand reliability, versatile enough to stand on any flat floor surface or table. The digital projection screen is designed for simple, universal setup across home, office, or classroom settings.\n\nBest for buyers who want an established brand with a versatile, travel-friendly compact design.",
     specs: ["50in, matte fabric, black masking border", "25-48in adjustable height", "4:3 aspect ratio, table or floor standing"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$89.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41fNEW8GIbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLPF3TQV?tag=deskfinds0d-20",
     description: "This screen's black backing layer specifically absorbs 100 percent of rear ambient light, ensuring vibrant, distortion-free images even in sunlit rooms, a stated capability the other picks in this tier don't emphasize as precisely. Its heavyweight 200g milk silk polyester delivers a stated 30 percent better light reflection than standard screens with a 1.5x gain rating.\n\nCompared to the Pyle pick above, this one includes pre-sorted A/B component bags for snap-together assembly that the listing states requires no instructions for 90 percent of users, backed by 5-language manuals for added clarity. At just 8.3 lbs, it packs into a compact carry bag with wind ropes and ground nails for outdoor stability.\n\nBest for buyers who specifically need strong daytime or ambient-light viewing performance.",
     specs: ["100in, black backing, 1.5x gain, 200g milk silk", "8.3 lbs, tool-free A/B snap assembly", "5-language manual, wind ropes included"],

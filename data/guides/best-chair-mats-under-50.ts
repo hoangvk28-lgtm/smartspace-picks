@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/412hKPIzS8L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$52.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412hKPIzS8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNP1BX45?tag=deskfinds0d-20",
     description: "This mat's hundreds of underside spikes are third-party tested to support up to 400 lbs, the only pick in this comparison with an explicit, independently verified weight rating. At over 0.09 inches thick, it resists bending, curling, scratching, and ripping over years of daily use.\n\nCompared to the other three picks, this one specifically addresses the divot problem, the small permanent indentations that chair wheels can leave in a thinner mat over time, by using a rigid enough construction that it resists leaving marks even under sustained pressure. Its semi-transparent design still lets your carpet's color show through.\n\nBest for buyers who want an independently verified weight rating and long-term divot resistance.",
     specs: ["29in x 47in, over 0.09in thick", "Third-party tested to 400 lbs", "Resists divots, scratching, ripping"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$45.95",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51-SqFH4ZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4LGFVKC?tag=deskfinds0d-20",
     description: "This mat's 46 by 60 inch coverage is significantly larger than the smaller Kuyal picks in the lower tiers, giving substantial rolling room for a full desk setup on hardwood, tile, vinyl, stone, laminate, or concrete. Its anti-slide coating and ergonomic flex design carry over the same safe, non-toxic PVC formula used across the Kuyal lineup.\n\nCompared to the GORILLA GRIP pick above, this one is exclusively for hard floors and cannot be used on carpet, while offering considerably more square footage of coverage for a lower price. The larger size accommodates a wider chair rolling radius, useful for desks with side furniture like a filing cabinet or printer stand.\n\nBest for buyers with hardwood floors who need a large coverage area at a lower price.",
     specs: ["46in x 60in, anti-slide coating", "Pure polyethylene, no phthalates or toxins", "Hard floors only, not for carpet"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$44.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51MtAThkNbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HF3NPX4B?tag=deskfinds0d-20",
     description: "This mat's studded underside anchors firmly into low pile carpet across a generous 48 by 60 inch area, and it includes a 1-year free replacement policy for damage, a warranty detail none of the other picks in this comparison specifically offer. Its rigid top surface lets chair wheels glide without sinking into carpet fibers.\n\nCompared to the GORILLA GRIP pick above, this one offers considerably more coverage at a lower price, though it lacks the independently tested weight rating that pick provides. The extended lip design adds under-desk coverage similar to the HON pick from the lower tier.\n\nBest for buyers who want the largest low pile carpet coverage with a replacement warranty.",
     specs: ["48in x 60in, studded underside with lip", "1-year free replacement for damage", "Designed for low pile carpet"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$36.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51LKagXofGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F6LR7TYL?tag=deskfinds0d-20",
     description: "This mat's 3D diamond top design gives it a distinct gaming-room aesthetic that the plain clear or woven picks in this comparison don't offer, while still functioning as genuine carpet protection with a studded, gripping underside. At 36 by 48 inches, it's the smallest and cheapest pick in this tier.\n\nCompared to the larger low pile carpet pick above, this one trades coverage area for a lower price and a more visually distinct design suited to gaming setups or home offices where aesthetics matter alongside function. Its 2.2mm reinforced thickness resists cracking, bending, and curling under daily heavy use.\n\nBest for buyers who want a gaming-styled mat at the lowest price in this tier.",
     specs: ["36in x 48in, 3D diamond design", "2.2mm reinforced thickness", "Studded underside for carpet grip"],

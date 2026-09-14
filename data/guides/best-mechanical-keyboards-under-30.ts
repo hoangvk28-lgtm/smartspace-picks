@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41idr1+lvwL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41idr1+lvwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B097BDWXHM?tag=deskfinds0d-20",
     description: "This board's 87-key tenkeyless layout retains dedicated arrow keys and F1-F12 function keys while freeing up desk space, and it uses genuine linear red mechanical switches confirmed in the listing rather than the vague 'mechanical feeling' language common at this price. All 87 keys support N-key rollover, meaning every simultaneous keypress registers accurately even during fast typing or gaming.\n\nCompared to the Redragon pick below, this one skips hot-swappable switches but adds a sturdy metal panel and adjustable two-step kickstands for typing angle comfort. Its 16 backlight modes with adjustable brightness and speed via FN combinations give you real lighting customization without needing separate software.\n\nBest for buyers who want a confirmed genuine mechanical switch with full N-key rollover at the lowest price.",
     specs: ["87 keys, TKL layout, red switches", "N-key rollover, full anti-ghosting", "Metal panel, adjustable kickstands"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41khzfsV4mL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CF3VGQFL?tag=deskfinds0d-20",
     description: "This board's hot-swappable linear red switches let you replace individual switches without soldering, and it ships with 4 spare switches and two red keycaps for testing or replacement, a genuine customization option none of the other picks in this comparison include at this price. Its macro editing support lets you remap keys and combine functions through included software.\n\nCompared to the MageGee pick above, this one matches the price while adding switch-level customization, though it uses a full-size layout rather than the space-saving TKL design. The 24-month warranty is notably longer than the 1-year coverage typical at this price point.\n\nBest for buyers who want hot-swappable switch customization at the lowest price in this tier.",
     specs: ["Hot-swappable red switches, full-size layout", "Macro editing via software", "24-month warranty"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$28.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rjOMIKrmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09TR4Y91J?tag=deskfinds0d-20",
     description: "This board's 104-key full-size layout with genuine clicky blue switches gives you a complete number pad and function row at the cheapest price point among full-size boards in this comparison. Its 4 hydrophobic drainage holes help prevent liquid spill damage, a specific safety feature the other picks don't call out.\n\nCompared to the Redragon pick above, this one is slightly cheaper while trading hot-swappable switches for a fixed switch design, positioning it as a straightforward full-size option without customization ambitions. The keycap puller included makes basic maintenance and cleaning simple.\n\nBest for buyers who want a full-size layout with genuine clicky switches at the lowest price.",
     specs: ["104 keys, full-size, blue switches", "4 hydrophobic drainage holes", "100% anti-ghosting, N-key rollover"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$22.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/417BPbuDvaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P4Q7K9X?tag=deskfinds0d-20",
     description: "This board's ultra-compact 61-key, 60% layout frees up the most desk space of any pick in this comparison, using a detachable Type-C cable specifically for safe travel packing. Its genuine blue mechanical switches provide a tactile click, and a dedicated Fn+Space shortcut switches to directional arrow key mode since the compact layout omits dedicated arrows.\n\nCompared to the RisoPhy pick above, this one is the cheapest board in this entire tier while sacrificing the most keys, a real tradeoff for buyers who specifically want maximum desk space over full functionality. Full anti-ghosting still ensures all keys register correctly during simultaneous presses.\n\nBest for buyers who want the smallest footprint and lowest price, and can adapt to a 60% layout.",
     specs: ["61 keys, 60% layout, blue switches", "Detachable Type-C cable", "Full anti-ghosting"],

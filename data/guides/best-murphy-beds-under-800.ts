@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41oNQlE28AL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$779.71",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41oNQlE28AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4QJCBHG?tag=deskfinds0d-20",
     description: "This bed's integrated storage system combines a fold-down bed, overhead cabinets, open display shelving, and a full-height hanging storage section, the most comprehensive combined storage layout in this comparison. When closed, it creates a clean storage wall measuring 102.6 inches long by 20.6 inches deep by 89.5 inches tall.\n\nCompared to the Squireewo pick below, this one trades queen size for twin, but adds substantially more integrated storage functionality, including a dedicated hanging area for clothing that none of the other three picks offer. Its 400 lb weight capacity is specifically rated for a 4-6 inch mattress, a lower profile than the thicker mattresses the queen-size picks accommodate.\n\nBest for buyers who want the most comprehensive integrated storage wall alongside the bed itself.",
     specs: ["Twin, 5-tier shelves, overhead cabinets, hanging storage", "400 lb capacity, 4-6in mattress", "102.6in L x 89.5in H as cabinet"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$649.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51mv8JQTc3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HDPBT2M1?tag=deskfinds0d-20",
     description: "This bed's built-in dimmable adjustable LED light strips create a customizable lighting atmosphere directly integrated into the modern minimalist design, a genuinely distinct feature from the plain cabinet fronts on the other picks in this comparison. High-performance 1500N gas struts provide smooth, effortless opening and closing through a well-built hinge connection.\n\nCompared to the Merax pick above, this one offers queen size with a stated 1000 lb weight capacity, accommodating standard 8-12 inch thick mattresses rather than the thinner profile the Merax requires. The listing specifically notes the bed ships in 2 separate boxes that may arrive on different schedules.\n\nBest for buyers who want integrated dimmable LED lighting with queen-size capacity.",
     specs: ["Queen, dimmable LED strips, 1500N gas struts", "1000 lb weight capacity", "Fits 8-12in mattresses, 59-110 lbs"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$579.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51RTvpqlgbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTTSY2JR?tag=deskfinds0d-20",
     description: "This bed's quiet 180-degree rotating system converts from cabinet to bed in seconds without requiring any wall mounting at all, a genuinely different mechanism from the gas-strut or spring-based wall-anchored designs used by the other three picks in this comparison. This makes it a real option for renters who can't drill into walls.\n\nCompared to the Squireewo pick above, this one skips permanent wall installation entirely while still supporting up to 1000 lbs, and its mobile design allows free movement after unfolding since it's not fixed to a wall. The integrated shelf design offers extra space for books or decor without needing wall studs to anchor into.\n\nBest for buyers who specifically need a no-wall-mount option for a rental or flexible space.",
     specs: ["Queen, 180 degree rotation, no wall mount required", "1000 lb weight capacity", "Integrated storage shelf, mobile after unfolding"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$529.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51ek6TT+7qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HGF3W9QF?tag=deskfinds0d-20",
     description: "This bed's built-in headboard provides comfortable back support for sitting up in bed to read or relax, a specific comfort feature none of the other three picks in this comparison include. Its advanced hydraulic rods lower the bed smoothly and steadily with no sudden drops, and two door handles make manual operation straightforward.\n\nCompared to the Mjkone pick above, this one requires wall mounting to a load-bearing wall specifically, trading the no-mount convenience for a more traditional installation while remaining the cheapest pick in this tier. Five solid wood slats reinforce the center of the bed frame, and an anti-tip device secures the bed firmly to the wall.\n\nBest for buyers who want a comfortable headboard for reading at the lowest price in this tier.",
     specs: ["Full, built-in headboard, hydraulic rods", "5 solid wood slats, anti-tip device", "Holds mattresses up to 12in thick"],

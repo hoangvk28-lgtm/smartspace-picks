@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$499.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Og-FctXuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DGL5B76J?tag=deskfinds0d-20",
     description: "This bed's dual functionality as both storage cabinet and queen-size sleeping surface includes an integrated charging station and a dedicated drawer for pillows, genuinely more built-in convenience than the twin-focused picks below. Fixed universal wheels and an anti-tipping device provide stability, while zinc alloy connectors reinforce the folding frame for longevity.\n\nCompared to the SOFTSEA Twin pick below, this one steps up to queen size with genuine storage and charging integration, positioning it as a more complete guest-room solution rather than a compact single-person option. EVA cushioning reduces noise during the fold-down process for quieter operation.\n\nBest for buyers who want queen size with genuine built-in storage and charging in one piece.",
     specs: ["Queen size, storage drawer, charging station", "Universal wheels, anti-tipping device", "Zinc alloy connectors, EVA noise reduction"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$429.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51SDkKKPuhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DK3KNV8X?tag=deskfinds0d-20",
     description: "This bed's dual piston system supports smooth, effortless folding, and when closed, it functions as a retro-styled sideboard rather than just a plain cabinet front, a genuine dual-purpose aesthetic detail. Its 800 lb weight capacity is stated explicitly in the listing, giving buyers a concrete number to check against their intended mattress and body weight.\n\nCompared to the AMERLIFE pick above, this one is twin-only and skips storage or charging features entirely, focusing purely on the fold-down mechanism and sturdy metal frame construction. The bed arrives in 2 separate packages that may ship on different days, worth planning for before assembly day.\n\nBest for buyers with smaller rooms who want a stated weight capacity and sideboard-style closed appearance.",
     specs: ["Twin, horizontal, dual piston system", "800 lb weight capacity stated", "Sturdy metal frame, solid pine and MDF slats"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$375.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418UzQWajqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRGZT5Q2?tag=deskfinds0d-20",
     description: "This bed's cabinet interior is specifically engineered so bed legs fit the mattress and sheets precisely, meaning bedding stays neatly in place during storage rather than shifting or falling out, a detail worth noting for buyers tired of readjusting bedding every time they fold the bed away. Its solid wood and MDF frame is built for exceptional stability and resistance to deformation over years of use.\n\nCompared to the SOFTSEA Twin pick, this one steps up to full size at a lower price, though it doesn't specify an explicit weight capacity figure the way the SOFTSEA listing does. Precision-crafted folding rods are specifically engineered to withstand repeated daily folding for long-term reliability.\n\nBest for buyers who want full size at the lowest price with bedding that stays organized during storage.",
     specs: ["Full size, horizontal, cabinet bed", "Solid wood and MDF frame", "Bedding-retention cabinet design"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$349.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41LYLJF5pqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C1TD5SGW?tag=deskfinds0d-20",
     description: "This kit's spring mechanism is engineered to support up to 2,000 lbs, a substantially higher stated capacity than any complete cabinet bed in this comparison, and its universal mechanism fits twin, full, queen, or king mattresses with the same core hardware. Built-in safety features include locking mechanisms that keep the bed securely in place once raised or lowered.\n\nCompared to the three complete cabinet beds above, this remains a hardware-only kit requiring you to build or source your own cabinet structure, positioning it for buyers comfortable with a DIY build who specifically want commercial-grade steel and a lifetime warranty. The unique spring mechanism stores energy for effortless lifting and lowering without straining.\n\nBest for buyers who want the highest stated weight capacity and universal size compatibility.",
     specs: ["All standard sizes, spring mechanism, 2,000 lb capacity", "Commercial-grade steel construction", "Lifetime warranty, locking safety mechanism"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41Ua3RJQA0L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$9.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Ua3RJQA0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FP9GJBMV?tag=deskfinds0d-20",
     description: "This stand's widened hooks fit devices with cases up to 0.75 inches thick, genuinely wider than the other picks in this comparison, meaning you likely won't need to remove your tablet's case to use it. Its heavy-duty metal weighted base and high-strength alloy steel connecting rod deliver stability and a no-tip design rarely found at this price.\n\nCompared to the Tonmom pick below, this one folds flat to just 0.59 inches thick for genuinely easy backpack storage, and its 360-degree rotating base lets you share your screen with colleagues without moving the tablet itself. An included wrench lets you adjust hinge tightness to match your specific device weight.\n\nBest for buyers who want the widest case compatibility with genuine 360-degree rotation.",
     specs: ["Fits 4.7-13in devices, cases up to 0.75in thick", "Weighted metal base, alloy steel rod", "360 degree rotation, folds to 0.59in thick"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$8.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Qc5HRR5DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FNK31PFT?tag=deskfinds0d-20",
     description: "This stand's two durable rotating shafts adjust to a comfortable height and angle specifically to reduce neck fatigue, back pain, and eye strain, an ergonomic framing the other picks in this tier don't emphasize as directly. Its heavy-duty metal base supports your device steadily without shaking or tipping, backed by rubber mats and anti-skid silicone pads for scratch protection.\n\nCompared to the Lamicall pick above, this one includes a dedicated adjustable tool specifically for the rotating shafts, letting you fix looseness or over-tightness as it develops over time. Broad 4 to 16 inch compatibility covers tablets, phones, and e-readers well beyond standard tablet sizes.\n\nBest for buyers who specifically want an ergonomic design with a maintenance tool included.",
     specs: ["Fits 4-16in devices, dual rotating shafts", "Heavy-duty metal base", "Adjustable tool included for shaft maintenance"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$7.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/311Xfyq9JaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CG71KQ1?tag=deskfinds0d-20",
     description: "This stand's compact 4.7 by 4.2 inch folded size makes it genuinely pocket-friendly, smaller than the other picks in this comparison for easier travel carrying. Its 15 to 100 degree viewing angle range covers a wide adjustment span for watching videos, reading, or video calls comfortably.\n\nCompared to the VOVIGGOL pick below, this one specifically states a maximum device thickness of 0.55 inches including the case, giving you a precise number to check against your device rather than a vague compatibility claim. Silicone pads on the bottom protect your phone or tablet from sliding and scratches.\n\nBest for buyers who want the most pocket-friendly size with a precise thickness specification.",
     specs: ["Fits 4-11in devices, max 0.55in thick with case", "4.7in x 4.2in folded size", "15-100 degree viewing angle"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$7.69",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RYPfekUqS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08RNBRCSV?tag=deskfinds0d-20",
     description: "This stand's premium metal material provides durability at the lowest price in this comparison, with rubber skin covering the frame to protect your tablet or photo frame from sliding or scratches. Its 0 to 180 degree adjustment range is the widest angle span in this tier, supporting both vertical and horizontal viewing.\n\nCompared to the UGREEN pick above, this one covers a broader 5.5 to 12.9 inch device range and doubles as a picture frame or book stand beyond just tablet use. At just 3.1 ounces, it's genuinely lightweight for travel while still using metal rather than plastic construction.\n\nBest for buyers who want the lowest price with the widest adjustment angle range.",
     specs: ["Fits 5.5-12.9in devices, metal construction", "0-180 degree adjustment range", "3.1 ounces, rubber-covered hooks"],

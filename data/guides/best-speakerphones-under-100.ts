@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41l1QK7tddL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41l1QK7tddL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07ZNT7PRL?tag=deskfinds0d-20",
     description: "This unit's 6-microphone array in a 360 degree layout is the largest mic count in this comparison, and its Voice Radar 3.0 technology uses AI deep learning to reduce noise, cancel echo, and detect multiple speakers simultaneously. Its 5,200mAh battery delivers 24 hours of call time, the longest stated battery life in this tier.\n\nCompared to the Jabra picks below, this one adds Zoom certification specifically alongside broad platform compatibility, and its built-in Anker PowerIQ technology lets you charge other devices through the speakerphone itself, a dual-purpose feature none of the other picks offer. Automatic voice balancing compensates for volume and distance differences between speakers.\n\nBest for buyers who want the largest mic array and longest battery life in this tier.",
     specs: ["6-mic array, 360 degree pickup", "5,200mAh battery, 24 hour call time", "Zoom certified, PowerIQ device charging"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$88.78",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413BTmTk1LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FC33QDMX?tag=deskfinds0d-20",
     description: "This unit's portable design specifically prioritizes on-the-go use, letting you carry a high-quality speakerphone experience between locations without the bulk of a full conference room unit. It connects via either USB or Bluetooth, working with your laptop or smartphone interchangeably as needed.\n\nCompared to the Anker PowerConf pick above, this one trades microphone count for portability and Microsoft Teams compatibility, a specific certification detail called out in the listing that matters for workplace IT approval. Setup is designed to take seconds rather than requiring extended configuration.\n\nBest for buyers who travel frequently and need a lightweight, quick-setup speakerphone.",
     specs: ["USB or Bluetooth connectivity", "Portable, travel-focused design", "Works with Microsoft Teams and other platforms"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$89.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61vJ8pXqLoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41l0F0z2MIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004ELA7TA?tag=deskfinds0d-20",
     description: "This unit's integrated USB cable eliminates any battery or Bluetooth pairing concerns entirely, connecting directly and reliably to any available USB port, a genuinely different approach from the wireless-focused picks in this comparison. Its 360 degree microphone picks up sound at all angles with outstanding stated sound quality for softphone use.\n\nCompared to the Jabra Speak 510 pick above, this one skips Bluetooth entirely in favor of a simpler, always-connected corded design optimized specifically for Microsoft Skype for Business. The slim, compact design with integrated cable management and a carrying case still supports occasional travel despite being corded.\n\nBest for buyers who want zero battery or pairing concerns with an always-reliable wired connection.",
     specs: ["360 degree mic, integrated USB cable", "Optimized for Microsoft Skype for Business", "Slim design with cable management, carrying case"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$95.90",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/414Wp2pUXYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08XWZ81CW?tag=deskfinds0d-20",
     description: "This unit's built-in USB hub is a genuinely unique feature in this comparison, letting you connect a mouse, keyboard, USB drive, or another conferencing device directly through the speakerphone itself rather than competing for limited laptop ports. Its DSP technology provides acoustic echo cancellation and automatic noise suppression alongside 360 degree omnidirectional pickup.\n\nCompared to the corded Jabra Speak 410 pick, this one shares the reliable wired USB approach while adding the hub functionality as a genuine value-add for desk setups already tight on available ports. The 3 meter pickup radius matches the coverage of several picks in the lower tiers while adding this hub convenience.\n\nBest for buyers with limited USB ports who want hub functionality built into their speakerphone.",
     specs: ["3m pickup radius, 360 degree mic", "Built-in USB hub for additional devices", "9.8ft USB cable, plug and play"],

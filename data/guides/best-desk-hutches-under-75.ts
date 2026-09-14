@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51pStrUlb3L._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41W1Of8GGoL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/51h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41W1Of8GGoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CN4H17QL?tag=deskfinds0d-20",
     description: "This hutch's 36 inch wide by 15.6 inch high bottom compartment pairs with 4 side storage cubbies, giving you both a monitor clearance area and dedicated slots for books, plants, or a small printer. Two anti-tip furniture wall anchors and an anti-falling baffle add stability hardware that many plain open-shelf hutches at this price skip.\n\nCompared to the Homiflex pick below, this one has no built-in power outlets, trading that feature for a taller 31.5 inch stand and more distinct storage compartments spread across its upper shelves. The high-quality engineered wood construction with rounded corners and non-slip foot pads keeps the unit stable during daily use.\n\nBest for buyers who want maximum compartmentalized storage without needing built-in power.",
     specs: ["6 shelves, 36in W x 15.6in H bottom compartment", "4 side storage cubbies, 31.5in tall", "Anti-tip wall anchors, anti-falling baffle"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$51.02",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/51J8h3zVQqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51AipLtLY0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1HK525X?tag=deskfinds0d-20",
     description: "This hutch's built-in power outlets and RGB LED lights turn a plain storage shelf into a functional charging and display station, a genuine step up from the pure open-shelf picks in this comparison. Having outlets right at shelf level means you can charge a phone or run a desk lamp without running a cord back to a wall outlet.\n\nCompared to the Nromant pick above, this one costs about $9 less while adding power access, though it trades away the multiple dedicated side cubbies for a simpler shelf layout. The RGB lighting also adds a display function for showing off books or decor pieces that a plain wood hutch can't replicate.\n\nBest for buyers who want built-in power access and lighting at the lowest price in this tier.",
     specs: ["Built-in power outlets, RGB LED light strip", "Open shelf layout for storage and display", "Lowest price in this tier at $51.02"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$55.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/41xJmQ3zVqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OHsc2cftL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CB4BNC8W?tag=deskfinds0d-20",
     description: "This hutch's 36 inch wide by 15.5 inch high bottom compartment and 4 storage cubbies come with 2 anti-tipping kits to anchor the unit to a wall, matching the safety focus of the Nromant pick above but at a lower price. Its reinforced crossbar at the back adds structural rigidity beyond a typical engineered wood build.\n\nCompared to the Homiflex pick, this one skips power outlets and lighting entirely in favor of pure storage capacity and stability hardware, positioning it as the middle option between plain storage and powered convenience in this tier. Protective foot pads underneath prevent desk scratching during placement or repositioning.\n\nBest for buyers who want stability hardware and storage without paying for power features.",
     specs: ["4 shelves, 37in L x 10in W x 29in H", "2 anti-tipping kits, reinforced back crossbar", "Protective foot pads, premium engineered wood"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$74.14",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/41vQ3zJqVqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51oO7JFzaoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NRKWZW3?tag=deskfinds0d-20",
     description: "This hutch's wide open pocket fits a laptop or computer monitor while providing storage space above and to the side, a straightforward layout built specifically to address desks that lack upper shelving. At 37 inches wide by 9.5 inches deep by 29 inches tall, its dimensions closely match the Tangkula pick above.\n\nCompared to the other three picks in this tier, this one is the most expensive despite having the simplest feature set, no power outlets, no lighting, and no stated anti-tip hardware, positioning it as a straightforward sturdy shelf rather than a feature-rich upgrade. Its sturdy particle board construction with screw-together assembly keeps setup simple.\n\nBest for buyers who specifically want a straightforward, no-frills desk shelf without extra features.",
     specs: ["Open pocket for laptop or monitor storage", "37in W x 9.5in D x 29in H", "Sturdy particle board, screw-together assembly"],

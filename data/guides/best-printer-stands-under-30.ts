@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41+5q3i3W2L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41+5q3i3W2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ55HR7H?tag=deskfinds0d-20",
     description: "This stand's 3-tier design lets the upper and middle shelves accommodate two printers simultaneously, whether laser, inkjet, or 3D printers, genuinely more capacity than the 2-tier picks in this comparison. Its upgraded dual-rod support significantly enhances load-bearing capacity compared to a single-rod design, ensuring stability without wobbling.\n\nCompared to the HUANUO pick below, this one adds a foldable non-woven fabric drawer at the bottom for papers, toner cartridges, or small supplies, which folds away to save space when not needed. Vintage particle board and iron pipe construction give it a rustic aesthetic that blends with various decor styles.\n\nBest for buyers who want to store two printers simultaneously with dual-rod stability.",
     specs: ["3-tier design, fits 2 printers", "Dual-rod support structure", "Foldable fabric drawer, 17.02in x 11.8in x 15.6in"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$33.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41vlbbgz9NL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07CBV7YJ8?tag=deskfinds0d-20",
     description: "This stand's storage drawer includes internal dividers specifically for office supplies and accessories, a more organized approach than an open shelf alone. Its adjustable 14.1 inch maximum height configuration lets you use fewer extensions for a shorter setup, genuinely customizable to your desk or table clearance.\n\nCompared to the VYUOL pick above, this one adds locking caster wheels that swivel 360 degrees for mobility, though the wheels are explicitly optional if you'd rather use it on a desktop or shelf. The top platform's 17.2 x 13.2 inch size accommodates both standard paper printers and larger 3D printers.\n\nBest for buyers who want adjustable height and optional rolling mobility with organized drawer dividers.",
     specs: ["Adjustable height up to 14.1in, 38.5 lb capacity", "Storage drawer with dividers", "Optional locking caster wheels"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$26.59",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RyyKUZBfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C8JDM67L?tag=deskfinds0d-20",
     description: "This stand's closed non-woven drawer at the bottom specifically protects private documents while tidying office supplies like staplers and calculators, a genuine privacy feature the open-shelf picks don't offer. Two open shelves above provide space for your printer on top and paper or documents on the middle shelf.\n\nCompared to the VYUOL pick, this one uses a 2-tier layout rather than 3-tier, trading dual-printer capacity for a fully enclosed drawer that keeps contents hidden from view rather than just folded fabric. Quality chipboard and a sturdy metal frame provide durability and load-bearing capacity.\n\nBest for buyers who want an enclosed drawer to keep documents and supplies hidden from view.",
     specs: ["2 open shelves, closed non-woven drawer", "Chipboard and metal frame", "10-minute assembly"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$25.26",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31mTruQOWxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRVT8ZSH?tag=deskfinds0d-20",
     description: "This stand's four swivel wheels rotate 360 degrees with two lockable for stability, providing rolling mobility at a lower price than the HUANUO pick above. Its wheels have been tested for drop resistance, a specific durability claim the other picks in this comparison don't disclose.\n\nCompared to the YATINEY pick, this one skips the enclosed drawer in favor of open shelving, positioning it as a simpler, more affordable rolling cart option. At 15.7 x 11.8 x 15.4 inches, it's designed to push easily under a desk to free up workspace.\n\nBest for buyers who want tested, drop-resistant rolling wheels at a lower price than similar mobile carts.",
     specs: ["15.7in x 11.8in x 15.4in, rolling wheels", "4 swivel wheels, 2 lockable", "Drop-resistance tested wheels"],

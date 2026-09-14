@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31Ty6bmUmVL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$119.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31Ty6bmUmVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QR6Z1JB?tag=deskfinds0d-20",
     description: "This interface's switchable Air mode adds extra clarity to acoustic instruments, a feature specifically inherited from Focusrite's higher-end professional interfaces. Its high-performance converters enable recording and mixing at up to 24-bit/192kHz, and Gain Halos provide visual feedback to help you avoid unwanted clipping or distortion during recording.\n\nCompared to the MAONO P2 pick below, this one includes a genuinely substantial software bundle featuring Pro Tools Intro+, Ableton Live Lite, Cubase LE, and the Hitmaker Expansion suite of effects and instruments. A 3-year warranty backs the hardware wherever you are in the world, longer than typical budget interface coverage.\n\nBest for buyers who want an established brand with substantial bundled software and a 3-year warranty.",
     specs: ["1 mic preamp, 24-bit/192kHz, Air mode", "Pro Tools Intro+, Ableton Live Lite, Cubase LE included", "3-year worldwide warranty"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$119.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Oez+b87iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GXHBVZCB?tag=deskfinds0d-20",
     description: "This interface's hybrid dual USB port connectivity with MFi certification lets you connect a computer and a phone or iPad simultaneously, a genuinely distinct workflow feature that lets you record in GarageBand while streaming or uploading directly from a mobile device without interruption. Its class-leading negative 130dB EIN specifically delivers dead-silent recording, a specific noise-floor figure the other picks in this comparison don't disclose.\n\nCompared to the Scarlett Solo pick above, this one includes dual XLR inputs at 56dB gain, letting you record two microphones simultaneously rather than just one. Independent mute controls for headphone and monitor output provide more granular control during live streaming or podcast recording sessions.\n\nBest for buyers who specifically want dual XLR inputs with simultaneous computer and mobile device recording.",
     specs: ["2 XLR inputs, 56dB gain, -130dB EIN", "Dual USB ports for simultaneous PC/mobile recording", "24-bit/192kHz, ASIO support"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$94.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31o0MuDJaPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08D8R6VFC?tag=deskfinds0d-20",
     description: "This interface's 2 high-quality Class-A mic preamps deliver genuinely great sound according to the listing, backed by studio-grade converters supporting up to 24-bit/96kHz recording and playback. It comes with over $1,000 worth of recording software including Studio One Artist, Ableton Live Lite, and the Studio Magic Plug-In suite, a substantial value addition at this price point.\n\nCompared to the BlueAVS pick below, this one is USB bus-powered with no additional power supply required, keeping the setup genuinely mobile-friendly. Its mixer control lets you create a custom blend between inputs and playback for zero-latency monitoring while recording.\n\nBest for buyers who want the most substantial bundled software value at the lowest price in this tier.",
     specs: ["2 Class-A mic preamps, 24-bit/96kHz", "$1,000+ in bundled recording software", "USB bus-powered, zero-latency mixer control"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$96.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31ZyGyXzWHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GJ5DW9Z4?tag=deskfinds0d-20",
     description: "This interface's specifically stated 103dB dynamic range with ultra-low THD+N under 0.003% delivers clean, detailed recordings backed by concrete technical specifications rather than vague marketing claims. Its 4 monitoring modes (OFF, MONO, Crossfeed, STEREO) provide genuinely flexible zero-latency monitoring options during recording.\n\nCompared to the PreSonus pick above, this one supports the full 24-bit/192kHz sample rate range with dedicated PAD switches to protect against clipping from high-output instruments and powerful vocal performances. Its dual XLR/TRS combo inputs accommodate both microphones and line-level instruments in the same physical connector.\n\nBest for buyers who want a specifically stated dynamic range figure with dedicated clipping protection.",
     specs: ["2 XLR/TRS combo inputs, 103dB dynamic range", "24-bit/192kHz, 4 monitoring modes", "Dedicated PAD switches, +48V phantom power"],

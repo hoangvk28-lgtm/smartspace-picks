@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41s2ZL+e00L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$199.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41s2ZL+e00L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FRQXBDSJ?tag=deskfinds0d-20",
     description: "This cart's heavy-duty metal construction with scratch-resistant powder coating is built specifically for long-term use in high-traffic environments, a durability detail the other picks in this comparison don't specifically call out at this price point. Its built-in power strip provides centralized charging for all 16 devices at once, saving outlet space compared to individually plugging each device.\n\nCompared to the AIWFL pick below, this one trades 2-tier stacking for a wider single-level layout with four swivel casters, two of which lock for stability once positioned. Integrated cable organizers keep charging cords tangle-free, reducing clutter in busy classroom or office workflows.\n\nBest for buyers who want durable steel construction with centralized charging in a single-tier layout.",
     specs: ["16 slots, heavy-duty steel construction", "Built-in power strip, centralized charging", "4 swivel casters, 2 lockable"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41lexUJQ7gL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH966PFQ?tag=deskfinds0d-20",
     description: "This cart's 2-tier design holds up to 20 devices, the highest capacity in this comparison, while remaining cheaper than the 16-device Meteteel pick above. Its open frame design allows airflow to keep devices cool while charging, and removable dividers let you fit larger laptops when needed, reducing capacity to under 10 devices if you need wider slots.\n\nCompared to the Meteteel pick, this one prioritizes device count over centralized power management, relying on cord management clips rather than a single integrated power strip serving all bays. Four sturdy swivel casters with two locking wheels and an ergonomic handle make it easy to move between rooms.\n\nBest for buyers who want the highest device capacity at the lowest price in this tier.",
     specs: ["20 devices, 2-tier design", "Removable dividers for larger laptops", "4 swivel casters, 2 locking wheels"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$159.90",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41xJCIrWsbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTV7FSTB?tag=deskfinds0d-20",
     description: "This cart's built-in surge control guards specifically against power fluctuations, a protective feature that matters if the cart charges 16 devices simultaneously in a facility with inconsistent power quality. Its ventilated panel design allows efficient heat dissipation, reducing overheating risk during extended charging sessions.\n\nCompared to the Kraftgen pick below, this one adds surge protection and a built-in power strip with cable organizers as standard features, while costing about $10 more. The sturdy metal construction and two locking casters provide stability once the cart reaches its destination.\n\nBest for buyers who specifically want surge protection built into a budget-friendly charging cart.",
     specs: ["16 slots, built-in surge control", "Ventilated panel for heat dissipation", "Built-in power strip, cable organizers"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$149.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41xwCoGaZ0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HBX6FTT8?tag=deskfinds0d-20",
     description: "This cart's UL-listed built-in power strips deliver certified safe operation for classroom use, a specific safety certification detail worth noting at the lowest price point in this comparison. Its padded shelves and removable plastic dividers protect devices against scratches and impact damage while allowing you to accommodate larger laptops.\n\nCompared to the VEVOR pick above, this one is the cheapest in this tier while still including 3-inch non-marring casters and a comfortable side handle for effortless movement. Built-in plastic cable clips at the rear of the shelves keep device bay cables neatly organized during charging.\n\nBest for buyers who want the lowest price with a genuine UL safety certification.",
     specs: ["16 device bays, padded shelves", "UL-listed built-in power strips", "3in non-marring casters, side handle"],

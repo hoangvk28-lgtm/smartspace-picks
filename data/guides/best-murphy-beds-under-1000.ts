@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51VsoOYuS0L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$999.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51VsoOYuS0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQ6VL91P?tag=deskfinds0d-20",
     description: "This bed's dual storage cabinets flank each side with shelves and barn doors, letting you display or store books, decorations, and clothing while also including a charging station, the most comprehensive combined feature set in this comparison. Its dual gas-strut mechanism with an engineered pivot connection provides smooth, effortless mode transitions and long-lasting durability.\n\nCompared to the CECER pick below, this one adds two full side cabinets rather than mattress inclusion, positioning it for buyers who specifically want maximum flanking storage over a bundled mattress. The industrial-grade laminated MDF and plywood construction supports up to 1000 lbs, and it arrives in 4 separate packages that may not arrive simultaneously.\n\nBest for buyers who want maximum flanking storage cabinets with integrated charging.",
     specs: ["Queen, dual storage cabinets, LED lights", "1000 lb capacity, dual gas-strut mechanism", "Charging station, barn door cabinet fronts"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$875.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41esmKpwfKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BN959TCP?tag=deskfinds0d-20",
     description: "This kit's European slat system provides exceptional mattress support, and its commercial-rated white-powder-coated tubular steel frame is rated to an impressive 2,000 lbs for the wood slat and rail system, the highest stated capacity in this comparison. It ships disassembled and typically sets up in about 90 minutes.\n\nCompared to the complete cabinet beds in this tier, this remains a hardware-only kit engineered specifically to support up to 1,500 lbs on the mechanism itself, letting you install it inside an existing closet or directly onto a wall for maximum installation flexibility. Effortless lowering and raising operation makes it convenient for genuine daily use.\n\nBest for buyers who want the highest engineered weight capacity and flexible closet or wall installation.",
     specs: ["Queen, tubular steel frame, European slat system", "1,500-2,000 lb capacity", "90-minute setup, closet or wall installation"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$729.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51eoRC-dN9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H7P1XRKS?tag=deskfinds0d-20",
     description: "This bed's built-in charging convenience includes 2 USB ports and 2 AC outlets specifically positioned so you can charge devices or watch movies in bed without hunting for cords, a genuinely practical detail. It includes a matched mattress, eliminating the guesswork of finding one that folds properly into the cabinet, and a generous storage drawer holds seasonal bedding.\n\nCompared to the Wilding Wallbeds kit above, this one is a complete, ready-to-use furniture piece with everything included, positioned for buyers who don't want to source a mattress or build anything. Premium MDF construction is specifically noted as environmentally friendly and odorless while supporting up to 1000 lbs.\n\nBest for buyers who want a complete bed-and-mattress bundle with practical in-bed charging.",
     specs: ["Queen, mattress included, 2 USB ports, 2 AC outlets", "1000 lb capacity", "Storage drawer, MDF construction"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$698.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51LPGSSjTaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GMHR52KL?tag=deskfinds0d-20",
     description: "This bed's freestanding design specifically avoids wall-mounted drilling requirements, converting from cabinet to sleeper in under 60 seconds, a genuinely different approach from the wall-anchored picks in this comparison. It includes a premium split three-fold queen mattress engineered specifically for this frame, ensuring a perfect fold every time rather than guessing at generic mattress compatibility.\n\nCompared to the CECER pick above, this one is the cheapest pick in this tier while still including a matched mattress and a dual-drawer storage system for guest bedding and pillows. Its reinforced internal structure supports up to 1000 lbs, and the listing backs the purchase with a 365-day hassle-free support policy.\n\nBest for buyers who want a mattress-included, wall-drilling-free option at the lowest price in this tier.",
     specs: ["Queen, freestanding, split three-fold mattress included", "1000 lb capacity", "Dual-drawer storage system, 365-day support"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41u-SRwk20L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$31.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41u-SRwk20L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FM3QYF5W?tag=deskfinds0d-20",
     description: "This stand's aircraft-grade aluminum alloy construction supports up to 2.42 lbs, a specifically stated load capacity that gives you a concrete number to check against your device's actual weight, unlike vague 'sturdy' claims. Its scientific base design ensures stability even with heavier devices, and integrated cable clips keep your workspace organized and clutter-free.\n\nCompared to the UGREEN pick below, this one specifically addresses iPad sagging or falling issues by letting you tighten the joint screws with an included wrench until the stand securely holds your device, a direct solution to a common tablet stand complaint. Its 4.7 to 15.6 inch compatibility covers devices from phones through larger tablets.\n\nBest for buyers who want a stated load capacity with a direct fix for sagging or falling issues.",
     specs: ["4.7-15.6in device range, 2.42 lb load capacity", "Aircraft-grade aluminum alloy", "Adjustable joint with included wrench, cable clips"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$26.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WK12ieOqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P87NBYS?tag=deskfinds0d-20",
     description: "This stand's dual rod design gives your tablet a genuinely stable home, made of sturdy aluminum alloy metal for stability and durability that matches the material quality of the pricier Urmust pick. Its silicone-covered padding and rubber feet prevent sliding and scratching, protecting both your device and desk surface.\n\nCompared to the Urmust pick above, this one comes from UGREEN, an established brand in the accessory category, at a meaningfully lower price while still delivering foldable, space-saving design for easy carrying and storage. Wide compatibility spans 4 to 13 inch tablets, cell phones, and e-readers.\n\nBest for buyers who want an established brand's dual rod design at a lower price.",
     specs: ["4-13in device range, dual rod design", "Aluminum alloy construction", "Foldable, space-saving storage"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41jEUEKrCYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D14FMS59?tag=deskfinds0d-20",
     description: "This stand's 1kg (2.2 lb) rated load capacity delivers steady, wobble-free support for most mainstream portable monitors and tablets, explicitly making it easy to build a compact dual-screen workspace on your desk. Its non-slip foam base fully covers the bottom, firmly anchoring the stand even during typing or stylus drawing without scratching your desktop.\n\nCompared to the UGREEN pick above, this one's one-piece foldable design flattens completely in seconds for neat desk drawer storage, and it fits the widest range of devices in this comparison at 4 to 16 inches. Responsive customer support is available for any questions or assistance needed after purchase.\n\nBest for buyers who specifically want to build a compact dual-screen workspace with a portable monitor.",
     specs: ["4-16in device range, 1kg load capacity", "Non-slip foam base, full bottom coverage", "One-piece foldable design"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$22.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HylQmnnbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BZXLZX8V?tag=deskfinds0d-20",
     description: "This stand's 8 distinct slots for the back and angle support give you meaningful tilt flexibility, steady in any of the 8 positions rather than a continuously adjustable but potentially less stable hinge. Its aluminum alloy construction with silicone gripping on the holder ensures your device stays stable, backed by a silicone pad preventing the stand from slipping on your desk.\n\nCompared to the Bimo pick above, this one is the cheapest in this tier while still delivering aluminum alloy construction and works equally well in landscape or portrait orientation. Wide compatibility covers 7 to 13 inch tablets, spanning iPad Pro through Kindle Fire and Surface Pro devices.\n\nBest for buyers who want the lowest price in this tier with genuinely stable multi-position tilt slots.",
     specs: ["7-13in device range, 8 tilt slots", "Aluminum alloy, silicone grip", "Landscape and portrait orientation support"],

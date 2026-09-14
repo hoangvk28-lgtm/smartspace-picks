@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41pdM195idL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$48.06",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pdM195idL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLNVSHF3?tag=deskfinds0d-20",
     description: "This stand's rear-positioned power outlet keeps cables neatly arranged, specifically avoiding the messy side wiring the listing notes as a problem on other similar products. Its 2 power outlets and 2 USB ports with a 5 ft cord efficiently power multiple devices, while each shelf supports up to 150 lbs for 450 lbs total, the highest capacity in this comparison.\n\nCompared to the MAHANCRIS pick below, this one specifically addresses cable routing as a design priority, positioning the outlet where it won't create visible tangles. Its industrial-grade steel frame and thick particle board construction back up the substantial stated weight capacity.\n\nBest for buyers who want the highest weight capacity with thoughtfully routed power outlets.",
     specs: ["450 lb total capacity, 150 lb per shelf", "2 power outlets, 2 USB ports, 5ft cord", "Rear-positioned outlet for cable management"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$45.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/412Y-c5n9HL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C49XGVDJ?tag=deskfinds0d-20",
     description: "This stand's anti-tip device specifically doubles the security of its 3-tier structure, a stated safety feature the VECELO pick above doesn't explicitly mention. Its power strip beneath the top panel provides 2 standard outlets and 2 USB ports with a 4.9-foot cord, and each mesh shelf plus the top bears up to 44 lbs.\n\nCompared to the VECELO pick, this one trades some raw weight capacity for the explicit anti-tip safety feature, worth prioritizing if the stand will be in a household with children or pets. Four 360-degree rotating wheels with two lockable provide mobility and stability across rooms.\n\nBest for buyers who specifically want an anti-tip safety device alongside built-in power.",
     specs: ["44 lb per shelf and top, anti-tip device", "2 power outlets, 2 USB ports, 4.9ft cord", "4 wheels, 2 lockable"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$44.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4170NDsxKdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BRF6SZG?tag=deskfinds0d-20",
     description: "This stand's upper shelf bears up to 88 lbs, the highest single-shelf figure in this comparison among the picks that don't include power outlets, backed by a well-made iron frame and P2 chipboard panels. Under-shelf support rods add reinforcement, and thick black metal legs provide additional stability.\n\nCompared to the power-outlet-equipped picks above, this one skips built-in charging entirely, focusing purely on structural capacity and stability instead. Its 2 lockable wheels let you move it without lifting while still securing it in place when needed, and its height specifically matches standard desk height for easy access.\n\nBest for buyers who prioritize raw shelf weight capacity over built-in power features.",
     specs: ["88 lb upper shelf, 33 lb bottom two shelves", "Iron frame, P2 chipboard panels", "2 lockable wheels, desk-height design"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$39.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41tnILjLZEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVHYLM57?tag=deskfinds0d-20",
     description: "This stand's 4 USB ports plus a standard outlet provide more USB charging points than the other power-equipped picks in this comparison, useful if you're charging multiple small devices alongside your printer. Its 2 included hooks add hanging storage for items like headphones or cables, a detail unique to this pick.\n\nCompared to the VECELO and MAHANCRIS picks, this one costs meaningfully less while still delivering genuine built-in charging, though its top plate capacity of 44 lbs is lower than the heavier-duty options. Four casters plus 4 adjustable feet give you the choice between rolling mobility or a stable fixed setup.\n\nBest for buyers who want the most USB ports and built-in power at the lowest price in this tier.",
     specs: ["44 lb top, 17 lb per mesh shelf", "4 USB ports, 1 standard outlet", "4 casters or 4 adjustable feet, 2 hooks"],

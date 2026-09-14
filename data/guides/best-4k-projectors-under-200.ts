@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41mR8b1IwnL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41mR8b1IwnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRR962P4?tag=deskfinds0d-20",
     description: "This projector's officially licensed Netflix app is genuinely built in, letting you stream directly without a Fire Stick or dongle, a real convenience the other picks in this comparison achieve through a more generic app store instead. Its 3500 ANSI lumens rating is the highest stated brightness in this tier, backed by true native 1080P resolution with 4K decoding and HDR10 support.\n\nCompared to the X6 pick below, this one adds a 360-degree rotatable gimbal stand specifically designed for ceiling, wall, or tent projection at any angle, and its LED engine is rated for up to 150,000 hours of use backed by a 2-year manufacturer protection. Dual auto temperature control systems keep operation stable during extended sessions.\n\nBest for buyers who want officially licensed Netflix with the highest stated brightness in this tier.",
     specs: ["Native 1080P, 4K decoding, 3500 ANSI lumens", "Officially licensed Netflix built-in", "360 degree rotatable gimbal stand"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$169.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51O-Mk+cBqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4FF1BNX?tag=deskfinds0d-20",
     description: "This projector's Android 14.0 operating system comes pre-installed with Netflix, YouTube, Disney+, and Prime Video, plus access to over 1,000 additional apps through the built-in Play Store, the broadest app ecosystem in this comparison. Its under 28 dB cooling system runs specifically quieter than comparable projectors, avoiding distractions during quiet on-screen moments.\n\nCompared to the GRR962P4 pick above, this one adds a smart voice remote with air mouse and QWERTY keyboard functionality alongside a dedicated smartphone remote app, giving you multiple control methods. WiFi 6 with bi-directional Bluetooth 5.4 lets you use it as a standalone Bluetooth speaker in addition to its projection function.\n\nBest for buyers who want the broadest streaming app selection with the quietest operation.",
     specs: ["Native 1080P, 4K/8K decoding, 800 ANSI lumens", "Android 14.0 OS, 1000+ apps", "Under 28 dB cooling system"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31MXqk2drHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G64L1ZWL?tag=deskfinds0d-20",
     description: "This projector's built-in 15W high-fidelity stereo speaker delivers more powerful audio than the smaller speaker setups typical at this price point, meaning it's less likely you'll need external speakers for casual movie nights. Its built-in TV stick module provides instant access to YouTube and over 10,000 streaming apps without needing a separate dongle.\n\nCompared to the X6 pick above, this one adds dynamic obstacle avoidance that automatically adjusts the image to avoid interference from objects in the projection path, a specific auto-calibration feature not every budget projector includes. Four standard 1/4 inch mounting holes on the bottom make it compatible with most tripods, desktop brackets, and ceiling mounts.\n\nBest for buyers who want a more powerful built-in speaker without needing external audio equipment.",
     specs: ["Native 1080P, 4K decoding, 800 ANSI lumens", "15W built-in stereo speaker", "Dynamic obstacle avoidance, standard mounting holes"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$139.97",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51M6mLPorGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FG322D4R?tag=deskfinds0d-20",
     description: "This projector's built-in streaming system provides access to over 1.2 million videos across Netflix, YouTube, and Prime Video without any extra equipment, delivering solid content access at the lowest price in this comparison. Its 2x10W built-in speakers support Dolby Audio, providing clear dialogue and rich bass without external speakers required.\n\nCompared to the Magcubic pick above, this one prioritizes a lower price point while still delivering 1500 ANSI lumens brightness and a 300 inch maximum screen size with 50% zoom flexibility. Manual focus paired with auto keystone correction gives you fine control over sharpness while still simplifying initial setup.\n\nBest for buyers who want the lowest price with solid built-in streaming and Dolby Audio support.",
     specs: ["4K decoding, 1500 ANSI lumens", "2x10W speakers, Dolby Audio", "Manual focus, auto keystone correction"],

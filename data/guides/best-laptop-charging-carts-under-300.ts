@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41wRqaxuTcL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$299.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41wRqaxuTcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSL51HRF?tag=deskfinds0d-20",
     description: "This cart's front and rear key-lock doors, each with 2 included keys, protect up to 30 devices from unauthorized access, and both doors are fully removable to speed up device organization and cable management. Its integrated 30-outlet power strip includes a circuit breaker and grounding protection to prevent overloads.\n\nCompared to the POCHAR pick below, this one adds numbered device slots to simplify daily identification and management, a small but genuinely useful detail for classrooms cycling through the same devices repeatedly. The detachable zig-zag cable management system keeps cords organized alongside a dedicated charger storage holder.\n\nBest for buyers who want genuine lock security with numbered slots for daily device tracking.",
     specs: ["30 devices, front and rear key locks", "30-outlet power strip, circuit breaker", "Numbered slots, zig-zag cable management"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$299.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eKX9IVyVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCYJL44Z?tag=deskfinds0d-20",
     description: "This cart matches the Meteteel pick's 30-device capacity and front-and-rear key-lock security at the same price point, while adding an assembly video with detailed step-by-step instructions for setup. Its 30-outlet power strip includes the same circuit breaker and grounding protection for safe simultaneous charging.\n\nCompared to the Meteteel pick, this one specifically highlights direct manufacturer support for assembly or usage questions, a detail worth considering if your organization lacks IT staff comfortable with cart assembly. The detachable zig-zag cable frame and charger management holder keep cords tangle-free during daily use.\n\nBest for buyers who want direct manufacturer assembly support alongside matching lock security.",
     specs: ["30 devices, front and rear key locks", "30-outlet power strip, circuit breaker", "Assembly video, manufacturer support"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$229.90",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dtuWkM1hL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXLZXVCT?tag=deskfinds0d-20",
     description: "This cart's lockable design combines built-in surge protection with a genuine locking mechanism, positioning it as a more affordable lock-equipped option than the 30-device Meteteel and POCHAR picks above, though with a lower 16-device capacity. Its integrated power strip and cable management system requires no complex setup, working right out of the box.\n\nCompared to the higher-capacity picks in this tier, this one trades device count for a lower price while still delivering genuine lock security and surge protection, a combination not every budget cart offers together. The ventilated panel design and two locking casters round out its feature set.\n\nBest for buyers who want lock security and surge protection without needing 30-device capacity.",
     specs: ["16 devices, lockable design", "Built-in surge protection", "Plug-and-play power strip, cable management"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41cbB0IqxIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H9Y98WB4?tag=deskfinds0d-20",
     description: "This cart's individually separated storage slots with adjustable dividers fit devices up to 15.6 inches, a wider size range than the 14-inch limit on the 30-device picks in this tier. Its open-ventilated design improves airflow during charging while a dedicated rear cable management system keeps cords tangle-free.\n\nCompared to the VEVOR pick above, this one holds 4 more devices at a similar price point while using an open-frame design rather than a locking cabinet, trading device security for wider laptop compatibility. The built-in 20-outlet power strip supports convenient multi-device charging with heavy-duty industrial-grade construction.\n\nBest for buyers with larger laptops up to 15.6 inches who need mid-size fleet capacity.",
     specs: ["20 devices, fits up to 15.6in laptops", "Open-ventilated design, rear cable management", "20-outlet power strip, industrial-grade construction"],

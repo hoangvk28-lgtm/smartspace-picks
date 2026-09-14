@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41VqzZL9zuL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VqzZL9zuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GM881DPL?tag=deskfinds0d-20",
     description: "This stand's dual mode design genuinely holds either two phones simultaneously using independent movable clamps, or one tablet by sliding both clamps into storage slots and using the extra-wide spring clamp instead, a real dual-purpose engineering solution none of the other picks in this comparison offer. Its 9.84 to 20 inch height range is the tallest in this tier, bringing any screen to eye level whether seated or standing.\n\nCompared to the werfami pick below, this one comes with a stated 3-year warranty, the longest coverage in this category according to the listing, backed by heavy-duty carbon steel rod and a thickened 15cm weighted metal base. The silicone-padded clamp holds devices up to 0.75 inches thick with cases still on.\n\nBest for buyers who want genuine dual-device support with the tallest height range and longest warranty.",
     specs: ["9.84-20in height, dual-mode phone or tablet", "3-year warranty", "Carbon steel rod, 15cm weighted base"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418KbZUt77L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GVLXLWQS?tag=deskfinds0d-20",
     description: "This stand's 4-in-1 design converts from a heavy-duty laptop riser to a sturdy tablet easel, a magnetic desk phone holder, and even a handheld vlogging selfie stick, replacing three bulky accessories with one sleek device. Its ultra-strong integrated N52 magnetic core instantly snaps onto MagSafe-compatible iPhones for a quick dual-screen productivity hub without clumsy clamps.\n\nCompared to the Dehuft pick above, this one's aerospace aluminum construction holds heavy 15.6 to 17 inch gaming laptops and iPad Pros without wobbling, a broader device category range than a pure tablet stand. The 3-second baton folding frame collapses into a genuinely compact travel size with an included microfiber pouch.\n\nBest for buyers who want a genuine multi-function device serving as laptop riser, tablet stand, and phone mount.",
     specs: ["Laptop, tablet, and MagSafe phone support", "Aerospace aluminum, 8-level height adjustment", "3-second fold, includes travel pouch"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51-G4P-loHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G13246YW?tag=deskfinds0d-20",
     description: "This stand's full 360 degree rotating base lets you share content with colleagues or clients seamlessly without moving the tablet itself, ideal for meetings, team huddles, or presentations. Its dual adjustable hinges modify both height and tilt angle to find your perfect viewing position for a range of activities from reading to drawing.\n\nCompared to the Dehuft pick above, this one focuses on rotation and viewing angle flexibility rather than dual-device support or maximum height, positioning it for buyers who specifically value screen-sharing convenience. Widened hooks fit devices with cases up to 0.8 inches thick, and smooth chamfered edges protect your hands during use.\n\nBest for buyers who specifically want 360-degree rotation for screen sharing in meetings.",
     specs: ["4.7-16.9in device range, 360 degree rotation", "Heavy-duty weighted metal base", "Cases up to 0.8in thick, chamfered edges"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$22.88",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aDe-gn4nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DM2B6H25?tag=deskfinds0d-20",
     description: "This stand's double heavy duty base is specifically designed so it will never tip over or shake even when used in any direction, a genuine floor-standing stability claim the desktop stands in this comparison don't need to address. Its 27.5 to 53 inch height range is dramatically taller than any desktop stand, purpose-built for use beside a bed, sofa, or standing position.\n\nCompared to the desktop-focused picks above, this one's flexible design frees your hands entirely for watching movies, live streaming, or reading music scores while practicing an instrument. The carbon steel and reinforced base construction provides long-term durability, and the flat base doubles as a spot to place items when not holding a device.\n\nBest for buyers who specifically need a floor-standing solution for bedside or sofa-adjacent use.",
     specs: ["27.5-53in height, floor-standing", "Double heavy-duty base, carbon steel", "4.7-13in device compatibility"],

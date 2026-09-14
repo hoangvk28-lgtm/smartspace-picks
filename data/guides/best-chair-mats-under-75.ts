@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ParEk4GiL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ParEk4GiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01NAWBSO8?tag=deskfinds0d-20",
     description: "This mat's 100 percent pure polycarbonate construction is a genuine material upgrade over the PVC used across every other pick in this comparison, offering higher impact strength and a rigid surface that won't dip or cup over its lifespan. Its smooth back adheres safely to hard surfaces like vinyl, hardwood, laminate, stone, tile, and concrete.\n\nCompared to the BesWin picks below, this one costs a comparable amount while delivering a meaningfully more durable material for light, medium, or heavy daily use. It's shipped rolled at this larger 48 by 60 inch size, and the polycarbonate reverts to a flat state almost instantly once unrolled, unlike PVC mats that can take days to flatten.\n\nBest for buyers who want genuine polycarbonate durability over standard PVC construction.",
     specs: ["48in x 60in, 100 percent polycarbonate", "High impact strength, won't dip or cup", "Hard floors only, flattens almost instantly"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51bfybtw2uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2R8GZMT?tag=deskfinds0d-20",
     description: "This mat's 46 by 72 inch size is the longest coverage in this entire comparison, giving substantial rolling room for a large desk setup or an L-shaped desk arrangement on low pile carpet. Its studded underside with 3mm spikes carries over the same proven grip design used across the smaller BesWin picks in the lower tiers.\n\nCompared to the smaller BesWin 48x60 pick below, this one trades some width for considerably more length, better suited to a long desk run rather than a single centered chair position. The 2.2mm thick premium PVC construction resists cracking or shattering under sustained daily use.\n\nBest for buyers with long or L-shaped desks who need extended carpet coverage.",
     specs: ["46in x 72in, 2.2mm thick", "3mm studded underside for carpet grip", "Designed for low and flat pile carpet"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$62.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51bfybtw2uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC1ZGMKV?tag=deskfinds0d-20",
     description: "This mat's 48 by 60 inch dimensions prioritize width over the extra length of the 46x72 BesWin pick above, better suited to a centered desk position where side-to-side chair movement matters more than front-to-back reach. It shares the same 2.2mm thick, studded PVC construction as the rest of the BesWin lineup.\n\nCompared to the 46x72 pick, this one costs about $7 less while offering a wider footprint, a worthwhile tradeoff if your desk setup doesn't extend particularly far in either direction. The transparent design continues to let your carpet's appearance show through despite the added grip layer underneath.\n\nBest for buyers who want a wide, centered coverage area at a lower price than the extended-length pick.",
     specs: ["48in x 60in, 2.2mm thick", "3mm studded underside for carpet grip", "Designed for low and flat pile carpet"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Ldvd4RTaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H81YH9FN?tag=deskfinds0d-20",
     description: "This mat's 3mm rivet design on the underside firmly fixes the pad in place on low pile carpet, and it's the cheapest of the four picks in this tier despite matching the 48 by 60 inch coverage of the pricier BesWin pick. Its non-toxic PVC construction is free of BPA, phthalates, and volatile toxins.\n\nCompared to the polycarbonate Marvelux pick, this one is carpet-only and skips the material upgrade, but it undercuts every other pick in this tier by at least $3 while delivering the same core coverage size as the wide BesWin option. A note in the listing explains that slight dents from normal use are a natural PVC characteristic rather than a defect.\n\nBest for buyers who want the largest carpet coverage at the lowest price in this tier.",
     specs: ["48in x 60in, 3mm rivet design", "Non-toxic PVC, free of BPA and phthalates", "Designed for low pile carpet only"],

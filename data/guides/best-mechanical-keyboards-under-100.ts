@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41OIkZ+MM4L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$91.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41OIkZ+MM4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2DP88SD?tag=deskfinds0d-20",
     description: "This board's full VIA and QMK programmability lets you remap any key or create macros through drag-and-drop, with keymaps working on both wireless and wired modes once configured in wired mode. Its 4000mAh battery, described as one of the biggest in mechanical keyboards, powers up to 3 simultaneous Bluetooth device connections at a 1000Hz polling rate.\n\nCompared to the standard Keychron K10 pick below, this Pro version adds sound-absorbing foam, a thick silicone dampening bottom pad, and a steel plate for a noticeably more refined typing sound. Pre-lubed tactile brown switches are hot-swappable with nearly any 3-pin or 5-pin MX-style switch on the market.\n\nBest for buyers who want full VIA programmability with a refined, sound-dampened typing experience.",
     specs: ["100% layout, VIA/QMK programmable, hot-swappable", "4000mAh battery, 3-device Bluetooth", "Sound-absorbing foam, steel plate"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$84.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31ssMvj7kFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08MKSNYJD?tag=deskfinds0d-20",
     description: "This board's 4000mAh battery lasts up to 240 hours with the backlight off, a battery life figure the pricier K10 Pro doesn't match at 100 hours even at its lowest brightness setting. Its Keychron Super switches carry the same 50 million click lifespan rating as other Keychron boards in this comparison series, with dedicated Screenshot, Siri, and Screen Lock keys for Mac users.\n\nCompared to the K10 Pro above, this standard version skips the sound-absorbing foam, silicone dampening pad, and VIA programmability in exchange for a meaningfully lower price and dramatically longer battery life between charges. It still connects to up to 3 devices via Bluetooth 5.1 with a wired USB-C fallback mode.\n\nBest for buyers who prioritize maximum battery life over sound refinement and VIA programmability.",
     specs: ["104 keys, full-size, Bluetooth/USB-C", "Up to 240 hours battery life, backlight off", "Dedicated Mac shortcut keys included"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$89.95",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/5118gkQ7QcL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFXWQWB8?tag=deskfinds0d-20",
     description: "This board's fully transparent PC chassis with clear keycaps creates a distinct exoskeleton aesthetic none of the other picks in this comparison offer, while custom GravaStar x BSUN linear switches with 40gf actuation and 2mm pre-travel deliver rapid, controlled keystrokes for competitive gaming. Its gasket-mounted structure with 5-layer foam dampening refines keystroke impact for stability during long sessions.\n\nCompared to the two Keychron K10 picks, this one uses a more compact 75% layout at 80 keys rather than a full 100% layout, trading a number pad for desk space savings and a more distinctive visual design. Tri-mode connectivity supports wired, Bluetooth, and 2.4GHz wireless for flexible multi-device use.\n\nBest for buyers who want a visually distinctive transparent design with competitive gaming switches.",
     specs: ["75% layout, 80 keys, transparent chassis", "40gf actuation switches, gasket-mounted", "Tri-mode connectivity, 4000mAh battery"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$84.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41KXqiMwAdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT3F35D4?tag=deskfinds0d-20",
     description: "This board's factory pre-lubed Keychron Silent K Pro Red switches deliver a soft, quiet typing feel specifically engineered for shared spaces or late-night use, a genuinely distinct switch category from the standard linear or tactile switches on the other three picks in this comparison. Its TKL 87-key layout with white LED shine-through keycaps balances desk space savings with visibility.\n\nCompared to the GravaStar pick above, this one connects to up to 3 devices via Bluetooth 5.1 or a wired USB-C mode with a 1000Hz polling rate, matching the connectivity flexibility while specifically prioritizing quiet operation over competitive gaming switch speed. Optimized native macOS multimedia keys with included Windows keycaps round out its cross-platform support.\n\nBest for buyers who specifically need quiet switches for shared spaces or late-night typing.",
     specs: ["87 keys, TKL, silent red switches", "Bluetooth 5.1, wired USB-C, 1000Hz polling", "Native macOS keys, Windows keycaps included"],

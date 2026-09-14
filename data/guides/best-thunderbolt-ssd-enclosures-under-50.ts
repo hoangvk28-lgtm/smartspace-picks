@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/3181Im0e4IL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$53.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/3181Im0e4IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FV1PNJ5B?tag=deskfinds0d-20",
     description: "This enclosure's built-in fan and optimized vent design specifically support up to 4 hours of full-speed operation, a stated endurance figure none of the other picks in this comparison disclose. Powered by the ASM2464PD controller, it delivers tested read and write speeds up to 3187MB/s over the 40Gbps interface.\n\nCompared to the MOKiN pick below, this one adds a transparent back plate that lets you view internal components while adding a modern aesthetic touch. Its compact, lightweight RNE-01 design fits easily in a pocket or bag, and it supports M.2 NVMe SSDs up to 8TB in the standard 2230-2280 size range.\n\nBest for buyers who want a stated sustained-operation time figure with active cooling.",
     specs: ["40Gbps, ASM2464PD chip, active fan cooling", "Up to 4 hours full-speed operation stated", "8TB support, transparent back plate"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41HaVz0AzKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G2WBLSVQ?tag=deskfinds0d-20",
     description: "This enclosure includes both USB-C (USB4) and USB-A cables in the box, a genuine dual-cable inclusion that saves you from purchasing a separate cable for older USB-A devices. Its ASM2464PD chip supports UASP acceleration protocol alongside S.M.A.R.T drive monitoring and TRIM support for maintaining SSD health over time.\n\nCompared to the Rosewill pick above, this one specifically markets its Mac compatibility for M1 Pro/Max systems while remaining fully compatible with Windows, Linux, and Android as well. Its pocket-sized, lightweight design slides easily into a bag without adding unnecessary bulk for commuting or travel.\n\nBest for buyers who want both USB-C and USB-A cables included with broad OS support.",
     specs: ["40Gbps, ASM2464PD chip, UASP support", "Includes USB-C and USB-A cables", "S.M.A.R.T monitoring, TRIM support"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$45.11",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51KNvure+OL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBYCDPWG?tag=deskfinds0d-20",
     description: "This enclosure's unique foldable design is genuinely space-saving and portable, a distinct form factor from the fixed-shape enclosures in this comparison. Its dual-color LED power indicator specifically shows blue for USB4 40Gbps mode and green for USB3.2 mode, letting you instantly confirm which speed mode is active.\n\nCompared to the MOKiN pick above, this one supports PCI-E Gen 4x4 with tested read speeds up to 3800MB/s and write speeds up to 3600MB/s, verified with a specific Razer Blade 18 and Samsung 980 PRO combination. Its temperature-controlled fan activates only when needed, keeping operation quiet during lighter workloads.\n\nBest for buyers who want a foldable design with a clear visual speed-mode indicator.",
     specs: ["40Gbps, PCI-E Gen 4x4, foldable design", "Dual-color LED speed mode indicator", "Temperature-controlled fan, single-sided SSDs only"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/415SGSo6oWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G46KSR4B?tag=deskfinds0d-20",
     description: "This enclosure's triple fins heat dissipation design combined with a deep-groove fin structure and included silicone thermal pads provides passive cooling without any fan noise, the quietest operation possible in this comparison. Its ASM2464PD chip delivers lower power consumption while maintaining the enclosure's cool operating temperature.\n\nCompared to the Cable Matters pick above, this one is the cheapest by a meaningful margin while still including a 50cm 40Gbps cable in the box. Its 24-month technical support commitment provides longer coverage than typically expected at this price point.\n\nBest for buyers who want the lowest price with genuinely silent passive cooling.",
     specs: ["40Gbps, ASM2464PD chip, triple fins passive cooling", "50cm 40Gbps cable included", "24-month technical support"],

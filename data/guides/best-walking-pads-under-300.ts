@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41WPVTUITbL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$329.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WPVTUITbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1WZJX6S?tag=deskfinds0d-20",
     description: "This pad's reinforced 67.7 lb steel frame is specifically built to reduce the shaking common in lightweight treadmills, and its 1.25 CHP brushless motor with Hall sensor control is rated for up to 15,000 hours of motor life, a specific durability figure none of the other picks in this comparison state. Its 16.5 x 41.3 inch deck provides 33% more stride space than standard walking pads, explicitly marketed for taller users.\n\nCompared to the Walking Pad 450lb pick below, this one supports slightly less weight at 400 lbs but adds a child lock safety feature and syncs with both Apple Health and Google Fit. Average noise runs around 53.6 dB, louder than some picks in this tier but justified by the heavier-duty motor and frame.\n\nBest for buyers who want the most durable frame and a wider deck built for taller users.",
     specs: ["400 lb capacity, 67.7 lb steel frame", "1.25 CHP motor, 15,000 hour motor life", "16.5in x 41.3in deck, 12 incline levels"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$249.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41EqhydK5nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9K12HFP?tag=deskfinds0d-20",
     description: "This pad's steel frame supports up to 450 lbs, the highest stated weight capacity in this comparison, with a 9-level auto-incline system reaching 12% that automatically adjusts rather than requiring manual leg repositioning. Its 2.5HP motor runs whisper-quiet while pairing via Bluetooth for motivational music through a built-in speaker vent.\n\nCompared to the MERACH pick above, this one includes access to an independent FitYo App with 50+ coach-led courses and 100 scenic routes at no additional subscription cost, a genuinely comprehensive content library. A 3-year warranty backed by 24/7 real-person support exceeds the coverage typical at this tier.\n\nBest for buyers who want the highest weight capacity with automatic incline adjustment.",
     specs: ["450 lb capacity, 9-level auto incline up to 12%", "2.5HP motor, Bluetooth speaker", "FitYo App, 50+ courses included"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$218.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31jrK50+aVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H6RJWDRC?tag=deskfinds0d-20",
     description: "This pad's app compatibility spans WELLFIT App, Kinomap, and Apple Health, plus voice control for adjusting speed remotely, a broader connectivity range than the other picks in this comparison. Its 16 x 36 inch belt is specifically designed to mimic natural grass texture for cushioning, and the 3.0HP motor supports up to 350 lbs.\n\nCompared to the Walking Pad 450lb pick, this one arrives fully assembled and folds to just 4.45 inches thick for upright storage, a more compact folded profile than most picks in this tier. Its stability handlebar and non-slip belt are specifically marketed toward beginners, seniors, or anyone recovering from injury.\n\nBest for buyers who want voice control and broad app compatibility with beginner-friendly stability features.",
     specs: ["350 lb capacity, 10% manual incline", "3.0HP motor, voice control compatible", "16in x 36in belt, folds to 4.45in thick"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$198.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41YYSPCg0IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HBV9SF8V?tag=deskfinds0d-20",
     description: "This pad's height-adjustable handlebar spans 35 to 43 inches, suiting users of different heights within the same household, and its 40x16 inch belt with 8 silicone shock absorbers plus 2 rubber pads provides substantial cushioning for its price. A folding desktop surface appears when the display screen is put down, adding workspace functionality.\n\nCompared to the three heavier-duty picks above, this one supports a lower 300 lb capacity, positioning it as the budget-conscious choice in this tier for buyers who don't need the highest weight ratings. Its 2.5HP motor delivers a 0.6-7.5 mph speed range with lifetime customer support backing a 1-year warranty.\n\nBest for buyers who want the lowest price in this tier with an adjustable handlebar for family use.",
     specs: ["300 lb capacity, 35-43in adjustable handlebar", "2.5HP motor, 0.6-7.5 mph", "40in x 16in belt, folding desktop"],

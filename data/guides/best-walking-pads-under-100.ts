@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51JbSk7t+uL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$109.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51JbSk7t+uL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGB9BV77?tag=deskfinds0d-20",
     description: "This pad's 5-layer anti-slip running belt with diamond texture, combined with silicone shock absorbers and rubber cushioning, delivers more cushioning layers than the other picks in this comparison. Its 2.5HP motor supports up to 264 lbs across a 1-6 km/h speed range with noise-reduction technology built into the durable steel frame.\n\nCompared to the GTYY2FLL pick below, this one skips incline entirely in favor of a wider 38.5 x 94 cm walking area, prioritizing walking surface space over added workout intensity features. Built-in transport wheels and a compact 109 x 50 x 11 cm profile make it easy to store under a bed, sofa, or desk.\n\nBest for buyers who want the most cushioned belt and largest walking area at this tier.",
     specs: ["5-layer belt, 264 lb capacity", "2.5HP motor, 1-6 km/h speed range", "38.5 x 94cm walking area"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$99.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41gXHaPGi1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GTYY2FLL?tag=deskfinds0d-20",
     description: "This pad's built-in 8% incline increases calorie burn and workout intensity, a feature none of the other picks in this comparison offer at this price point. Its 2.5HP motor supports up to 265 lbs while operating under 45 dB, and the 15 x 35.4 inch belt uses 6-layer shock absorption to reduce joint impact.\n\nCompared to the flat-only GGB9BV77 pick above, this one trades some walking surface area for the added incline feature, positioning it for buyers who specifically want more workout intensity in a compact frame. The remote control lets you adjust both speed and incline hands-free during use.\n\nBest for buyers who want built-in incline for more intense workouts at this price.",
     specs: ["8% incline, 15in x 35.4in belt", "2.5HP motor, under 45 dB", "0.6-4 MPH speed, 265 lb capacity"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$89.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rQ0C2ESpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FX33GJ5D?tag=deskfinds0d-20",
     description: "This pad's removable handle bar lets it function as a traditional treadmill with support or fold flat for under-desk walking, a genuine dual-mode design not offered by the fixed-format picks in this comparison. Three speed modes cover walking, jogging, and running from 0.6 to 4 MPH, with a detachable phone holder included.\n\nCompared to the incline-focused GTYY2FLL pick, this one prioritizes handle bar versatility and foldability over incline, folding down to just 104 x 48.7 x 10.5 cm for storage. Its 5-layer non-slip belt across a 90 x 38 cm running area provides comfort during use.\n\nBest for buyers who want the flexibility of a removable handle bar for both walking and light jogging.",
     specs: ["90cm x 38cm belt, removable handle bar", "440W motor, 264 lb capacity", "Folds to 104 x 48.7 x 10.5cm"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZbsmaRmVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H8MG2ZQ9?tag=deskfinds0d-20",
     description: "This pad's steel frame provides stable support during walking at a 0.6-4.0 mph speed range, and it requires no assembly out of the box, the simplest setup of any pick in this comparison. Its anti-slip belt with a cushioning system provides enhanced comfort, though the listing doesn't specify a layer count the way pricier picks do.\n\nCompared to the FX33GJ5D pick above, this one is the cheapest in this tier while skipping the handle bar entirely, positioning it purely as a flat walking surface for under-desk use. Transport wheels and a lightweight structure make it easy to store under beds, sofas, or desks.\n\nBest for buyers who want the simplest, lowest-cost walking pad with no assembly required.",
     specs: ["0.6-4.0 mph speed range, no assembly", "Anti-slip belt, cushioning system", "Transport wheels included"],

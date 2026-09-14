@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m2vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31V1JqLqB3L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m2vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31V1JqLqB3L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JSHP7M?tag=deskfinds0d-20",
     description: "The 4th generation Scarlett Solo adds an Auto Gain feature that automatically sets input levels by analyzing a few seconds of your loudest signal, a genuinely useful addition for first-time users who don't know how to manually gain-stage a microphone. Its Clip Safe technology continuously monitors and adjusts gain in real time to prevent distortion, working alongside the manual Air mode for added clarity on vocals and acoustic instruments.\n\nCompared to the Behringer UMC404HD pick below, this one trades 4 inputs for a single, more refined mic preamp with smarter auto-leveling technology, prioritizing ease of use over raw channel count. It still includes the same substantial software bundle as its 3rd-gen predecessor, including Ableton Live Lite and a suite of plugins.\n\nBest for buyers who want smart auto-gain technology that removes the guesswork from setting recording levels.",
     specs: ["1 mic preamp, Auto Gain, Clip Safe", "24-bit/192kHz, Air mode", "Ableton Live Lite + plugin suite included"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$147.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9mXqPzsL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41nMB7DJSWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08F8HL7T7?tag=deskfinds0d-20",
     description: "The PodTrak P4 is a genuinely different product category from the other three picks in this comparison: a standalone multitrack recorder with 4 built-in mic preamps that records directly to an SD card with zero computer required, making it usable for on-location interviews where bringing a laptop isn't practical. It includes dedicated smartphone inputs specifically for recording phone-in guests directly into the mix.\n\nCompared to the traditional computer-tethered interfaces in this comparison, this one adds built-in sound pad buttons for playing jingles or sound effects live during recording, a feature no traditional interface offers. It can also function as a standard USB audio interface when connected to a computer, giving it dual-mode flexibility.\n\nBest for buyers who specifically want a standalone recorder that works without a computer for on-location interviews.",
     specs: ["4 mic preamps, SD card recording", "Built-in smartphone inputs, sound pads", "Also functions as USB interface"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$139.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h3mXqPzoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HPVaPsvHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00TTX73YA?tag=deskfinds0d-20",
     description: "The UMC404HD packs 4 Midas-designed mic preamps into a single rack-mountable unit, bringing recording console technology from Behringer's professional Midas mixing board lineup down to a budget interface price point. Its 24-bit/192kHz converters and MIDI I/O support make it genuinely versatile for both audio recording and connecting external MIDI gear like keyboards or drum machines.\n\nCompared to the Scarlett Solo pick above, this one offers 4x more simultaneous input channels for a lower price, making it the clear choice for anyone recording a full band or multi-person podcast rather than a solo creator. Its rack-mountable design also suits a permanent studio setup better than the desktop-only competitors in this comparison.\n\nBest for buyers who need 4 simultaneous XLR inputs for full-band or multi-person recording at the lowest price in this tier.",
     specs: ["4 Midas-designed mic preamps, 24-bit/192kHz", "MIDI I/O, rack-mountable design", "4x4 simultaneous input/output"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$139.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h5mXqRZpL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/215iJB8yehL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GK2HV2XZ?tag=deskfinds0d-20",
     description: "The MVX2U Gen 2 pairs Shure's studio-quality mic preamp with built-in DSP voice processing modes specifically tuned for podcasting, streaming, and gaming, so effects like a limiter, compressor, and noise gate are handled onboard rather than requiring separate plugin software. Its real-time Denoiser specifically strips out background hum, fan noise, and other ambient sound before it ever reaches your recording software.\n\nCompared to the Behringer pick above, this one trades multi-channel capacity for a single, more processed and streaming-ready audio path with built-in effects that a bare 4-channel interface leaves entirely to your DAW. ShurePlus MOTIV desktop software gives real-time control over these onboard voice modes without needing a separate mixer.\n\nBest for buyers who specifically want built-in voice processing for streaming or gaming without a separate DAW-based mixer.",
     specs: ["1 mic preamp, onboard DSP voice modes", "Real-time Denoiser, limiter, compressor", "ShurePlus MOTIV control software"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41lpp3H6+AL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$899.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41lpp3H6+AL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01CQ8CMKY?tag=deskfinds0d-20",
     description: "This cart comes from Bretford, an established commercial furniture manufacturer specifically known for institutional device charging solutions, and its digital timer system ensures devices charge quickly through a single cord running from the cart to the wall outlet. Adjustable slot dividers let you reconfigure the cart as your device fleet updates over time rather than being locked into one fixed layout.\n\nCompared to the fully assembled picks below, this one is positioned by the manufacturer as their most affordable mobile charging and storage solution, with slot numbering bars for device organization and a top surface that doubles as a work area supporting up to 8 pounds. This makes it genuinely multi-purpose beyond pure charging and storage.\n\nBest for buyers who want an established commercial brand with reconfigurable slots and a functional top work surface.",
     specs: ["36 devices, adjustable slot dividers", "Digital timer charging system", "Top work surface, supports up to 8 lbs"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$599.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418CVWE7J4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08NRM4Q8C?tag=deskfinds0d-20",
     description: "This cart arrives fully assembled out of the box, needing only the wheels and wire racks attached before use, a genuine time-saving advantage over the flat-packed carts requiring full assembly in lower tiers. Its electronic keypad lock provides secure storage without needing to track physical keys, a meaningful convenience for a facility managing multiple carts.\n\nCompared to the Bretford pick above, this one costs considerably less while still including a circuit breaker, ground fault protection, and ventilation openings for safe charging. The removable rear door and ergonomic push handle make daily device organization and cart movement straightforward.\n\nBest for buyers who want fast setup with keyless electronic lock security at a lower price than premium brand carts.",
     specs: ["30 devices, mostly pre-assembled", "Electronic keypad lock, no physical keys needed", "Circuit breaker, ground fault protection"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$599.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/413mA72t8TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DYP3R2CM?tag=deskfinds0d-20",
     description: "This cart matches the POCHAR pick's fully assembled convenience and 30-device capacity at the same price point, while offering its own customizable 4-digit passcode keypad lock for front-and-back door security. Padded bays deter device damage while ventilated panels and surge protectors round out its safety feature set.\n\nCompared to the POCHAR pick, this one specifically emphasizes user-set passcode flexibility, letting you choose and change your own 4-digit code rather than relying on a factory-set combination. Two locking caster wheels keep the cart securely parked once positioned in its intended location.\n\nBest for buyers who want a fully assembled cart with a user-changeable keypad passcode.",
     specs: ["30 devices, fully assembled", "User-set 4-digit keypad passcode", "Padded bays, surge protectors, locking casters"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$566.43",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41PUedvHV4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09RXPRY8C?tag=deskfinds0d-20",
     description: "This cart's electric key card lock system restricts access to select personnel using a physical card rather than a keypad passcode or traditional key, a distinct security approach from the other picks in this comparison. Two vertical power strips with 15 outlets each charge up to 30 devices while removable plastic dividers and wire hook cable management keep cords organized.\n\nCompared to the fully assembled Meteteel and POCHAR picks, this one is the cheapest in this tier while offering a genuinely different access-control method, useful for facilities already using key card systems for building or room access. Four scratch-free wheels with an ergonomic handle and integrated brakes provide stable, controlled mobility.\n\nBest for buyers who want key card access control matching an existing facility security system.",
     specs: ["30 devices, electric key card lock", "Two vertical power strips, 15 outlets each", "Scratch-free wheels, integrated brakes"],

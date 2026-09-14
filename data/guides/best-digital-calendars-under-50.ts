@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51cLdxxp5PL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$55.39",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51cLdxxp5PL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GQFG9VGT?tag=deskfinds0d-20",
     description: "This calendar syncs Google Calendar, iCloud, and Outlook in real time with every feature, schedule, chore list, meal plan, grocery list, and photo frame, fully unlocked with zero hidden fees, a specific claim the listing makes explicit. Its interactive chore list lets kids earn stars and unlock rewards, turning routines into a game rather than a nagging chore.\n\nCompared to the WiFi Digital Calendar pick below, this one specifically emphasizes a complete feature unlock at this price point rather than a tiered feature structure. Smart sleep saves energy and auto-wakes the display, while local weather and timely reminders round out the daily-use features.\n\nBest for buyers who want every feature genuinely unlocked without hidden subscription gates.",
     specs: ["10.1in touchscreen, third-party calendar sync", "Chore list with rewards, meal manager", "Photo slideshow, weather display"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$59.84",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41thovalg8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9X4Y1R5?tag=deskfinds0d-20",
     description: "This calendar's 1-minute quick setup connects to power and WiFi with automatic calendar sync completing in under a minute, the fastest setup claim in this comparison. Its 178-degree wide viewing angle IPS screen with auto-brightness adjustment delivers clear visibility both indoors and near windows with outdoor light.\n\nCompared to the pick above, this one specifically supports up to 20 family members with color-coded personal schedules, a stated capacity figure the other picks don't disclose as precisely. Smart vibration alerts provide silent reminders, and the adjustable stand supports both landscape and portrait orientation.\n\nBest for buyers who want the fastest setup with a stated 20-person family capacity.",
     specs: ["10.1in IPS, 178 degree viewing angle", "Up to 20 family members, color-coded", "Landscape and portrait adjustable stand"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$59.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41R3Gs+CgiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FS5LTZX7?tag=deskfinds0d-20",
     description: "This calendar's photo upload feature turns the display into a slideshow of favorite memories through its companion app, specifically marketed as bringing warmth and joy alongside its scheduling function. Its built-in chore tracker lets kids earn points redeemable for small rewards, assigned and monitored via phone or the planner itself.\n\nCompared to the pick above, this one emphasizes the photo-frame and memory-sharing angle more heavily in its marketing, positioning it for buyers who specifically want a device that doubles meaningfully as a family photo display. Wall mounting capability lets you position it in high-traffic areas for maximum household visibility.\n\nBest for buyers who want strong photo-frame functionality alongside scheduling features.",
     specs: ["10.1in touchscreen, wall mountable", "Photo slideshow via app, chore point rewards", "Weather display, auto-sleep mode"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$67.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yGZFSTM4L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GZP4GJN9?tag=deskfinds0d-20",
     description: "This calendar syncs with Google, iCloud, Outlook, Cozi, and Yahoo, the broadest platform coverage in this comparison, merging everyone's appointments into one intuitive display over dual-band WiFi for instant updates. Custom colors assigned to each family member eliminate overlapping plans or missed events.\n\nCompared to the other three picks in this tier, this one specifically supports Cozi and Yahoo calendar sync in addition to the standard Google, iCloud, and Outlook trio, useful if your household already uses one of those less common platforms. When not in active use, it automatically transitions into a digital photo frame cycling through cherished photos and videos.\n\nBest for buyers who specifically use Cozi or Yahoo calendars alongside the standard platforms.",
     specs: ["10.1in compact design, dual-band WiFi", "Syncs Google, iCloud, Outlook, Cozi, Yahoo", "Auto photo frame transition when idle"],

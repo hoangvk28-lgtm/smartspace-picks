@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "6 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51aIF9KY80L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$29.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51aIF9KY80L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CC1ZLDL2?tag=deskfinds0d-20",
     description: "This mat's studded underside with 3mm spikes anchors firmly into low and flat pile carpet, solving the sliding problem that a hard-floor mat would have if mistakenly used on carpet. At 2.2mm thick, it's built from premium PVC that resists cracking or shattering under daily chair movement.\n\nCompared to the Kuyal picks below, which are both hardwood-only, this one is specifically engineered for carpet use, making it the clear choice if your desk sits on a carpeted floor rather than hardwood or tile. Its transparent design still lets the carpet's color and texture show through despite the added grip layer.\n\nBest for buyers with carpeted floors who need genuine anchoring grip.",
     specs: ["30in x 48in, 2.2mm thick", "3mm studded underside for carpet grip", "Designed for low and flat pile carpet"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$30.95",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51-SqFH4ZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0822FFG9Q?tag=deskfinds0d-20",
     description: "This mat's anti-slide coating on the underside is specifically formulated for hardwood, tile, vinyl, stone, laminate, and concrete surfaces, keeping it firmly in place without the studded design a carpet mat needs. Its ergonomic PVC construction flexes slightly to reduce leg fatigue during long sitting sessions.\n\nCompared to the BesWin pick above, this one is entirely unsuitable for carpet, positioning it as the direct hardwood counterpart at nearly the same price point and size. The pure polyethylene material contains no phthalates, toxins, cadmium, tin, or lead, an environmental safety detail worth noting for households with children or pets.\n\nBest for buyers with hardwood or tile floors who want a straightforward, safe option.",
     specs: ["30in x 48in, anti-slide coating", "Pure polyethylene, no phthalates or toxins", "Hard floors only, not for carpet"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$32.95",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51-SqFH4ZoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0893BD69B?tag=deskfinds0d-20",
     description: "This mat shares the same anti-slide coating and PVC construction as the smaller Kuyal pick above, but adds 6 extra inches of width, giving your chair a larger rolling radius for the same core design. This matters if your desk setup involves reaching sideways to a filing cabinet or second monitor.\n\nCompared to the 30 inch Kuyal pick, this one costs about $2 more for the additional coverage, a reasonable tradeoff if your chair's actual movement range exceeds the smaller mat's boundaries. It remains hard-floor-only, following the same specialized design as its smaller sibling.\n\nBest for buyers who need more hardwood coverage than the compact 30 inch option provides.",
     specs: ["36in x 48in, anti-slide coating", "100 percent PVC construction", "Hard floors only, not for carpet"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$35.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61vJ8pXqLoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/310m+F+gY5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01N99XMM2?tag=deskfinds0d-20",
     description: "This mat's anti-skid top surface paired with a gripping underside is optimized specifically for 1/4 inch thick carpet pile, a stated compatibility spec more precise than the general 'low pile' language on the BesWin pick above. Its ramped edges create a smooth transition from floor to mat for easier rolling on and off.\n\nCompared to the BesWin carpet pick, this one adds an extended lip design for additional under-desk coverage and comes from HON, an established office furniture brand, at a roughly $6 premium. The 2.2mm thickness helps block stains, dirt, and caster marks from reaching the carpet underneath.\n\nBest for buyers who want a brand-name carpet mat with precise pile-thickness compatibility.",
     specs: ["36in x 48in, 2.2mm thick", "Ramped edges, extended lip design", "Optimized for 1/4 inch carpet pile"],

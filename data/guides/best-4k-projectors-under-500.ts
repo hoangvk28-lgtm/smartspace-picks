@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41rANbFm4SL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$399.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rANbFm4SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GHMW8WS3?tag=deskfinds0d-20",
     description: "This projector's listing specifically states its 1100 ANSI brightness is verified real, directly noting it 'outperforms many 3000 ANSI claims on the market', a transparent acknowledgment of inflated brightness marketing common in this category. Its Pro MEMC motion smoothing technology reduces blur and stutter specifically for sports, action movies, and console gaming.\n\nCompared to the Daytime pick below, this one adds a stated 3-year repair warranty with a 2-year money-back guarantee, the longest combined coverage in this comparison. Kids Mode with content filtering and multi-user profiles with PIN protection provide family-focused controls the other picks don't specifically offer.\n\nBest for buyers who want verified honest brightness with the longest warranty and family controls.",
     specs: ["Native 1080P, 4K decoding, verified 1100 ANSI", "Pro MEMC motion smoothing", "3-year repair warranty, 2-year money-back"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$409.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41iFQLHDgWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HBQR6BTY?tag=deskfinds0d-20",
     description: "This projector's TS-LED technology delivers 2000 ANSI lumens, specifically marketed as double the brightness of standard models for use even with sunlight streaming through windows or overhead lights on. Its diffuse reflection technology cuts harsh glare, making extended viewing sessions significantly easier on the eyes than standard flat-screen displays.\n\nCompared to the WiMiUS pick above, this one adds a fully sealed optical engine with advanced cooling specifically designed to prevent dust buildup and the black spots dust can cause on projected images over time. HDMI 2.1 with a native 60Hz refresh rate and a built-in RJ45 Ethernet port support low-latency gaming and stable wired connections.\n\nBest for buyers who specifically need strong daytime or bright-room viewing performance.",
     specs: ["4K decoding, 2000 ANSI lumens, diffuse reflection", "Sealed optical engine, dust prevention", "HDMI 2.1, RJ45 Ethernet, 60Hz refresh"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$539.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51LfTzCkfxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1C978TB?tag=deskfinds0d-20",
     description: "This projector's advanced cooling system operates at just 25 dB, the quietest stated noise level in this comparison, specifically engineered for late-night movies, bedrooms, and shared spaces without disturbing others. Its 3500 ANSI brightness with 99.8% wide color gamut delivers the highest stated brightness figure in this tier alongside HDR10 enhancement.\n\nCompared to the Daytime pick above, this one adds built-in Google TV with Google Voice Assistant for genuinely hands-free control, letting you search movies and adjust settings by speaking naturally rather than navigating menus. A 360-degree adjustable stand lets you project onto walls, ceilings, or any flat surface without needing an additional mounting accessory.\n\nBest for buyers who specifically want whisper-quiet operation with the highest stated brightness.",
     specs: ["Native 1080P, 4K decoding, 3500 ANSI lumens", "25 dB whisper-quiet cooling", "Built-in Google TV, Google Voice Assistant"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$499.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41MxEDmYLXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H3N24ZWG?tag=deskfinds0d-20",
     description: "This projector's 3000 ANSI lumens delivers a bright, vivid picture even in rooms that aren't completely dark, matching the brightness class of the pricier VISSPL pick above while staying within this tier's stated budget. Its built-in Google TV provides direct access to Netflix, Prime Video, YouTube, and Hulu without needing an extra streaming device.\n\nCompared to the VISSPL pick, this one costs meaningfully less while still delivering HDR10+ support and dual 10W high-fidelity speakers with Dolby Audio for clear dialogue and balanced sound. AI auto focus and auto screen alignment let you set up the projector anywhere from a tabletop to a ceiling mount without complicated manual adjustments.\n\nBest for buyers who want 3000 ANSI brightness with built-in Google TV at the highest value in this tier.",
     specs: ["4K HDR, 3000 ANSI lumens", "Built-in Google TV", "Dual 10W Dolby Audio speakers"],

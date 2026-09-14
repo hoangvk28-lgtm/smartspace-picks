@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41yzmLPoapL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$19.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yzmLPoapL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5WN1FJR?tag=deskfinds0d-20",
     description: "This stand's 55 lb weight capacity is the highest stated figure in this comparison at the lowest price point, backed by sturdy particleboard and metal construction. Rounded corners help prevent bumps, and non-slip pads secure the unit in place while protecting your desk surface from scratches.\n\nCompared to the Asgolion pick below, this one skips rolling casters entirely in favor of a fixed, stable base, positioning it for buyers who want a stationary desktop or under-desk shelf rather than a mobile cart. Its compact 15.7 x 11.8 x 11.8 inch footprint maximizes desktop area while still providing genuine storage.\n\nBest for buyers who want the highest weight capacity at the lowest price in this tier.",
     specs: ["55 lb capacity, 15.7in x 11.8in x 11.8in", "Particleboard and metal frame", "Fixed base, non-slip pads"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$21.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZJTK2DcDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWGTMNL5?tag=deskfinds0d-20",
     description: "This stand's four 360-degree swivel casters, two of which lock, let you push, pull, or reposition it easily while still securing it firmly once positioned under a desk. Its solid MDF board and metal frame construction provide stable support for standard home printers and office supplies.\n\nCompared to the fixed HOOBRO pick above, this one trades some weight capacity for genuine rolling mobility, a worthwhile tradeoff if you need to move your printer setup between rooms or configurations regularly. The spacious top fits inkjet, laser, photo, and all-in-one printer models.\n\nBest for buyers who specifically want rolling mobility for repositioning their printer setup.",
     specs: ["15in x 11in x 12.5in, MDF and metal frame", "4 swivel casters, 2 with locks", "Fits inkjet, laser, photo, all-in-one printers"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$22.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41-clGWoq7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5B8C2Z9?tag=deskfinds0d-20",
     description: "This stand's stated 120 lb maximum loading capacity substantially exceeds the other picks in this comparison, backed by heavy-duty MDF boards with a thickened metal frame measuring 1 inch thick. Four adjustable feet keep the organizer stable and prevent scratching on your tabletop.\n\nCompared to the HOOBRO pick, this one costs slightly more but delivers over double the stated weight capacity, a meaningful consideration if your printer or combined office supplies are on the heavier side. A 12-month product replacement warranty backs the purchase alongside 24/7 customer service support.\n\nBest for buyers who want the highest stated weight capacity with warranty backing.",
     specs: ["120 lb max capacity, 15.35in x 11.02in x 11.88in", "Heavy-duty MDF, thickened metal frame", "12-month replacement warranty"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$23.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41JZmljl7VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ54TH44?tag=deskfinds0d-20",
     description: "This stand's X-shaped support design between its iron pipes specifically improves structural stability beyond a simple straight-leg design, and a diamond-shaped iron mesh at the bottom prevents papers and files from falling through. Its particle board and iron pipe construction is built to withstand the weight of most standard printers.\n\nCompared to the Gewudraw pick above, this one prioritizes structural bracing design over a headline weight capacity figure, though the listing doesn't specify an exact number the way the Gewudraw does. The compact 16.5 x 11.4 x 11.8 inch footprint works both above and under a desk.\n\nBest for buyers who want reinforced structural bracing with a document-catching mesh design.",
     specs: ["16.5in x 11.4in x 11.8in, X-shape iron support", "Particle board, iron pipe construction", "Diamond mesh bottom shelf"],

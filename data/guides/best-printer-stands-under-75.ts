@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51MMcCBjkpL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$79.90",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51MMcCBjkpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWQH91LN?tag=deskfinds0d-20",
     description: "This stand's 5 different height positions for its shelves let you customize vertical spacing for equipment of varying sizes, the most granular adjustability in this comparison. Its integrated power outlet with a 6.6 ft power cord, the longest reach in this tier, lets you plug in printers, scanners, or shredders directly without hunting for extra outlets.\n\nCompared to the niffgaff pick below, this one adds a reinforced steel frame supporting up to 300 lbs total weight, substantially higher than most picks in this comparison. Two lockable wheels keep the cart firmly in place during printing, while four durable casters allow easy movement between desks or rooms.\n\nBest for buyers who want the most height adjustability with the highest weight capacity and longest power cord reach.",
     specs: ["300 lb total capacity, 5 height positions", "Integrated power outlet, 6.6ft cord", "4 casters, 2 lockable"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41xRCcKS4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLNQKWD7?tag=deskfinds0d-20",
     description: "This stand's file-cabinet-style design shares the same rear-positioned power outlet and cable management approach as the pricier VECELO pick, with 2 power outlets and 2 USB ports on a 5 ft cord. Each shelf supports up to 150 lbs for 450 lbs total, matching the highest per-shelf capacity in this comparison series.\n\nCompared to the Adjustable pick above, this one skips the 5-position height adjustment in favor of a more traditional fixed-shelf file cabinet aesthetic, at a meaningfully lower price. Its industrial-grade steel frame and thick rustic particle board deliver the same sturdy, reliable construction.\n\nBest for buyers who want the file cabinet aesthetic with high per-shelf capacity at a lower price.",
     specs: ["450 lb total, 150 lb per shelf", "2 power outlets, 2 USB ports, 5ft cord", "File cabinet styling, steel frame"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Fzb2KtPPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5Q2RBT8?tag=deskfinds0d-20",
     description: "This stand's extra-large desktop is specifically designed to stably support even bulky printers, scanners, or all-in-one machines without workspace crowding, a genuine size advantage for larger equipment. Its adjustable shelf heights adapt to equipment of varying sizes, while a metal and wood hybrid build provides a solid foundation with modern minimalist styling.\n\nCompared to the VECELO picks above, this one skips built-in power outlets entirely, focusing purely on desktop size and shelf flexibility instead. Smooth mobility with locking casters lets you glide between locations while securely locking wheels with a brake to prevent unwanted movement during operation.\n\nBest for buyers who specifically need the largest desktop surface for bulky equipment.",
     specs: ["Extra-large desktop, adjustable shelf heights", "24.4in height, metal and wood hybrid", "Locking casters with brake"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$62.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41fEgVeKPrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H3KJ8WJT?tag=deskfinds0d-20",
     description: "This stand's middle layer adjusts across 5 levels, each 5cm apart, giving genuine height flexibility at a lower price than the VECELO Adjustable pick above. Its built-in 3-prong power outlet keeps devices charged and organized, and adjustable feet let you set up the cart your way alongside the standard rolling wheels.\n\nCompared to the niffgaff pick, this one adds a built-in power outlet that the extra-large desktop pick lacks, though its top shelf capacity of 70 lbs is lower than the VECELO picks' capacity figures. High-quality wooden boards, mesh metal shelves, and an iron frame provide sturdy, durable construction.\n\nBest for buyers who want adjustable shelf height and a built-in outlet at the lowest price in this tier.",
     specs: ["70 lb top, 40 lb per mesh shelf", "3-prong power outlet", "5-level adjustable middle shelf, locking wheels"],

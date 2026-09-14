@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/61PUctslTmS._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$149.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61PUctslTmS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XK7DQ6P?tag=deskfinds0d-20",
     description: "This screen's energy efficient motor runs under 42 dB, a specific noise figure quieter than typical motorized screens, backed by both a long-distance radio frequency remote and a wall-mountable control panel for flexible operation. Its 4-layer premium PVC matte construction with a black backing eliminates light penetration for top-quality color reproduction.\n\nCompared to the YODOLLA pick below, this one arrives fully assembled and plug-and-play ready, suitable for both wall and ceiling mounting without additional setup steps. The screen is easy to wipe clean with soap and water, a practical maintenance detail for a semi-permanent installation.\n\nBest for buyers who want the quietest stated motor with dual remote and wall-panel control.",
     specs: ["100in, 4-layer PVC, black backed", "Under 42 dB motor, dual control options", "Fully assembled, wall or ceiling mount"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$149.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51VXo41nHvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07SQ7CWSZ?tag=deskfinds0d-20",
     description: "This screen's advanced power connection style specifically provides higher safety and greatly reduces the risk of short circuit or disconnection, a stated safety feature the other motorized picks in this comparison don't emphasize as directly. Its smooth auto-lock mechanism fixes the screen at any desired length, with an ultra-quiet motor that drops and rolls up without jamming.\n\nCompared to the pick above, this one weighs a lightweight 15.65 lbs, making it easier to lift and install for either wall or ceiling mounting using included expansion screws and S-shaped hooks. Both wired and wireless remote controls adapt to different installation conditions and preferences.\n\nBest for buyers who specifically prioritize electrical safety features in a motorized screen.",
     specs: ["100in, 3-layer PVC, self-locking design", "15.65 lbs, wired and wireless remote", "Safer power connection style"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41J0gqfvlIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BHVN9Q1Z?tag=deskfinds0d-20",
     description: "This screen's 120 inch diagonal is the largest motorized screen in this comparison, providing an immersive viewing experience for everyone in the room, ideal for movie enthusiasts wanting maximum screen real estate. Its drop-down design pulls from the ceiling or wall, maximizing space and creating a sleek, professional look.\n\nCompared to the 100 inch picks above, this one delivers meaningfully more screen area for a modest price increase, positioning it as the best value if larger size matters more to you than the specific safety or noise features the smaller screens emphasize. The motorized convenience lowers and retracts the screen smoothly and quietly for easy setup and storage.\n\nBest for buyers who want the largest motorized screen size in this comparison.",
     specs: ["120in diagonal, drop-down ceiling or wall mount", "4K 3D HD projection capable", "Remote-controlled retraction"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/514QRHhCgeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08Q7PS3JD?tag=deskfinds0d-20",
     description: "This screen's 95.5 by 71.5 inch 4:3 viewing area suits classroom, office, and presentation content specifically, a distinct aspect ratio from the 16:9 widescreen options dominating this comparison. Its prewired power cord with an integrated switch regulates drop and rise settings, alongside a radio frequency remote for distant control.\n\nCompared to the DINAH pick, this one's solid metal casing features a dual-purpose design specifically built for either wall or ceiling installation, with a stated 1.1 gain matte white screen that's yellow-staining-free and wrinkle-free. Its 160 degree viewing angle provides a large viewing area suited to home, office, or classroom use.\n\nBest for buyers who specifically need a 4:3 aspect ratio for presentation or classroom content.",
     specs: ["120in, 4:3 ratio, 1.1 gain matte white", "Integrated switch and remote control", "Solid metal casing, wall or ceiling mount"],

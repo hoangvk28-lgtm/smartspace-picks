@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41hJfdMVTyL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$77.86",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41hJfdMVTyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JCSYWVV?tag=deskfinds0d-20",
     description: "This screen's four aluminum tubes with spring tension at the ends maintain a genuinely flat surface, and the listing specifically states its fabric carries a high gain factor for a superior picture compared to standard budget fabric. At just 8.6 lbs, it's the lightest stand-equipped screen in this comparison, easy for one person to carry anywhere.\n\nCompared to the fiberglass pick below, this one prioritizes lightweight portability and quick 2-minute setup over the larger diagonal sizes found elsewhere in this tier. The sturdy tripod stand stretches, folds, and adjusts with the same spring-tensioned aluminum tubes providing stability especially for outdoor use.\n\nBest for buyers who want the lightest, most portable stand-equipped screen with a high gain rating.",
     specs: ["60in, aluminum frame, high gain fabric", "8.6 lbs, 2-minute setup", "Adjustable, foldable tripod stand"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41glhBiB2SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQLVD4NS?tag=deskfinds0d-20",
     description: "This screen's high-quality fiberglass material with a black coated back provides a stated 1.2 times gain effect, delivering highly reproducible vibrant colors that naturally display 4K Ultra HD images with realistic viewing quality. Its sturdy metal tripod with a thick main pole and 4 diagonal poles, plus 4 aluminum tubes with spring tension, keeps the structure stable, solid, and height-adjustable.\n\nCompared to the Wootfairy pick below, this one uses genuine fiberglass construction rather than standard polyester milk silk, a material difference that specifically supports the stated 1.2 gain rating and 4K reproduction quality. Setup takes less than 3 minutes, and the 10 lb screen rolls up into a storage tube for easy transport.\n\nBest for buyers who want genuine fiberglass construction with a stated 1.2 gain rating.",
     specs: ["80in, fiberglass with black coated back", "1.2 gain, 4K Ultra HD capable", "10 lbs, rolls into storage tube"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$69.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Kw5u03vRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C619FDHZ?tag=deskfinds0d-20",
     description: "This screen's 100 inch diagonal with double-sided projection support offers the largest viewing area in this comparison at the same price as the fiberglass pick above, made from thicker polyester milk silk for a wrinkle-free viewing experience. Its detachable crossbar and tripod assemble easily without tools, staying lightweight and resistant to bending or deforming.\n\nCompared to the fiberglass pick, this one trades material sophistication for meaningfully larger screen size, positioning it for buyers who prioritize viewing area over gain rating specifics. At only 8.3 lbs including the carry bag, it fits easily in a car trunk for outdoor events.\n\nBest for buyers who want the largest viewing area at the same price as smaller specialized alternatives.",
     specs: ["100in diagonal, double-sided projection", "Polyester milk silk, wrinkle-free", "8.3 lbs, tool-free assembly"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$64.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41eC02aLVPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01953VT2U?tag=deskfinds0d-20",
     description: "This screen's white 4.5mm matte fabric with a black masking border specifically improves image focus and alignment, a detail-oriented feature the other picks in this comparison don't call out as precisely. Its fold-out steel tripod legs adjust from a minimum height of 20 inches to a maximum of 46 inches, giving you real height flexibility.\n\nCompared to the other three picks, this one is the cheapest in this tier while coming from Pyle, an established brand in the projector accessory category. The manual auto-locking pull feature makes setup straightforward, and the 4:3 aspect ratio suits classroom or office presentation use specifically.\n\nBest for buyers who want an established brand with precise image alignment features at the lowest price.",
     specs: ["40in, 4.5mm matte fabric, black masking border", "20-46in adjustable height", "4:3 aspect ratio, auto-locking pull"],

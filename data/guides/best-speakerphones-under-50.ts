@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/61hCq3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61hCq3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description: "This unit's 4-mic array with EMEET's VoiceIA algorithm filters background noise and eliminates echo, and it's expandable via daisy chain with another EMEET unit to support up to 16 attendees, the most scalable option in this comparison. Its 3W speaker spreads sound evenly with full duplex support so multiple people can speak at once without cutting each other off.\n\nCompared to the CofunKool pick below, this one adds over 10 hours of battery life plus dual Bluetooth connectivity, letting you pair with both a laptop and a phone via USB-C or Bluetooth 5.0 simultaneously. The daisy chain compatibility specifically extends to other EMEET models like the M3 or Meeting Capsule, giving you a growth path if your meeting sizes increase later.\n\nBest for buyers who want daisy chain expandability and the longest battery life in this tier.",
     specs: ["4-mic array, 3W speaker", "10+ hour battery life", "Daisy chain expandable to 16 attendees"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$45.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/517KQ7pZxPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GSFWTKGY?tag=deskfinds0d-20",
     description: "This unit's touch controls let you adjust volume, mute, or disable the microphone directly from the device without digging through software settings, a convenience the other picks in this comparison handle through physical buttons instead. Its 360 degree pickup captures voices from around a table for group conversations.\n\nCompared to the EMEET M0 Plus pick above, this one skips the daisy chain expansion feature entirely, positioning it for smaller single-room setups rather than scalable multi-room conferencing. Its full duplex audio still allows both sides of a call to speak and hear simultaneously without the cutoffs common on basic computer speakers.\n\nBest for buyers who want simple touch-based call management without needing daisy chain expansion.",
     specs: ["360 degree pickup, full duplex audio", "Touch controls for volume, mute, playback", "USB plug and play, no drivers needed"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$43.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51ZWuiGI65L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WQZSW4F?tag=deskfinds0d-20",
     description: "This unit's built-in DSP chip cancels up to 400ms of echo length, a specific technical figure the other picks in this tier don't disclose, while its Bluetooth and USB-C connections work simultaneously rather than requiring a manual switch. Its full-duplex digital microphone picks up voice within 6 feet, suited for 4-6 person meetings.\n\nCompared to the CofunKool pick above, this one adds acoustic reminder tones for power, Bluetooth connection, and USB linking status, useful feedback when you can't visually confirm the connection state. The pocket-sized, portable design with a carry bag makes it the most travel-friendly pick in this comparison.\n\nBest for buyers who want simultaneous Bluetooth and USB connectivity in a portable size.",
     specs: ["6ft pickup range, 4-6 person meetings", "400ms echo cancellation length", "Simultaneous Bluetooth and USB-C connection"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41tcFcDazaS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B092X3Z53W?tag=deskfinds0d-20",
     description: "This unit's 360 degree noise-cancelling microphone provides a 3 meter voice pickup range with full duplex communication, and it's the cheapest pick in this comparison by a meaningful margin. Its 66 foot Bluetooth range with Bluetooth 5.0 gives you more wireless flexibility than the shorter-range picks above.\n\nCompared to the AIRHUG pick, this one supports up to 12 hours of battery playtime and switches between PC and smartphone connections with a single button press rather than requiring simultaneous dual connections. The included 1-year warranty adds a coverage detail not specifically mentioned by the other three picks.\n\nBest for buyers on the tightest budget who still want reliable dual-mode connectivity.",
     specs: ["3m pickup range, 360 degree mic", "12 hour battery playtime", "66ft Bluetooth range, Bluetooth 5.0"],

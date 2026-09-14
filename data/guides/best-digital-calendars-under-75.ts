@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/416CpoW+N+L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$89.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/416CpoW+N+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H69Z6NYM?tag=deskfinds0d-20",
     description: "This calendar's smart weather updates provide real-time forecasts tailored to your specific location, a detail integrated directly into the family command center alongside shared calendars and chore tracking. Its interactive rewards system lets kids earn stars for completing tasks, building responsibility through positive reinforcement rather than nagging.\n\nCompared to the Dragon Touch pick below, this one specifically includes a standard US-style plug in the box, removing any guesswork about adapter compatibility. Automatic sleep and wake times save energy while keeping the smart calendar running effortlessly across daily use.\n\nBest for buyers who want comprehensive weather integration alongside included plug compatibility.",
     specs: ["10.1in HD touchscreen, US-style plug included", "Smart weather updates by location", "Auto sleep and wake scheduling"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51pULgIlf6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H5K4XK5L?tag=deskfinds0d-20",
     description: "This calendar's built-in 32GB memory stores photos and videos directly on the device, the largest stated storage capacity in this comparison, letting you build a substantial rotating photo gallery without relying entirely on cloud sync. Its 1280x800 IPS HD touchscreen delivers vibrant visuals from every viewing angle in kitchens or living rooms.\n\nCompared to the pick above, this one specifically recommends upgrading to the latest firmware version immediately after first power-on to resolve calendar synchronization issues, a transparent disclosure about a known early-use step. Two-way synchronization with Google Calendar and Outlook Calendar works alongside URL-based sync for iCloud, Cozi, and Yahoo.\n\nBest for buyers who want the largest built-in photo storage capacity in this tier.",
     specs: ["32GB built-in memory, 1280x800 IPS display", "Two-way Google and Outlook sync", "URL-based sync for iCloud, Cozi, Yahoo"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41AciyKwigL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQ7TQVBW?tag=deskfinds0d-20",
     description: "This calendar's eCalendar App provides free features like a photo frame, chore chart, dinner plan, and grocery list, with paid functions like Magic Import offering advanced tools tailored for users with special needs, a transparent free-versus-paid feature breakdown. Its crystal-clear touchscreen assigns different colors and tasks to each family member for intuitive scheduling.\n\nCompared to the Linkdaze pick, this one authorizes additional devices for even greater convenience, letting multiple family members manage the calendar from their own phones. Its elegant digital picture frame mode transforms the display into contemporary home decor when not actively in scheduling use.\n\nBest for buyers who want a transparently documented free-versus-paid app feature structure.",
     specs: ["10.1in touchscreen, multi-device authorization", "Free core features, optional paid advanced tools", "Photo frame mode, color-coded family scheduling"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$67.49",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51N6cBxUWmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYDCY67Y?tag=deskfinds0d-20",
     description: "This calendar's stated 365-day warranty is specifically disclosed in the listing along with a commitment to caring after-sales support, even for units received as gifts, a detail worth noting for buyers purchasing this for someone else. Its wood grain finish gives it a distinct aesthetic compared to the more standard-looking picks in this comparison.\n\nCompared to the three pricier picks in this tier, this one is the cheapest while still delivering the full family scheduling, chore chart, and photo display feature set. Free app access with no monthly subscription fees backs the core functionality, and reliable support is available directly for gift recipients.\n\nBest for buyers who want the lowest price in this tier with an explicitly stated warranty for gift-giving.",
     specs: ["10.1in touchscreen, wood grain finish", "365-day warranty stated explicitly", "No monthly subscription fees"],

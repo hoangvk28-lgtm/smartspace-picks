@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/418LoEy3tzL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$211.65",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/418LoEy3tzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRTD33GW?tag=deskfinds0d-20",
     description: "This unit's 4-mic omnidirectional array delivers a 16.4ft pickup radius, and its wireless daisy chain cascading links 2 speakerphones up to 23 feet apart without cables, expanding coverage to 20 people across 25-50 square meter rooms. Its 5W speaker reaches 112dB maximum volume with a stated 100Hz to 20kHz frequency response.\n\nCompared to the wired daisy chain approach used by other picks in this tier, this one's wireless cascading avoids running a physical cable between units, a genuine convenience for rooms where cable routing between two placement points would be awkward. Its 6000mAh battery supports up to 16 hours of music playback with fast charging in as little as 2 hours.\n\nBest for buyers who want wireless daisy chain cascading without running a physical cable between units.",
     specs: ["16.4ft radius, 4-mic array", "Wireless daisy chain up to 23ft apart", "6000mAh battery, 16 hour playback"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41NWTAb6ohL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQW2Z8YW?tag=deskfinds0d-20",
     description: "This unit's included 1.8m long extension microphone is a distinct hardware component not found on the other picks in this comparison, giving it the same 360 degree pickup and noise reduction as the host unit but positioned separately for extra-large or oddly-shaped rooms. Its exclusive DSP algorithm handles echo cancellation and voice enhancement with deep learning noise isolation.\n\nCompared to the Wireless Daisy Chain pick above, this one includes a complete POD4 meeting kit with the speakerphone, extension microphone, wireless dongle, daisy chain cable, and USB-C cable all included, reducing the need for separate accessory purchases. Its flexible daisy chain composition adapts to different meeting scenarios beyond just doubling two identical units.\n\nBest for buyers who need an extension microphone for extra-large or irregularly shaped rooms.",
     specs: ["1.8m extension mic included, 3-5m radius", "Wireless dongle, daisy chain, USB-C cable included", "DSP algorithm with deep learning noise isolation"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$184.78",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41aM1PrGekL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C7PGGB94?tag=deskfinds0d-20",
     description: "This bundle pairs the Luna Plus's 8-omnidirectional-mic array with a dedicated satellite mic, offering 360 degree ultra-wide pickup for up to 14 people in a single setup, plus a second standard Luna unit for additional daisy chain expansion up to 25 attendees total. Its VoiceIA algorithm handles dynamic noise reduction against air conditioning noise and keyboard clicks.\n\nCompared to the RayBit pick above, this bundle's daisy chain uses a wired connection specifically for interference-free stability rather than wireless cascading, a tradeoff EMEET states is more reliable in electronically noisy office environments. The 5W speaker and 2600mAh battery support a full 10-hour call day on a single charge.\n\nBest for buyers who want a satellite-mic setup bundled with daisy chain expansion for up to 25 attendees.",
     specs: ["8-mic array plus satellite mic, 14 person single-unit", "Wired daisy chain up to 25 attendees total", "2600mAh battery, 10 hour call time"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$191.67",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41RLsz7gYbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07TKY6PFJ?tag=deskfinds0d-20",
     description: "This unit comes from Yealink, an established business communications brand also represented in the lower tiers of this comparison series, and it includes the BT50 Bluetooth adapter bundled in for wireless device pairing alongside its full duplex speakerphone design. Its echo cancellation technology is built specifically for professional business communication settings.\n\nCompared to the bundled kits above, this one is a simpler single-unit purchase without an included satellite mic or daisy chain accessory bundle, positioning it for buyers who want established brand reliability without the added complexity of a multi-piece kit. The included BT50 dongle adds Bluetooth capability to an otherwise USB-focused design.\n\nBest for buyers who want an established business communications brand without a multi-piece kit setup.",
     specs: ["Full duplex speakerphone", "BT50 Bluetooth adapter included", "Echo cancellation for business communication"],

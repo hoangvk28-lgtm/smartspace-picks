@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/4115Bf5djFL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4115Bf5djFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F28GVY8B?tag=deskfinds0d-20",
     description: "This unit's real-time AI noise cancellation filters over 1,000 specific noise types, including keyboard taps and AC hum, and it's Microsoft Teams certified with confirmed compatibility across Zoom, Google Meet, and Cisco Webex. Its omnidirectional mic and 50mm speaker cover a 13ft radius, designed for 4-8 person conference rooms.\n\nCompared to the Anker PowerConf S330 pick below, this one adds a full 20-hour battery life plus triple connectivity through Bluetooth 5.3, USB-C, or an included BT51C dongle, giving you more connection flexibility for different device setups. At just 276g and a compact 5x5x1.3 inch size, it's the most travel-friendly pick in this comparison.\n\nBest for buyers who want formal Teams certification and the longest battery life in this tier.",
     specs: ["13ft radius, 4-8 person rooms", "20 hour battery life", "Teams certified, Bluetooth 5.3, USB-C, dongle"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$79.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61hCq3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41W4B0kTNoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FJ7LWX4?tag=deskfinds0d-20",
     description: "This unit's 1.75 inch driver paired with 2 passive bass-radiators adds real depth to both meeting audio and music playback, a dedicated audio hardware detail the mic-focused picks in this comparison don't specifically call out. Its 4 high-sensitivity microphones pick up voices within 3 meters with 360 degree coverage.\n\nCompared to the Yealink SP92 pick above, this one is simpler, USB-C only with no Bluetooth or dongle option, trading connectivity flexibility for a more affordable, plug-and-play experience at the same price point. The wired USB-C connection offers a stable, reliable experience without pairing steps.\n\nBest for buyers who prioritize richer audio quality for both calls and music playback.",
     specs: ["3m pickup radius, 4 microphones", "1.75in driver, 2 passive bass-radiators", "USB-C only, plug and play"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$62.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51Iv2SVmQfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description: "This unit's 2 omnidirectional microphones cover voices from 360 degrees with EMEET's VoiceIA patent tech, delivering noise reduction, echo cancellation, and voice amplification in a wired USB-C connection built for stable audio transmission. Its 9 adjustable volume levels are controlled directly on the device with an LED indicator for quick reference.\n\nCompared to the Yealink SP92 and Anker picks above, this one costs meaningfully less while still delivering broad platform compatibility across Skype for Business, Microsoft Lync, Google Hangout, and more. The instant mute button for both speaker and microphone gives you quick privacy control during calls.\n\nBest for buyers who want broad platform compatibility at a lower price than the Teams-certified picks.",
     specs: ["360 degree pickup, 2 omnidirectional mics", "9 adjustable volume levels with LED indicator", "USB-C to USB-A included, wired connection"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41yLaaVBalL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B4JTMQ9H?tag=deskfinds0d-20",
     description: "This unit's 2 high-sensitivity omnidirectional microphones pick up voices within 3 meters, matching the pickup range of the pricier Anker pick above at a lower price point. Its powerful audio algorithm handles echo cancellation and noise reduction for common office noises like air conditioning and keyboard clicks.\n\nCompared to the EMEET M1A pick, this one is the cheapest in this tier while offering comparable core functionality, including ultra-strong compatibility across Zoom, Skype, Google Hangouts, FaceTime, WebEx, GoToMeeting, and Chromebox. Its portable design includes clever cable management and a light pouch for travel.\n\nBest for buyers who want the lowest price in this tier without sacrificing core call quality features.",
     specs: ["3m pickup radius, 2 omnidirectional mics", "Echo cancellation, noise reduction algorithm", "Portable design with cable management pouch"],

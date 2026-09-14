@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41u0-G8pZhL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41u0-G8pZhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HB4J2MCR?tag=deskfinds0d-20",
     description: "This pad's 5-in-1 multi-mode design genuinely shifts between working (0.6-1.5 MPH), walking, jogging, and running up to 7.0 MPH, plus an 18% incline climbing mode, the most complete mode range in this comparison. Folding the handrail switches it to a 0.6-3.0 MPH under-desk pad, while raising it unlocks the full 7.0 MPH running speeds.\n\nCompared to the UREVO pick below, this one adds a built-in Bluetooth 6.0 speaker with dynamic RGB ambient lighting, and its 3.5HP brushless motor runs under 40 dB, quieter than the QuietClimb pad from the lower tier. A magnetic remote snaps onto the handrail so it doesn't get lost.\n\nBest for buyers who want a genuine dual-mode walking-to-running pad with entertainment features.",
     specs: ["0.6-7.0 MPH, 18% incline, foldable handrail", "3.5HP motor, under 40 dB", "350 lb capacity, Bluetooth speaker"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$197.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41bbfWHDcXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B2ZK7NDB?tag=deskfinds0d-20",
     description: "This pad's UREVO Sport App syncs your progress and generates detailed workout reports, and its two distinct modes, open running at 0.6-6.2 mph and folding walking at 0.6-4 mph, give you a genuine speed range split by use case. A magnetic remote back attaches securely to the treadmill when not in use, preventing it from getting lost.\n\nCompared to the Bluetooth speaker pick above, this one focuses on app-based fitness tracking and reporting rather than entertainment features, positioning it for buyers who prioritize data over ambiance. The one-key mute function on the remote lets you quickly quiet the unit during calls.\n\nBest for buyers who want detailed app-based workout reports and data tracking.",
     specs: ["0.6-6.2 mph running, 0.6-4 mph folding walk mode", "12% incline", "App-based tracking and reports"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$179.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VPQ-jf2rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HHCY9KLW?tag=deskfinds0d-20",
     description: "This pad's dual display setup gives you two separate screens for tracking stats, a distinct layout from the single-display picks in this comparison. Its 4 adjustable incline levels up to 15% and RGB lighting provide both workout flexibility and visual customization at the same price as the Bluetooth speaker pick above.\n\nCompared to the 18% incline pick, this one tops out slightly lower at 15% incline but adds a dual-display layout for more information at a glance during use. Its 3.5HP motor and 350 lb capacity match the higher-end picks in this tier.\n\nBest for buyers who want a dual-display setup with strong incline flexibility at the same price point.",
     specs: ["4 incline levels, up to 15%, dual display", "3.5HP motor, 350 lb capacity", "RGB lighting, handle bar"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$198.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41YYSPCg0IL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0HBV9SF8V?tag=deskfinds0d-20",
     description: "This pad's height-adjustable handlebar spans 35 to 43 inches, specifically designed to suit users of different heights and whole families, a genuine ergonomic feature none of the other picks in this tier offer. Its 40x16 inch belt is the largest running surface in this comparison, with 8 silicone shock absorbers plus 2 rubber pads and a 7-layer anti-slip belt.\n\nCompared to the UREVO pick, this one provides a physical folding desktop for a phone, pad, or laptop when the display screen is put down, adding genuine workspace functionality. A lifetime customer support commitment backs the 1-year warranty.\n\nBest for buyers who want an adjustable handlebar height and the largest belt surface for family use.",
     specs: ["35-43in adjustable handlebar, 40in x 16in belt", "2.5HP motor, 300 lb capacity", "0.6-7.5 mph, 3 incline levels"],

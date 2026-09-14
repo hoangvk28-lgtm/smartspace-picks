@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71k4mXqPzqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/21gVPbaunLL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$224.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k4mXqPzqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/21gVPbaunLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JRTS3Y?tag=deskfinds0d-20",
     description: "The 2i2 4th Gen carries forward the Auto Gain and Clip Safe technology from the Scarlett Solo lineup across 2 full mic preamps, meaning both channels benefit from automatic level-setting rather than just one, a genuinely useful feature when recording two different microphones with different sensitivity levels at once. Its redesigned front panel adds dedicated input/output level meters for clearer visual feedback than the previous generation.\n\nCompared to the Universal Audio Volt 2 pick below, this one offers 2 mic preamps versus 1, doubling simultaneous recording capacity while staying in a similar price range, making it the better choice for two-person podcasts or interviews. The bundled software suite remains one of the most substantial in the category, including Ableton Live Lite and a large plugin collection.\n\nBest for buyers who want 2 channels of smart auto-gain technology for two-person recording.",
     specs: ["2 mic preamps, Auto Gain, Clip Safe", "24-bit/192kHz, Air mode", "Redesigned metering, Ableton Live Lite included"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$199.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h6mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31wnlWRRsqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1W1TYN?tag=deskfinds0d-20",
     description: "The Volt 2 includes Universal Audio's Vintage Mic Preamp emulation mode, a genuinely distinct feature that models the sonic character of a classic UA 610 tube preamp circuit directly in hardware, giving recordings a warmer coloration than a purely clean, transparent preamp. It comes bundled with UA's own plugin suite plus a 3-month Splice sample subscription, a software combination none of the other picks in this comparison offer.\n\nCompared to the Focusrite Scarlett 2i2 pick above, this one prioritizes preamp character and tone-shaping over raw channel-count value, appealing to musicians who want a specific vintage sonic quality baked into their recordings. Its built-in 76 Compressor emulation, based on the classic 1176 hardware compressor, is available directly on the input path.\n\nBest for buyers who specifically want vintage tube-style preamp coloration and onboard compression.",
     specs: ["2 mic preamps, Vintage Mic Preamp mode", "Built-in 76 Compressor emulation", "UA plugin suite + 3-month Splice included"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$249.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h7mXqPzsL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41GqhqysCBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083TC1LFY?tag=deskfinds0d-20",
     description: "The ioStation 24c combines a 2-channel audio interface with a physical production controller featuring a motorized fader and dedicated transport buttons, letting you control DAW playback, mixing, and recording without touching a mouse or keyboard, a genuinely different physical interaction model than any other pick in this comparison. Its XMAX-L mic preamps carry over from PreSonus's higher-end StudioLive mixer lineup.\n\nCompared to the Universal Audio Volt 2 pick above, this one prioritizes hands-on physical control over vintage tone-shaping, appealing to buyers who want tactile control surfaces for streaming, podcasting, or DAW mixing workflows. It includes the full Studio One Artist DAW plus Studio Magic Plug-In Suite as its bundled software.\n\nBest for buyers who specifically want a physical production controller with motorized fader for hands-on DAW control.",
     specs: ["2 XMAX-L mic preamps, motorized fader", "Dedicated transport controls, USB-C", "Studio One Artist + plugin suite included"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$185.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h8mXqPztL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31SZ5T+14tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08SBSN88X?tag=deskfinds0d-20",
     description: "The iD4 MKII includes a single high-headroom Audient Console mic preamp, the same preamp design philosophy used in Audient's professional recording console lineup, delivering a specifically stated 58dB of clean gain for capturing low-output microphones without adding noise. Its large monitor control dial doubles as a scroll wheel for computer volume control when connected via USB, a dual-purpose hardware detail unique to this pick.\n\nCompared to the other three picks in this comparison, this one is the lowest-priced option in the tier while still delivering a genuine console-grade single preamp, making it the strongest value pick for buyers who don't need 2 simultaneous channels. Its JFET-based instrument input is specifically designed for direct guitar or bass recording with authentic amp-like character.\n\nBest for buyers who want console-grade single-preamp quality at the lowest price in this tier.",
     specs: ["1 Audient Console mic preamp, 58dB gain", "JFET instrument input", "Dual-function monitor dial/scroll wheel"],

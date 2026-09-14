@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41rDKAh6IZL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$59.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41rDKAh6IZL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H1MJYCFJ?tag=deskfinds0d-20",
     description: "This screen's upgraded tripod stand features thicker steel tubes, a reinforced triangle bracket, a wider support base, a water bag, and ground stakes, delivering more stability hardware than the fabric-only picks in the lower tier. Its quick-set sliding snap clips replace traditional sliding clips, letting you pull the screen taut and lock it instantly without tedious balancing.\n\nCompared to the STWUI pick below, this one adds a self-supporting tripod with genuine outdoor stability features, a meaningful step up from a fabric-only hanging screen. Premium washable polyester fabric is fully ironable, so minor creases from folding disappear quickly.\n\nBest for buyers who want a genuinely stable self-supporting tripod stand for outdoor use.",
     specs: ["100in, tripod stand with water bag", "Washable, ironable polyester fabric", "Quick-set sliding snap clips"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51R6ZoXb4qL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT739K6T?tag=deskfinds0d-20",
     description: "This screen's new generation chassis specifically addresses unstable projector screen stands by lengthening and weighting the chassis, plus adding two holes for customized fluorescent floor nails, a stated engineering fix for a known problem category. Its elastic-material milk silk fabric is foldable, washable, and supports both front and rear projection evenly.\n\nCompared to the IOLIEO picks below, this one includes a self-supporting stand, letting you set it up without needing a wall or fence, a genuine advantage for outdoor use in open spaces. Assembly takes about nine minutes using an all-iron bracket with a removable beam for tool-free setup.\n\nBest for buyers who specifically want a stand engineered to address common stability complaints.",
     specs: ["120in, all-iron bracket stand", "Elastic milk silk fabric, front/rear projection", "9-minute assembly, no tools required"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$36.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/417hbdlDxhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9S66YKW?tag=deskfinds0d-20",
     description: "This screen's black backing layer specifically eliminates light bleed, significantly improving image contrast and color compared to standard white-backed fabric screens in the lower tier. Its thicker material and tailored accessories produce straighter borders than typical budget screens, and multiple installation methods let you wall-mount, frame-mount, or tie it to trees.\n\nCompared to the IOLIEO 100 inch pick below, this one delivers a larger 102 by 58 inch viewing area at the same core quality level, backed by 7 days a week live US-based support for installation guidance or parts replacement. The screen is foldable, machine washable, and wrinkle-free.\n\nBest for buyers who want the contrast benefits of black backing at the largest available size.",
     specs: ["120in, 102in x 58in viewing area, black backing", "Machine-washable, wrinkle-free", "7-day live US-based support"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$34.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/417hbdlDxhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9VQXFCT?tag=deskfinds0d-20",
     description: "This screen shares the same black backing technology as the 120 inch IOLIEO pick above, delivering better contrast and color than standard fabric screens, scaled to a slightly smaller 87 by 48 inch viewing area at a lower price. Its foldable, machine-washable, wrinkle-free design uses durable materials suited for both indoor and outdoor use.\n\nCompared to the 120 inch IOLIEO pick, this one costs less while offering the same core technology and 7-day live US-based support, a reasonable tradeoff if the slightly smaller viewing area suits your room. Multiple installation methods include DIY frame construction using PVC pipes or lumber.\n\nBest for buyers who want black-backing contrast benefits at the lowest price in this tier.",
     specs: ["100in, 87in x 48in viewing area, black backing", "Machine-washable, wrinkle-free", "7-day live US-based support"],

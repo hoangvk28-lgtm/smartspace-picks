@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9mXqPzuL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31cNvvE4kML._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$279.95",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9mXqPzuL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31cNvvE4kML._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08129P2XY?tag=deskfinds0d-20",
     description: "The M4 pairs 4 simultaneous inputs with ESS Sabre32 Ultra converters rated for 120dB of dynamic range, a specifically stated figure that places its conversion quality well above typical budget-tier interfaces and matches specs found in far more expensive studio gear. Its large front-panel color meter bridge gives at-a-glance visual feedback for every input and output level simultaneously.\n\nCompared to the Audient iD14 MKII pick below, this one includes MOTU's proprietary loopback feature for streaming and podcasting, letting you mix computer audio with live microphone input for a single combined stream feed without needing separate streaming software routing. Its 2 independent headphone outputs with separate volume controls support two people monitoring different mixes at once.\n\nBest for buyers who want studio-grade Sabre32 converters with built-in streaming loopback capability.",
     specs: ["4 inputs, ESS Sabre32 Ultra converters, 120dB dynamic range", "Built-in loopback for streaming", "2 independent headphone outputs"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$285.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h1mXqPzvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31GeptY6muL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08SJD466P?tag=deskfinds0d-20",
     description: "The iD14 MKII includes 2 Audient Console mic preamps plus ADAT optical input, which specifically allows adding 8 more input channels through a compatible ADAT-equipped preamp expander, giving it a genuine upgrade path the fixed-channel-count MOTU M4 and Focusrite Scarlett 4i4 don't offer. Its large monitor dial doubles as a scroll wheel for desktop volume control, carrying over the same dual-purpose hardware design from the smaller Audient iD4.\n\nCompared to the MOTU M4 pick above, this one prioritizes future expandability over built-in streaming features, appealing specifically to buyers who anticipate growing their input count beyond 4 channels down the road rather than needing loopback streaming today. JFET instrument inputs on both channels support authentic-sounding direct guitar or bass recording.\n\nBest for buyers who specifically want ADAT expansion to grow beyond 4 channels in the future.",
     specs: ["2 Audient Console preamps, ADAT expansion for 8 more channels", "JFET instrument inputs on both channels", "Dual-function monitor dial/scroll wheel"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$299.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzwL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/21gPFIo4OCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09J1TL1B8?tag=deskfinds0d-20",
     description: "The Volt 276 carries the Vintage Mic Preamp mode and built-in 76 Compressor emulation from the smaller Volt 2 across 2 full channels, plus adds 2 additional line inputs for a total of 4 combined inputs, more than doubling the connectivity of the entry-level Volt 2 while keeping the same tube-style tonal character. It bundles UA's plugin suite along with a 3-month Splice subscription, matching the smaller Volt 2's software package at a higher channel count.\n\nCompared to the Audient iD14 MKII pick above, this one prioritizes onboard tone-shaping and compression over ADAT expandability, appealing to musicians who want vintage character baked into the recording rather than a future channel-count upgrade path. Its 2 mic preamps plus 2 line inputs configuration suits a duo recording setup that also needs to bring in a keyboard or drum machine via line-level connections.",
     specs: ["2 mic preamps + 2 line inputs, Vintage Mic Preamp mode", "Built-in 76 Compressor emulation", "UA plugin suite + 3-month Splice included"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$299.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h3mXqPzxL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31iMF22weHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C5JMFX6S?tag=deskfinds0d-20",
     description: "The 4i4 4th Gen extends the Auto Gain and Clip Safe technology from the smaller Scarlett lineup across 2 mic preamps plus 2 additional line inputs, and adds a built-in Loopback feature specifically for combining computer audio with live inputs into a single stream, matching a capability the smaller Scarlett models don't offer. Its onboard Air mode with Presence and Drive modes now offers 2 distinct tonal color options rather than just the single Air toggle on lower-tier Scarlett interfaces.\n\nCompared to the Universal Audio Volt 276 pick above, this one keeps a clean, transparent signal path rather than adding vintage coloration, appealing to buyers who want the Auto Gain convenience and substantial bundled software the Scarlett line is known for at a 4-input channel count. Its MIDI I/O adds connectivity for external keyboards or drum machines alongside its analog inputs.\n\nBest for buyers who want Auto Gain convenience across 4 combined inputs with a clean, transparent signal path.",
     specs: ["2 mic preamps + 2 line inputs, Auto Gain, Clip Safe", "Air mode with Presence and Drive options", "Built-in Loopback, MIDI I/O"],

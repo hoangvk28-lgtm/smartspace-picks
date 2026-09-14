@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/41NlquFppwL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31sjcCzR9rL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$50.28",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/41o0-qMzKmL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31sjcCzR9rL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F5GQNHRN?tag=deskfinds0d-20",
     description: "This hutch's 5 open shelves and soft edges pair with a wide center clearance sized for a 24 inch monitor, giving you real vertical storage without blocking your screen. At 37 inches wide and 29 inches tall, it splits into shelves measuring 11.8 inches wide with a 23.6 inch high by 23.7 inch wide monitor cutout.\n\nCompared to the smaller Giantex and Nova Microdermabrasion picks below, this one supports a heavier total load at 50 lbs across the unit with each shelf rated for 10 lbs, and it adds anti-toppling hardware plus anti-slip pads that neither budget pick includes. The FSC-certified particle board and L-shape frame keep the structure steady even with the top shelves loaded.\n\nBest for buyers who want the highest weight capacity and the most stability hardware in this tier.",
     specs: ["5 shelves, 37in W x 9.4in D x 29in H", "50 lb total capacity, 10 lb per shelf", "Anti-toppling hardware, anti-slip pads"],

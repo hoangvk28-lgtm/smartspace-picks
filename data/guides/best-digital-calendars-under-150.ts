@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41VK2SMw2SL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$167.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41VK2SMw2SL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GBVS5NX1?tag=deskfinds0d-20",
     description: "This calendar's 24/7 customer support backed by a 2-year warranty is the longest coverage in this comparison, a meaningful commitment for a device meant to run continuously as a household hub. Its glare-free HD touchscreen and AI photo restoration technology automatically enhance family memories cycling through the display when not in scheduling use.\n\nCompared to the Westsee pick below, this one adds expandable storage beyond its 32GB base capacity, giving you more room to grow your photo collection over time. Real-time sync allows multiple family members to edit schedules simultaneously across Google, Outlook, iCloud, and other platforms.\n\nBest for buyers who want the longest warranty coverage with expandable photo storage.",
     specs: ["15.6in glare-free HD touchscreen", "32GB expandable storage, AI photo restoration", "2-year warranty, 24/7 support"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$159.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41U3V+Km4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H69FSDJ9?tag=deskfinds0d-20",
     description: "This calendar's tool-free thumb nut design lets you mount it instantly on a wall or desk in under 30 seconds, no drilling or screwdriver required, a genuinely faster setup than the mounting-hardware-kit approach used by other picks in this tier. Voice event creation adds hands-free scheduling alongside the standard tap-to-create touchscreen interface.\n\nCompared to the pick above, this one specifically supports TeamSnap sync in addition to Google, iCloud, Outlook, Cozi, and Yahoo, useful for families managing youth sports schedules. Its 1080P Full HD screen with built-in templates for school, work, and medication schedules speeds up event creation for common recurring needs.\n\nBest for buyers who want tool-free mounting and voice-based event creation with TeamSnap support.",
     specs: ["15.6in 1080P Full HD, tool-free mounting", "Voice event creation, TeamSnap sync", "32GB storage, AI photo enhancement"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$149.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51SLxFKnJwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FPR1L223?tag=deskfinds0d-20",
     description: "This calendar's core functions, schedules, tasks and rewards, meal plans, photo display, and grocery list, are explicitly stated free forever, with the listing transparently noting that only future advanced tools like an AI Assistant may require a subscription for special needs. Its 32GB built-in memory stores thousands of photos and videos alongside multiple viewing formats: Day, Week, Month, or Custom Views.\n\nCompared to the pricier picks above, this one includes both a table stand and wall-mount display kit in the box, giving you flexible placement options at the lowest price in this tier. Built-in smart sound reminders for birthdays and notes help track key moments beyond standard scheduling.\n\nBest for buyers who want the lowest price in this tier with both mounting options included.",
     specs: ["15.6in touchscreen, table stand and wall kit included", "32GB built-in memory", "Day, Week, Month, Custom calendar views"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$139.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51qdbg364VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FSD1HZXH?tag=deskfinds0d-20",
     description: "This calendar's intuitive design is specifically marketed as easy to use for seniors, children, and all family members, a broader accessibility framing than the other picks in this comparison emphasize. Its 2-in-1 mode switches effortlessly between family calendar and cloud photo frame, doubling as stylish home decor when not actively displaying the schedule.\n\nCompared to the Westsee pick, this one is the cheapest in the entire tier while still delivering the full 15.6 inch touchscreen experience with no subscription fee for all core features. Weather forecasts tailored to event time and location help with planning, and a scheduled sleep and wake mode adds daily convenience.\n\nBest for buyers who specifically want an accessibility-focused design for multi-generational households at the lowest price.",
     specs: ["15.6in touchscreen, senior and child-friendly design", "2-in-1 calendar and photo frame mode", "No subscription fee for core features"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31YXGcnIAFL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$155.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31YXGcnIAFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FD3CHNCP?tag=deskfinds0d-20",
     description: "This unit's 65mm speaker and 6-microphone array deliver a 16.4ft voice pickup radius, designed specifically for 8-12 person conference rooms, the largest single-unit room coverage in this comparison. Its daisy chain expansion doubles audio coverage from 20 to 40 square meters by linking a second unit via a wired connection for stability.\n\nCompared to the Poly Sync 20 pick below, this one is built specifically for a fixed conference room rather than personal portability, adding a liquid crystal display showing real-time connection and working status. Its AI noise reduction algorithm filters over 1,000 specific sounds, and the 26-hour battery life covers a full day of back-to-back meetings.\n\nBest for buyers who need genuine 8-12 person room coverage with daisy chain expansion.",
     specs: ["16.4ft radius, 6-mic array, 8-12 person rooms", "26 hour battery, LCD status display", "Daisy chain doubles coverage to 40 square meters"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$160.60",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/315RAisrfyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4GCS5WG?tag=deskfinds0d-20",
     description: "This unit's 4 beamforming microphones with voice level normalization equalize all surrounding voices, a specific audio-processing detail that adjusts for differing speaker volumes and distances automatically. It's certified for Microsoft Teams and complements Jabra's PanaCast video solutions, giving it an ecosystem advantage the other picks in this tier don't specifically offer.\n\nCompared to the Yealink SP96 pick above, this one prioritizes portable personal use over fixed conference room scale, with up to 12 hours of battery life and 30 meters of Bluetooth range for a phone or PC. The included carry pouch and 2-year warranty with registration add practical value for frequent travelers.\n\nBest for buyers who want Microsoft Teams certification with genuine portability for travel.",
     specs: ["4 beamforming mics, voice level normalization", "12 hour battery, 30m Bluetooth range", "Teams certified, complements Jabra PanaCast"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$138.29",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/419UM97yGHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C6FKFRSZ?tag=deskfinds0d-20",
     description: "This unit's IP64 dust-and-water resistance rating is a genuinely unique durability feature in this comparison, useful if the speakerphone travels between different environments or gets used near a kitchen or shared common area. Its bass reflex system with dual passive sound amplification adds natural voice depth and bass beyond what a purely mic-focused design offers.\n\nCompared to the Jabra Speak2 55 pick above, this one is the cheapest in this tier while still delivering up to 20 hours of battery life and a programmable button for quick access to functions like music playback control or voice assistant activation. A highly visible light bar lets you check call status from across the room.\n\nBest for buyers who want durability and value with strong all-day battery life.",
     specs: ["IP64 dust-and-water resistant", "20 hour battery life", "Programmable button, light bar status"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$169.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61hCq3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41dpEwij3VL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09X52FL2G?tag=deskfinds0d-20",
     description: "This unit's 15ft pickup range combined with automatic volume balancing is specifically recommended for scenarios with up to 20 attendees, the largest single-unit attendee count in this tier. Its Zoom-recognized status as an official compatible voice partner adds a formal endorsement the other picks in this comparison don't specifically hold.\n\nCompared to the Yealink SP96 pick, this one supports daisy chaining with an EMEET-specific cable to reach 20 attendees, while running on a built-in battery supporting over 18 hours of continuous calling after a 4-hour charge. Its 5W built-in speaker restores sound in high quality even for attendees seated farther from the unit.\n\nBest for buyers who regularly host large 15-20 person meetings on a budget-conscious premium unit.",
     specs: ["15ft pickup range, up to 20 attendees", "18+ hour battery, 4-hour charge time", "Zoom recognized, EMEET daisy chain compatible"],

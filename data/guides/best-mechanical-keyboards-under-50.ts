@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41ZdZ-xPxiL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$49.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41ZdZ-xPxiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DBZGH5XM?tag=deskfinds0d-20",
     description: "This board's gasket-mounted structure with 5 layers of sound-dampening foam and a silicone pad produces a deeper 'thock' sound rather than the hollow clack typical of budget boards, and its tri-mode connectivity covers USB-C, 2.4GHz wireless, and Bluetooth 5.0 across up to 3 channels. Pre-lubed Bsun linear switches with 45-50gf actuation are hot-swappable for both 3-pin and 5-pin replacements.\n\nCompared to the HUO JI E-Yooso pick below, this one adds true wireless flexibility with a 4000mAh battery for all-day use, while matching its gasket-mount sound-dampening approach. The KN85 driver supports full key remapping and macro editing in wired or 2.4G mode on Windows.\n\nBest for buyers who want genuine gasket-mount sound quality with true wireless flexibility.",
     specs: ["75% layout, gasket-mounted, tri-mode wireless", "Hot-swappable linear switches, 45-50gf", "4000mAh battery, USB-C/2.4GHz/Bluetooth"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$44.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31AL+7EdSGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3LPNN9N?tag=deskfinds0d-20",
     description: "This board's gasket structure with 5 layers of thicker sound-absorbing foam and a silicone dampener pad specifically reduces 40 percent noise and removes 80 percent of the hollow 'cavity' sound common in budget mechanical keyboards. Its 99-key 96% layout fits full functionality into a smaller 39x13.5x4cm footprint than a traditional full-size board.\n\nCompared to the Kisnt pick above, this one is wired-only via a pluggable USB-C to USB-A cable, trading wireless flexibility for a lower price while matching the gasket-mount sound quality approach. Pre-lubed linear switches are hot-swappable for both 3-pin and 5-pin types without soldering.\n\nBest for buyers who want gasket-mount sound quality at a lower price without needing wireless.",
     specs: ["99 keys, 96% layout, gasket structure", "Hot-swappable pre-lubed linear switches", "5-layer sound-absorbing foam, 40% noise reduction"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$43.30",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31QS87iIEQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09JG7KRC7?tag=deskfinds0d-20",
     description: "This board's 104-key full-size layout with a dedicated number pad comes optimized specifically for Mac users while remaining fully compatible with Windows, including a dedicated Siri key alongside extra keycaps for both operating systems. Its pre-installed tactile Keychron switch is rated for up to 50 million keystrokes, a stated durability figure the budget picks in the lower tier don't specify.\n\nCompared to the gasket-mounted picks above, this one uses a more traditional non-gasket construction without dedicated sound dampening foam, positioning it as a straightforward, reliable board rather than a premium-feel option. Two-level adjustable feet at 6 and 9 degrees provide typing angle flexibility.\n\nBest for buyers who want genuine Mac and Windows dual compatibility with a proven long-lasting switch.",
     specs: ["104 keys, full-size, brown switches", "50 million keystroke rated switches", "Mac and Windows compatible, extra keycaps included"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$36.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41LSGymHc7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B016MAK38U?tag=deskfinds0d-20",
     description: "This board's 87-key tenkeyless layout with a sturdy metal top plate and anti-slip feet stays firmly in place during intense typing or gaming sessions, and its linear red switches are specifically described as designed for rapid actuation without the tactile bump of blue or brown switches. Dedicated software drivers let you remap keys and assign macro commands for full customization.\n\nCompared to the Keychron C2 pick above, this one costs meaningfully less while still offering full anti-ghosting and N-key rollover across all 87 keys, though it lacks the stated 50 million keystroke durability figure. The braided USB cable and plug-and-play compatibility work across Windows, macOS, and Linux without drivers required for basic function.\n\nBest for buyers who want the lowest price with software-based remapping and macro support.",
     specs: ["87 keys, TKL, linear red switches", "Metal top plate, anti-slip feet", "Software driver support for remapping"],

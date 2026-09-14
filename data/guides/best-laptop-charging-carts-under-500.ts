@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "8 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41M3yXoryHL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$547.28",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41M3yXoryHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MYXANOF?tag=deskfinds0d-20",
     description: "This cart's front-and-back access locking cabinet secures 32 devices while its built-in surge protection guards the entire charging circuit against power fluctuations, a combination that positions it as the most complete safety package in this comparison. Slot dimensions accommodate up to 13-inch screen devices with dedicated cable management slots built into each divider.\n\nCompared to the ALT Technology pick below, this one holds 2 more devices while adding front-and-back door access, letting staff load and unload from either side rather than a single access point. The charger basket keeps cords organized and prevents the tangled mess common in high-traffic device carts.\n\nBest for buyers who want the highest capacity with front-and-back locking access and surge protection.",
     specs: ["32 devices, front and back locking access", "Built-in surge protection", "Cable management slots, charger baskets"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$359.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31HLglqt4GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CX96F1PL?tag=deskfinds0d-20",
     description: "This cart's 36 padded bays plus an extra shelf give it the highest raw device count in this tier, supporting laptops, hybrids, and ultrabooks up to a wider size range than the smaller-capacity picks above. Its all-steel structure with anti-rust treatment is built for long-term durability in high-traffic environments.\n\nCompared to the Pearington pick, this one costs meaningfully less while still including padded holders, vented panels, surge protectors, and a key-locking system for both front and rear doors. The cable management pole keeps power cords organized across all 36 charging positions.\n\nBest for buyers who want the highest device count at a lower price than the premium Pearington pick.",
     specs: ["36 devices plus extra shelf", "All-steel structure, anti-rust treatment", "Front and rear key locks, surge protectors"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$379.90",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41TgPDM2lGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08PSJ5K6M?tag=deskfinds0d-20",
     description: "This cart's two padded interior shelves hold 32 devices with an additional top shelf specifically dedicated to cables and adaptors, keeping charging accessories separated from the devices themselves. Its internal locking mechanism secures both front and back doors, and UL-approved power strips inside the cart provide certified electrical safety.\n\nCompared to the OFLILAK pick above, this one accommodates laptops up to 14 inches with a specific tablet slot dimension of 1 inch width by 14 inches depth by 10.5 inches height, giving buyers precise sizing information the other picks don't specify as clearly. Plastic cord clips and rubber-coated dividers protect devices from scratches during storage.\n\nBest for buyers who want precise slot dimensions and a certified UL power strip.",
     specs: ["32 devices, up to 14in laptops", "UL-approved power strips", "Front and back locks, rubber-coated dividers"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$349.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/4169ZMJUcyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVFQDP1V?tag=deskfinds0d-20",
     description: "This cart holds up to 16.3-inch devices, the widest laptop compatibility in this tier, while remaining the cheapest pick despite matching the OFLILAK pick's 36-device capacity. Its front and rear door locks with cord management keep the cart secure and organized during daily classroom or office rotation.\n\nCompared to the ALT Technology pick, this one supports meaningfully larger laptops at a lower price, though it provides less detailed slot dimension information in its listing. The 4-position power strip design distributes charging load across multiple points rather than a single centralized strip.\n\nBest for buyers with larger laptops up to 16.3 inches who want the lowest price for 36-device capacity.",
     specs: ["36 devices, fits up to 16.3in laptops", "Front and rear door locks", "4-position power strip, cord management"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "7 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41WFef2b32L._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$17.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m9k3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41WFef2b32L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D95ZZG2M?tag=deskfinds0d-20",
     description: "This stand's extended 4.7 to 16.9 inch compatibility range covers everything from a small tablet to a portable monitor, the widest range in this comparison. Its innovative locking mechanism holds position securely at any height and angle, from a low profile for typing to a higher position for video conferencing.\n\nCompared to the Minthouz pick below, this one uses a robust all-metal alloy base specifically weighted to prevent tipping or wobbling even during vigorous use, a stability detail worth noting if you'll be tapping or drawing on the tablet while mounted. Anti-slip silicone pads on both the base and device holder add security against accidental slips.\n\nBest for buyers who want the widest device compatibility with a genuinely secure locking mechanism.",
     specs: ["4.7-16.9in device range", "All-metal alloy weighted base", "Secure locking mechanism, anti-slip pads"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$15.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31tfVcspljL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DS6B9NYZ?tag=deskfinds0d-20",
     description: "This stand's dual-axis damping mechanism enables 100mm height adjustment and 180 degree tilt control, a specifically engineered feature that offers ergonomic viewing while preventing wobble even during screen interactions like tapping or scrolling. Its compact folded size of 120 by 100 by 38mm weighs only 278 grams for effortless storage.\n\nCompared to the tounee pick above, this one includes a reserved charging port for continuous power access during use, a genuinely convenient feature none of the other picks in this comparison mention. Anti-slip rubber grooves securely grip devices with or without cases, and the polished aluminum alloy finish adds a minimalist aesthetic touch.\n\nBest for buyers who want a specifically engineered damping mechanism with a reserved charging port.",
     specs: ["4.7-12.9in device range, dual-axis damping", "100mm height adjustment, 180 degree tilt", "Reserved charging port"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41Lr+wpdwaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01DBV1OKY?tag=deskfinds0d-20",
     description: "This stand's spaceflight Al-Ti alloy and super high strengthened alloy steel material construction is specifically named in the listing, a more precise material claim than a generic 'aluminum' description found elsewhere. Its 18mm hook width accommodates tablets or cases up to that thickness, and horizontal positioning helps larger tablets over 12 inches maintain extra stability.\n\nCompared to the Nulaxy pick below, this one specifically recommends horizontal orientation for larger tablets if vertical positioning feels unstable, a practical tip the other picks don't explicitly offer. Rubber pads and feet protect your device from daily scratches and sliding during regular use.\n\nBest for buyers who want a named premium alloy material with practical stability guidance for larger tablets.",
     specs: ["4-13in device range, 18mm hook width", "Al-Ti alloy and alloy steel construction", "Horizontal orientation tip for larger tablets"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$12.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41haDjb13kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08731BKPL?tag=deskfinds0d-20",
     description: "This stand's space grade aluminum alloy construction with advanced post technology is specifically marketed for exquisite craftsmanship, positioning it as a decent, stylish stand rather than a purely functional budget option. Its two durable shafts enable adjustment of both height and angle for the best possible watching view.\n\nCompared to the Lamicall pick above, this one matches the same price point while emphasizing polish and stylish finish as a differentiator, appealing to buyers who value aesthetics alongside function. Compatible with 4 to 11 inch devices, it covers standard tablet and phone sizes for everyday use.\n\nBest for buyers who want a stylish, well-finished aluminum stand at the same price as the Lamicall alternative.",
     specs: ["4-11in device range, space grade aluminum", "Two adjustable shafts for height and angle", "Fully foldable and portable"],

@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-09-14";
 export const readTime = "9 min";
-export const heroImage = "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/31wM3LKpVAL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -25,7 +25,7 @@ export const products: GuideProduct[] = [
     price: "$979.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h9m3zRQvL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31wM3LKpVAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08L9SM2DK?tag=deskfinds0d-20",
     description: "This projector's genuine 4K UHD resolution at 3840x2160 physical pixels is a true native display panel, a meaningfully different technology from the 1080P-with-4K-decoding projectors covered in every lower tier of this comparison series. Its 240Hz refresh rate with an ultra-low 4.2ms input lag delivers competitive gaming responsiveness that budget projectors simply can't match.\n\nCompared to the XGIMI pick below, this one supports curved screen projection for advanced theater configurations alongside standard auto-keystone and four-corner adjustment, giving you more setup flexibility for non-standard installations. Dual HDMI inputs and a powered USB-A port support streaming dongles and high-performance gaming consoles simultaneously.\n\nBest for buyers who want genuine native 4K resolution with the highest refresh rate for gaming.",
     specs: ["True native 4K UHD (3840x2160), 3200 ANSI lumens", "240Hz refresh rate, 4.2ms input lag", "Dual HDMI, curved screen support"],
@@ -41,7 +41,7 @@ export const products: GuideProduct[] = [
     price: "$999.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71m3vXqRZoL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31c6SvNoaOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GYP5F5VL?tag=deskfinds0d-20",
     description: "This projector's High-Performance RGB Triple Laser light source delivers SGS-certified color accuracy with a delta-E under 1, a professional-grade color precision standard the DLP-based picks in this comparison don't specifically claim. Its book-sized portable design brings genuine 4K UHD clarity to backyard movie nights or indoor sessions without the bulk of a fixed home theater projector.\n\nCompared to the ViewSonic pick above, this one uses lossless 0.98 to 1.3:1 optical zoom rather than digital zoom, preserving image quality when adjusting screen size instead of pixelating it. Dual Harman Kardon speakers and built-in Google TV provide a genuinely all-in-one entertainment hub with 1ms latency for PS5, Xbox, and PC gaming support.\n\nBest for buyers who want portable genuine 4K with professional-grade color accuracy.",
     specs: ["True native 4K UHD, RGB Triple Laser, 1600 ISO lumens", "SGS-certified color accuracy, delta-E<1", "Lossless optical zoom, 1ms latency"],
@@ -57,7 +57,7 @@ export const products: GuideProduct[] = [
     price: "$1,188.47",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71k9m3zVrqL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31ABD-Wa+xL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C33XXPMQ?tag=deskfinds0d-20",
     description: "This projector's native Xbox compatibility specifically supports 1440p at 120Hz alongside its 240Hz refresh rate, a console-specific optimization the other picks in this comparison don't explicitly target. Its 4000 ANSI lumens is the highest stated brightness in this tier, providing bright and clear visuals even in environments with moderate ambient lighting.\n\nCompared to the PX701-4K pick, this one steps up to a massive 300 inch maximum projection size with a 1.3x optical zoom, suited for genuinely large theater rooms rather than standard living rooms. Its proprietary SuperColor technology paired with HDR and HLG support delivers rich color accuracy ideal for immersive simulation environments and cinematic storytelling.\n\nBest for buyers who specifically want native Xbox optimization with the highest brightness in this tier.",
     specs: ["True native 4K UHD, 4000 ANSI lumens", "Native Xbox 1440p at 120Hz support", "300in max projection, 1.3x optical zoom"],
@@ -73,7 +73,7 @@ export const products: GuideProduct[] = [
     price: "$1,199.00",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/71h2mXqPzrL._SL500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/31yHS9+RRIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09CJGQ9MJ?tag=deskfinds0d-20",
     description: "This projector comes from BenQ, an established brand in the gaming and home theater projector category, with a stated 4.2ms input lag matching the competitive gaming responsiveness of the ViewSonic picks in this comparison. Standard throw capability delivers a 100 inch image from 8.2 feet away, suited to typical living room dimensions.\n\nCompared to the ViewSonic PX749-4K pick, this one is also available in a short-throw variant (the TK700STi) capable of the same 100 inch image from just 6.5 feet, useful if your room layout doesn't accommodate the standard throw distance. Both variants deliver the same stated 4K HDR image accuracy and clarity.\n\nBest for buyers who want an established BenQ brand with flexible throw-distance options.",
     specs: ["True native 4K UHD, HDR support", "4.2ms input lag", "Standard or short-throw variant available"],
