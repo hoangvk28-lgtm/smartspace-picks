@@ -3680,6 +3680,9 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-usb-video-switchers": () => import("./guides/best-usb-video-switchers"),
   "best-usb-whiteboards-for-laptops": () => import("./guides/best-usb-whiteboards-for-laptops"),
   "best-usb4-das-storage": () => import("./guides/best-usb4-das-storage"),
+  "best-usb4-dock": () => import("./guides/best-usb4-dock"),
+  "best-usb4-dock-for-mac": () => import("./guides/best-usb4-dock-for-mac"),
+  "best-usb4-dock-for-surface": () => import("./guides/best-usb4-dock-for-surface"),
   "best-usb4-egpu-enclosures": () => import("./guides/best-usb4-egpu-enclosures"),
   "best-usb4-nvme-enclosures": () => import("./guides/best-usb4-nvme-enclosures"),
   "best-usb4-nvme-enclosures-under-100": () => import("./guides/best-usb4-nvme-enclosures-under-100"),
@@ -3909,4 +3912,5 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-zoom-podcast-mixers": () => import("./guides/best-zoom-podcast-mixers"),
   "best-zyxel-10gbe-switches": () => import("./guides/best-zyxel-10gbe-switches"),
   "most-accurate-air-quality-monitors": () => import("./guides/most-accurate-air-quality-monitors"),
+  "surface-usb4-dock-alternatives": () => import("./guides/surface-usb4-dock-alternatives"),
 };
