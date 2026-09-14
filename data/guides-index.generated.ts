@@ -3134,6 +3134,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-smart-displays-for-desks": () => import("./guides/best-smart-displays-for-desks"),
   "best-smart-displays-for-home-offices": () => import("./guides/best-smart-displays-for-home-offices"),
   "best-smart-displays-for-video-calls": () => import("./guides/best-smart-displays-for-video-calls"),
+  "best-smart-displays-under-150": () => import("./guides/best-smart-displays-under-150"),
+  "best-smart-displays-under-200": () => import("./guides/best-smart-displays-under-200"),
   "best-smart-displays-under-monitors": () => import("./guides/best-smart-displays-under-monitors"),
   "best-smart-interactive-whiteboards": () => import("./guides/best-smart-interactive-whiteboards"),
   "best-smart-lcd-writing-tablets": () => import("./guides/best-smart-lcd-writing-tablets"),
