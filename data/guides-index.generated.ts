@@ -3682,6 +3682,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-usb-whiteboards-for-laptops": () => import("./guides/best-usb-whiteboards-for-laptops"),
   "best-usb4-das-storage": () => import("./guides/best-usb4-das-storage"),
   "best-usb4-dock": () => import("./guides/best-usb4-dock"),
+  "best-usb4-dock-for-dual-monitors": () => import("./guides/best-usb4-dock-for-dual-monitors"),
+  "best-usb4-dock-for-gaming-handhelds": () => import("./guides/best-usb4-dock-for-gaming-handhelds"),
   "best-usb4-dock-for-mac": () => import("./guides/best-usb4-dock-for-mac"),
   "best-usb4-dock-for-surface": () => import("./guides/best-usb4-dock-for-surface"),
   "best-usb4-egpu-dock": () => import("./guides/best-usb4-egpu-dock"),
