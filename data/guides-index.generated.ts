@@ -3689,6 +3689,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-usb4-dock-for-gaming-handhelds": () => import("./guides/best-usb4-dock-for-gaming-handhelds"),
   "best-usb4-dock-for-mac": () => import("./guides/best-usb4-dock-for-mac"),
   "best-usb4-dock-for-surface": () => import("./guides/best-usb4-dock-for-surface"),
+  "best-usb4-dock-with-10gbe": () => import("./guides/best-usb4-dock-with-10gbe"),
+  "best-usb4-dock-with-displayport": () => import("./guides/best-usb4-dock-with-displayport"),
   "best-usb4-dock-with-dual-hdmi": () => import("./guides/best-usb4-dock-with-dual-hdmi"),
   "best-usb4-dock-with-nvme": () => import("./guides/best-usb4-dock-with-nvme"),
   "best-usb4-egpu-dock": () => import("./guides/best-usb4-egpu-dock"),
