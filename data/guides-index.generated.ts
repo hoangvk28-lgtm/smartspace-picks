@@ -238,6 +238,7 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-3-in-1-portable-air-conditioners": () => import("./guides/best-3-in-1-portable-air-conditioners"),
   "best-3-monitor-standing-desk-converters": () => import("./guides/best-3-monitor-standing-desk-converters"),
   "best-3-person-reception-desks": () => import("./guides/best-3-person-reception-desks"),
+  "best-3-port-poe-extender": () => import("./guides/best-3-port-poe-extender"),
   "best-3-tier-storage-carts": () => import("./guides/best-3-tier-storage-carts"),
   "best-3-way-studio-monitors": () => import("./guides/best-3-way-studio-monitors"),
   "best-30-inch-monitor-privacy-screens": () => import("./guides/best-30-inch-monitor-privacy-screens"),
