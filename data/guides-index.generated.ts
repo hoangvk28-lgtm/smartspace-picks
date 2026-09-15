@@ -868,6 +868,7 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-compact-studio-monitors": () => import("./guides/best-compact-studio-monitors"),
   "best-compact-task-chairs-for-apartments": () => import("./guides/best-compact-task-chairs-for-apartments"),
   "best-compact-task-chairs-for-professional-offices": () => import("./guides/best-compact-task-chairs-for-professional-offices"),
+  "best-compact-thunderbolt-5-dock": () => import("./guides/best-compact-thunderbolt-5-dock"),
   "best-compact-under-desk-treadmill": () => import("./guides/best-compact-under-desk-treadmill"),
   "best-compact-usb-c-ethernet-adapters": () => import("./guides/best-compact-usb-c-ethernet-adapters"),
   "best-compact-vertical-mice-for-travel": () => import("./guides/best-compact-vertical-mice-for-travel"),
@@ -3941,4 +3942,5 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-zyxel-10gbe-switches": () => import("./guides/best-zyxel-10gbe-switches"),
   "most-accurate-air-quality-monitors": () => import("./guides/most-accurate-air-quality-monitors"),
   "surface-usb4-dock-alternatives": () => import("./guides/surface-usb4-dock-alternatives"),
+  "thunderbolt-5-dock-alternatives": () => import("./guides/thunderbolt-5-dock-alternatives"),
 };
