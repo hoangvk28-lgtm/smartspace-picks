@@ -46,9 +46,13 @@ export function AmazonBountyBanner({ variant = "prime", className }: AmazonBount
   const v = VARIANTS[variant];
 
   return (
-    <div
+    <a
+      href={v.href}
+      target="_blank"
+      rel="nofollow sponsored noopener noreferrer"
       className={clsx(
-        "relative overflow-hidden rounded-2xl border border-border mb-10 aspect-[4/1] min-h-[180px] sm:min-h-0",
+        "group relative overflow-hidden rounded-xl border border-border mb-8 block aspect-[6/1] min-h-[110px] sm:min-h-0",
+        "transition-shadow hover:shadow-md",
         className
       )}
     >
@@ -57,8 +61,8 @@ export function AmazonBountyBanner({ variant = "prime", className }: AmazonBount
         alt="DeskFinds desk setup with docking station"
         fill
         priority={false}
-        sizes="(max-width: 640px) 100vw, 900px"
-        className="object-cover"
+        sizes="(max-width: 640px) 100vw, 700px"
+        className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
       />
 
       <div
@@ -66,25 +70,20 @@ export function AmazonBountyBanner({ variant = "prime", className }: AmazonBount
         aria-hidden="true"
       />
 
-      <div className="relative h-full flex flex-col justify-center gap-2 p-5 sm:p-7 max-w-[90%] sm:max-w-[55%]">
-        <span className="inline-block w-fit text-[11px] font-bold uppercase tracking-widest text-accent-dark">
+      <div className="relative h-full flex flex-col justify-center gap-1 p-4 sm:p-5 max-w-[92%] sm:max-w-[55%]">
+        <span className="inline-block w-fit text-[10px] font-bold uppercase tracking-widest text-accent-dark">
           {v.eyebrow}
         </span>
-        <h3 className="text-base sm:text-xl font-bold leading-snug text-ink">{v.heading}</h3>
-        <p className="text-sm text-ink-secondary leading-relaxed max-w-md">{v.body}</p>
+        <h3 className="text-sm sm:text-base font-bold leading-snug text-ink">{v.heading}</h3>
+        <p className="hidden sm:block text-xs text-ink-secondary leading-relaxed max-w-md">{v.body}</p>
 
-        <a
-          href={v.href}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="mt-2 inline-flex items-center justify-center gap-2 rounded-btn bg-accent text-white font-semibold text-sm px-5 py-3 min-h-[44px] hover:bg-accent-dark active:scale-[0.98] transition-all shadow-sm hover:shadow whitespace-nowrap w-fit"
-        >
+        <span className="mt-1.5 inline-flex items-center gap-1.5 rounded-btn bg-accent text-white font-semibold text-xs px-4 py-2 min-h-[36px] group-hover:bg-accent-dark transition-colors shadow-sm whitespace-nowrap w-fit">
           {v.cta}
-          <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
+          <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5} aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>
-        </a>
+        </span>
       </div>
-    </div>
+    </a>
   );
 }
