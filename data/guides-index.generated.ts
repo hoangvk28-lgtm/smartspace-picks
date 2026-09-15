@@ -212,6 +212,7 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-24-port-poe-network-switches": () => import("./guides/best-24-port-poe-network-switches"),
   "best-2400w-portable-power-stations": () => import("./guides/best-2400w-portable-power-stations"),
   "best-240v-portable-power-stations": () => import("./guides/best-240v-portable-power-stations"),
+  "best-240w-thunderbolt-5-dock": () => import("./guides/best-240w-thunderbolt-5-dock"),
   "best-240w-usb4-dock": () => import("./guides/best-240w-usb4-dock"),
   "best-24u-server-racks": () => import("./guides/best-24u-server-racks"),
   "best-25-inch-monitor-privacy-screens": () => import("./guides/best-25-inch-monitor-privacy-screens"),
