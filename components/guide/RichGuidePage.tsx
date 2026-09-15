@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { SITE_URL } from "@/lib/seo";
 import { AtAGlance } from "@/components/product/AtAGlance";
+import { AmazonBountyBanner } from "@/components/affiliate/AmazonBountyBanner";
 
 export interface GuideProduct {
   id: string;
@@ -171,6 +172,12 @@ export function RichGuidePage(props: RichGuidePageProps) {
   const faq = props.faq ?? [];
   const relatedGuides = props.relatedGuides ?? [];
 
+  const bountyVariant = slug.includes("dorm")
+    ? "primeYoungAdults"
+    : slug.includes("budget")
+    ? "haul"
+    : "prime";
+
   const breadcrumbTitle = toBreadcrumbTitle(guideTitle);
   const amazonQuery = toAmazonSearchQuery(mainKeyword, slug);
   const productNoun = toProductNounSingular(breadcrumbTitle);
@@ -263,6 +270,8 @@ export function RichGuidePage(props: RichGuidePageProps) {
           <strong className="text-ink">Quick note:</strong> We may earn a commission when you buy through Amazon links. This guide is based on product specs, buyer feedback, use cases, and comparison criteria, not paid placement.{" "}
           <Link prefetch={false} href="/affiliate-disclosure" className="text-brand hover:underline">Affiliate disclosure</Link>.
         </div>
+
+        <AmazonBountyBanner variant={bountyVariant} />
 
         <div className="rounded-2xl overflow-hidden border border-border mb-10 bg-white h-56 sm:h-64 md:hidden flex items-center justify-center p-3">
           <Image src={heroImage} alt={breadcrumbTitle} width={900} height={420} className="w-full h-full object-contain" priority unoptimized />
