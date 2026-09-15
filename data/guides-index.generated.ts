@@ -3453,6 +3453,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-thunderbolt-4-egpu-enclosures": () => import("./guides/best-thunderbolt-4-egpu-enclosures"),
   "best-thunderbolt-4-nvme-enclosures": () => import("./guides/best-thunderbolt-4-nvme-enclosures"),
   "best-thunderbolt-5-direct-attached-storage": () => import("./guides/best-thunderbolt-5-direct-attached-storage"),
+  "best-thunderbolt-5-dock-for-macbook-pro": () => import("./guides/best-thunderbolt-5-dock-for-macbook-pro"),
+  "best-thunderbolt-5-dock-for-windows-laptop": () => import("./guides/best-thunderbolt-5-dock-for-windows-laptop"),
   "best-thunderbolt-5-egpu-enclosures": () => import("./guides/best-thunderbolt-5-egpu-enclosures"),
   "best-thunderbolt-5-nvme-enclosures": () => import("./guides/best-thunderbolt-5-nvme-enclosures"),
   "best-thunderbolt-5-ssd-enclosure-docks": () => import("./guides/best-thunderbolt-5-ssd-enclosure-docks"),
