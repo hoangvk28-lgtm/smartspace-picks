@@ -51,7 +51,7 @@ export function AmazonBountyBanner({ variant = "prime", className }: AmazonBount
       target="_blank"
       rel="nofollow sponsored noopener noreferrer"
       className={clsx(
-        "group relative overflow-hidden rounded-xl border border-border mb-8 block aspect-[6/1] min-h-[110px] sm:min-h-0",
+        "group relative overflow-hidden rounded-xl border border-border mb-8 block w-full h-[110px] sm:h-auto sm:aspect-[6/1]",
         "transition-shadow hover:shadow-md",
         className
       )}
@@ -61,16 +61,17 @@ export function AmazonBountyBanner({ variant = "prime", className }: AmazonBount
         alt="DeskFinds desk setup with docking station"
         fill
         priority={false}
-        sizes="(max-width: 640px) 100vw, 700px"
+        quality={90}
+        sizes="(max-width: 640px) 100vw, 900px"
         className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
       />
 
       <div
-        className="pointer-events-none absolute inset-y-0 left-0 w-full sm:w-3/5 bg-gradient-to-r from-white via-white/85 to-transparent"
+        className="pointer-events-none absolute inset-y-0 left-0 w-4/5 sm:w-3/5 bg-gradient-to-r from-white via-white/85 to-transparent"
         aria-hidden="true"
       />
 
-      <div className="relative h-full flex flex-col justify-center gap-1 p-4 sm:p-5 max-w-[92%] sm:max-w-[55%]">
+      <div className="relative h-full flex flex-col justify-center gap-1 p-4 sm:p-5 max-w-[72%] sm:max-w-[55%]">
         <span className="inline-block w-fit text-[10px] font-bold uppercase tracking-widest text-accent-dark">
           {v.eyebrow}
         </span>

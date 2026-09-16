@@ -1,6 +1,16 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
+  // Pin the workspace root explicitly. An unrelated stray lockfile at
+  // /home/admin1/package-lock.json was making Next.js infer the workspace
+  // root as the whole home directory instead of this project folder,
+  // which made the dev server trace/watch far more of the filesystem
+  // than it needed to (contributing to the dev-server memory blowups).
+  outputFileTracingRoot: path.join(__dirname),
+  turbopack: {
+    root: path.join(__dirname),
+  },
   async headers() {
     return [
       {
@@ -58,6 +68,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
+    qualities: [75, 90],
     remotePatterns: [
       {
         protocol: "https",
