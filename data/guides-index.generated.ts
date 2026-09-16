@@ -2626,6 +2626,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-poe-network-switches": () => import("./guides/best-poe-network-switches"),
   "best-poe-powered-network-switches": () => import("./guides/best-poe-powered-network-switches"),
   "best-poe-splitter": () => import("./guides/best-poe-splitter"),
+  "best-poe-splitter-for-ip-camera": () => import("./guides/best-poe-splitter-for-ip-camera"),
+  "best-poe-splitter-for-raspberry-pi": () => import("./guides/best-poe-splitter-for-raspberry-pi"),
   "best-poly-conference-cameras": () => import("./guides/best-poly-conference-cameras"),
   "best-poly-room-schedulers": () => import("./guides/best-poly-room-schedulers"),
   "best-portable-a4-file-boxes": () => import("./guides/best-portable-a4-file-boxes"),
