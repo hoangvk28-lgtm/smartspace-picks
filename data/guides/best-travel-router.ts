@@ -183,6 +183,7 @@ export const faq = [
 
 export const relatedGuides: { href: string; title: string }[] = [
   { "href": "/guide/best-travel-router-with-vpn", "title": "Best Travel Routers with VPN" },
-  { "href": "/guide/best-travel-router-with-vpn", "title": "Best Travel Routers with VPN" },
-  { "href": "/guide/best-portable-travel-router", "title": "Best Pocket and Mini Travel Routers" }
+  { "href": "/guide/best-portable-travel-router", "title": "Best Pocket and Mini Travel Routers" },
+  { "href": "/guide/best-openwrt-travel-router", "title": "Best OpenWrt Travel Routers" },
+  { "href": "/guide/best-travel-router-for-phone-tethering", "title": "Best Travel Routers for Phone and USB Tethering" }
 ];
