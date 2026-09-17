@@ -3565,6 +3565,8 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-travel-power-strips": () => import("./guides/best-travel-power-strips"),
   "best-travel-router": () => import("./guides/best-travel-router"),
   "best-travel-router-for-phone-tethering": () => import("./guides/best-travel-router-for-phone-tethering"),
+  "best-travel-router-for-rv": () => import("./guides/best-travel-router-for-rv"),
+  "best-travel-router-for-starlink": () => import("./guides/best-travel-router-for-starlink"),
   "best-travel-router-with-vpn": () => import("./guides/best-travel-router-with-vpn"),
   "best-trebleet-egpu-enclosures": () => import("./guides/best-trebleet-egpu-enclosures"),
   "best-trendnet-10gbe-switches": () => import("./guides/best-trendnet-10gbe-switches"),
