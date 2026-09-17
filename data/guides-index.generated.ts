@@ -403,6 +403,7 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-55-inch-interactive-whiteboards": () => import("./guides/best-55-inch-interactive-whiteboards"),
   "best-55-inch-reception-desks": () => import("./guides/best-55-inch-reception-desks"),
   "best-5ft-reception-desks": () => import("./guides/best-5ft-reception-desks"),
+  "best-5g-travel-router": () => import("./guides/best-5g-travel-router"),
   "best-5gbe-network-switches": () => import("./guides/best-5gbe-network-switches"),
   "best-5gbe-usb-c-ethernet-adapters": () => import("./guides/best-5gbe-usb-c-ethernet-adapters"),
   "best-5u-server-racks": () => import("./guides/best-5u-server-racks"),
