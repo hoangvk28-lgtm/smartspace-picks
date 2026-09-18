@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-document-holders","title":"Best Document Holders in 2026"},{"href":"/guide/best-desktop-document-holders","title":"Best Desktop Document Holders in 2026"},{"href":"/guide/best-waterproof-document-holders","title":"Best Waterproof Document Holders in 2026"},{"href":"/guide/best-book-and-document-holders","title":"Best Book and Document Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-document-holders","title":"Best Document Holders in 2026"},{"href":"/guide/best-document-holders-under-10","title":"Best Document Holders Under $10 in 2026"},{"href":"/guide/best-document-holders-under-20","title":"Best Document Holders Under $20 in 2026"},{"href":"/guide/best-document-holders-under-30","title":"Best Document Holders Under $30 in 2026"}];

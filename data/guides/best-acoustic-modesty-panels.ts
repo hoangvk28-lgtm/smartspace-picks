@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-clamp-on-modesty-panels","title":"Best Clamp-On Modesty Panels in 2026"},{"href":"/guide/best-folding-table-modesty-panels","title":"Best Folding-Table Modesty Panels in 2026"},{"href":"/guide/best-freestanding-modesty-panels","title":"Best Freestanding Modesty Panels in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-modesty-panels-under-50","title":"Best Modesty Panels Under $50 in 2026"},{"href":"/guide/best-modesty-panels-under-75","title":"Best Modesty Panels Under $75 in 2026"},{"href":"/guide/best-clamp-on-modesty-panels","title":"Best Clamp-On Modesty Panels in 2026"}];
