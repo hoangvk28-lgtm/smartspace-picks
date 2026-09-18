@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mug-warmers","title":"Best Mug Warmers in 2026"},{"href":"/guide/best-mug-warmers-with-led-display","title":"Best Mug Warmers With LED Display in 2026"},{"href":"/guide/best-mug-warmers-for-desks","title":"Best Mug Warmers for Desks in 2026"},{"href":"/guide/best-battery-operated-mug-warmers","title":"Best Battery-Operated Mug Warmers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mug-warmers","title":"Best Mug Warmers in 2026"},{"href":"/guide/best-mug-warmers-for-large-mugs","title":"Best Mug Warmers for Large Mugs in 2026"},{"href":"/guide/best-mug-warmers-with-led-display","title":"Best Mug Warmers With LED Display in 2026"},{"href":"/guide/best-mug-warmers-for-desks","title":"Best Mug Warmers for Desks in 2026"}];

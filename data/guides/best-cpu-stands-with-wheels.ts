@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cpu-stands","title":"Best CPU Stands in 2026"},{"href":"/guide/best-heavy-duty-cpu-stands","title":"Best Heavy-Duty CPU Stands in 2026"},{"href":"/guide/best-adjustable-cpu-stands","title":"Best Adjustable CPU Stands in 2026"},{"href":"/guide/best-cpu-stands-for-carpet","title":"Best CPU Stands for Carpet in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cpu-stands","title":"Best CPU Stands in 2026"},{"href":"/guide/best-cpu-stands-for-small-pc-towers","title":"Best CPU Stands for Small PC Towers in 2026"},{"href":"/guide/best-heavy-duty-cpu-stands","title":"Best Heavy-Duty CPU Stands in 2026"},{"href":"/guide/best-adjustable-cpu-stands","title":"Best Adjustable CPU Stands in 2026"}];

@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-modesty-panels-for-office-desks","title":"Best Modesty Panels for Office Desks in 2026"},{"href":"/guide/best-modesty-panels-with-cable-management","title":"Best Modesty Panels With Cable Management in 2026"},{"href":"/guide/best-modesty-panels-for-l-shaped-desks","title":"Best Modesty Panels for L-Shaped Desks in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-clip-on-modesty-panels","title":"Best Clip-On Modesty Panels in 2026"},{"href":"/guide/best-modesty-panels-for-office-desks","title":"Best Modesty Panels for Office Desks in 2026"},{"href":"/guide/best-fabric-modesty-panels","title":"Best Fabric Modesty Panels in 2026"}];

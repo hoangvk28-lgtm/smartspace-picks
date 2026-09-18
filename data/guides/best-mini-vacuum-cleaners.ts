@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-vacuum-cleaners-for-keyboards","title":"Best Mini Vacuum Cleaners for Keyboards in 2026"},{"href":"/guide/best-mini-vacuum-cleaners-for-computers","title":"Best Mini Vacuum Cleaners for Computers in 2026"},{"href":"/guide/most-powerful-mini-vacuum-cleaners","title":"Best Most Powerful Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-handheld-mini-vacuum-cleaners","title":"Best Handheld Mini Vacuum Cleaners in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-battery-powered-mini-vacuum-cleaners","title":"Best Battery-Powered Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-mini-vacuum-cleaners-for-keyboards","title":"Best Mini Vacuum Cleaners for Keyboards in 2026"},{"href":"/guide/best-mini-vacuum-cleaners-for-computers","title":"Best Mini Vacuum Cleaners for Computers in 2026"},{"href":"/guide/best-mini-vacuum-cleaners-with-strong-suction","title":"Best Mini Vacuum Cleaners With Strong Suction in 2026"}];

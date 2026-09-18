@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmer-and-mug-sets","title":"Best Coffee Warmer and Mug Sets in 2026"},{"href":"/guide/best-smart-coffee-warmers","title":"Best Smart Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-desks","title":"Best Coffee Warmers for Desks in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-dual-coffee-warmer-plates","title":"Best Dual Coffee Warmer Plates in 2026"},{"href":"/guide/best-coffee-warmer-and-mug-sets","title":"Best Coffee Warmer and Mug Sets in 2026"},{"href":"/guide/best-coffee-warmer-coasters","title":"Best Coffee Warmer Coasters in 2026"}];

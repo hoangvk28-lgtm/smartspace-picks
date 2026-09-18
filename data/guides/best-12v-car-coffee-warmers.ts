@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-with-auto-shut-off","title":"Best Coffee Warmers With Auto Shut-Off in 2026"},{"href":"/guide/best-portable-coffee-warmers","title":"Best Portable Coffee Warmers in 2026"},{"href":"/guide/best-electric-coffee-warmers","title":"Best Electric Coffee Warmers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-with-auto-shut-off","title":"Best Coffee Warmers With Auto Shut-Off in 2026"},{"href":"/guide/best-automatic-coffee-warmers","title":"Best Automatic Coffee Warmers in 2026"},{"href":"/guide/best-portable-coffee-warmers","title":"Best Portable Coffee Warmers in 2026"}];

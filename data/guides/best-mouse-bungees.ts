@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mouse-bungees-for-8k-mice","title":"Best Mouse Bungees for 8K Mice in 2026"},{"href":"/guide/best-rgb-mouse-bungees","title":"Best RGB Mouse Bungees in 2026"},{"href":"/guide/best-gaming-mouse-bungees","title":"Best Gaming Mouse Bungees in 2026"},{"href":"/guide/best-mug-warmers-with-led-display","title":"Best Mug Warmers With LED Display in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mouse-bungees-for-8k-mice","title":"Best Mouse Bungees for 8K Mice in 2026"},{"href":"/guide/best-mouse-bungees-with-usb-hubs","title":"Best Mouse Bungees With USB Hubs in 2026"},{"href":"/guide/best-rgb-mouse-bungees","title":"Best RGB Mouse Bungees in 2026"},{"href":"/guide/best-mouse-bungees-for-op1-8k","title":"Best Mouse Bungees for OP1 8K in 2026"}];

@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers-for-offices","title":"Best Coffee Warmers for Offices in 2026"},{"href":"/guide/best-temperature-control-coffee-warmers","title":"Best Temperature-Control Coffee Warmers in 2026"},{"href":"/guide/best-portable-coffee-warmers","title":"Best Portable Coffee Warmers in 2026"},{"href":"/guide/best-electric-coffee-warmers","title":"Best Electric Coffee Warmers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers-for-offices","title":"Best Coffee Warmers for Offices in 2026"},{"href":"/guide/best-coffee-and-tea-warmers","title":"Best Coffee and Tea Warmers in 2026"},{"href":"/guide/best-temperature-control-coffee-warmers","title":"Best Temperature-Control Coffee Warmers in 2026"},{"href":"/guide/best-portable-coffee-warmers","title":"Best Portable Coffee Warmers in 2026"}];

@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-blue-light-glasses","title":"Best Blue Light Glasses in 2026"},{"href":"/guide/best-non-prescription-blue-light-glasses","title":"Best Non-Prescription Blue Light Glasses in 2026"},{"href":"/guide/best-oversized-blue-light-glasses","title":"Best Oversized Blue Light Glasses in 2026"},{"href":"/guide/best-blue-light-reading-glasses","title":"Best Blue Light Reading Glasses in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-blue-light-glasses","title":"Best Blue Light Glasses in 2026"},{"href":"/guide/best-non-prescription-blue-light-glasses","title":"Best Non-Prescription Blue Light Glasses in 2026"},{"href":"/guide/best-blue-light-glasses-with-low-screen-reflection","title":"Best Blue Light Glasses With Low Screen Reflection in 2026"},{"href":"/guide/best-oversized-blue-light-glasses","title":"Best Oversized Blue Light Glasses in 2026"}];

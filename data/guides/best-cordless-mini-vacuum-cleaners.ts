@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-vacuum-cleaners","title":"Best Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-portable-mini-vacuum-cleaners","title":"Best Portable Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-usb-mini-vacuum-cleaners","title":"Best USB Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-rechargeable-mini-vacuum-cleaners","title":"Best Rechargeable Mini Vacuum Cleaners in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-vacuum-cleaners","title":"Best Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-portable-mini-vacuum-cleaners","title":"Best Portable Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-battery-powered-mini-vacuum-cleaners","title":"Best Battery-Powered Mini Vacuum Cleaners in 2026"},{"href":"/guide/best-mini-vacuum-cleaners-with-washable-filters","title":"Best Mini Vacuum Cleaners With Washable Filters in 2026"}];

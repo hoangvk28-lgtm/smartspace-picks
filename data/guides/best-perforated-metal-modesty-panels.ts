@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-31";
 export const readTime = "11 min";
-export const heroImage = "https://m.media-amazon.com/images/I/31ltR8tupvL._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/41KndorRMIL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,15 +21,15 @@ export const products: GuideProduct[] = [
     id: "best-perforated-metal-modesty-panels-1",
     rank: 1,
     badge: "Best Overall",
-    name: "OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields",
-    price: "$124.00",
+    name: "ZJKXJH Desk Privacy Panel",
+    price: "$220.13",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/31ltR8tupvL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0DZQ4J6L2?tag=deskfinds0d-20",
-    description: "OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields is our overall pick in this lineup. Our modesty panels provide users with more privacy, so they can complete their tasks comfortably and relaxed. Our desk and table-mount privacy shield can be installed in 10 minutes or less.\n\nAgainst Regency Fusion Modesty Panel for 66 in. Desk- Black, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nIt's worth picking this one if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
-    specs: ["Privacy and structural support", "Easy to install", "Durable materials"],
-    pros: ["Privacy and structural support", "Easy to install", "Durable materials", "While the modesty panel desk install is primarily for underside mounting"],
+    imageUrl: "https://m.media-amazon.com/images/I/41KndorRMIL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0HGY39N1P?tag=deskfinds0d-20",
+    description: "ZJKXJH Desk Privacy Panel is our overall pick in this lineup. In addition to our standard options, we offer custom sizing tailored to your needs. Constructed from 2cm-thick dual-layer polyester fiberboard and finished with a wear-resistant fabric covering.\n\nSide by side with VIVO Dark Gray Clamp-on 60 x 24 in Privacy Panel, the real difference worth noting is it is an tool for boosting productivity and minimizing external distractions.\n\nThis fits best if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
+    specs: ["In addition to our standard options", "Constructed from 2cm-thick dual-layer polyester fiberboard and finished with a wear-resistant fabric covering", "Is an tool for boosting productivity and minimizing external distractions"],
+    pros: ["In addition to our standard options", "Constructed from 2cm-thick dual-layer polyester fiberboard and finished with a wear-resistant fabric covering", "Is an tool for boosting productivity and minimizing external distractions", "Meets a variety of usage needs"],
     cons: ["Panel width has to match your exact desk, not just the model line", "Some mounting kits assume a specific desk brand's frame"],
     bestFor: "buyers who want the strongest all-around pick in this comparison and would rather not keep shopping around",
   },
@@ -37,15 +37,15 @@ export const products: GuideProduct[] = [
     id: "best-perforated-metal-modesty-panels-2",
     rank: 2,
     badge: "Also Worth Considering",
-    name: "Regency Fusion Modesty Panel for 66 in. Desk- Black",
-    price: "$104.98",
+    name: "VIVO Dark Gray Clamp-on 60 x 24 in Privacy Panel",
+    price: "$149.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/411MnnLIR8L._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B06WVDMWD7?tag=deskfinds0d-20",
-    description: "Regency Fusion Modesty Panel for 66 in. Desk- Black is a strong alternative worth comparing directly against the top pick. Brings stability, kneespace privacy and style to fusion desks and tables. Designed to attach seamlessly to a fusion 66-inch long desk or training table.\n\nWeighing this against OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields, constructed of a sturdy metal with a stylish black finish to match any decor ends up being the detail that matters most for most buyers.\n\nChoose this if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
-    specs: ["Brings stability, kneespace privacy and style to fusion desks and tables", "Designed to attach seamlessly to a fusion 66-inch long desk or training table", "Round perforations throughout the panel provide air circulation as well as a stylish look"],
-    pros: ["Brings stability, kneespace privacy and style to fusion desks and tables", "Designed to attach seamlessly to a fusion 66-inch long desk or training table", "Round perforations throughout the panel provide air circulation as well as a stylish look", "Constructed of a sturdy metal with a stylish black finish to match any decor"],
+    imageUrl: "https://m.media-amazon.com/images/I/41MyIJ8y2rL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0B4N5QKC1?tag=deskfinds0d-20",
+    description: "VIVO Dark Gray Clamp-on 60 x 24 in Privacy Panel is a strong alternative worth comparing directly against the top pick. This 60” x 24” desk privacy panel is perfect for dividing open work areas and limiting distractions, allowing you to be with your coworkers while also enjoying your own space. A great way to increase productivity is to block unnecessary distractions, and this divider has you covered.\n\nWeighing this against ZJKXJH Desk Privacy Panel, clamp this panel to your desk (0.4” to 1.4” in thickness) for a secure, yet flexible setup ends up being the detail that matters most for most buyers.\n\nIt's worth picking this one if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
+    specs: ["Clamp-on/screw-in privacy panel", "Block distractions", "Customize your space"],
+    pros: ["Clamp-on/screw-in privacy panel", "Block distractions", "Customize your space", "Sturdy desk clamps"],
     cons: ["Some mounting kits assume a specific desk brand's frame", "Panel width has to match your exact desk, not just the model line"],
     bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
@@ -53,47 +53,47 @@ export const products: GuideProduct[] = [
     id: "best-perforated-metal-modesty-panels-3",
     rank: 3,
     badge: "Solid Alternative",
-    name: "Sauder Bergen Circle Engineered Wood & Metal Modesty Panel in Kiln Acacia Brown",
-    price: "$38.32",
+    name: "HJLKDYM Under Desk Privacy Panel",
+    price: "$89.90",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/21B4bH476lL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0BW49DLB8?tag=deskfinds0d-20",
-    description: "Sauder Bergen Circle Engineered Wood & Metal Modesty Panel in Kiln Acacia Brown is a strong alternative worth comparing directly against the top pick. Attaches to 72\" table desks 426297 and 426298. Meets bifma standard x5.5 for safety, durability, and structural performance.\n\nFinished on all sides for a complete look, a detail worth checking closely before choosing between this and OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields.\n\nIt's worth picking this one if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
-    specs: ["Engineered wood, metal", "Kiln acacia brown", "Attaches to 72\" table desks"],
-    pros: ["Engineered wood, metal", "Kiln acacia brown", "Attaches to 72\" table desks", "Meets bifma standard x5.5 for safety"],
+    imageUrl: "https://m.media-amazon.com/images/I/41oQSZfsCZL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GXVL2QPV?tag=deskfinds0d-20",
+    description: "HJLKDYM Under Desk Privacy Panel is a strong alternative worth comparing directly against the top pick. This steel under desk privacy panel fully blocks unwanted views while delivering a sleek, finished look. Crafted from high-quality, lightweight steel with a black finish, this desk modesty panel offers superior durability.\n\nThis under desk shield enables tool-friendly installation, which is the main thing that distinguishes this pick from ZJKXJH Desk Privacy Panel.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
+    specs: ["Full privacy & professional look", "Steel construction", "Solid steel surface conceals messy cables and under-desk clutter"],
+    pros: ["Full privacy & professional look", "Steel construction", "Solid steel surface conceals messy cables and under-desk clutter", "Secure mounting"],
     cons: ["Panel width has to match your exact desk, not just the model line", "Some mounting kits assume a specific desk brand's frame"],
     bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
   {
     id: "best-perforated-metal-modesty-panels-4",
     rank: 4,
-    badge: "Best Premium Pick",
-    name: "ZJKXJH Desk Privacy Panel",
-    price: "$204.03",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/41KndorRMIL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0HGY2D86C?tag=deskfinds0d-20",
-    description: "ZJKXJH Desk Privacy Panel is the premium option here, positioned above the rest on price. In addition to our standard options, we offer custom sizing tailored to your needs. Constructed from 2cm-thick dual-layer polyester fiberboard and finished with a wear-resistant fabric covering.\n\nIt is an tool for boosting productivity and minimizing external distractions, a detail worth checking closely before choosing between this and OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields.\n\nIt's worth picking this one if you are willing to spend the most in this comparison for the fuller feature set that comes with it. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
-    specs: ["In addition to our standard options", "Constructed from 2cm-thick dual-layer polyester fiberboard and finished with a wear-resistant fabric covering", "Is an tool for boosting productivity and minimizing external distractions"],
-    pros: ["In addition to our standard options", "Constructed from 2cm-thick dual-layer polyester fiberboard and finished with a wear-resistant fabric covering", "Is an tool for boosting productivity and minimizing external distractions", "Meets a variety of usage needs"],
-    cons: ["Some mounting kits assume a specific desk brand's frame", "Panel width has to match your exact desk, not just the model line"],
-    bestFor: "buyers who are willing to spend the most in this comparison for the fuller feature set that comes with it",
-  },
-  {
-    id: "best-perforated-metal-modesty-panels-5",
-    rank: 5,
-    badge: "Runner-Up Pick",
+    badge: "Another Strong Option",
     name: "Regency Fusion Modesty Panel for 60 in. Desk- Black",
     price: "$105.83",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51f8UJYPG6L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B06WRTKKD1?tag=deskfinds0d-20",
-    description: "Regency Fusion Modesty Panel for 60 in. Desk- Black is a strong alternative worth comparing directly against the top pick. Designed to attach seamlessly to a fusion 60-inch long desk or training table. Backed by a 10-year limited manufacturer's warranty.\n\nOBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nReach for this pick if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
+    description: "Regency Fusion Modesty Panel for 60 in. Desk- Black is a strong alternative worth comparing directly against the top pick. Brings stability, kneespace privacy and style to fusion desks and tables. Designed to attach seamlessly to a fusion 60-inch long desk or training table.\n\nWeighing this against ZJKXJH Desk Privacy Panel, constructed of a sturdy metal with a stylish black finish to match any decor ends up being the detail that matters most for most buyers.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
     specs: ["Brings stability, kneespace privacy and style to fusion desks and tables", "Designed to attach seamlessly to a fusion 60-inch long desk or training table", "Round perforations throughout the panel provide air circulation as well as a stylish look"],
     pros: ["Brings stability, kneespace privacy and style to fusion desks and tables", "Designed to attach seamlessly to a fusion 60-inch long desk or training table", "Round perforations throughout the panel provide air circulation as well as a stylish look", "Constructed of a sturdy metal with a stylish black finish to match any decor"],
+    cons: ["Some mounting kits assume a specific desk brand's frame", "Panel width has to match your exact desk, not just the model line"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-perforated-metal-modesty-panels-5",
+    rank: 5,
+    badge: "Runner-Up Pick",
+    name: "Lianart Perforated Metal Sheet",
+    price: "$99.79",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/61A+SxVfnKL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FGCSDQ3N?tag=deskfinds0d-20",
+    description: "Lianart Perforated Metal Sheet is a strong alternative worth comparing directly against the top pick. 0.6Mm thick solid black perforated metal sheet with anti-corrosion coating for indoor and outdoor dual-use. Flexible metal panel supports cutting, splicing, and bending to match your custom size demands.\n\nZJKXJH Desk Privacy Panel is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nIt's worth picking this one if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
+    specs: ["0.6Mm thick solid black perforated metal sheet with anti-corrosion coating for indoor and outdoor dual-use", "Multi-scene versatile panel", "Easy diy cut and install"],
+    pros: ["0.6Mm thick solid black perforated metal sheet with anti-corrosion coating for indoor and outdoor dual-use", "Multi-scene versatile panel", "Easy diy cut and install", "Modern aesthetic design"],
     cons: ["Panel width has to match your exact desk, not just the model line", "Some mounting kits assume a specific desk brand's frame"],
     bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
@@ -101,15 +101,15 @@ export const products: GuideProduct[] = [
     id: "best-perforated-metal-modesty-panels-6",
     rank: 6,
     badge: "Worth a Look",
-    name: "OBEX Table Mounted Modesty Panel Acrylic Desk Privacy Panel & Barrier",
-    price: "$116.00",
+    name: "Regency Fusion Modesty Panel for 66 in. Desk- Black",
+    price: "$104.98",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/31cCK060ipL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0DYL49DHB?tag=deskfinds0d-20",
-    description: "OBEX Table Mounted Modesty Panel Acrylic Desk Privacy Panel & Barrier is a strong alternative worth comparing directly against the top pick. Add some privacy and a barrier beneath your workspace with the obex modesty panel. Made with high-quality 1/4\" thick acrylic and anodized aluminum brackets, the modesty panel is constructed to fit any desk and not only provide privacy but also hide pesky chords and improve productivity.\n\nThe gap between this and OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields isn't in the essentials, it shows up in don't worry about a difficult setup with the privacy shields.\n\nGo with this pick if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
-    specs: ["Privacy modesty panel", "High quality", "Easy installation"],
-    pros: ["Privacy modesty panel", "High quality", "Easy installation", "Enhance privacy & productivity"],
+    imageUrl: "https://m.media-amazon.com/images/I/411MnnLIR8L._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B06WVDMWD7?tag=deskfinds0d-20",
+    description: "Regency Fusion Modesty Panel for 66 in. Desk- Black is a strong alternative worth comparing directly against the top pick. Designed to attach seamlessly to a fusion 66-inch long desk or training table. Backed by a 10-year limited manufacturer's warranty.\n\nZJKXJH Desk Privacy Panel is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nIt's worth picking this one if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
+    specs: ["Brings stability, kneespace privacy and style to fusion desks and tables", "Designed to attach seamlessly to a fusion 66-inch long desk or training table", "Round perforations throughout the panel provide air circulation as well as a stylish look"],
+    pros: ["Brings stability, kneespace privacy and style to fusion desks and tables", "Designed to attach seamlessly to a fusion 66-inch long desk or training table", "Round perforations throughout the panel provide air circulation as well as a stylish look", "Constructed of a sturdy metal with a stylish black finish to match any decor"],
     cons: ["Some mounting kits assume a specific desk brand's frame", "Panel width has to match your exact desk, not just the model line"],
     bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
@@ -117,33 +117,33 @@ export const products: GuideProduct[] = [
     id: "best-perforated-metal-modesty-panels-7",
     rank: 7,
     badge: "Great Alternative",
-    name: "3Pcs Lady Lace Wearable Mock Camisole Bra Insert Overlay Modesty Panel Vest.",
-    price: "$14.99",
+    name: "Tegeme 71\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt",
+    price: "$23.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/41rlCbWva5L._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0CPD226R5?tag=deskfinds0d-20",
-    description: "3Pcs Lady Lace Wearable Mock Camisole Bra Insert Overlay Modesty Panel Vest. is a strong alternative worth comparing directly against the top pick. Comes in an elegant lace trim design. High-quality material, the fabric is soft and comfortable, and the weight is almost not felt.\n\nHeld up against OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields, both cover the basics equally well, what actually separates them is a quick, simple and comfortable way to cover your cleavage when you need it.\n\nThis fits best if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
-    specs: ["Comes in an elegant lace trim design", "High-quality material, the fabric is soft and comfortable, and the weight is almost not felt", "Bra camisole mock"],
-    pros: ["Comes in an elegant lace trim design", "High-quality material, the fabric is soft and comfortable, and the weight is almost not felt", "Bra camisole mock", "Quick, simple and comfortable way to cover your cleavage when you need"],
+    imageUrl: "https://m.media-amazon.com/images/I/41ff7hcQQYL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0FY1FW4XY?tag=deskfinds0d-20",
+    description: "Tegeme 71\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt is a strong alternative worth comparing directly against the top pick.\n\nAgainst ZJKXJH Desk Privacy Panel, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nReach for this pick if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Panel width has to match your specific desk model, not just the general product line, since a modesty panel sized for one desk width can leave visible gaps or fail to mount on a differently sized desk.",
+    specs: ["All-in-one privacy cable organization", "No drilling, self-adhesive install", "Long-term use"],
+    pros: ["All-in-one privacy cable organization", "No drilling, self-adhesive install", "Long-term use", "Easy tidy hassle-free access"],
     cons: ["Panel width has to match your exact desk, not just the model line", "Some mounting kits assume a specific desk brand's frame"],
     bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
   {
     id: "best-perforated-metal-modesty-panels-8",
     rank: 8,
-    badge: "Also Worth Considering",
-    name: "Camicover 3Pcs Lace Cleavage Cover Modesty Panel Wearable Mock Camisole Bra",
-    price: "$16.99",
+    badge: "Best Value",
+    name: "Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt",
+    price: "$22.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/61phrM2cBrL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0GZNX7RW7?tag=deskfinds0d-20",
-    description: "Camicover 3Pcs Lace Cleavage Cover Modesty Panel Wearable Mock Camisole Bra is a strong alternative worth comparing directly against the top pick. This removable design of this modesty panel is designed to cover the clavicle area and cleverly cover the bra to protect the chest and upper back. This mock camisole cleavage cover can be used as a false collar decoration to add a sense of layering to your clothing, making you look dignified and decent in any occasion.\n\nSet next to OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields, the two land close enough on paper that it's worth comparing both listings directly on the spec that matters most for your setup.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
-    specs: ["Removable design", "Wide application", "One size fits"],
-    pros: ["Removable design", "Wide application", "One size fits", "High quality materials"],
+    imageUrl: "https://m.media-amazon.com/images/I/41AeNw1NJDL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0GWDCV4T1?tag=deskfinds0d-20",
+    description: "Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt is the best-value option in this roundup, priced lowest without a real capability gap.\n\nSet next to ZJKXJH Desk Privacy Panel, the two land close enough on paper that it's worth comparing both listings directly on the spec that matters most for your setup.\n\nGo with this pick if you want a genuinely capable pick without paying for headroom you won't use. Some mounting kits are designed around a specific desk brand's frame and bracket spacing, so a panel that isn't from the same brand as your desk may need separate hardware or may not mount cleanly at all.",
+    specs: ["All-in-one privacy cable organization", "No drilling, self-adhesive install", "Long-term use"],
+    pros: ["All-in-one privacy cable organization", "No drilling, self-adhesive install", "Long-term use", "Easy tidy hassle-free access"],
     cons: ["Some mounting kits assume a specific desk brand's frame", "Panel width has to match your exact desk, not just the model line"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+    bestFor: "buyers who want a genuinely capable pick without paying for headroom you won't use",
   }
 ];
 
@@ -189,15 +189,15 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Standard office desk",
-          "Regency Fusion Modesty Panel for 66 in. Desk- Black"
+          "Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt"
         ],
         [
           "Standing/height-adjustable desk",
-          "OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields"
+          "ZJKXJH Desk Privacy Panel"
         ],
         [
           "L-shaped desk",
-          "ZJKXJH Desk Privacy Panel"
+          "Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt"
         ]
       ]
     }
@@ -212,15 +212,15 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Lowest price in this lineup",
-          "Regency Fusion Modesty Panel for 66 in. Desk- Black"
+          "Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt"
         ],
         [
           "Mid-range pick",
-          "Sauder Bergen Circle Engineered Wood & Metal Modesty Panel in Kiln Acacia Brown"
+          "VIVO Dark Gray Clamp-on 60 x 24 in Privacy Panel"
         ],
         [
           "Higher budget",
-          "ZJKXJH Desk Privacy Panel"
+          "Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt"
         ]
       ]
     }
@@ -229,7 +229,7 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Laminate vs Perforated Metal",
     "cards": [
       {
-        "label": "Laminate (e.g. Regency Fusion Modesty Panel for 66 in. Desk- Black)",
+        "label": "Laminate (e.g. Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt)",
         "text": "Matches most standard desk finishes, adds real rigidity."
       },
       {
@@ -249,11 +249,11 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Privacy and rigidity only",
-          "OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields"
+          "ZJKXJH Desk Privacy Panel"
         ],
         [
           "Built-in cable management",
-          "Sauder Bergen Circle Engineered Wood & Metal Modesty Panel in Kiln Acacia Brown"
+          "VIVO Dark Gray Clamp-on 60 x 24 in Privacy Panel"
         ]
       ]
     }
@@ -267,7 +267,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "OBEX Polycarbonate Table Mounted Modesty Panel Easy Install Privacy Shields is worth checking against its specific spec sheet before assuming any pick here covers your exact need."
+        "text": "ZJKXJH Desk Privacy Panel is worth checking against its specific spec sheet before assuming any pick here covers your exact need."
       }
     ]
   },
@@ -276,11 +276,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need the strongest real-world performance and sturdiest build, where ZJKXJH Desk Privacy Panel justifies the extra cost."
+        "text": "You need the strongest real-world performance and sturdiest build, where Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt justifies the extra cost."
       },
       {
         "label": "Save if",
-        "text": "You want straightforward everyday use without paying for headroom you won't need, where Regency Fusion Modesty Panel for 66 in. Desk- Black already covers the job at the lowest price here."
+        "text": "You want straightforward everyday use without paying for headroom you won't need, where Tegeme 55\" Under Desk Privacy Panel Self Adhesive Desk Curtain Skirt already covers the job at the lowest price here."
       }
     ]
   }
@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-metal-modesty-panels","title":"Best Metal Modesty Panels in 2026"},{"href":"/guide/best-modesty-panels-with-cable-management","title":"Best Modesty Panels With Cable Management in 2026"},{"href":"/guide/best-modesty-panels-for-l-shaped-desks","title":"Best Modesty Panels for L-Shaped Desks in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-metal-modesty-panels","title":"Best Metal Modesty Panels in 2026"},{"href":"/guide/best-freestanding-modesty-panels","title":"Best Freestanding Modesty Panels in 2026"},{"href":"/guide/best-acoustic-modesty-panels","title":"Best Acoustic Modesty Panels in 2026"}];

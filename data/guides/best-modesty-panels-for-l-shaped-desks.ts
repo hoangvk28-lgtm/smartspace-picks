@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-modesty-panels-for-height-adjustable-desks","title":"Best Modesty Panels for Height-Adjustable Desks in 2026"},{"href":"/guide/best-modesty-panels-for-office-desks","title":"Best Modesty Panels for Office Desks in 2026"},{"href":"/guide/best-modesty-panels-for-standing-desks","title":"Best Modesty Panels for Standing Desks in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-modesty-panels","title":"Best Desk Modesty Panels in 2026"},{"href":"/guide/best-modesty-panels-for-height-adjustable-desks","title":"Best Modesty Panels for Height-Adjustable Desks in 2026"},{"href":"/guide/best-mesh-modesty-panels-for-desks","title":"Best Mesh Modesty Panels for Desks in 2026"},{"href":"/guide/best-acrylic-modesty-panels-for-desks","title":"Best Acrylic Modesty Panels for Desks in 2026"}];
