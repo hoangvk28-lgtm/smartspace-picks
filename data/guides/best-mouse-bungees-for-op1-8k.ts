@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mouse-bungees","title":"Best Mouse Bungees in 2026"},{"href":"/guide/best-rgb-mouse-bungees","title":"Best RGB Mouse Bungees in 2026"},{"href":"/guide/best-gaming-mouse-bungees","title":"Best Gaming Mouse Bungees in 2026"},{"href":"/guide/best-mouse-bungees-with-usb-hubs","title":"Best Mouse Bungees With USB Hubs in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mouse-bungees","title":"Best Mouse Bungees in 2026"},{"href":"/guide/best-rgb-mouse-bungees","title":"Best RGB Mouse Bungees in 2026"},{"href":"/guide/best-mouse-bungees-for-competitive-gaming","title":"Best Mouse Bungees for Competitive Gaming in 2026"},{"href":"/guide/best-gaming-mouse-bungees","title":"Best Gaming Mouse Bungees in 2026"}];
