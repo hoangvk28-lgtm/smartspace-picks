@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Smaller coffee warmers save real desk space but that compactness usually comes with a smaller base plate, which may not fully support a wide mug's bottom."
   },
   {
+    "title": "12V Car Warmers Need a Real Cigarette-Lighter Wattage Match",
+    "description": "Not every 12V coffee warmer is built the same, wattage matched to a car's cigarette-lighter outlet determines whether it heats effectively without tripping circuit protection, check the stated spec against your vehicle rather than assuming compatibility from the '12V' label alone.."
+  },
+  {
     "title": "Auto Shut-Off Prevents Both Wasted Power and Scorched Mugs",
     "description": "Auto shut-off isn't a universal feature on coffee warmers despite how basic it sounds, without it a forgotten mug stays heated for as long as it's plugged in, which can scorch drink residue onto the plate."
   },
   {
-    "title": "USB-Powered Warmers Trade Heating Strength for Desk Flexibility",
-    "description": "USB power is convenient for a desk setup with no free wall outlet nearby, but the lower wattage (typically 5-10W versus 15-25W+ for wall-powered models) means real heating strength is weaker, worth considering if you want your coffee kept genuinely hot rather than just held above room temperature.."
-  },
-  {
-    "title": "A Raised Lip or Non-Slip Surface Reduces Spill Risk",
-    "description": "A small but real safety detail, a raised lip or a non-slip textured surface on the warmer plate reduces the chance of a mug sliding off during an accidental bump, a flat, smooth plate provides no such buffer.."
+    "title": "Fixed Temperature vs Adjustable Control Changes Real Usability",
+    "description": "Not every coffee warmer lets you choose a temperature, fixed models hold one preset (often 130-140°F), while adjustable ones give real control over how hot your drink stays, worth checking the actual range if you have a specific preference rather than assuming any warmer works the same.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Smaller coffee warmers save real desk space but that compactness usually comes with a smaller base plate, which may not fully support a wide mug's bottom. Check the base diameter against your actual mug rather than assuming 'compact' scales down proportionally."
   },
   {
+    "criterion": "12V Car Warmers Need a Real Cigarette-Lighter Wattage Match",
+    "explanation": "Not every 12V coffee warmer is built the same, wattage matched to a car's cigarette-lighter outlet determines whether it heats effectively without tripping circuit protection, check the stated spec against your vehicle rather than assuming compatibility from the '12V' label alone."
+  },
+  {
     "criterion": "Auto Shut-Off Prevents Both Wasted Power and Scorched Mugs",
     "explanation": "Auto shut-off isn't a universal feature on coffee warmers despite how basic it sounds, without it a forgotten mug stays heated for as long as it's plugged in, which can scorch drink residue onto the plate. Check the listing specifically for a stated auto-off timer."
   },
   {
-    "criterion": "USB-Powered Warmers Trade Heating Strength for Desk Flexibility",
-    "explanation": "USB power is convenient for a desk setup with no free wall outlet nearby, but the lower wattage (typically 5-10W versus 15-25W+ for wall-powered models) means real heating strength is weaker, worth considering if you want your coffee kept genuinely hot rather than just held above room temperature."
-  },
-  {
-    "criterion": "A Raised Lip or Non-Slip Surface Reduces Spill Risk",
-    "explanation": "A small but real safety detail, a raised lip or a non-slip textured surface on the warmer plate reduces the chance of a mug sliding off during an accidental bump, a flat, smooth plate provides no such buffer."
+    "criterion": "Fixed Temperature vs Adjustable Control Changes Real Usability",
+    "explanation": "Not every coffee warmer lets you choose a temperature, fixed models hold one preset (often 130-140°F), while adjustable ones give real control over how hot your drink stays, worth checking the actual range if you have a specific preference rather than assuming any warmer works the same."
   }
 ];
 
@@ -287,21 +287,21 @@ export const faq = [
     "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
   },
   {
-    "q": "Are coffee warmers safe to leave on all day?",
-    "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
+    "q": "Will any coffee warmer work in my car's 12V outlet?",
+    "a": "Not necessarily, check the stated voltage and wattage against your vehicle's outlet rating, an underpowered warmer heats too slowly while an overpowered one can trip circuit protection."
+  },
+  {
+    "q": "Does a coffee warmer with a wireless charger work as well as two separate devices?",
+    "a": "Not always at full power, running both functions at once shares a power budget, check the listing for whether it specifies simultaneous full-power operation."
+  },
+  {
+    "q": "Does higher wattage mean a better coffee warmer?",
+    "a": "Not necessarily, without a working thermostat, a high-wattage unit can overshoot into scorching or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage spec."
   },
   {
     "q": "Does the warmer plate material matter?",
     "a": "Yes, cast aluminum or ceramic plates distribute heat more evenly than thin stamped metal, and ceramic surfaces generally wipe clean more easily after a spill."
-  },
-  {
-    "q": "Are coffee warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
-  },
-  {
-    "q": "Is a USB coffee warmer as strong as a plug-in one?",
-    "a": "Generally no, USB models typically run 5-10W versus 15-25W or more for wall-powered units, convenient for a desk with no outlet but weaker at heating a large or already-cold mug."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-office-desks","title":"Best Coffee Warmers for Office Desks in 2026"},{"href":"/guide/best-coffee-warmers-under-30","title":"Best Coffee Warmers Under $30 in 2026"},{"href":"/guide/best-rechargeable-coffee-warmers","title":"Best Rechargeable Coffee Warmers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-desks","title":"Best Coffee Warmers for Desks in 2026"},{"href":"/guide/best-usb-c-coffee-warmers","title":"Best USB-C Coffee Warmers in 2026"},{"href":"/guide/best-battery-operated-coffee-warmers","title":"Best Battery-Operated Coffee Warmers in 2026"}];

@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "A preset-temperature mug warmer holds one fixed setting (commonly around 130-140°F), simple but inflexible, while an adjustable model lets you dial in your preferred heat level, genuinely useful if you like your drink hotter than the typical preset or want a gentler setting for tea, check the stated range against your actual preference.."
   },
   {
+    "title": "Tall or Wide Insulated Tumblers Need a Warmer Base Sized to Match",
+    "description": "A double-walled steel tumbler (the kind marketed for keeping drinks cold for hours) is specifically built to resist heat transfer, meaning it generally will not warm effectively on any mug warmer regardless of base size, while a wider ceramic mug needs a base plate that actually spans its full bottom diameter, check both material and base size before assuming a warmer works with a specific cup.."
+  },
+  {
     "title": "USB Power Trades Heating Strength for Desk Flexibility",
     "description": "USB power offers real desk flexibility since it doesn't need a wall outlet, but the tradeoff is lower wattage (typically 5-10W versus 15-25W+ for plug-in models), meaning genuinely weaker heating power, worth weighing against how hot you actually want your drink kept.."
   },
   {
-    "title": "Wattage Needs a Working Thermostat to Mean Anything",
-    "description": "Raw wattage is only half the picture on a mug warmer, what actually determines consistent results is whether the unit pairs that wattage with real thermostat regulation, check for this detail specifically rather than assuming a higher number always performs better.."
-  },
-  {
-    "title": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
-    "description": "A mug warmer sold as part of a coaster or gift set includes extra pieces (a matching coaster, sometimes a mug), which adds real value if you'll actually use those extras, but if you only need the warming function, a standalone warmer at a lower price accomplishes the same core job without paying for accessories you won't use.."
+    "title": "Combo Wireless-Charger Warmers Split Power Between Two Jobs",
+    "description": "A mug warmer that doubles as a phone wireless charger shares its power draw between heating your drink and charging your phone, running both at once can mean weaker performance at each than a dedicated single-purpose device, check whether the listing specifies simultaneous full-power operation or a shared, reduced-power mode.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "A preset-temperature mug warmer holds one fixed setting (commonly around 130-140°F), simple but inflexible, while an adjustable model lets you dial in your preferred heat level, genuinely useful if you like your drink hotter than the typical preset or want a gentler setting for tea, check the stated range against your actual preference."
   },
   {
+    "criterion": "Tall or Wide Insulated Tumblers Need a Warmer Base Sized to Match",
+    "explanation": "A double-walled steel tumbler (the kind marketed for keeping drinks cold for hours) is specifically built to resist heat transfer, meaning it generally will not warm effectively on any mug warmer regardless of base size, while a wider ceramic mug needs a base plate that actually spans its full bottom diameter, check both material and base size before assuming a warmer works with a specific cup."
+  },
+  {
     "criterion": "USB Power Trades Heating Strength for Desk Flexibility",
     "explanation": "USB power offers real desk flexibility since it doesn't need a wall outlet, but the tradeoff is lower wattage (typically 5-10W versus 15-25W+ for plug-in models), meaning genuinely weaker heating power, worth weighing against how hot you actually want your drink kept."
   },
   {
-    "criterion": "Wattage Needs a Working Thermostat to Mean Anything",
-    "explanation": "Raw wattage is only half the picture on a mug warmer, what actually determines consistent results is whether the unit pairs that wattage with real thermostat regulation, check for this detail specifically rather than assuming a higher number always performs better."
-  },
-  {
-    "criterion": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
-    "explanation": "A mug warmer sold as part of a coaster or gift set includes extra pieces (a matching coaster, sometimes a mug), which adds real value if you'll actually use those extras, but if you only need the warming function, a standalone warmer at a lower price accomplishes the same core job without paying for accessories you won't use."
+    "criterion": "Combo Wireless-Charger Warmers Split Power Between Two Jobs",
+    "explanation": "A mug warmer that doubles as a phone wireless charger shares its power draw between heating your drink and charging your phone, running both at once can mean weaker performance at each than a dedicated single-purpose device, check whether the listing specifies simultaneous full-power operation or a shared, reduced-power mode."
   }
 ];
 
@@ -287,20 +287,20 @@ export const faq = [
     "a": "It depends on the model, preset warmers hold one fixed setting (often 130-140°F), while adjustable models let you dial in your preference, check the stated range against how hot you actually want your drink."
   },
   {
-    "q": "Are mug warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included extras like a matching coaster or mug, the core heating function is identical to a standalone warmer at a lower price."
-  },
-  {
-    "q": "How long do mug warmers usually last?",
-    "a": "It varies with build quality, thin plastic housings and weak heating elements can fail or heat unevenly within months, while sturdier builds with a real thermostat last longer, check reviews for longevity complaints."
-  },
-  {
     "q": "Is a USB mug warmer strong enough?",
     "a": "It's weaker than a wall-powered model, USB units typically run 5-10W versus 15-25W or more for plug-in versions, convenient for a desk without a free outlet but less effective at keeping a drink genuinely hot."
   },
   {
+    "q": "Will a gaming mug warmer fit my desk's cable setup?",
+    "a": "Check the cord length and connector type against your actual desk layout first, an RGB-lit warmer adds another cable to route alongside your other peripherals."
+  },
+  {
     "q": "Does a higher-wattage mug warmer work better?",
     "a": "Not necessarily, without a working thermostat a high-wattage unit can overheat a drink or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage number."
+  },
+  {
+    "q": "Will a mug warmer work with my insulated travel mug?",
+    "a": "Generally no, double-walled or vacuum-insulated mugs are specifically built to resist heat transfer, which defeats the warmer's purpose regardless of wattage or base size."
   }
 ];
 

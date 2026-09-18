@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-blue-light-glasses","title":"Best Blue Light Glasses in 2026"},{"href":"/guide/best-blue-light-glasses-for-kids","title":"Best Blue Light Glasses for Kids in 2026"},{"href":"/guide/best-round-blue-light-glasses","title":"Best Round Blue Light Glasses in 2026"},{"href":"/guide/best-cheap-blue-light-glasses","title":"Best Cheap Blue Light Glasses in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-blue-light-glasses","title":"Best Blue Light Glasses in 2026"},{"href":"/guide/best-blue-light-glasses-for-kids","title":"Best Blue Light Glasses for Kids in 2026"},{"href":"/guide/best-zero-magnification-blue-light-glasses","title":"Best Zero-Magnification Blue Light Glasses in 2026"},{"href":"/guide/best-blue-light-glasses-for-men","title":"Best Blue Light Glasses for Men in 2026"}];

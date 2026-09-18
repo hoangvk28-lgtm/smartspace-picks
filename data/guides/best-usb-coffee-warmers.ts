@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Two separate things affect whether a coffee warmer actually works with your mug, the base plate size relative to your mug's bottom diameter, and your mug's material, insulated or double-walled mugs are built to resist heat transfer and defeat the purpose of any warmer plate.."
   },
   {
-    "title": "Plate Material Affects Both Heat Evenness and Cleaning",
-    "description": "Plate material is a real spec that affects daily use, cast aluminum or ceramic spreads heat more evenly than thin stamped metal, and ceramic surfaces generally clean up spills more easily."
-  },
-  {
     "title": "Wattage Alone Doesn't Guarantee Consistent Warmth",
     "description": "A higher wattage number suggests stronger heating potential, but without a working thermostat to regulate it, a high-wattage warmer can overshoot into scorching territory or cycle unevenly, check for a stated thermostat or temperature-regulation feature alongside the raw wattage spec rather than judging by wattage alone.."
   },
   {
-    "title": "Compact Warmers Sacrifice Base Size for Desk Space Savings",
-    "description": "Smaller coffee warmers save real desk space but that compactness usually comes with a smaller base plate, which may not fully support a wide mug's bottom."
+    "title": "A Raised Lip or Non-Slip Surface Reduces Spill Risk",
+    "description": "A small but real safety detail, a raised lip or a non-slip textured surface on the warmer plate reduces the chance of a mug sliding off during an accidental bump, a flat, smooth plate provides no such buffer.."
+  },
+  {
+    "title": "Plate Material Affects Both Heat Evenness and Cleaning",
+    "description": "Plate material is a real spec that affects daily use, cast aluminum or ceramic spreads heat more evenly than thin stamped metal, and ceramic surfaces generally clean up spills more easily."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Two separate things affect whether a coffee warmer actually works with your mug, the base plate size relative to your mug's bottom diameter, and your mug's material, insulated or double-walled mugs are built to resist heat transfer and defeat the purpose of any warmer plate."
   },
   {
-    "criterion": "Plate Material Affects Both Heat Evenness and Cleaning",
-    "explanation": "Plate material is a real spec that affects daily use, cast aluminum or ceramic spreads heat more evenly than thin stamped metal, and ceramic surfaces generally clean up spills more easily. This detail is easy to miss in a listing focused mainly on wattage."
-  },
-  {
     "criterion": "Wattage Alone Doesn't Guarantee Consistent Warmth",
     "explanation": "A higher wattage number suggests stronger heating potential, but without a working thermostat to regulate it, a high-wattage warmer can overshoot into scorching territory or cycle unevenly, check for a stated thermostat or temperature-regulation feature alongside the raw wattage spec rather than judging by wattage alone."
   },
   {
-    "criterion": "Compact Warmers Sacrifice Base Size for Desk Space Savings",
-    "explanation": "Smaller coffee warmers save real desk space but that compactness usually comes with a smaller base plate, which may not fully support a wide mug's bottom. Check the base diameter against your actual mug rather than assuming 'compact' scales down proportionally."
+    "criterion": "A Raised Lip or Non-Slip Surface Reduces Spill Risk",
+    "explanation": "A small but real safety detail, a raised lip or a non-slip textured surface on the warmer plate reduces the chance of a mug sliding off during an accidental bump, a flat, smooth plate provides no such buffer."
+  },
+  {
+    "criterion": "Plate Material Affects Both Heat Evenness and Cleaning",
+    "explanation": "Plate material is a real spec that affects daily use, cast aluminum or ceramic spreads heat more evenly than thin stamped metal, and ceramic surfaces generally clean up spills more easily. This detail is easy to miss in a listing focused mainly on wattage."
   }
 ];
 
@@ -291,17 +291,17 @@ export const faq = [
     "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
   },
   {
-    "q": "Do coffee warmers turn off automatically?",
-    "a": "Not all of them, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
+    "q": "Can I control the temperature on a coffee warmer?",
+    "a": "It depends on the model, fixed-temperature warmers hold one preset (often 130-140°F), while adjustable models let you dial in a specific setting, check the stated range if you have a temperature preference."
   },
   {
-    "q": "Are coffee warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
+    "q": "Does a coffee warmer with a wireless charger work as well as two separate devices?",
+    "a": "Not always at full power, running both functions at once shares a power budget, check the listing for whether it specifies simultaneous full-power operation."
   },
   {
-    "q": "Do compact coffee warmers fit wide mugs?",
-    "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
+    "q": "Does higher wattage mean a better coffee warmer?",
+    "a": "Not necessarily, without a working thermostat, a high-wattage unit can overshoot into scorching or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage spec."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-rechargeable-coffee-warmers","title":"Best Rechargeable Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-with-auto-shut-off","title":"Best Coffee Warmers With Auto Shut-Off in 2026"},{"href":"/guide/best-ceramic-coffee-warmers","title":"Best Ceramic Coffee Warmers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-usb-c-coffee-warmers","title":"Best USB-C Coffee Warmers in 2026"},{"href":"/guide/best-portable-coffee-warmers","title":"Best Portable Coffee Warmers in 2026"},{"href":"/guide/best-temperature-control-coffee-warmers","title":"Best Temperature-Control Coffee Warmers in 2026"}];

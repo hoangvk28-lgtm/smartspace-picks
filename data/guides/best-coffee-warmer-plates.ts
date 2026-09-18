@@ -125,12 +125,12 @@ export const howWeEvaluated = [
     "description": "A coffee warmer plate with a raised lip or ridge around the edge helps prevent a mug from sliding off if the desk gets bumped, while a completely flat plate with no lip or non-slip texture offers less protection against an accidental knock, check for this detail specifically if the warmer will sit near the edge of a busy desk.."
   },
   {
-    "title": "Base Size and Mug Material Both Affect Real Heating Performance",
-    "description": "Two separate things affect whether a coffee warmer actually works with your mug, the base plate size relative to your mug's bottom diameter, and your mug's material, insulated or double-walled mugs are built to resist heat transfer and defeat the purpose of any warmer plate.."
-  },
-  {
     "title": "USB-Powered Warmers Trade Heating Strength for Desk Flexibility",
     "description": "A USB-powered coffee warmer (typically 5-10W) runs cooler and gentler than a wall-outlet model (often 15-25W or more), genuinely convenient for plugging into a laptop or power bank at a desk, but it may not maintain as high a temperature for a large or already-cold mug, check the actual wattage if you want noticeably hot coffee maintained rather than just lukewarm.."
+  },
+  {
+    "title": "Wattage Alone Doesn't Guarantee Consistent Warmth",
+    "description": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance.."
   },
   {
     "title": "Bundled Sets Add Value Only If You'll Use the Extra Pieces",
@@ -264,12 +264,12 @@ export const buyingCriteria = [
     "explanation": "A coffee warmer plate with a raised lip or ridge around the edge helps prevent a mug from sliding off if the desk gets bumped, while a completely flat plate with no lip or non-slip texture offers less protection against an accidental knock, check for this detail specifically if the warmer will sit near the edge of a busy desk."
   },
   {
-    "criterion": "Base Size and Mug Material Both Affect Real Heating Performance",
-    "explanation": "Two separate things affect whether a coffee warmer actually works with your mug, the base plate size relative to your mug's bottom diameter, and your mug's material, insulated or double-walled mugs are built to resist heat transfer and defeat the purpose of any warmer plate."
-  },
-  {
     "criterion": "USB-Powered Warmers Trade Heating Strength for Desk Flexibility",
     "explanation": "A USB-powered coffee warmer (typically 5-10W) runs cooler and gentler than a wall-outlet model (often 15-25W or more), genuinely convenient for plugging into a laptop or power bank at a desk, but it may not maintain as high a temperature for a large or already-cold mug, check the actual wattage if you want noticeably hot coffee maintained rather than just lukewarm."
+  },
+  {
+    "criterion": "Wattage Alone Doesn't Guarantee Consistent Warmth",
+    "explanation": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance."
   },
   {
     "criterion": "Bundled Sets Add Value Only If You'll Use the Extra Pieces",
@@ -287,16 +287,16 @@ export const faq = [
     "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
   },
   {
-    "q": "Is a USB coffee warmer as strong as a plug-in one?",
-    "a": "Generally no, USB models typically run 5-10W versus 15-25W or more for wall-powered units, convenient for a desk with no outlet but weaker at heating a large or already-cold mug."
+    "q": "Does a coffee warmer with a wireless charger work as well as two separate devices?",
+    "a": "Not always at full power, running both functions at once shares a power budget, check the listing for whether it specifies simultaneous full-power operation."
   },
   {
-    "q": "Does higher wattage mean a better coffee warmer?",
-    "a": "Not necessarily, without a working thermostat, a high-wattage unit can overshoot into scorching or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage spec."
+    "q": "Are coffee warmer gift sets worth the extra cost?",
+    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
   },
   {
-    "q": "Do compact coffee warmers fit wide mugs?",
-    "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
+    "q": "Will any coffee warmer work in my car's 12V outlet?",
+    "a": "Not necessarily, check the stated voltage and wattage against your vehicle's outlet rating, an underpowered warmer heats too slowly while an overpowered one can trip circuit protection."
   },
   {
     "q": "Can I control the temperature on a coffee warmer?",
@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmer-and-mug-sets","title":"Best Coffee Warmer and Mug Sets in 2026"},{"href":"/guide/best-smart-coffee-warmers","title":"Best Smart Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-under-30","title":"Best Coffee Warmers Under $30 in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmer-and-mug-sets","title":"Best Coffee Warmer and Mug Sets in 2026"},{"href":"/guide/best-smart-coffee-warmers","title":"Best Smart Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-desks","title":"Best Coffee Warmers for Desks in 2026"}];

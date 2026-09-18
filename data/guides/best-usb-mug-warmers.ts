@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Two separate factors decide whether a mug warmer actually works, base size relative to your mug's diameter, and whether your mug is double-walled or vacuum-insulated, which resists heat transfer by design and defeats the warmer's purpose no matter how powerful it is.."
   },
   {
-    "title": "Build Quality Determines Whether It Survives Daily Desk Use",
-    "description": "A mug warmer with a thin plastic housing or a weak internal heating element can fail or start heating unevenly within months of daily use, while a sturdier build with a proper internal thermostat tends to hold up longer, check buyer reviews specifically for complaints about the unit dying or losing heat consistency after a few months.."
+    "title": "Tall or Wide Insulated Tumblers Need a Warmer Base Sized to Match",
+    "description": "A double-walled steel tumbler (the kind marketed for keeping drinks cold for hours) is specifically built to resist heat transfer, meaning it generally will not warm effectively on any mug warmer regardless of base size, while a wider ceramic mug needs a base plate that actually spans its full bottom diameter, check both material and base size before assuming a warmer works with a specific cup.."
   },
   {
     "title": "Preset vs Adjustable Temperature Affects How Hot Your Drink Actually Gets",
     "description": "A preset-temperature mug warmer holds one fixed setting (commonly around 130-140°F), simple but inflexible, while an adjustable model lets you dial in your preferred heat level, genuinely useful if you like your drink hotter than the typical preset or want a gentler setting for tea, check the stated range against your actual preference.."
   },
   {
-    "title": "LED Temperature Displays Add Real Feedback Over Guesswork",
-    "description": "A mug warmer with an LED display showing the actual set or current temperature gives you real feedback on what heat level you're getting, versus a warmer with no display where you're guessing based on a single unmarked dial, a genuinely useful feature if you want a specific, repeatable temperature each time.."
+    "title": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
+    "description": "A mug warmer sold as part of a coaster or gift set includes extra pieces (a matching coaster, sometimes a mug), which adds real value if you'll actually use those extras, but if you only need the warming function, a standalone warmer at a lower price accomplishes the same core job without paying for accessories you won't use.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Two separate factors decide whether a mug warmer actually works, base size relative to your mug's diameter, and whether your mug is double-walled or vacuum-insulated, which resists heat transfer by design and defeats the warmer's purpose no matter how powerful it is."
   },
   {
-    "criterion": "Build Quality Determines Whether It Survives Daily Desk Use",
-    "explanation": "A mug warmer with a thin plastic housing or a weak internal heating element can fail or start heating unevenly within months of daily use, while a sturdier build with a proper internal thermostat tends to hold up longer, check buyer reviews specifically for complaints about the unit dying or losing heat consistency after a few months."
+    "criterion": "Tall or Wide Insulated Tumblers Need a Warmer Base Sized to Match",
+    "explanation": "A double-walled steel tumbler (the kind marketed for keeping drinks cold for hours) is specifically built to resist heat transfer, meaning it generally will not warm effectively on any mug warmer regardless of base size, while a wider ceramic mug needs a base plate that actually spans its full bottom diameter, check both material and base size before assuming a warmer works with a specific cup."
   },
   {
     "criterion": "Preset vs Adjustable Temperature Affects How Hot Your Drink Actually Gets",
     "explanation": "A preset-temperature mug warmer holds one fixed setting (commonly around 130-140°F), simple but inflexible, while an adjustable model lets you dial in your preferred heat level, genuinely useful if you like your drink hotter than the typical preset or want a gentler setting for tea, check the stated range against your actual preference."
   },
   {
-    "criterion": "LED Temperature Displays Add Real Feedback Over Guesswork",
-    "explanation": "A mug warmer with an LED display showing the actual set or current temperature gives you real feedback on what heat level you're getting, versus a warmer with no display where you're guessing based on a single unmarked dial, a genuinely useful feature if you want a specific, repeatable temperature each time."
+    "criterion": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
+    "explanation": "A mug warmer sold as part of a coaster or gift set includes extra pieces (a matching coaster, sometimes a mug), which adds real value if you'll actually use those extras, but if you only need the warming function, a standalone warmer at a lower price accomplishes the same core job without paying for accessories you won't use."
   }
 ];
 
@@ -287,21 +287,21 @@ export const faq = [
     "a": "Generally no, double-walled or vacuum-insulated mugs are specifically built to resist heat transfer, which defeats the warmer's purpose regardless of wattage or base size."
   },
   {
-    "q": "Is an LED display worth it on a mug warmer?",
-    "a": "Yes if you want consistent, repeatable results, it shows the actual set or current temperature instead of an unmarked dial you're guessing at each time."
-  },
-  {
-    "q": "Does a higher-wattage mug warmer work better?",
-    "a": "Not necessarily, without a working thermostat a high-wattage unit can overheat a drink or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage number."
-  },
-  {
-    "q": "Do mug warmers turn off automatically?",
-    "a": "Not always, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
+    "q": "Are mug warmer gift sets worth the extra cost?",
+    "a": "Only if you'll actually use the included extras like a matching coaster or mug, the core heating function is identical to a standalone warmer at a lower price."
   },
   {
     "q": "Does RGB lighting make a mug warmer heat better?",
     "a": "No, RGB is purely cosmetic and has no effect on actual heating, which depends on wattage, base size, and thermostat quality, pay extra for it only if the look matters to you."
+  },
+  {
+    "q": "Does a mug warmer with a wireless charger work as well as two separate devices?",
+    "a": "Not always at full power, running both functions at once shares a power budget, check the listing for whether it specifies simultaneous full-power operation or a reduced-power shared mode."
+  },
+  {
+    "q": "How long do mug warmers usually last?",
+    "a": "It varies with build quality, thin plastic housings and weak heating elements can fail or heat unevenly within months, while sturdier builds with a real thermostat last longer, check reviews for longevity complaints."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mug-warmers","title":"Best Mug Warmers in 2026"},{"href":"/guide/best-large-mug-warmers","title":"Best Large Mug Warmers in 2026"},{"href":"/guide/best-mug-warmers-under-30","title":"Best Mug Warmers Under $30 in 2026"},{"href":"/guide/best-mug-warmers-that-auto-shut-off","title":"Best Mug Warmers That Auto Shut Off in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mug-warmers","title":"Best Mug Warmers in 2026"},{"href":"/guide/best-usb-c-mug-warmers","title":"Best USB-C Mug Warmers in 2026"},{"href":"/guide/best-large-mug-warmers","title":"Best Large Mug Warmers in 2026"},{"href":"/guide/best-mug-warmers-under-30","title":"Best Mug Warmers Under $30 in 2026"}];

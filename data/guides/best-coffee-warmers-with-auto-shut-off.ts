@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "A coffee warmer plate with a raised lip or ridge around the edge helps prevent a mug from sliding off if the desk gets bumped, while a completely flat plate with no lip or non-slip texture offers less protection against an accidental knock, check for this detail specifically if the warmer will sit near the edge of a busy desk.."
   },
   {
-    "title": "Bundled Sets Add Value Only If You'll Use the Extra Pieces",
-    "description": "A coffee warmer sold as part of a mug or gift set includes extra pieces that add real value if you'll actually use them, but if you only need the warming function itself, a standalone warmer at a lower price accomplishes the same core job without paying for accessories you won't use.."
+    "title": "Plate Material Affects Both Heat Evenness and Cleaning",
+    "description": "A coffee warmer plate made from cast aluminum or ceramic tends to distribute heat more evenly across the surface than a thin stamped-metal plate, which can create hot spots, ceramic plates also tend to wipe clean more easily after a spill than a textured metal surface, check the stated plate material if even heating and easy cleanup matter to you.."
+  },
+  {
+    "title": "Compact Warmers Sacrifice Base Size for Desk Space Savings",
+    "description": "Smaller coffee warmers save real desk space but that compactness usually comes with a smaller base plate, which may not fully support a wide mug's bottom."
   },
   {
     "title": "Wattage Alone Doesn't Guarantee Consistent Warmth",
     "description": "A higher wattage number suggests stronger heating potential, but without a working thermostat to regulate it, a high-wattage warmer can overshoot into scorching territory or cycle unevenly, check for a stated thermostat or temperature-regulation feature alongside the raw wattage spec rather than judging by wattage alone.."
-  },
-  {
-    "title": "Plate Material Affects Both Heat Evenness and Cleaning",
-    "description": "A coffee warmer plate made from cast aluminum or ceramic tends to distribute heat more evenly across the surface than a thin stamped-metal plate, which can create hot spots, ceramic plates also tend to wipe clean more easily after a spill than a textured metal surface, check the stated plate material if even heating and easy cleanup matter to you.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "A coffee warmer plate with a raised lip or ridge around the edge helps prevent a mug from sliding off if the desk gets bumped, while a completely flat plate with no lip or non-slip texture offers less protection against an accidental knock, check for this detail specifically if the warmer will sit near the edge of a busy desk."
   },
   {
-    "criterion": "Bundled Sets Add Value Only If You'll Use the Extra Pieces",
-    "explanation": "A coffee warmer sold as part of a mug or gift set includes extra pieces that add real value if you'll actually use them, but if you only need the warming function itself, a standalone warmer at a lower price accomplishes the same core job without paying for accessories you won't use."
+    "criterion": "Plate Material Affects Both Heat Evenness and Cleaning",
+    "explanation": "A coffee warmer plate made from cast aluminum or ceramic tends to distribute heat more evenly across the surface than a thin stamped-metal plate, which can create hot spots, ceramic plates also tend to wipe clean more easily after a spill than a textured metal surface, check the stated plate material if even heating and easy cleanup matter to you."
+  },
+  {
+    "criterion": "Compact Warmers Sacrifice Base Size for Desk Space Savings",
+    "explanation": "Smaller coffee warmers save real desk space but that compactness usually comes with a smaller base plate, which may not fully support a wide mug's bottom. Check the base diameter against your actual mug rather than assuming 'compact' scales down proportionally."
   },
   {
     "criterion": "Wattage Alone Doesn't Guarantee Consistent Warmth",
     "explanation": "A higher wattage number suggests stronger heating potential, but without a working thermostat to regulate it, a high-wattage warmer can overshoot into scorching territory or cycle unevenly, check for a stated thermostat or temperature-regulation feature alongside the raw wattage spec rather than judging by wattage alone."
-  },
-  {
-    "criterion": "Plate Material Affects Both Heat Evenness and Cleaning",
-    "explanation": "A coffee warmer plate made from cast aluminum or ceramic tends to distribute heat more evenly across the surface than a thin stamped-metal plate, which can create hot spots, ceramic plates also tend to wipe clean more easily after a spill than a textured metal surface, check the stated plate material if even heating and easy cleanup matter to you."
   }
 ];
 
@@ -287,21 +287,21 @@ export const faq = [
     "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
   },
   {
-    "q": "Does the warmer plate material matter?",
-    "a": "Yes, cast aluminum or ceramic plates distribute heat more evenly than thin stamped metal, and ceramic surfaces generally wipe clean more easily after a spill."
-  },
-  {
-    "q": "Are coffee warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
-  },
-  {
     "q": "Can I control the temperature on a coffee warmer?",
     "a": "It depends on the model, fixed-temperature warmers hold one preset (often 130-140°F), while adjustable models let you dial in a specific setting, check the stated range if you have a temperature preference."
   },
   {
-    "q": "Do compact coffee warmers fit wide mugs?",
-    "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
+    "q": "Does a coffee warmer with a wireless charger work as well as two separate devices?",
+    "a": "Not always at full power, running both functions at once shares a power budget, check the listing for whether it specifies simultaneous full-power operation."
+  },
+  {
+    "q": "Will any coffee warmer work in my car's 12V outlet?",
+    "a": "Not necessarily, check the stated voltage and wattage against your vehicle's outlet rating, an underpowered warmer heats too slowly while an overpowered one can trip circuit protection."
+  },
+  {
+    "q": "Is a USB coffee warmer as strong as a plug-in one?",
+    "a": "Generally no, USB models typically run 5-10W versus 15-25W or more for wall-powered units, convenient for a desk with no outlet but weaker at heating a large or already-cold mug."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-office-desks","title":"Best Coffee Warmers for Office Desks in 2026"},{"href":"/guide/best-usb-coffee-warmers","title":"Best USB Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-under-30","title":"Best Coffee Warmers Under $30 in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-office-desks","title":"Best Coffee Warmers for Office Desks in 2026"},{"href":"/guide/best-coffee-warmers-for-offices","title":"Best Coffee Warmers for Offices in 2026"},{"href":"/guide/best-usb-coffee-warmers","title":"Best USB Coffee Warmers in 2026"}];

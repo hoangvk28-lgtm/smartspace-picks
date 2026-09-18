@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "A coffee warmer's base plate size needs to actually match your mug's bottom diameter, a too-small base heats only part of a wide mug's bottom unevenly, and mug material matters too, ceramic and glass conduct heat well from a warmer plate, while some double-walled or insulated mugs are specifically designed to resist heat transfer and won't warm effectively on any plate.."
   },
   {
+    "title": "Combo Wireless-Charger Coffee Warmers Split Power Between Two Jobs",
+    "description": "Combining a wireless phone charger with a coffee warmer in one device is convenient but the shared power budget means running both simultaneously can underperform two dedicated devices, check the specs for whether full power is maintained on both functions at once.."
+  },
+  {
     "title": "Auto Shut-Off Prevents Both Wasted Power and Scorched Mugs",
     "description": "A coffee warmer without an auto shut-off timer stays on indefinitely if you forget about it, which can scorch the bottom of a mug or waste power for hours, an auto shut-off (commonly after 2-4 hours) is a genuine safety and convenience feature worth checking for by name rather than assuming any warmer includes it.."
   },
   {
-    "title": "Build Quality Affects Whether the Warmer Lasts Beyond a Year",
-    "description": "Daily use over months is where cheap coffee warmer construction shows its limits, a thin plastic housing or weak internal element can fail or heat unevenly, while sturdier metal-bodied units with a real thermostat last longer."
-  },
-  {
-    "title": "Wattage Alone Doesn't Guarantee Consistent Warmth",
-    "description": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance.."
+    "title": "12V Car Warmers Need a Real Cigarette-Lighter Wattage Match",
+    "description": "Not every 12V coffee warmer is built the same, wattage matched to a car's cigarette-lighter outlet determines whether it heats effectively without tripping circuit protection, check the stated spec against your vehicle rather than assuming compatibility from the '12V' label alone.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "A coffee warmer's base plate size needs to actually match your mug's bottom diameter, a too-small base heats only part of a wide mug's bottom unevenly, and mug material matters too, ceramic and glass conduct heat well from a warmer plate, while some double-walled or insulated mugs are specifically designed to resist heat transfer and won't warm effectively on any plate."
   },
   {
+    "criterion": "Combo Wireless-Charger Coffee Warmers Split Power Between Two Jobs",
+    "explanation": "Combining a wireless phone charger with a coffee warmer in one device is convenient but the shared power budget means running both simultaneously can underperform two dedicated devices, check the specs for whether full power is maintained on both functions at once."
+  },
+  {
     "criterion": "Auto Shut-Off Prevents Both Wasted Power and Scorched Mugs",
     "explanation": "A coffee warmer without an auto shut-off timer stays on indefinitely if you forget about it, which can scorch the bottom of a mug or waste power for hours, an auto shut-off (commonly after 2-4 hours) is a genuine safety and convenience feature worth checking for by name rather than assuming any warmer includes it."
   },
   {
-    "criterion": "Build Quality Affects Whether the Warmer Lasts Beyond a Year",
-    "explanation": "Daily use over months is where cheap coffee warmer construction shows its limits, a thin plastic housing or weak internal element can fail or heat unevenly, while sturdier metal-bodied units with a real thermostat last longer. Reviews mentioning longevity are more reliable than the listing's build claims."
-  },
-  {
-    "criterion": "Wattage Alone Doesn't Guarantee Consistent Warmth",
-    "explanation": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance."
+    "criterion": "12V Car Warmers Need a Real Cigarette-Lighter Wattage Match",
+    "explanation": "Not every 12V coffee warmer is built the same, wattage matched to a car's cigarette-lighter outlet determines whether it heats effectively without tripping circuit protection, check the stated spec against your vehicle rather than assuming compatibility from the '12V' label alone."
   }
 ];
 
@@ -287,16 +287,16 @@ export const faq = [
     "a": "No, the base plate size needs to roughly match your mug's bottom diameter, and insulated or double-walled mugs are specifically designed to resist heat transfer, which defeats the warmer's purpose."
   },
   {
-    "q": "Are coffee warmers safe to leave on all day?",
-    "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
-  },
-  {
     "q": "Does higher wattage mean a better coffee warmer?",
     "a": "Not necessarily, without a working thermostat, a high-wattage unit can overshoot into scorching or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage spec."
   },
   {
-    "q": "Can I control the temperature on a coffee warmer?",
-    "a": "It depends on the model, fixed-temperature warmers hold one preset (often 130-140°F), while adjustable models let you dial in a specific setting, check the stated range if you have a temperature preference."
+    "q": "Are coffee warmer gift sets worth the extra cost?",
+    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
+  },
+  {
+    "q": "Do compact coffee warmers fit wide mugs?",
+    "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
   },
   {
     "q": "Is a USB coffee warmer as strong as a plug-in one?",

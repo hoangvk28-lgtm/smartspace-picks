@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Without an auto shut-off timer, a mug warmer stays powered on indefinitely once plugged in, which can scorch drink residue onto the plate if a mug is left too long, or simply waste power overnight, check specifically for a stated auto-off timer (commonly 2-4 hours) rather than assuming it's standard.."
   },
   {
-    "title": "RGB-Lit Mug Warmers Add Cost Without Improving Heating",
-    "description": "RGB lighting on a mug warmer is a cosmetic addition aimed at gaming setups, it has no effect on actual heating performance, which depends entirely on wattage, base size, and temperature control, judge the functional specs independent of the lighting.."
-  },
-  {
-    "title": "Gaming-Desk Mug Warmers Should Match Your Setup's Actual Power Routing",
-    "description": "A mug warmer marketed for a gaming desk with RGB lighting adds another cable and often another USB port to an already crowded setup, check the actual cord length and USB connection type against your specific desk's port layout before assuming it slots in cleanly alongside your other peripherals.."
+    "title": "Tall or Wide Insulated Tumblers Need a Warmer Base Sized to Match",
+    "description": "Wide-bottomed mugs and insulated steel tumblers create two different compatibility problems for a mug warmer, the tumbler resists heat transfer by design regardless of base size, while a wide ceramic mug simply needs a large enough base plate to make contact, check which issue applies to your actual cup before buying.."
   },
   {
     "title": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
     "description": "Whether a coaster-set bundle is worth it depends entirely on whether you'll use the extra pieces, the core heating function is no different from a standalone warmer, so don't pay a bundle premium unless the included coaster or mug genuinely adds value for you.."
+  },
+  {
+    "title": "Base Size and Mug Insulation Both Determine Real Heating Success",
+    "description": "A mug warmer's base needs to actually match your mug's bottom diameter for even heating, and mug material matters just as much, double-walled or vacuum-insulated mugs are specifically built to resist heat transfer, meaning they won't warm effectively on any mug warmer regardless of wattage, check both specs before assuming any warmer works with any mug.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Without an auto shut-off timer, a mug warmer stays powered on indefinitely once plugged in, which can scorch drink residue onto the plate if a mug is left too long, or simply waste power overnight, check specifically for a stated auto-off timer (commonly 2-4 hours) rather than assuming it's standard."
   },
   {
-    "criterion": "RGB-Lit Mug Warmers Add Cost Without Improving Heating",
-    "explanation": "RGB lighting on a mug warmer is a cosmetic addition aimed at gaming setups, it has no effect on actual heating performance, which depends entirely on wattage, base size, and temperature control, judge the functional specs independent of the lighting."
-  },
-  {
-    "criterion": "Gaming-Desk Mug Warmers Should Match Your Setup's Actual Power Routing",
-    "explanation": "A mug warmer marketed for a gaming desk with RGB lighting adds another cable and often another USB port to an already crowded setup, check the actual cord length and USB connection type against your specific desk's port layout before assuming it slots in cleanly alongside your other peripherals."
+    "criterion": "Tall or Wide Insulated Tumblers Need a Warmer Base Sized to Match",
+    "explanation": "Wide-bottomed mugs and insulated steel tumblers create two different compatibility problems for a mug warmer, the tumbler resists heat transfer by design regardless of base size, while a wide ceramic mug simply needs a large enough base plate to make contact, check which issue applies to your actual cup before buying."
   },
   {
     "criterion": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
     "explanation": "Whether a coaster-set bundle is worth it depends entirely on whether you'll use the extra pieces, the core heating function is no different from a standalone warmer, so don't pay a bundle premium unless the included coaster or mug genuinely adds value for you."
+  },
+  {
+    "criterion": "Base Size and Mug Insulation Both Determine Real Heating Success",
+    "explanation": "A mug warmer's base needs to actually match your mug's bottom diameter for even heating, and mug material matters just as much, double-walled or vacuum-insulated mugs are specifically built to resist heat transfer, meaning they won't warm effectively on any mug warmer regardless of wattage, check both specs before assuming any warmer works with any mug."
   }
 ];
 
@@ -287,20 +287,20 @@ export const faq = [
     "a": "Not always, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
   },
   {
-    "q": "Are mug warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included extras like a matching coaster or mug, the core heating function is identical to a standalone warmer at a lower price."
-  },
-  {
     "q": "How long do mug warmers usually last?",
     "a": "It varies with build quality, thin plastic housings and weak heating elements can fail or heat unevenly within months, while sturdier builds with a real thermostat last longer, check reviews for longevity complaints."
   },
   {
-    "q": "Is a USB mug warmer strong enough?",
-    "a": "It's weaker than a wall-powered model, USB units typically run 5-10W versus 15-25W or more for plug-in versions, convenient for a desk without a free outlet but less effective at keeping a drink genuinely hot."
-  },
-  {
     "q": "Does RGB lighting make a mug warmer heat better?",
     "a": "No, RGB is purely cosmetic and has no effect on actual heating, which depends on wattage, base size, and thermostat quality, pay extra for it only if the look matters to you."
+  },
+  {
+    "q": "Will a gaming mug warmer fit my desk's cable setup?",
+    "a": "Check the cord length and connector type against your actual desk layout first, an RGB-lit warmer adds another cable to route alongside your other peripherals."
+  },
+  {
+    "q": "Is a USB mug warmer strong enough?",
+    "a": "It's weaker than a wall-powered model, USB units typically run 5-10W versus 15-25W or more for plug-in versions, convenient for a desk without a free outlet but less effective at keeping a drink genuinely hot."
   }
 ];
 

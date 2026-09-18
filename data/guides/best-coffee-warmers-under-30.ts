@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Auto shut-off isn't a universal feature on coffee warmers despite how basic it sounds, without it a forgotten mug stays heated for as long as it's plugged in, which can scorch drink residue onto the plate."
   },
   {
-    "title": "Wattage Alone Doesn't Guarantee Consistent Warmth",
-    "description": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance.."
-  },
-  {
-    "title": "Plate Material Affects Both Heat Evenness and Cleaning",
-    "description": "A coffee warmer plate made from cast aluminum or ceramic tends to distribute heat more evenly across the surface than a thin stamped-metal plate, which can create hot spots, ceramic plates also tend to wipe clean more easily after a spill than a textured metal surface, check the stated plate material if even heating and easy cleanup matter to you.."
-  },
-  {
     "title": "A Raised Lip or Non-Slip Surface Reduces Spill Risk",
     "description": "A small but real safety detail, a raised lip or a non-slip textured surface on the warmer plate reduces the chance of a mug sliding off during an accidental bump, a flat, smooth plate provides no such buffer.."
+  },
+  {
+    "title": "Fixed Temperature vs Adjustable Control Changes Real Usability",
+    "description": "Not every coffee warmer lets you choose a temperature, fixed models hold one preset (often 130-140°F), while adjustable ones give real control over how hot your drink stays, worth checking the actual range if you have a specific preference rather than assuming any warmer works the same.."
+  },
+  {
+    "title": "12V Car Warmers Need a Real Cigarette-Lighter Wattage Match",
+    "description": "A coffee warmer designed for a car's 12V outlet needs its wattage to actually match what that outlet can sustain, an underpowered car warmer heats too slowly while an overpowered one can trip a vehicle's circuit protection, check the stated voltage and wattage against your specific vehicle's outlet rating rather than assuming any 12V warmer works the same.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Auto shut-off isn't a universal feature on coffee warmers despite how basic it sounds, without it a forgotten mug stays heated for as long as it's plugged in, which can scorch drink residue onto the plate. Check the listing specifically for a stated auto-off timer."
   },
   {
-    "criterion": "Wattage Alone Doesn't Guarantee Consistent Warmth",
-    "explanation": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance."
-  },
-  {
-    "criterion": "Plate Material Affects Both Heat Evenness and Cleaning",
-    "explanation": "A coffee warmer plate made from cast aluminum or ceramic tends to distribute heat more evenly across the surface than a thin stamped-metal plate, which can create hot spots, ceramic plates also tend to wipe clean more easily after a spill than a textured metal surface, check the stated plate material if even heating and easy cleanup matter to you."
-  },
-  {
     "criterion": "A Raised Lip or Non-Slip Surface Reduces Spill Risk",
     "explanation": "A small but real safety detail, a raised lip or a non-slip textured surface on the warmer plate reduces the chance of a mug sliding off during an accidental bump, a flat, smooth plate provides no such buffer."
+  },
+  {
+    "criterion": "Fixed Temperature vs Adjustable Control Changes Real Usability",
+    "explanation": "Not every coffee warmer lets you choose a temperature, fixed models hold one preset (often 130-140°F), while adjustable ones give real control over how hot your drink stays, worth checking the actual range if you have a specific preference rather than assuming any warmer works the same."
+  },
+  {
+    "criterion": "12V Car Warmers Need a Real Cigarette-Lighter Wattage Match",
+    "explanation": "A coffee warmer designed for a car's 12V outlet needs its wattage to actually match what that outlet can sustain, an underpowered car warmer heats too slowly while an overpowered one can trip a vehicle's circuit protection, check the stated voltage and wattage against your specific vehicle's outlet rating rather than assuming any 12V warmer works the same."
   }
 ];
 
@@ -283,24 +283,24 @@ export const faq = [
     "a": "Not all of them, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
   },
   {
+    "q": "Can I control the temperature on a coffee warmer?",
+    "a": "It depends on the model, fixed-temperature warmers hold one preset (often 130-140°F), while adjustable models let you dial in a specific setting, check the stated range if you have a temperature preference."
+  },
+  {
+    "q": "Do compact coffee warmers fit wide mugs?",
+    "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
+  },
+  {
+    "q": "Does higher wattage mean a better coffee warmer?",
+    "a": "Not necessarily, without a working thermostat, a high-wattage unit can overshoot into scorching or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage spec."
+  },
+  {
     "q": "Are coffee warmers safe to leave on all day?",
     "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
   },
   {
-    "q": "Will a coffee warmer work with any mug?",
-    "a": "No, the base plate size needs to roughly match your mug's bottom diameter, and insulated or double-walled mugs are specifically designed to resist heat transfer, which defeats the warmer's purpose."
-  },
-  {
-    "q": "Does the warmer plate material matter?",
-    "a": "Yes, cast aluminum or ceramic plates distribute heat more evenly than thin stamped metal, and ceramic surfaces generally wipe clean more easily after a spill."
-  },
-  {
-    "q": "Are coffee warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
-  },
-  {
-    "q": "Can I control the temperature on a coffee warmer?",
-    "a": "It depends on the model, fixed-temperature warmers hold one preset (often 130-140°F), while adjustable models let you dial in a specific setting, check the stated range if you have a temperature preference."
+    "q": "Will any coffee warmer work in my car's 12V outlet?",
+    "a": "Not necessarily, check the stated voltage and wattage against your vehicle's outlet rating, an underpowered warmer heats too slowly while an overpowered one can trip circuit protection."
   }
 ];
 

@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-copy-holders","title":"Best Copy Holders in 2026"},{"href":"/guide/best-copy-holders-for-legal-documents","title":"Best Copy Holders for Legal Documents in 2026"},{"href":"/guide/best-monitor-copy-holders","title":"Best Monitor Copy Holders in 2026"},{"href":"/guide/best-freestanding-copy-holders","title":"Best Freestanding Copy Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-copy-holders","title":"Best Copy Holders in 2026"},{"href":"/guide/best-clip-on-copy-holders","title":"Best Clip-On Copy Holders in 2026"},{"href":"/guide/best-copy-holders-for-legal-documents","title":"Best Copy Holders for Legal Documents in 2026"},{"href":"/guide/best-monitor-copy-holders","title":"Best Monitor Copy Holders in 2026"}];

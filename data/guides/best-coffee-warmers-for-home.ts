@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Not every coffee warmer lets you choose a temperature, fixed models hold one preset (often 130-140°F), while adjustable ones give real control over how hot your drink stays, worth checking the actual range if you have a specific preference rather than assuming any warmer works the same.."
   },
   {
-    "title": "Wattage Alone Doesn't Guarantee Consistent Warmth",
-    "description": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance.."
+    "title": "Combo Wireless-Charger Coffee Warmers Split Power Between Two Jobs",
+    "description": "A coffee warmer that doubles as a phone wireless charger shares its power draw between heating your drink and charging your phone, running both at once can mean weaker performance at each than two dedicated devices, check whether the listing specifies simultaneous full-power operation or a shared, reduced-power mode.."
+  },
+  {
+    "title": "USB-Powered Warmers Trade Heating Strength for Desk Flexibility",
+    "description": "USB power is convenient for a desk setup with no free wall outlet nearby, but the lower wattage (typically 5-10W versus 15-25W+ for wall-powered models) means real heating strength is weaker, worth considering if you want your coffee kept genuinely hot rather than just held above room temperature.."
   },
   {
     "title": "Plate Material Affects Both Heat Evenness and Cleaning",
     "description": "Plate material is a real spec that affects daily use, cast aluminum or ceramic spreads heat more evenly than thin stamped metal, and ceramic surfaces generally clean up spills more easily."
-  },
-  {
-    "title": "Bundled Sets Add Value Only If You'll Use the Extra Pieces",
-    "description": "Whether a coffee warmer gift-set bundle is worth it depends entirely on whether you'll use the included mug or extras, the core heating function is identical to a standalone warmer, so don't pay a bundle premium unless those extras genuinely add value for you.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Not every coffee warmer lets you choose a temperature, fixed models hold one preset (often 130-140°F), while adjustable ones give real control over how hot your drink stays, worth checking the actual range if you have a specific preference rather than assuming any warmer works the same."
   },
   {
-    "criterion": "Wattage Alone Doesn't Guarantee Consistent Warmth",
-    "explanation": "Wattage is only half the story on a coffee warmer, a genuinely useful unit pairs its wattage with a thermostat that regulates temperature consistently rather than just blasting heat, check for this regulation detail specifically rather than assuming higher watts always means better performance."
+    "criterion": "Combo Wireless-Charger Coffee Warmers Split Power Between Two Jobs",
+    "explanation": "A coffee warmer that doubles as a phone wireless charger shares its power draw between heating your drink and charging your phone, running both at once can mean weaker performance at each than two dedicated devices, check whether the listing specifies simultaneous full-power operation or a shared, reduced-power mode."
+  },
+  {
+    "criterion": "USB-Powered Warmers Trade Heating Strength for Desk Flexibility",
+    "explanation": "USB power is convenient for a desk setup with no free wall outlet nearby, but the lower wattage (typically 5-10W versus 15-25W+ for wall-powered models) means real heating strength is weaker, worth considering if you want your coffee kept genuinely hot rather than just held above room temperature."
   },
   {
     "criterion": "Plate Material Affects Both Heat Evenness and Cleaning",
     "explanation": "Plate material is a real spec that affects daily use, cast aluminum or ceramic spreads heat more evenly than thin stamped metal, and ceramic surfaces generally clean up spills more easily. This detail is easy to miss in a listing focused mainly on wattage."
-  },
-  {
-    "criterion": "Bundled Sets Add Value Only If You'll Use the Extra Pieces",
-    "explanation": "Whether a coffee warmer gift-set bundle is worth it depends entirely on whether you'll use the included mug or extras, the core heating function is identical to a standalone warmer, so don't pay a bundle premium unless those extras genuinely add value for you."
   }
 ];
 
@@ -287,21 +287,21 @@ export const faq = [
     "a": "It depends on the model, fixed-temperature warmers hold one preset (often 130-140°F), while adjustable models let you dial in a specific setting, check the stated range if you have a temperature preference."
   },
   {
-    "q": "Do compact coffee warmers fit wide mugs?",
-    "a": "Not always, a smaller footprint often means a smaller base plate too, check the base diameter against your actual mug rather than assuming compact models scale down proportionally."
+    "q": "Does higher wattage mean a better coffee warmer?",
+    "a": "Not necessarily, without a working thermostat, a high-wattage unit can overshoot into scorching or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage spec."
   },
   {
-    "q": "Are coffee warmers safe to leave on all day?",
-    "a": "Safer with an auto shut-off timer, without one, a forgotten mug stays heated as long as it's plugged in, which can scorch residue onto the plate over time."
+    "q": "Do coffee warmers turn off automatically?",
+    "a": "Not all of them, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
   },
   {
-    "q": "Is a USB coffee warmer as strong as a plug-in one?",
-    "a": "Generally no, USB models typically run 5-10W versus 15-25W or more for wall-powered units, convenient for a desk with no outlet but weaker at heating a large or already-cold mug."
+    "q": "Will any coffee warmer work in my car's 12V outlet?",
+    "a": "Not necessarily, check the stated voltage and wattage against your vehicle's outlet rating, an underpowered warmer heats too slowly while an overpowered one can trip circuit protection."
   },
   {
-    "q": "Are coffee warmer gift sets worth the extra cost?",
-    "a": "Only if you'll actually use the included mug or extras, the core heating function is identical to a standalone warmer at a lower price."
+    "q": "Does a coffee warmer with a wireless charger work as well as two separate devices?",
+    "a": "Not always at full power, running both functions at once shares a power budget, check the listing for whether it specifies simultaneous full-power operation."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-under-30","title":"Best Coffee Warmers Under $30 in 2026"},{"href":"/guide/best-coffee-warmers-for-office-desks","title":"Best Coffee Warmers for Office Desks in 2026"},{"href":"/guide/best-smart-coffee-warmers","title":"Best Smart Coffee Warmers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-coffee-warmers","title":"Best Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-under-30","title":"Best Coffee Warmers Under $30 in 2026"},{"href":"/guide/best-battery-operated-coffee-warmers","title":"Best Battery-Operated Coffee Warmers in 2026"},{"href":"/guide/best-coffee-warmers-for-offices","title":"Best Coffee Warmers for Offices in 2026"}];

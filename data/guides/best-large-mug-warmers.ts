@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Daily desk use over months is where a cheaply built mug warmer shows its limits first, thin housing or a weak element can fail or heat unevenly, while a sturdier build with a real thermostat lasts longer, reviews mentioning longevity are more reliable than the listing's claims.."
   },
   {
+    "title": "Gaming-Desk Mug Warmers Should Match Your Setup's Actual Power Routing",
+    "description": "A mug warmer marketed for a gaming desk with RGB lighting adds another cable and often another USB port to an already crowded setup, check the actual cord length and USB connection type against your specific desk's port layout before assuming it slots in cleanly alongside your other peripherals.."
+  },
+  {
     "title": "LED Temperature Displays Add Real Feedback Over Guesswork",
     "description": "A mug warmer with an LED display showing the actual set or current temperature gives you real feedback on what heat level you're getting, versus a warmer with no display where you're guessing based on a single unmarked dial, a genuinely useful feature if you want a specific, repeatable temperature each time.."
   },
   {
-    "title": "RGB-Lit Mug Warmers Add Cost Without Improving Heating",
-    "description": "RGB lighting on a mug warmer is a cosmetic addition aimed at gaming setups, it has no effect on actual heating performance, which depends entirely on wattage, base size, and temperature control, judge the functional specs independent of the lighting.."
-  },
-  {
-    "title": "Wattage Needs a Working Thermostat to Mean Anything",
-    "description": "Raw wattage is only half the picture on a mug warmer, what actually determines consistent results is whether the unit pairs that wattage with real thermostat regulation, check for this detail specifically rather than assuming a higher number always performs better.."
+    "title": "USB Power Trades Heating Strength for Desk Flexibility",
+    "description": "USB power offers real desk flexibility since it doesn't need a wall outlet, but the tradeoff is lower wattage (typically 5-10W versus 15-25W+ for plug-in models), meaning genuinely weaker heating power, worth weighing against how hot you actually want your drink kept.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Daily desk use over months is where a cheaply built mug warmer shows its limits first, thin housing or a weak element can fail or heat unevenly, while a sturdier build with a real thermostat lasts longer, reviews mentioning longevity are more reliable than the listing's claims."
   },
   {
+    "criterion": "Gaming-Desk Mug Warmers Should Match Your Setup's Actual Power Routing",
+    "explanation": "A mug warmer marketed for a gaming desk with RGB lighting adds another cable and often another USB port to an already crowded setup, check the actual cord length and USB connection type against your specific desk's port layout before assuming it slots in cleanly alongside your other peripherals."
+  },
+  {
     "criterion": "LED Temperature Displays Add Real Feedback Over Guesswork",
     "explanation": "A mug warmer with an LED display showing the actual set or current temperature gives you real feedback on what heat level you're getting, versus a warmer with no display where you're guessing based on a single unmarked dial, a genuinely useful feature if you want a specific, repeatable temperature each time."
   },
   {
-    "criterion": "RGB-Lit Mug Warmers Add Cost Without Improving Heating",
-    "explanation": "RGB lighting on a mug warmer is a cosmetic addition aimed at gaming setups, it has no effect on actual heating performance, which depends entirely on wattage, base size, and temperature control, judge the functional specs independent of the lighting."
-  },
-  {
-    "criterion": "Wattage Needs a Working Thermostat to Mean Anything",
-    "explanation": "Raw wattage is only half the picture on a mug warmer, what actually determines consistent results is whether the unit pairs that wattage with real thermostat regulation, check for this detail specifically rather than assuming a higher number always performs better."
+    "criterion": "USB Power Trades Heating Strength for Desk Flexibility",
+    "explanation": "USB power offers real desk flexibility since it doesn't need a wall outlet, but the tradeoff is lower wattage (typically 5-10W versus 15-25W+ for plug-in models), meaning genuinely weaker heating power, worth weighing against how hot you actually want your drink kept."
   }
 ];
 
@@ -287,12 +287,8 @@ export const faq = [
     "a": "It varies with build quality, thin plastic housings and weak heating elements can fail or heat unevenly within months, while sturdier builds with a real thermostat last longer, check reviews for longevity complaints."
   },
   {
-    "q": "Will a gaming mug warmer fit my desk's cable setup?",
-    "a": "Check the cord length and connector type against your actual desk layout first, an RGB-lit warmer adds another cable to route alongside your other peripherals."
-  },
-  {
-    "q": "Do mug warmers turn off automatically?",
-    "a": "Not always, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
+    "q": "Does RGB lighting make a mug warmer heat better?",
+    "a": "No, RGB is purely cosmetic and has no effect on actual heating, which depends on wattage, base size, and thermostat quality, pay extra for it only if the look matters to you."
   },
   {
     "q": "Does a higher-wattage mug warmer work better?",
@@ -301,7 +297,11 @@ export const faq = [
   {
     "q": "Can I adjust the temperature on a mug warmer?",
     "a": "It depends on the model, preset warmers hold one fixed setting (often 130-140°F), while adjustable models let you dial in your preference, check the stated range against how hot you actually want your drink."
+  },
+  {
+    "q": "Will a gaming mug warmer fit my desk's cable setup?",
+    "a": "Check the cord length and connector type against your actual desk layout first, an RGB-lit warmer adds another cable to route alongside your other peripherals."
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mug-warmers","title":"Best Mug Warmers in 2026"},{"href":"/guide/best-usb-mug-warmers","title":"Best USB Mug Warmers in 2026"},{"href":"/guide/best-mug-warmers-for-gamers","title":"Best Mug Warmers for Gamers in 2026"},{"href":"/guide/best-mug-warmers-for-office","title":"Best Mug Warmers for Office in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mug-warmers","title":"Best Mug Warmers in 2026"},{"href":"/guide/best-mug-warmers-for-offices","title":"Best Mug Warmers for Offices in 2026"},{"href":"/guide/best-usb-c-mug-warmers","title":"Best USB-C Mug Warmers in 2026"},{"href":"/guide/best-usb-mug-warmers","title":"Best USB Mug Warmers in 2026"}];

@@ -125,16 +125,16 @@ export const howWeEvaluated = [
     "description": "Without an auto shut-off timer, a mug warmer stays powered on indefinitely once plugged in, which can scorch drink residue onto the plate if a mug is left too long, or simply waste power overnight, check specifically for a stated auto-off timer (commonly 2-4 hours) rather than assuming it's standard.."
   },
   {
-    "title": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
-    "description": "Whether a coaster-set bundle is worth it depends entirely on whether you'll use the extra pieces, the core heating function is no different from a standalone warmer, so don't pay a bundle premium unless the included coaster or mug genuinely adds value for you.."
-  },
-  {
     "title": "USB Power Trades Heating Strength for Desk Flexibility",
     "description": "A USB-powered mug warmer (typically 5-10W) is convenient to plug into a laptop or power bank without needing a free wall outlet, but the lower wattage means weaker heating than a wall-powered model (often 15-25W+), check the actual wattage if you want your drink kept noticeably hot rather than just above room temperature.."
   },
   {
-    "title": "Preset vs Adjustable Temperature Affects How Hot Your Drink Actually Gets",
-    "description": "A preset-temperature mug warmer holds one fixed setting (commonly around 130-140°F), simple but inflexible, while an adjustable model lets you dial in your preferred heat level, genuinely useful if you like your drink hotter than the typical preset or want a gentler setting for tea, check the stated range against your actual preference.."
+    "title": "LED Temperature Displays Add Real Feedback Over Guesswork",
+    "description": "An LED display on a mug warmer turns a vague dial setting into an actual, repeatable number you can dial back in each time, useful if you want consistent results rather than guessing at a knob position that isn't labeled with real temperatures.."
+  },
+  {
+    "title": "Combo Wireless-Charger Warmers Split Power Between Two Jobs",
+    "description": "A mug warmer that doubles as a phone wireless charger shares its power draw between heating your drink and charging your phone, running both at once can mean weaker performance at each than a dedicated single-purpose device, check whether the listing specifies simultaneous full-power operation or a shared, reduced-power mode.."
   }
 ];
 
@@ -264,16 +264,16 @@ export const buyingCriteria = [
     "explanation": "Without an auto shut-off timer, a mug warmer stays powered on indefinitely once plugged in, which can scorch drink residue onto the plate if a mug is left too long, or simply waste power overnight, check specifically for a stated auto-off timer (commonly 2-4 hours) rather than assuming it's standard."
   },
   {
-    "criterion": "Coaster-Set Warmers Add Value Only If You'll Actually Use the Extra Pieces",
-    "explanation": "Whether a coaster-set bundle is worth it depends entirely on whether you'll use the extra pieces, the core heating function is no different from a standalone warmer, so don't pay a bundle premium unless the included coaster or mug genuinely adds value for you."
-  },
-  {
     "criterion": "USB Power Trades Heating Strength for Desk Flexibility",
     "explanation": "A USB-powered mug warmer (typically 5-10W) is convenient to plug into a laptop or power bank without needing a free wall outlet, but the lower wattage means weaker heating than a wall-powered model (often 15-25W+), check the actual wattage if you want your drink kept noticeably hot rather than just above room temperature."
   },
   {
-    "criterion": "Preset vs Adjustable Temperature Affects How Hot Your Drink Actually Gets",
-    "explanation": "A preset-temperature mug warmer holds one fixed setting (commonly around 130-140°F), simple but inflexible, while an adjustable model lets you dial in your preferred heat level, genuinely useful if you like your drink hotter than the typical preset or want a gentler setting for tea, check the stated range against your actual preference."
+    "criterion": "LED Temperature Displays Add Real Feedback Over Guesswork",
+    "explanation": "An LED display on a mug warmer turns a vague dial setting into an actual, repeatable number you can dial back in each time, useful if you want consistent results rather than guessing at a knob position that isn't labeled with real temperatures."
+  },
+  {
+    "criterion": "Combo Wireless-Charger Warmers Split Power Between Two Jobs",
+    "explanation": "A mug warmer that doubles as a phone wireless charger shares its power draw between heating your drink and charging your phone, running both at once can mean weaker performance at each than a dedicated single-purpose device, check whether the listing specifies simultaneous full-power operation or a shared, reduced-power mode."
   }
 ];
 
@@ -287,20 +287,20 @@ export const faq = [
     "a": "Not always, check the listing specifically for a stated auto shut-off timer (commonly 2-4 hours), without it a forgotten mug stays heated indefinitely while plugged in."
   },
   {
-    "q": "Is a USB mug warmer strong enough?",
-    "a": "It's weaker than a wall-powered model, USB units typically run 5-10W versus 15-25W or more for plug-in versions, convenient for a desk without a free outlet but less effective at keeping a drink genuinely hot."
+    "q": "Is an LED display worth it on a mug warmer?",
+    "a": "Yes if you want consistent, repeatable results, it shows the actual set or current temperature instead of an unmarked dial you're guessing at each time."
   },
   {
-    "q": "Does a higher-wattage mug warmer work better?",
-    "a": "Not necessarily, without a working thermostat a high-wattage unit can overheat a drink or cycle unevenly, check for a stated temperature-regulation feature alongside the wattage number."
+    "q": "Are mug warmer gift sets worth the extra cost?",
+    "a": "Only if you'll actually use the included extras like a matching coaster or mug, the core heating function is identical to a standalone warmer at a lower price."
   },
   {
     "q": "Does RGB lighting make a mug warmer heat better?",
     "a": "No, RGB is purely cosmetic and has no effect on actual heating, which depends on wattage, base size, and thermostat quality, pay extra for it only if the look matters to you."
   },
   {
-    "q": "Will a mug warmer work with my insulated travel mug?",
-    "a": "Generally no, double-walled or vacuum-insulated mugs are specifically built to resist heat transfer, which defeats the warmer's purpose regardless of wattage or base size."
+    "q": "Is a USB mug warmer strong enough?",
+    "a": "It's weaker than a wall-powered model, USB units typically run 5-10W versus 15-25W or more for plug-in versions, convenient for a desk without a free outlet but less effective at keeping a drink genuinely hot."
   }
 ];
 
