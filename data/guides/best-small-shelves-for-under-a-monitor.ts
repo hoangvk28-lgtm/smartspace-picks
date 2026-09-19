@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-under-monitor-storage-shelves","title":"Best Under-Monitor Storage Shelves in 2026"},{"href":"/guide/best-white-under-monitor-shelves","title":"Best White Under-Monitor Shelves in 2026"},{"href":"/guide/best-shelves-for-under-computer-monitors","title":"Best Shelves for Under Computer Monitors in 2026"},{"href":"/guide/best-monitor-stands-with-storage-shelves","title":"Best Monitor Stands with Storage Shelves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-under-monitor-storage-shelves","title":"Best Under-Monitor Storage Shelves in 2026"},{"href":"/guide/best-under-monitor-storage-shelves-under-100","title":"Best Under-Monitor Storage Shelves Under $100 in 2026"},{"href":"/guide/best-white-under-monitor-shelves","title":"Best White Under-Monitor Shelves in 2026"},{"href":"/guide/best-under-monitor-storage-shelves-under-20","title":"Best Under-Monitor Storage Shelves Under $20 in 2026"}];

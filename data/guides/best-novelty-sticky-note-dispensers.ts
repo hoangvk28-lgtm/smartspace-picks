@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-kawaii-sticky-note-dispensers","title":"Best Kawaii Sticky Note Dispensers in 2026"},{"href":"/guide/best-cat-sticky-note-dispensers","title":"Best Cat Sticky Note Dispensers in 2026"},{"href":"/guide/best-gold-sticky-note-dispensers","title":"Best Gold Sticky Note Dispensers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-kawaii-sticky-note-dispensers","title":"Best Kawaii Sticky Note Dispensers in 2026"},{"href":"/guide/best-cat-sticky-note-dispensers","title":"Best Cat Sticky Note Dispensers in 2026"},{"href":"/guide/best-sticky-note-dispensers-under-10","title":"Best Sticky Note Dispensers Under $10 in 2026"}];

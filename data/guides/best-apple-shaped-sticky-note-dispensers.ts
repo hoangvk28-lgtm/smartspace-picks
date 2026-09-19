@@ -272,4 +272,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-typewriter-sticky-note-dispensers","title":"Best Typewriter Sticky Note Dispensers in 2026"},{"href":"/guide/best-roll-sticky-note-dispensers","title":"Best Roll Sticky Note Dispensers in 2026"},{"href":"/guide/best-kikkerland-sticky-note-dispensers","title":"Best Kikkerland Sticky Note Dispensers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-typewriter-sticky-note-dispensers","title":"Best Typewriter Sticky Note Dispensers in 2026"},{"href":"/guide/best-roll-sticky-note-dispensers","title":"Best Roll Sticky Note Dispensers in 2026"},{"href":"/guide/best-sticky-note-dispensers-under-10","title":"Best Sticky Note Dispensers Under $10 in 2026"}];

@@ -272,4 +272,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-staplers","title":"Best Desk Staplers in 2026"},{"href":"/guide/best-purple-desk-staplers","title":"Best Purple Desk Staplers in 2026"},{"href":"/guide/best-industrial-desk-staplers","title":"Best Industrial Desk Staplers in 2026"},{"href":"/guide/best-black-desk-staplers","title":"Best Black Desk Staplers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-staplers","title":"Best Desk Staplers in 2026"},{"href":"/guide/best-desk-staplers-under-100","title":"Best Desk Staplers Under $100 in 2026"},{"href":"/guide/best-desk-staplers-under-200","title":"Best Desk Staplers Under $200 in 2026"},{"href":"/guide/best-purple-desk-staplers","title":"Best Purple Desk Staplers in 2026"}];

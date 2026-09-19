@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-id-badge-holders","title":"Best ID Badge Holders in 2026"},{"href":"/guide/best-luxury-id-badge-holders","title":"Best Luxury ID Badge Holders in 2026"},{"href":"/guide/best-id-badge-holders-with-zipper-pockets","title":"Best ID Badge Holders with Zipper Pockets in 2026"},{"href":"/guide/best-airport-id-badge-holders","title":"Best Airport ID Badge Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-id-badge-holders","title":"Best ID Badge Holders in 2026"},{"href":"/guide/best-luxury-id-badge-holders","title":"Best Luxury ID Badge Holders in 2026"},{"href":"/guide/best-id-badge-holders-with-zipper-pockets","title":"Best ID Badge Holders with Zipper Pockets in 2026"},{"href":"/guide/best-id-badge-holders-under-10","title":"Best ID Badge Holders Under $10 in 2026"}];

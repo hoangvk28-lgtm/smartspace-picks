@@ -256,4 +256,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cord-organizers","title":"Best Cord Organizers in 2026"},{"href":"/guide/best-extension-cord-organizers","title":"Best Extension Cord Organizers in 2026"},{"href":"/guide/best-baby-proof-cord-organizers","title":"Best Baby-Proof Cord Organizers in 2026"},{"href":"/guide/best-vera-bradley-cord-organizers","title":"Best Vera Bradley Cord Organizers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cord-organizers","title":"Best Cord Organizers in 2026"},{"href":"/guide/best-extension-cord-organizers","title":"Best Extension Cord Organizers in 2026"},{"href":"/guide/best-baby-proof-cord-organizers","title":"Best Baby-Proof Cord Organizers in 2026"},{"href":"/guide/best-cord-organizers-under-10","title":"Best Cord Organizers Under $10 in 2026"}];

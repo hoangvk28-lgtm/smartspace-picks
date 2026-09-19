@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-under-shelf-paper-trays","title":"Best Under-Shelf Paper Trays in 2026"},{"href":"/guide/best-under-desk-paper-trays","title":"Best Under-Desk Paper Trays in 2026"},{"href":"/guide/best-4-tier-paper-trays","title":"Best 4-Tier Paper Trays in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-paper-trays-and-letter-trays-under-20","title":"Best Paper Trays and Letter Trays Under $20 in 2026"},{"href":"/guide/best-paper-trays-and-letter-trays-under-30","title":"Best Paper Trays and Letter Trays Under $30 in 2026"},{"href":"/guide/best-paper-trays-and-letter-trays-under-50","title":"Best Paper Trays and Letter Trays Under $50 in 2026"}];

@@ -256,4 +256,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-glass-bookends","title":"Best Glass Bookends in 2026"},{"href":"/guide/best-vintage-bookends","title":"Best Vintage Bookends in 2026"},{"href":"/guide/best-bronze-bookends","title":"Best Bronze Bookends in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-glass-bookends","title":"Best Glass Bookends in 2026"},{"href":"/guide/best-vintage-bookends","title":"Best Vintage Bookends in 2026"},{"href":"/guide/best-bookends-under-20","title":"Best Bookends Under $20 in 2026"}];

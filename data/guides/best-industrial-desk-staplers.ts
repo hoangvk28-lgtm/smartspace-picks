@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-staplers","title":"Best Desk Staplers in 2026"},{"href":"/guide/best-fancy-desk-staplers","title":"Best Fancy Desk Staplers in 2026"},{"href":"/guide/best-no-10-desk-staplers","title":"Best No. 10 Desk Staplers in 2026"},{"href":"/guide/best-battery-powered-desk-staplers","title":"Best Battery-Powered Desk Staplers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-staplers","title":"Best Desk Staplers in 2026"},{"href":"/guide/best-fancy-desk-staplers","title":"Best Fancy Desk Staplers in 2026"},{"href":"/guide/best-no-10-desk-staplers","title":"Best No. 10 Desk Staplers in 2026"},{"href":"/guide/best-desk-staplers-under-100","title":"Best Desk Staplers Under $100 in 2026"}];

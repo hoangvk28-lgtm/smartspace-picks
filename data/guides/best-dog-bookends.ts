@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-lego-bookends","title":"Best LEGO Bookends in 2026"},{"href":"/guide/best-black-bookends","title":"Best Black Bookends in 2026"},{"href":"/guide/best-gold-bookends","title":"Best Gold Bookends in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-lego-bookends","title":"Best LEGO Bookends in 2026"},{"href":"/guide/best-black-bookends","title":"Best Black Bookends in 2026"},{"href":"/guide/best-bookends-under-100","title":"Best Bookends Under $100 in 2026"}];
