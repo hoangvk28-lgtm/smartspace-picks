@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-gaming-monitors-for-pc","title":"Best Gaming Monitors for PC in 2026"},{"href":"/guide/best-27-inch-gaming-monitors","title":"Best 27-Inch Gaming Monitors in 2026"},{"href":"/guide/best-qd-oled-gaming-monitors","title":"Best QD-OLED Gaming Monitors in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-xiaomi-gaming-monitors","title":"Best Xiaomi Gaming Monitors in 2026"},{"href":"/guide/best-qled-gaming-monitors","title":"Best QLED Gaming Monitors in 2026"},{"href":"/guide/best-flat-gaming-monitors","title":"Best Flat Gaming Monitors in 2026"}];

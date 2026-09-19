@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-ips-gaming-monitors","title":"Best IPS Gaming Monitors in 2026"},{"href":"/guide/best-gaming-monitors-with-hdmi-2-1","title":"Best Gaming Monitors With HDMI 2.1 in 2026"},{"href":"/guide/best-gaming-monitors-for-ps5-pro","title":"Best Gaming Monitors for PS5 Pro in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-500hz-gaming-monitors","title":"Best 500Hz Gaming Monitors in 2026"},{"href":"/guide/best-49-inch-gaming-monitors","title":"Best 49-Inch Gaming Monitors in 2026"},{"href":"/guide/best-ips-gaming-monitors","title":"Best IPS Gaming Monitors in 2026"}];

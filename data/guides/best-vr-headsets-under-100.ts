@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-vr-headsets","title":"Best VR Headsets in 2026"},{"href":"/guide/best-vr-headsets-under-200","title":"Best VR Headsets Under $200 in 2026"},{"href":"/guide/best-lightweight-vr-headsets","title":"Best Lightweight VR Headsets in 2026"},{"href":"/guide/best-vr-headsets-with-full-body-tracking","title":"Best VR Headsets With Full-Body Tracking in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-vr-headsets","title":"Best VR Headsets in 2026"},{"href":"/guide/best-vr-headsets-under-200","title":"Best VR Headsets Under $200 in 2026"},{"href":"/guide/best-vr-headsets-for-3d-movies","title":"Best VR Headsets for 3D Movies in 2026"},{"href":"/guide/best-lightweight-vr-headsets","title":"Best Lightweight VR Headsets in 2026"}];
