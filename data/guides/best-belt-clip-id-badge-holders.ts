@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-id-badge-holders","title":"Best ID Badge Holders in 2026"},{"href":"/guide/best-metal-id-badge-holders","title":"Best Metal ID Badge Holders in 2026"},{"href":"/guide/best-sublimation-id-badge-holders","title":"Best Sublimation ID Badge Holders in 2026"},{"href":"/guide/best-rfid-blocking-id-badge-holders","title":"Best RFID-Blocking ID Badge Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-id-badge-holders","title":"Best ID Badge Holders in 2026"},{"href":"/guide/best-metal-id-badge-holders","title":"Best Metal ID Badge Holders in 2026"},{"href":"/guide/best-carabiner-badge-holders","title":"Best Carabiner Badge Holders in 2026"},{"href":"/guide/best-sublimation-id-badge-holders","title":"Best Sublimation ID Badge Holders in 2026"}];

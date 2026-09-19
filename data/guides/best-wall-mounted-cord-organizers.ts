@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cord-organizers","title":"Best Cord Organizers in 2026"},{"href":"/guide/best-cord-organizers-with-labels","title":"Best Cord Organizers with Labels in 2026"},{"href":"/guide/best-extension-cord-organizers","title":"Best Extension Cord Organizers in 2026"},{"href":"/guide/best-usb-cord-organizers","title":"Best USB Cord Organizers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cord-organizers","title":"Best Cord Organizers in 2026"},{"href":"/guide/best-neoprene-cord-organizers","title":"Best Neoprene Cord Organizers in 2026"},{"href":"/guide/best-cord-organizers-with-labels","title":"Best Cord Organizers with Labels in 2026"},{"href":"/guide/best-garage-extension-cord-organizers","title":"Best Garage Extension Cord Organizers in 2026"}];

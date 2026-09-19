@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-60mm-cable-sleeves","title":"Best 60mm Cable Sleeves in 2026"},{"href":"/guide/best-rubber-cable-sleeves","title":"Best Rubber Cable Sleeves in 2026"},{"href":"/guide/best-jute-cable-sleeves","title":"Best Jute Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-60mm-cable-sleeves","title":"Best 60mm Cable Sleeves in 2026"},{"href":"/guide/best-rubber-cable-sleeves","title":"Best Rubber Cable Sleeves in 2026"},{"href":"/guide/best-alex-tech-cable-sleeves","title":"Best Alex Tech Cable Sleeves in 2026"}];

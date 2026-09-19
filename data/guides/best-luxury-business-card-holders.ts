@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-business-card-holders","title":"Best Business Card Holders in 2026"},{"href":"/guide/best-business-card-holders-for-men","title":"Best Business Card Holders for Men in 2026"},{"href":"/guide/best-wooden-business-card-holders","title":"Best Wooden Business Card Holders in 2026"},{"href":"/guide/best-tiered-business-card-holders","title":"Best Tiered Business Card Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-business-card-holders","title":"Best Business Card Holders in 2026"},{"href":"/guide/best-upright-business-card-holders","title":"Best Upright Business Card Holders in 2026"},{"href":"/guide/best-business-card-holders-for-men","title":"Best Business Card Holders for Men in 2026"},{"href":"/guide/best-240-card-business-card-holders","title":"Best 240-Card Business Card Holders in 2026"}];

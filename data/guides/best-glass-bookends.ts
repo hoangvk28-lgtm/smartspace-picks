@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-geode-bookends","title":"Best Geode Bookends in 2026"},{"href":"/guide/best-bookends-for-cookbooks","title":"Best Bookends for Cookbooks in 2026"},{"href":"/guide/best-bookends-for-vinyl-records","title":"Best Bookends for Vinyl Records in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-extra-large-bookends","title":"Best Extra-Large Bookends in 2026"},{"href":"/guide/best-bookends-with-lights","title":"Best Bookends with Lights in 2026"},{"href":"/guide/best-geode-bookends","title":"Best Geode Bookends in 2026"}];

@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-electric-sticky-note-dispensers","title":"Best Electric Sticky Note Dispensers in 2026"},{"href":"/guide/best-sticky-note-dispensers-with-pen-holders","title":"Best Sticky Note Dispensers with Pen Holders in 2026"},{"href":"/guide/best-apple-shaped-sticky-note-dispensers","title":"Best Apple-Shaped Sticky Note Dispensers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-purse-sticky-note-dispensers","title":"Best Purse Sticky Note Dispensers in 2026"},{"href":"/guide/best-rainbow-sticky-note-dispensers","title":"Best Rainbow Sticky Note Dispensers in 2026"},{"href":"/guide/best-heart-sticky-note-dispensers","title":"Best Heart Sticky Note Dispensers in 2026"}];

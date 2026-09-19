@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-modern-bookends","title":"Best Modern Bookends in 2026"},{"href":"/guide/best-bookends-for-kids","title":"Best Bookends for Kids in 2026"},{"href":"/guide/best-wooden-bookends","title":"Best Wooden Bookends in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-modern-bookends","title":"Best Modern Bookends in 2026"},{"href":"/guide/best-silver-bookends","title":"Best Silver Bookends in 2026"},{"href":"/guide/best-ball-bookends","title":"Best Ball Bookends in 2026"}];

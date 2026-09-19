@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-business-card-holders","title":"Best Business Card Holders in 2026"},{"href":"/guide/best-acrylic-business-card-holders","title":"Best Acrylic Business Card Holders in 2026"},{"href":"/guide/best-business-card-holders-with-qr-codes","title":"Best Business Card Holders with QR Codes in 2026"},{"href":"/guide/best-leather-business-card-holders","title":"Best Leather Business Card Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-business-card-holders","title":"Best Business Card Holders in 2026"},{"href":"/guide/best-keychain-business-card-holders","title":"Best Keychain Business Card Holders in 2026"},{"href":"/guide/best-executive-business-card-holders","title":"Best Executive Business Card Holders in 2026"},{"href":"/guide/best-travel-business-card-holders","title":"Best Travel Business Card Holders in 2026"}];

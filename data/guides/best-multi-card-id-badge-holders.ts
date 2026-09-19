@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-id-badge-holders","title":"Best ID Badge Holders in 2026"},{"href":"/guide/best-three-card-id-badge-holders","title":"Best Three-Card ID Badge Holders in 2026"},{"href":"/guide/best-two-card-id-badge-holders","title":"Best Two-Card ID Badge Holders in 2026"},{"href":"/guide/best-leather-id-badge-holders","title":"Best Leather ID Badge Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-id-badge-holders","title":"Best ID Badge Holders in 2026"},{"href":"/guide/best-five-card-id-badge-holders","title":"Best Five-Card ID Badge Holders in 2026"},{"href":"/guide/best-three-card-id-badge-holders","title":"Best Three-Card ID Badge Holders in 2026"},{"href":"/guide/best-two-card-id-badge-holders","title":"Best Two-Card ID Badge Holders in 2026"}];

@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-1-inch-cable-sleeves","title":"Best 1-Inch Cable Sleeves in 2026"},{"href":"/guide/best-split-cable-sleeves","title":"Best Split Cable Sleeves in 2026"},{"href":"/guide/best-flexible-cable-sleeves","title":"Best Flexible Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-charging-cable-sleeves","title":"Best Charging Cable Sleeves in 2026"},{"href":"/guide/best-alex-tech-cable-sleeves","title":"Best Alex Tech Cable Sleeves in 2026"},{"href":"/guide/best-1-inch-cable-sleeves","title":"Best 1-Inch Cable Sleeves in 2026"}];

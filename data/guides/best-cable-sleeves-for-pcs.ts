@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-in-wall-cable-sleeves","title":"Best In-Wall Cable Sleeves in 2026"},{"href":"/guide/best-cable-sleeves-for-pets","title":"Best Cable Sleeves for Pets in 2026"},{"href":"/guide/best-automotive-cable-sleeves","title":"Best Automotive Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-in-wall-cable-sleeves","title":"Best In-Wall Cable Sleeves in 2026"},{"href":"/guide/best-50mm-cable-sleeves","title":"Best 50mm Cable Sleeves in 2026"},{"href":"/guide/best-cable-sleeves-for-pets","title":"Best Cable Sleeves for Pets in 2026"}];

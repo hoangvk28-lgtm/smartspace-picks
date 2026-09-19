@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-onyx-bookends","title":"Best Onyx Bookends in 2026"},{"href":"/guide/best-marble-bookends","title":"Best Marble Bookends in 2026"},{"href":"/guide/best-zuny-bookends","title":"Best Zuny Bookends in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bookends","title":"Best Bookends in 2026"},{"href":"/guide/best-rechargeable-bookend-lamps","title":"Best Rechargeable Bookend Lamps in 2026"},{"href":"/guide/best-cute-bookends","title":"Best Cute Bookends in 2026"},{"href":"/guide/best-onyx-bookends","title":"Best Onyx Bookends in 2026"}];

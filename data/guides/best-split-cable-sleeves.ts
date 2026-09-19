@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-zipper-cable-sleeves","title":"Best Zipper Cable Sleeves in 2026"},{"href":"/guide/best-cable-sleeves-for-pcs","title":"Best Cable Sleeves for PCs in 2026"},{"href":"/guide/best-flexible-cable-sleeves","title":"Best Flexible Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-audio-cable-sleeves","title":"Best Audio Cable Sleeves in 2026"},{"href":"/guide/best-fire-resistant-cable-sleeves","title":"Best Fire-Resistant Cable Sleeves in 2026"},{"href":"/guide/best-zipper-cable-sleeves","title":"Best Zipper Cable Sleeves in 2026"}];

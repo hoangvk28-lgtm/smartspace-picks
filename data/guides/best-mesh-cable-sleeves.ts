@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-jute-cable-sleeves","title":"Best Jute Cable Sleeves in 2026"},{"href":"/guide/best-usb-c-cable-sleeves","title":"Best USB-C Cable Sleeves in 2026"},{"href":"/guide/best-aluminum-cable-sleeves","title":"Best Aluminum Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-jute-cable-sleeves","title":"Best Jute Cable Sleeves in 2026"},{"href":"/guide/best-beige-cable-sleeves","title":"Best Beige Cable Sleeves in 2026"},{"href":"/guide/best-usb-c-cable-sleeves","title":"Best USB-C Cable Sleeves in 2026"}];

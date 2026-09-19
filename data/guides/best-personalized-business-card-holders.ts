@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-business-card-holders","title":"Best Business Card Holders in 2026"},{"href":"/guide/best-wall-mounted-business-card-holders","title":"Best Wall-Mounted Business Card Holders in 2026"},{"href":"/guide/best-square-business-card-holders","title":"Best Square Business Card Holders in 2026"},{"href":"/guide/best-vertical-business-card-holders","title":"Best Vertical Business Card Holders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-business-card-holders","title":"Best Business Card Holders in 2026"},{"href":"/guide/best-wall-mounted-business-card-holders","title":"Best Wall-Mounted Business Card Holders in 2026"},{"href":"/guide/best-silver-business-card-holders","title":"Best Silver Business Card Holders in 2026"},{"href":"/guide/best-kate-spade-business-card-holders","title":"Best Kate Spade Business Card Holders in 2026"}];

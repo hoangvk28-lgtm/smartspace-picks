@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-staplers","title":"Best Desk Staplers in 2026"},{"href":"/guide/best-commercial-desk-staplers","title":"Best Commercial Desk Staplers in 2026"},{"href":"/guide/best-compact-desk-staplers","title":"Best Compact Desk Staplers in 2026"},{"href":"/guide/best-large-desk-staplers","title":"Best Large Desk Staplers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desk-staplers","title":"Best Desk Staplers in 2026"},{"href":"/guide/best-wooden-desk-staplers","title":"Best Wooden Desk Staplers in 2026"},{"href":"/guide/best-commercial-desk-staplers","title":"Best Commercial Desk Staplers in 2026"},{"href":"/guide/best-industrial-desk-staplers","title":"Best Industrial Desk Staplers in 2026"}];

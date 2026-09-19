@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cord-organizers","title":"Best Cord Organizers in 2026"},{"href":"/guide/best-zipper-cord-organizers","title":"Best Zipper Cord Organizers in 2026"},{"href":"/guide/best-earbud-cord-organizers","title":"Best Earbud Cord Organizers in 2026"},{"href":"/guide/best-vera-bradley-cord-organizers","title":"Best Vera Bradley Cord Organizers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cord-organizers","title":"Best Cord Organizers in 2026"},{"href":"/guide/best-weighted-cord-organizers","title":"Best Weighted Cord Organizers in 2026"},{"href":"/guide/best-zipper-cord-organizers","title":"Best Zipper Cord Organizers in 2026"},{"href":"/guide/best-earbud-cord-organizers","title":"Best Earbud Cord Organizers in 2026"}];

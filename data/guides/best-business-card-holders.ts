@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wooden-business-card-holders","title":"Best Wooden Business Card Holders in 2026"},{"href":"/guide/best-slim-business-card-holders","title":"Best Slim Business Card Holders in 2026"},{"href":"/guide/best-tiered-business-card-holders","title":"Best Tiered Business Card Holders in 2026"},{"href":"/guide/best-business-card-holders-with-qr-codes","title":"Best Business Card Holders with QR Codes in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wooden-business-card-holders","title":"Best Wooden Business Card Holders in 2026"},{"href":"/guide/best-200-card-business-card-holders","title":"Best 200-Card Business Card Holders in 2026"},{"href":"/guide/best-slim-business-card-holders","title":"Best Slim Business Card Holders in 2026"},{"href":"/guide/best-500-card-business-card-holders","title":"Best 500-Card Business Card Holders in 2026"}];

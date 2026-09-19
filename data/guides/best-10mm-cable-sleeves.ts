@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-2-inch-cable-sleeves","title":"Best 2-Inch Cable Sleeves in 2026"},{"href":"/guide/best-velcro-cable-sleeves","title":"Best Velcro Cable Sleeves in 2026"},{"href":"/guide/best-usb-c-cable-sleeves","title":"Best USB-C Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cable-sleeves","title":"Best Cable Sleeves in 2026"},{"href":"/guide/best-2-inch-cable-sleeves","title":"Best 2-Inch Cable Sleeves in 2026"},{"href":"/guide/best-velcro-cable-sleeves","title":"Best Velcro Cable Sleeves in 2026"},{"href":"/guide/best-fire-resistant-cable-sleeves","title":"Best Fire-Resistant Cable Sleeves in 2026"}];

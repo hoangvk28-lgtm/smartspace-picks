@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-legal-size-paper-trays","title":"Best Legal-Size Paper Trays in 2026"},{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-clear-letter-trays","title":"Best Clear Letter Trays in 2026"},{"href":"/guide/best-plastic-letter-trays","title":"Best Plastic Letter Trays in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-legal-size-paper-trays","title":"Best Legal-Size Paper Trays in 2026"},{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-clear-letter-trays","title":"Best Clear Letter Trays in 2026"},{"href":"/guide/best-decorative-letter-trays","title":"Best Decorative Letter Trays in 2026"}];

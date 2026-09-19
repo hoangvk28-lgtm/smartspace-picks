@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-leather-letter-trays","title":"Best Leather Letter Trays in 2026"},{"href":"/guide/best-3-tier-letter-trays","title":"Best 3-Tier Letter Trays in 2026"},{"href":"/guide/best-letter-trays-for-home-offices","title":"Best Letter Trays for Home Offices in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-decorative-letter-trays","title":"Best Decorative Letter Trays in 2026"},{"href":"/guide/best-leather-letter-trays","title":"Best Leather Letter Trays in 2026"},{"href":"/guide/best-3-tier-letter-trays","title":"Best 3-Tier Letter Trays in 2026"}];
