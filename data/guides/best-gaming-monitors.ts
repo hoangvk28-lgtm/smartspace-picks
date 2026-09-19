@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-34-inch-gaming-monitors","title":"Best 34-Inch Gaming Monitors in 2026"},{"href":"/guide/best-koorui-gaming-monitors","title":"Best KOORUI Gaming Monitors in 2026"},{"href":"/guide/best-2k-gaming-monitors","title":"Best 2K Gaming Monitors in 2026"},{"href":"/guide/best-gaming-monitors-with-built-in-speakers","title":"Best Gaming Monitors With Built-In Speakers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-evnia-gaming-monitors","title":"Best Evnia Gaming Monitors in 2026"},{"href":"/guide/best-34-inch-gaming-monitors","title":"Best 34-Inch Gaming Monitors in 2026"},{"href":"/guide/best-koorui-gaming-monitors","title":"Best KOORUI Gaming Monitors in 2026"},{"href":"/guide/best-1440p-ips-gaming-monitors","title":"Best 1440p IPS Gaming Monitors in 2026"}];

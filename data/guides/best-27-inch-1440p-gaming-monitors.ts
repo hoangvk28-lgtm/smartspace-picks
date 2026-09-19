@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-24-inch-gaming-monitors","title":"Best 24-Inch Gaming Monitors in 2026"},{"href":"/guide/best-1440p-gaming-monitors","title":"Best 1440p Gaming Monitors in 2026"},{"href":"/guide/best-27-inch-oled-gaming-monitors","title":"Best 27-Inch OLED Gaming Monitors in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-24-inch-gaming-monitors","title":"Best 24-Inch Gaming Monitors in 2026"},{"href":"/guide/best-32-inch-oled-gaming-monitors","title":"Best 32-Inch OLED Gaming Monitors in 2026"},{"href":"/guide/best-1440p-120hz-gaming-monitors","title":"Best 1440p 120Hz Gaming Monitors in 2026"}];

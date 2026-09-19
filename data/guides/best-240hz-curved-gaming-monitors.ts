@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-curved-gaming-monitors","title":"Best Curved Gaming Monitors in 2026"},{"href":"/guide/best-34-inch-curved-gaming-monitors","title":"Best 34-Inch Curved Gaming Monitors in 2026"},{"href":"/guide/best-4k-240hz-gaming-monitors","title":"Best 4K 240Hz Gaming Monitors in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4k-240hz-curved-gaming-monitors","title":"Best 4K 240Hz Curved Gaming Monitors in 2026"},{"href":"/guide/best-gaming-monitors","title":"Best Gaming Monitors in 2026"},{"href":"/guide/best-curved-gaming-monitors","title":"Best Curved Gaming Monitors in 2026"},{"href":"/guide/best-34-inch-curved-gaming-monitors","title":"Best 34-Inch Curved Gaming Monitors in 2026"}];
