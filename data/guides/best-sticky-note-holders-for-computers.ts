@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-sticky-note-holders-for-laptops","title":"Best Sticky Note Holders for Laptops in 2026"},{"href":"/guide/best-magnetic-sticky-note-holders","title":"Best Magnetic Sticky Note Holders in 2026"},{"href":"/guide/best-sticky-note-holders-for-desks","title":"Best Sticky Note Holders for Desks in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sticky-note-dispensers","title":"Best Sticky Note Dispensers in 2026"},{"href":"/guide/best-sticky-note-holders-for-laptops","title":"Best Sticky Note Holders for Laptops in 2026"},{"href":"/guide/best-magnetic-sticky-note-holders","title":"Best Magnetic Sticky Note Holders in 2026"},{"href":"/guide/best-wall-mounted-sticky-note-holders","title":"Best Wall-Mounted Sticky Note Holders in 2026"}];

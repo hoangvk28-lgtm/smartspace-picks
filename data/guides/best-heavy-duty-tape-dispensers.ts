@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-tape-dispensers","title":"Best Tape Dispensers in 2026"},{"href":"/guide/best-automatic-tape-dispensers","title":"Best Automatic Tape Dispensers in 2026"},{"href":"/guide/best-2-inch-tape-dispensers","title":"Best 2-Inch Tape Dispensers in 2026"},{"href":"/guide/best-4-inch-tape-dispensers","title":"Best 4-Inch Tape Dispensers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-tape-dispensers","title":"Best Tape Dispensers in 2026"},{"href":"/guide/best-paper-tape-dispensers","title":"Best Paper Tape Dispensers in 2026"},{"href":"/guide/best-mini-tape-dispensers","title":"Best Mini Tape Dispensers in 2026"},{"href":"/guide/best-automatic-tape-dispensers","title":"Best Automatic Tape Dispensers in 2026"}];

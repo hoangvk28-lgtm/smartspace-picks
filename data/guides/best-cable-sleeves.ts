@@ -288,4 +288,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-velcro-cable-sleeves","title":"Best Velcro Cable Sleeves in 2026"},{"href":"/guide/best-expandable-cable-sleeves","title":"Best Expandable Cable Sleeves in 2026"},{"href":"/guide/best-zipper-cable-sleeves","title":"Best Zipper Cable Sleeves in 2026"},{"href":"/guide/best-aluminum-cable-sleeves","title":"Best Aluminum Cable Sleeves in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-plastic-cable-sleeves","title":"Best Plastic Cable Sleeves in 2026"},{"href":"/guide/best-velcro-cable-sleeves","title":"Best Velcro Cable Sleeves in 2026"},{"href":"/guide/best-nylon-cable-sleeves","title":"Best Nylon Cable Sleeves in 2026"},{"href":"/guide/best-cable-sleeves-for-standing-desks","title":"Best Cable Sleeves for Standing Desks in 2026"}];

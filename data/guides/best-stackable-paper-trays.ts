@@ -304,4 +304,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-2-tier-paper-trays","title":"Best 2-Tier Paper Trays in 2026"},{"href":"/guide/best-vertical-paper-trays","title":"Best Vertical Paper Trays in 2026"},{"href":"/guide/best-5-tier-paper-trays","title":"Best 5-Tier Paper Trays in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-paper-trays-for-desks","title":"Best Paper Trays for Desks in 2026"},{"href":"/guide/best-wooden-paper-trays","title":"Best Wooden Paper Trays in 2026"},{"href":"/guide/best-legal-size-paper-trays","title":"Best Legal-Size Paper Trays in 2026"},{"href":"/guide/best-2-tier-paper-trays","title":"Best 2-Tier Paper Trays in 2026"}];
