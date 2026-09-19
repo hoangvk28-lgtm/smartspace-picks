@@ -9,7 +9,7 @@ export const introParagraphs = [
 ];
 export const lastUpdated = "2026-08-31";
 export const readTime = "11 min";
-export const heroImage = "https://m.media-amazon.com/images/I/51AoveMtt1S._SL500_.jpg";
+export const heroImage = "https://m.media-amazon.com/images/I/51GccavF4EL._SL500_.jpg";
 
 export interface GuideProduct {
   id: string; rank: number; badge: string; name: string; price: string; rating: number | null; reviews: number | null;
@@ -21,15 +21,15 @@ export const products: GuideProduct[] = [
     id: "best-fabric-label-printers-1",
     rank: 1,
     badge: "Best Overall",
-    name: "Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White",
-    price: "$59.99",
+    name: "June Tailor JT-403 Quilt Label Fabric Sheets",
+    price: "$14.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/51AoveMtt1S._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B073XPT4BS?tag=deskfinds0d-20",
-    description: "Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White is the top pick in this comparison. Easily personalize satin ribbon, patterned, matte, pastel, or washi tape to add a personal touch to gift-wrapping, party favors, table settings, craft and organization projects, scrapbooking and more. A qwerty keyboard, 1-touch easy formatting keys, built-in memory for up to 20 labels and print preview options make using p-touch embellish easy.\n\nSet next to 3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing, the two land close enough on paper that it's worth comparing both listings directly on the spec that matters most for your setup.\n\nThis fits best if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Marketed specs and real-world performance can differ, so check independent reviews before assuming the headline number tells the full story.",
-    specs: ["Create decorative ribbon and tape accents", "Personalized printing", "Qwerty keyboard, 1-touch easy formatting keys, built-in memory for up to 20 labels"],
-    pros: ["Create decorative ribbon and tape accents", "Personalized printing", "Qwerty keyboard, 1-touch easy formatting keys, built-in memory for up to 20 labels", "Lightweight and portable"],
+    imageUrl: "https://m.media-amazon.com/images/I/51GccavF4EL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B001AQPTVS?tag=deskfinds0d-20",
+    description: "June Tailor JT-403 Quilt Label Fabric Sheets is the strongest all-around choice here. The june tailor website and print from you inkjet printer. Press you custom label onto your completed quilt.\n\nAgainst Phomemo Label Maker Machine with Tape, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nGo with this pick if you want the strongest all-around pick in this comparison and would rather not keep shopping around. Marketed specs and real-world performance can differ, so check independent reviews before assuming the headline number tells the full story.",
+    specs: ["June tailor website and print from you inkjet printer", "Press you custom label onto your completed quilt", "United states"],
+    pros: ["June tailor website and print from you inkjet printer", "Press you custom label onto your completed quilt", "United states", "Product height"],
     cons: ["Marketed specs and real-world specs often differ", "Check compatibility with your exact setup before buying"],
     bestFor: "buyers who want the strongest all-around pick in this comparison and would rather not keep shopping around",
   },
@@ -37,69 +37,21 @@ export const products: GuideProduct[] = [
     id: "best-fabric-label-printers-2",
     rank: 2,
     badge: "Also Worth Considering",
-    name: "3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing",
-    price: "$9.99",
+    name: "Phomemo Label Maker Machine with Tape",
+    price: "$12.99",
     rating: null,
     reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/419a1HUN1NL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0DKBS7YQ2?tag=deskfinds0d-20",
-    description: "3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing is a strong alternative worth comparing directly against the top pick. 3-Pack of 1/2 inch x 6.5 feet (12mm) fabric iron-on label maker refills 18771, compatible with dymo letratag refills, black on white fabric label tape for clothing.\n\nSet next to Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White, the two land close enough on paper that it's worth comparing both listings directly on the spec that matters most for your setup.\n\nGo with this pick if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Compatibility with your exact setup matters more than the spec sheet alone, so confirm it works with your specific gear before buying.",
-    specs: ["3-Pack of 1/2 inch x 6.5 feet (12mm) fabric iron-on label maker refills", "Aonomi skin-friendly fabric iron-on label tape is durable", "Various uses"],
-    pros: ["3-Pack of 1/2 inch x 6.5 feet (12mm) fabric iron-on label maker refills", "Aonomi skin-friendly fabric iron-on label tape is durable", "Various uses", "Aonomi label maker refills are replacements for dymo letra"],
+    imageUrl: "https://m.media-amazon.com/images/I/41YP4dVkSqL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0BYSPM255?tag=deskfinds0d-20",
+    description: "Phomemo Label Maker Machine with Tape is a strong alternative worth comparing directly against the top pick. Label maker machine with tape supports thermal labels and thermal transfer labels.\n\nJune Tailor JT-403 Quilt Label Fabric Sheets is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nThis makes sense for anyone who want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Compatibility with your exact setup matters more than the spec sheet alone, so confirm it works with your specific gear before buying.",
+    specs: ["Bluetooth label maker", "Cost saving-small label maker", "School, classroom must haves"],
+    pros: ["Bluetooth label maker", "Cost saving-small label maker", "School, classroom must haves", "Multiple personalized label templates"],
     cons: ["Check compatibility with your exact setup before buying", "Marketed specs and real-world specs often differ"],
     bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   },
   {
     id: "best-fabric-label-printers-3",
     rank: 3,
-    badge: "Solid Alternative",
-    name: "EQ Printables Inkjet Fabric Sheets, 1 Pack",
-    price: "$21.99",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/51S+fXPuHrL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B000MTO39S?tag=deskfinds0d-20",
-    description: "EQ Printables Inkjet Fabric Sheets, 1 Pack is a strong alternative worth comparing directly against the top pick. Print sharp, photo-quality images from your computer onto these soft (never rubbery!) fabric sheets. You become a fabric designer as you scan in photos, flowers, love letters, or whatever.\n\nEq printables (6 sheets) 8 1/2\" x 11\" inkjet fabric sheets, which is the main thing that distinguishes this pick from Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White.\n\nThis fits best if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Marketed specs and real-world performance can differ, so check independent reviews before assuming the headline number tells the full story.",
-    specs: ["Print sharp, photo-quality images from your computer onto these soft (never rubbery!) fabric sheets", "You become a fabric designer as you scan in photos", "Eq printables (6 sheets) 8 1/2\" x 11\" inkjet fabric sheets"],
-    pros: ["Print sharp, photo-quality images from your computer onto these soft (never rubbery!) fabric sheets", "You become a fabric designer as you scan in photos", "Eq printables (6 sheets) 8 1/2\" x 11\" inkjet fabric sheets"],
-    cons: ["Marketed specs and real-world specs often differ", "Check compatibility with your exact setup before buying"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
-  },
-  {
-    id: "best-fabric-label-printers-4",
-    rank: 4,
-    badge: "Another Strong Option",
-    name: "June Tailor JT-403 Quilt Label Fabric Sheets",
-    price: "$14.99",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/51GccavF4EL._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B001AQPTVS?tag=deskfinds0d-20",
-    description: "June Tailor JT-403 Quilt Label Fabric Sheets is a strong alternative worth comparing directly against the top pick. The june tailor website and print from you inkjet printer. Press you custom label onto your completed quilt.\n\nAgainst Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nThis fits best if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Compatibility with your exact setup matters more than the spec sheet alone, so confirm it works with your specific gear before buying.",
-    specs: ["June tailor website and print from you inkjet printer", "Press you custom label onto your completed quilt", "United states"],
-    pros: ["June tailor website and print from you inkjet printer", "Press you custom label onto your completed quilt", "United states", "Product height"],
-    cons: ["Check compatibility with your exact setup before buying", "Marketed specs and real-world specs often differ"],
-    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
-  },
-  {
-    id: "best-fabric-label-printers-5",
-    rank: 5,
-    badge: "Best Premium Pick",
-    name: "Phomemo Ribbon Label Printer",
-    price: "$59.99",
-    rating: null,
-    reviews: null,
-    imageUrl: "https://m.media-amazon.com/images/I/51+hCWrLo8L._SL500_.jpg",
-    amazonUrl: "https://www.amazon.com/dp/B0FZB7C21Q?tag=deskfinds0d-20",
-    description: "Phomemo Ribbon Label Printer is the premium option here, positioned above the rest on price. Phomemo a30 gift set: 1x a30 label maker +1x black on beige satin ribbon + 1x gold on navy satin ribbon + 2x black on white label tapes. The a30 label maker machine with tapes performance and strong temperature resistance, operating flawlessly in extreme temperature ranges (from -10°c to 60°c).\n\nBrother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nThis makes sense for anyone who are willing to spend the most in this comparison for the fuller feature set that comes with it. Marketed specs and real-world performance can differ, so check independent reviews before assuming the headline number tells the full story.",
-    specs: ["Phomemo a30 gift set", "Waterproof label maker for in/outdoor use", "Abundant creative features and templates"],
-    pros: ["Phomemo a30 gift set", "Waterproof label maker for in/outdoor use", "Abundant creative features and templates", "Versatile compatibility & long-lasting prints"],
-    cons: ["Marketed specs and real-world specs often differ", "Check compatibility with your exact setup before buying"],
-    bestFor: "buyers who are willing to spend the most in this comparison for the fuller feature set that comes with it",
-  },
-  {
-    id: "best-fabric-label-printers-6",
-    rank: 6,
     badge: "Best Value",
     name: "Avery No-Iron Fabric Labels",
     price: "$9.80",
@@ -107,11 +59,59 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41V529-HKoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6WS53SJ?tag=deskfinds0d-20",
-    description: "Avery No-Iron Fabric Labels is the best-value option in this roundup, priced lowest without a real capability gap. Enjoy long-lasting organization with waterproof, durable labels designed to withstand multiple washing machine and dryer cycles. Label stickers are backed with a permanent adhesive that can be applied to a wide range of smooth surfaces, including fabric, water bottles, luggage, school supplies, and more with no iron required.\n\nBrother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White is a reasonable point of comparison here, close enough that the actual listing details are worth checking before deciding between them.\n\nIt's worth picking this one if you want a genuinely capable pick without paying for headroom you won't use. Compatibility with your exact setup matters more than the spec sheet alone, so confirm it works with your specific gear before buying.",
+    description: "Avery No-Iron Fabric Labels is the best-value option in this roundup, priced lowest without a real capability gap. Enjoy long-lasting organization with waterproof, durable labels designed to withstand multiple washing machine and dryer cycles. Label stickers are backed with a permanent adhesive that can be applied to a wide range of smooth surfaces, including fabric, water bottles, luggage, school supplies, and more with no iron required.\n\nAgainst June Tailor JT-403 Quilt Label Fabric Sheets, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nThis fits best if you want a genuinely capable pick without paying for headroom you won't use. Marketed specs and real-world performance can differ, so check independent reviews before assuming the headline number tells the full story.",
     specs: ["Easily organize and keep track of items with no-iron", "Enjoy long-lasting organization with waterproof", "Label stickers are backed with a permanent adhesive"],
     pros: ["Easily organize and keep track of items with no-iron", "Enjoy long-lasting organization with waterproof", "Label stickers are backed with a permanent adhesive", "Handwrite directly on the sticker labels with permanent marker"],
-    cons: ["Check compatibility with your exact setup before buying", "Marketed specs and real-world specs often differ"],
+    cons: ["Marketed specs and real-world specs often differ", "Check compatibility with your exact setup before buying"],
     bestFor: "buyers who want a genuinely capable pick without paying for headroom you won't use",
+  },
+  {
+    id: "best-fabric-label-printers-4",
+    rank: 4,
+    badge: "Another Strong Option",
+    name: "Avery Printable Fabric Sheets",
+    price: "$16.70",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/51YYoDgW0nL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0000C0CJZ?tag=deskfinds0d-20",
+    description: "Avery Printable Fabric Sheets is a strong alternative worth comparing directly against the top pick. Easily personalize tote bags, pillows, quilts, blankets, and more with 8.5\" x 11\" printable fabric transfer sheets. Transfer text, images and pictures easily at home with a standard iron or using a professional heat press; full instructions for fabric paper are included in every pack.\n\nAgainst June Tailor JT-403 Quilt Label Fabric Sheets, neither pick has an obvious edge on paper, so the deciding factor comes down to whichever spec matters most for your specific use case.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Compatibility with your exact setup matters more than the spec sheet alone, so confirm it works with your specific gear before buying.",
+    specs: ["Easily personalize tote bags", "Transfer text, images and pictures easily at home", "Design creations in a variety of sizes and print on your inkjet printer"],
+    pros: ["Easily personalize tote bags", "Transfer text, images and pictures easily at home", "Design creations in a variety of sizes and print on your inkjet printer", "Bonds easily to fabric"],
+    cons: ["Check compatibility with your exact setup before buying", "Marketed specs and real-world specs often differ"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
+  },
+  {
+    id: "best-fabric-label-printers-5",
+    rank: 5,
+    badge: "Best Premium Pick",
+    name: "EQ Printables Inkjet Fabric Sheets, 1 Pack",
+    price: "$21.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/51S+fXPuHrL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B000MTO39S?tag=deskfinds0d-20",
+    description: "EQ Printables Inkjet Fabric Sheets, 1 Pack is the priciest pick in this lineup. Print sharp, photo-quality images from your computer onto these soft (never rubbery!) fabric sheets. You become a fabric designer as you scan in photos, flowers, love letters, or whatever.\n\nSide by side with June Tailor JT-403 Quilt Label Fabric Sheets, the real difference worth noting is eq printables (6 sheets) 8 1/2\" x 11\" inkjet fabric sheets.\n\nGo with this pick if you are willing to spend the most in this comparison for the fuller feature set that comes with it. Marketed specs and real-world performance can differ, so check independent reviews before assuming the headline number tells the full story.",
+    specs: ["Print sharp, photo-quality images from your computer onto these soft (never rubbery!) fabric sheets", "You become a fabric designer as you scan in photos", "Eq printables (6 sheets) 8 1/2\" x 11\" inkjet fabric sheets"],
+    pros: ["Print sharp, photo-quality images from your computer onto these soft (never rubbery!) fabric sheets", "You become a fabric designer as you scan in photos", "Eq printables (6 sheets) 8 1/2\" x 11\" inkjet fabric sheets"],
+    cons: ["Marketed specs and real-world specs often differ", "Check compatibility with your exact setup before buying"],
+    bestFor: "buyers who are willing to spend the most in this comparison for the fuller feature set that comes with it",
+  },
+  {
+    id: "best-fabric-label-printers-6",
+    rank: 6,
+    badge: "Worth a Look",
+    name: "3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing",
+    price: "$9.99",
+    rating: null,
+    reviews: null,
+    imageUrl: "https://m.media-amazon.com/images/I/419a1HUN1NL._SL500_.jpg",
+    amazonUrl: "https://www.amazon.com/dp/B0DKBS7YQ2?tag=deskfinds0d-20",
+    description: "3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing is a strong alternative worth comparing directly against the top pick. 3-Pack of 1/2 inch x 6.5 feet (12mm) fabric iron-on label maker refills 18771, compatible with dymo letratag refills, black on white fabric label tape for clothing.\n\nSet next to June Tailor JT-403 Quilt Label Fabric Sheets, the two land close enough on paper that it's worth comparing both listings directly on the spec that matters most for your setup.\n\nThis one is the right call if you want a genuine alternative to the top pick with a different tradeoff worth comparing directly. Compatibility with your exact setup matters more than the spec sheet alone, so confirm it works with your specific gear before buying.",
+    specs: ["3-Pack of 1/2 inch x 6.5 feet (12mm) fabric iron-on label maker refills", "Aonomi skin-friendly fabric iron-on label tape is durable", "Various uses"],
+    pros: ["3-Pack of 1/2 inch x 6.5 feet (12mm) fabric iron-on label maker refills", "Aonomi skin-friendly fabric iron-on label tape is durable", "Various uses", "Aonomi label maker refills are replacements for dymo letra"],
+    cons: ["Check compatibility with your exact setup before buying", "Marketed specs and real-world specs often differ"],
+    bestFor: "buyers who want a genuine alternative to the top pick with a different tradeoff worth comparing directly",
   }
 ];
 
@@ -161,11 +161,11 @@ export const howToChoose: HowToChooseSection[] = [
         ],
         [
           "Regular desk or shipping use",
-          "Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White"
+          "June Tailor JT-403 Quilt Label Fabric Sheets"
         ],
         [
           "High-volume daily printing",
-          "Phomemo Ribbon Label Printer"
+          "EQ Printables Inkjet Fabric Sheets, 1 Pack"
         ]
       ]
     }
@@ -184,11 +184,11 @@ export const howToChoose: HowToChooseSection[] = [
         ],
         [
           "Mid-range pick",
-          "3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing"
+          "Phomemo Label Maker Machine with Tape"
         ],
         [
           "Higher budget",
-          "Phomemo Ribbon Label Printer"
+          "EQ Printables Inkjet Fabric Sheets, 1 Pack"
         ]
       ]
     }
@@ -217,11 +217,11 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Fixed desk spot",
-          "Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White"
+          "June Tailor JT-403 Quilt Label Fabric Sheets"
         ],
         [
           "Needs mobility or app printing",
-          "3X Fabric Tape Replace for Dymo Letratag Iron-On Fabric Labels for Clothing"
+          "Phomemo Label Maker Machine with Tape"
         ]
       ]
     }
@@ -235,7 +235,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "In this comparison",
-        "text": "Brother P-Touch Embellish Ribbon & Tape Printer PT-D215E, White is worth checking against its specific spec sheet before assuming any pick here covers your exact need."
+        "text": "June Tailor JT-403 Quilt Label Fabric Sheets is worth checking against its specific spec sheet before assuming any pick here covers your exact need."
       }
     ]
   },
@@ -244,7 +244,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You need the strongest real-world performance and sturdiest build, where Phomemo Ribbon Label Printer justifies the extra cost."
+        "text": "You need the strongest real-world performance and sturdiest build, where EQ Printables Inkjet Fabric Sheets, 1 Pack justifies the extra cost."
       },
       {
         "label": "Save if",

@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-multi-filament-3d-printers","title":"Best Multi-Filament 3D Printers in 2026"},{"href":"/guide/best-bambu-lab-3d-printers","title":"Best Bambu Lab 3D Printers in 2026"},{"href":"/guide/best-4-color-3d-printers","title":"Best 4-Color 3D Printers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-anycubic-3d-printers","title":"Best Anycubic 3D Printers in 2026"},{"href":"/guide/best-geeetech-3d-printers","title":"Best Geeetech 3D Printers in 2026"},{"href":"/guide/best-multi-filament-3d-printers","title":"Best Multi-Filament 3D Printers in 2026"}];

@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-label-printers","title":"Best Label Printers in 2026"},{"href":"/guide/best-rollo-label-printers","title":"Best Rollo Label Printers in 2026"},{"href":"/guide/best-color-label-printers","title":"Best Color Label Printers in 2026"},{"href":"/guide/best-sticker-label-printers","title":"Best Sticker Label Printers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-label-printers","title":"Best Label Printers in 2026"},{"href":"/guide/best-rollo-label-printers","title":"Best Rollo Label Printers in 2026"},{"href":"/guide/best-polono-label-printers","title":"Best POLONO Label Printers in 2026"},{"href":"/guide/best-color-label-printers","title":"Best Color Label Printers in 2026"}];

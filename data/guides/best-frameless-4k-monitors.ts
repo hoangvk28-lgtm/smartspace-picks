@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4k-monitors","title":"Best 4K Monitors in 2026"},{"href":"/guide/best-samsung-4k-monitors","title":"Best Samsung 4K Monitors in 2026"},{"href":"/guide/best-asus-4k-monitors","title":"Best ASUS 4K Monitors in 2026"},{"href":"/guide/best-32-inch-oled-4k-monitors","title":"Best 32-Inch OLED 4K Monitors in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4k-monitors","title":"Best 4K Monitors in 2026"},{"href":"/guide/best-samsung-4k-monitors","title":"Best Samsung 4K Monitors in 2026"},{"href":"/guide/best-27-inch-4k-monitors-for-gaming","title":"Best 27-Inch 4K Monitors for Gaming in 2026"},{"href":"/guide/best-ips-4k-monitors-for-gaming","title":"Best IPS 4K Monitors for Gaming in 2026"}];

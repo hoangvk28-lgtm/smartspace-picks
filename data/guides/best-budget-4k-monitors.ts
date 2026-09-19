@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4k-monitors","title":"Best 4K Monitors in 2026"},{"href":"/guide/best-qd-oled-4k-monitors","title":"Best QD-OLED 4K Monitors in 2026"},{"href":"/guide/best-4k-monitors-with-hdmi-2-1","title":"Best 4K Monitors With HDMI 2.1 in 2026"},{"href":"/guide/best-usb-c-4k-monitors","title":"Best USB-C 4K Monitors in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4k-monitors","title":"Best 4K Monitors in 2026"},{"href":"/guide/best-qd-oled-4k-monitors","title":"Best QD-OLED 4K Monitors in 2026"},{"href":"/guide/best-ktc-4k-monitors","title":"Best KTC 4K Monitors in 2026"},{"href":"/guide/best-4k-monitors-with-hdmi-2-1","title":"Best 4K Monitors With HDMI 2.1 in 2026"}];

@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-label-printers","title":"Best Label Printers in 2026"},{"href":"/guide/best-label-printers-compatible-with-square","title":"Best Label Printers Compatible With Square in 2026"},{"href":"/guide/best-rollo-label-printers","title":"Best Rollo Label Printers in 2026"},{"href":"/guide/best-color-label-printers","title":"Best Color Label Printers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-label-printers","title":"Best Label Printers in 2026"},{"href":"/guide/best-label-printers-compatible-with-square","title":"Best Label Printers Compatible With Square in 2026"},{"href":"/guide/best-mrp-label-printers","title":"Best MRP Label Printers in 2026"},{"href":"/guide/best-rollo-label-printers","title":"Best Rollo Label Printers in 2026"}];

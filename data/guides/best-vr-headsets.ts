@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-vr-headsets-with-face-and-eye-tracking","title":"Best VR Headsets With Face and Eye Tracking in 2026"},{"href":"/guide/best-512gb-vr-headsets","title":"Best 512GB VR Headsets in 2026"},{"href":"/guide/best-vr-headsets-with-face-tracking","title":"Best VR Headsets With Face Tracking in 2026"},{"href":"/guide/best-vr-headsets-for-glasses-wearers","title":"Best VR Headsets for Glasses Wearers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-vr-headsets-for-drawing-and-painting","title":"Best VR Headsets for Drawing and Painting in 2026"},{"href":"/guide/best-vr-headsets-with-face-and-eye-tracking","title":"Best VR Headsets With Face and Eye Tracking in 2026"},{"href":"/guide/best-varjo-vr-headsets","title":"Best Varjo VR Headsets in 2026"},{"href":"/guide/best-512gb-vr-headsets","title":"Best 512GB VR Headsets in 2026"}];

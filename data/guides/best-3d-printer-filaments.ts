@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-clear-3d-printer-filaments","title":"Best Clear 3D Printer Filaments in 2026"},{"href":"/guide/best-1-75mm-3d-printer-filaments","title":"Best 1.75mm 3D Printer Filaments in 2026"},{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-food-safe-3d-printer-filaments","title":"Best Food-Safe 3D Printer Filaments in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rubber-3d-printer-filaments","title":"Best Rubber 3D Printer Filaments in 2026"},{"href":"/guide/best-clear-3d-printer-filaments","title":"Best Clear 3D Printer Filaments in 2026"},{"href":"/guide/best-1-75mm-3d-printer-filaments","title":"Best 1.75mm 3D Printer Filaments in 2026"},{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"}];

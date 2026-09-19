@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-3d-printer-carts","title":"Best 3D Printer Carts in 2026"},{"href":"/guide/best-3d-printer-desks","title":"Best 3D Printer Desks in 2026"},{"href":"/guide/best-3d-printer-extruders","title":"Best 3D Printer Extruders in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-3d-printer-carts","title":"Best 3D Printer Carts in 2026"},{"href":"/guide/best-3d-printer-extruders","title":"Best 3D Printer Extruders in 2026"},{"href":"/guide/best-3d-printer-ups-battery-backups","title":"Best 3D Printer UPS Battery Backups in 2026"}];

@@ -262,4 +262,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-label-printers","title":"Best Label Printers in 2026"},{"href":"/guide/best-mini-label-printers","title":"Best Mini Label Printers in 2026"},{"href":"/guide/best-iphone-label-printers","title":"Best iPhone Label Printers in 2026"},{"href":"/guide/best-label-printers-for-usps","title":"Best Label Printers for USPS in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-label-printers","title":"Best Label Printers in 2026"},{"href":"/guide/best-mini-label-printers","title":"Best Mini Label Printers in 2026"},{"href":"/guide/best-iphone-label-printers","title":"Best iPhone Label Printers in 2026"},{"href":"/guide/best-mrp-label-printers","title":"Best MRP Label Printers in 2026"}];

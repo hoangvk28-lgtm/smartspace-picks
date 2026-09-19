@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-large-format-3d-printers","title":"Best Large-Format 3D Printers in 2026"},{"href":"/guide/best-delta-3d-printers","title":"Best Delta 3D Printers in 2026"},{"href":"/guide/best-dlp-3d-printers","title":"Best DLP 3D Printers in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3d-printers","title":"Best 3D Printers in 2026"},{"href":"/guide/best-large-format-3d-printers","title":"Best Large-Format 3D Printers in 2026"},{"href":"/guide/best-raise3d-3d-printers","title":"Best Raise3D 3D Printers in 2026"},{"href":"/guide/best-dremel-3d-printers","title":"Best Dremel 3D Printers in 2026"}];

@@ -310,4 +310,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-vr-headsets","title":"Best VR Headsets in 2026"},{"href":"/guide/best-oled-vr-headsets","title":"Best OLED VR Headsets in 2026"},{"href":"/guide/best-4k-oled-vr-headsets","title":"Best 4K OLED VR Headsets in 2026"},{"href":"/guide/best-vr-headsets-for-flight-sims","title":"Best VR Headsets for Flight Sims in 2026"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4k-micro-oled-vr-headsets","title":"Best 4K Micro-OLED VR Headsets in 2026"},{"href":"/guide/best-vr-headsets","title":"Best VR Headsets in 2026"},{"href":"/guide/best-oled-vr-headsets","title":"Best OLED VR Headsets in 2026"},{"href":"/guide/best-4k-oled-vr-headsets","title":"Best 4K OLED VR Headsets in 2026"}];
