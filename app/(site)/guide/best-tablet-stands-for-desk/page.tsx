@@ -351,6 +351,10 @@ export default async function BestTabletStandsForDeskPage() {
                 {link.label}
               </Link>
             ))}
+            <a href="https://www.worthrated.com/guide/best-easy-to-use-tablets" target="_blank" rel="noopener noreferrer"
+              className="px-3 py-1.5 bg-bg border border-border rounded-badge text-sm font-medium text-brand hover:bg-brand hover:text-white transition-colors">
+              Need a tablet too? Best Easy-to-Use Tablets (WorthRated) ↗
+            </a>
           </div>
         </div>
 

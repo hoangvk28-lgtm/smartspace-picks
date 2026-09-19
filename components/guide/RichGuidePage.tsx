@@ -455,18 +455,38 @@ export function RichGuidePage(props: RichGuidePageProps) {
         <section>
           <h2 className="text-xl font-bold text-ink mb-4 tracking-tight">Related Guides</h2>
           <div className="grid sm:grid-cols-2 gap-3">
-            {relatedGuides.map((g) => (
-              <Link prefetch={false} key={g.href} href={g.href} className="flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group">
-                <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
-                  <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="font-bold text-ink text-sm group-hover:text-brand transition-colors">{g.title}</p>
-                </div>
-              </Link>
-            ))}
+            {relatedGuides.map((g) => {
+              const isExternal = /^https?:\/\//.test(g.href);
+              const cardClass = "flex items-start gap-3 p-4 rounded-xl border border-border bg-white hover:border-brand transition-colors group";
+              const icon = isExternal ? (
+                <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              ) : (
+                <svg className="w-4 h-4 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                </svg>
+              );
+              const inner = (
+                <>
+                  <div className="w-8 h-8 rounded-lg bg-brand-muted flex items-center justify-center shrink-0 mt-0.5">
+                    {icon}
+                  </div>
+                  <div>
+                    <p className="font-bold text-ink text-sm group-hover:text-brand transition-colors">{g.title}</p>
+                  </div>
+                </>
+              );
+              return isExternal ? (
+                <a key={g.href} href={g.href} target="_blank" rel="noopener noreferrer" className={cardClass}>
+                  {inner}
+                </a>
+              ) : (
+                <Link prefetch={false} key={g.href} href={g.href} className={cardClass}>
+                  {inner}
+                </Link>
+              );
+            })}
           </div>
         </section>
       </Container>

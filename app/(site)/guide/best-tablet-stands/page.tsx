@@ -314,6 +314,16 @@ export default async function BestTabletStandsPage() {
                 <span className="text-xs font-semibold text-brand mt-2 inline-block">Read guide →</span>
               </Link>
             ))}
+            <a
+              href="https://www.worthrated.com/guide/best-easy-to-use-tablets"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group p-4 rounded-xl border border-border bg-white hover:border-brand/40 hover:shadow-sm transition-all"
+            >
+              <span className="text-[10px] font-bold uppercase tracking-widest text-brand block mb-1">Tablets</span>
+              <p className="text-sm font-semibold text-ink group-hover:text-brand transition-colors leading-snug">Need a tablet too? Best Easy-to-Use Tablets (WorthRated)</p>
+              <span className="text-xs font-semibold text-brand mt-2 inline-block">Read guide ↗</span>
+            </a>
           </div>
         </section>
 

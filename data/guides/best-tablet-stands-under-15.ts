@@ -195,5 +195,6 @@ export const relatedGuides: { href: string; title: string }[] = [
   { "href": "/guide/best-tablet-stands-under-10", "title": "Best Tablet Stands Under $10" },
   { "href": "/guide/best-tablet-stands-under-20", "title": "Best Tablet Stands Under $20" },
   { "href": "/guide/best-office-chairs-under-100", "title": "Best Office Chairs Under $100" },
-  { "href": "/guide/best-desk-hutches-under-75", "title": "Best Desk Hutches Under $75" }
+  { "href": "/guide/best-desk-hutches-under-75", "title": "Best Desk Hutches Under $75" },
+  { "href": "https://www.worthrated.com/guide/best-tablets-under-50", "title": "Need a tablet too? Best Tablets Under $50 (WorthRated)" }
 ];
