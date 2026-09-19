@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { buildMetadata } from "@/lib/seo";
 import { getPublicGuides } from "@/lib/public-guides";
-import { formatDate } from "@/lib/utils";
 import { categories } from "@/data/categories";
 
 export const revalidate = 604800;
@@ -70,82 +68,38 @@ export default async function AllGuidesPage() {
               <p className="text-sm text-ink-secondary max-w-2xl">{category.shortDescription}</p>
               <p className="text-xs text-ink-muted mt-1">{catGuides.length} guides</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {catGuides.map((guide) => {
-                const thumb = guide.thumbnailImage || guide.heroImage;
-                return (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+              {catGuides.map((guide) => (
+                <li key={guide.slug}>
                   <Link prefetch={false}
-                    key={guide.slug}
                     href={`/guide/${guide.slug}`}
-                    className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden"
+                    className="group flex items-baseline gap-2 py-1.5 border-b border-border/60 hover:border-brand/40 transition-colors"
                   >
-                    {thumb ? (
-                      <div className="relative w-full h-40 bg-bg overflow-hidden">
-                        <Image
-                          src={thumb}
-                          alt={guide.title}
-                          fill
-                          className="object-cover group-hover:scale-[1.03] transition-transform duration-300"
-                          unoptimized
-                        />
-                        <span className="absolute top-2 left-2 text-[10px] font-bold uppercase tracking-widest text-white bg-brand px-2 py-0.5 rounded-full">
-                          {guide.subcategorySlug.replace(/-/g, " ")}
-                        </span>
-                      </div>
-                    ) : (
-                      <div className="w-full h-40 bg-brand-muted flex items-center justify-center relative">
-                        <svg className="w-8 h-8 text-brand/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                        </svg>
-                      </div>
-                    )}
-                    <div className="flex flex-col gap-1.5 p-3 flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="text-xs text-ink-muted">{guide.readTime}</span>
-                        <span className="text-xs text-ink-muted">{formatDate(guide.lastUpdated)}</span>
-                      </div>
-                      <h3 className="font-bold text-ink leading-snug group-hover:text-brand transition-colors text-sm">
-                        {guide.title}
-                      </h3>
-                      <p className="text-xs text-ink-secondary leading-relaxed line-clamp-2 flex-1">
-                        {guide.description}
-                      </p>
-                      <span className="text-xs font-semibold text-brand mt-1 flex items-center gap-0.5">
-                        Read guide
-                        <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3} aria-hidden="true">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />
-                        </svg>
-                      </span>
-                    </div>
+                    <span className="text-sm text-ink group-hover:text-brand transition-colors leading-snug">
+                      {guide.title}
+                    </span>
+                    <span className="text-xs text-ink-muted shrink-0 ml-auto">{guide.readTime}</span>
                   </Link>
-                );
-              })}
-            </div>
+                </li>
+              ))}
+            </ul>
           </section>
         ))}
 
         {uncategorised.length > 0 && (
           <section id="cat-other" className="scroll-mt-20">
             <h2 className="text-2xl font-bold text-ink tracking-tight mb-6">More Guides</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {uncategorised.map((guide) => {
-                const thumb = guide.thumbnailImage || guide.heroImage;
-                return (
-                  <Link prefetch={false} key={guide.slug} href={`/guide/${guide.slug}`}
-                    className="group flex flex-col bg-white rounded-card border border-border hover:shadow-card-hover hover:border-brand/20 transition-all overflow-hidden">
-                    {thumb && (
-                      <div className="relative w-full h-40 bg-bg overflow-hidden">
-                        <Image src={thumb} alt={guide.title} fill className="object-cover group-hover:scale-[1.03] transition-transform duration-300" unoptimized />
-                      </div>
-                    )}
-                    <div className="flex flex-col gap-1.5 p-3 flex-1">
-                      <h3 className="font-bold text-ink leading-snug group-hover:text-brand transition-colors text-sm">{guide.title}</h3>
-                      <p className="text-xs text-ink-secondary leading-relaxed line-clamp-2">{guide.description}</p>
-                    </div>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+              {uncategorised.map((guide) => (
+                <li key={guide.slug}>
+                  <Link prefetch={false} href={`/guide/${guide.slug}`}
+                    className="group flex items-baseline gap-2 py-1.5 border-b border-border/60 hover:border-brand/40 transition-colors">
+                    <span className="text-sm text-ink group-hover:text-brand transition-colors leading-snug">{guide.title}</span>
+                    <span className="text-xs text-ink-muted shrink-0 ml-auto">{guide.readTime}</span>
                   </Link>
-                );
-              })}
-            </div>
+                </li>
+              ))}
+            </ul>
           </section>
         )}
 
