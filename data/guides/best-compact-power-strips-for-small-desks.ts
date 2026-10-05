@@ -243,4 +243,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-small-power-strips-for-travel-and-desks", title: "Best Small Power Strips for Travel and Desks (2026)" },
   { href: "/guide/best-clamp-on-power-strips-for-desks", title: "Best Clamp-On Power Strips for Desks (2026)" },
   { href: "/guide/best-flat-plug-power-strips", title: "Best Flat-Plug Power Strips (2026)" },
+  { href: "https://gardeningisezee.com/growing/best-elevated-garden-beds", title: "Making the most of a small space outdoors too? Best Elevated Garden Beds (Gardening Is Ezee)" },
 ];

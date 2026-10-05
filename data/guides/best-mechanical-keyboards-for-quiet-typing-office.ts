@@ -465,4 +465,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-mechanical-keyboard-and-mouse-combos", title: "Best Mechanical Keyboard and Mouse Combos (2026)" },
   { href: "/guide/best-mechanical-keyboards-for-mac", title: "Best Mechanical Keyboards for Mac (2026)" },
   { href: "/guide/best-mechanical-keyboard-under-100", title: "Best Mechanical Keyboard Under $100 (2026)" },
+  { href: "https://www.theofficejournal.com/desk-setup/best-mechanical-keyboards-for-quiet-typing-office", title: "Best Quiet Mechanical Keyboards for an Office (The Office Journal)" },
 ];

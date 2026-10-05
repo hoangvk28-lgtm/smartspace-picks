@@ -247,4 +247,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-clamp-on-power-strips-for-desks", title: "Best Clamp-On Power Strips for Desks (2026)" },
   { href: "/guide/best-under-desk-power-strips", title: "Best Under-Desk Power Strips (2026)" },
   { href: "/guide/best-power-strips-for-standing-desks", title: "Best Power Strips for Standing Desks (2026)" },
+  { href: "https://www.theofficejournal.com/desk-setup/best-power-strips-with-usb-ports", title: "Best Power Strips with USB Ports (The Office Journal)" },
 ];

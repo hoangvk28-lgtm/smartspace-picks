@@ -274,4 +274,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-usb-c-laptop-charging-carts", title: "Best USB-C Laptop Charging Carts (2026)" },
   { href: "/guide/best-laptop-charging-stations-for-multiple-devices", title: "Best Laptop Charging Stations for Multiple Devices (2026)" },
   { href: "/guide/best-laptop-charging-stations-for-home", title: "Best Laptop Charging Stations for Home (2026)" },
+  { href: "https://www.hardcastlesrv.com/power-electrical/best-rv-inverter-for-boondocking", title: "Best RV Inverter for Boondocking (Hardcastle's RV)" },
 ];

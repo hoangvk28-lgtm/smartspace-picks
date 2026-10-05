@@ -484,4 +484,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-arm-mounts-under-50", title: "8 Best Monitor Arm Mounts Under $50 in 2026" },
   { href: "/guide/best-monitor-arm-desk-mounts", title: "Best Monitor Arm Desk Mounts" },
   { href: "/guide/best-dual-monitor-arms", title: "Best Dual Monitor Arms" },
+  { href: "https://www.workcocoon.com/desk-setup/best-monitor-arms", title: "Best Monitor Arms for a Calmer Home Office Setup (WorkCocoon)" },
 ];

@@ -488,4 +488,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-monitor-arms", title: "8 Best Monitor Arms in 2026" },
   { href: "/guide/best-dual-monitor-arms", title: "8 Best Dual Monitor Arms in 2026" },
   { href: "/guide/best-monitor-arm-under-100", title: "7 Best Monitor Arms Under $100 in 2026: Picks for Every Desk Size" },
+  { href: "https://www.thepcjournal.com/guides/best-portable-monitors", title: "Best Portable Monitors (The PC Journal)" },
 ];

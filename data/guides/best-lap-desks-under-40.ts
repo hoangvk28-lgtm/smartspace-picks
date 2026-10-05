@@ -195,5 +195,6 @@ export const relatedGuides: { href: string; title: string }[] = [
   { "href": "/guide/best-lap-desks-under-30", "title": "Best Lap Desks Under $30" },
   { "href": "/guide/best-lap-desks-under-50", "title": "Best Lap Desks Under $50" },
   { "href": "/guide/best-office-chairs-under-200", "title": "Best Office Chairs Under $200" },
-  { "href": "/guide/best-desk-pegboards-under-40", "title": "Best Desk Pegboards Under $40" }
+  { "href": "/guide/best-desk-pegboards-under-40", "title": "Best Desk Pegboards Under $40" },
+  { "href": "https://www.hardcastlesrv.com/power-electrical/best-30-amp-rv-surge-protector", "title": "Best 30 Amp RV Surge Protector (Hardcastle's RV)" }
 ];

@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-task-chairs","title":"Best Task Chairs"},{"href":"/guide/best-ergonomic-task-chairs","title":"Best Ergonomic Task Chairs"},{"href":"/guide/best-mesh-task-chairs","title":"Best Mesh Task Chairs"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-task-chairs","title":"Best Task Chairs"},{"href":"/guide/best-ergonomic-task-chairs","title":"Best Ergonomic Task Chairs"},{"href":"/guide/best-mesh-task-chairs","title":"Best Mesh Task Chairs"},{"href":"https://www.dannycamping.com/camp-furniture/best-camping-chairs-with-lumbar-support","title":"Working outdoors? Best Camping Chairs with Lumbar Support (Danny's Camping)"}];

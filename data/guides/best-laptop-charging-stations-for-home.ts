@@ -290,4 +290,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-laptop-charging-stations-for-multiple-devices", title: "Best Laptop Charging Stations for Multiple Devices (2026)" },
   { href: "/guide/best-multi-laptop-usb-c-charging-stations", title: "Best Multi-Laptop USB-C Charging Stations (2026)" },
   { href: "/guide/best-laptop-charging-carts", title: "Best Laptop Charging Carts (2026)" },
+  { href: "https://www.standbywatts.com/guide/best-portable-power-station-for-home-backup-picks", title: "Best Portable Power Station for Home Backup (StandbyWatts)" },
 ];

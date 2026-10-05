@@ -247,4 +247,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-power-strips-for-desks", title: "Best Power Strips for Desks (2026)" },
   { href: "/guide/best-power-strips-with-long-cords", title: "Best Power Strips with Long Cords (2026)" },
   { href: "/guide/best-outdoor-power-strips", title: "Best Outdoor Power Strips (2026)" },
+  { href: "https://gardeningisezee.com/growing/best-self-watering-raised-garden-beds", title: "Tidying up the rest of your space this season? Best Self-Watering Raised Garden Beds (Gardening Is Ezee)" },
 ];

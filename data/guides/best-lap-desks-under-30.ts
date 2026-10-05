@@ -195,5 +195,6 @@ export const relatedGuides: { href: string; title: string }[] = [
   { "href": "/guide/best-lap-desks-under-20", "title": "Best Lap Desks Under $20" },
   { "href": "/guide/best-lap-desks-under-40", "title": "Best Lap Desks Under $40" },
   { "href": "/guide/best-office-chairs-under-150", "title": "Best Office Chairs Under $150" },
-  { "href": "/guide/best-desk-pegboards-under-30", "title": "Best Desk Pegboards Under $30" }
+  { "href": "/guide/best-desk-pegboards-under-30", "title": "Best Desk Pegboards Under $30" },
+  { "href": "https://www.hardcastlesrv.com/power-electrical/best-portable-power-stations-for-laptop", "title": "Best Portable Power Stations for a Laptop (Hardcastle's RV)" }
 ];
