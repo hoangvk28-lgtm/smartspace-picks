@@ -121,7 +121,12 @@ export const faq = [
   {
     "q": "What routing protocols do budget Layer 3 switches support?",
     "a": "The two accessible options here support static routing at minimum, with the HYN@NET-style 8-port model adding OSPF and BGP for buyers who need dynamic routing protocols typically found only in enterprise gear."
-  }
+  },
+  { "q": "Do I actually need a Layer 3 switch, or is Layer 2 enough?", "a": "Most small and home networks run fine on Layer 2 switching, Layer 3 specifically helps larger networks with multiple VLANs that need inter-VLAN routing without sending every packet back out to a separate router." },
+  { "q": "Are budget Layer 3 switches as reliable as enterprise brands like Cisco or Juniper?", "a": "Budget options can handle basic routing reliably for smaller deployments, but enterprise brands typically offer more mature firmware, support, and advanced feature depth for complex network environments." },
+  { "q": "Can I upgrade a Layer 2 switch to Layer 3 functionality later with firmware?", "a": "No, Layer 3 routing requires dedicated hardware capability built into the switch, a Layer 2-only switch cannot gain Layer 3 routing through a firmware update alone." },
+  { "q": "Do these budget Layer 3 switches support VLAN tagging?", "a": "Check the specific listing, VLAN support is typically included on Layer 3 capable switches since VLAN segmentation is the primary use case Layer 3 routing addresses." },
+  { "q": "Should I look at enterprise brands if these two options don't fit my needs?", "a": "If you need deeper feature sets or dynamic routing protocols beyond what's covered here, HPE Aruba, Juniper, and Cisco offer more Layer 3 options primarily through renewed listings or direct enterprise channels." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"},{"href":"/guide/best-layer-2-network-switches","title":"6 Best Layer 2 Network Switches in 2026"},{"href":"/guide/best-10gbe-network-switches","title":"7 Best 10GbE Network Switches in 2026"}];

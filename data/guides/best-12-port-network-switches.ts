@@ -104,7 +104,12 @@ export const faq = [
   {
     "q": "Why are there so few 12-port switch options?",
     "a": "Manufacturers standardize around 5, 8, 16, 24, and 48 ports as their common tiers; 12 ports doesn't map cleanly onto typical rack unit or PCB layout conventions the way those other counts do, resulting in fewer dedicated 12-port products."
-  }
+  },
+  { "q": "Should I just buy a 16-port switch if 12-port options are limited?", "a": "That's a reasonable alternative if the extra 4 ports and typically similar price don't bother you, check our broader 16-Port Network Switches guide for a deeper product pool." },
+  { "q": "Is USB-C or DC power better for a 12-port switch?", "a": "USB-C power offers more flexible power source options including portable power banks, while a dedicated DC adapter typically provides more stable continuous power for a permanently installed switch." },
+  { "q": "Can a 12-port switch handle PoE devices?", "a": "Check the specific listing, PoE support and total power budget vary significantly between models and aren't guaranteed on every 12-port unit regardless of port count." },
+  { "q": "Is a 12-port switch overkill for a small home network?", "a": "If you have fewer than 8 wired devices currently and don't anticipate significant growth, an 8-port switch likely covers your needs at a lower price." },
+  { "q": "Do 12-port switches support Gigabit speed on every port?", "a": "Check the specific listing, most current 12-port switches are Gigabit-rated across all ports, but verify this explicitly rather than assuming from the port count alone." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-network-switches","title":"7 Best 8-Port Network Switches in 2026"},{"href":"/guide/best-16-port-network-switches","title":"5 Best 16-Port Network Switches in 2026"},{"href":"/guide/best-10-port-network-switches","title":"6 Best 10-Port Network Switches in 2026"}];
