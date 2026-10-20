@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Will any portable monitor give me PS5's full 4K120 VRR experience?", a: "Realistically, no, at this price range. PS5's 4K120 with VRR requires HDMI 2.1 certification on both ends, and most portable monitors, including the picks in this guide, are HDMI 2.0-tier, capped at 4K60 with no VRR." },
   { q: "Should I buy a 180Hz portable monitor for my PS5?", a: "PS5 doesn't output above 120fps in any current mode, so a 180Hz-rated monitor's extra headroom is unused for PS5, though it doesn't hurt if you might also connect a PC later." },
   { q: "Do these monitors have good enough speakers for PS5 gaming?", a: "Not really. Most portable monitors run modest 1-2W speakers, budget for a headset connected through your PS5 controller for real audio quality instead of relying on the monitor's built-in speakers." },
+  { q: "Can I power a portable monitor directly from my PS5 for a travel setup?", a: "No, PS5's USB ports don't supply enough power for most portable monitors, plan to bring a separate wall adapter or USB-C PD power bank alongside the HDMI cable." },
+  { q: "Will a portable monitor work with PS5's Rest Mode screen-off features correctly?", a: "Most HDMI-connected monitors handle PS5's Rest Mode signal loss the same way a standard TV does, entering standby and waking automatically, though check the specific listing if this matters for your setup." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

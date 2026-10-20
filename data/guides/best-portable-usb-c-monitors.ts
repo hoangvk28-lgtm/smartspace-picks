@@ -243,6 +243,8 @@ export const faq: FaqItem[] = [
   { q: "Are portable monitors bright enough for outdoor use?", a: "Not always, check the specific nit brightness rating, since portable use often means varied lighting a desk-bound monitor doesn't need to handle." },
   { q: "Do portable monitors come with a protective case?", a: "Not always, some include a protective sleeve while others require a separate purchase, check the specific listing." },
   { q: "Can a portable USB-C monitor work with consoles?", a: "Some explicitly support Xbox, PS5, or Switch alongside PC and Mac, check the specific listing for confirmed multi-device compatibility." },
+  { q: "Do I need a special USB-C cable for a portable monitor?", a: "Yes, it needs to support DisplayPort Alt Mode and sufficient power delivery, a basic charging-only USB-C cable won't carry video signal even if it physically fits the port." },
+  { q: "Can I daisy-chain two portable USB-C monitors from one laptop port?", a: "Only if your laptop's specific USB-C port and GPU support that configuration, check your laptop's documentation since many single-cable setups max out at one external display per port." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

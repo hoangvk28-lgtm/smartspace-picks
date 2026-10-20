@@ -273,6 +273,8 @@ export const faq: FaqItem[] = [
   { q: "Can I use USB-C to connect a portable monitor to my Mini PC?", a: "Sometimes. Unlike laptops, many Mini PC USB-C ports are data/charging-only and don't carry DisplayPort Alt Mode video signal. Verify your specific Mini PC's USB-C port capability before relying on it." },
   { q: "Can I mount a portable monitor on the same arm as my Mini PC?", a: "Yes, if both have VESA mounting holes. Many Mini PCs include their own VESA bracket, and a VESA-compatible portable monitor like the cocopar 18.5\" or VisionOwl picks in this guide can piggyback-mount alongside it." },
   { q: "Does a portable monitor drain my Mini PC's battery?", a: "No, this concern doesn't apply. Mini PCs are always mains-powered, so there's no battery to drain, unlike the laptop-specific power-budget concerns covered in our MacBook Air guide." },
+  { q: "What monitor size works best for a dual-screen Mini PC desk setup?", a: "A 15.6\" to 17.3\" portable monitor matched to your Mini PC's own display size keeps the two screens visually consistent side by side, while a smaller 13.3\" panel suits a compact or secondary vertical-mount role next to a larger primary display." },
+  { q: "Can I use a portable monitor as my Mini PC's only display?", a: "Yes, as long as the port and refresh rate match your Mini PC's actual output capability; just confirm the monitor includes a built-in kickstand or VESA mount since a Mini PC setup typically has no laptop lid to lean the screen against." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

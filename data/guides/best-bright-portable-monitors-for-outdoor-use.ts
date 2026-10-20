@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Will I get the full rated brightness running my monitor on USB-C laptop power?", a: "Not always. Several listings in this guide explicitly state peak brightness requires a dedicated power connection plus a white background, not just USB-C power from a laptop alone." },
   { q: "Does a matte screen make outdoor use better?", a: "It helps with glare specifically, matte coatings scatter reflected light, but they also slightly reduce perceived contrast and color vibrancy compared to a glossy panel, a real tradeoff worth knowing rather than a pure upgrade." },
   { q: "Will my portable monitor's battery life change a lot if I use it outdoors?", a: "Yes, running at maximum brightness for outdoor visibility draws significantly more power than typical indoor brightness settings, plan for a wall adapter rather than relying on your laptop's battery alone for extended outdoor sessions." },
+  { q: "Does heat from direct sunlight damage a portable monitor?", a: "Prolonged direct sun exposure can raise panel temperature beyond its rated operating range, check the specific listing's stated operating temperature and avoid leaving the monitor in a hot car or under glass that intensifies heat." },
+  { q: "Is an anti-glare screen protector worth adding to a bright outdoor monitor?", a: "It can help on a glossy panel specifically, reducing reflected glare on top of the monitor's own brightness, though a monitor already shipping with a matte coating gains less additional benefit from one." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

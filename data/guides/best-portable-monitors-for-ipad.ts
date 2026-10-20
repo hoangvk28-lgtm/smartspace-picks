@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Can I touch a portable monitor's screen when it's connected to my iPad?", a: "No. iPadOS does not support touch input on any connected external display, regardless of whether the monitor itself is touchscreen-capable. Your iPad's own screen remains the only touch surface." },
   { q: "Can I use Apple Pencil on the external monitor instead of my iPad's screen?", a: "Even in apps that support drawing on an extended Stage Manager desktop, Apple Pencil input is generally optimized for the iPad's own screen; using the external monitor as your primary drawing surface introduces app-specific quirks worth testing before relying on it." },
   { q: "Will any portable monitor in this guide fit behind my iPad's case stand?", a: "Depends on the monitor's stand type. VESA-mountable picks (cocopar 15.6\"/18.5\", VisionOwl 18.5\"/16\", UPERFECT) avoid the stacking conflict entirely by mounting on an arm instead of a second stand." },
+  { q: "Does connecting a portable monitor drain my iPad's battery quickly?", a: "Yes, noticeably, since the iPad both powers its own display and drives the external monitor's data signal, plan to keep your iPad plugged in during extended Stage Manager sessions with an external display." },
+  { q: "Can I use a portable monitor with a non-Pro, non-Air iPad at all?", a: "Only for basic screen mirroring, not an extended independent desktop, since Stage Manager's extended-display mode specifically requires an M-series chip found only in recent iPad Pro and Air models." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

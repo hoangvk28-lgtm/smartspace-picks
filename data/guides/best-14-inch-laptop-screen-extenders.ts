@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Should I match my extender size to my laptop's own screen size?", a: "Generally yes, a 14-inch extender pairs proportionally well with a 13-14 inch laptop, matching sizes gives a more visually balanced dual-screen setup." },
   { q: "Are all products marketed as '14-inch' actually 14 inches?", a: "Not always, verify the exact panel size, some budget alternatives in this category are actually a nearby size like 15.6 inches." },
   { q: "Is an integrated speaker on a 14-inch extender worth it?", a: "It's a genuine functional bonus if you want audio output from the extended screen without relying solely on your laptop's own speakers." },
+  { q: "Will a 14-inch extender fit a 13-inch MacBook's clip mechanism?", a: "Most clip-style extenders list a supported laptop thickness and width range rather than requiring an exact screen size match, check the specific listing's stated compatible laptop range before buying." },
+  { q: "Does a 14-inch extender need its own power source?", a: "Most draw power through the same USB-C or HDMI cable connecting to your laptop, so no separate charger is typically needed unless the specific listing states otherwise." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

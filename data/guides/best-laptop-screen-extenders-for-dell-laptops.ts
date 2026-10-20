@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Why does my work Dell laptop seem to underpower my screen extender?", a: "Dell's business-line laptops often ship with corporate power-management settings that can limit USB-C power delivery to peripherals, check your IT department's power policy." },
   { q: "Do older Dell laptops need USB-A compatibility for a screen extender?", a: "Often yes, older Latitude and Precision models predating widespread USB-C adoption still rely primarily on USB-A ports, verify your specific model." },
   { q: "Is Dell XPS's Thunderbolt 4 port good for screen extenders?", a: "Yes, generally, XPS's modern Thunderbolt 4 USB-C port typically offers strong power delivery for a dual-connectivity screen extender." },
+  { q: "Will a screen extender's clip fit Dell's thinner XPS chassis the same way as a bulkier Latitude?", a: "Not necessarily, XPS's slim aluminum lid differs meaningfully from Latitude's thicker business-grade build, check the clip's stated supported thickness range against your exact model." },
+  { q: "Does a Dell docking station affect how I connect a screen extender?", a: "It can, some Dell docks route video output differently than a direct laptop port, so verify your extender connects to either the dock's video-out port or directly to the laptop rather than assuming either works interchangeably." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

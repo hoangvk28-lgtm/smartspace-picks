@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Will a screen extender clip fit my HP Spectre or EliteBook the same way?", a: "Not always, Spectre and Envy's premium slim chassis differs meaningfully from EliteBook's traditional business body, check clip compatibility for your specific line." },
   { q: "Do older HP Pavilion laptops need USB-A compatibility for a screen extender?", a: "Often yes, budget Pavilion laptops and older EliteBook generations predating widespread USB-C adoption still commonly rely on USB-A ports." },
   { q: "Is HP Spectre's USB-C port good for a screen extender?", a: "Yes, generally, Spectre's modern USB-C port typically offers strong power delivery for a dual-connectivity screen extender." },
+  { q: "Does HP's own docking station change how a screen extender connects?", a: "It can, some HP docks route video differently than a direct laptop port, verify your extender connects to the dock's video-out or the laptop's own port rather than assuming either works the same way." },
+  { q: "Will a screen extender clip damage my HP laptop's lid finish?", a: "A properly rated clip with rubber or felt padding at the contact points shouldn't mark most finishes, but check the specific listing for padding material before clipping onto a glossy or painted HP lid repeatedly." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

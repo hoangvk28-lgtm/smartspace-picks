@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Should I buy the same monitor for Series X and Series S?", a: "Not ideally. Series X targets native 4K (often upscaled to 4K120), while Series S targets 1080p-1440p and gets no benefit from a 4K panel, match your pick to your specific console." },
   { q: "Will Auto HDR and VRR work on any portable monitor I connect to my Xbox?", a: "Only if the monitor is HDMI 2.1-certified. Most portable monitors, including most picks in this guide, are HDMI 2.0-tier and silently disable these Xbox-marketed features with no in-game warning." },
   { q: "Is there a portable monitor built specifically for Xbox Series X?", a: "Yes, the G-STORY 14\" 4K pick (rank 1) is explicitly marketed for Series X with dual HDMI ports disclosing exact per-port resolution/refresh tradeoffs, though it costs significantly more than the general-purpose picks in this guide." },
+  { q: "Can I power a portable monitor directly from my Xbox console?", a: "No, Xbox's USB ports don't provide enough power for most portable monitors, bring a separate wall adapter or USB-C power source alongside the HDMI connection." },
+  { q: "Does Xbox Series S support the same HDR features as Series X on a portable monitor?", a: "Yes, Auto HDR works on both consoles identically when the monitor supports it, the difference between the two consoles is native resolution ceiling, not HDR capability." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

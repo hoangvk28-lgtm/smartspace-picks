@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does the stand on a screen extender hold up through a full workday?", a: "This varies by product, look for explicit hinge rotation specs (like 235 degrees) as a positive signal, and prioritize genuine long-session stability over unboxing-photo impressions." },
   { q: "Do I need a triple-screen extender for work?", a: "Only if your role genuinely requires maximum simultaneous screen real estate, most work use is well-served by a single extra screen, a triple setup adds real weight, power draw, and cost." },
   { q: "Should I get dual USB-C/HDMI connectivity for a work extender?", a: "Yes, generally, this reduces the risk of a single cable's bandwidth being split between video-call demands and the extender's own power/video signal." },
+  { q: "Is a screen extender a security risk for confidential work documents?", a: "Not inherently, but a visible extra screen in a shared office or video call background can expose sensitive information, position the extender away from colleagues' sightlines or others' camera view during calls." },
+  { q: "Can IT-managed corporate laptops restrict a screen extender from working?", a: "Yes, some corporate device management policies restrict external display or USB-C peripheral permissions, check with your IT department before purchasing if you use a company-issued laptop." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

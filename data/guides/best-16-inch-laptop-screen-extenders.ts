@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Should I pair a 16-inch extender with a smaller laptop?", a: "Generally not ideal, this larger extender pairs proportionally with a 16-inch primary laptop, a much smaller ultrabook creates an awkward size mismatch." },
   { q: "Are the very high-rated 16-inch extenders with few reviews trustworthy?", a: "Weigh these with appropriate caution, several picks carry excellent ratings from small samples, the larger-review-base top pick offers more confidence." },
   { q: "Do 16-inch extenders come with integrated stands and speakers?", a: "Many do, these add genuine functional value and out-of-box completeness for this larger panel size, verify the specific listing's included features." },
+  { q: "Is a 16-inch extender too heavy to carry alongside a laptop daily?", a: "Check the specific listed weight, a larger 16-inch panel genuinely adds more carry weight than a 14-inch extender, worth weighing against how often you'll actually travel with it." },
+  { q: "Can a 16-inch extender run at its full refresh rate over USB-C?", a: "Only if your laptop's specific USB-C port supports DisplayPort Alt Mode at sufficient bandwidth, verify this before assuming the panel's rated refresh rate is achievable in your setup." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

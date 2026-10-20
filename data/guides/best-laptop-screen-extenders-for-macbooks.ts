@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Do MacBook screen extenders require a driver install?", a: "Genuinely good ones don't, verify explicit driver-free plug-and-play compatibility rather than assuming a general 'cross-platform' claim covers macOS specifically." },
   { q: "Does an older MacBook Air have enough power for a screen extender?", a: "It can vary, older MacBook Air generations may have more limited USB-C power delivery than newer MacBook Pro models, dual USB-C/HDMI connectivity gives flexibility to route power separately." },
   { q: "How do I know if a screen extender is genuinely tested for Mac compatibility?", a: "Look for explicit Mac or macOS compatibility stated directly in the product listing, this is a stronger signal than a generic 'cross-platform' claim." },
+  { q: "Can I use one screen extender across both an Intel and Apple Silicon MacBook?", a: "Most USB-C plug-and-play extenders work across both chip generations since they rely on standard video output rather than processor architecture, but verify the specific listing doesn't require an Intel-only driver." },
+  { q: "Does macOS limit how many external displays a MacBook can run at once?", a: "Yes, this varies by specific MacBook model and chip, some base configurations support only one external display natively, check Apple's own specs for your exact model before buying a multi-screen extender." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Is 165Hz noticeably smoother than 144Hz?", a: "Only if your source device (laptop GPU, gaming rig) can sustain frame rates well above 144fps. Many thin-and-light gaming laptops and handheld PCs can't get there, making the extra 21Hz imperceptible in practice." },
   { q: "What's the difference between a native 165Hz panel and an overclocked one?", a: "A native 165Hz panel is designed to run at that rate from the factory. An overclocked panel reaches 165Hz through a manufacturer firmware push beyond its native 144Hz rating, which can introduce flicker or instability a native panel wouldn't show." },
   { q: "Why did my 165Hz monitor drop to a lower refresh rate with no warning?", a: "Most likely a cable issue. A USB-C cable that's DP Alt Mode-certified but low-bandwidth can silently bottleneck the connection. Use the cable included with the monitor or one explicitly certified for your resolution and refresh rate." },
+  { q: "Does a 165Hz portable monitor need a separate power source for gaming?", a: "Often yes, running the panel at its full refresh rate and brightness during sustained gaming draws more power than a single USB-C laptop port can reliably sustain, check the specific listing's power requirement." },
+  { q: "Is a 165Hz portable monitor worth it for a handheld gaming PC?", a: "Only if your handheld's own GPU can push frame rates meaningfully above 60-90fps in your games, otherwise the extra refresh rate headroom goes unused on hardware that can't fill it." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

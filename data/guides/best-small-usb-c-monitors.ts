@@ -243,6 +243,8 @@ export const faq: FaqItem[] = [
   { q: "Is a small monitor good as my main display?", a: "Generally not for extensive multitasking, small monitors genuinely suit tight desk spaces, secondary reference displays, or travel use better than primary all-day work." },
   { q: "Do small monitors come with a protective case?", a: "Not always, some include a protective sleeve while others require a separate purchase, check the specific listing." },
   { q: "Is a budget small monitor good enough to test the format?", a: "Yes, a budget-friendly small monitor is a reasonable low-cost way to test whether a compact secondary display fits your workflow." },
+  { q: "What's the smallest practical monitor size for actual productivity work?", a: "Most buyers find 13 to 15.6 inches the usable floor for sustained reading and typing, below that the display works better as a glanceable secondary screen than a main work surface." },
+  { q: "Can a small USB-C monitor be powered entirely from a laptop port?", a: "Many can, since their lower power draw often fits within a single USB-C port's output, but check the specific listing's power requirement against your laptop's actual port capability first." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

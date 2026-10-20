@@ -273,6 +273,8 @@ export const faq: FaqItem[] = [
   { q: "Will text look blurry on a 2K portable monitor?", a: "Only if you're running an older, non-DPI-aware app at the default scaling. At 15.6-16 inches, 2K resolution needs roughly 125-150% OS scaling for comfortable reading, most modern apps handle this fine, but legacy software sometimes doesn't." },
   { q: "Is 2K worth it over 1080p for a small portable monitor?", a: "Below about 17 inches, the sharpness benefit is modest for general browsing and office work, becoming clearly worthwhile mainly for text-dense coding or detailed photo editing." },
   { q: "Can my laptop actually drive a 2K portable monitor at full quality?", a: "Higher resolution requires more sustained bandwidth and power than 1080p. Older or budget laptops can fall back to 30Hz or reduced 6-bit color depth with dithering at 2K, verify your laptop's USB-C port capability first." },
+  { q: "Does a 2K portable monitor need more desk space than a 1080p one?", a: "No, resolution doesn't change the physical panel size, a 2K and 1080p monitor at the same advertised screen size take up identical desk footprint." },
+  { q: "Is a 2K portable monitor good for split-screen multitasking?", a: "Yes, the extra pixel density genuinely helps fit two readable windows side by side at 15.6-16 inches, something a 1080p panel at the same size struggles to do comfortably." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

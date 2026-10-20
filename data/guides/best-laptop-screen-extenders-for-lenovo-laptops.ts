@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Why does my ThinkPad seem to underpower a screen extender?", a: "ThinkPad's business-focused power management settings can limit USB-C peripheral power under corporate IT policy, an HDMI-connected extender avoids this dependency." },
   { q: "Will a screen extender clip fit my ThinkPad, Yoga, or IdeaPad the same way?", a: "Not always, ThinkPad's boxier chassis differs meaningfully from Yoga's convertible hinge and IdeaPad's slimmer consumer body, check clip compatibility for your specific line." },
   { q: "Do older ThinkPad models need USB-A compatibility for a screen extender?", a: "Often yes, many ThinkPad models still widely deployed in corporate environments predate universal USB-C adoption in the business lineup." },
+  { q: "Does Lenovo's corporate IT policy ever block screen extender power delivery?", a: "Yes, on some managed ThinkPad fleets, corporate power-management profiles can restrict USB-C peripheral power, an HDMI-connected extender with its own power source avoids depending on that port." },
+  { q: "Will a screen extender fit Lenovo Yoga's convertible hinge design without interfering with tablet mode?", a: "Check the clip's stated attachment point, since Yoga's 360-degree hinge needs the extender clipped clear of the rotation path, not all extenders are designed with that clearance in mind." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

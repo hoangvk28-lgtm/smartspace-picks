@@ -273,6 +273,8 @@ export const faq: FaqItem[] = [
   { q: "Will my monitor arm hold a lightweight portable monitor steady?", a: "Not always. Most monitor arms need a minimum weight, often around 4.4 lb (2kg), to maintain spring tension. A sub-2lb portable monitor can be too light and may drift on some arms." },
   { q: "Can I use a VESA-mounted portable monitor with its own carrying case still?", a: "Often not simultaneously. Bolting on a VESA adapter plate can prevent the folio cover-stand from closing flat, so you may need to choose between a permanent mounted setup and travel-case portability for the same unit." },
   { q: "Which pick in this guide has the most flexible VESA bracket?", a: "The EVICIV 18.5\" (rank 5) includes a 360-degree adjustable VESA bracket with mounting screws included, more flexible than a fixed VESA plate at a similar price." },
+  { q: "What VESA pattern size do most portable monitors use?", a: "The 75x75mm pattern is the most common on portable-sized panels, confirm the specific listing's pattern matches your existing monitor arm before buying, since the larger 100x100mm pattern common on desktop monitors isn't guaranteed to fit." },
+  { q: "Can I mount a VESA portable monitor on the same arm as my primary display?", a: "Yes, if the arm's weight capacity and VESA pattern both support it, a dual-arm or dual-monitor mount setup lets a portable monitor serve as a permanently mounted secondary screen rather than a travel-only device." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

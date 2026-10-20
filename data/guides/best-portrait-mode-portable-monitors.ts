@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Do all portrait-mode portable monitors have a rotating stand?", a: "No. Some listings achieve portrait mode by repositioning a fixed-angle folio cover rather than using a genuine rotating hinge or 360 degrees bracket. Check the stand mechanism specifically before assuming smooth rotation." },
   { q: "How much horizontal space do I lose in portrait mode?", a: "It depends on the panel's native resolution. A 2560x1600 panel still gives you 1600 pixels wide in portrait, while a 1920x1080 panel only gives 1080 pixels wide, a meaningfully cramped difference for code or document work." },
   { q: "Will the built-in speakers still sound good in portrait mode?", a: "Not as good as in landscape. Speakers designed to fire toward you in landscape orientation end up firing sideways once rotated to portrait, which measurably reduces perceived volume and clarity." },
+  { q: "Is portrait mode useful for anything besides reading code or documents?", a: "Yes, it also suits scrolling social media feeds, reading long PDFs, or reviewing vertically-oriented design mockups, any content genuinely taller than it is wide benefits from the orientation." },
+  { q: "Does switching to portrait mode reduce a monitor's maximum brightness?", a: "No, brightness is a fixed panel spec independent of orientation, rotating to portrait doesn't change how bright the display can get." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

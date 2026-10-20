@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Is a 16:10 or 16:9 aspect ratio better for coding?", a: "16:10 generally, since it gives roughly 11% more vertical space than the same-width 16:9 panel, letting you see more lines of code or documentation without scrolling as often." },
   { q: "Will portrait mode work well for reading long code files?", a: "Only if the stand genuinely rotates (not just a repositioned fixed-angle cover) and you're willing to manually toggle your OS display orientation, most picks in this guide require that manual step rather than auto-sensing." },
   { q: "Should I prioritize color accuracy for a coding-focused monitor?", a: "Not really. Color gamut matters far less for text-heavy coding work than for photo or video editing; prioritize pixel density, brightness, and eye-care features instead." },
+  { q: "Does blue light filtering actually help during long coding sessions?", a: "It reduces a real contributor to eye strain for some users, though the effect varies person to person, pair it with standard breaks and brightness matched to your room rather than relying on the filter alone." },
+  { q: "Can I use a portable monitor as a vertical second screen for code review?", a: "Yes, if the stand or mount genuinely supports portrait orientation, a vertical second screen fits a long file or diff view better than a landscape panel of the same size." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

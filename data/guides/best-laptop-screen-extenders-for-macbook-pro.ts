@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Will a screen extender's clip fit my MacBook Pro's lid properly?", a: "This depends on your specific MacBook Pro generation, the notch and camera housing can affect clip seating, verify compatibility with your exact model year through current reviews." },
   { q: "Does MacBook Pro's Thunderbolt port help power a screen extender better?", a: "Yes, generally, MacBook Pro's Thunderbolt-capable USB-C ports provide strong power delivery, benefiting extenders that might otherwise throttle on lower-power laptops." },
   { q: "Should I get a 14-inch or 15.6-inch extender for my MacBook Pro?", a: "Match the extender size to your MacBook Pro size, a 14-inch extender suits a 14-inch MacBook Pro, while a 16-inch model may benefit from a proportionally larger screen." },
+  { q: "Can MacBook Pro's Thunderbolt port power a triple-screen extender setup?", a: "Often yes given its strong power delivery, but check the specific extender's total combined power draw against your Thunderbolt port's rated output before assuming any three-panel setup works." },
+  { q: "Does a screen extender interfere with MacBook Pro's MagSafe charging port?", a: "No, a USB-C or HDMI screen extender connects through a separate port, so MagSafe charging continues working independently alongside it." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

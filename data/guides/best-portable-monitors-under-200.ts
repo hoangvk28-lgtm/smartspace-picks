@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Do all portable monitors under $200 include a power adapter?", a: "No. Some listings, like the InnoView pick in this guide, explicitly state a power adapter is not included, factor that into your real total cost before buying." },
   { q: "Can I get a sharp 2.5K portable monitor under $200?", a: "Yes, several picks in this guide (ARZOPA, InnoView, cocopar 16\") offer genuine 2560x1600-class resolution well within a $200 budget, a real step up from basic 1080p at a similar price." },
   { q: "Which pick offers the most features for the money in this guide?", a: "The cocopar 16\" 2.5K pick (rank 8) has the most complete feature set, metal build, full-size HDMI, real VESA mount, sharp resolution, but it also sits closest to the $200 ceiling of any pick here." },
+  { q: "Do under-$200 portable monitors include a protective case or sleeve?", a: "Check the specific listing, some include a folding cover that doubles as a stand and basic protection, while others ship with no case at all, requiring a separate purchase for travel protection." },
+  { q: "Is a $200 portable monitor durable enough for daily commuting?", a: "Build quality varies meaningfully at this price tier, check for a metal rather than plastic chassis and a real protective cover if you'll be packing it in a bag daily rather than using it mostly at a fixed desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

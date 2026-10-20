@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Will a screen extender make my MacBook Air feel heavy to carry?", a: "It can, MacBook Air's thin, light chassis makes carry weight balance more noticeable, prioritize a genuinely lightweight extender that doesn't overwhelm the laptop's own light-carry design." },
   { q: "Should I get a 13-inch or 15-inch extender for my MacBook Air?", a: "Match the extender size to your specific MacBook Air model, a 13-inch Air pairs well with a compact panel, while a 15-inch model can support a slightly larger attached screen." },
   { q: "Is dual USB-C/HDMI connectivity important for MacBook Air specifically?", a: "Yes, it gives you a power-delivery fallback if MacBook Air's single USB-C port proves limiting for the extender's power needs." },
+  { q: "Can I charge my MacBook Air while running a screen extender from the same port?", a: "Only with a dual-port extender design or a separate charging cable, most MacBook Air models have limited USB-C ports, so a single-port extender can conflict with your charger for the same connection." },
+  { q: "Does the fanless MacBook Air throttle when driving a screen extender?", a: "It can under sustained heavy graphics load, since MacBook Air has no active cooling, check for signs of slowdown during extended dual-screen use rather than assuming performance stays constant." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
