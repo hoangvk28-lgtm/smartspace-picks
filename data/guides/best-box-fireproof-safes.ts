@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Fire Evidence for the Exact Chest",
-    "explanation": "Verify box fireproof safes's specific fire classification rather than assuming a chest-style box automatically carries the same rating as a full-size safe."
+    "explanation": "Verify box fireproof safes's specific fire classification rather than assuming a chest-style box automatically carries the same rating as a full-size safe. This matters in practice because the picks in this comparison span from about $31 to $100, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Water Resistance Separately",
-    "explanation": "A fireproof rating does not guarantee waterproofing; check the water claim independently before assuming basement or flood-zone protection."
+    "explanation": "A fireproof rating does not guarantee waterproofing; check the water claim independently before assuming basement or flood-zone protection. With prices in this roundup ranging roughly $31 to $100, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Calculate Loaded Carry Weight",
-    "explanation": "Chests are marketed on portability, so weigh them loaded with real documents and media, not just empty, before assuming one person can carry it out during an evacuation."
+    "explanation": "Chests are marketed on portability, so weigh them loaded with real documents and media, not just empty, before assuming one person can carry it out during an evacuation. Given the real spread here, from about $31 up to $100, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Document Fit and Lid Clearance",
-    "explanation": "Confirm letter or legal documents actually fit as intended, and check lid-opening clearance if the chest will sit on a shelf or in a closet."
+    "explanation": "Confirm letter or legal documents actually fit as intended, and check lid-opening clearance if the chest will sit on a shelf or in a closet. Across this comparison's $31 to $100 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Understand the Real Theft Deterrence Level",
-    "explanation": "A portable chest with a simple key or combination lock deters casual snooping, not a determined thief; don't treat chest-class security as equivalent to a bolted-down safe."
+    "explanation": "A portable chest with a simple key or combination lock deters casual snooping, not a determined thief; don't treat chest-class security as equivalent to a bolted-down safe. Products at the low end near $31 and the high end near $100 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 

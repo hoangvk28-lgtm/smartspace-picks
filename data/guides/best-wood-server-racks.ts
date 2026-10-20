@@ -108,23 +108,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm wood server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm wood server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths. This matters in practice because the picks in this comparison span from about $188 to $205, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed."
+    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. With prices in this roundup ranging roughly $188 to $205, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. Given the real spread here, from about $188 up to $205, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. Across this comparison's $188 to $205 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",
-    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
+    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load. Products at the low end near $188 and the high end near $205 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 

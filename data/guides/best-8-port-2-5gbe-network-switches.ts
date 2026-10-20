@@ -235,27 +235,27 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Port count is a headroom decision, not a current-need one",
-    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure."
+    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure. Given the real spread here, from about $56 up to $110, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "PoE budget is a shared pool, not per-port",
-    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare."
+    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare. Across this comparison's $56 to $110 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Managed vs unmanaged changes what you can diagnose later",
-    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device."
+    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device. Products at the low end near $56 and the high end near $110 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Fanless does not always mean silent under load",
-    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters."
+    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters. This matters in practice because the picks in this comparison span from about $56 to $110, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Multi-gig speed needs matching cable and network gear",
-    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra."
+    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra. With prices in this roundup ranging roughly $56 to $110, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Renewed enterprise gear needs a licensing check first",
-    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box."
+    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box. Given the real spread here, from about $56 up to $110, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 

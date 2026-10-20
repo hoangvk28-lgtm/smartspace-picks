@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Independent Fire Evidence",
-    "explanation": "Verify budget fireproof safes's fire classification is backed by an independent test (UL, ETL) rather than accepting a manufacturer's own unverified claim."
+    "explanation": "Verify budget fireproof safes's fire classification is backed by an independent test (UL, ETL) rather than accepting a manufacturer's own unverified claim. This matters in practice because the picks in this comparison span from about $30 to $68, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Time and Temperature Together",
-    "explanation": "A fire rating means little without both the duration and the test temperature stated together."
+    "explanation": "A fire rating means little without both the duration and the test temperature stated together. With prices in this roundup ranging roughly $30 to $68, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Usable Interior Dimensions",
-    "explanation": "Check actual interior space rather than trusting the nominal capacity figure alone."
+    "explanation": "Check actual interior space rather than trusting the nominal capacity figure alone. Given the real spread here, from about $30 up to $68, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Separate Water and Security Claims",
-    "explanation": "Treat fire, water, and burglary protection as three separate facts, never assumed from one another."
+    "explanation": "Treat fire, water, and burglary protection as three separate facts, never assumed from one another. Across this comparison's $30 to $68 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh Ownership Details",
-    "explanation": "Factor in weight, anchoring, and lock or key replacement support as part of the real cost of ownership."
+    "explanation": "Factor in weight, anchoring, and lock or key replacement support as part of the real cost of ownership. Products at the low end near $30 and the high end near $68 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 

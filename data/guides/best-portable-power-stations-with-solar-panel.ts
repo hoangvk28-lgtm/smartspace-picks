@@ -172,23 +172,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish Solar Input Limits",
-    "explanation": "Check portable power stations with solar panel's documented solar input voltage, current, and watt limits alongside its MPPT range."
+    "explanation": "Check portable power stations with solar panel's documented solar input voltage, current, and watt limits alongside its MPPT range. Given the real spread here, from about $180 up to $699, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Connector and Panel Compatibility",
-    "explanation": "Confirm connector type, adapters, and series/parallel panel compatibility before assuming any panel will work."
+    "explanation": "Confirm connector type, adapters, and series/parallel panel compatibility before assuming any panel will work. Across this comparison's $180 to $699 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Calculate Accepted Panel Wattage",
-    "explanation": "Calculate how much panel wattage the station can actually accept without clipping excess capacity."
+    "explanation": "Calculate how much panel wattage the station can actually accept without clipping excess capacity. Products at the low end near $180 and the high end near $699 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Estimate Realistic Field Recharge",
-    "explanation": "Estimate field recharge time from realistic sun-hours and conversion losses, not laboratory best-case figures."
+    "explanation": "Estimate field recharge time from realistic sun-hours and conversion losses, not laboratory best-case figures. This matters in practice because the picks in this comparison span from about $180 to $699, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Bundle Value From Station Performance",
-    "explanation": "Separate the value of an included panel bundle from the power station's own performance and the panel's build durability."
+    "explanation": "Separate the value of an included panel bundle from the power station's own performance and the panel's build durability. With prices in this roundup ranging roughly $180 to $699, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 

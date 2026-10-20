@@ -189,23 +189,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Factory-Set vs. User-Changeable Combinations",
-    "explanation": "Check whether combination fireproof safes's combination can be changed by the owner or is permanently factory-set, since a fixed code matters if the safe changes hands or a code is compromised."
+    "explanation": "Check whether combination fireproof safes's combination can be changed by the owner or is permanently factory-set, since a fixed code matters if the safe changes hands or a code is compromised. This matters in practice because the picks in this comparison span from about $29 to $562, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Test Dial Readability and Access Time",
-    "explanation": "A mechanical dial takes longer to operate than a keypad; consider how often you'll need access and whether the dial numbers are large and clear enough for quick reading."
+    "explanation": "A mechanical dial takes longer to operate than a keypad; consider how often you'll need access and whether the dial numbers are large and clear enough for quick reading. With prices in this roundup ranging roughly $29 to $562, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Understand the Override Key's Role",
-    "explanation": "Many combination safes include a physical override key for backup access; store it somewhere other than inside the safe itself, and confirm whether losing it requires locksmith service."
+    "explanation": "Many combination safes include a physical override key for backup access; store it somewhere other than inside the safe itself, and confirm whether losing it requires locksmith service. Given the real spread here, from about $29 up to $562, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Fire Evidence Independently of Lock Type",
-    "explanation": "A combination lock offers no fire protection on its own; verify the safe's fire classification separately from its lock mechanism."
+    "explanation": "A combination lock offers no fire protection on its own; verify the safe's fire classification separately from its lock mechanism. Across this comparison's $29 to $562 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Lost-Combination Support",
-    "explanation": "Ask what happens if the combination is forgotten and the override key is lost, since mechanical combination locks generally require professional locksmith service to open."
+    "explanation": "Ask what happens if the combination is forgotten and the override key is lost, since mechanical combination locks generally require professional locksmith service to open. Products at the low end near $29 and the high end near $562 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 

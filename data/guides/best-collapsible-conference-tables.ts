@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Understand the Folding Mechanism",
-    "explanation": "Check whether the collapsible conference tables's top folds flat, flips vertically, or nests, since each mechanism affects how much floor space it actually saves and how quickly it resets."
+    "explanation": "Check whether the collapsible conference tables's top folds flat, flips vertically, or nests, since each mechanism affects how much floor space it actually saves and how quickly it resets. Given the real spread here, from about $270 up to $1812, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Nested Storage Footprint",
-    "explanation": "Measure the table's folded footprint, not just its open dimensions, against the closet or storage area where it will actually live between uses."
+    "explanation": "Measure the table's folded footprint, not just its open dimensions, against the closet or storage area where it will actually live between uses. Across this comparison's $270 to $1812 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Locks and Casters",
-    "explanation": "Confirm the folding legs lock securely in both open and closed positions, and check whether casters lock independently to prevent the table from rolling during a meeting."
+    "explanation": "Confirm the folding legs lock securely in both open and closed positions, and check whether casters lock independently to prevent the table from rolling during a meeting. Products at the low end near $270 and the high end near $1812 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Test Alignment When Joining Multiple Units",
-    "explanation": "If multiple tables will be joined into a longer run or U-shape, check how cleanly the tops align and lock together at the seams."
+    "explanation": "If multiple tables will be joined into a longer run or U-shape, check how cleanly the tops align and lock together at the seams. This matters in practice because the picks in this comparison span from about $270 to $1812, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Time the Reset Between Configurations",
-    "explanation": "Factor in how long it realistically takes one or two people to fold, move, and reconfigure the table, since a mechanism that looks quick in marketing photos can be slower with real hardware."
+    "explanation": "Factor in how long it realistically takes one or two people to fold, move, and reconfigure the table, since a mechanism that looks quick in marketing photos can be slower with real hardware. With prices in this roundup ranging roughly $270 to $1812, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 

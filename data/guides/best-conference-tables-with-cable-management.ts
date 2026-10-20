@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Genuine User Outlet Access",
-    "explanation": "Confirm the conference tables with cable management gives each seat real reach to an outlet, not just one power module at a single end of a long table."
+    "explanation": "Confirm the conference tables with cable management gives each seat real reach to an outlet, not just one power module at a single end of a long table. Across this comparison's $39 to $390 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check AC and USB-C Output",
-    "explanation": "Verify the specific mix of AC outlets and USB-A or USB-C ports, and confirm USB ports deliver enough wattage for laptop charging rather than just phone-level output."
+    "explanation": "Verify the specific mix of AC outlets and USB-A or USB-C ports, and confirm USB ports deliver enough wattage for laptop charging rather than just phone-level output. Products at the low end near $39 and the high end near $390 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Trace the Infeed Path",
-    "explanation": "Check how power reaches the table itself, whether through a floor box, wall outlet with a visible cord, or an in-leg raceway, since this affects how tidy the final installation looks."
+    "explanation": "Check how power reaches the table itself, whether through a floor box, wall outlet with a visible cord, or an in-leg raceway, since this affects how tidy the final installation looks. This matters in practice because the picks in this comparison span from about $39 to $390, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm the Data and AV Path",
-    "explanation": "If the room needs HDMI, Ethernet, or a video conferencing hub at the table, check whether the built-in module supports that or only handles basic power."
+    "explanation": "If the room needs HDMI, Ethernet, or a video conferencing hub at the table, check whether the built-in module supports that or only handles basic power. With prices in this roundup ranging roughly $39 to $390, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Module Replacement and Repair",
-    "explanation": "Ask whether a damaged or outdated power module can be swapped out on its own, since built-in electronics tend to need replacement before the table itself wears out."
+    "explanation": "Ask whether a damaged or outdated power module can be swapped out on its own, since built-in electronics tend to need replacement before the table itself wears out. Given the real spread here, from about $39 up to $390, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 

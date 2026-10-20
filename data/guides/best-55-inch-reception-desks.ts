@@ -156,23 +156,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width",
-    "explanation": "Require an actual assembled width close to 55 inches and publish any counter or side-panel overhang beyond the nominal size, since retail titles can round dimensions that differ from the assembled product."
+    "explanation": "Require an actual assembled width close to 55 inches and publish any counter or side-panel overhang beyond the nominal size, since retail titles can round dimensions that differ from the assembled product. Products at the low end near $160 and the high end near $621 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient."
+    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. This matters in practice because the picks in this comparison span from about $160 to $621, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room."
+    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. With prices in this roundup ranging roughly $160 to $621, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Knee Space After Storage",
-    "explanation": "Measure knee space after drawers and cabinets are installed, and identify which equipment must be omitted in a compact footprint at this width."
+    "explanation": "Measure knee space after drawers and cabinets are installed, and identify which equipment must be omitted in a compact footprint at this width. Given the real spread here, from about $160 up to $621, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Cable and Counter Depth",
-    "explanation": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one."
+    "explanation": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one. Across this comparison's $160 to $621 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 

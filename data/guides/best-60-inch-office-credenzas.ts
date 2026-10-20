@@ -205,23 +205,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width, Not Just Nominal",
-    "explanation": "Confirm 60-inch office credenzas's real assembled width including any top or trim overhang, since nominal width figures don't always account for edge details that extend beyond the case."
+    "explanation": "Confirm 60-inch office credenzas's real assembled width including any top or trim overhang, since nominal width figures don't always account for edge details that extend beyond the case. Across this comparison's $180 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Uninterrupted Top Width and Depth",
-    "explanation": "Check how much of the top surface is genuinely usable for active equipment after subtracting any raised trim or hutch footprint."
+    "explanation": "Check how much of the top surface is genuinely usable for active equipment after subtracting any raised trim or hutch footprint. Products at the low end near $180 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Publish Every Interior Bay Individually",
-    "explanation": "Get dimensions for each cabinet or drawer bay separately, since exterior width alone can be mistaken for proportional interior capacity."
+    "explanation": "Get dimensions for each cabinet or drawer bay separately, since exterior width alone can be mistaken for proportional interior capacity. This matters in practice because the picks in this comparison span from about $180 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Doors and Drawers Fully Open",
-    "explanation": "Check clearance with doors and drawers fully extended in the exact spot the credenza will sit, particularly beside a desk or chair."
+    "explanation": "Check clearance with doors and drawers fully extended in the exact spot the credenza will sit, particularly beside a desk or chair. With prices in this roundup ranging roughly $180 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Include Wall, Baseboard, and Cable Clearance",
-    "explanation": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall."
+    "explanation": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall. Given the real spread here, from about $180 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 

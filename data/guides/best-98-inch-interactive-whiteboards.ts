@@ -199,27 +199,27 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Separate flat panels, projectors, and portable systems",
-    "explanation": "An interactive whiteboard can mean an all-in-one 4K flat panel, a projector paired with a sensor, or a portable conversion bar that turns any surface interactive. These solve different problems at very different price points, know which category you actually need before comparing specs."
+    "explanation": "An interactive whiteboard can mean an all-in-one 4K flat panel, a projector paired with a sensor, or a portable conversion bar that turns any surface interactive. These solve different problems at very different price points, know which category you actually need before comparing specs. Given the real spread here, from about $2399 up to $7000, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Touch-point count is not simultaneous writing capacity",
-    "explanation": "A board advertising 20-point touch does not mean 20 people can write clean, independent lines at once, some of those points cover palm rejection and gesture recognition. Check the manufacturer's stated simultaneous-writer number specifically, not just the raw touch-point spec."
+    "explanation": "A board advertising 20-point touch does not mean 20 people can write clean, independent lines at once, some of those points cover palm rejection and gesture recognition. Check the manufacturer's stated simultaneous-writer number specifically, not just the raw touch-point spec. Across this comparison's $2399 to $7000 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "EDLA certification means something specific",
-    "explanation": "Google EDLA (Enterprise Device Licensing Agreement) certification guarantees stable Google Play Store, Workspace, and Google Education Suite access with regular OTA security updates. A board merely running Android without EDLA certification may lose app-store access or updates over time."
+    "explanation": "Google EDLA (Enterprise Device Licensing Agreement) certification guarantees stable Google Play Store, Workspace, and Google Education Suite access with regular OTA security updates. A board merely running Android without EDLA certification may lose app-store access or updates over time. Products at the low end near $2399 and the high end near $7000 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "OPS slots need a separately purchased module",
-    "explanation": "Many boards advertise an OPS (Open Pluggable Specification) expansion slot for adding Windows compatibility, but the actual Windows OPS computer module is almost always sold separately and can cost as much as a mid-range laptop. Budget for it if Windows software is a real requirement."
+    "explanation": "Many boards advertise an OPS (Open Pluggable Specification) expansion slot for adding Windows compatibility, but the actual Windows OPS computer module is almost always sold separately and can cost as much as a mid-range laptop. Budget for it if Windows software is a real requirement. This matters in practice because the picks in this comparison span from about $2399 to $7000, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Wireless casting and wireless touch-back are different features",
-    "explanation": "Casting lets a phone or laptop screen display on the board. Touch-back control lets you operate that connected device's cursor directly from the board's touchscreen. Confirm which one a specific product actually supports before assuming both are included."
+    "explanation": "Casting lets a phone or laptop screen display on the board. Touch-back control lets you operate that connected device's cursor directly from the board's touchscreen. Confirm which one a specific product actually supports before assuming both are included. With prices in this roundup ranging roughly $2399 to $7000, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Mounting weight and wall structure matter as much as specs",
-    "explanation": "A 75-inch or larger panel commonly weighs 80-150+ pounds. Confirm VESA mount compatibility and that your wall studs or mounting surface can support that load safely, professional installation is often worth the cost at this size."
+    "explanation": "A 75-inch or larger panel commonly weighs 80-150+ pounds. Confirm VESA mount compatibility and that your wall studs or mounting surface can support that load safely, professional installation is often worth the cost at this size. Given the real spread here, from about $2399 up to $7000, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 

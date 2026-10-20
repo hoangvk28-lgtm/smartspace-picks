@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Actual Length Against the Listing",
-    "explanation": "Measure the 20 ft conference tables's actual stated length rather than assuming round marketing numbers are exact, since \"10 ft\" and similar labels can be approximate."
+    "explanation": "Measure the 20 ft conference tables's actual stated length rather than assuming round marketing numbers are exact, since \"10 ft\" and similar labels can be approximate. Across this comparison's $580 to $1900 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Top Depth, Not Just Length",
-    "explanation": "A long table with shallow depth still limits what can comfortably sit on the surface at once, so check width or depth alongside the headline length figure."
+    "explanation": "A long table with shallow depth still limits what can comfortably sit on the surface at once, so check width or depth alongside the headline length figure. Products at the low end near $580 and the high end near $1900 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Map Seat Zones Along the Length",
-    "explanation": "Divide the table's length by roughly 24 to 30 inches per seat to estimate genuinely usable seating, rather than trusting an advertised capacity number alone."
+    "explanation": "Divide the table's length by roughly 24 to 30 inches per seat to estimate genuinely usable seating, rather than trusting an advertised capacity number alone. This matters in practice because the picks in this comparison span from about $580 to $1900, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Base and Seam Placement",
-    "explanation": "Longer tables often ship in sections; check where seams and center supports fall so they don't interrupt a seat position or block knee room."
+    "explanation": "Longer tables often ship in sections; check where seams and center supports fall so they don't interrupt a seat position or block knee room. With prices in this roundup ranging roughly $580 to $1900, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm the Occupied Footprint Fits the Room",
-    "explanation": "Account for chairs pulled out on both long sides plus at least 36 inches of walking clearance when checking this length against your actual room dimensions."
+    "explanation": "Account for chairs pulled out on both long sides plus at least 36 inches of walking clearance when checking this length against your actual room dimensions. Given the real spread here, from about $580 up to $1900, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 

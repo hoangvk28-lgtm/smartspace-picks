@@ -172,23 +172,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm the Duration Is Independently Documented",
-    "explanation": "Require exact evidence (UL Classified, ETL Verified, or equivalent) for 1 hour fireproof safes's stated fire duration rather than accepting a manufacturer's own unverified claim at face value."
+    "explanation": "Require exact evidence (UL Classified, ETL Verified, or equivalent) for 1 hour fireproof safes's stated fire duration rather than accepting a manufacturer's own unverified claim at face value. This matters in practice because the picks in this comparison span from about $68 to $100, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check the Test Temperature, Not Just the Time",
-    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure."
+    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure. With prices in this roundup ranging roughly $68 to $100, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify What Contents the Rating Actually Covers",
-    "explanation": "Paper-document protection and digital-media protection (CDs, USB drives, hard drives) are often tested and rated separately, even within the same duration class."
+    "explanation": "Paper-document protection and digital-media protection (CDs, USB drives, hard drives) are often tested and rated separately, even within the same duration class. Given the real spread here, from about $68 up to $100, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Treat Water and Impact Claims as Separate Facts",
-    "explanation": "A fire-duration rating says nothing about water resistance or drop/impact survival; check those claims independently if either matters for your situation."
+    "explanation": "A fire-duration rating says nothing about water resistance or drop/impact survival; check those claims independently if either matters for your situation. Across this comparison's $68 to $100 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh the Size and Weight Tradeoff",
-    "explanation": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice."
+    "explanation": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice. Products at the low end near $68 and the high end near $100 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 

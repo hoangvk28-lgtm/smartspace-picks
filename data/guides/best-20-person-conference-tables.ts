@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify the Seat Count Against Real Dimensions",
-    "explanation": "Check the 20-person conference tables's actual length and depth against roughly 24 to 30 inches of edge space per seat, since advertised capacity can assume tighter spacing than is comfortable in practice."
+    "explanation": "Check the 20-person conference tables's actual length and depth against roughly 24 to 30 inches of edge space per seat, since advertised capacity can assume tighter spacing than is comfortable in practice. Products at the low end near $580 and the high end near $1900 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Per-Seat Edge Space",
-    "explanation": "Divide the table's usable length by the advertised seat count to estimate real per-person space, rather than trusting the headline number alone."
+    "explanation": "Divide the table's usable length by the advertised seat count to estimate real per-person space, rather than trusting the headline number alone. This matters in practice because the picks in this comparison span from about $580 to $1900, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Laptop and Notepad Depth",
-    "explanation": "Check the table's depth provides enough room for a laptop or notepad plus a water glass without crowding the next seat over."
+    "explanation": "Check the table's depth provides enough room for a laptop or notepad plus a water glass without crowding the next seat over. With prices in this roundup ranging roughly $580 to $1900, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Base Interference at End Seats",
-    "explanation": "Confirm pedestal or leg placement doesn't block knee room for whoever sits at the ends or corners closest to the base."
+    "explanation": "Confirm pedestal or leg placement doesn't block knee room for whoever sits at the ends or corners closest to the base. Given the real spread here, from about $580 up to $1900, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure the Occupied Footprint for the Room",
-    "explanation": "Account for chairs pulled out on every side, not just the table's static footprint, when confirming this seat count actually fits your meeting room."
+    "explanation": "Account for chairs pulled out on every side, not just the table's static footprint, when confirming this seat count actually fits your meeting room. Across this comparison's $580 to $1900 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
