@@ -24,6 +24,8 @@ import { categories, getCategoryBySlug } from "@/data/categories";
 import { authorToSlug, getAuthorByName } from "@/data/authors";
 import { guideDataLoaders } from "@/data/guides-index.generated";
 import { RichGuidePage } from "@/components/guide/RichGuidePage";
+import { informationalGuideLoaders } from "@/data/informational-index.generated";
+import { InformationalGuidePage } from "@/components/guide/InformationalGuidePage";
 
 export const revalidate = 604800;
 
@@ -61,7 +63,7 @@ export async function generateStaticParams() {
   // of eager static generation here, whether or not they still have a literal route
   // directory - that's the whole point of moving them off the eager-build path.
   const all = [...new Set([...guideSlugs, ...categorySlugs])].filter(
-    (slug) => !staticRouteSlugs.has(slug) && !guideDataLoaders[slug]
+    (slug) => !staticRouteSlugs.has(slug) && !guideDataLoaders[slug] && !informationalGuideLoaders[slug]
   );
   return all.map((slug) => ({ slug }));
 }
@@ -88,6 +90,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: richData.metaDescription,
       path: `/guide/${slug}`,
       image: richData.heroImage,
+      type: "article",
+    });
+  }
+
+  // Pure informational guide (data/informational-guides/<slug>.ts)
+  const loadInformationalGuide = informationalGuideLoaders[slug];
+  if (loadInformationalGuide) {
+    const infoData = await loadInformationalGuide();
+    return buildMetadata({
+      title: infoData.metaTitle,
+      description: infoData.metaDescription,
+      path: `/guide/${slug}`,
+      image: infoData.heroImage,
       type: "article",
     });
   }
@@ -174,6 +189,13 @@ export default async function BuyingGuidePage({ params }: Props) {
   if (loadRichGuide) {
     const richData = await loadRichGuide();
     return <RichGuidePage slug={slug} {...richData} />;
+  }
+
+  // ── Pure informational guide (data/informational-guides/<slug>.ts) ────────
+  const loadInformationalGuide = informationalGuideLoaders[slug];
+  if (loadInformationalGuide) {
+    const infoData = await loadInformationalGuide();
+    return <InformationalGuidePage data={infoData} />;
   }
 
   // ── Category listing page ─────────────────────────────────────────────────
