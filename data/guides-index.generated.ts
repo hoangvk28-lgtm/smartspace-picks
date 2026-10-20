@@ -3333,6 +3333,7 @@ export const guideDataLoaders: Record<string, () => Promise<GuideDataModule>> = 
   "best-monitor-shelves-with-storage": () => import("./guides/best-monitor-shelves-with-storage"),
   "best-monitor-stands-with-drawers": () => import("./guides/best-monitor-stands-with-drawers"),
   "best-monitor-stands-with-storage-shelves": () => import("./guides/best-monitor-stands-with-storage-shelves"),
+  "best-monitor-under-300": () => import("./guides/best-monitor-under-300"),
   "best-monochrome-laser-printers-for-home-offices": () => import("./guides/best-monochrome-laser-printers-for-home-offices"),
   "best-monoprice-3d-printers": () => import("./guides/best-monoprice-3d-printers"),
   "best-monoprice-drawing-tablets": () => import("./guides/best-monoprice-drawing-tablets"),
