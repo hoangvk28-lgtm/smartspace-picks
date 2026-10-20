@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which xhorse desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. This matters in practice because the picks in this comparison span from about $487 to $649, and skipping a real check on build current model map is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on build current model map, since a generic product photo or title alone won't confirm it."
+    "explanation": "Xhorse's current lineup shifts over time, so verify which specific models are actually sold and supported today rather than trusting an older listing's specs. Hardware, firmware, and even official support status change generation to generation. Cross-check against Xhorse's own current product page."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. Buyers shopping anywhere from $487 to $649 in this category often assume exact travel rail architecture is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on exact travel rail architecture stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check actual work travel, rails, and spindle/router architecture for the specific Xhorse model, since a brand's lineup can span very different hardware generations under similar-sounding names. Don't assume two models in the same family share the same motion hardware. Verify these specs for your exact model number."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. At every price point in this comparison's $487 to $649 range, map official upgrade paths varies enough between listings that assuming it scales with price is a real way to get burned. Confirm map official upgrade paths directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Official upgrade support from Xhorse is typically model-specific, not brand-wide, so a 4th-axis or laser add-on compatible with one machine may not fit another in the same family. Confirm the upgrade path for your exact model directly. Third-party claims of universal compatibility are worth verifying independently."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. Two picks priced close together, anywhere in this comparison's $487-$649 band, can still land on opposite ends of controller software support, so price alone is a poor proxy for it here. Compare the stated figure for controller software support across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly for your specific Xhorse model, since older machines in a brand's lineup can lose active software support over time. A machine still sold new isn't automatically guaranteed current software support. Verify this explicitly rather than assuming brand-wide consistency."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. Products at the low end near $487 and the high end near $649 of this comparison don't always handle warranty replacement parts the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of warranty replacement parts, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Warranty length alone doesn't guarantee replacement parts availability for Xhorse, verify both independently before committing to the ecosystem. Parts availability can vary by model and region even under one warranty policy. Check current buyer reviews for real experiences getting replacement parts."
   }
 ];
 

@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Exact Model Generation",
-    "explanation": "Confirm 4040 desktop cnc machines's exact model and revision rather than trusting the size-class number alone, since hardware changes across generations while the name stays similar. Across this comparison's $341 to $911 range, exact model generation is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check exact model generation against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the exact model and revision behind a \"4040\" listing rather than trusting the size-class number alone, since hardware changes across generations while the model name stays similar. Two listings both called \"4040\" can represent meaningfully different hardware. Check the full model number and revision explicitly, not just the headline size designation."
   },
   {
     "criterion": "Publish Real XYZ Travel and Footprint",
-    "explanation": "Check actual working range and total machine footprint, since size-class labels describe rough XY dimensions, not a technical standard. Given the real spread here, from about $341 up to $911, two products can look nearly identical on the surface while differing exactly on real xyz travel footprint, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on real xyz travel footprint, since it's often left out of the main bullet points entirely."
+    "explanation": "\"4040\" as a size designation describes approximate dimensions, not an exact standard, so real working range and footprint can differ between listings sharing that name. Check the full spec sheet for actual figures rather than trusting the size-class label alone. This gap is easy to miss since the naming looks standardized."
   },
   {
     "criterion": "Compare Rail and Screw Architecture",
-    "explanation": "Verify rails, screws, and frame construction directly, since two machines in the same size class can use very different motion hardware. With prices in this roundup ranging roughly $341 to $911, rail screw architecture is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify rail screw architecture directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify rails, screws, and frame construction directly for a specific \"4040\" listing, since two machines in the same size class can use very different motion hardware. A lead screw versus a ball screw, or different rail quality, meaningfully affects precision and longevity. Check these specs explicitly rather than assuming parity across \"4040\" listings."
   },
   {
     "criterion": "Confirm Spindle and Collet Compatibility",
-    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the size-class name. This matters in practice because the picks in this comparison span from about $341 to $911, and skipping a real check on spindle collet compatibility is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on spindle collet compatibility, since a generic product photo or title alone won't confirm it."
+    "explanation": "Spindle and collet compatibility for a \"4040\"-class machine depends on the exact revision, not just the size-class name shared across listings. Confirm official upgrade compatibility for your specific model before buying accessories. Don't assume parts are interchangeable just because the size designation matches."
   },
   {
     "criterion": "Map Controller and Expansion Options",
-    "explanation": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility. Buyers shopping anywhere from $341 to $911 in this category often assume map controller expansion options is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on map controller expansion options stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify controller type, travel limits, probing, and laser or 4th-axis expansion support by the specific revision behind a \"4040\" listing before assuming compatibility. Controller hardware can differ meaningfully even within the same size class. Check this explicitly rather than inferring it from the \"4040\" designation alone."
   }
 ];
 

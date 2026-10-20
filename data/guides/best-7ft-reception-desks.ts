@@ -192,19 +192,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable. Two picks priced close together, anywhere in this comparison's $459-$1469 band, can still land on opposite ends of lay out real equipment, so price alone is a poor proxy for it here. Compare the stated figure for lay out real equipment across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "At 84 inches wide, lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so that exact width is proven usable before ordering, not assumed from the number alone. A desk's nominal width rarely maps cleanly onto how many real workstation zones actually fit. Sketch or tape out the layout at full scale against your floor plan first."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish room fit. Products at the low end near $459 and the high end near $1469 of this comparison don't always handle full depth return footprint the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of full depth return footprint, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Front width alone, even at 84 inches, says nothing about total room footprint once depth and any return or wing are factored in. Confirm the full depth figure alongside the width before measuring your space. The combined footprint is what actually needs to fit, not just one dimension."
   },
   {
     "criterion": "Map Work Zones and Support Locations",
-    "explanation": "Map one-person versus multi-person workstation zones and publish seam or support locations that can interfere with chairs or pedestals at this length. Across this comparison's $459 to $1469 range, map work zones support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check map work zones support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "At 84 inches, map one-person versus multi-person workstation zones and identify seam or support-leg locations that can interfere with chairs or pedestals along that length. A desk this size often has more than one real workstation zone, but support locations can constrain where chairs actually go. Check the listing for a dimensioned layout diagram, not just the overall width."
   },
   {
     "criterion": "Plan Separate Power and Visitor Positions",
-    "explanation": "Plan separate power, data, storage, and visitor positions so the wider run functions as more than one long surface. Given the real spread here, from about $459 up to $1469, two products can look nearly identical on the surface while differing exactly on plan separate power visitor, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on plan separate power visitor, since it's often left out of the main bullet points entirely."
+    "explanation": "A 84-inch desk needs planned power, data, storage, and visitor positions to function as distinct work zones rather than one long undifferentiated surface. Cable and outlet placement matters more as the run gets longer. Confirm grommet and outlet locations in the listing before assuming they'll land where you need them."
   }
 ];
 

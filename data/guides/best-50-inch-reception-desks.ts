@@ -192,11 +192,11 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. At every price point in this comparison's $200 to $262 range, lay out real equipment varies enough between listings that assuming it scales with price is a real way to get burned. Confirm lay out real equipment directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Don't take a 50-inch width as automatically usable for your planned layout, lay out monitor, keyboard, phone or POS, and visitor zones at actual scale first. The nominal width and the real usable workstation count aren't always what they seem on paper. A full-scale mockup catches mismatches before the desk arrives."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. Two picks priced close together, anywhere in this comparison's $200-$262 band, can still land on opposite ends of full depth return footprint, so price alone is a poor proxy for it here. Compare the stated figure for full depth return footprint across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Publish full depth and any return or wing footprint for a 50-inch desk, since front width alone doesn't establish real room fit. A wide front dimension paired with an unexpectedly deep return can blow past your available floor space. Check both figures together, not the headline width in isolation."
   },
   {
     "criterion": "Measure Knee Space After Storage",

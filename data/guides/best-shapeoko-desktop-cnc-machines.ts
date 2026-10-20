@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which shapeoko desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. Two picks priced close together, anywhere in this comparison's $438-$899 band, can still land on opposite ends of build current model map, so price alone is a poor proxy for it here. Compare the stated figure for build current model map across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Confirm which Shapeoko models are currently sold and supported rather than assuming an older listing still reflects the current lineup, since hardware and firmware both change across generations. A discontinued model's listing can rank in search long after a replacement ships. Check Shapeoko's own site for the current catalog, not just the marketplace listing title."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. Products at the low end near $438 and the high end near $899 of this comparison don't always handle exact travel rail architecture the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of exact travel rail architecture, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Work travel and rail architecture vary significantly across Shapeoko's model range, even between similarly-named machines, so check these specs for your exact model rather than the brand in general. This is one of the most consequential specs to get right before buying. Confirm it against the specific listing, not a brand overview page."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. Across this comparison's $438 to $899 range, map official upgrade paths is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check map official upgrade paths against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for your specific Shapeoko model, not just the brand's ecosystem in general. An upgrade compatible with one model can be unsupported on another in the same lineup. Check the official upgrade path for your exact model before assuming a brand-wide compatibility."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. Given the real spread here, from about $438 up to $899, two products can look nearly identical on the surface while differing exactly on controller software support, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on controller software support, since it's often left out of the main bullet points entirely."
+    "explanation": "Software and firmware support for Shapeoko machines isn't guaranteed to stay current indefinitely, older models in an active lineup can lose driver or sender compatibility over time. Check the current support status for your specific model. This is worth confirming before buying into any brand's ecosystem."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. With prices in this roundup ranging roughly $438 to $899, warranty replacement parts is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify warranty replacement parts directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available for Shapeoko before buying into the ecosystem, since parts availability varies by model and region. A warranty claim is only as useful as the actual availability of replacement parts. Check both explicitly, not just the headline warranty length."
   }
 ];
 

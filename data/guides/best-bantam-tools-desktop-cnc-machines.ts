@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which bantam tools desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. Given the real spread here, from about $438 up to $3197, two products can look nearly identical on the surface while differing exactly on build current model map, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on build current model map, since it's often left out of the main bullet points entirely."
+    "explanation": "Bantam Tools's current lineup shifts over time, so verify which specific models are actually sold and supported today rather than trusting an older listing's specs. Hardware, firmware, and even official support status change generation to generation. Cross-check against Bantam Tools's own current product page."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. With prices in this roundup ranging roughly $438 to $3197, exact travel rail architecture is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify exact travel rail architecture directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check actual work travel, rails, and spindle/router architecture for the specific Bantam Tools model, since a brand's lineup can span very different hardware generations under similar-sounding names. Don't assume two models in the same family share the same motion hardware. Verify these specs for your exact model number."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. This matters in practice because the picks in this comparison span from about $438 to $3197, and skipping a real check on map official upgrade paths is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on map official upgrade paths, since a generic product photo or title alone won't confirm it."
+    "explanation": "Official upgrade support from Bantam Tools is typically model-specific, not brand-wide, so a 4th-axis or laser add-on compatible with one machine may not fit another in the same family. Confirm the upgrade path for your exact model directly. Third-party claims of universal compatibility are worth verifying independently."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. Buyers shopping anywhere from $438 to $3197 in this category often assume controller software support is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on controller software support stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly for your specific Bantam Tools model, since older machines in a brand's lineup can lose active software support over time. A machine still sold new isn't automatically guaranteed current software support. Verify this explicitly rather than assuming brand-wide consistency."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. At every price point in this comparison's $438 to $3197 range, warranty replacement parts varies enough between listings that assuming it scales with price is a real way to get burned. Confirm warranty replacement parts directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Warranty length alone doesn't guarantee replacement parts availability for Bantam Tools, verify both independently before committing to the ecosystem. Parts availability can vary by model and region even under one warranty policy. Check current buyer reviews for real experiences getting replacement parts."
   }
 ];
 

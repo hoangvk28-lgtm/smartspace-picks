@@ -212,11 +212,11 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. This matters in practice because the picks in this comparison span from about $198 to $560, and skipping a real check on lay out real equipment is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on lay out real equipment, since a generic product photo or title alone won't confirm it."
+    "explanation": "Don't take a 63-inch width as automatically usable for your planned layout, lay out monitor, keyboard, phone or POS, and visitor zones at actual scale first. The nominal width and the real usable workstation count aren't always what they seem on paper. A full-scale mockup catches mismatches before the desk arrives."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. Buyers shopping anywhere from $198 to $560 in this category often assume full depth return footprint is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on full depth return footprint stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Publish full depth and any return or wing footprint for a 63-inch desk, since front width alone doesn't establish real room fit. A wide front dimension paired with an unexpectedly deep return can blow past your available floor space. Check both figures together, not the headline width in isolation."
   },
   {
     "criterion": "Measure Knee Space After Storage",

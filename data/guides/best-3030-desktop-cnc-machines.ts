@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Exact Model Generation",
-    "explanation": "Confirm 3030 desktop cnc machines's exact model and revision rather than trusting the size-class number alone, since hardware changes across generations while the name stays similar. Two picks priced close together, anywhere in this comparison's $143-$549 band, can still land on opposite ends of exact model generation, so price alone is a poor proxy for it here. Compare the stated figure for exact model generation across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Confirm the exact model and revision behind a \"3030\" listing rather than trusting the size-class number alone, since hardware changes across generations while the model name stays similar. Two listings both called \"3030\" can represent meaningfully different hardware. Check the full model number and revision explicitly, not just the headline size designation."
   },
   {
     "criterion": "Publish Real XYZ Travel and Footprint",
-    "explanation": "Check actual working range and total machine footprint, since size-class labels describe rough XY dimensions, not a technical standard. Products at the low end near $143 and the high end near $549 of this comparison don't always handle real xyz travel footprint the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of real xyz travel footprint, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "\"3030\" as a size designation describes approximate dimensions, not an exact standard, so real working range and footprint can differ between listings sharing that name. Check the full spec sheet for actual figures rather than trusting the size-class label alone. This gap is easy to miss since the naming looks standardized."
   },
   {
     "criterion": "Compare Rail and Screw Architecture",
-    "explanation": "Verify rails, screws, and frame construction directly, since two machines in the same size class can use very different motion hardware. Across this comparison's $143 to $549 range, rail screw architecture is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check rail screw architecture against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify rails, screws, and frame construction directly for a specific \"3030\" listing, since two machines in the same size class can use very different motion hardware. A lead screw versus a ball screw, or different rail quality, meaningfully affects precision and longevity. Check these specs explicitly rather than assuming parity across \"3030\" listings."
   },
   {
     "criterion": "Confirm Spindle and Collet Compatibility",
-    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the size-class name. Given the real spread here, from about $143 up to $549, two products can look nearly identical on the surface while differing exactly on spindle collet compatibility, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on spindle collet compatibility, since it's often left out of the main bullet points entirely."
+    "explanation": "Spindle and collet compatibility for a \"3030\"-class machine depends on the exact revision, not just the size-class name shared across listings. Confirm official upgrade compatibility for your specific model before buying accessories. Don't assume parts are interchangeable just because the size designation matches."
   },
   {
     "criterion": "Map Controller and Expansion Options",
-    "explanation": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility. With prices in this roundup ranging roughly $143 to $549, map controller expansion options is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map controller expansion options directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify controller type, travel limits, probing, and laser or 4th-axis expansion support by the specific revision behind a \"3030\" listing before assuming compatibility. Controller hardware can differ meaningfully even within the same size class. Check this explicitly rather than inferring it from the \"3030\" designation alone."
   }
 ];
 

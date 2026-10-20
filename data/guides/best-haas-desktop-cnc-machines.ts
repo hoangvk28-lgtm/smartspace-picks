@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which haas desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. At every price point in this comparison's $729 to $1063 range, build current model map varies enough between listings that assuming it scales with price is a real way to get burned. Confirm build current model map directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Haas's current lineup shifts over time, so verify which specific models are actually sold and supported today rather than trusting an older listing's specs. Hardware, firmware, and even official support status change generation to generation. Cross-check against Haas's own current product page."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. Two picks priced close together, anywhere in this comparison's $729-$1063 band, can still land on opposite ends of exact travel rail architecture, so price alone is a poor proxy for it here. Compare the stated figure for exact travel rail architecture across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Check actual work travel, rails, and spindle/router architecture for the specific Haas model, since a brand's lineup can span very different hardware generations under similar-sounding names. Don't assume two models in the same family share the same motion hardware. Verify these specs for your exact model number."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. Products at the low end near $729 and the high end near $1063 of this comparison don't always handle map official upgrade paths the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of map official upgrade paths, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Official upgrade support from Haas is typically model-specific, not brand-wide, so a 4th-axis or laser add-on compatible with one machine may not fit another in the same family. Confirm the upgrade path for your exact model directly. Third-party claims of universal compatibility are worth verifying independently."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. Across this comparison's $729 to $1063 range, controller software support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check controller software support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly for your specific Haas model, since older machines in a brand's lineup can lose active software support over time. A machine still sold new isn't automatically guaranteed current software support. Verify this explicitly rather than assuming brand-wide consistency."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. Given the real spread here, from about $729 up to $1063, two products can look nearly identical on the surface while differing exactly on warranty replacement parts, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on warranty replacement parts, since it's often left out of the main bullet points entirely."
+    "explanation": "Warranty length alone doesn't guarantee replacement parts availability for Haas, verify both independently before committing to the ecosystem. Parts availability can vary by model and region even under one warranty policy. Check current buyer reviews for real experiences getting replacement parts."
   }
 ];
 

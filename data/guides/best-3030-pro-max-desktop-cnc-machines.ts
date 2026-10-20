@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Exact Model Generation",
-    "explanation": "Confirm 3030 pro max desktop cnc machines's exact model and revision rather than trusting the size-class number alone, since hardware changes across generations while the name stays similar. Products at the low end near $751 and the high end near $891 of this comparison don't always handle exact model generation the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of exact model generation, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "A \"3030 pro max\" size-class name doesn't guarantee identical hardware across sellers, revisions change while the naming convention stays the same. Verify the exact model and revision before assuming two \"3030 pro max\" listings are the same machine. This naming inconsistency is common across this entire size category."
   },
   {
     "criterion": "Publish Real XYZ Travel and Footprint",
-    "explanation": "Check actual working range and total machine footprint, since size-class labels describe rough XY dimensions, not a technical standard. Across this comparison's $751 to $891 range, real xyz travel footprint is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check real xyz travel footprint against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the actual working range and total machine footprint behind any \"3030 pro max\" listing, since the size-class label describes rough XY dimensions, not a fixed technical standard. Two \"3030 pro max\" machines can differ in real travel and footprint despite sharing the name. Verify both figures explicitly in the listing's full spec sheet."
   },
   {
     "criterion": "Compare Rail and Screw Architecture",
-    "explanation": "Verify rails, screws, and frame construction directly, since two machines in the same size class can use very different motion hardware. Given the real spread here, from about $751 up to $891, two products can look nearly identical on the surface while differing exactly on rail screw architecture, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on rail screw architecture, since it's often left out of the main bullet points entirely."
+    "explanation": "Motion hardware (rails, screws, frame) varies between sellers even under the same \"3030 pro max\" size designation. Confirm the specific rail and screw type for your listing rather than assuming all \"3030 pro max\" machines share equivalent build quality. This is one of the more consequential specs hidden behind a shared size name."
   },
   {
     "criterion": "Confirm Spindle and Collet Compatibility",
-    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the size-class name. With prices in this roundup ranging roughly $751 to $891, spindle collet compatibility is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify spindle collet compatibility directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the \"3030 pro max\" size-class name alone, since compatible upgrades can differ even within the same nominal size category. A collet or spindle mount compatible with one \"3030 pro max\" listing may not fit another. Verify compatibility for your exact revision."
   },
   {
     "criterion": "Map Controller and Expansion Options",
-    "explanation": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility. This matters in practice because the picks in this comparison span from about $751 to $891, and skipping a real check on map controller expansion options is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on map controller expansion options, since a generic product photo or title alone won't confirm it."
+    "explanation": "Controller and expansion support for a \"3030 pro max\"-labeled machine varies by exact revision, not just the shared size-class name. Confirm probing, limit switches, and 4th-axis or laser support for your specific listing. This detail is frequently glossed over in favor of the more prominent size designation."
   }
 ];
 

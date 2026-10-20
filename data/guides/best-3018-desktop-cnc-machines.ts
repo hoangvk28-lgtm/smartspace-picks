@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Exact Model Generation",
-    "explanation": "Confirm 3018 desktop cnc machines's exact model and revision rather than trusting the size-class number alone, since hardware changes across generations while the name stays similar. Buyers shopping anywhere from $154 to $549 in this category often assume exact model generation is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on exact model generation stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the exact model and revision behind a \"3018\" listing rather than trusting the size-class number alone, since hardware changes across generations while the model name stays similar. Two listings both called \"3018\" can represent meaningfully different hardware. Check the full model number and revision explicitly, not just the headline size designation."
   },
   {
     "criterion": "Publish Real XYZ Travel and Footprint",
-    "explanation": "Check actual working range and total machine footprint, since size-class labels describe rough XY dimensions, not a technical standard. At every price point in this comparison's $154 to $549 range, real xyz travel footprint varies enough between listings that assuming it scales with price is a real way to get burned. Confirm real xyz travel footprint directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "\"3018\" as a size designation describes approximate dimensions, not an exact standard, so real working range and footprint can differ between listings sharing that name. Check the full spec sheet for actual figures rather than trusting the size-class label alone. This gap is easy to miss since the naming looks standardized."
   },
   {
     "criterion": "Compare Rail and Screw Architecture",
-    "explanation": "Verify rails, screws, and frame construction directly, since two machines in the same size class can use very different motion hardware. Two picks priced close together, anywhere in this comparison's $154-$549 band, can still land on opposite ends of rail screw architecture, so price alone is a poor proxy for it here. Compare the stated figure for rail screw architecture across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Verify rails, screws, and frame construction directly for a specific \"3018\" listing, since two machines in the same size class can use very different motion hardware. A lead screw versus a ball screw, or different rail quality, meaningfully affects precision and longevity. Check these specs explicitly rather than assuming parity across \"3018\" listings."
   },
   {
     "criterion": "Confirm Spindle and Collet Compatibility",
-    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the size-class name. Products at the low end near $154 and the high end near $549 of this comparison don't always handle spindle collet compatibility the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of spindle collet compatibility, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Spindle and collet compatibility for a \"3018\"-class machine depends on the exact revision, not just the size-class name shared across listings. Confirm official upgrade compatibility for your specific model before buying accessories. Don't assume parts are interchangeable just because the size designation matches."
   },
   {
     "criterion": "Map Controller and Expansion Options",
-    "explanation": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility. Across this comparison's $154 to $549 range, map controller expansion options is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check map controller expansion options against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify controller type, travel limits, probing, and laser or 4th-axis expansion support by the specific revision behind a \"3018\" listing before assuming compatibility. Controller hardware can differ meaningfully even within the same size class. Check this explicitly rather than inferring it from the \"3018\" designation alone."
   }
 ];
 

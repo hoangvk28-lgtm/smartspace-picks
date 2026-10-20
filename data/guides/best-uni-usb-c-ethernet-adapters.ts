@@ -233,27 +233,27 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "USB-C is a connector, not a speed",
-    "explanation": "A USB-C port can carry anywhere from 1Gbps to 10Gbps of Ethernet depending on the adapter's chipset and your host's actual USB generation. Check the exact Ethernet speed and required USB mode before assuming any USB-C adapter matches your needs. This matters in practice because the picks in this comparison span from about $16 to $22, and skipping a real check on usb-c connector speed is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on usb-c connector speed, since a generic product photo or title alone won't confirm it."
+    "explanation": "Don't treat \"USB-C\" as a speed spec from Uni, the connector says nothing about whether the adapter actually delivers 1Gbps or 10Gbps, that's entirely down to the chipset and host USB generation. Check the stated Ethernet speed explicitly, not just the port type. Confirm your host's actual USB mode supports it too."
   },
   {
     "criterion": "Multi-gig speeds need a fast enough USB port",
-    "explanation": "A 2.5G, 5G, or 10G adapter plugged into a basic USB 3.0 (5Gbps) port will not reach its rated Ethernet speed. 2.5G generally works on 5Gbps ports; 5G and 10G typically need a USB 3.2 Gen 2 (10Gbps) port or Thunderbolt/USB4 host. Buyers shopping anywhere from $16 to $22 in this category often assume multi-gig speeds need fast is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on multi-gig speeds need fast stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "A multi-gig adapter from Uni needs a correspondingly fast USB port to actually hit its rated speed, a basic USB 3.0 port caps well below what a 5G or 10G adapter can deliver. Check your specific host's USB generation before expecting the adapter's full rated speed. This mismatch is a common source of disappointing real-world results."
   },
   {
     "criterion": "Check OS and driver requirements before buying",
-    "explanation": "Most Gigabit adapters are driver-free on Windows, macOS, and ChromeOS, but multi-gig adapters often need a manufacturer driver on Windows or specific Linux kernel versions, and some models exclude older Apple silicon chips entirely. At every price point in this comparison's $16 to $22 range, os driver requirements before varies enough between listings that assuming it scales with price is a real way to get burned. Confirm os driver requirements before directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Driver requirements from Uni aren't uniform across platforms, what's plug-and-play on one OS can need a manual driver install or a specific version on another. Confirm compatibility for your exact OS and version before buying, not a generic cross-platform claim. Check recent reviews for real-world driver experiences on your specific setup."
   },
   {
     "criterion": "Confirm your specific device isn't excluded",
-    "explanation": "Several adapters in this cluster explicitly do not work with Nintendo Switch, Android, or specific Mac chip generations. Read the compatibility list carefully rather than assuming a USB-C connector guarantees your device will work. Two picks priced close together, anywhere in this comparison's $16-$22 band, can still land on opposite ends of specific device isnt excluded, so price alone is a poor proxy for it here. Compare the stated figure for specific device isnt excluded across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Several adapters in this category explicitly exclude certain devices or chip generations, so read the compatibility list carefully from Uni rather than assuming a USB-C connector guarantees it'll work. A listing's general \"USB-C compatible\" claim doesn't rule out specific exclusions buried in the fine print. Check the full compatibility notes, not just the headline bullet points."
   },
   {
     "criterion": "A CAT6 cable matters as much as the adapter",
-    "explanation": "Even a genuine Gigabit-capable adapter will fall back to slower speeds over an old CAT5 cable. Use CAT6 or better for Gigabit, and CAT6A for 5G/10G speeds, to actually realize the adapter's rated performance. Products at the low end near $16 and the high end near $22 of this comparison don't always handle cat6 cable matters as the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cat6 cable matters as, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Cable quality matters as much as the adapter's own spec from Uni, a fast adapter run over old CAT5 cabling won't come close to its rated speed. Confirm you're using CAT6 or better for Gigabit, or CAT6A for multi-gig tiers, before expecting full performance. This is an easy, cheap fix that gets overlooked often."
   },
   {
     "criterion": "PD passthrough wattage isn't automatically usable",
-    "explanation": "An adapter rated for 100W or 140W Power Delivery passthrough only delivers that much power if you also supply a charger and cable rated for it. The adapter's rating is a ceiling, not a guarantee, without the matching charger. Across this comparison's $16 to $22 range, pd passthrough wattage isnt is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check pd passthrough wattage isnt against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A Power Delivery passthrough rating from Uni only applies if you also supply a charger and cable actually rated for that wattage, the adapter's number is a ceiling, not a guarantee on its own. Check that your charger and cable both match the adapter's stated PD rating before expecting full passthrough power. Many buyers assume the adapter alone determines charging speed."
   }
 ];
 

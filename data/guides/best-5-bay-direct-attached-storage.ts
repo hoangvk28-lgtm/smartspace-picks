@@ -286,27 +286,27 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "DAS means direct host attachment, not RAID",
-    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately. Buyers shopping anywhere from $110 to $280 in this category often assume das means direct host is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on das means direct host stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Whether a 5-bay enclosure uses USB, Thunderbolt, or SAS, all of that falls under \"DAS,\" a term about host connection method only, not RAID, drive type, or bay count. Verify those three specs separately in the listing. The acronym alone won't tell you any of them."
   },
   {
     "criterion": "Bay count is not usable capacity",
-    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size. At every price point in this comparison's $110 to $280 range, bay count usable capacity varies enough between listings that assuming it scales with price is a real way to get burned. Confirm bay count usable capacity directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Don't multiply 5 bays by a single drive's capacity and call that the usable total, RAID 5 or RAID 6 parity reduces that figure to roughly 4 drives worth of actual usable space. Calculate capacity under your specific intended RAID mode before comparing against a similarly-priced simpler drive. This is one of the most common capacity miscalculations in this category."
   },
   {
     "criterion": "Hardware RAID and host software RAID are not interchangeable",
-    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving. Two picks priced close together, anywhere in this comparison's $110-$280 band, can still land on opposite ends of hardware raid host software, so price alone is a poor proxy for it here. Compare the stated figure for hardware raid host software across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Hardware or enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving. For 5-bay direct-attached storage, check which type a specific model implements, since the tradeoffs are genuinely different, not just a naming distinction. Confirm this explicitly rather than assuming \"RAID support\" means one or the other."
   },
   {
     "criterion": "The interface link rate is not your real transfer speed",
-    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum. Products at the low end near $110 and the high end near $280 of this comparison don't always handle interface link rate real the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of interface link rate real, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "The port speed advertised for 5-bay direct-attached storage describes a ceiling, not what you'll actually get once multiple mechanical drives share that same connection, each HDD typically sustains only 150-250MB/s. Aggregate throughput across all active drives matters more than any single port's rated maximum. Check reviews for real sustained speed under multi-drive load."
   },
   {
     "criterion": "RAID is not backup",
-    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides. Across this comparison's $110 to $280 range, raid backup is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check raid backup against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "RAID 1 or RAID 5 on 5-bay direct-attached storage protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy the enclosure provides. RAID is uptime protection, not a backup strategy."
   },
   {
     "criterion": "Diskless enclosures need drives budgeted separately",
-    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive. Given the real spread here, from about $110 up to $280, two products can look nearly identical on the surface while differing exactly on diskless enclosures need drives, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on diskless enclosures need drives, since it's often left out of the main bullet points entirely."
+    "explanation": "A diskless 5-bay direct-attached storage enclosure's sticker price only covers the empty chassis, budget for 5 drives or SSDs separately before comparing it against a preconfigured external drive at a similar price point. Skipping this step makes the enclosure look cheaper than its real total cost. Confirm \"diskless\" or \"enclosure only\" wording in the listing before buying."
   }
 ];
 

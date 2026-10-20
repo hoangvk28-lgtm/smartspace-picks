@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Real Cut Evidence for the Target Material",
-    "explanation": "Look for documented feeds, tooling, and cut depth specific to for aluminum desktop cnc machines rather than a generic material-compatibility badge. Buyers shopping anywhere from $487 to $1063 in this category often assume real cut evidence target is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on real cut evidence target stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Look for documented feeds, tooling, and actual cut depth specific to aluminum, rather than a generic material-compatibility badge that doesn't specify real test conditions. A \"can cut aluminum\" claim without feeds and tooling data is close to meaningless. Check for specific test documentation, not just a checkmark on a compatibility chart."
   },
   {
     "criterion": "Check Spindle Torque, Not Just Speed",
-    "explanation": "Verify spindle torque and rigidity figures, since RPM alone doesn't predict whether a machine can hold a cut in metal without deflecting. At every price point in this comparison's $487 to $1063 range, spindle torque speed varies enough between listings that assuming it scales with price is a real way to get burned. Confirm spindle torque speed directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "RPM alone says nothing about whether a spindle can actually hold a cut in aluminum without deflecting, torque and rigidity matter more for this material. Check the documented torque figure specifically, not just the maximum speed number most listings headline. A high-RPM spindle with low torque will struggle here."
   },
   {
     "criterion": "Plan Chip Evacuation and Lubrication",
-    "explanation": "Confirm the machine documents chip evacuation and coolant or lubrication needs, since metal chips behave very differently from wood dust. Two picks priced close together, anywhere in this comparison's $487-$1063 band, can still land on opposite ends of plan chip evacuation lubrication, so price alone is a poor proxy for it here. Compare the stated figure for plan chip evacuation lubrication across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Confirm the machine documents chip evacuation and coolant or lubrication needs for aluminum, since metal chips behave very differently from the dust produced cutting wood or plastic. Inadequate chip clearing causes re-cutting and tool damage specific to metal work. Check for explicit guidance on this, not just general dust-collection marketing."
   },
   {
     "criterion": "Compare Tool Wear and Cycle Time",
-    "explanation": "Check that 'can cut' claims are backed by realistic cycle time and tool wear data, not just a single demonstration pass. Products at the low end near $487 and the high end near $1063 of this comparison don't always handle tool wear cycle time the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of tool wear cycle time, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "A single demonstration cut in aluminum doesn't establish realistic tool wear or cycle time under sustained use. Look for buyer reports or documented data on repeated cuts, not just a one-off marketing video. Tool wear specific to aluminum adds real ongoing cost that a single demo won't reveal."
   },
   {
     "criterion": "Verify Workholding for Metal Loads",
-    "explanation": "Confirm the included or recommended workholding can handle metal-cutting forces, since wood-grade clamps often aren't rigid enough. Across this comparison's $487 to $1063 range, workholding metal loads is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check workholding metal loads against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the included or recommended workholding can actually handle aluminum-cutting forces, since clamps adequate for wood often aren't rigid enough for metal work. Inadequate workholding under metal-cutting forces risks both a ruined workpiece and a damaged tool. Check for metal-rated workholding explicitly, not just generic clamps included in the box."
   }
 ];
 

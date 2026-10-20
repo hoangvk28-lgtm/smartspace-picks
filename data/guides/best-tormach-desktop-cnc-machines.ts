@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which tormach desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. With prices in this roundup ranging roughly $799 to $3197, build current model map is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify build current model map directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm which Tormach models are currently sold and supported rather than assuming an older listing still reflects the current lineup, since hardware and firmware both change across generations. A discontinued model's listing can rank in search long after a replacement ships. Check Tormach's own site for the current catalog, not just the marketplace listing title."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. This matters in practice because the picks in this comparison span from about $799 to $3197, and skipping a real check on exact travel rail architecture is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on exact travel rail architecture, since a generic product photo or title alone won't confirm it."
+    "explanation": "Work travel and rail architecture vary significantly across Tormach's model range, even between similarly-named machines, so check these specs for your exact model rather than the brand in general. This is one of the most consequential specs to get right before buying. Confirm it against the specific listing, not a brand overview page."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. Buyers shopping anywhere from $799 to $3197 in this category often assume map official upgrade paths is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on map official upgrade paths stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for your specific Tormach model, not just the brand's ecosystem in general. An upgrade compatible with one model can be unsupported on another in the same lineup. Check the official upgrade path for your exact model before assuming a brand-wide compatibility."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. At every price point in this comparison's $799 to $3197 range, controller software support varies enough between listings that assuming it scales with price is a real way to get burned. Confirm controller software support directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Software and firmware support for Tormach machines isn't guaranteed to stay current indefinitely, older models in an active lineup can lose driver or sender compatibility over time. Check the current support status for your specific model. This is worth confirming before buying into any brand's ecosystem."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. Two picks priced close together, anywhere in this comparison's $799-$3197 band, can still land on opposite ends of warranty replacement parts, so price alone is a poor proxy for it here. Compare the stated figure for warranty replacement parts across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available for Tormach before buying into the ecosystem, since parts availability varies by model and region. A warranty claim is only as useful as the actual availability of replacement parts. Check both explicitly, not just the headline warranty length."
   }
 ];
 

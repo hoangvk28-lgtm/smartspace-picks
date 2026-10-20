@@ -192,11 +192,11 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. Two picks priced close together, anywhere in this comparison's $300-$600 band, can still land on opposite ends of lay out real equipment, so price alone is a poor proxy for it here. Compare the stated figure for lay out real equipment across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "At 60 inches wide, lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so that exact width is proven usable before ordering, not assumed from the number alone. A desk's nominal width rarely maps cleanly onto how many real workstation zones actually fit. Sketch or tape out the layout at full scale against your floor plan first."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. Products at the low end near $300 and the high end near $600 of this comparison don't always handle full depth return footprint the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of full depth return footprint, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Front width alone, even at 60 inches, says nothing about total room footprint once depth and any return or wing are factored in. Confirm the full depth figure alongside the width before measuring your space. The combined footprint is what actually needs to fit, not just one dimension."
   },
   {
     "criterion": "Measure Knee Space After Storage",

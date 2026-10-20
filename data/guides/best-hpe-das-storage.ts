@@ -285,27 +285,27 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "DAS means direct host attachment, not RAID",
-    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately. At every price point in this comparison's $120 to $2691 range, das means direct host varies enough between listings that assuming it scales with price is a real way to get burned. Confirm das means direct host directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Whether a Hpe enclosure uses USB, Thunderbolt, or SAS, all of that falls under \"DAS,\" a term about host connection method only, not RAID, drive type, or bay count. Verify those three specs separately in the listing. The acronym alone won't tell you any of them."
   },
   {
     "criterion": "Bay count is not usable capacity",
-    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size. Two picks priced close together, anywhere in this comparison's $120-$2691 band, can still land on opposite ends of bay count usable capacity, so price alone is a poor proxy for it here. Compare the stated figure for bay count usable capacity across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "An enclosure's total bay count times a single drive's capacity is not the usable space you'll actually get once RAID 5 or RAID 6 parity is applied, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode for a Hpe enclosure, not raw bay count times drive size. This gap catches buyers who stop their math at the raw multiplication."
   },
   {
     "criterion": "Hardware RAID and host software RAID are not interchangeable",
-    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving. Products at the low end near $120 and the high end near $2691 of this comparison don't always handle hardware raid host software the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of hardware raid host software, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Hardware RAID and host software RAID solve the portability-vs-flexibility tradeoff differently, hardware RAID survives an OS reinstall and moves between hosts, software RAID ties the array to specific software but adapts more easily. For hpe das storage, verify which type a given model actually implements. The label \"RAID support\" alone doesn't tell you which."
   },
   {
     "criterion": "The interface link rate is not your real transfer speed",
-    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum. Across this comparison's $120 to $2691 range, interface link rate real is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check interface link rate real against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A fast-rated interface port can still bottleneck well below its advertised speed once real sustained drive throughput is accounted for, mechanical HDDs typically sustain only 150-250MB/s each, so running several simultaneously on hpe das storage caps well under the port's rated maximum. Multi-drive aggregate speed matters more than the port's rated number. Verify real-world sustained throughput in reviews, not just the port's headline spec."
   },
   {
     "criterion": "RAID is not backup",
-    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides. Given the real spread here, from about $120 up to $2691, two products can look nearly identical on the surface while differing exactly on raid backup, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on raid backup, since it's often left out of the main bullet points entirely."
+    "explanation": "Don't mistake RAID redundancy on hpe das storage for a backup, RAID 1 or RAID 5 only protects against a single drive failure, not deletion, ransomware, fire, or theft. A genuine separate backup copy of anything irreplaceable is still necessary regardless of RAID level. The two serve different purposes entirely."
   },
   {
     "criterion": "Diskless enclosures need drives budgeted separately",
-    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive. With prices in this roundup ranging roughly $120 to $2691, diskless enclosures need drives is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify diskless enclosures need drives directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Most hpe das storage enclosures ship completely empty, factor in 2-8 drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive. The empty enclosure price is only part of the real total cost. Check the listing explicitly for \"diskless\" or \"enclosure only\" wording before assuming drives are included."
   }
 ];
 

@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Real Cut Evidence for the Target Material",
-    "explanation": "Look for documented feeds, tooling, and cut depth specific to desktop cnc machines for metal rather than a generic material-compatibility badge. This matters in practice because the picks in this comparison span from about $487 to $3197, and skipping a real check on real cut evidence target is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on real cut evidence target, since a generic product photo or title alone won't confirm it."
+    "explanation": "A generic \"compatible with metal\" badge tells you little without actual documented feeds, tooling, and cut depth data behind it. Look for specific test conditions, not a vague compatibility claim. This distinction matters more for metal than for softer materials where tolerances are more forgiving."
   },
   {
     "criterion": "Check Spindle Torque, Not Just Speed",
-    "explanation": "Verify spindle torque and rigidity figures, since RPM alone doesn't predict whether a machine can hold a cut in metal without deflecting. Buyers shopping anywhere from $487 to $3197 in this category often assume spindle torque speed is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on spindle torque speed stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify spindle torque and rigidity figures specifically for cutting metal, since RPM alone doesn't predict whether a machine can hold a cut without deflecting under real load. A high-RPM, low-torque spindle struggles with metal regardless of its headline speed number. Check torque figures directly, not just the maximum RPM spec."
   },
   {
     "criterion": "Plan Chip Evacuation and Lubrication",
-    "explanation": "Confirm the machine documents chip evacuation and coolant or lubrication needs, since metal chips behave very differently from wood dust. At every price point in this comparison's $487 to $3197 range, plan chip evacuation lubrication varies enough between listings that assuming it scales with price is a real way to get burned. Confirm plan chip evacuation lubrication directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Chip evacuation for metal is a different problem than dust collection for wood, metal chips clear differently and can cause tool damage if not managed. Confirm the listing documents actual coolant or lubrication recommendations for metal cutting. General \"dust collection\" marketing language doesn't address this."
   },
   {
     "criterion": "Compare Tool Wear and Cycle Time",
-    "explanation": "Check that 'can cut' claims are backed by realistic cycle time and tool wear data, not just a single demonstration pass. Two picks priced close together, anywhere in this comparison's $487-$3197 band, can still land on opposite ends of tool wear cycle time, so price alone is a poor proxy for it here. Compare the stated figure for tool wear cycle time across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Check that \"can cut metal\" claims are backed by realistic cycle time and tool wear data, not just a single demonstration pass under ideal conditions. A single successful cut doesn't tell you how the tooling holds up over repeated runs. Look for sustained-use data or buyer reports, not just a marketing demo video."
   },
   {
     "criterion": "Verify Workholding for Metal Loads",
-    "explanation": "Confirm the included or recommended workholding can handle metal-cutting forces, since wood-grade clamps often aren't rigid enough. Products at the low end near $487 and the high end near $3197 of this comparison don't always handle workholding metal loads the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of workholding metal loads, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Workholding rated for wood or plastic often isn't rigid enough for the cutting forces involved in metal, check explicitly whether included or recommended clamps are metal-rated. A workpiece that shifts mid-cut on metal risks both the part and the tool. Don't assume included clamps are adequate without checking."
   }
 ];
 
