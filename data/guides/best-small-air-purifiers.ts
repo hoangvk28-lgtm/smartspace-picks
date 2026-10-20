@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Can a small air purifier cover my whole studio apartment?", a: "Usually not well. Desktop-sized units are appropriate for a single small room or a desk zone specifically, not a whole small apartment, that's a common scope mismatch leading to disappointing results." },
   { q: "What should I check before buying a compact air purifier?", a: "Verify it has a genuine disclosed coverage or CADR rating rather than assuming its small size alone implies adequate performance for your specific room." },
   { q: "Should I buy one compact unit or several for a small multi-room apartment?", a: "Several is often better. A studio or small apartment with multiple distinct areas typically does better with one compact unit per room than a single unit expected to cover everything." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a compact unit with a genuinely disclosed coverage rating" },
+  { q: "Which pick offers the best value for a tight budget?", a: "A desk zone or personal space rather than a full small bedroom At $45.30, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

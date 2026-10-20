@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Can I feed a square or oversized business card through these scanners?", a: "Not reliably. Cards deviating from the standard 3.5x2 inch size commonly cause feed jams in ADF-based card-scan modes, a real compatibility gap for creative-industry or international cards." },
   { q: "Will scanned business cards import cleanly into my CRM?", a: "It depends on the export format. A scanner/app exporting only to a proprietary format or basic CSV without field mapping creates real manual cleanup work importing into Salesforce, HubSpot, or similar platforms, test the export format first." },
   { q: "Do these scanners handle duplicate contacts when I re-scan someone's updated card?", a: "This varies significantly by app and isn't independently confirmed for any pick in this guide. Duplicate detection and contact merging quality is a real database-feature gap worth testing directly if you scan repeat contacts often." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the highest-rated card-optimized scan path, even if not business-card-specific" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who only occasionally need to digitize a business card alongside general documents At $134.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

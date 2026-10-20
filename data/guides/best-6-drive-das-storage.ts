@@ -183,6 +183,77 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Same Buying Logic as 6-Bay",
     "note": "Whether you search '6-drive' or '6-bay,' the buying decision is identical: verify true usable slot count, per-drive capacity limit, host interface speed, RAID/JBOD mode, and all-drive cooling before comparing price."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $130",
+          "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)"
+        ],
+        [
+          "Under $180",
+          "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
+        ],
+        [
+          "Under $180",
+          "CENMATE Aluminum 6-Bay Hard Drive Enclosure (5Gbps)"
+        ],
+        [
+          "Under $200",
+          "ORICO RAID 5-Bay HDD Enclosure (110TB"
+        ],
+        [
+          "Under $210",
+          "CENMATE Aluminum 6-Bay 10Gbps Hard Drive Enclosure"
+        ],
+        [
+          "Under $219",
+          "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
+        ],
+        [
+          "Under $230",
+          "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
+        ],
+        [
+          "Under $240",
+          "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) vs TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)",
+    "cards": [
+      {
+        "label": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)",
+        "text": "Buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb At $129.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)",
+        "text": "Buyers prioritizing 6-bay, up to 132tb total At $239.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 6-bay, up to 132tb total"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -233,6 +304,8 @@ export const faq = [
     "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 6-bay, up to 132tb total" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-bay-direct-attached-storage","title":"6 Best 6-Bay Direct-Attached Storage"},{"href":"/guide/best-multi-bay-das-storage","title":"8 Best Multi-Bay DAS Storage Options"},{"href":"/guide/best-8-bay-das-storage","title":"6 Best 8-Bay DAS Storage Options"}];

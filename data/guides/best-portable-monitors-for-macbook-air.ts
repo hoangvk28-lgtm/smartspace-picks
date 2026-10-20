@@ -273,6 +273,8 @@ export const faq: FaqItem[] = [
   { q: "Will a portable monitor drain my MacBook Air's battery?", a: "It can, if the monitor's power draw combined with charging the Air exceeds what a base 30-35W adapter can supply. Lower-draw 1080p picks in this guide are safer for smaller chargers than 4K or high-refresh panels." },
   { q: "Does MacBook Air's fanless design limit what monitor I can use?", a: "No. Air's fanless design affects sustained CPU performance under heavy load, not USB-C power delivery to an external monitor, those are separate systems." },
   { q: "Is color accuracy less important for Air than for MacBook Pro?", a: "Somewhat. Since Air's own screen is 60Hz and non-XDR (not wide-gamut like Pro's), pairing it with a budget sRGB monitor creates a smaller visual mismatch than the same monitor would on a Pro." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Base M1/M2 MacBook Air owners who want the safest power-budget match without spending much" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Base M1/M2 MacBook Air owners who want the safest power-budget match without spending much At $49.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

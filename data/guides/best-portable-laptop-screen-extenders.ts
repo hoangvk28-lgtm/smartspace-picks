@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Will a screen extender drain my laptop battery while traveling?", a: "Yes, meaningfully. A portable extender's power draw comes from your laptop's own battery in most designs, reducing your laptop's own battery life during travel away from a wall outlet." },
   { q: "Should I get a single-screen or triple-screen portable extender?", a: "A single-panel extender draws meaningfully less battery and weighs less than a triple-screen setup, choose based on how much screen real estate you genuinely need while traveling versus battery/weight priorities." },
   { q: "Is an integrated kickstand better than a separate stand for travel?", a: "Generally yes, an integrated kickstand avoids carrying and packing a separate stand accessory, a genuine weight and packing-convenience savings for travel." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven, most affordable portable option" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven, most affordable portable option At $62.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

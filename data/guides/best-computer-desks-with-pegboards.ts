@@ -240,6 +240,7 @@ export const faq: FaqItem[] = [
   { q: "Is an integrated pegboard desk harder to assemble than a regular desk?", a: "Often yes. Combining two furniture types in one product can increase assembly difficulty compared to either purchased separately, budget more assembly time." },
   { q: "Should I buy an integrated pegboard desk or a separate desk and pegboard?", a: "If you want more flexibility to replace either component independently in the future, a separate desk and pegboard purchase may serve you better than an integrated combination product." },
   { q: "How long does assembly typically take for a desk with an integrated pegboard?", a: "Combined furniture products with drawers, hutches, and pegboards commonly take 2-4 hours for two people, plan your installation day accordingly rather than expecting a quick single-person setup." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven complete L-shaped desk with integrated storage" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

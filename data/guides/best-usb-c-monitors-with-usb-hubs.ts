@@ -239,6 +239,8 @@ export const faq: FaqItem[] = [
   { q: "Does more hub ports always mean a better monitor?", a: "Not necessarily, port placement and spacing matter as much as count, crammed ports can be harder to use with bulky dongles." },
   { q: "Should I buy an all-in-one docking monitor or a separate hub?", a: "An all-in-one is simpler to set up, a separate hub gives flexibility to pair with any monitor, choose based on whether you already have a monitor you like." },
   { q: "Can I run multiple fast peripherals through one monitor's USB hub at once?", a: "You can, but total bandwidth is shared across all connected devices, which can bottleneck performance if you're running several high-bandwidth peripherals simultaneously." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a genuine docking-station-style monitor with wired Ethernet and USB hub" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting a flexible standalone hub paired with any monitor At $39.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

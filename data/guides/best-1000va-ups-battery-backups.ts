@@ -244,6 +244,8 @@ export const faq: FaqItem[] = [
   { q: "Is 1000VA enough for a workstation?", a: "For a lighter, single-GPU workstation load, generally yes. For a demanding multi-GPU or rendering-focused workstation, step up to a 1500VA pick with more real-watt headroom." },
   { q: "What's the benefit of a lithium battery UPS at this capacity?", a: "Lithium battery chemistry generally handles heat and repeated charge cycles better over the long term than the lead-acid designs most competitors use, worth the modest price premium if longevity matters to you." },
   { q: "Should I buy an 850VA or 1000VA UPS?", a: "If your setup is a basic single-monitor desktop, an 850VA pick like the APC BX850M offers nearly equivalent real capacity at a lower price. If you want more headroom or a lithium battery, a 1000VA pick is the better choice." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most real wattage headroom at the 1000VA capacity tier" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want near-1000VA capacity at a lower price At $161.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

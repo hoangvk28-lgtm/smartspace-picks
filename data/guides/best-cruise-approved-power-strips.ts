@@ -236,6 +236,8 @@ export const faq: FaqItem[] = [
   { q: "Is 'cruise approved' on a product label an official certification?", a: "No, it's marketing language, not a standardized, verified certification. Always cross-check against the specific cruise line's current published electrical policy, since policies vary by line and can change." },
   { q: "Will a compliant power strip definitely get through cruise ship security?", a: "Not guaranteed. Confiscation policy and enforcement consistency at boarding varies by cruise line and individual security staff, even technically-compliant products that resemble traditional surge protectors are sometimes conservatively confiscated." },
   { q: "What's the safest alternative if I'm unsure about cruise power strip rules?", a: "A simple non-surge multi-USB charging hub with no AC outlets at all is frequently the most reliably compliant alternative across most cruise lines, sidestepping the surge-protector restriction question entirely." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Cruise travelers who want the most-proven cruise-compliant strip" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious cruise travelers who want proven compliance with more outlets At $8.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

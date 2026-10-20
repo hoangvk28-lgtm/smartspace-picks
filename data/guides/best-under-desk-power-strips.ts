@@ -256,6 +256,8 @@ export const faq: FaqItem[] = [
   { q: "Does mounting a power strip under a desk affect its heat dissipation?", a: "Yes. Confined under-desk spaces with limited airflow change thermal behavior compared to open placement, especially relevant for strips running near their rated capacity." },
   { q: "How do I access an under-desk power strip to plug in devices?", a: "Accessibility depends on mounting depth and orientation. A strip mounted deep or facing away requires reaching blind, verify the specific mounting position works for your reach before installing." },
   { q: "Do under-desk power strips need more durable construction?", a: "The under-desk zone is more exposed to dust, debris, and incidental foot or leg contact than desk-surface placement, a braided cord and solid housing hold up better in this environment." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum outlet capacity tucked under a desk" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a modest under-desk setup At $11.08, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

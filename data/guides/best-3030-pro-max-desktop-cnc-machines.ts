@@ -165,6 +165,8 @@ export const faq = [
     "q": "Can a desktop CNC router genuinely cut metal, or just engrave it?",
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 710w spindle, +/-0.03mm precision" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3020-desktop-cnc-machines","title":"Best 3020 Desktop CNC Machines in 2026"},{"href":"/guide/best-3020-pro-ultra-desktop-cnc-machines","title":"Best 3020 Pro Ultra Desktop CNC Machines in 2026"},{"href":"/guide/best-3018-desktop-cnc-machines","title":"Best 3018 Desktop CNC Machines in 2026"}];

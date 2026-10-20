@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Can I overload my circuit by filling all 12 outlets?", a: "Yes, this is a real risk at this tier specifically. Calculate your combined device wattage against your standard 15A circuit capacity before filling all outlets, this is the tier most likely to tempt genuinely circuit-overloading combinations." },
   { q: "Is it risky to consolidate my entire home theater onto one surge protector?", a: "There's a real tradeoff. A single surge protector failing or being unplugged takes down considerably more connected equipment simultaneously than using a lower-outlet-count unit, weigh convenience against this risk concentration." },
   { q: "Do I need a tower-style design for 12 outlets?", a: "Not necessarily. Many 12-outlet strips use a flat horizontal or wall-mountable design, if you specifically want a vertical tower form factor, verify its tip-over stability separately given the added weight of many plugged-in cables." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum joule headroom for a full home theater or office consolidation" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want maximum joule headroom for a full home theater or office consolidation At $18.89, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

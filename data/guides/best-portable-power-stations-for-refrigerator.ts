@@ -213,6 +213,8 @@ export const faq = [
     "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 2016wh (expandable to 8064wh), 1800w" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-for-fridge","title":"Best Portable Power Stations for Fridge in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"}];

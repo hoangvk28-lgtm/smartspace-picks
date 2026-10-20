@@ -291,6 +291,8 @@ export const faq = [
     "q": "Can this type of machine cut through bare metal?",
     "a": "Diode and CO2 lasers typically mark or engrave coated metal but cannot cut through bare metal; that requires a fiber laser, a different source architecture entirely."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who specifically want designed for smooth y-axis rotary motion, the acmer m4 laser rotary" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-laser-engravers","title":"Best Laser Engravers"},{"href":"/guide/best-laser-engravers-for-wood","title":"Best Laser Engravers for Wood"},{"href":"/guide/best-portable-laser-engravers","title":"Best Portable Laser Engravers"}];

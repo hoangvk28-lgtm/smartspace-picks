@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Can I calibrate a portable monitor with a colorimeter like a SpyderX?", a: "None of the portable picks in this guide confirm calibration hardware or ICC profile loading support. If hardware calibration matters to your workflow, a desktop reference monitor is the safer choice." },
   { q: "Is matte or glossy better for photo editing outdoors?", a: "Matte, generally, since it reduces the glare and reflections that interfere with accurate color judgment outdoors. The tradeoff is slightly reduced perceived contrast and vibrancy compared to a glossy panel." },
   { q: "Should I use a portable monitor for final color grading before print?", a: "Not ideally. None of the portable monitors in this guide claim verified Delta E accuracy. Use them for review, culling, and rough editing on location, and finish final color-critical decisions on a calibrated reference display." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Field photographers who want a bright, wide-gamut panel for on-location image review" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Photographers who want a lighter, cheaper screen for culling and review rather than final color work At $124.98, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

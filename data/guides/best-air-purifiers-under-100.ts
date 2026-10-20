@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "What's the real cost of owning a cheap air purifier over time?", a: "More than the sticker price suggests. Ongoing filter replacement cost over a year of regular use can rival or exceed the unit's original purchase price, factor that into your comparison." },
   { q: "How do I know if a budget air purifier can cover my room?", a: "Check for a specific disclosed square-footage or CADR rating rather than trusting vague 'large room' marketing language, which doesn't tell you much about actual capacity." },
   { q: "Is the cheapest air purifier under $50 good enough for a bedroom?", a: "It's best matched to a desk zone or small personal space rather than a full bedroom, expect a lower CADR at that price point." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven budget pick with genuine HEPA filtration" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Tightest-budget buyers wanting a desk zone or personal-space unit At $45.30, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

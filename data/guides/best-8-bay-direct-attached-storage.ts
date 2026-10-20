@@ -183,6 +183,77 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Same Buying Logic as 8-Bay DAS Storage",
     "note": "Whether searching '8-bay DAS storage' or '8-bay direct-attached storage,' the underlying buying decision is identical, verify speed tier, RAID/JBOD architecture, and power delivery before comparing price."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $180",
+          "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
+        ],
+        [
+          "Under $189",
+          "IO CREST 8-Bay USB Hard Drive Enclosure"
+        ],
+        [
+          "Under $230",
+          "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps)"
+        ],
+        [
+          "Under $230",
+          "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
+        ],
+        [
+          "Under $240",
+          "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
+        ],
+        [
+          "Under $255",
+          "CENMATE Aluminum 8-Bay 10Gbps Hard Drive Enclosure"
+        ],
+        [
+          "Under $318",
+          "8-Bay USB4 40Gbps Hard Drive Enclosure (SY-ENC50129)"
+        ],
+        [
+          "Under $799",
+          "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB vs QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
+    "cards": [
+      {
+        "label": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB",
+        "text": "Buyers prioritizing 4-bay raid, 8 modes, up to 88tb At $179.95, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
+        "text": "Buyers prioritizing 8-bay desktop, up to 10gbps At $799.00, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to ORICO 4-Bay RAID Hard Drive Enclosure (88TB unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 8-bay desktop, up to 10gbps"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 4-bay raid, 8 modes, up to 88tb"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -233,6 +304,8 @@ export const faq = [
     "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 8-bay, up to 160tb total" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-bay-das-storage","title":"6 Best 8-Bay DAS Storage Options"},{"href":"/guide/best-12-bay-direct-attached-storage","title":"5 Best 12-Bay Direct-Attached Storage"},{"href":"/guide/best-multi-bay-das-storage","title":"8 Best Multi-Bay DAS Storage Options"}];

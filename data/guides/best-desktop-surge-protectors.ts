@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Does a desktop surge protector take up too much space?", a: "It's a real tradeoff. A desk-sitting surge protector's footprint competes for the same limited desk surface area your equipment needs, weigh this against protection specs as co-equal factors, not just an aesthetic concern." },
   { q: "Is a desktop surge protector at risk from spills?", a: "Yes, more than under-desk or wall-mounted alternatives. Desk-surface placement puts the unit directly in the path of common desk spill accidents, a real location-specific risk worth weighing against the visibility benefit." },
   { q: "Does frequent handling wear out a desktop surge protector faster?", a: "It can. Desktop units are moved and repositioned more frequently than fixed-mount alternatives, introducing more physical wear on the cord and connector over time, a braided cord holds up better under this handling." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum capacity with genuinely visible protection status" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a compact, well-proven desktop protector minimizing space competition At $11.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

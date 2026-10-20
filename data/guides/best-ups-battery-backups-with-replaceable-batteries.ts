@@ -244,6 +244,8 @@ export const faq: FaqItem[] = [
   { q: "How often do I need to replace a UPS battery?", a: "Lead-acid UPS batteries typically need replacement every 3-5 years from simple age and charge-cycle wear, regardless of how often you've actually experienced an outage. This is normal wear, not a sign of a defective unit." },
   { q: "Can I replace a UPS battery myself?", a: "On the picks in this guide, yes, they use standard user-replaceable battery cartridges designed for straightforward swaps without needing to send the unit in for service." },
   { q: "Is it cheaper to replace the battery or buy a new UPS?", a: "If the UPS uses a standard, widely available replacement battery (like the APC picks in this guide), replacing the battery is almost always cheaper than buying a new unit. If the replacement part is proprietary and expensive, the math can shift, check pricing before assuming." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a widely available, genuinely cost-saving replacement battery part" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single computer, router, or NAS device At $83.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

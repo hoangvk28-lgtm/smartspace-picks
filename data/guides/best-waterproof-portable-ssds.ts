@@ -232,6 +232,8 @@ export const faq: FaqItem[] = [
   { q: "Does the main enclosure rating guarantee the USB port stays sealed too?", a: "Not necessarily. Port/connector covers, rubber flaps sealing the USB port, are often the actual point of water-ingress failure even on an otherwise well-sealed enclosure." },
   { q: "What should I do if my portable SSD gets wet?", a: "Let it fully dry and follow the manufacturer's documented post-submersion procedure before reconnecting power, improper immediate handling could cause damage even on a genuinely waterproof-rated drive." },
   { q: "Does salt water damage a waterproof portable SSD differently than fresh water?", a: "It can. Salt water exposure may have different real-world corrosion implications for the drive's external connector even if internal electronics remain protected, a nuance worth considering for marine environments." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven ruggedized pick with a genuinely disclosed IP rating" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven ruggedized pick with a genuinely disclosed IP rating At $286.88, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

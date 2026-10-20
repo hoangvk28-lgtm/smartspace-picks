@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "How long can I shred continuously with a sub-$100 shredder?", a: "Typically only 3-15 minutes before needing a cooldown of 30-40+ minutes. This is the shortest duty-cycle range in the shredder category, plan for light, occasional sessions rather than one large purge." },
   { q: "Are warranties shorter on budget shredders?", a: "Generally yes. Sub-$100 shredders commonly carry around 1-year warranties, shorter than premium models, a real cost-of-ownership factor since these units also tend to wear faster." },
   { q: "Which pick in this guide has the longest run time under $100?", a: "The Bonsaii 12-sheet C282-A pick (rank 4) offers 15 minutes of continuous run time, capable of roughly 900 sheets per cycle, the longest confirmed duty cycle among the picks in this guide." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the cheapest genuinely P-4-secure shredder" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the cheapest genuinely P-4-secure shredder At $33.16, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

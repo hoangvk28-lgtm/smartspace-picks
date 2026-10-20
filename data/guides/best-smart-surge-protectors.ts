@@ -229,6 +229,8 @@ export const faq: FaqItem[] = [
   { q: "Do smart surge protectors have more things that can break than basic ones?", a: "Yes. The added WiFi radio and processor introduce additional potential failure points beyond the MOV surge-protection components, layered complexity on top of, not replacing, the same underlying degradation considerations." },
   { q: "Will my smart surge protector's app still work in a few years?", a: "Not guaranteed. Firmware and app support are a genuine longevity consideration distinct from the surge protector's physical lifespan, the smart features could become non-functional well before the physical MOV components reach end-of-life." },
   { q: "Is cloud dependency a bigger risk for smart surge protectors than smart power strips?", a: "Potentially, if the smart surge protector's failure-notification feature relies on cloud connectivity for a safety-relevant alert, that connection being down at a critical moment is a higher-stakes risk than a basic remote-toggle convenience feature." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want proven independent smart outlet control alongside genuine surge protection" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want proven independent smart outlet control alongside genuine surge protection At $24.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

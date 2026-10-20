@@ -241,6 +241,8 @@ export const faq: FaqItem[] = [
   { q: "Will a KVM switch charge both my laptops at once?", a: "Usually not, power delivery typically only charges one connected device at a time, plan to keep both laptop power adapters in use." },
   { q: "Should I use HDMI instead of USB-C for a two-laptop KVM switch?", a: "If either laptop's USB-C video support is uncertain, HDMI avoids that compatibility question entirely." },
   { q: "Do I need a dual-monitor switch for two laptops?", a: "Only if you want a full workspace switch, a single-monitor switch is simpler and sufficient for many two-laptop workflows." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with two laptops wanting a budget-friendly dedicated switching solution" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with two laptops using HDMI output wanting a simple, budget-friendly switch At $29.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -248,6 +248,8 @@ export const faq: FaqItem[] = [
   { q: "Is a physical keypad more secure than a software password prompt?", a: "Generally yes. A physical keypad enforces access control at the hardware level regardless of connected OS, while a software prompt may be bypassable through certain OS-level access methods." },
   { q: "What is brute-force protection on a password-protected SSD?", a: "It's an auto-wipe or lockout mechanism after repeated failed password attempts, a genuine security feature distinct from basic password gating, worth verifying it's present." },
   { q: "What happens if I forget my password on a password-protected portable SSD?", a: "The same severe risk applies as with encrypted drives, some password-protected drives offer no recovery path, resulting in permanent, unrecoverable data loss." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting genuine hardware-level password enforcement backed by real encryption" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine hardware-level password enforcement backed by real encryption At $189.95, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

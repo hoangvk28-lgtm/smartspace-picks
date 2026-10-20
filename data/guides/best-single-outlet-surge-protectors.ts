@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Will a single-outlet surge protector block the other half of my duplex outlet?", a: "It's a real possibility with bulkier direct-plug designs. Verify this fit before assuming both outlet slots remain usable, some units are compact enough to avoid the issue, others aren't." },
   { q: "Should I buy multiple single-outlet surge protectors or one multi-outlet strip?", a: "It depends on your priorities. Multiple single-outlet units protecting several devices independently can offer better risk distribution than one shared multi-outlet strip, but at a higher combined cost and more wall-outlet space needed." },
   { q: "What's a good use case for a single-outlet surge protector?", a: "A single high-value device, a monitor, a modem or router, where you want dedicated, undiluted protection rather than sharing a joule budget with other devices on a multi-outlet strip." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want dedicated, undiluted protection for one high-value device" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want maximum dedicated joule capacity for one high-value device At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

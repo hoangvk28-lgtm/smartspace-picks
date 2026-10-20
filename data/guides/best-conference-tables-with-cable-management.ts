@@ -245,6 +245,8 @@ export const faq = [
     "q": "Why do some conference tables ship in more than one box?",
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 94.48\\\"w x 47.24\\\"d top, walnut & black finish" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-built-in-power","title":"Best Conference Tables With Built-In Power in 2026"},{"href":"/guide/best-conference-tables-with-power-outlets","title":"Best Conference Tables With Power Outlets in 2026"},{"href":"/guide/best-conference-tables-with-outlets","title":"Best Conference Tables With Outlets in 2026"}];

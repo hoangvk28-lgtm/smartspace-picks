@@ -276,6 +276,8 @@ export const faq: FaqItem[] = [
   { q: "Do any of these scanners automatically match invoices to purchase orders?", a: "No. Barcode/QR invoice-matching for PO automation is a specialized feature none of the picks in this guide confirm, verify with dedicated invoice-processing software if this automation matters to your workflow." },
   { q: "Will these scanners automatically extract the vendor name and total from an invoice?", a: "Not with basic OCR alone. Genuine structured data extraction requires AI/template-based recognition beyond what's confirmed for any pick in this guide, basic OCR only converts the image to searchable text." },
   { q: "Can duplicate invoice scans be automatically flagged to prevent double payment?", a: "Not with any pick in this guide. Duplicate invoice detection is a feature of some advanced invoice-processing software, not a capability of basic document scanner bundles." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the best raw mixed-size batch scanning without automated invoice-data extraction" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with occasional, low-volume invoice scanning needs At $134.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

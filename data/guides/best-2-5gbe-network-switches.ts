@@ -151,6 +151,69 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "No Cable Rewiring Required",
     "note": "Every switch in this list works over existing Cat5e cabling to hit full 2.5Gbps, a genuine cost and hassle saver compared to 10G's Cat6a requirement. Confirm your existing cable runs are at least Cat5e (most installed since the early 2000s are) before assuming you need to rewire."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $35",
+          "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Under $56",
+          "BrosTrend 8-Port 2.5Gb Unmanaged Switch"
+        ],
+        [
+          "Under $60",
+          "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Under $60",
+          "TRENDnet TEG-S381 8-Port 2.5Gb Switch"
+        ],
+        [
+          "Under $75",
+          "TRENDnet TEG-S380 8-Port 2.5Gb Gaming Switch"
+        ],
+        [
+          "Under $110",
+          "NETGEAR MS308 8-Port 2.5G Unmanaged Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch vs NETGEAR MS308 8-Port 2.5G Unmanaged Switch",
+    "cards": [
+      {
+        "label": "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch",
+        "text": "Buyers prioritizing 5x 2.5g ports, 25gbps capacity At $34.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "NETGEAR MS308 8-Port 2.5G Unmanaged Switch",
+        "text": "Buyers prioritizing 8x 2.5g ports, fanless At $109.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 8x 2.5g ports, fanless"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 5x 2.5g ports, 25gbps capacity"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -185,6 +248,12 @@ export const faq = [
     "q": "Is 2.5GbE worth it over Gigabit in 2026?",
     "a": "If your NAS, main devices, and router or mesh system already support 2.5G, yes, it's a meaningful and now affordable upgrade. If your network gear is still Gigabit-only, a 2.5G switch adds no benefit until you upgrade those other pieces too."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 5x 2.5g ports, 25gbps capacity" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 5x 2.5g ports, 25gbps capacity At $34.99, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $34.99 to $109.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 8x 2.5g ports, fanless Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Buyers prioritizing 8x 2.5g ports, 40gbps capacity" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-5gbe-network-switches","title":"5 Best 5GbE Network Switches in 2026"},{"href":"/guide/best-gigabit-network-switches","title":"7 Best Gigabit Network Switches in 2026"},{"href":"/guide/best-8-port-2-5gbe-network-switches","title":"6 Best 8-Port 2.5GbE Network Switches"}];

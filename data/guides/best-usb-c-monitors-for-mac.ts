@@ -243,6 +243,8 @@ export const faq: FaqItem[] = [
   { q: "Can my MacBook support two external monitors?", a: "It depends on your specific chip generation, some base Apple Silicon chips support only one external display at a time, verify your model's limit." },
   { q: "Do I need a Mac-branded monitor for it to work well with my Mac?", a: "No, explicit Mac marketing is a helpful signal but not required, any USB-C monitor supporting DisplayPort Alt Mode can generally work with a Mac." },
   { q: "Can my Mac drive a monitor's full 144Hz refresh rate?", a: "It depends on your Mac's chip generation, verify this specifically rather than assuming any Mac can drive any monitor's maximum refresh rate." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Mac users wanting true 4K resolution at a highly competitive price" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Mac users wanting true 4K resolution at a highly competitive price At $194.97, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

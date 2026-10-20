@@ -177,7 +177,7 @@ export const howToChoose: HowToChooseSection[] = [
       ],
       "rows": [
         [
-          "Under $NaN",
+          "Check listing (price varies)",
           "ScanSnap iX2500 Wireless or USB High"
         ],
         [
@@ -276,6 +276,8 @@ export const faq: FaqItem[] = [
   { q: "Will my Wi-Fi scanner work on my company's corporate network?", a: "Not necessarily. WPA2-Enterprise (802.1X) networks using certificate-based authentication are frequently unsupported by consumer-grade Wi-Fi scanners, none of the picks in this guide explicitly confirm this compatibility, check with IT." },
   { q: "Does Wi-Fi 6 make a real difference for a document scanner?", a: "Yes, in crowded wireless environments. Wi-Fi 6, dual-band-capable scanners can connect on the less congested 5GHz band, more resistant to interference than single-band 2.4GHz-only scanners in busy home or office networks." },
   { q: "Where should I place a Wi-Fi scanner for the best connection?", a: "Avoid closets, behind monitors, or low shelves. Consumer scanner Wi-Fi antennas are weaker than router-grade hardware, and placement meaningfully affects real-world range and reliability." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

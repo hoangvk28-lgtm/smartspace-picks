@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need to declare a portable monitor's battery for air travel?", a: "No, for any pick in this guide. None of these monitors have an internal battery, they draw power entirely through USB-C or HDMI plus a separate power connection, so no airline lithium battery restriction applies." },
   { q: "Which pick avoids packing a separate case entirely?", a: "The KYY 2026 model (rank 2) has a stand built directly into the monitor, eliminating the need for a separate folio case and reducing your total kit weight and packing complexity." },
   { q: "Should I bring the included cover, or leave it home to save weight?", a: "Depends on your travel style. The cocopar 15.6\" pick's cover adds a real 0.9 lb (60% more than the bare panel), if you're carrying it in a padded bag close to your body, skipping the cover is a reasonable weight-saving choice; if it's going in checked luggage, keep the protection." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Budget-focused travelers who want the lightest true kit weight" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Travelers on a tight budget who want the cheapest reasonable option At $49.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -98,7 +98,7 @@ export const howToChoose: HowToChooseSection[] = [
           "HOODANCOS Desk Privacy Panel 2"
         ],
         [
-          "Up to $NaN",
+          "Check listing (price varies)",
           "12\" Acoustical Desk Mounted Privacy Panel"
         ]
       ]

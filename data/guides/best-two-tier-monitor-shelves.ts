@@ -222,6 +222,8 @@ export const faq: FaqItem[] = [
   { q: "Will my accessories fit on the lower tier of a two-tier monitor shelf?", a: "Check the vertical clearance between tiers against your accessories' actual height, insufficient clearance could make the lower tier impractical for anything taller than very flat items." },
   { q: "Does a two-tier shelf make my monitor sit too high?", a: "It can. Check the overall height added to your desk setup against typical monitor eye-level ergonomics, since stacking tiers could push a monitor higher than ideal." },
   { q: "Is a two-tier shelf better than a single wide monitor shelf?", a: "It depends on your needs, two-tier designs genuinely serve niche needs like separate storage zones, but a single wider shelf may be more practical for most buyers." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a solid oak two-tier design with concealed drawer storage" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting an affordable two-tier design with a mouse pad At $25.39, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

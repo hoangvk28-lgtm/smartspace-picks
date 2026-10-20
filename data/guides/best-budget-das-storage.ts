@@ -167,6 +167,73 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Enclosure Price vs Total Cost With Drives",
     "note": "A $30 diskless 4-bay enclosure filled with 4x8TB drives costs meaningfully more in total than a single $150 preconfigured 8TB external drive. Compare cost per usable TB across your realistic drive purchase, not enclosure sticker price alone."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $7",
+          "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0)"
+        ],
+        [
+          "Under $9",
+          "ORICO 2.5-Inch Clear Hard Drive Enclosure (USB 3.0)"
+        ],
+        [
+          "Under $17",
+          "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps)"
+        ],
+        [
+          "Under $30",
+          "Sabrent Tool-Free NVMe & SATA M.2 SSD Enclosure (EC-SNVE)"
+        ],
+        [
+          "Under $58",
+          "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain)"
+        ],
+        [
+          "Under $65",
+          "CENMATE Aluminum 2-Bay 10Gbps Hard Drive Enclosure"
+        ],
+        [
+          "Under $110",
+          "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) vs ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+    "cards": [
+      {
+        "label": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0)",
+        "text": "Buyers prioritizing 2.5in single-bay, up to 4tb At $6.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+        "text": "Buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total At $109.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 2.5in single-bay, up to 4tb"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -217,6 +284,8 @@ export const faq = [
     "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 2-bay, up to 20tb/drive" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-bay-das-storage","title":"8 Best 2-Bay DAS Storage Options"},{"href":"/guide/best-das-storage-for-home","title":"8 Best DAS Storage for Home Use"},{"href":"/guide/best-das-storage","title":"8 Best DAS Storage Options in 2026"}];

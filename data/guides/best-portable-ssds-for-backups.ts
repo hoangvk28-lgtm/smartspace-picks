@@ -248,6 +248,8 @@ export const faq: FaqItem[] = [
   { q: "Should I prioritize speed or endurance for a backup drive?", a: "Endurance. Backup use benefits from write-once/read-rarely usage patterns, meaning TBW/endurance-weighted criteria matter more here than the speed-focused criteria common to most portable SSD guides." },
   { q: "Can I trust the backup software that comes bundled with my portable SSD?", a: "Verify it first. Bundled backup software quality varies significantly between products, test or research it before relying on it as your sole scheduled backup mechanism." },
   { q: "Does a backup drive that sits unused for a long time need special specs?", a: "Yes. Long-term unpowered data retention is a genuine spec relevant for cold backup copies, distinct from active-use endurance ratings that assume regular power cycling." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven, most-reviewed backup drive available" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting an affordable second or third copy for a genuine 3-2-1 backup strategy At $143.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

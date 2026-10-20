@@ -242,6 +242,7 @@ export const faq: FaqItem[] = [
   { q: "If my mouse has quiet clicks, is the scroll wheel quiet too?", a: "Not necessarily, scroll wheel noise is a separate mechanical component from clicking, check reviews specifically for scroll wheel feedback since a mouse can have quiet clicks but a noisy scroll wheel." },
   { q: "Will my silent mouse stay quiet after months of daily use?", a: "It can change, silent click mechanisms may have different long-term durability than standard mechanisms since dampening material can wear over time, factor this into your expectations." },
   { q: "Is a silent vertical mouse worth it for a shared home office?", a: "Often yes, this is directly relevant to shared home-office or open-office environments, look for realistic active-use noise testing rather than idle measurement when comparing options." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a genuinely quiet mouse without sacrificing all tactile click feel" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Does an enclosed under-desk space degrade a surge protector faster?", a: "It can, specifically for the MOV components. Enclosed heat buildup affects MOV lifespan and performance, not just general housing durability, MOVs can degrade faster under sustained elevated temperature." },
   { q: "How often should I check an under-desk surge protector's indicator light?", a: "More often than feels natural, given how physically awkward it is to check. This awkwardness is exactly why under-desk mounted surge protectors are checked far less often than desktop-placed ones, build in a periodic reminder." },
   { q: "Are there surge protectors with audible alerts for under-desk use?", a: "Some models include an audible alert to compensate for the hidden indicator light, though this feature is inconsistently available, prioritize it if you can find a pick that includes it for this specific mounting context." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum outlet capacity tucked under a desk" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most-proven compact strip for a confined under-desk space At $11.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

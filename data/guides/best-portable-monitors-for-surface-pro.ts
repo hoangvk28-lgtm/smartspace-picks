@@ -273,6 +273,8 @@ export const faq: FaqItem[] = [
   { q: "Will a portable monitor's stand fit behind Surface Pro's kickstand on a small desk?", a: "A fold-out cover-stand can add 2-4 inches of depth behind Surface Pro's own 4-6 inch kickstand clearance, potentially exceeding an 18-20 inch small desk. VESA-mounting the monitor on an arm avoids this conflict entirely." },
   { q: "Can I charge my Surface Pro while using a portable monitor?", a: "Yes, connect the monitor's video cable to the USB-C port and use Surface Connect for charging simultaneously, that's the standard setup since Surface Connect is dedicated to power." },
   { q: "Do I need special drivers for a portable monitor on Surface Pro X (ARM)?", a: "Not for any of the 7 picks in this guide, none require DisplayLink or touch driver utilities. If you're considering a touchscreen monitor elsewhere, verify ARM64 driver support first." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Surface Pro owners who want to VESA-mount rather than stack stands on a small desk" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused Surface Pro owners with enough desk depth for two stacked stands At $62.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

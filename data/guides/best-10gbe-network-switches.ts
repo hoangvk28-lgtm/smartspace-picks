@@ -139,6 +139,48 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Cabling Requirement",
     "note": "Every 10G switch needs Cat6a or better cabling to hit full speed. Cat5e or Cat6 will auto-negotiate down to a lower tier rather than failing outright, but you won't see 10Gbps without the right cable."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $92",
+          "TRENDnet TEG-S762 6-Port 10G Switch"
+        ],
+        [
+          "Under $120",
+          "8-Port 10Gb SFP+ Layer 3 Managed Switch"
+        ],
+        [
+          "Under $157",
+          "5-Port 10G Web Managed Switch"
+        ],
+        [
+          "Under $230",
+          "TP-Link TL-SX105 5-Port 10G Unmanaged Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "TRENDnet TEG-S762 6-Port 10G Switch vs TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
+    "cards": [
+      {
+        "label": "TRENDnet TEG-S762 6-Port 10G Switch",
+        "text": "Buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity At $91.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
+        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity At $229.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to TRENDnet TEG-S762 6-Port 10G Switch unless the pricier pick's specific advantage applies to your situation."
+  },
 ];
 
 export const buyingCriteria = [
@@ -177,6 +219,11 @@ export const faq = [
     "q": "Why does my 10G switch show a lower real-world speed than advertised?",
     "a": "10Gbps is the theoretical link rate. Real-world throughput depends on the cabling quality, the NIC on both ends, and CPU/storage speed on the devices transferring data. Expect 7-9Gbps in good conditions, not a flat 10Gbps."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 5x 10g ports, 100gbps switching capacity" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity At $91.99, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $91.99 to $229.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 5x 10g ports, 100gbps switching capacity Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-5gbe-network-switches","title":"5 Best 5GbE Network Switches in 2026"},{"href":"/guide/best-sfp-network-switches","title":"6 Best SFP Network Switches in 2026"},{"href":"/guide/best-2-5gbe-network-switches","title":"8 Best 2.5GbE Network Switches in 2026"}];

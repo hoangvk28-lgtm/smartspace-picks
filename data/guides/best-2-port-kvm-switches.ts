@@ -241,6 +241,8 @@ export const faq: FaqItem[] = [
   { q: "Does port placement matter on a 2-port KVM switch?", a: "Yes, awkwardly spaced or hard-to-reach ports can be more annoying to use daily than the port count itself would suggest." },
   { q: "Can a 2-port KVM switch handle a laptop and a desktop?", a: "Yes, some models specifically include USB-C connectivity alongside HDMI for this common mixed-device pairing." },
   { q: "Is a 2-port KVM switch enough for most home office setups?", a: "For the most common two-computer use case, yes, this is the simplest and most affordable KVM category and covers the need well." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with exactly two computers wanting simplicity and value in a 2-port switch" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple 2-port KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

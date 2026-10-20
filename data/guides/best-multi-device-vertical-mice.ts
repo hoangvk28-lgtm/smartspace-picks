@@ -242,6 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Does a multi-device mouse work the same way on Mac and Windows?", a: "Not always, cross-platform behavior should be verified for consistent button-mapping and functionality across operating systems, don't assume universal support without checking." },
   { q: "Does maintaining multiple device connections drain the battery faster?", a: "It can, battery life implications of multiple simultaneous connections versus single-device pairing should be considered, a rechargeable design at least avoids recurring disposable battery costs." },
   { q: "Will my DPI settings stay the same when I switch devices on a multi-device mouse?", a: "It depends on the specific mouse, some multi-device mice maintain per-device DPI preferences, others reset to one global setting on every switch, verify this before assuming your settings will persist." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven multi-device pick with genuine cross-platform support" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

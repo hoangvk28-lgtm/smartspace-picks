@@ -276,6 +276,8 @@ export const faq: FaqItem[] = [
   { q: "Is wireless scanning secure for sensitive documents?", a: "It's not clearly disclosed for most consumer scanners. None of the picks in this guide explicitly confirm an encryption standard for wireless scan transmission, verify with the manufacturer if you're scanning sensitive financial, legal, or medical documents." },
   { q: "Should I use wireless or USB for a large batch scan job?", a: "USB, generally. Large scanned files at archival DPI can introduce latency or dropped connections over Wi-Fi mid-batch. Every wireless pick in this guide also supports a wired connection for this reason." },
   { q: "Can I scan directly to the cloud without a computer using these scanners?", a: "Yes, on the ScanSnap iX1300 and iX2500 picks in this guide, which support standalone scan-to-cloud over home-network Wi-Fi without needing a computer powered on." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want genuine standalone wireless scanning to cloud services or a Chromebook" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most modern wireless standard (Wi-Fi 6) with a fallback wired option At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

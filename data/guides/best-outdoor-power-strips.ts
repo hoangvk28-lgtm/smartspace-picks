@@ -189,6 +189,8 @@ export const faq: FaqItem[] = [
   { q: "What does an IP rating like IPX6 actually mean?", a: "It's a verifiable Ingress Protection standard indicating a specific level of water and dust resistance, IPX6 indicates strong water-jet resistance. Many products marketed as simply 'weatherproof' provide no actual IP rating, making the claim unverifiable." },
   { q: "Do I still need a GFCI outlet if my power strip is weatherproof?", a: "Yes. Local electrical code typically requires GFCI protection at the source outlet for any outdoor electrical use regardless of the power strip's own features, a well-designed outdoor strip doesn't replace this requirement." },
   { q: "What's the difference between an outdoor power strip and an outdoor electrical box?", a: "An outdoor power strip adds new outlets with its own protection, an outdoor electrical box (like the Flemoon pick) weatherproofs an existing plug or connection point instead, these are complementary but different products." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a verifiably IP-rated, UL-listed outdoor power strip" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with lighter outdoor power needs At $17.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Do high-speed scanners jam more often on imperfect paper?", a: "Yes, generally. Faster paper transport reduces mechanical tolerance for slightly curled, stapled, or mixed-weight paper, high-speed scanners often need more uniform paper prep than mid-speed models." },
   { q: "Should I use Wi-Fi or USB for large batch color scans?", a: "USB/USB-C, if sustained speed matters. Wi-Fi transfer of large color scan files (10-30MB per page at archival DPI) can bottleneck and create a backlog between the scanner and destination folder." },
   { q: "Does a higher ppm rating mean I can scan all day at that speed?", a: "Not necessarily. Daily duty cycle is a separate spec from ppm; check for an explicit daily scan volume rating (like the Canon R10's 500 scans/day) to know realistic sustained full-workday throughput." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want genuine sustained duplex batch speed with reliable double-feed detection" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want wireless flexibility but should default to USB-C for sustained color batches At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

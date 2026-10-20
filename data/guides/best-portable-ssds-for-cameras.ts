@@ -248,6 +248,8 @@ export const faq: FaqItem[] = [
   { q: "Can I record video directly to any portable SSD from my mirrorless camera?", a: "Not necessarily any SSD. Camera-specific direct recording support should be verified against the camera manufacturer's specific certified/tested drive list rather than assumed universally compatible." },
   { q: "Do I need a rugged, dust-resistant SSD for outdoor photography?", a: "It's worth prioritizing. Dust/sand resistance is relevant given how camera use often occurs in more physically demanding environments than typical desk/office SSD use." },
   { q: "Should I buy an SD card reader along with my portable SSD for camera offload?", a: "Many photographers do use both together, consider whether an integrated card-offload solution better fits your specific workflow versus a separate reader and SSD." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven, most-reviewed field camera drive" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious photographers prioritizing affordability over ruggedized durability At $143.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

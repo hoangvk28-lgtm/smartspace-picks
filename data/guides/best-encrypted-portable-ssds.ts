@@ -232,6 +232,8 @@ export const faq: FaqItem[] = [
   { q: "What happens if I forget the password on my encrypted portable SSD?", a: "It depends on the drive, but some encrypted drives offer no recovery path for a forgotten password, resulting in permanent, unrecoverable data loss, a real risk to understand before buying." },
   { q: "Do I need FIPS-certified encryption for a portable SSD?", a: "Only if you have formal compliance requirements, verify actual FIPS 140-2/140-3 certification status rather than accepting generic 'encrypted' marketing claims for those needs." },
   { q: "Does encryption slow down my portable SSD's transfer speed?", a: "It can. Encryption/decryption processing overhead can measurably reduce throughput compared to the same drive's unencrypted performance, don't assume the rated speed applies identically with encryption on." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Enterprise or compliance-driven buyers needing genuine hardware-level encryption" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine hardware-level encryption at an accessible price At $189.95, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

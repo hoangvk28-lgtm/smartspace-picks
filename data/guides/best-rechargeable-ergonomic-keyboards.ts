@@ -229,6 +229,7 @@ export const faq: FaqItem[] = [
   { q: "Can I keep typing on my ergonomic keyboard while it's charging?", a: "It varies by product, verify charge-while-typing capability, using the keyboard via USB cable while it charges, before you're caught mid-task with a dead battery and no way to keep working." },
   { q: "Does RGB lighting drain a rechargeable keyboard's battery faster?", a: "Yes, generally, RGB and backlit features draw meaningfully more power than typing alone, expect a shorter realistic charge interval if you keep lighting effects active throughout your workday." },
   { q: "What's the difference between a rechargeable and a battery-powered wireless keyboard?", a: "A rechargeable keyboard uses a built-in battery you recharge via cable, while a battery-powered one uses replaceable AA or AAA batteries, verify which type a specific 'wireless' keyboard actually uses before buying." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting simplified single-point charging on a split ergonomic layout" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

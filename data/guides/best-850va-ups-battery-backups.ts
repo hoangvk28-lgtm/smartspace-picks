@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Is 850VA enough for a PC and monitor?", a: "For a standard single-monitor desktop setup, generally yes. If you have a multi-monitor setup or a high-performance PC, size up to a 1000VA or 1500VA pick instead." },
   { q: "Do I need pure sine wave at the 850VA tier?", a: "If your PC has an active power factor correction (APFC) power supply, standard on most desktops built in the last decade, yes. The CyberPower CP850PFCLCD is the pure sine wave option at this capacity tier in this guide." },
   { q: "What's the difference between 850VA and 1000VA UPS units?", a: "The real usable wattage gap is meaningful but not huge, roughly 450-510W at 850VA versus 600-800W at 1000VA depending on design, enough to matter for a multi-device or higher-performance setup." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a basic PC and single monitor combination" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a proven, budget-friendly alternative at the lower end of this capacity range At $109.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

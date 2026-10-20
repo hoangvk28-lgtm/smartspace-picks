@@ -463,6 +463,7 @@ export const faq: FaqItem[] = [
     q: "What's the difference between a shoji screen and a regular wood divider?",
     a: "A shoji screen uses a wood frame with translucent rice paper or fabric panels that let light filter through softly rather than blocking it outright, an authentic Japanese design element. A regular wood divider, like a bamboo slat or solid carved panel, is built for full opacity and privacy rather than light diffusion.",
   },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven, best-reviewed wood divider on the market" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

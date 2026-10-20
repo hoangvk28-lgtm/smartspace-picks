@@ -202,7 +202,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Canon Canoscan Lide 300 Scanner"
         ],
         [
-          "Up to $NaN",
+          "Check listing (price varies)",
           "ScanSnap iX2500 Wireless or USB High"
         ]
       ]
@@ -297,6 +297,8 @@ export const faq: FaqItem[] = [
   { q: "Will installing a new scanner conflict with my existing all-in-one printer's drivers?", a: "It can. Installing a dedicated document scanner alongside an existing multi-function printer on the same computer occasionally creates driver conflicts, duplicate device names or the wrong device being selected in scan software." },
   { q: "Do all these scanners include full scanning software, or just a driver?", a: "It varies. The Epson and ScanSnap picks in this guide include full-featured software suites (PDF editing, cloud upload, OCR); the Brother and Canon picks include more basic bundled software alongside broad driver support." },
   { q: "Does Mac driver support lag behind Windows for these scanners?", a: "It can vary by brand, and none of the picks in this guide disclose a specific driver update timeline for each OS. Check the manufacturer's driver update history directly if you're on a specific OS and want assurance of timely updates." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a full-featured software bundle with genuine TWAIN document-management compatibility" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the flexibility to scan independent of a computer's own drivers At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -227,6 +227,8 @@ export const faq: FaqItem[] = [
   { q: "Is a clamp-on panel more stable than a freestanding one?", a: "Yes, generally. A true clamp mount is mechanically secured to the desk and won't shift during daily use, more reliable than a freestanding or adhesive-mounted alternative that relies on weight or friction alone." },
   { q: "What size clamp-on panel do I need?", a: "A standard 60-inch panel suits most single desks. If you have a wider desk or an L-shaped setup, a 71-inch panel avoids leaving a visible gap. For targeted coverage of just one section, a 24-inch panel is more appropriate." },
   { q: "Do clamp-on panels damage the desk?", a: "No, they mount without drilling or adhesive, using a clamp mechanism that grips the desk edge. Just verify the clamp's thickness range matches your desk before ordering to ensure a secure fit." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a standard-width desk who want secure, drill-free mounting" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want an easily repositionable alternative to a fixed clamp mount At $75.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

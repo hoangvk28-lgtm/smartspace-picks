@@ -229,6 +229,7 @@ export const faq: FaqItem[] = [
   { q: "Do all my paired devices get the same keyboard features?", a: "Not necessarily, some multi-device keyboards limit macro keys or media controls to the primary connection only, verify whether secondary paired devices keep full functionality." },
   { q: "Does pairing with multiple devices drain a wireless ergonomic keyboard's battery faster?", a: "It can, battery life implications of maintaining multiple device pairings should be considered, similar to the same concern relevant to multi-device vertical mice." },
   { q: "Is a wired multi-device keyboard a good alternative to wireless switching?", a: "Yes, for buyers wanting to avoid battery management entirely, a wired keyboard's cable-swap approach to multi-device use is reliable, though less convenient than instant wireless switching." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven multi-device pick with a connected split body avoiding sync concerns" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

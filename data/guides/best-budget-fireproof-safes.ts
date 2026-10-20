@@ -245,6 +245,8 @@ export const faq = [
     "q": "Should a fireproof safe be bolted to the floor or wall?",
     "a": "For anything beyond a small portable chest, yes, if theft deterrence matters to you: an unanchored safe, however heavy, can still be carried off by a determined thief with the right tools and enough time. Most safes over about 1 cubic foot include pre-drilled mounting holes and hardware for this reason."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550 degreesf" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

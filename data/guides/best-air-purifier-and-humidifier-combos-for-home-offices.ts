@@ -234,6 +234,8 @@ export const faq: FaqItem[] = [
   { q: "Can I skip cleaning the humidifier tank if I keep up with filter changes?", a: "No, tank cleaning isn't optional. A neglected water tank can become a source of mold and bacteria that the same unit's air purifier side then has to filter back out, treat it as a fixed regular task." },
   { q: "Why do combo units have fewer reviews than single-function air purifiers?", a: "Combo units are a genuinely smaller product category than single-function air purifiers or humidifiers, meaning generally smaller review bases across all combo picks." },
   { q: "Should I just buy separate air purifier and humidifier units instead?", a: "If maximum proven reliability matters more to you than consolidation and footprint savings, a dedicated single-function unit from a high-review-count line may be the safer choice." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Home offices wanting both particulate filtration and humidity control in one unit" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting a proven combo option At $79.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -243,6 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Is there a cheaper way to get notes into OneNote?", a: "The Rocketbook Fusion, a real-paper reusable notebook, scans pages to cloud services for a manual OneNote import at a much lower price than the E Ink tablets." },
   { q: "Do I need a subscription for this to work?", a: "Basic PDF export works without a subscription on most devices. reMarkable's full cloud feature set requires the paid Connect plan." },
   { q: "Why include a real-paper Rocketbook in an E Ink comparison?", a: "Because it's a legitimate, much cheaper alternative path to the same end goal, getting notes into OneNote, and it's the most proven product in this entire comparison." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the cleanest manual export path and don't mind the extra step into OneNote." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Do clip-on extenders support less weight than bracket-mounted ones?", a: "Generally yes, clip mechanisms typically have a lower maximum weight tolerance than a full bracket mount, verify your panel size is supported." },
   { q: "Is a clip-on extender safer with a backup stand?", a: "Yes, a design that doesn't rely solely on the clip for support reduces long-term stress on your laptop lid, especially for heavier setups." },
   { q: "Are clip-on extenders faster to attach than bracket-mounted ones?", a: "Yes, that's the main trade-off, quick attach and detach convenience versus a generally lower maximum supported weight." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven clip mechanism across a wide laptop size range" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the flexibility to avoid relying on clip tension alone At $71.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

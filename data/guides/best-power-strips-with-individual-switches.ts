@@ -221,6 +221,8 @@ export const faq: FaqItem[] = [
   { q: "Does turning off an individually switched outlet eliminate all standby power?", a: "No. The strip's own indicator LEDs and any always-on smart or surge-protection circuitry still draw minimal standby power regardless of individual outlet switch states." },
   { q: "Are power strip individual switches reliable long-term?", a: "It varies by build quality. Physical switches used many times daily experience real mechanical wear, cheaper mechanisms can develop inconsistent contact after extended use, prioritize picks with a strong, established review base." },
   { q: "Does a switched-off outlet still have surge protection?", a: "It depends on the design. Some strips maintain surge protection on a switched-off outlet, others cut protection along with power, verify this distinction if you plan to leave sensitive equipment plugged into a switched-off outlet." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want individual control for some devices while keeping others always powered" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want verified fully independent per-outlet control At $24.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

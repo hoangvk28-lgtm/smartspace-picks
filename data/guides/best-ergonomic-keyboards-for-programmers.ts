@@ -229,6 +229,7 @@ export const faq: FaqItem[] = [
   { q: "Should I get a keyboard with programmable macro keys as a programmer?", a: "It's genuinely useful if your workflow involves repetitive IDE commands, programmable macro keys for build, debug, and run shortcuts are distinct from general coding keycap clarity and can meaningfully improve daily efficiency." },
   { q: "Do I need the most expensive ergonomic keyboard as a programmer?", a: "Not necessarily, while this audience often has higher willingness to invest in premium options, a genuine budget split-layout keyboard still delivers real RSI-prevention benefit if the premium price isn't justified yet for your situation." },
   { q: "Does a multi-monitor programmer workflow affect which ergonomic keyboard I should buy?", a: "It can, if you commonly switch between a laptop and desktop or multiple monitors, cross-reference multi-device keyboard research to find a pick that handles that switching reliably." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Programmers wanting the most ergonomically engineered layout, prioritizing long-term RSI prevention" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

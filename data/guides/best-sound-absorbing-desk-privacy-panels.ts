@@ -227,6 +227,8 @@ export const faq: FaqItem[] = [
   { q: "Do these panels have a tested sound rating like NRC or STC?", a: "No. None of the desk-scale panels in this guide carry a tested Noise Reduction Coefficient or Sound Transmission Class rating, these metrics are mostly reserved for architectural acoustic products, not desk accessories." },
   { q: "Is felt or foam better for sound absorption on a desk panel?", a: "Both provide modest absorption of reflected sound. Felt panels in this guide (like the Poola Voidra and Dunzoom picks) tend to double as a softer aesthetic material, while foam-based panels may absorb marginally more, but the difference at this scale is modest either way." },
   { q: "What should I buy if I need to actually block sound between spaces?", a: "A desk-scale privacy panel isn't the right product for genuine sound blocking. Look at architectural-scale acoustic room dividers instead, which are designed and sometimes rated for actual sound transmission reduction." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want modest sound softening alongside visual desk privacy" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers outfitting multiple desks who want budget-friendly sound-absorbing material at each At $28.37, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "What makes a scanner good for books specifically?", a: "Auto-flatten curve correction, technology that digitally straightens the page curvature near a book's spine, is the real differentiator. Without it, an overhead scanner is just a camera on a stand, not a true book scanner." },
   { q: "Can I feed a book through a document scanner's ADF?", a: "No, and you shouldn't try. Feeding bound pages through an automatic document feeder risks damaging the binding. Document ADF scanners are built for loose, single sheets only." },
   { q: "Should I buy two scanners if I need both books and documents digitized?", a: "For most buyers, yes. Pairing a dedicated overhead book scanner (like the CZUR ET24 Pro) with a dedicated ADF document scanner (like the ScanSnap iX2400) will outperform any single combined-use product currently available." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers whose primary need is digitizing bound books, not loose documents" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with occasional book digitization needs At $199.00, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

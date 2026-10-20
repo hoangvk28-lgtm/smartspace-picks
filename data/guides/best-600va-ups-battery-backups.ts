@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "How long will a 600VA UPS keep my equipment running during an outage?", a: "Expect a few minutes of runtime under real load, enough to save your work and shut down cleanly, not to keep working through an extended outage." },
   { q: "Do 600VA UPS units include AVR?", a: "Not always. Some budget picks are standby-only, while others (like the Tripp Lite AVR550U in this guide) include AVR for in-line brownout correction, check the specific model rather than assuming all 600VA units are equivalent." },
   { q: "What's the difference between 600VA and 850VA UPS units?", a: "The real usable wattage difference is meaningful, roughly 325-360W at 600VA versus 450-510W at 850VA, enough to matter if you're protecting anything beyond a single low-power device." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers protecting a single computer, router, or NAS device" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single router or basic low-power device At $79.95, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

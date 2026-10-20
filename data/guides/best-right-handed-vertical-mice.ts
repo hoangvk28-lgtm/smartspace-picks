@@ -242,6 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Should I buy a right-hand-optimized mouse or an ambidextrous one?", a: "A deliberately right-hand-shaped curve generally fits more precisely, while an ambidextrous design offers more flexibility if you occasionally switch hands or share the mouse with someone else." },
   { q: "Why would I search for 'right-handed vertical mouse' specifically?", a: "This framing largely exists to serve buyers explicitly searching after discovering left-handed options are limited, a genuinely useful search even though most of the category already defaults to right-handed." },
   { q: "Does a bigger review base matter more for right-handed mice than other categories?", a: "It's a strong signal here specifically, since right-handed vertical mice represent the market default, the largest review bases genuinely reflect the deepest accumulated real-world evidence for that exact ergonomic curve." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the single most-proven, explicitly labeled right-handed pick" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

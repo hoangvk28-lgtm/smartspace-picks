@@ -239,6 +239,7 @@ export const faq: FaqItem[] = [
   { q: "What's the cheapest fireproof-marketed option with real reviews?", a: "The Fire Proof File Box with Handle at $20.99, with 405 reviews." },
   { q: "Is there a dual-compartment locking option?", a: "Yes, the File Organizer Storage Box with dual compartments and locking storage." },
   { q: "Which is the most reinforced construction?", a: "The Vaultz File Organizer Storage Box, from a brand specifically known for reinforced storage products." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want more structural reinforcement than basic plastic totes." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

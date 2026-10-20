@@ -276,6 +276,8 @@ export const faq: FaqItem[] = [
   { q: "Why does my current UPS buzz or shut my PC down when running on battery?", a: "This is a very common symptom of modified sine wave output being incompatible with an APFC power supply, not a defective UPS. Upgrading to a genuine pure sine wave model resolves it." },
   { q: "Is pure sine wave worth the extra cost for basic electronics?", a: "Not necessarily. Simple network equipment and basic electronics without APFC power supplies generally run fine on modified sine wave, save the 30-50% premium for equipment that actually needs it." },
   { q: "Does pure sine wave affect UPS battery runtime?", a: "Sometimes marginally. Pure sine wave inverter designs can be slightly less efficient than simpler modified sine wave designs at the same VA rating, though the difference is usually small in practice." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers running modern APFC-equipped desktop PCs who need genuine outage protection" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a single APFC-equipped PC and modest power needs At $169.95, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does airflow (CFM) matter more than filtration density for pet hair?", a: "Airflow matters more for pet hair than for odor alone, since hair particles are physically larger and heavier than gas molecules and need more air movement to be captured before they settle." },
   { q: "Do I need a bigger air purifier for multiple pets?", a: "Likely yes. More pets mean proportionally more hair mass moving through the pre-filter, so a multi-pet household benefits from extra coverage and airflow headroom over a standard-capacity unit." },
   { q: "Does an odor-neutralizing feature reduce how often I need to clean the pre-filter?", a: "No. Technology like PlasmaWave addresses pet odor as an added layer, it doesn't replace the mechanical pre-filter cleaning that pet hair still requires on a weekly basis." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven pick for pet hair" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Single-pet homes with a moderate hair load on a budget At $80.74, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

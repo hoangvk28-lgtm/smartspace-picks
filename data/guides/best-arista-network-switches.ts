@@ -103,6 +103,57 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Is Arista Overkill for Your Use Case?",
     "note": "Arista's power draw, active cooling noise, and data-center airflow design (back-to-front) make it a poor fit for a typical home or small office. This is genuinely appropriate hardware for a homelab operator running serious 10G/40G workloads or a small business with real data center-style infrastructure, not a general small-business network upgrade."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $119",
+          "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)"
+        ],
+        [
+          "Under $150",
+          "Arista DCS-7050S-52-R 52-Port 10GbE Switch (Renewed)"
+        ],
+        [
+          "Under $300",
+          "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) vs Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
+    "cards": [
+      {
+        "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
+        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
+        "text": "Buyers prioritizing 48x 10g sfp+ ports, renewed At $299.90, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 48x 10g sfp+ ports, renewed"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -137,6 +188,12 @@ export const faq = [
     "q": "Is renewed Arista hardware reliable?",
     "a": "Generally yes for the hardware itself, Arista builds for continuous data center operation. The bigger question is EOS software support and licensing on renewed units, worth confirming before assuming full feature parity with new hardware."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $119.00 to $299.90, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 48x 10g sfp+ ports, renewed Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "How did you narrow down the picks in this comparison?", a: "We compared real specs, stated features, and price against the actual use case each product claims to serve, rather than ranking by price or rating alone." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cisco-network-switches","title":"5 Best Cisco Network Switches in 2026"},{"href":"/guide/best-juniper-network-switches","title":"5 Best Juniper Network Switches in 2026"},{"href":"/guide/best-10gbe-network-switches","title":"7 Best 10GbE Network Switches in 2026"}];

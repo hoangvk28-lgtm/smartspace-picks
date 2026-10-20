@@ -183,6 +183,77 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "RAID 5 Capacity Math at 5 Bays",
     "note": "RAID 5 across 5 equal-size drives gives you 4 drives' worth of usable capacity, only 20% lost to parity versus 25% on a 4-drive RAID 5 array or 50% on RAID 1. This capacity efficiency is the real argument for 5-bay over 4-bay when redundancy matters."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $110",
+          "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)"
+        ],
+        [
+          "Under $115",
+          "ORICO 5-Bay Hard Drive Enclosure (USB-C"
+        ],
+        [
+          "Under $130",
+          "ORICO 5-Bay USB 3.1 Hard Drive Enclosure (110TB"
+        ],
+        [
+          "Under $180",
+          "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
+        ],
+        [
+          "Under $200",
+          "ORICO RAID 5-Bay HDD Enclosure (110TB"
+        ],
+        [
+          "Under $200",
+          "ORICO 5-Bay RAID Enclosure with 150W Built-In Power (110TB)"
+        ],
+        [
+          "Under $230",
+          "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
+        ],
+        [
+          "Under $280",
+          "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) vs Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+    "cards": [
+      {
+        "label": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+        "text": "Buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total At $109.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+        "text": "Buyers prioritizing 5x 3.5in bays, 10gbps usb-c At $279.95, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 5x 3.5in bays, 10gbps usb-c"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -233,6 +304,8 @@ export const faq = [
     "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 5x 3.5in bays, 10gbps usb-c" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4-bay-das-storage","title":"8 Best 4-Bay DAS Storage Options"},{"href":"/guide/best-6-bay-direct-attached-storage","title":"6 Best 6-Bay Direct-Attached Storage"},{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"}];

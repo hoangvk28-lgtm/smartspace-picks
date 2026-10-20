@@ -198,7 +198,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Canon Canoscan Lide 300 Scanner"
         ],
         [
-          "Up to $NaN",
+          "Check listing (price varies)",
           "ScanSnap iX2500 Wireless or USB High"
         ]
       ]
@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Why does a compact scanner need clearance above it?", a: "Some compact designs achieve their small desk footprint using a vertical paper path rather than horizontal, meaning the scanner needs open space above it (not tucked directly under a shelf) to feed paper properly." },
   { q: "Is a flatbed scanner the same as a compact document scanner?", a: "No. A flatbed scanner like the Canoscan Lide 300 in this guide has no document feeder at all, you scan one page or photo at a time on the glass, a different capability than any ADF-fed compact scanner." },
   { q: "Should I buy compact or full-size if I scan large batches regularly?", a: "Full-size, generally. Compact scanners trade ADF capacity for footprint. If you regularly scan more than a handful of pages unattended, a full-size scanner with a 50-100 sheet hopper will serve you better." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven, genuinely portable single-sheet compact scanner" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who realize they actually need capacity over footprint and are open to a larger unit At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

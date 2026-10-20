@@ -186,6 +186,73 @@ export const howToChoose: HowToChooseSection[] = [
       ]
     }
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $19",
+          "NETGEAR GS308 8-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Under $20",
+          "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Under $24",
+          "NETGEAR GS308E 8-Port Easy Smart Managed Switch"
+        ],
+        [
+          "Under $25",
+          "TP-Link TL-SG108E 8-Port Easy Smart Switch"
+        ],
+        [
+          "Under $48",
+          "NETGEAR GS108 8-Port Gigabit ProSAFE Switch"
+        ],
+        [
+          "Under $60",
+          "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Under $105",
+          "Aruba Instant On 1830 8G Smart Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch vs Aruba Instant On 1830 8G Smart Switch",
+    "cards": [
+      {
+        "label": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless metal housing At $18.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Aruba Instant On 1830 8G Smart Switch",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless At $104.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to NETGEAR GS308 8-Port Gigabit Unmanaged Switch unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless metal housing"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -220,6 +287,12 @@ export const faq = [
     "q": "Should I buy 8 ports even if I only need 5 right now?",
     "a": "If you expect to add even one or two more devices in the next year or two, the price difference between a 5-port and 8-port switch is usually small enough to justify the headroom rather than buying a second switch later."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 8 ports, up to 64 vlans" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 8 gigabit ports, fanless metal housing At $18.99, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $18.99 to $104.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 8 gigabit ports, fanless Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Buyers prioritizing 8 ports, 32 simultaneous vlans" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-poe-network-switches","title":"5 Best 8-Port PoE Network Switches in 2026"},{"href":"/guide/best-8-port-managed-network-switches","title":"8 Best 8-Port Managed Network Switches in 2026"},{"href":"/guide/best-8-port-2-5gbe-network-switches","title":"6 Best 8-Port 2.5GbE Network Switches"}];

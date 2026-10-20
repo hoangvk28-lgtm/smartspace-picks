@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Do combined surge-protector-plus-USB-C products cut corners on either feature?", a: "Sometimes, at the budget tier. Overall product cost pressure can lead to cutting the AC-side joule rating or the USB-C PD wattage capability, compare against dedicated single-purpose alternatives at a similar price to check." },
   { q: "Are combined products likely to have the newest USB-C PD protocol?", a: "Not necessarily, and possibly less likely. Combined surge-protector products face the same cost pressure as any other combined feature set, which may make older, cheaper PD implementations more common than in a dedicated USB-C strip." },
   { q: "Can I charge a laptop via USB-C while a monitor draws power from the same strip?", a: "Test this combined simultaneous-load scenario specifically, since the genuine buyer intent for this product type is exactly that combination, not each feature working in isolation." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum AC-side joule protection with USB-C charging" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want USB-C charging with basic surge protection At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

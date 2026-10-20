@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Are the lightest laptop screen extenders less durable?", a: "Not necessarily, but a lighter frame can sometimes flex more, check reviews for build quality reports before assuming light means fragile." },
   { q: "Do triple-screen extenders weigh much more than single-panel ones?", a: "Yes, more panels always add weight regardless of individual panel thinness, weigh the extra workspace against the added carrying weight." },
   { q: "Do integrated stands add much weight to a screen extender?", a: "Usually less than a separate stand accessory would, an integrated stand can actually reduce your total carrying weight." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a well-proven balance of light weight and confirmed build quality" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting a genuinely light single-panel extender at a budget price At $71.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Can I use my rechargeable mouse while it's charging?", a: "It depends on the specific mouse, some remain fully usable during charging while others become wired-only or fully unusable, this is a genuine usability differentiator worth verifying before buying." },
   { q: "Does a rechargeable mouse's battery life get worse over time?", a: "Yes, generally, battery degradation over the product's lifespan means reduced maximum charge capacity after months or years of charge cycles, distinct from the out-of-box battery life claim." },
   { q: "How do I know if my rechargeable mouse's battery indicator is accurate?", a: "Check current reviews specifically for battery indicator reliability feedback, an inaccurate warning can lead to unexpected mid-task power loss regardless of the mouse's overall quality." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a premium rechargeable pick with confirmed charge-while-in-use capability" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -243,6 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Do I need a subscription to use these?", a: "Core writing and reading works offline on all five without a subscription. Some advanced features, particularly on reMarkable, are behind a paid Connect plan, check the current listing for specifics." },
   { q: "Which has the most independent evidence the writing feel is good?", a: "The reMarkable 2, with 1,354 reviews at 4.4 stars, has by far the largest tested base of any product in this comparison." },
   { q: "Can these replace a Kindle for reading books?", a: "The Kindle Scribe can, since it runs Amazon's full e-reader ecosystem. The reMarkable and BOOX are built around notes and PDF documents rather than a book storefront." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who already read on Kindle and want note-taking on the same device." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

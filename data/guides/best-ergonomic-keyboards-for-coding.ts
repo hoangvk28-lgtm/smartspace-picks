@@ -229,6 +229,7 @@ export const faq: FaqItem[] = [
   { q: "Is a mechanical or membrane keyboard better for coding?", a: "Mechanical switches generally offer more consistent tactile feedback for the rapid, repetitive keystrokes common in coding, though this comes down partly to personal preference." },
   { q: "Is 'ergonomic keyboard for coding' different from 'ergonomic keyboard for programmers'?", a: "These overlap significantly, since both address the same technical audience and use case, worth comparing both search results rather than assuming they lead to entirely distinct products." },
   { q: "Do I need a split ergonomic keyboard specifically for coding comfort?", a: "It helps for extended sessions, since full-workday comfort matters as much for coding as general office use, but a well-designed non-split mechanical keyboard can also serve rapid, repetitive coding keystrokes well." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Developers wanting the most-proven full-size split keyboard with clear symbol keys and tenting" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

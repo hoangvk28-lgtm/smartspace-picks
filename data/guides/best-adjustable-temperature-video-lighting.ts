@@ -227,6 +227,8 @@ export const faq: FaqItem[] = [
   { q: "Should I prioritize color temperature range or CRI?", a: "Ideally both. A wide Kelvin range helps match your room's ambient lighting conditions, while a high CRI ensures colors and skin tones render accurately at whatever temperature you choose. The Zoom Lighting pick in this guide offers both a high CRI and adjustability together." },
   { q: "What color temperature should I use for a video call?", a: "Match it to your room's ambient light, warmer settings (lower Kelvin, around 2700-3000K) suit incandescent-lit rooms, cooler settings (higher Kelvin, around 5000-6500K) suit daylight or fluorescent-lit spaces, mismatching creates an unnatural color cast." },
   { q: "Do I need 30 light modes or is a simpler adjustable light enough?", a: "It depends on how precisely you want to dial in your setup. Many modes offer finer control but take longer to navigate, a simpler 5-step adjustable light is often enough for most home office video call needs." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the widest color temperature range for matching varied ambient light" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want basic adjustable color temperature At $17.74, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

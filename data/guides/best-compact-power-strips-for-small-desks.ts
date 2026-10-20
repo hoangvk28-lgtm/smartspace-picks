@@ -236,6 +236,8 @@ export const faq: FaqItem[] = [
   { q: "Does a compact power strip have weaker surge protection?", a: "Not necessarily, but verify explicitly. Compact strips sometimes sacrifice surge protection components or reduce joule rating compared to full-size strips at a similar price point, check the specific joule rating rather than assuming." },
   { q: "What cord length should I get for a small desk?", a: "It depends on your desk's distance from the wall outlet. If your desk sits directly against the wall, a short cord (like a 1ft option) eliminates excess cable clutter entirely, small desks have less placement flexibility, making cord length more constraining than on a larger desk." },
   { q: "Should I consider a clamp-on strip instead of a compact surface strip for a small desk?", a: "If desk surface area is your primary constraint, yes. Clamp-on or under-desk mounting options free up surface space entirely, worth considering over simply choosing the smallest surface-sitting strip available." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a genuine balance of compact footprint and real outlet spacing" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuine balance of compact footprint and real outlet spacing At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

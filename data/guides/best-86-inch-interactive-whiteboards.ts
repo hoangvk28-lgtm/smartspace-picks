@@ -183,6 +183,77 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Room Fit and Installation at 86 Inches",
     "note": "86-inch boards suit rooms with 20-35+ feet of viewing distance and generally weigh 100-150+ pounds. Professional installation is strongly advisable at this size given the weight and required wall structure verification."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $2",
+          "JASZDOT 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "JYXOIHUB 86in Dual-System Smart Board"
+        ],
+        [
+          "Under $2",
+          "JAV 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "Dornium 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "JAV 86in Smart Board Pro"
+        ],
+        [
+          "Under $2",
+          "Samsung 86in WAF Interactive Display"
+        ],
+        [
+          "Under $2",
+          "COOLHOOD 86in 4K Smart Board"
+        ],
+        [
+          "Under $3",
+          "LINGHUFOX 86in Dual-System Smart Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "JASZDOT 86in Smart Board vs LINGHUFOX 86in Dual-System Smart Board",
+    "cards": [
+      {
+        "label": "JASZDOT 86in Smart Board",
+        "text": "Buyers prioritizing 86in 4k, android 14, 400+ nits At $2,499.00, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "LINGHUFOX 86in Dual-System Smart Board",
+        "text": "Buyers prioritizing 86in 4k, windows 11 pro i5-13450hx + android 13 At $3,894.04, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to JASZDOT 86in Smart Board unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 86in 4k, windows 11 pro i5-13450hx + android 13"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 86in 4k, android 14, 400+ nits"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -233,6 +304,8 @@ export const faq = [
     "q": "How much does a large interactive whiteboard weigh, and does that matter for installation?",
     "a": "A 75-inch or larger panel commonly weighs 80 to 150+ pounds depending on the model. Confirm your wall has proper stud backing or use a VESA-compatible mobile stand rated for that weight, and consider professional installation at this size rather than a DIY wall mount."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 86in 4k, android 14, 400+ nits" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-98-inch-interactive-whiteboards","title":"5 Best 98-Inch Interactive Whiteboards"},{"href":"/guide/best-85-inch-interactive-whiteboards","title":"8 Best 85-Inch Interactive Whiteboards"},{"href":"/guide/best-large-interactive-whiteboards","title":"7 Best Large Interactive Whiteboards"}];

@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Are ionizer air purifiers safe for controlling odor?", a: "Ionizers and ozone generators marketed as odor solutions carry a genuine air-quality tradeoff, the EPA has flagged ozone as a lung irritant at elevated concentrations, worth knowing before choosing that technology." },
   { q: "Do I need a bigger air purifier for a strong odor source like a litter box?", a: "It helps. A larger rated coverage dilutes the odor concentration across more air volume, slowing carbon saturation compared to a small standard-capacity unit facing the same intense source." },
   { q: "Is a HEPA-only air purifier enough for household odor?", a: "Not fully. HEPA filtration handles particulate, but a dedicated carbon or odor-neutralizing technology like PlasmaWave is what actually addresses odor at the molecular level." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven pick for general household odors" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Smaller rooms with a moderate, general odor source At $79.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

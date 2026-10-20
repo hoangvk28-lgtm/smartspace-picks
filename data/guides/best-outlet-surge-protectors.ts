@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Does a plug-in outlet surge protector protect my whole house?", a: "No. A plug-in strip only protects devices plugged directly into it. Whole-house or whole-circuit protection requires a professionally-installed in-wall receptacle or panel-level surge protection device." },
   { q: "How many outlets do I need in a surge protector?", a: "Size to your realistic device count, a basic setup needs 6 outlets, a full desk or entertainment setup benefits from 8-12 outlets, then compare joule ratings within that outlet-count tier." },
   { q: "What's the difference between plug-in, in-wall, and whole-panel surge protection?", a: "A plug-in strip protects only its own connected devices. An in-wall receptacle protects a specific circuit. A whole-panel device, installed at the electrical panel, protects the entire house from external surges. These are three genuinely different products and scopes." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a genuine multi-outlet extender with real surge protection and USB charging" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a genuine multi-outlet extender with real surge protection and USB charging At $9.49, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

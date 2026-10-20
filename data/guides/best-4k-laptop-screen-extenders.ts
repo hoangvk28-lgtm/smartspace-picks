@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does any USB-C port support 4K at 60Hz?", a: "Not automatically, port bandwidth support varies, verify the specific port genuinely supports full 4K resolution at 60Hz." },
   { q: "Does my laptop's GPU matter for a 4K screen extender?", a: "Yes, the GPU needs to support driving an external 4K display without a significant performance hit, check this alongside the extender's specs." },
   { q: "Does driving multiple panels affect resolution performance?", a: "Yes, combined bandwidth demand adds up across multiple panels, which can affect achievable resolution or refresh rate on each." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting meaningfully more resolution than standard FHD without true 4K pricing" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who've decided 4K isn't a priority At $79.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

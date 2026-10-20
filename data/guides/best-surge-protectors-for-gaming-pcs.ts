@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Should I get a higher joule rating for a gaming PC than a regular computer?", a: "Generally yes, since expensive GPUs represent concentrated high-value risk in a surge event, higher joule rating gives more cumulative protective capacity for that concentrated value." },
   { q: "Will my connected-equipment warranty cover my GPU if it's damaged?", a: "Only up to the warranty's payout cap, verify this limit actually covers your GPU's realistic replacement cost, since these caps are sometimes lower than expensive graphics cards actually cost." },
   { q: "How many outlets do I need for a gaming desk setup?", a: "More than a basic office computer setup. Account for the PC, monitor(s), webcam, capture card, RGB controllers, and any gaming chair power features when sizing outlet count." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a high-value gaming PC and full desk peripheral setup" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious gamers who want genuine protection with USB charging At $13.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

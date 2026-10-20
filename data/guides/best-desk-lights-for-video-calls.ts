@@ -255,6 +255,8 @@ export const faq: FaqItem[] = [
   { q: "Can I use a regular desk lamp for video calls instead of a dedicated light?", a: "You can, but a regular desk lamp's beam angle is designed to illuminate a work surface, not your face directly, unlike a purpose-built video light engineered with diffusion for even facial illumination without harsh shadows." },
   { q: "Do I need a light with a disclosed CRI rating?", a: "If accurate skin tone and color rendering on camera matters to you, yes, prioritize a disclosed high CRI rating (95+) over raw brightness or a large number of preset modes alone." },
   { q: "Is a dual-purpose desk lamp as good as a dedicated video light for calls?", a: "It can work well as ambient fill light, but won't illuminate your face as directly or evenly as a purpose-built ring light or streaming panel, since its beam angle is designed for general desk tasks, not face-forward video lighting." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a premium, purpose-built video call light from an established brand" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a versatile desk lamp that also provides some video call fill light At $20.98, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

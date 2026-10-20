@@ -245,6 +245,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 59in desktop, 2 lockable drawers" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-file-storage","title":"Best Office Credenzas With File Storage in 2026"},{"href":"/guide/best-home-office-credenzas-with-file-drawers","title":"Best Home Office Credenzas With File Drawers in 2026"}];

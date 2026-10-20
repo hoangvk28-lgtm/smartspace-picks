@@ -243,6 +243,8 @@ export const faq: FaqItem[] = [
   { q: "Is a curved monitor worth it at a smaller screen size?", a: "The curve benefit is most noticeable on wider ultrawide panels, at a smaller size the curvature can feel more like a gimmick than a genuine improvement." },
   { q: "Can a curved monitor replace a dual-monitor setup?", a: "A large enough super-ultrawide curved monitor, like a 49-inch panel, can genuinely replace a dual-monitor setup for many workflows." },
   { q: "Does a curved USB-C monitor charge my laptop the same as a flat one?", a: "It depends on the specific model's power delivery wattage, verify this against your laptop's charging requirement regardless of curve." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a closer desk setup wanting a genuinely immersive tight curve and high refresh rate" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting to try a curved monitor at a reasonable size and price At $109.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

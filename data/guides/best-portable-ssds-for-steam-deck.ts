@@ -248,6 +248,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need to format my portable SSD for SteamOS specifically?", a: "Usually not if it's already exFAT. exFAT works broadly on SteamOS, but native Linux formats might not be readily accessible without additional configuration on this Linux-based platform." },
   { q: "Can I move installed games between my Steam Deck's internal storage and an external SSD without re-downloading?", a: "This depends on actual Steam client support at your current SteamOS version, verify this capability directly rather than assuming it works universally." },
   { q: "Will my portable SSD fit well when my Steam Deck is docked?", a: "Check the physical form-factor compatibility with your specific dock or stand accessory, a bulkier drive may not fit comfortably alongside other cables in a docked setup." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a drive explicitly marketed and tested for Steam Deck and other handhelds" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Steam Deck owners wanting fast load times in a compact, affordable drive At $88.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

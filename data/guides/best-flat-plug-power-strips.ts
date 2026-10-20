@@ -240,6 +240,8 @@ export const faq: FaqItem[] = [
   { q: "Will a flat plug fit any wall outlet orientation?", a: "Only rotating flat plugs accommodate outlets oriented differently. A fixed flat plug designed for a standard vertical outlet may not sit flush against a horizontally oriented outlet, verify your outlet's orientation first." },
   { q: "Does a flat-plug power strip really sit flush behind furniture?", a: "It depends on the cord's bend radius right at the plug, not just the plug's own thinness. Check real-world reviews or measurements for behind-furniture fit rather than assuming from product photography alone." },
   { q: "Do flat-plug power strips have lower capacity than regular ones?", a: "Not necessarily, flat-plug design is a mechanical form factor choice independent of the strip's actual rated capacity or surge protection quality, verify the joule rating separately." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with furniture flush against the wall needing flat-plug clearance" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want high outlet count with flat-plug clearance At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

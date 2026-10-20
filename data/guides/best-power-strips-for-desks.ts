@@ -288,6 +288,8 @@ export const faq: FaqItem[] = [
   { q: "Why does an 8-outlet power strip only fit 4-5 devices?", a: "Wide power adapters like laptop chargers and monitor power bricks can block 2-3 adjacent outlets on a standard-spaced strip. Look for widely spaced outlet designs if your desk equipment includes several bulky adapters." },
   { q: "How many outlets do I need for a desk power strip?", a: "It depends on your setup. A standard desk with a PC and monitor is fine with 6 outlets, a full setup with multiple monitors and peripherals benefits from 8-12 outlets with genuine surge protection." },
   { q: "Does cord length matter for a desk power strip?", a: "Yes, match cord length to your desk's actual distance from the wall outlet, considering whether your desk sits against a wall, in a corner, or away from the wall entirely." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum outlets with genuine surge protection for a full desk setup" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want widely spaced outlets to fit bulky adapters At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -226,6 +226,8 @@ export const faq: FaqItem[] = [
   { q: "How many external displays can my Mac Mini support?", a: "It depends on your chip generation, the base M-series model has historically supported fewer displays than the Pro variant, verify your specific model." },
   { q: "Does EDID emulation work the same on Mac Mini as MacBook?", a: "It should behave similarly since both run macOS, but verify this is confirmed for your specific switch through current reviews." },
   { q: "Is a budget KVM switch good enough for a Mac Mini setup?", a: "For basic needs, yes, but verify EDID emulation and your Mac Mini's external display limit regardless of price." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Mac Mini buyers wanting a high-resolution-ceiling switch with reliable, aesthetically matching build quality" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious Mac Mini buyers wanting the most affordable simple KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

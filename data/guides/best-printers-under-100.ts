@@ -377,6 +377,7 @@ export const faq: FaqItem[] = [
     q: "Why do so many budget printers use one combined color cartridge?",
     a: "It's a common cost-cutting design at this price tier. A combined cartridge holds cyan, magenta, and yellow in one unit, so printing heavy amounts of a single color drains the whole cartridge faster than a separate-tank design would.",
   },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Light home printing where budget matters more than advanced features" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

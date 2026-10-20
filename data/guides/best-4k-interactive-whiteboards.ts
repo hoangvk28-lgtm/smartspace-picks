@@ -203,6 +203,77 @@ export const howToChoose: HowToChooseSection[] = [
       ]
     }
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $1",
+          "COOLHOOD 65in 4K Smart Board"
+        ],
+        [
+          "Under $1",
+          "NEWORK NewBoard 65E Google EDLA Board"
+        ],
+        [
+          "Under $1",
+          "JAV 55in Smart Board Pro"
+        ],
+        [
+          "Under $1",
+          "HORION 65in Digital Whiteboard"
+        ],
+        [
+          "Under $2",
+          "NEWORK NewBoard 75E Google EDLA Board"
+        ],
+        [
+          "Under $2",
+          "JASZDOT 86in Smart Board"
+        ],
+        [
+          "Under $995",
+          "BIG VUE Plus 55in Smart Board"
+        ],
+        [
+          "Under $999",
+          "HORION 55in Digital Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "COOLHOOD 65in 4K Smart Board vs HORION 55in Digital Whiteboard",
+    "cards": [
+      {
+        "label": "COOLHOOD 65in 4K Smart Board",
+        "text": "Buyers prioritizing 65in 4k, android 13, 20-point touch At $1,499.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "HORION 55in Digital Whiteboard",
+        "text": "Buyers prioritizing 55in 4k, 40-point touch, under 30ms latency At $999.00, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to COOLHOOD 65in 4K Smart Board unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 55in 4k, 40-point touch, under 30ms latency"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 65in 4k, android 13, 20-point touch"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -253,6 +324,8 @@ export const faq = [
     "q": "Do I need to buy anything extra to run Windows on a board with an OPS slot?",
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 65in 4k, android 13, 20-point touch" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-interactive-whiteboards","title":"8 Best Interactive Whiteboards in 2026"},{"href":"/guide/best-touch-screen-interactive-whiteboards","title":"8 Best Touch Screen Interactive Whiteboards"},{"href":"/guide/best-display-interactive-whiteboards","title":"8 Best Display Interactive Whiteboards"}];

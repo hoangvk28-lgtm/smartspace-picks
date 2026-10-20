@@ -153,6 +153,65 @@ export const howToChoose: HowToChooseSection[] = [
       ]
     }
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $40",
+          "8-Port Gigabit PoE+ Switch with Rack Ears"
+        ],
+        [
+          "Under $60",
+          "TP-Link LS108GP 8-Port PoE Gigabit Switch"
+        ],
+        [
+          "Under $70",
+          "NETGEAR GS308PP 8-Port PoE+ Unmanaged Switch (83W)"
+        ],
+        [
+          "Under $80",
+          "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
+        ],
+        [
+          "Under $130",
+          "NETGEAR GS108PP 8-Port PoE+ Unmanaged Switch (123W)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "8-Port Gigabit PoE+ Switch with Rack Ears vs NETGEAR GS108PP 8-Port PoE+ Unmanaged Switch (123W)",
+    "cards": [
+      {
+        "label": "8-Port Gigabit PoE+ Switch with Rack Ears",
+        "text": "Buyers prioritizing 8x poe+ ports @120w total At $39.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "NETGEAR GS108PP 8-Port PoE+ Unmanaged Switch (123W)",
+        "text": "Buyers prioritizing 8x poe+ ports @123w total At $129.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to 8-Port Gigabit PoE+ Switch with Rack Ears unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 8x poe+ ports @123w total"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 8x poe+ ports @120w total"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -187,6 +246,12 @@ export const faq = [
     "q": "Do I need a managed 8-port PoE switch for a small camera install?",
     "a": "Not strictly, an unmanaged PoE switch powers and connects cameras fine. Managed adds per-port power cycling (useful for remotely rebooting a frozen camera) and VLAN isolation, worth the modest price step-up for a business-critical camera system."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 8x poe+ ports @62w, easy smart managed" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 8x poe+ ports @120w total At $39.99, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $39.99 to $129.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 8x poe+ ports @123w total Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Buyers prioritizing 8x poe+ ports @83w total" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-16-port-poe-network-switches","title":"5 Best 16-Port PoE Network Switches in 2026"},{"href":"/guide/best-poe-network-switches","title":"7 Best PoE Network Switches in 2026"},{"href":"/guide/best-8-port-managed-network-switches","title":"8 Best 8-Port Managed Network Switches in 2026"}];

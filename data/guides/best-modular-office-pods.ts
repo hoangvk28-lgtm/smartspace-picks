@@ -98,7 +98,7 @@ export const howToChoose: HowToChooseSection[] = [
           "Soundproof Office Pod Booth"
         ],
         [
-          "Up to $NaN",
+          "Check listing (price varies)",
           "Soundproof Office Pod Booth for 5"
         ]
       ]

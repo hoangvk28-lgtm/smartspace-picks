@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "How often should I clean a washable pre-filter with pets and dust?", a: "On a regular schedule rather than waiting for the filter-change indicator alone, since combined dust-and-hair loads saturate pre-filters faster than the indicator's default single-issue assumption." },
   { q: "Do I need a higher-coverage unit for a multi-pet household with dust?", a: "Likely yes. A multi-pet household or dustier home saturates a standard-capacity unit faster than either issue alone, extra coverage headroom is worth the investment for a heavier combined load." },
   { q: "Does an odor-neutralizing feature replace pre-filter cleaning for pet hair and dust?", a: "No. Technology like PlasmaWave addresses pet odor as an added layer, it doesn't replace the regular mechanical pre-filter cleaning that combined dust-and-hair loads still require." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven pick for combined dust and pet hair" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a moderate combined dust-and-pet-hair load At $80.74, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -192,6 +192,77 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $19",
+          "NETGEAR GS308 8-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Under $24",
+          "NETGEAR GS308E 8-Port Easy Smart Managed Switch"
+        ],
+        [
+          "Under $25",
+          "TP-Link TL-SG108E 8-Port Easy Smart Switch"
+        ],
+        [
+          "Under $55",
+          "NETGEAR GS108E 8-Port Easy Smart Managed Switch"
+        ],
+        [
+          "Under $80",
+          "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
+        ],
+        [
+          "Under $168",
+          "NETGEAR GS110TP 10-Port PoE+ Smart Managed Switch"
+        ],
+        [
+          "Under $229",
+          "TP-Link TL-SG1428PE 24-Port PoE+ Easy Smart Switch"
+        ],
+        [
+          "Under $330",
+          "NETGEAR GS724TP 26-Port PoE+ Smart Managed Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch vs NETGEAR GS724TP 26-Port PoE+ Smart Managed Switch",
+    "cards": [
+      {
+        "label": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless metal housing At $18.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "NETGEAR GS724TP 26-Port PoE+ Smart Managed Switch",
+        "text": "Buyers prioritizing 24x poe+ @190w + 2 sfp, smart managed At $329.75, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to NETGEAR GS308 8-Port Gigabit Unmanaged Switch unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 24x poe+ @190w + 2 sfp, smart managed"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless metal housing"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -226,6 +297,12 @@ export const faq = [
     "q": "Is an 8-port managed switch worth it over unmanaged for a first-timer?",
     "a": "If you're not sure you'll ever need VLANs or port monitoring, an unmanaged switch is simpler and cheaper. The managed step-up makes sense once you have a specific reason: isolating a smart home network, prioritizing video call traffic, or diagnosing which device is hogging bandwidth."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 8x poe+ ports @62w, easy smart managed" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 8 gigabit ports, fanless metal housing At $18.99, it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $18.99 to $329.75, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 24x poe+ @190w + 2 sfp, smart managed Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Buyers prioritizing 8x poe+ ports @62w, easy smart managed" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"},{"href":"/guide/best-8-port-network-switches","title":"7 Best 8-Port Network Switches in 2026"},{"href":"/guide/best-8-port-poe-network-switches","title":"5 Best 8-Port PoE Network Switches in 2026"}];

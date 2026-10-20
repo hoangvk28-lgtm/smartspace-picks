@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Do compact travel surge protectors have weaker protection than full-size ones?", a: "Often yes, ultra-compact designs are especially likely to cut joule rating to save size and weight, though some picks in this guide offer above-average joule capacity for their compact size, worth seeking out specifically." },
   { q: "What should international travelers use for surge protection?", a: "Either a dedicated voltage-converting device with its own surge protection rating, or accept that a US-market travel surge protector is domestic-travel-only, don't assume one product solves both needs." },
   { q: "Does suitcase packing damage a travel surge protector's MOV components?", a: "It can, in a less obvious way than a basic power strip. A physically stressed MOV component from repeated packing and impact can degrade performance partially rather than simply working or not working." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Domestic US travelers who want a compact, well-insured single-outlet surge protector" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want above-average joule capacity in a genuinely compact travel design At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Should I get a screen extender with both USB-C and HDMI?", a: "Yes, if possible, dual connectivity avoids the single-cable power-and-video bottleneck some laptops experience, giving you flexibility to route power and video separately if needed." },
   { q: "How much extra weight does a laptop screen extender add?", a: "This varies by model, but weigh it against your specific laptop's own weight, since a bulky extender on a lightweight ultrabook can more than double your total carry weight." },
   { q: "Does an older laptop with only USB-A ports work with a screen extender?", a: "Some extenders support USB-A alongside USB-C, verify this compatibility explicitly, and note that USB-A connections typically supply less power than USB-C." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven extender with flexible USB-C or HDMI connectivity" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven, most affordable larger-screen extender At $62.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

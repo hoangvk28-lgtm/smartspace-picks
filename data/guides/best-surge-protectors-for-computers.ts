@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "How much joule capacity do I need for a full computer setup?", a: "More than a single-device setup needs. Multiple connected devices, a monitor, external drives, networking equipment, sharing one surge protector deplete its cumulative joule budget faster, size capacity to your realistic full workstation." },
   { q: "Will a connected-equipment warranty actually cover my computer if it's damaged?", a: "Only up to the warranty's payout cap, and only if you meet documentation requirements. Verify the specific limit covers your realistic replacement cost before relying on this coverage." },
   { q: "Do computer surge protectors protect my network connection too?", a: "Only if they include Ethernet or coax pass-through protection, a separate feature from AC outlet surge protection that many computer-focused strips lack, verify this specifically if your network equipment needs protection." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a full computer setup including monitor and peripherals" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a basic single PC and monitor setup At $11.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Do genuine 17-inch extenders need more power than smaller ones?", a: "Yes, meaningfully, confirm your laptop's USB-C power delivery can support this larger panel size before buying." },
   { q: "How much desk space does a genuine 17-inch extender need?", a: "Substantially more than smaller alternatives, measure your actual available desk depth before committing to this largest size tier." },
   { q: "Should I get a genuine 17-inch panel or a smaller compatible one for my 17-inch laptop?", a: "This depends on your priority, a genuine 17-inch panel gives proportional screen matching, while a smaller compatible panel prioritizes affordability and lower power draw." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a genuinely 17-inch panel to proportionally match a 17-inch laptop" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious 17-inch laptop owners prioritizing affordability At $49.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

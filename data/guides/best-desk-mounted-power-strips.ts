@@ -240,6 +240,8 @@ export const faq: FaqItem[] = [
   { q: "Can adhesive-mounted power strips hold multiple cables?", a: "Verify the adhesive's weight limit against a realistic multi-cable load. Each plugged-in device adds pull-weight that a basic empty-strip weight check doesn't account for, a real engineering constraint worth checking before committing." },
   { q: "Is a clamp-mounted power strip worse than a screwed-in one?", a: "Not worse, just a different tradeoff. Clamp mounts are damage-free but bulkier, screw mounts are more permanent and compact but require holes in your desk. Choose based on whether you own or rent the desk." },
   { q: "Do I need a mounted power strip at all?", a: "Not necessarily. If you have desk surface space, a surface-sitting strip like the Belkin 12-outlet pick avoids the mounting-method decision entirely while offering more outlet capacity." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Renters or shared-desk users who want damage-free mounting" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want to skip mounting decisions entirely and just place the strip on the desk At $12.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

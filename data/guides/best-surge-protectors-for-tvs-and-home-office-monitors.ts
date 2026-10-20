@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Does one surge protector protect multiple monitors equally well?", a: "The joule budget is shared across all connected panels, meaning effective per-panel protection depth is lower than the headline rating implies for a single-display setup, size your joule tier to your actual display count." },
   { q: "What do I need to file a warranty claim if my TV is damaged by a surge?", a: "Typically proof of purchase for both the TV and the surge protector, plus specific installation requirements, understand these documentation requirements upfront given how substantial a display claim amount can be." },
   { q: "Is a wall-mounted TV's surge protector harder to check for status?", a: "Often yes. Wall-mounted TVs or monitors commonly route the surge protector's cord and connections behind the wall or entertainment unit, inheriting the same indicator-light visibility concerns as other hidden-mounting scenarios." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a multi-monitor home office or TV setup wanting maximum joule headroom" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a single TV or monitor setup At $11.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

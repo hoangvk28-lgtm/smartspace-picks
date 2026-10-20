@@ -248,6 +248,8 @@ export const faq: FaqItem[] = [
   { q: "Why isn't my USB4 drive reaching its rated speed on my laptop?", a: "Host device USB4 implementation varies, some laptops support only 20Gbps USB4 despite the spec allowing 40Gbps, the bottleneck may be your host device rather than the drive." },
   { q: "Do I need a special cable for a USB4 portable SSD?", a: "Yes, for full bandwidth. Certified active cables are needed at higher speeds, an uncertified cable can silently cap real-world throughput below the drive's rated spec." },
   { q: "Will a USB4 drive work at full speed on a Thunderbolt-only laptop?", a: "Not always guaranteed. Verify explicit Thunderbolt cross-compatibility disclosure for the specific drive rather than assuming USB4 and Thunderbolt are always fully interchangeable." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the highest-rated USB4 drive with rugged protection" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers whose host device lacks USB4 and want a proven, realistic-speed alternative At $207.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

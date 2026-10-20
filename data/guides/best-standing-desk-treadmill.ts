@@ -462,6 +462,7 @@ export const faq: FaqItem[] = [
     q: "How should I route the power cord on a standing desk treadmill?",
     a: "Route it along a wall or under a cord cover, away from your walking path, rather than leaving it loose on the floor. Cable management matters more here than with most desk gear because you're walking on or near the unit, and a snagged cord is a real trip hazard on a moving belt.",
   },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers on a tight budget who already have a desk and just need the treadmill" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Why is a flat-plug surge protector's indicator light hard to check?", a: "Because the exact placement it's marketed for, behind furniture flush to the wall, is also the placement that hides the status indicator most effectively, a compounding of the marketing angle with the general visibility concern." },
   { q: "Does placing a surge protector behind furniture affect its lifespan?", a: "It can. Enclosed, low-airflow behind-furniture placement traps heat and dust similarly to other enclosed mounting scenarios, which can affect MOV component longevity specifically, not just general housing wear." },
   { q: "How often should I check a flat-plug surge protector placed behind furniture?", a: "More often than feels convenient, given how hidden this placement is. Set an explicit replacement-schedule reminder, since this location's poor visual-inspection accessibility means a failed unit is especially likely to go unnoticed." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want verified high joule capacity in a flat-plug form factor" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want a genuine flat-plug surge protector At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

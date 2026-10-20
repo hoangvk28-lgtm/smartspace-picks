@@ -229,6 +229,7 @@ export const faq: FaqItem[] = [
   { q: "How much desk space does a TKL keyboard actually save?", a: "Typically several inches of width compared to a full-size keyboard, a concrete and meaningful savings for a smaller desk, though it shouldn't be your only reason for choosing this form factor." },
   { q: "Can I still type numbers on a TKL keyboard?", a: "You'll use the number row above the letter keys, but the dedicated number pad is gone entirely, unlike some compact designs with Fn-layer numpad emulation that let you type numbers through a key combination." },
   { q: "Is a TKL keyboard a good choice for accounting or data entry work?", a: "Generally not ideal, this form factor removes dedicated numeric entry functionality entirely, a full-size keyboard or a compact design with Fn-layer numpad emulation will likely serve that specific workflow better." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting genuine split/tenting ergonomics alongside TKL space savings with full navigation retained" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

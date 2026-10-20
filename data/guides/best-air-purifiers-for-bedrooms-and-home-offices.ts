@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Should I use night mode on my air purifier during the day?", a: "Generally no. Night mode dims lights and reduces fan speed for sleep benefit, but leaving it engaged during daytime home-office use can reduce effective CADR exactly when you need full air-cleaning capacity." },
   { q: "How often should I replace filters in a combined bedroom-office space?", a: "More often than a single-purpose room. A combined space has continuous, near-24/7 occupancy, calculate filter loading against this heavier real-world usage rather than daytime-only or nighttime-only assumptions." },
   { q: "Does moving a purifier between a bedroom and office cause wear?", a: "Yes, potentially. A unit moved between rooms experiences more handling wear and potential filter or seal loosening over time than a stationary single-room unit, a durability consideration for dual-use framing." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most-proven purifier for a combined bedroom-office space" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want quiet operation for both sleep and daytime calls in one space At $44.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

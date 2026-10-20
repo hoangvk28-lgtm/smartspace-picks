@@ -243,6 +243,8 @@ export const faq: FaqItem[] = [
   { q: "Do all MacBook Pro models support multiple external displays?", a: "No, models with Pro, Max, or later chips generally support more external displays than base M-series configurations, check your specific chip variant." },
   { q: "Is a professional-calibrated monitor necessary for MacBook Pro use?", a: "Only if you do color-critical creative work, general productivity use doesn't require professional-tier calibration." },
   { q: "Will my MacBook Pro drive a monitor's full 144Hz refresh rate?", a: "It depends on your chip variant, Pro and Max chip generations generally handle higher refresh rates better than base M-series configurations." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "MacBook Pro creative professionals wanting true 4K with professional color calibration" },
+  { q: "Which pick offers the best value for a tight budget?", a: "MacBook Pro users wanting true 4K at a competitive price without professional calibration At $194.97, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

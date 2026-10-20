@@ -242,6 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Do black monitor shelves show scratches more than lighter colors?", a: "Often yes. Dark finishes can show scratches and wear marks more visibly than lighter colors, a genuine tradeoff of choosing black for long-term appearance." },
   { q: "Does black cost more than other colors for the same monitor shelf?", a: "Generally no meaningful premium was found, verify this for the specific product line you're considering, but color choice appears largely cost-neutral in this category." },
   { q: "Is black a bad choice for a desk in direct sunlight or a high-traffic area?", a: "It can show wear faster in those conditions, since black reveals dust and scratches more visibly, a mid-tone or textured finish sometimes hides daily wear better while still looking intentional." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the highest-rated matte black pick with practical drawer storage" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

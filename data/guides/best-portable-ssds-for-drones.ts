@@ -248,6 +248,8 @@ export const faq: FaqItem[] = [
   { q: "How can I minimize downtime offloading drone footage between flights?", a: "Choose a drive with fast rated connection and transfer speed, this genuinely reduces the time spent offloading footage during battery swaps if you fly multiple sessions in a day." },
   { q: "Does my portable SSD need to be rugged for drone use?", a: "It helps for outdoor flying. Physical durability for field transport, carried in a drone case alongside other equipment and outdoor temperature extremes, matters given this specific field-use context." },
   { q: "How much storage capacity do I need for drone footage?", a: "Plan around your realistic flight-session footage volume rather than generic capacity guidance, since drone footage accumulation patterns differ from general use." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven, most-reviewed drone footage drive" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Drone pilots prioritizing fast between-flight offload over maximum capacity At $88.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

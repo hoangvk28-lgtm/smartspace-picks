@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Is a strip-cut shredder quieter than a cross-cut or micro-cut one?", a: "Generally yes, strip-cut mechanisms involve less cutting-surface contact per sheet than cross-cut or micro-cut at a similar motor size, making them inherently quieter, at the cost of a lower P-2 security level versus P-4." },
   { q: "Will my shredder actually be as quiet as the manufacturer's dB rating?", a: "Probably not quite. Manufacturer ratings are typically measured at idle or with a single sheet, while shredding a full, possibly stapled stack produces measurably higher and more variable real-world noise." },
   { q: "Are auto-feed shredders louder than manual-feed ones overall?", a: "Not necessarily per decibel, but they run for longer sustained periods (up to 40 minutes continuously), meaning more total noise exposure time in a shared space even if the per-decibel rating is similar to a manual-feed shredder." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the quietest explicitly-rated shredder and don't need high capacity" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who prioritize quiet strip-cut operation over high security level At $34.16, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

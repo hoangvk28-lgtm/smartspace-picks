@@ -222,6 +222,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need a special cable for a Thunderbolt KVM switch?", a: "Yes, a genuinely Thunderbolt-certified cable is required to reach full speed, a standard USB-C cable won't achieve the same bandwidth." },
   { q: "Is Thunderbolt worth the extra price for a simple setup?", a: "Usually not, the premium is justified for demanding multi-monitor, high-refresh-rate setups, a simple single-monitor need doesn't require it." },
   { q: "What happens if I use a Thunderbolt switch with a non-Thunderbolt laptop?", a: "It may still work at reduced USB-C speeds, but you won't get the full Thunderbolt bandwidth benefit you're paying for." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with Thunderbolt-capable laptops needing maximum three-monitor docking bandwidth" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers whose two-monitor, moderate needs don't justify Thunderbolt pricing At $179.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -241,6 +241,8 @@ export const faq: FaqItem[] = [
   { q: "Why does EDID emulation matter more for a laptop-desktop KVM setup?", a: "You'll likely dock and undock the laptop daily while the desktop stays permanently connected, EDID emulation keeps your resolution and layout consistent across those reconnects." },
   { q: "Should I look for a switch explicitly labeled for laptop and desktop?", a: "It's a helpful compatibility signal, stronger than a switch marketed generically for two identical computer sources." },
   { q: "Does the switch charge my laptop while I'm docked?", a: "It can if power delivery is included, verify the specific wattage matches your laptop's charging requirement." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a purpose-built solution for daily laptop docking alongside a permanent desktop" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a laptop and desktop both using HDMI output At $29.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -240,6 +240,8 @@ export const faq: FaqItem[] = [
   { q: "Which portable privacy screen sets up the fastest?", a: "Quick clamp designs (like the VIVO 24x24) and simple 3-fold screens (like the 2-Pack Testing Dividers) set up in seconds with no bases or clips to configure, faster than foldable felt designs requiring reconfiguration." },
   { q: "Do portable privacy screens fit in a standard bag?", a: "Check the specific folded dimensions, not just the 'portable' label. Some foldable panels pack down small, while others remain fairly large even folded, verify against your actual bag or storage space." },
   { q: "Is a foldable panel or a clamp-on panel better for moving between desks?", a: "A clamp-on panel sets up faster (seconds vs. minutes) but requires verifying desk edge compatibility at each new desk. A foldable panel takes longer to configure but doesn't depend on the desk's specific edge thickness." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who relocate between desks and want the quickest setup" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need the fastest possible setup and teardown at a low price At $12.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

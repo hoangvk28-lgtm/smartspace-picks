@@ -226,6 +226,8 @@ export const faq: FaqItem[] = [
   { q: "Can my MacBook drive multiple monitors through a KVM switch?", a: "It depends on your chip generation, some base Apple Silicon chips support only one external display natively, verify your specific model's capability." },
   { q: "Should I buy a three-monitor KVM switch for my Mac?", a: "Only if your specific Mac chip variant can drive that many external displays, verify this before buying a switch with more capability than your Mac supports." },
   { q: "Do budget KVM switches work well with Mac?", a: "They can, but verify EDID emulation and peripheral compatibility specifically for Mac through current reviews regardless of price." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Mac buyers wanting a high-resolution-ceiling switch with reliable build quality" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious Mac buyers wanting the most affordable simple KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Is 1000 joules enough for my desk setup?", a: "It depends on your device count. This tier is genuinely adequate for light-duty, low-count devices like a lamp or router, but a full multi-device desk setup sharing the same budget is under-protected, step up to 2000+ joules for a demanding setup." },
   { q: "Is a bundled free surge protector from another purchase safe to reuse?", a: "Verify its history if possible. A bundled unit repurposed from a drawer may have already absorbed an unknown number of surges from prior use, for new sensitive equipment, a genuinely new unit is a safer bet." },
   { q: "Should I check for UL 1449 specifically at this budget tier?", a: "Yes, more so than at higher tiers. Budget manufacturers competing hardest on price have the most incentive to skip UL 1449's additional surge-specific testing cost, verify this certification specifically rather than assuming any UL marking covers it." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with light-duty electronics needs like a lamp or router" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a bit more headroom than the entry 1000-joule tier At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

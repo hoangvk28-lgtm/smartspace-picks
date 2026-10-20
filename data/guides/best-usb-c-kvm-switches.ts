@@ -222,6 +222,8 @@ export const faq: FaqItem[] = [
   { q: "Can a USB-C KVM switch charge my laptop too?", a: "Some can, verify power delivery is explicitly included alongside video and USB switching if single-cable charging matters to you." },
   { q: "Is Thunderbolt necessary for a USB-C KVM switch?", a: "Only if your laptop supports it, Thunderbolt 4 offers meaningfully more bandwidth but doesn't benefit laptops without Thunderbolt support." },
   { q: "Does a USB-C KVM switch's power delivery affect my peripherals?", a: "Yes, the total power budget is shared between laptop charging and connected peripherals, verify this against your full setup." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a laptop-desktop pairing wanting single-cable USB-C video connectivity" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a laptop-desktop pairing wanting single-cable USB-C video connectivity At $55.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

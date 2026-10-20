@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Do gaming mini PCs overheat during long sessions?", a: "They can if thermal design is inadequate, check reviews specifically for sustained-load thermal reports rather than trusting short benchmark numbers alone." },
   { q: "How much RAM do I need for gaming on a mini PC?", a: "16GB covers lighter gaming, 32GB gives more headroom for a larger library and background multitasking during gameplay." },
   { q: "Is a budget gaming mini PC worth it?", a: "For lighter esports titles and older games, yes, but set realistic expectations for demanding modern AAA titles at higher settings." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the best realistic gaming performance achievable in mini PC form" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting both strong gaming capability and AI-accelerated productivity performance At $1,299.00, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -460,6 +460,7 @@ export const faq: FaqItem[] = [
     q: "Which room divider screen is best for a wide room?",
     a: "The VEVOR 6-Panel spans 95.3 inches wide, the widest in this list, making it the best fit for open-concept rooms where a standard 4-panel screen wouldn't stretch far enough. Most other picks here use 4 panels and top out around 63-72 inches wide.",
   },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven, most distinctive printed shoji screen" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

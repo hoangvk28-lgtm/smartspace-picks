@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Can I regularly shred heavily-stapled document stacks without damaging my shredder?", a: "It depends on the specific model and how often. 'Handles staples' claims rarely specify a volume limit; regular heavy-stapled-stack shredding accelerates blade dulling and jam frequency compared to occasional single-staple use." },
   { q: "Do binder clips shred the same as regular staples?", a: "Not necessarily. Standard wire paper clips generally shred fine in staple-rated shredders, but binder clips or unusually shaped fasteners can jam mechanisms rated only for standard staples, test cautiously if you use non-standard fasteners." },
   { q: "Which pick in this guide has the most explicit staple-durability disclosure?", a: "The Bonsaii 15-sheet pick (rank 3) explicitly names durable alloy cutters for handling staples, clips, credit cards, and CDs/DVDs, more specific blade-material detail than most competing listings offer." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who prioritize reliable staple/clip handling over the highest security tier" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want confirmed staple tolerance at the lowest price At $33.16, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

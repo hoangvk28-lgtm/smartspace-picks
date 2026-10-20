@@ -245,6 +245,8 @@ export const faq = [
     "q": "Is MDF or particle board construction a problem for a conference table?",
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 236.2\\\"d x 47.2\\\"w total, 10 combinable desk units" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-6-person-conference-tables","title":"Best 6-Person Conference Tables in 2026"},{"href":"/guide/best-10-person-conference-tables","title":"Best 10-Person Conference Tables in 2026"},{"href":"/guide/best-8-person-conference-tables","title":"Best 8-Person Conference Tables in 2026"}];

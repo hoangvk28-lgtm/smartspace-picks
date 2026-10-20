@@ -259,6 +259,8 @@ export const faq: FaqItem[] = [
   { q: "Will blank-page removal accidentally discard my client's separator pages?", a: "It can. Client-submitted document stacks often include intentionally blank separator pages or near-blank cover sheets that automated blank-page detection can misclassify, verify against your real document sets rather than trusting clean test batches." },
   { q: "Do these scanners integrate directly with QuickBooks or Xero?", a: "Integration depth varies and isn't confirmed for every pick in this guide. Some scanner software attaches documents directly via API to accounting platforms; others only save to a generic folder requiring manual upload, verify for your specific software." },
   { q: "Does higher scan capacity guarantee retention-compliant output for accounting records?", a: "No. PDF/A archival compliance and audit-trail metadata are separate features from scan capacity, none of the picks in this guide explicitly confirm these, verify directly if your retention standards require them." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Accountants who need real duty-cycle headroom for tax-season volume spikes" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Smaller practices with mostly occasional client-document intake rather than high-volume batches At $139.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

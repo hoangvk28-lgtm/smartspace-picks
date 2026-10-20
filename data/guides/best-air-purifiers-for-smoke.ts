@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Will a HEPA filter alone remove smoke smell?", a: "Not fully. HEPA filtration removes visible smoke particulate, but activated carbon mass is what actually captures smoke odor at the molecular level, a HEPA-only unit does little for lingering smell." },
   { q: "Do I need a more powerful air purifier for wildfire smoke season?", a: "Yes. Heavy or persistent smoke exposure like wildfire season needs deeper carbon mass and multi-stage filtration than a standard budget unit designed for occasional light exposure." },
   { q: "Should I size up coverage rating for a smoke-affected room?", a: "Yes. Since a general CADR rating overstates real smoke-clearing speed for that specific space, choosing a unit rated for a larger room than your actual space gives useful real-world headroom." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven pick for smoke particulate" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with occasional light smoke exposure At $80.74, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

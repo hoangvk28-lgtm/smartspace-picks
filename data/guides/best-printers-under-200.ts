@@ -441,6 +441,7 @@ export const faq: FaqItem[] = [
     q: "Why does the Epson ET-4800 cost the same as the ET-2800 despite having more features?",
     a: "Both list at $199.99 in current pricing. The ET-4800 adds an automatic document feeder, fax, and Ethernet on top of the same ink-tank system as the ET-2800, so there's no price penalty for choosing the more feature-complete model.",
   },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Households or small offices printing regularly who want the lowest long-run ink cost" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

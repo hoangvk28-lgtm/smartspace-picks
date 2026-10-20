@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Can I trust these portable monitors for HDR grading decisions?", a: "Not for final decisions. None of the picks in this guide carry certified VESA DisplayHDR certification with local dimming. Use them for HDR preview on location, then finish grading judgments on a certified reference display." },
   { q: "Why does my 4K portable monitor drop frames during timeline scrubbing?", a: "Likely a bandwidth issue. Sustained 4K playback requires consistent USB-C bandwidth, and running pass-through charging simultaneously on the same cable can cause dropped frames during scrubbing." },
   { q: "Is there a portable monitor with real Rec. 709 color-space accuracy?", a: "Not among the truly portable picks in this guide. The ASUS ProArt PA278CV (rank 8) offers verified Rec. 709 accuracy but is a 27-inch desktop monitor, not something you'd carry to a field edit." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Editors who want true 4K resolution for detailed timeline preview work in the field" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a dual-purpose gaming/editing monitor and understand the refresh rate won't help editing specifically At $139.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

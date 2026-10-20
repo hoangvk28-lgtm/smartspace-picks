@@ -430,6 +430,7 @@ export const faq: FaqItem[] = [
     q: "Should I get a divider on wheels or a fixed-foot panel?",
     a: "It depends on how often you reposition it. A wheeled pick like the SUNALLY 6-Panel makes sense if you move your divider between rooms or layouts often, since you can roll it and lock the wheels in place. A fixed-foot design like the RANTILA or HOMSCREENER picks is simpler and often more stable if the divider will stay in one spot long-term.",
   },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven, best-reviewed all-around fabric divider" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -189,6 +189,8 @@ export const faq: FaqItem[] = [
   { q: "Does an IPX6 rating mean a power strip can be submerged?", a: "No. IPX6 indicates strong water-jet and splash resistance, a materially different and lower standard than submersion resistance (IPX7+). Don't place an IPX6-rated product in standing water or fully submerged locations." },
   { q: "Do I need UV-resistant housing for an outdoor power strip?", a: "If it's a permanent outdoor installation, yes, it helps. Standard plastic housing can become brittle and crack from sustained sun exposure over a season, UV-stabilized material holds up better long-term." },
   { q: "Does a weatherproof power strip eliminate the need for a GFCI outlet?", a: "No. Local electrical code typically still requires GFCI protection at the source outlet for outdoor circuits regardless of the power strip's own weatherproofing, verify this separately." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a verifiably rated weatherproof strip for splash-exposed outdoor locations" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with light, occasional outdoor decoration needs At $17.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

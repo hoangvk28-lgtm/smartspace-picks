@@ -231,6 +231,7 @@ export const faq: FaqItem[] = [
   { q: "Does combining tenkeyless and split features save more desk space than either alone?", a: "Yes, removing both the number pad and splitting the keyboard compounds the desk-footprint-reduction benefit beyond what either individual change achieves." },
   { q: "Do tenkeyless split keyboards sacrifice ergonomic quality for their compact size?", a: "Not necessarily, but verify this specifically, a well-designed combination shouldn't compromise on core split/tenting ergonomic quality just to achieve the more compact TKL footprint." },
   { q: "What if I can't find a keyboard that's both genuinely tenkeyless and split?", a: "Given the smaller product pool at this intersection, you may need to prioritize one feature, this guide includes genuine TKL-only and split-only comparison picks to help you decide which matters more for your needs." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven pick at the genuine TKL-plus-split intersection" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

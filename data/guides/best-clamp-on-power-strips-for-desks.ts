@@ -240,6 +240,8 @@ export const faq: FaqItem[] = [
   { q: "Can I use a clamp-on power strip with a monitor arm at the same desk edge?", a: "Check for space conflicts first. Clamp-mounted power strips compete for the same desk-edge space as monitor arms and keyboard trays, a desk already using clamped accessories may not have room for another." },
   { q: "Does a clamp-on power strip damage the desk?", a: "The clamp torque needed for secure mounting can mark or dent softer desk surfaces like laminate or painted wood, check reviews for damage reports on your specific desk material." },
   { q: "How much USB charging wattage do I need from a clamp-on strip?", a: "It depends on how many devices you charge simultaneously. For multiple laptops or tablets, look for combined wattage of 40W or more, like the top two picks in this guide." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want to verify exact desk-edge compatibility before ordering" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a simple, affordable, well-proven desk power strip At $12.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -183,6 +183,77 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "85-Inch vs 86-Inch: A Practical Non-Difference",
     "note": "A 1-inch diagonal difference between 85 and 86-inch panels is imperceptible in real-world viewing distance or writing reach. If your primary goal is large-room coverage rather than an exact diagonal match, the deeper 86-inch product tier offers more verified current options."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $2",
+          "YCKJNB 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "85in 4K Smart Board (20-Point Touch)"
+        ],
+        [
+          "Under $2",
+          "YIXZSWD 85in Interactive Whiteboard with Stand"
+        ],
+        [
+          "Under $2",
+          "JASZDOT 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "JYXOIHUB 86in Dual-System Smart Board"
+        ],
+        [
+          "Under $2",
+          "JAV 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "Dornium 86in Smart Board"
+        ],
+        [
+          "Under $2",
+          "JAV 86in Smart Board Pro"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "YCKJNB 86in Smart Board vs JAV 86in Smart Board Pro",
+    "cards": [
+      {
+        "label": "YCKJNB 86in Smart Board",
+        "text": "Buyers prioritizing 86in 4k, 13mp camera, 8-mic array At $2,499.00, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "JAV 86in Smart Board Pro",
+        "text": "Buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar At $2,499.00, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to YCKJNB 86in Smart Board unless the pricier pick's specific advantage applies to your situation."
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 86in 4k, 13mp camera, 8-mic array"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -233,6 +304,8 @@ export const faq = [
     "q": "Do I need to buy anything extra to run Windows on a board with an OPS slot?",
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 86in 4k, 13mp camera, 8-mic array" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-86-inch-interactive-whiteboards","title":"8 Best 86-Inch Interactive Whiteboards"},{"href":"/guide/best-82-inch-interactive-whiteboards","title":"8 Best 82-Inch Interactive Whiteboards"},{"href":"/guide/best-large-interactive-whiteboards","title":"7 Best Large Interactive Whiteboards"}];

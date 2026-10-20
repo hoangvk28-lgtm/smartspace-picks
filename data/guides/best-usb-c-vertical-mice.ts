@@ -242,6 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Will a USB-C mouse work with my USB-C-only laptop without an adapter?", a: "Often yes if both the charging cable and wireless dongle use USB-C, this avoids the need for a separate USB-A adapter, a genuine convenience for newer laptops lacking full-size USB-A ports." },
   { q: "Does the reversible USB-C connector actually matter for a mouse?", a: "It's a minor but real convenience, no wrong-way-up insertion, over older USB connector types, it won't change your buying decision on its own but is a nice daily quality-of-life improvement." },
   { q: "What cable length should I look for in a wired USB-C mouse?", a: "Check the manufacturer's disclosed cable length against your desk setup distance, this Perixx pick discloses 5.9 feet, not every wired mouse publishes this spec clearly, so verify before buying." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a genuinely USB-C-wired mouse with no charging to manage" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

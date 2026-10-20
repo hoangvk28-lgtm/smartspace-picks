@@ -226,6 +226,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need a special monitor shelf for a heavy gaming setup?", a: "Consider one rated for realistic gaming loads. Gaming setups often include heavier accessories, larger monitors, monitor arms, speakers, controller stands, that increase point-load beyond typical office use." },
   { q: "Will a standard monitor shelf handle my gaming peripheral cables?", a: "Verify this specifically, standard cable channels may not adequately accommodate controller charging cables, headset stands, and additional USB hubs common to gaming setups." },
   { q: "Should I get a wider shelf for my ultrawide gaming monitor?", a: "Likely yes, gaming setups often overlap with wider, heavier monitor configurations, verify sizing against wide/dual/ultrawide monitor shelf research for your specific setup." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Gamers prioritizing genuine structural quality over gaming-specific aesthetics" },
+  { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious gamers wanting solid structural quality without gaming branding markup At $23.99, it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
