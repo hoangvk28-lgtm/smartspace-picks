@@ -212,19 +212,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Products at the low end near $90 and the high end near $302 of this comparison don't always handle weight rating mount type the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of weight rating mount type, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "A fully populated 12U enclosure can carry a meaningfully heavier combined load than its empty frame weight suggests, since each additional 1U device adds up fast across 12 available slots. Verify the stationary weight rating covers your realistic total, and separately confirm the rolling or wall-mounted rating if the rack won't sit bolted to the floor. Look for both figures listed explicitly rather than a single generic \"capacity\" number."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Across this comparison's $90 to $302 range, post configuration suits load is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check post configuration suits load against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "With 12 units to potentially fill, a 4-post frame spreads the combined load across more rails than a 2-post design rated for the same height, which matters once you're actually near capacity. Check the listing's structural details for the actual post count rather than guessing from the product photo. \"Server rack\" in the title tells you nothing about this spec either way."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Given the real spread here, from about $90 up to $302, two products can look nearly identical on the surface while differing exactly on plan rear clearance cabling, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on plan rear clearance cabling, since it's often left out of the main bullet points entirely."
+    "explanation": "A 12u server racks installed flush against a wall with no rear margin makes future cabling work far harder than the depth spec alone suggests. Cables need bend radius, and you'll want real access for re-patching down the line. Check whether the listing states a recommended rear clearance separately from total depth."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. With prices in this roundup ranging roughly $90 to $302, ceiling doorway clearance is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify ceiling doorway clearance directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "A 12U rack has roughly 21 inches of usable mounting rail, but the full enclosure typically runs closer to 25 inches once you add the frame, feet, and any top panel. Measure your actual room's ceiling height and doorway width against that fuller figure, not just the U-count math. A rack that technically fits the room can still be impossible to carry through the doorway."
   }
 ];
 

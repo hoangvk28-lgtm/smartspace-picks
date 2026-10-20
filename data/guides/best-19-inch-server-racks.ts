@@ -252,15 +252,15 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. Buyers shopping anywhere from $90 to $470 in this category often assume weight rating mount type is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on weight rating mount type stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "For a 19-inch server racks, check the stationary weight rating against your realistic equipment total first, then confirm the separate rolling or wall-mounted rating if that's how it will actually be installed. Manufacturers often publish only one of these two figures prominently. Look specifically for both numbers listed, not just a single generic \"capacity\" figure."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. At every price point in this comparison's $90 to $470 range, post configuration suits load varies enough between listings that assuming it scales with price is a real way to get burned. Confirm post configuration suits load directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "A 19-inch server racks can ship as either a 2-post or 4-post frame, and that distinction affects both load capacity and equipment depth it can actually support. Verify this directly in the listing's specifications. Don't assume post configuration from the category name or thumbnail photo alone."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. Two picks priced close together, anywhere in this comparison's $90-$470 band, can still land on opposite ends of plan rear clearance cabling, so price alone is a poor proxy for it here. Compare the stated figure for plan rear clearance cabling across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Behind a 19-inch server racks, budget extra depth beyond the equipment's own measurement for cable bend radius and the room to actually reach the back panel later. Skipping this is fine until the first time a cable needs re-seating in a space too tight to work in. Look for a stated rear clearance figure in the listing rather than guessing from enclosure depth alone."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",

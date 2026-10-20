@@ -192,19 +192,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. At every price point in this comparison's $26 to $71 range, weight rating mount type varies enough between listings that assuming it scales with price is a real way to get burned. Confirm weight rating mount type directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "With 1 rack units of usable space, the cumulative weight of a near-full load adds up faster than the frame's own weight implies. Check the stationary rating against your realistic equipment total first, then confirm the separate rolling or wall-mounted figure if that's the actual install method. A listing that only states one weight number is probably describing the stationary case only."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Two picks priced close together, anywhere in this comparison's $26-$71 band, can still land on opposite ends of post configuration suits load, so price alone is a poor proxy for it here. Compare the stated figure for post configuration suits load across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Across 1 available rack units, the choice between a 2-post and 4-post frame matters more as combined equipment weight and cable count both scale with how many slots are actually filled. A 4-post design generally supports heavier, deeper gear at the same U-height than a 2-post frame rated for similar height. Confirm which configuration a given listing actually ships before assuming \"server rack\" implies one or the other."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Products at the low end near $26 and the high end near $71 of this comparison don't always handle plan rear clearance cabling the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan rear clearance cabling, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Plan more rear space behind a 1u server racks than the equipment's bare depth suggests, since cables need bend radius and you'll want hands-on access for re-patching later. A tight fit against the wall looks fine on day one and becomes a real problem the first time something needs re-cabling. Confirm the manufacturer's recommended rear clearance, not just raw unit depth."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Across this comparison's $26 to $71 range, ceiling doorway clearance is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check ceiling doorway clearance against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "1U works out to about 2 inches of mounting rail by the standard 1.75-inch-per-U math, but expect the actual enclosure to run closer to 6 inches once the frame and base are factored in. Check that fuller figure against your room's ceiling height and doorway width, not the rail math alone. This is where a rack that \"should\" fit gets stuck at the door."
   }
 ];
 

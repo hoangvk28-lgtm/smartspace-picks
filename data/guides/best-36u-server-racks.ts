@@ -192,19 +192,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Given the real spread here, from about $180 up to $358, two products can look nearly identical on the surface while differing exactly on weight rating mount type, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on weight rating mount type, since it's often left out of the main bullet points entirely."
+    "explanation": "At 36U, this rack has room for up to 36 1U devices stacked edge to edge, so the stationary weight rating needs real headroom for a fully loaded configuration, not just the one or two devices shown in listing photos. Check the stationary rating first, then the separate rolling or wall-mounted rating if that's how it will actually be installed. Confirm the manufacturer states a distinct number for each mounting method, since a single \"weight capacity\" figure often only covers one of them."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. With prices in this roundup ranging roughly $180 to $358, post configuration suits load is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify post configuration suits load directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Across 36 available rack units, the choice between a 2-post and 4-post frame matters more as combined equipment weight and cable count both scale with how many slots are actually filled. A 4-post design generally supports heavier, deeper gear at the same U-height than a 2-post frame rated for similar height. Confirm which configuration a given listing actually ships before assuming \"server rack\" implies one or the other."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. This matters in practice because the picks in this comparison span from about $180 to $358, and skipping a real check on plan rear clearance cabling is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan rear clearance cabling, since a generic product photo or title alone won't confirm it."
+    "explanation": "Plan more rear space behind a 36u server racks than the equipment's bare depth suggests, since cables need bend radius and you'll want hands-on access for re-patching later. A tight fit against the wall looks fine on day one and becomes a real problem the first time something needs re-cabling. Confirm the manufacturer's recommended rear clearance, not just raw unit depth."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Buyers shopping anywhere from $180 to $358 in this category often assume ceiling doorway clearance is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on ceiling doorway clearance stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "36U works out to about 63 inches of mounting rail by the standard 1.75-inch-per-U math, but expect the actual enclosure to run closer to 67 inches once the frame and base are factored in. Check that fuller figure against your room's ceiling height and doorway width, not the rail math alone. This is where a rack that \"should\" fit gets stuck at the door."
   }
 ];
 

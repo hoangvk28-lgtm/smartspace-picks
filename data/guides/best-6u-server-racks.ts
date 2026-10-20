@@ -192,19 +192,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. With prices in this roundup ranging roughly $90 to $480, weight rating mount type is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify weight rating mount type directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "With 6 rack units of usable space, the cumulative weight of a near-full load adds up faster than the frame's own weight implies. Check the stationary rating against your realistic equipment total first, then confirm the separate rolling or wall-mounted figure if that's the actual install method. A listing that only states one weight number is probably describing the stationary case only."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. This matters in practice because the picks in this comparison span from about $90 to $480, and skipping a real check on post configuration suits load is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on post configuration suits load, since a generic product photo or title alone won't confirm it."
+    "explanation": "A 6U frame's post configuration, 2-post or 4-post, determines how much of that full height you can safely load with heavier gear, since 4-post designs distribute weight across more rails. Confirm this explicitly in the listing rather than assuming it from the category name. It's one of the more commonly skipped specs at this height."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Buyers shopping anywhere from $90 to $480 in this category often assume plan rear clearance cabling is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on plan rear clearance cabling stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "For a 6u server racks, leave real rear clearance for cable bend radius and panel access, not just the equipment's raw depth measurement. A cable that's bent too sharply right at the connector degrades over time even if it technically still fits. Check the listing's stated rear clearance recommendation, not just the overall enclosure depth."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. At every price point in this comparison's $90 to $480 range, ceiling doorway clearance varies enough between listings that assuming it scales with price is a real way to get burned. Confirm ceiling doorway clearance directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Don't size a 6U rack by rail height alone, roughly 11 inches of mounting space, since the complete unit is closer to 15 inches tall once the frame and base are included. Check the listing's full assembled dimensions against your ceiling height and doorway width before ordering. This gap between rail height and total height catches buyers who do the U-count math themselves."
   }
 ];
 

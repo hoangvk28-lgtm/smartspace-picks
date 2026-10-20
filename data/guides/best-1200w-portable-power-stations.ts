@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 1200w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. This matters in practice because the picks in this comparison span from about $235 to $500, and skipping a real check on documented continuous output is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on documented continuous output, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm this 1200W-class station actually reaches 1200W as continuous output, not only through a brief surge or boost mode that can't be sustained. Manufacturers sometimes headline the surge number since it's the bigger figure. Check the listing's spec table specifically for the word \"continuous\" next to the wattage, not just the largest number on the page."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. Buyers shopping anywhere from $235 to $500 in this category often assume surge duration separately is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on surge duration separately stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Above the 1200W continuous rating, check the surge figure and exactly how long it holds, since a motor startup needs more than an instantaneous spike. Verify this against a real device you plan to run, not just the headline surge number. Many listings omit the duration entirely."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. At every price point in this comparison's $235 to $500 range, battery wh at same varies enough between listings that assuming it scales with price is a real way to get burned. Confirm battery wh at same directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Two stations can both hit 1200W continuous output while carrying very different battery Wh capacities, meaning very different runtimes at that output. Compare Wh directly across finalists rather than assuming equal wattage means equal runtime. This is the single most common point of confusion in this category."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. Two picks priced close together, anywhere in this comparison's $235-$500 band, can still land on opposite ends of efficiency at partial load, so price alone is a poor proxy for it here. Compare the stated figure for efficiency at partial load across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Most real use of a 1200W-class station happens below its maximum rating, so check efficiency and noise at partial load, not just the peak-output spec. A unit optimized for full load can underperform at the 25-50% range where it actually spends most of its time. Search reviews for partial-load reports, since manufacturers rarely publish these figures themselves."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Products at the low end near $235 and the high end near $500 of this comparison don't always handle port recharge limits the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of port recharge limits, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Confirm port current limits, thermal derating under sustained draw, and recharge speed appropriate to this 1200W output class, since a higher-wattage unit draws more current through the same port types. A port rated fine at low draw can derate under sustained high current. Check the listing for thermal or derating notes specifically, not just the port count."
   }
 ];
 

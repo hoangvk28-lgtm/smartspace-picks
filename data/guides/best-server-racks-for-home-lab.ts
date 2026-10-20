@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Plan Around Home Circuit Capacity",
-    "explanation": "Confirm server racks for home lab won't push the total connected load past your home's branch circuit rating, since a PDU distributes outlets but not extra circuit capacity. Products at the low end near $90 and the high end near $300 of this comparison don't always handle plan around home circuit the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan around home circuit, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "A server racks for home lab with plenty of outlets doesn't add circuit capacity, a PDU only distributes what the branch circuit already provides. Calculate your realistic total equipment draw against your home's actual breaker rating before finalizing a setup. This is worth checking with an electrician if you're unsure of your circuit's rating."
   },
   {
     "criterion": "Weigh Noise for a Shared Living Space",
-    "explanation": "Check documented noise levels specifically, since a rack living near living or working space needs to be judged on more than raw performance. Across this comparison's $90 to $300 range, noise shared living space is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check noise shared living space against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Noise matters more for a server racks for home lab installed near living space than one tucked in a closet, so check documented dB levels and real buyer feedback, not just cooling capacity. Spec-sheet noise figures are often best-case numbers. Search recent reviews for honest noise reports under real daily use."
   },
   {
     "criterion": "Verify Room Ventilation, Not Just Rack Fans",
-    "explanation": "Recognize that rack fans alone can't cool a sealed closet or small room, so plan actual room ventilation for a dense equipment load. Given the real spread here, from about $90 up to $300, two products can look nearly identical on the surface while differing exactly on room ventilation rack fans, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on room ventilation rack fans, since it's often left out of the main bullet points entirely."
+    "explanation": "Recognize that a server racks for home lab's built-in fans alone can't cool a sealed closet or small room, so plan actual room ventilation for a dense equipment load. Scan the product description and reviews for whether buyers needed to add room-level cooling on top of the rack's own fans. Rack fans move air within the enclosure, not out of the room."
   },
   {
     "criterion": "Confirm Floor Load if Installing Upstairs",
-    "explanation": "Check the combined weight of a loaded rack against floor load capacity if installing above ground level. With prices in this roundup ranging roughly $90 to $300, floor load installing upstairs is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify floor load installing upstairs directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check the combined weight of a fully loaded server racks for home lab against your floor's load capacity if installing above ground level, since upper floors typically have lower rated capacity than a slab foundation. This is a structural question worth confirming with a contractor for a heavy, fully loaded rack. Don't assume upstairs flooring handles the same load as a garage or basement slab."
   },
   {
     "criterion": "Plan for Future Expansion Space",
-    "explanation": "Leave some spare U-height and depth room for equipment additions rather than filling a rack to its exact current needs. This matters in practice because the picks in this comparison span from about $90 to $300, and skipping a real check on plan future expansion space is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan future expansion space, since a generic product photo or title alone won't confirm it."
+    "explanation": "Size a server racks for home lab with room to grow, not just for today's equipment list, since U-height and depth headroom both get used up faster than expected. Verify the full assembled dimensions in the listing before deciding how much spare capacity you actually have. Buying exactly to current needs is a common reason people upgrade again sooner than planned."
   }
 ];
 

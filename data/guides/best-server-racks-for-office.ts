@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Plan Around Home Circuit Capacity",
-    "explanation": "Confirm server racks for office won't push the total connected load past your home's branch circuit rating, since a PDU distributes outlets but not extra circuit capacity. Buyers shopping anywhere from $358 to $1389 in this category often assume plan around home circuit is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on plan around home circuit stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm a server racks for office won't push the total connected equipment load past your home's branch circuit rating, since a PDU distributes outlets but not extra circuit capacity. Check your home's actual breaker rating against the realistic combined draw of everything you plan to plug in. This is an electrical limit, not a rack spec, so it won't show up in any product listing."
   },
   {
     "criterion": "Weigh Noise for a Shared Living Space",
-    "explanation": "Check documented noise levels specifically, since a rack living near living or working space needs to be judged on more than raw performance. At every price point in this comparison's $358 to $1389 range, noise shared living space varies enough between listings that assuming it scales with price is a real way to get burned. Confirm noise shared living space directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Check documented noise levels for a server racks for office specifically, since a rack living near living or working space needs to be judged on more than raw cooling performance. Cross-check real buyer reviews for noise complaints, since spec-sheet dB figures are often measured under ideal conditions. A quiet spec sheet doesn't always mean a quiet room."
   },
   {
     "criterion": "Verify Room Ventilation, Not Just Rack Fans",
-    "explanation": "Recognize that rack fans alone can't cool a sealed closet or small room, so plan actual room ventilation for a dense equipment load. Two picks priced close together, anywhere in this comparison's $358-$1389 band, can still land on opposite ends of room ventilation rack fans, so price alone is a poor proxy for it here. Compare the stated figure for room ventilation rack fans across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "A server racks for office's fans manage airflow inside the enclosure, not the room it sits in, so a sealed closet still needs its own ventilation plan for a dense load. Check buyer reviews for whether the room itself needed supplemental cooling. Don't assume rack fans alone solve a small-room heat problem."
   },
   {
     "criterion": "Confirm Floor Load if Installing Upstairs",
-    "explanation": "Check the combined weight of a loaded rack against floor load capacity if installing above ground level. Products at the low end near $358 and the high end near $1389 of this comparison don't always handle floor load installing upstairs the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of floor load installing upstairs, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "A fully loaded server racks for office installed upstairs needs its combined weight checked against that floor's actual load rating, which is typically lower than a ground-level slab. This is worth confirming structurally, not just reading off the rack's own spec sheet. Check with a contractor if the total loaded weight is substantial."
   },
   {
     "criterion": "Plan for Future Expansion Space",
-    "explanation": "Leave some spare U-height and depth room for equipment additions rather than filling a rack to its exact current needs. Across this comparison's $358 to $1389 range, plan future expansion space is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan future expansion space against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Leave some spare U-height and depth room in a server racks for office for equipment additions rather than filling it to exactly your current needs. Check the listing's bullet points for the full assembled dimensions so you know how much genuine headroom you're working with. A rack sized to today's exact needs often means a second purchase within a year or two."
   }
 ];
 

@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Use a Stated Tolerance Around the Target Capacity",
-    "explanation": "Require documentation close to 1.5 cu ft fireproof safes's advertised cubic-foot figure rather than assuming every listing hits the exact number precisely. Across this comparison's $70 to $787 range, stated tolerance around target is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check stated tolerance around target against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A 1.5 cu ft rating (roughly 42.5 liters) is a nominal figure, not a guarantee, so verify it against the manufacturer's own spec sheet rather than trusting the listing title alone. Rounding in the brand's favor is common at this size. Check for a stated tolerance or margin, if the brand publishes one, before assuming the number is exact."
   },
   {
     "criterion": "Publish Interior Height, Width, and Depth",
-    "explanation": "Check actual interior dimensions so the nominal volume figure can be verified, since insulation thickness varies between models even at similar advertised capacity. Given the real spread here, from about $70 up to $787, two products can look nearly identical on the surface while differing exactly on interior height width depth, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on interior height width depth, since it's often left out of the main bullet points entirely."
+    "explanation": "Check actual interior height, width, and depth for this 1.5 cu ft size rather than trusting the single volume figure, since insulation thickness varies between models even at similar advertised capacity. Two safes claiming the same cubic footage can have noticeably different usable shapes, one tall and narrow, one short and wide. Scan the listing's full spec sheet for all three interior dimensions, not just the capacity number."
   },
   {
     "criterion": "Measure Clear Door Opening and Shelf Intrusion",
-    "explanation": "Confirm how much the door opening and any fixed shelving reduce genuinely usable space versus the raw interior volume. With prices in this roundup ranging roughly $70 to $787, clear door opening shelf is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify clear door opening shelf directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Door opening width and any fixed shelving can meaningfully shrink the usable space inside a 1.5 cu ft safe below its stated capacity. Verify whether shelving is removable before assuming you'll get the full advertised volume for larger items. This detail rarely appears in the headline bullet points."
   },
   {
     "criterion": "Compare Exterior Footprint and Weight Per Cubic Foot",
-    "explanation": "Two safes with the same nominal capacity can have meaningfully different exterior footprints and weights depending on wall thickness and construction. This matters in practice because the picks in this comparison span from about $70 to $787, and skipping a real check on exterior footprint weight per is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on exterior footprint weight per, since a generic product photo or title alone won't confirm it."
+    "explanation": "Two 1.5 cu ft safes can have meaningfully different exterior footprints and weights depending on wall thickness and construction, so compare both figures directly rather than assuming identical capacity means identical size or heft. A thicker-walled model weighs more and takes up more floor space for the same usable interior. Check exterior dimensions and shipping weight side by side, not just the capacity rating."
   },
   {
     "criterion": "Verify Fire Evidence for Every Capacity-Qualified Product",
-    "explanation": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size. Buyers shopping anywhere from $70 to $787 in this category often assume fire evidence every capacity-qualified is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on fire evidence every capacity-qualified stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Capacity and fire rating are separate, independently tested specs, so a 1.5 cu ft size says nothing about how long a specific model actually resists fire. Verify the fire classification for the exact model you're buying. An independently verified rating carries more weight than a brand's own marketing claim."
   }
 ];
 

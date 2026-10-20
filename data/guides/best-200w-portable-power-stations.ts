@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 200w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. Buyers shopping anywhere from $70 to $180 in this category often assume documented continuous output is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on documented continuous output stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "A station marketed at 200W needs to sustain that figure continuously, not just hit it briefly during a surge. Check the spec sheet for a continuous rating explicitly labeled as such, since the surge number is usually the one given top billing. The gap between the two can be substantial on budget units."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. At every price point in this comparison's $70 to $180 range, surge duration separately varies enough between listings that assuming it scales with price is a real way to get burned. Confirm surge duration separately directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Check the surge rating above this 200W continuous class and its time limit separately, then verify how the unit handles a representative startup load like a compressor or power tool. A high surge number sustained for only a fraction of a second doesn't help with a motor that needs several seconds to start. Look for a stated surge duration, not just a peak wattage figure."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. Two picks priced close together, anywhere in this comparison's $70-$180 band, can still land on opposite ends of battery wh at same, so price alone is a poor proxy for it here. Compare the stated figure for battery wh at same across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Matching 200W of continuous output tells you nothing about how long a station can sustain it, that's a function of battery Wh, a separate spec entirely. Compare Wh across models at this same wattage class before assuming runtime parity. Don't let the shared wattage rating imply equal battery size."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. Products at the low end near $70 and the high end near $180 of this comparison don't always handle efficiency at partial load the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of efficiency at partial load, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of this 200W target output, not just at maximum load, since most real-world use sits below peak output. A unit that's efficient at full load can still be noisy or lossy at partial load, which is where you'll actually run it most of the time. Look for partial-load figures in reviews, since spec sheets rarely publish them."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Across this comparison's $70 to $180 range, port recharge limits is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check port recharge limits against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "At the 200W class, port current limits and thermal derating under sustained draw matter more than at lower-wattage tiers, since more current flows through the same physical connectors. Check for explicit derating notes in the spec sheet. Recharge speed at this output level is also worth confirming directly rather than assuming it scales linearly with wattage."
   }
 ];
 

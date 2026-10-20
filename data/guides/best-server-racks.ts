@@ -252,15 +252,15 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. Two picks priced close together, anywhere in this comparison's $90-$470 band, can still land on opposite ends of weight rating mount type, so price alone is a poor proxy for it here. Compare the stated figure for weight rating mount type across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Weight ratings on a server racks usually split into stationary versus rolling or wall-mounted figures, and the gap between them can be substantial. Match the rating to your actual installation method, not just whichever number the listing highlights. Verify both figures exist in the spec sheet before assuming one covers the other."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. Products at the low end near $90 and the high end near $470 of this comparison don't always handle post configuration suits load the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of post configuration suits load, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "2-post and 4-post frames aren't interchangeable in what they can support, so confirm which one a specific server racks model actually is before assuming equipment will fit safely. This detail is frequently buried below the headline specs. Verify it directly in the full listing description."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. Across this comparison's $90 to $470 range, plan rear clearance cabling is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan rear clearance cabling against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "For a server racks, leave real rear clearance for cable bend radius and panel access, not just the equipment's raw depth measurement. A cable that's bent too sharply right at the connector degrades over time even if it technically still fits. Check the listing's stated rear clearance recommendation, not just the overall enclosure depth."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",

@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require a Narrow Capacity Tolerance",
-    "explanation": "Confirm 4000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance. Buyers shopping anywhere from $1169 to $2799 in this category often assume narrow capacity tolerance is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on narrow capacity tolerance stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "A 4000Wh rating should sit within a stated, narrow tolerance of actual measured capacity, not just a round marketing number. Check whether the manufacturer publishes that tolerance explicitly. At this capacity, even a modest percentage gap represents a meaningful number of real watt-hours."
   },
   {
     "criterion": "Measure Usable Energy, Not Rated Capacity",
-    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone. At every price point in this comparison's $1169 to $2799 range, usable energy rated capacity varies enough between listings that assuming it scales with price is a real way to get burned. Confirm usable energy rated capacity directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff for this 4000Wh-rated unit, not the rated capacity alone, since inverter conversion loss and a BMS cutoff buffer both reduce what's actually usable. The gap between rated and usable capacity is rarely published upfront. Search reviews for real measured runtime figures against a known load."
   },
   {
     "criterion": "Pair Capacity With Continuous Output",
-    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity. Two picks priced close together, anywhere in this comparison's $1169-$2799 band, can still land on opposite ends of pair capacity continuous output, so price alone is a poor proxy for it here. Compare the stated figure for pair capacity continuous output across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "A big 4000Wh battery doesn't guarantee a correspondingly large continuous inverter output, the two specs are independent and sometimes mismatched. Verify the continuous output figure separately against what you actually plan to plug in. Don't assume capacity and output scale together just because they're sold as one unit."
   },
   {
     "criterion": "Compare Weight and Wh-Per-Pound",
-    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity. Products at the low end near $1169 and the high end near $2799 of this comparison don't always handle weight wh-per-pound the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of weight wh-per-pound, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Compare weight, physical volume, and Wh-per-pound efficiency across 4000Wh-class finalists, since battery chemistry differences can produce meaningfully different weight for the same rated capacity. A lighter unit at the same Wh rating usually means newer or more energy-dense cells. Check the spec sheet for weight explicitly, not just footprint dimensions."
   },
   {
     "criterion": "Check Recharge Time and Expansion",
-    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class. Across this comparison's $1169 to $2799 range, recharge time expansion is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check recharge time expansion against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Recharge time for a 4000Wh unit depends on charging circuit design, not just battery size, so don't assume a larger capacity automatically means a proportionally longer recharge. Check cycle-life test conditions and expansion-battery compatibility specifically for this capacity class. These figures are easy to overlook next to the headline Wh number."
   }
 ];
 

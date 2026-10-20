@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Use a Stated Tolerance Around the Target Capacity",
-    "explanation": "Require documentation close to 8.78 cu ft fireproof safes's advertised cubic-foot figure rather than assuming every listing hits the exact number precisely. Products at the low end near $130 and the high end near $700 of this comparison don't always handle stated tolerance around target the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of stated tolerance around target, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "At 8.78 cu ft (about 248.6 liters), require documentation close to that advertised figure rather than assuming every listing hits the exact number precisely, since manufacturers round capacity claims in their favor more often than against it. Cross-check the stated cubic-foot figure against the manufacturer's own product page, not just the marketplace listing title. A small gap between claimed and actual capacity matters more at this size than it would on a much larger safe."
   },
   {
     "criterion": "Publish Interior Height, Width, and Depth",
-    "explanation": "Check actual interior dimensions so the nominal volume figure can be verified, since insulation thickness varies between models even at similar advertised capacity. Across this comparison's $130 to $700 range, interior height width depth is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check interior height width depth against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A 8.78 cu ft capacity claim can hide very different interior shapes, since manufacturers trade off height, width, and depth differently even at the same total volume. Check all three interior dimensions directly rather than relying on the capacity figure alone. This matters most if you're storing specific-sized documents or items, not just loose valuables."
   },
   {
     "criterion": "Measure Clear Door Opening and Shelf Intrusion",
-    "explanation": "Confirm how much the door opening and any fixed shelving reduce genuinely usable space versus the raw interior volume. Given the real spread here, from about $130 up to $700, two products can look nearly identical on the surface while differing exactly on clear door opening shelf, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on clear door opening shelf, since it's often left out of the main bullet points entirely."
+    "explanation": "On a 8.78 cu ft safe, confirm how much the door opening and any fixed shelving reduce genuinely usable space versus the raw interior volume, since a shelf that can't be removed eats into exactly the dimension you need for larger items. This gap is proportionally more noticeable on a smaller safe than a large one. Check the listing's photos and description for shelf removability, not just the stated capacity."
   },
   {
     "criterion": "Compare Exterior Footprint and Weight Per Cubic Foot",
-    "explanation": "Two safes with the same nominal capacity can have meaningfully different exterior footprints and weights depending on wall thickness and construction. With prices in this roundup ranging roughly $130 to $700, exterior footprint weight per is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify exterior footprint weight per directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "At 8.78 cu ft, wall thickness differences between models can produce a noticeably bigger exterior footprint or heavier unit for the same usable interior space. Compare exterior dimensions and weight directly across listings rather than assuming capacity alone tells the full story. This affects both where it'll fit and how hard it is to move into place."
   },
   {
     "criterion": "Verify Fire Evidence for Every Capacity-Qualified Product",
-    "explanation": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size. This matters in practice because the picks in this comparison span from about $130 to $700, and skipping a real check on fire evidence every capacity-qualified is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on fire evidence every capacity-qualified, since a generic product photo or title alone won't confirm it."
+    "explanation": "A 8.78 cu ft capacity doesn't guarantee any specific fire rating, since the two specs are tested and published independently; check the fire classification for the exact model, not just its size class. Two safes at this same capacity can carry meaningfully different fire-resistance durations. Look for an independently verified rating (such as a UL classification) rather than a brand's own unverified claim."
   }
 ];
 

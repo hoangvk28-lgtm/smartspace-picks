@@ -213,19 +213,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Across this comparison's $200 to $1121 range, weight rating mount type is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check weight rating mount type against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "With 24 rack units of usable space, the cumulative weight of a near-full load adds up faster than the frame's own weight implies. Check the stationary rating against your realistic equipment total first, then confirm the separate rolling or wall-mounted figure if that's the actual install method. A listing that only states one weight number is probably describing the stationary case only."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Given the real spread here, from about $200 up to $1121, two products can look nearly identical on the surface while differing exactly on post configuration suits load, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on post configuration suits load, since it's often left out of the main bullet points entirely."
+    "explanation": "At 24U, a 4-post frame generally handles a fuller, heavier load across all 24 units better than a 2-post design rated at the same height, since the extra rails share the weight. Verify the post configuration directly in the listing rather than assuming it from the product name alone. This detail is easy to miss since \"rack\" alone doesn't specify it."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. With prices in this roundup ranging roughly $200 to $1121, plan rear clearance cabling is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify plan rear clearance cabling directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Behind a 24u server racks, budget extra depth beyond the equipment's own measurement for cable bend radius and the room to actually reach the back panel later. Skipping this is fine until the first time a cable needs re-seating in a space too tight to work in. Look for a stated rear clearance figure in the listing rather than guessing from enclosure depth alone."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. This matters in practice because the picks in this comparison span from about $200 to $1121, and skipping a real check on ceiling doorway clearance is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on ceiling doorway clearance, since a generic product photo or title alone won't confirm it."
+    "explanation": "Doing the math on a 24U rack gets you roughly 42 inches of rail space, but the real assembled height lands closer to 46 inches once the frame and feet are added. Verify that larger figure against your actual ceiling and doorway dimensions before ordering. Buyers who size by U-count alone are the ones most often caught out here."
   }
 ];
 

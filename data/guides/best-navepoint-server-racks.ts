@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which navepoint rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. Buyers shopping anywhere from $140 to $615 in this category often assume build current model map is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on build current model map stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Before comparing specs, confirm which navepoint server racks models are actually current, since weight ratings and rail depth both shift between generations even under the same product family name. Check the brand's own site for the live model lineup rather than relying on a listing's age-indeterminate title. An outdated model number can still rank in search long after a replacement ships."
   },
   {
     "criterion": "Publish Weight Rating by Mount Type",
-    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. At every price point in this comparison's $140 to $615 range, weight rating by mount varies enough between listings that assuming it scales with price is a real way to get burned. Confirm weight rating by mount directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "For navepoint server racks, verify the stationary, rolling, and wall-mounted weight ratings separately for the exact model you're considering, not a general figure for the brand's whole range. These three numbers are rarely identical, and a listing sometimes only states the highest one. Check the specific model's full spec sheet for all three ratings explicitly."
   },
   {
     "criterion": "Verify Rail Depth Against Your Equipment",
-    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. Two picks priced close together, anywhere in this comparison's $140-$615 band, can still land on opposite ends of rail depth against equipment, so price alone is a poor proxy for it here. Compare the stated figure for rail depth against equipment across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Navepoint server racks models vary in documented mounting depth or adjustable depth range even within the same height class, so check the specific model's depth spec before assuming standard rack gear will fit. Rail depth is easy to overlook next to the more prominent U-height number. Confirm it against your actual equipment's depth, not just its height class."
   },
   {
     "criterion": "Compare Warranty and Included Hardware",
-    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. Products at the low end near $140 and the high end near $615 of this comparison don't always handle warranty included hardware the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of warranty included hardware, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Warranty length and what actually ships in the box, cage nuts, casters, shelves, varies by exact navepoint server racks model, so compare these per model rather than assuming brand-wide consistency. Some models include hardware that others charge extra for. Check the specific listing's contents list, not just the brand's general warranty page."
   },
   {
     "criterion": "Check Post Configuration for Your Load",
-    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. Across this comparison's $140 to $615 range, post configuration load is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check post configuration load against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm whether the specific navepoint server racks model is 2-post or 4-post, since that determines what equipment class it can safely support, and this varies within the same brand's lineup. Don't assume a brand defaults to one configuration across its whole range. Check the exact model's listing for this detail explicitly."
   }
 ];
 

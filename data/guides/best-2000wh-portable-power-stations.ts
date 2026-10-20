@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require a Narrow Capacity Tolerance",
-    "explanation": "Confirm 2000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance. Two picks priced close together, anywhere in this comparison's $499-$1899 band, can still land on opposite ends of narrow capacity tolerance, so price alone is a poor proxy for it here. Compare the stated figure for narrow capacity tolerance across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "A 2000Wh rating should sit within a stated, narrow tolerance of actual measured capacity, not just a round marketing number. Check whether the manufacturer publishes that tolerance explicitly. At this capacity, even a modest percentage gap represents a meaningful number of real watt-hours."
   },
   {
     "criterion": "Measure Usable Energy, Not Rated Capacity",
-    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone. Products at the low end near $499 and the high end near $1899 of this comparison don't always handle usable energy rated capacity the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of usable energy rated capacity, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff for this 2000Wh-rated unit, not the rated capacity alone, since inverter conversion loss and a BMS cutoff buffer both reduce what's actually usable. The gap between rated and usable capacity is rarely published upfront. Search reviews for real measured runtime figures against a known load."
   },
   {
     "criterion": "Pair Capacity With Continuous Output",
-    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity. Across this comparison's $499 to $1899 range, pair capacity continuous output is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check pair capacity continuous output against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A big 2000Wh battery doesn't guarantee a correspondingly large continuous inverter output, the two specs are independent and sometimes mismatched. Verify the continuous output figure separately against what you actually plan to plug in. Don't assume capacity and output scale together just because they're sold as one unit."
   },
   {
     "criterion": "Compare Weight and Wh-Per-Pound",
-    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity. Given the real spread here, from about $499 up to $1899, two products can look nearly identical on the surface while differing exactly on weight wh-per-pound, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on weight wh-per-pound, since it's often left out of the main bullet points entirely."
+    "explanation": "Compare weight, physical volume, and Wh-per-pound efficiency across 2000Wh-class finalists, since battery chemistry differences can produce meaningfully different weight for the same rated capacity. A lighter unit at the same Wh rating usually means newer or more energy-dense cells. Check the spec sheet for weight explicitly, not just footprint dimensions."
   },
   {
     "criterion": "Check Recharge Time and Expansion",
-    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class. With prices in this roundup ranging roughly $499 to $1899, recharge time expansion is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify recharge time expansion directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Recharge time for a 2000Wh unit depends on charging circuit design, not just battery size, so don't assume a larger capacity automatically means a proportionally longer recharge. Check cycle-life test conditions and expansion-battery compatibility specifically for this capacity class. These figures are easy to overlook next to the headline Wh number."
   }
 ];
 

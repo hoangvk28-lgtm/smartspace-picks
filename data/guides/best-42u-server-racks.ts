@@ -232,19 +232,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Buyers shopping anywhere from $252 to $1906 in this category often assume weight rating mount type is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on weight rating mount type stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "At 42U, this rack has room for up to 42 1U devices stacked edge to edge, so the stationary weight rating needs real headroom for a fully loaded configuration, not just the one or two devices shown in listing photos. Check the stationary rating first, then the separate rolling or wall-mounted rating if that's how it will actually be installed. Confirm the manufacturer states a distinct number for each mounting method, since a single \"weight capacity\" figure often only covers one of them."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. At every price point in this comparison's $252 to $1906 range, post configuration suits load varies enough between listings that assuming it scales with price is a real way to get burned. Confirm post configuration suits load directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "At 42U, a 4-post frame generally handles a fuller, heavier load across all 42 units better than a 2-post design rated at the same height, since the extra rails share the weight. Verify the post configuration directly in the listing rather than assuming it from the product name alone. This detail is easy to miss since \"rack\" alone doesn't specify it."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Two picks priced close together, anywhere in this comparison's $252-$1906 band, can still land on opposite ends of plan rear clearance cabling, so price alone is a poor proxy for it here. Compare the stated figure for plan rear clearance cabling across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Behind a 42u server racks, budget extra depth beyond the equipment's own measurement for cable bend radius and the room to actually reach the back panel later. Skipping this is fine until the first time a cable needs re-seating in a space too tight to work in. Look for a stated rear clearance figure in the listing rather than guessing from enclosure depth alone."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Products at the low end near $252 and the high end near $1906 of this comparison don't always handle ceiling doorway clearance the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of ceiling doorway clearance, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Doing the math on a 42U rack gets you roughly 74 inches of rail space, but the real assembled height lands closer to 78 inches once the frame and feet are added. Verify that larger figure against your actual ceiling and doorway dimensions before ordering. Buyers who size by U-count alone are the ones most often caught out here."
   }
 ];
 

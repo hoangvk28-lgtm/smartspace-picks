@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require a Narrow Capacity Tolerance",
-    "explanation": "Confirm 3000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance. At every price point in this comparison's $700 to $1299 range, narrow capacity tolerance varies enough between listings that assuming it scales with price is a real way to get burned. Confirm narrow capacity tolerance directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Confirm this unit sits within a genuinely narrow tolerance of the 3000Wh target figure, and look for a manufacturer that actually publishes that tolerance rather than just the headline number. A rated-vs-actual gap matters more in absolute terms at this capacity than it would on a much smaller unit. Cross-check the stated figure against independent measurements where available, not just the spec sheet."
   },
   {
     "criterion": "Measure Usable Energy, Not Rated Capacity",
-    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone. Two picks priced close together, anywhere in this comparison's $700-$1299 band, can still land on opposite ends of usable energy rated capacity, so price alone is a poor proxy for it here. Compare the stated figure for usable energy rated capacity across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Rated capacity and usable capacity are different numbers for a 3000Wh unit, conversion loss and a safety cutoff buffer both eat into what you actually get. Look for measured usable energy in reviews rather than trusting the rated figure alone. This gap is almost never disclosed in the main listing."
   },
   {
     "criterion": "Pair Capacity With Continuous Output",
-    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity. Products at the low end near $700 and the high end near $1299 of this comparison don't always handle pair capacity continuous output the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of pair capacity continuous output, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "At 3000Wh, confirm the continuous inverter output is actually sufficient for the specific devices you plan to power, since a large battery paired with a modest inverter still can't run high-draw equipment. Capacity and output are separate specs that don't automatically scale together. Check both numbers against your actual device list, not just the headline Wh figure."
   },
   {
     "criterion": "Compare Weight and Wh-Per-Pound",
-    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity. Across this comparison's $700 to $1299 range, weight wh-per-pound is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check weight wh-per-pound against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "At the same 3000Wh rating, Wh-per-pound can vary noticeably between models depending on battery chemistry, affecting both portability and often price. Compare weight directly across finalists rather than assuming similar capacity means similar heft. This is a meaningful factor if the unit needs to be moved often."
   },
   {
     "criterion": "Check Recharge Time and Expansion",
-    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class. Given the real spread here, from about $700 up to $1299, two products can look nearly identical on the surface while differing exactly on recharge time expansion, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on recharge time expansion, since it's often left out of the main bullet points entirely."
+    "explanation": "Publish AC and solar recharge time, cycle-life test conditions, and expansion-battery compatibility for this 3000Wh class specifically, since recharge time doesn't scale linearly with capacity across different inverter and charging designs. A larger battery can sometimes recharge faster than a smaller one with a weaker charging circuit. Check the listing for a stated full-recharge time at this exact capacity, not a generic brand-wide figure."
   }
 ];
 

@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which renogy models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. At every price point in this comparison's $175 to $999 range, build current model map varies enough between listings that assuming it scales with price is a real way to get burned. Confirm build current model map directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Confirm which Renogy models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. A discontinued model's listing can still rank in search long after a newer version replaces it. Check the brand's own current product page for the live lineup, not just marketplace search results."
   },
   {
     "criterion": "Publish Rated Wh and Continuous W by Model",
-    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general. Two picks priced close together, anywhere in this comparison's $175-$999 band, can still land on opposite ends of rated wh continuous w, so price alone is a poor proxy for it here. Compare the stated figure for rated wh continuous w across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific Renogy model you're considering, not the brand's range in general. These three specs can vary significantly even within one product family. Confirm all three for the exact model number, not a general brand-level claim."
   },
   {
     "criterion": "Verify AC/Solar/Car Charging Input",
-    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically. Products at the low end near $175 and the high end near $999 of this comparison don't always handle acsolarcar charging input the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of acsolarcar charging input, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Check documented charging input limits and any app or firmware requirements for Renogy before assuming fast-charge claims apply automatically across the lineup. Some models need a firmware update or companion app to hit their advertised charging speed. Confirm this explicitly for your specific model."
   },
   {
     "criterion": "Compare Cycle-Life Claims and Warranty",
-    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model. Across this comparison's $175 to $999 range, cycle-life claims warranty is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check cycle-life claims warranty against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Cycle-life claims for Renogy depend heavily on the test conditions used to generate them, so compare warranty length and safety certification by exact model rather than taking a headline cycle count at face value. Check how the figure was measured, not just the number itself. This varies more than brand reputation alone would suggest."
   },
   {
     "criterion": "Separate Current Generation From Older Listings",
-    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded. Given the real spread here, from about $175 up to $999, two products can look nearly identical on the surface while differing exactly on separate current generation from, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on separate current generation from, since it's often left out of the main bullet points entirely."
+    "explanation": "Check regional availability and support status for a specific Renogy model, since older generation products often stay heavily indexed in search long after being succeeded by a newer version. An outdated listing can outrank its own replacement for months. Confirm you're looking at the current generation before comparing specs."
   }
 ];
 

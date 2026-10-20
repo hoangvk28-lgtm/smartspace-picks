@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which marbero models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. This matters in practice because the picks in this comparison span from about $95 to $180, and skipping a real check on build current model map is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on build current model map, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm which Marbero models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. A discontinued model's listing can still rank in search long after a newer version replaces it. Check the brand's own current product page for the live lineup, not just marketplace search results."
   },
   {
     "criterion": "Publish Rated Wh and Continuous W by Model",
-    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general. Buyers shopping anywhere from $95 to $180 in this category often assume rated wh continuous w is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on rated wh continuous w stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific Marbero model you're considering, not the brand's range in general. These three specs can vary significantly even within one product family. Confirm all three for the exact model number, not a general brand-level claim."
   },
   {
     "criterion": "Verify AC/Solar/Car Charging Input",
-    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically. At every price point in this comparison's $95 to $180 range, acsolarcar charging input varies enough between listings that assuming it scales with price is a real way to get burned. Confirm acsolarcar charging input directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Check documented charging input limits and any app or firmware requirements for Marbero before assuming fast-charge claims apply automatically across the lineup. Some models need a firmware update or companion app to hit their advertised charging speed. Confirm this explicitly for your specific model."
   },
   {
     "criterion": "Compare Cycle-Life Claims and Warranty",
-    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model. Two picks priced close together, anywhere in this comparison's $95-$180 band, can still land on opposite ends of cycle-life claims warranty, so price alone is a poor proxy for it here. Compare the stated figure for cycle-life claims warranty across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Cycle-life claims for Marbero depend heavily on the test conditions used to generate them, so compare warranty length and safety certification by exact model rather than taking a headline cycle count at face value. Check how the figure was measured, not just the number itself. This varies more than brand reputation alone would suggest."
   },
   {
     "criterion": "Separate Current Generation From Older Listings",
-    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded. Products at the low end near $95 and the high end near $180 of this comparison don't always handle separate current generation from the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of separate current generation from, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Check regional availability and support status for a specific Marbero model, since older generation products often stay heavily indexed in search long after being succeeded by a newer version. An outdated listing can outrank its own replacement for months. Confirm you're looking at the current generation before comparing specs."
   }
 ];
 

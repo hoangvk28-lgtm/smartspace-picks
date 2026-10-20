@@ -192,19 +192,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. This matters in practice because the picks in this comparison span from about $180 to $428, and skipping a real check on weight rating mount type is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on weight rating mount type, since a generic product photo or title alone won't confirm it."
+    "explanation": "With 30 rack units of usable space, the cumulative weight of a near-full load adds up faster than the frame's own weight implies. Check the stationary rating against your realistic equipment total first, then confirm the separate rolling or wall-mounted figure if that's the actual install method. A listing that only states one weight number is probably describing the stationary case only."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Buyers shopping anywhere from $180 to $428 in this category often assume post configuration suits load is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on post configuration suits load stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "With 30 units to potentially fill, a 4-post frame spreads the combined load across more rails than a 2-post design rated for the same height, which matters once you're actually near capacity. Check the listing's structural details for the actual post count rather than guessing from the product photo. \"Server rack\" in the title tells you nothing about this spec either way."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. At every price point in this comparison's $180 to $428 range, plan rear clearance cabling varies enough between listings that assuming it scales with price is a real way to get burned. Confirm plan rear clearance cabling directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "A 30u server racks installed flush against a wall with no rear margin makes future cabling work far harder than the depth spec alone suggests. Cables need bend radius, and you'll want real access for re-patching down the line. Check whether the listing states a recommended rear clearance separately from total depth."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Two picks priced close together, anywhere in this comparison's $180-$428 band, can still land on opposite ends of ceiling doorway clearance, so price alone is a poor proxy for it here. Compare the stated figure for ceiling doorway clearance across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "A 30U rack has roughly 53 inches of usable mounting rail, but the full enclosure typically runs closer to 57 inches once you add the frame, feet, and any top panel. Measure your actual room's ceiling height and doorway width against that fuller figure, not just the U-count math. A rack that technically fits the room can still be impossible to carry through the doorway."
   }
 ];
 

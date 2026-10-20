@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which sysracks rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. Given the real spread here, from about $350 up to $1389, two products can look nearly identical on the surface while differing exactly on build current model map, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on build current model map, since it's often left out of the main bullet points entirely."
+    "explanation": "Sysracks server racks refreshes its lineup over time, so confirm which specific models are currently sold rather than assuming an older review or listing still reflects the current catalog, since weight ratings and depth ranges change between generations. Cross-check the exact model number against the brand's current product page, not just the family name. A discontinued model's specs can still show up in search results long after it's replaced."
   },
   {
     "criterion": "Publish Weight Rating by Mount Type",
-    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. With prices in this roundup ranging roughly $350 to $1389, weight rating by mount is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify weight rating by mount directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Different sysracks server racks models can carry meaningfully different weight ratings depending on mount type, so pull the exact model's stationary, rolling, and wall-mount figures rather than a brand-wide number. A single quoted capacity often describes only the best-case mounting method. Confirm all three directly from the specific model's documentation."
   },
   {
     "criterion": "Verify Rail Depth Against Your Equipment",
-    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. This matters in practice because the picks in this comparison span from about $350 to $1389, and skipping a real check on rail depth against equipment is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on rail depth against equipment, since a generic product photo or title alone won't confirm it."
+    "explanation": "Don't assume every sysracks server racks model shares the same rail depth just because they're the same U-height, since adjustable depth range varies by model. Check the documented depth figure directly against your equipment's actual depth. This is one of the more commonly overlooked specs next to U-height."
   },
   {
     "criterion": "Compare Warranty and Included Hardware",
-    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. Buyers shopping anywhere from $350 to $1389 in this category often assume warranty included hardware is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on warranty included hardware stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "What ships in the box with a given sysracks server racks model (cage nuts, casters, shelves) and its exact warranty term can both differ model to model. Compare these details for the specific model you're buying, not the brand as a whole. A general brand warranty claim doesn't guarantee a specific model matches it."
   },
   {
     "criterion": "Check Post Configuration for Your Load",
-    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. At every price point in this comparison's $350 to $1389 range, post configuration load varies enough between listings that assuming it scales with price is a real way to get burned. Confirm post configuration load directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Post configuration (2-post vs 4-post) differs across the sysracks server racks lineup, and it directly affects what equipment weight and depth a given model can handle. Verify this for your specific model rather than assuming brand-wide consistency. It's rarely obvious from the product photo alone."
   }
 ];
 

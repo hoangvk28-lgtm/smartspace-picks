@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check the Rolling Weight Rating, Not Stationary",
-    "explanation": "Confirm rolling server racks's weight rating specifically for caster-mounted use, since rolling capacity is documented separately and typically lower than the stationary rating. At every price point in this comparison's $160 to $470 range, rolling weight rating stationary varies enough between listings that assuming it scales with price is a real way to get burned. Confirm rolling weight rating stationary directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Don't size your load to a rolling server racks's stationary weight rating if it'll actually be rolled into position, since the caster-mounted rating is published separately and runs lower. Check for both figures explicitly in the listing. A rack that handles your load stationary may not once it's on casters."
   },
   {
     "criterion": "Verify Casters Lock in Place",
-    "explanation": "Look for locking casters, not just wheels, so the rack stays put once positioned rather than drifting during use. Two picks priced close together, anywhere in this comparison's $160-$470 band, can still land on opposite ends of casters lock place, so price alone is a poor proxy for it here. Compare the stated figure for casters lock place across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Look for locking casters on a rolling server racks, not just wheels, so it stays put once positioned rather than drifting during use. Search the listing's Q&A and recent reviews for real mentions of how well the locks actually hold under load. A caster that \"locks\" loosely under light weight can still creep under a fully loaded rack."
   },
   {
     "criterion": "Confirm Floor Surface Compatibility",
-    "explanation": "Check caster type against your actual floor surface, since hard casters can mark hardwood while soft casters wear faster on rough concrete. Products at the low end near $160 and the high end near $470 of this comparison don't always handle floor surface compatibility the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of floor surface compatibility, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Check caster type on a rolling server racks against your actual floor surface, since hard casters can mark hardwood while soft casters wear faster on rough concrete. This detail rarely shows up in headline bullet points. Cross-check the caster material specifically against your installation floor before buying."
   },
   {
     "criterion": "Plan Cable Slack for Movement",
-    "explanation": "Leave enough cable slack for the rack to move its intended distance without straining connections at the wall or PDU. Across this comparison's $160 to $470 range, plan cable slack movement is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan cable slack movement against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Plan cable routing for a rolling server racks with enough slack for its actual range of motion, not just its resting position, to avoid straining connections at the wall or PDU. This is easy to overlook until the first time it's moved. Check how far the unit is actually designed to roll before finalizing cable length."
   },
   {
     "criterion": "Weigh Portability Against Overall Stability",
-    "explanation": "Confirm the rack still feels stable when loaded and rolling, since a taller, lighter frame can tip more easily than a heavier stationary design. Given the real spread here, from about $160 up to $470, two products can look nearly identical on the surface while differing exactly on portability against overall stability, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on portability against overall stability, since it's often left out of the main bullet points entirely."
+    "explanation": "Portability and stability pull in opposite directions for a rolling server racks, a lighter, easier-to-roll frame is also more prone to tipping once loaded. Check buyer reviews for real-world stability reports under a realistic load. Don't assume a rack built for easy movement is equally stable once equipment is installed."
   }
 ];
 

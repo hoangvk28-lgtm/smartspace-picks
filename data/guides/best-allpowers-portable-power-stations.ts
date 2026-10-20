@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which allpowers models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. Buyers shopping anywhere from $109 to $699 in this category often assume build current model map is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on build current model map stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Allpowers's lineup shifts between generations, so verify which specific models are currently sold rather than trusting an older listing's specs. Capacity, charging speed, and features all commonly change across generations. Cross-check against the brand's own site for the current catalog."
   },
   {
     "criterion": "Publish Rated Wh and Continuous W by Model",
-    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general. At every price point in this comparison's $109 to $699 range, rated wh continuous w varies enough between listings that assuming it scales with price is a real way to get burned. Confirm rated wh continuous w directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "A Allpowers model's exact rated Wh, continuous W, and battery chemistry need checking individually, since brand-wide marketing often blurs distinctions between similar-looking models. Pull the exact spec sheet for your specific model number. Don't let a flagship model's specs stand in for a similar-looking budget variant."
   },
   {
     "criterion": "Verify AC/Solar/Car Charging Input",
-    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically. Two picks priced close together, anywhere in this comparison's $109-$699 band, can still land on opposite ends of acsolarcar charging input, so price alone is a poor proxy for it here. Compare the stated figure for acsolarcar charging input across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Allpowers's fast-charge claims don't always apply uniformly across the lineup, some models need specific firmware or app support to reach the advertised speed. Verify the charging input limits for your exact model. This detail is easy to miss since it's rarely in the headline bullet points."
   },
   {
     "criterion": "Compare Cycle-Life Claims and Warranty",
-    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model. Products at the low end near $109 and the high end near $699 of this comparison don't always handle cycle-life claims warranty the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cycle-life claims warranty, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification across Allpowers models by exact SKU, since these terms aren't always consistent brand-wide. A longer quoted cycle life sometimes reflects different test conditions, not a genuinely more durable battery. Check the fine print on how the cycle-life figure was actually measured."
   },
   {
     "criterion": "Separate Current Generation From Older Listings",
-    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded. Across this comparison's $109 to $699 range, separate current generation from is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check separate current generation from against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Older Allpowers listings frequently outrank their own replacements in search, so confirm you're comparing the current generation, not a succeeded model still floating around online. Check the brand's own site to verify generation status. Specs between generations can differ meaningfully even under a similar-looking product name."
   }
 ];
 

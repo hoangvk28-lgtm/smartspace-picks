@@ -172,19 +172,19 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Two picks priced close together, anywhere in this comparison's $250-$877 band, can still land on opposite ends of weight rating mount type, so price alone is a poor proxy for it here. Compare the stated figure for weight rating mount type across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "With 22 rack units of usable space, the cumulative weight of a near-full load adds up faster than the frame's own weight implies. Check the stationary rating against your realistic equipment total first, then confirm the separate rolling or wall-mounted figure if that's the actual install method. A listing that only states one weight number is probably describing the stationary case only."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Products at the low end near $250 and the high end near $877 of this comparison don't always handle post configuration suits load the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of post configuration suits load, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "A 22U frame's post configuration, 2-post or 4-post, determines how much of that full height you can safely load with heavier gear, since 4-post designs distribute weight across more rails. Confirm this explicitly in the listing rather than assuming it from the category name. It's one of the more commonly skipped specs at this height."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Across this comparison's $250 to $877 range, plan rear clearance cabling is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan rear clearance cabling against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "For a 22u server racks, leave real rear clearance for cable bend radius and panel access, not just the equipment's raw depth measurement. A cable that's bent too sharply right at the connector degrades over time even if it technically still fits. Check the listing's stated rear clearance recommendation, not just the overall enclosure depth."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Given the real spread here, from about $250 up to $877, two products can look nearly identical on the surface while differing exactly on ceiling doorway clearance, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on ceiling doorway clearance, since it's often left out of the main bullet points entirely."
+    "explanation": "Don't size a 22U rack by rail height alone, roughly 39 inches of mounting space, since the complete unit is closer to 43 inches tall once the frame and base are included. Check the listing's full assembled dimensions against your ceiling height and doorway width before ordering. This gap between rail height and total height catches buyers who do the U-count math themselves."
   }
 ];
 

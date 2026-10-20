@@ -216,23 +216,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map the Brand's Current Fire-Rated Lineup",
-    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the honeywell fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side. Buyers shopping anywhere from $68 to $787 in this category often assume map brands current fire-rated is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on map brands current fire-rated stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Not every Honeywell safe in the catalog is fire-rated, some are security-only models that look similar at a glance. Verify the specific model's fire rating explicitly rather than assuming brand-wide coverage. This distinction is easy to miss since product photos rarely make it obvious."
   },
   {
     "criterion": "Require Exact Model-Level Rating Evidence",
-    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying. At every price point in this comparison's $68 to $787 range, exact model-level rating evidence varies enough between listings that assuming it scales with price is a real way to get burned. Confirm exact model-level rating evidence directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Honeywell's overall brand reputation doesn't establish any single model's fire duration, so check the specific classification for the exact SKU you're buying. Fire ratings are tested and published per model, not per brand. Confirm the rating is listed for your specific model number, not inferred from the product line's general reputation."
   },
   {
     "criterion": "Compare Lock Variants Within the Line",
-    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options. Two picks priced close together, anywhere in this comparison's $68-$787 band, can still land on opposite ends of lock variants within line, so price alone is a poor proxy for it here. Compare the stated figure for lock variants within line across two or three similar listings side by side before trusting any single seller's number at face value."
+    "explanation": "Honeywell often offers key, dial-combination, and digital-keypad versions of a similar safe body, so compare these as genuinely different products with different failure modes, not interchangeable options. A lost key is a different problem than a forgotten combination or a dead keypad battery. Check which lock type a specific listing actually ships before assuming they're equivalent."
   },
   {
     "criterion": "Check the Documented Capacity Range",
-    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options. Products at the low end near $68 and the high end near $787 of this comparison don't always handle documented capacity range the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of documented capacity range, since that's often where the honest, unfiltered answer actually shows up."
+    "explanation": "Map Honeywell's current size range against your actual storage needs, since one popular model doesn't represent the brand's full lineup of capacity options. A listing's thumbnail model may not be the size that actually fits your needs. Check the brand's current catalog for the full range before settling on the first result you see."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model. Across this comparison's $68 to $787 range, warranty replacement support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check warranty replacement support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Warranty terms and fire-damage replacement policies for Honeywell can differ by product line, so verify the specific model's documented support rather than a general brand claim. A replacement guarantee after a fire is a much stronger promise than a basic parts warranty. Check the exact terms listed for your model."
   }
 ];
 

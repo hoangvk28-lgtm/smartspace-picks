@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map the Brand's Current Fire-Rated Lineup",
-    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the sentrysafe fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side. Given the real spread here, from about $73 up to $490, two products can look nearly identical on the surface while differing exactly on map brands current fire-rated, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on map brands current fire-rated, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm which current Sentrysafe models actually carry a fire rating rather than assuming the whole catalog does, since brands commonly sell fire-resistant and purely security-focused safes side by side under similar-looking product names. Check the specific model's listing for an explicit fire rating, not just the brand name. A security safe with no fire rating can look nearly identical to one that has it."
   },
   {
     "criterion": "Require Exact Model-Level Rating Evidence",
-    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying. With prices in this roundup ranging roughly $73 to $490, exact model-level rating evidence is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify exact model-level rating evidence directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "A brand-wide reputation for Sentrysafe says nothing about one specific model's tested fire duration. Check the classification for the exact SKU, since ratings vary model to model even within one brand. Don't assume a flagship model's rating applies to a budget variant in the same lineup."
   },
   {
     "criterion": "Compare Lock Variants Within the Line",
-    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options. This matters in practice because the picks in this comparison span from about $73 to $490, and skipping a real check on lock variants within line is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on lock variants within line, since a generic product photo or title alone won't confirm it."
+    "explanation": "Key, combination, and keypad versions of the same Sentrysafe safe body carry different real-world risks, a lost key, a forgotten code, a dead battery, so treat them as distinct products rather than interchangeable lock options. Confirm the exact lock type in the listing. This choice matters more than it looks on a spec sheet."
   },
   {
     "criterion": "Check the Documented Capacity Range",
-    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options. Buyers shopping anywhere from $73 to $490 in this category often assume documented capacity range is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on documented capacity range stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Sentrysafe's best-known model doesn't necessarily reflect the brand's full capacity range, so check what sizes are actually currently available before assuming the popular option is your only choice. The full lineup is often wider than what shows up first in search results. Verify current sizes directly on the brand's own site."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model. At every price point in this comparison's $73 to $490 range, warranty replacement support varies enough between listings that assuming it scales with price is a real way to get burned. Confirm warranty replacement support directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
+    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support Sentrysafe actually documents for the specific model, since these terms vary by product line even within one brand. A fire-damage replacement guarantee is a meaningfully different promise than a basic parts warranty. Confirm the exact terms for your specific model, not a general brand-wide claim."
   }
 ];
 
