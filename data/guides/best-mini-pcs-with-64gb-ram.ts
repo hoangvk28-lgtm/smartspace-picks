@@ -131,6 +131,8 @@ export const faq: FaqItem[] = [
   { q: "Does a 64GB RAM mini PC overheat under heavy load?", a: "It can if the cooling design isn't built for sustained demanding workloads, check reviews specifically for thermal performance under continuous heavy use." },
   { q: "Is a 64GB RAM mini PC worth the price for general use?", a: "Generally not, general productivity and everyday tasks don't benefit meaningfully from this much memory, consider 16GB or 32GB instead." },
   { q: "What professional workloads actually use 64GB RAM effectively?", a: "Running multiple VMs, large local AI models, or several demanding professional applications simultaneously genuinely benefit from this much memory." },
+  { q: "Will 64GB RAM make a mini PC noticeably faster for everyday browsing and office work?", a: "No, basic daily use rarely exceeds 8-16GB of actual memory usage, the extra capacity only matters once you're running genuinely memory-intensive workloads simultaneously." },
+  { q: "Can I upgrade a mini PC's RAM later instead of buying a 64GB configuration upfront?", a: "Check the specific model, some mini PCs have soldered RAM that can't be upgraded, while others offer accessible SO-DIMM slots, verify this before assuming you can add memory down the line." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

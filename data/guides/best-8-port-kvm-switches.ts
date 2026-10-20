@@ -189,6 +189,8 @@ export const faq: FaqItem[] = [
   { q: "What's the highest port count KVM switch available for a desk setup?", a: "Based on our research, 4-port switches represent the practical ceiling for typical desk-focused consumer products." },
   { q: "Do I really need an 8-port KVM switch?", a: "Most buyers' actual daily workflow touches far fewer computers regularly, reconsider whether a 4-port switch would suffice." },
   { q: "Where should I look for a genuine 8-port KVM solution?", a: "Enterprise or IT-department-grade rack-mount KVM systems are the more appropriate category for a genuine eight-computer switching need." },
+  { q: "Would a 4-port KVM switch cover most home or small office needs instead?", a: "For most buyers, yes, a 4-port switch covers the typical number of actively-used computers, with less-frequently-accessed machines reached through other means like remote desktop." },
+  { q: "Do enterprise 8-port KVM systems cost significantly more than desk-focused switches?", a: "Yes, generally, rack-mount enterprise KVM systems built for genuine 8-computer switching carry IT-department pricing well above typical desk accessory budgets." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

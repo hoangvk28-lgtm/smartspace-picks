@@ -163,6 +163,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need a special driver for a quad-screen laptop extender?", a: "Often yes, verify your laptop's GPU and driver compatibility before buying, since this is a genuine prerequisite for many quad-panel designs." },
   { q: "How much desk space does a quad-screen extender need?", a: "Significantly more than a dual or single-panel extender, measure your available desk space realistically before buying." },
   { q: "Is a quad-screen extender worth it for most buyers?", a: "For most general productivity work, a dual or triple-screen extender covers the need with less desk space and cost, quad-screen suits genuinely data-heavy multitasking." },
+  { q: "Can any laptop drive four extended panels at full resolution simultaneously?", a: "Not necessarily, verify your laptop's GPU and port bandwidth can actually output to four displays at their full combined resolution before assuming the extender itself guarantees that performance." },
+  { q: "Does a quad-screen extender need a separate power source?", a: "Likely yes, driving four panels simultaneously typically exceeds what a single laptop USB-C port can supply, check the specific listing for its power requirements." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

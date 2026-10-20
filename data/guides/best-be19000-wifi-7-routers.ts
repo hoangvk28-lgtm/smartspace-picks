@@ -188,6 +188,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need a powerful CPU in my BE19000 router, or does radio hardware matter more?", a: "Both matter. CPU/processing capability needed to route traffic across this many simultaneous high-bandwidth streams is just as important, since routing throughput can bottleneck even flagship-tier radio hardware." },
   { q: "What does the '19000' number in BE19000 actually mean?", a: "It's a combined theoretical maximum across all three radio bands, an even more exaggerated gap between the marketed figure and any single device's achievable real-world speed than lower Wi-Fi 7 tiers." },
   { q: "Is BE19000 worth the price premium over BE9300 for a typical home?", a: "For most typical or even enthusiast home users, honestly, often not, unless you specifically need dual 10G wired ports or want genuine multi-year future-proofing headroom." },
+  { q: "Do I need client devices that support Wi-Fi 7's full speed to benefit from BE19000?", a: "Partially, BE19000 still improves connections for older devices through general hardware upgrades, but its top-tier bandwidth specifically requires genuinely Wi-Fi 7 capable client hardware to use fully." },
+  { q: "Is BE19000 a good choice if I don't have multi-gigabit internet service?", a: "Its flagship wired ports go unused without matching internet speed, but its wireless capacity can still benefit a household running many simultaneous high-bandwidth local devices regardless of your internet plan speed." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

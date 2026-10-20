@@ -47,6 +47,10 @@ export const howToChoose: HowToChooseSection[] = [
       { label: "If you just want auto DST", text: "Several of our verified digital desk clocks automatically adjust for daylight saving time without being true atomic clocks, see our digital desk clocks guide if that convenience is what you're actually after." },
     ],
   },
+  {
+    subheading: "If a Manual Quartz Clock Is an Acceptable Fallback",
+    note: "A well-reviewed standard quartz desk clock needing occasional manual time correction is a practical, honest choice while you continue searching for a genuinely verified atomic model.",
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -54,6 +58,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check the listing explicitly states radio-controlled or WWVB syncing", explanation: "If a listing doesn't specifically mention radio signal syncing, WWVB, or auto-sync to a time standard, it is very likely a standard quartz clock regardless of how it's marketed." },
   { criterion: "Auto DST is a different, more common feature", explanation: "Several standard digital clocks automatically adjust for daylight saving time, a real convenience but not the same as genuine atomic radio-sync accuracy." },
   { criterion: "Expect this category to require more careful listing verification than most", explanation: "Because atomic is sometimes used loosely in marketing, read the full feature list on any listing claiming atomic functionality before buying, rather than trusting the product title alone." },
+  { criterion: "A standard quartz clock with manual time-set is a reasonable fallback", explanation: "If no genuine atomic option fits your needs, a reliable quartz clock requiring occasional manual adjustment is a practical, honest alternative rather than overpaying for a loosely-marketed 'atomic' claim." },
 ];
 
 export const faq: FaqItem[] = [
@@ -61,6 +66,8 @@ export const faq: FaqItem[] = [
   { q: "What does atomic actually mean for a clock?", a: "It means the clock automatically receives a radio time signal, commonly WWVB in North America, and syncs its displayed time to a national reference standard without manual adjustment. It's a specific feature, not a general claim of accuracy." },
   { q: "How do I find a genuine atomic desk clock?", a: "Search for atomic clock or radio controlled clock combined with WWVB, and confirm the listing explicitly states automatic radio signal syncing rather than just accurate or precise." },
   { q: "Is auto DST the same as atomic?", a: "No, auto DST means a clock automatically adjusts for daylight saving time, a common feature on standard digital clocks. Atomic specifically means radio-sync to an external time reference, a different and more specific feature." },
+  { q: "Will this category gap likely change over time?", a: "Yes, product listings shift, search again closer to your purchase date using the exact terms WWVB or radio controlled to check for newly verified genuine atomic options." },
+  { q: "Should I just buy a smartphone or smart speaker instead for always-accurate time?", a: "That's a reasonable alternative, these sync time over the internet rather than radio signal, achieving the same practical always-accurate result without needing a dedicated atomic clock." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -170,6 +170,8 @@ export const faq: FaqItem[] = [
   { q: "How can I get four monitors working with a KVM switch setup?", a: "Consider a three-monitor switch supplemented by your computer's own native output port, or two separate dual-monitor switches." },
   { q: "Why don't more KVM switches support four monitors?", a: "Four simultaneous high-resolution signals demand substantial combined bandwidth, which is likely why true four-monitor switches remain uncommon." },
   { q: "Is a three-monitor KVM switch a reasonable alternative to a four-monitor one?", a: "Yes, it's currently the most realistic option, paired with a separate native output for a fourth display if you need one." },
+  { q: "Why can't manufacturers just add a fourth port to existing three-monitor KVM switches?", a: "Combined video bandwidth across four simultaneous high-resolution displays genuinely strains current USB and video-switching chipsets, which is why most manufacturers cap out at three rather than four ports." },
+  { q: "Will using two dual-monitor KVM switches together work as a four-monitor solution?", a: "It can, though you'll need to switch both units in sync manually unless they support synchronized hotkey switching, check each specific unit's documentation for multi-switch coordination features." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

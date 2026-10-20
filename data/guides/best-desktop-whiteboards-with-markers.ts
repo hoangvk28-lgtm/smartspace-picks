@@ -61,6 +61,10 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "If Markers Aren't Confirmed, Budget for Them Separately",
     note: "Dry erase markers are inexpensive and widely available. If a board you like doesn't explicitly confirm marker inclusion, it's usually simpler to budget a small amount for markers separately than to assume they're bundled.",
   },
+  {
+    subheading: "A Multi-Pack of Markers as a Reliable Fallback",
+    note: "Buying a standard multi-pack of fine-tip dry erase markers separately guarantees consistent quality regardless of whether your chosen whiteboard happens to bundle any, a reliable fallback either way.",
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -68,6 +72,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check listing images and full description, not just the title", explanation: "Some sellers show bundled accessories in photos or describe them further down the page even when the title doesn't mention markers." },
   { criterion: "Budget separately for markers if inclusion isn't confirmed", explanation: "Dry erase markers are cheap and widely available, so it's often simpler to buy them separately than to assume a board includes them." },
   { criterion: "Weigh marker count against your actual need", explanation: "Five bundled markers, as with our one confirmed pick, is more than most single-desk users need immediately, useful as spares over time." },
+  { criterion: "Check whether bundled markers are the same fine-tip quality you'd buy separately", explanation: "A bundled marker included purely to enable a marketing claim can be lower quality than a dedicated dry-erase marker you'd choose yourself, check reviews for marker quality specifically." },
 ];
 
 export const faq: FaqItem[] = [
@@ -75,6 +80,8 @@ export const faq: FaqItem[] = [
   { q: "How can I check if a whiteboard includes markers before buying?", a: "Check the listing's product images and full description, not just the title. Some sellers disclose bundled accessories further down the page." },
   { q: "Why does this guide only have one product?", a: "We only include a product as \"with markers\" when the listing explicitly confirms it. In this research pass, only one desktop whiteboard listing met that bar." },
   { q: "Is it cheaper to buy a whiteboard with markers bundled?", a: "Sometimes, but dry erase markers are inexpensive on their own, so don't pay a large premium for bundled markers if the board itself is a better fit for your needs unbundled." },
+  { q: "Do bundled markers usually work well, or are they low quality filler?", a: "Quality varies, check reviews specifically for marker performance, since some bundles include basic markers primarily to support a marketing claim rather than genuinely useful writing tools." },
+  { q: "Should marker inclusion be my top priority when choosing a whiteboard?", a: "Generally no, prioritize the board's surface quality, size, and mounting first, since markers are a minor, easily replaced cost compared to the board itself." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

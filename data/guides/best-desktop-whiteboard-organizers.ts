@@ -61,6 +61,10 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "When to Check Back",
     note: "Product categories on Amazon shift over time. If you're specifically set on a standalone organizer accessory rather than a complete whiteboard, it's worth searching Amazon directly closer to your purchase date in case new listings have appeared since this research pass.",
   },
+  {
+    subheading: "A Generic Desk Tray as a Stopgap",
+    note: "A plain desktop organizer tray, sold independently of any whiteboard, can sit beside your board today and hold markers and supplies without waiting for a purpose-built accessory to appear.",
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -68,6 +72,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Don't assume a marketplace search result labeled \"organizer\" is a standalone accessory", explanation: "Some listings use \"organizer\" loosely to describe a complete whiteboard's drawer feature. Check whether you're buying a full board or an add-on before purchasing." },
   { criterion: "Check integrated storage capacity if going that route", explanation: "If you opt for a complete whiteboard with built-in storage instead, verify the drawer or tray capacity via listing images since it's rarely quantified in the title." },
   { criterion: "Revisit this category periodically", explanation: "Standalone whiteboard organizer accessories may become available on Amazon after this research pass. Search again closer to your purchase date if this is a strict requirement." },
+  { criterion: "Don't force a mismatch just to buy something today", explanation: "If a genuine standalone organizer accessory doesn't exist yet, buying an unrelated product that happens to use similar keywords wastes money, the integrated-storage whiteboard alternative is the more honest fit." },
 ];
 
 export const faq: FaqItem[] = [
@@ -75,6 +80,8 @@ export const faq: FaqItem[] = [
   { q: "What should I buy instead if I want whiteboard organizing?", a: "Consider a complete whiteboard with integrated storage, a drawer or tray built into the unit itself. See our guide to desktop whiteboards with storage for verified picks." },
   { q: "Is an integrated-storage whiteboard the same as an organizer accessory?", a: "No, it's a complete whiteboard purchase rather than an add-on accessory for an existing board, but it achieves a similar practical goal of keeping supplies organized at your desk." },
   { q: "Why doesn't this guide list more products?", a: "We prioritize honesty over padding a list. Rather than mislabel a complete whiteboard as a standalone organizer accessory, we disclosed the category gap and pointed to the closest genuine alternative." },
+  { q: "Could a generic desk organizer tray work alongside a plain whiteboard?", a: "Yes, a standard desktop organizer tray sold separately can sit near any whiteboard, it just won't attach to the board itself the way an integrated drawer does." },
+  { q: "Will this category gap likely stay open, or could it change?", a: "It can change as sellers add new listings, search again closer to your purchase date using the exact term 'whiteboard organizer accessory' to check for new standalone options." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
