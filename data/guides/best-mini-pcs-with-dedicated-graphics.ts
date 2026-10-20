@@ -243,6 +243,8 @@ export const faq: FaqItem[] = [
   { q: "Does the GPU model name tell me everything about its performance?", a: "Not fully, TGP (power limit) and VRAM configuration matter as much as the model name, since identical GPU names can perform differently across chassis." },
   { q: "Can I add a discrete GPU to a mini PC without one built in?", a: "Some mini PCs support external GPU enclosures via OCuLink or Thunderbolt, though this adds significant additional cost." },
   { q: "Is a barebone mini PC cheaper for strong graphics?", a: "The base price is lower, but factor in the cost of RAM and SSD you'll need to add separately for a true total cost comparison." },
+  { q: "Does a dedicated-graphics mini PC need extra cooling compared to a standard mini PC?", a: "Yes, generally, a discrete GPU adds real thermal load beyond integrated graphics, check the specific listing's stated cooling design rather than assuming any compact chassis handles the extra heat equally well." },
+  { q: "Can a mini PC with dedicated graphics run at full performance on battery or does it need constant power?", a: "Mini PCs are desktop devices with no battery, they require continuous AC power, this is a different consideration than a gaming laptop with a dedicated GPU." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

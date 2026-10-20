@@ -211,6 +211,113 @@ export const howToChoose: HowToChooseSection[] = [
       ]
     }
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $15",
+          "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Under $35",
+          "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Under $45",
+          "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch"
+        ],
+        [
+          "Under $60",
+          "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Under $60",
+          "TP-Link TL-SG116 16-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Under $80",
+          "TP-Link TL-SG1024S 24-Port Gigabit Switch"
+        ],
+        [
+          "Under $400",
+          "TP-Link SG2452LP 48-Port Omada Managed Switch"
+        ],
+        [
+          "Under $530",
+          "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch vs TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch",
+    "cards": [
+      {
+        "label": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch",
+        "text": "Buyers prioritizing 5 gigabit ports, qos + igmp snooping At $14.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "TP-Link TL-SG3452P 48-Port L2+ Managed PoE Switch",
+        "text": "Buyers prioritizing 48x poe+ @384w, l2+ managed At $529.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch unless best 48-port l2+ managed poe specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Strength",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best 5-Port Unmanaged",
+          "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Best 2.5G Compact",
+          "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Best 2.5G 8-Port",
+          "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For A TP-Link-specific network upgrade Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A switch whose stated port count, speed, and power budget genuinely match a TP-Link-specific network upgrade rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is the strongest match for most buyers in this category, based on its stated feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 48x poe+ @384w, l2+ managed"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 5 gigabit ports, qos + igmp snooping"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -245,6 +352,12 @@ export const faq = [
     "q": "What is Omada SDN and do I need it?",
     "a": "Omada is TP-Link's software-defined networking platform for centrally managing switches, access points, and gateways from one controller. It's worth it if you're running multiple TP-Link network devices you want unified under one dashboard; overkill for a single standalone switch."
   }
+,
+  { q: "What's the real difference between the top pick and the budget option in this comparison?", a: "Buyers prioritizing 5 gigabit ports, qos + igmp snooping" },
+  { q: "Which pick in this comparison is best for the highest power or feature needs?", a: "Buyers prioritizing 48x poe+ @384w, l2+ managed" },
+  { q: "Do I need a managed switch instead of one of these picks?", a: "Only if you need VLAN segmentation, port mirroring, or other configurable network management features, an unmanaged switch is simpler and sufficient for most small network setups." },
+  { q: "Can I mix PoE and non-PoE devices on the same switch?", a: "Yes, PoE-capable switches auto-detect PoE devices and apply power accordingly, a non-PoE device connected to the same switch simply uses the port for data only." },
+  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-network-switches","title":"8 Best NETGEAR Network Switches in 2026"},{"href":"/guide/best-ugreen-network-switches","title":"best-ugreen-network-switches"},{"href":"/guide/best-managed-network-switches","title":"8 Best Managed Network Switches in 2026"}];

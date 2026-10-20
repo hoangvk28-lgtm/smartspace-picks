@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Do high-performance mini PCs throttle under sustained load?", a: "They can if thermal design is inadequate, check reviews specifically for sustained-load benchmark reports rather than trusting short burst numbers." },
   { q: "Should I choose AMD or Intel for a high-performance mini PC?", a: "Both offer strong flagship options, choose based on your specific software compatibility needs or architecture preference." },
   { q: "Is the most expensive high-performance mini PC always the best choice?", a: "Not necessarily, weigh value across the price range against your actual workload needs before choosing the top-tier option." },
+  { q: "Can a high-performance mini PC fully replace a desktop tower for demanding work?", a: "For most productivity and even moderate creative workloads, yes, though check the specific listed GPU and cooling capability if your work involves sustained heavy rendering or gaming that a full tower handles with more thermal headroom." },
+  { q: "Does a high-performance mini PC run loud under sustained load?", a: "It can, compact cooling systems working harder to dissipate heat from powerful components often run louder than a larger tower's bigger fans, check reviews for noise reports under sustained workloads specifically." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

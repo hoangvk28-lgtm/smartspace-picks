@@ -135,6 +135,101 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "D-Link's Lifetime Warranty Advantage",
     "note": "D-Link's Limited Lifetime Product Coverage means they'll repair or replace defective hardware for as long as the original purchaser owns the product (or 5 years after discontinuation), a genuinely stronger warranty position than the standard 2-3 year terms common elsewhere in this category."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $0",
+          "D-Link DGS-1016D 16-Port Unmanaged Switch"
+        ],
+        [
+          "Under $18",
+          "D-Link DGS-105 5-Port Gigabit Switch"
+        ],
+        [
+          "Under $28",
+          "D-Link DGS-108 8-Port Gigabit Switch"
+        ],
+        [
+          "Under $55",
+          "D-Link 5-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Under $85",
+          "D-Link DMS-108 8-Port 2.5G Gaming Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "D-Link DGS-1016D 16-Port Unmanaged Switch vs D-Link DMS-108 8-Port 2.5G Gaming Switch",
+    "cards": [
+      {
+        "label": "D-Link DGS-1016D 16-Port Unmanaged Switch",
+        "text": "Buyers prioritizing 16 gigabit ports, storm/port isolation At Check price, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "D-Link DMS-108 8-Port 2.5G Gaming Switch",
+        "text": "Buyers prioritizing 8x 2.5g ports, 40gbps capacity At $84.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to D-Link DGS-1016D 16-Port Unmanaged Switch unless best 2.5g 8-port gaming specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Strength",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best 5-Port",
+          "D-Link DGS-105 5-Port Gigabit Switch"
+        ],
+        [
+          "Best 8-Port",
+          "D-Link DGS-108 8-Port Gigabit Switch"
+        ],
+        [
+          "Best 2.5G 5-Port",
+          "D-Link 5-Port 2.5G Unmanaged Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For A D-Link-specific network upgrade Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A switch whose stated port count, speed, and power budget genuinely match a D-Link-specific network upgrade rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "D-Link DGS-105 5-Port Gigabit Switch is the strongest match for most buyers in this category, based on its stated feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 8x 2.5g ports, 40gbps capacity"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 16 gigabit ports, storm/port isolation"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -169,6 +264,12 @@ export const faq = [
     "q": "Does D-Link's lifetime warranty cover accidental damage?",
     "a": "No, lifetime product coverage typically covers manufacturing defects, not accidental damage, power surges beyond rated protection, or misuse. Read the specific warranty terms on your model before assuming full accident coverage."
   }
+,
+  { q: "What's the real difference between the top pick and the budget option in this comparison?", a: "Buyers prioritizing 16 gigabit ports, storm/port isolation" },
+  { q: "Which pick in this comparison is best for the highest power or feature needs?", a: "Buyers prioritizing 8x 2.5g ports, 40gbps capacity" },
+  { q: "Do I need a managed switch instead of one of these picks?", a: "Only if you need VLAN segmentation, port mirroring, or other configurable network management features, an unmanaged switch is simpler and sufficient for most small network setups." },
+  { q: "Can I mix PoE and non-PoE devices on the same switch?", a: "Yes, PoE-capable switches auto-detect PoE devices and apply power accordingly, a non-PoE device connected to the same switch simply uses the port for data only." },
+  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-unmanaged-network-switches","title":"7 Best Unmanaged Network Switches in 2026"},{"href":"/guide/best-2-5gbe-network-switches","title":"8 Best 2.5GbE Network Switches in 2026"},{"href":"/guide/best-gigabit-network-switches","title":"7 Best Gigabit Network Switches in 2026"}];

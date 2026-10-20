@@ -154,6 +154,101 @@ export const howToChoose: HowToChooseSection[] = [
       ]
     }
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $30",
+          "YuanLey 5-Port Gigabit PoE Switch"
+        ],
+        [
+          "Under $40",
+          "TP-Link TL-SF1005P 5-Port Fast Ethernet PoE Switch"
+        ],
+        [
+          "Under $45",
+          "NETGEAR GS305P 5-Port PoE Gigabit Switch"
+        ],
+        [
+          "Under $45",
+          "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch"
+        ],
+        [
+          "Under $82",
+          "5-Port Industrial PoE DIN-Rail Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "YuanLey 5-Port Gigabit PoE Switch vs 5-Port Industrial PoE DIN-Rail Switch",
+    "cards": [
+      {
+        "label": "YuanLey 5-Port Gigabit PoE Switch",
+        "text": "Buyers prioritizing 4x poe ports @78w total At $29.98, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "5-Port Industrial PoE DIN-Rail Switch",
+        "text": "Buyers prioritizing 5x poe ports @30w/port, industrial At $81.75, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to YuanLey 5-Port Gigabit PoE Switch unless best industrial din-rail specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Strength",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall, Dynamic Allocation",
+          "NETGEAR GS305P 5-Port PoE Gigabit Switch"
+        ],
+        [
+          "Best Value",
+          "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch"
+        ],
+        [
+          "Best Budget Fast Ethernet",
+          "TP-Link TL-SF1005P 5-Port Fast Ethernet PoE Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For A small PoE camera or access point install Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A switch whose stated port count, speed, and power budget genuinely match a small PoE camera or access point install rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR GS305P 5-Port PoE Gigabit Switch is the strongest match for most buyers in this category, based on its stated feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 5x poe ports @30w/port, industrial"
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 4x poe ports @78w total"
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
@@ -188,6 +283,12 @@ export const faq = [
     "q": "Is 4 PoE ports enough for a small camera system?",
     "a": "Yes, for most single-room or small-property setups. If you're planning to expand past 4 cameras, consider an 8-port PoE switch from the start to avoid a near-term upgrade."
   }
+,
+  { q: "What's the real difference between the top pick and the budget option in this comparison?", a: "Buyers prioritizing 4x poe ports @78w total" },
+  { q: "Which pick in this comparison is best for the highest power or feature needs?", a: "Buyers prioritizing 5x poe ports @30w/port, industrial" },
+  { q: "Do I need a managed switch instead of one of these picks?", a: "Only if you need VLAN segmentation, port mirroring, or other configurable network management features, an unmanaged switch is simpler and sufficient for most small network setups." },
+  { q: "Can I mix PoE and non-PoE devices on the same switch?", a: "Yes, PoE-capable switches auto-detect PoE devices and apply power accordingly, a non-PoE device connected to the same switch simply uses the port for data only." },
+  { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4-port-poe-network-switches","title":"5 Best 4-Port PoE Network Switches in 2026"},{"href":"/guide/best-8-port-poe-network-switches","title":"5 Best 8-Port PoE Network Switches in 2026"},{"href":"/guide/best-poe-powered-network-switches","title":"5 Best PoE-Powered Network Switches in 2026"}];
