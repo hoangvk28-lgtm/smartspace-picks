@@ -125,6 +125,100 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $9",
+          "Scribbledo Mini Dry Erase Notepad 5x7"
+        ],
+        [
+          "Under $10",
+          "Lumspax Small Desktop White Board with Stand"
+        ],
+        [
+          "Under $15",
+          "Small Glass Desktop Whiteboard Dry-Erase"
+        ],
+        [
+          "Under $17",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $19",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Scribbledo Mini Dry Erase Notepad 5x7 vs AMUSIGHT Double-Sided Magnetic White Board with Stand",
+    "cards": [
+      {
+        "label": "Scribbledo Mini Dry Erase Notepad 5x7",
+        "text": "Buyers who want the smallest, cheapest option for quick memo notes rather than an upright display board. At $8.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "AMUSIGHT Double-Sided Magnetic White Board with Stand",
+        "text": "Buyers who want the most writing area a genuinely compact board can offer. At $18.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Scribbledo Mini Dry Erase Notepad 5x7 unless best overall specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Best Glass Option",
+          "Small Glass Desktop Whiteboard Dry-Erase"
+        ],
+        [
+          "Smallest True Glass Option",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For The tightest desk space Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match the tightest desk space rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "AMUSIGHT Double-Sided Magnetic White Board with Stand is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want the most writing area a genuinely compact board can offer."
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers who want the smallest, cheapest option for quick memo notes rather than an upright display board."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -141,6 +235,7 @@ export const faq: FaqItem[] = [
   { q: "Should I get glass or melamine?", a: "Glass resists ghosting better over repeated use. The TSJ OFFICE and Mini Pure Glass picks are both genuine glass surfaces." },
   { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at $8.99." },
   { q: "Does double-sided actually help?", a: "Yes - it effectively doubles your usable writing area within the same desk footprint, useful if you erase and reuse the board frequently." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most writing area a genuinely compact board can offer." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

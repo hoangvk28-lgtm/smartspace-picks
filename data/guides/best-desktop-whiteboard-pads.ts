@@ -119,6 +119,100 @@ export const howToChoose: HowToChooseSection[] = [
       { label: "Glass low-angle (TSJ, Mini Pure Glass)", text: "Better long-term ghosting resistance, at a moderate price increase." },
     ],
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $9",
+          "Scribbledo Mini Dry Erase Notepad 5x7"
+        ],
+        [
+          "Under $9",
+          "Scribbledo Dry Erase Board with Lines for Desk"
+        ],
+        [
+          "Under $10",
+          "Lumspax Small Desktop White Board with Stand"
+        ],
+        [
+          "Under $15",
+          "Small Glass Desktop Whiteboard Dry-Erase"
+        ],
+        [
+          "Under $17",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Scribbledo Mini Dry Erase Notepad 5x7 vs TSJ OFFICE Small Desktop Whiteboard",
+    "cards": [
+      {
+        "label": "Scribbledo Mini Dry Erase Notepad 5x7",
+        "text": "Buyers who want the cheapest genuine flat pad option. At $8.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "TSJ OFFICE Small Desktop Whiteboard",
+        "text": "Buyers who want the smallest low-profile glass footprint. At $16.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Scribbledo Mini Dry Erase Notepad 5x7 unless smallest glass option specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "Scribbledo Mini Dry Erase Notepad 5x7"
+        ],
+        [
+          "Best Larger Pad Format",
+          "Scribbledo Dry Erase Board with Lines for Desk"
+        ],
+        [
+          "Best Low-Profile Board With Stand",
+          "Lumspax Small Desktop White Board with Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For A lightweight pad-style board Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match a lightweight pad-style board rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Scribbledo Mini Dry Erase Notepad 5x7 is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want the smallest low-profile glass footprint."
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers who want the cheapest genuine flat pad option."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -135,6 +229,7 @@ export const faq: FaqItem[] = [
   { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at $8.99." },
   { q: "Which has the most writing area?", a: "The Scribbledo 9x12 double-sided board, which offers the most usable space within the flat-pad format." },
   { q: "Which has the highest rating?", a: "The TSJ OFFICE 8x6 glass board, at 4.7 stars." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the smallest low-profile glass footprint." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -115,6 +115,100 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "Verify Current ETS Rules Before Your Test Date",
     note: "At-home testing requirements can change. Check the official ETS GRE and TOEFL at-home testing pages directly before your exam date to confirm current whiteboard and scratch-work rules - this guide covers board selection, not official certification.",
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $19",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Under $24",
+          "Tankee Dry Erase Board 16x12 Inches Double Sided Magnetic Small Whiteboard"
+        ],
+        [
+          "Under $26",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $28",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "TSJ OFFICE Small Desktop Whiteboard vs Small Desktop Glass Whiteboard Dry-Erase-Board",
+    "cards": [
+      {
+        "label": "TSJ OFFICE Small Desktop Whiteboard",
+        "text": "Test-takers who want minimal desk clutter during the exam. At $16.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
+        "text": "Test-takers who want the most proven compact glass board. At $27.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to TSJ OFFICE Small Desktop Whiteboard unless best overall specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ],
+        [
+          "Most Reviewed",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Most Scratch Space",
+          "Tankee Dry Erase Board 16x12 Inches Double Sided Magnetic Small Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For GRE or TOEFL test prep Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match GRE or TOEFL test prep rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Small Desktop Glass Whiteboard Dry-Erase-Board is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Test-takers who want the most proven compact glass board."
+      },
+      {
+        "label": "Save if",
+        "text": "Test-takers who want minimal desk clutter during the exam."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -131,6 +225,7 @@ export const faq: FaqItem[] = [
   { q: "Do I need to show the board to the proctor?", a: "At-home testing generally requires showing the board before and after erasing, but confirm current specific requirements directly with ETS." },
   { q: "What's the most compact option?", a: "The TSJ OFFICE 8x6 glass board, useful for minimizing desk clutter." },
   { q: "Is this guide the same for both GRE and TOEFL?", a: "Both exams have similar at-home erasable-whiteboard allowances as of our research, but verify each exam's specific current rules separately since they can differ." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Test-takers who want the most proven compact glass board." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

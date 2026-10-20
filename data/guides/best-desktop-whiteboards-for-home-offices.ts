@@ -125,6 +125,100 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $9",
+          "Small Dry Erase Board"
+        ],
+        [
+          "Under $16",
+          "Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories"
+        ],
+        [
+          "Under $19",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Under $26",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Small Dry Erase Board vs TSJ OFFICE Small Desktop Whiteboard",
+    "cards": [
+      {
+        "label": "Small Dry Erase Board",
+        "text": "Buyers with the tightest home-office desk space and budget. At $8.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "TSJ OFFICE Small Desktop Whiteboard",
+        "text": "Buyers who want the most proven compact board for a small home-office desk. At $25.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Small Dry Erase Board unless best overall specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Best With Storage",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Best Budget Organizer",
+          "Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For A home office Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match a home office rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TSJ OFFICE Small Desktop Whiteboard is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want the most proven compact board for a small home-office desk."
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers with the tightest home-office desk space and budget."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -141,6 +235,7 @@ export const faq: FaqItem[] = [
   { q: "What's the cheapest option?", a: "The Small Dry Erase Board 10x10 at $8.99." },
   { q: "Which has the most writing area for a bigger home-office desk?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches." },
   { q: "Is there a budget option with an organizer?", a: "Yes, the Amazon Basics Desktop Dry Erase Whiteboard at $15.74." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven compact board for a small home-office desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

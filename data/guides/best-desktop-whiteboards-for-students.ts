@@ -124,6 +124,100 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $9",
+          "Small Dry Erase Board"
+        ],
+        [
+          "Under $16",
+          "Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories"
+        ],
+        [
+          "Under $17",
+          "Dry Erase White Board"
+        ],
+        [
+          "Under $19",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Small Dry Erase Board vs Varhomax Glass Desk Whiteboard with Storage",
+    "cards": [
+      {
+        "label": "Small Dry Erase Board",
+        "text": "Budget-conscious students with limited dorm-desk space. At $8.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Varhomax Glass Desk Whiteboard with Storage",
+        "text": "Students who want combined storage and writing surface on a tight desk. At $24.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Small Dry Erase Board unless best with organizer for study materials specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Budget Pick",
+          "Small Dry Erase Board"
+        ],
+        [
+          "Best Overall",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Best Value Large Board",
+          "Dry Erase White Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Student study sessions Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match student study sessions rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Small Dry Erase Board is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Students who want combined storage and writing surface on a tight desk."
+      },
+      {
+        "label": "Save if",
+        "text": "Budget-conscious students with limited dorm-desk space."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -140,6 +234,7 @@ export const faq: FaqItem[] = [
   { q: "Is there an option with storage for study materials?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage and the cheaper Amazon Basics alternative." },
   { q: "Are the AMUSIGHT and Cazeyoo boards different products?", a: "They're the same size (16x12 in) at slightly different prices and ratings - compare the current listings to decide between them." },
   { q: "Which is best for a small dorm desk?", a: "The compact Small Dry Erase Board 10x10, which uses minimal desk space." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Students who want combined storage and writing surface on a tight desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

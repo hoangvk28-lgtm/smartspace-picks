@@ -138,6 +138,100 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $24",
+          "Desktop Glass Whiteboard with Storage"
+        ],
+        [
+          "Under $26",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $28",
+          "Small Desktop Glass Whiteboard Dry-Erase Board"
+        ],
+        [
+          "Under $30",
+          "Quartet Glass Dry Erase White Board"
+        ],
+        [
+          "Under $37",
+          "Small Glass Desktop Whiteboard Dry Erase Board with Calculator"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Desktop Glass Whiteboard with Storage vs Small Glass Desktop Whiteboard Dry Erase Board with Calculator",
+    "cards": [
+      {
+        "label": "Desktop Glass Whiteboard with Storage",
+        "text": "Budget-conscious buyers who still want a genuine drawer and glass surface combo. At $23.74, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Small Glass Desktop Whiteboard Dry Erase Board with Calculator",
+        "text": "Buyers who want a whiteboard bundled with a calculator and extra organizer accessories. At $36.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Desktop Glass Whiteboard with Storage unless best pick with extra organizer features specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall Pick with Storage",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Best Pick with Extra Organizer Features",
+          "Small Glass Desktop Whiteboard Dry Erase Board with Calculator"
+        ],
+        [
+          "Best Budget Pick with Storage",
+          "Desktop Glass Whiteboard with Storage"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Combining writing and storage Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match combining writing and storage rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TSJ OFFICE Small Desktop Whiteboard is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want a whiteboard bundled with a calculator and extra organizer accessories."
+      },
+      {
+        "label": "Save if",
+        "text": "Budget-conscious buyers who still want a genuine drawer and glass surface combo."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -145,6 +239,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Consider combined weight on the stand", explanation: "A loaded drawer adds weight the board's stand has to support while you write. Check reviews for stability reports if you plan to keep it loaded." },
   { criterion: "Weigh storage against surface material tradeoffs", explanation: "Most storage-equipped picks here are glass, which resists ghosting but adds fragility. Factor that in alongside the storage feature." },
   { criterion: "Don't assume storage capacity from price alone", explanation: "A higher price sometimes reflects bundled accessories like a calculator, not necessarily more storage space. Check what's actually included." },
+  { criterion: "Check whether the drawer is removable or permanently built into the stand", explanation: "This affects how you can use the board over time, since a removable drawer lets you simplify the setup later if you decide you don't need the storage, while a built-in drawer stays part of the stand permanently." },
 ];
 
 export const faq: FaqItem[] = [
@@ -152,6 +247,8 @@ export const faq: FaqItem[] = [
   { q: "Will a loaded drawer make the whiteboard unstable?", a: "It can add stress to the stand structure. This isn't confirmable from listing data alone, so check current reviews for stability reports if you plan to keep the drawer loaded." },
   { q: "Are all whiteboards with storage made of glass?", a: "Most in this guide are glass per their listings, but always confirm the material in the specific listing rather than assuming." },
   { q: "Is a whiteboard with storage worth the extra cost?", a: "If you need a place for markers, notes, or small supplies right at your desk, yes. If you just need a writing surface, a plain board without storage is more budget-friendly." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want a whiteboard bundled with a calculator and extra organizer accessories." },
+  { q: "Can I remove the drawer if I don't need the storage?", a: "Check the specific listing, some drawers are a fixed built-in part of the stand structure while others are a separate removable tray, this affects whether you can use the board without the storage attached." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -125,6 +125,100 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $17",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $24",
+          "Tankee Dry Erase Board 16x12 Inches Double Sided Magnetic Small Whiteboard"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Under $26",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $28",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "TSJ OFFICE Small Desktop Whiteboard vs Small Desktop Glass Whiteboard Dry-Erase-Board",
+    "cards": [
+      {
+        "label": "TSJ OFFICE Small Desktop Whiteboard",
+        "text": "Budget-focused buyers who just need quick meeting reminders visible on camera. At $16.99, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
+        "text": "Buyers who want the highest-rated keyboard-adjacent option for meetings. At $27.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to TSJ OFFICE Small Desktop Whiteboard unless highest rated specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Highest Rated",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ],
+        [
+          "Most Room for Diagrams",
+          "Tankee Dry Erase Board 16x12 Inches Double Sided Magnetic Small Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Small meeting use Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match small meeting use rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TSJ OFFICE Small Desktop Whiteboard is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want the highest-rated keyboard-adjacent option for meetings."
+      },
+      {
+        "label": "Save if",
+        "text": "Budget-focused buyers who just need quick meeting reminders visible on camera."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -141,6 +235,7 @@ export const faq: FaqItem[] = [
   { q: "What's the best option for sketching diagrams during calls?", a: "The Tankee Dry Erase Board at 16x12 inches, the largest writing area in this comparison." },
   { q: "Is there an option with storage for meeting materials?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage." },
   { q: "What's the cheapest meeting-friendly option?", a: "The TSJ OFFICE 8x6 glass board at $16.99." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the highest-rated keyboard-adjacent option for meetings." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

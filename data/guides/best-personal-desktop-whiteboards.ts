@@ -115,6 +115,100 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "This Overlaps With Our Compact Whiteboards Guide",
     note: "If you don't need keyboard-adjacent placement or built-in organizer features specifically, check our compact desktop whiteboards guide for a broader product range including smaller and cheaper options.",
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $16",
+          "Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Under $26",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $28",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories vs Small Desktop Glass Whiteboard Dry-Erase-Board",
+    "cards": [
+      {
+        "label": "Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories",
+        "text": "Budget-focused buyers who still want organizer accessories included. At $15.74, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
+        "text": "Buyers who want the most proven personal keyboard-adjacent whiteboard. At $27.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Amazon Basics Desktop Dry Erase Whiteboard with Organizer and Accessories unless best overall specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ],
+        [
+          "Best Value",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Best With Built-In Organizer",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Personal daily planning Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match personal daily planning rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Small Desktop Glass Whiteboard Dry-Erase-Board is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want the most proven personal keyboard-adjacent whiteboard."
+      },
+      {
+        "label": "Save if",
+        "text": "Budget-focused buyers who still want organizer accessories included."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -131,6 +225,7 @@ export const faq: FaqItem[] = [
   { q: "Do any of these include storage?", a: "Yes, the Varhomax listings and the Amazon Basics option include built-in storage or organizer features alongside the whiteboard surface." },
   { q: "What's the cheapest option here?", a: "The Amazon Basics Desktop Dry Erase Whiteboard at $15.74, which includes organizer accessories." },
   { q: "Are the two Varhomax listings different products?", a: "They appear to be very similar designs at the same price - check the current listing for exact feature differences before choosing between them." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven personal keyboard-adjacent whiteboard." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

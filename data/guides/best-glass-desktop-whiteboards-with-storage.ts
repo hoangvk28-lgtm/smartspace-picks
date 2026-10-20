@@ -124,6 +124,100 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Under $24",
+          "Desktop Glass Whiteboard with Storage"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Under $25",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Under $26",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Under $28",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "Desktop Glass Whiteboard with Storage vs Small Desktop Glass Whiteboard Dry-Erase-Board",
+    "cards": [
+      {
+        "label": "Desktop Glass Whiteboard with Storage",
+        "text": "Budget-focused buyers comfortable with a lower rating than the more established options. At $23.74, it's the lowest-cost pick in this comparison."
+      },
+      {
+        "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
+        "text": "Buyers who want the most proven, though most expensive, glass storage whiteboard. At $27.99, it sits at the higher end of this comparison's price range."
+      }
+    ],
+    "note": "Most buyers should default to Desktop Glass Whiteboard with Storage unless most proven overall specifically applies to your situation."
+  },
+  {
+    "subheading": "By Stated Review Confidence",
+    "table": {
+      "headers": [
+        "What you want",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Best Overall",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Same Design, Alternate Listing",
+          "Varhomax Glass Desk Whiteboard with Storage"
+        ],
+        [
+          "Most Proven Overall",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "For Combining writing and storage Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "A board whose stated size and features genuinely match combining writing and storage rather than a generic all-purpose listing."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Varhomax Glass Desk Whiteboard with Storage is the strongest match for most buyers in this category, based on its stated review base and feature set."
+      }
+    ]
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers who want the most proven, though most expensive, glass storage whiteboard."
+      },
+      {
+        "label": "Save if",
+        "text": "Budget-focused buyers comfortable with a lower rating than the more established options."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
@@ -140,6 +234,7 @@ export const faq: FaqItem[] = [
   { q: "Which has the most reviews?", a: "The TSJ OFFICE Small Desktop Whiteboard, with 2,500 reviews." },
   { q: "What's the cheapest option?", a: "The Desktop Glass Whiteboard with Storage (black) at $23.74, though it has a notably lower rating than the other picks." },
   { q: "Are the two Varhomax listings the same product?", a: "They appear to use the same core storage design at the same price - check the current listing for exact accessory differences." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who want the most proven, though most expensive, glass storage whiteboard." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
