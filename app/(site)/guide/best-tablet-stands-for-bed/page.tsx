@@ -372,6 +372,10 @@ export default async function BestTabletStandsForBedPage() {
                 {link.label}
               </Link>
             ))}
+            <a href="https://www.worthrated.com/guide/best-tablets-for-reading" target="_blank" rel="noopener noreferrer"
+              className="px-3 py-1.5 bg-bg border border-border rounded-badge text-sm font-medium text-brand hover:bg-brand hover:text-white transition-colors">
+              Need a tablet too? Best Tablets for Reading (WorthRated) ↗
+            </a>
           </div>
         </div>
 

@@ -489,4 +489,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-nas-storage-devices", title: "Best NAS Storage Devices in 2026 (2-Bay to 6-Bay)" },
   { href: "/guide/best-nas-storage-for-home-office", title: "Best NAS Storage for Home Office in 2026" },
   { href: "/guide/best-monitor-stands", title: "Best Monitor Stands for Small Desks in 2026" },
+  { href: "https://www.workcocoon.com/desk-setup/best-usb-c-docking-stations", title: "Best USB-C Docking Stations (WorkCocoon)" },
 ];

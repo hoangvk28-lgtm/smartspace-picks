@@ -470,4 +470,5 @@ export const relatedGuides: { href: string; title: string }[] = [
   { href: "/guide/best-office-chair-for-back-pain", title: "Best Office Chairs for Back Pain (2026)" },
   { href: "/guide/best-ergonomic-chair-under-300", title: "Best Ergonomic Chairs Under $300 (2026)" },
   { href: "/guide/best-solid-wood-file-cabinets", title: "Best Solid Wood File Cabinets (2026)" },
+  { href: "https://www.workcocoon.com/chairs/best-office-chairs-with-adjustable-lumbar-support", title: "Best Office Chairs with Adjustable Lumbar Support (WorkCocoon)" },
 ];

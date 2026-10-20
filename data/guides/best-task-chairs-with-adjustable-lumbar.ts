@@ -336,4 +336,4 @@ export const faq = [
   }
 ];
 
-export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-task-chairs","title":"Best Task Chairs"},{"href":"/guide/best-ergonomic-task-chairs","title":"Best Ergonomic Task Chairs"},{"href":"/guide/best-mesh-task-chairs","title":"Best Mesh Task Chairs"}];
+export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-task-chairs","title":"Best Task Chairs"},{"href":"/guide/best-ergonomic-task-chairs","title":"Best Ergonomic Task Chairs"},{"href":"/guide/best-mesh-task-chairs","title":"Best Mesh Task Chairs"},{"href":"https://www.theofficejournal.com/chairs/best-office-chairs-with-adjustable-lumbar-support","title":"Best Office Chairs with Adjustable Lumbar Support (The Office Journal)"}];

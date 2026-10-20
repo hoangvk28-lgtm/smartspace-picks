@@ -195,5 +195,6 @@ export const relatedGuides: { href: string; title: string }[] = [
   { "href": "/guide/best-lap-desks-under-40", "title": "Best Lap Desks Under $40" },
   { "href": "/guide/best-lap-desks-under-30", "title": "Best Lap Desks Under $30" },
   { "href": "/guide/best-office-chairs-under-300", "title": "Best Office Chairs Under $300" },
-  { "href": "/guide/best-desk-pegboards-under-50", "title": "Best Desk Pegboards Under $50" }
+  { "href": "/guide/best-desk-pegboards-under-50", "title": "Best Desk Pegboards Under $50" },
+  { "href": "https://www.dannycamping.com/camp-furniture/best-padded-camping-chairs", "title": "Working from a campsite? Best Padded Camping Chairs (Danny's Camping)" }
 ];
