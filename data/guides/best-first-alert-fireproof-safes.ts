@@ -1,7 +1,7 @@
 export const guideSlug = "best-first-alert-fireproof-safes";
 export const guideTitle = "8 Best First Alert Fireproof Safes in 2026";
 export const metaTitle = "Best First Alert Fireproof Safes 2026";
-export const metaDescription = "We compared first alert fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared first alert fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "first alert fireproof safes";
 export const introParagraphs = [
   "The real test for first alert fireproof safes comes down to checking which specific models in the lineup actually carry an independent fire rating, not a glance at the listing photo.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31XTyTneoXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JQ753YQ?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F, this safe is also ETL verified to survive a 15-foot fall during a fire and remain closed, a specific structural-integrity test beyond just heat resistance. It's separately ETL verified for 24 hours in up to 8 inches of water.\n\nSix live-locking bolts, steel construction, a pry-resistant hinge bar, and an interior light make this a genuinely full-featured floor safe, with a drawer and file organizer for keeping the 2.05 cu ft interior organized.",
-    specs: ["2.05 cu ft, UL 1hr at 1700°F","ETL verified for 15ft fire-fall drop test","6 live-locking bolts, interior light"],
-    pros: ["15-foot fire-fall drop test is a specific structural claim most competitors don't document","Interior light and built-in drawer/file organizer are genuine usability extras","1-hour 1700°F rating with 8-inch, 24-hour water protection covers both major hazards"],
+    description: "UL Classified for a full hour at 1700-degreeF, this safe is also ETL verified to survive a 15-foot fall during a fire and remain closed, a specific structural-integrity test beyond just heat resistance. It's separately ETL verified for 24 hours in up to 8 inches of water.\n\nSix live-locking bolts, steel construction, a pry-resistant hinge bar, and an interior light make this a genuinely full-featured floor safe, with a drawer and file organizer for keeping the 2.05 cu ft interior organized.",
+    specs: ["2.05 cu ft, UL 1hr at 1700-degreeF","ETL verified for 15ft fire-fall drop test","6 live-locking bolts, interior light"],
+    pros: ["15-foot fire-fall drop test is a specific structural claim most competitors don't document","Interior light and built-in drawer/file organizer are genuine usability extras","1-hour 1700-degreeF rating with 8-inch, 24-hour water protection covers both major hazards"],
     cons: ["Door needs 17.5 inches of clearance to fully open, worth checking against room layout","Digital lock is battery-dependent"],
-    bestFor: "buyers prioritizing 2.05 cu ft, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef",
   },
   {
     id: "best-first-alert-fireproof-safes-2",
@@ -43,11 +43,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vwOEUg7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005P12F2K?tag=deskfinds0d-20",
-    description: "UL Classified for 1 hour at 1700°F and ETL verified for 24 hours in up to 8 inches of water, this 1.23 cu ft safe uses a dial combination rather than digital keypad, avoiding battery dependency entirely.\n\nFour live-locking bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware secure the interior, and SentrySafe backs it with a genuine fire/water damage replacement warranty, a meaningful protection beyond the rating itself.",
-    specs: ["1.23 cu ft, 86 lbs, UL 1hr at 1700°F","Dial combination, no batteries required","ETL waterproof 24hr to 8in depth"],
+    description: "UL Classified for 1 hour at 1700-degreeF and ETL verified for 24 hours in up to 8 inches of water, this 1.23 cu ft safe uses a dial combination rather than digital keypad, avoiding battery dependency entirely.\n\nFour live-locking bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware secure the interior, and SentrySafe backs it with a genuine fire/water damage replacement warranty, a meaningful protection beyond the rating itself.",
+    specs: ["1.23 cu ft, 86 lbs, UL 1hr at 1700-degreeF","Dial combination, no batteries required","ETL waterproof 24hr to 8in depth"],
     pros: ["Dial combination lock has zero battery dependency, genuinely simpler long-term reliability","SentrySafe's fire/water damage replacement warranty adds real protection beyond the rating alone","ETL verified to a full 15-foot fall during fire, per SentrySafe's stated testing"],
     cons: ["Dial combination access is slower for daily use than a digital keypad","86 lbs still requires deliberate placement planning"],
-    bestFor: "buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700-degreef",
   },
   {
     id: "best-first-alert-fireproof-safes-3",
@@ -59,11 +59,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51ZHOze0arL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQ8LPBV7?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F and ETL verified for water resistance up to 5 inches for 24 hours even while bolted down, this SentrySafe model uses a dial combination lock with an override key for backup access.\n\nMaster Lock security technology is built into the combination mechanism specifically to resist manipulation attacks, and at 55 lbs with 0.81 cu ft interior it's a genuinely full-featured mid-size home or office safe.",
-    specs: ["0.81 cu ft, 55 lbs, UL 1hr at 1700°F","Dial combination lock + override key","ETL waterproof to 5in for 24hr while bolted"],
+    description: "UL Classified for a full hour at 1700-degreeF and ETL verified for water resistance up to 5 inches for 24 hours even while bolted down, this SentrySafe model uses a dial combination lock with an override key for backup access.\n\nMaster Lock security technology is built into the combination mechanism specifically to resist manipulation attacks, and at 55 lbs with 0.81 cu ft interior it's a genuinely full-featured mid-size home or office safe.",
+    specs: ["0.81 cu ft, 55 lbs, UL 1hr at 1700-degreeF","Dial combination lock + override key","ETL waterproof to 5in for 24hr while bolted"],
     pros: ["Dial combination avoids battery dependency while still including an override key backup","Master Lock-built combination mechanism specifically resists manipulation attacks","Waterproof rating remains valid even when bolted"],
     cons: ["Dial combination access is slower for daily use than a digital keypad","0.81 cu ft is modest capacity relative to the 55 lb weight"],
-    bestFor: "buyers prioritizing 0.81 cu ft, 55 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 0.81 cu ft, 55 lbs, ul 1hr at 1700-degreef",
   },
   {
     id: "best-first-alert-fireproof-safes-4",
@@ -75,11 +75,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31BauXQBkfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008HZUH94?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F, this SentrySafe lets you set your own combination directly on the keypad rather than a factory-preset code, at a substantial 85 lb weight backed by 4 live-locking bolts and a pry-resistant hinge bar.\n\nA shelf and door pocket organize the 1.23 cu ft interior into distinct zones, useful for separating documents from smaller items rather than one open cavity.",
-    specs: ["1.23 cu ft, 85 lbs, UL 1hr at 1700°F","4 live-locking bolts, pry-resistant hinge bar","Shelf + door pocket organization"],
+    description: "UL Classified for a full hour at 1700-degreeF, this SentrySafe lets you set your own combination directly on the keypad rather than a factory-preset code, at a substantial 85 lb weight backed by 4 live-locking bolts and a pry-resistant hinge bar.\n\nA shelf and door pocket organize the 1.23 cu ft interior into distinct zones, useful for separating documents from smaller items rather than one open cavity.",
+    specs: ["1.23 cu ft, 85 lbs, UL 1hr at 1700-degreeF","4 live-locking bolts, pry-resistant hinge bar","Shelf + door pocket organization"],
     pros: ["User-set combination on the keypad avoids relying on a factory-preset code","Shelf and door pocket genuinely separate storage zones instead of one open cavity","85 lb weight and 4 live-locking bolts give real forced-entry resistance"],
     cons: ["No waterproof rating cited in this listing, fire-only protection","Digital lock requires battery maintenance"],
-    bestFor: "buyers prioritizing 1.23 cu ft, 85 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 1.23 cu ft, 85 lbs, ul 1hr at 1700-degreef",
   },
   {
     id: "best-first-alert-fireproof-safes-5",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550-degreeF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550-degreeF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550-degreef, etl digital media verified",
   },
   {
     id: "best-first-alert-fireproof-safes-6",
@@ -167,28 +167,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Warranty and Replacement Support",
     "note": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $224.99",
+          "SentrySafe Fireproof & Waterproof Dial Combination Safe"
+        ],
+        [
+          "Around $229.99",
+          "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
+        ],
+        [
+          "Around $259.00",
+          "SentrySafe 1.23 Cu Ft Digital Push Button Safe"
+        ],
+        [
+          "Around $489.99",
+          "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map the Brand's Current Fire-Rated Lineup",
-    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the first alert fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side."
+    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the first alert fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side. Products at the low end near $73 and the high end near $490 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Require Exact Model-Level Rating Evidence",
-    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying."
+    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying. This matters in practice because the picks in this comparison span from about $73 to $490, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Lock Variants Within the Line",
-    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options."
+    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options. With prices in this roundup ranging roughly $73 to $490, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check the Documented Capacity Range",
-    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options."
+    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options. Given the real spread here, from about $73 up to $490, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model."
+    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model. Across this comparison's $73 to $490 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -203,7 +235,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550-degreeF, 1 hour at 1700-degreeF, or 2 hours at 1850-degreeF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",
@@ -213,6 +245,8 @@ export const faq = [
     "q": "Does the cubic-foot rating on a safe match its real usable storage space?",
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-brinks-fireproof-safes","title":"Best Brinks Fireproof Safes in 2026"},{"href":"/guide/best-honeywell-fireproof-safes","title":"Best Honeywell Fireproof Safes in 2026"},{"href":"/guide/best-sentrysafe-fireproof-safes","title":"Best SentrySafe Fireproof Safes in 2026"}];

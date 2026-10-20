@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41ko059KksL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGY471WK?tag=deskfinds0d-20",
-    description: "At 23.6 inches, this compact desk features a modern minimalist design with a smooth silhouette and soft matte finish, purpose-built for tight areas like a salon entryway, beauty studio corner, or compact office lobby. Rounded edges give it a high-end aesthetic suited to spa interiors, jewelry shops, and nail salons.\n\nA roomy working surface handles POS systems, appointment books, or décor pieces despite the small footprint, and the enclosed panel design hides cables and supplies to keep the reception area clean and professional.",
+    description: "At 23.6 inches, this compact desk features a modern minimalist design with a smooth silhouette and soft matte finish, purpose-built for tight areas like a salon entryway, beauty studio corner, or compact office lobby. Rounded edges give it a high-end aesthetic suited to spa interiors, jewelry shops, and nail salons.\n\nA roomy working surface handles POS systems, appointment books, or decor pieces despite the small footprint, and the enclosed panel design hides cables and supplies to keep the reception area clean and professional.",
     specs: ["23.6-inch wide compact desk","Modern minimalist design, matte finish","Enclosed panel hides cables and supplies"],
     pros: ["23.6-inch width is genuinely the smallest reception desk footprint in this category","Rounded edges and matte finish give a high-end look despite the compact size","Enclosed panel design conceals cables without needing separate management hardware"],
     cons: ["23.6-inch width limits it to the tightest single-staff corners","No transaction counter separate from the main desktop"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Protect Bookings and Payment from Casual Viewing",
     "note": "Protect bookings, forms, and payment information from casual viewing, since studio clients often wait in close proximity to the reception desk."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $79.90",
+          "VEVOR Reception Desk"
+        ],
+        [
+          "Around $99.82",
+          "IGERI Small Black Reception Desk with Lock"
+        ],
+        [
+          "Around $159.90",
+          "Small Reception Desk with Drawer"
+        ],
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Define the Studio Type and Its Workflow",
-    "explanation": "Define the studio type and map its check-in or payment workflow, since a photography studio, tattoo studio, and fitness studio each have different reception needs."
+    "explanation": "Define the studio type and map its check-in or payment workflow, since a photography studio, tattoo studio, and fitness studio each have different reception needs. With prices in this roundup ranging roughly $80 to $170, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Reserve Brand Display Without Losing Work Surface",
-    "explanation": "Reserve visible portfolio or brand display space without losing genuine work surface, since studios often want to showcase work but still need real desktop functionality."
+    "explanation": "Reserve visible portfolio or brand display space without losing genuine work surface, since studios often want to showcase work but still need real desktop functionality. Given the real spread here, from about $80 up to $170, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Fit Equipment in a Compact Zone",
-    "explanation": "Fit laptop, tablet, POS, and chargers in a compact zone, since studio reception areas are often tighter than a corporate lobby."
+    "explanation": "Fit laptop, tablet, POS, and chargers in a compact zone, since studio reception areas are often tighter than a corporate lobby. Across this comparison's $80 to $170 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Use Flexible Power and Cable Paths",
-    "explanation": "Use flexible cable or power paths for changing equipment, since studios often swap devices more frequently than a fixed corporate reception setup."
+    "explanation": "Use flexible cable or power paths for changing equipment, since studios often swap devices more frequently than a fixed corporate reception setup. Products at the low end near $80 and the high end near $170 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Protect Bookings and Payment from Casual Viewing",
-    "explanation": "Protect bookings, forms, and payment information from casual viewing, since studio clients often wait in close proximity to the reception desk."
+    "explanation": "Protect bookings, forms, and payment information from casual viewing, since studio clients often wait in close proximity to the reception desk. This matters in practice because the picks in this comparison span from about $80 to $170, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Small Reception Desk with Drawer is aimed at buyers prioritizing 23.6-inch wide compact desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"},{"href":"/guide/best-reception-desks-for-salon","title":"best-reception-desks-for-salon"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

@@ -141,32 +141,100 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "NAS Expansion Limitation",
     "note": "QNAP is explicit that a TR-series unit's storage pool cannot be merged into a connected NAS's own storage pool, it remains a separate pool/volume. Confirm this limitation matches your workflow before buying a TR unit purely as NAS capacity expansion."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)"
+        ],
+        [
+          "Around $219.00",
+          "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
+        ],
+        [
+          "Around $799.00",
+          "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion"
+        ],
+        [
+          "Around $899.00",
+          "QNAP TL-R1200C-RP 12-Bay Rackmount JBOD Enclosure"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "QNAP TL-R1200C-RP 12-Bay Rackmount JBOD Enclosure is aimed at buyers prioritizing 12-bay rackmount, 250w redundant psu."
+      },
+      {
+        "label": "Save if",
+        "text": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod."
+      }
+    ]
+  },
+  {
+    "subheading": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) vs QNAP TL-R1200C-RP 12-Bay Rackmount JBOD Enclosure",
+    "cards": [
+      {
+        "label": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)",
+        "text": "Aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod."
+      },
+      {
+        "label": "QNAP TL-R1200C-RP 12-Bay Rackmount JBOD Enclosure",
+        "text": "Aimed at buyers prioritizing 12-bay rackmount, 250w redundant psu."
+      }
+    ],
+    "note": "Default to QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod; QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 2-bay hardware raid 0/1/jbod."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "DAS means direct host attachment, not RAID",
-    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately."
+    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately. Products at the low end near $180 and the high end near $899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Bay count is not usable capacity",
-    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size."
+    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size. This matters in practice because the picks in this comparison span from about $180 to $899, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Hardware RAID and host software RAID are not interchangeable",
-    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving."
+    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving. With prices in this roundup ranging roughly $180 to $899, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "The interface link rate is not your real transfer speed",
-    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum."
+    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum. Given the real spread here, from about $180 up to $899, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "RAID is not backup",
-    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides."
+    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides. Across this comparison's $180 to $899 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Diskless enclosures need drives budgeted separately",
-    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive."
+    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive. Products at the low end near $180 and the high end near $899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -191,6 +259,8 @@ export const faq = [
     "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless) is aimed at buyers prioritizing 4x 3.5in bays, hardware raid 0/1/5/jbod." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-12-bay-direct-attached-storage","title":"5 Best 12-Bay Direct-Attached Storage"},{"href":"/guide/best-8-bay-das-storage","title":"6 Best 8-Bay DAS Storage Options"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-portable-power-stations-for-fridge";
 export const guideTitle = "8 Best Portable Power Stations for Fridge in 2026";
 export const metaTitle = "Best Portable Power Stations for Fridge 2026";
-export const metaDescription = "We compared portable power stations for fridge by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared portable power stations for fridge by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage.";
 export const mainKeyword = "portable power stations for fridge";
 export const introParagraphs = [
   "Ranking portable power stations for fridge fairly means putting measuring compressor startup surge and duty cycle instead of trusting nameplate running watts ahead of anything the listing photos suggest.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Plan for Food Safety, Not Just Power",
     "note": "Treat this as food-safety backup planning rather than trusting one power station to guarantee a fixed duration for every fridge."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $289.99",
+          "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
+        ],
+        [
+          "Around $359.00",
+          "PECRON F1000LFP Power Station"
+        ],
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $489.00",
+          "OUPES Mega 1 Lite Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "EcoFlow DELTA 3 Classic Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $669.00",
+          "AFERIY P210 Solar Generator"
+        ],
+        [
+          "Around $699.99",
+          "UDPOWER S2400 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Measure Compressor Startup Surge",
-    "explanation": "Check portable power stations for fridge's documented startup surge and running draw against the actual refrigerator or a representative compressor load."
+    "explanation": "Check portable power stations for fridge's documented startup surge and running draw against the actual refrigerator or a representative compressor load. This matters in practice because the picks in this comparison span from about $290 to $700, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Estimate Runtime From Duty-Cycle Logging",
-    "explanation": "Estimate runtime using duty-cycle behavior and measured usable AC energy, not a single running-watts figure."
+    "explanation": "Estimate runtime using duty-cycle behavior and measured usable AC energy, not a single running-watts figure. With prices in this roundup ranging roughly $290 to $700, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Test Restart at Low Charge",
-    "explanation": "Verify restart behavior after the station reaches low state of charge or after a brief transfer event."
+    "explanation": "Verify restart behavior after the station reaches low state of charge or after a brief transfer event. Given the real spread here, from about $290 up to $700, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Inverter Efficiency at Low Average Load",
-    "explanation": "Compare inverter efficiency at the refrigerator's relatively low average load, since efficiency varies by load level."
+    "explanation": "Compare inverter efficiency at the refrigerator's relatively low average load, since efficiency varies by load level. Across this comparison's $290 to $700 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Plan for Food Safety, Not Just Power",
-    "explanation": "Treat this as food-safety backup planning rather than trusting one power station to guarantee a fixed duration for every fridge."
+    "explanation": "Treat this as food-safety backup planning rather than trusting one power station to guarantee a fixed duration for every fridge. Products at the low end near $290 and the high end near $700 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "OUPES Mega 1 Lite Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w (4500w surge), 26.7 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-for-refrigerator","title":"Best Portable Power Stations for Refrigerator in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"}];

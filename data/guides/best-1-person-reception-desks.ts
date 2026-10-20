@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41JN+JAnm2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F8B95G8T?tag=deskfinds0d-20",
-    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.",
+    description: "Same GIANTEX round-tabletop platform in a brown-and-white finish: 1\" thickened tabletop, elevated corner shelf, and built-in-lock drawer with two keys. The 2-tier open shelf below handles bags or sundries with 3-position adjustability.\n\nThis pick is best for buyers who value brown & white finish suits warmer retail or boutique interiors along with 3-position adjustable shelving. The catch is that engineered wood, not solid material, so decide if that's worth it at $69.99.",
     specs: ["Round tabletop, 1\" thickened panel, brown & white finish","Lockable drawer with 2 keys","3-position adjustable 2-tier open shelf"],
     pros: ["Brown & white finish suits warmer retail or boutique interiors","3-position adjustable shelving","Lowest-priced option in the GIANTEX round-desk lineup"],
     cons: ["Engineered wood, not solid material","No cable management feature listed"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Map Storage Placement Against Chair Space",
     "note": "Map storage, module seams, and drawer locations against chair and knee space, since even a single-person desk can have storage placed poorly enough to block comfortable seating."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $69.99",
+          "GIANTEX Reception Desk"
+        ],
+        [
+          "Around $99.82",
+          "IGERI Small Black Reception Desk with Lock"
+        ],
+        [
+          "Around $114.97",
+          "ANGRYWIN Reception Desk with Counter"
+        ],
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $199.99",
+          "Luxitero 47\" Reception Desk"
+        ],
+        [
+          "Around $205.99",
+          "LITTLE TREE 57-Inch Boho Reception Counter"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Usable Width for the Receptionist",
-    "explanation": "Publish usable width for the single receptionist after storage, returns, and dividers are installed, since raw nominal width can overstate real usable space."
+    "explanation": "Publish usable width for the single receptionist after storage, returns, and dividers are installed, since raw nominal width can overstate real usable space. Products at the low end near $70 and the high end near $206 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Create Independent Device Zones",
-    "explanation": "Set up independent monitor, keyboard, phone, and cable zones based on the desk's actual usable width rather than assuming any nominal size works."
+    "explanation": "Set up independent monitor, keyboard, phone, and cable zones based on the desk's actual usable width rather than assuming any nominal size works. This matters in practice because the picks in this comparison span from about $70 to $206, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Shared from Personal Storage",
-    "explanation": "Separate personal, lockable storage from open quick-access storage, so security and convenience don't compete for the same compartment."
+    "explanation": "Separate personal, lockable storage from open quick-access storage, so security and convenience don't compete for the same compartment. With prices in this roundup ranging roughly $70 to $206, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Define Where Visitors Stand",
-    "explanation": "Define where visitors stand at the desk relative to the receptionist's working position, since a single-staff desk still needs a clear visitor approach."
+    "explanation": "Define where visitors stand at the desk relative to the receptionist's working position, since a single-staff desk still needs a clear visitor approach. Given the real spread here, from about $70 up to $206, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Map Storage Placement Against Chair Space",
-    "explanation": "Map storage, module seams, and drawer locations against chair and knee space, since even a single-person desk can have storage placed poorly enough to block comfortable seating."
+    "explanation": "Map storage, module seams, and drawer locations against chair and knee space, since even a single-person desk can have storage placed poorly enough to block comfortable seating. Across this comparison's $70 to $206 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"},{"href":"/guide/best-reception-desks","title":"best-reception-desks"},{"href":"/guide/best-reception-desks-under-500","title":"best-reception-desks-under-500"}];

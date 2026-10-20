@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Map Center Supports Against Chair Space",
     "note": "Map center supports, module seams, and drawer locations against chair and knee space for all three positions, since a 3-person desk has more potential pinch points than a 2-person layout."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $476.99",
+          "87\" 2-Person Reception Desk with Patented Double Top"
+        ],
+        [
+          "Around $499.99",
+          "L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $699.99",
+          "87-Inch Two People L-Shaped Reception Desk"
+        ],
+        [
+          "Around $998.88",
+          "79\" 2-Person Reception Desk with Counter"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Usable Width Per Receptionist",
-    "explanation": "Publish usable width per each of the 3 receptionists after storage, returns, and dividers are installed, since raw total width divided by three overstates real per-person space."
+    "explanation": "Publish usable width per each of the 3 receptionists after storage, returns, and dividers are installed, since raw total width divided by three overstates real per-person space. Given the real spread here, from about $477 up to $999, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Create Independent Device Zones",
-    "explanation": "Set up independent monitor, keyboard, phone, and cable zones for each of the 3 staff members instead of mathematically dividing total desk width."
+    "explanation": "Set up independent monitor, keyboard, phone, and cable zones for each of the 3 staff members instead of mathematically dividing total desk width. Across this comparison's $477 to $999 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Separate Shared from Personal Storage",
-    "explanation": "Separate shared printer or storage from personal, lockable storage so all three staff members have adequate private space."
+    "explanation": "Separate shared printer or storage from personal, lockable storage so all three staff members have adequate private space. Products at the low end near $477 and the high end near $999 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Define Where Multiple Simultaneous Visitors Stand",
-    "explanation": "Define where multiple simultaneous visitors stand at the desk so check-ins for three staff members don't create a crowded, confusing approach."
+    "explanation": "Define where multiple simultaneous visitors stand at the desk so check-ins for three staff members don't create a crowded, confusing approach. This matters in practice because the picks in this comparison span from about $477 to $999, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Map Center Supports Against Chair Space",
-    "explanation": "Map center supports, module seams, and drawer locations against chair and knee space for all three positions, since a 3-person desk has more potential pinch points than a 2-person layout."
+    "explanation": "Map center supports, module seams, and drawer locations against chair and knee space for all three positions, since a 3-person desk has more potential pinch points than a 2-person layout. With prices in this roundup ranging roughly $477 to $999, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Reception Desk with Keyboard Tray is aimed at buyers prioritizing 86.6\"l x 23.6\"w right-l configuration." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-double-reception-desks","title":"best-double-reception-desks"},{"href":"/guide/best-large-reception-desks","title":"6 Best Large Reception Desks in 2026"}];

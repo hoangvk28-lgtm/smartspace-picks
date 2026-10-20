@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cleaning Access and Merchandise Security",
     "note": "Check glass cleaning access and merchandise security during peak traffic, since an unlockable display case invites shrinkage in a busy retail or salon setting."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $249.99",
+          "WOODTIME Reception Desk with LED and Glass Display Shelves"
+        ],
+        [
+          "Around $289.99",
+          "AIEGLE Modern L-Shaped Reception Desk"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE Modern Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Measure Display Visibility from Eye Level",
-    "explanation": "Measure visible display area from normal visitor eye level, since a display case positioned poorly can be invisible to arriving guests despite looking prominent in photography."
+    "explanation": "Measure visible display area from normal visitor eye level, since a display case positioned poorly can be invisible to arriving guests despite looking prominent in photography. Products at the low end near $250 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Staff-Side Access and Locking",
-    "explanation": "Verify staff-side access and locking without requiring the receptionist to leave their position, since a display case that's awkward to restock disrupts daily workflow."
+    "explanation": "Verify staff-side access and locking without requiring the receptionist to leave their position, since a display case that's awkward to restock disrupts daily workflow. This matters in practice because the picks in this comparison span from about $250 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Shelf Dimensions and Load",
-    "explanation": "Publish shelf dimensions, spacing, and documented load capacity, since display shelving needs to hold real merchandise weight, not just decorative items."
+    "explanation": "Publish shelf dimensions, spacing, and documented load capacity, since display shelving needs to hold real merchandise weight, not just decorative items. With prices in this roundup ranging roughly $250 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Map Lighting Power Separately from Computer Cabling",
-    "explanation": "Map lighting power independently from POS or computer cabling, since combining these circuits can create clutter or conflicts in cable routing."
+    "explanation": "Map lighting power independently from POS or computer cabling, since combining these circuits can create clutter or conflicts in cable routing. Given the real spread here, from about $250 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Cleaning Access and Merchandise Security",
-    "explanation": "Check glass cleaning access and merchandise security during peak traffic, since an unlockable display case invites shrinkage in a busy retail or salon setting."
+    "explanation": "Check glass cleaning access and merchandise security during peak traffic, since an unlockable display case invites shrinkage in a busy retail or salon setting. Across this comparison's $250 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AIEGLE Modern Reception Desk is aimed at buyers prioritizing 59.1\"w desk with adjustable glass display shelves." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-glass-reception-desks","title":"4 Best Glass Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-retail","title":"best-reception-desks-for-retail"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-high-capacity-portable-power-stations";
 export const guideTitle = "7 Best High Capacity Portable Power Stations in 2026";
 export const metaTitle = "Best High Capacity Portable Power Stations 2026";
-export const metaDescription = "We compared high capacity portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared high capacity portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline.";
 export const mainKeyword = "high capacity portable power stations";
 export const introParagraphs = [
   "Most high capacity portable power stations buyers skip straight to price, when the more useful first step is separating usable Wh from continuous output before trusting one headline wattage number.",
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31MKjmDYAXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FM8653F1?tag=deskfinds0d-20",
-    description: "Dual voltage (120V and 240V in parallel) delivers 3600W output, doubling to 7200W when paired, genuinely enough to run pumps, heaters, and dryers. High-temp resistant ceramic membrane cells tested at 302°F specifically prevent thermal runaway, backed by 6000 rated cycles and a 10-year lifespan claim documented down to -4°F operation.\n\nExpandable from 3584Wh to 21kWh per unit (43kWh with multiple units), Jackery states this can power a 3-person household for over 2 weeks. The plug-and-play design paired with MTS needs no complex installation, and the luggage-style design with wheels and a telescopic handle makes rolling it between rooms genuinely practical despite the scale.",
-    specs: ["3584Wh (expandable to 21kWh), 3600W","Ceramic membrane cells, 302°F tested","Wheeled luggage-style design"],
+    description: "Dual voltage (120V and 240V in parallel) delivers 3600W output, doubling to 7200W when paired, genuinely enough to run pumps, heaters, and dryers. High-temp resistant ceramic membrane cells tested at 302-degreeF specifically prevent thermal runaway, backed by 6000 rated cycles and a 10-year lifespan claim documented down to -4-degreeF operation.\n\nExpandable from 3584Wh to 21kWh per unit (43kWh with multiple units), Jackery states this can power a 3-person household for over 2 weeks. The plug-and-play design paired with MTS needs no complex installation, and the luggage-style design with wheels and a telescopic handle makes rolling it between rooms genuinely practical despite the scale.",
+    specs: ["3584Wh (expandable to 21kWh), 3600W","Ceramic membrane cells, 302-degreeF tested","Wheeled luggage-style design"],
     pros: ["Ceramic membrane cells are specifically tested against thermal runaway","Expandable to a genuine 21kWh per unit for extended backup","Wheeled luggage design makes rolling between rooms practical"],
     cons: ["Full 21kWh expansion requires purchasing additional units","Genuinely large footprint even with the lighter, smaller claims"],
     bestFor: "buyers prioritizing 3584wh (expandable to 21kwh), 3600w",
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Safety Certification Evidence",
     "note": "Look for safety certification evidence such as UL2743, thermal limits, fan behavior, and manual operating restrictions."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $649.99",
+          "Anker SOLIX S2000 Portable Power Station"
+        ],
+        [
+          "Around $798.99",
+          "BLUETTI Elite 200 V2 Portable Power Station"
+        ],
+        [
+          "Around $899.00",
+          "EcoFlow DELTA 3 Max Portable Power Station"
+        ],
+        [
+          "Around $899.00",
+          "Jackery Explorer 2000 v2 Portable Power Station"
+        ],
+        [
+          "Around $1,098.99",
+          "BLUETTI Elite 300 Portable Power Station"
+        ],
+        [
+          "Around $1,899.00",
+          "Jackery HomePower 3600 Plus Portable Power Station"
+        ],
+        [
+          "Around $1,899.00",
+          "EcoFlow DELTA Pro Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Rated Wh and Usable Energy Separately",
-    "explanation": "Confirm high capacity portable power stations's rated Wh and measured usable AC/DC energy after conversion losses are documented separately."
+    "explanation": "Confirm high capacity portable power stations's rated Wh and measured usable AC/DC energy after conversion losses are documented separately. Products at the low end near $650 and the high end near $1899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Separate Continuous Output From Surge Claims",
-    "explanation": "Verify continuous inverter output is clearly separated from short surge or boost mode figures."
+    "explanation": "Verify continuous inverter output is clearly separated from short surge or boost mode figures. This matters in practice because the picks in this comparison span from about $650 to $1899, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Battery Chemistry and Cycle Life",
-    "explanation": "Check documented battery chemistry, cycle-life test conditions, and warranty rather than assuming all packs age similarly."
+    "explanation": "Check documented battery chemistry, cycle-life test conditions, and warranty rather than assuming all packs age similarly. With prices in this roundup ranging roughly $650 to $1899, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Recharge Curves and Input Limits",
-    "explanation": "Confirm AC and solar recharge curves, input limits, and simultaneous-input charging behavior."
+    "explanation": "Confirm AC and solar recharge curves, input limits, and simultaneous-input charging behavior. Given the real spread here, from about $650 up to $1899, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Safety Certification Evidence",
-    "explanation": "Look for safety certification evidence such as UL2743, thermal limits, fan behavior, and manual operating restrictions."
+    "explanation": "Look for safety certification evidence such as UL2743, thermal limits, fan behavior, and manual operating restrictions. Across this comparison's $650 to $1899 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "EcoFlow DELTA 3 Max Portable Power Station is aimed at buyers prioritizing 2048wh, 2400w (3400w x-boost)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

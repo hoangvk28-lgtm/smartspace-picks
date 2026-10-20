@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Replacement Component Availability",
     "note": "Include replacement tops, fronts, pedestals, and dealer or service availability in your evaluation, since a genuinely modular system should support component-level repair, not full replacement."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $261.90",
+          "VEVOR Reception Desk"
+        ],
+        [
+          "Around $329.99",
+          "Modern Reception Desk with Drawer & Open Shelves"
+        ],
+        [
+          "Around $559.99",
+          "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
+        ],
+        [
+          "Around $1,469.00",
+          "Fully Assembled Curved Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map Every Module Against Exact Layout Needs",
-    "explanation": "Map every module needed for the exact layout and dimensional compatibility between modules before ordering, since modular systems only work if the pieces genuinely fit together."
+    "explanation": "Map every module needed for the exact layout and dimensional compatibility between modules before ordering, since modular systems only work if the pieces genuinely fit together. With prices in this roundup ranging roughly $170 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Expansion Without Full Replacement",
-    "explanation": "Confirm the system can expand or reconfigure without replacing the complete desk, which is the core value proposition of choosing modular over a fixed-configuration desk."
+    "explanation": "Confirm the system can expand or reconfigure without replacing the complete desk, which is the core value proposition of choosing modular over a fixed-configuration desk. Given the real spread here, from about $170 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Finish Match for Future Modules",
-    "explanation": "Verify whether future modules can match existing finishes, since color and material batches can vary over time, especially across separate purchases."
+    "explanation": "Verify whether future modules can match existing finishes, since color and material batches can vary over time, especially across separate purchases. Across this comparison's $170 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Trace Power and Data Across Seams",
-    "explanation": "Trace power and data across module seams and removable panels, since a modular system's cable routing needs to survive reconfiguration, not just work in the original layout."
+    "explanation": "Trace power and data across module seams and removable panels, since a modular system's cable routing needs to survive reconfiguration, not just work in the original layout. Products at the low end near $170 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Replacement Component Availability",
-    "explanation": "Include replacement tops, fronts, pedestals, and dealer or service availability in your evaluation, since a genuinely modular system should support component-level repair, not full replacement."
+    "explanation": "Include replacement tops, fronts, pedestals, and dealer or service availability in your evaluation, since a genuinely modular system should support component-level repair, not full replacement. This matters in practice because the picks in this comparison span from about $170 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ZIMASYA 63\" Reception Counter with Combination Lock Drawers is aimed at buyers prioritizing 63\" l-shaped desk, white finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-reception-desks","title":"6 Best Large Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-reception-desks-for-commercial","title":"5 Best Reception Desks for Commercial Use in 2026"}];

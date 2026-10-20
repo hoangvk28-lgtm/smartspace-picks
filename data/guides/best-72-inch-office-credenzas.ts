@@ -1,7 +1,7 @@
 export const guideSlug = "best-72-inch-office-credenzas";
 export const guideTitle = "8 Best 72-Inch Office Credenzas in 2026";
 export const metaTitle = "Best 72-Inch Office Credenzas 2026";
-export const metaDescription = "We compared 72-inch office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared 72-inch office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "72-inch office credenzas";
 export const introParagraphs = [
   "The real test for 72-inch office credenzas comes down to confirming real assembled width and usable top space, not just the nominal figure, not a glance at the product photo.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Include Wall, Baseboard, and Cable Clearance",
     "note": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $240.00",
+          "HON HONLCS7224LS1 72 in. Shell Credenza Slate Teak"
+        ],
+        [
+          "Around $286.56",
+          "Alera Valencia Series 72 by 24 by 29-1/2-Inch Credenza Shell"
+        ],
+        [
+          "Around $289.99",
+          "71\" Large Sideboard Buffet Cabinet with 3 Drawers and 6 Barn Doors"
+        ],
+        [
+          "Around $315.00",
+          "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany"
+        ],
+        [
+          "Around $328.41",
+          "71\" Large Buffet Cabinet with 6 Soft-Close Doors and 2 Sliding Drawers"
+        ],
+        [
+          "Around $329.99",
+          "71\" Large Sideboard Buffet Cabinet with 6 Barn Doors and 2 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "72\" Modern Sideboard Buffet Cabinet with Vertical Grooved Doors"
+        ],
+        [
+          "Around $1,329.48",
+          "Hon Credenza with Knee Space"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width, Not Just Nominal",
-    "explanation": "Confirm 72-inch office credenzas's real assembled width including any top or trim overhang, since nominal width figures don't always account for edge details that extend beyond the case."
+    "explanation": "Confirm 72-inch office credenzas's real assembled width including any top or trim overhang, since nominal width figures don't always account for edge details that extend beyond the case. Products at the low end near $240 and the high end near $1329 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Uninterrupted Top Width and Depth",
-    "explanation": "Check how much of the top surface is genuinely usable for active equipment after subtracting any raised trim or hutch footprint."
+    "explanation": "Check how much of the top surface is genuinely usable for active equipment after subtracting any raised trim or hutch footprint. This matters in practice because the picks in this comparison span from about $240 to $1329, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Every Interior Bay Individually",
-    "explanation": "Get dimensions for each cabinet or drawer bay separately, since exterior width alone can be mistaken for proportional interior capacity."
+    "explanation": "Get dimensions for each cabinet or drawer bay separately, since exterior width alone can be mistaken for proportional interior capacity. With prices in this roundup ranging roughly $240 to $1329, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Doors and Drawers Fully Open",
-    "explanation": "Check clearance with doors and drawers fully extended in the exact spot the credenza will sit, particularly beside a desk or chair."
+    "explanation": "Check clearance with doors and drawers fully extended in the exact spot the credenza will sit, particularly beside a desk or chair. Given the real spread here, from about $240 up to $1329, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Include Wall, Baseboard, and Cable Clearance",
-    "explanation": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall."
+    "explanation": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall. Across this comparison's $240 to $1329 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-60-inch-office-credenzas","title":"Best 60-Inch Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

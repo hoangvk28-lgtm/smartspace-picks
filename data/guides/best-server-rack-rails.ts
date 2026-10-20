@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vyzPjra9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKSR9C2J?tag=deskfinds0d-20",
-    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.",
+    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nThis pick is best for buyers who value 242 lb rating far exceeds typical cantilever shelves along with adjustable depth fits a wide range of rack sizes. The catch is that 4-post mount needs support on all sides, so decide if that's worth it at $69.90.",
     specs: ["1U, adjustable 13.5-31.8\" depth","242 lb weight capacity","SPCC cold rolled steel, 4-post mount"],
     pros: ["242 lb rating far exceeds typical cantilever shelves","Adjustable depth fits a wide range of rack sizes","Can flip to save space when not fully loaded"],
     cons: ["4-post mount needs support on all sides","Heavier duty build costs more than basic shelves"],
@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Flip-Lip or Reversible Options",
     "note": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $59.90",
+          "Tecmojo 2-Pack 1U Universal Rack Mount Rails"
+        ],
+        [
+          "Around $69.90",
+          "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf"
+        ],
+        [
+          "Around $70.71",
+          "StarTech 1U 4-Post Vented Rack Shelf"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Match Shelf Depth to the Actual Device",
-    "explanation": "Confirm server rack rails's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate."
+    "explanation": "Confirm server rack rails's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate. Products at the low end near $60 and the high end near $71 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Vented vs Solid Shelf Design",
-    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm."
+    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm. This matters in practice because the picks in this comparison span from about $60 to $71, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Cantilever vs 4-Post Support",
-    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight."
+    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight. With prices in this roundup ranging roughly $60 to $71, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Cage Nut vs Screw Hole Compatibility",
-    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded."
+    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded. Given the real spread here, from about $60 up to $71, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Flip-Lip or Reversible Options",
-    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights."
+    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights. Across this comparison's $60 to $71 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 2-Pack 1U Universal Rack Mount Rails is aimed at buyers prioritizing 1u, adjustable 20.9-32\" depth, 2-pack." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

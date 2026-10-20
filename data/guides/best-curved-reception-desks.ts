@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/314cEp+DwLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C74V1KLW?tag=deskfinds0d-20",
-    description: "This 72\"W x 32\"D curved unit assembles without tools, using a silver steel frame and thermofused melamine finish with self-edge banding to keep costs down without looking budget. The 19.75\" deep interior desk gives the receptionist real working depth behind the curved visitor-facing front.\n\nLeveling glides built into the base allow up to ½\" of height adjustability per leg, which matters on uneven commercial flooring where a fixed-leg desk would rock. Wire management cutouts are built into the interior desk surface rather than added as drilled holes.",
-    specs: ["72\"W x 32\"D curved single-unit desk","19.75\" deep interior receptionist desk","Leveling glides, up to ½\" height adjustability per leg"],
+    description: "This 72\"W x 32\"D curved unit assembles without tools, using a silver steel frame and thermofused melamine finish with self-edge banding to keep costs down without looking budget. The 19.75\" deep interior desk gives the receptionist real working depth behind the curved visitor-facing front.\n\nLeveling glides built into the base allow up to 1/2\" of height adjustability per leg, which matters on uneven commercial flooring where a fixed-leg desk would rock. Wire management cutouts are built into the interior desk surface rather than added as drilled holes.",
+    specs: ["72\"W x 32\"D curved single-unit desk","19.75\" deep interior receptionist desk","Leveling glides, up to 1/2\" height adjustability per leg"],
     pros: ["No-tools assembly, unusual for a curved commercial desk","Leveling glides handle uneven floors better than fixed feet","Interior wire cutouts built into the work surface, not drilled after"],
     cons: ["Single-unit only, no add-on modules shown for this listing","Silver frame is a fixed design choice, not swappable"],
     bestFor: "buyers prioritizing 72\"w x 32\"d curved single-unit desk",
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Locate Storage Relative to the Curve",
     "note": "Place storage, printers, and cable routing relative to the curved profile itself to avoid dead space where the curve meets a straight storage module."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $522.49",
+          "L-Shaped Reception Desk with Curved Corner and Vertical Slats"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ],
+        [
+          "Around $1,192.84",
+          "Romig Marque Curved Single-Unit Reception Workstation"
+        ],
+        [
+          "Around $1,469.00",
+          "Fully Assembled Curved Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish the Full Installed Footprint",
-    "explanation": "Get the full installed footprint for a curved desk, not just the front-facing width, since the curve adds depth that a straight desk's spec sheet doesn't need to account for."
+    "explanation": "Get the full installed footprint for a curved desk, not just the front-facing width, since the curve adds depth that a straight desk's spec sheet doesn't need to account for. Across this comparison's $522 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Staff Reach Around the Curve",
-    "explanation": "Measure staff reach and chair movement around the curve itself, since a tight radius can push a monitor or storage cabinet out of comfortable reach."
+    "explanation": "Measure staff reach and chair movement around the curve itself, since a tight radius can push a monitor or storage cabinet out of comfortable reach. Products at the low end near $522 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Map Visitor Approach to the Curve",
-    "explanation": "Confirm the curve improves visitor approach and queue flow rather than creating a blind spot or awkward standing position at the desk's tightest point."
+    "explanation": "Confirm the curve improves visitor approach and queue flow rather than creating a blind spot or awkward standing position at the desk's tightest point. This matters in practice because the picks in this comparison span from about $522 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Orientation Options",
-    "explanation": "Check whether the curved design ships in a fixed orientation or offers mirrored options, since a curve can't be flipped after assembly the way a flat panel sometimes can."
+    "explanation": "Check whether the curved design ships in a fixed orientation or offers mirrored options, since a curve can't be flipped after assembly the way a flat panel sometimes can. With prices in this roundup ranging roughly $522 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Locate Storage Relative to the Curve",
-    "explanation": "Place storage, printers, and cable routing relative to the curved profile itself to avoid dead space where the curve meets a straight storage module."
+    "explanation": "Place storage, printers, and cable routing relative to the curved profile itself to avoid dead space where the curve meets a straight storage module. Given the real spread here, from about $522 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-round-reception-desks","title":"6 Best Round Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"7 Best L-Shaped Reception Desks in 2026"}];

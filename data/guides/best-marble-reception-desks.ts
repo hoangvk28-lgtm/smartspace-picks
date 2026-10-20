@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Calculate Top Weight for Installation",
     "note": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents and may need reinforced support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $84.79",
+          "Kaboon Marble-Pattern Laminate Desktop"
+        ],
+        [
+          "Around $89.99",
+          "SANODESK 48x30\" One-Piece Tabletop"
+        ],
+        [
+          "Around $259.99",
+          "LayBurst 70.8\" Reception Desk"
+        ],
+        [
+          "Around $349.99",
+          "LayBurst 86.8\" Large Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify Genuine vs Look-Alike Marble",
-    "explanation": "Identify whether the marble surface is genuine stone, engineered material, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly."
+    "explanation": "Identify whether the marble surface is genuine stone, engineered material, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly. Across this comparison's $85 to $350 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Surface and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin marble-pattern laminate performs very differently than a genuine stone or engineered-stone slab."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin marble-pattern laminate performs very differently than a genuine stone or engineered-stone slab. Products at the low end near $85 and the high end near $350 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Staining and Chemical Sensitivity",
-    "explanation": "Use manufacturer care guidance to compare staining, etching, or chemical sensitivity, since genuine and engineered stone react differently to common cleaning products than laminate does."
+    "explanation": "Use manufacturer care guidance to compare staining, etching, or chemical sensitivity, since genuine and engineered stone react differently to common cleaning products than laminate does. This matters in practice because the picks in this comparison span from about $85 to $350, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Inspect Seam Placement",
-    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single slab isn't practical."
+    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single slab isn't practical. With prices in this roundup ranging roughly $85 to $350, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Calculate Top Weight for Installation",
-    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents and may need reinforced support."
+    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents and may need reinforced support. Given the real spread here, from about $85 up to $350, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "LayBurst 86.8\" Large Reception Desk is aimed at buyers prioritizing 86.8\"l x 23.6\"d desktop, marble-patterned finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-stone-reception-desks","title":"best-stone-reception-desks"},{"href":"/guide/best-granite-reception-desks","title":"best-granite-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"best-quartz-reception-desks"}];

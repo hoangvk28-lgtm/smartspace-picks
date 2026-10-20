@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/3172xcdFNxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XWL296H?tag=deskfinds0d-20",
-    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.",
+    description: "This 16U case splits the difference between a fully open frame and an enclosed cabinet, with optional side panels you can install only if you don't need the extra airflow of an open design.\n\nIt's aimed squarely at studio and DJ setups as much as server gear, with removable 3-inch casters that add weight capacity flexibility once removed.\n\nWhere this one earns its spot is side panels are optional, letting you choose open or closed, and removing casters bumps capacity for heavier gear. Worth noting before buying: side panels don't bear weight if you rely on them, which matters more at $194.99 than it would on a cheaper pick.",
     specs: ["16U, 18\" depth, 34.5\" assembled height","550 lb static / 440 lb rolling","Optional non-weight-bearing side panels"],
     pros: ["Side panels are optional, letting you choose open or closed","Removing casters bumps capacity for heavier gear","Works well for AV and studio rack duty, not just servers"],
     cons: ["Side panels don't bear weight if you rely on them","Assembly required before it's ready to load"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41NIp+MF1bL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CY2113VD?tag=deskfinds0d-20",
-    description: "Tecmojo's 16U open frame rack ships with two vented 1U shelves included, the same generous accessory approach found across their smaller 12U model.\n\nCapacity again splits between 130 lbs wall-mounted and 260 lbs ground-mounted, so the same planning consideration applies here as with their other dual-mount racks.",
+    description: "Tecmojo's 16U open frame rack ships with two vented 1U shelves included, the same generous accessory approach found across their smaller 12U model.\n\nCapacity again splits between 130 lbs wall-mounted and 260 lbs ground-mounted, so the same planning consideration applies here as with their other dual-mount racks.\n\nWhat stands out here is two vented shelves included rather than sold separately, plus anti-slip shelf stops keep gear from shifting. The main tradeoff: wall-mount rating is half the floor-standing capacity, so weigh that against the $139.90 price before buying.",
     specs: ["16U, cold rolled steel","260 lb floor / 130 lb wall capacity","2 vented shelves, mounting hardware included"],
     pros: ["Two vented shelves included rather than sold separately","Anti-slip shelf stops keep gear from shifting","Stackable design supports future expansion"],
     cons: ["Wall-mount rating is half the floor-standing capacity","Open frame leaves cables and gear exposed"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $117.08",
+          "VEVOR 16U AV Rack"
+        ],
+        [
+          "Around $139.90",
+          "TECMOJO 16U Open Frame Network Rack"
+        ],
+        [
+          "Around $194.99",
+          "AxcessAbles 16U AV Case with Wheels"
+        ],
+        [
+          "Around $220.99",
+          "OCEANHUG 16U Server Rack Cabinet with Drawer"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 16u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 16u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Across this comparison's $117 to $221 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Products at the low end near $117 and the high end near $221 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. This matters in practice because the picks in this comparison span from about $117 to $221, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. With prices in this roundup ranging roughly $117 to $221, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Given the real spread here, from about $117 up to $221, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 16U AV Case with Wheels is aimed at buyers prioritizing 16u, 18\" depth, 34.5\" assembled height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

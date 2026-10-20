@@ -44,10 +44,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   },
   {
     id: "best-drawing-tablets-for-linux-3",
@@ -92,8 +92,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hEzYb5kkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FTE9HS2?tag=deskfinds0d-20",
     description: "A 10 x 6.25 inch working area gives real room to work in, and the battery-free PW100 stylus supports plus-or-minus 60 degrees of tilt for genuine shading gestures, not just line weight. Twelve programmable press keys plus sixteen soft keys is an unusually deep shortcut set for this price tier.\n\nThe symmetrical design genuinely supports left-handed use via a 180-degree driver rotation, and phones connect over OTG (though iPhone/iPad are not supported, and Samsung Galaxy S-series cursor display has a known limitation). Compatible with Windows, macOS, Android, and Linux via Xorg specifically, not Wayland.",
-    specs: ["10x6.25in area, 12+16 hot keys","±60° tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
-    pros: ["28 total programmable keys is deep for this price","±60° tilt support enables real shading gestures","True 180° rotation for left-handed users"],
+    specs: ["10x6.25in area, 12+16 hot keys","+/-60-degree tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
+    pros: ["28 total programmable keys is deep for this price","+/-60-degree tilt support enables real shading gestures","True 180-degree rotation for left-handed users"],
     cons: ["Samsung Galaxy S-series has a known cursor display issue","Linux support requires Xorg specifically, not Wayland"],
     bestFor: "buyers prioritizing 10x6.25in area, 12+16 hot keys",
   },
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31dtlYXBOIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09LM73Q4J?tag=deskfinds0d-20",
     description: "Bluetooth 5.0 wireless pairs with a genuinely spacious 10x6 inch active area, larger than most wireless competitors in this class. The X3-Smart-Chip stylus delivers 8192 pressure levels with 60-degree tilt for subtle line and shading control.\n\nBoth USB wireless receiver and wired connection options are included for reliability, and the well-balanced surface texture provides smooth, consistent drag control. Compatibility spans Windows 11 through 7, macOS 10.10+, Android 6.0+, and Chrome OS, working with Photoshop, SAI, Painter, Krita, and Blender 3D among others.",
-    specs: ["10x6in area, wireless Bluetooth 5.0","8192 pressure levels, ±60° tilt","USB receiver or wired connection options"],
+    specs: ["10x6in area, wireless Bluetooth 5.0","8192 pressure levels, +/-60-degree tilt","USB receiver or wired connection options"],
     pros: ["10x6in wireless active area is large for this class","Two connection methods, dongle or wired, add reliability","Surface texture gives smooth, consistent drag control"],
     cons: ["No screen, maps to a separate connected display","8192 pressure trails newer 16K wireless competitors"],
     bestFor: "buyers prioritizing 10x6in area, wireless bluetooth 5.0",
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify No Driver Conflicts With Other Tablets",
     "note": "Check for known conflicts if you own another tablet brand's driver already installed on the same machine."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $27.99",
+          "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
+        ],
+        [
+          "Around $28.99",
+          "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
+        ],
+        [
+          "Around $41.79",
+          "HUION Inspiroy H1060P Graphics Drawing Tablet"
+        ],
+        [
+          "Around $43.62",
+          "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ],
+        [
+          "Around $79.99",
+          "XPPen Deco LW Wireless Drawing Tablet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Current Driver Support for This OS",
-    "explanation": "Confirm drawing tablets for linux has current, actively maintained drivers for your exact OS version."
+    "explanation": "Confirm drawing tablets for linux has current, actively maintained drivers for your exact OS version. Across this comparison's $28 to $80 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Test Clean Install and Uninstall",
-    "explanation": "Check driver installation, permission prompts, and clean uninstall/reinstall behavior before relying on it daily."
+    "explanation": "Check driver installation, permission prompts, and clean uninstall/reinstall behavior before relying on it daily. Products at the low end near $28 and the high end near $80 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Cable and Port Requirements",
-    "explanation": "Verify USB-C, USB-A, or HDMI/DisplayPort Alt Mode requirements against your actual host's available ports."
+    "explanation": "Verify USB-C, USB-A, or HDMI/DisplayPort Alt Mode requirements against your actual host's available ports. This matters in practice because the picks in this comparison span from about $28 to $80, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Pressure Support in Your Actual App",
-    "explanation": "Confirm pressure and shortcut behavior specifically in Photoshop, Clip Studio Paint, or Krita, not just OS-level recognition."
+    "explanation": "Confirm pressure and shortcut behavior specifically in Photoshop, Clip Studio Paint, or Krita, not just OS-level recognition. With prices in this roundup ranging roughly $28 to $80, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify No Driver Conflicts With Other Tablets",
-    "explanation": "Check for known conflicts if you own another tablet brand's driver already installed on the same machine."
+    "explanation": "Check for known conflicts if you own another tablet brand's driver already installed on the same machine. Given the real spread here, from about $28 up to $80, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "VEIKK A30 Drawing Tablet 10x6 Graphic Tablet is aimed at buyers prioritizing 10x6in area, touch pad + 4 touch keys." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-computer","title":"Best Drawing Tablets for Computer in 2026"},{"href":"/guide/best-drawing-tablets-for-pc","title":"Best Drawing Tablets for PC in 2026"},{"href":"/guide/best-drawing-tablets-for-laptop","title":"Best Drawing Tablets for Laptop in 2026"}];

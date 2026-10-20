@@ -1,7 +1,7 @@
 export const guideSlug = "best-glass-conference-tables";
 export const guideTitle = "8 Best Glass Conference Tables in 2026";
 export const metaTitle = "Best Glass Conference Tables 2026";
-export const metaDescription = "We compared glass conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared glass conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "glass conference tables";
 export const introParagraphs = [
   "A stone or stone-look conference table surface needs material verification, since the same visual style can come from genuine stone, engineered stone, tempered glass, or a printed laminate finish.",
@@ -199,28 +199,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Calculate Weight Against the Base and Floor",
     "note": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $173.79",
+          "Loomie 8FT Boat-Shaped Conference Table with Grommet"
+        ],
+        [
+          "Around $229.98",
+          "43.3-59in Extendable Round Conference Table for 4-8"
+        ],
+        [
+          "Around $369.99",
+          "Tribesigns 10.5FT Conference Table"
+        ],
+        [
+          "Around $381.94",
+          "Flash Furniture 6-Foot Oval Conference Table"
+        ],
+        [
+          "Around $389.99",
+          "Tribesigns 8ft Conference Table for 8-10"
+        ],
+        [
+          "Around $398.90",
+          "71\" Tempered Glass Dining/Conference Table"
+        ],
+        [
+          "Around $699.89",
+          "8FT Extendable Oval Conference Table"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Material Authenticity",
-    "explanation": "Confirm whether the glass conference tables's surface is genuine stone, engineered stone, tempered glass, or a printed laminate look, since the label alone doesn't guarantee the material."
+    "explanation": "Confirm whether the glass conference tables's surface is genuine stone, engineered stone, tempered glass, or a printed laminate look, since the label alone doesn't guarantee the material. This matters in practice because the picks in this comparison span from about $174 to $700, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate behaves very differently than a genuine slab or engineered-stone top."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate behaves very differently than a genuine slab or engineered-stone top. With prices in this roundup ranging roughly $174 to $700, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Stain and Heat Behavior",
-    "explanation": "Check manufacturer care guidance for staining, etching, and heat tolerance, since genuine stone, engineered stone, glass, and laminate all react differently to daily office use."
+    "explanation": "Check manufacturer care guidance for staining, etching, and heat tolerance, since genuine stone, engineered stone, glass, and laminate all react differently to daily office use. Given the real spread here, from about $174 up to $700, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Inspect Edge and Seam Repair Options",
-    "explanation": "Ask how a chipped edge or visible seam gets repaired, particularly on larger tables where a single continuous slab isn't practical."
+    "explanation": "Ask how a chipped edge or visible seam gets repaired, particularly on larger tables where a single continuous slab isn't practical. Across this comparison's $174 to $700 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Calculate Weight Against the Base and Floor",
-    "explanation": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration."
+    "explanation": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration. Products at the low end near $174 and the high end near $700 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +285,8 @@ export const faq = [
     "q": "Why do some conference tables ship in more than one box?",
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "71\" Tempered Glass Dining/Conference Table is aimed at buyers prioritizing 71\"x35.4\"x30\", 0.39\" tempered glass top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-epoxy-conference-tables","title":"Best Epoxy Conference Tables in 2026"},{"href":"/guide/best-marble-conference-tables","title":"Best Marble Conference Tables in 2026"},{"href":"/guide/best-concrete-conference-tables","title":"Best Concrete Conference Tables in 2026"}];

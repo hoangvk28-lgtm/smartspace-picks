@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31rbqK+-O9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSB242CM?tag=deskfinds0d-20",
-    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.",
+    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.\n\nThe strongest case for this pick comes down to small footprint fits tight home office closets as well as reversible door swing matches either wall layout. The compromise here is that 6U ceiling limits you to a handful of devices, so factor that in alongside the $99.90 asking price.",
     specs: ["6U, 13.78\"H x 21.65\"W x 17.72\"D","110 lb capacity","Lockable glass door, cooling fan"],
     pros: ["Small footprint fits tight home office closets","Reversible door swing matches either wall layout","Cooling fan included despite the compact size"],
     cons: ["6U ceiling limits you to a handful of devices","Not deep enough for full-size server chassis"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41UbZyPLlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX57Z5G?tag=deskfinds0d-20",
-    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.",
+    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.\n\nWhere this one earns its spot is compact size tucks easily into a corner setup, and brake-equipped wheels add stability once positioned. Worth noting before buying: 6U ceiling limits it to a small device count, which matters more at $89.99 than it would on a cheaper pick.",
     specs: ["6U, 15.75\"W x 19.49\"D x 15.31\"H","4-post construction","Universal wheels with brakes"],
     pros: ["Compact size tucks easily into a corner setup","Brake-equipped wheels add stability once positioned","Same series scales up to 9U or 12U if needed"],
     cons: ["6U ceiling limits it to a small device count","No weight rating listed, worth confirming before heavy use"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41W4G8uuRiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08VDM82Z8?tag=deskfinds0d-20",
-    description: "RIVECO's 6U open frame handles up to 600 lbs with leveling feet, a genuinely strong rating for such a small rack, dropping to 500 lbs when using casters instead.\n\nThe base is pre-drilled for floor fastening if you want extra stability beyond the leveling feet, a nice option for a rack that might see frequent equipment swaps.",
+    description: "RIVECO's 6U open frame handles up to 600 lbs with leveling feet, a genuinely strong rating for such a small rack, dropping to 500 lbs when using casters instead.\n\nThe base is pre-drilled for floor fastening if you want extra stability beyond the leveling feet, a nice option for a rack that might see frequent equipment swaps.\n\nThis pick is best for buyers who value 600 lb rating is exceptional for a 6U rack along with base can bolt to the floor for extra stability. The catch is that capacity drops when running on casters instead of feet, so decide if that's worth it at $148.56.",
     specs: ["6U, 19.7\"W x 21.7\"D x 17.45\"H","600 lb (feet) / 500 lb (casters) capacity","Pre-drilled base for floor fastening"],
     pros: ["600 lb rating is exceptional for a 6U rack","Base can bolt to the floor for extra stability","RAL9005 powder coat resists scratches and rust"],
     cons: ["Capacity drops when running on casters instead of feet","6U height still limits total device count"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31mGVmUa-FL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4Q9RDP5?tag=deskfinds0d-20",
-    description: "The deepest of NavePoint's 6U vertical enclosures, adjusting up to 35.4 inches for equipment that needs significantly more clearance than the shallower 20.6-inch model.\n\nDespite the added depth, it keeps the same 132 lb rating and 16-gauge steel construction as the rest of the series, so capacity doesn't change with the size.",
+    description: "The deepest of NavePoint's 6U vertical enclosures, adjusting up to 35.4 inches for equipment that needs significantly more clearance than the shallower 20.6-inch model.\n\nDespite the added depth, it keeps the same 132 lb rating and 16-gauge steel construction as the rest of the series, so capacity doesn't change with the size.\n\nWhat stands out here is deepest option in the vertical 6U lineup, plus 132 lb rating holds steady despite added depth. The main tradeoff: larger footprint than shallower 6U vertical models, so weigh that against the $479.99 price before buying.",
     specs: ["6U vertical, 32.4-35.4\" adjustable depth","132 lb weight capacity","16-gauge steel, perforated panels"],
     pros: ["Deepest option in the vertical 6U lineup","132 lb rating holds steady despite added depth","Cable access ports keep top and bottom routing clean"],
     cons: ["Larger footprint than shallower 6U vertical models","Vertical orientation still limits some equipment types"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Y55OsyeHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM6FV43S?tag=deskfinds0d-20",
-    description: "A hybrid design RIVECO calls half cabinet, half rack, with reinforced top and bottom vented plates strong enough to hold a laptop or small monitor on top of the equipment stack.\n\nIt comes with an 8-outlet PDU already included, and offers both round and square mounting holes so it works for pro audio gear as well as standard network equipment.",
+    description: "A hybrid design RIVECO calls half cabinet, half rack, with reinforced top and bottom vented plates strong enough to hold a laptop or small monitor on top of the equipment stack.\n\nIt comes with an 8-outlet PDU already included, and offers both round and square mounting holes so it works for pro audio gear as well as standard network equipment.\n\nThe strongest case for this pick comes down to reinforced top plate doubles as usable desk space as well as PDU included, no separate power strip purchase needed. The compromise here is that capacity drops when using casters over leveling feet, so factor that in alongside the $179.66 asking price.",
     specs: ["6U, 19.7\"W x 21.7\"D x 17.4\"H","500 lb (feet) / 400 lb (casters) capacity","8-outlet PDU included"],
     pros: ["Reinforced top plate doubles as usable desk space","PDU included, no separate power strip purchase needed","Round and square holes fit both audio and network gear"],
     cons: ["Capacity drops when using casters over leveling feet","Half-cabinet design has less airflow than fully open racks"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $89.99",
+          "6U Open Frame Server Rack with Wheels"
+        ],
+        [
+          "Around $99.90",
+          "Tecmojo 6U Wall Mount Server Cabinet"
+        ],
+        [
+          "Around $148.56",
+          "RIVECO 6U Open Frame Server Rack with Wheels"
+        ],
+        [
+          "Around $179.66",
+          "RIVECO 6U Network Rack with Reinforced Vented Plates"
+        ],
+        [
+          "Around $479.99",
+          "NavePoint 6U Vertical Server Rack Enclosure"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 6u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 6u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Products at the low end near $90 and the high end near $480 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. This matters in practice because the picks in this comparison span from about $90 to $480, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. With prices in this roundup ranging roughly $90 to $480, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Given the real spread here, from about $90 up to $480, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Across this comparison's $90 to $480 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 6U Wall Mount Server Cabinet is aimed at buyers prioritizing 6u, 13.78\"h x 21.65\"w x 17.72\"d." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

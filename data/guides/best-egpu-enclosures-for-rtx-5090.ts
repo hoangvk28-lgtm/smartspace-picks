@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Measure Sustained Thermals in the Enclosure",
     "note": "Check sustained-load temperature and noise data measured inside the enclosure, not open-bench GPU data that doesn't reflect enclosed airflow."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $279.99",
+          "External eGPU Enclosure with 240W PSU"
+        ],
+        [
+          "Around $299.99",
+          "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU"
+        ],
+        [
+          "Around $329.99",
+          "OWC Mercury Helios 5S Thunderbolt 5 80Gb/s PCIe Expansion"
+        ],
+        [
+          "Around $399.99",
+          "Sonnet eGPU Breakaway Box 750"
+        ],
+        [
+          "Around $399.99",
+          "Sonnet eGPU Breakaway Box 750ex"
+        ],
+        [
+          "Around $599.99",
+          "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
+        ],
+        [
+          "Around $629.99",
+          "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock"
+        ],
+        [
+          "Around $4,999.97",
+          "GIGABYTE AORUS RTX 5090 AI Box Graphics Card"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Qualify Exact Board-Partner Dimensions",
-    "explanation": "Check the exact egpu enclosures for rtx 5090 board-partner card's length, height, and width rather than assuming all cards in that GPU family match the reference design."
+    "explanation": "Check the exact egpu enclosures for rtx 5090 board-partner card's length, height, and width rather than assuming all cards in that GPU family match the reference design. With prices in this roundup ranging roughly $280 to $5000, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify PSU Wattage and Native Connectors for This Exact Card",
-    "explanation": "Confirm PSU wattage and required 12V-2x6/12VHPWR/8-pin connectors match your specific card model's documented requirements."
+    "explanation": "Confirm PSU wattage and required 12V-2x6/12VHPWR/8-pin connectors match your specific card model's documented requirements. Given the real spread here, from about $280 up to $5000, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Connector Clearance and Cable Bend Radius",
-    "explanation": "Verify side-panel or open-frame clearance for the power connector and cable bend radius with this specific card installed."
+    "explanation": "Verify side-panel or open-frame clearance for the power connector and cable bend radius with this specific card installed. Across this comparison's $280 to $5000 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Benchmark Over Your Intended Host Link",
-    "explanation": "Look for benchmarks using the same GPU over the Thunderbolt, USB4, or OCuLink link you actually plan to use."
+    "explanation": "Look for benchmarks using the same GPU over the Thunderbolt, USB4, or OCuLink link you actually plan to use. Products at the low end near $280 and the high end near $5000 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Sustained Thermals in the Enclosure",
-    "explanation": "Check sustained-load temperature and noise data measured inside the enclosure, not open-bench GPU data that doesn't reflect enclosed airflow."
+    "explanation": "Check sustained-load temperature and noise data measured inside the enclosure, not open-bench GPU data that doesn't reflect enclosed airflow. This matters in practice because the picks in this comparison span from about $280 to $5000, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Should I choose a Thunderbolt/USB4 enclosure or an OCuLink one?",
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures-for-rtx-4090","title":"Best eGPU Enclosures for RTX 4090 in 2026"},{"href":"/guide/best-egpu-enclosures-for-rtx-3060","title":"Best eGPU Enclosures for RTX 3060 in 2026"},{"href":"/guide/best-egpu-enclosures-for-rtx-3080","title":"Best eGPU Enclosures for RTX 3080 in 2026"}];

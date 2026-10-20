@@ -1,7 +1,7 @@
 export const guideSlug = "best-shapeoko-desktop-cnc-machines";
 export const guideTitle = "5 Best Shapeoko Desktop CNC Machines in 2026";
 export const metaTitle = "Best Shapeoko Desktop CNC Machines 2026";
-export const metaDescription = "We compared shapeoko desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared shapeoko desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price.";
 export const mainKeyword = "shapeoko desktop cnc machines";
 export const introParagraphs = [
   "shapeoko desktop cnc machines machines vary enough that checking exact model generation and specifications, not just the brand name matters more than spindle wattage alone.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Xwcf8fMTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9KCQ6C?tag=deskfinds0d-20",
-    description: "A 710W digital spindle is documented as 2.4 times stronger than the earlier 300W generation, with a real-time digital display removing the guesswork around overheating or underpowering. All-metal chassis construction paired with high-torque stepper motors targets wobble and vibration specifically.\n\n±0.03mm precision is backed by HG15 dual linear rails and 1204 ball screws on every axis, with dust protection on the X/Y axes and hidden cabling. The Genmitsu App handles remote control and troubleshooting, and it ships as two pre-assembled modules that cut assembly effort by roughly 80%, with setup claimed at around 10 minutes.",
-    specs: ["710W spindle, ±0.03mm precision","2 pre-assembled modules, ~10 min setup","HG15 rails + 1204 ball screws all axes"],
+    description: "A 710W digital spindle is documented as 2.4 times stronger than the earlier 300W generation, with a real-time digital display removing the guesswork around overheating or underpowering. All-metal chassis construction paired with high-torque stepper motors targets wobble and vibration specifically.\n\n+/-0.03mm precision is backed by HG15 dual linear rails and 1204 ball screws on every axis, with dust protection on the X/Y axes and hidden cabling. The Genmitsu App handles remote control and troubleshooting, and it ships as two pre-assembled modules that cut assembly effort by roughly 80%, with setup claimed at around 10 minutes.",
+    specs: ["710W spindle, +/-0.03mm precision","2 pre-assembled modules, ~10 min setup","HG15 rails + 1204 ball screws all axes"],
     pros: ["710W spindle is documented as 2.4x stronger than the prior generation","Ships as two pre-assembled modules for roughly 10-minute setup","Genmitsu App enables remote control and troubleshooting"],
-    cons: ["±0.03mm precision trails the tightest machines in this cluster","Large side-mounted e-stop adds bulk to the footprint"],
-    bestFor: "buyers prioritizing 710w spindle, ±0.03mm precision",
+    cons: ["+/-0.03mm precision trails the tightest machines in this cluster","Large side-mounted e-stop adds bulk to the footprint"],
+    bestFor: "buyers prioritizing 710w spindle, +/-0.03mm precision",
   },
   {
     id: "best-shapeoko-desktop-cnc-machines-2",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pCr4H7f0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLXMJF32?tag=deskfinds0d-20",
-    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at ±0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
-    specs: ["Pre-assembled, enclosed, ±0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
+    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at +/-0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
+    specs: ["Pre-assembled, enclosed, +/-0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
     pros: ["Enclosure auto-pauses the job when opened, a real safety feature","Surface mapping compensates for uneven stock automatically","Ships pre-assembled, not as a build-it-yourself kit"],
     cons: ["Enclosed design caps maximum workpiece size","Positioning accuracy is modest next to ball-screw machines"],
-    bestFor: "buyers prioritizing pre-assembled, enclosed, ±0.1mm accuracy",
+    bestFor: "buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy",
   }
 ];
 
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Warranty and Replacement Parts",
     "note": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $437.89",
+          "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
+        ],
+        [
+          "Around $517.65",
+          "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
+        ],
+        [
+          "Around $549.00",
+          "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
+        ],
+        [
+          "Around $809.10",
+          "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal"
+        ],
+        [
+          "Around $899.00",
+          "FoxAlien Masuter 3S CNC Router Machine with NEMA 23 Closed-Loop Stepper Motor"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which shapeoko desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup."
+    "explanation": "Confirm which shapeoko desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. Products at the low end near $438 and the high end near $899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations."
+    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. This matters in practice because the picks in this comparison span from about $438 to $899, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general."
+    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. With prices in this roundup ranging roughly $438 to $899, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time."
+    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. Given the real spread here, from about $438 up to $899, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem."
+    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. Across this comparison's $438 to $899 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Can a desktop CNC router genuinely cut metal, or just engrave it?",
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal is aimed at buyers prioritizing 710w spindle, +/-0.03mm precision." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

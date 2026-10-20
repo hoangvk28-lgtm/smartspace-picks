@@ -108,8 +108,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41-X0foJOzL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08BZ729QJ?tag=deskfinds0d-20",
     description: "A 21.5-inch screen at 120% sRGB color gamut displays 16.7 million colors with a 1000:1 contrast ratio for genuinely immersive visual output. The 178-degree wide viewing angle combined with 1920x1080 resolution keeps detail crisp from multiple positions.\n\nThe PW517 battery-free stylus with a lowered magnetic core delivers a more stable pen nib, backed by 8192 pressure levels and lag-free tracking. Two USB-C ports allow connection to computer, Android phone, or tablet, plus a separate USB-A port for peripherals like a keyboard, and the grey metallic stand adjusts from 20 to 80 degrees.",
-    specs: ["21.5in, 120% sRGB, 1000:1 contrast","8192 pressure, lowered magnetic core","20-80° adjustable metallic stand"],
-    pros: ["Lowered magnetic core gives a genuinely more stable pen nib","Separate USB-A port supports peripherals like a keyboard","20-80° adjustable stand covers a wide comfort range"],
+    specs: ["21.5in, 120% sRGB, 1000:1 contrast","8192 pressure, lowered magnetic core","20-80-degree adjustable metallic stand"],
+    pros: ["Lowered magnetic core gives a genuinely more stable pen nib","Separate USB-A port supports peripherals like a keyboard","20-80-degree adjustable stand covers a wide comfort range"],
     cons: ["Requires a computer, Android phone, or tablet host","Large 21.5in screen needs significant desk space"],
     bestFor: "buyers prioritizing 21.5in, 120% srgb, 1000:1 contrast",
   },
@@ -140,10 +140,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41N0lmr-4WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DB8H324C?tag=deskfinds0d-20",
     description: "A full 4K UHD (3840x2160) display specifically reduces the screen-door effect in VR and game design work, with high pixel density enabling precise detail work across a large 23.8-inch canvas. Calman verification confirms Delta-E under 1, covering 99% Adobe RGB, 99% sRGB, and 98% P3.\n\nDual X3 Pro styluses, a Slim and a Smart Chip version, both deliver 16,384 pressure levels, with the Smart Chip pen adding a felt nib for genuine pen-on-paper texture. XPPen ColorMaster software powered by Calman's Aurora Color Engine keeps color consistent across Windows and macOS, and the ACK05 wireless keydial adds 40 customizable keys with a physical dial.",
-    specs: ["23.8in 4K UHD, Calman ΔE<1","99% AdobeRGB, 99% sRGB, 98% P3","Dual X3 Pro styluses, 40-key keydial"],
-    pros: ["Calman ΔE<1 is an exceptionally tight color-accuracy standard","ColorMaster software keeps consistent color across Win and Mac","Large 23.8in 4K canvas suits detailed professional work"],
+    specs: ["23.8in 4K UHD, Calman Delta E<1","99% AdobeRGB, 99% sRGB, 98% P3","Dual X3 Pro styluses, 40-key keydial"],
+    pros: ["Calman Delta E<1 is an exceptionally tight color-accuracy standard","ColorMaster software keeps consistent color across Win and Mac","Large 23.8in 4K canvas suits detailed professional work"],
     cons: ["Requires a computer or laptop, not standalone","Large screen size demands significant desk space"],
-    bestFor: "buyers prioritizing 23.8in 4k uhd, calman δe<1",
+    bestFor: "buyers prioritizing 23.8in 4k uhd, calman Delta E<1",
   }
 ];
 
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test Whether You'll Need to Upgrade Immediately",
     "note": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $299.99",
+          "HUION KAMVAS 22"
+        ],
+        [
+          "Around $429.99",
+          "XPPen Artist 22R Pro Computer Graphics Tablet"
+        ],
+        [
+          "Around $429.99",
+          "XPPen Artist 22 Plus"
+        ],
+        [
+          "Around $679.15",
+          "XENCELABS Pen Display 16 Lite"
+        ],
+        [
+          "Around $939.99",
+          "XPPen Artist Pro 24 Gen2"
+        ],
+        [
+          "Around $1,061.65",
+          "Xencelabs Pen Display 16 Bundle with Quick Keys"
+        ],
+        [
+          "Around $1,299.95",
+          "Wacom Cintiq 24"
+        ],
+        [
+          "Around $1,499.95",
+          "Wacom Cintiq 24 Touch"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Street Price",
-    "explanation": "Verify drawing tablets under $1000's current price and include any required adapters or stand in the total cost before calling it a deal."
+    "explanation": "Verify drawing tablets under $1000's current price and include any required adapters or stand in the total cost before calling it a deal. This matters in practice because the picks in this comparison span from about $300 to $1500, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Prioritize Line Quality Over Pressure Count",
-    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet."
+    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet. With prices in this roundup ranging roughly $300 to $1500, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check What's Actually Included",
-    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos."
+    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos. Given the real spread here, from about $300 up to $1500, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Replacement Part Availability",
-    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model."
+    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model. Across this comparison's $300 to $1500 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Test Whether You'll Need to Upgrade Immediately",
-    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
+    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage. Products at the low end near $300 and the high end near $1500 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "XENCELABS Pen Display 16 Lite is aimed at buyers prioritizing 16in 4k oled, 1.07 billion colors." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"}];

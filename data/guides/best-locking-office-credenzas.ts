@@ -1,7 +1,7 @@
 export const guideSlug = "best-locking-office-credenzas";
 export const guideTitle = "8 Best Locking Office Credenzas in 2026";
 export const metaTitle = "Best Locking Office Credenzas 2026";
-export const metaDescription = "We compared locking office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared locking office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "locking office credenzas";
 export const introParagraphs = [
   "Best Locking Office Credenzas looks straightforward from the outside, but the real differentiator between models is mapping exactly which compartments a lock actually secures.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Understand This Is Access Control, Not Burglary Security",
     "note": "Treat the lock as privacy and access control rather than rated security, since most office credenza locks are not independently tested against forced entry."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $119.99",
+          "Homieasy Vertical Filing Cabinet with Bookshelf"
+        ],
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $159.99",
+          "44\" File Cabinet"
+        ],
+        [
+          "Around $169.99",
+          "Modern File Cabinet with Drawers for Letter-Sized File and Door"
+        ],
+        [
+          "Around $189.99",
+          "44\" File Cabinet with Lock"
+        ],
+        [
+          "Around $219.99",
+          "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map Exactly Which Doors or Drawers Each Lock Secures",
-    "explanation": "Verify precisely which compartments in locking office credenzas the lock actually covers, since one lock frequently secures only a single drawer or pedestal, not the entire piece."
+    "explanation": "Verify precisely which compartments in locking office credenzas the lock actually covers, since one lock frequently secures only a single drawer or pedestal, not the entire piece. Given the real spread here, from about $120 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Replacement Core and Key Support",
-    "explanation": "Check whether replacement keys or lock cores are available by serial number, since losing the only key to a fixed lock can mean drilling it out or replacing the whole mechanism."
+    "explanation": "Check whether replacement keys or lock cores are available by serial number, since losing the only key to a fixed lock can mean drilling it out or replacing the whole mechanism. Across this comparison's $120 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check for Bypass Exposure",
-    "explanation": "Verify whether adjacent open shelves or removable panels could bypass the locked zone, since a lock is only as useful as the compartment it actually seals."
+    "explanation": "Verify whether adjacent open shelves or removable panels could bypass the locked zone, since a lock is only as useful as the compartment it actually seals. Products at the low end near $120 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Test Daily Key Access in Your Layout",
-    "explanation": "Confirm the key is easy to reach when the credenza sits beside a desk or against a wall, since awkward key access discourages actually using the lock day to day."
+    "explanation": "Confirm the key is easy to reach when the credenza sits beside a desk or against a wall, since awkward key access discourages actually using the lock day to day. This matters in practice because the picks in this comparison span from about $120 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Understand This Is Access Control, Not Burglary Security",
-    "explanation": "Treat the lock as privacy and access control rather than rated security, since most office credenza locks are not independently tested against forced entry."
+    "explanation": "Treat the lock as privacy and access control rather than rated security, since most office credenza locks are not independently tested against forced entry. With prices in this roundup ranging roughly $120 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How long does assembling an office credenza usually take?",
     "a": "Most flat-pack office credenzas in this category take 30 minutes to 2 hours depending on drawer count and size, and manufacturers commonly recommend two people for anything over about 60 inches wide or 150 lbs, both for handling the panels safely and for aligning larger cabinets correctly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

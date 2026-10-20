@@ -1,7 +1,7 @@
 export const guideSlug = "best-honeywell-fireproof-safes";
 export const guideTitle = "8 Best Honeywell Fireproof Safes in 2026";
 export const metaTitle = "Best Honeywell Fireproof Safes 2026";
-export const metaDescription = "We compared honeywell fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared honeywell fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "honeywell fireproof safes";
 export const introParagraphs = [
   "A quick scan of honeywell fireproof safes listings rarely settles the question of verifying model-level fire evidence rather than trusting brand reputation alone, so that's where we started.",
@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31tKYJCZ7GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FORBX6?tag=deskfinds0d-20",
-    description: "This Honeywell chest documents a 30-minute UL rating at 1550°F alongside a genuinely long 100-hour waterproof seal verified to 39 inches submersion, longer duration than many comparable chests claim.\n\nThe interior is specifically sized to lay letter and A4 documents flat rather than folded, and the carry handle plus 0.24 cu ft capacity keep it in the portable-chest category for home, office, or dorm use.",
-    specs: ["0.24 cu ft, fits flat letter/A4 documents","30-min UL rating at 1550°F","100-hour waterproof seal to 39in submersion"],
+    description: "This Honeywell chest documents a 30-minute UL rating at 1550-degreeF alongside a genuinely long 100-hour waterproof seal verified to 39 inches submersion, longer duration than many comparable chests claim.\n\nThe interior is specifically sized to lay letter and A4 documents flat rather than folded, and the carry handle plus 0.24 cu ft capacity keep it in the portable-chest category for home, office, or dorm use.",
+    specs: ["0.24 cu ft, fits flat letter/A4 documents","30-min UL rating at 1550-degreeF","100-hour waterproof seal to 39in submersion"],
     pros: ["100-hour waterproof duration is notably longer than many comparable fire chests","Documents lie flat rather than requiring folding, protecting them from crease damage","Carry handle makes evacuation genuinely practical at this size"],
     cons: ["30-minute rating is the entry fire-protection tier","0.24 cu ft limits this to documents, not bulky valuables"],
     bestFor: "buyers prioritizing 0.24 cu ft, fits flat letter/a4 documents",
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bga8Z6v2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FORBWW?tag=deskfinds0d-20",
-    description: "Built from strong ABS plastic rather than steel, this Honeywell chest is rated for 30 minutes at 1550°F and separately verified for 24-hour waterproofing to a full meter underwater, a genuinely deep submersion claim for a box this size.\n\nAt 0.15 cu ft interior it's sized specifically for folded letter documents, not flat files, and the carry handle makes it easy to grab in an emergency evacuation.",
-    specs: ["0.15 cu ft, fits folded letter documents","30-min UL rating at 1550°F","24hr waterproof to 1m submersion"],
+    description: "Built from strong ABS plastic rather than steel, this Honeywell chest is rated for 30 minutes at 1550-degreeF and separately verified for 24-hour waterproofing to a full meter underwater, a genuinely deep submersion claim for a box this size.\n\nAt 0.15 cu ft interior it's sized specifically for folded letter documents, not flat files, and the carry handle makes it easy to grab in an emergency evacuation.",
+    specs: ["0.15 cu ft, fits folded letter documents","30-min UL rating at 1550-degreeF","24hr waterproof to 1m submersion"],
     pros: ["24-hour waterproof rating to a full meter submersion is genuinely deep for a chest","ABS plastic construction keeps this lighter than steel alternatives","Carry handle makes grab-and-go evacuation genuinely practical"],
     cons: ["0.15 cu ft interior only fits folded, not flat, letter documents","Plastic construction offers less physical security than steel chests"],
     bestFor: "buyers prioritizing 0.15 cu ft, fits folded letter documents",
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/612mey+zIsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004QWZIMI?tag=deskfinds0d-20",
-    description: "At 0.61 cu ft this is genuinely larger than SentrySafe's compact chests, sized specifically to accommodate letter-size hanging files rather than just loose papers. It carries the same UL half-hour 1550°F classification and ETL digital-media verification as the brand's smaller boxes.\n\nThe flat key lock keeps the lid sealed during a fire event, and the black exterior gives it a more office-appropriate look than SentrySafe's colored chest options.",
-    specs: ["0.61 cu ft, fits letter-size hanging files","UL 1/2hr at 1550°F, ETL digital media verified","Flat key lock, 2 keys included"],
+    description: "At 0.61 cu ft this is genuinely larger than SentrySafe's compact chests, sized specifically to accommodate letter-size hanging files rather than just loose papers. It carries the same UL half-hour 1550-degreeF classification and ETL digital-media verification as the brand's smaller boxes.\n\nThe flat key lock keeps the lid sealed during a fire event, and the black exterior gives it a more office-appropriate look than SentrySafe's colored chest options.",
+    specs: ["0.61 cu ft, fits letter-size hanging files","UL 1/2hr at 1550-degreeF, ETL digital media verified","Flat key lock, 2 keys included"],
     pros: ["0.61 cu ft capacity genuinely fits letter-size hanging files","Same UL half-hour rating as smaller SentrySafe chests at more usable capacity","Flat key lock design specifically prevents lid pop-open during fire"],
     cons: ["Hanging files need to be purchased separately","Half-hour rating is the entry tier, shorter than SentrySafe's 1-hour models"],
     bestFor: "buyers prioritizing 0.61 cu ft, fits letter-size hanging files",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550-degreeF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550-degreeF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550-degreef, etl digital media verified",
   },
   {
     id: "best-honeywell-fireproof-safes-6",
@@ -183,28 +183,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Warranty and Replacement Support",
     "note": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $67.99",
+          "SentrySafe Fireproof & Waterproof Document Box"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $99.99",
+          "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle"
+        ],
+        [
+          "Around $787.00",
+          "Hollon Safe HS-610E 2-Hour Fireproof Office Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map the Brand's Current Fire-Rated Lineup",
-    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the honeywell fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side."
+    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the honeywell fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side. This matters in practice because the picks in this comparison span from about $68 to $787, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Require Exact Model-Level Rating Evidence",
-    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying."
+    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying. With prices in this roundup ranging roughly $68 to $787, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Lock Variants Within the Line",
-    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options."
+    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options. Given the real spread here, from about $68 up to $787, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check the Documented Capacity Range",
-    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options."
+    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options. Across this comparison's $68 to $787 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model."
+    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model. Products at the low end near $68 and the high end near $787 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -219,7 +247,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550-degreeF, 1 hour at 1700-degreeF, or 2 hours at 1850-degreeF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",
@@ -229,6 +257,8 @@ export const faq = [
     "q": "Does the cubic-foot rating on a safe match its real usable storage space?",
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle is aimed at buyers prioritizing 0.24 cu ft, fits flat letter/a4 documents." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-brinks-fireproof-safes","title":"Best Brinks Fireproof Safes in 2026"},{"href":"/guide/best-first-alert-fireproof-safes","title":"Best First Alert Fireproof Safes in 2026"},{"href":"/guide/best-sentrysafe-fireproof-safes","title":"Best SentrySafe Fireproof Safes in 2026"}];

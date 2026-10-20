@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Record Firmware and Driver Versions That Work",
     "note": "Note the specific BIOS, firmware, and driver versions confirmed compatible, since handheld eGPU support has evolved significantly across firmware updates."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $95.99",
+          "PCIE 3.0 x16 22Gbps eGPU Dock with Thunderbolt 4 Cable"
+        ],
+        [
+          "Around $149.99",
+          "External GPU Dock Station"
+        ],
+        [
+          "Around $149.99",
+          "Mini eGPU Enclosure Thunderbolt 3/4"
+        ],
+        [
+          "Around $161.00",
+          "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4 (VK-Y900)"
+        ],
+        [
+          "Around $169.00",
+          "ANQUORA ANQ-L336 Mini eGPU Enclosure"
+        ],
+        [
+          "Around $189.00",
+          "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
+        ],
+        [
+          "Around $189.50",
+          "TREBLEET 80Gbps eGPU Enclosure"
+        ],
+        [
+          "Around $299.99",
+          "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm the Exact Host Generation's Port",
-    "explanation": "Verify egpu enclosures for rog ally x's exact external-PCIe-capable port and generation, since handheld gaming devices vary significantly in eGPU support even within the same product line."
+    "explanation": "Verify egpu enclosures for rog ally x's exact external-PCIe-capable port and generation, since handheld gaming devices vary significantly in eGPU support even within the same product line. This matters in practice because the picks in this comparison span from about $96 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Use Only the Officially Supported Link Architecture",
-    "explanation": "Confirm the enclosure matches the handheld's actual documented link type rather than assuming generic USB-C compatibility."
+    "explanation": "Confirm the enclosure matches the handheld's actual documented link type rather than assuming generic USB-C compatibility. With prices in this roundup ranging roughly $96 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check for a Second-Cable Power Problem",
-    "explanation": "Verify charging and power requirements together, since some eGPU setups on handhelds unexpectedly require a second power cable alongside the eGPU cable."
+    "explanation": "Verify charging and power requirements together, since some eGPU setups on handhelds unexpectedly require a second power cable alongside the eGPU cable. Given the real spread here, from about $96 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Benchmark Internal and External Display Paths Separately",
-    "explanation": "Check documented performance for both the handheld's built-in screen and an external monitor, since these paths can behave differently."
+    "explanation": "Check documented performance for both the handheld's built-in screen and an external monitor, since these paths can behave differently. Across this comparison's $96 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Record Firmware and Driver Versions That Work",
-    "explanation": "Note the specific BIOS, firmware, and driver versions confirmed compatible, since handheld eGPU support has evolved significantly across firmware updates."
+    "explanation": "Note the specific BIOS, firmware, and driver versions confirmed compatible, since handheld eGPU support has evolved significantly across firmware updates. Products at the low end near $96 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Should I choose a Thunderbolt/USB4 enclosure or an OCuLink one?",
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "TREBLEET 80Gbps eGPU Enclosure is aimed at buyers prioritizing jhl9480 controller, 80gbps bandwidth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

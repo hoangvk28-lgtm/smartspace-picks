@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/314cEp+DwLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C74V1KLW?tag=deskfinds0d-20",
-    description: "This 72\"W x 32\"D curved unit assembles without tools, using a silver steel frame and thermofused melamine finish with self-edge banding to keep costs down without looking budget. The 19.75\" deep interior desk gives the receptionist real working depth behind the curved visitor-facing front.\n\nLeveling glides built into the base allow up to ½\" of height adjustability per leg, which matters on uneven commercial flooring where a fixed-leg desk would rock. Wire management cutouts are built into the interior desk surface rather than added as drilled holes.",
-    specs: ["72\"W x 32\"D curved single-unit desk","19.75\" deep interior receptionist desk","Leveling glides, up to ½\" height adjustability per leg"],
+    description: "This 72\"W x 32\"D curved unit assembles without tools, using a silver steel frame and thermofused melamine finish with self-edge banding to keep costs down without looking budget. The 19.75\" deep interior desk gives the receptionist real working depth behind the curved visitor-facing front.\n\nLeveling glides built into the base allow up to 1/2\" of height adjustability per leg, which matters on uneven commercial flooring where a fixed-leg desk would rock. Wire management cutouts are built into the interior desk surface rather than added as drilled holes.",
+    specs: ["72\"W x 32\"D curved single-unit desk","19.75\" deep interior receptionist desk","Leveling glides, up to 1/2\" height adjustability per leg"],
     pros: ["No-tools assembly, unusual for a curved commercial desk","Leveling glides handle uneven floors better than fixed feet","Interior wire cutouts built into the work surface, not drilled after"],
     cons: ["Single-unit only, no add-on modules shown for this listing","Silver frame is a fixed design choice, not swappable"],
     bestFor: "buyers prioritizing 72\"w x 32\"d curved single-unit desk",
@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Refinish Options for Art Deco Wood",
     "note": "Publish repair or refinish strategy for high-visibility damage, since a genuine solid-wood art deco desk can often be sanded and refinished, unlike a laminate equivalent."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.99",
+          "42.1\" Fluted Round-Corner Reception Desk"
+        ],
+        [
+          "Around $299.99",
+          "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers"
+        ],
+        [
+          "Around $1,192.84",
+          "Romig Marque Curved Single-Unit Reception Workstation"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Define Art Deco Style Through Construction Details",
-    "explanation": "Define the art deco style through observable construction details like geometric lines, sculptural elements, and premium finishes rather than photography alone."
+    "explanation": "Define the art deco style through observable construction details like geometric lines, sculptural elements, and premium finishes rather than photography alone. Across this comparison's $160 to $1193 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Inspect Decorative Faces for Durability",
-    "explanation": "Inspect decorative faces, grooves, trim, and edges for impact durability, since ornamental art deco detailing can be more exposed to bumps than a plain panel."
+    "explanation": "Inspect decorative faces, grooves, trim, and edges for impact durability, since ornamental art deco detailing can be more exposed to bumps than a plain panel. Products at the low end near $160 and the high end near $1193 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Evaluate Dust Traps Around Ornamental Details",
-    "explanation": "Evaluate dust traps and porous surfaces around ornamental art deco detailing, since geometric trim and sculptural elements collect dust differently than a flat modern panel."
+    "explanation": "Evaluate dust traps and porous surfaces around ornamental art deco detailing, since geometric trim and sculptural elements collect dust differently than a flat modern panel. This matters in practice because the picks in this comparison span from about $160 to $1193, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Cable Concealment Around the Art Deco Look",
-    "explanation": "Confirm POS systems, monitors, and cables stay concealed without visually clashing against the art deco aesthetic's period-appropriate look."
+    "explanation": "Confirm POS systems, monitors, and cables stay concealed without visually clashing against the art deco aesthetic's period-appropriate look. With prices in this roundup ranging roughly $160 to $1193, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Refinish Options for Art Deco Wood",
-    "explanation": "Publish repair or refinish strategy for high-visibility damage, since a genuine solid-wood art deco desk can often be sanded and refinished, unlike a laminate equivalent."
+    "explanation": "Publish repair or refinish strategy for high-visibility damage, since a genuine solid-wood art deco desk can often be sanded and refinished, unlike a laminate equivalent. Given the real spread here, from about $160 up to $1193, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-antique-reception-desks","title":"best-antique-reception-desks"},{"href":"/guide/best-vintage-reception-desks","title":"best-vintage-reception-desks"},{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"}];

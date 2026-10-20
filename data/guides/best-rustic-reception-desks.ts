@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Repair Options for Rustic Finishes",
     "note": "Publish repair or refinish strategy for high-visibility damage, since a genuine wood-grain rustic finish may be refinishable while a printed rustic laminate generally isn't."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "Tribesigns 55\" Industrial Executive Desk"
+        ],
+        [
+          "Around $197.99",
+          "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel"
+        ],
+        [
+          "Around $205.99",
+          "LITTLE TREE 57-Inch Boho Reception Counter"
+        ],
+        [
+          "Around $242.99",
+          "LITTLE TREE 63-Inch Reception Desk with LED Light"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Define Rustic Style Through Construction Details",
-    "explanation": "Define the rustic style through observable construction details like grain texture, metal legs, or reclaimed-look finishes rather than photography alone."
+    "explanation": "Define the rustic style through observable construction details like grain texture, metal legs, or reclaimed-look finishes rather than photography alone. Products at the low end near $144 and the high end near $243 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Inspect Grain Texture for Durability",
-    "explanation": "Inspect decorative faces, grain texture, and edges for impact durability, since a raised wood-grain finish can be more exposed to bumps than a flat panel."
+    "explanation": "Inspect decorative faces, grain texture, and edges for impact durability, since a raised wood-grain finish can be more exposed to bumps than a flat panel. This matters in practice because the picks in this comparison span from about $144 to $243, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Evaluate Dust Traps in Textured Grain",
-    "explanation": "Evaluate dust traps and porous surfaces around rustic wood-grain texturing, since this finish inherently collects dust differently than a smooth laminate panel."
+    "explanation": "Evaluate dust traps and porous surfaces around rustic wood-grain texturing, since this finish inherently collects dust differently than a smooth laminate panel. With prices in this roundup ranging roughly $144 to $243, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Cable Concealment Around the Rustic Look",
-    "explanation": "Confirm POS systems, monitors, and cables stay concealed without visually clashing against the rustic aesthetic's natural materials."
+    "explanation": "Confirm POS systems, monitors, and cables stay concealed without visually clashing against the rustic aesthetic's natural materials. Given the real spread here, from about $144 up to $243, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Repair Options for Rustic Finishes",
-    "explanation": "Publish repair or refinish strategy for high-visibility damage, since a genuine wood-grain rustic finish may be refinishable while a printed rustic laminate generally isn't."
+    "explanation": "Publish repair or refinish strategy for high-visibility damage, since a genuine wood-grain rustic finish may be refinishable while a printed rustic laminate generally isn't. Across this comparison's $144 to $243 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "LITTLE TREE 57-Inch Boho Reception Counter is aimed at buyers prioritizing 23.62\"w x 56.69\"l desktop." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-reception-desks","title":"best-wood-reception-desks"},{"href":"/guide/best-industrial-reception-desks","title":"4 Best Industrial Reception Desks in 2026"},{"href":"/guide/best-vintage-reception-desks","title":"5 Best Vintage Reception Desks in 2026"}];

@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Use Approved Cleaners for the Specific Gloss Level",
     "note": "Use approved cleaners and note that gloss or matte finishes can show uneven wiping marks more visibly than a mid-sheen finish."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $199.99",
+          "Luxitero 47\" Reception Desk"
+        ],
+        [
+          "Around $249.99",
+          "Tribesigns L-Shaped Reception Desk with Storage Shelves"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
+        ],
+        [
+          "Around $1,469.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual Black Finish System",
-    "explanation": "Identify the actual black finish system, laminate, paint, powder coat, or veneer stain, rather than ranking color alone, since each ages and cleans differently."
+    "explanation": "Identify the actual black finish system, laminate, paint, powder coat, or veneer stain, rather than ranking color alone, since each ages and cleans differently. Given the real spread here, from about $170 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Fingerprint and Dust Visibility",
-    "explanation": "Evaluate fingerprints, dust, scuffs, and streaking under typical lobby lighting, since matte and gloss black finishes show these differently."
+    "explanation": "Evaluate fingerprints, dust, scuffs, and streaking under typical lobby lighting, since matte and gloss black finishes show these differently. Across this comparison's $170 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Whether Scratches Reveal a Contrasting Substrate",
-    "explanation": "Check whether scratches reveal a lighter substrate underneath the black finish, which is more visually jarring on black than on a wood-tone desk."
+    "explanation": "Check whether scratches reveal a lighter substrate underneath the black finish, which is more visually jarring on black than on a wood-tone desk. Products at the low end near $170 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Color Consistency Across Modules",
-    "explanation": "Compare color consistency across desk, return, counter, and storage modules if buying a multi-piece system, since black finishes can show slight batch variation."
+    "explanation": "Compare color consistency across desk, return, counter, and storage modules if buying a multi-piece system, since black finishes can show slight batch variation. This matters in practice because the picks in this comparison span from about $170 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Use Approved Cleaners for the Specific Gloss Level",
-    "explanation": "Use approved cleaners and note that gloss or matte finishes can show uneven wiping marks more visibly than a mid-sheen finish."
+    "explanation": "Use approved cleaners and note that gloss or matte finishes can show uneven wiping marks more visibly than a mid-sheen finish. With prices in this roundup ranging roughly $170 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-white-reception-desks","title":"7 Best White Reception Desks in 2026"},{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"},{"href":"/guide/best-gray-reception-desks","title":"best-gray-reception-desks"}];

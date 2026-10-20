@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31JM9wq8g1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084NXSLTG?tag=deskfinds0d-20",
-    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.",
+    description: "StarTech's 18U open frame rack stands just 35 inches tall, a genuinely manageable size for utility and server closets that can't fit a full 42U cabinet.\n\nThe 40-inch maximum mounting depth is deeper than most racks this size, letting it accommodate longer server chassis that a shallower 18U rack might not fit.\n\nWhat stands out here is 35\" height fits narrow closets other racks can't, plus 40\" max depth handles longer server chassis. The main tradeoff: flat-pack shipping still needs real assembly time, so weigh that against the $329.99 price before buying.",
     specs: ["18U, 35\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Cable management hooks, cage nuts included"],
     pros: ["35\" height fits narrow closets other racks can't","40\" max depth handles longer server chassis","Backed by StarTech's 2-year warranty"],
     cons: ["Flat-pack shipping still needs real assembly time","1200 lb rating trails the taller 4-post models"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31McOrnKWIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCNM1L31?tag=deskfinds0d-20",
-    description: "This 18U wall cabinet is Tecmojo's largest wall-mount option, built with a top-mounted fan and the same reversible door design that runs across their smaller cabinets.\n\nAt 34.76 inches tall it's still compact enough for a closet, but 18U gives real room for switches, a patch panel, and a couple of small servers together.",
+    description: "This 18U wall cabinet is Tecmojo's largest wall-mount option, built with a top-mounted fan and the same reversible door design that runs across their smaller cabinets.\n\nAt 34.76 inches tall it's still compact enough for a closet, but 18U gives real room for switches, a patch panel, and a couple of small servers together.\n\nThe strongest case for this pick comes down to 18U gives real room without a floor-standing footprint as well as reversible door fits either side of the wall. The compromise here is that 110 lb capacity is light for 18U of gear, so factor that in alongside the $289.90 asking price.",
     specs: ["18U, 21.65\"L x 17.72\"D x 34.76\"H","110 lb capacity","Top fan, lockable glass door"],
     pros: ["18U gives real room without a floor-standing footprint","Reversible door fits either side of the wall","Removable top and bottom panels ease cabling"],
     cons: ["110 lb capacity is light for 18U of gear","14.2\" inner depth rules out full-size servers"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vD0wVm4tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSK8CHJL?tag=deskfinds0d-20",
-    description: "This 18U wall rack's standout feature is a 180-degree swing gate that opens from either side, giving genuinely flexible rear cable access compared to fixed-panel wall racks.\n\nIt can switch between square-hole and threaded-hole installation on the fly, useful if you're mixing equipment brands with different mounting hardware requirements.",
+    description: "This 18U wall rack's standout feature is a 180-degree swing gate that opens from either side, giving genuinely flexible rear cable access compared to fixed-panel wall racks.\n\nIt can switch between square-hole and threaded-hole installation on the fly, useful if you're mixing equipment brands with different mounting hardware requirements.\n\nThis pick is best for buyers who value 180-degree swing gate opens rear access from either side along with switches between square and threaded holes as needed. The catch is that 55 lb sliding load rating is notably lower than static, so decide if that's worth it at $159.90.",
     specs: ["18U, 24\" depth, 16\" mounting hole spacing","110 lb static / 55 lb sliding capacity","180-degree swing gate"],
     pros: ["180-degree swing gate opens rear access from either side","Switches between square and threaded holes as needed","Available across 6U to 18U for consistent sizing"],
     cons: ["55 lb sliding load rating is notably lower than static","Open frame gives no enclosed dust protection"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.90",
+          "Tecmojo 18U Wall Mount Server Rack"
+        ],
+        [
+          "Around $289.90",
+          "Tecmojo 18U Wall Mount Rack Network Cabinet"
+        ],
+        [
+          "Around $329.99",
+          "StarTech 18U 4-Post Server Rack"
+        ],
+        [
+          "Around $399.90",
+          "Tecmojo 18U Wall Mount Rack"
+        ],
+        [
+          "Around $731.99",
+          "StarTech 18U 4-Post Server Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 18u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 18u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Given the real spread here, from about $160 up to $732, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Across this comparison's $160 to $732 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Products at the low end near $160 and the high end near $732 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. This matters in practice because the picks in this comparison span from about $160 to $732, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. With prices in this roundup ranging roughly $160 to $732, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "StarTech 18U 4-Post Server Rack is aimed at buyers prioritizing 18u, 35\" tall, 22-40\" adjustable depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

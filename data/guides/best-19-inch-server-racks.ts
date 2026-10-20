@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThe strongest case for this pick comes down to tall 30U build fits a growing equipment stack as well as removable panels switch between open and closed setups. The compromise here is that tall and narrow footprint needs a stable floor, so factor that in alongside the $299.99 asking price.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhere this one earns its spot is two vented shelves included instead of sold separately, and anti-slip shelf stops keep gear from sliding. Worth noting before buying: wall-mount capacity is half of floor-standing capacity, which matters more at $89.90 than it would on a cheaper pick.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nWhat stands out here is 500 lb ground-mounted rating handles heavier gear, plus grounding wire included, a detail many racks skip. The main tradeoff: wall-mount capacity drops sharply to 150 lbs, so weigh that against the $89.90 price before buying.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -139,7 +139,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41+goJVNtmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00O6GNLQE?tag=deskfinds0d-20",
-    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.",
+    description: "The 25U version of StarTech's 4-post open frame family carries the same EIA/ECA-310-E compliance and 2-year warranty as its 42U sibling, just in a shorter footprint that fits smaller server rooms.\n\nAt 1200 lbs stationary capacity it's rated slightly lower than the 42U model, which tracks since it's a shorter, lighter structure overall.\n\nWhere this one earns its spot is shorter 25U height fits rooms with limited ceiling space, and same 2-year warranty and lifetime support as larger models. Worth noting before buying: 1200 lb rating is lower than the taller 42U version, which matters more at $334.99 than it would on a cheaper pick.",
     specs: ["25U, 22-40\" adjustable depth, 48-51\" tall","1200 lb stationary weight capacity","Casters, levelers, and cable hooks included"],
     pros: ["Shorter 25U height fits rooms with limited ceiling space","Same 2-year warranty and lifetime support as larger models","Cage nuts and cable hooks included in the kit"],
     cons: ["1200 lb rating is lower than the taller 42U version","Still needs flat-pack assembly on arrival"],
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cooling Method Fits the Enclosure",
     "note": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $89.90",
+          "Tecmojo 12U Open Frame Network Rack"
+        ],
+        [
+          "Around $89.90",
+          "VEVOR 12U Open Frame Server Rack"
+        ],
+        [
+          "Around $159.99",
+          "AxcessAbles 12U Network Rack with Wheels"
+        ],
+        [
+          "Around $249.99",
+          "AxcessAbles 22U Rolling IT Server Rack"
+        ],
+        [
+          "Around $299.99",
+          "AxcessAbles 30U Rolling Network Server Rack"
+        ],
+        [
+          "Around $334.99",
+          "StarTech.com 25U Open Frame Server Rack"
+        ],
+        [
+          "Around $357.99",
+          "StarTech 42U 4-Post Open Frame Rack"
+        ],
+        [
+          "Around $469.99",
+          "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 19-inch server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 19-inch server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths. Given the real spread here, from about $90 up to $470, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed."
+    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. Across this comparison's $90 to $470 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. Products at the low end near $90 and the high end near $470 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. This matters in practice because the picks in this comparison span from about $90 to $470, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",
-    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
+    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load. With prices in this roundup ranging roughly $90 to $470, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-small-server-racks","title":"Best Small Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

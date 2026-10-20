@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41iZmynD2WL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07XYN3HDX?tag=deskfinds0d-20",
     description: "This graphics tablet is explicitly a peripheral, not standalone, requiring connection to a computer or Android device to function. The 10 x 6.25 inch working area gives real room to work, and the pen carries 8192 levels of pressure sensitivity with a paper-like surface texture.\n\nEight customizable express keys handle shortcuts like eraser, zoom, and undo, and 60-degree tilt brush support adds shading realism. It's compatible with Windows, macOS, Chrome OS, and Android 6.0+, working with ibis Paint X, FlipaClip, MediBang, and other creative apps, though not with iPhone.",
-    specs: ["10x6.25in area, 8192 pressure levels","8 express keys, ±60° tilt","Windows/macOS/ChromeOS/Android compatible"],
+    specs: ["10x6.25in area, 8192 pressure levels","8 express keys, +/-60-degree tilt","Windows/macOS/ChromeOS/Android compatible"],
     pros: ["Large 10x6.25in working area for detailed sketching","8 express keys cover common shortcuts well","Works across Windows, macOS, Chrome OS, and Android"],
     cons: ["Not standalone, requires a connected host device","Does not support iPhone connectivity"],
     bestFor: "buyers prioritizing 10x6.25in area, 8192 pressure levels",
@@ -124,8 +124,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hEzYb5kkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FTE9HS2?tag=deskfinds0d-20",
     description: "A 10 x 6.25 inch working area gives real room to work in, and the battery-free PW100 stylus supports plus-or-minus 60 degrees of tilt for genuine shading gestures, not just line weight. Twelve programmable press keys plus sixteen soft keys is an unusually deep shortcut set for this price tier.\n\nThe symmetrical design genuinely supports left-handed use via a 180-degree driver rotation, and phones connect over OTG (though iPhone/iPad are not supported, and Samsung Galaxy S-series cursor display has a known limitation). Compatible with Windows, macOS, Android, and Linux via Xorg specifically, not Wayland.",
-    specs: ["10x6.25in area, 12+16 hot keys","±60° tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
-    pros: ["28 total programmable keys is deep for this price","±60° tilt support enables real shading gestures","True 180° rotation for left-handed users"],
+    specs: ["10x6.25in area, 12+16 hot keys","+/-60-degree tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
+    pros: ["28 total programmable keys is deep for this price","+/-60-degree tilt support enables real shading gestures","True 180-degree rotation for left-handed users"],
     cons: ["Samsung Galaxy S-series has a known cursor display issue","Linux support requires Xorg specifically, not Wayland"],
     bestFor: "buyers prioritizing 10x6.25in area, 12+16 hot keys",
   }
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Account for Cables and Phone Power Drain",
     "note": "Check required adapters, cable direction, and how much the connection drains phone battery during use."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $27.99",
+          "GAOMON S620 Graphics Drawing Tablet"
+        ],
+        [
+          "Around $27.99",
+          "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
+        ],
+        [
+          "Around $38.99",
+          "UGEE M708 Drawing Tablet"
+        ],
+        [
+          "Around $39.99",
+          "UGEE M708 V2 Drawing Tablet"
+        ],
+        [
+          "Around $41.79",
+          "HUION Inspiroy H1060P Graphics Drawing Tablet"
+        ],
+        [
+          "Around $42.99",
+          "GAOMON M10K Drawing Tablet"
+        ],
+        [
+          "Around $50.99",
+          "GAOMON WH851 Bluetooth Graphics Drawing Tablet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm Standalone vs Peripheral",
-    "explanation": "Verify whether drawing tablets for android is a standalone Android device or a peripheral connecting to your phone by USB/OTG/Bluetooth."
+    "explanation": "Verify whether drawing tablets for android is a standalone Android device or a peripheral connecting to your phone by USB/OTG/Bluetooth. Given the real spread here, from about $28 up to $51, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Exact Phone and OS Compatibility",
-    "explanation": "Confirm the exact Android or iOS version required, since compatibility varies significantly by phone model."
+    "explanation": "Confirm the exact Android or iOS version required, since compatibility varies significantly by phone model. Across this comparison's $28 to $51 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Portrait/Landscape Mapping",
-    "explanation": "Check aspect-ratio mapping specifically, since a mismatch turns circles into ellipses when drawing."
+    "explanation": "Check aspect-ratio mapping specifically, since a mismatch turns circles into ellipses when drawing. Products at the low end near $28 and the high end near $51 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Test Pressure Support in Real Mobile Apps",
-    "explanation": "Confirm pressure and tilt actually work inside major mobile art apps, not just that the OS recognizes the connection."
+    "explanation": "Confirm pressure and tilt actually work inside major mobile art apps, not just that the OS recognizes the connection. This matters in practice because the picks in this comparison span from about $28 to $51, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Account for Cables and Phone Power Drain",
-    "explanation": "Check required adapters, cable direction, and how much the connection drains phone battery during use."
+    "explanation": "Check required adapters, cable direction, and how much the connection drains phone battery during use. With prices in this roundup ranging roughly $28 to $51, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "UGEE M708 V2 Drawing Tablet is aimed at buyers prioritizing 10x6.25in area, 8192 pressure levels." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-mobile","title":"Best Drawing Tablets for Mobile in 2026"},{"href":"/guide/best-drawing-tablets-for-phone","title":"Best Drawing Tablets for Phone in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

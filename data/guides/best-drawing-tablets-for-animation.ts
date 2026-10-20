@@ -28,8 +28,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hEzYb5kkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FTE9HS2?tag=deskfinds0d-20",
     description: "A 10 x 6.25 inch working area gives real room to work in, and the battery-free PW100 stylus supports plus-or-minus 60 degrees of tilt for genuine shading gestures, not just line weight. Twelve programmable press keys plus sixteen soft keys is an unusually deep shortcut set for this price tier.\n\nThe symmetrical design genuinely supports left-handed use via a 180-degree driver rotation, and phones connect over OTG (though iPhone/iPad are not supported, and Samsung Galaxy S-series cursor display has a known limitation). Compatible with Windows, macOS, Android, and Linux via Xorg specifically, not Wayland.",
-    specs: ["10x6.25in area, 12+16 hot keys","±60° tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
-    pros: ["28 total programmable keys is deep for this price","±60° tilt support enables real shading gestures","True 180° rotation for left-handed users"],
+    specs: ["10x6.25in area, 12+16 hot keys","+/-60-degree tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
+    pros: ["28 total programmable keys is deep for this price","+/-60-degree tilt support enables real shading gestures","True 180-degree rotation for left-handed users"],
     cons: ["Samsung Galaxy S-series has a known cursor display issue","Linux support requires Xorg specifically, not Wayland"],
     bestFor: "buyers prioritizing 10x6.25in area, 12+16 hot keys",
   },
@@ -44,10 +44,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   },
   {
     id: "best-drawing-tablets-for-animation-3",
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bXstrX4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VPHR6GD?tag=deskfinds0d-20",
-    description: "Full-laminated construction combines the glass and screen directly, targeting virtually no parallax, and the FHD display covers 88% NTSC (Adobe RGB ≥91%, sRGB ≥123%) across a 178-degree viewing angle. Sixty degrees of tilt support means shading adjustments happen by tilting the pen, not fighting software settings.\n\nA single red dial handles zoom, brush size, and canvas flip in one control, positioned for natural drawing posture, backed by eight customizable shortcut keys. The battery-free stylus runs 16,384 pressure levels at a low initial activation force and 220 RPS report rate, with a multifunctional case doubling as a stand and holding eight replacement nibs.",
+    description: "Full-laminated construction combines the glass and screen directly, targeting virtually no parallax, and the FHD display covers 88% NTSC (Adobe RGB >=91%, sRGB >=123%) across a 178-degree viewing angle. Sixty degrees of tilt support means shading adjustments happen by tilting the pen, not fighting software settings.\n\nA single red dial handles zoom, brush size, and canvas flip in one control, positioned for natural drawing posture, backed by eight customizable shortcut keys. The battery-free stylus runs 16,384 pressure levels at a low initial activation force and 220 RPS report rate, with a multifunctional case doubling as a stand and holding eight replacement nibs.",
     specs: ["13.3in full-laminated, 16,384 pressure","88% NTSC / 123% sRGB color gamut","Red dial + 8 shortcut keys"],
     pros: ["Full-laminated build genuinely eliminates visible parallax","Single red dial simplifies zoom and brush controls","220 RPS report rate keeps fast strokes lag-free"],
     cons: ["Requires a computer or laptop, not standalone","3-in-1 cable setup is bulkier than single USB-C"],
@@ -92,10 +92,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IiG1s0SSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13T9H31?tag=deskfinds0d-20",
     description: "PenTech 4.0 brings genuine 16,384 pressure sensitivity with 2g initial activation force, and the thin nib with tilt auto-alignment specifically targets reduced parallax versus older Huion generations. Canvas Glass 2.0 with nano-etching cuts glare and image noise while keeping the paper-textured surface intact.\n\nEach unit ships factory-calibrated to Delta-E under 1.5 with a calibration certificate included, covering 99% sRGB/Rec.709 and 90% Adobe RGB. Two dial controllers plus five silent press keys handle canvas and brush adjustments, and at 865g with an 11.7mm profile, it's genuinely portable despite the screen.",
-    specs: ["16,384 pressure levels, ΔE<1.5 factory calibrated","99% sRGB/Rec.709, 90% Adobe RGB","865g, 11.7mm profile"],
-    pros: ["Factory calibration certificate backs the ΔE<1.5 color claim","2g initial activation force is genuinely low resistance","865g weight keeps it portable despite the screen"],
+    specs: ["16,384 pressure levels, Delta E<1.5 factory calibrated","99% sRGB/Rec.709, 90% Adobe RGB","865g, 11.7mm profile"],
+    pros: ["Factory calibration certificate backs the Delta E<1.5 color claim","2g initial activation force is genuinely low resistance","865g weight keeps it portable despite the screen"],
     cons: ["Requires a computer or Android host to function","Premium calibration pushes price above screenless options"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, δe<1.5 factory calibrated",
+    bestFor: "buyers prioritizing 16,384 pressure levels, Delta E<1.5 factory calibrated",
   },
   {
     id: "best-drawing-tablets-for-animation-6",
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Long-Session Posture Support",
     "note": "Verify stand angle and hand-travel comfort across the active area for extended production sessions."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $41.79",
+          "HUION Inspiroy H1060P Graphics Drawing Tablet"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ],
+        [
+          "Around $149.99",
+          "GAOMON PD1161 Drawing Tablet with Screen"
+        ],
+        [
+          "Around $159.99",
+          "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
+        ],
+        [
+          "Around $209.99",
+          "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
+        ],
+        [
+          "Around $209.99",
+          "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Test the Target App's Actual Shortcuts",
-    "explanation": "Confirm drawing tablets for animation's express keys map cleanly to shortcuts used in your specific target application's actual workflow."
+    "explanation": "Confirm drawing tablets for animation's express keys map cleanly to shortcuts used in your specific target application's actual workflow. Given the real spread here, from about $42 up to $210, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Map Viewport and Navigation Controls",
-    "explanation": "Check dial or Quick Key mapping for viewport navigation, since 3D and animation apps rely heavily on this."
+    "explanation": "Check dial or Quick Key mapping for viewport navigation, since 3D and animation apps rely heavily on this. Across this comparison's $42 to $210 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Evaluate Precision During Detail Work",
-    "explanation": "Test pen precision during masking, sculpting, or frame-by-frame cleanup relevant to the specific workflow."
+    "explanation": "Test pen precision during masking, sculpting, or frame-by-frame cleanup relevant to the specific workflow. Products at the low end near $42 and the high end near $210 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Color Workflow for Production Use",
-    "explanation": "For displays, confirm color space support matches your specific production pipeline's requirements."
+    "explanation": "For displays, confirm color space support matches your specific production pipeline's requirements. This matters in practice because the picks in this comparison span from about $42 to $210, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Long-Session Posture Support",
-    "explanation": "Verify stand angle and hand-travel comfort across the active area for extended production sessions."
+    "explanation": "Verify stand angle and hand-travel comfort across the active area for extended production sessions. With prices in this roundup ranging roughly $42 to $210, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "HUION Inspiroy H1060P Graphics Drawing Tablet is aimed at buyers prioritizing 10x6.25in area, 12+16 hot keys." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-blender","title":"Best Drawing Tablets for Blender in 2026"},{"href":"/guide/best-drawing-tablets-for-3d-modeling","title":"Best Drawing Tablets for 3d Modeling in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

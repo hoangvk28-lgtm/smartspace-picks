@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uVNtRQfHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8THDMW?tag=deskfinds0d-20",
-    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.",
+    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhere this one earns its spot is 1600 lb static rating handles a dense server stack, and 8-way PDU included instead of bought separately. Worth noting before buying: 32\" depth is still tight for some full servers, which matters more at $1,250.10 than it would on a cheaper pick.",
     specs: ["42U, 32\" deep, 1600 lb static rating","4 roof-mounted fans, 8-way PDU","Perforated glass front, solid metal rear door"],
     pros: ["1600 lb static rating handles a dense server stack","8-way PDU included instead of bought separately","Perforated front door boosts airflow without losing visibility"],
     cons: ["32\" depth is still tight for some full servers","Casters need leveling feet for a permanent install"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xTLkXQqlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CMPFK79Q?tag=deskfinds0d-20",
-    description: "A near-identical sibling to the earlier 39-inch-deep home lab cabinet but with a slightly shallower 35-inch depth, useful if your room has a bit less clearance to work with.\n\nThe feature set carries over directly: 1600 lb static rating, locking glass door, integrated cooling fans, and an included PDU and shelf for a ready-to-deploy home lab setup.",
+    description: "A near-identical sibling to the earlier 39-inch-deep home lab cabinet but with a slightly shallower 35-inch depth, useful if your room has a bit less clearance to work with.\n\nThe feature set carries over directly: 1600 lb static rating, locking glass door, integrated cooling fans, and an included PDU and shelf for a ready-to-deploy home lab setup.\n\nWhat stands out here is slightly shallower 35\" depth fits tighter rooms, plus 1600 lb rating matches full commercial-grade cabinets. The main tradeoff: still a large cabinet needing dedicated floor space, so weigh that against the $1,185.00 price before buying.",
     specs: ["42U, 35\" deep, 1600 lb static rating","Integrated cooling fans and ventilation","PDU, shelf, casters, and leveling feet included"],
     pros: ["Slightly shallower 35\" depth fits tighter rooms","1600 lb rating matches full commercial-grade cabinets","Comes ready to deploy with PDU and shelf"],
     cons: ["Still a large cabinet needing dedicated floor space","Glass door requires regular dusting to stay clear"],
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Plan Removable Side Panel Access",
     "note": "Verify side panels are removable for cable routing and maintenance, not just the front door."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $459.00",
+          "18U Wall Mount Server Rack Cabinet"
+        ],
+        [
+          "Around $469.99",
+          "NavePoint 22U Server Cabinet Wall Mount Rack Enclosure"
+        ],
+        [
+          "Around $876.99",
+          "StarTech 22U 4-Post Server Cabinet"
+        ],
+        [
+          "Around $1,185.00",
+          "42U Home Server Rack Cabinet"
+        ],
+        [
+          "Around $1,250.10",
+          "Sysracks 42U Server Rack Cabinet"
+        ],
+        [
+          "Around $1,339.97",
+          "42U Server Rack Cabinet"
+        ],
+        [
+          "Around $1,389.00",
+          "Sysracks 42U Server Rack Cabinet"
+        ],
+        [
+          "Around $1,905.99",
+          "StarTech 42U 4-Post Server Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Static Load Capacity for the Full Stack",
-    "explanation": "Confirm enclosed server racks's documented static load capacity covers the combined weight of every device planned for the cabinet, not just the heaviest single item."
+    "explanation": "Confirm enclosed server racks's documented static load capacity covers the combined weight of every device planned for the cabinet, not just the heaviest single item. With prices in this roundup ranging roughly $459 to $1906, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Door Type for Airflow vs Security",
-    "explanation": "Weigh a mesh or perforated door against a solid or glass door, since more airflow generally means less dust and theft protection."
+    "explanation": "Weigh a mesh or perforated door against a solid or glass door, since more airflow generally means less dust and theft protection. Given the real spread here, from about $459 up to $1906, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Cooling Fans Match the Enclosure",
-    "explanation": "Verify a sealed cabinet includes active cooling fans, since an enclosed design without them traps heat far more than an open frame would."
+    "explanation": "Verify a sealed cabinet includes active cooling fans, since an enclosed design without them traps heat far more than an open frame would. Across this comparison's $459 to $1906 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check PDU and Shelf Inclusion",
-    "explanation": "Confirm whether a PDU, fixed shelf, and cable brush panels are included, since some cabinets require buying these separately."
+    "explanation": "Confirm whether a PDU, fixed shelf, and cable brush panels are included, since some cabinets require buying these separately. Products at the low end near $459 and the high end near $1906 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Removable Side Panel Access",
-    "explanation": "Verify side panels are removable for cable routing and maintenance, not just the front door."
+    "explanation": "Verify side panels are removable for cable routing and maintenance, not just the front door. This matters in practice because the picks in this comparison span from about $459 to $1906, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cabinet-server-racks","title":"Best Cabinet Server Racks in 2026"},{"href":"/guide/best-9u-cabinet-server-racks","title":"Best 9U Cabinet Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

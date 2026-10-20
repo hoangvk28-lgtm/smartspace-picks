@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41UbZyPLlCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX57Z5G?tag=deskfinds0d-20",
-    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.",
+    description: "A compact 6U open-frame rack built on a robust 4-post construction, small enough to tuck into a corner while still handling AV systems, NAS devices, and small servers.\n\nUniversal wheels with brakes add stability once positioned, and the listing notes 9U and 12U versions are also available if you outgrow this size later.\n\nWhere this one earns its spot is compact size tucks easily into a corner setup, and brake-equipped wheels add stability once positioned. Worth noting before buying: 6U ceiling limits it to a small device count, which matters more at $89.99 than it would on a cheaper pick.",
     specs: ["6U, 15.75\"W x 19.49\"D x 15.31\"H","4-post construction","Universal wheels with brakes"],
     pros: ["Compact size tucks easily into a corner setup","Brake-equipped wheels add stability once positioned","Same series scales up to 9U or 12U if needed"],
     cons: ["6U ceiling limits it to a small device count","No weight rating listed, worth confirming before heavy use"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhat stands out here is tall 30U build fits a growing equipment stack, plus removable panels switch between open and closed setups. The main tradeoff: tall and narrow footprint needs a stable floor, so weigh that against the $299.99 price before buying.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41LZVOCQNSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D7K26K1R?tag=deskfinds0d-20",
-    description: "AxcessAbles' 12U rack includes both 10-32 and cage nut compatible rails in one frame, plus a wall mount kit, giving genuine flexibility for either floor or wall installation.\n\nIt ships with two 2U shelves and a full cage nut tool included, useful accessories the listing bundles rather than selling separately.",
+    description: "AxcessAbles' 12U rack includes both 10-32 and cage nut compatible rails in one frame, plus a wall mount kit, giving genuine flexibility for either floor or wall installation.\n\nIt ships with two 2U shelves and a full cage nut tool included, useful accessories the listing bundles rather than selling separately.\n\nWhere this one earns its spot is both wall mount kit and casters included in one purchase, and two 2U shelves and a cage nut tool bundled in. Worth noting before buying: capacity drops noticeably once wheels are installed, which matters more at $159.99 than it would on a cheaper pick.",
     specs: ["12U, 18\"x20\"x23.5\" with wheels","330 lb (wheels) / 440 lb (no wheels) capacity","2x 2U shelves, wall mount kit included"],
     pros: ["Both wall mount kit and casters included in one purchase","Two 2U shelves and a cage nut tool bundled in","Fits both 10-32 and cage nut mounting hardware"],
     cons: ["Capacity drops noticeably once wheels are installed","No front door leaves equipment fully exposed"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Portability Against Overall Stability",
     "note": "Confirm the rack still feels stable when loaded and rolling, since a taller, lighter frame can tip more easily than a heavier stationary design."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $89.99",
+          "6U Open Frame Server Rack with Wheels"
+        ],
+        [
+          "Around $159.99",
+          "AxcessAbles 12U Network Rack with Wheels"
+        ],
+        [
+          "Around $159.99",
+          "AxcessAbles 12U Open Frame Network & AV Rack with Casters"
+        ],
+        [
+          "Around $171.99",
+          "12U Rack with Caster Wheels"
+        ],
+        [
+          "Around $249.99",
+          "AxcessAbles 22U Rolling IT Server Rack"
+        ],
+        [
+          "Around $299.99",
+          "AxcessAbles 30U Rolling Network Server Rack"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Check the Rolling Weight Rating, Not Stationary",
-    "explanation": "Confirm mobile server racks's weight rating specifically for caster-mounted use, since rolling capacity is documented separately and typically lower than the stationary rating."
+    "explanation": "Confirm mobile server racks's weight rating specifically for caster-mounted use, since rolling capacity is documented separately and typically lower than the stationary rating. This matters in practice because the picks in this comparison span from about $90 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Casters Lock in Place",
-    "explanation": "Look for locking casters, not just wheels, so the rack stays put once positioned rather than drifting during use."
+    "explanation": "Look for locking casters, not just wheels, so the rack stays put once positioned rather than drifting during use. With prices in this roundup ranging roughly $90 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Floor Surface Compatibility",
-    "explanation": "Check caster type against your actual floor surface, since hard casters can mark hardwood while soft casters wear faster on rough concrete."
+    "explanation": "Check caster type against your actual floor surface, since hard casters can mark hardwood while soft casters wear faster on rough concrete. Given the real spread here, from about $90 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan Cable Slack for Movement",
-    "explanation": "Leave enough cable slack for the rack to move its intended distance without straining connections at the wall or PDU."
+    "explanation": "Leave enough cable slack for the rack to move its intended distance without straining connections at the wall or PDU. Across this comparison's $90 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh Portability Against Overall Stability",
-    "explanation": "Confirm the rack still feels stable when loaded and rolling, since a taller, lighter frame can tip more easily than a heavier stationary design."
+    "explanation": "Confirm the rack still feels stable when loaded and rolling, since a taller, lighter frame can tip more easily than a heavier stationary design. Products at the low end near $90 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "6U Open Frame Server Rack with Wheels is aimed at buyers prioritizing 6u, 15.75\"w x 19.49\"d x 15.31\"h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rolling-server-racks","title":"Best Rolling Server Racks in 2026"},{"href":"/guide/best-server-racks-on-wheels","title":"Best Server Racks on Wheels in 2026"},{"href":"/guide/best-portable-server-racks","title":"Best Portable Server Racks in 2026"}];

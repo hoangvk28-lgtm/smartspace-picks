@@ -191,32 +191,112 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Extend Mode Trades Speed for Distance",
     "note": "Several switches in this list offer an Extend Mode that pushes PoE transmission up to 820 feet, useful for spread-out camera installs, but it drops the affected port's link speed to 10Mbps. Only enable it on ports where you genuinely need the extra distance."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $37.97",
+          "UGREEN 10-Port PoE Switch (8x PoE+ @60W)"
+        ],
+        [
+          "Around $44.99",
+          "NETGEAR GS305P 5-Port PoE Gigabit Switch"
+        ],
+        [
+          "Around $44.99",
+          "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch"
+        ],
+        [
+          "Around $59.99",
+          "TP-Link LS108GP 8-Port PoE Gigabit Switch"
+        ],
+        [
+          "Around $79.99",
+          "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch"
+        ],
+        [
+          "Around $748.95",
+          "Ubiquiti UniFi USW-Pro-24-PoE Layer 3 Switch"
+        ],
+        [
+          "Around $899.90",
+          "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch is aimed at buyers prioritizing 48-port layer 3 managed, poe."
+      },
+      {
+        "label": "Save if",
+        "text": "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks."
+      }
+    ]
+  },
+  {
+    "subheading": "UGREEN 10-Port PoE Switch (8x PoE+ @60W) vs Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch",
+    "cards": [
+      {
+        "label": "UGREEN 10-Port PoE Switch (8x PoE+ @60W)",
+        "text": "Aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks."
+      },
+      {
+        "label": "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch",
+        "text": "Aimed at buyers prioritizing 48-port layer 3 managed, poe."
+      }
+    ],
+    "note": "Default to UGREEN 10-Port PoE Switch (8x PoE+ @60W) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR GS305P 5-Port PoE Gigabit Switch is aimed at buyers prioritizing 5 ports, 4x poe+ at 63w total; TP-Link TL-SG1005P 5-Port Gigabit PoE Switch is aimed at buyers prioritizing 4x poe+ ports @65w total, 1 uplink."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Port count is a headroom decision, not a current-need one",
-    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure."
+    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure. Given the real spread here, from about $38 up to $900, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "PoE budget is a shared pool, not per-port",
-    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare."
+    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare. Across this comparison's $38 to $900 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Managed vs unmanaged changes what you can diagnose later",
-    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device."
+    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device. Products at the low end near $38 and the high end near $900 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Fanless does not always mean silent under load",
-    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters."
+    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters. This matters in practice because the picks in this comparison span from about $38 to $900, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Multi-gig speed needs matching cable and network gear",
-    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra."
+    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra. With prices in this roundup ranging roughly $38 to $900, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Renewed enterprise gear needs a licensing check first",
-    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box."
+    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box. Given the real spread here, from about $38 up to $900, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -229,6 +309,11 @@ export const faq = [
     "q": "Do I need PoE+ or is standard PoE enough?",
     "a": "Standard PoE (802.3af) tops out around 15W per port, enough for basic cameras and phones. PoE+ (802.3at) delivers up to 30W per port, needed for PTZ cameras, higher-power access points, or devices with heaters/fans. Check your specific device's power draw before buying."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "NETGEAR GS305P 5-Port PoE Gigabit Switch is aimed at buyers prioritizing 5 ports, 4x poe+ at 63w total." },
+  { q: "Which pick offers the best value for a tight budget?", a: "UGREEN 10-Port PoE Switch (8x PoE+ @60W) is aimed at buyers prioritizing 8x poe+ @60w + 2 uplinks, and at $37.97 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $37.97 to $899.90, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Ubiquiti UniFi USW-Pro-48-PoE Layer 3 Switch is aimed at buyers prioritizing 48-port layer 3 managed, poe. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-poe-network-switches","title":"5 Best 8-Port PoE Network Switches in 2026"},{"href":"/guide/best-24-port-poe-network-switches","title":"5 Best 24-Port PoE Network Switches in 2026"},{"href":"/guide/best-poe-powered-network-switches","title":"5 Best PoE-Powered Network Switches in 2026"}];

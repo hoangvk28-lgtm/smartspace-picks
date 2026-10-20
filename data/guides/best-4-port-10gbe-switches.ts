@@ -27,9 +27,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41aol4eJAbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DS4KC7Y3?tag=deskfinds0d-20",
-    description: "Four 2.5Gb ports pair with two true 10Gb RJ45 ports for a 60Gbps switching capacity, aimed specifically at a home network with one or two genuinely high-speed devices and several 2.5G endpoints. Auto MDI/MDIX and non-blocking forwarding require zero configuration.\n\nA fanless metal case with 6KV lightning protection runs silently, with double-side cooling holes and a wide -10 to 50°C operating range. It mounts on a desktop or wall and carries a 1-year warranty with lifetime technical support from NICGIGA.",
+    description: "Four 2.5Gb ports pair with two true 10Gb RJ45 ports for a 60Gbps switching capacity, aimed specifically at a home network with one or two genuinely high-speed devices and several 2.5G endpoints. Auto MDI/MDIX and non-blocking forwarding require zero configuration.\n\nA fanless metal case with 6KV lightning protection runs silently, with double-side cooling holes and a wide -10 to 50-degreeC operating range. It mounts on a desktop or wall and carries a 1-year warranty with lifetime technical support from NICGIGA.",
     specs: ["2x 10G + 4x 2.5G ports, 60Gbps capacity","Fanless, 6KV lightning protection","Desktop or wall mount"],
-    pros: ["Fanless design runs completely silent","6KV lightning protection exceeds the 4KV common elsewhere","Wide -10 to 50°C operating range"],
+    pros: ["Fanless design runs completely silent","6KV lightning protection exceeds the 4KV common elsewhere","Wide -10 to 50-degreeC operating range"],
     cons: ["Only 2 of 6 ports are true 10G speed","60Gbps capacity is modest next to full-10G switches"],
     bestFor: "buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity",
   },
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/418fQAbeE2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FS68VWK3?tag=deskfinds0d-20",
-    description: "Eight 2.5G ports handle 10/100/1000Mbps and 2.5Gbps auto-negotiation compliant with IEEE802.3bz, paired with two genuine 10Gbps RJ45 ports for a non-blocking 80Gbps switching capacity, positioning this specifically for a mixed 2.5G/10G home or office network. Plug-and-play setup needs zero configuration.\n\nFanless metal housing with passive cooling keeps operation silent, backed by 6KV lightning protection and a -10 to 50°C operating range. LED indicators give at-a-glance status monitoring, suited to homes, studios, and server rooms wanting silent 10Gbps switching.",
+    description: "Eight 2.5G ports handle 10/100/1000Mbps and 2.5Gbps auto-negotiation compliant with IEEE802.3bz, paired with two genuine 10Gbps RJ45 ports for a non-blocking 80Gbps switching capacity, positioning this specifically for a mixed 2.5G/10G home or office network. Plug-and-play setup needs zero configuration.\n\nFanless metal housing with passive cooling keeps operation silent, backed by 6KV lightning protection and a -10 to 50-degreeC operating range. LED indicators give at-a-glance status monitoring, suited to homes, studios, and server rooms wanting silent 10Gbps switching.",
     specs: ["2x 10G + 8x 2.5G ports, 80Gbps capacity","Fanless, passive cooling","6KV lightning protection"],
     pros: ["Fanless passive cooling keeps operation completely silent","80Gbps non-blocking capacity is genuinely high for 10 ports","6KV lightning protection is a real surge safeguard"],
     cons: ["Only 2 of 10 ports are true 10G speed","No management features on this unmanaged model"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Uplink and Stacking Headroom",
     "note": "Look at faster uplinks or stacking options separately, since these affect real oversubscription beyond the access-port count."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $79.99",
+          "6-Port 10Gbe Ethernet Switch Unmanaged"
+        ],
+        [
+          "Around $84.99",
+          "TRENDnet 6-Port 10G Switch"
+        ],
+        [
+          "Around $139.98",
+          "10-Port 10G Ethernet Switch Unmanaged"
+        ],
+        [
+          "Around $156.98",
+          "5-Port 10Gb RJ45 Web Managed Ethernet Switch"
+        ],
+        [
+          "Around $175.99",
+          "Ztyuav 8-Port Unmanaged 10Gbe Ethernet Switch"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Simultaneously Usable 10G Ports",
-    "explanation": "Confirm 4-port 10gbe switches's stated port count matches genuinely usable 10GbE interfaces, excluding management, slower access, or shared-only ports."
+    "explanation": "Confirm 4-port 10gbe switches's stated port count matches genuinely usable 10GbE interfaces, excluding management, slower access, or shared-only ports. Across this comparison's $80 to $176 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Identify Combo and Shared Ports",
-    "explanation": "Check whether any RJ45 and SFP+ ports share one logical interface, since these should never be double-counted toward the total."
+    "explanation": "Check whether any RJ45 and SFP+ ports share one logical interface, since these should never be double-counted toward the total. Products at the low end near $80 and the high end near $176 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Native Media Type Per Port",
-    "explanation": "Verify how many 10G ports are native RJ45 versus SFP+, and what transceivers or DACs are needed for the fiber ports."
+    "explanation": "Verify how many 10G ports are native RJ45 versus SFP+, and what transceivers or DACs are needed for the fiber ports. This matters in practice because the picks in this comparison span from about $80 to $176, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Switching Capacity Against Full Load",
-    "explanation": "Confirm switching capacity covers simultaneous bidirectional traffic on every advertised port, not just a subset."
+    "explanation": "Confirm switching capacity covers simultaneous bidirectional traffic on every advertised port, not just a subset. With prices in this roundup ranging roughly $80 to $176, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Uplink and Stacking Headroom",
-    "explanation": "Look at faster uplinks or stacking options separately, since these affect real oversubscription beyond the access-port count."
+    "explanation": "Look at faster uplinks or stacking options separately, since these affect real oversubscription beyond the access-port count. Given the real spread here, from about $80 up to $176, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a switch's total PoE budget mean every port can deliver its max wattage?",
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"},{"href":"/guide/best-24-port-10gbe-switches","title":"Best 24-Port 10GbE Switches in 2026"},{"href":"/guide/best-16-port-10gbe-switches","title":"Best 16-Port 10GbE Switches in 2026"}];

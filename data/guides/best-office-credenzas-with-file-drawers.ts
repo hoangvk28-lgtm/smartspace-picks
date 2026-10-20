@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenzas-with-file-drawers";
 export const guideTitle = "8 Best Office Credenzas With File Drawers in 2026";
 export const metaTitle = "Best Office Credenzas With File Drawers 2026";
-export const metaDescription = "We compared office credenzas with file drawers by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenzas with file drawers by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking.";
 export const mainKeyword = "office credenzas with file drawers";
 export const introParagraphs = [
   "Before ranking any pick for office credenzas with file drawers, the real work is verifying letter/legal compatibility and lock coverage drawer by drawer.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Full-Extension Access in Your Layout",
     "note": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $219.99",
+          "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $229.99",
+          "Perledesign 3 Drawer File Cabinet"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Letter/Legal Compatibility Per Drawer",
-    "explanation": "Check whether each file drawer in office credenzas with file drawers supports letter, legal, or both, including hanging-rail filing direction, rather than assuming 'file drawer' guarantees universal size support."
+    "explanation": "Check whether each file drawer in office credenzas with file drawers supports letter, legal, or both, including hanging-rail filing direction, rather than assuming 'file drawer' guarantees universal size support. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Interior Drawer Geometry",
-    "explanation": "Get actual interior dimensions and hanging-rail length rather than trusting exterior drawer size, since hardware and rail mechanisms take up real interior space."
+    "explanation": "Get actual interior dimensions and hanging-rail length rather than trusting exterior drawer size, since hardware and rail mechanisms take up real interior space. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Which Drawers Actually Lock",
-    "explanation": "Verify lock coverage per drawer, since many credenzas secure only one drawer while leaving others, including supply drawers, unlocked."
+    "explanation": "Verify lock coverage per drawer, since many credenzas secure only one drawer while leaving others, including supply drawers, unlocked. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Interlock or Anti-Tip Behavior",
-    "explanation": "Test or verify what happens when multiple drawers are opened simultaneously, since some designs include an interlock or anti-tip mechanism and others do not."
+    "explanation": "Test or verify what happens when multiple drawers are opened simultaneously, since some designs include an interlock or anti-tip mechanism and others do not. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Full-Extension Access in Your Layout",
-    "explanation": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely."
+    "explanation": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-file-storage","title":"Best Office Credenzas With File Storage in 2026"},{"href":"/guide/best-home-office-credenzas-with-file-drawers","title":"Best Home Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-black-office-credenzas-with-file-drawers","title":"Best Black Office Credenzas With File Drawers in 2026"}];

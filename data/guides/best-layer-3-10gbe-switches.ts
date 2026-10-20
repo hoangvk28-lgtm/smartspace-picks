@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Real L3 Routing From Static-Route-Only",
     "note": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $69.99",
+          "TP-Link TL-SG1024S"
+        ],
+        [
+          "Around $69.99",
+          "NETGEAR 24-Port Gigabit Unmanaged Switch (GS324)"
+        ],
+        [
+          "Around $141.30",
+          "MikroTik CRS305-1G-4S+in Network Switch"
+        ],
+        [
+          "Around $199.99",
+          "TP-Link TL-SG1428PE"
+        ],
+        [
+          "Around $213.50",
+          "MikroTik CRS310-8G+2S+IN Smart Switch"
+        ],
+        [
+          "Around $245.50",
+          "MikroTik CRS309-1G-8S+in Managed Switch"
+        ],
+        [
+          "Around $605.81",
+          "MikroTik CRS312-4C+8XG-RM Network Switch"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify VLAN and LACP Under Real Load",
-    "explanation": "Confirm layer 3 10gbe switches supports VLAN tagging, trunks, and LACP aggregation under sustained 10G traffic, not just as a checkbox feature."
+    "explanation": "Confirm layer 3 10gbe switches supports VLAN tagging, trunks, and LACP aggregation under sustained 10G traffic, not just as a checkbox feature. This matters in practice because the picks in this comparison span from about $70 to $606, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check STP and Multicast Support",
-    "explanation": "Verify STP/RSTP/MSTP and IGMP/multicast features match what your specific network deployment actually needs."
+    "explanation": "Verify STP/RSTP/MSTP and IGMP/multicast features match what your specific network deployment actually needs. With prices in this roundup ranging roughly $70 to $606, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm ACL and QoS Are Hardware-Forwarded",
-    "explanation": "Check whether ACL and QoS policy changes stay hardware-forwarded at line rate, not just management-plane features."
+    "explanation": "Check whether ACL and QoS policy changes stay hardware-forwarded at line rate, not just management-plane features. Given the real spread here, from about $70 up to $606, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Management Interface Options",
-    "explanation": "Verify local web/CLI, SNMP, controller, or cloud management options fit your preferred administration style."
+    "explanation": "Verify local web/CLI, SNMP, controller, or cloud management options fit your preferred administration style. Across this comparison's $70 to $606 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Separate Real L3 Routing From Static-Route-Only",
-    "explanation": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality."
+    "explanation": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality. Products at the low end near $70 and the high end near $606 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Does a switch's total PoE budget mean every port can deliver its max wattage?",
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "MikroTik CRS312-4C+8XG-RM Network Switch is aimed at buyers prioritizing 4x combo sfp+/rj45 + 8x 10g ports." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

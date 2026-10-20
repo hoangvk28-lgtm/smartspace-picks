@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nThe strongest case for this pick comes down to tall 30U build fits a growing equipment stack as well as removable panels switch between open and closed setups. The compromise here is that tall and narrow footprint needs a stable floor, so factor that in alongside the $299.99 asking price.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vbfmcEwKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99FX253?tag=deskfinds0d-20",
-    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.",
+    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nWhere this one earns its spot is under-20-minute assembly claim, genuinely quick to set up, and 1200 lb capacity suits a real mid-size server load. Worth noting before buying: shorter than the 42U model if you outgrow it, which matters more at $178.99 than it would on a cheaper pick.",
     specs: ["27U, 43.5\"H, 22-35\" adjustable depth","1200 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim, genuinely quick to set up","1200 lb capacity suits a real mid-size server load","Depth adjustment covers a wide equipment range"],
     cons: ["Shorter than the 42U model if you outgrow it","Open frame offers no dust or security protection"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31YAeSy9C2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D9B577G8?tag=deskfinds0d-20",
-    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.",
+    description: "A 4-post open frame rack rated for 1900 lbs, built from 2mm cold rolled steel for extra rigidity compared to the thinner-gauge racks in this category.\n\nDepth adjusts across a 22-35 inch range, and the listing specifically calls out compatibility with data centers, broadcast studios, and home lab setups alike, giving it a fairly broad use case.\n\nWhat stands out here is 2mm steel gauge is thicker than most in this class, plus 1900 lb rating handles a dense full-height stack. The main tradeoff: full 80\" height needs a tall dedicated room, so weigh that against the $251.99 price before buying.",
     specs: ["42U, 22-35\" adjustable depth, 2mm steel","1900 lb weight capacity","Pre-installed square holes, cage nuts included"],
     pros: ["2mm steel gauge is thicker than most in this class","1900 lb rating handles a dense full-height stack","Assembly is genuinely quick, under 20 minutes claimed"],
     cons: ["Full 80\" height needs a tall dedicated room","Open frame means no dust or access control"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Post Configuration for Your Load",
     "note": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.99",
+          "AxcessAbles 12U Network Rack with Wheels"
+        ],
+        [
+          "Around $178.99",
+          "GlobalRack 27U Open Frame Server Rack"
+        ],
+        [
+          "Around $249.99",
+          "AxcessAbles 22U Rolling IT Server Rack"
+        ],
+        [
+          "Around $251.99",
+          "GlobalRack 42U Open Frame Server Rack"
+        ],
+        [
+          "Around $278.16",
+          "RIVECO 25U Server Rack Adjustable Depth"
+        ],
+        [
+          "Around $299.99",
+          "AxcessAbles 30U Rolling Network Server Rack"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which tecmojo rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations."
+    "explanation": "Confirm which tecmojo rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. This matters in practice because the picks in this comparison span from about $160 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Weight Rating by Mount Type",
-    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general."
+    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. With prices in this roundup ranging roughly $160 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Rail Depth Against Your Equipment",
-    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit."
+    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. Given the real spread here, from about $160 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Warranty and Included Hardware",
-    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model."
+    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. Across this comparison's $160 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Post Configuration for Your Load",
-    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. Products at the low end near $160 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 30U Rolling Network Server Rack is aimed at buyers prioritizing 30u height, 18\" depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-large-fireproof-safes-for-home";
 export const guideTitle = "8 Best Large Fireproof Safes for Home in 2026";
 export const metaTitle = "Best Large Fireproof Safes for Home 2026";
-export const metaDescription = "We compared large fireproof safes for home by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared large fireproof safes for home by independent fire evidence, usable interior capacity, and separately verified water and security claims rather.";
 export const mainKeyword = "large fireproof safes for home";
 export const introParagraphs = [
   "Best Large Fireproof Safes for Home deserves function-specific scrutiny before ranking, since this category comes down to checking loaded weight, floor support, and delivery logistics.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31+ZaOADbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ83PN3G?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 2 hours at 1850°F, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
-    specs: ["2.0 cu ft, UL 2hr at 1850°F","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
-    pros: ["2-hour UL rating at 1850°F is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
+    description: "This is genuinely UL classified for 2 hours at 1850-degreeF, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
+    specs: ["2.0 cu ft, UL 2hr at 1850-degreeF","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
+    pros: ["2-hour UL rating at 1850-degreeF is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
     cons: ["Substantial size and weight require dedicated floor space and bolt-down installation","Digital lock needs battery maintenance to stay reliable"],
-    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850°f",
+    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850-degreef",
   },
   {
     id: "best-large-fireproof-safes-for-home-2",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/612mey+zIsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004QWZIMI?tag=deskfinds0d-20",
-    description: "At 0.61 cu ft this is genuinely larger than SentrySafe's compact chests, sized specifically to accommodate letter-size hanging files rather than just loose papers. It carries the same UL half-hour 1550°F classification and ETL digital-media verification as the brand's smaller boxes.\n\nThe flat key lock keeps the lid sealed during a fire event, and the black exterior gives it a more office-appropriate look than SentrySafe's colored chest options.",
-    specs: ["0.61 cu ft, fits letter-size hanging files","UL 1/2hr at 1550°F, ETL digital media verified","Flat key lock, 2 keys included"],
+    description: "At 0.61 cu ft this is genuinely larger than SentrySafe's compact chests, sized specifically to accommodate letter-size hanging files rather than just loose papers. It carries the same UL half-hour 1550-degreeF classification and ETL digital-media verification as the brand's smaller boxes.\n\nThe flat key lock keeps the lid sealed during a fire event, and the black exterior gives it a more office-appropriate look than SentrySafe's colored chest options.",
+    specs: ["0.61 cu ft, fits letter-size hanging files","UL 1/2hr at 1550-degreeF, ETL digital media verified","Flat key lock, 2 keys included"],
     pros: ["0.61 cu ft capacity genuinely fits letter-size hanging files","Same UL half-hour rating as smaller SentrySafe chests at more usable capacity","Flat key lock design specifically prevents lid pop-open during fire"],
     cons: ["Hanging files need to be purchased separately","Half-hour rating is the entry tier, shorter than SentrySafe's 1-hour models"],
     bestFor: "buyers prioritizing 0.61 cu ft, fits letter-size hanging files",
@@ -183,28 +183,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Anchoring Instructions and Warranty Impact",
     "note": "Some safes require anchoring to maintain their stated security rating or warranty coverage; check the manufacturer's specific installation requirements before skipping this step."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $67.99",
+          "SentrySafe Fireproof & Waterproof Document Box"
+        ],
+        [
+          "Around $68.00",
+          "SentrySafe Black Fireproof and Waterproof Safe"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $128.96",
+          "23.6\" Tall Large Home Safe"
+        ],
+        [
+          "Around $562.22",
+          "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Usable Interior vs. Exterior Footprint",
-    "explanation": "Get large fireproof safes for home's actual interior dimensions and shelf layout, not just its exterior size, since insulation and hardware take a real bite out of large safes too."
+    "explanation": "Get large fireproof safes for home's actual interior dimensions and shelf layout, not just its exterior size, since insulation and hardware take a real bite out of large safes too. Products at the low end near $68 and the high end near $562 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Calculate Realistic Loaded Weight",
-    "explanation": "Large safes can weigh hundreds of pounds empty; account for the added weight of everything you plan to store before assuming your floor can support it."
+    "explanation": "Large safes can weigh hundreds of pounds empty; account for the added weight of everything you plan to store before assuming your floor can support it. This matters in practice because the picks in this comparison span from about $68 to $562, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Stairs, Doorways, and Professional Delivery",
-    "explanation": "Check doorway widths, stairwells, and floor loading along the delivery path, and budget for professional delivery on anything in the 150+ lb range."
+    "explanation": "Check doorway widths, stairwells, and floor loading along the delivery path, and budget for professional delivery on anything in the 150+ lb range. With prices in this roundup ranging roughly $68 to $562, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Shelf Adjustability and Door Clearance",
-    "explanation": "Confirm shelves can be reconfigured for your actual items, and measure the door's full swing clearance in the room where the safe will sit."
+    "explanation": "Confirm shelves can be reconfigured for your actual items, and measure the door's full swing clearance in the room where the safe will sit. Given the real spread here, from about $68 up to $562, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Anchoring Instructions and Warranty Impact",
-    "explanation": "Some safes require anchoring to maintain their stated security rating or warranty coverage; check the manufacturer's specific installation requirements before skipping this step."
+    "explanation": "Some safes require anchoring to maintain their stated security rating or warranty coverage; check the manufacturer's specific installation requirements before skipping this step. Across this comparison's $68 to $562 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -223,12 +255,14 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550-degreeF, 1 hour at 1700-degreeF, or 2 hours at 1850-degreeF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-fireproof-safes","title":"Best Large Fireproof Safes in 2026"},{"href":"/guide/best-extra-large-fireproof-safes","title":"Best Extra Large Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

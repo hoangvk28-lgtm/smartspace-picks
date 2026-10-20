@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/312BOoVqNGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BM9LZCK4?tag=deskfinds0d-20",
-    description: "A 2U locking drawer, one size down from QiaoYoubang's 3U model, giving a slightly shallower but still secure storage space inside a rack for accessories or small tools.\n\nRear cable holes with a protective rubber ring carry over from the 3U version, letting you route cords through the drawer without exposing raw metal edges to the cable jacket.",
+    description: "A 2U locking drawer, one size down from QiaoYoubang's 3U model, giving a slightly shallower but still secure storage space inside a rack for accessories or small tools.\n\nRear cable holes with a protective rubber ring carry over from the 3U version, letting you route cords through the drawer without exposing raw metal edges to the cable jacket.\n\nThis pick is best for buyers who value lockable storage secures accessories inside a shared rack along with rubber-ringed cable holes protect cords from sharp edges. The catch is that 22 lb capacity limits it to lighter items, so decide if that's worth it at $59.99.",
     specs: ["2U, 19\"W x 12.6\"D x 2U H","22 lb weight capacity","Lockable with included key"],
     pros: ["Lockable storage secures accessories inside a shared rack","Rubber-ringed cable holes protect cords from sharp edges","Ships mostly assembled, minimal setup needed"],
     cons: ["22 lb capacity limits it to lighter items","Takes up 2U of space better used for active equipment"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/313BItDVXlL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLWK4XPS?tag=deskfinds0d-20",
-    description: "Tecmojo's 4U drawer upgrades to 44 lbs capacity with newly upgraded back supports, double the standard 22 lb rating found on basic lockable rack drawers.\n\nIt's available across 1U through 6U sizes in the same series, and rear cable management holes let you route cords in and out without leaving the drawer visibly cluttered.",
+    description: "Tecmojo's 4U drawer upgrades to 44 lbs capacity with newly upgraded back supports, double the standard 22 lb rating found on basic lockable rack drawers.\n\nIt's available across 1U through 6U sizes in the same series, and rear cable management holes let you route cords in and out without leaving the drawer visibly cluttered.\n\nWhat stands out here is upgraded back supports double the standard weight rating, plus available across 1U to 6U for consistent sizing. The main tradeoff: full 44 lb rating requires the upgraded support install, so weigh that against the $79.90 price before buying.",
     specs: ["4U, 13\" inner depth","22-44 lb weight capacity (with upgraded supports)","Rear cable management holes"],
     pros: ["Upgraded back supports double the standard weight rating","Available across 1U to 6U for consistent sizing","Lock and keys included to secure contents"],
     cons: ["Full 44 lb rating requires the upgraded support install","4U takes real rack space that could hold active gear"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31Y9cg-0IQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BLWGR381?tag=deskfinds0d-20",
-    description: "The 2U version of Tecmojo's upgraded drawer line, sharing the same 44 lb rating with upgraded back supports and rear cable management holes as the 4U model.\n\nIt fits the same 13-inch inner depth as its larger sibling, so the usable storage space per unit height stays consistent across the whole size range.",
+    description: "The 2U version of Tecmojo's upgraded drawer line, sharing the same 44 lb rating with upgraded back supports and rear cable management holes as the 4U model.\n\nIt fits the same 13-inch inner depth as its larger sibling, so the usable storage space per unit height stays consistent across the whole size range.\n\nWhere this one earns its spot is 44 lb rating matches Tecmojo's larger drawer sizes, and rear cable holes keep routing tidy even in a small drawer. Worth noting before buying: 2U still takes space that could hold active equipment, which matters more at $59.90 than it would on a cheaper pick.",
     specs: ["2U, 13\" inner depth","22-44 lb weight capacity (with upgraded supports)","Rear cable management holes"],
     pros: ["44 lb rating matches Tecmojo's larger drawer sizes","Rear cable holes keep routing tidy even in a small drawer","Available across the full 1U-6U Tecmojo drawer series"],
     cons: ["2U still takes space that could hold active equipment","Standard 22 lb rating applies without the upgrade installed"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check U-Height Impact on Rack Space",
     "note": "Confirm how much U-height the tray or drawer consumes, since that's space unavailable for active equipment."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $54.99",
+          "Eastrexon 2U Rack Mount Drawer with Combination Lock"
+        ],
+        [
+          "Around $59.90",
+          "Tecmojo 2U Rack Drawer"
+        ],
+        [
+          "Around $59.99",
+          "QiaoYoubang 2U Server Cabinet Case"
+        ],
+        [
+          "Around $79.90",
+          "Tecmojo 4U Rack Drawer"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm Pull-Out Depth Fits the Rack",
-    "explanation": "Verify server rack drawers's extension depth fits the actual clearance behind the rack before it hits a wall or another piece of equipment."
+    "explanation": "Verify server rack drawers's extension depth fits the actual clearance behind the rack before it hits a wall or another piece of equipment. Across this comparison's $55 to $80 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Reinforcement Against Wobble",
-    "explanation": "Look for a reinforced crossbar or rail system, since basic slides can wobble noticeably when fully extended."
+    "explanation": "Look for a reinforced crossbar or rail system, since basic slides can wobble noticeably when fully extended. Products at the low end near $55 and the high end near $80 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Weight Rating for Contents",
-    "explanation": "Confirm the documented weight rating matches what's actually being stored, whether that's a keyboard or heavier drawer contents."
+    "explanation": "Confirm the documented weight rating matches what's actually being stored, whether that's a keyboard or heavier drawer contents. This matters in practice because the picks in this comparison span from about $55 to $80, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Lock Type if Security Matters",
-    "explanation": "Check whether the drawer uses a key lock or combination lock, and whether that fits how the rack is shared or accessed."
+    "explanation": "Check whether the drawer uses a key lock or combination lock, and whether that fits how the rack is shared or accessed. With prices in this roundup ranging roughly $55 to $80, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check U-Height Impact on Rack Space",
-    "explanation": "Confirm how much U-height the tray or drawer consumes, since that's space unavailable for active equipment."
+    "explanation": "Confirm how much U-height the tray or drawer consumes, since that's space unavailable for active equipment. Given the real spread here, from about $55 up to $80, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "QiaoYoubang 2U Server Cabinet Case is aimed at buyers prioritizing 2u, 19\"w x 12.6\"d x 2u h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

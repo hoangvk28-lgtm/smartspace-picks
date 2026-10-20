@@ -1,7 +1,7 @@
 export const guideSlug = "best-narrow-office-credenzas";
 export const guideTitle = "8 Best Narrow Office Credenzas in 2026";
 export const metaTitle = "Best Narrow Office Credenzas 2026";
-export const metaDescription = "We compared narrow office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared narrow office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "narrow office credenzas";
 export const introParagraphs = [
   "Before ranking any pick for narrow office credenzas, the real work is setting real width and depth thresholds instead of trusting a 'compact' label.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Printer Fit and Rear Ventilation",
     "note": "Place a representative printer or scanner footprint on the top and check for rear ventilation and plug clearance before committing to a compact model."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $93.49",
+          "REHOOPEX Black Storage Cabinet with Doors"
+        ],
+        [
+          "Around $119.99",
+          "Smuxee Walnut Sideboard Cabinet"
+        ],
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $149.99",
+          "DecoFurn Lateral File Cabinet with 2 Drawers"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $174.99",
+          "GlowVitaHome Farmhouse File Cabinet for Home Office"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $229.99",
+          "Perledesign 3 Drawer File Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Set Explicit Width and Depth Thresholds",
-    "explanation": "Define specific maximum width and depth numbers for narrow office credenzas rather than judging 'small' by photos alone, since compact credenzas vary meaningfully in both dimensions."
+    "explanation": "Define specific maximum width and depth numbers for narrow office credenzas rather than judging 'small' by photos alone, since compact credenzas vary meaningfully in both dimensions. Across this comparison's $93 to $230 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Uninterrupted Top Area",
-    "explanation": "Check the usable top area after subtracting any hutch footprint or raised edge trim, since the nominal top dimensions can overstate real working space."
+    "explanation": "Check the usable top area after subtracting any hutch footprint or raised edge trim, since the nominal top dimensions can overstate real working space. Products at the low end near $93 and the high end near $230 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Storage Efficiency Per Inch",
-    "explanation": "Evaluate storage capacity relative to footprint rather than raw storage volume alone, since a compact credenza needs to make efficient use of every inch."
+    "explanation": "Evaluate storage capacity relative to footprint rather than raw storage volume alone, since a compact credenza needs to make efficient use of every inch. This matters in practice because the picks in this comparison span from about $93 to $230, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Open Doors and Drawers in Your Actual Aisle",
-    "explanation": "Test or measure door and drawer clearance in the specific spot it will occupy, since small rooms leave little margin for a swing-door design that needs more clearance than expected."
+    "explanation": "Test or measure door and drawer clearance in the specific spot it will occupy, since small rooms leave little margin for a swing-door design that needs more clearance than expected. With prices in this roundup ranging roughly $93 to $230, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Printer Fit and Rear Ventilation",
-    "explanation": "Place a representative printer or scanner footprint on the top and check for rear ventilation and plug clearance before committing to a compact model."
+    "explanation": "Place a representative printer or scanner footprint on the top and check for rear ventilation and plug clearance before committing to a compact model. Given the real spread here, from about $93 up to $230, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Perledesign 3 Drawer File Cabinet is aimed at buyers prioritizing 3 drawers, dedicated pull-out printer shelf." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-for-small-office","title":"Best Office Credenzas for Small Office in 2026"},{"href":"/guide/best-small-office-credenzas","title":"Best Small Office Credenzas in 2026"},{"href":"/guide/best-small-office-credenzas-with-drawers","title":"Best Small Office Credenzas With Drawers in 2026"}];

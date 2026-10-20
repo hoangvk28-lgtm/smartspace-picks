@@ -75,10 +75,10 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41UO-rypUVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GY6H1YC3?tag=deskfinds0d-20",
-    description: "1200W pure sine wave AC plus 1800W surge runs refrigerators, CPAP machines, and even air fryers during outages, with under-0.01-second UPS switching protecting devices from sudden power loss. The documented 4000+ cycle LiFePO4 battery outlasts typical lithium-ion cells (rated around 500 cycles) by roughly 3x, working across an extreme -4°F to 140°F range.\n\nFourteen ports lead the class with 5 AC outlets, genuinely more than the 2-3 typical of competitors, plus dual 100W USB-C PD. UL/FCC certification with triple protection (overload, short-circuit, overheating) backs a documented zero fire risk versus lithium-ion designs. AC charging at 800W hits 0-80% in 1.5 hours, and under-25dB silent cooling suits bedroom CPAP use directly.",
+    description: "1200W pure sine wave AC plus 1800W surge runs refrigerators, CPAP machines, and even air fryers during outages, with under-0.01-second UPS switching protecting devices from sudden power loss. The documented 4000+ cycle LiFePO4 battery outlasts typical lithium-ion cells (rated around 500 cycles) by roughly 3x, working across an extreme -4-degreeF to 140-degreeF range.\n\nFourteen ports lead the class with 5 AC outlets, genuinely more than the 2-3 typical of competitors, plus dual 100W USB-C PD. UL/FCC certification with triple protection (overload, short-circuit, overheating) backs a documented zero fire risk versus lithium-ion designs. AC charging at 800W hits 0-80% in 1.5 hours, and under-25dB silent cooling suits bedroom CPAP use directly.",
     specs: ["1200W (1800W surge), UL2743 certified","5 AC outlets, more than typical rivals","<25dB silent cooling"],
     pros: ["UL2743 certification is a real, independently verified safety standard","5 AC outlets genuinely beats the 2-3 typical of competitors","Under-25dB cooling is documented quiet enough for bedroom CPAP use"],
-    cons: ["1200W rated output is modest for larger appliances","-4°F to 140°F range is wide but still has real limits"],
+    cons: ["1200W rated output is modest for larger appliances","-4-degreeF to 140-degreeF range is wide but still has real limits"],
     bestFor: "buyers prioritizing 1200w (1800w surge), ul2743 certified",
   },
   {
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Whether Quiet Mode Limits Performance",
     "note": "Confirm whether silent or quiet settings reduce charging speed or output performance as a tradeoff."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $259.00",
+          "Jackery Explorer 300 Portable Power Station"
+        ],
+        [
+          "Around $359.00",
+          "PECRON F1000LFP Power Station"
+        ],
+        [
+          "Around $399.99",
+          "UDPOWER S1200 Portable Power Station"
+        ],
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "EcoFlow DELTA 3 Classic Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $669.00",
+          "AFERIY P210 Solar Generator"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Measure dBA at a Fixed Distance",
-    "explanation": "Check quiet portable power stations's documented dBA at a fixed distance across idle, moderate AC load, and near-rated load conditions."
+    "explanation": "Check quiet portable power stations's documented dBA at a fixed distance across idle, moderate AC load, and near-rated load conditions. Given the real spread here, from about $259 up to $669, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Fan Noise During Recharge",
-    "explanation": "Verify fan noise specifically during maximum AC and solar recharge, not just during discharge."
+    "explanation": "Verify fan noise specifically during maximum AC and solar recharge, not just during discharge. Across this comparison's $259 to $669 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Record Tonal or Stop-Start Fan Behavior",
-    "explanation": "Check for tonal or stop-start fan behavior, not just an average dBA figure, since intermittent noise can be more disruptive."
+    "explanation": "Check for tonal or stop-start fan behavior, not just an average dBA figure, since intermittent noise can be more disruptive. Products at the low end near $259 and the high end near $669 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Log Temperature During Quiet-Mode Testing",
-    "explanation": "Verify case and battery temperature specifically while testing quiet or silent modes."
+    "explanation": "Verify case and battery temperature specifically while testing quiet or silent modes. This matters in practice because the picks in this comparison span from about $259 to $669, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Whether Quiet Mode Limits Performance",
-    "explanation": "Confirm whether silent or quiet settings reduce charging speed or output performance as a tradeoff."
+    "explanation": "Confirm whether silent or quiet settings reduce charging speed or output performance as a tradeoff. With prices in this roundup ranging roughly $259 to $669, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "PECRON F1000LFP Power Station is aimed at buyers prioritizing 960wh, 1500w ac, 23.9 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

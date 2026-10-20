@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/517WeovYvrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSJR2RZB?tag=deskfinds0d-20",
-    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.",
+    description: "Tecmojo's 12U open frame rack ships with two vented 1U shelves already in the box, which is a nice touch since most competitors sell shelves separately.\n\nIt's rated for 260 lbs floor-mounted but drops to 130 lbs if you wall-mount it instead, so plan your equipment load around which install method you're using.\n\nWhere this one earns its spot is two vented shelves included instead of sold separately, and anti-slip shelf stops keep gear from sliding. Worth noting before buying: wall-mount capacity is half of floor-standing capacity, which matters more at $89.90 than it would on a cheaper pick.",
     specs: ["12U, cold rolled steel frame","260 lb floor / 130 lb wall capacity","2 vented 1U shelves included"],
     pros: ["Two vented shelves included instead of sold separately","Anti-slip shelf stops keep gear from sliding","Stackable design lets you expand later"],
     cons: ["Wall-mount capacity is half of floor-standing capacity","Open frame offers no dust or theft protection"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pK7n3UtDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00P1RJ9LS?tag=deskfinds0d-20",
-    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.",
+    description: "A compact 12U 4-post rack from StarTech, standing just 25 inches tall, purpose-built for utility closets and narrow spaces where a full-size server rack won't fit.\n\nIt still carries the full StarTech feature set: EIA/ECA-310-E compliance, cage nuts, cable hooks, and the same 2-year warranty backing the larger racks in their lineup.\n\nThis pick is best for buyers who value only 25\" tall, fits narrow utility closets easily along with 1200 lb rating despite the compact size. The catch is that small size limits it to a handful of devices, so decide if that's worth it at $249.99.",
     specs: ["12U, 25\" tall, 22-40\" adjustable depth","1200 lb stationary weight capacity","Backed by 2-year warranty and lifetime support"],
     pros: ["Only 25\" tall, fits narrow utility closets easily","1200 lb rating despite the compact size","Same warranty and support as StarTech's larger racks"],
     cons: ["Small size limits it to a handful of devices","Still needs flat-pack assembly on delivery"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41KuU2tlXhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C64X8J8R?tag=deskfinds0d-20",
-    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.",
+    description: "VEVOR's 12U open frame rack supports 500 lbs ground-mounted, dropping to 150 lbs if wall-mounted, and comes with a genuinely complete hardware kit down to a grounding wire.\n\nThe adjustable 23-40 inch depth range and roller casters mean it can flex to fit different equipment and rooms without buying a different SKU for each configuration.\n\nWhat stands out here is 500 lb ground-mounted rating handles heavier gear, plus grounding wire included, a detail many racks skip. The main tradeoff: wall-mount capacity drops sharply to 150 lbs, so weigh that against the $89.90 price before buying.",
     specs: ["12U, 23-40\" adjustable depth","500 lb ground / 150 lb wall capacity","Casters and grounding wire included"],
     pros: ["500 lb ground-mounted rating handles heavier gear","Grounding wire included, a detail many racks skip","Top panel adds extra storage space"],
     cons: ["Wall-mount capacity drops sharply to 150 lbs","Open frame leaves cables and gear exposed"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Casters or Feet Suit the Shorter Frame",
     "note": "Verify the mounting hardware included is appropriately sized for a shorter, sometimes more top-heavy relative frame."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $89.90",
+          "Tecmojo 12U Open Frame Network Rack"
+        ],
+        [
+          "Around $89.90",
+          "VEVOR 12U Open Frame Server Rack"
+        ],
+        [
+          "Around $159.99",
+          "AxcessAbles 12U Network Rack with Wheels"
+        ],
+        [
+          "Around $249.99",
+          "StarTech.com 12U Adjustable Depth Open Frame 4 Post Server Rack"
+        ],
+        [
+          "Around $249.99",
+          "AxcessAbles 22U Rolling IT Server Rack"
+        ],
+        [
+          "Around $731.99",
+          "StarTech 18U 4-Post Server Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm Half-Height Still Fits Equipment Depth",
-    "explanation": "Verify half server racks's shorter height doesn't come with a reduced depth that no longer fits your equipment."
+    "explanation": "Verify half server racks's shorter height doesn't come with a reduced depth that no longer fits your equipment. With prices in this roundup ranging roughly $90 to $732, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Weight Rating Relative to Full-Height Models",
-    "explanation": "Compare the half-height rack's weight rating against full-height models in the same line, since it's not always proportionally lower."
+    "explanation": "Compare the half-height rack's weight rating against full-height models in the same line, since it's not always proportionally lower. Given the real spread here, from about $90 up to $732, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Room Clearance Advantage",
-    "explanation": "Confirm the shorter height genuinely solves a real ceiling or doorway clearance issue rather than just looking more compact."
+    "explanation": "Confirm the shorter height genuinely solves a real ceiling or doorway clearance issue rather than just looking more compact. Across this comparison's $90 to $732 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Expansion Headroom",
-    "explanation": "Consider whether a half-height rack leaves enough room for equipment growth before needing to replace it entirely."
+    "explanation": "Consider whether a half-height rack leaves enough room for equipment growth before needing to replace it entirely. Products at the low end near $90 and the high end near $732 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Casters or Feet Suit the Shorter Frame",
-    "explanation": "Verify the mounting hardware included is appropriately sized for a shorter, sometimes more top-heavy relative frame."
+    "explanation": "Verify the mounting hardware included is appropriately sized for a shorter, sometimes more top-heavy relative frame. This matters in practice because the picks in this comparison span from about $90 to $732, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

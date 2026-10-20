@@ -1,7 +1,7 @@
 export const guideSlug = "best-fireproof-safes-under-100";
 export const guideTitle = "8 Best Fireproof Safes Under $100 in 2026";
 export const metaTitle = "Best Fireproof Safes Under $100 2026";
-export const metaDescription = "We compared fireproof safes under $100 by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared fireproof safes under $100 by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "fireproof safes under $100";
 export const introParagraphs = [
   "Most fireproof safes under $100 buyers skip straight to price, when the more useful first step is verifying the fire rating actually holds up at a lower price, not just the sticker.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41ZBhxLuCQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008HZUI34?tag=deskfinds0d-20",
-    description: "UL Classified for 30 minutes at 1550°F with separate ETL verification for CDs, DVDs, and USBs, this is SentrySafe's smallest chest in this comparison at 0.18 cu ft, 13 lbs, purpose-built for money and documents in a compact footprint.\n\nA flat key lock (2 keys included) prevents the lid opening during a fire, and included bolt-down hardware plus a built-in carrying handle give both stationary security and portability options.",
-    specs: ["0.18 cu ft, 13 lbs, UL 1/2hr at 1550°F","Flat key lock, 2 keys, bolt-down hardware","Built-in carrying handle"],
+    description: "UL Classified for 30 minutes at 1550-degreeF with separate ETL verification for CDs, DVDs, and USBs, this is SentrySafe's smallest chest in this comparison at 0.18 cu ft, 13 lbs, purpose-built for money and documents in a compact footprint.\n\nA flat key lock (2 keys included) prevents the lid opening during a fire, and included bolt-down hardware plus a built-in carrying handle give both stationary security and portability options.",
+    specs: ["0.18 cu ft, 13 lbs, UL 1/2hr at 1550-degreeF","Flat key lock, 2 keys, bolt-down hardware","Built-in carrying handle"],
     pros: ["Includes both bolt-down hardware and a carrying handle, genuine flexibility between stationary and portable","Flat key lock design specifically prevents lid pop-open during fire","SentrySafe's specific storage guidance (feet down, locked, key plate facing out) helps ensure proper"],
     cons: ["0.18 cu ft is genuinely small, fits documents and cash","Half-hour rating is the entry tier"],
-    bestFor: "buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550°f",
+    bestFor: "buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550-degreef",
   },
   {
     id: "best-fireproof-safes-under-100-2",
@@ -43,11 +43,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550-degreeF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550-degreeF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550-degreef, etl digital media verified",
   },
   {
     id: "best-fireproof-safes-under-100-3",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51kf83JfLCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1M87HB3?tag=deskfinds0d-20",
-    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this genuine structural robustness, and it bundles a separate A4-size fireproof document bag rated to endure 30 minutes at 1700°F for extra small-item protection.\n\nA tiered alarm lockout (20 seconds after 3 wrong attempts, 5 minutes after 6) adds graduated security response, and each lock cylinder carries a unique serial number specifically for easier key replacement if lost.",
-    specs: ["3.2 cu ft, 50mm steel door, 27.5 lbs","Bundled A4 fireproof bag (30min at 1700°F)","Tiered alarm lockout: 20s then 5min"],
+    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this genuine structural robustness, and it bundles a separate A4-size fireproof document bag rated to endure 30 minutes at 1700-degreeF for extra small-item protection.\n\nA tiered alarm lockout (20 seconds after 3 wrong attempts, 5 minutes after 6) adds graduated security response, and each lock cylinder carries a unique serial number specifically for easier key replacement if lost.",
+    specs: ["3.2 cu ft, 50mm steel door, 27.5 lbs","Bundled A4 fireproof bag (30min at 1700-degreeF)","Tiered alarm lockout: 20s then 5min"],
     pros: ["50mm door thickness is substantial for this weight class","Bundled separate fireproof document bag adds real double protection","Unique lock cylinder serial numbers make lost-key replacement genuinely traceable"],
     cons: ["27.5 lbs is light for the stated 3.2 cu ft capacity, worth comparing wall","No independent UL/ETL classification for the main steel body itself"],
     bestFor: "buyers prioritizing 3.2 cu ft, 50mm steel door, 27.5 lbs",
@@ -199,28 +199,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Warranty and Return Practicality",
     "note": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $29.98",
+          "0.30 Cu Ft Small Home Safe with Fireproof Bag"
+        ],
+        [
+          "Around $31.99",
+          "Voncabay 0.23 Cu Ft Digital Money Safe Box"
+        ],
+        [
+          "Around $39.98",
+          "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock"
+        ],
+        [
+          "Around $39.99",
+          "KYODOLED Fireproof Lock Box with Dual Combination and Key Lock"
+        ],
+        [
+          "Around $94.99",
+          "1.8 Cu Ft Small Fireproof Safe for Home Use"
+        ],
+        [
+          "Around $99.99",
+          "Mitlvge 3.2 Cu Ft Fireproof Safe Box with Digital Keypad"
+        ],
+        [
+          "Around $99.99",
+          "2.0 Cu Ft Large Fireproof Safe with Combination Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp the Price and Separate Shipping",
-    "explanation": "Verify fireproof safes under $100's current price at checkout, since posted prices and available stock change, and factor in shipping cost separately for anything with real weight."
+    "explanation": "Verify fireproof safes under $100's current price at checkout, since posted prices and available stock change, and factor in shipping cost separately for anything with real weight. This matters in practice because the picks in this comparison span from about $30 to $100, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Require Explicit Fire Evidence Before Trusting the Label",
-    "explanation": "Low-cost listings are the most likely to use vague 'fireproof' language without independent backing; require a specific classification before treating a budget product as genuinely fire-resistant."
+    "explanation": "Low-cost listings are the most likely to use vague 'fireproof' language without independent backing; require a specific classification before treating a budget product as genuinely fire-resistant. With prices in this roundup ranging roughly $30 to $100, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Usable Capacity Per Dollar",
-    "explanation": "Compare interior dimensions, not just price, since a cheaper safe with a smaller usable interior may not actually be the better value."
+    "explanation": "Compare interior dimensions, not just price, since a cheaper safe with a smaller usable interior may not actually be the better value. Given the real spread here, from about $30 up to $100, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Understand the Security Level You're Paying For",
-    "explanation": "Budget safes generally use privacy-level locks rather than serious burglary deterrence; confirm this matches your actual security needs before buying on price alone."
+    "explanation": "Budget safes generally use privacy-level locks rather than serious burglary deterrence; confirm this matches your actual security needs before buying on price alone. Across this comparison's $30 to $100 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Warranty and Return Practicality",
-    "explanation": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price."
+    "explanation": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price. Products at the low end near $30 and the high end near $100 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -235,7 +275,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550-degreeF, 1 hour at 1700-degreeF, or 2 hours at 1850-degreeF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",
@@ -245,6 +285,8 @@ export const faq = [
     "q": "Does the cubic-foot rating on a safe match its real usable storage space?",
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-under-200","title":"Best Fireproof Safes Under $200 in 2026"},{"href":"/guide/best-fireproof-safes-under-300","title":"Best Fireproof Safes Under $300 in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenzas-for-home-office";
 export const guideTitle = "8 Best Office Credenzas for Home Office in 2026";
 export const metaTitle = "Best Office Credenzas for Home Office 2026";
-export const metaDescription = "We compared office credenzas for home office by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenzas for home office by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking.";
 export const mainKeyword = "office credenzas for home office";
 export const introParagraphs = [
   "The real test for office credenzas for home office comes down to measuring residential footprint with doors and drawers fully open, not a glance at the product photo.",
@@ -199,28 +199,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Budget Real Assembly Time and Carton Weight",
     "note": "Check carton weight and whether one or two people are needed for setup, since RTA home-office furniture varies significantly in assembly complexity."
   }
+,
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top."
+      },
+      {
+        "label": "Save if",
+        "text": "43\" Wood File Cabinet with Power Outlet is aimed at buyers prioritizing 43.3in wide desktop, 2 file drawers."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Measure Residential Footprint With Everything Open",
-    "explanation": "Check office credenzas for home office's footprint with doors and drawers fully open, and account for baseboards, since residential rooms often have less clearance margin than a commercial office layout."
+    "explanation": "Check office credenzas for home office's footprint with doors and drawers fully open, and account for baseboards, since residential rooms often have less clearance margin than a commercial office layout. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Printer or Equipment Fit on Top",
-    "explanation": "Place your actual printer, scanner, or monitor setup on the top surface mentally and check ventilation and cable reach before assuming it fits."
+    "explanation": "Place your actual printer, scanner, or monitor setup on the top surface mentally and check ventilation and cable reach before assuming it fits. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Balance File Drawers With Closed Supply Storage",
-    "explanation": "Check that the credenza includes both file drawers and closed supply storage, not just decorative open shelving, for genuine home-office use."
+    "explanation": "Check that the credenza includes both file drawers and closed supply storage, not just decorative open shelving, for genuine home-office use. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Wall-Outlet and Plug-Bend Clearance",
-    "explanation": "Measure plug-bend clearance behind the unit so it can sit close to the wall without crushing power cords."
+    "explanation": "Measure plug-bend clearance behind the unit so it can sit close to the wall without crushing power cords. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Budget Real Assembly Time and Carton Weight",
-    "explanation": "Check carton weight and whether one or two people are needed for setup, since RTA home-office furniture varies significantly in assembly complexity."
+    "explanation": "Check carton weight and whether one or two people are needed for setup, since RTA home-office furniture varies significantly in assembly complexity. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +259,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

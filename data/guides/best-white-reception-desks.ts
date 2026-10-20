@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Use Approved Cleaners for the Specific Finish",
     "note": "Use approved cleaners and note that glossy white finishes can show streaking or yellowing over time if the wrong cleaning products are used."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $89.99",
+          "GIANTEX Reception Desk with Round Tabletop and Corner Shelf"
+        ],
+        [
+          "Around $94.99",
+          "OmySalon Reception Desk with Counter"
+        ],
+        [
+          "Around $159.99",
+          "55\" L-Shaped Reception Desk with LED Lights & Power Outlets"
+        ],
+        [
+          "Around $205.99",
+          "LITTLE TREE 57-Inch Boho Reception Desk with Counter"
+        ],
+        [
+          "Around $369.99",
+          "ZIMASYA 63\" Reception Desk with Dual-Level Counter"
+        ],
+        [
+          "Around $559.99",
+          "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
+        ],
+        [
+          "Around $649.99",
+          "ZIMASYA 87\" Reception Counter with Combination Lock Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual White Finish System",
-    "explanation": "Identify the actual white finish system, laminate, paint, powder coat, or veneer stain, rather than ranking color alone."
+    "explanation": "Identify the actual white finish system, laminate, paint, powder coat, or veneer stain, rather than ranking color alone. Across this comparison's $90 to $650 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Fingerprint and Dust Visibility",
-    "explanation": "Evaluate fingerprints, dust, scuffs, and streaking under typical lobby lighting, since white finishes often show scuffs and fingerprints more readily than darker tones."
+    "explanation": "Evaluate fingerprints, dust, scuffs, and streaking under typical lobby lighting, since white finishes often show scuffs and fingerprints more readily than darker tones. Products at the low end near $90 and the high end near $650 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Whether Scratches Reveal a Contrasting Substrate",
-    "explanation": "Check whether scratches reveal a darker substrate underneath, which is more visually jarring on white than on a mid-tone wood finish."
+    "explanation": "Check whether scratches reveal a darker substrate underneath, which is more visually jarring on white than on a mid-tone wood finish. This matters in practice because the picks in this comparison span from about $90 to $650, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Color Consistency Across Modules",
-    "explanation": "Compare color consistency across desk, return, counter, and storage modules if buying a multi-piece white system, since white finishes can show slight batch variation."
+    "explanation": "Compare color consistency across desk, return, counter, and storage modules if buying a multi-piece white system, since white finishes can show slight batch variation. With prices in this roundup ranging roughly $90 to $650, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Use Approved Cleaners for the Specific Finish",
-    "explanation": "Use approved cleaners and note that glossy white finishes can show streaking or yellowing over time if the wrong cleaning products are used."
+    "explanation": "Use approved cleaners and note that glossy white finishes can show streaking or yellowing over time if the wrong cleaning products are used. Given the real spread here, from about $90 up to $650, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "55\" L-Shaped Reception Desk with LED Lights & Power Outlets is aimed at buyers prioritizing 55.1\"w x 19.7\"d l-shaped desk, 44.7\"h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-black-reception-desks","title":"5 Best Black Reception Desks in 2026"},{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-storage","title":"best-reception-desks-with-storage"}];

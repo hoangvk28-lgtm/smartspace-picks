@@ -192,32 +192,129 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $9.99",
+          "TP-Link LS1005G Litewave 5-Port Gigabit Switch"
+        ],
+        [
+          "Around $13.49",
+          "NETGEAR GS305 5-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $14.99",
+          "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $18.99",
+          "NETGEAR GS308 8-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $19.79",
+          "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $34.99",
+          "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch"
+        ],
+        [
+          "Around $44.99",
+          "TP-Link TL-SG1005P 5-Port Gigabit PoE Switch"
+        ],
+        [
+          "Around $59.99",
+          "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity."
+      },
+      {
+        "label": "Save if",
+        "text": "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output)."
+      }
+    ]
+  },
+  {
+    "subheading": "TP-Link LS1005G Litewave 5-Port Gigabit Switch vs TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch",
+    "cards": [
+      {
+        "label": "TP-Link LS1005G Litewave 5-Port Gigabit Switch",
+        "text": "Aimed at buyers prioritizing 5 ports (1 uplink + 4 output)."
+      },
+      {
+        "label": "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch",
+        "text": "Aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity."
+      }
+    ],
+    "note": "Default to TP-Link LS1005G Litewave 5-Port Gigabit Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping; NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless."
+      }
+    ]
+  },
+  {
+    "subheading": "For Budget-Conscious Buyers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lowest price that still covers your actual must-have requirements, not just the lowest price on the page."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output), at $9.99."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Port count is a headroom decision, not a current-need one",
-    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure."
+    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure. With prices in this roundup ranging roughly $10 to $60, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "PoE budget is a shared pool, not per-port",
-    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare."
+    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare. Given the real spread here, from about $10 up to $60, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Managed vs unmanaged changes what you can diagnose later",
-    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device."
+    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device. Across this comparison's $10 to $60 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Fanless does not always mean silent under load",
-    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters."
+    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters. Products at the low end near $10 and the high end near $60 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Multi-gig speed needs matching cable and network gear",
-    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra."
+    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra. This matters in practice because the picks in this comparison span from about $10 to $60, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Renewed enterprise gear needs a licensing check first",
-    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box."
+    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box. With prices in this roundup ranging roughly $10 to $60, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -226,6 +323,12 @@ export const faq = [
     "q": "Will a desktop switch's fanless design still get warm?",
     "a": "Yes, some warmth is normal and expected even in a fanless design, the metal housing itself acts as a passive heatsink. This is not a malfunction as long as it's not hot to the touch."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output), and at $9.99 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $9.99 to $59.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-network-switches","title":"8 Best Mini Network Switches in 2026"},{"href":"/guide/best-quiet-network-switches","title":"8 Best Quiet Network Switches in 2026"},{"href":"/guide/best-compact-usb-c-ethernet-adapters","title":"best-compact-usb-c-ethernet-adapters"}];

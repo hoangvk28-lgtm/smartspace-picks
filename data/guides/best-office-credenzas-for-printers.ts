@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenzas-for-printers";
 export const guideTitle = "8 Best Office Credenzas for Printers in 2026";
 export const metaTitle = "Best Office Credenzas for Printers 2026";
-export const metaDescription = "We compared office credenzas for printers by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenzas for printers by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "office credenzas for printers";
 export const introParagraphs = [
   "Best Office Credenzas for Printers looks straightforward from the outside, but the real differentiator between models is checking documented top load rating against your printer's real footprint and weight.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Store Consumables Without Blocking Vents",
     "note": "Keep paper and toner storage away from any vents or intake points on the printer to avoid overheating or airflow issues during heavy print jobs."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $108.29",
+          "6 Drawer File Cabinet with Charging Station and Open Storage Shelf"
+        ],
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $149.99",
+          "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
+        ],
+        [
+          "Around $159.99",
+          "44\" File Cabinet"
+        ],
+        [
+          "Around $249.99",
+          "72'' Tall File Bookcase with Power Outlet & Printer Stand"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Printer Footprint Against Top Dimensions",
-    "explanation": "Check your actual printer's footprint, including open paper trays, against office credenzas for printers's top width and depth, since a decorative credenza top is not automatically printer-ready."
+    "explanation": "Check your actual printer's footprint, including open paper trays, against office credenzas for printers's top width and depth, since a decorative credenza top is not automatically printer-ready. With prices in this roundup ranging roughly $108 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Documented Load Guidance",
-    "explanation": "Look for a stated top load rating before assuming any flat surface can support a multifunction printer indefinitely, especially with paper loaded."
+    "explanation": "Look for a stated top load rating before assuming any flat surface can support a multifunction printer indefinitely, especially with paper loaded. Given the real spread here, from about $108 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Leave Access for Jams and Scanner Lids",
-    "explanation": "Check for rear and top clearance for paper jams, scanner lids, and consumable swaps, since a tight installation can make routine printer maintenance genuinely difficult."
+    "explanation": "Check for rear and top clearance for paper jams, scanner lids, and consumable swaps, since a tight installation can make routine printer maintenance genuinely difficult. Across this comparison's $108 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map Power and Data Cable Routing",
-    "explanation": "Plan for power, USB, or Ethernet cable routing without crushed plugs, particularly if the credenza sits flush against a wall."
+    "explanation": "Plan for power, USB, or Ethernet cable routing without crushed plugs, particularly if the credenza sits flush against a wall. Products at the low end near $108 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Store Consumables Without Blocking Vents",
-    "explanation": "Keep paper and toner storage away from any vents or intake points on the printer to avoid overheating or airflow issues during heavy print jobs."
+    "explanation": "Keep paper and toner storage away from any vents or intake points on the printer to avoid overheating or airflow issues during heavy print jobs. This matters in practice because the picks in this comparison span from about $108 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

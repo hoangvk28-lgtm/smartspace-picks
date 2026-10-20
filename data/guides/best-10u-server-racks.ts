@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41jmSLiGm8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CXW2V714?tag=deskfinds0d-20",
-    description: "Pyle includes a genuinely large hardware bundle here, 70 sets of screws plus 50 sets of hexagon screws, two screwdrivers, and a wrench, more tools than most competitors bother including.\n\nAt 440 lbs capacity with 1U and 2U vented shelves included, it's built for both wall and floor installation with lockable wheels for the floor-standing option.",
+    description: "Pyle includes a genuinely large hardware bundle here, 70 sets of screws plus 50 sets of hexagon screws, two screwdrivers, and a wrench, more tools than most competitors bother including.\n\nAt 440 lbs capacity with 1U and 2U vented shelves included, it's built for both wall and floor installation with lockable wheels for the floor-standing option.\n\nWhere this one earns its spot is ships with an unusually complete tool and hardware kit, and both wall and floor mounting options in one rack. Worth noting before buying: 440 lb rating trails some heavier-duty 10U alternatives, which matters more at $123.99 than it would on a cheaper pick.",
     specs: ["10U, 20.04\" x 20.42\" x 17.5\"","440 lb weight capacity","1U and 2U vented shelves included"],
     pros: ["Ships with an unusually complete tool and hardware kit","Both wall and floor mounting options in one rack","Lockable wheels add stability for the floor-standing setup"],
     cons: ["440 lb rating trails some heavier-duty 10U alternatives","Open frame provides no enclosed protection"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fYi9VfrPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B346HB5X?tag=deskfinds0d-20",
-    description: "Vivlly claims a genuinely strong 400 lb floor-standing capacity, notably higher than the 150-200 lb range the listing says competitors typically offer at this size.\n\nTwo 1U vented shelves ship included and can be repositioned up, down, or facing different directions, giving real flexibility for how you arrange equipment inside the frame.",
+    description: "Vivlly claims a genuinely strong 400 lb floor-standing capacity, notably higher than the 150-200 lb range the listing says competitors typically offer at this size.\n\nTwo 1U vented shelves ship included and can be repositioned up, down, or facing different directions, giving real flexibility for how you arrange equipment inside the frame.\n\nThis pick is best for buyers who value 400 lb floor rating beats many similarly sized racks along with shelves reposition in multiple directions for flexible layouts. The catch is that wall-mount capacity is much lower at 150 lbs, so decide if that's worth it at $94.95.",
     specs: ["10U, 17.5\"H x 20.24\"D","400 lb floor / 150 lb wall capacity","2 repositionable vented shelves"],
     pros: ["400 lb floor rating beats many similarly sized racks","Shelves reposition in multiple directions for flexible layouts","Assembly claimed at around 20 minutes"],
     cons: ["Wall-mount capacity is much lower at 150 lbs","Stackable claim needs care to confirm actual stability"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $62.09",
+          "RIVECO 10U Desktop Rack for Audio & Network Devices"
+        ],
+        [
+          "Around $84.90",
+          "VEVOR 10U Server Rack"
+        ],
+        [
+          "Around $94.95",
+          "Vivlly 10U Server Rack Heavy Duty Open Frame"
+        ],
+        [
+          "Around $123.99",
+          "Pyle 10U Advanced Open Frame Server Rack"
+        ],
+        [
+          "Around $174.99",
+          "ECHOGEAR 10U Open Frame Rack"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 10u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 10u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Products at the low end near $62 and the high end near $175 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. This matters in practice because the picks in this comparison span from about $62 to $175, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. With prices in this roundup ranging roughly $62 to $175, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Given the real spread here, from about $62 up to $175, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Across this comparison's $62 to $175 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ECHOGEAR 10U Open Frame Rack is aimed at buyers prioritizing 10u, 20.4\" depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-mid-century-modern-office-credenzas";
 export const guideTitle = "8 Best Mid-Century Modern Office Credenzas in 2026";
 export const metaTitle = "Best Mid-Century Modern Office Credenzas 2026";
-export const metaDescription = "We compared mid-century modern office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared mid-century modern office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than.";
 export const mainKeyword = "mid-century modern office credenzas";
 export const introParagraphs = [
   "A quick scan of mid-century modern office credenzas listings rarely settles the question of judging construction details instead of a style label for office durability, so that's where we started.",
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51yayDfWVmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRRTR25P?tag=deskfinds0d-20",
-    description: "Six doors across the full 67 inch width give this more individual storage compartments than most credenzas in this cluster, useful for keeping different categories of supplies genuinely separated rather than piled together. The patented vertical fluted door design, covered under USPTO Patent USD1133647, is a distinct enough look that it is worth confirming it fits the room before ordering.\n\nThe spacious top surface is sized for décor, a coffee setup, or media equipment rather than just being leftover space above the doors. Engineered wood construction with a water-resistant surface is built to wipe clean easily and resist everyday spills, a practical detail for a piece doing double duty as a credenza and a buffet.",
+    description: "Six doors across the full 67 inch width give this more individual storage compartments than most credenzas in this cluster, useful for keeping different categories of supplies genuinely separated rather than piled together. The patented vertical fluted door design, covered under USPTO Patent USD1133647, is a distinct enough look that it is worth confirming it fits the room before ordering.\n\nThe spacious top surface is sized for decor, a coffee setup, or media equipment rather than just being leftover space above the doors. Engineered wood construction with a water-resistant surface is built to wipe clean easily and resist everyday spills, a practical detail for a piece doing double duty as a credenza and a buffet.",
     specs: ["67in wide, 6 doors","Patented fluted door design (USD1133647)","Water-resistant, wipe-clean surface"],
     pros: ["Six separate doors keep categories genuinely apart","Surface wipes clean and resists everyday spills","Patented fluted design stands out from generic looks"],
     cons: ["Fluted design won't blend into every decor","No file drawer or hanging-folder storage included"],
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Replacement Hardware Availability",
     "note": "Confirm whether replacement handles, doors, or finish-repair options exist for this specific style line, since decorative hardware is not always a standard, easily replaceable part."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $119.99",
+          "Smuxee Walnut Sideboard Cabinet"
+        ],
+        [
+          "Around $249.99",
+          "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $279.99",
+          "67\" Fluted Walnut Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $583.32",
+          "Bme Sideboard Georgina Solid Wood 2 Doors & 3 Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Define the Style Through Construction, Not Marketing",
-    "explanation": "Look at mid-century modern office credenzas's actual leg, door, and case construction details rather than trusting the style label alone, since modern, contemporary, mid-century, and industrial products can share very similar engineered substrates."
+    "explanation": "Look at mid-century modern office credenzas's actual leg, door, and case construction details rather than trusting the style label alone, since modern, contemporary, mid-century, and industrial products can share very similar engineered substrates. With prices in this roundup ranging roughly $120 to $583, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Inspect Legs and Open Frames for Durability",
-    "explanation": "Check leg and frame construction specifically for office-use durability, since decorative open-leg bases can flex more under repeated equipment weight than a solid case."
+    "explanation": "Check leg and frame construction specifically for office-use durability, since decorative open-leg bases can flex more under repeated equipment weight than a solid case. Given the real spread here, from about $120 up to $583, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Test Base Stability Under Load",
-    "explanation": "Consider stability with drawers loaded and equipment on top, since decorative slatted or open-frame bases can behave differently under real load than a solid-sided cabinet."
+    "explanation": "Consider stability with drawers loaded and equipment on top, since decorative slatted or open-frame bases can behave differently under real load than a solid-sided cabinet. Across this comparison's $120 to $583 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Cable Concealment Stays Serviceable",
-    "explanation": "Check that cables can stay hidden while remaining accessible for future changes, since some style-forward designs prioritize appearance over serviceability."
+    "explanation": "Check that cables can stay hidden while remaining accessible for future changes, since some style-forward designs prioritize appearance over serviceability. Products at the low end near $120 and the high end near $583 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Replacement Hardware Availability",
-    "explanation": "Confirm whether replacement handles, doors, or finish-repair options exist for this specific style line, since decorative hardware is not always a standard, easily replaceable part."
+    "explanation": "Confirm whether replacement handles, doors, or finish-repair options exist for this specific style line, since decorative hardware is not always a standard, easily replaceable part. This matters in practice because the picks in this comparison span from about $120 to $583, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Bme Sideboard Georgina Solid Wood 2 Doors & 3 Drawers is aimed at buyers prioritizing 61in wide, solid acacia wood + anti-warp mdf." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-contemporary-office-credenzas","title":"Best Contemporary Office Credenzas in 2026"},{"href":"/guide/best-modern-office-credenzas","title":"Best Modern Office Credenzas in 2026"},{"href":"/guide/best-industrial-office-credenzas","title":"Best Industrial Office Credenzas in 2026"}];

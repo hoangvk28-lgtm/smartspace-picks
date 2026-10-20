@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cable Visibility Through Transparent Sections",
     "note": "Check cable and monitor visibility through transparent sections and confirm concealment options, since glass's transparency can undermine cable management planning."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "SAMERY Tempered Glass Computer Desk"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE Modern Reception Desk"
+        ],
+        [
+          "Around $599.99",
+          "ALFA BUSINESS Modern Rectangle Reception Desk with Glass Counter"
+        ],
+        [
+          "Around $1,324.40",
+          "NBF Reception Desk with Glass Top Front Counter"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify the Glass's Structural Role",
-    "explanation": "Identify whether glass is the transaction top, infill panel, modesty panel, or primary surface, since these serve very different structural and visual roles."
+    "explanation": "Identify whether glass is the transaction top, infill panel, modesty panel, or primary surface, since these serve very different structural and visual roles. This matters in practice because the picks in this comparison span from about $144 to $1324, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Tempered or Safety Specification",
-    "explanation": "Verify tempered or safety glass specification and thickness where documented, since untempered glass poses a real safety risk in a high-traffic commercial setting."
+    "explanation": "Verify tempered or safety glass specification and thickness where documented, since untempered glass poses a real safety risk in a high-traffic commercial setting. With prices in this roundup ranging roughly $144 to $1324, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Inspect Edge Protection and Mounting",
-    "explanation": "Inspect exposed edge protection and mounting hardware, since unprotected glass edges are more prone to chipping or injury risk than a finished panel edge."
+    "explanation": "Inspect exposed edge protection and mounting hardware, since unprotected glass edges are more prone to chipping or injury risk than a finished panel edge. Given the real spread here, from about $144 up to $1324, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Evaluate Fingerprint and Reflection Visibility",
-    "explanation": "Evaluate fingerprints, reflections, and cleaning needs under typical lobby lighting, since glass surfaces generally require more frequent wiping than laminate."
+    "explanation": "Evaluate fingerprints, reflections, and cleaning needs under typical lobby lighting, since glass surfaces generally require more frequent wiping than laminate. Across this comparison's $144 to $1324 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Cable Visibility Through Transparent Sections",
-    "explanation": "Check cable and monitor visibility through transparent sections and confirm concealment options, since glass's transparency can undermine cable management planning."
+    "explanation": "Check cable and monitor visibility through transparent sections and confirm concealment options, since glass's transparency can undermine cable management planning. Products at the low end near $144 and the high end near $1324 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ALFA BUSINESS Modern Rectangle Reception Desk with Glass Counter is aimed at buyers prioritizing 63\"w x 23.7\"d desktop with tempered glass transaction top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-reception-desks","title":"best-modern-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"5 Best Quartz Reception Desks in 2026"},{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"}];

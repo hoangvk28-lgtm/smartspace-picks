@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41qlZLTMDLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DFMSNJVH?tag=deskfinds0d-20",
-    description: "One of the smallest switches in this entire category at 3.95 x 2.36 x 1 inches, the TI-PGLC50 packs 4 Gigabit PoE+ ports and 1 Gigabit uplink into an industrial-hardened housing rated for -40°C to 75°C operation.\n\nIt carries TRENDnet's 2-year Manufacturer Protection and NDAA/TAA compliance, with IEC 61000 EMS certifications for ESD, EFT, and surge protection that matter in electrically noisy industrial settings.",
-    specs: ["4x Gigabit PoE+ + 1 uplink, industrial","3.95 x 2.36 x 1in, -40°C to 75°C","IEC 61000 EMS certified"],
+    description: "One of the smallest switches in this entire category at 3.95 x 2.36 x 1 inches, the TI-PGLC50 packs 4 Gigabit PoE+ ports and 1 Gigabit uplink into an industrial-hardened housing rated for -40-degreeC to 75-degreeC operation.\n\nIt carries TRENDnet's 2-year Manufacturer Protection and NDAA/TAA compliance, with IEC 61000 EMS certifications for ESD, EFT, and surge protection that matter in electrically noisy industrial settings.",
+    specs: ["4x Gigabit PoE+ + 1 uplink, industrial","3.95 x 2.36 x 1in, -40-degreeC to 75-degreeC","IEC 61000 EMS certified"],
     pros: ["Among the smallest industrial PoE switches available","IEC 61000 EMS certification for noisy environments","2-year TRENDnet warranty"],
     cons: ["Power supply sold separately","Small port count limits scale"],
     bestFor: "buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial",
@@ -135,40 +135,131 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "A Note on This Brand's Product Pool",
     "note": "This covers Moxa's verified current Amazon catalog, entry-level EDS-205/208 series models. For Moxa's higher-tier EDS-2000-EL or EDS-4000 series with more advanced management and certification options, check Moxa's direct sales channel."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $79.99",
+          "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch"
+        ],
+        [
+          "Around $92.00",
+          "Moxa EDS-205 5-Port Entry-Level Switch"
+        ],
+        [
+          "Around $102.00",
+          "Moxa EDS-205A 5-Port Aluminum Switch"
+        ],
+        [
+          "Around $150.00",
+          "Moxa EDS-208A 8-Port Aluminum Switch"
+        ],
+        [
+          "Around $800.00",
+          "Moxa EDS-308-SS-SC Industrial Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Moxa EDS-308-SS-SC Industrial Switch is aimed at buyers prioritizing 6 copper + 2 single-mode sc fiber ports."
+      },
+      {
+        "label": "Save if",
+        "text": "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial."
+      }
+    ]
+  },
+  {
+    "subheading": "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch vs Moxa EDS-308-SS-SC Industrial Switch",
+    "cards": [
+      {
+        "label": "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch",
+        "text": "Aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial."
+      },
+      {
+        "label": "Moxa EDS-308-SS-SC Industrial Switch",
+        "text": "Aimed at buyers prioritizing 6 copper + 2 single-mode sc fiber ports."
+      }
+    ],
+    "note": "Default to TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Moxa EDS-205 5-Port Entry-Level Switch is aimed at buyers prioritizing 5x 10/100btx ports; Moxa EDS-205A 5-Port Aluminum Switch is aimed at buyers prioritizing 5 ports, ip30 aluminum housing."
+      }
+    ]
+  },
+  {
+    "subheading": "For Budget-Conscious Buyers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lowest price that still covers your actual must-have requirements, not just the lowest price on the page."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial, at $79.99."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Port count is a headroom decision, not a current-need one",
-    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure."
+    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure. Given the real spread here, from about $80 up to $800, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "PoE budget is a shared pool, not per-port",
-    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare."
+    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare. Across this comparison's $80 to $800 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Managed vs unmanaged changes what you can diagnose later",
-    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device."
+    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device. Products at the low end near $80 and the high end near $800 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Fanless does not always mean silent under load",
-    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters."
+    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters. This matters in practice because the picks in this comparison span from about $80 to $800, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Multi-gig speed needs matching cable and network gear",
-    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra."
+    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra. With prices in this roundup ranging roughly $80 to $800, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Renewed enterprise gear needs a licensing check first",
-    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box."
+    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box. Given the real spread here, from about $80 up to $800, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
 export const faq = [
   {
     "q": "What makes Moxa different from other industrial switch brands?",
-    "a": "Moxa specializes specifically in hazardous-location and maritime-rated certifications (Class I Div. 2/ATEX Zone 2, DNV/LR/ABS/NK) beyond the general -40°C to 75°C rating common to industrial switches, relevant for genuinely hazardous or maritime deployment environments."
+    "a": "Moxa specializes specifically in hazardous-location and maritime-rated certifications (Class I Div. 2/ATEX Zone 2, DNV/LR/ABS/NK) beyond the general -40-degreeC to 75-degreeC rating common to industrial switches, relevant for genuinely hazardous or maritime deployment environments."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Moxa EDS-205 5-Port Entry-Level Switch is aimed at buyers prioritizing 5x 10/100btx ports." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TRENDnet TI-PGLC50 5-Port Industrial PoE+ Switch is aimed at buyers prioritizing 4x gigabit poe+ + 1 uplink, industrial, and at $79.99 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $79.99 to $800.00, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Moxa EDS-308-SS-SC Industrial Switch is aimed at buyers prioritizing 6 copper + 2 single-mode sc fiber ports. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Moxa EDS-205A 5-Port Aluminum Switch is aimed at buyers prioritizing 5 ports, ip30 aluminum housing." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-industrial-network-switches","title":"5 Best Industrial Network Switches in 2026"},{"href":"/guide/best-din-rail-network-switches","title":"8 Best DIN-Rail Network Switches in 2026"},{"href":"/guide/best-rugged-network-switches","title":"5 Best Rugged Network Switches in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-budget-office-credenzas";
 export const guideTitle = "8 Best Budget Office Credenzas in 2026";
 export const metaTitle = "Best Budget Office Credenzas 2026";
-export const metaDescription = "We compared budget office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared budget office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "budget office credenzas";
 export const introParagraphs = [
   "The real test for budget office credenzas comes down to verifying real interior dimensions instead of trusting exterior width or door count, not a glance at the product photo.",
@@ -199,28 +199,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Ownership Details",
     "note": "Factor in assembly complexity, warranty terms, and replacement-part availability as part of the real cost of ownership."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $89.99",
+          "DEVAISE Office File Cabinet"
+        ],
+        [
+          "Around $93.49",
+          "REHOOPEX Black Storage Cabinet with Doors"
+        ],
+        [
+          "Around $95.39",
+          "Vrullu Modern Storage Cabinet"
+        ],
+        [
+          "Around $104.99",
+          "DEVAISE 5-Drawer Wood Drawer Cabinet"
+        ],
+        [
+          "Around $127.99",
+          "2-Drawer File Cabinet"
+        ],
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $149.99",
+          "Buffet Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Classify Function Before Comparing",
-    "explanation": "Determine whether budget office credenzas is a storage credenza, credenza desk, or file-oriented credenza before comparing it to other products, since the category spans genuinely different furniture types."
+    "explanation": "Determine whether budget office credenzas is a storage credenza, credenza desk, or file-oriented credenza before comparing it to other products, since the category spans genuinely different furniture types. Products at the low end near $90 and the high end near $150 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Interior Dimensions",
-    "explanation": "Check actual interior dimensions rather than trusting exterior width or door count alone."
+    "explanation": "Check actual interior dimensions rather than trusting exterior width or door count alone. This matters in practice because the picks in this comparison span from about $90 to $150, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm File and Lock Details",
-    "explanation": "Verify letter/legal file compatibility and exactly which compartments lock, rather than assuming from a general description."
+    "explanation": "Verify letter/legal file compatibility and exactly which compartments lock, rather than assuming from a general description. With prices in this roundup ranging roughly $90 to $150, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Top Load and Cable Access",
-    "explanation": "Confirm the top surface's documented load capacity and cable routing if it will support a printer or other equipment."
+    "explanation": "Confirm the top surface's documented load capacity and cable routing if it will support a printer or other equipment. Given the real spread here, from about $90 up to $150, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Weigh Ownership Details",
-    "explanation": "Factor in assembly complexity, warranty terms, and replacement-part availability as part of the real cost of ownership."
+    "explanation": "Factor in assembly complexity, warranty terms, and replacement-part availability as part of the real cost of ownership. Across this comparison's $90 to $150 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -245,6 +285,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Vrullu Modern Storage Cabinet is aimed at buyers prioritizing 30.3in w x 14.5in d x 31.5in h, 2 widened shelves." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

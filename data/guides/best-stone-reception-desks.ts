@@ -1,7 +1,7 @@
 export const guideSlug = "best-stone-reception-desks";
 export const guideTitle = "3 Best Stone Reception Desks in 2026";
 export const metaTitle = "Best Stone Reception Desks 2026";
-export const metaDescription = "We verified whether each stone reception desk uses genuine stone, engineered material, or a laminate look before ranking, since weight and care differ significantly.";
+export const metaDescription = "We verified whether each stone reception desk uses genuine stone, engineered material, or a laminate look before ranking.";
 export const mainKeyword = "stone reception desk";
 export const introParagraphs = [
   "Stone reception desks need actual surface construction verified because the label may describe natural material, engineered material, veneer, or a printed look, and each carries very different weight and care requirements.",
@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Calculate Top Weight for Installation",
     "note": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $299.99",
+          "Kikihouse 63\" Fluted Reception Desk with LED"
+        ],
+        [
+          "Around $649.99",
+          "Anzhap 71\" L-Shaped Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify Genuine vs Look-Alike Stone",
-    "explanation": "Identify whether the stone surface is genuine, engineered, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly."
+    "explanation": "Identify whether the stone surface is genuine, engineered, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly. This matters in practice because the picks in this comparison span from about $170 to $650, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Surface and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate performs very differently than a genuine or engineered stone slab."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate performs very differently than a genuine or engineered stone slab. With prices in this roundup ranging roughly $170 to $650, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Staining and Chemical Sensitivity",
-    "explanation": "Use manufacturer care guidance to compare staining, etching, or chemical sensitivity, since genuine and engineered stone react differently to common cleaning products than laminate."
+    "explanation": "Use manufacturer care guidance to compare staining, etching, or chemical sensitivity, since genuine and engineered stone react differently to common cleaning products than laminate. Given the real spread here, from about $170 up to $650, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Inspect Seam Placement",
-    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single slab isn't practical."
+    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single slab isn't practical. Across this comparison's $170 to $650 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Calculate Top Weight for Installation",
-    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents."
+    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents. Products at the low end near $170 and the high end near $650 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Anzhap 71\" L-Shaped Reception Desk is aimed at buyers prioritizing 71\" l-shaped desk, two-tone walnut & stone gray finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"},{"href":"/guide/best-granite-reception-desks","title":"best-granite-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"best-quartz-reception-desks"}];

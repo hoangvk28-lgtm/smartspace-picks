@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41OZUgDoH2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07NKG2BJ6?tag=deskfinds0d-20",
-    description: "A very compact 2U vertical rack for mounting a router, modem, or small switch directly to a wall, with mounting holes spaced exactly 16 inches apart to hit standard wall studs.\n\nCable punchouts and tie bridges keep it tidy even at this small scale, and it takes up minimal wall space compared to a full horizontal rack for just one or two devices.",
+    description: "A very compact 2U vertical rack for mounting a router, modem, or small switch directly to a wall, with mounting holes spaced exactly 16 inches apart to hit standard wall studs.\n\nCable punchouts and tie bridges keep it tidy even at this small scale, and it takes up minimal wall space compared to a full horizontal rack for just one or two devices.\n\nThis pick is best for buyers who value 16\" mounting holes hit standard wall studs directly along with minimal footprint for just one or two small devices. The catch is that 60 lb capacity limits it to very light gear, so decide if that's worth it at $191.99.",
     specs: ["2U vertical, 60 lb weight capacity","Heavy gauge steel","16\" stud-spaced mounting holes"],
     pros: ["16\" mounting holes hit standard wall studs directly","Minimal footprint for just one or two small devices","Cable punchouts keep even a tiny setup tidy"],
     cons: ["60 lb capacity limits it to very light gear","Too small for anything beyond a couple of devices"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31kHUpg5tQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4D3QTLS?tag=deskfinds0d-20",
-    description: "This vertical enclosure mounts 4U of equipment along a wall rather than horizontally, ideal for hallways or narrow closets where a standard rack's width won't fit.\n\nThe 16-gauge steel construction is noticeably heavier duty than typical 4U wall boxes, and anti-theft locks add real security for equipment mounted in a shared or public-facing space.",
+    description: "This vertical enclosure mounts 4U of equipment along a wall rather than horizontally, ideal for hallways or narrow closets where a standard rack's width won't fit.\n\nThe 16-gauge steel construction is noticeably heavier duty than typical 4U wall boxes, and anti-theft locks add real security for equipment mounted in a shared or public-facing space.\n\nWhat stands out here is vertical mount fits narrow hallways horizontal racks can't, plus 132 lb rating beats most 4U wall enclosures. The main tradeoff: vertical orientation isn't ideal for every device shape, so weigh that against the $347.99 price before buying.",
     specs: ["4U vertical, 16.7-19.6\" adjustable depth","132 lb weight capacity","16-gauge steel, anti-theft locks"],
     pros: ["Vertical mount fits narrow hallways horizontal racks can't","132 lb rating beats most 4U wall enclosures","Anti-theft locks add real security in shared spaces"],
     cons: ["Vertical orientation isn't ideal for every device shape","Ships requiring careful fit-check on adjustable depth"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31MNXYU+BUL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4Q9MPTJ?tag=deskfinds0d-20",
-    description: "The shallowest of NavePoint's 6U vertical enclosures, adjusting from 20.6 to 23.6 inches, better suited to compact switches and patch panels than deep server chassis.\n\nLike the deeper models in this series, it keeps the same 132 lb rating and 16-gauge steel build, so you're not sacrificing capacity by choosing the shallower option.",
+    description: "The shallowest of NavePoint's 6U vertical enclosures, adjusting from 20.6 to 23.6 inches, better suited to compact switches and patch panels than deep server chassis.\n\nLike the deeper models in this series, it keeps the same 132 lb rating and 16-gauge steel build, so you're not sacrificing capacity by choosing the shallower option.\n\nThe strongest case for this pick comes down to shallowest option in the series fits tighter hallways as well as same 132 lb capacity as the deeper 6U models. The compromise here is that limited depth range rules out bulkier equipment, so factor that in alongside the $367.99 asking price.",
     specs: ["6U vertical, 20.6-23.6\" adjustable depth","132 lb weight capacity","16-gauge steel, perforated panels"],
     pros: ["Shallowest option in the series fits tighter hallways","Same 132 lb capacity as the deeper 6U models","Anti-theft locks included for shared-space installs"],
     cons: ["Limited depth range rules out bulkier equipment","Vertical mount still isn't ideal for every device"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/417ZFOQrXwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BPXFRZDM?tag=deskfinds0d-20",
-    description: "A small 2U enclosure that can mount either vertically or horizontally on a wall, giving flexibility for tight spaces where a standard horizontal rack won't fit.\n\nFour-sided venting and adjustable rack rail positions help it adapt to different equipment shapes, and bottom passable holes keep cable routing simple in either orientation.",
+    description: "A small 2U enclosure that can mount either vertically or horizontally on a wall, giving flexibility for tight spaces where a standard horizontal rack won't fit.\n\nFour-sided venting and adjustable rack rail positions help it adapt to different equipment shapes, and bottom passable holes keep cable routing simple in either orientation.\n\nWhere this one earns its spot is mounts either vertically or horizontally for tight spaces, and four-sided venting keeps small gear from overheating. Worth noting before buying: 60 lb capacity limits it to lighter gear, which matters more at $129.90 than it would on a cheaper pick.",
     specs: ["2U, vertical or horizontal mount","60 lb weight capacity","Four-sided vented enclosure"],
     pros: ["Mounts either vertically or horizontally for tight spaces","Four-sided venting keeps small gear from overheating","Adjustable rail positions fit different equipment shapes"],
     cons: ["60 lb capacity limits it to lighter gear","Too small for anything beyond a couple devices"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Stud Spacing for Wall Installs",
     "note": "Confirm mounting hole spacing matches actual wall stud spacing before ordering a vertical wall enclosure."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $58.35",
+          "StarTech 4U Vertical Wall-Mount Bracket"
+        ],
+        [
+          "Around $129.90",
+          "Tecmojo 2U Vertical/Horizontal Wall Mountable Server Rack"
+        ],
+        [
+          "Around $191.99",
+          "NavePoint 2U Vertical Wall Mountable Server Rack"
+        ],
+        [
+          "Around $347.99",
+          "NavePoint 4U Vertical Server Rack Enclosure"
+        ],
+        [
+          "Around $367.99",
+          "NavePoint 6U Vertical Server Rack Enclosure"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm Vertical Orientation Fits the Space",
-    "explanation": "Verify vertical server racks's vertical mounting genuinely fits a narrow hallway or tight space, since not every device works well oriented vertically."
+    "explanation": "Verify vertical server racks's vertical mounting genuinely fits a narrow hallway or tight space, since not every device works well oriented vertically. With prices in this roundup ranging roughly $58 to $368, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Adjustable Depth for Your Equipment",
-    "explanation": "Confirm the adjustable depth range matches your specific device length rather than assuming a vertical enclosure fits everything."
+    "explanation": "Confirm the adjustable depth range matches your specific device length rather than assuming a vertical enclosure fits everything. Given the real spread here, from about $58 up to $368, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Weight Rating Stays Consistent",
-    "explanation": "Check that the weight rating doesn't drop simply because the mount is vertical rather than horizontal."
+    "explanation": "Check that the weight rating doesn't drop simply because the mount is vertical rather than horizontal. Across this comparison's $58 to $368 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Cable Access Points",
-    "explanation": "Verify top and bottom cable access ports exist, since vertical mounts can make cable routing trickier without them."
+    "explanation": "Verify top and bottom cable access ports exist, since vertical mounts can make cable routing trickier without them. Products at the low end near $58 and the high end near $368 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Stud Spacing for Wall Installs",
-    "explanation": "Confirm mounting hole spacing matches actual wall stud spacing before ordering a vertical wall enclosure."
+    "explanation": "Confirm mounting hole spacing matches actual wall stud spacing before ordering a vertical wall enclosure. This matters in practice because the picks in this comparison span from about $58 to $368, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "StarTech 4U Vertical Wall-Mount Bracket is aimed at buyers prioritizing 4u vertical bracket, eia-310 compliant." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

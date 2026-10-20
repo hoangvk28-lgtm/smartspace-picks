@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/21wnTfbDzYL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0035PS5AE?tag=deskfinds0d-20",
-    description: "StarTech's rack PDU adds surge protection with LED indicators on top of the standard 8-outlet layout, plus a built-in circuit breaker with a manual reset switch.\n\nIt's backed by the same 2-year warranty and lifetime technical support as StarTech's racks, and the integrated power cord means one less loose cable to manage inside the cabinet.",
+    description: "StarTech's rack PDU adds surge protection with LED indicators on top of the standard 8-outlet layout, plus a built-in circuit breaker with a manual reset switch.\n\nIt's backed by the same 2-year warranty and lifetime technical support as StarTech's racks, and the integrated power cord means one less loose cable to manage inside the cabinet.\n\nThe strongest case for this pick comes down to surge protection LEDs show ground and protection status as well as backed by StarTech's 2-year warranty and support. The compromise here is that 6ft cord may be short for larger cabinets, so factor that in alongside the $57.83 asking price.",
     specs: ["1U, 8 outlets, 120V/15A","Surge protection with LED indicators","6ft integrated power cord"],
     pros: ["Surge protection LEDs show ground and protection status","Backed by StarTech's 2-year warranty and support","Reset switch handles overloads without replacing a fuse"],
     cons: ["6ft cord may be short for larger cabinets","8 outlets is standard, not extra capacity"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/21Ta-QFwZeL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00006B834?tag=deskfinds0d-20",
-    description: "This Tripp Lite PDU jumps to 12 outlets split six-front, six-rear, giving more flexibility for routing power to devices at different points in the rack.\n\nThe 15-foot cord is notably longer than most rack PDUs, useful if your outlet is further from the rack than usual, and it's backed by a Lifetime Limited Manufacturer's Warranty.",
+    description: "This Tripp Lite PDU jumps to 12 outlets split six-front, six-rear, giving more flexibility for routing power to devices at different points in the rack.\n\nThe 15-foot cord is notably longer than most rack PDUs, useful if your outlet is further from the rack than usual, and it's backed by a Lifetime Limited Manufacturer's Warranty.\n\nWhere this one earns its spot is 12 outlets split front and rear for flexible routing, and 15ft cord reaches outlets further from the rack. Worth noting before buying: longer cord takes more space to manage neatly, which matters more at $94.98 than it would on a cheaper pick.",
     specs: ["1U, 12 outlets (6 front, 6 rear)","15A/120V, 15ft power cord","Lifetime Limited Manufacturer's Warranty"],
     pros: ["12 outlets split front and rear for flexible routing","15ft cord reaches outlets further from the rack","Lifetime warranty backs the whole unit"],
     cons: ["Longer cord takes more space to manage neatly","No surge protection built into this specific model"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/315Gg7sd8kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F247MKG2?tag=deskfinds0d-20",
-    description: "A straightforward 1U rack PDU with 8 outlets and 15A overload protection, housed in an aluminum alloy casing rather than the thinner steel used on some budget PDUs.\n\nThe 6-foot power cord uses 14AWG wire, a heavier gauge than many competing PDUs, which matters for safely running higher continuous loads across all eight outlets.",
+    description: "A straightforward 1U rack PDU with 8 outlets and 15A overload protection, housed in an aluminum alloy casing rather than the thinner steel used on some budget PDUs.\n\nThe 6-foot power cord uses 14AWG wire, a heavier gauge than many competing PDUs, which matters for safely running higher continuous loads across all eight outlets.\n\nThis pick is best for buyers who value 14AWG cord handles higher continuous loads safely along with aluminum housing feels sturdier than typical steel PDUs. The catch is that no surge protection LED indicator on this model, so decide if that's worth it at $36.99.",
     specs: ["1U, 8 outlets, 15A/125V/1875W","Aluminum alloy housing","6ft 14AWG power cord"],
     pros: ["14AWG cord handles higher continuous loads safely","Aluminum housing feels sturdier than typical steel PDUs","Automatic overload trip protects connected gear"],
     cons: ["No surge protection LED indicator on this model","8 outlets can fill up fast with dense racks"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41REuQvWEoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DXKB3PH5?tag=deskfinds0d-20",
-    description: "A budget-friendly 8-outlet PDU with individually switched outlets, letting you power off single devices without cutting power to the whole strip.\n\nThe 1200 Joule surge protector automatically cuts power during voltage spikes, and swiveling mounting tabs mean it can stow flat when not rack-mounted, useful for garage or workbench use too.",
+    description: "A budget-friendly 8-outlet PDU with individually switched outlets, letting you power off single devices without cutting power to the whole strip.\n\nThe 1200 Joule surge protector automatically cuts power during voltage spikes, and swiveling mounting tabs mean it can stow flat when not rack-mounted, useful for garage or workbench use too.\n\nWhat stands out here is each outlet switches independently without full shutdown, plus 1200 Joule surge rating protects against spikes. The main tradeoff: metal shell adds weight versus plastic strips, so weigh that against the $35.99 price before buying.",
     specs: ["1U, 8 outlets, individually switched","1200 Joule surge protection","Swiveling stowable mounting tabs"],
     pros: ["Each outlet switches independently without full shutdown","1200 Joule surge rating protects against spikes","Mounting tabs swivel flat for non-rack use too"],
     cons: ["Metal shell adds weight versus plastic strips","8 outlets may not be enough for larger builds"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cord Length for Your Outlet Location",
     "note": "Confirm the included cord length reaches your actual wall outlet without a separate extension cord bridging the gap."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $35.99",
+          "HHSOET 8 Outlet PDU Power Strip"
+        ],
+        [
+          "Around $36.99",
+          "ElecVoztile 8 Outlet Rack Mount PDU Power Strip"
+        ],
+        [
+          "Around $57.83",
+          "StarTech 8-Outlet 1U PDU"
+        ],
+        [
+          "Around $94.98",
+          "Eaton Tripp Lite 12-Outlet 1U Rack Mount Power Strip PDU"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Check Continuous Amperage Against Your Circuit",
-    "explanation": "Confirm server rack pdus's continuous amperage rating stays well under your home's branch circuit capacity, since a PDU distributes outlets but doesn't increase available circuit power."
+    "explanation": "Confirm server rack pdus's continuous amperage rating stays well under your home's branch circuit capacity, since a PDU distributes outlets but doesn't increase available circuit power. This matters in practice because the picks in this comparison span from about $36 to $95, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Count Outlets Against Real Equipment",
-    "explanation": "Count actual devices needing power, including PDU-fed fans and accessories, against the outlet count rather than assuming extra room exists."
+    "explanation": "Count actual devices needing power, including PDU-fed fans and accessories, against the outlet count rather than assuming extra room exists. With prices in this roundup ranging roughly $36 to $95, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Surge Protection if Needed",
-    "explanation": "Check whether the PDU includes surge protection with a joule rating, since basic power strips often skip this."
+    "explanation": "Check whether the PDU includes surge protection with a joule rating, since basic power strips often skip this. Given the real spread here, from about $36 up to $95, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Mounting Orientation Fits the Rack",
-    "explanation": "Verify horizontal 1U mounting versus vertical 0U mounting matches how much rack space you want to dedicate to power distribution."
+    "explanation": "Verify horizontal 1U mounting versus vertical 0U mounting matches how much rack space you want to dedicate to power distribution. Across this comparison's $36 to $95 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Cord Length for Your Outlet Location",
-    "explanation": "Confirm the included cord length reaches your actual wall outlet without a separate extension cord bridging the gap."
+    "explanation": "Confirm the included cord length reaches your actual wall outlet without a separate extension cord bridging the gap. Products at the low end near $36 and the high end near $95 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "StarTech 8-Outlet 1U PDU is aimed at buyers prioritizing 1u, 8 outlets, 120v/15a." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

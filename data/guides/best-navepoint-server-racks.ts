@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41NDYgowgsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071ZDXSGK?tag=deskfinds0d-20",
-    description: "This open-frame 9U rack's dual-hinged front gate swings a full 180 degrees from either side, and can be removed entirely during assembly or heavy servicing for extra clearance.\n\nThreaded holes on one side of the gate and universal square holes on the other give it broad compatibility with different equipment mounting styles in one frame.",
+    description: "This open-frame 9U rack's dual-hinged front gate swings a full 180 degrees from either side, and can be removed entirely during assembly or heavy servicing for extra clearance.\n\nThreaded holes on one side of the gate and universal square holes on the other give it broad compatibility with different equipment mounting styles in one frame.\n\nWhat stands out here is gate opens 180 degrees from either side for rear access, plus gate is fully removable for heavy servicing sessions. The main tradeoff: 55 lb capacity is light for a 9U rack, so weigh that against the $139.99 price before buying.",
     specs: ["9U, 18\"L x 20\"W x 19.5\"H","55 lb weight capacity","180-degree removable swing gate"],
     pros: ["Gate opens 180 degrees from either side for rear access","Gate is fully removable for heavy servicing sessions","Both threaded and square holes fit mixed equipment"],
     cons: ["55 lb capacity is light for a 9U rack","Open-frame design leaves cables and gear exposed"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41wj0y1g40L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01I48EJOW?tag=deskfinds0d-20",
-    description: "This upgraded 22U enclosure adds a third shelf compared to earlier NavePoint models in this size, along with the same locking glass door and caster wheel mobility.\n\nThe extra shelf genuinely changes how you'd use this cabinet, giving room to spread equipment across three tiers rather than stacking directly on the rails.",
+    description: "This upgraded 22U enclosure adds a third shelf compared to earlier NavePoint models in this size, along with the same locking glass door and caster wheel mobility.\n\nThe extra shelf genuinely changes how you'd use this cabinet, giving room to spread equipment across three tiers rather than stacking directly on the rails.\n\nThe strongest case for this pick comes down to three shelves included instead of the usual one or two as well as locking glass door still keeps gear visible and secure. The compromise here is that 130 lb capacity stays the same despite the extra shelf, so factor that in alongside the $615.00 asking price.",
     specs: ["22U, 23.63\"L x 23.63\"W x 43\"H","130 lb weight capacity","3 shelves included"],
     pros: ["Three shelves included instead of the usual one or two","Locking glass door still keeps gear visible and secure","Reversible door design fits either side of a room"],
     cons: ["130 lb capacity stays the same despite the extra shelf","Three shelves reduce space available for rack-mount gear"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DLo22JuRL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072MKP6M4?tag=deskfinds0d-20",
-    description: "A 4-post 42U open frame rack rated for 881 lbs, with preset depth options at 600mm, 800mm, or 1000mm rather than a fully continuous adjustment range.\n\nTwo of the four included casters have brakes, letting you lock the rack in place once positioned without needing separate floor anchors.",
+    description: "A 4-post 42U open frame rack rated for 881 lbs, with preset depth options at 600mm, 800mm, or 1000mm rather than a fully continuous adjustment range.\n\nTwo of the four included casters have brakes, letting you lock the rack in place once positioned without needing separate floor anchors.\n\nWhere this one earns its spot is preset depth options simplify matching your server length, and two braked casters lock the rack in place once positioned. Worth noting before buying: preset depths are less flexible than fully continuous adjustment, which matters more at $443.99 than it would on a cheaper pick.",
     specs: ["42U, 31.5\"L x 23.31\"W x 79.06\"H","881 lb weight capacity","Preset 600/800/1000mm depth options"],
     pros: ["Preset depth options simplify matching your server length","Two braked casters lock the rack in place once positioned","4-post frame adds stability over a 2-post design"],
     cons: ["Preset depths are less flexible than fully continuous adjustment","79\" height needs a genuinely tall installation space"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41lYgDLYcxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072BXSTY8?tag=deskfinds0d-20",
-    description: "A compact wall-mount enclosure that fits 12U of gear into a 17.7-inch deep footprint, with a heat-treated tempered glass door and security lock as the standout feature.\n\nAt 110 lbs capacity it's built for switches, patch panels, and small NAS units rather than full servers, which matches its role as a space-conscious closet or office rack.",
+    description: "A compact wall-mount enclosure that fits 12U of gear into a 17.7-inch deep footprint, with a heat-treated tempered glass door and security lock as the standout feature.\n\nAt 110 lbs capacity it's built for switches, patch panels, and small NAS units rather than full servers, which matches its role as a space-conscious closet or office rack.\n\nThis pick is best for buyers who value locking glass door keeps gear visible and secured along with removable side panels simplify cable routing. The catch is that 110 lb limit rules out heavier server hardware, so decide if that's worth it at $182.99.",
     specs: ["12U, 17.72\"L x 21.65\"W x 24.42\"H","110 lb capacity","Locking tempered glass door"],
     pros: ["Locking glass door keeps gear visible and secured","Removable side panels simplify cable routing","Compact footprint fits tight closets and offices"],
     cons: ["110 lb limit rules out heavier server hardware","Fixed wall mount only, no floor-standing option"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41hJ3YzeGVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0728GSL2G?tag=deskfinds0d-20",
-    description: "The 15U version of NavePoint's swing-gate open frame rack, sharing the same dual-hinged 180-degree gate and removable design as the smaller 9U model.\n\nIt's built for the same passive-cooling, small-server-room use case as its siblings, just with more vertical room for a slightly larger equipment stack.",
+    description: "The 15U version of NavePoint's swing-gate open frame rack, sharing the same dual-hinged 180-degree gate and removable design as the smaller 9U model.\n\nIt's built for the same passive-cooling, small-server-room use case as its siblings, just with more vertical room for a slightly larger equipment stack.\n\nWhat stands out here is same flexible 180-degree gate as NavePoint's smaller models, plus open-frame design supports genuinely passive cooling. The main tradeoff: 55 lb capacity stays low despite the taller 15U size, so weigh that against the $173.99 price before buying.",
     specs: ["15U, 18\"L x 20\"W x 30\"H","55 lb weight capacity","180-degree removable swing gate"],
     pros: ["Same flexible 180-degree gate as NavePoint's smaller models","Open-frame design supports genuinely passive cooling","Square and threaded holes fit mixed equipment brands"],
     cons: ["55 lb capacity stays low despite the taller 15U size","No enclosure means zero dust or theft protection"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31qzq6Th7LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01A2JE1EE?tag=deskfinds0d-20",
-    description: "An enclosed 15U cabinet from NavePoint's Performance Series, built to the same 130 lb capacity and dual-fan cooling design as their smaller 12U model.\n\nAt 31 inches tall with casters attached, it's a genuinely tall wall cabinet that some buyers may prefer to install on the floor instead given the size.",
+    description: "An enclosed 15U cabinet from NavePoint's Performance Series, built to the same 130 lb capacity and dual-fan cooling design as their smaller 12U model.\n\nAt 31 inches tall with casters attached, it's a genuinely tall wall cabinet that some buyers may prefer to install on the floor instead given the size.\n\nThe strongest case for this pick comes down to same dual-fan cooling as NavePoint's smaller enclosed cabinets as well as reversible door design fits either side of a room. The compromise here is that 31\" height makes wall mounting genuinely challenging, so factor that in alongside the $349.99 asking price.",
     specs: ["15U, 23.63\"L x 23.63\"W x 31\"H","130 lb weight capacity","2 fans, lockable glass door"],
     pros: ["Same dual-fan cooling as NavePoint's smaller enclosed cabinets","Reversible door design fits either side of a room","Casters included despite being a wall-rated design"],
     cons: ["31\" height makes wall mounting genuinely challenging","130 lb capacity may feel tight for 15U of gear"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Post Configuration for Your Load",
     "note": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $139.99",
+          "NavePoint 9U Open-Frame Server Rack"
+        ],
+        [
+          "Around $173.99",
+          "NavePoint 15U Open Frame Server Rack"
+        ],
+        [
+          "Around $182.99",
+          "NavePoint 12U Server Rack Enclosure with Glass Door"
+        ],
+        [
+          "Around $349.99",
+          "NavePoint 15U Server Cabinet Wall Mount Rack Enclosure"
+        ],
+        [
+          "Around $443.99",
+          "NavePoint 42U 4 Post Server Rack"
+        ],
+        [
+          "Around $615.00",
+          "NavePoint 22U Server Rack Enclosure with Shelves"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which navepoint rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations."
+    "explanation": "Confirm which navepoint rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. Given the real spread here, from about $140 up to $615, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Publish Weight Rating by Mount Type",
-    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general."
+    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. Across this comparison's $140 to $615 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Rail Depth Against Your Equipment",
-    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit."
+    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. Products at the low end near $140 and the high end near $615 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Warranty and Included Hardware",
-    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model."
+    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. This matters in practice because the picks in this comparison span from about $140 to $615, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Post Configuration for Your Load",
-    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. With prices in this roundup ranging roughly $140 to $615, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "NavePoint 9U Open-Frame Server Rack is aimed at buyers prioritizing 9u, 18\"l x 20\"w x 19.5\"h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

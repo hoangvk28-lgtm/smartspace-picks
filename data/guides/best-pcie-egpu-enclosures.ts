@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Benchmark Against Thunderbolt Alternatives",
     "note": "Compare real performance against a Thunderbolt/USB4 option using the same GPU where possible, to confirm the direct-PCIe advantage is worth the added setup complexity."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $161.00",
+          "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4 (VK-Y900)"
+        ],
+        [
+          "Around $189.00",
+          "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
+        ],
+        [
+          "Around $189.50",
+          "TREBLEET 80Gbps eGPU Enclosure"
+        ],
+        [
+          "Around $279.99",
+          "External eGPU Enclosure with 240W PSU"
+        ],
+        [
+          "Around $299.99",
+          "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU"
+        ],
+        [
+          "Around $329.99",
+          "OWC Mercury Helios 5S Thunderbolt 5 80Gb/s PCIe Expansion"
+        ],
+        [
+          "Around $599.99",
+          "Sonnet Breakaway Box 850 T5 eGPU Enclosure"
+        ],
+        [
+          "Around $629.99",
+          "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm a Genuine Direct PCIe Connection",
-    "explanation": "Verify pcie egpu enclosures provides a real direct PCIe path rather than tunneling through another protocol, and check the documented PCIe generation and lane count."
+    "explanation": "Verify pcie egpu enclosures provides a real direct PCIe path rather than tunneling through another protocol, and check the documented PCIe generation and lane count. Products at the low end near $161 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Host-Side OCuLink or M.2 Wiring",
-    "explanation": "Confirm your host actually exposes the exact connector type (OCuLink, NVMe M.2) required, since this is far less standardized than Thunderbolt or USB4."
+    "explanation": "Confirm your host actually exposes the exact connector type (OCuLink, NVMe M.2) required, since this is far less standardized than Thunderbolt or USB4. This matters in practice because the picks in this comparison span from about $161 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Hot-Plug Limitations",
-    "explanation": "Verify whether the connection supports hot-plugging or requires a full shutdown before connecting or disconnecting, a real workflow difference from Thunderbolt."
+    "explanation": "Verify whether the connection supports hot-plugging or requires a full shutdown before connecting or disconnecting, a real workflow difference from Thunderbolt. With prices in this roundup ranging roughly $161 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Power Supply Format and Sizing",
-    "explanation": "Check ATX/SFX power supply compatibility and size it to your specific GPU's power draw, since these connections still need a separate PSU."
+    "explanation": "Check ATX/SFX power supply compatibility and size it to your specific GPU's power draw, since these connections still need a separate PSU. Given the real spread here, from about $161 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Benchmark Against Thunderbolt Alternatives",
-    "explanation": "Compare real performance against a Thunderbolt/USB4 option using the same GPU where possible, to confirm the direct-PCIe advantage is worth the added setup complexity."
+    "explanation": "Compare real performance against a Thunderbolt/USB4 option using the same GPU where possible, to confirm the direct-PCIe advantage is worth the added setup complexity. Across this comparison's $161 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Should I choose a Thunderbolt/USB4 enclosure or an OCuLink one?",
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

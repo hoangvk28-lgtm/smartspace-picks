@@ -1,7 +1,7 @@
 export const guideSlug = "best-desktop-cnc-machines-under-1000";
 export const guideTitle = "8 Best Desktop CNC Machines Under $1000 in 2026";
 export const metaTitle = "Best Desktop CNC Machines Under $1000 2026";
-export const metaDescription = "We compared desktop cnc machines under $1000 by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared desktop cnc machines under $1000 by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or.";
 export const mainKeyword = "desktop cnc machines under $1000";
 export const introParagraphs = [
   "Choosing among desktop cnc machines under $1000 means starting with verifying what's actually included at the sticker price before calling it a deal rather than price or star rating.",
@@ -75,11 +75,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Xwcf8fMTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9KCQ6C?tag=deskfinds0d-20",
-    description: "A 710W digital spindle is documented as 2.4 times stronger than the earlier 300W generation, with a real-time digital display removing the guesswork around overheating or underpowering. All-metal chassis construction paired with high-torque stepper motors targets wobble and vibration specifically.\n\n±0.03mm precision is backed by HG15 dual linear rails and 1204 ball screws on every axis, with dust protection on the X/Y axes and hidden cabling. The Genmitsu App handles remote control and troubleshooting, and it ships as two pre-assembled modules that cut assembly effort by roughly 80%, with setup claimed at around 10 minutes.",
-    specs: ["710W spindle, ±0.03mm precision","2 pre-assembled modules, ~10 min setup","HG15 rails + 1204 ball screws all axes"],
+    description: "A 710W digital spindle is documented as 2.4 times stronger than the earlier 300W generation, with a real-time digital display removing the guesswork around overheating or underpowering. All-metal chassis construction paired with high-torque stepper motors targets wobble and vibration specifically.\n\n+/-0.03mm precision is backed by HG15 dual linear rails and 1204 ball screws on every axis, with dust protection on the X/Y axes and hidden cabling. The Genmitsu App handles remote control and troubleshooting, and it ships as two pre-assembled modules that cut assembly effort by roughly 80%, with setup claimed at around 10 minutes.",
+    specs: ["710W spindle, +/-0.03mm precision","2 pre-assembled modules, ~10 min setup","HG15 rails + 1204 ball screws all axes"],
     pros: ["710W spindle is documented as 2.4x stronger than the prior generation","Ships as two pre-assembled modules for roughly 10-minute setup","Genmitsu App enables remote control and troubleshooting"],
-    cons: ["±0.03mm precision trails the tightest machines in this cluster","Large side-mounted e-stop adds bulk to the footprint"],
-    bestFor: "buyers prioritizing 710w spindle, ±0.03mm precision",
+    cons: ["+/-0.03mm precision trails the tightest machines in this cluster","Large side-mounted e-stop adds bulk to the footprint"],
+    bestFor: "buyers prioritizing 710w spindle, +/-0.03mm precision",
   },
   {
     id: "best-desktop-cnc-machines-under-1000-5",
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41K0w8BPrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F18TC7QL?tag=deskfinds0d-20",
-    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A Φ65mm spindle holder plus Φ52mm adapter cover spindle and laser swaps, and it's also compatible with Φ69mm brackets for further upgrades.",
-    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","Φ65mm + Φ52mm spindle/laser adapters included"],
+    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A 65mm dia. spindle holder plus 52mm dia. adapter cover spindle and laser swaps, and it's also compatible with 69mm dia. brackets for further upgrades.",
+    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","65mm dia. + 52mm dia. spindle/laser adapters included"],
     pros: ["Documented 1.5mm aluminum cut depth in a single pass","7.3 Nm of torque is a real, specific figure","Spindle and laser swap via included adapters"],
     cons: ["All-metal build adds weight versus lighter hobby routers","6500 RPM minimum speed limits very fine detail work"],
     bestFor: "buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque",
@@ -107,11 +107,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51eT9mTJYPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQJCDX58?tag=deskfinds0d-20",
-    description: "Repeat positioning accuracy up to 0.01mm and machining precision within ±0.1mm are both documented, checkable figures backed by a high-strength linear motion structure that avoids step loss and vibration. The 4AXIS Intelligent Controller V1.0 uses industrial-grade isolation chips built for 24/7 continuous operation.\n\nMGH12 linear guide rails with T8/T12 dual-nut lead screws support engraving speeds up to 2000mm/min, fast enough to engrave a brass seal in about 15 minutes. A 12,000 RPM spindle handles plastic, aluminum, brass, wood, PVC, POM, and PCB, and one-click switching converts the machine between CNC and laser modes instantly.",
-    specs: ["0.01mm repeat positioning, ±0.1mm machining precision","4-axis intelligent controller, industrial isolation chips","One-click CNC/laser mode switching"],
+    description: "Repeat positioning accuracy up to 0.01mm and machining precision within +/-0.1mm are both documented, checkable figures backed by a high-strength linear motion structure that avoids step loss and vibration. The 4AXIS Intelligent Controller V1.0 uses industrial-grade isolation chips built for 24/7 continuous operation.\n\nMGH12 linear guide rails with T8/T12 dual-nut lead screws support engraving speeds up to 2000mm/min, fast enough to engrave a brass seal in about 15 minutes. A 12,000 RPM spindle handles plastic, aluminum, brass, wood, PVC, POM, and PCB, and one-click switching converts the machine between CNC and laser modes instantly.",
+    specs: ["0.01mm repeat positioning, +/-0.1mm machining precision","4-axis intelligent controller, industrial isolation chips","One-click CNC/laser mode switching"],
     pros: ["0.01mm repeat positioning is a real, documented precision figure","One-click switching converts between CNC and laser modes instantly","95% pre-assembled, ready in under 10 minutes"],
     cons: ["12,000 RPM spindle is lower than premium 700W-class options here","4-axis controller adds complexity versus simpler 3-axis machines"],
-    bestFor: "buyers prioritizing 0.01mm repeat positioning, ±0.1mm machining precision",
+    bestFor: "buyers prioritizing 0.01mm repeat positioning, +/-0.1mm machining precision",
   },
   {
     id: "best-desktop-cnc-machines-under-1000-7",
@@ -139,11 +139,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pCr4H7f0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLXMJF32?tag=deskfinds0d-20",
-    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at ±0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
-    specs: ["Pre-assembled, enclosed, ±0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
+    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at +/-0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
+    specs: ["Pre-assembled, enclosed, +/-0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
     pros: ["Enclosure auto-pauses the job when opened, a real safety feature","Surface mapping compensates for uneven stock automatically","Ships pre-assembled, not as a build-it-yourself kit"],
     cons: ["Enclosed design caps maximum workpiece size","Positioning accuracy is modest next to ball-screw machines"],
-    bestFor: "buyers prioritizing pre-assembled, enclosed, ±0.1mm accuracy",
+    bestFor: "buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy",
   }
 ];
 
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Warranty and Replacement Support",
     "note": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $341.05",
+          "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
+        ],
+        [
+          "Around $437.89",
+          "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
+        ],
+        [
+          "Around $487.20",
+          "Genmitsu 3020-PRO Ultra CNC Router Machine"
+        ],
+        [
+          "Around $517.65",
+          "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
+        ],
+        [
+          "Around $519.99",
+          "Artsian 01 CNC Router Machine"
+        ],
+        [
+          "Around $549.00",
+          "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
+        ],
+        [
+          "Around $809.10",
+          "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal"
+        ],
+        [
+          "Around $899.00",
+          "FoxAlien Masuter 3S CNC Router Machine with NEMA 23 Closed-Loop Stepper Motor"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Price and List What's Included",
-    "explanation": "Verify desktop cnc machines under $1000's current price and list every component actually included, since low sticker price can exclude spindle, clamps, or software accessories."
+    "explanation": "Verify desktop cnc machines under $1000's current price and list every component actually included, since low sticker price can exclude spindle, clamps, or software accessories. Given the real spread here, from about $341 up to $899, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Run a Real Dimensional Test Cut",
-    "explanation": "Look for evidence of a dimensional test cut exposing rigidity or backlash limits, not just a controller-resolution claim."
+    "explanation": "Look for evidence of a dimensional test cut exposing rigidity or backlash limits, not just a controller-resolution claim. Across this comparison's $341 to $899 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Price the Minimum Required Upgrades",
-    "explanation": "Calculate the cost of workholding, cutters, or spindle upgrades needed for your actual use case before calling it a good deal."
+    "explanation": "Calculate the cost of workholding, cutters, or spindle upgrades needed for your actual use case before calling it a good deal. Products at the low end near $341 and the high end near $899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Assembly and Software Setup Time",
-    "explanation": "Factor in assembly and firmware/software setup time, since budget machines often shift cost into your own labor."
+    "explanation": "Factor in assembly and firmware/software setup time, since budget machines often shift cost into your own labor. This matters in practice because the picks in this comparison span from about $341 to $899, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support."
+    "explanation": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support. With prices in this roundup ranging roughly $341 to $899, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Can a desktop CNC router genuinely cut metal, or just engrave it?",
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-budget-desktop-cnc-machines","title":"Best Budget Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines-under-500","title":"Best Desktop CNC Machines Under $500 in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

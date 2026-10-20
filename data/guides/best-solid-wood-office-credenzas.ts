@@ -1,7 +1,7 @@
 export const guideSlug = "best-solid-wood-office-credenzas";
 export const guideTitle = "8 Best Solid Wood Office Credenzas in 2026";
 export const metaTitle = "Best Solid Wood Office Credenzas 2026";
-export const metaDescription = "We compared solid wood office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared solid wood office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "solid wood office credenzas";
 export const introParagraphs = [
   "Shopping for solid wood office credenzas starts with confirming the structural components are genuinely solid, not just solid-wood accents, not with trusting a headline spec on the listing.",
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51yayDfWVmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRRTR25P?tag=deskfinds0d-20",
-    description: "Six doors across the full 67 inch width give this more individual storage compartments than most credenzas in this cluster, useful for keeping different categories of supplies genuinely separated rather than piled together. The patented vertical fluted door design, covered under USPTO Patent USD1133647, is a distinct enough look that it is worth confirming it fits the room before ordering.\n\nThe spacious top surface is sized for décor, a coffee setup, or media equipment rather than just being leftover space above the doors. Engineered wood construction with a water-resistant surface is built to wipe clean easily and resist everyday spills, a practical detail for a piece doing double duty as a credenza and a buffet.",
+    description: "Six doors across the full 67 inch width give this more individual storage compartments than most credenzas in this cluster, useful for keeping different categories of supplies genuinely separated rather than piled together. The patented vertical fluted door design, covered under USPTO Patent USD1133647, is a distinct enough look that it is worth confirming it fits the room before ordering.\n\nThe spacious top surface is sized for decor, a coffee setup, or media equipment rather than just being leftover space above the doors. Engineered wood construction with a water-resistant surface is built to wipe clean easily and resist everyday spills, a practical detail for a piece doing double duty as a credenza and a buffet.",
     specs: ["67in wide, 6 doors","Patented fluted door design (USD1133647)","Water-resistant, wipe-clean surface"],
     pros: ["Six separate doors keep categories genuinely apart","Surface wipes clean and resists everyday spills","Patented fluted design stands out from generic looks"],
     cons: ["Fluted design won't blend into every decor","No file drawer or hanging-folder storage included"],
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Repairability Against Higher Upfront Cost",
     "note": "Factor in that solid wood generally sands and refinishes better over decades of use, which can offset the higher upfront price over the piece's lifetime."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $249.99",
+          "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $279.99",
+          "67\" Fluted Walnut Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ],
+        [
+          "Around $583.32",
+          "Bme Sideboard Georgina Solid Wood 2 Doors & 3 Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Solid-Wood Construction",
-    "explanation": "Verify solid wood office credenzas's main structural components are genuinely solid wood, not just solid-wood accents on an engineered-wood body, before paying a premium for the material."
+    "explanation": "Verify solid wood office credenzas's main structural components are genuinely solid wood, not just solid-wood accents on an engineered-wood body, before paying a premium for the material. Products at the low end near $250 and the high end near $583 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Expect Genuine Weight and Delivery Planning",
-    "explanation": "Plan for meaningfully higher shipping weight and potentially professional delivery, since true solid wood is considerably heavier than engineered-wood equivalents at the same size."
+    "explanation": "Plan for meaningfully higher shipping weight and potentially professional delivery, since true solid wood is considerably heavier than engineered-wood equivalents at the same size. This matters in practice because the picks in this comparison span from about $250 to $583, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Understand Seasonal Movement",
-    "explanation": "Expect some natural expansion and contraction with humidity changes, a normal characteristic of solid wood that engineered wood and laminate largely avoid."
+    "explanation": "Expect some natural expansion and contraction with humidity changes, a normal characteristic of solid wood that engineered wood and laminate largely avoid. With prices in this roundup ranging roughly $250 to $583, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Joinery Details Where Documented",
-    "explanation": "Look for documented joinery methods, since genuine solid-wood furniture often uses different joint construction than engineered-wood equivalents, though this is not always specified."
+    "explanation": "Look for documented joinery methods, since genuine solid-wood furniture often uses different joint construction than engineered-wood equivalents, though this is not always specified. Given the real spread here, from about $250 up to $583, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Weigh Repairability Against Higher Upfront Cost",
-    "explanation": "Factor in that solid wood generally sands and refinishes better over decades of use, which can offset the higher upfront price over the piece's lifetime."
+    "explanation": "Factor in that solid wood generally sands and refinishes better over decades of use, which can offset the higher upfront price over the piece's lifetime. Across this comparison's $250 to $583 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Bme Sideboard Georgina Solid Wood 2 Doors & 3 Drawers is aimed at buyers prioritizing 61in wide, solid acacia wood + anti-warp mdf." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

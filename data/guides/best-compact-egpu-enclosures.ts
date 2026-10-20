@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Thermals Under Sustained Load in the Smaller Chassis",
     "note": "Verify sustained-load temperature and fan noise, since compact designs have less thermal headroom than full-size enclosures."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $95.99",
+          "PCIE 3.0 x16 22Gbps eGPU Dock with Thunderbolt 4 Cable"
+        ],
+        [
+          "Around $149.99",
+          "Mini eGPU Enclosure Thunderbolt 3/4"
+        ],
+        [
+          "Around $149.99",
+          "External GPU Dock Station"
+        ],
+        [
+          "Around $161.00",
+          "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4 (VK-Y900)"
+        ],
+        [
+          "Around $169.00",
+          "ANQUORA ANQ-L336 Mini eGPU Enclosure"
+        ],
+        [
+          "Around $189.00",
+          "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
+        ],
+        [
+          "Around $279.99",
+          "External eGPU Enclosure with 240W PSU"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Measure the Complete Setup, Not Just the Enclosure",
-    "explanation": "Check compact egpu enclosures's total footprint including GPU, PSU, power brick, and cables, not the empty shell dimensions alone."
+    "explanation": "Check compact egpu enclosures's total footprint including GPU, PSU, power brick, and cables, not the empty shell dimensions alone. Given the real spread here, from about $96 up to $280, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Calculate Packed Travel Weight",
-    "explanation": "Weigh the complete setup as you'd actually carry it, since enclosure-only weight figures understate real portable weight."
+    "explanation": "Weigh the complete setup as you'd actually carry it, since enclosure-only weight figures understate real portable weight. Across this comparison's $96 to $280 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Count Required Cables and Setup Time",
-    "explanation": "Count how many cables a full teardown-and-reconnect cycle actually requires, and time it realistically."
+    "explanation": "Count how many cables a full teardown-and-reconnect cycle actually requires, and time it realistically. Products at the low end near $96 and the high end near $280 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Compact GPU and PSU Fit Together",
-    "explanation": "Confirm your specific GPU and its power supply both physically fit the compact enclosure's documented clearance."
+    "explanation": "Confirm your specific GPU and its power supply both physically fit the compact enclosure's documented clearance. This matters in practice because the picks in this comparison span from about $96 to $280, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Thermals Under Sustained Load in the Smaller Chassis",
-    "explanation": "Verify sustained-load temperature and fan noise, since compact designs have less thermal headroom than full-size enclosures."
+    "explanation": "Verify sustained-load temperature and fan noise, since compact designs have less thermal headroom than full-size enclosures. With prices in this roundup ranging roughly $96 to $280, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Should I choose a Thunderbolt/USB4 enclosure or an OCuLink one?",
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18) is aimed at buyers prioritizing jhl7540/7440 controller, pcie 4.0 x16 mode." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

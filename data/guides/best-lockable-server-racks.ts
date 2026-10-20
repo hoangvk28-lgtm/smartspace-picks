@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uVNtRQfHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8THDMW?tag=deskfinds0d-20",
-    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.",
+    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhat stands out here is 1600 lb static rating handles a dense server stack, plus 8-way PDU included instead of bought separately. The main tradeoff: 32\" depth is still tight for some full servers, so weigh that against the $1,250.10 price before buying.",
     specs: ["42U, 32\" deep, 1600 lb static rating","4 roof-mounted fans, 8-way PDU","Perforated glass front, solid metal rear door"],
     pros: ["1600 lb static rating handles a dense server stack","8-way PDU included instead of bought separately","Perforated front door boosts airflow without losing visibility"],
     cons: ["32\" depth is still tight for some full servers","Casters need leveling feet for a permanent install"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31qzq6Th7LL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01A2JE1EE?tag=deskfinds0d-20",
-    description: "An enclosed 15U cabinet from NavePoint's Performance Series, built to the same 130 lb capacity and dual-fan cooling design as their smaller 12U model.\n\nAt 31 inches tall with casters attached, it's a genuinely tall wall cabinet that some buyers may prefer to install on the floor instead given the size.",
+    description: "An enclosed 15U cabinet from NavePoint's Performance Series, built to the same 130 lb capacity and dual-fan cooling design as their smaller 12U model.\n\nAt 31 inches tall with casters attached, it's a genuinely tall wall cabinet that some buyers may prefer to install on the floor instead given the size.\n\nThe strongest case for this pick comes down to same dual-fan cooling as NavePoint's smaller enclosed cabinets as well as reversible door design fits either side of a room. The compromise here is that 31\" height makes wall mounting genuinely challenging, so factor that in alongside the $349.99 asking price.",
     specs: ["15U, 23.63\"L x 23.63\"W x 31\"H","130 lb weight capacity","2 fans, lockable glass door"],
     pros: ["Same dual-fan cooling as NavePoint's smaller enclosed cabinets","Reversible door design fits either side of a room","Casters included despite being a wall-rated design"],
     cons: ["31\" height makes wall mounting genuinely challenging","130 lb capacity may feel tight for 15U of gear"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31rbqK+-O9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSB242CM?tag=deskfinds0d-20",
-    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.",
+    description: "The smallest wall cabinet in Tecmojo's lineup, this 6U model is meant for a handful of switches and a small NAS rather than anything server-sized.\n\nIt shares the same reversible door and lockable side panel design as the larger 12U and 18U versions, so the security features don't shrink along with the unit.\n\nWhere this one earns its spot is small footprint fits tight home office closets, and reversible door swing matches either wall layout. Worth noting before buying: 6U ceiling limits you to a handful of devices, which matters more at $99.90 than it would on a cheaper pick.",
     specs: ["6U, 13.78\"H x 21.65\"W x 17.72\"D","110 lb capacity","Lockable glass door, cooling fan"],
     pros: ["Small footprint fits tight home office closets","Reversible door swing matches either wall layout","Cooling fan included despite the compact size"],
     cons: ["6U ceiling limits you to a handful of devices","Not deep enough for full-size server chassis"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Dc0as8yhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071KW98RM?tag=deskfinds0d-20",
-    description: "The taller 24U sibling to StarTech's 18U cabinet, carrying the same pre-assembled delivery, 5-year warranty, and 992 lb rating just with more room to grow.\n\nAt 48.9 inches tall it starts to approach the size where you'll want to confirm doorway and ceiling clearance before ordering, but it still fits most standard rooms.",
+    description: "The taller 24U sibling to StarTech's 18U cabinet, carrying the same pre-assembled delivery, 5-year warranty, and 992 lb rating just with more room to grow.\n\nAt 48.9 inches tall it starts to approach the size where you'll want to confirm doorway and ceiling clearance before ordering, but it still fits most standard rooms.\n\nThis pick is best for buyers who value more headroom than the 18U model at the same weight rating along with ships pre-assembled with wheels and levelers installed. The catch is that 48.9\" height needs a genuine equipment room, so decide if that's worth it at $949.99.",
     specs: ["24U, 48.9\" tall, 29in adjustable depth","992 lb stationary weight capacity","5-year warranty, 1U fixed shelf included"],
     pros: ["More headroom than the 18U model at the same weight rating","Ships pre-assembled with wheels and levelers installed","Includes a 1U fixed shelf out of the box"],
     cons: ["48.9\" height needs a genuine equipment room","Same 992 lb cap as the shorter 18U version"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cooling Method Fits the Enclosure",
     "note": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.90",
+          "Tecmojo 6U Wall Mount Server Cabinet"
+        ],
+        [
+          "Around $349.99",
+          "NavePoint 15U Server Cabinet Wall Mount Rack Enclosure"
+        ],
+        [
+          "Around $949.99",
+          "StarTech 24U 4-Post Server Cabinet"
+        ],
+        [
+          "Around $1,250.10",
+          "Sysracks 42U Server Rack Cabinet"
+        ],
+        [
+          "Around $1,389.00",
+          "Sysracks 42U Server Rack Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm lockable server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm lockable server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths. Given the real spread here, from about $100 up to $1389, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed."
+    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. Across this comparison's $100 to $1389 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. Products at the low end near $100 and the high end near $1389 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. This matters in practice because the picks in this comparison span from about $100 to $1389, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",
-    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
+    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load. With prices in this roundup ranging roughly $100 to $1389, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-locking-server-racks","title":"Best Locking Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

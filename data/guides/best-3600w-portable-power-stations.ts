@@ -142,7 +142,7 @@ export const products: GuideProduct[] = [
     description: "This documents eligibility for up to a 30% U.S. Residential Clean Energy Credit on qualified solar costs, worth verifying with a tax professional before buying. A 3840Wh capacity, expandable to 11,520Wh, pairs with EV-grade LiFePO4 cells rated for over 4000 cycles and up to a 10-year lifespan.\n\n3600W rated output (4500W peak) supports a stated 99% of household appliances, with AC (1500W), PV (2000W), and car charging combining for a full charge in just 1.29 hours, or 3 hours via AC alone. Fifteen output ports handle a genuinely wide device range, and an extendable telescoping handle with durable wheels makes this large-scale unit realistically transportable, with integrated Bluetooth app monitoring for remote adjustments.",
     specs: ["3840Wh (expandable to 11,520Wh), 3600W","1.29hr fastest full charge","Telescoping handle + wheels"],
     pros: ["Documents eligibility for a real U.S. solar tax credit directly","1.29-hour fastest full charge is genuinely quick at 3840Wh scale","Telescoping handle and wheels make this large unit realistically mobile"],
-    cons: ["Must charge above 32°F or wait 30 min-2hr for the unit to warm up","Tax credit eligibility requires separate confirmation from a professional"],
+    cons: ["Must charge above 32-degreeF or wait 30 min-2hr for the unit to warm up","Tax credit eligibility requires separate confirmation from a professional"],
     bestFor: "buyers prioritizing 3840wh (expandable to 11,520wh), 3600w",
   }
 ];
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Port and Recharge Limits",
     "note": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "EcoFlow DELTA 3 Classic Portable Power Station"
+        ],
+        [
+          "Around $799.00",
+          "OSCAL PowerMax 3600 PE Portable Power Station"
+        ],
+        [
+          "Around $899.00",
+          "PECRON F3000LFP Portable Power Station"
+        ],
+        [
+          "Around $999.00",
+          "PECRON E3600LFP Portable Power Station"
+        ],
+        [
+          "Around $1,169.00",
+          "AFERIY 3840Wh Portable Power Station"
+        ],
+        [
+          "Around $1,199.00",
+          "OSCAL PowerMax 3600 PE Portable Power Station with 400W Solar Panel"
+        ],
+        [
+          "Around $1,199.00",
+          "ABOK Ark3600 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 3600w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode."
+    "explanation": "Confirm 3600w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. Across this comparison's $449 to $1199 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load."
+    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. Products at the low end near $449 and the high end near $1199 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products."
+    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. This matters in practice because the picks in this comparison span from about $449 to $1199, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum."
+    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. With prices in this roundup ranging roughly $449 to $1199, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class."
+    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Given the real spread here, from about $449 up to $1199, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "EcoFlow DELTA 3 Classic Portable Power Station is aimed at buyers prioritizing 1024wh, 1800w (3600w x-boost surge)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

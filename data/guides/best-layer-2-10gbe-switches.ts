@@ -91,9 +91,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31b70iRt5UL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CZ93Q2MK?tag=deskfinds0d-20",
-    description: "Sixteen 2.5G RJ45 ports pair with two 10G SFP+ ports for a documented 120Gbps bandwidth figure, aimed specifically at upgrading an existing Cat6, Cat6a, or Cat7 network to 2.5G without new cable runs. Compact, sturdy metal housing includes 4KV lightning protection.\n\nFanless design keeps operation quiet with good heat dissipation, rated for a wide -20 to 50°C range. Plug-and-play setup needs zero configuration, and it supports 19-inch standard rack installation for flexible deployment alongside desktop placement.",
-    specs: ["16x 2.5G + 2x 10G SFP+, 120Gbps capacity","Works with existing Cat6/6a/7 cable","Fanless, -20 to 50°C rated"],
-    pros: ["Upgrades to 2.5G on existing Cat6+ cable, no rewiring needed","Rated for a wide -20 to 50°C operating range","SFP+ ports give a genuine 10G uplink path"],
+    description: "Sixteen 2.5G RJ45 ports pair with two 10G SFP+ ports for a documented 120Gbps bandwidth figure, aimed specifically at upgrading an existing Cat6, Cat6a, or Cat7 network to 2.5G without new cable runs. Compact, sturdy metal housing includes 4KV lightning protection.\n\nFanless design keeps operation quiet with good heat dissipation, rated for a wide -20 to 50-degreeC range. Plug-and-play setup needs zero configuration, and it supports 19-inch standard rack installation for flexible deployment alongside desktop placement.",
+    specs: ["16x 2.5G + 2x 10G SFP+, 120Gbps capacity","Works with existing Cat6/6a/7 cable","Fanless, -20 to 50-degreeC rated"],
+    pros: ["Upgrades to 2.5G on existing Cat6+ cable, no rewiring needed","Rated for a wide -20 to 50-degreeC operating range","SFP+ ports give a genuine 10G uplink path"],
     cons: ["Access ports are 2.5G, not native 10G","Fully unmanaged, no VLAN or QoS configuration"],
     bestFor: "buyers prioritizing 16x 2.5g + 2x 10g sfp+, 120gbps capacity",
   },
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Real L3 Routing From Static-Route-Only",
     "note": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $144.39",
+          "Real HD 16-Port 2.5Gb Unmanaged Switch"
+        ],
+        [
+          "Around $159.99",
+          "NETGEAR 16-Port PoE Gigabit Unmanaged Switch (GS316PP)"
+        ],
+        [
+          "Around $167.99",
+          "NETGEAR 10-Port PoE Gigabit Smart Managed Switch (GS110TP)"
+        ],
+        [
+          "Around $549.00",
+          "QNAP QSW-3216R-8S8T-US"
+        ],
+        [
+          "Around $554.99",
+          "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM)"
+        ],
+        [
+          "Around $599.00",
+          "QNAP QSW-M3216R-8S8T-US"
+        ],
+        [
+          "Around $689.99",
+          "NETGEAR 10-Port 10G Multi-Gig PoE Smart Managed Switch (MS510TXUP)"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify VLAN and LACP Under Real Load",
-    "explanation": "Confirm layer 2 10gbe switches supports VLAN tagging, trunks, and LACP aggregation under sustained 10G traffic, not just as a checkbox feature."
+    "explanation": "Confirm layer 2 10gbe switches supports VLAN tagging, trunks, and LACP aggregation under sustained 10G traffic, not just as a checkbox feature. With prices in this roundup ranging roughly $144 to $690, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check STP and Multicast Support",
-    "explanation": "Verify STP/RSTP/MSTP and IGMP/multicast features match what your specific network deployment actually needs."
+    "explanation": "Verify STP/RSTP/MSTP and IGMP/multicast features match what your specific network deployment actually needs. Given the real spread here, from about $144 up to $690, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm ACL and QoS Are Hardware-Forwarded",
-    "explanation": "Check whether ACL and QoS policy changes stay hardware-forwarded at line rate, not just management-plane features."
+    "explanation": "Check whether ACL and QoS policy changes stay hardware-forwarded at line rate, not just management-plane features. Across this comparison's $144 to $690 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Management Interface Options",
-    "explanation": "Verify local web/CLI, SNMP, controller, or cloud management options fit your preferred administration style."
+    "explanation": "Verify local web/CLI, SNMP, controller, or cloud management options fit your preferred administration style. Products at the low end near $144 and the high end near $690 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Separate Real L3 Routing From Static-Route-Only",
-    "explanation": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality."
+    "explanation": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality. This matters in practice because the picks in this comparison span from about $144 to $690, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Does a switch's total PoE budget mean every port can deliver its max wattage?",
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM) is aimed at buyers prioritizing 4x 10g + 4x 2.5g + 2x 10g sfp+ ports." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

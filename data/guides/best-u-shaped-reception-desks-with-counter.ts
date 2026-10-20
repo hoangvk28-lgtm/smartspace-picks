@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Configuration and Handing",
     "note": "Check configuration options and handing, since a U-shaped desk with counter is often sold in a fixed layout that's harder to mirror after purchase than a simple L-shape."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $197.99",
+          "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
+        ],
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ],
+        [
+          "Around $889.99",
+          "YTElantivo L-Shaped Reception Desk with Combination Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish the Full Installed Footprint",
-    "explanation": "Get the full installed footprint for the U-shaped desk plus its counter section, since combining two space-intensive features compounds the floor requirement."
+    "explanation": "Get the full installed footprint for the U-shaped desk plus its counter section, since combining two space-intensive features compounds the floor requirement. Across this comparison's $198 to $890 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Counter Geometry Separately",
-    "explanation": "Check counter height, depth, and usable length on its own, since a wide U-shaped desk can still have a narrow or shallow counter section that doesn't function well."
+    "explanation": "Check counter height, depth, and usable length on its own, since a wide U-shaped desk can still have a narrow or shallow counter section that doesn't function well. Products at the low end near $198 and the high end near $890 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Staff Reach on Three Sides Plus the Counter",
-    "explanation": "Measure staff reach and chair movement around all three sides of the U while also accounting for the counter's added visitor-facing depth."
+    "explanation": "Measure staff reach and chair movement around all three sides of the U while also accounting for the counter's added visitor-facing depth. This matters in practice because the picks in this comparison span from about $198 to $890, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Map Visitor Approach at the Counter",
-    "explanation": "Confirm visitor approach and queue positions work with both the U-shape's wraparound design and the counter's transaction zone together."
+    "explanation": "Confirm visitor approach and queue positions work with both the U-shape's wraparound design and the counter's transaction zone together. With prices in this roundup ranging roughly $198 to $890, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Configuration and Handing",
-    "explanation": "Check configuration options and handing, since a U-shaped desk with counter is often sold in a fixed layout that's harder to mirror after purchase than a simple L-shape."
+    "explanation": "Check configuration options and handing, since a U-shaped desk with counter is often sold in a fixed layout that's harder to mirror after purchase than a simple L-shape. Given the real spread here, from about $198 up to $890, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel is aimed at buyers prioritizing 63\"l x 24\"w u-shaped two-tier surface." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-u-shaped-reception-desks","title":"4 Best U-Shaped Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks-with-counter","title":"best-l-shaped-reception-desks-with-counter"},{"href":"/guide/best-reception-desks-with-counter","title":"best-reception-desks-with-counter"}];

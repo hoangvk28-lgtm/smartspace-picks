@@ -1,7 +1,7 @@
 export const guideSlug = "best-reception-desks-for-hair-salon";
 export const guideTitle = "6 Best Reception Desks for Hair Salon in 2026";
 export const metaTitle = "Best Hair Salon Reception Desks 2026";
-export const metaDescription = "We compared finish care against color-product residue and aerosol overspray, since hair salons put more demands on a desk's surface than a typical office front desk.";
+export const metaDescription = "We compared finish care against color-product residue and aerosol overspray, since hair salons put more demands on a desk's surface than a typical office front.";
 export const mainKeyword = "reception desk for hair salon";
 export const introParagraphs = [
   "Hair-salon desks face color-product residue, aerosols, retail haircare display, and a rebooking-and-payment workflow that a generic office reception desk isn't designed around.",
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Entry Circulation for Bags and Coats",
     "note": "Verify circulation for clients arriving with bags and coats near the desk, since hair salon entries are often more compact than a standard office lobby."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $399.99",
+          "Laxodor 63\" Reception Desk with Lattice Design and LED"
+        ],
+        [
+          "Around $399.99",
+          "Laxodor 63\" Reception Desk with Lockable Drawer"
+        ],
+        [
+          "Around $479.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $699.99",
+          "86.6\" L-Shaped Reception Desk with Flexible Counter Orientation"
+        ],
+        [
+          "Around $1,469.00",
+          "Fully Assembled Curved Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map Booking, POS, and Display on One Counter",
-    "explanation": "Plan booking device, POS, receipt printer, and product display on the same counter without them competing for the same limited desktop space."
+    "explanation": "Plan booking device, POS, receipt printer, and product display on the same counter without them competing for the same limited desktop space. With prices in this roundup ranging roughly $170 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Finish Care for Color Residue",
-    "explanation": "Check top and front finish care specifically against hair-color residue and aerosol overspray, since these are harsher than typical office cleaning demands."
+    "explanation": "Check top and front finish care specifically against hair-color residue and aerosol overspray, since these are harsher than typical office cleaning demands. Given the real spread here, from about $170 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Reserve Retail Display Without Blocking Handoff",
-    "explanation": "Reserve retail haircare display space without covering the visitor handoff area where clients pay or receive receipts."
+    "explanation": "Reserve retail haircare display space without covering the visitor handoff area where clients pay or receive receipts. Across this comparison's $170 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Provide Protected Staff Storage",
-    "explanation": "Provide protected storage for forms, color charts, and staff-only items separate from the client-facing retail display."
+    "explanation": "Provide protected storage for forms, color charts, and staff-only items separate from the client-facing retail display. Products at the low end near $170 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Entry Circulation for Bags and Coats",
-    "explanation": "Verify circulation for clients arriving with bags and coats near the desk, since hair salon entries are often more compact than a standard office lobby."
+    "explanation": "Verify circulation for clients arriving with bags and coats near the desk, since hair salon entries are often more compact than a standard office lobby. This matters in practice because the picks in this comparison span from about $170 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 71\" or 78\"l x 27\"w x 39\"h, fully assembled." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-salon","title":"6 Best Reception Desks for Salon in 2026"},{"href":"/guide/best-reception-desks-for-beauty-salon","title":"6 Best Reception Desks for Beauty Salon in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];

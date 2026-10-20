@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41cPrr4RaJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3XGGK6B?tag=deskfinds0d-20",
     description: "Full-lamination on the 11.6-inch FHD screen targets zero-parallax drawing with 124% sRGB coverage, switchable across sRGB, Adobe RGB, and DCI-P3 color spaces. The battery-free stylus carries two programmable hot keys plus 16K-level pressure sensitivity and 60-degree tilt recognition.\n\nDual Type-C ports allow blind plug-in from either side, and a single full-featured USB-C cable connects computers, laptops, Android phones, and tablets directly. Eight shortcut keys use a concave-convex design specifically for blind operation, and compatibility spans Windows 7+, macOS 10.10+, Android 10.1+, and Chrome 88+.",
-    specs: ["11.6in FHD, 124% sRGB, zero-parallax","16K pressure, 60° tilt stylus","Dual Type-C ports, single-cable connect"],
+    specs: ["11.6in FHD, 124% sRGB, zero-parallax","16K pressure, 60-degree tilt stylus","Dual Type-C ports, single-cable connect"],
     pros: ["Dual Type-C ports allow blind plug-in from either side","Concave-convex key design supports true blind operation","8 replacement nibs included with the stylus"],
     cons: ["Requires a connected host, not standalone","124% sRGB, while wide, trails the UE16's 143%"],
     bestFor: "buyers prioritizing 11.6in fhd, 124% srgb, zero-parallax",
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Included Accessories and Cables",
     "note": "Verify required cables, included stand, pen, and nibs, plus desk footprint before buying."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $132.90",
+          "UGEE UE12 11.6 inch Drawing Tablet with Screen"
+        ],
+        [
+          "Around $142.49",
+          "VEIKK VK1200 V2 Drawing Tablet with Screen"
+        ],
+        [
+          "Around $149.99",
+          "GAOMON PD1161 Drawing Tablet with Screen"
+        ],
+        [
+          "Around $159.99",
+          "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Classify the Architecture First",
-    "explanation": "Confirm whether cheap drawing tablets with screen is a screenless pen tablet, pen display, or standalone device before comparing specs."
+    "explanation": "Confirm whether cheap drawing tablets with screen is a screenless pen tablet, pen display, or standalone device before comparing specs. With prices in this roundup ranging roughly $133 to $160, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Publish True Active Drawing Area",
-    "explanation": "Check active area separately from chassis or display diagonal, and verify aspect ratio against your target monitor."
+    "explanation": "Check active area separately from chassis or display diagonal, and verify aspect ratio against your target monitor. Given the real spread here, from about $133 up to $160, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Evaluate Pen Behavior Directly",
-    "explanation": "Test or verify activation force, tilt behavior, and pressure-level count rather than trusting a headline spec."
+    "explanation": "Test or verify activation force, tilt behavior, and pressure-level count rather than trusting a headline spec. Across this comparison's $133 to $160 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Current Driver and OS Support",
-    "explanation": "Confirm current Windows/macOS/Linux/Android compatibility by the exact model, not an inherited older list."
+    "explanation": "Confirm current Windows/macOS/Linux/Android compatibility by the exact model, not an inherited older list. Products at the low end near $133 and the high end near $160 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Included Accessories and Cables",
-    "explanation": "Verify required cables, included stand, pen, and nibs, plus desk footprint before buying."
+    "explanation": "Verify required cables, included stand, pen, and nibs, plus desk footprint before buying. This matters in practice because the picks in this comparison span from about $133 to $160, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "GAOMON PD1161 Drawing Tablet with Screen is aimed at buyers prioritizing 11.6in fhd ips, 72% ntsc gamut." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"},{"href":"/guide/best-affordable-drawing-tablets-with-screen","title":"Best Affordable Drawing Tablets With Screen in 2026"},{"href":"/guide/best-with-screen-cheap-drawing-tablets","title":"Best With Screen Cheap Drawing Tablets in 2026"}];

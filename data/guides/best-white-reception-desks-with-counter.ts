@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Use Approved Cleaners for the White Finish",
     "note": "Use approved cleaners and note that glossy white finishes can show streaking or yellowing over time if the wrong cleaning products are used."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $94.99",
+          "OmySalon Reception Desk with Counter"
+        ],
+        [
+          "Around $159.99",
+          "55\" L-Shaped Reception Desk with LED Lights & Power Outlets"
+        ],
+        [
+          "Around $559.99",
+          "ZIMASYA 63\" Reception Counter with Combination Lock Drawers"
+        ],
+        [
+          "Around $649.99",
+          "ZIMASYA 87\" Reception Counter with Combination Lock Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Counter Height, Depth, and Length",
-    "explanation": "Publish counter height, depth, and uninterrupted usable length, since a white counter without adequate depth still limits what visitors can actually do."
+    "explanation": "Publish counter height, depth, and uninterrupted usable length, since a white counter without adequate depth still limits what visitors can actually do. This matters in practice because the picks in this comparison span from about $95 to $650, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Fingerprint Visibility on White",
-    "explanation": "Evaluate fingerprints, dust, and streaking under typical lobby lighting specifically on the white finish, since white surfaces often show marks more readily than darker tones."
+    "explanation": "Evaluate fingerprints, dust, and streaking under typical lobby lighting specifically on the white finish, since white surfaces often show marks more readily than darker tones. With prices in this roundup ranging roughly $95 to $650, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Items Sit Safely on the Counter",
-    "explanation": "Verify that a clipboard, payment terminal, or sign-in device sits stably on the counter."
+    "explanation": "Verify that a clipboard, payment terminal, or sign-in device sits stably on the counter. Given the real spread here, from about $95 up to $650, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Clearance Above the Staff Worksurface",
-    "explanation": "Measure vertical clearance between staff worksurface and raised counter for monitors and accessories."
+    "explanation": "Measure vertical clearance between staff worksurface and raised counter for monitors and accessories. Across this comparison's $95 to $650 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Use Approved Cleaners for the White Finish",
-    "explanation": "Use approved cleaners and note that glossy white finishes can show streaking or yellowing over time if the wrong cleaning products are used."
+    "explanation": "Use approved cleaners and note that glossy white finishes can show streaking or yellowing over time if the wrong cleaning products are used. Products at the low end near $95 and the high end near $650 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ZIMASYA 63\" Reception Counter with Combination Lock Drawers is aimed at buyers prioritizing 63\" l-shaped desk, white finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-white-reception-desks","title":"best-white-reception-desks"},{"href":"/guide/best-reception-desks-with-counter","title":"best-reception-desks-with-counter"},{"href":"/guide/best-transaction-counter-reception-desks","title":"5 Best Transaction Counter Reception Desks in 2026"}];

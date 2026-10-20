@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Structural Build and Serviceability",
     "note": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
+        ],
+        [
+          "Around $179.99",
+          "Tribesigns 6FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $254.99",
+          "Tribesigns 8FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $299.99",
+          "Tribesigns 8FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $349.99",
+          "Tribesigns 8ft Conference Table for 10"
+        ],
+        [
+          "Around $350.00",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $389.99",
+          "Tribesigns 8ft Conference Table for 8-10"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Count Usable Seating Zones, Not Just Length",
-    "explanation": "Measure how many people can actually sit at the table with roughly 24 to 30 inches of edge space each, rather than trusting a conference tables's advertised seat count at face value."
+    "explanation": "Measure how many people can actually sit at the table with roughly 24 to 30 inches of edge space each, rather than trusting a conference tables's advertised seat count at face value. Given the real spread here, from about $180 up to $390, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Base and Knee Clearance",
-    "explanation": "Confirm where legs, pedestals, or center supports fall relative to seat positions, since a base placed at the wrong point can block knee room for the people sitting closest to it."
+    "explanation": "Confirm where legs, pedestals, or center supports fall relative to seat positions, since a base placed at the wrong point can block knee room for the people sitting closest to it. Across this comparison's $180 to $390 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Plan Room Circulation Around the Table",
-    "explanation": "Leave at least 36 inches of clearance between the table edge and the wall or nearest furniture so chairs can push back and people can walk around during a meeting."
+    "explanation": "Leave at least 36 inches of clearance between the table edge and the wall or nearest furniture so chairs can push back and people can walk around during a meeting. Products at the low end near $180 and the high end near $390 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Power, Data, and AV Paths",
-    "explanation": "Check whether cable grommets, built-in outlets, or a dedicated AV path exist, and trace that path from the table surface to where power actually reaches the room."
+    "explanation": "Check whether cable grommets, built-in outlets, or a dedicated AV path exist, and trace that path from the table surface to where power actually reaches the room. This matters in practice because the picks in this comparison span from about $180 to $390, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Weigh Structural Build and Serviceability",
-    "explanation": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone."
+    "explanation": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone. With prices in this roundup ranging roughly $180 to $390, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Is MDF or particle board construction a problem for a conference table?",
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modular-conference-tables","title":"Best Modular Conference Tables in 2026"},{"href":"/guide/best-narrow-conference-tables","title":"Best Narrow Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-reception-desks-for-clinic";
 export const guideTitle = "4 Best Reception Desks for Clinic in 2026";
 export const metaTitle = "Best Clinic Reception Desks 2026";
-export const metaDescription = "We mapped fast check-in and referral routing and verified accessible circulation before ranking clinic reception desks.";
+export const metaDescription = "We mapped fast check-in and referral routing and verified accessible circulation before ranking clinic reception desks for real patient flow.";
 export const mainKeyword = "reception desk for clinic";
 export const introParagraphs = [
   "Clinic reception adds high patient turnover, forms, payments, and back-office handoff, making queue privacy and cleanable surfaces central to a good desk choice in ways generic office reception desks aren't tested for.",
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Public Transaction from Document Staging",
     "note": "Separate public transaction surface from printer, label, and document staging, since clinics handle more paperwork volume than most reception settings."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $369.99",
+          "63\" Reception Desk with Dual-Level Counter and LED"
+        ],
+        [
+          "Around $417.99",
+          "Zethvax L-Shaped Reception Desk"
+        ],
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ],
+        [
+          "Around $1,659.00",
+          "Exsunnyfit Fully Assembled Curved Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map Fast Check-In and Referral Routing",
-    "explanation": "Map fast check-in, forms, payment, and referral or document routing as one continuous workflow rather than evaluating each function separately."
+    "explanation": "Map fast check-in, forms, payment, and referral or document routing as one continuous workflow rather than evaluating each function separately. Products at the low end near $370 and the high end near $1659 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Accessible Approach and Queue Circulation",
-    "explanation": "Verify accessible approach and queue circulation against current ADA standards where the desk claims an accessible section."
+    "explanation": "Verify accessible approach and queue circulation against current ADA standards where the desk claims an accessible section. This matters in practice because the picks in this comparison span from about $370 to $1659, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Reduce Visual Exposure of Monitors and Paperwork",
-    "explanation": "Reduce visual exposure of monitors and paperwork from the waiting area, since clinic patient privacy expectations are higher than a typical office lobby."
+    "explanation": "Reduce visual exposure of monitors and paperwork from the waiting area, since clinic patient privacy expectations are higher than a typical office lobby. With prices in this roundup ranging roughly $370 to $1659, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Evaluate High-Contact Cleaning",
-    "explanation": "Evaluate high-contact top, edge, and pull cleaning, since clinics follow more frequent cleaning protocols than standard office maintenance."
+    "explanation": "Evaluate high-contact top, edge, and pull cleaning, since clinics follow more frequent cleaning protocols than standard office maintenance. Given the real spread here, from about $370 up to $1659, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Separate Public Transaction from Document Staging",
-    "explanation": "Separate public transaction surface from printer, label, and document staging, since clinics handle more paperwork volume than most reception settings."
+    "explanation": "Separate public transaction surface from printer, label, and document staging, since clinics handle more paperwork volume than most reception settings. Across this comparison's $370 to $1659 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-medical","title":"best-reception-desks-for-medical"},{"href":"/guide/best-reception-desks-for-dental","title":"4 Best Reception Desks for Dental in 2026"},{"href":"/guide/best-reception-desks-for-hospital","title":"best-reception-desks-for-hospital"}];

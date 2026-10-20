@@ -198,32 +198,129 @@ export const howToChoose: HowToChooseSection[] = [
       ]
     }
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $129.99",
+          "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)"
+        ],
+        [
+          "Around $179.95",
+          "ORICO 4-Bay RAID Hard Drive Enclosure (88TB"
+        ],
+        [
+          "Around $199.95",
+          "ORICO RAID 5-Bay HDD Enclosure (110TB"
+        ],
+        [
+          "Around $219.00",
+          "QNAP TR-004 4-Bay USB-C DAS with Hardware RAID (Diskless)"
+        ],
+        [
+          "Around $224.99",
+          "TerraMaster D8 Hybrid HDD+NVMe Enclosure (Diskless)"
+        ],
+        [
+          "Around $229.99",
+          "Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B)"
+        ],
+        [
+          "Around $239.99",
+          "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)"
+        ],
+        [
+          "Around $279.95",
+          "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B) is aimed at buyers prioritizing 5x 3.5in bays, 10gbps usb-c."
+      },
+      {
+        "label": "Save if",
+        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb."
+      }
+    ]
+  },
+  {
+    "subheading": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) vs Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+    "cards": [
+      {
+        "label": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)",
+        "text": "Aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb."
+      },
+      {
+        "label": "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+        "text": "Aimed at buyers prioritizing 5x 3.5in bays, 10gbps usb-c."
+      }
+    ],
+    "note": "Default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B) is aimed at buyers prioritizing 5x 3.5in bays, 10gbps usb-c; Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) is aimed at buyers prioritizing 4x 3.5in bays, 10gbps usb-c."
+      }
+    ]
+  },
+  {
+    "subheading": "For Budget-Conscious Buyers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lowest price that still covers your actual must-have requirements, not just the lowest price on the page."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) is aimed at buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb, at $129.99."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "DAS means direct host attachment, not RAID",
-    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately."
+    "explanation": "USB, Thunderbolt, and enterprise SAS storage can all be DAS. The term describes how the storage connects to a host, not whether it has RAID, what drive type it uses, or how many bays it has. Check those separately. Products at the low end near $130 and the high end near $280 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Bay count is not usable capacity",
-    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size."
+    "explanation": "An 8-bay enclosure with 8x20TB drives does not give you 160TB of usable space in RAID 5 or RAID 6, parity drives eat real capacity. Calculate usable capacity under your intended RAID mode, not raw bay count times drive size. This matters in practice because the picks in this comparison span from about $130 to $280, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Hardware RAID and host software RAID are not interchangeable",
-    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving."
+    "explanation": "Hardware/enclosure RAID keeps the array portable across hosts and survives an OS reinstall; host software RAID (or SoftRAID on Mac) ties the array to specific software but is often more flexible and doesn't depend on one controller chip surviving. With prices in this roundup ranging roughly $130 to $280, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "The interface link rate is not your real transfer speed",
-    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum."
+    "explanation": "A 10Gbps USB-C enclosure with 5 mechanical HDDs running simultaneously will bottleneck well below 10Gbps once you account for real sustained HDD throughput, typically 150-250MB/s per drive. Multi-drive aggregate speed matters more than the port's rated maximum. Given the real spread here, from about $130 up to $280, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "RAID is not backup",
-    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides."
+    "explanation": "RAID 1 or RAID 5 protects against a single drive failure, not against accidental deletion, ransomware, fire, or theft. Keep a genuine separate backup copy of anything irreplaceable, regardless of how much RAID redundancy your DAS provides. Across this comparison's $130 to $280 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Diskless enclosures need drives budgeted separately",
-    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive."
+    "explanation": "Most multi-bay DAS enclosures ship completely empty. Factor in 2-8 hard drives or SSDs at your target capacity before comparing the enclosure's sticker price against a similarly-priced preconfigured external drive. Products at the low end near $130 and the high end near $280 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -248,6 +345,8 @@ export const faq = [
     "q": "Can I add or remove drives from a DAS enclosure without powering it down?",
     "a": "Only if the specific enclosure documents hot-swap support, which most tool-free tray designs in this category do. Always check your specific product's hot-swap capability before removing a drive live, since not every budget enclosure supports it, especially some fixed-RAID-mode units."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B) is aimed at buyers prioritizing 5x 3.5in bays, 10gbps usb-c." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-raid-direct-attached-storage","title":"8 Best RAID Direct-Attached Storage"},{"href":"/guide/best-direct-attached-storage-with-raid","title":"8 Best Direct-Attached Storage With RAID"},{"href":"/guide/best-jbod-direct-attached-storage","title":"8 Best JBOD Direct-Attached Storage"}];

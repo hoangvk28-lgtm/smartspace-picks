@@ -60,7 +60,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31m3lB8222L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GR9S6FN?tag=deskfinds0d-20",
     description: "The TL-SG116 brings TP-Link's Gigabit unmanaged line to 16 ports in the same sturdy fanless metal case, rated for a 0 to 40 degree Celsius operating range that's wider than most desktop switches bother to publish.\n\n802.1p/DSCP QoS and IGMP Snooping carry over from the smaller models, giving basic multicast and voice/video prioritization without a management interface. Backed by the same 3-year warranty as the rest of the TP-Link SG line.",
-    specs: ["16 Gigabit ports, QoS + IGMP snooping","0-40°C rated operation","3-year warranty"],
+    specs: ["16 Gigabit ports, QoS + IGMP snooping","0-40-degreeC rated operation","3-year warranty"],
     pros: ["Wide temperature rating for closets/garages","QoS and IGMP snooping despite unmanaged design","Consistent 3-year warranty across the line"],
     cons: ["No VLAN or web management","Larger footprint than 8-port models"],
     bestFor: "buyers prioritizing 16 gigabit ports, qos + igmp snooping",
@@ -167,32 +167,125 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Switch Plus Mount, Not Switch Alone",
     "note": "For a genuine 10-inch rack build, pair a compact 8-port switch like the TL-SG108 with a purpose-built mount (either the 3D-printed PETG or metal versions in this list), rather than searching for a switch natively sized for 10-inch rails, since that specific product category barely exists."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $19.79",
+          "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $31.99",
+          "10-Inch Metal Rack Mount for TP-Link TL-SG108 Family"
+        ],
+        [
+          "Around $34.99",
+          "1U Rack Mount for TP-Link TL-SG108 Switch"
+        ],
+        [
+          "Around $59.99",
+          "TP-Link TL-SG116 16-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $69.90",
+          "Tecmojo 6U 10-Inch Mini Server Rack"
+        ],
+        [
+          "Around $69.99",
+          "NETGEAR GS324 24-Port Gigabit Unmanaged Switch"
+        ],
+        [
+          "Around $79.99",
+          "TP-Link TL-SG1024S 24-Port Gigabit Switch"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "TP-Link TL-SG1024S 24-Port Gigabit Switch is aimed at buyers prioritizing 24 gigabit ports, 1u rackmount."
+      },
+      {
+        "label": "Save if",
+        "text": "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing."
+      }
+    ]
+  },
+  {
+    "subheading": "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch vs TP-Link TL-SG1024S 24-Port Gigabit Switch",
+    "cards": [
+      {
+        "label": "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch",
+        "text": "Aimed at buyers prioritizing 8 gigabit ports, shielded metal housing."
+      },
+      {
+        "label": "TP-Link TL-SG1024S 24-Port Gigabit Switch",
+        "text": "Aimed at buyers prioritizing 24 gigabit ports, 1u rackmount."
+      }
+    ],
+    "note": "Default to TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR GS324 24-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 24 gigabit ports, fanless; TP-Link TL-SG1024S 24-Port Gigabit Switch is aimed at buyers prioritizing 24 gigabit ports, 1u rackmount."
+      }
+    ]
+  },
+  {
+    "subheading": "For Budget-Conscious Buyers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lowest price that still covers your actual must-have requirements, not just the lowest price on the page."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing, at $19.79."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Port count is a headroom decision, not a current-need one",
-    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure."
+    "explanation": "Buy for what you'll plug in over the next 2-3 years, not just today. An 8-port switch that's already full the day it arrives means buying a second switch and daisy-chaining, which adds a hop of latency and another point of failure. Products at the low end near $20 and the high end near $80 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "PoE budget is a shared pool, not per-port",
-    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare."
+    "explanation": "A switch rated for 8 PoE+ ports at 120W total does not mean every port gets 30W simultaneously. Add up the real draw of every camera, AP, and phone you'll connect, and make sure the total budget clears it with room to spare. This matters in practice because the picks in this comparison span from about $20 to $80, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Managed vs unmanaged changes what you can diagnose later",
-    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device."
+    "explanation": "An unmanaged switch is zero-configuration but gives you no visibility when something goes wrong. A smart-managed switch adds VLANs, port mirroring, and traffic monitoring for a modest price increase, worth it the first time you need to isolate a misbehaving device. With prices in this roundup ranging roughly $20 to $80, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Fanless does not always mean silent under load",
-    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters."
+    "explanation": "Most desktop switches are genuinely fanless and silent, but high-port-count PoE switches sometimes add active cooling once the power budget climbs past 200-300W. Check for a fan explicitly if a quiet office or bedroom install matters. Given the real spread here, from about $20 up to $80, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Multi-gig speed needs matching cable and network gear",
-    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra."
+    "explanation": "A 2.5G or 10G switch only delivers those speeds if your cabling is Cat5e or better (Cat6a for 10G) and the devices on both ends actually support that speed. Mixing a multi-gig switch into an all-Gigabit network gets you nothing extra. Across this comparison's $20 to $80 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Renewed enterprise gear needs a licensing check first",
-    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box."
+    "explanation": "Cisco Meraki, Juniper, and some Aruba/HPE switches on Amazon are frequently sold as renewed hardware without an active license or support contract. Confirm what functions before assuming a discounted enterprise switch works like a new one out of the box. Products at the low end near $20 and the high end near $80 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -201,6 +294,12 @@ export const faq = [
     "q": "Why don't more switches come in native 10-inch rack sizing?",
     "a": "19-inch rack standards dominate the networking industry; 10-inch mini racks are primarily a homelab and hobbyist convention, so manufacturers rely on third-party mounting adapters rather than producing dedicated 10-inch hardware."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "NETGEAR GS324 24-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 24 gigabit ports, fanless." },
+  { q: "Which pick offers the best value for a tight budget?", a: "TP-Link TL-SG108 8-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 8 gigabit ports, shielded metal housing, and at $19.79 it's the lowest-cost pick in this comparison." },
+  { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $19.79 to $79.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "TP-Link TL-SG1024S 24-Port Gigabit Switch is aimed at buyers prioritizing 24 gigabit ports, 1u rackmount. Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "TP-Link TL-SG116 16-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 16 gigabit ports, qos + igmp snooping." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rackmount-network-switches","title":"8 Best Rackmount Network Switches in 2026"},{"href":"/guide/best-network-switches-for-homelabs","title":"8 Best Network Switches for Homelabs"},{"href":"/guide/best-mini-network-switches","title":"8 Best Mini Network Switches in 2026"}];

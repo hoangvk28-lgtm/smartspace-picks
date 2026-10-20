@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Price the Total Accessory Cost",
     "note": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.99",
+          "MARBERO M822 Portable Power Station"
+        ],
+        [
+          "Around $119.99",
+          "Takki 111Wh Portable Solar Generator with 21W Foldable Solar Panel"
+        ],
+        [
+          "Around $129.98",
+          "ZeroKor Portable Power Station 300W"
+        ],
+        [
+          "Around $139.00",
+          "ALLWEI Portable Power Station 300W"
+        ],
+        [
+          "Around $259.00",
+          "Jackery Explorer 300 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Price",
-    "explanation": "Verify budget portable power stations's current street price and include any required charger, panel, or cable accessories in the total cost."
+    "explanation": "Verify budget portable power stations's current street price and include any required charger, panel, or cable accessories in the total cost. This matters in practice because the picks in this comparison span from about $100 to $259, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Require Safety Documentation Before Scoring Price",
-    "explanation": "Require clear battery chemistry and safety or certification documentation before factoring price into the ranking."
+    "explanation": "Require clear battery chemistry and safety or certification documentation before factoring price into the ranking. With prices in this roundup ranging roughly $100 to $259, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Usable Wh, Not Nominal Values",
-    "explanation": "Measure usable Wh and continuous AC output rather than trusting nominal headline values alone."
+    "explanation": "Measure usable Wh and continuous AC output rather than trusting nominal headline values alone. Given the real spread here, from about $100 up to $259, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Replacement and Warranty Support",
-    "explanation": "Verify replacement and warranty support, plus app or firmware availability where applicable."
+    "explanation": "Verify replacement and warranty support, plus app or firmware availability where applicable. Across this comparison's $100 to $259 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Price the Total Accessory Cost",
-    "explanation": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick."
+    "explanation": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick. Products at the low end near $100 and the high end near $259 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-under-200","title":"Best Portable Power Stations Under $200 in 2026"},{"href":"/guide/best-portable-power-stations-under-300","title":"Best Portable Power Stations Under $300 in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

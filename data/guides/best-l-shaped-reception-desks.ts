@@ -1,7 +1,7 @@
 export const guideSlug = "best-l-shaped-reception-desks";
 export const guideTitle = "7 Best L-Shaped Reception Desks in 2026";
 export const metaTitle = "Best L-Shaped Reception Desks 2026";
-export const metaDescription = "We measured full L-shaped footprint and inside-corner reach rather than ranking by front width alone, since the shape changes staff movement and visitor approach.";
+export const metaDescription = "We measured full L-shaped footprint and inside-corner reach rather than ranking by front width alone, since the shape changes staff movement and visitor.";
 export const mainKeyword = "l-shaped reception desk";
 export const introParagraphs = [
   "An L-shaped reception desk changes total footprint, visitor approach, and staff reach far more than a straight rectangular desk, but most listings only publish the front width.",
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Storage and Support Placement",
     "note": "Locate seams, support panels, and drawer placement relative to where a chair and knees will actually sit, since center supports can block legroom in the inside corner."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $249.99",
+          "Tribesigns L-Shaped Reception Desk with Storage Shelves"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $474.99",
+          "L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $479.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $522.49",
+          "L-Shaped Reception Desk with Curved Corner and Vertical Slats"
+        ],
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Full Installed Footprint",
-    "explanation": "Publish the full L-shaped footprint, not just the front width, since the return adds real floor depth a straight desk doesn't have."
+    "explanation": "Publish the full L-shaped footprint, not just the front width, since the return adds real floor depth a straight desk doesn't have. This matters in practice because the picks in this comparison span from about $250 to $870, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Inside Reach and Chair Clearance",
-    "explanation": "Measure staff reach and chair movement around the inside corner, since a tight corner can create a dead zone that's technically desktop space but practically unusable."
+    "explanation": "Measure staff reach and chair movement around the inside corner, since a tight corner can create a dead zone that's technically desktop space but practically unusable. With prices in this roundup ranging roughly $250 to $870, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Visitor Approach and Queue Position",
-    "explanation": "Map where visitors stand relative to the L-shape so the return improves circulation instead of creating a blind corner or a queue that blocks the entrance."
+    "explanation": "Map where visitors stand relative to the L-shape so the return improves circulation instead of creating a blind corner or a queue that blocks the entrance. Given the real spread here, from about $250 up to $870, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Left/Right Handing",
-    "explanation": "Verify which side the storage cabinet or return sits on before ordering, and check whether the manufacturer offers a mirrored configuration if your room needs the opposite orientation."
+    "explanation": "Verify which side the storage cabinet or return sits on before ordering, and check whether the manufacturer offers a mirrored configuration if your room needs the opposite orientation. Across this comparison's $250 to $870 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Storage and Support Placement",
-    "explanation": "Locate seams, support panels, and drawer placement relative to where a chair and knees will actually sit, since center supports can block legroom in the inside corner."
+    "explanation": "Locate seams, support panels, and drawer placement relative to where a chair and knees will actually sit, since center supports can block legroom in the inside corner. Products at the low end near $250 and the high end near $870 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks-with-counter","title":"5 Best L-Shaped Reception Desks with Counter in 2026"},{"href":"/guide/best-u-shaped-reception-desks","title":"best-u-shaped-reception-desks"}];

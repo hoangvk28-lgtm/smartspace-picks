@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bS54Kd5zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMD5G7M5?tag=deskfinds0d-20",
-    description: "The mid-size wall cabinet in Tecmojo's lineup, sitting between the 6U and 12U models with the same reversible door and lockable design carried through the whole series.\n\nAt 19.02 inches tall it's a genuinely compact footprint for 9U of gear, well suited to a home office closet that can't fit a taller cabinet.",
+    description: "The mid-size wall cabinet in Tecmojo's lineup, sitting between the 6U and 12U models with the same reversible door and lockable design carried through the whole series.\n\nAt 19.02 inches tall it's a genuinely compact footprint for 9U of gear, well suited to a home office closet that can't fit a taller cabinet.\n\nThis pick is best for buyers who value compact 19\" height fits closets other 9U cabinets can't along with reversible door adapts to either side of the wall. The catch is that 110 lb capacity is standard, not extra headroom, so decide if that's worth it at $149.90.",
     specs: ["9U, 19.02\"H x 21.65\"W x 17.72\"D","110 lb capacity","Lockable glass door and side panels"],
     pros: ["Compact 19\" height fits closets other 9U cabinets can't","Reversible door adapts to either side of the wall","Consistent design with Tecmojo's larger cabinet sizes"],
     cons: ["110 lb capacity is standard, not extra headroom","14.2\" usable depth rules out deeper equipment"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41NDYgowgsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071ZDXSGK?tag=deskfinds0d-20",
-    description: "This open-frame 9U rack's dual-hinged front gate swings a full 180 degrees from either side, and can be removed entirely during assembly or heavy servicing for extra clearance.\n\nThreaded holes on one side of the gate and universal square holes on the other give it broad compatibility with different equipment mounting styles in one frame.",
+    description: "This open-frame 9U rack's dual-hinged front gate swings a full 180 degrees from either side, and can be removed entirely during assembly or heavy servicing for extra clearance.\n\nThreaded holes on one side of the gate and universal square holes on the other give it broad compatibility with different equipment mounting styles in one frame.\n\nWhat stands out here is gate opens 180 degrees from either side for rear access, plus gate is fully removable for heavy servicing sessions. The main tradeoff: 55 lb capacity is light for a 9U rack, so weigh that against the $139.99 price before buying.",
     specs: ["9U, 18\"L x 20\"W x 19.5\"H","55 lb weight capacity","180-degree removable swing gate"],
     pros: ["Gate opens 180 degrees from either side for rear access","Gate is fully removable for heavy servicing sessions","Both threaded and square holes fit mixed equipment"],
     cons: ["55 lb capacity is light for a 9U rack","Open-frame design leaves cables and gear exposed"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41lYgDLYcxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B072BXSTY8?tag=deskfinds0d-20",
-    description: "A compact wall-mount enclosure that fits 12U of gear into a 17.7-inch deep footprint, with a heat-treated tempered glass door and security lock as the standout feature.\n\nAt 110 lbs capacity it's built for switches, patch panels, and small NAS units rather than full servers, which matches its role as a space-conscious closet or office rack.",
+    description: "A compact wall-mount enclosure that fits 12U of gear into a 17.7-inch deep footprint, with a heat-treated tempered glass door and security lock as the standout feature.\n\nAt 110 lbs capacity it's built for switches, patch panels, and small NAS units rather than full servers, which matches its role as a space-conscious closet or office rack.\n\nThe strongest case for this pick comes down to locking glass door keeps gear visible and secured as well as removable side panels simplify cable routing. The compromise here is that 110 lb limit rules out heavier server hardware, so factor that in alongside the $182.99 asking price.",
     specs: ["12U, 17.72\"L x 21.65\"W x 24.42\"H","110 lb capacity","Locking tempered glass door"],
     pros: ["Locking glass door keeps gear visible and secured","Removable side panels simplify cable routing","Compact footprint fits tight closets and offices"],
     cons: ["110 lb limit rules out heavier server hardware","Fixed wall mount only, no floor-standing option"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41hJ3YzeGVL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0728GSL2G?tag=deskfinds0d-20",
-    description: "The 15U version of NavePoint's swing-gate open frame rack, sharing the same dual-hinged 180-degree gate and removable design as the smaller 9U model.\n\nIt's built for the same passive-cooling, small-server-room use case as its siblings, just with more vertical room for a slightly larger equipment stack.",
+    description: "The 15U version of NavePoint's swing-gate open frame rack, sharing the same dual-hinged 180-degree gate and removable design as the smaller 9U model.\n\nIt's built for the same passive-cooling, small-server-room use case as its siblings, just with more vertical room for a slightly larger equipment stack.\n\nWhere this one earns its spot is same flexible 180-degree gate as NavePoint's smaller models, and open-frame design supports genuinely passive cooling. Worth noting before buying: 55 lb capacity stays low despite the taller 15U size, which matters more at $173.99 than it would on a cheaper pick.",
     specs: ["15U, 18\"L x 20\"W x 30\"H","55 lb weight capacity","180-degree removable swing gate"],
     pros: ["Same flexible 180-degree gate as NavePoint's smaller models","Open-frame design supports genuinely passive cooling","Square and threaded holes fit mixed equipment brands"],
     cons: ["55 lb capacity stays low despite the taller 15U size","No enclosure means zero dust or theft protection"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41wj0y1g40L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01I48EJOW?tag=deskfinds0d-20",
-    description: "This upgraded 22U enclosure adds a third shelf compared to earlier NavePoint models in this size, along with the same locking glass door and caster wheel mobility.\n\nThe extra shelf genuinely changes how you'd use this cabinet, giving room to spread equipment across three tiers rather than stacking directly on the rails.",
+    description: "This upgraded 22U enclosure adds a third shelf compared to earlier NavePoint models in this size, along with the same locking glass door and caster wheel mobility.\n\nThe extra shelf genuinely changes how you'd use this cabinet, giving room to spread equipment across three tiers rather than stacking directly on the rails.\n\nThis pick is best for buyers who value three shelves included instead of the usual one or two along with locking glass door still keeps gear visible and secure. The catch is that 130 lb capacity stays the same despite the extra shelf, so decide if that's worth it at $615.00.",
     specs: ["22U, 23.63\"L x 23.63\"W x 43\"H","130 lb weight capacity","3 shelves included"],
     pros: ["Three shelves included instead of the usual one or two","Locking glass door still keeps gear visible and secure","Reversible door design fits either side of a room"],
     cons: ["130 lb capacity stays the same despite the extra shelf","Three shelves reduce space available for rack-mount gear"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31McOrnKWIL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CCNM1L31?tag=deskfinds0d-20",
-    description: "This 18U wall cabinet is Tecmojo's largest wall-mount option, built with a top-mounted fan and the same reversible door design that runs across their smaller cabinets.\n\nAt 34.76 inches tall it's still compact enough for a closet, but 18U gives real room for switches, a patch panel, and a couple of small servers together.",
+    description: "This 18U wall cabinet is Tecmojo's largest wall-mount option, built with a top-mounted fan and the same reversible door design that runs across their smaller cabinets.\n\nAt 34.76 inches tall it's still compact enough for a closet, but 18U gives real room for switches, a patch panel, and a couple of small servers together.\n\nWhat stands out here is 18U gives real room without a floor-standing footprint, plus reversible door fits either side of the wall. The main tradeoff: 110 lb capacity is light for 18U of gear, so weigh that against the $289.90 price before buying.",
     specs: ["18U, 21.65\"L x 17.72\"D x 34.76\"H","110 lb capacity","Top fan, lockable glass door"],
     pros: ["18U gives real room without a floor-standing footprint","Reversible door fits either side of the wall","Removable top and bottom panels ease cabling"],
     cons: ["110 lb capacity is light for 18U of gear","14.2\" inner depth rules out full-size servers"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Wall Rating From Floor Rating",
     "note": "Note that many wall cabinets list a separate, higher weight rating for ground-mounted installation if you're unsure the wall can bear the full load."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $139.99",
+          "NavePoint 9U Open-Frame Server Rack"
+        ],
+        [
+          "Around $149.90",
+          "Tecmojo 9U Wall Mount Server Cabinet"
+        ],
+        [
+          "Around $173.99",
+          "NavePoint 15U Open Frame Server Rack"
+        ],
+        [
+          "Around $182.99",
+          "NavePoint 12U Server Rack Enclosure with Glass Door"
+        ],
+        [
+          "Around $289.90",
+          "Tecmojo 18U Wall Mount Rack Network Cabinet"
+        ],
+        [
+          "Around $615.00",
+          "NavePoint 22U Server Rack Enclosure with Shelves"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Check the Wall, Not Just the Rack",
-    "explanation": "Confirm the wall structure behind 9u wall mount server racks can actually support the rated weight, since drywall alone typically can't hold a fully loaded network cabinet."
+    "explanation": "Confirm the wall structure behind 9u wall mount server racks can actually support the rated weight, since drywall alone typically can't hold a fully loaded network cabinet. Across this comparison's $140 to $615 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Overall Depth vs Usable Depth",
-    "explanation": "Distinguish the cabinet's overall depth from its usable mounting depth, since the difference determines what equipment actually fits inside."
+    "explanation": "Distinguish the cabinet's overall depth from its usable mounting depth, since the difference determines what equipment actually fits inside. Products at the low end near $140 and the high end near $615 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Stud Spacing Before Ordering",
-    "explanation": "Measure the mounting hole spacing against actual wall stud spacing rather than assuming a standard 16-inch pattern applies."
+    "explanation": "Measure the mounting hole spacing against actual wall stud spacing rather than assuming a standard 16-inch pattern applies. This matters in practice because the picks in this comparison span from about $140 to $615, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Door Swing Clearance",
-    "explanation": "Check whether the door swing direction is reversible and whether there's enough clearance in front of the wall for it to open fully."
+    "explanation": "Check whether the door swing direction is reversible and whether there's enough clearance in front of the wall for it to open fully. With prices in this roundup ranging roughly $140 to $615, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Separate Wall Rating From Floor Rating",
-    "explanation": "Note that many wall cabinets list a separate, higher weight rating for ground-mounted installation if you're unsure the wall can bear the full load."
+    "explanation": "Note that many wall cabinets list a separate, higher weight rating for ground-mounted installation if you're unsure the wall can bear the full load. Given the real spread here, from about $140 up to $615, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 9U Wall Mount Server Cabinet is aimed at buyers prioritizing 9u, 19.02\"h x 21.65\"w x 17.72\"d." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wall-mount-server-racks","title":"Best Wall-Mount Server Racks in 2026"},{"href":"/guide/best-6u-wall-mount-server-racks","title":"Best 6U Wall Mount Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

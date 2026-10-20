@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21yNZpZHGyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01M2DADUX?tag=deskfinds0d-20",
     description:
-      "An 18x6 inch glass pad well suited to a short, running list of daily tasks in front of your keyboard, wide enough for several lines of text even though it isn't tall.\n\nIncludes storage and a marker per the listing, useful for keeping your task-tracking marker at hand rather than searching for one each morning.",
+      "An 18x6 inch glass pad well suited to a short, running list of daily tasks in front of your keyboard, wide enough for several lines of text even though it isn't tall.\n\nIncludes storage and a marker per the listing, useful for keeping your task-tracking marker at hand rather than searching for one each morning.\n\nThe strongest case for this pick comes down to wide format suits a running daily task list as well as storage and marker included, ready to use immediately. The compromise here is that narrow 6-inch height limits how many task lines fit at once, so factor that in alongside the $29.76 asking price.",
     specs: ["18\" x 6\" glass writing surface", "Storage included per listing", "1 dry erase marker included", "Wide format for a running task list"],
     pros: ["Wide format suits a running daily task list", "Storage and marker included, ready to use immediately", "Genuine glass surface for ghosting resistance", "Front-of-keyboard placement keeps tasks visible while working"],
     cons: ["Narrow 6-inch height limits how many task lines fit at once", "No pre-printed template confirmed", "Not suited to high task volume needing more vertical space"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41p7y7rrfnL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CL42YP8H?tag=deskfinds0d-20",
     description:
-      "Combines a glass writing surface with a built-in drawer, a practical choice if your task management setup includes physical items like sticky notes, task cards, or a small planner alongside the whiteboard.\n\nThe drawer gives you a place to store those supplies right at the board rather than scattered around your desk.",
+      "Combines a glass writing surface with a built-in drawer, a practical choice if your task management setup includes physical items like sticky notes, task cards, or a small planner alongside the whiteboard.\n\nThe drawer gives you a place to store those supplies right at the board rather than scattered around your desk.\n\nWhere this one earns its spot is built-in drawer for sticky notes, cards, or planner supplies, and genuine glass surface for ghosting resistance. Worth noting before buying: compact writing surface limits total visible tasks, which matters more at $23.74 than it would on a cheaper pick.",
     specs: ["Built-in drawer for task supplies", "Glass dry erase surface", "Doubles as keyboard stand", "Black finish"],
     pros: ["Built-in drawer for sticky notes, cards, or planner supplies", "Genuine glass surface for ghosting resistance", "Doubles as a keyboard stand, saves desk space", "Reasonable price for the combined functionality"],
     cons: ["Compact writing surface limits total visible tasks", "No pre-printed template confirmed", "Combined drawer weight adds stress on the stand, check reviews"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description:
-      "The smallest surface area among our task management picks, appropriate if your daily task list is genuinely short, a handful of items rather than a dozen.\n\nLike our other storage pick, the built-in drawer gives a place for supplies, and the compact size keeps it from dominating a small desk.",
+      "The smallest surface area among our task management picks, appropriate if your daily task list is genuinely short, a handful of items rather than a dozen.\n\nLike our other storage pick, the built-in drawer gives a place for supplies, and the compact size keeps it from dominating a small desk.\n\nThis pick is best for buyers who value smallest footprint, fits even a very small desk along with built-in drawer for task supplies. The catch is that smallest surface area limits task volume to a short list, so decide if that's worth it at $25.99.",
     specs: ["Compact glass writing surface", "Built-in drawer", "Doubles as keyboard stand", "Smallest footprint in this guide"],
     pros: ["Smallest footprint, fits even a very small desk", "Built-in drawer for task supplies", "Genuine glass surface for ghosting resistance", "Doubles as keyboard stand"],
     cons: ["Smallest surface area limits task volume to a short list", "No pre-printed template confirmed", "Not suited to buyers tracking many simultaneous tasks"],
@@ -124,13 +124,53 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $23.74",
+          "Desktop Glass Whiteboard with Storage"
+        ],
+        [
+          "Around $25.99",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Around $29.76",
+          "Quartet Glass Dry Erase White Board"
+        ],
+        [
+          "Around $117.49",
+          "Quartet Glass Whiteboard Desktop Panel"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Quartet Glass Whiteboard Desktop Panel is aimed at Buyers tracking a high daily task volume who need real surface area and magnetic card support."
+      },
+      {
+        "label": "Save if",
+        "text": "Desktop Glass Whiteboard with Storage is aimed at Buyers who want a task board plus a place to store physical task-related supplies."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Size the board to your real daily task count", explanation: "A board too small forces constant erasing. If you track more than a handful of tasks, choose the largest surface area your desk allows." },
-  { criterion: "Don't assume a printed task template is included", explanation: "None of the boards in this guide confirm a pre-printed grid or column layout. Verify via listing images if that's a requirement, not just the product title." },
-  { criterion: "Check for magnetic compatibility if you want movable task cards", explanation: "A magnetic surface with included magnets lets you build a card-based task system instead of writing and erasing text directly." },
-  { criterion: "Consider storage for physical task supplies", explanation: "A built-in drawer is useful if your task system includes sticky notes or cards, not just written text on the board itself." },
+  { criterion: "Size the board to your real daily task count", explanation: "A board too small forces constant erasing. If you track more than a handful of tasks, choose the largest surface area your desk allows. With prices in this roundup ranging roughly $24 to $117, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it." },
+  { criterion: "Don't assume a printed task template is included", explanation: "None of the boards in this guide confirm a pre-printed grid or column layout. Verify via listing images if that's a requirement, not just the product title. Given the real spread here, from about $24 up to $117, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
+  { criterion: "Check for magnetic compatibility if you want movable task cards", explanation: "A magnetic surface with included magnets lets you build a card-based task system instead of writing and erasing text directly. Across this comparison's $24 to $117 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely." },
+  { criterion: "Consider storage for physical task supplies", explanation: "A built-in drawer is useful if your task system includes sticky notes or cards, not just written text on the board itself. Products at the low end near $24 and the high end near $117 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
 ];
 
 export const faq: FaqItem[] = [
@@ -138,6 +178,8 @@ export const faq: FaqItem[] = [
   { q: "Do any of these whiteboards have a printed task template?", a: "No, none of the listings we researched confirm a pre-printed grid or column layout. Check the specific product's images before buying if that's a requirement." },
   { q: "Can I use magnets for a kanban-style task board?", a: "Yes, if the whiteboard explicitly states a magnetic surface with included magnets, like our largest pick in this guide. Other boards may or may not be magnetic, check the listing." },
   { q: "Is a whiteboard with a drawer better for task management?", a: "It can be, if your system includes physical supplies like sticky notes or task cards you want stored right at the board rather than elsewhere on your desk." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Quartet Glass Whiteboard Desktop Panel is aimed at Buyers tracking a high daily task volume who need real surface area and magnetic card support." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Desktop Glass Whiteboard with Storage is aimed at Buyers who want a task board plus a place to store physical task-related supplies, and at $23.74 it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

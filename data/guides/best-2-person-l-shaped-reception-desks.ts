@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Map Center Supports Against the L-Return Orientation",
     "note": "Map center supports plus the L-return orientation so one user's chair and storage don't consume the other user's corner workspace."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $436.99",
+          "L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $699.99",
+          "87-Inch Two People L-Shaped Reception Desk"
+        ],
+        [
+          "Around $998.88",
+          "79\" 2-Person Reception Desk with Counter"
+        ],
+        [
+          "Around $1,259.99",
+          "78.7\" 2-Person Reception Desk with Counter"
+        ],
+        [
+          "Around $1,259.99",
+          "78.7\" 2-Person Reception Desk with Counter"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Usable Width Per Receptionist",
-    "explanation": "Publish usable width per each of the 2 receptionists after storage, returns, and dividers are installed, since raw total width divided by two overstates real per-person space."
+    "explanation": "Publish usable width per each of the 2 receptionists after storage, returns, and dividers are installed, since raw total width divided by two overstates real per-person space. Across this comparison's $437 to $1260 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Create Independent Device Zones",
-    "explanation": "Set up independent monitor, keyboard, phone, and cable zones instead of mathematically dividing total desk width."
+    "explanation": "Set up independent monitor, keyboard, phone, and cable zones instead of mathematically dividing total desk width. Products at the low end near $437 and the high end near $1260 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Separate Shared from Personal Storage",
-    "explanation": "Separate shared printer or storage from personal, lockable storage so both staff members have private space."
+    "explanation": "Separate shared printer or storage from personal, lockable storage so both staff members have private space. This matters in practice because the picks in this comparison span from about $437 to $1260, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Define Where Simultaneous Visitors Stand",
-    "explanation": "Define where simultaneous visitors stand so check-ins don't collide with the L-shape's added corner geometry."
+    "explanation": "Define where simultaneous visitors stand so check-ins don't collide with the L-shape's added corner geometry. With prices in this roundup ranging roughly $437 to $1260, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Map Center Supports Against the L-Return Orientation",
-    "explanation": "Map center supports plus the L-return orientation so one user's chair and storage don't consume the other user's corner workspace."
+    "explanation": "Map center supports plus the L-return orientation so one user's chair and storage don't consume the other user's corner workspace. Given the real spread here, from about $437 up to $1260, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "79\" 2-Person Reception Desk with Counter is aimed at buyers prioritizing 79\" desk, ~2-meter counter for 2 staff." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-two-person-reception-desks","title":"best-two-person-reception-desks"}];

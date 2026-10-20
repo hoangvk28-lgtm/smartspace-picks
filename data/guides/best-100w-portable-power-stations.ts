@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41VQRbwP1YL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBRGXKKL?tag=deskfinds0d-20",
-    description: "This 198.4Wh (62,000mAh) station documents charging a phone 15 times, a laptop 5 times, or a tablet 7 times, genuinely specific numbers. Military-Grade BMS with SiC components meets MIL-STD-810G standards, working in extreme conditions from 14°F to 140°F with 3x shockproof performance over industry-standard BMS designs.\n\nAn AI Temperature-Control Chip reduces thermal loss by a documented 10%, achieving 98% energy efficiency in lab tests and 95% in real-world use, genuinely outperforming the 90% typical of traditional stations. The upgraded LiFePO4 battery with nano-Al2O3 anode coating limits electrode expansion to under 2% versus 8-12% for standard processes, boosting cycle life to 4000+, 33% longer than standard LiFePO4. A detachable camping light with 4 modes doubles as a standalone flashlight. Note this has no AC output, DC-port devices only.",
+    description: "This 198.4Wh (62,000mAh) station documents charging a phone 15 times, a laptop 5 times, or a tablet 7 times, genuinely specific numbers. Military-Grade BMS with SiC components meets MIL-STD-810G standards, working in extreme conditions from 14-degreeF to 140-degreeF with 3x shockproof performance over industry-standard BMS designs.\n\nAn AI Temperature-Control Chip reduces thermal loss by a documented 10%, achieving 98% energy efficiency in lab tests and 95% in real-world use, genuinely outperforming the 90% typical of traditional stations. The upgraded LiFePO4 battery with nano-Al2O3 anode coating limits electrode expansion to under 2% versus 8-12% for standard processes, boosting cycle life to 4000+, 33% longer than standard LiFePO4. A detachable camping light with 4 modes doubles as a standalone flashlight. Note this has no AC output, DC-port devices only.",
     specs: ["198.4Wh, MIL-STD-810G certified BMS","95% real-world energy efficiency","4000+ cycles, 33% longer than standard LFP"],
     pros: ["MIL-STD-810G certification is a genuinely rigorous military safety standard","95% real-world efficiency genuinely beats the 90% industry typical","Detachable camping light doubles as a fully standalone flashlight"],
     cons: ["No AC output port at all, DC-port devices only","100W charger required for full-speed charging, sold separately"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Port and Recharge Limits",
     "note": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $65.99",
+          "ATGIH Portable Power Station 198.4Wh"
+        ],
+        [
+          "Around $69.98",
+          "Daran Portable Power Station 89.6Wh"
+        ],
+        [
+          "Around $73.52",
+          "Portable Power Station 192Wh"
+        ],
+        [
+          "Around $74.98",
+          "R101 Lite Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 100w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode."
+    "explanation": "Confirm 100w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. This matters in practice because the picks in this comparison span from about $66 to $75, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load."
+    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. With prices in this roundup ranging roughly $66 to $75, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products."
+    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. Given the real spread here, from about $66 up to $75, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum."
+    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. Across this comparison's $66 to $75 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class."
+    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Products at the low end near $66 and the high end near $75 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

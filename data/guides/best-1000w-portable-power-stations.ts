@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Port and Recharge Limits",
     "note": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $279.92",
+          "EBL Portable Power Station 1000W Solar Generator"
+        ],
+        [
+          "Around $279.99",
+          "STARYLINE 1000W Portable Power Station"
+        ],
+        [
+          "Around $284.98",
+          "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
+        ],
+        [
+          "Around $289.99",
+          "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $529.99",
+          "Anker SOLIX C1000 Gen 2 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 1000w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode."
+    "explanation": "Confirm 1000w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. Given the real spread here, from about $280 up to $530, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load."
+    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. Across this comparison's $280 to $530 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products."
+    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. Products at the low end near $280 and the high end near $530 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum."
+    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. This matters in practice because the picks in this comparison span from about $280 to $530, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class."
+    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. With prices in this roundup ranging roughly $280 to $530, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Jackery Explorer 1000 v2 Portable Power Station is aimed at buyers prioritizing 1070wh, 1500w ac, 3000w surge." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"},{"href":"/guide/best-100w-portable-power-stations","title":"Best 100W Portable Power Stations in 2026"}];

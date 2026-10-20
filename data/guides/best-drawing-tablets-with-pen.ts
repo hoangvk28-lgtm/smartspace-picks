@@ -76,10 +76,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   },
   {
     id: "best-drawing-tablets-with-pen-5",
@@ -108,10 +108,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IiG1s0SSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13T9H31?tag=deskfinds0d-20",
     description: "PenTech 4.0 brings genuine 16,384 pressure sensitivity with 2g initial activation force, and the thin nib with tilt auto-alignment specifically targets reduced parallax versus older Huion generations. Canvas Glass 2.0 with nano-etching cuts glare and image noise while keeping the paper-textured surface intact.\n\nEach unit ships factory-calibrated to Delta-E under 1.5 with a calibration certificate included, covering 99% sRGB/Rec.709 and 90% Adobe RGB. Two dial controllers plus five silent press keys handle canvas and brush adjustments, and at 865g with an 11.7mm profile, it's genuinely portable despite the screen.",
-    specs: ["16,384 pressure levels, ΔE<1.5 factory calibrated","99% sRGB/Rec.709, 90% Adobe RGB","865g, 11.7mm profile"],
-    pros: ["Factory calibration certificate backs the ΔE<1.5 color claim","2g initial activation force is genuinely low resistance","865g weight keeps it portable despite the screen"],
+    specs: ["16,384 pressure levels, Delta E<1.5 factory calibrated","99% sRGB/Rec.709, 90% Adobe RGB","865g, 11.7mm profile"],
+    pros: ["Factory calibration certificate backs the Delta E<1.5 color claim","2g initial activation force is genuinely low resistance","865g weight keeps it portable despite the screen"],
     cons: ["Requires a computer or Android host to function","Premium calibration pushes price above screenless options"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, δe<1.5 factory calibrated",
+    bestFor: "buyers prioritizing 16,384 pressure levels, Delta E<1.5 factory calibrated",
   }
 ];
 
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Included Accessories and Cables",
     "note": "Verify required cables, included stand, pen, and nibs, plus desk footprint before buying."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $39.95",
+          "Wacom Intuos Small"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ],
+        [
+          "Around $129.95",
+          "Wacom Intuos Medium"
+        ],
+        [
+          "Around $159.99",
+          "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
+        ],
+        [
+          "Around $209.99",
+          "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
+        ],
+        [
+          "Around $299.95",
+          "Wacom Intuos Pro Medium"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Classify the Architecture First",
-    "explanation": "Confirm whether drawing tablets with pen is a screenless pen tablet, pen display, or standalone device before comparing specs."
+    "explanation": "Confirm whether drawing tablets with pen is a screenless pen tablet, pen display, or standalone device before comparing specs. Given the real spread here, from about $40 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Publish True Active Drawing Area",
-    "explanation": "Check active area separately from chassis or display diagonal, and verify aspect ratio against your target monitor."
+    "explanation": "Check active area separately from chassis or display diagonal, and verify aspect ratio against your target monitor. Across this comparison's $40 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Evaluate Pen Behavior Directly",
-    "explanation": "Test or verify activation force, tilt behavior, and pressure-level count rather than trusting a headline spec."
+    "explanation": "Test or verify activation force, tilt behavior, and pressure-level count rather than trusting a headline spec. Products at the low end near $40 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Current Driver and OS Support",
-    "explanation": "Confirm current Windows/macOS/Linux/Android compatibility by the exact model, not an inherited older list."
+    "explanation": "Confirm current Windows/macOS/Linux/Android compatibility by the exact model, not an inherited older list. This matters in practice because the picks in this comparison span from about $40 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Included Accessories and Cables",
-    "explanation": "Verify required cables, included stand, pen, and nibs, plus desk footprint before buying."
+    "explanation": "Verify required cables, included stand, pen, and nibs, plus desk footprint before buying. With prices in this roundup ranging roughly $40 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

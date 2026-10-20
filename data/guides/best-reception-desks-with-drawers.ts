@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test Drawer Opening with Furniture in Place",
     "note": "Open drawers with a chair, return, and adjacent furniture in normal position to confirm nothing blocks full opening during daily use."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $114.97",
+          "ANGRYWIN Reception Desk with Counter"
+        ],
+        [
+          "Around $129.99",
+          "AIEGLE Reception Desk with Drawers and Storage Shelves"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
+        ],
+        [
+          "Around $369.99",
+          "63\" Reception Desk with Dual-Level Counter and LED"
+        ],
+        [
+          "Around $436.99",
+          "L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $479.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $599.99",
+          "47\" Reception Desk with LED and Power Outlets"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Interior Drawer Dimensions",
-    "explanation": "Publish interior dimensions for every drawer, since a listed drawer count says nothing about whether the drawers are actually large enough for documents, cash trays, or supplies."
+    "explanation": "Publish interior dimensions for every drawer, since a listed drawer count says nothing about whether the drawers are actually large enough for documents, cash trays, or supplies. This matters in practice because the picks in this comparison span from about $115 to $600, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Lockable from Open Drawers",
-    "explanation": "Separate lockable valuables and document drawers from open quick-access storage, so security and convenience don't compete for the same compartment."
+    "explanation": "Separate lockable valuables and document drawers from open quick-access storage, so security and convenience don't compete for the same compartment. With prices in this roundup ranging roughly $115 to $600, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify File Orientation for Intended Supplies",
-    "explanation": "Verify file orientation and slide-rail quality for the intended supplies, since a drawer sized for small items won't hold hanging files well."
+    "explanation": "Verify file orientation and slide-rail quality for the intended supplies, since a drawer sized for small items won't hold hanging files well. Given the real spread here, from about $115 up to $600, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Remaining Knee Space",
-    "explanation": "Measure remaining knee width and depth after drawers are installed, since drawer banks can meaningfully reduce staff legroom on narrower desks."
+    "explanation": "Measure remaining knee width and depth after drawers are installed, since drawer banks can meaningfully reduce staff legroom on narrower desks. Across this comparison's $115 to $600 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Test Drawer Opening with Furniture in Place",
-    "explanation": "Open drawers with a chair, return, and adjacent furniture in normal position to confirm nothing blocks full opening during daily use."
+    "explanation": "Open drawers with a chair, return, and adjacent furniture in normal position to confirm nothing blocks full opening during daily use. Products at the low end near $115 and the high end near $600 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers is aimed at buyers prioritizing 55.9\"l x 32.3\"w x 48.4\"h l-shaped counter." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-with-storage","title":"6 Best Reception Desks with Storage in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-reception-desks","title":"best-reception-desks"}];

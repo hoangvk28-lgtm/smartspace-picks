@@ -1,7 +1,7 @@
 export const guideSlug = "best-portable-power-stations-for-camping";
 export const guideTitle = "8 Best Portable Power Stations for Camping in 2026";
 export const metaTitle = "Best Portable Power Stations for Camping 2026";
-export const metaDescription = "We compared portable power stations for camping by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared portable power stations for camping by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage.";
 export const mainKeyword = "portable power stations for camping";
 export const introParagraphs = [
   "Before ranking any pick for portable power stations for camping, the real work is weighing energy-per-pound and low-load efficiency instead of maximum inverter watts alone.",
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Safety Certification Evidence",
     "note": "Look for safety certification evidence, thermal limits, fan behavior, and manual operating restrictions."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "MARBERO 237Wh Solar Generator with 60W Solar Panel Included"
+        ],
+        [
+          "Around $180.49",
+          "EnginStar Portable Power Station 300W with 60W Foldable Solar Panel"
+        ],
+        [
+          "Around $189.96",
+          "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
+        ],
+        [
+          "Around $218.98",
+          "BLUETTI Elite 30 V2 Portable Power Station"
+        ],
+        [
+          "Around $259.00",
+          "Jackery Explorer 300 Portable Power Station"
+        ],
+        [
+          "Around $339.00",
+          "Jackery Solar Generator 300 and 40W Solar Panel"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Rated Wh and Usable Energy",
-    "explanation": "Confirm portable power stations for camping's rated Wh and measured usable AC/DC energy are documented separately after conversion losses."
+    "explanation": "Confirm portable power stations for camping's rated Wh and measured usable AC/DC energy are documented separately after conversion losses. With prices in this roundup ranging roughly $180 to $499, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Separate Continuous Output From Surge",
-    "explanation": "Verify continuous inverter output is clearly separated from short surge or boost mode marketing."
+    "explanation": "Verify continuous inverter output is clearly separated from short surge or boost mode marketing. Given the real spread here, from about $180 up to $499, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Battery Chemistry and Cycle Life",
-    "explanation": "Check documented battery chemistry, cycle-life conditions, and warranty rather than assuming all packs age similarly."
+    "explanation": "Check documented battery chemistry, cycle-life conditions, and warranty rather than assuming all packs age similarly. Across this comparison's $180 to $499 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Recharge Curves and Input Limits",
-    "explanation": "Confirm AC and solar recharge curves, input limits, and simultaneous-input behavior."
+    "explanation": "Confirm AC and solar recharge curves, input limits, and simultaneous-input behavior. Products at the low end near $180 and the high end near $499 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Safety Certification Evidence",
-    "explanation": "Look for safety certification evidence, thermal limits, fan behavior, and manual operating restrictions."
+    "explanation": "Look for safety certification evidence, thermal limits, fan behavior, and manual operating restrictions. This matters in practice because the picks in this comparison span from about $180 to $499, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Jackery Explorer 300 Portable Power Station is aimed at buyers prioritizing 292wh, 300w (600w surge), 7.5 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"},{"href":"/guide/best-portable-power-stations-for-home-use","title":"Best Portable Power Stations for Home Use in 2026"}];

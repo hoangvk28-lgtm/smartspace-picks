@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Include Delivery and Installation Logistics",
     "note": "Include section or carton size, doorway and elevator access, and on-site assembly requirements, since large desks are more likely to need careful delivery planning."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $349.99",
+          "LayBurst 86.8\" Large Reception Desk"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $479.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $679.99",
+          "Laxodor 86.6\" L-Shaped Reception Desk with Combination Lock"
+        ],
+        [
+          "Around $859.00",
+          "Hulvami Modern Large Commercial Reception Desk"
+        ],
+        [
+          "Around $1,469.00",
+          "Fully Assembled Curved Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Exact Frontage and Construction Type",
-    "explanation": "Publish exact frontage and whether construction is one-piece or modular, since a wide desk that ships in sections behaves differently under load than a single molded piece."
+    "explanation": "Publish exact frontage and whether construction is one-piece or modular, since a wide desk that ships in sections behaves differently under load than a single molded piece. With prices in this roundup ranging roughly $350 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Map Realistic Work Zones",
-    "explanation": "Map realistic one-, two-, or three-person work zones based on actual usable width, not just total desk length divided evenly."
+    "explanation": "Map realistic one-, two-, or three-person work zones based on actual usable width, not just total desk length divided evenly. Given the real spread here, from about $350 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Locate Seams Relative to Chairs and Pedestals",
-    "explanation": "Locate seams and support panels relative to where chairs and pedestals actually sit, since a support post in the wrong spot can block a staff position entirely."
+    "explanation": "Locate seams and support panels relative to where chairs and pedestals actually sit, since a support post in the wrong spot can block a staff position entirely. Across this comparison's $350 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Define Simultaneous Visitor Positions",
-    "explanation": "Define simultaneous visitor positions and queue clearance for a large desk, since more frontage should translate to more usable visitor-facing space, not just a longer wall."
+    "explanation": "Define simultaneous visitor positions and queue clearance for a large desk, since more frontage should translate to more usable visitor-facing space, not just a longer wall. Products at the low end near $350 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Include Delivery and Installation Logistics",
-    "explanation": "Include section or carton size, doorway and elevator access, and on-site assembly requirements, since large desks are more likely to need careful delivery planning."
+    "explanation": "Include section or carton size, doorway and elevator access, and on-site assembly requirements, since large desks are more likely to need careful delivery planning. This matters in practice because the picks in this comparison span from about $350 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-commercial","title":"5 Best Reception Desks for Commercial Use in 2026"},{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-modular-reception-desks","title":"5 Best Modular Reception Desks in 2026"}];

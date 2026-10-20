@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenzas-with-bookshelves";
 export const guideTitle = "8 Best Office Credenzas With Bookshelves in 2026";
 export const metaTitle = "Best Office Credenzas With Bookshelves 2026";
-export const metaDescription = "We compared office credenzas with bookshelves by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenzas with bookshelves by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking.";
 export const mainKeyword = "office credenzas with bookshelves";
 export const introParagraphs = [
   "Shopping for office credenzas with bookshelves starts with checking documented shelf load instead of assuming any open shelf can hold books, not with trusting a headline spec on the listing.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Anti-Tip Hardware Is Included",
     "note": "Verify anti-tip wall-anchor hardware ships standard, since a tall, shelf-heavy piece carries more tipping risk than a low, drawer-only cabinet."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $159.99",
+          "71\" Tall Bookshelf with 4 Drawers"
+        ],
+        [
+          "Around $219.99",
+          "71\" Tall Triple Wide Bookshelf with Storage Drawers & Doors"
+        ],
+        [
+          "Around $219.99",
+          "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $249.99",
+          "72'' Tall File Bookcase with Power Outlet & Printer Stand"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Measure Vertical Clearance for Binders and Books",
-    "explanation": "Check shelf spacing in office credenzas with bookshelves against your actual binder and book heights, since open-shelf credenzas vary meaningfully in vertical clearance between shelves."
+    "explanation": "Check shelf spacing in office credenzas with bookshelves against your actual binder and book heights, since open-shelf credenzas vary meaningfully in vertical clearance between shelves. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Documented Shelf Load Rating",
-    "explanation": "Look for a stated per-shelf weight rating before loading it with books or files, since shelf sag becomes a real risk without documented load capacity."
+    "explanation": "Look for a stated per-shelf weight rating before loading it with books or files, since shelf sag becomes a real risk without documented load capacity. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Shelf Adjustability",
-    "explanation": "Confirm how many height positions each shelf supports, since fixed shelves offer less flexibility than adjustable ones as your storage needs change."
+    "explanation": "Confirm how many height positions each shelf supports, since fixed shelves offer less flexibility than adjustable ones as your storage needs change. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Plan Open vs. Closed Storage Balance",
-    "explanation": "Weigh how much of the total storage is open shelving versus closed cabinets, since open shelves offer no dust or privacy protection for their contents."
+    "explanation": "Weigh how much of the total storage is open shelving versus closed cabinets, since open shelves offer no dust or privacy protection for their contents. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Anti-Tip Hardware Is Included",
-    "explanation": "Verify anti-tip wall-anchor hardware ships standard, since a tall, shelf-heavy piece carries more tipping risk than a low, drawer-only cabinet."
+    "explanation": "Verify anti-tip wall-anchor hardware ships standard, since a tall, shelf-heavy piece carries more tipping risk than a low, drawer-only cabinet. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "72'' Tall File Bookcase with Power Outlet & Printer Stand is aimed at buyers prioritizing 72in tall, 6 open compartments, 2 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-shelves","title":"Best Office Credenzas With Shelves in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Compare Warranty and Support Channels",
     "note": "Check warranty length and support responsiveness, since this varies meaningfully even within the same brand's product line."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $161.00",
+          "VIKINYEE Thunderbolt 3/4 eGPU Enclosure USB4 (VK-Y900)"
+        ],
+        [
+          "Around $169.00",
+          "ANQUORA ANQ-L336 Mini eGPU Enclosure"
+        ],
+        [
+          "Around $189.00",
+          "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18)"
+        ],
+        [
+          "Around $189.50",
+          "TREBLEET 80Gbps eGPU Enclosure"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which akitio egpu enclosures models are currently sold rather than assuming an older listing reflects the current lineup, since generations change bandwidth and card support significantly."
+    "explanation": "Confirm which akitio egpu enclosures models are currently sold rather than assuming an older listing reflects the current lineup, since generations change bandwidth and card support significantly. Given the real spread here, from about $161 up to $190, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Controller Generation by Exact Model",
-    "explanation": "Check the specific Thunderbolt/USB4 controller generation and effective PCIe path for the exact model, not the brand's range in general."
+    "explanation": "Check the specific Thunderbolt/USB4 controller generation and effective PCIe path for the exact model, not the brand's range in general. Across this comparison's $161 to $190 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify GPU Dimension Limits",
-    "explanation": "Confirm maximum supported GPU length, height, and slot width against your specific card before assuming any enclosure in the brand's lineup fits."
+    "explanation": "Confirm maximum supported GPU length, height, and slot width against your specific card before assuming any enclosure in the brand's lineup fits. Products at the low end near $161 and the high end near $190 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Current Firmware and Driver Support",
-    "explanation": "Verify current firmware and driver support status, since older models can lose active support over time."
+    "explanation": "Verify current firmware and driver support status, since older models can lose active support over time. This matters in practice because the picks in this comparison span from about $161 to $190, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Warranty and Support Channels",
-    "explanation": "Check warranty length and support responsiveness, since this varies meaningfully even within the same brand's product line."
+    "explanation": "Check warranty length and support responsiveness, since this varies meaningfully even within the same brand's product line. With prices in this roundup ranging roughly $161 to $190, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Should I choose a Thunderbolt/USB4 enclosure or an OCuLink one?",
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "TREBLEET 80Gbps eGPU Enclosure is aimed at buyers prioritizing jhl9480 controller, 80gbps bandwidth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-razer-egpu-enclosures","title":"Best Razer eGPU Enclosures in 2026"},{"href":"/guide/best-trebleet-egpu-enclosures","title":"Best TREBLEET eGPU Enclosures in 2026"},{"href":"/guide/best-asus-egpu-enclosures","title":"Best ASUS eGPU Enclosures in 2026"}];

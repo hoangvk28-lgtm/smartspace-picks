@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31FDAqE+ibL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CKGD4DQG?tag=deskfinds0d-20",
-    description: "The white 4-post version of NavePoint's 42U rack, differing from the 2-post white model mainly in the added stability of a fourth support post at the same 661 lb capacity.\n\nAt 79 inches tall and 18.33 inches wide, it's slightly narrower than the 2-post version, which can matter in especially tight rooms.",
+    description: "The white 4-post version of NavePoint's 42U rack, differing from the 2-post white model mainly in the added stability of a fourth support post at the same 661 lb capacity.\n\nAt 79 inches tall and 18.33 inches wide, it's slightly narrower than the 2-post version, which can matter in especially tight rooms.\n\nWhat stands out here is 4-post frame adds stability the 2-post version lacks, plus slightly narrower footprint than the 2-post white model. The main tradeoff: same 661 lb cap as the 2-post version despite extra posts, so weigh that against the $437.99 price before buying.",
     specs: ["42U, 79\"H x 18.33\"W, 22-40\"D","661 lb weight capacity","4-post open frame design"],
     pros: ["4-post frame adds stability the 2-post version lacks","Slightly narrower footprint than the 2-post white model","Adjustable depth range fits varied equipment lengths"],
     cons: ["Same 661 lb cap as the 2-post version despite extra posts","79\" height still needs a tall room to fit"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cooling Method Fits the Enclosure",
     "note": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $297.99",
+          "NavePoint 42U 2 Post Rack Open Frame"
+        ],
+        [
+          "Around $389.99",
+          "NavePoint 25U 4-Post Open Frame Server Rack"
+        ],
+        [
+          "Around $437.99",
+          "NavePoint 42U 4 Post Rack Open Frame"
+        ],
+        [
+          "Around $1,099.00",
+          "Tecmojo 42U Server Rack Network Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm white server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm white server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths. With prices in this roundup ranging roughly $298 to $1099, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed."
+    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. Given the real spread here, from about $298 up to $1099, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. Across this comparison's $298 to $1099 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. Products at the low end near $298 and the high end near $1099 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",
-    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
+    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load. This matters in practice because the picks in this comparison span from about $298 to $1099, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 42U Server Rack Network Cabinet is aimed at buyers prioritizing 42u, 31.5\"d x 23.6\"w." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

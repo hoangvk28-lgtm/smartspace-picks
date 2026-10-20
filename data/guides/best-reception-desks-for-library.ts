@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Holds and Shared Storage from Personal Storage",
     "note": "Separate holds, shared supplies, and personal storage, since library reception often manages more categories of stored items than a standard front desk."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Stage Books, Scanner, and Monitor Together",
-    "explanation": "Stage books, a barcode or RFID scanner, monitor, and printer together at the desk's real dimensions before assuming the nominal footprint is enough."
+    "explanation": "Stage books, a barcode or RFID scanner, monitor, and printer together at the desk's real dimensions before assuming the nominal footprint is enough. Products at the low end near $459 and the high end near $950 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Provide Cart Parking Without Blocking Approach",
-    "explanation": "Provide cart parking or book staging space without blocking patron approach, since library service desks handle more physical materials than a typical office reception point."
+    "explanation": "Provide cart parking or book staging space without blocking patron approach, since library service desks handle more physical materials than a typical office reception point. This matters in practice because the picks in this comparison span from about $459 to $950, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Accessible Service and Circulation",
-    "explanation": "Verify an accessible service counter and circulation path, checking against current ADA standards where the desk claims accessibility."
+    "explanation": "Verify an accessible service counter and circulation path, checking against current ADA standards where the desk claims accessibility. With prices in this roundup ranging roughly $459 to $950, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Sightlines Around Tall Stacks",
-    "explanation": "Check sightlines around tall stacks or counter panels, since library layouts often place the service desk near sightline-blocking shelving."
+    "explanation": "Check sightlines around tall stacks or counter panels, since library layouts often place the service desk near sightline-blocking shelving. Given the real spread here, from about $459 up to $950, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Separate Holds and Shared Storage from Personal Storage",
-    "explanation": "Separate holds, shared supplies, and personal storage, since library reception often manages more categories of stored items than a standard front desk."
+    "explanation": "Separate holds, shared supplies, and personal storage, since library reception often manages more categories of stored items than a standard front desk. Across this comparison's $459 to $950 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-retail","title":"best-reception-desks-for-retail"},{"href":"/guide/best-large-reception-desks","title":"best-large-reception-desks"}];

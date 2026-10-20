@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     description: "This documents eligibility for up to a 30% U.S. Residential Clean Energy Credit on qualified solar costs, worth verifying with a tax professional before buying. A 3840Wh capacity, expandable to 11,520Wh, pairs with EV-grade LiFePO4 cells rated for over 4000 cycles and up to a 10-year lifespan.\n\n3600W rated output (4500W peak) supports a stated 99% of household appliances, with AC (1500W), PV (2000W), and car charging combining for a full charge in just 1.29 hours, or 3 hours via AC alone. Fifteen output ports handle a genuinely wide device range, and an extendable telescoping handle with durable wheels makes this large-scale unit realistically transportable, with integrated Bluetooth app monitoring for remote adjustments.",
     specs: ["3840Wh (expandable to 11,520Wh), 3600W","1.29hr fastest full charge","Telescoping handle + wheels"],
     pros: ["Documents eligibility for a real U.S. solar tax credit directly","1.29-hour fastest full charge is genuinely quick at 3840Wh scale","Telescoping handle and wheels make this large unit realistically mobile"],
-    cons: ["Must charge above 32°F or wait 30 min-2hr for the unit to warm up","Tax credit eligibility requires separate confirmation from a professional"],
+    cons: ["Must charge above 32-degreeF or wait 30 min-2hr for the unit to warm up","Tax credit eligibility requires separate confirmation from a professional"],
     bestFor: "buyers prioritizing 3840wh (expandable to 11,520wh), 3600w",
   },
   {
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Recharge Time and Expansion",
     "note": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $699.98",
+          "AFERIY P280 Portable Power Station"
+        ],
+        [
+          "Around $799.00",
+          "OSCAL PowerMax 3600 PE Portable Power Station"
+        ],
+        [
+          "Around $899.00",
+          "PECRON F3000LFP Portable Power Station"
+        ],
+        [
+          "Around $999.00",
+          "PECRON E3600LFP Portable Power Station"
+        ],
+        [
+          "Around $1,169.00",
+          "AFERIY 3840Wh Portable Power Station"
+        ],
+        [
+          "Around $1,199.00",
+          "ABOK Ark3600 Portable Power Station"
+        ],
+        [
+          "Around $1,199.00",
+          "OSCAL PowerMax 3600 PE Portable Power Station with 400W Solar Panel"
+        ],
+        [
+          "Around $1,299.00",
+          "PECRON E3800LFP Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require a Narrow Capacity Tolerance",
-    "explanation": "Confirm 3000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance."
+    "explanation": "Confirm 3000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance. Products at the low end near $700 and the high end near $1299 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Usable Energy, Not Rated Capacity",
-    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone."
+    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone. This matters in practice because the picks in this comparison span from about $700 to $1299, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Pair Capacity With Continuous Output",
-    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity."
+    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity. With prices in this roundup ranging roughly $700 to $1299, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Weight and Wh-Per-Pound",
-    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity."
+    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity. Given the real spread here, from about $700 up to $1299, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Recharge Time and Expansion",
-    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class."
+    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class. Across this comparison's $700 to $1299 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ABOK Ark3600 Portable Power Station is aimed at buyers prioritizing 3840wh (expandable to 11,520wh), 3600w." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000wh-portable-power-stations","title":"Best 1000Wh Portable Power Stations in 2026"},{"href":"/guide/best-500wh-portable-power-stations","title":"Best 500Wh Portable Power Stations in 2026"},{"href":"/guide/best-2000wh-portable-power-stations","title":"Best 2000Wh Portable Power Stations in 2026"}];

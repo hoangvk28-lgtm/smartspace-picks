@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41o2sBIWsCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FN791C17?tag=deskfinds0d-20",
-    description: "A 10-inch wall-mount cabinet with a reversible tempered glass door, sized specifically for smaller Pi-cluster and mini-ITX gear rather than standard 19-inch equipment.\n\nMeeting both CE and NEMA Type-1 standards, it's built for telecom and AV closets as much as home labs, with brush panels and a cable manager included for tidy routing.",
+    description: "A 10-inch wall-mount cabinet with a reversible tempered glass door, sized specifically for smaller Pi-cluster and mini-ITX gear rather than standard 19-inch equipment.\n\nMeeting both CE and NEMA Type-1 standards, it's built for telecom and AV closets as much as home labs, with brush panels and a cable manager included for tidy routing.\n\nWhere this one earns its spot is CE and NEMA Type-1 compliance suits professional installs, and cable manager and brush panels included. Worth noting before buying: 10-inch format won't fit standard rack servers, which matters more at $99.90 than it would on a cheaper pick.",
     specs: ["9U, 10\" width, 251mm max depth","110 lb weight capacity","CE and NEMA Type-1 compliant"],
     pros: ["CE and NEMA Type-1 compliance suits professional installs","Cable manager and brush panels included","Reversible glass door adapts to either wall side"],
     cons: ["10-inch format won't fit standard rack servers","251mm max depth limits bulkier equipment"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/418C1ZRpOGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DT2XM22G?tag=deskfinds0d-20",
-    description: "The taller sibling to the RackMate T1, this 12U version gives more vertical room for a bigger cluster while keeping the same aluminum-and-acrylic build the line is known for.\n\nAt 10.23 inches deep it's slightly roomier front-to-back than the 8U model too, giving a bit more clearance behind mounted boards and cabling.",
+    description: "The taller sibling to the RackMate T1, this 12U version gives more vertical room for a bigger cluster while keeping the same aluminum-and-acrylic build the line is known for.\n\nAt 10.23 inches deep it's slightly roomier front-to-back than the 8U model too, giving a bit more clearance behind mounted boards and cabling.\n\nThis pick is best for buyers who value 12U height fits a larger Pi or SBC cluster along with extra depth over the 8U model eases cable routing. The catch is that bigger footprint than the compact 8U model, so decide if that's worth it at $149.99.",
     specs: ["12U, 10\" width, 10.23\" depth","Aluminum alloy and acrylic frame","Open design for airflow and access"],
     pros: ["12U height fits a larger Pi or SBC cluster","Extra depth over the 8U model eases cable routing","Open frame keeps single-board computers cool"],
     cons: ["Bigger footprint than the compact 8U model","Only suited to 10-inch mini equipment"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/419QlHf4BLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JZ9YJW?tag=deskfinds0d-20",
-    description: "Identical to the black 6U model but finished in white, which matters if you're building a visible desk setup rather than tucking the rack away in a closet.\n\nIt includes an SBC shelf and micro adapter boards that the smaller 4U model doesn't, making it a slightly better fit for single-board-computer cluster projects.",
+    description: "Identical to the black 6U model but finished in white, which matters if you're building a visible desk setup rather than tucking the rack away in a closet.\n\nIt includes an SBC shelf and micro adapter boards that the smaller 4U model doesn't, making it a slightly better fit for single-board-computer cluster projects.\n\nWhat stands out here is SBC shelf and adapter boards included for cluster builds, plus white finish suits a visible desk setup. The main tradeoff: white finish shows dust more than black, so weigh that against the $69.90 price before buying.",
     specs: ["6U, 10\" width, 7.87\" deep, white finish","SBC shelf and micro adapter boards included","Steel and acrylic construction"],
     pros: ["SBC shelf and adapter boards included for cluster builds","White finish suits a visible desk setup","Same sturdy steel-and-acrylic build as the black version"],
     cons: ["White finish shows dust more than black","Still a 10-inch format, not standard rack gear"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/412Qr20b9aL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F4JWMY4T?tag=deskfinds0d-20",
-    description: "The tallest of Tecmojo's white 10-inch mini rack lineup, giving 12U of space for a larger cluster build while keeping the same translucent acrylic panel design.\n\nIt includes three blank panels and two shelves in the box compared to the smaller models' single shelf, reflecting the extra space this size is meant to fill.",
+    description: "The tallest of Tecmojo's white 10-inch mini rack lineup, giving 12U of space for a larger cluster build while keeping the same translucent acrylic panel design.\n\nIt includes three blank panels and two shelves in the box compared to the smaller models' single shelf, reflecting the extra space this size is meant to fill.\n\nThe strongest case for this pick comes down to comes with more panels and shelves than smaller sizes as well as 12U height suits a genuinely larger cluster. The compromise here is that bigger footprint than the compact 4U and 6U models, so factor that in alongside the $139.90 asking price.",
     specs: ["12U, 10\" width, 10.23\" deep, white","3 blank panels, 2 shelves included","Steel and acrylic construction"],
     pros: ["Comes with more panels and shelves than smaller sizes","12U height suits a genuinely larger cluster","Translucent sides keep status LEDs visible"],
     cons: ["Bigger footprint than the compact 4U and 6U models","Limited to 10-inch mini equipment only"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31iRiz4rmgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FBFDZD4C?tag=deskfinds0d-20",
-    description: "The DeskPi RackMate T1 is a well-known name in the home lab and Raspberry Pi cluster community, built from aluminum alloy and acrylic for an 8U, 10-inch mini rack.\n\nIts translucent acrylic sides are explicitly designed for adding ambient lighting, leaning into the hobbyist aesthetic that's made this line popular for visible desk setups.",
+    description: "The DeskPi RackMate T1 is a well-known name in the home lab and Raspberry Pi cluster community, built from aluminum alloy and acrylic for an 8U, 10-inch mini rack.\n\nIts translucent acrylic sides are explicitly designed for adding ambient lighting, leaning into the hobbyist aesthetic that's made this line popular for visible desk setups.\n\nWhere this one earns its spot is well-known DeskPi design popular in the home lab community, and translucent sides support ambient lighting add-ons. Worth noting before buying: flat-pack assembly required out of the box, which matters more at $119.99 than it would on a cheaper pick.",
     specs: ["8U, 10\" width, 7.87\" depth","Aluminum alloy and acrylic construction","Flat-packed with full mounting hardware"],
     pros: ["Well-known DeskPi design popular in the home lab community","Translucent sides support ambient lighting add-ons","Open design makes install and maintenance easy"],
     cons: ["Flat-pack assembly required out of the box","10-inch format won't fit standard rack gear"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ventilation for Passive Cooling",
     "note": "Confirm the frame's open or translucent-panel design provides enough passive airflow for a small cluster generating real heat."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $69.90",
+          "Tecmojo 6U Mini Server Rack"
+        ],
+        [
+          "Around $99.90",
+          "Tecmojo 9U 10 inch Rack"
+        ],
+        [
+          "Around $119.99",
+          "GeeekPi 8U Network Rack"
+        ],
+        [
+          "Around $139.90",
+          "Tecmojo 12U Mini Server Rack"
+        ],
+        [
+          "Around $149.99",
+          "GeeekPi 12U Network Rack"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm 10-Inch Compatibility, Not 19-Inch",
-    "explanation": "Verify 10-inch server racks only fits 10-inch mini rack equipment, since standard 19-inch servers and switches won't mount in this format."
+    "explanation": "Verify 10-inch server racks only fits 10-inch mini rack equipment, since standard 19-inch servers and switches won't mount in this format. Across this comparison's $70 to $150 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check U-Height for the Actual Cluster Size",
-    "explanation": "Count the actual boards or devices planned for the cluster against the U-height rather than assuming any mini rack size works."
+    "explanation": "Count the actual boards or devices planned for the cluster against the U-height rather than assuming any mini rack size works. Products at the low end near $70 and the high end near $150 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Included Shelves and Adapter Boards",
-    "explanation": "Check which shelves, blank panels, and adapter boards are actually included, since this varies notably between mini rack sizes."
+    "explanation": "Check which shelves, blank panels, and adapter boards are actually included, since this varies notably between mini rack sizes. This matters in practice because the picks in this comparison span from about $70 to $150, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Depth Fits Your SBC or Mini-ITX Build",
-    "explanation": "Verify the rack's depth accommodates your specific single-board computer or mini-ITX case dimensions."
+    "explanation": "Verify the rack's depth accommodates your specific single-board computer or mini-ITX case dimensions. With prices in this roundup ranging roughly $70 to $150, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Ventilation for Passive Cooling",
-    "explanation": "Confirm the frame's open or translucent-panel design provides enough passive airflow for a small cluster generating real heat."
+    "explanation": "Confirm the frame's open or translucent-panel design provides enough passive airflow for a small cluster generating real heat. Given the real spread here, from about $70 up to $150, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 9U 10 inch Rack is aimed at buyers prioritizing 9u, 10\" width, 251mm max depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-server-racks","title":"Best Mini Server Racks in 2026"},{"href":"/guide/best-mini-server-racks-for-home","title":"Best Mini Server Racks for Home in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

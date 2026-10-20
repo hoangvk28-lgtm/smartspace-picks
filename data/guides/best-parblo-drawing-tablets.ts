@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/410G3huIlTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09DGCKZ7G?tag=deskfinds0d-20",
     description: "The P08 pen uses genuinely advanced passive technology requiring no charging or battery replacement, so it's always ready without the risk of a dead stylus mid-session. A 7x4 inch active area pairs with six customizable press keys and a single dial ring.\n\nThe pen tablet rotates to 90, 180, or 270 degrees to suit personal drawing habits, and the narrow-frame palm area with rounded corners specifically targets reduced hand fatigue during long sessions. Plus-or-minus 60-degree tilt function combined with 8192 pressure and 5080 LPI resolution delivers accurate, stable line control across Windows, Mac, and Android 6.0+.",
-    specs: ["7x4in area, 8192 pressure, 5080 LPI","Rotates 90°/180°/270°","Battery-free P08 pen"],
+    specs: ["7x4in area, 8192 pressure, 5080 LPI","Rotates 90-degree/180-degree/270-degree","Battery-free P08 pen"],
     pros: ["Rotates a full 90/180/270 degrees for any drawing habit","Rounded, narrow-frame design specifically reduces hand fatigue","P08 pen never needs charging or battery replacement"],
     cons: ["No screen, maps to a separate connected display","Compact 7x4in area limits large-format detail work"],
     bestFor: "buyers prioritizing 7x4in area, 8192 pressure, 5080 lpi",
@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41m9XAO339L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079QG61P2?tag=deskfinds0d-20",
     description: "This is purpose-built stand hardware, not a drawing tablet itself, supporting screens from 10 to 16 inches with a tilt range adjustable from 15 to 90 degrees. Rubber-covered contact points specifically prevent slipping during active drawing sessions.\n\nConstructed from alloy and plastic for genuine steadiness, this was Parblo's first dedicated tablet stand, designed specifically around the comfort demands of extended drawing sessions rather than as a generic monitor stand repurposed for tablets.",
-    specs: ["Fits 10-16in tablets","15-90° tilt adjustment","Alloy + plastic construction"],
-    pros: ["15-90° tilt range covers nearly any working angle","Rubber-covered contact points genuinely prevent slipping","Alloy construction adds real steadiness under an active pen"],
+    specs: ["Fits 10-16in tablets","15-90-degree tilt adjustment","Alloy + plastic construction"],
+    pros: ["15-90-degree tilt range covers nearly any working angle","Rubber-covered contact points genuinely prevent slipping","Alloy construction adds real steadiness under an active pen"],
     cons: ["This is stand hardware only, not a drawing tablet","Fixed 10-16in range won't fit smaller or larger screens"],
     bestFor: "buyers prioritizing fits 10-16in tablets",
   }
@@ -135,28 +135,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Warranty and Support Resources",
     "note": "Confirm warranty length and whether firmware/driver updates are still actively maintained for the specific model."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $34.99",
+          "Parblo Graphic Drawing Tablet with Drawing Glove"
+        ],
+        [
+          "Around $41.99",
+          "Parblo PR 100 Universal Drawing Tablet Stand"
+        ],
+        [
+          "Around $54.99",
+          "Parblo Intangbo X7 Drawing Tablet 7x4 inch"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which parblo drawing tablets models are currently sold rather than assuming an older listing reflects the current lineup, since driver support and pen generation change between models."
+    "explanation": "Confirm which parblo drawing tablets models are currently sold rather than assuming an older listing reflects the current lineup, since driver support and pen generation change between models. Products at the low end near $35 and the high end near $55 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Separate Architecture by Exact Model",
-    "explanation": "Classify each model as screenless pen tablet, pen display, or standalone before comparing specs across the same brand's range."
+    "explanation": "Classify each model as screenless pen tablet, pen display, or standalone before comparing specs across the same brand's range. This matters in practice because the picks in this comparison span from about $35 to $55, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Current Driver Support",
-    "explanation": "Check the manufacturer's current driver download page directly for the exact model, since older tablets can lose active support over time."
+    "explanation": "Check the manufacturer's current driver download page directly for the exact model, since older tablets can lose active support over time. With prices in this roundup ranging roughly $35 to $55, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare the Bundled Accessory Ecosystem",
-    "explanation": "Check included pen, nibs, stand, and shortcut remote, since these vary meaningfully even within one brand's lineup."
+    "explanation": "Check included pen, nibs, stand, and shortcut remote, since these vary meaningfully even within one brand's lineup. Given the real spread here, from about $35 up to $55, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Warranty and Support Resources",
-    "explanation": "Confirm warranty length and whether firmware/driver updates are still actively maintained for the specific model."
+    "explanation": "Confirm warranty length and whether firmware/driver updates are still actively maintained for the specific model. Across this comparison's $35 to $55 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -181,6 +205,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Parblo Intangbo X7 Drawing Tablet 7x4 inch is aimed at buyers prioritizing 7.2x4.5in area, 8192 pressure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenzas-with-storage";
 export const guideTitle = "8 Best Office Credenzas With Storage in 2026";
 export const metaTitle = "Best Office Credenzas With Storage 2026";
-export const metaDescription = "We compared office credenzas with storage by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenzas with storage by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "office credenzas with storage";
 export const introParagraphs = [
   "office credenzas with storage products vary enough that checking real interior compartment dimensions instead of counting doors matters more than exterior style alone.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Lockable From Open Storage",
     "note": "Identify which compartments lock and which stay open, so confidential files and everyday supplies end up in the right zone from day one."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $159.99",
+          "71\" Tall Bookshelf with 4 Drawers"
+        ],
+        [
+          "Around $219.99",
+          "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $219.99",
+          "71\" Tall Triple Wide Bookshelf with Storage Drawers & Doors"
+        ],
+        [
+          "Around $249.99",
+          "72'' Tall File Bookcase with Power Outlet & Printer Stand"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Inventory the Actual Storage Type Mix",
-    "explanation": "List the exact combination of shelves, cabinets, drawers, and file zones in office credenzas with storage rather than judging storage capacity by door count alone."
+    "explanation": "List the exact combination of shelves, cabinets, drawers, and file zones in office credenzas with storage rather than judging storage capacity by door count alone. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Each Compartment's Interior Dimensions",
-    "explanation": "Get interior dimensions and shelf-adjustment range for every compartment, since center partitions and hardware can make interior bays meaningfully smaller than exterior width suggests."
+    "explanation": "Get interior dimensions and shelf-adjustment range for every compartment, since center partitions and hardware can make interior bays meaningfully smaller than exterior width suggests. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Documented Shelf Load",
-    "explanation": "Check for a stated shelf weight rating before loading it with books, binders, or equipment, rather than assuming printer-grade strength without documentation."
+    "explanation": "Check for a stated shelf weight rating before loading it with books, binders, or equipment, rather than assuming printer-grade strength without documentation. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Door Clearance in Your Room",
-    "explanation": "Open every door in the intended layout and measure the clearance needed, since some designs require more swing radius than a typical office aisle allows."
+    "explanation": "Open every door in the intended layout and measure the clearance needed, since some designs require more swing radius than a typical office aisle allows. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Separate Lockable From Open Storage",
-    "explanation": "Identify which compartments lock and which stay open, so confidential files and everyday supplies end up in the right zone from day one."
+    "explanation": "Identify which compartments lock and which stay open, so confidential files and everyday supplies end up in the right zone from day one. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-for-home-office","title":"Best Office Credenzas for Home Office in 2026"}];

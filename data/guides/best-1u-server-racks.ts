@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vyzPjra9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKSR9C2J?tag=deskfinds0d-20",
-    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.",
+    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nWhat stands out here is 242 lb rating far exceeds typical cantilever shelves, plus adjustable depth fits a wide range of rack sizes. The main tradeoff: 4-post mount needs support on all sides, so weigh that against the $69.90 price before buying.",
     specs: ["1U, adjustable 13.5-31.8\" depth","242 lb weight capacity","SPCC cold rolled steel, 4-post mount"],
     pros: ["242 lb rating far exceeds typical cantilever shelves","Adjustable depth fits a wide range of rack sizes","Can flip to save space when not fully loaded"],
     cons: ["4-post mount needs support on all sides","Heavier duty build costs more than basic shelves"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/413EFaYNtqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B084CZCGFP?tag=deskfinds0d-20",
-    description: "Pyle's cantilever shelf pack rounds out this category with a 110 lb rating, notably higher than many 1U cantilever shelves, while still fitting standard 19-inch racks.\n\nThe punch-out bottom design is specifically built for airflow rather than just weight support, aimed at stage and studio gear as much as network equipment.",
+    description: "Pyle's cantilever shelf pack rounds out this category with a 110 lb rating, notably higher than many 1U cantilever shelves, while still fitting standard 19-inch racks.\n\nThe punch-out bottom design is specifically built for airflow rather than just weight support, aimed at stage and studio gear as much as network equipment.\n\nWhere this one earns its spot is 110 lb rating is high for a 1U cantilever shelf, and punch-out design specifically targets better airflow. Worth noting before buying: two-piece pack costs more than single shelves, which matters more at $29.99 than it would on a cheaper pick.",
     specs: ["1U, 17.6\"L x 10\"W, 2-pack","110 lb weight capacity","Punch-out vented bottom"],
     pros: ["110 lb rating is high for a 1U cantilever shelf","Punch-out design specifically targets better airflow","Fits universally across standard 19\" racks"],
     cons: ["Two-piece pack costs more than single shelves","Still shallower than some 4-post shelf alternatives"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fs6LB1qoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD6DX745?tag=deskfinds0d-20",
-    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.",
+    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.\n\nThis pick is best for buyers who value perforated bottom actively helps cool stacked gear along with two shelves in one purchase for less per-unit cost. The catch is that 10\" depth is shallow for larger equipment, so decide if that's worth it at $25.90.",
     specs: ["1U, 10\" deep, 2-pack","Q235 carbon steel, 1.5mm thick","50 lb capacity per shelf"],
     pros: ["Perforated bottom actively helps cool stacked gear","Two shelves in one purchase for less per-unit cost","50 lb rating handles routers and small switches easily"],
     cons: ["10\" depth is shallow for larger equipment","Cantilever design isn't rated for very heavy loads"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $25.90",
+          "VEVOR 2-Pack 1U Server Rack Shelf"
+        ],
+        [
+          "Around $29.99",
+          "Pyle 2-Pc 1U Server Rack Shelf"
+        ],
+        [
+          "Around $59.90",
+          "Tecmojo 2-Pack 1U Universal Rack Mount Rails"
+        ],
+        [
+          "Around $69.90",
+          "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf"
+        ],
+        [
+          "Around $70.71",
+          "StarTech 1U 4-Post Vented Rack Shelf"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 1u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 1u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Across this comparison's $26 to $71 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Products at the low end near $26 and the high end near $71 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. This matters in practice because the picks in this comparison span from about $26 to $71, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. With prices in this roundup ranging roughly $26 to $71, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Given the real spread here, from about $26 up to $71, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf is aimed at buyers prioritizing 1u, adjustable 13.5-31.8\" depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-12u-server-racks","title":"Best 12U Server Racks in 2026"}];

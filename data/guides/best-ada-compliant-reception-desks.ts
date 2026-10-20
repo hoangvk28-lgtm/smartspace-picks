@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Compliance Is Desk Plus Installation",
     "note": "Treat compliance as desk plus installation plus surrounding floor space, and separate genuine DOJ-documentation-confirmed facts from general design inference."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Against Current DOJ Standards",
-    "explanation": "Check the accessible service-counter portion against current DOJ Sections 227.3 and 904.4 rather than trusting an \"ADA compliant\" marketing label at face value."
+    "explanation": "Check the accessible service-counter portion against current DOJ Sections 227.3 and 904.4 rather than trusting an \"ADA compliant\" marketing label at face value. Across this comparison's $170 to $950 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Forward vs Parallel Approach",
-    "explanation": "Confirm whether the installation uses a forward or parallel wheelchair approach, since the required counter and clear-floor geometry differs between the two."
+    "explanation": "Confirm whether the installation uses a forward or parallel wheelchair approach, since the required counter and clear-floor geometry differs between the two. Products at the low end near $170 and the high end near $950 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Knee and Toe Clearance",
-    "explanation": "Measure knee and toe clearance where required, and confirm pedestals, storage, or privacy panels don't intrude into that space once the desk is fully installed."
+    "explanation": "Measure knee and toe clearance where required, and confirm pedestals, storage, or privacy panels don't intrude into that space once the desk is fully installed. This matters in practice because the picks in this comparison span from about $170 to $950, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Accessible Route and Queue Layout",
-    "explanation": "Check the accessible route, queue layout, and turning or approach area around the completed desk, not just the desk's own dimensions in isolation."
+    "explanation": "Check the accessible route, queue layout, and turning or approach area around the completed desk, not just the desk's own dimensions in isolation. With prices in this roundup ranging roughly $170 to $950, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compliance Is Desk Plus Installation",
-    "explanation": "Treat compliance as desk plus installation plus surrounding floor space, and separate genuine DOJ-documentation-confirmed facts from general design inference."
+    "explanation": "Treat compliance as desk plus installation plus surrounding floor space, and separate genuine DOJ-documentation-confirmed facts from general design inference. Given the real spread here, from about $170 up to $950, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Is a lowered shelf enough to make a reception desk ADA compliant?",
     "a": "Not by itself. A lowered shelf needs to meet the specific height, knee clearance, and approach requirements in current DOJ standards; a shelf that's simply lower than the main counter without meeting those exact specifications does not automatically satisfy ADA requirements."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-hospital","title":"best-reception-desks-for-hospital"},{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-medical","title":"best-reception-desks-for-medical"}];

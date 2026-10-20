@@ -1,7 +1,7 @@
 export const guideSlug = "best-lightweight-portable-power-stations";
 export const guideTitle = "8 Best Lightweight Portable Power Stations in 2026";
 export const metaTitle = "Best Lightweight Portable Power Stations 2026";
-export const metaDescription = "We compared lightweight portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared lightweight portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage.";
 export const mainKeyword = "lightweight portable power stations";
 export const introParagraphs = [
   "Best Lightweight Portable Power Stations deserves capacity-specific scrutiny before ranking, since this category comes down to measuring usable Wh per pound while preserving the ports you actually need.",
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Measure Low-Load Efficiency",
     "note": "Check low-load efficiency and fan noise, since small inverters can waste a larger share of stored energy."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $69.98",
+          "Daran Portable Power Station 89.6Wh"
+        ],
+        [
+          "Around $89.99",
+          "Powkey R180 Portable Power Station"
+        ],
+        [
+          "Around $99.99",
+          "Duracell M100 Portable Charging Hub"
+        ],
+        [
+          "Around $109.00",
+          "ALLPOWERS VOLIX P300 Portable Power Station"
+        ],
+        [
+          "Around $129.98",
+          "ZeroKor Portable Power Station 300W"
+        ],
+        [
+          "Around $129.99",
+          "GRECELL Portable Power Station 330W"
+        ],
+        [
+          "Around $189.96",
+          "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Set Explicit Weight Thresholds",
-    "explanation": "Set an explicit weight and packed-volume threshold for lightweight portable power stations rather than judging portability from photos alone."
+    "explanation": "Set an explicit weight and packed-volume threshold for lightweight portable power stations rather than judging portability from photos alone. Across this comparison's $70 to $190 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Measured Wh Per Pound",
-    "explanation": "Compare measured usable Wh per pound across finalists to judge real energy density."
+    "explanation": "Compare measured usable Wh per pound across finalists to judge real energy density. Products at the low end near $70 and the high end near $190 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Output Still Meets Target Load",
-    "explanation": "Confirm AC, USB-C, and DC outputs still meet your target load despite the compact size."
+    "explanation": "Confirm AC, USB-C, and DC outputs still meet your target load despite the compact size. This matters in practice because the picks in this comparison span from about $70 to $190, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Ergonomics and Charger Weight",
-    "explanation": "Compare handle and packing ergonomics, plus the weight of any required charger or adapter."
+    "explanation": "Compare handle and packing ergonomics, plus the weight of any required charger or adapter. With prices in this roundup ranging roughly $70 to $190, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Low-Load Efficiency",
-    "explanation": "Check low-load efficiency and fan noise, since small inverters can waste a larger share of stored energy."
+    "explanation": "Check low-load efficiency and fan noise, since small inverters can waste a larger share of stored energy. Given the real spread here, from about $70 up to $190, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ALLPOWERS VOLIX P300 Portable Power Station is aimed at buyers prioritizing 256wh, 300w (600w surge), 7.87 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

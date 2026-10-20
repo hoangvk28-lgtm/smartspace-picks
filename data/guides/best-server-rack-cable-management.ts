@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41AiTgwqaQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CVR1W5QF?tag=deskfinds0d-20",
-    description: "A simple but genuinely useful accessory: a 1U brush panel that fills an empty rack slot while letting cables pass through the soft brush strip instead of an open gap.\n\nBeyond looking tidier, the brush strip actively blocks dust from drifting into your rack through an unused opening, which matters more than it sounds for long-term equipment health.",
+    description: "A simple but genuinely useful accessory: a 1U brush panel that fills an empty rack slot while letting cables pass through the soft brush strip instead of an open gap.\n\nBeyond looking tidier, the brush strip actively blocks dust from drifting into your rack through an unused opening, which matters more than it sounds for long-term equipment health.\n\nWhere this one earns its spot is blocks dust from an otherwise open rack slot, and two-pack covers more than one empty U at once. Worth noting before buying: purely cosmetic and dust control, no other function, which matters more at $29.99 than it would on a cheaper pick.",
     specs: ["1U brush panel, 19\" standard rack fit","2-pack with mounting screws","Cage nut compatible"],
     pros: ["Blocks dust from an otherwise open rack slot","Two-pack covers more than one empty U at once","Simple install with included screws and cage nuts"],
     cons: ["Purely cosmetic and dust control, no other function","Brush bristles compress over time with heavy cable use"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41GK0x7ROQS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B087Q86S63?tag=deskfinds0d-20",
-    description: "A more budget-friendly take on the same 24-slot horizontal cable manager concept, sold as a 2-pack rather than 4 to keep the entry cost down for smaller builds.\n\nIt's all-metal with rounded edges rather than plastic, a detail worth checking for since cheaper cable managers sometimes cut corners here and risk nicking cable jackets over time.",
+    description: "A more budget-friendly take on the same 24-slot horizontal cable manager concept, sold as a 2-pack rather than 4 to keep the entry cost down for smaller builds.\n\nIt's all-metal with rounded edges rather than plastic, a detail worth checking for since cheaper cable managers sometimes cut corners here and risk nicking cable jackets over time.\n\nWhat stands out here is rounded metal edges avoid nicking cable jackets, plus smaller 2-pack keeps cost down for light builds. The main tradeoff: half the coverage of the 4-pack alternatives, so weigh that against the $25.49 price before buying.",
     specs: ["1U, 24-slot, W19\" x D1.85\" x H1.75\"","All-metal, rounded edges","2-pack, cage nuts included"],
     pros: ["Rounded metal edges avoid nicking cable jackets","Smaller 2-pack keeps cost down for light builds","Cage nuts included for standard rack mounting"],
     cons: ["Half the coverage of the 4-pack alternatives","24 slots fill up fast on a busy rack"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/319Deo25n5L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BXCRCWX8?tag=deskfinds0d-20",
-    description: "Not a rack accessory in the traditional sense but a wire raceway channel, useful for routing power and data cables from a rack to a desk or wall outlet cleanly.\n\nMade from UL 94 V-0 flame retardant PVC, it holds up to 40 cables per the listing and comes in two 3-foot sections totaling 6 feet, enough for most under-desk runs.",
+    description: "Not a rack accessory in the traditional sense but a wire raceway channel, useful for routing power and data cables from a rack to a desk or wall outlet cleanly.\n\nMade from UL 94 V-0 flame retardant PVC, it holds up to 40 cables per the listing and comes in two 3-foot sections totaling 6 feet, enough for most under-desk runs.\n\nThe strongest case for this pick comes down to UL 94 V-0 fire rating for safer cable runs as well as handles up to 40 cables in one channel. The compromise here is that sized for desk runs, not rack-to-rack cabling, so factor that in alongside the $23.99 asking price.",
     specs: ["2\"H x 2\"W channel, 6ft total (two 3ft pieces)","UL 94 V-0 flame retardant PVC","Holds up to 40 cables"],
     pros: ["UL 94 V-0 fire rating for safer cable runs","Handles up to 40 cables in one channel","Snap-together design skips complex tools"],
     cons: ["Sized for desk runs, not rack-to-rack cabling","Two-piece length limits longer single runs"],
@@ -107,7 +107,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fs6LB1qoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD6DX745?tag=deskfinds0d-20",
-    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.",
+    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.\n\nThis pick is best for buyers who value perforated bottom actively helps cool stacked gear along with two shelves in one purchase for less per-unit cost. The catch is that 10\" depth is shallow for larger equipment, so decide if that's worth it at $25.90.",
     specs: ["1U, 10\" deep, 2-pack","Q235 carbon steel, 1.5mm thick","50 lb capacity per shelf"],
     pros: ["Perforated bottom actively helps cool stacked gear","Two shelves in one purchase for less per-unit cost","50 lb rating handles routers and small switches easily"],
     cons: ["10\" depth is shallow for larger equipment","Cantilever design isn't rated for very heavy loads"],
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Whether It Also Blocks Dust",
     "note": "Confirm brush-style panels also reduce dust intake through unused rack slots, not just organize visible cables."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $23.99",
+          "ZhiYo 2x2in Cable Raceway"
+        ],
+        [
+          "Around $25.49",
+          "QiaoYoubang 2-Pack 1U Cable Manager"
+        ],
+        [
+          "Around $25.90",
+          "VEVOR 2-Pack 1U Server Rack Shelf"
+        ],
+        [
+          "Around $29.56",
+          "ICC 3in Metal Cable Management Ring"
+        ],
+        [
+          "Around $29.99",
+          "Cable Matters 2-Pack 1U 19-Inch Rack Mount Brush Panel"
+        ],
+        [
+          "Around $46.99",
+          "Leinuosen 4-Pack 1U Cable Manager"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Match Slot Count to Real Cable Volume",
-    "explanation": "Confirm server rack cable management's slot or channel count actually covers your real number of cable runs, not just a rough estimate."
+    "explanation": "Confirm server rack cable management's slot or channel count actually covers your real number of cable runs, not just a rough estimate. Products at the low end near $24 and the high end near $47 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Metal vs Plastic Construction",
-    "explanation": "Verify metal construction over plastic finger ducts, since metal holds up better under repeated cable adjustments."
+    "explanation": "Verify metal construction over plastic finger ducts, since metal holds up better under repeated cable adjustments. This matters in practice because the picks in this comparison span from about $24 to $47, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Rounded Edges Protect Cable Jackets",
-    "explanation": "Look for rounded or smoothed edges specifically, since sharp metal edges can nick cable insulation over time."
+    "explanation": "Look for rounded or smoothed edges specifically, since sharp metal edges can nick cable insulation over time. With prices in this roundup ranging roughly $24 to $47, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Mounting Compatibility With Your Rack",
-    "explanation": "Check that the cable manager's screw pattern matches your rack's hole spacing before ordering."
+    "explanation": "Check that the cable manager's screw pattern matches your rack's hole spacing before ordering. Given the real spread here, from about $24 up to $47, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Whether It Also Blocks Dust",
-    "explanation": "Confirm brush-style panels also reduce dust intake through unused rack slots, not just organize visible cables."
+    "explanation": "Confirm brush-style panels also reduce dust intake through unused rack slots, not just organize visible cables. Across this comparison's $24 to $47 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Cable Matters 2-Pack 1U 19-Inch Rack Mount Brush Panel is aimed at buyers prioritizing 1u brush panel, 19\" standard rack fit." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

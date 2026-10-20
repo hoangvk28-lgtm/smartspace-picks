@@ -1,7 +1,7 @@
 export const guideSlug = "best-gray-conference-tables";
 export const guideTitle = "8 Best Gray Conference Tables in 2026";
 export const metaTitle = "Best Gray Conference Tables 2026";
-export const metaDescription = "We compared gray conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared gray conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "gray conference tables";
 export const introParagraphs = [
   "Style-driven conference tables should be evaluated through actual construction details and durability, since the same visual style label can be achieved with very different underlying materials.",
@@ -200,28 +200,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Structural Build",
     "note": "Compare substrate, base material, and shipping weight before ranking on price alone."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "Tribesigns 6FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $179.99",
+          "Tribesigns 6FT Rectangle Conference Table"
+        ],
+        [
+          "Around $189.41",
+          "Tribesigns 6.5FT Conference Table for 6-8 People"
+        ],
+        [
+          "Around $189.99",
+          "Tribesigns 47-Inch Round Conference Table for 4-6"
+        ],
+        [
+          "Around $189.99",
+          "Tribesigns 6.5 FT Conference Room Table"
+        ],
+        [
+          "Around $369.99",
+          "Tribesigns 10.5FT Conference Table"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $381.94",
+          "Flash Furniture 6-Foot Oval Conference Table"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Count Usable Seating Zones",
-    "explanation": "Measure real per-seat edge space on the gray conference tables rather than trusting the advertised capacity alone."
+    "explanation": "Measure real per-seat edge space on the gray conference tables rather than trusting the advertised capacity alone. Products at the low end near $180 and the high end near $382 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Base and Knee Clearance",
-    "explanation": "Confirm leg and pedestal placement doesn't block knee room for nearby seats."
+    "explanation": "Confirm leg and pedestal placement doesn't block knee room for nearby seats. This matters in practice because the picks in this comparison span from about $180 to $382, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Room Circulation",
-    "explanation": "Leave enough clearance around the table for chairs to push back and people to walk around."
+    "explanation": "Leave enough clearance around the table for chairs to push back and people to walk around. With prices in this roundup ranging roughly $180 to $382, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Power and Cable Paths",
-    "explanation": "Trace cable grommets or built-in outlets from the table surface to an actual power source."
+    "explanation": "Trace cable grommets or built-in outlets from the table surface to an actual power source. Given the real spread here, from about $180 up to $382, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Weigh Structural Build",
-    "explanation": "Compare substrate, base material, and shipping weight before ranking on price alone."
+    "explanation": "Compare substrate, base material, and shipping weight before ranking on price alone. Across this comparison's $180 to $382 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -246,6 +290,8 @@ export const faq = [
     "q": "Is MDF or particle board construction a problem for a conference table?",
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 6FT Boat-Shaped Conference Table is aimed at buyers prioritizing 70.86\"l x 35.43\"w x 29.52\"h boat-shaped top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-modern-conference-tables","title":"Best Modern Conference Tables in 2026"},{"href":"/guide/best-black-conference-tables","title":"Best Black Conference Tables in 2026"},{"href":"/guide/best-white-conference-tables","title":"Best White Conference Tables in 2026"}];

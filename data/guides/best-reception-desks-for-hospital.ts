@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Inspect for Repairability Under Heavy Traffic",
     "note": "Inspect seams, pulls, and front edges for repairability under heavy traffic, since hospital reception desks see more continuous daily use than most settings."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $261.90",
+          "VEVOR Reception Desk"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
+        ],
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Accessible Check-In Geometry",
-    "explanation": "Verify accessible check-in geometry and approach against current ADA standards where a hospital reception desk claims an accessible section."
+    "explanation": "Verify accessible check-in geometry and approach against current ADA standards where a hospital reception desk claims an accessible section. Products at the low end near $170 and the high end near $950 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Reduce Casual Viewing of Patient Information",
-    "explanation": "Orient monitors and paperwork to reduce casual viewing from queues and waiting areas, since patient privacy matters more in a healthcare setting than a typical office lobby."
+    "explanation": "Orient monitors and paperwork to reduce casual viewing from queues and waiting areas, since patient privacy matters more in a healthcare setting than a typical office lobby. This matters in practice because the picks in this comparison span from about $170 to $950, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Healthcare-Grade Cleaning Guidance",
-    "explanation": "Compare finishes using manufacturer cleaning guidance for high-frequency care environments, since hospital cleaning protocols are more rigorous than standard office maintenance."
+    "explanation": "Compare finishes using manufacturer cleaning guidance for high-frequency care environments, since hospital cleaning protocols are more rigorous than standard office maintenance. With prices in this roundup ranging roughly $170 to $950, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Separate Public Transaction from Document Staging",
-    "explanation": "Separate public transaction space from printer, label, and document staging, since hospital front desks handle more paperwork volume than a typical reception point."
+    "explanation": "Separate public transaction space from printer, label, and document staging, since hospital front desks handle more paperwork volume than a typical reception point. Given the real spread here, from about $170 up to $950, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Inspect for Repairability Under Heavy Traffic",
-    "explanation": "Inspect seams, pulls, and front edges for repairability under heavy traffic, since hospital reception desks see more continuous daily use than most settings."
+    "explanation": "Inspect seams, pulls, and front edges for repairability under heavy traffic, since hospital reception desks see more continuous daily use than most settings. Across this comparison's $170 to $950 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-medical","title":"5 Best Reception Desks for Medical in 2026"},{"href":"/guide/best-reception-desks-for-clinic","title":"best-reception-desks-for-clinic"}];

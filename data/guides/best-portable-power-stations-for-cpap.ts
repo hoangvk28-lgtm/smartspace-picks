@@ -1,7 +1,7 @@
 export const guideSlug = "best-portable-power-stations-for-cpap";
 export const guideTitle = "6 Best Portable Power Stations for CPAP in 2026";
 export const metaTitle = "Best Portable Power Stations for CPAP 2026";
-export const metaDescription = "We compared portable power stations for cpap by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared portable power stations for cpap by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage.";
 export const mainKeyword = "portable power stations for cpap";
 export const introParagraphs = [
   "Best Portable Power Stations for CPAP looks straightforward from the outside, but the real differentiator between stations is using the exact CPAP manufacturer input spec rather than inferring compatibility from outlet presence.",
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Follow Manufacturer Backup Guidance",
     "note": "Follow your CPAP manufacturer and clinician's backup-power guidance rather than relying on a generic runtime estimate."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.99",
+          "MARBERO M822 Portable Power Station"
+        ],
+        [
+          "Around $119.99",
+          "ENOFLO G300 Portable Power Station"
+        ],
+        [
+          "Around $138.69",
+          "EnginStar Portable Power Station 300W"
+        ],
+        [
+          "Around $139.00",
+          "ALLWEI Portable Power Station 300W"
+        ],
+        [
+          "Around $218.98",
+          "BLUETTI Elite 30 V2 Portable Power Station"
+        ],
+        [
+          "Around $259.00",
+          "Jackery Explorer 300 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Use the Exact CPAP Manufacturer Spec",
-    "explanation": "Confirm portable power stations for cpap's output matches your exact CPAP manufacturer's input specification rather than inferring compatibility from outlet presence."
+    "explanation": "Confirm portable power stations for cpap's output matches your exact CPAP manufacturer's input specification rather than inferring compatibility from outlet presence. With prices in this roundup ranging roughly $100 to $259, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Runtime With and Without Humidifier",
-    "explanation": "Check runtime specifically with and without a humidifier or heated hose, since power use can change substantially."
+    "explanation": "Check runtime specifically with and without a humidifier or heated hose, since power use can change substantially. Given the real spread here, from about $100 up to $259, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Direct DC vs AC Inverter Operation",
-    "explanation": "Compare direct DC operation where officially supported against AC inverter operation for efficiency differences."
+    "explanation": "Compare direct DC operation where officially supported against AC inverter operation for efficiency differences. Across this comparison's $100 to $259 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Transfer Behavior for Backup Use",
-    "explanation": "Verify transfer behavior and alarms if the station is intended as therapy backup during a grid outage."
+    "explanation": "Verify transfer behavior and alarms if the station is intended as therapy backup during a grid outage. Products at the low end near $100 and the high end near $259 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Follow Manufacturer Backup Guidance",
-    "explanation": "Follow your CPAP manufacturer and clinician's backup-power guidance rather than relying on a generic runtime estimate."
+    "explanation": "Follow your CPAP manufacturer and clinician's backup-power guidance rather than relying on a generic runtime estimate. This matters in practice because the picks in this comparison span from about $100 to $259, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "EnginStar Portable Power Station 300W is aimed at buyers prioritizing 296wh, 300w, etl certified, 6.5 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

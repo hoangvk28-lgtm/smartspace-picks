@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41-wnlMJCkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D2XLVN4M?tag=deskfinds0d-20",
-    description: "Eight true 10Gbps RJ45 PoE ports each support auto-adaptive speeds down to 100Mbps, backed by a 160Gbps switching capacity, roughly 10 times a standard Gigabit switch. The 110W total PoE budget (up to 30W per port) supports IEEE 802.3af/at devices without needing a separate injector.\n\nA durable metal case with 4KV lightning protection and a 24dB cooling fan balances thermal management against noise, with dual-side cooling holes for a 0 to 45°C operating range. It supports both 19-inch rackmount and wall mount placement, and plug-and-play setup needs no configuration screen.",
+    description: "Eight true 10Gbps RJ45 PoE ports each support auto-adaptive speeds down to 100Mbps, backed by a 160Gbps switching capacity, roughly 10 times a standard Gigabit switch. The 110W total PoE budget (up to 30W per port) supports IEEE 802.3af/at devices without needing a separate injector.\n\nA durable metal case with 4KV lightning protection and a 24dB cooling fan balances thermal management against noise, with dual-side cooling holes for a 0 to 45-degreeC operating range. It supports both 19-inch rackmount and wall mount placement, and plug-and-play setup needs no configuration screen.",
     specs: ["8x true 10G PoE ports, 160Gbps capacity","110W total PoE budget, 30W max per port","Rackmount or wall mount"],
     pros: ["All 8 ports are genuine 10G with built-in PoE","110W PoE budget powers real devices without a separate injector","4KV lightning protection is a real surge safeguard"],
     cons: ["24dB fan is audible in a quiet home office","Fully unmanaged, no VLAN or QoS configuration"],
@@ -168,28 +168,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Fan and Thermal Behavior Under Combined Load",
     "note": "Verify fan behavior and chassis temperature ratings under simultaneous 10G and PoE load, not just idle specs."
   }
+,
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "TRENDnet 12-Port 10G PoE++ Web Smart Switch (TPE-7124SBF) is aimed at buyers prioritizing 8x 10g poe++ + 4x 10g sfp+ ports."
+      },
+      {
+        "label": "Save if",
+        "text": "NETGEAR 10-Port PoE Gigabit Smart Managed Switch (GS110TP) is aimed at buyers prioritizing 8x 1g ports, poe+, 55w budget."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Ports With Both 10G and PoE",
-    "explanation": "Count only interfaces on poe 10gbe switches that deliver both 10GbE data and PoE power, since many switches only provide PoE on slower access ports."
+    "explanation": "Count only interfaces on poe 10gbe switches that deliver both 10GbE data and PoE power, since many switches only provide PoE on slower access ports. Products at the low end near $168 and the high end near $710 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check PoE Standard and Per-Port Maximum",
-    "explanation": "Confirm the exact 802.3af/at/bt class and per-port wattage maximum for the specific 10G ports you plan to use."
+    "explanation": "Confirm the exact 802.3af/at/bt class and per-port wattage maximum for the specific 10G ports you plan to use. This matters in practice because the picks in this comparison span from about $168 to $710, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Calculate Total PoE Budget Against Devices",
-    "explanation": "Add up your intended device power draw and compare it against the switch's total PoE budget, not just the per-port maximum."
+    "explanation": "Add up your intended device power draw and compare it against the switch's total PoE budget, not just the per-port maximum. With prices in this roundup ranging roughly $168 to $710, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Test Data Throughput With PoE Active",
-    "explanation": "Check for evidence that data throughput holds up while high-power PoE is active, since combined load adds real thermal stress."
+    "explanation": "Check for evidence that data throughput holds up while high-power PoE is active, since combined load adds real thermal stress. Given the real spread here, from about $168 up to $710, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Fan and Thermal Behavior Under Combined Load",
-    "explanation": "Verify fan behavior and chassis temperature ratings under simultaneous 10G and PoE load, not just idle specs."
+    "explanation": "Verify fan behavior and chassis temperature ratings under simultaneous 10G and PoE load, not just idle specs. Across this comparison's $168 to $710 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -214,6 +228,8 @@ export const faq = [
     "q": "What cable do I need to actually get 10Gbps over copper Ethernet?",
     "a": "Cat6A or better is generally required for reliable 10GBASE-T at typical office/home distances; standard Cat6 can sometimes reach 10G over very short runs but isn't guaranteed, and Cat5e tops out well below 10G. Check your specific switch's documentation for its exact cable and distance requirements."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "YuanLey 8-Port 10G PoE Switch Unmanaged is aimed at buyers prioritizing 8x true 10g poe ports, 160gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

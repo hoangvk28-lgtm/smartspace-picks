@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Plan Separate Power and Visitor Positions",
     "note": "Plan separate power, data, storage, and visitor positions so the wider run functions as more than one long surface."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $476.99",
+          "87\" 2-Person Reception Desk with Patented Double Top"
+        ],
+        [
+          "Around $699.99",
+          "87-Inch Two People L-Shaped Reception Desk"
+        ],
+        [
+          "Around $998.88",
+          "79\" 2-Person Reception Desk with Counter"
+        ],
+        [
+          "Around $1,259.99",
+          "78.7\" 2-Person Reception Desk with Counter"
+        ],
+        [
+          "Around $1,469.00",
+          "Fully Assembled Curved Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width",
-    "explanation": "Require an actual assembled width close to 80 inches and publish any counter or side-panel overhang beyond the nominal size."
+    "explanation": "Require an actual assembled width close to 80 inches and publish any counter or side-panel overhang beyond the nominal size. Across this comparison's $477 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable."
+    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable. Products at the low end near $477 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish room fit."
+    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish room fit. This matters in practice because the picks in this comparison span from about $477 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Map Work Zones and Support Locations",
-    "explanation": "Map one-person versus multi-person workstation zones and publish seam or support locations that can interfere with chairs or pedestals at this length."
+    "explanation": "Map one-person versus multi-person workstation zones and publish seam or support locations that can interfere with chairs or pedestals at this length. With prices in this roundup ranging roughly $477 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Separate Power and Visitor Positions",
-    "explanation": "Plan separate power, data, storage, and visitor positions so the wider run functions as more than one long surface."
+    "explanation": "Plan separate power, data, storage, and visitor positions so the wider run functions as more than one long surface. Given the real spread here, from about $477 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "79\" 2-Person Reception Desk with Counter is aimed at buyers prioritizing 79\" desk, ~2-meter counter for 2 staff." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-7ft-reception-desks","title":"5 Best 7ft Reception Desks in 2026"},{"href":"/guide/best-84-inch-reception-desks","title":"5 Best 84-Inch Reception Desks in 2026"},{"href":"/guide/best-72-inch-reception-desks","title":"6 Best 72-Inch Reception Desks in 2026"}];

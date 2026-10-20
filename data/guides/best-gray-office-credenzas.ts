@@ -1,7 +1,7 @@
 export const guideSlug = "best-gray-office-credenzas";
 export const guideTitle = "8 Best Gray Office Credenzas in 2026";
 export const metaTitle = "Best Gray Office Credenzas 2026";
-export const metaDescription = "We compared gray office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared gray office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior.";
 export const mainKeyword = "gray office credenzas";
 export const introParagraphs = [
   "Most gray office credenzas buyers skip straight to style, when the more useful first step is identifying the actual finish system behind a color name, not just the color itself.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Use Manufacturer-Approved Cleaning Methods",
     "note": "Follow the specific cleaning guidance for the finish type rather than a generic furniture polish, since the wrong cleaner can dull or damage certain gloss and matte finishes."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $149.99",
+          "DecoFurn Lateral File Cabinet with 2 Drawers"
+        ],
+        [
+          "Around $159.99",
+          "44\" File Cabinet with 2 Drawers"
+        ],
+        [
+          "Around $169.99",
+          "Modern File Cabinet with Drawers for Letter-Sized File and Door"
+        ],
+        [
+          "Around $169.99",
+          "47.2\" File Cabinet"
+        ],
+        [
+          "Around $189.99",
+          "44\" File Cabinet with Lock"
+        ],
+        [
+          "Around $227.99",
+          "60\" W Sideboard Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $341.13",
+          "63\" Executive Computer Desk and Lateral File Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual Finish System",
-    "explanation": "Determine whether gray office credenzas's color comes from laminate, paint, powder coat, or veneer stain, since the same color name can mean very different maintenance needs depending on the underlying finish."
+    "explanation": "Determine whether gray office credenzas's color comes from laminate, paint, powder coat, or veneer stain, since the same color name can mean very different maintenance needs depending on the underlying finish. Given the real spread here, from about $144 up to $341, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Fingerprint and Dust Visibility",
-    "explanation": "Evaluate how fingerprints, dust, and light scuffs show under normal office lighting, since gloss level and color both affect how visible daily wear becomes."
+    "explanation": "Evaluate how fingerprints, dust, and light scuffs show under normal office lighting, since gloss level and color both affect how visible daily wear becomes. Across this comparison's $144 to $341 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Inspect Scratch Contrast Risk",
-    "explanation": "Check whether a scratch would expose a contrasting substrate color underneath the finish, which is more visually jarring on some color-and-material combinations than others."
+    "explanation": "Check whether a scratch would expose a contrasting substrate color underneath the finish, which is more visually jarring on some color-and-material combinations than others. Products at the low end near $144 and the high end near $341 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Component Color Match",
-    "explanation": "Compare color consistency across the top, case, drawers, doors, and any hutch, since add-on components don't always match perfectly across production batches."
+    "explanation": "Compare color consistency across the top, case, drawers, doors, and any hutch, since add-on components don't always match perfectly across production batches. This matters in practice because the picks in this comparison span from about $144 to $341, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Use Manufacturer-Approved Cleaning Methods",
-    "explanation": "Follow the specific cleaning guidance for the finish type rather than a generic furniture polish, since the wrong cleaner can dull or damage certain gloss and matte finishes."
+    "explanation": "Follow the specific cleaning guidance for the finish type rather than a generic furniture polish, since the wrong cleaner can dull or damage certain gloss and matte finishes. With prices in this roundup ranging roughly $144 to $341, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "44\" File Cabinet with Lock is aimed at buyers prioritizing 4 industrial casters, 350 lb rated load." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-black-office-credenzas","title":"Best Black Office Credenzas in 2026"},{"href":"/guide/best-white-office-credenzas","title":"Best White Office Credenzas in 2026"},{"href":"/guide/best-black-office-credenzas-with-drawers","title":"Best Black Office Credenzas With Drawers in 2026"}];

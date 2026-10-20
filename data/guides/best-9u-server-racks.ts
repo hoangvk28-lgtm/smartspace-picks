@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bS54Kd5zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BMD5G7M5?tag=deskfinds0d-20",
-    description: "The mid-size wall cabinet in Tecmojo's lineup, sitting between the 6U and 12U models with the same reversible door and lockable design carried through the whole series.\n\nAt 19.02 inches tall it's a genuinely compact footprint for 9U of gear, well suited to a home office closet that can't fit a taller cabinet.",
+    description: "The mid-size wall cabinet in Tecmojo's lineup, sitting between the 6U and 12U models with the same reversible door and lockable design carried through the whole series.\n\nAt 19.02 inches tall it's a genuinely compact footprint for 9U of gear, well suited to a home office closet that can't fit a taller cabinet.\n\nWhat stands out here is compact 19\" height fits closets other 9U cabinets can't, plus reversible door adapts to either side of the wall. The main tradeoff: 110 lb capacity is standard, not extra headroom, so weigh that against the $149.90 price before buying.",
     specs: ["9U, 19.02\"H x 21.65\"W x 17.72\"D","110 lb capacity","Lockable glass door and side panels"],
     pros: ["Compact 19\" height fits closets other 9U cabinets can't","Reversible door adapts to either side of the wall","Consistent design with Tecmojo's larger cabinet sizes"],
     cons: ["110 lb capacity is standard, not extra headroom","14.2\" usable depth rules out deeper equipment"],
@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41I3xVJmogL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B071SDBMSG?tag=deskfinds0d-20",
-    description: "NavePoint's 9U wall cabinet is nearly identical in spec to their 12U model, just shorter, with the same welded steel frame and heat-treated tempered glass door.\n\nAt 19.17 inches tall it fits into tighter closets than the 12U version while keeping the same 110 lb capacity and full security feature set.",
+    description: "NavePoint's 9U wall cabinet is nearly identical in spec to their 12U model, just shorter, with the same welded steel frame and heat-treated tempered glass door.\n\nAt 19.17 inches tall it fits into tighter closets than the 12U version while keeping the same 110 lb capacity and full security feature set.\n\nThe strongest case for this pick comes down to shorter height than the 12U model fits tighter closets as well as same 110 lb rating and security features as larger sizes. The compromise here is that 9U ceiling limits equipment count more than 12U, so factor that in alongside the $170.99 asking price.",
     specs: ["9U, 17.72\"L x 21.65\"W x 19.17\"H","110 lb weight capacity","Tempered glass door with security lock"],
     pros: ["Shorter height than the 12U model fits tighter closets","Same 110 lb rating and security features as larger sizes","Removable side panels ease cable and device access"],
     cons: ["9U ceiling limits equipment count more than 12U","Still requires the standard flat-pack assembly"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/412+5iVP4nL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08VDV156F?tag=deskfinds0d-20",
-    description: "RIVECO's 9U open frame rack pushes its leveling-feet rating up to 800 lbs, the highest capacity-to-size ratio in their open frame lineup, dropping to 500 lbs on casters.\n\nThe stereo rack framing in the listing signals this works equally well for pro audio gear as it does for standard 19-inch IT equipment.",
+    description: "RIVECO's 9U open frame rack pushes its leveling-feet rating up to 800 lbs, the highest capacity-to-size ratio in their open frame lineup, dropping to 500 lbs on casters.\n\nThe stereo rack framing in the listing signals this works equally well for pro audio gear as it does for standard 19-inch IT equipment.\n\nThis pick is best for buyers who value 800 lb rating is the strongest in RIVECO's open frame line along with works equally well for pro audio and IT gear. The catch is that capacity drops substantially when using casters, so decide if that's worth it at $151.83.",
     specs: ["9U, 19.7\"W x 21.7\"D x 22.7\"H","800 lb (feet) / 500 lb (casters) capacity","RAL9005 powder coat finish"],
     pros: ["800 lb rating is the strongest in RIVECO's open frame line","Works equally well for pro audio and IT gear","Pre-drilled base allows secure floor fastening"],
     cons: ["Capacity drops substantially when using casters","Open frame provides no enclosure protection"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41cOgYF9sEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZX4PGSC?tag=deskfinds0d-20",
-    description: "The 9U step up from the 6U model in this same series, adding more height while keeping the identical 4-post construction and brake-equipped universal wheels.\n\nAt 20.55 inches tall it still fits a corner or under-desk spot, giving genuine flexibility for gaming consoles and small servers alike per the listing's stated use cases.",
+    description: "The 9U step up from the 6U model in this same series, adding more height while keeping the identical 4-post construction and brake-equipped universal wheels.\n\nAt 20.55 inches tall it still fits a corner or under-desk spot, giving genuine flexibility for gaming consoles and small servers alike per the listing's stated use cases.\n\nWhat stands out here is 9U gives noticeably more room than the 6U sibling, plus brake wheels keep it steady once positioned. The main tradeoff: no listed weight rating to confirm heavier loads, so weigh that against the $99.99 price before buying.",
     specs: ["9U, 15.75\"W x 19.49\"D x 20.55\"H","4-post construction","Universal brake-equipped wheels"],
     pros: ["9U gives noticeably more room than the 6U sibling","Brake wheels keep it steady once positioned","Sheet metal processing resists scratches and rust"],
     cons: ["No listed weight rating to confirm heavier loads","Still an open frame with no dust protection"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.99",
+          "9U Open Frame Server Rack with Wheels"
+        ],
+        [
+          "Around $109.90",
+          "VEVOR 9U Wall Mount Network Server Cabinet"
+        ],
+        [
+          "Around $149.90",
+          "Tecmojo 9U Wall Mount Server Cabinet"
+        ],
+        [
+          "Around $151.83",
+          "RIVECO 9U Open Frame Server Rack with Casters"
+        ],
+        [
+          "Around $170.99",
+          "NavePoint 9U Server Rack Enclosure with Glass Door"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 9u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 9u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. With prices in this roundup ranging roughly $100 to $171, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Given the real spread here, from about $100 up to $171, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Across this comparison's $100 to $171 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Products at the low end near $100 and the high end near $171 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. This matters in practice because the picks in this comparison span from about $100 to $171, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 9U Wall Mount Server Cabinet is aimed at buyers prioritizing 9u, 19.02\"h x 21.65\"w x 17.72\"d." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

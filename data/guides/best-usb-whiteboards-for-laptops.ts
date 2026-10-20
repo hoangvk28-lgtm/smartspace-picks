@@ -48,7 +48,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description:
-      "Another purely physical board, this one doubling as a keyboard stand with a built-in drawer, aimed at buyers who also use an external keyboard alongside their laptop.\n\nAgain, no USB connection or digital feature here, the \"computer keyboard stand\" framing refers to it physically elevating a keyboard, not connecting to a computer electronically.",
+      "Another purely physical board, this one doubling as a keyboard stand with a built-in drawer, aimed at buyers who also use an external keyboard alongside their laptop.\n\nAgain, no USB connection or digital feature here, the \"computer keyboard stand\" framing refers to it physically elevating a keyboard, not connecting to a computer electronically.\n\nThis pick is best for buyers who value doubles as a keyboard stand for laptop-plus-external-keyboard setups along with built-in drawer for pens, notes, or small supplies. The catch is that not a digital or USB-connected device, so decide if that's worth it at $25.99.",
     specs: ["Physical whiteboard, no USB connection", "Glass dry erase surface", "Doubles as a keyboard stand", "Built-in drawer for storage"],
     pros: ["Doubles as a keyboard stand for laptop-plus-external-keyboard setups", "Built-in drawer for pens, notes, or small supplies", "Genuine glass surface for durability", "Multi-function design for a compact laptop desk"],
     cons: ["Not a digital or USB-connected device", "Combined drawer weight adds stress on the stand, check reviews", "Smaller writing area given the keyboard stand function"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41StKUeQCkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09W5P5C5N?tag=deskfinds0d-20",
     description:
-      "The smallest physical board in this guide at 8x6 inches, appropriate for a genuinely tight laptop desk where every inch of remaining space matters.\n\nFive markers are included per the listing, and like the other picks here, there's no USB connection or digital feature involved, purely a small glass writing surface.",
+      "The smallest physical board in this guide at 8x6 inches, appropriate for a genuinely tight laptop desk where every inch of remaining space matters.\n\nFive markers are included per the listing, and like the other picks here, there's no USB connection or digital feature involved, purely a small glass writing surface.\n\nWhat stands out here is smallest footprint, fits even the tightest laptop desk setup, plus 5 markers included, ready to use immediately. The main tradeoff: smallest writing area, single reminders only, so weigh that against the $15.18 price before buying.",
     specs: ["8\" x 6\" pure glass surface", "Physical whiteboard, no USB connection", "5 markers included per listing", "Smallest footprint in this guide"],
     pros: ["Smallest footprint, fits even the tightest laptop desk setup", "5 markers included, ready to use immediately", "Lowest price in this guide", "Genuine glass surface for durability"],
     cons: ["Smallest writing area, single reminders only", "Not a digital or USB-connected device", "No stand mentioned in the listing"],
@@ -106,13 +106,49 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $15.18",
+          "Black Mini Desktop Pure Glass Whiteboard"
+        ],
+        [
+          "Around $23.99",
+          "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand"
+        ],
+        [
+          "Around $25.99",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "TSJ OFFICE Small Desktop Whiteboard is aimed at Buyers with a laptop-plus-external-keyboard setup wanting a whiteboard that also elevates the keyboard."
+      },
+      {
+        "label": "Save if",
+        "text": "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers with very limited laptop desk space wanting the smallest possible physical whiteboard."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Clarify what you actually want before searching", explanation: "\"USB whiteboard\" is ambiguous. Decide whether you want a physical board for near your laptop or a genuine digital USB-connected device, since they're very different products at very different price points." },
-  { criterion: "Don't assume a physical whiteboard listing has USB functionality", explanation: "None of the picks in this guide connect to a laptop electronically. If a listing doesn't explicitly describe a digital or USB feature, assume it's a standard physical board." },
-  { criterion: "Size the board to your actual laptop desk space", explanation: "A tight laptop setup favors the smallest footprint options, while a larger desk can accommodate a bigger writing surface without crowding your laptop." },
-  { criterion: "Search specifically for \"digital whiteboard\" if that's your real goal", explanation: "If you want a genuine USB-connected or digital display whiteboard, that's a distinct, more expensive product category, search that term directly rather than a standard whiteboard listing." },
+  { criterion: "Clarify what you actually want before searching", explanation: "\"USB whiteboard\" is ambiguous. Decide whether you want a physical board for near your laptop or a genuine digital USB-connected device, since they're very different products at very different price points. This matters in practice because the picks in this comparison span from about $15 to $26, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number." },
+  { criterion: "Don't assume a physical whiteboard listing has USB functionality", explanation: "None of the picks in this guide connect to a laptop electronically. If a listing doesn't explicitly describe a digital or USB feature, assume it's a standard physical board. With prices in this roundup ranging roughly $15 to $26, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it." },
+  { criterion: "Size the board to your actual laptop desk space", explanation: "A tight laptop setup favors the smallest footprint options, while a larger desk can accommodate a bigger writing surface without crowding your laptop. Given the real spread here, from about $15 up to $26, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
+  { criterion: "Search specifically for \"digital whiteboard\" if that's your real goal", explanation: "If you want a genuine USB-connected or digital display whiteboard, that's a distinct, more expensive product category, search that term directly rather than a standard whiteboard listing. Across this comparison's $15 to $26 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely." },
 ];
 
 export const faq: FaqItem[] = [
@@ -120,6 +156,8 @@ export const faq: FaqItem[] = [
   { q: "Why is this guide called \"USB whiteboards\" if none of them are USB-connected?", a: "Because most people searching that phrase are actually looking for a compact physical whiteboard for their laptop desk, not a literal USB device. We clarify that ambiguity upfront rather than mislead readers." },
   { q: "Do genuine USB-connected digital whiteboards exist?", a: "Yes, as a real but rare and considerably more expensive product category, distinct from the standard physical whiteboards covered in this guide." },
   { q: "What size whiteboard fits best next to a laptop?", a: "It depends on your desk space, but the compact picks in this guide, ranging from 8x6 to 9.5x6.7 inches, are sized specifically to sit comfortably beside a laptop without crowding it." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand is aimed at Buyers wanting a simple physical whiteboard companion for their laptop desk, not a digital device." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers with very limited laptop desk space wanting the smallest possible physical whiteboard, and at $15.18 it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

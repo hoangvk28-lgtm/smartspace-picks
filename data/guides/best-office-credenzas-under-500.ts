@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenzas-under-500";
 export const guideTitle = "8 Best Office Credenzas Under $500 in 2026";
 export const metaTitle = "Best Office Credenzas Under $500 2026";
-export const metaDescription = "We compared office credenzas under $500 by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenzas under $500 by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "office credenzas under $500";
 export const introParagraphs = [
   "A quick scan of office credenzas under $500 listings rarely settles the question of verifying what storage is actually included at a lower price point, so that's where we started.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Compare Warranty and Replacement-Part Support",
     "note": "Check warranty length and whether replacement parts are available, since this is rarely included in budget-focused comparisons but affects long-term ownership cost."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "43\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $149.99",
+          "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
+        ],
+        [
+          "Around $149.99",
+          "DecoFurn Lateral File Cabinet with 2 Drawers"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Price and Separate Freight",
-    "explanation": "Verify office credenzas under $500's current price at checkout and separate the item price from any freight or delivery surcharge, since posted prices and stock levels change."
+    "explanation": "Verify office credenzas under $500's current price at checkout and separate the item price from any freight or delivery surcharge, since posted prices and stock levels change. Across this comparison's $144 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "List What Storage Is Actually Included",
-    "explanation": "Check drawers, file rails, doors, shelves, and any hutch actually included, rather than assuming a low price includes the same storage mix as pricier competitors."
+    "explanation": "Check drawers, file rails, doors, shelves, and any hutch actually included, rather than assuming a low price includes the same storage mix as pricier competitors. Products at the low end near $144 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Substrate and Hardware Where Documented",
-    "explanation": "Look for panel thickness or hardware details where available, since budget pricing often comes from thinner substrate rather than a smaller footprint."
+    "explanation": "Look for panel thickness or hardware details where available, since budget pricing often comes from thinner substrate rather than a smaller footprint. This matters in practice because the picks in this comparison span from about $144 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Time the Real Assembly Effort",
-    "explanation": "Factor in assembly time and check alignment after any future move or re-leveling, since budget RTA hardware can be less forgiving of repeated disassembly."
+    "explanation": "Factor in assembly time and check alignment after any future move or re-leveling, since budget RTA hardware can be less forgiving of repeated disassembly. With prices in this roundup ranging roughly $144 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Warranty and Replacement-Part Support",
-    "explanation": "Check warranty length and whether replacement parts are available, since this is rarely included in budget-focused comparisons but affects long-term ownership cost."
+    "explanation": "Check warranty length and whether replacement parts are available, since this is rarely included in budget-focused comparisons but affects long-term ownership cost. Given the real spread here, from about $144 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "43\" Wood File Cabinet with Power Outlet is aimed at buyers prioritizing 43.3in wide desktop, 2 file drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

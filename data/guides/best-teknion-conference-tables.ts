@@ -1,7 +1,7 @@
 export const guideSlug = "best-teknion-conference-tables";
 export const guideTitle = "8 Best Teknion Conference Tables in 2026";
 export const metaTitle = "Best Teknion Conference Tables 2026";
-export const metaDescription = "We compared teknion conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared teknion conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "teknion conference tables";
 export const introParagraphs = [
   "Brand-name conference tables need a current-series check, since office furniture manufacturers regularly update their lineups and a familiar name can span very different table families.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Planning and Warranty Support",
     "note": "Check what design or space-planning support and warranty terms come with a Teknion purchase, since commercial furniture brands often provide more of both than budget importers."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $299.99",
+          "Tribesigns 8FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $329.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $349.99",
+          "Tribesigns 8ft Conference Table for 10"
+        ],
+        [
+          "Around $350.00",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $389.99",
+          "Tribesigns 8ft Conference Table for 8-10"
+        ],
+        [
+          "Around $489.99",
+          "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
+        ],
+        [
+          "Around $1,799.00",
+          "OfficeSimpli 10ft Conference Table"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map Teknion's Current Series",
-    "explanation": "Check which Teknion conference table series is currently offered rather than assuming a discontinued model's specs still apply, since office furniture brands regularly refresh product lines."
+    "explanation": "Check which Teknion conference table series is currently offered rather than assuming a discontinued model's specs still apply, since office furniture brands regularly refresh product lines. Across this comparison's $300 to $1799 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Size and Shape Range",
-    "explanation": "Confirm the specific length, shape, and seat-count options Teknion offers in this line, since brand names often cover multiple table families with different capabilities."
+    "explanation": "Confirm the specific length, shape, and seat-count options Teknion offers in this line, since brand names often cover multiple table families with different capabilities. Products at the low end near $300 and the high end near $1799 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Power and Cable Architecture",
-    "explanation": "Verify whether power and data modules are integrated into the base, routed through the top, or sold as an add-on accessory, since this varies by series."
+    "explanation": "Verify whether power and data modules are integrated into the base, routed through the top, or sold as an add-on accessory, since this varies by series. This matters in practice because the picks in this comparison span from about $300 to $1799, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Review Materials and Base Choices",
-    "explanation": "Compare laminate, veneer, and base finish options within the line, since brand-name tables often span a wide price range depending on material tier."
+    "explanation": "Compare laminate, veneer, and base finish options within the line, since brand-name tables often span a wide price range depending on material tier. With prices in this roundup ranging roughly $300 to $1799, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Planning and Warranty Support",
-    "explanation": "Check what design or space-planning support and warranty terms come with a Teknion purchase, since commercial furniture brands often provide more of both than budget importers."
+    "explanation": "Check what design or space-planning support and warranty terms come with a Teknion purchase, since commercial furniture brands often provide more of both than budget importers. Given the real spread here, from about $300 up to $1799, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Why do some conference tables ship in more than one box?",
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-steelcase-conference-tables","title":"Best Steelcase Conference Tables in 2026"},{"href":"/guide/best-herman-miller-conference-tables","title":"Best Herman Miller Conference Tables in 2026"},{"href":"/guide/best-hon-conference-tables","title":"Best HON Conference Tables in 2026"}];

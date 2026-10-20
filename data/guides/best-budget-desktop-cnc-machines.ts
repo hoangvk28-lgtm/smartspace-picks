@@ -1,7 +1,7 @@
 export const guideSlug = "best-budget-desktop-cnc-machines";
 export const guideTitle = "5 Best Budget Desktop CNC Machines in 2026";
 export const metaTitle = "Best Budget Desktop CNC Machines 2026";
-export const metaDescription = "We compared budget desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared budget desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price.";
 export const mainKeyword = "budget desktop cnc machines";
 export const introParagraphs = [
   "Choosing among budget desktop cnc machines means starting with verifying what's actually included at the sticker price before calling it a deal rather than price or star rating.",
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Warranty and Replacement Support",
     "note": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $153.90",
+          "Genmitsu CNC 3018-PRO Router Kit"
+        ],
+        [
+          "Around $190.49",
+          "TTC3018 Pro CNC Router Machine"
+        ],
+        [
+          "Around $242.10",
+          "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
+        ],
+        [
+          "Around $269.00",
+          "Genmitsu 3018-PROVer V2 CNC Milling Machine for Beginners"
+        ],
+        [
+          "Around $341.05",
+          "WolfPawn CNC Router Machine 4040-PRO for Metal Acrylic Cutting Milling"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Price and List What's Included",
-    "explanation": "Verify budget desktop cnc machines's current price and list every component actually included, since low sticker price can exclude spindle, clamps, or software accessories."
+    "explanation": "Verify budget desktop cnc machines's current price and list every component actually included, since low sticker price can exclude spindle, clamps, or software accessories. This matters in practice because the picks in this comparison span from about $154 to $341, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Run a Real Dimensional Test Cut",
-    "explanation": "Look for evidence of a dimensional test cut exposing rigidity or backlash limits, not just a controller-resolution claim."
+    "explanation": "Look for evidence of a dimensional test cut exposing rigidity or backlash limits, not just a controller-resolution claim. With prices in this roundup ranging roughly $154 to $341, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Price the Minimum Required Upgrades",
-    "explanation": "Calculate the cost of workholding, cutters, or spindle upgrades needed for your actual use case before calling it a good deal."
+    "explanation": "Calculate the cost of workholding, cutters, or spindle upgrades needed for your actual use case before calling it a good deal. Given the real spread here, from about $154 up to $341, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Assembly and Software Setup Time",
-    "explanation": "Factor in assembly and firmware/software setup time, since budget machines often shift cost into your own labor."
+    "explanation": "Factor in assembly and firmware/software setup time, since budget machines often shift cost into your own labor. Across this comparison's $154 to $341 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support."
+    "explanation": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support. Products at the low end near $154 and the high end near $341 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Can a desktop CNC router genuinely cut metal, or just engrave it?",
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines-under-1000","title":"Best Desktop CNC Machines Under $1000 in 2026"},{"href":"/guide/best-desktop-cnc-machines-under-500","title":"Best Desktop CNC Machines Under $500 in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-lifepo4-portable-power-stations";
 export const guideTitle = "7 Best LiFePO4 Portable Power Stations in 2026";
 export const metaTitle = "Best LiFePO4 Portable Power Stations 2026";
-export const metaDescription = "We compared lifepo4 portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared lifepo4 portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage.";
 export const mainKeyword = "lifepo4 portable power stations";
 export const introParagraphs = [
   "Most lifepo4 portable power stations buyers skip straight to price, when the more useful first step is requiring documented battery chemistry and cycle-life test conditions, not an assumed LiFePO4 claim.",
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Measure Standby and Inverter Losses",
     "note": "Measure inverter and standby losses directly, since longevity alone doesn't guarantee real runtime efficiency."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $329.97",
+          "CUBUS 1000 PLUS Portable Power Station"
+        ],
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $529.99",
+          "Anker SOLIX C1000 Gen 2 Portable Power Station"
+        ],
+        [
+          "Around $649.99",
+          "Anker SOLIX S2000 Portable Power Station"
+        ],
+        [
+          "Around $699.98",
+          "AFERIY P280 Portable Power Station"
+        ],
+        [
+          "Around $799.99",
+          "DJI Power 2000 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Battery Chemistry",
-    "explanation": "Confirm lifepo4 portable power stations's exact battery chemistry rather than inferring LiFePO4 from product generation or marketing language alone."
+    "explanation": "Confirm lifepo4 portable power stations's exact battery chemistry rather than inferring LiFePO4 from product generation or marketing language alone. This matters in practice because the picks in this comparison span from about $330 to $800, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Cycle-Life Claim Conditions",
-    "explanation": "Verify the cycle-life claim together with its remaining-capacity threshold and documented test conditions."
+    "explanation": "Verify the cycle-life claim together with its remaining-capacity threshold and documented test conditions. With prices in this roundup ranging roughly $330 to $800, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Storage and Temperature Guidance",
-    "explanation": "Compare calendar-storage guidance and operating/charging temperature ranges across finalists."
+    "explanation": "Compare calendar-storage guidance and operating/charging temperature ranges across finalists. Given the real spread here, from about $330 up to $800, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Evaluate Warranty and Serviceability",
-    "explanation": "Check warranty length and whether battery or expansion modules are actually serviceable if they fail."
+    "explanation": "Check warranty length and whether battery or expansion modules are actually serviceable if they fail. Across this comparison's $330 to $800 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Standby and Inverter Losses",
-    "explanation": "Measure inverter and standby losses directly, since longevity alone doesn't guarantee real runtime efficiency."
+    "explanation": "Measure inverter and standby losses directly, since longevity alone doesn't guarantee real runtime efficiency. Products at the low end near $330 and the high end near $800 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Is LiFePO4 battery chemistry actually safer than standard lithium-ion?",
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

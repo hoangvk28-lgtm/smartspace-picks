@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     reviews: "1,524",
     imageUrl: "https://m.media-amazon.com/images/I/41aTFk156tL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09C1VT7X8?tag=deskfinds0d-20",
-    description: "A genuine freestanding glass board with the highest rating and largest review base among the compact options in this comparison.",
+    description: "A genuine freestanding glass board with the highest rating and largest review base among the compact options in this comparison.\n\nThis pick is best for buyers who value highest rating in this comparison along with genuine freestanding stand, not a flat pad. The catch is that compact size, not the largest writing area here, so decide if that's worth it at $27.99.",
     specs: ["Glass surface, self-supporting stand", "1,524 reviews at 4.8 stars"],
     pros: ["Highest rating in this comparison", "Genuine freestanding stand, not a flat pad"],
     cons: ["Compact size, not the largest writing area here"],
@@ -46,7 +46,7 @@ export const products: GuideProduct[] = [
     reviews: "2,500",
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
-    description: "The largest review base in this entire comparison, a similarly compact glass freestanding board at a slightly lower price.",
+    description: "The largest review base in this entire comparison, a similarly compact glass freestanding board at a slightly lower price.\n\nWhat stands out here is largest review base in this comparison. The main tradeoff: slightly lower rating than the top pick, so weigh that against the $25.99 price before buying.",
     specs: ["Glass surface, self-supporting stand", "2,500 reviews at 4.7 stars"],
     pros: ["Largest review base in this comparison"],
     cons: ["Slightly lower rating than the top pick"],
@@ -62,7 +62,7 @@ export const products: GuideProduct[] = [
     reviews: "2,486",
     imageUrl: "https://m.media-amazon.com/images/I/41caJzrXfNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07RT4LWYY?tag=deskfinds0d-20",
-    description: "The largest freestanding board here at 16x12 inches, double-sided, magnetic, with a nearly identical rating to the top glass picks.",
+    description: "The largest freestanding board here at 16x12 inches, double-sided, magnetic, with a nearly identical rating to the top glass picks.\n\nThe strongest case for this pick comes down to largest writing area among the freestanding options as well as nearly matches the top-rated compact picks. The compromise here is that larger footprint uses more desk space than the compact options, so factor that in alongside the $23.99 asking price.",
     specs: ["16 x 12 in, freestanding, double-sided, magnetic", "2,486 reviews at 4.8 stars"],
     pros: ["Largest writing area among the freestanding options", "Nearly matches the top-rated compact picks"],
     cons: ["Larger footprint uses more desk space than the compact options"],
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "1,356",
     imageUrl: "https://m.media-amazon.com/images/I/41FLEFa9xDL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVM9YJCS?tag=deskfinds0d-20",
-    description: "The same large 16x12 footprint as the Tankee pick above at a lower price, with its own stand for genuine freestanding use.",
+    description: "The same large 16x12 footprint as the Tankee pick above at a lower price, with its own stand for genuine freestanding use.\n\nWhere this one earns its spot is cheapest of the large freestanding options here. Worth noting before buying: slightly lower rating than the Tankee equivalent, which matters more at $18.99 than it would on a cheaper pick.",
     specs: ["16 x 12 in, freestanding, double-sided, magnetic", "1,356 reviews at 4.6 stars"],
     pros: ["Cheapest of the large freestanding options here"],
     cons: ["Slightly lower rating than the Tankee equivalent"],
@@ -94,7 +94,7 @@ export const products: GuideProduct[] = [
     reviews: "1,191",
     imageUrl: "https://m.media-amazon.com/images/I/4180Al3c9zL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09MZ5ZD4N?tag=deskfinds0d-20",
-    description: "A genuine freestanding stand at the smallest footprint in this comparison, with a high rating and strong review base.",
+    description: "A genuine freestanding stand at the smallest footprint in this comparison, with a high rating and strong review base.\n\nThis pick is best for buyers who value smallest freestanding footprint here along with high rating and strong review base. The catch is that small writing area compared to the larger picks, so decide if that's worth it at $16.99.",
     specs: ["8 x 6 in, freestanding stand", "1,191 reviews at 4.7 stars"],
     pros: ["Smallest freestanding footprint here", "High rating and strong review base"],
     cons: ["Small writing area compared to the larger picks"],
@@ -119,14 +119,98 @@ export const howToChoose: HowToChooseSection[] = [
       { label: "Large (16x12 in magnetic boards)", text: "More writing area, better for extended sessions, uses more desk space." },
     ],
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $16.99",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Around $18.99",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Around $23.99",
+          "Tankee Dry Erase Board 16x12 Inches Double Sided Magnetic Small Whiteboard"
+        ],
+        [
+          "Around $25.99",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Around $27.99",
+          "Small Desktop Glass Whiteboard Dry-Erase-Board"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Small Desktop Glass Whiteboard Dry-Erase-Board is aimed at Buyers who want the most proven compact freestanding board."
+      },
+      {
+        "label": "Save if",
+        "text": "TSJ OFFICE Small Desktop Whiteboard is aimed at Buyers who want a genuinely freestanding board with minimal desk footprint."
+      }
+    ]
+  },
+  {
+    "subheading": "TSJ OFFICE Small Desktop Whiteboard vs Small Desktop Glass Whiteboard Dry-Erase-Board",
+    "cards": [
+      {
+        "label": "TSJ OFFICE Small Desktop Whiteboard",
+        "text": "Aimed at Buyers who want a genuinely freestanding board with minimal desk footprint."
+      },
+      {
+        "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
+        "text": "Aimed at Buyers who want the most proven compact freestanding board."
+      }
+    ],
+    "note": "Default to TSJ OFFICE Small Desktop Whiteboard unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Small Desktop Glass Whiteboard Dry-Erase-Board is aimed at Buyers who want the most proven compact freestanding board; TSJ OFFICE Small Desktop Whiteboard is aimed at Buyers who want the most-reviewed compact freestanding option."
+      }
+    ]
+  },
+  {
+    "subheading": "For Budget-Conscious Buyers Specifically",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The lowest price that still covers your actual must-have requirements, not just the lowest price on the page."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TSJ OFFICE Small Desktop Whiteboard is aimed at Buyers who want a genuinely freestanding board with minimal desk footprint, at $16.99."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the board genuinely stands on its own", explanation: "This guide excludes flat pads and wall-mounted products, keeping to boards with a real self-supporting stand." },
-  { criterion: "Weigh writing area against desk footprint", explanation: "Compact freestanding boards save desk space; larger ones give more room per writing session." },
-  { criterion: "Check for double-sided design", explanation: "Several picks here are double-sided, effectively doubling usable writing area within the same footprint." },
-  { criterion: "Use review volume as evidence of base stability", explanation: "An established review base is the best available evidence a stand doesn't wobble under normal writing pressure." },
-  { criterion: "Match glass vs. magnetic surface to your needs", explanation: "Glass resists ghosting best over time; magnetic surfaces add the ability to hold notes with magnets." },
+  { criterion: "Confirm the board genuinely stands on its own", explanation: "This guide excludes flat pads and wall-mounted products, keeping to boards with a real self-supporting stand. With prices in this roundup ranging roughly $17 to $28, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it." },
+  { criterion: "Weigh writing area against desk footprint", explanation: "Compact freestanding boards save desk space; larger ones give more room per writing session. Given the real spread here, from about $17 up to $28, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
+  { criterion: "Check for double-sided design", explanation: "Several picks here are double-sided, effectively doubling usable writing area within the same footprint. Across this comparison's $17 to $28 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely." },
+  { criterion: "Use review volume as evidence of base stability", explanation: "An established review base is the best available evidence a stand doesn't wobble under normal writing pressure. Products at the low end near $17 and the high end near $28 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
+  { criterion: "Match glass vs. magnetic surface to your needs", explanation: "Glass resists ghosting best over time; magnetic surfaces add the ability to hold notes with magnets. This matters in practice because the picks in this comparison span from about $17 to $28, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number." },
 ];
 
 export const faq: FaqItem[] = [
@@ -135,6 +219,7 @@ export const faq: FaqItem[] = [
   { q: "Which is the most compact freestanding option?", a: "The TSJ OFFICE 8x6 glass board, with a real self-supporting stand at a small footprint." },
   { q: "Which has the most reviews?", a: "The TSJ OFFICE Small Desktop Whiteboard (keyboard-stand version), with 2,500 reviews." },
   { q: "What's the cheapest large freestanding option?", a: "The AMUSIGHT Double-Sided Magnetic White Board at $18.99." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Small Desktop Glass Whiteboard Dry-Erase-Board is aimed at Buyers who want the most proven compact freestanding board." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

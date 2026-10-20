@@ -92,10 +92,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   }
 ];
 
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test Whether You'll Need to Upgrade Immediately",
     "note": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $19.99",
+          "XPPen G430S OSU"
+        ],
+        [
+          "Around $27.99",
+          "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
+        ],
+        [
+          "Around $28.99",
+          "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
+        ],
+        [
+          "Around $39.95",
+          "Wacom Intuos Small"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Street Price",
-    "explanation": "Verify cheap drawing tablets's current price and include any required adapters or stand in the total cost before calling it a deal."
+    "explanation": "Verify cheap drawing tablets's current price and include any required adapters or stand in the total cost before calling it a deal. Products at the low end near $20 and the high end near $45 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Prioritize Line Quality Over Pressure Count",
-    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet."
+    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet. This matters in practice because the picks in this comparison span from about $20 to $45, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check What's Actually Included",
-    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos."
+    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos. With prices in this roundup ranging roughly $20 to $45, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Replacement Part Availability",
-    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model."
+    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model. Given the real spread here, from about $20 up to $45, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Test Whether You'll Need to Upgrade Immediately",
-    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
+    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage. Across this comparison's $20 to $45 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-under-100","title":"Best Drawing Tablets Under $100 in 2026"}];

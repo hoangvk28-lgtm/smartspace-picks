@@ -31,7 +31,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ofaC4xQiL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08R3V1YTB?tag=deskfinds0d-20",
     description:
-      "A 16x12 inch magnetic dry erase board with a stand, sized for general note-taking, task lists, or a small planning surface without taking over the whole desk.\n\nThe magnetic surface adds flexibility for holding notes or small magnets alongside written content, and the stand keeps it upright without wall mounting.",
+      "A 16x12 inch magnetic dry erase board with a stand, sized for general note-taking, task lists, or a small planning surface without taking over the whole desk.\n\nThe magnetic surface adds flexibility for holding notes or small magnets alongside written content, and the stand keeps it upright without wall mounting.\n\nWhere this one earns its spot is balanced 16x12 size works for most desk setups, and magnetic surface adds note-holding flexibility. Worth noting before buying: surface material isn't specified, verify erasability expectations via reviews, which matters more at $17.99 than it would on a cheaper pick.",
     specs: ["16\" x 12\" writing surface", "Magnetic dry erase surface", "Includes stand", "Material not stated in listing"],
     pros: ["Balanced 16x12 size works for most desk setups", "Magnetic surface adds note-holding flexibility", "Includes a stand, no wall mounting needed", "Straightforward, budget-friendly price"],
     cons: ["Surface material isn't specified, verify erasability expectations via reviews", "Stand stability under writing pressure isn't confirmed by listing data", "Actual writable area is smaller than 16x12 once the frame border is subtracted"],
@@ -65,7 +65,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/21DN1-VtYsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01MFGICQT?tag=deskfinds0d-20",
     description:
-      "A genuinely glass 9x11 inch pad from Quartet, a recognized office-supply brand, with a removable clip for holding a sheet of paper alongside the dry erase surface.\n\nGlass resists ghosting far better than melamine over repeated use, making this a durable pick despite its compact size, and it includes a marker per the listing.",
+      "A genuinely glass 9x11 inch pad from Quartet, a recognized office-supply brand, with a removable clip for holding a sheet of paper alongside the dry erase surface.\n\nGlass resists ghosting far better than melamine over repeated use, making this a durable pick despite its compact size, and it includes a marker per the listing.\n\nWhat stands out here is genuine glass surface resists ghosting long-term, plus removable clip adds paper-holding versatility. The main tradeoff: compact 9x11 size limits how much you can write at once, so weigh that against the $25.62 price before buying.",
     specs: ["9\" x 11\" glass writing surface", "Removable paper clip", "Includes marker", "Quartet brand, established office supplier"],
     pros: ["Genuine glass surface resists ghosting long-term", "Removable clip adds paper-holding versatility", "Marker included per listing", "Recognized brand with consistent build quality expectations"],
     cons: ["Compact 9x11 size limits how much you can write at once", "No stand included based on listing title", "Glass adds some weight and fragility versus melamine"],
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41+-w5AGGrL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B089NL8QMN?tag=deskfinds0d-20",
     description:
-      "Combines a glass whiteboard with a keyboard stand and built-in drawer, functioning as a small desk organizer as much as a writing surface.\n\nThe glass face means better ghosting resistance than melamine over time, and the drawer gives a place for markers, notes, or small supplies without a separate accessory.",
+      "Combines a glass whiteboard with a keyboard stand and built-in drawer, functioning as a small desk organizer as much as a writing surface.\n\nThe glass face means better ghosting resistance than melamine over time, and the drawer gives a place for markers, notes, or small supplies without a separate accessory.\n\nThe strongest case for this pick comes down to genuine glass surface for long-term ghosting resistance as well as built-in drawer adds real storage utility. The compromise here is that combined structure stability with drawer weight isn't independently confirmable, check reviews, so factor that in alongside the $25.99 asking price.",
     specs: ["Glass dry erase surface", "Built-in drawer for storage", "Doubles as keyboard stand", "Compact desktop footprint"],
     pros: ["Genuine glass surface for long-term ghosting resistance", "Built-in drawer adds real storage utility", "Doubles as a keyboard stand, saves desk space", "Multi-function design for small desks"],
     cons: ["Combined structure stability with drawer weight isn't independently confirmable, check reviews", "Glass adds fragility versus a melamine board", "Smaller writing area once the keyboard stand function is factored in"],
@@ -99,7 +99,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31tgGY53X0S._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0774Y814B?tag=deskfinds0d-20",
     description:
-      "A genuinely large 17x23 inch glass panel from Quartet, well beyond the small note-board category, with accessory trays and included magnets for task cards or notes.\n\nThe biggest surface area in this roundup, making it the pick for buyers who actually need to track multiple ongoing items rather than jot single reminders.",
+      "A genuinely large 17x23 inch glass panel from Quartet, well beyond the small note-board category, with accessory trays and included magnets for task cards or notes.\n\nThe biggest surface area in this roundup, making it the pick for buyers who actually need to track multiple ongoing items rather than jot single reminders.\n\nWhere this one earns its spot is largest genuine writing surface in this roundup, and magnetic surface with magnets included, good for task cards. Worth noting before buying: significantly higher price than the compact picks, which matters more at $117.49 than it would on a cheaper pick.",
     specs: ["17\" x 23\" glass writing surface", "Magnetic surface with included magnets", "Accessory trays included", "Includes 1 marker per listing"],
     pros: ["Largest genuine writing surface in this roundup", "Magnetic surface with magnets included, good for task cards", "Accessory trays keep markers and supplies at hand", "Established Quartet brand quality"],
     cons: ["Significantly higher price than the compact picks", "Larger footprint requires more desk or wall space", "Weight and size make it less suited to small, cramped desks"],
@@ -160,14 +160,62 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $12.62",
+          "MaxGear Dry Erase Board with Stand"
+        ],
+        [
+          "Around $17.99",
+          "White Board with Stand"
+        ],
+        [
+          "Around $19.99",
+          "AMUSIGHT Double-Sided Magnetic White Board with Stand"
+        ],
+        [
+          "Around $25.62",
+          "Quartet Dry Erase White Board 9\"W x 11\"H Desktop Glass Pad with Removable Clip and Marker (GDE119)"
+        ],
+        [
+          "Around $25.99",
+          "TSJ OFFICE Small Desktop Whiteboard"
+        ],
+        [
+          "Around $117.49",
+          "Quartet Glass Whiteboard Desktop Panel"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Quartet Glass Whiteboard Desktop Panel is aimed at Buyers who need real surface area for tracking multiple ongoing tasks or projects."
+      },
+      {
+        "label": "Save if",
+        "text": "MaxGear Dry Erase Board with Stand is aimed at Budget-conscious buyers who want a functional double-sided board without extra features."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm the surface material before buying", explanation: "Glass and porcelain resist ghosting far longer than melamine. If the listing doesn't state material, assume standard melamine and expect faster wear." },
-  { criterion: "Account for frame border eating into writable area", explanation: "A board's stated overall dimensions include the frame, so the real writing surface is smaller than the headline number. Size up if you need a specific amount of usable space." },
-  { criterion: "Check stand stability via reviews, not just listing photos", explanation: "A stand that looks stable in a product photo may wobble under real writing pressure. Read recent reviews specifically for stability complaints before buying." },
-  { criterion: "Decide if you need storage or just a writing surface", explanation: "Boards with built-in drawers or trays add real utility but also add bulk and cost. Skip this if you just need a flat writing surface." },
-  { criterion: "Size the board to your actual task volume", explanation: "A compact 9x11 board suits single reminders; a 17x23 panel suits tracking multiple ongoing projects. Oversizing wastes desk space, undersizing forces constant erasing." },
+  { criterion: "Confirm the surface material before buying", explanation: "Glass and porcelain resist ghosting far longer than melamine. If the listing doesn't state material, assume standard melamine and expect faster wear. Products at the low end near $13 and the high end near $117 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
+  { criterion: "Account for frame border eating into writable area", explanation: "A board's stated overall dimensions include the frame, so the real writing surface is smaller than the headline number. Size up if you need a specific amount of usable space. This matters in practice because the picks in this comparison span from about $13 to $117, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number." },
+  { criterion: "Check stand stability via reviews, not just listing photos", explanation: "A stand that looks stable in a product photo may wobble under real writing pressure. Read recent reviews specifically for stability complaints before buying. With prices in this roundup ranging roughly $13 to $117, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it." },
+  { criterion: "Decide if you need storage or just a writing surface", explanation: "Boards with built-in drawers or trays add real utility but also add bulk and cost. Skip this if you just need a flat writing surface. Given the real spread here, from about $13 up to $117, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
+  { criterion: "Size the board to your actual task volume", explanation: "A compact 9x11 board suits single reminders; a 17x23 panel suits tracking multiple ongoing projects. Oversizing wastes desk space, undersizing forces constant erasing. Across this comparison's $13 to $117 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely." },
 ];
 
 export const faq: FaqItem[] = [
@@ -176,6 +224,7 @@ export const faq: FaqItem[] = [
   { q: "Do all desktop whiteboards include a stand?", a: "No, only buy expecting a stand if the listing explicitly states one is included, as we noted for each pick above." },
   { q: "Is a bigger whiteboard always better?", a: "Not necessarily. A large panel suits tracking multiple ongoing tasks, but a compact board is easier to fit on a small desk if you only need quick reminders." },
   { q: "Can I verify stand stability before buying?", a: "Not from listing data alone. Check current buyer reviews specifically for stability reports under actual writing pressure." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "White Board with Stand is aimed at Buyers wanting a balanced, general-purpose desktop whiteboard for everyday notes and lists." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

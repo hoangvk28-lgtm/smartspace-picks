@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31MKjmDYAXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FM8653F1?tag=deskfinds0d-20",
-    description: "Dual voltage (120V and 240V in parallel) delivers 3600W output, doubling to 7200W when paired, genuinely enough to run pumps, heaters, and dryers. High-temp resistant ceramic membrane cells tested at 302°F specifically prevent thermal runaway, backed by 6000 rated cycles and a 10-year lifespan claim documented down to -4°F operation.\n\nExpandable from 3584Wh to 21kWh per unit (43kWh with multiple units), Jackery states this can power a 3-person household for over 2 weeks. The plug-and-play design paired with MTS needs no complex installation, and the luggage-style design with wheels and a telescopic handle makes rolling it between rooms genuinely practical despite the scale.",
-    specs: ["3584Wh (expandable to 21kWh), 3600W","Ceramic membrane cells, 302°F tested","Wheeled luggage-style design"],
+    description: "Dual voltage (120V and 240V in parallel) delivers 3600W output, doubling to 7200W when paired, genuinely enough to run pumps, heaters, and dryers. High-temp resistant ceramic membrane cells tested at 302-degreeF specifically prevent thermal runaway, backed by 6000 rated cycles and a 10-year lifespan claim documented down to -4-degreeF operation.\n\nExpandable from 3584Wh to 21kWh per unit (43kWh with multiple units), Jackery states this can power a 3-person household for over 2 weeks. The plug-and-play design paired with MTS needs no complex installation, and the luggage-style design with wheels and a telescopic handle makes rolling it between rooms genuinely practical despite the scale.",
+    specs: ["3584Wh (expandable to 21kWh), 3600W","Ceramic membrane cells, 302-degreeF tested","Wheeled luggage-style design"],
     pros: ["Ceramic membrane cells are specifically tested against thermal runaway","Expandable to a genuine 21kWh per unit for extended backup","Wheeled luggage design makes rolling between rooms practical"],
     cons: ["Full 21kWh expansion requires purchasing additional units","Genuinely large footprint even with the lighter, smaller claims"],
     bestFor: "buyers prioritizing 3584wh (expandable to 21kwh), 3600w",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test the Target Appliance's Real Surge",
     "note": "Test the intended 240V appliance's startup surge and confirm required cable or adapter compatibility."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $669.00",
+          "AFERIY P210 Solar Generator"
+        ],
+        [
+          "Around $699.98",
+          "AFERIY P280 Portable Power Station"
+        ],
+        [
+          "Around $1,169.00",
+          "AFERIY 3840Wh Portable Power Station"
+        ],
+        [
+          "Around $1,299.00",
+          "PECRON E3800LFP Portable Power Station"
+        ],
+        [
+          "Around $1,498.99",
+          "BLUETTI Apex 300 Portable Power Station"
+        ],
+        [
+          "Around $1,799.99",
+          "OUPES Guardian 6000 V2 Portable Power Station"
+        ],
+        [
+          "Around $1,899.00",
+          "Jackery HomePower 3600 Plus Portable Power Station"
+        ],
+        [
+          "Around $2,097.00",
+          "PECRON Two E3600LFP Power Stations with 240V Double Voltage Hub"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Native Documented 240V Output",
-    "explanation": "Confirm 240v portable power stations has genuine documented 240V output and identify the exact receptacle and topology used."
+    "explanation": "Confirm 240v portable power stations has genuine documented 240V output and identify the exact receptacle and topology used. This matters in practice because the picks in this comparison span from about $669 to $2097, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate 240V From 120V Ratings",
-    "explanation": "Verify continuous 240V output and current are published separately from standard 120V outlet ratings."
+    "explanation": "Verify continuous 240V output and current are published separately from standard 120V outlet ratings. With prices in this roundup ranging roughly $669 to $2097, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Single-Unit vs Paired-Unit 240V",
-    "explanation": "Confirm whether 240V requires one unit, two paired units, or an external hub to achieve."
+    "explanation": "Confirm whether 240V requires one unit, two paired units, or an external hub to achieve. Given the real spread here, from about $669 up to $2097, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Neutral, Ground, and GFCI Compliance",
-    "explanation": "Check neutral, ground, GFCI, and transfer-panel compatibility directly from the manufacturer manual."
+    "explanation": "Check neutral, ground, GFCI, and transfer-panel compatibility directly from the manufacturer manual. Across this comparison's $669 to $2097 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Test the Target Appliance's Real Surge",
-    "explanation": "Test the intended 240V appliance's startup surge and confirm required cable or adapter compatibility."
+    "explanation": "Test the intended 240V appliance's startup surge and confirm required cable or adapter compatibility. Products at the low end near $669 and the high end near $2097 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AFERIY P280 Portable Power Station is aimed at buyers prioritizing 2048wh (expandable to 10.24kwh), 2800w." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

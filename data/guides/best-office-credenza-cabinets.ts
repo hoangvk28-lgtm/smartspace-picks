@@ -1,7 +1,7 @@
 export const guideSlug = "best-office-credenza-cabinets";
 export const guideTitle = "8 Best Office Credenza Cabinets in 2026";
 export const metaTitle = "Best Office Credenza Cabinets 2026";
-export const metaDescription = "We compared office credenza cabinets by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared office credenza cabinets by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "office credenza cabinets";
 export const introParagraphs = [
   "Shopping for office credenza cabinets starts with verifying what's actually stored behind each cabinet door before counting doors as capacity, not with trusting a headline spec on the listing.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Lockable From Open Cabinet Storage",
     "note": "Identify which cabinets lock, so confidential material and everyday supplies land in the correct compartment from the start."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $93.49",
+          "REHOOPEX Black Storage Cabinet with Doors"
+        ],
+        [
+          "Around $119.99",
+          "Smuxee Walnut Sideboard Cabinet"
+        ],
+        [
+          "Around $149.99",
+          "Buffet Cabinet"
+        ],
+        [
+          "Around $219.99",
+          "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\" Lateral File Cabinet with Lock"
+        ],
+        [
+          "Around $583.32",
+          "Bme Sideboard Georgina Solid Wood 2 Doors & 3 Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Inventory the Storage Type Mix",
-    "explanation": "List the exact combination of shelves, drawers, and file zones behind office credenza cabinets's cabinet doors rather than judging capacity by door count alone."
+    "explanation": "List the exact combination of shelves, drawers, and file zones behind office credenza cabinets's cabinet doors rather than judging capacity by door count alone. Given the real spread here, from about $93 up to $583, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Publish Interior Compartment Dimensions",
-    "explanation": "Get interior dimensions for each cabinet compartment, since center partitions and hardware can make interior bays smaller than the exterior suggests."
+    "explanation": "Get interior dimensions for each cabinet compartment, since center partitions and hardware can make interior bays smaller than the exterior suggests. Across this comparison's $93 to $583 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify File Compatibility Behind Cabinet Doors",
-    "explanation": "If cabinet doors hide file storage, confirm letter/legal compatibility and hanging-rail presence directly, since cabinet-style file storage is documented less consistently than dedicated file drawers."
+    "explanation": "If cabinet doors hide file storage, confirm letter/legal compatibility and hanging-rail presence directly, since cabinet-style file storage is documented less consistently than dedicated file drawers. Products at the low end near $93 and the high end near $583 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Door Clearance in Your Room",
-    "explanation": "Open every cabinet door in its intended location and measure the swing clearance needed."
+    "explanation": "Open every cabinet door in its intended location and measure the swing clearance needed. This matters in practice because the picks in this comparison span from about $93 to $583, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Lockable From Open Cabinet Storage",
-    "explanation": "Identify which cabinets lock, so confidential material and everyday supplies land in the correct compartment from the start."
+    "explanation": "Identify which cabinets lock, so confidential material and everyday supplies land in the correct compartment from the start. With prices in this roundup ranging roughly $93 to $583, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "How do I know if a credenza top can actually hold a printer?",
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenza-file-cabinets","title":"Best Office Credenza File Cabinets in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

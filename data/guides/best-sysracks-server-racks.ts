@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41uVNtRQfHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07Y8THDMW?tag=deskfinds0d-20",
-    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.",
+    description: "A shallower 32-inch-deep alternative to Sysracks' 39-inch cabinet, still packing four roof-mounted fans and an 8-way PDU for a rack rated to hold 1600 lbs static.\n\nThe front glass door is perforated for extra airflow while the rear stays solid metal, splitting the difference between visibility up front and dust protection in back.\n\nWhere this one earns its spot is 1600 lb static rating handles a dense server stack, and 8-way PDU included instead of bought separately. Worth noting before buying: 32\" depth is still tight for some full servers, which matters more at $1,250.10 than it would on a cheaper pick.",
     specs: ["42U, 32\" deep, 1600 lb static rating","4 roof-mounted fans, 8-way PDU","Perforated glass front, solid metal rear door"],
     pros: ["1600 lb static rating handles a dense server stack","8-way PDU included instead of bought separately","Perforated front door boosts airflow without losing visibility"],
     cons: ["32\" depth is still tight for some full servers","Casters need leveling feet for a permanent install"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41VxcPS1xAL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNQYFXNL?tag=deskfinds0d-20",
-    description: "This 15U wall cabinet includes two vented shelves rather than the single shelf found on some smaller models in this seller's lineup, plus a PDU and the same 133 lb capacity.\n\nLeveling feet are included alongside the fan and PDU, useful if you decide to set it on the floor rather than mount it, even though it's designed primarily as a wall unit.",
+    description: "This 15U wall cabinet includes two vented shelves rather than the single shelf found on some smaller models in this seller's lineup, plus a PDU and the same 133 lb capacity.\n\nLeveling feet are included alongside the fan and PDU, useful if you decide to set it on the floor rather than mount it, even though it's designed primarily as a wall unit.\n\nThis pick is best for buyers who value two shelves included instead of just one along with leveling feet give a floor-standing option too. The catch is that 133 lb rating needs a genuinely solid wall mount, so decide if that's worth it at $399.97.",
     specs: ["15U, 24\" overall / 20\" usable depth","133 lb wall-mount capacity","2 shelves, PDU, and leveling feet included"],
     pros: ["Two shelves included instead of just one","Leveling feet give a floor-standing option too","Locking glass door balances visibility and security"],
     cons: ["133 lb rating needs a genuinely solid wall mount","20\" usable depth still limits deeper equipment"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41hlrfUyjYS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096G99V5N?tag=deskfinds0d-20",
-    description: "This 37U cabinet splits the difference between Sysracks' 32U and 42U models, with a 39-inch depth and 35-inch adjustable rail spacing that fits full-length servers.\n\nThe perforated mesh front door promotes noticeably higher airflow than a solid or glass door, favoring buyers who prioritize cooling over visual sleekness or security.",
+    description: "This 37U cabinet splits the difference between Sysracks' 32U and 42U models, with a 39-inch depth and 35-inch adjustable rail spacing that fits full-length servers.\n\nThe perforated mesh front door promotes noticeably higher airflow than a solid or glass door, favoring buyers who prioritize cooling over visual sleekness or security.\n\nWhat stands out here is mesh door promotes stronger passive airflow than glass or solid doors, plus 1600 lb rating matches Sysracks' larger enclosed cabinets. The main tradeoff: mesh door offers less dust protection than a glass door, so weigh that against the $1,340.00 price before buying.",
     specs: ["37U, 39\" deep, 35\" adjustable rail spacing","1600 lb static weight capacity","Mesh front door, 4-fan cooling"],
     pros: ["Mesh door promotes stronger passive airflow than glass or solid doors","1600 lb rating matches Sysracks' larger enclosed cabinets","35\" adjustable rail spacing fits full-length servers"],
     cons: ["Mesh door offers less dust protection than a glass door","37U size still needs a dedicated equipment room"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41FQAA2TapL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BNRWN9FH?tag=deskfinds0d-20",
-    description: "The smallest wall cabinet in this seller's series, this 12U model keeps the same 133 lb capacity and 24-inch overall depth spec as the larger 15U, 18U, and 22U versions.\n\nOne vented shelf, a PDU, and leveling feet round out the kit, giving a complete small-office setup without needing to shop for accessories separately.",
+    description: "The smallest wall cabinet in this seller's series, this 12U model keeps the same 133 lb capacity and 24-inch overall depth spec as the larger 15U, 18U, and 22U versions.\n\nOne vented shelf, a PDU, and leveling feet round out the kit, giving a complete small-office setup without needing to shop for accessories separately.\n\nThe strongest case for this pick comes down to complete kit with shelf and PDU, no extra shopping needed as well as consistent 133 lb rating across this whole cabinet series. The compromise here is that 12U ceiling limits total equipment for larger setups, so factor that in alongside the $349.97 asking price.",
     specs: ["12U, 24\" overall / 20\" usable depth","133 lb wall-mount capacity","Shelf, PDU, and leveling feet included"],
     pros: ["Complete kit with shelf and PDU, no extra shopping needed","Consistent 133 lb rating across this whole cabinet series","Top fan provides active cooling in a compact size"],
     cons: ["12U ceiling limits total equipment for larger setups","20\" usable depth may not fit every device"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Post Configuration for Your Load",
     "note": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $349.97",
+          "12U Wall Mount Server Rack Cabinet"
+        ],
+        [
+          "Around $399.97",
+          "15U Wall Mount Server Rack Cabinet"
+        ],
+        [
+          "Around $1,250.10",
+          "Sysracks 42U Server Rack Cabinet"
+        ],
+        [
+          "Around $1,340.00",
+          "Sysracks 37U Server Rack Cabinet"
+        ],
+        [
+          "Around $1,389.00",
+          "Sysracks 42U Server Rack Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which sysracks rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations."
+    "explanation": "Confirm which sysracks rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. Across this comparison's $350 to $1389 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Weight Rating by Mount Type",
-    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general."
+    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. Products at the low end near $350 and the high end near $1389 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Rail Depth Against Your Equipment",
-    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit."
+    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. This matters in practice because the picks in this comparison span from about $350 to $1389, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Warranty and Included Hardware",
-    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model."
+    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. With prices in this roundup ranging roughly $350 to $1389, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Post Configuration for Your Load",
-    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
+    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. Given the real spread here, from about $350 up to $1389, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

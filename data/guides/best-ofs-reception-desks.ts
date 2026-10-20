@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/314cEp+DwLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C74V1KLW?tag=deskfinds0d-20",
-    description: "This 72\"W x 32\"D curved unit assembles without tools, using a silver steel frame and thermofused melamine finish with self-edge banding to keep costs down without looking budget. The 19.75\" deep interior desk gives the receptionist real working depth behind the curved visitor-facing front.\n\nLeveling glides built into the base allow up to ½\" of height adjustability per leg, which matters on uneven commercial flooring where a fixed-leg desk would rock. Wire management cutouts are built into the interior desk surface rather than added as drilled holes.",
-    specs: ["72\"W x 32\"D curved single-unit desk","19.75\" deep interior receptionist desk","Leveling glides, up to ½\" height adjustability per leg"],
+    description: "This 72\"W x 32\"D curved unit assembles without tools, using a silver steel frame and thermofused melamine finish with self-edge banding to keep costs down without looking budget. The 19.75\" deep interior desk gives the receptionist real working depth behind the curved visitor-facing front.\n\nLeveling glides built into the base allow up to 1/2\" of height adjustability per leg, which matters on uneven commercial flooring where a fixed-leg desk would rock. Wire management cutouts are built into the interior desk surface rather than added as drilled holes.",
+    specs: ["72\"W x 32\"D curved single-unit desk","19.75\" deep interior receptionist desk","Leveling glides, up to 1/2\" height adjustability per leg"],
     pros: ["No-tools assembly, unusual for a curved commercial desk","Leveling glides handle uneven floors better than fixed feet","Interior wire cutouts built into the work surface, not drilled after"],
     cons: ["Single-unit only, no add-on modules shown for this listing","Silver frame is a fixed design choice, not swappable"],
     bestFor: "buyers prioritizing 72\"w x 32\"d curved single-unit desk",
@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Include Lead Time and Support Path",
     "note": "Include current lead-time and specification workflow, warranty, dealer or support path, and replacement-component availability in the total cost of ownership."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ],
+        [
+          "Around $949.99",
+          "Romig Marque Curved ADA-Compliant Reception Station"
+        ],
+        [
+          "Around $1,192.84",
+          "Romig Marque Curved Single-Unit Reception Workstation"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Series Map",
-    "explanation": "Build a current OFS reception-series or model map and label older project or reseller products separately, since discontinued configurations are still commonly listed by third parties."
+    "explanation": "Build a current OFS reception-series or model map and label older project or reseller products separately, since discontinued configurations are still commonly listed by third parties. Given the real spread here, from about $870 up to $1193, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Configurations Against the Current Series",
-    "explanation": "Compare straight, L-shaped, U-shaped, single-user, and multi-user configurations only where the exact current series genuinely supports them."
+    "explanation": "Compare straight, L-shaped, U-shaped, single-user, and multi-user configurations only where the exact current series genuinely supports them. Across this comparison's $870 to $1193 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Planning Dimensions from Current Resources",
-    "explanation": "Use current planning and specification resources to verify overall width, depth, work height, transaction-counter geometry, handedness, and grommet locations."
+    "explanation": "Use current planning and specification resources to verify overall width, depth, work height, transaction-counter geometry, handedness, and grommet locations. Products at the low end near $870 and the high end near $1193 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Map Separately Ordered Components",
-    "explanation": "Map storage, materials, finishes, and power or data components that must be ordered separately from the core desk, since contract systems are often quoted as a base unit plus add-ons."
+    "explanation": "Map storage, materials, finishes, and power or data components that must be ordered separately from the core desk, since contract systems are often quoted as a base unit plus add-ons. This matters in practice because the picks in this comparison span from about $870 to $1193, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Include Lead Time and Support Path",
-    "explanation": "Include current lead-time and specification workflow, warranty, dealer or support path, and replacement-component availability in the total cost of ownership."
+    "explanation": "Include current lead-time and specification workflow, warranty, dealer or support path, and replacement-component availability in the total cost of ownership. With prices in this roundup ranging roughly $870 to $1193, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-hon-reception-desks","title":"5 Best HON Reception Desks in 2026"},{"href":"/guide/best-teknion-reception-desks","title":"best-teknion-reception-desks"},{"href":"/guide/best-knoll-reception-desks","title":"best-knoll-reception-desks"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-pure-sine-wave-portable-power-stations";
 export const guideTitle = "8 Best Pure Sine Wave Portable Power Stations in 2026";
 export const metaTitle = "Best Pure Sine Wave Portable Power Stations 2026";
-export const metaDescription = "We compared pure sine wave portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaDescription = "We compared pure sine wave portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline.";
 export const mainKeyword = "pure sine wave portable power stations";
 export const introParagraphs = [
   "Best Pure Sine Wave Portable Power Stations looks straightforward from the outside, but the real differentiator between stations is requiring official pure-sine-wave documentation instead of trusting a marketing phrase.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Boost Mode Doesn't Distort Voltage",
     "note": "Confirm whether boost modes distort voltage or alter compatibility with sensitive electronics."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $109.00",
+          "ALLPOWERS VOLIX P300 Portable Power Station"
+        ],
+        [
+          "Around $284.98",
+          "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
+        ],
+        [
+          "Around $289.99",
+          "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
+        ],
+        [
+          "Around $359.00",
+          "PECRON F1000LFP Power Station"
+        ],
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "EcoFlow DELTA 3 Classic Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $669.00",
+          "AFERIY P210 Solar Generator"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Official Pure-Sine-Wave Documentation",
-    "explanation": "Confirm pure sine wave portable power stations documents genuine pure-sine-wave output in official specs, not just as a marketing phrase."
+    "explanation": "Confirm pure sine wave portable power stations documents genuine pure-sine-wave output in official specs, not just as a marketing phrase. Across this comparison's $109 to $669 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Waveform Under Representative Loads",
-    "explanation": "Check AC voltage, frequency, and waveform quality across representative loads where test data is available."
+    "explanation": "Check AC voltage, frequency, and waveform quality across representative loads where test data is available. Products at the low end near $109 and the high end near $669 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Test Inductive Startup Behavior",
-    "explanation": "Verify inductive or compressor startup behavior directly rather than relying only on a surge rating."
+    "explanation": "Verify inductive or compressor startup behavior directly rather than relying only on a surge rating. This matters in practice because the picks in this comparison span from about $109 to $669, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Efficiency at Low and Medium Load",
-    "explanation": "Compare inverter efficiency and fan noise specifically at low and medium load levels."
+    "explanation": "Compare inverter efficiency and fan noise specifically at low and medium load levels. With prices in this roundup ranging roughly $109 to $669, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Boost Mode Doesn't Distort Voltage",
-    "explanation": "Confirm whether boost modes distort voltage or alter compatibility with sensitive electronics."
+    "explanation": "Confirm whether boost modes distort voltage or alter compatibility with sensitive electronics. Given the real spread here, from about $109 up to $669, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Can I use any solar panel with a portable power station?",
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

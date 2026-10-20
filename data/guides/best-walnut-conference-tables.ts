@@ -1,7 +1,7 @@
 export const guideSlug = "best-walnut-conference-tables";
 export const guideTitle = "8 Best Walnut Conference Tables in 2026";
 export const metaTitle = "Best Walnut Conference Tables 2026";
-export const metaDescription = "We compared walnut conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared walnut conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "walnut conference tables";
 export const introParagraphs = [
   "Wood construction on a conference table can mean solid wood, veneer, or wood-look laminate, and each ages and repairs very differently over years of daily use.",
@@ -200,28 +200,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Account for Shipping Weight",
     "note": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $189.99",
+          "Tribesigns 63-Inch Executive Desk"
+        ],
+        [
+          "Around $189.99",
+          "Tribesigns 63-inch Executive Desk"
+        ],
+        [
+          "Around $254.73",
+          "Tribesigns 8FT Conference Table"
+        ],
+        [
+          "Around $299.99",
+          "Tribesigns 8FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table"
+        ],
+        [
+          "Around $389.99",
+          "Tribesigns 8ft Conference Table"
+        ],
+        [
+          "Around $1,499.00",
+          "OfficeSimpli 8ft Conference Table"
+        ],
+        [
+          "Around $1,799.00",
+          "OfficeSimpli 10ft Conference Table"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual Construction Type",
-    "explanation": "Check whether the walnut conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use."
+    "explanation": "Check whether the walnut conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use. Across this comparison's $190 to $1799 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top."
+    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top. Products at the low end near $190 and the high end near $1799 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Repairability",
-    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership."
+    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership. This matters in practice because the picks in this comparison span from about $190 to $1799, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Cleaning and Moisture Guidance",
-    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity."
+    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity. With prices in this roundup ranging roughly $190 to $1799, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Account for Shipping Weight",
-    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement."
+    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement. Given the real spread here, from about $190 up to $1799, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -246,6 +290,8 @@ export const faq = [
     "q": "Why do some conference tables ship in more than one box?",
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "OfficeSimpli 10ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-conference-tables","title":"Best Wood Conference Tables in 2026"},{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-live-edge-conference-tables","title":"Best Live-Edge Conference Tables in 2026"}];

@@ -60,8 +60,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hEzYb5kkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FTE9HS2?tag=deskfinds0d-20",
     description: "A 10 x 6.25 inch working area gives real room to work in, and the battery-free PW100 stylus supports plus-or-minus 60 degrees of tilt for genuine shading gestures, not just line weight. Twelve programmable press keys plus sixteen soft keys is an unusually deep shortcut set for this price tier.\n\nThe symmetrical design genuinely supports left-handed use via a 180-degree driver rotation, and phones connect over OTG (though iPhone/iPad are not supported, and Samsung Galaxy S-series cursor display has a known limitation). Compatible with Windows, macOS, Android, and Linux via Xorg specifically, not Wayland.",
-    specs: ["10x6.25in area, 12+16 hot keys","±60° tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
-    pros: ["28 total programmable keys is deep for this price","±60° tilt support enables real shading gestures","True 180° rotation for left-handed users"],
+    specs: ["10x6.25in area, 12+16 hot keys","+/-60-degree tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
+    pros: ["28 total programmable keys is deep for this price","+/-60-degree tilt support enables real shading gestures","True 180-degree rotation for left-handed users"],
     cons: ["Samsung Galaxy S-series has a known cursor display issue","Linux support requires Xorg specifically, not Wayland"],
     bestFor: "buyers prioritizing 10x6.25in area, 12+16 hot keys",
   },
@@ -76,10 +76,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   },
   {
     id: "best-drawing-tablets-for-beginners-5",
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41CrQFRmREL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D1BYSYLH?tag=deskfinds0d-20",
-    description: "This genuinely runs without a host computer, preloaded with five creative apps for sketching, painting, and guided lessons. The fully laminated 11-inch 2K screen specifically reduces parallax and glare, paired with a 4096-level pressure-sensitive stylus. An octa-core processor with 6GB RAM and 128GB storage (expandable to 1TB) handles drawing apps and multitasking, backed by an 8000mAh-class battery. Six bonus items worth noting ship included: a Concepts app Pro upgrade, an Artixo VIP tutorial upgrade, a case, glove, power adapter, and screen protector. Certified to GMS, FCC, and CE with a 1-year warranty.",
+    description: "This genuinely runs without a host computer, preloaded with five creative apps for sketching, painting, and guided lessons. The fully laminated 11-inch 2K screen specifically reduces parallax and glare, paired with a 4096-level pressure-sensitive stylus. An octa-core processor with 6GB RAM and 128GB storage (expandable to 1TB) handles drawing apps and multitasking, backed by an 8000mAh-class battery. Six bonus items worth noting ship included: a Concepts app Pro upgrade, an Artixo VIP tutorial upgrade, a case, glove, power adapter, and screen protector. Certified to GMS, FCC, and CE with a 1-year warranty.\n\nThe strongest case for this pick comes down to genuinely standalone, no computer needed at all as well as six bonus items including lifetime app upgrades included. The compromise here is that 4096 pressure levels trails computer-tethered 16K tablets, so factor that in alongside the $239.95 asking price.",
     specs: ["11in 2K laminated screen, standalone Android","4096-level pressure stylus","6GB RAM, 128GB storage (expandable to 1TB)"],
     pros: ["Genuinely standalone, no computer needed at all","Six bonus items including lifetime app upgrades included","128GB storage expandable to 1TB via microSD"],
     cons: ["4096 pressure levels trails computer-tethered 16K tablets","Preloaded apps are simpler than desktop Photoshop-class software"],
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Replacement Cost Over Time",
     "note": "Check nib and cable replacement cost, since a beginner will wear through a few nibs while learning pressure control."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $27.99",
+          "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
+        ],
+        [
+          "Around $39.95",
+          "Wacom Intuos Small"
+        ],
+        [
+          "Around $41.79",
+          "HUION Inspiroy H1060P Graphics Drawing Tablet"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ],
+        [
+          "Around $149.99",
+          "GAOMON PD1161 Drawing Tablet with Screen"
+        ],
+        [
+          "Around $159.99",
+          "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
+        ],
+        [
+          "Around $239.95",
+          "11\" Standalone Drawing Tablet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Prioritize Low Activation Force",
-    "explanation": "Check drawing tablets for beginners's initial activation force specifically, since a lower number feels more natural for someone new to digital drawing."
+    "explanation": "Check drawing tablets for beginners's initial activation force specifically, since a lower number feels more natural for someone new to digital drawing. Given the real spread here, from about $28 up to $240, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Driver Install Is Genuinely Simple",
-    "explanation": "Confirm driver setup doesn't require advanced permission changes or command-line steps for a first-time user."
+    "explanation": "Confirm driver setup doesn't require advanced permission changes or command-line steps for a first-time user. Across this comparison's $28 to $240 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check for Included Learning Resources",
-    "explanation": "Verify whether tutorials, guided lessons, or bundled software are included to help a beginner get started."
+    "explanation": "Verify whether tutorials, guided lessons, or bundled software are included to help a beginner get started. Products at the low end near $28 and the high end near $240 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Left and Right-Hand Support",
-    "explanation": "Check that the tablet genuinely supports both hand orientations through the driver, not just physically."
+    "explanation": "Check that the tablet genuinely supports both hand orientations through the driver, not just physically. This matters in practice because the picks in this comparison span from about $28 to $240, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Weigh Replacement Cost Over Time",
-    "explanation": "Check nib and cable replacement cost, since a beginner will wear through a few nibs while learning pressure control."
+    "explanation": "Check nib and cable replacement cost, since a beginner will wear through a few nibs while learning pressure control. With prices in this roundup ranging roughly $28 to $240, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];

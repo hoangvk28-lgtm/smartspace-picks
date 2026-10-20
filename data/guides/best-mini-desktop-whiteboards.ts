@@ -106,13 +106,45 @@ export const howToChoose: HowToChooseSection[] = [
       ],
     },
   },
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $15.18",
+          "Black Mini Desktop Pure Glass Whiteboard"
+        ],
+        [
+          "Around $23.99",
+          "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand"
+        ]
+      ]
+    }
+  },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Desktop Black Glass Dry Erase Whiteboard with Reversible Wood Stand is aimed at Buyers who want a mini-tier board but also want it to stand upright on its own via an included stand."
+      },
+      {
+        "label": "Save if",
+        "text": "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm you actually need mini, not just small", explanation: "Mini boards top out around 9.5x6.7 inches versus up to 9x11 for our small category. If you need more writing room, check our small whiteboard guide instead." },
-  { criterion: "Expect single-reminder capacity, not a task list", explanation: "At mini dimensions, plan to use the board for one reminder at a time rather than a running list of items." },
-  { criterion: "Decide if you need a stand", explanation: "Not every mini board includes a stand per its listing. Check specs carefully if you want it to stand upright on its own rather than lean against something." },
-  { criterion: "Value portability as the main selling point", explanation: "Mini boards aren't necessarily cheaper than small ones, their value is a minimal footprint. If desk space isn't your constraint, the small category gives more usable room for a similar price." },
+  { criterion: "Confirm you actually need mini, not just small", explanation: "Mini boards top out around 9.5x6.7 inches versus up to 9x11 for our small category. If you need more writing room, check our small whiteboard guide instead. Products at the low end near $15 and the high end near $24 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out." },
+  { criterion: "Expect single-reminder capacity, not a task list", explanation: "At mini dimensions, plan to use the board for one reminder at a time rather than a running list of items. This matters in practice because the picks in this comparison span from about $15 to $24, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number." },
+  { criterion: "Decide if you need a stand", explanation: "Not every mini board includes a stand per its listing. Check specs carefully if you want it to stand upright on its own rather than lean against something. With prices in this roundup ranging roughly $15 to $24, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it." },
+  { criterion: "Value portability as the main selling point", explanation: "Mini boards aren't necessarily cheaper than small ones, their value is a minimal footprint. If desk space isn't your constraint, the small category gives more usable room for a similar price. Given the real spread here, from about $15 up to $24, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone." },
 ];
 
 export const faq: FaqItem[] = [
@@ -120,6 +152,8 @@ export const faq: FaqItem[] = [
   { q: "Can I fit a task list on a mini whiteboard?", a: "Not comfortably. Realistic capacity at mini dimensions is one reminder or status note at a time, not a running list." },
   { q: "Do mini whiteboards include a stand?", a: "It varies by listing. Two of the three picks in this guide explicitly include a stand, check the specs for each product before buying." },
   { q: "Is a mini whiteboard cheaper than a small one?", a: "Not necessarily, prices overlap between the two categories. The main advantage of mini is a smaller footprint, not a lower price." },
+  { q: "Which pick in this comparison is the best overall choice?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders." },
+  { q: "Which pick offers the best value for a tight budget?", a: "Black Mini Desktop Pure Glass Whiteboard is aimed at Buyers who want the smallest, most portable option and only need single-task reminders, and at $15.18 it's the lowest-cost pick in this comparison." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

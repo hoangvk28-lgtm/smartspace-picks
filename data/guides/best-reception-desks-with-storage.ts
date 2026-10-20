@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test Drawer and Door Clearance with Furniture in Place",
     "note": "Open drawers and doors with a chair, return, and adjacent furniture in normal position to confirm nothing blocks full opening in daily use."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $114.97",
+          "ANGRYWIN Reception Desk with Counter"
+        ],
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $249.99",
+          "Tribesigns L-Shaped Reception Desk with Storage Shelves"
+        ],
+        [
+          "Around $261.90",
+          "VEVOR Reception Desk"
+        ],
+        [
+          "Around $299.99",
+          "AIEGLE L-Shaped Reception Desk Counter with Lockable Drawers"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish Interior Dimensions for Every Compartment",
-    "explanation": "Publish interior dimensions for every drawer, shelf, or cabinet, since a listed drawer count says nothing about whether the drawers are actually large enough to be useful."
+    "explanation": "Publish interior dimensions for every drawer, shelf, or cabinet, since a listed drawer count says nothing about whether the drawers are actually large enough to be useful. Given the real spread here, from about $115 up to $459, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Separate Lockable from Open Storage",
-    "explanation": "Separate lockable valuables and document storage from open quick-access storage, so security and convenience don't compete for the same compartment."
+    "explanation": "Separate lockable valuables and document storage from open quick-access storage, so security and convenience don't compete for the same compartment. Across this comparison's $115 to $459 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify File Orientation and Shelf Adjustability",
-    "explanation": "Verify file orientation and shelf adjustability for the supplies you actually plan to store, since fixed shelving can't adapt to changing needs the way adjustable shelving can."
+    "explanation": "Verify file orientation and shelf adjustability for the supplies you actually plan to store, since fixed shelving can't adapt to changing needs the way adjustable shelving can. Products at the low end near $115 and the high end near $459 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Remaining Knee Space",
-    "explanation": "Measure remaining knee width and depth after storage is installed, since added cabinets and drawers can meaningfully reduce staff legroom."
+    "explanation": "Measure remaining knee width and depth after storage is installed, since added cabinets and drawers can meaningfully reduce staff legroom. This matters in practice because the picks in this comparison span from about $115 to $459, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Test Drawer and Door Clearance with Furniture in Place",
-    "explanation": "Open drawers and doors with a chair, return, and adjacent furniture in normal position to confirm nothing blocks full opening in daily use."
+    "explanation": "Open drawers and doors with a chair, return, and adjacent furniture in normal position to confirm nothing blocks full opening in daily use. With prices in this roundup ranging roughly $115 to $459, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-with-drawers","title":"8 Best Reception Desks with Drawers in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-reception-desks","title":"best-reception-desks"}];

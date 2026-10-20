@@ -1,7 +1,7 @@
 export const guideSlug = "best-tormach-desktop-cnc-machines";
 export const guideTitle = "3 Best Tormach Desktop CNC Machines in 2026";
 export const metaTitle = "Best Tormach Desktop CNC Machines 2026";
-export const metaDescription = "We compared tormach desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared tormach desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price.";
 export const mainKeyword = "tormach desktop cnc machines";
 export const introParagraphs = [
   "Choosing among tormach desktop cnc machines means starting with mapping the brand's current model lineup instead of assuming every listing is a current product rather than price or star rating.",
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41RpbagnLCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3P6QFS7?tag=deskfinds0d-20",
-    description: "An upgraded Z-axis linear guideway paired with a heavy-duty structure delivers a documented ±0.05mm repeatable positioning accuracy, a genuine step up from the earlier PROVerXL 4030 V1/V2's 8-bit controllers. The 130mm Z-height pass is notably taller than most desktop routers, enabling rotary projects and thicker stock.\n\nA 710W spindle replaces the standard hobbyist spindle for stronger cutting force on harder materials like aluminum and acrylic. Speed jumps from 2000 to 5000mm/min (a 150% increase) while staying under 65dB, and the modular pre-assembled design cuts setup time by roughly 30%.",
-    specs: ["130mm Z-height pass, 710W spindle","±0.05mm repeatable positioning accuracy","Up to 5000mm/min, under 65dB"],
+    description: "An upgraded Z-axis linear guideway paired with a heavy-duty structure delivers a documented +/-0.05mm repeatable positioning accuracy, a genuine step up from the earlier PROVerXL 4030 V1/V2's 8-bit controllers. The 130mm Z-height pass is notably taller than most desktop routers, enabling rotary projects and thicker stock.\n\nA 710W spindle replaces the standard hobbyist spindle for stronger cutting force on harder materials like aluminum and acrylic. Speed jumps from 2000 to 5000mm/min (a 150% increase) while staying under 65dB, and the modular pre-assembled design cuts setup time by roughly 30%.",
+    specs: ["130mm Z-height pass, 710W spindle","+/-0.05mm repeatable positioning accuracy","Up to 5000mm/min, under 65dB"],
     pros: ["130mm Z-height is notably taller than most desktop routers","32-bit MCU is a real upgrade from earlier 8-bit controllers","Runs at up to 5000mm/min while staying under 65dB"],
     cons: ["WiFi module for wireless control is a separate purchase","710W spindle still trails premium options for hard metals"],
     bestFor: "buyers prioritizing 130mm z-height pass, 710w spindle",
@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Warranty and Replacement Parts",
     "note": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $799.20",
+          "Genmitsu PROVerXL 4030S CNC Router Machine"
+        ],
+        [
+          "Around $2,499.00",
+          "Carvera Air Desktop CNC by MAKERA"
+        ],
+        [
+          "Around $3,197.00",
+          "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which tormach desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup."
+    "explanation": "Confirm which tormach desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. Given the real spread here, from about $799 up to $3197, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations."
+    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. Across this comparison's $799 to $3197 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general."
+    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. Products at the low end near $799 and the high end near $3197 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time."
+    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. This matters in practice because the picks in this comparison span from about $799 to $3197, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem."
+    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. With prices in this roundup ranging roughly $799 to $3197, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "Can a desktop CNC router genuinely cut metal, or just engrave it?",
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-carvera-desktop-cnc-machines","title":"Best Carvera Desktop CNC Machines in 2026"},{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"}];

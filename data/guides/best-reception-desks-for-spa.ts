@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Provide Discreet Storage for Forms and Gift Cards",
     "note": "Provide discreet storage for forms, gift cards, and backstock so the desk surface stays visually calm and uncluttered."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.99",
+          "42.1\" Fluted Round-Corner Reception Desk"
+        ],
+        [
+          "Around $299.99",
+          "Kikihouse 63\" Fluted Reception Desk with LED"
+        ],
+        [
+          "Around $599.99",
+          "47\" Reception Desk with LED and Power Outlets"
+        ],
+        [
+          "Around $1,098.00",
+          "M2 Retail Reed Reception Desk for Beauty Salons and Spas"
+        ],
+        [
+          "Around $1,538.00",
+          "M2 Retail Upgraded Reeded Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate Check-In, Consent, and Payment Zones",
-    "explanation": "Separate check-in, treatment-consent, rebooking, and payment zones so the deliberately calm spa aesthetic doesn't get undercut by a cluttered desktop."
+    "explanation": "Separate check-in, treatment-consent, rebooking, and payment zones so the deliberately calm spa aesthetic doesn't get undercut by a cluttered desktop. With prices in this roundup ranging roughly $160 to $1538, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Hide POS and Cables Without Reducing Access",
-    "explanation": "Hide POS, printer, and cables without reducing serviceability, since a spa front desk still needs the same equipment as a busier reception point, just less visible."
+    "explanation": "Hide POS, printer, and cables without reducing serviceability, since a spa front desk still needs the same equipment as a busier reception point, just less visible. Given the real spread here, from about $160 up to $1538, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Evaluate Finishes Around Oils and Lotions",
-    "explanation": "Evaluate finishes specifically around oils, lotions, and frequent cleaning, since spa product residue behaves differently than typical office spills."
+    "explanation": "Evaluate finishes specifically around oils, lotions, and frequent cleaning, since spa product residue behaves differently than typical office spills. Across this comparison's $160 to $1538 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Keep Retail Visible Without Blocking Eye Contact",
-    "explanation": "Keep retail visible without blocking guest eye contact, since spa retail display needs to coexist with the calm, attentive check-in experience."
+    "explanation": "Keep retail visible without blocking guest eye contact, since spa retail display needs to coexist with the calm, attentive check-in experience. Products at the low end near $160 and the high end near $1538 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Provide Discreet Storage for Forms and Gift Cards",
-    "explanation": "Provide discreet storage for forms, gift cards, and backstock so the desk surface stays visually calm and uncluttered."
+    "explanation": "Provide discreet storage for forms, gift cards, and backstock so the desk surface stays visually calm and uncluttered. This matters in practice because the picks in this comparison span from about $160 to $1538, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "M2 Retail Reed Reception Desk for Beauty Salons and Spas is aimed at buyers prioritizing 39\"w x 20\"d x 39\"h compact desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-beauty-salon","title":"6 Best Reception Desks for Beauty Salon in 2026"},{"href":"/guide/best-reception-desks-for-salon","title":"6 Best Reception Desks for Salon in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];

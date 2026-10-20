@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Repair Strategy",
     "note": "Ask how a chipped or scratched decorative surface gets repaired or refinished, since high-visibility damage on a modern finish is more noticeable than on a plain wood-tone desk."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.99",
+          "42.1\" Fluted Round-Corner Reception Desk"
+        ],
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $289.99",
+          "Zethvax 86.8\" Modern Reception Desk"
+        ],
+        [
+          "Around $299.99",
+          "Kikihouse 63\" Fluted Reception Desk with LED"
+        ],
+        [
+          "Around $369.99",
+          "63\" Reception Desk with Dual-Level Counter and LED"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $629.99",
+          "79\" Reception Desk with Dual-Level Counter and Charging Ports"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Define Modern Through Construction, Not Just Style",
-    "explanation": "Look for observable construction details, clean lines, minimal ornamentation, and a defined material (laminate, engineered wood, metal) rather than judging modern styling from photography alone."
+    "explanation": "Look for observable construction details, clean lines, minimal ornamentation, and a defined material (laminate, engineered wood, metal) rather than judging modern styling from photography alone. This matters in practice because the picks in this comparison span from about $160 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Inspect Decorative Details for Durability",
-    "explanation": "Check decorative faces, grooves, trim, and edges for impact durability, since fluted or textured panels can chip or show wear differently than a flat surface."
+    "explanation": "Check decorative faces, grooves, trim, and edges for impact durability, since fluted or textured panels can chip or show wear differently than a flat surface. With prices in this roundup ranging roughly $160 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Evaluate Cleanability",
-    "explanation": "Look for dust traps and porous surfaces around decorative details, since modern textured finishes can be harder to wipe clean than a plain panel."
+    "explanation": "Look for dust traps and porous surfaces around decorative details, since modern textured finishes can be harder to wipe clean than a plain panel. Given the real spread here, from about $160 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan Cable Concealment",
-    "explanation": "Confirm POS systems, monitors, and cables can stay concealed without compromising service, since visible cable clutter undermines a modern aesthetic quickly."
+    "explanation": "Confirm POS systems, monitors, and cables can stay concealed without compromising service, since visible cable clutter undermines a modern aesthetic quickly. Across this comparison's $160 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Repair Strategy",
-    "explanation": "Ask how a chipped or scratched decorative surface gets repaired or refinished, since high-visibility damage on a modern finish is more noticeable than on a plain wood-tone desk."
+    "explanation": "Ask how a chipped or scratched decorative surface gets repaired or refinished, since high-visibility damage on a modern finish is more noticeable than on a plain wood-tone desk. Products at the low end near $160 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-fluted-reception-desks","title":"6 Best Fluted Reception Desks in 2026"},{"href":"/guide/best-white-reception-desks","title":"7 Best White Reception Desks in 2026"}];

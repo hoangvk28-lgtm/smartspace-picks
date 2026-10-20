@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Handing and Counter Placement",
     "note": "Check left/right handing on the L-shape and confirm the counter is positioned on the correct side for your room's visitor flow."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $436.99",
+          "L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $436.99",
+          "L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $479.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $869.95",
+          "Offices To Go L-Shaped Reception Desk with Transaction Top"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish the Full Installed Footprint",
-    "explanation": "Get the full installed footprint for the L-shaped desk plus its counter section, not just the front width, since combining two features compounds the floor-space requirement."
+    "explanation": "Get the full installed footprint for the L-shaped desk plus its counter section, not just the front width, since combining two features compounds the floor-space requirement. With prices in this roundup ranging roughly $437 to $870, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Counter Geometry Separately",
-    "explanation": "Check counter height, depth, and usable length on its own, since a wide L-shaped desk can still have a narrow or shallow counter section that doesn't function well."
+    "explanation": "Check counter height, depth, and usable length on its own, since a wide L-shaped desk can still have a narrow or shallow counter section that doesn't function well. Given the real spread here, from about $437 up to $870, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Staff Reach Around the Corner",
-    "explanation": "Measure staff reach and chair movement around the inside corner while also accounting for the counter's added visitor-facing depth."
+    "explanation": "Measure staff reach and chair movement around the inside corner while also accounting for the counter's added visitor-facing depth. Across this comparison's $437 to $870 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map Visitor Approach at the Counter",
-    "explanation": "Confirm visitor approach and queue positions work with both the L-shape's return and the counter's transaction zone together."
+    "explanation": "Confirm visitor approach and queue positions work with both the L-shape's return and the counter's transaction zone together. Products at the low end near $437 and the high end near $870 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Handing and Counter Placement",
-    "explanation": "Check left/right handing on the L-shape and confirm the counter is positioned on the correct side for your room's visitor flow."
+    "explanation": "Check left/right handing on the L-shape and confirm the counter is positioned on the correct side for your room's visitor flow. This matters in practice because the picks in this comparison span from about $437 to $870, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"7 Best L-Shaped Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-counter","title":"8 Best Reception Desks with Counter in 2026"},{"href":"/guide/best-u-shaped-reception-desks-with-counter","title":"best-u-shaped-reception-desks-with-counter"}];

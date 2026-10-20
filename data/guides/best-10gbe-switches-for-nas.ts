@@ -43,9 +43,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/410JF24MmJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CQXMPXKC?tag=deskfinds0d-20",
-    description: "This is functionally the same 8x true 10G RJ45 port, 160Gbps switching capacity design as NICGIGA's other 8-port 10G switch, with the same 5-speed auto-negotiation across 10G/5G/2.5G/1000M/100M for mixed-device networks. Automatic MDI/MDIX and non-blocking forwarding require no setup.\n\nThe same 4KV lightning protection and 5000 RPM (24dB) fan cooling apply here, with dual-side cooling holes and a 0 to 45°C operating range. It supports desktop or 19-inch rackmount placement and carries a 1-year warranty with lifetime technical support.",
-    specs: ["8x true 10G RJ45 ports, 160Gbps capacity","4KV lightning protection","0-45°C operating range"],
-    pros: ["All 8 ports are genuine 10G with no speed mixing","Rated for a wide 0-45°C operating range","Desktop or 19in rackmount flexibility"],
+    description: "This is functionally the same 8x true 10G RJ45 port, 160Gbps switching capacity design as NICGIGA's other 8-port 10G switch, with the same 5-speed auto-negotiation across 10G/5G/2.5G/1000M/100M for mixed-device networks. Automatic MDI/MDIX and non-blocking forwarding require no setup.\n\nThe same 4KV lightning protection and 5000 RPM (24dB) fan cooling apply here, with dual-side cooling holes and a 0 to 45-degreeC operating range. It supports desktop or 19-inch rackmount placement and carries a 1-year warranty with lifetime technical support.",
+    specs: ["8x true 10G RJ45 ports, 160Gbps capacity","4KV lightning protection","0-45-degreeC operating range"],
+    pros: ["All 8 ports are genuine 10G with no speed mixing","Rated for a wide 0-45-degreeC operating range","Desktop or 19in rackmount flexibility"],
     cons: ["24dB fan noise is noticeable in quiet spaces","Unmanaged only, no VLAN or QoS configuration"],
     bestFor: "buyers prioritizing 8x true 10g rj45 ports, 160gbps capacity",
   },
@@ -75,9 +75,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41aol4eJAbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DS4KC7Y3?tag=deskfinds0d-20",
-    description: "Four 2.5Gb ports pair with two true 10Gb RJ45 ports for a 60Gbps switching capacity, aimed specifically at a home network with one or two genuinely high-speed devices and several 2.5G endpoints. Auto MDI/MDIX and non-blocking forwarding require zero configuration.\n\nA fanless metal case with 6KV lightning protection runs silently, with double-side cooling holes and a wide -10 to 50°C operating range. It mounts on a desktop or wall and carries a 1-year warranty with lifetime technical support from NICGIGA.",
+    description: "Four 2.5Gb ports pair with two true 10Gb RJ45 ports for a 60Gbps switching capacity, aimed specifically at a home network with one or two genuinely high-speed devices and several 2.5G endpoints. Auto MDI/MDIX and non-blocking forwarding require zero configuration.\n\nA fanless metal case with 6KV lightning protection runs silently, with double-side cooling holes and a wide -10 to 50-degreeC operating range. It mounts on a desktop or wall and carries a 1-year warranty with lifetime technical support from NICGIGA.",
     specs: ["2x 10G + 4x 2.5G ports, 60Gbps capacity","Fanless, 6KV lightning protection","Desktop or wall mount"],
-    pros: ["Fanless design runs completely silent","6KV lightning protection exceeds the 4KV common elsewhere","Wide -10 to 50°C operating range"],
+    pros: ["Fanless design runs completely silent","6KV lightning protection exceeds the 4KV common elsewhere","Wide -10 to 50-degreeC operating range"],
     cons: ["Only 2 of 6 ports are true 10G speed","60Gbps capacity is modest next to full-10G switches"],
     bestFor: "buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity",
   },
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Include NICs and Cabling in Total Cost",
     "note": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $79.99",
+          "6-Port 10Gbe Ethernet Switch Unmanaged"
+        ],
+        [
+          "Around $84.99",
+          "TRENDnet 6-Port 10G Switch"
+        ],
+        [
+          "Around $175.99",
+          "Ztyuav 8-Port Unmanaged 10Gbe Ethernet Switch"
+        ],
+        [
+          "Around $229.99",
+          "TP-Link TL-SX105"
+        ],
+        [
+          "Around $251.98",
+          "8-Port 10G Ethernet Switch Unmanaged"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Map the Real Topology First",
-    "explanation": "Sketch the exact devices 10gbe switches for nas needs to connect and count how many genuinely need 10GbE, since most home networks only need a few true 10G ports."
+    "explanation": "Sketch the exact devices 10gbe switches for nas needs to connect and count how many genuinely need 10GbE, since most home networks only need a few true 10G ports. Across this comparison's $80 to $252 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare RJ45 and SFP+ for Your Cable Runs",
-    "explanation": "Choose based on existing cabling and NIC types, since RJ45 is simpler for short runs while SFP+/DAC can be more efficient for rack-to-rack links."
+    "explanation": "Choose based on existing cabling and NIC types, since RJ45 is simpler for short runs while SFP+/DAC can be more efficient for rack-to-rack links. Products at the low end near $80 and the high end near $252 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Acoustics in the Actual Room",
-    "explanation": "Consider noise specifically in a home-office or living-space context, since sound that's fine in a server room can be intrusive at a desk."
+    "explanation": "Consider noise specifically in a home-office or living-space context, since sound that's fine in a server room can be intrusive at a desk. This matters in practice because the picks in this comparison span from about $80 to $252, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Idle Power for 24/7 Operation",
-    "explanation": "Verify idle power draw, since home and homelab switches typically run continuously rather than being powered down."
+    "explanation": "Verify idle power draw, since home and homelab switches typically run continuously rather than being powered down. With prices in this roundup ranging roughly $80 to $252, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Include NICs and Cabling in Total Cost",
-    "explanation": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget."
+    "explanation": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a switch's total PoE budget mean every port can deliver its max wattage?",
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

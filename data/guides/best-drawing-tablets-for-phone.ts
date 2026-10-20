@@ -28,7 +28,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FEMKWLLKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDL5NBNT?tag=deskfinds0d-20",
     description: "At 249 grams, roughly the size and weight of an A5 notebook, the Q6 is purpose-built for mobile drawing on Android phones and tablets. A built-in detachable Type-C cable stores compactly, avoiding the loose-cable problem of most portable tablets.\n\nThe vertical layout specifically aligns with how people naturally hold phones for drawing, and six shortcut keys integrate deeply with popular mobile apps like ibis Paint and Concepts. The battery-free stylus delivers 16K pressure levels with 60-degree tilt using inbuilt passive chip electromagnetic technology, compatible with Android 6.0+, Mac, Windows, and Chrome OS.",
-    specs: ["6.5x4in, 249g, vertical mobile layout","16K pressure levels, ±60° tilt","Built-in detachable Type-C cable"],
+    specs: ["6.5x4in, 249g, vertical mobile layout","16K pressure levels, +/-60-degree tilt","Built-in detachable Type-C cable"],
     pros: ["Vertical layout specifically matches natural phone-holding drawing","Built-in detachable cable avoids loose-cable clutter","16K pressure levels is high for a phone-focused tablet"],
     cons: ["Small 6.5x4in size limits detailed large-format work","Vertical layout is less suited to landscape computer use"],
     bestFor: "buyers prioritizing 6.5x4in, 249g, vertical mobile layout",
@@ -44,7 +44,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31R9cA7wiLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CDL6TJR3?tag=deskfinds0d-20",
     description: "Four sliding switches handle seamless mode transitions, specifically adapting to over 90% of mainstream device resolutions to eliminate distortion in lines and strokes across different phone screens. Six noise-reduced shortcuts are organized for easy recall during fast-paced drawing.\n\nThe stylus mimics a real sketching pencil with 16K pressure levels and 60-degree tilt using battery-free electromagnetic technology. At 249g with a built-in detachable Type-C cable, this Q6 variant adds broader compatibility, working across Android, Linux, macOS, Windows, and Chrome OS, with iOS support specifically through the ibis app.",
-    specs: ["6.5x4in, 4 adjustable drawing modes","16K pressure levels, ±60° tilt","iOS support via ibis app specifically"],
+    specs: ["6.5x4in, 4 adjustable drawing modes","16K pressure levels, +/-60-degree tilt","iOS support via ibis app specifically"],
     pros: ["4 sliding modes adapt to 90%+ of device resolutions","iOS support through the ibis app, unusual for this category","249g weight matches an A5 notebook for portability"],
     cons: ["Small 6.5x4in size limits detailed large-format work","iOS support is limited specifically to the ibis app"],
     bestFor: "buyers prioritizing 6.5x4in, 4 adjustable drawing modes",
@@ -76,10 +76,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   },
   {
     id: "best-drawing-tablets-for-phone-5",
@@ -167,28 +167,64 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Account for Cables and Phone Power Drain",
     "note": "Check required adapters, cable direction, and how much the connection drains phone battery during use."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $22.99",
+          "UGEE Q6 Drawing Tablet for Android Phone"
+        ],
+        [
+          "Around $22.99",
+          "UGEE Q6 Drawing Tablet for Android Phone"
+        ],
+        [
+          "Around $24.99",
+          "HUION H420X Graphics Tablet with 8192 Level Pen Pressure"
+        ],
+        [
+          "Around $27.99",
+          "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
+        ],
+        [
+          "Around $28.99",
+          "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm Standalone vs Peripheral",
-    "explanation": "Verify whether drawing tablets for phone is a standalone Android device or a peripheral connecting to your phone by USB/OTG/Bluetooth."
+    "explanation": "Verify whether drawing tablets for phone is a standalone Android device or a peripheral connecting to your phone by USB/OTG/Bluetooth. With prices in this roundup ranging roughly $23 to $45, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Exact Phone and OS Compatibility",
-    "explanation": "Confirm the exact Android or iOS version required, since compatibility varies significantly by phone model."
+    "explanation": "Confirm the exact Android or iOS version required, since compatibility varies significantly by phone model. Given the real spread here, from about $23 up to $45, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Portrait/Landscape Mapping",
-    "explanation": "Check aspect-ratio mapping specifically, since a mismatch turns circles into ellipses when drawing."
+    "explanation": "Check aspect-ratio mapping specifically, since a mismatch turns circles into ellipses when drawing. Across this comparison's $23 to $45 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Test Pressure Support in Real Mobile Apps",
-    "explanation": "Confirm pressure and tilt actually work inside major mobile art apps, not just that the OS recognizes the connection."
+    "explanation": "Confirm pressure and tilt actually work inside major mobile art apps, not just that the OS recognizes the connection. Products at the low end near $23 and the high end near $45 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Account for Cables and Phone Power Drain",
-    "explanation": "Check required adapters, cable direction, and how much the connection drains phone battery during use."
+    "explanation": "Check required adapters, cable direction, and how much the connection drains phone battery during use. This matters in practice because the picks in this comparison span from about $23 to $45, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -213,6 +249,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "UGEE Q6 Drawing Tablet for Android Phone is aimed at buyers prioritizing 6.5x4in, 249g, vertical mobile layout." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-android","title":"Best Drawing Tablets for Android in 2026"},{"href":"/guide/best-drawing-tablets-for-mobile","title":"Best Drawing Tablets for Mobile in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

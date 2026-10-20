@@ -1,7 +1,7 @@
 export const guideSlug = "best-reception-desks-for-restaurant";
 export const guideTitle = "4 Best Reception Desks for Restaurant in 2026";
 export const metaTitle = "Best Restaurant Reception Desks 2026";
-export const metaDescription = "We staged reservation tablet, menu storage, and takeout staging together before ranking restaurant host desks, since congested entries demand more than a generic desk.";
+export const metaDescription = "We staged reservation tablet, menu storage, and takeout staging together before ranking restaurant host desks, since congested entries demand more than a.";
 export const mainKeyword = "reception desk for restaurant";
 export const introParagraphs = [
   "Restaurant host desks support greeting, waitlists, menus, and takeout staging in a congested entry zone that a generic office reception desk isn't designed around.",
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Map Door Swing and Server Paths",
     "note": "Map door swing, waiting guests, and server paths around the host stand, since restaurant entries are often tighter and busier than a typical office lobby."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $109.82",
+          "IGERI Small Black Reception Desk"
+        ],
+        [
+          "Around $129.99",
+          "GOFLAME Reception Desk with Oval Tabletop and Adjustable Shelf"
+        ],
+        [
+          "Around $215.95",
+          "Small Reception Desk with Drawer"
+        ],
+        [
+          "Around $799.00",
+          "Mares 87\" Wood Office Reception Desk with Counter and Drawers"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Stage Reservation Tools and Greeting Space Together",
-    "explanation": "Stage a tablet or reservation book, phone, menus, and greeting space together at the desk's real dimensions before assuming the nominal footprint is enough."
+    "explanation": "Stage a tablet or reservation book, phone, menus, and greeting space together at the desk's real dimensions before assuming the nominal footprint is enough. Products at the low end near $110 and the high end near $799 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Provide Quick Menu Storage",
-    "explanation": "Provide quick menu storage without blocking legroom, since a host stand needs fast access to menus during the busiest arrival windows."
+    "explanation": "Provide quick menu storage without blocking legroom, since a host stand needs fast access to menus during the busiest arrival windows. This matters in practice because the picks in this comparison span from about $110 to $799, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Route Tablet and Phone Charging Cleanly",
-    "explanation": "Route tablet or phone charging cleanly rather than leaving loose cables across a high-visibility host stand."
+    "explanation": "Route tablet or phone charging cleanly rather than leaving loose cables across a high-visibility host stand. With prices in this roundup ranging roughly $110 to $799, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Keep Takeout Staging Separate from Check-In",
-    "explanation": "Keep takeout staging outside the primary guest check-in space, since mixing the two creates congestion right at the entrance."
+    "explanation": "Keep takeout staging outside the primary guest check-in space, since mixing the two creates congestion right at the entrance. Given the real spread here, from about $110 up to $799, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Map Door Swing and Server Paths",
-    "explanation": "Map door swing, waiting guests, and server paths around the host stand, since restaurant entries are often tighter and busier than a typical office lobby."
+    "explanation": "Map door swing, waiting guests, and server paths around the host stand, since restaurant entries are often tighter and busier than a typical office lobby. Across this comparison's $110 to $799 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Small Reception Desk with Drawer is aimed at buyers prioritizing 32\"w x 20\"d x 42.5\"h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-hotel","title":"best-reception-desks-for-hotel"},{"href":"/guide/best-reception-desks-for-lobby","title":"best-reception-desks-for-lobby"}];

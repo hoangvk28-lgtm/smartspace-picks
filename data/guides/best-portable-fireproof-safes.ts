@@ -1,7 +1,7 @@
 export const guideSlug = "best-portable-fireproof-safes";
 export const guideTitle = "8 Best Portable Fireproof Safes in 2026";
 export const metaTitle = "Best Portable Fireproof Safes 2026";
-export const metaDescription = "We compared portable fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared portable fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "portable fireproof safes";
 export const introParagraphs = [
   "Ranking portable fireproof safes fairly means putting weighing loaded carry weight against the security tradeoffs of true portability ahead of anything the listing photos suggest.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41ZBhxLuCQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008HZUI34?tag=deskfinds0d-20",
-    description: "UL Classified for 30 minutes at 1550°F with separate ETL verification for CDs, DVDs, and USBs, this is SentrySafe's smallest chest in this comparison at 0.18 cu ft, 13 lbs, purpose-built for money and documents in a compact footprint.\n\nA flat key lock (2 keys included) prevents the lid opening during a fire, and included bolt-down hardware plus a built-in carrying handle give both stationary security and portability options.",
-    specs: ["0.18 cu ft, 13 lbs, UL 1/2hr at 1550°F","Flat key lock, 2 keys, bolt-down hardware","Built-in carrying handle"],
+    description: "UL Classified for 30 minutes at 1550-degreeF with separate ETL verification for CDs, DVDs, and USBs, this is SentrySafe's smallest chest in this comparison at 0.18 cu ft, 13 lbs, purpose-built for money and documents in a compact footprint.\n\nA flat key lock (2 keys included) prevents the lid opening during a fire, and included bolt-down hardware plus a built-in carrying handle give both stationary security and portability options.",
+    specs: ["0.18 cu ft, 13 lbs, UL 1/2hr at 1550-degreeF","Flat key lock, 2 keys, bolt-down hardware","Built-in carrying handle"],
     pros: ["Includes both bolt-down hardware and a carrying handle, genuine flexibility between stationary and portable","Flat key lock design specifically prevents lid pop-open during fire","SentrySafe's specific storage guidance (feet down, locked, key plate facing out) helps ensure proper"],
     cons: ["0.18 cu ft is genuinely small, fits documents and cash","Half-hour rating is the entry tier"],
-    bestFor: "buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550°f",
+    bestFor: "buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550-degreef",
   },
   {
     id: "best-portable-fireproof-safes-2",
@@ -43,11 +43,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550-degreeF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550-degreeF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550-degreef, etl digital media verified",
   },
   {
     id: "best-portable-fireproof-safes-3",
@@ -85,14 +85,14 @@ export const products: GuideProduct[] = [
     id: "best-portable-fireproof-safes-5",
     rank: 5,
     badge: "Worth Considering",
-    name: "DocSafe 5200°F Fireproof Document Organizer",
+    name: "DocSafe 5200-degreeF Fireproof Document Organizer",
     price: "$31.33",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51xzFNOAeLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRR524VK?tag=deskfinds0d-20",
-    description: "This organizer's headline claim is a genuinely high 5200°F temperature tolerance across 8 fireproof layers including an aluminum foil lining that resists melting at high heat, a notably aggressive spec for a soft-sided product.\n\nThe 15\"x11\"x4.1\" interior uses a multi-layer design with 8 passport mesh bags, 16 card slots, 4 USB pockets, and 7 folder layers, and a combination lock secures the waterproof-zippered exterior without requiring keys.",
-    specs: ["15\"x11\"x4.1\", 8 fireproof layers","Rated to ~5200°F with aluminum foil lining","Combination lock, waterproof zippers"],
+    description: "This organizer's headline claim is a genuinely high 5200-degreeF temperature tolerance across 8 fireproof layers including an aluminum foil lining that resists melting at high heat, a notably aggressive spec for a soft-sided product.\n\nThe 15\"x11\"x4.1\" interior uses a multi-layer design with 8 passport mesh bags, 16 card slots, 4 USB pockets, and 7 folder layers, and a combination lock secures the waterproof-zippered exterior without requiring keys.",
+    specs: ["15\"x11\"x4.1\", 8 fireproof layers","Rated to ~5200-degreeF with aluminum foil lining","Combination lock, waterproof zippers"],
     pros: ["8-layer construction with aluminum foil lining gives a genuinely high stated temperature tolerance","Highly organized interior (8 passport pockets, 16 card slots, 7 folder layers) beats","Waterproof zippers rated to withstand high-speed fire hose spray"],
     cons: ["Soft-sided organizer, not a rigid steel safe, offers no forced-entry resistance","Extreme temperature claim should be weighed against independently UL-classified competitors"],
     bestFor: "buyers prioritizing 15\"x11\"x4.1\", 8 fireproof layers",
@@ -199,28 +199,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Understand the Mobility-vs-Theft Tradeoff",
     "note": "A safe designed to be carried is also a safe a thief can carry away; if it will stay in one place, check whether it includes a tether or anchor option despite its portable design."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $29.98",
+          "0.30 Cu Ft Small Home Safe with Fireproof Bag"
+        ],
+        [
+          "Around $31.33",
+          "DocSafe 5200-degreeF Fireproof Document Organizer"
+        ],
+        [
+          "Around $39.98",
+          "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock"
+        ],
+        [
+          "Around $39.99",
+          "KYODOLED Fireproof Lock Box with Dual Combination and Key Lock"
+        ],
+        [
+          "Around $42.98",
+          "DocSafe Hard-Shell Fireproof File Organizer with Accordion Folder"
+        ],
+        [
+          "Around $67.99",
+          "SentrySafe Fireproof & Waterproof Document Box"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Set a Maximum Loaded Carry-Weight Threshold",
-    "explanation": "Test portable fireproof safes loaded with real documents and valuables, not empty, since a manageable empty weight can become genuinely difficult to carry once packed."
+    "explanation": "Test portable fireproof safes loaded with real documents and valuables, not empty, since a manageable empty weight can become genuinely difficult to carry once packed. With prices in this roundup ranging roughly $30 to $73, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Inspect the Handle Under Repeated Carrying",
-    "explanation": "Check handle and hinge durability specifically, since portable safes get picked up and moved far more often than stationary models."
+    "explanation": "Check handle and hinge durability specifically, since portable safes get picked up and moved far more often than stationary models. Given the real spread here, from about $30 up to $73, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Fire and Water Claims Independently",
-    "explanation": "Confirm the specific fire duration and, separately, any water-resistance claim, rather than assuming a portable design has weaker protection by default."
+    "explanation": "Confirm the specific fire duration and, separately, any water-resistance claim, rather than assuming a portable design has weaker protection by default. Across this comparison's $30 to $73 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Real Document and Media Fit",
-    "explanation": "Check actual interior dimensions against your documents and media, since portable safes tend to have less usable interior relative to exterior size than stationary models."
+    "explanation": "Check actual interior dimensions against your documents and media, since portable safes tend to have less usable interior relative to exterior size than stationary models. Products at the low end near $30 and the high end near $73 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Understand the Mobility-vs-Theft Tradeoff",
-    "explanation": "A safe designed to be carried is also a safe a thief can carry away; if it will stay in one place, check whether it includes a tether or anchor option despite its portable design."
+    "explanation": "A safe designed to be carried is also a safe a thief can carry away; if it will stay in one place, check whether it includes a tether or anchor option despite its portable design. This matters in practice because the picks in this comparison span from about $30 to $73, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -239,12 +279,14 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550-degreeF, 1 hour at 1700-degreeF, or 2 hours at 1850-degreeF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xy8l-hKaL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08FF9Q5LP?tag=deskfinds0d-20",
-    description: "A 2-pack cantilever shelf that disassembles for shipping, with a flip-lip design that lets you mount the retaining lip either up or down depending on the device you're supporting.\n\nRated for 44 lbs per shelf, that's a bit higher than some 1U cantilever shelves in this size class, giving slightly more headroom for a heavier router or modem.",
+    description: "A 2-pack cantilever shelf that disassembles for shipping, with a flip-lip design that lets you mount the retaining lip either up or down depending on the device you're supporting.\n\nRated for 44 lbs per shelf, that's a bit higher than some 1U cantilever shelves in this size class, giving slightly more headroom for a heavier router or modem.\n\nWhere this one earns its spot is 44 lb rating beats many shelves this size, and flip-lip design adapts to different device heights. Worth noting before buying: some assembly required before mounting, which matters more at $29.99 than it would on a cheaper pick.",
     specs: ["1U, 10\" deep, 2-pack","44 lb capacity per shelf","Flip lip design (up or down)"],
     pros: ["44 lb rating beats many shelves this size","Flip-lip design adapts to different device heights","Disassembled shipping reduces shipping damage"],
     cons: ["Some assembly required before mounting","10\" depth still limits larger equipment"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41fs6LB1qoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DD6DX745?tag=deskfinds0d-20",
-    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.",
+    description: "A 2-pack of vented cantilever shelves built from Q235 carbon steel, sized for stacking routers, switches, and other non-rack-mountable gear inside a standard 4-post rack.\n\nThe perforated bottom is specifically meant to reduce equipment temperature rather than just being decorative venting, which matters if you're stacking anything that runs warm.\n\nThis pick is best for buyers who value perforated bottom actively helps cool stacked gear along with two shelves in one purchase for less per-unit cost. The catch is that 10\" depth is shallow for larger equipment, so decide if that's worth it at $25.90.",
     specs: ["1U, 10\" deep, 2-pack","Q235 carbon steel, 1.5mm thick","50 lb capacity per shelf"],
     pros: ["Perforated bottom actively helps cool stacked gear","Two shelves in one purchase for less per-unit cost","50 lb rating handles routers and small switches easily"],
     cons: ["10\" depth is shallow for larger equipment","Cantilever design isn't rated for very heavy loads"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vyzPjra9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DKSR9C2J?tag=deskfinds0d-20",
-    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.",
+    description: "This shelf stands out for its weight rating: 242 lbs, well above the 44-110 lb range typical of cantilever shelves, because it's a full 4-post design rather than a 2-point cantilever.\n\nAdjustable depth from 13.5 to 31.8 inches lets it fit racks of different sizes, and the vented design still supports airflow despite the much sturdier build.\n\nWhat stands out here is 242 lb rating far exceeds typical cantilever shelves, plus adjustable depth fits a wide range of rack sizes. The main tradeoff: 4-post mount needs support on all sides, so weigh that against the $69.90 price before buying.",
     specs: ["1U, adjustable 13.5-31.8\" depth","242 lb weight capacity","SPCC cold rolled steel, 4-post mount"],
     pros: ["242 lb rating far exceeds typical cantilever shelves","Adjustable depth fits a wide range of rack sizes","Can flip to save space when not fully loaded"],
     cons: ["4-post mount needs support on all sides","Heavier duty build costs more than basic shelves"],
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/417ZFOQrXwL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BPXFRZDM?tag=deskfinds0d-20",
-    description: "A small 2U enclosure that can mount either vertically or horizontally on a wall, giving flexibility for tight spaces where a standard horizontal rack won't fit.\n\nFour-sided venting and adjustable rack rail positions help it adapt to different equipment shapes, and bottom passable holes keep cable routing simple in either orientation.",
+    description: "A small 2U enclosure that can mount either vertically or horizontally on a wall, giving flexibility for tight spaces where a standard horizontal rack won't fit.\n\nFour-sided venting and adjustable rack rail positions help it adapt to different equipment shapes, and bottom passable holes keep cable routing simple in either orientation.\n\nThis pick is best for buyers who value mounts either vertically or horizontally for tight spaces along with four-sided venting keeps small gear from overheating. The catch is that 60 lb capacity limits it to lighter gear, so decide if that's worth it at $129.90.",
     specs: ["2U, vertical or horizontal mount","60 lb weight capacity","Four-sided vented enclosure"],
     pros: ["Mounts either vertically or horizontally for tight spaces","Four-sided venting keeps small gear from overheating","Adjustable rail positions fit different equipment shapes"],
     cons: ["60 lb capacity limits it to lighter gear","Too small for anything beyond a couple devices"],
@@ -183,28 +183,68 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Flip-Lip or Reversible Options",
     "note": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $25.90",
+          "VEVOR 2-Pack 1U Server Rack Shelf"
+        ],
+        [
+          "Around $29.99",
+          "Jingchengmei 2-Pack 1U Vented Cantilever Server Rack Shelf"
+        ],
+        [
+          "Around $43.86",
+          "StarTech 2U Vented Cantilever Rack Shelf"
+        ],
+        [
+          "Around $47.26",
+          "RIVECO 2-Pack 10in 1U Vented Rack Shelf"
+        ],
+        [
+          "Around $69.90",
+          "Tecmojo 1U 4-Post Vented Server Rack Mount Shelf"
+        ],
+        [
+          "Around $70.71",
+          "StarTech 1U 4-Post Vented Rack Shelf"
+        ],
+        [
+          "Around $129.90",
+          "Tecmojo 2U Vertical/Horizontal Wall Mountable Server Rack"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Match Shelf Depth to the Actual Device",
-    "explanation": "Confirm server rack shelves's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate."
+    "explanation": "Confirm server rack shelves's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate. Across this comparison's $26 to $130 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Vented vs Solid Shelf Design",
-    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm."
+    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm. Products at the low end near $26 and the high end near $130 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Cantilever vs 4-Post Support",
-    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight."
+    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight. This matters in practice because the picks in this comparison span from about $26 to $130, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Cage Nut vs Screw Hole Compatibility",
-    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded."
+    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded. With prices in this roundup ranging roughly $26 to $130, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Flip-Lip or Reversible Options",
-    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights."
+    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights. Given the real spread here, from about $26 up to $130, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -229,6 +269,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "StarTech 2U Vented Cantilever Rack Shelf is aimed at buyers prioritizing 2u, 16\" deep." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

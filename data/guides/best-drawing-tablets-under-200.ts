@@ -76,8 +76,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31hEzYb5kkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B01FTE9HS2?tag=deskfinds0d-20",
     description: "A 10 x 6.25 inch working area gives real room to work in, and the battery-free PW100 stylus supports plus-or-minus 60 degrees of tilt for genuine shading gestures, not just line weight. Twelve programmable press keys plus sixteen soft keys is an unusually deep shortcut set for this price tier.\n\nThe symmetrical design genuinely supports left-handed use via a 180-degree driver rotation, and phones connect over OTG (though iPhone/iPad are not supported, and Samsung Galaxy S-series cursor display has a known limitation). Compatible with Windows, macOS, Android, and Linux via Xorg specifically, not Wayland.",
-    specs: ["10x6.25in area, 12+16 hot keys","±60° tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
-    pros: ["28 total programmable keys is deep for this price","±60° tilt support enables real shading gestures","True 180° rotation for left-handed users"],
+    specs: ["10x6.25in area, 12+16 hot keys","+/-60-degree tilt, battery-free stylus","Windows/macOS/Android/Linux(Xorg) compatible"],
+    pros: ["28 total programmable keys is deep for this price","+/-60-degree tilt support enables real shading gestures","True 180-degree rotation for left-handed users"],
     cons: ["Samsung Galaxy S-series has a known cursor display issue","Linux support requires Xorg specifically, not Wayland"],
     bestFor: "buyers prioritizing 10x6.25in area, 12+16 hot keys",
   },
@@ -92,10 +92,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31FbOAc2veL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B077P6BQP7?tag=deskfinds0d-20",
     description: "The stylus here runs a genuine 16,384 pressure levels, double the 8192 still common at this price point, with 60 degrees of tilt and no battery or charging required. Eight customizable shortcut keys sit on both sides for right- and left-handed layouts.\n\nAndroid support specifically targets version 10.0 and above through the XPPen Tools app, which adapts to different phone aspect ratios automatically. At just 8mm thin, it packs into a bag easily, and the box includes a stand, glove, and both USB-C and USB-A cables for broad host compatibility.",
-    specs: ["16,384 pressure levels, 60° tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
+    specs: ["16,384 pressure levels, 60-degree tilt","10x6.25in active area, 8mm thin","Android 10.0+ via XPPen Tools app"],
     pros: ["16K pressure levels doubles the common 8192 standard","Android 10.0+ support with automatic aspect-ratio mapping","Complete kit ships with stand, glove, and both cable types"],
     cons: ["No screen, so it maps to a separate monitor","8 keys is modest next to higher-tier XPPen models"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, 60° tilt",
+    bestFor: "buyers prioritizing 16,384 pressure levels, 60-degree tilt",
   },
   {
     id: "best-drawing-tablets-under-200-6",
@@ -124,7 +124,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41cPrr4RaJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D3XGGK6B?tag=deskfinds0d-20",
     description: "Full-lamination on the 11.6-inch FHD screen targets zero-parallax drawing with 124% sRGB coverage, switchable across sRGB, Adobe RGB, and DCI-P3 color spaces. The battery-free stylus carries two programmable hot keys plus 16K-level pressure sensitivity and 60-degree tilt recognition.\n\nDual Type-C ports allow blind plug-in from either side, and a single full-featured USB-C cable connects computers, laptops, Android phones, and tablets directly. Eight shortcut keys use a concave-convex design specifically for blind operation, and compatibility spans Windows 7+, macOS 10.10+, Android 10.1+, and Chrome 88+.",
-    specs: ["11.6in FHD, 124% sRGB, zero-parallax","16K pressure, 60° tilt stylus","Dual Type-C ports, single-cable connect"],
+    specs: ["11.6in FHD, 124% sRGB, zero-parallax","16K pressure, 60-degree tilt stylus","Dual Type-C ports, single-cable connect"],
     pros: ["Dual Type-C ports allow blind plug-in from either side","Concave-convex key design supports true blind operation","8 replacement nibs included with the stylus"],
     cons: ["Requires a connected host, not standalone","124% sRGB, while wide, trails the UE16's 143%"],
     bestFor: "buyers prioritizing 11.6in fhd, 124% srgb, zero-parallax",
@@ -156,7 +156,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41SNgdgYK9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQJDRFFG?tag=deskfinds0d-20",
     description: "At just 1.58 pounds with a 33% narrower bezel than prior generations, the Artist 12 3rd genuinely maximizes drawing area for its footprint. Dual X-Dial wheels adjust brush size and canvas zoom simultaneously, claimed to save 40% operation time over single-dial designs.\n\nThe X4 chip pen delivers 16,384 pressure levels with 2g initial pressure and a claimed 50% faster response than prior generations, including 10 replacement nibs with magnetic attachment to prevent loss. AG-etched glass cuts 85% of glare, and factory pre-calibration targets 99% sRGB with Delta-E under 1.5 color accuracy.",
-    specs: ["11.9in screen, 16,384 pressure, 1.58 lbs","Dual X-Dial wheels","99% sRGB, ΔE<1.5 factory calibrated"],
+    specs: ["11.9in screen, 16,384 pressure, 1.58 lbs","Dual X-Dial wheels","99% sRGB, Delta E<1.5 factory calibrated"],
     pros: ["Dual X-Dial wheels handle two controls simultaneously","Magnetic pen nibs prevent loss, a genuinely practical detail","1.58 lbs makes this one of the lighter pen displays here"],
     cons: ["Requires a computer, not standalone","Smaller 11.9in area than mid-size 15-16in rivals"],
     bestFor: "buyers prioritizing 11.9in screen, 16,384 pressure, 1.58 lbs",
@@ -215,28 +215,76 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test Whether You'll Need to Upgrade Immediately",
     "note": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $27.99",
+          "HUION Inspiroy H640P 6x4 inch Drawing Tablet 8192 Pen Pressure"
+        ],
+        [
+          "Around $28.99",
+          "XPPen StarG640 Digital Graphic Tablet 6x4 Inch Art Tablet with Battery-Free Stylus"
+        ],
+        [
+          "Around $39.95",
+          "Wacom Intuos Small"
+        ],
+        [
+          "Around $41.79",
+          "HUION Inspiroy H1060P Graphics Drawing Tablet"
+        ],
+        [
+          "Around $44.99",
+          "XPPen Deco 01 V3 10x6 Drawing Tablet"
+        ],
+        [
+          "Around $59.99",
+          "XENCELABS Drawing Tablet Small"
+        ],
+        [
+          "Around $132.90",
+          "UGEE UE12 11.6 inch Drawing Tablet with Screen"
+        ],
+        [
+          "Around $159.99",
+          "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
+        ],
+        [
+          "Around $209.99",
+          "XPPen Artist 12 3rd 11.9\" Drawing Tablet with Screen"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Street Price",
-    "explanation": "Verify drawing tablets under $200's current price and include any required adapters or stand in the total cost before calling it a deal."
+    "explanation": "Verify drawing tablets under $200's current price and include any required adapters or stand in the total cost before calling it a deal. With prices in this roundup ranging roughly $28 to $210, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Prioritize Line Quality Over Pressure Count",
-    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet."
+    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet. Given the real spread here, from about $28 up to $210, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check What's Actually Included",
-    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos."
+    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos. Across this comparison's $28 to $210 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Replacement Part Availability",
-    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model."
+    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model. Products at the low end near $28 and the high end near $210 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Test Whether You'll Need to Upgrade Immediately",
-    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
+    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage. This matters in practice because the picks in this comparison span from about $28 to $210, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -261,6 +309,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"}];

@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bXstrX4iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VPHR6GD?tag=deskfinds0d-20",
-    description: "Full-laminated construction combines the glass and screen directly, targeting virtually no parallax, and the FHD display covers 88% NTSC (Adobe RGB ≥91%, sRGB ≥123%) across a 178-degree viewing angle. Sixty degrees of tilt support means shading adjustments happen by tilting the pen, not fighting software settings.\n\nA single red dial handles zoom, brush size, and canvas flip in one control, positioned for natural drawing posture, backed by eight customizable shortcut keys. The battery-free stylus runs 16,384 pressure levels at a low initial activation force and 220 RPS report rate, with a multifunctional case doubling as a stand and holding eight replacement nibs.",
+    description: "Full-laminated construction combines the glass and screen directly, targeting virtually no parallax, and the FHD display covers 88% NTSC (Adobe RGB >=91%, sRGB >=123%) across a 178-degree viewing angle. Sixty degrees of tilt support means shading adjustments happen by tilting the pen, not fighting software settings.\n\nA single red dial handles zoom, brush size, and canvas flip in one control, positioned for natural drawing posture, backed by eight customizable shortcut keys. The battery-free stylus runs 16,384 pressure levels at a low initial activation force and 220 RPS report rate, with a multifunctional case doubling as a stand and holding eight replacement nibs.",
     specs: ["13.3in full-laminated, 16,384 pressure","88% NTSC / 123% sRGB color gamut","Red dial + 8 shortcut keys"],
     pros: ["Full-laminated build genuinely eliminates visible parallax","Single red dial simplifies zoom and brush controls","220 RPS report rate keeps fast strokes lag-free"],
     cons: ["Requires a computer or laptop, not standalone","3-in-1 cable setup is bulkier than single USB-C"],
@@ -43,9 +43,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bkf5MpopL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DHGVXB59?tag=deskfinds0d-20",
-    description: "The V2 upgrade cuts initial stylus response to 90ms and improves accuracy by 20% over the original Artist 13.3 Pro, using the newer X3 Pro smart chip for smoother, more precise lines. Color accuracy steps up to 125% sRGB, 107% Adobe RGB, and 95% Display P3, genuinely wider than the original model.\n\nThe TÜV Rheinland-certified screen adds ten steps of soft-light treatment for eye comfort during long sessions. Setup instructions are specifically written for less tech-savvy users, and the included AC42 adjustable stand supports up to 90 degrees for better posture and heat dissipation.",
-    specs: ["V2: 90ms response, 20% better accuracy","125% sRGB, 107% Adobe RGB, 95% P3","TÜV Rheinland certified, AC42 stand included"],
-    pros: ["90ms response and 20% accuracy gain over the V1 model","TÜV Rheinland certification backs the eye-comfort claim","Wider 125% sRGB and 95% P3 gamut than the original"],
+    description: "The V2 upgrade cuts initial stylus response to 90ms and improves accuracy by 20% over the original Artist 13.3 Pro, using the newer X3 Pro smart chip for smoother, more precise lines. Color accuracy steps up to 125% sRGB, 107% Adobe RGB, and 95% Display P3, genuinely wider than the original model.\n\nThe TUV Rheinland-certified screen adds ten steps of soft-light treatment for eye comfort during long sessions. Setup instructions are specifically written for less tech-savvy users, and the included AC42 adjustable stand supports up to 90 degrees for better posture and heat dissipation.",
+    specs: ["V2: 90ms response, 20% better accuracy","125% sRGB, 107% Adobe RGB, 95% P3","TUV Rheinland certified, AC42 stand included"],
+    pros: ["90ms response and 20% accuracy gain over the V1 model","TUV Rheinland certification backs the eye-comfort claim","Wider 125% sRGB and 95% P3 gamut than the original"],
     cons: ["Costs more than the original Artist 13.3 Pro","Requires a computer or laptop, not standalone"],
     bestFor: "buyers prioritizing v2: 90ms response, 20% better accuracy",
   },
@@ -76,10 +76,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41IiG1s0SSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F13T9H31?tag=deskfinds0d-20",
     description: "PenTech 4.0 brings genuine 16,384 pressure sensitivity with 2g initial activation force, and the thin nib with tilt auto-alignment specifically targets reduced parallax versus older Huion generations. Canvas Glass 2.0 with nano-etching cuts glare and image noise while keeping the paper-textured surface intact.\n\nEach unit ships factory-calibrated to Delta-E under 1.5 with a calibration certificate included, covering 99% sRGB/Rec.709 and 90% Adobe RGB. Two dial controllers plus five silent press keys handle canvas and brush adjustments, and at 865g with an 11.7mm profile, it's genuinely portable despite the screen.",
-    specs: ["16,384 pressure levels, ΔE<1.5 factory calibrated","99% sRGB/Rec.709, 90% Adobe RGB","865g, 11.7mm profile"],
-    pros: ["Factory calibration certificate backs the ΔE<1.5 color claim","2g initial activation force is genuinely low resistance","865g weight keeps it portable despite the screen"],
+    specs: ["16,384 pressure levels, Delta E<1.5 factory calibrated","99% sRGB/Rec.709, 90% Adobe RGB","865g, 11.7mm profile"],
+    pros: ["Factory calibration certificate backs the Delta E<1.5 color claim","2g initial activation force is genuinely low resistance","865g weight keeps it portable despite the screen"],
     cons: ["Requires a computer or Android host to function","Premium calibration pushes price above screenless options"],
-    bestFor: "buyers prioritizing 16,384 pressure levels, δe<1.5 factory calibrated",
+    bestFor: "buyers prioritizing 16,384 pressure levels, Delta E<1.5 factory calibrated",
   },
   {
     id: "best-drawing-tablets-under-300-5",
@@ -108,7 +108,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41SNgdgYK9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FQJDRFFG?tag=deskfinds0d-20",
     description: "At just 1.58 pounds with a 33% narrower bezel than prior generations, the Artist 12 3rd genuinely maximizes drawing area for its footprint. Dual X-Dial wheels adjust brush size and canvas zoom simultaneously, claimed to save 40% operation time over single-dial designs.\n\nThe X4 chip pen delivers 16,384 pressure levels with 2g initial pressure and a claimed 50% faster response than prior generations, including 10 replacement nibs with magnetic attachment to prevent loss. AG-etched glass cuts 85% of glare, and factory pre-calibration targets 99% sRGB with Delta-E under 1.5 color accuracy.",
-    specs: ["11.9in screen, 16,384 pressure, 1.58 lbs","Dual X-Dial wheels","99% sRGB, ΔE<1.5 factory calibrated"],
+    specs: ["11.9in screen, 16,384 pressure, 1.58 lbs","Dual X-Dial wheels","99% sRGB, Delta E<1.5 factory calibrated"],
     pros: ["Dual X-Dial wheels handle two controls simultaneously","Magnetic pen nibs prevent loss, a genuinely practical detail","1.58 lbs makes this one of the lighter pen displays here"],
     cons: ["Requires a computer, not standalone","Smaller 11.9in area than mid-size 15-16in rivals"],
     bestFor: "buyers prioritizing 11.9in screen, 16,384 pressure, 1.58 lbs",
@@ -140,7 +140,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41LyICuap1L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CJMJZTG2?tag=deskfinds0d-20",
     description: "A 16-inch IPS display at 2.5K WQXGA resolution (2560x1600) delivers genuinely sharp, detailed visuals backed by Wacom's mature Cintiq engineering. Pro Pen 3 offers 8192 pressure levels with tilt support, three shortcut keys, and a holder that mounts to either side of the display.\n\n99% DCI-P3 and 100% sRGB coverage at 8-bit color depth gives a wide, cinema-relevant gamut for digital art and design work. Built-in fold-out legs provide a 20-degree working angle out of the box, and USB-C connects to computers with DisplayPort Alt Mode or Thunderbolt 3/4 input directly.",
-    specs: ["16in QHD (2560x1600), Pro Pen 3","99% DCI-P3, 100% sRGB","Built-in fold-out legs, 20° angle"],
+    specs: ["16in QHD (2560x1600), Pro Pen 3","99% DCI-P3, 100% sRGB","Built-in fold-out legs, 20-degree angle"],
     pros: ["Wacom's mature Pro Pen 3 and Cintiq engineering track record","99% DCI-P3 gives a genuinely cinema-relevant color gamut","Built-in fold-out legs work without buying a separate stand"],
     cons: ["Requires a computer with DisplayPort Alt Mode or TB3/4","Wacom's Cintiq line carries a premium price over rivals"],
     bestFor: "buyers prioritizing 16in qhd (2560x1600), pro pen 3",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Test Whether You'll Need to Upgrade Immediately",
     "note": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $59.99",
+          "XENCELABS Drawing Tablet Small"
+        ],
+        [
+          "Around $159.99",
+          "XP-PEN Artist12 11.6 Inch FHD Drawing Monitor Pen Display"
+        ],
+        [
+          "Around $209.99",
+          "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen"
+        ],
+        [
+          "Around $209.99",
+          "HUION Kamvas 13 (Gen 3) Drawing Tablet with Screen 16K Pressure PenTech 4.0"
+        ],
+        [
+          "Around $209.99",
+          "XPPen Artist 12 3rd 11.9\" Drawing Tablet with Screen"
+        ],
+        [
+          "Around $229.99",
+          "XPPen Artist 13.3 Pro V2 Drawing Tablet with Screen"
+        ],
+        [
+          "Around $499.99",
+          "XPPen Artist Pro 16 Gen2"
+        ],
+        [
+          "Around $699.95",
+          "Wacom Cintiq 16"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Street Price",
-    "explanation": "Verify drawing tablets under $300's current price and include any required adapters or stand in the total cost before calling it a deal."
+    "explanation": "Verify drawing tablets under $300's current price and include any required adapters or stand in the total cost before calling it a deal. Given the real spread here, from about $60 up to $700, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Prioritize Line Quality Over Pressure Count",
-    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet."
+    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet. Across this comparison's $60 to $700 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check What's Actually Included",
-    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos."
+    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos. Products at the low end near $60 and the high end near $700 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Replacement Part Availability",
-    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model."
+    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model. This matters in practice because the picks in this comparison span from about $60 to $700, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Test Whether You'll Need to Upgrade Immediately",
-    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage."
+    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage. With prices in this roundup ranging roughly $60 to $700, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "XPPen Artist 13.3 Pro 13.3\" Drawing Tablet with Screen is aimed at buyers prioritizing 13.3in full-laminated, 16,384 pressure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"}];

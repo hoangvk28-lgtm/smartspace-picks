@@ -1,7 +1,7 @@
 export const guideSlug = "best-modular-conference-tables";
 export const guideTitle = "8 Best Modular Conference Tables in 2026";
 export const metaTitle = "Best Modular Conference Tables 2026";
-export const metaDescription = "We compared modular conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared modular conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "modular conference tables";
 export const introParagraphs = [
   "A conference table needs to work as real shared workspace for a group, not just as a large flat surface with a nice finish, and most listings only publish overall length and width.",
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51wFnigEhmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGQD1RY2?tag=deskfinds0d-20",
-    description: "Available in four sizes and four finishes (black, elm, walnut, white), this flip-top table uses a one-knob mechanism paired with 360° silent locking casters, aimed at offices that reconfigure meeting spaces frequently. Multiple units push together into a larger modular conference or training surface.\n\nThe thickened desktop is scratch-resistant and waterproof, backed by an industrial-strength metal frame, and JNMDLAKO markets this as equally at home as a training table, library worktable, or reception desk.",
-    specs: ["4 size options, 4 finish options (Elm shown)","One-knob flip-top, 360° locking casters","Scratch-resistant, waterproof thickened desktop"],
+    description: "Available in four sizes and four finishes (black, elm, walnut, white), this flip-top table uses a one-knob mechanism paired with 360-degree silent locking casters, aimed at offices that reconfigure meeting spaces frequently. Multiple units push together into a larger modular conference or training surface.\n\nThe thickened desktop is scratch-resistant and waterproof, backed by an industrial-strength metal frame, and JNMDLAKO markets this as equally at home as a training table, library worktable, or reception desk.",
+    specs: ["4 size options, 4 finish options (Elm shown)","One-knob flip-top, 360-degree locking casters","Scratch-resistant, waterproof thickened desktop"],
     pros: ["Four finish options give more style flexibility than most folding conference tables","One-knob flip mechanism is quick to operate solo","Industrial-strength metal frame targets heavy-duty daily use, not occasional folding"],
     cons: ["61\" length shown here suits mid-size groups, check the size chart carefully against room needs","Modular splicing works best when all connected units share the same finish and size"],
     bestFor: "buyers prioritizing 4 size options, 4 finish options (elm shown)",
@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51ppTZS34EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2QG7J71?tag=deskfinds0d-20",
-    description: "Sold as a 2-pack in four available lengths (47.2\" to 70.8\"), these tables are built for rooms that need to reconfigure often, 360° silent wheels with dual lockable brakes let one person move and rearrange the whole layout solo. The aluminum alloy frame is rated to 550 lbs even on uneven floors.\n\nMultiple units connect side-by-side into U-shapes or long banquet rows for larger seminars, and Amazon lists this as part of a broader lineup sold in set sizes up to 10 tables for facilities furnishing an entire room at once.",
-    specs: ["4 length options: 47.2\" to 70.8\"","360° silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
+    description: "Sold as a 2-pack in four available lengths (47.2\" to 70.8\"), these tables are built for rooms that need to reconfigure often, 360-degree silent wheels with dual lockable brakes let one person move and rearrange the whole layout solo. The aluminum alloy frame is rated to 550 lbs even on uneven floors.\n\nMultiple units connect side-by-side into U-shapes or long banquet rows for larger seminars, and Amazon lists this as part of a broader lineup sold in set sizes up to 10 tables for facilities furnishing an entire room at once.",
+    specs: ["4 length options: 47.2\" to 70.8\"","360-degree silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
     pros: ["550 lb rating is unusually high for a folding table this mobile","Dual lockable brakes let one person reconfigure a full room layout solo","Splices into U-shapes or long rows for larger seminar setups"],
     cons: ["Sold as a 2-pack, so single-table buyers pay for capacity they may not need yet","Melamine surface is waterproof but still a laminate finish, not solid material"],
     bestFor: "buyers prioritizing 4 length options: 47.2\" to 70.8\"",
@@ -139,8 +139,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51tdcAeVSpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2QC1H2T?tag=deskfinds0d-20",
-    description: "The same 550-lb-rated, 360°-wheel folding table as the 2-pack version above, sold here as a 6-pack for facilities that need to furnish a full training room or reconfigurable event space in one purchase. Available in the same four lengths from 47.2\" to 70.8\".\n\nDual lockable brakes and an aluminum alloy frame keep the mobility-and-stability tradeoff in check, and units connect into U-shapes or long banquet rows for larger seminar layouts.",
-    specs: ["4 length options: 47.2\" to 70.8\", 6-pack","360° silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
+    description: "The same 550-lb-rated, 360-degree-wheel folding table as the 2-pack version above, sold here as a 6-pack for facilities that need to furnish a full training room or reconfigurable event space in one purchase. Available in the same four lengths from 47.2\" to 70.8\".\n\nDual lockable brakes and an aluminum alloy frame keep the mobility-and-stability tradeoff in check, and units connect into U-shapes or long banquet rows for larger seminar layouts.",
+    specs: ["4 length options: 47.2\" to 70.8\", 6-pack","360-degree silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
     pros: ["6-pack is the most efficient way to furnish a full reconfigurable training room at once","Same 550 lb rating and dual-brake casters as the smaller-pack version","Splices into U-shapes or long banquet rows for large seminars"],
     cons: ["Only makes sense for buyers actually needing 6 units, overkill for a single meeting room","Waterproof melamine surface, not a premium wood or laminate finish"],
     bestFor: "buyers prioritizing 4 length options: 47.2\" to 70.8\", 6-pack",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Structural Build and Serviceability",
     "note": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $289.88",
+          "Okeysen Flip-Top Mobile Conference Table"
+        ],
+        [
+          "Around $519.99",
+          "Conference Room Tables"
+        ],
+        [
+          "Around $604.79",
+          "Folding Conference Room Tables with Wheels"
+        ],
+        [
+          "Around $648.00",
+          "Folding Conference Table with Wheels"
+        ],
+        [
+          "Around $1,380.00",
+          "JNMDLAKO Modular Conference Table with Wheels"
+        ],
+        [
+          "Around $1,520.00",
+          "Modular Conference Table with Modesty Panel"
+        ],
+        [
+          "Around $1,568.60",
+          "8-Pack Modular Folding Conference Tables with Wheels"
+        ],
+        [
+          "Around $1,812.23",
+          "Folding Conference Room Tables with Wheels"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Count Usable Seating Zones, Not Just Length",
-    "explanation": "Measure how many people can actually sit at the table with roughly 24 to 30 inches of edge space each, rather than trusting a modular conference tables's advertised seat count at face value."
+    "explanation": "Measure how many people can actually sit at the table with roughly 24 to 30 inches of edge space each, rather than trusting a modular conference tables's advertised seat count at face value. This matters in practice because the picks in this comparison span from about $290 to $1812, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Base and Knee Clearance",
-    "explanation": "Confirm where legs, pedestals, or center supports fall relative to seat positions, since a base placed at the wrong point can block knee room for the people sitting closest to it."
+    "explanation": "Confirm where legs, pedestals, or center supports fall relative to seat positions, since a base placed at the wrong point can block knee room for the people sitting closest to it. With prices in this roundup ranging roughly $290 to $1812, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Room Circulation Around the Table",
-    "explanation": "Leave at least 36 inches of clearance between the table edge and the wall or nearest furniture so chairs can push back and people can walk around during a meeting."
+    "explanation": "Leave at least 36 inches of clearance between the table edge and the wall or nearest furniture so chairs can push back and people can walk around during a meeting. Given the real spread here, from about $290 up to $1812, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Power, Data, and AV Paths",
-    "explanation": "Check whether cable grommets, built-in outlets, or a dedicated AV path exist, and trace that path from the table surface to where power actually reaches the room."
+    "explanation": "Check whether cable grommets, built-in outlets, or a dedicated AV path exist, and trace that path from the table surface to where power actually reaches the room. Across this comparison's $290 to $1812 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh Structural Build and Serviceability",
-    "explanation": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone."
+    "explanation": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone. Products at the low end near $290 and the high end near $1812 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Is MDF or particle board construction a problem for a conference table?",
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Modular Conference Table with Modesty Panel is aimed at buyers prioritizing 4 size options: 47.2\" to 70.8\"." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-narrow-conference-tables","title":"Best Narrow Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

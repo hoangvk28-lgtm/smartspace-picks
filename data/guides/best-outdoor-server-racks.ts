@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31pNF5k+Q9L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FH7NJXH7?tag=deskfinds0d-20",
-    description: "The smallest outdoor cabinet in the STURDX weatherproof line, this 7U model is sized for a single switch or small NVR system rather than a full equipment stack.\n\nIt keeps the same IP66 rating and fan-ready ventilation as the larger 16U outdoor models, just scaled down for point-of-use installs like a single outdoor camera hub.",
+    description: "The smallest outdoor cabinet in the STURDX weatherproof line, this 7U model is sized for a single switch or small NVR system rather than a full equipment stack.\n\nIt keeps the same IP66 rating and fan-ready ventilation as the larger 16U outdoor models, just scaled down for point-of-use installs like a single outdoor camera hub.\n\nWhat stands out here is IP66 rating matches the larger 16U outdoor models, plus compact 7U size suits a single-device outdoor install. The main tradeoff: 7U ceiling only fits a small handful of devices, so weigh that against the $799.99 price before buying.",
     specs: ["7U, 19\" mount, 600mm depth","IP66-rated waterproof design","Fan-ready ventilation, lockable access"],
     pros: ["IP66 rating matches the larger 16U outdoor models","Compact 7U size suits a single-device outdoor install","Fan-ready design supports adding cooling later"],
     cons: ["7U ceiling only fits a small handful of devices","Smaller size still carries an outdoor-rated price premium"],
@@ -91,7 +91,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31t+0aeG+DL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CR5GS5X2?tag=deskfinds0d-20",
-    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.",
+    description: "At 30U this is one of the taller open-frame rolling racks in the AxcessAbles line, giving you real headroom for a growing home lab or studio rack without going to a fully enclosed cabinet.\n\nThe same 18-inch depth and removable side panel design carries over from the smaller models, so airflow and access stay consistent as you scale up in height.\n\nWhere this one earns its spot is tall 30U build fits a growing equipment stack, and removable panels switch between open and closed setups. Worth noting before buying: tall and narrow footprint needs a stable floor, which matters more at $299.99 than it would on a cheaper pick.",
     specs: ["30U height, 18\" depth","550 lb static / 440 lb rolling capacity","Removable vented side panels"],
     pros: ["Tall 30U build fits a growing equipment stack","Removable panels switch between open and closed setups","Includes both screw standards for mixed-brand gear"],
     cons: ["Tall and narrow footprint needs a stable floor","No lockable door for equipment security"],
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Lock and Access Weatherproofing",
     "note": "Confirm the locking mechanism and door seals are also rated for outdoor use, not just the main enclosure body."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "Raising Electronics 27U 4-Post Open Rack Frame"
+        ],
+        [
+          "Around $299.99",
+          "AxcessAbles 30U Rolling Network Server Rack"
+        ],
+        [
+          "Around $799.99",
+          "7U 19in 600mm Outdoor Rack Cabinet"
+        ],
+        [
+          "Around $1,599.00",
+          "16U 19in 600mm Outdoor Rack Cabinet"
+        ],
+        [
+          "Around $2,600.00",
+          "16U Outdoor Server Rack Cabinet with Integrated A/C"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify a Real IP Rating, Not Just 'Weatherproof'",
-    "explanation": "Confirm outdoor server racks lists a specific IP rating like IP55 or IP66 rather than a generic weatherproof claim with no documented standard behind it."
+    "explanation": "Confirm outdoor server racks lists a specific IP rating like IP55 or IP66 rather than a generic weatherproof claim with no documented standard behind it. With prices in this roundup ranging roughly $180 to $2600, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Active Cooling for Sealed Outdoor Enclosures",
-    "explanation": "Verify whether the enclosure includes fans or air conditioning, since a sealed outdoor cabinet in direct sun can overheat without active cooling."
+    "explanation": "Verify whether the enclosure includes fans or air conditioning, since a sealed outdoor cabinet in direct sun can overheat without active cooling. Given the real spread here, from about $180 up to $2600, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Corrosion-Resistant Construction",
-    "explanation": "Look for corrosion-resistant coating and sealed cable entry points designed specifically for prolonged outdoor exposure."
+    "explanation": "Look for corrosion-resistant coating and sealed cable entry points designed specifically for prolonged outdoor exposure. Across this comparison's $180 to $2600 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Mounting Method for the Install Site",
-    "explanation": "Check whether the cabinet is rated for wall, pole, or ground mounting matching your actual outdoor location."
+    "explanation": "Check whether the cabinet is rated for wall, pole, or ground mounting matching your actual outdoor location. Products at the low end near $180 and the high end near $2600 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Lock and Access Weatherproofing",
-    "explanation": "Confirm the locking mechanism and door seals are also rated for outdoor use, not just the main enclosure body."
+    "explanation": "Confirm the locking mechanism and door seals are also rated for outdoor use, not just the main enclosure body. This matters in practice because the picks in this comparison span from about $180 to $2600, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "16U 19in 600mm Outdoor Rack Cabinet is aimed at buyers prioritizing 16u, 19\" mount, 600mm depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

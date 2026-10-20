@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41r02N0dAkS._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B079KTKXBP?tag=deskfinds0d-20",
-    description: "The 15U version of Sysracks' soundproof line, with the same claimed 36% noise reduction and dual-fan cooling as the 12U model, just with more room to grow into.\n\nA hexagon-perforated glass door helps air circulation without sacrificing the acoustic dampening that's the whole point of this cabinet, and it ships with a PDU and shelf included.",
+    description: "The 15U version of Sysracks' soundproof line, with the same claimed 36% noise reduction and dual-fan cooling as the 12U model, just with more room to grow into.\n\nA hexagon-perforated glass door helps air circulation without sacrificing the acoustic dampening that's the whole point of this cabinet, and it ships with a PDU and shelf included.\n\nWhat stands out here is hexagon-perforated door balances airflow with sound dampening, plus comes with PDU, shelf, and casters included. The main tradeoff: larger 15U size takes more room than the 12U model, so weigh that against the $1,320.00 price before buying.",
     specs: ["15U, 26\"W x 35\"D x 36\"H","Up to 36% noise reduction claimed","PDU, shelf, and 4 casters included"],
     pros: ["Hexagon-perforated door balances airflow with sound dampening","Comes with PDU, shelf, and casters included","2-year manufacturer warranty backs the purchase"],
     cons: ["Larger 15U size takes more room than the 12U model","Locking system adds a step versus open racks"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/412RNnKO5iL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GPK1Y4N5?tag=deskfinds0d-20",
-    description: "This 18U soundproof cabinet uses a thermostat-controlled dual exhaust fan system to automatically regulate temperature, taking the guesswork out of manual fan speed adjustment.\n\nSealed foam cable entry points specifically target dust intake reduction alongside the noise dampening, a detail worth noting if your install location tends to be dusty.",
+    description: "This 18U soundproof cabinet uses a thermostat-controlled dual exhaust fan system to automatically regulate temperature, taking the guesswork out of manual fan speed adjustment.\n\nSealed foam cable entry points specifically target dust intake reduction alongside the noise dampening, a detail worth noting if your install location tends to be dusty.\n\nThe strongest case for this pick comes down to automatic thermostat control removes manual fan adjustment as well as sealed foam cable entry reduces dust intake too. The compromise here is that 18U size needs more floor space than smaller soundproof models, so factor that in alongside the $1,978.00 asking price.",
     specs: ["18U","Up to 36% noise reduction claimed","Thermostat-controlled dual exhaust fans"],
     pros: ["Automatic thermostat control removes manual fan adjustment","Sealed foam cable entry reduces dust intake too","Locking glass door still allows easy visual monitoring"],
     cons: ["18U size needs more floor space than smaller soundproof models","Acoustic foam adds bulk versus a standard open cabinet"],
@@ -119,28 +119,52 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Soundproofing Against Ventilation",
     "note": "Recognize that heavier acoustic dampening trades off against airflow, so a sealed quiet cabinet often needs a stronger internal cooling system than an open equivalent."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $1,027.17",
+          "Sysracks 12U Soundproof Server Rack Cabinet"
+        ],
+        [
+          "Around $1,320.00",
+          "Sysracks Soundproof Server Rack Cabinet"
+        ],
+        [
+          "Around $1,978.00",
+          "Soundproof Server Rack Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Check the Noise Reduction Claim's Baseline",
-    "explanation": "Verify what baseline soundproof server racks's noise reduction percentage is actually measured against, since a claimed reduction without a reference point is hard to compare across brands."
+    "explanation": "Verify what baseline soundproof server racks's noise reduction percentage is actually measured against, since a claimed reduction without a reference point is hard to compare across brands. This matters in practice because the picks in this comparison span from about $1027 to $1978, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Active Cooling Still Works Sealed",
-    "explanation": "Check that sound-dampening foam and a sealed enclosure don't trap more heat than the built-in fans can remove."
+    "explanation": "Check that sound-dampening foam and a sealed enclosure don't trap more heat than the built-in fans can remove. With prices in this roundup ranging roughly $1027 to $1978, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Fan Noise at Actual Load",
-    "explanation": "Look for documented dBA specifically under load, not just at idle, since fan noise typically rises as equipment runs hotter."
+    "explanation": "Look for documented dBA specifically under load, not just at idle, since fan noise typically rises as equipment runs hotter. Given the real spread here, from about $1027 up to $1978, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Cable Entry Sealing",
-    "explanation": "Confirm brush-style cable entry points that block noise leakage without preventing normal cable routing."
+    "explanation": "Confirm brush-style cable entry points that block noise leakage without preventing normal cable routing. Across this comparison's $1027 to $1978 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh Soundproofing Against Ventilation",
-    "explanation": "Recognize that heavier acoustic dampening trades off against airflow, so a sealed quiet cabinet often needs a stronger internal cooling system than an open equivalent."
+    "explanation": "Recognize that heavier acoustic dampening trades off against airflow, so a sealed quiet cabinet often needs a stronger internal cooling system than an open equivalent. Products at the low end near $1027 and the high end near $1978 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -165,6 +189,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 12U Soundproof Server Rack Cabinet is aimed at buyers prioritizing 12u, 35\" depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-quiet-server-racks","title":"Best Quiet Server Racks in 2026"},{"href":"/guide/best-quiet-home-server-racks","title":"Best Quiet Home Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

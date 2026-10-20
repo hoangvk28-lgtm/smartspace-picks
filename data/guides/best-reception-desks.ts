@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Account for Full Installed Ownership",
     "note": "Factor in freight, assembly, leveling, access through doors or elevators, and future reconfiguration, not just the sticker price of the desk itself."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $114.97",
+          "ANGRYWIN Reception Desk with Counter"
+        ],
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $249.99",
+          "Tribesigns L-Shaped Reception Desk with Storage Shelves"
+        ],
+        [
+          "Around $249.99",
+          "AHB Reception Desk with Counter and LED Light Strips"
+        ],
+        [
+          "Around $299.99",
+          "Kikihouse 63\" Fluted Reception Desk with LED"
+        ],
+        [
+          "Around $329.99",
+          "Modern Reception Desk with Drawer & Open Shelves"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $599.99",
+          "47\" Reception Desk with LED and Power Outlets"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Staff-Side vs Visitor-Side Dimensions",
-    "explanation": "Publish visitor-side and receptionist-side dimensions separately, including usable worksurface depth and any raised-counter overhang, before assuming a listed width equals usable staff workspace."
+    "explanation": "Publish visitor-side and receptionist-side dimensions separately, including usable worksurface depth and any raised-counter overhang, before assuming a listed width equals usable staff workspace. Across this comparison's $115 to $600 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Stage a Real Receptionist Setup",
-    "explanation": "Lay out a monitor, keyboard, phone or POS, sign-in device, and printer at the desk's actual dimensions so a wide nominal width is not mistaken for genuine usable workspace."
+    "explanation": "Lay out a monitor, keyboard, phone or POS, sign-in device, and printer at the desk's actual dimensions so a wide nominal width is not mistaken for genuine usable workspace. Products at the low end near $115 and the high end near $600 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Trace Cable Routing End to End",
-    "explanation": "Follow the power and data path from wall or floor source through grommets, storage, and modular seams instead of assuming one cable hole solves cable management."
+    "explanation": "Follow the power and data path from wall or floor source through grommets, storage, and modular seams instead of assuming one cable hole solves cable management. This matters in practice because the picks in this comparison span from about $115 to $600, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Material and Finish Care",
-    "explanation": "Check substrate, edge construction, and finish care claims rather than judging durability from color photography alone, since MDF, particleboard, and laminate all behave differently under daily wipe-downs."
+    "explanation": "Check substrate, edge construction, and finish care claims rather than judging durability from color photography alone, since MDF, particleboard, and laminate all behave differently under daily wipe-downs. With prices in this roundup ranging roughly $115 to $600, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Account for Full Installed Ownership",
-    "explanation": "Factor in freight, assembly, leveling, access through doors or elevators, and future reconfiguration, not just the sticker price of the desk itself."
+    "explanation": "Factor in freight, assembly, leveling, access through doors or elevators, and future reconfiguration, not just the sticker price of the desk itself. Given the real spread here, from about $115 up to $600, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"7 Best L-Shaped Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-counter","title":"8 Best Reception Desks with Counter in 2026"},{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"}];

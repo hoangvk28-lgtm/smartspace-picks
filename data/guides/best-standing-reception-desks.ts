@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Evaluate Stability Under Load",
     "note": "Evaluate wobble, anti-collision, and load capacity with actual reception equipment installed, not just an empty desk."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.82",
+          "IGERI Small Black Reception Desk with Lock"
+        ],
+        [
+          "Around $109.82",
+          "IGERI Small Black Reception Desk"
+        ],
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $369.99",
+          "63\" Reception Desk with Dual-Level Counter and LED"
+        ],
+        [
+          "Around $679.99",
+          "Laxodor 86.6\" L-Shaped Reception Desk with Combination Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Genuine Staff-Side Height Adjustment",
-    "explanation": "Require a genuinely height-adjustable staff worksurface, not just a tall visitor-facing counter with a fixed lower desk behind it."
+    "explanation": "Require a genuinely height-adjustable staff worksurface, not just a tall visitor-facing counter with a fixed lower desk behind it. This matters in practice because the picks in this comparison span from about $100 to $680, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Ergonomics at Both Positions",
-    "explanation": "Publish height range and monitor/keyboard ergonomics at both seated and standing positions, since a desk marketed as standing-capable should work comfortably at both."
+    "explanation": "Publish height range and monitor/keyboard ergonomics at both seated and standing positions, since a desk marketed as standing-capable should work comfortably at both. With prices in this roundup ranging roughly $100 to $680, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Keep Visitor Service Independent from Staff Motion",
-    "explanation": "Keep visitor service and counter geometry independent from staff-side motion where accessibility requires it, so an adjustable staff desk doesn't compromise a fixed accessible counter."
+    "explanation": "Keep visitor service and counter geometry independent from staff-side motion where accessibility requires it, so an adjustable staff desk doesn't compromise a fixed accessible counter. Given the real spread here, from about $100 up to $680, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Cable Slack Through the Height Range",
-    "explanation": "Verify cable slack, monitor arms, and storage fit through the full height travel, since cords can strain or disconnect if not planned for movement."
+    "explanation": "Verify cable slack, monitor arms, and storage fit through the full height travel, since cords can strain or disconnect if not planned for movement. Across this comparison's $100 to $680 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Evaluate Stability Under Load",
-    "explanation": "Evaluate wobble, anti-collision, and load capacity with actual reception equipment installed, not just an empty desk."
+    "explanation": "Evaluate wobble, anti-collision, and load capacity with actual reception equipment installed, not just an empty desk. Products at the low end near $100 and the high end near $680 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-tall-reception-desks","title":"5 Best Tall Reception Desks in 2026"},{"href":"/guide/best-ergonomic-reception-desks","title":"best-ergonomic-reception-desks"},{"href":"/guide/best-reception-desks-with-counter","title":"8 Best Reception Desks with Counter in 2026"}];

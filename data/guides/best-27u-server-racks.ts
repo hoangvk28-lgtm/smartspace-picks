@@ -43,7 +43,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31vbfmcEwKL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D99FX253?tag=deskfinds0d-20",
-    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.",
+    description: "GlobalRack's 27U model brings the same adjustable 22-35 inch depth and quick-lock assembly as their 42U rack, just in a mid-height footprint that suits smaller server rooms.\n\nAt 1200 lbs it's rated lower than the 42U model, consistent with the shorter, lighter structure, but still handles a substantial equipment load for its size.\n\nThis pick is best for buyers who value under-20-minute assembly claim, genuinely quick to set up along with 1200 lb capacity suits a real mid-size server load. The catch is that shorter than the 42U model if you outgrow it, so decide if that's worth it at $178.99.",
     specs: ["27U, 43.5\"H, 22-35\" adjustable depth","1200 lb weight capacity","Pre-installed square holes, M6 hardware included"],
     pros: ["Under-20-minute assembly claim, genuinely quick to set up","1200 lb capacity suits a real mid-size server load","Depth adjustment covers a wide equipment range"],
     cons: ["Shorter than the 42U model if you outgrow it","Open frame offers no dust or security protection"],
@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41teTs3CPsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B076VQ916B?tag=deskfinds0d-20",
-    description: "A tall, narrow 27U aluminum rack from Raising Electronics, reaching 60 inches with a 24-inch post-to-post depth, rated for 700 lbs across three pairs of steel rails.\n\nThe 1.5-inch depth adjustment increments and movable design match the rest of Raising Electronics' lineup, giving a consistent experience if you're mixing their rack sizes.",
+    description: "A tall, narrow 27U aluminum rack from Raising Electronics, reaching 60 inches with a 24-inch post-to-post depth, rated for 700 lbs across three pairs of steel rails.\n\nThe 1.5-inch depth adjustment increments and movable design match the rest of Raising Electronics' lineup, giving a consistent experience if you're mixing their rack sizes.\n\nWhat stands out here is 700 lb rating handles a substantial equipment stack, plus three steel rail pairs add real structural rigidity. The main tradeoff: 60\" height needs a genuinely tall room, so weigh that against the $214.97 price before buying.",
     specs: ["27U, 60\"H x 24\"W, 24\" depth","700 lb weight capacity","3 pairs of steel rails"],
     pros: ["700 lb rating handles a substantial equipment stack","Three steel rail pairs add real structural rigidity","Movable design makes positioning straightforward"],
     cons: ["60\" height needs a genuinely tall room","No casters included with this specific model"],
@@ -75,7 +75,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41mBY8-KVdL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08YDJ4X32?tag=deskfinds0d-20",
-    description: "The tallest wall-mount cabinet in this seller's lineup at 27U, still keeping the same 133 lb capacity and 24-inch overall / 20-inch usable depth spec found on their smaller models.\n\nA top-mounted fan and perforated glass door provide active and passive cooling together, and it ships with two fixed shelves and a PDU already included.",
+    description: "The tallest wall-mount cabinet in this seller's lineup at 27U, still keeping the same 133 lb capacity and 24-inch overall / 20-inch usable depth spec found on their smaller models.\n\nA top-mounted fan and perforated glass door provide active and passive cooling together, and it ships with two fixed shelves and a PDU already included.\n\nThe strongest case for this pick comes down to 27U is the tallest wall-mount option in this product line as well as comes complete with fan, shelves, and PDU. The compromise here is that requires a genuinely solid wall to support 27U of gear, so factor that in alongside the $599.97 asking price.",
     specs: ["27U, 24\" overall / 20\" usable depth","133 lb wall-mount capacity","Top fan, 2 shelves, PDU included"],
     pros: ["27U is the tallest wall-mount option in this product line","Comes complete with fan, shelves, and PDU","Perforated door pairs with the fan for better airflow"],
     cons: ["Requires a genuinely solid wall to support 27U of gear","20\" usable depth may not fit every device"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Ceiling and Doorway Clearance",
     "note": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $178.99",
+          "GlobalRack 27U Open Frame Server Rack"
+        ],
+        [
+          "Around $179.99",
+          "Raising Electronics 27U 4-Post Open Rack Frame"
+        ],
+        [
+          "Around $214.97",
+          "Raising Electronics Server Rack Open Frame Rack 4 Post"
+        ],
+        [
+          "Around $599.97",
+          "27U Wall Mount Server Rack Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 27u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths."
+    "explanation": "Confirm 27u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Products at the low end near $179 and the high end near $600 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. This matters in practice because the picks in this comparison span from about $179 to $600, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. With prices in this roundup ranging roughly $179 to $600, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Given the real spread here, from about $179 up to $600, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. Across this comparison's $179 to $600 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "If a wall-mount rack is rated for 130 lbs, can I always mount it at that weight?",
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Raising Electronics 27U 4-Post Open Rack Frame is aimed at buyers prioritizing 27u, 52\"h x 21.3\"w, 24-35\" depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

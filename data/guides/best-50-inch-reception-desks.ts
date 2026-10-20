@@ -1,7 +1,7 @@
 export const guideSlug = "best-50-inch-reception-desks";
 export const guideTitle = "5 Best 50-Inch Reception Desks in 2026";
 export const metaTitle = "Best 50-Inch Reception Desks 2026";
-export const metaDescription = "We required actual assembled width close to 50 inches and published full depth before ranking 50-inch reception desks.";
+export const metaDescription = "We required actual assembled width close to 50 inches and published full depth before ranking 50-inch reception desks for small lobbies.";
 export const mainKeyword = "50 inch reception desk";
 export const introParagraphs = [
   "This article targets an exact nominal width of 50 inches, and the central gap is verifying actual assembled width and usable work area after end panels, counters, storage, and supports.",
@@ -151,28 +151,60 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cable and Counter Depth",
     "note": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $199.99",
+          "Luxitero 47\" Reception Desk"
+        ],
+        [
+          "Around $249.99",
+          "AHB Reception Desk with Counter and LED Light Strips"
+        ],
+        [
+          "Around $249.99",
+          "AHB 50-Inch Reception Desk with LED and DIY Stripe"
+        ],
+        [
+          "Around $259.99",
+          "AHB 50-Inch Reception Desk with LED and Storage Shelves"
+        ],
+        [
+          "Around $261.90",
+          "VEVOR Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width",
-    "explanation": "Require an actual assembled width close to 50 inches and publish any counter or side-panel overhang beyond the nominal size, since retail titles can round dimensions that differ from the assembled product."
+    "explanation": "Require an actual assembled width close to 50 inches and publish any counter or side-panel overhang beyond the nominal size, since retail titles can round dimensions that differ from the assembled product. Given the real spread here, from about $200 up to $262, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient."
+    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. Across this comparison's $200 to $262 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room."
+    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. Products at the low end near $200 and the high end near $262 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Knee Space After Storage",
-    "explanation": "Measure knee space after drawers and cabinets are installed, and identify which equipment must be omitted in a compact footprint at this width."
+    "explanation": "Measure knee space after drawers and cabinets are installed, and identify which equipment must be omitted in a compact footprint at this width. This matters in practice because the picks in this comparison span from about $200 to $262, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Cable and Counter Depth",
-    "explanation": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one."
+    "explanation": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one. With prices in this roundup ranging roughly $200 to $262, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -197,6 +229,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "AHB Reception Desk with Counter and LED Light Strips is aimed at buyers prioritizing built-in tabletop sockets for led/charger plugs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-48-inch-reception-desks","title":"4 Best 48-Inch Reception Desks in 2026"},{"href":"/guide/best-55-inch-reception-desks","title":"5 Best 55-Inch Reception Desks in 2026"},{"href":"/guide/best-5ft-reception-desks","title":"6 Best 5ft Reception Desks in 2026"}];

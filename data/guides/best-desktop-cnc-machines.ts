@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41K0w8BPrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F18TC7QL?tag=deskfinds0d-20",
-    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A Φ65mm spindle holder plus Φ52mm adapter cover spindle and laser swaps, and it's also compatible with Φ69mm brackets for further upgrades.",
-    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","Φ65mm + Φ52mm spindle/laser adapters included"],
+    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A 65mm dia. spindle holder plus 52mm dia. adapter cover spindle and laser swaps, and it's also compatible with 69mm dia. brackets for further upgrades.",
+    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","65mm dia. + 52mm dia. spindle/laser adapters included"],
     pros: ["Documented 1.5mm aluminum cut depth in a single pass","7.3 Nm of torque is a real, specific figure","Spindle and laser swap via included adapters"],
     cons: ["All-metal build adds weight versus lighter hobby routers","6500 RPM minimum speed limits very fine detail work"],
     bestFor: "buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque",
@@ -107,11 +107,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pCr4H7f0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLXMJF32?tag=deskfinds0d-20",
-    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at ±0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
-    specs: ["Pre-assembled, enclosed, ±0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
+    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at +/-0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
+    specs: ["Pre-assembled, enclosed, +/-0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
     pros: ["Enclosure auto-pauses the job when opened, a real safety feature","Surface mapping compensates for uneven stock automatically","Ships pre-assembled, not as a build-it-yourself kit"],
     cons: ["Enclosed design caps maximum workpiece size","Positioning accuracy is modest next to ball-screw machines"],
-    bestFor: "buyers prioritizing pre-assembled, enclosed, ±0.1mm accuracy",
+    bestFor: "buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy",
   },
   {
     id: "best-desktop-cnc-machines-7",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Ownership Details",
     "note": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $153.90",
+          "Genmitsu CNC 3018-PRO Router Kit"
+        ],
+        [
+          "Around $242.10",
+          "SainSmart Genmitsu 3018-PROVer V2 CNC Router Machine for Beginners"
+        ],
+        [
+          "Around $437.89",
+          "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
+        ],
+        [
+          "Around $487.20",
+          "Genmitsu 3020-PRO Ultra CNC Router Machine"
+        ],
+        [
+          "Around $517.65",
+          "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
+        ],
+        [
+          "Around $549.00",
+          "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
+        ],
+        [
+          "Around $2,499.00",
+          "Carvera Air Desktop CNC by MAKERA"
+        ],
+        [
+          "Around $3,197.00",
+          "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Verify Rigidity and Spindle Specs Directly",
-    "explanation": "Check desktop cnc machines's documented rigidity, spindle torque, and runout rather than trusting the listing description alone."
+    "explanation": "Check desktop cnc machines's documented rigidity, spindle torque, and runout rather than trusting the listing description alone. Across this comparison's $154 to $3197 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Usable Travel, Not Nominal Axis Size",
-    "explanation": "Confirm usable travel after fixtures and tooling are installed, since nominal axis specs overstate real capacity."
+    "explanation": "Confirm usable travel after fixtures and tooling are installed, since nominal axis specs overstate real capacity. Products at the low end near $154 and the high end near $3197 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm CAM and Software Support",
-    "explanation": "Verify the machine's CAM, probing, and controller workflow fits your actual software before buying."
+    "explanation": "Verify the machine's CAM, probing, and controller workflow fits your actual software before buying. This matters in practice because the picks in this comparison span from about $154 to $3197, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Dust or Chip Control",
-    "explanation": "Confirm what dust or chip management is built in versus what needs to be added separately."
+    "explanation": "Confirm what dust or chip management is built in versus what needs to be added separately. With prices in this roundup ranging roughly $154 to $3197, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Weigh Ownership Details",
-    "explanation": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership."
+    "explanation": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership. Given the real spread here, from about $154 up to $3197, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Can a desktop CNC router genuinely cut metal, or just engrave it?",
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines-for-wood","title":"Best Desktop CNC Machines for Wood in 2026"}];

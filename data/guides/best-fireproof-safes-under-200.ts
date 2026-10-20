@@ -1,7 +1,7 @@
 export const guideSlug = "best-fireproof-safes-under-200";
 export const guideTitle = "8 Best Fireproof Safes Under $200 in 2026";
 export const metaTitle = "Best Fireproof Safes Under $200 2026";
-export const metaDescription = "We compared fireproof safes under $200 by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared fireproof safes under $200 by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "fireproof safes under $200";
 export const introParagraphs = [
   "Ranking fireproof safes under $200 fairly means putting verifying the fire rating actually holds up at a lower price, not just the sticker ahead of anything the listing photos suggest.",
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51jt-xTGAWL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLNHMRQT?tag=deskfinds0d-20",
-    description: "Built to meet Underwriters Laboratories standards and tested with SGS-certified materials, this safe documents 1700°F for 35 minutes, with 3 solid 0.98\" locking bolts and concealed anti-pry hinges backing a 27 lb steel body.\n\nThree unlock methods (keypad, 2 backup keys, external battery box) prevent lockout, and pre-drilled anchoring holes with included fireproof sealing plugs let you mount it while preserving fire-resistant performance when not anchored.",
-    specs: ["2.0 cu ft, UL standard, SGS-certified","35 min at 1700°F, 27 lbs","Fireproof plugs seal unused anchor holes"],
+    description: "Built to meet Underwriters Laboratories standards and tested with SGS-certified materials, this safe documents 1700-degreeF for 35 minutes, with 3 solid 0.98\" locking bolts and concealed anti-pry hinges backing a 27 lb steel body.\n\nThree unlock methods (keypad, 2 backup keys, external battery box) prevent lockout, and pre-drilled anchoring holes with included fireproof sealing plugs let you mount it while preserving fire-resistant performance when not anchored.",
+    specs: ["2.0 cu ft, UL standard, SGS-certified","35 min at 1700-degreeF, 27 lbs","Fireproof plugs seal unused anchor holes"],
     pros: ["UL-standard testing with SGS-certified materials backs the fire claim with real documentation","Fireproof sealing plugs specifically preserve fire performance around unused anchor holes","27 lbs is relatively light and manageable for a 2.0 cu ft fireproof safe"],
     cons: ["35 minutes is shorter than 1- and 2-hour rated competitors like SentrySafe or Master","Digital lock still needs periodic battery replacement"],
     bestFor: "buyers prioritizing 2.0 cu ft, ul standard, sgs-certified",
@@ -53,7 +53,7 @@ export const products: GuideProduct[] = [
     id: "best-fireproof-safes-under-200-3",
     rank: 3,
     badge: "Also Great",
-    name: "1.3 Cu Ft Fireproof Safe, 35-Minute 1700°F Rating",
+    name: "1.3 Cu Ft Fireproof Safe, 35-Minute 1700-degreeF Rating",
     price: "$119.49",
     rating: null,
     reviews: null,
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51kf83JfLCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1M87HB3?tag=deskfinds0d-20",
-    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this genuine structural robustness, and it bundles a separate A4-size fireproof document bag rated to endure 30 minutes at 1700°F for extra small-item protection.\n\nA tiered alarm lockout (20 seconds after 3 wrong attempts, 5 minutes after 6) adds graduated security response, and each lock cylinder carries a unique serial number specifically for easier key replacement if lost.",
-    specs: ["3.2 cu ft, 50mm steel door, 27.5 lbs","Bundled A4 fireproof bag (30min at 1700°F)","Tiered alarm lockout: 20s then 5min"],
+    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this genuine structural robustness, and it bundles a separate A4-size fireproof document bag rated to endure 30 minutes at 1700-degreeF for extra small-item protection.\n\nA tiered alarm lockout (20 seconds after 3 wrong attempts, 5 minutes after 6) adds graduated security response, and each lock cylinder carries a unique serial number specifically for easier key replacement if lost.",
+    specs: ["3.2 cu ft, 50mm steel door, 27.5 lbs","Bundled A4 fireproof bag (30min at 1700-degreeF)","Tiered alarm lockout: 20s then 5min"],
     pros: ["50mm door thickness is substantial for this weight class","Bundled separate fireproof document bag adds real double protection","Unique lock cylinder serial numbers make lost-key replacement genuinely traceable"],
     cons: ["27.5 lbs is light for the stated 3.2 cu ft capacity, worth comparing wall","No independent UL/ETL classification for the main steel body itself"],
     bestFor: "buyers prioritizing 3.2 cu ft, 50mm steel door, 27.5 lbs",
@@ -139,8 +139,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31VlfIIUXkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B181WZ58?tag=deskfinds0d-20",
-    description: "TIGERKING documents this safe tested to the UL 72 Standard specifically, withstanding 1700°F for 30 minutes, with a genuinely substantial 81.9 lb build backed by a 0.77-inch door and four 1-inch live-locking bolts.\n\nAn external hinge design keeps hinge hardware outside the storage chamber while a recessed inner hinge-side structure keeps the door secured even if the outer hinge is attacked, a specific dual-layer hinge security approach. TIGERKING backs it with a 1-year warranty and fire-damage replacement support.",
-    specs: ["3.47 cu ft, 81.9 lbs, UL 72 standard tested","30 min at 1700°F, 0.77in door","4x 1-inch live-locking bolts"],
+    description: "TIGERKING documents this safe tested to the UL 72 Standard specifically, withstanding 1700-degreeF for 30 minutes, with a genuinely substantial 81.9 lb build backed by a 0.77-inch door and four 1-inch live-locking bolts.\n\nAn external hinge design keeps hinge hardware outside the storage chamber while a recessed inner hinge-side structure keeps the door secured even if the outer hinge is attacked, a specific dual-layer hinge security approach. TIGERKING backs it with a 1-year warranty and fire-damage replacement support.",
+    specs: ["3.47 cu ft, 81.9 lbs, UL 72 standard tested","30 min at 1700-degreeF, 0.77in door","4x 1-inch live-locking bolts"],
     pros: ["Tested specifically to the UL 72 Standard, a documented reference rather than a vague","81.9 lb weight and 0.77-inch door give a genuinely solid, substantial feel","Dual-layer hinge security (external hinge plus recessed inner structure) protects against hinge-side attacks specifically"],
     cons: ["30-minute rating is shorter than the 1- and 2-hour tiers offered by premium competitors","Digital keypad requires battery maintenance despite the emergency key backup"],
     bestFor: "buyers prioritizing 3.47 cu ft, 81.9 lbs, ul 72 standard tested",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Warranty and Return Practicality",
     "note": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $94.99",
+          "1.8 Cu Ft Small Fireproof Safe for Home Use"
+        ],
+        [
+          "Around $99.99",
+          "Mitlvge 3.2 Cu Ft Fireproof Safe Box with Digital Keypad"
+        ],
+        [
+          "Around $99.99",
+          "2.0 Cu Ft Large Fireproof Safe with Combination Lock"
+        ],
+        [
+          "Around $107.99",
+          "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
+        ],
+        [
+          "Around $119.49",
+          "1.3 Cu Ft Fireproof Safe"
+        ],
+        [
+          "Around $127.48",
+          "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
+        ],
+        [
+          "Around $159.99",
+          "2.0 Cu Ft Fireproof Safe Box"
+        ],
+        [
+          "Around $286.99",
+          "TIGERKING 3.47 Cu Ft Fireproof Safe for Home & Office"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp the Price and Separate Shipping",
-    "explanation": "Verify fireproof safes under $200's current price at checkout, since posted prices and available stock change, and factor in shipping cost separately for anything with real weight."
+    "explanation": "Verify fireproof safes under $200's current price at checkout, since posted prices and available stock change, and factor in shipping cost separately for anything with real weight. With prices in this roundup ranging roughly $95 to $287, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Require Explicit Fire Evidence Before Trusting the Label",
-    "explanation": "Low-cost listings are the most likely to use vague 'fireproof' language without independent backing; require a specific classification before treating a budget product as genuinely fire-resistant."
+    "explanation": "Low-cost listings are the most likely to use vague 'fireproof' language without independent backing; require a specific classification before treating a budget product as genuinely fire-resistant. Given the real spread here, from about $95 up to $287, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Usable Capacity Per Dollar",
-    "explanation": "Compare interior dimensions, not just price, since a cheaper safe with a smaller usable interior may not actually be the better value."
+    "explanation": "Compare interior dimensions, not just price, since a cheaper safe with a smaller usable interior may not actually be the better value. Across this comparison's $95 to $287 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Understand the Security Level You're Paying For",
-    "explanation": "Budget safes generally use privacy-level locks rather than serious burglary deterrence; confirm this matches your actual security needs before buying on price alone."
+    "explanation": "Budget safes generally use privacy-level locks rather than serious burglary deterrence; confirm this matches your actual security needs before buying on price alone. Products at the low end near $95 and the high end near $287 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Warranty and Return Practicality",
-    "explanation": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price."
+    "explanation": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price. This matters in practice because the picks in this comparison span from about $95 to $287, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -235,7 +279,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550-degreeF, 1 hour at 1700-degreeF, or 2 hours at 1850-degreeF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Does the cubic-foot rating on a safe match its real usable storage space?",
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-under-100","title":"Best Fireproof Safes Under $100 in 2026"},{"href":"/guide/best-fireproof-safes-under-300","title":"Best Fireproof Safes Under $300 in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

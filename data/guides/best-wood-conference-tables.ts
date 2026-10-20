@@ -1,7 +1,7 @@
 export const guideSlug = "best-wood-conference-tables";
 export const guideTitle = "8 Best Wood Conference Tables in 2026";
 export const metaTitle = "Best Wood Conference Tables 2026";
-export const metaDescription = "We compared wood conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared wood conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "wood conference tables";
 export const introParagraphs = [
   "Wood construction on a conference table can mean solid wood, veneer, or wood-look laminate, and each ages and repairs very differently over years of daily use.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Account for Shipping Weight",
     "note": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
+        ],
+        [
+          "Around $189.99",
+          "Tribesigns 6FT Rustic Conference Table"
+        ],
+        [
+          "Around $209.99",
+          "TRIBEWOOD 63-Inch Solid Wood Conference Table for 4-6"
+        ],
+        [
+          "Around $259.99",
+          "Tribesigns 5.25FT Solid Wood Conference Table for 4-6"
+        ],
+        [
+          "Around $269.99",
+          "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
+        ],
+        [
+          "Around $269.99",
+          "Sleekform 6FT Wooden Folding Banquet Table"
+        ],
+        [
+          "Around $299.99",
+          "Tribesigns 8FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $489.99",
+          "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual Construction Type",
-    "explanation": "Check whether the wood conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use."
+    "explanation": "Check whether the wood conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use. Given the real spread here, from about $180 up to $490, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top."
+    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top. Across this comparison's $180 to $490 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Repairability",
-    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership."
+    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership. Products at the low end near $180 and the high end near $490 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Cleaning and Moisture Guidance",
-    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity."
+    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity. This matters in practice because the picks in this comparison span from about $180 to $490, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Account for Shipping Weight",
-    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement."
+    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement. With prices in this roundup ranging roughly $180 to $490, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Why do some conference tables ship in more than one box?",
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12 is aimed at buyers prioritizing 10ft solid wood table, seats 10-12." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-live-edge-conference-tables","title":"Best Live-Edge Conference Tables in 2026"},{"href":"/guide/best-walnut-conference-tables","title":"Best Walnut Conference Tables in 2026"}];

@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Place Storage to Avoid Dead Zones",
     "note": "Place storage, printers, pedestals, and transaction counters on the drawing to expose dead zones and door or drawer conflicts before finalizing the layout."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $169.99",
+          "Tribesigns Reception Desk with Counter"
+        ],
+        [
+          "Around $459.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $479.00",
+          "L-Shaped Wooden Commercial Reception Desk"
+        ],
+        [
+          "Around $522.49",
+          "L-Shaped Reception Desk with Curved Corner and Vertical Slats"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Publish the Full Installed Footprint",
-    "explanation": "Get the full installed footprint for the corner desk, not just the front width, since the corner configuration adds depth a straight desk's spec sheet doesn't need to account for."
+    "explanation": "Get the full installed footprint for the corner desk, not just the front width, since the corner configuration adds depth a straight desk's spec sheet doesn't need to account for. This matters in practice because the picks in this comparison span from about $170 to $522, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Staff Reach Around the Corner",
-    "explanation": "Measure staff reach and chair movement around inside corners, since a tight radius can create dead space that's technically desktop but practically unusable."
+    "explanation": "Measure staff reach and chair movement around inside corners, since a tight radius can create dead space that's technically desktop but practically unusable. With prices in this roundup ranging roughly $170 to $522, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Map Visitor Approach and Queue Positions",
-    "explanation": "Map visitor approach and queue positions so the corner configuration improves rather than blocks circulation in the reception area."
+    "explanation": "Map visitor approach and queue positions so the corner configuration improves rather than blocks circulation in the reception area. Given the real spread here, from about $170 up to $522, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Left/Right Handing",
-    "explanation": "Verify left/right handing or module orientation and whether it can be changed after purchase, since a corner desk's orientation is often fixed once built."
+    "explanation": "Verify left/right handing or module orientation and whether it can be changed after purchase, since a corner desk's orientation is often fixed once built. Across this comparison's $170 to $522 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Place Storage to Avoid Dead Zones",
-    "explanation": "Place storage, printers, pedestals, and transaction counters on the drawing to expose dead zones and door or drawer conflicts before finalizing the layout."
+    "explanation": "Place storage, printers, pedestals, and transaction counters on the drawing to expose dead zones and door or drawer conflicts before finalizing the layout. Products at the low end near $170 and the high end near $522 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Does a cable grommet hole guarantee tidy cable management?",
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-curved-reception-desks","title":"best-curved-reception-desks"},{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"}];

@@ -1,7 +1,7 @@
 export const guideSlug = "best-rectangular-conference-tables";
 export const guideTitle = "8 Best Rectangular Conference Tables in 2026";
 export const metaTitle = "Best Rectangular Conference Tables 2026";
-export const metaDescription = "We compared rectangular conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared rectangular conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or.";
 export const mainKeyword = "rectangular conference tables";
 export const introParagraphs = [
   "A rectangular conference tables table's geometry changes seat positions, sightlines, and base interference more than a simple rectangular table, but most listings only publish a single headline dimension.",
@@ -199,28 +199,72 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm the Shape Fits the Room",
     "note": "Measure the full bounding box the shape occupies, since curved or angled tables often need more total floor space than their headline length suggests."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.99",
+          "Tribesigns 6.5FT Conference Table"
+        ],
+        [
+          "Around $179.99",
+          "Tribesigns 6.5FT Rectangle Conference Table (Table Only)"
+        ],
+        [
+          "Around $229.99",
+          "ECACAD 7FT Conference Table"
+        ],
+        [
+          "Around $349.99",
+          "Tribesigns 8ft Conference Table for 10"
+        ],
+        [
+          "Around $350.00",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $389.99",
+          "Tribesigns 8ft Conference Table for 8-10"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Understand the Shape's Actual Geometry",
-    "explanation": "Get the rectangular conference tables's full footprint at its widest and narrowest points, not just a single headline dimension, since a shaped table's usable area varies more than a simple rectangle's."
+    "explanation": "Get the rectangular conference tables's full footprint at its widest and narrowest points, not just a single headline dimension, since a shaped table's usable area varies more than a simple rectangle's. This matters in practice because the picks in this comparison span from about $160 to $390, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Map Seat Positions to the Shape",
-    "explanation": "Check where the shape naturally creates seat positions and where it creates dead space, since curves and angles don't distribute usable edge evenly."
+    "explanation": "Check where the shape naturally creates seat positions and where it creates dead space, since curves and angles don't distribute usable edge evenly. With prices in this roundup ranging roughly $160 to $390, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Sightlines Around the Shape",
-    "explanation": "Confirm the shape actually improves eye contact and sightlines between participants, which is the main reason to choose a non-rectangular table over a straight one."
+    "explanation": "Confirm the shape actually improves eye contact and sightlines between participants, which is the main reason to choose a non-rectangular table over a straight one. Given the real spread here, from about $160 up to $390, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Base Interference With the Shape",
-    "explanation": "Confirm pedestal or leg placement doesn't intrude into knee space at the shape's tightest points, particularly at curves or corners."
+    "explanation": "Confirm pedestal or leg placement doesn't intrude into knee space at the shape's tightest points, particularly at curves or corners. Across this comparison's $160 to $390 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm the Shape Fits the Room",
-    "explanation": "Measure the full bounding box the shape occupies, since curved or angled tables often need more total floor space than their headline length suggests."
+    "explanation": "Measure the full bounding box the shape occupies, since curved or angled tables often need more total floor space than their headline length suggests. Products at the low end near $160 and the high end near $390 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -245,6 +289,8 @@ export const faq = [
     "q": "Why do some conference tables ship in more than one box?",
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"},{"href":"/guide/best-round-conference-tables","title":"Best Round Conference Tables in 2026"}];

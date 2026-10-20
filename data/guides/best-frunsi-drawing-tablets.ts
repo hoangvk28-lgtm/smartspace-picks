@@ -59,7 +59,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/5113YGxzkgL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FKFZQHL1?tag=deskfinds0d-20",
-    description: "A 12-inch Full HD display with full lamination minimizes parallax between stylus and screen, paired with an anti-glare coating for a genuinely paper-like feel. The tablet comes loaded with top-tier drawing and animation apps including Sketchbook, Krita, Infinite Painter, and Flipaclip. Four bonus items worth noting ship included: a tablet case, drawing glove, universal power adapter, and pre-applied screen protector. An octa-core CPU with 6GB RAM and 128GB storage ensures smooth performance across creative tasks and general entertainment use.",
+    description: "A 12-inch Full HD display with full lamination minimizes parallax between stylus and screen, paired with an anti-glare coating for a genuinely paper-like feel. The tablet comes loaded with top-tier drawing and animation apps including Sketchbook, Krita, Infinite Painter, and Flipaclip. Four bonus items worth noting ship included: a tablet case, drawing glove, universal power adapter, and pre-applied screen protector. An octa-core CPU with 6GB RAM and 128GB storage ensures smooth performance across creative tasks and general entertainment use.\n\nThe strongest case for this pick comes down to ships preloaded with genuinely capable apps like Krita as well as four bonus items worth a stated $50 included. The compromise here is that 128GB storage is fixed with no stated expansion, so factor that in alongside the $224.95 asking price.",
     specs: ["12in Full HD, full-laminated screen","6GB RAM, 128GB storage","Preloaded: Sketchbook, Krita, Infinite Painter"],
     pros: ["Ships preloaded with genuinely capable apps like Krita","Four bonus items worth a stated $50 included","Full lamination minimizes parallax for accurate strokes"],
     cons: ["128GB storage is fixed with no stated expansion","Octa-core CPU is modest next to flagship standalone tablets"],
@@ -135,28 +135,56 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check App Ecosystem and File Transfer",
     "note": "Verify which drawing apps are pre-installed or downloadable, plus how files transfer or back up off the device."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $161.49",
+          "Frunsi T8 Standalone Drawing Tablet 8inch Drawing Tablet No Computer Needed"
+        ],
+        [
+          "Around $199.95",
+          "Frunsi RubensTab T11 Pro standalone Drawing Tablet"
+        ],
+        [
+          "Around $224.95",
+          "RubensTab T12 Standalone Drawing Tablet"
+        ],
+        [
+          "Around $284.95",
+          "RubensTab T14 Drawing Tablet No Computer Needed"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
   {
     "criterion": "Confirm It Draws With Zero Computer Connection",
-    "explanation": "Verify frunsi drawing tablets genuinely operates standalone and publish its exact operating system and version."
+    "explanation": "Verify frunsi drawing tablets genuinely operates standalone and publish its exact operating system and version. Across this comparison's $161 to $285 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Real Processor and Storage Specs",
-    "explanation": "Compare CPU core count, RAM, and storage (plus expansion) rather than judging by screen size alone."
+    "explanation": "Compare CPU core count, RAM, and storage (plus expansion) rather than judging by screen size alone. Products at the low end near $161 and the high end near $285 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Real Battery Runtime",
-    "explanation": "Check battery capacity and realistic runtime under actual drawing brightness and app use, not an idle-only figure."
+    "explanation": "Check battery capacity and realistic runtime under actual drawing brightness and app use, not an idle-only figure. This matters in practice because the picks in this comparison span from about $161 to $285, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Pen Latency and Palm Rejection",
-    "explanation": "Confirm pen response and palm rejection behavior inside major drawing apps, not just the pressure-level spec."
+    "explanation": "Confirm pen response and palm rejection behavior inside major drawing apps, not just the pressure-level spec. With prices in this roundup ranging roughly $161 to $285, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check App Ecosystem and File Transfer",
-    "explanation": "Verify which drawing apps are pre-installed or downloadable, plus how files transfer or back up off the device."
+    "explanation": "Verify which drawing apps are pre-installed or downloadable, plus how files transfer or back up off the device. Given the real spread here, from about $161 up to $285, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -181,6 +209,8 @@ export const faq = [
     "q": "Is a screenless pen tablet harder to learn than one with a screen?",
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
+,
+  { q: "Which pick in this comparison is the best overall choice?", a: "Frunsi T8 Standalone Drawing Tablet 8inch Drawing Tablet No Computer Needed is aimed at buyers prioritizing 8in display, android 13, standalone." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets-with-screens","title":"Best Drawing Tablets With Screens in 2026"}];
