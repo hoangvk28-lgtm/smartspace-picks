@@ -1,8 +1,7 @@
 export const guideSlug = "best-portrait-mode-portable-monitors";
 export const guideTitle = "8 Best Portrait-Mode Portable Monitors in 2026";
-export const metaTitle = "Best Portrait-Mode Portable Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we checked specifically for genuine portrait rotation support, since not every stand actually rotates and most listings require manually toggling orientation in your OS settings, not automatic sensing.";
+export const metaTitle = "Best Portrait-Mode Portable Monitors";
+export const metaDescription = "8 portable monitors we checked specifically for genuine portrait rotation support, since not every stand actually rotates and most listings require manually.";
 export const mainKeyword = "vertical portable monitor";
 export const introParagraphs = [
   "Not every stand bundled with a \"portrait-capable\" portable monitor physically supports 90-degree rotation, some fold-out cases have fixed landscape-only viewing angles. Genuine portrait support needs either a rotating stand hinge or a VESA arm. We verified which picks below actually rotate versus which just claim portrait-mode software support without a stand that follows.",
@@ -31,7 +30,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41h7EpKDjyL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D95P19CT?tag=deskfinds0d-20",
     description: "This built-in aluminum stand genuinely adjusts from 0-75 degrees and explicitly supports portrait mode, a real hinge-based rotation rather than a fixed-angle cover. Its 16:10 aspect ratio gives roughly 11% more vertical content than a 15.6-inch 16:9 panel even before rotating, useful for reading long documents in landscape too.\n\nIt earns the top spot in this comparison over FLYTOCCA Portable Monitor for one main reason. Genuine hinge-based portrait rotation, not just a fixed cover. On price, it's actually priced above FLYTOCCA Portable Monitor, which is worth weighing if cost is your deciding factor between the two.\n\nWorth knowing before you decide: 16:10 ratio gives extra vertical space even in landscape. On the other side, Portrait mode reduces horizontal pixels to 1200, cramped for wide spreadsheets. That's the main tradeoff to weigh against everything above.",
-    specs: ["16-inch 1920x1200, 16:10, portrait-capable stand","Stand adjusts 0°-75°","Dual USB-C + mini-HDMI","1.58 lb"],
+    specs: ["16-inch 1920x1200, 16:10, portrait-capable stand","Stand adjusts 0 degrees-75 degrees","Dual USB-C + mini-HDMI","1.58 lb"],
     pros: ["Genuine hinge-based portrait rotation, not just a fixed cover","16:10 ratio gives extra vertical space even in landscape","Aluminum build","Reasonable price"],
     cons: ["No auto-rotate sensor, manual OS toggle required","Modest review base","Portrait mode reduces horizontal pixels to 1200, cramped for wide spreadsheets"],
     bestFor: "Buyers who want a genuinely rotating stand and don't mind manually toggling orientation",
@@ -39,16 +38,16 @@ export const products: GuideProduct[] = [
   {
     id: "flytocca-16-portrait",
     rank: 2,
-    badge: "Best 360° Rotating Stand",
+    badge: "Best 360 degrees Rotating Stand",
     name: "FLYTOCCA Portable Monitor, 16 Inch FHD 1200P, Horizontal/Vertical Monitor",
     price: "$74.94",
     rating: "4.3 stars from 541 Amazon ratings",
     reviews: "541 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/410ssUZzq7L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DQGQW8YH?tag=deskfinds0d-20",
-    description: "This listing is unusually direct about the auto-rotate limitation: its own product description explicitly states \"auto-rotation is not supported\" and instructs you to manually adjust display orientation in your laptop settings, exactly the disclosure most competitors bury or omit. The stand itself does genuinely rotate 360 degrees between landscape and portrait.\n\nOne spot below Veout 16\" Portable Monitor for Laptop in this ranking, it's priced lower than Veout 16\" Portable Monitor for Laptop. The compromise here is straightforward: No auto-rotate sensor, confirmed manual OS toggle required. What you gain in return: Explicitly discloses the manual-toggle auto-rotate limitation upfront. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Genuine 360° rotating stand. On the other side, Modest review base. That's the main tradeoff to weigh against everything above.",
-    specs: ["16-inch FHD 1200P, 360° rotating stand","Dual USB-C + HDMI + USB-A","Built-in speakers + 3.5mm jack","1.62 lb"],
-    pros: ["Explicitly discloses the manual-toggle auto-rotate limitation upfront","Genuine 360° rotating stand","Built-in speakers and headphone jack","Reasonable price"],
+    description: "This listing is unusually direct about the auto-rotate limitation: its own product description explicitly states \"auto-rotation is not supported\" and instructs you to manually adjust display orientation in your laptop settings, exactly the disclosure most competitors bury or omit. The stand itself does genuinely rotate 360 degrees between landscape and portrait.\n\nOne spot below Veout 16\" Portable Monitor for Laptop in this ranking, it's priced lower than Veout 16\" Portable Monitor for Laptop. The compromise here is straightforward: No auto-rotate sensor, confirmed manual OS toggle required. What you gain in return: Explicitly discloses the manual-toggle auto-rotate limitation upfront. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Genuine 360 degrees rotating stand. On the other side, Modest review base. That's the main tradeoff to weigh against everything above.",
+    specs: ["16-inch FHD 1200P, 360 degrees rotating stand","Dual USB-C + HDMI + USB-A","Built-in speakers + 3.5mm jack","1.62 lb"],
+    pros: ["Explicitly discloses the manual-toggle auto-rotate limitation upfront","Genuine 360 degrees rotating stand","Built-in speakers and headphone jack","Reasonable price"],
     cons: ["No auto-rotate sensor, confirmed manual OS toggle required","Speaker direction changes when rotated to portrait","Modest review base"],
     bestFor: "Buyers who appreciate upfront honesty about the manual rotation limitation",
   },
@@ -63,8 +62,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/516bgjlqsGL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GN697Y3C?tag=deskfinds0d-20",
     description: "A detachable 360-degree rotating stand doubles as a mouse pad when removed, a genuinely useful dual-purpose design not seen elsewhere in this guide. Like the FLYTOCCA pick, manual OS orientation toggling is required, no auto-rotate sensor here either.\n\nSitting just under FLYTOCCA Portable Monitor, it costs more than FLYTOCCA Portable Monitor. Here's the honest tradeoff: Manual OS toggle required, no auto-rotate sensor. And here's what it gets you instead: Highest rating among the portrait-focused picks. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Detachable stand doubles as a mouse pad. On the other side, 1200P resolution, not the sharpest option. That's the main tradeoff to weigh against everything above.",
-    specs: ["16-inch 1200P FHD, detachable 360° stand","Smart cover doubles as mouse pad","Type-C or HDMI+USB-A connection","1.5 lb"],
-    pros: ["Highest rating among the portrait-focused picks","Detachable stand doubles as a mouse pad","Genuine 360° rotation","Light and slim"],
+    specs: ["16-inch 1200P FHD, detachable 360 degrees stand","Smart cover doubles as mouse pad","Type-C or HDMI+USB-A connection","1.5 lb"],
+    pros: ["Highest rating among the portrait-focused picks","Detachable stand doubles as a mouse pad","Genuine 360 degrees rotation","Light and slim"],
     cons: ["Manual OS toggle required, no auto-rotate sensor","Smaller review base","1200P resolution, not the sharpest option"],
     bestFor: "Buyers who want a detachable, dual-purpose rotating stand",
   },
@@ -79,7 +78,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414VyKmpPFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXX3416Q?tag=deskfinds0d-20",
     description: "This newer KYY model's integrated kickstand supports 65-degree forward/back tilt and a full 90-degree rotation for landscape-to-portrait switching without unplugging cables, a genuinely convenient mechanical design. A single circular control button also manages brightness and volume without digging into an OSD menu.\n\nRanked just behind Orfibz 16\" Portable Monitor, it's priced lower than Orfibz 16\" Portable Monitor. The real tradeoff against that pick: Still requires manual OS orientation toggle. In exchange, it offers this instead: Rotates without unplugging cables. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: One-button control for quick brightness/volume adjustment. On the other side, Mini-HDMI only. That's the main tradeoff to weigh against everything above.",
-    specs: ["15.6-inch, 65° tilt + 90° rotation stand","One-button brightness/volume control","Dual USB-C + mini-HDMI","1.65 lb, aluminum alloy"],
+    specs: ["15.6-inch, 65 degrees tilt + 90 degrees rotation stand","One-button brightness/volume control","Dual USB-C + mini-HDMI","1.65 lb, aluminum alloy"],
     pros: ["Rotates without unplugging cables","One-button control for quick brightness/volume adjustment","Aluminum build quality","Highest rating among the newer picks"],
     cons: ["Still requires manual OS orientation toggle","Smaller review count reflects a newer listing","Mini-HDMI only"],
     bestFor: "Buyers who want the most convenient physical rotation mechanism with cable-free switching",
@@ -143,7 +142,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bADiNA5RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5YRPXTV?tag=deskfinds0d-20",
     description: "This listing explicitly mentions switching freely between landscape and portrait via its 0-120 degree adjustable stand, useful for multitasking layouts. Its very small review count reflects a newer, lower-volume listing, weigh that against the otherwise solid 1920x1200 spec and 165Hz claim.\n\nOne spot below VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz in this ranking, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. The compromise here is straightforward: Very small review count, limited track record. What you gain in return: Explicit landscape/portrait switching via adjustable stand. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 165Hz refresh claim at a budget price. On the other side, No auto-rotate sensor confirmed. That's the main tradeoff to weigh against everything above.",
-    specs: ["16-inch 165Hz, 1920x1200, 0°-120° adjustable stand","133% sRGB, HDR","2x USB-C + mini HDMI","1.5 lb"],
+    specs: ["16-inch 165Hz, 1920x1200, 0 degrees-120 degrees adjustable stand","133% sRGB, HDR","2x USB-C + mini HDMI","1.5 lb"],
     pros: ["Explicit landscape/portrait switching via adjustable stand","165Hz refresh claim at a budget price","Built-in speakers","Lightweight"],
     cons: ["Very small review count, limited track record","Mini HDMI only","No auto-rotate sensor confirmed"],
     bestFor: "Buyers who want a budget high-refresh panel with confirmed portrait stand adjustability",
@@ -152,7 +151,7 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "Genuine rotating stand vs. fixed-angle cover repositioning", description: "Distinguished picks with a real rotating hinge or 360° bracket from ones where 'portrait support' just means repositioning a fixed-angle folio cover." },
+  { title: "Genuine rotating stand vs. fixed-angle cover repositioning", description: "Distinguished picks with a real rotating hinge or 360 degrees bracket from ones where 'portrait support' just means repositioning a fixed-angle folio cover." },
   { title: "Auto-rotate sensor versus manual OS toggle", description: "Checked whether each listing claims an automatic orientation sensor or explicitly requires manually changing the display orientation setting after physically rotating the stand, most require the manual toggle." },
   { title: "Effective horizontal resolution once rotated", description: "Calculated the usable horizontal pixel width in portrait mode for each panel, since rotating a display trades total horizontal pixels for vertical length." },
 ];
@@ -287,7 +286,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Will my portable monitor automatically switch to portrait orientation when I rotate it?", a: "Almost certainly not. Most portable monitors, including several in this guide that state it explicitly, require you to manually change the display orientation setting in your operating system after physically rotating the stand." },
-  { q: "Do all portrait-mode portable monitors have a rotating stand?", a: "No. Some listings achieve portrait mode by repositioning a fixed-angle folio cover rather than using a genuine rotating hinge or 360° bracket. Check the stand mechanism specifically before assuming smooth rotation." },
+  { q: "Do all portrait-mode portable monitors have a rotating stand?", a: "No. Some listings achieve portrait mode by repositioning a fixed-angle folio cover rather than using a genuine rotating hinge or 360 degrees bracket. Check the stand mechanism specifically before assuming smooth rotation." },
   { q: "How much horizontal space do I lose in portrait mode?", a: "It depends on the panel's native resolution. A 2560x1600 panel still gives you 1600 pixels wide in portrait, while a 1920x1080 panel only gives 1080 pixels wide, a meaningfully cramped difference for code or document work." },
   { q: "Will the built-in speakers still sound good in portrait mode?", a: "Not as good as in landscape. Speakers designed to fire toward you in landscape orientation end up firing sideways once rotated to portrait, which measurably reduces perceived volume and clarity." },
 ];

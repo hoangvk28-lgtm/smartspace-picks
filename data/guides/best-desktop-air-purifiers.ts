@@ -1,8 +1,7 @@
 export const guideSlug = "best-desktop-air-purifiers";
 export const guideTitle = "5 Best Desktop Air Purifiers in 2026";
-export const metaTitle = "Best Desktop Air Purifiers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 desktop-placed air purifiers we evaluated, with the proximity consideration competitors skip: sitting within a user's direct breathing zone makes close-range noise and airflow-on-skin sensation more perceptible than for room-corner-placed units.";
+export const metaTitle = "Best Desktop Air Purifiers";
+export const metaDescription = "5 desktop-placed air purifiers we evaluated, with the proximity consideration competitors skip: sitting within a user's direct breathing zone makes close-range.";
 export const mainKeyword = "desktop air purifier";
 export const introParagraphs = [
   "Desktop-placed purifiers sit within a user's direct breathing zone, making close-range noise and airflow-on-skin sensation, dry eyes, cold draft, more perceptible than for room-corner-placed units, a proximity-specific comfort factor worth weighing.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "voopnu-desktop",
     rank: 1,
     badge: "Best Desktop Air Purifier Overall",
-    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft², White",
+    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
     rating: "4.5 stars from 4,026 Amazon ratings",
     reviews: "4,026 ratings",

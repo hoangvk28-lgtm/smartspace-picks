@@ -1,8 +1,7 @@
 export const guideSlug = "best-quad-screen-laptop-extenders";
 export const guideTitle = "5 Best Quad-Screen Laptop Extenders in 2026";
-export const metaTitle = "Best Quad-Screen Laptop Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 quad-screen laptop extenders we evaluated, with an honest note about total port bandwidth: driving four panels at once can exceed what a single USB-C port supports at full resolution.";
+export const metaTitle = "Best Quad-Screen Laptop Extenders";
+export const metaDescription = "5 quad-screen laptop extenders we evaluated, with an honest note about total port bandwidth: driving four panels at once can exceed what a single USB-C port.";
 export const mainKeyword = "quad-screen laptop extender";
 export const introParagraphs = [
   "Driving four panels simultaneously can exceed what a single USB-C or HDMI port supports at full resolution, worth verifying total bandwidth requirements rather than assuming any quad-panel design runs all four screens at their maximum resolution together.",

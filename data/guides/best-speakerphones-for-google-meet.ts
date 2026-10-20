@@ -1,8 +1,7 @@
 export const guideSlug = "best-speakerphones-for-google-meet";
 export const guideTitle = "5 Best Speakerphones for Google Meet in 2026";
-export const metaTitle = "Best Speakerphones for Google Meet, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 speakerphones we evaluated for Google Meet, including which carry genuine Google Meet hardware certification versus general USB compatibility that works but isn't specifically tested.";
+export const metaTitle = "Best Speakerphones for Google Meet";
+export const metaDescription = "5 speakerphones we evaluated for Google Meet, including which carry genuine Google Meet hardware certification versus general USB compatibility that works but.";
 export const mainKeyword = "speakerphone for Google Meet";
 export const introParagraphs = [
   "Google Meet hardware certification confirms a device has been specifically tested against Google's audio pipeline, general USB or Bluetooth compatibility works for most calls too, but a certified device has a stronger tested guarantee for consistent call quality.",
@@ -75,24 +74,24 @@ export const products: GuideProduct[] = [
     id: "emeet-m0plus-meet",
     rank: 4,
     badge: "Best Budget Pick for Google Meet",
-    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360° Voice Pickup",
+    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
     rating: "4.3 stars from 1,596 Amazon ratings",
     reviews: "1,596 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
-      "4 mics with 360° voice pickup at a genuinely affordable price, works with Google Meet over standard USB/Bluetooth without formal certification. Solid review base gives real-world confidence at this budget tier.\n\n360° pickup suits a small round table, verify it fits your specific meeting space shape before buying.\n\nSolid review base for the price. That's a real strength, but weigh it against the flip side: no specific Google Meet certification.",
-    specs: ["4 mics, 360° voice pickup", "General Google Meet compatibility", "USB and Bluetooth connectivity", "Budget-friendly"],
-    pros: ["Very affordable for a 4-mic design", "Solid review base for the price", "Works reliably with Google Meet over standard USB/Bluetooth", "360° pickup suits a small round table"],
-    cons: ["No specific Google Meet certification", "Fewer premium features than certified picks", "360° pickup less directional for narrow tables"],
+      "4 mics with 360 degrees voice pickup at a genuinely affordable price, works with Google Meet over standard USB/Bluetooth without formal certification. Solid review base gives real-world confidence at this budget tier.\n\n360 degrees pickup suits a small round table, verify it fits your specific meeting space shape before buying.\n\nSolid review base for the price. That's a real strength, but weigh it against the flip side: no specific Google Meet certification.",
+    specs: ["4 mics, 360 degrees voice pickup", "General Google Meet compatibility", "USB and Bluetooth connectivity", "Budget-friendly"],
+    pros: ["Very affordable for a 4-mic design", "Solid review base for the price", "Works reliably with Google Meet over standard USB/Bluetooth", "360 degrees pickup suits a small round table"],
+    cons: ["No specific Google Meet certification", "Fewer premium features than certified picks", "360 degrees pickup less directional for narrow tables"],
     bestFor: "Budget-conscious buyers who want a solid 4-mic option for Google Meet",
   },
   {
     id: "emeet-m1a-meet",
     rank: 5,
     badge: "Simplest Plug-and-Play Pick",
-    name: "EMEET M1A USB Speakerphone, Built-in Mics, 360° Voice Pickup, Plug&Play",
+    name: "EMEET M1A USB Speakerphone, Built-in Mics, 360 degrees Voice Pickup, Plug&Play",
     price: "$63.99",
     rating: "4.4 stars from 435 Amazon ratings",
     reviews: "435 ratings",
@@ -100,9 +99,9 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description:
       "A genuinely simple USB plug-and-play design, works with Google Meet's browser-based audio without any specific setup, appropriate if you just need reliable basic call audio for occasional Meet calls.\n\nSolid rating base for the price, though it lacks the explicit platform certification of the top picks in this guide.\n\nWorth calling out specifically: solid rating base for the price. The catch is no specific Google Meet certification.",
-    specs: ["USB plug-and-play, 360° voice pickup", "Built-in microphones", "Compact design", "Budget-friendly"],
+    specs: ["USB plug-and-play, 360 degrees voice pickup", "Built-in microphones", "Compact design", "Budget-friendly"],
     pros: ["Simple USB plug-and-play setup", "Solid rating base for the price", "Compact, easy to store", "Works reliably with Google Meet's browser audio"],
-    cons: ["No specific Google Meet certification", "Fewer premium features than the certified picks", "360° pickup less directional for narrow tables"],
+    cons: ["No specific Google Meet certification", "Fewer premium features than the certified picks", "360 degrees pickup less directional for narrow tables"],
     bestFor: "Buyers who want a simple, affordable USB speakerphone for occasional Google Meet calls",
   },
 ];

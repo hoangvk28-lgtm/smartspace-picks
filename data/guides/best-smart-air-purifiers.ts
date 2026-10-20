@@ -1,8 +1,7 @@
 export const guideSlug = "best-smart-air-purifiers";
 export const guideTitle = "5 Best Smart Air Purifiers in 2026";
-export const metaTitle = "Best Smart Air Purifiers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 smart air purifiers we evaluated, with the accuracy gap competitors skip: built-in air quality sensors vary significantly in accuracy and are rarely verified against a reference-grade monitor, so auto-mode decisions are only as good as the underlying sensor.";
+export const metaTitle = "Best Smart Air Purifiers";
+export const metaDescription = "5 smart air purifiers we evaluated, with the accuracy gap competitors skip: built-in air quality sensors vary significantly in accuracy and are rarely verified.";
 export const mainKeyword = "smart air purifier";
 export const introParagraphs = [
   "Built-in air quality sensors vary significantly in accuracy and are rarely verified against a reference-grade monitor, a smart purifier's auto-mode decisions are only as good as its underlying sensor accuracy, an unverified assumption in most reviews.",
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-smartalt",
     rank: 2,
     badge: "Best Air Quality Monitor Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-white-smartalt2",
     rank: 3,
     badge: "Best White Finish Alternative",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -92,7 +91,7 @@ export const products: GuideProduct[] = [
     id: "levoit-washable-smartalt4",
     rank: 5,
     badge: "Best Pick with Filter Status Monitoring",
-    name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre-Filter",
+    name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre-Filter",
     price: "$119.99",
     rating: "4.7 stars from 11,367 Amazon ratings",
     reviews: "11,367 ratings",
@@ -159,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Smart, app-connected",
-        "text": "Lets you monitor air quality and adjust fan speed remotely, useful if you want automation or scheduling. In this comparison: LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S, Levoit Air Purifier for Home Pets Bedroom Dorm Room, LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre."
+        "text": "Lets you monitor air quality and adjust fan speed remotely, useful if you want automation or scheduling. In this comparison: LEVOIT Smart Air Purifier for Home Large Room up to 1875 ft Vital 200S, Levoit Air Purifier for Home Pets Bedroom Dorm Room, LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre."
       },
       {
         "label": "Basic manual controls",

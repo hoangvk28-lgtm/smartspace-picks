@@ -1,8 +1,7 @@
 export const guideSlug = "best-multi-gig-wifi-7-routers";
 export const guideTitle = "5 Best Multi-Gig Wi-Fi 7 Routers in 2026";
-export const metaTitle = "Best Multi-Gig Wi-Fi 7 Routers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 multi-gig Wi-Fi 7 routers we evaluated, with the ambiguous-term decode competitors skip: 'multi-gig' spans 2.5GbE, 5GbE, and 10GbE port speeds, and WAN versus LAN port purpose matters as much as the raw speed tier.";
+export const metaTitle = "Best Multi-Gig Wi-Fi 7 Routers";
+export const metaDescription = "5 multi-gig Wi-Fi 7 routers we evaluated, with the ambiguous-term decode competitors skip: 'multi-gig' spans 2.5GbE, 5GbE, and 10GbE port speeds.";
 export const mainKeyword = "multi-gig Wi-Fi 7 router";
 export const introParagraphs = [
   "'Multi-gig' ambiguously spans 2.5GbE, 5GbE, and 10GbE port speeds, worth decoding which specific speed tier each product actually offers rather than treating 'multi-gig' as one uniform spec.",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-be600-multigig",
     rank: 4,
     badge: "Best 10GbE Multi-Gig Pick",
-    name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600), 10G Port, 2.5G Port, 3× 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
+    name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600), 10G Port, 2.5G Port, 3x 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
     price: "$189.99",
     rating: "4.3 stars from 472 Amazon ratings",
     reviews: "472 ratings",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0F76PQ2T8?tag=deskfinds0d-20",
     description:
       "Decoded: genuinely one 10G port plus a separate 2.5G port and three 2.5G LAN ports, distinct speed tiers clearly worth understanding individually rather than one blanket 'multi-gig' claim.\n\nThe 10G port is typically the WAN-capable port here, while the 2.5G LAN ports serve internal transfers, verify the current documentation for exactly which port serves which purpose on your specific setup.\n\nThe standout detail is that full 320MHz 6GHz channel width. Balancing that out, higher price than pure 2.5GbE multi-gig picks.",
-    specs: ["10G port plus 2.5G port and 3×2.5G LAN (decoded, mixed tiers)", "320MHz full 6GHz channel width", "Rated for 2,600 sq ft, 120 devices", "Solid review base"],
+    specs: ["10G port plus 2.5G port and 3x2.5G LAN (decoded, mixed tiers)", "320MHz full 6GHz channel width", "Rated for 2,600 sq ft, 120 devices", "Solid review base"],
     pros: ["Genuinely mixed 10G/2.5G port tiers clearly decoded", "Full 320MHz 6GHz channel width", "Solid review base and rating", "HomeShield security included"],
     cons: ["Higher price than pure 2.5GbE multi-gig picks", "10G port benefit requires a matching 10-gigabit internet plan or device", "Most home internet plans remain under 1Gbps even with this LAN capability"],
     bestFor: "Buyers with a 10-gigabit internet plan or 10GbE device wanting the true top port speed",

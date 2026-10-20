@@ -1,8 +1,7 @@
 export const guideSlug = "best-desktop-whiteboards-for-students";
 export const guideTitle = "5 Best Desktop Whiteboards for Students in 2026";
-export const metaTitle = "Best Desktop Whiteboards for Students (2026)";
-export const metaDescription =
-  "5 whiteboards evaluated for budget, dorm-desk footprint, and durability under repeated study-session erasing, since student needs differ from a home-office setup.";
+export const metaTitle = "Best Desktop Whiteboards for Students";
+export const metaDescription = "5 whiteboards evaluated for budget, dorm-desk footprint, and durability under repeated study-session erasing, with real price-to-size comparisons.";
 export const mainKeyword = "desktop whiteboard for students";
 export const introParagraphs = [
   "Student desks are typically smaller than home-office desks and budgets are tighter, so we weighted price more heavily here than in our other whiteboard guides, while still requiring a genuine review base as evidence of durability under frequent use.",
@@ -129,17 +128,17 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Weigh price heavily given typical student budgets", explanation: "We prioritized affordability across this comparison, since student spending is generally more constrained than a home-office or professional budget." },
-  { criterion: "Check dorm-desk footprint before choosing a larger board", explanation: "Dorm desks are often smaller and shared — measure your actual available space before picking the largest option." },
+  { criterion: "Check dorm-desk footprint before choosing a larger board", explanation: "Dorm desks are often smaller and shared - measure your actual available space before picking the largest option." },
   { criterion: "Consider an organizer for consolidating study materials", explanation: "The Varhomax and Amazon Basics options combine whiteboard and storage, useful on a cramped dorm desk." },
-  { criterion: "Use review volume as evidence of durability under active study use", explanation: "Frequent erasing during study sessions is more demanding than occasional office notes — an established review base is useful evidence." },
-  { criterion: "Compare near-identical large boards by price and rating", explanation: "The AMUSIGHT and Cazeyoo boards are the same size — compare current price and rating to pick between them." },
+  { criterion: "Use review volume as evidence of durability under active study use", explanation: "Frequent erasing during study sessions is more demanding than occasional office notes - an established review base is useful evidence." },
+  { criterion: "Compare near-identical large boards by price and rating", explanation: "The AMUSIGHT and Cazeyoo boards are the same size - compare current price and rating to pick between them." },
 ];
 
 export const faq: FaqItem[] = [
   { q: "What's the cheapest option for students?", a: "The Small Dry Erase Board 10x10 at $8.99." },
   { q: "Which has the most writing area for study notes?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches, or the nearly identical Cazeyoo option at a slightly lower price." },
   { q: "Is there an option with storage for study materials?", a: "Yes, the Varhomax Glass Desk Whiteboard with Storage and the cheaper Amazon Basics alternative." },
-  { q: "Are the AMUSIGHT and Cazeyoo boards different products?", a: "They're the same size (16x12 in) at slightly different prices and ratings — compare the current listings to decide between them." },
+  { q: "Are the AMUSIGHT and Cazeyoo boards different products?", a: "They're the same size (16x12 in) at slightly different prices and ratings - compare the current listings to decide between them." },
   { q: "Which is best for a small dorm desk?", a: "The compact Small Dry Erase Board 10x10, which uses minimal desk space." },
 ];
 

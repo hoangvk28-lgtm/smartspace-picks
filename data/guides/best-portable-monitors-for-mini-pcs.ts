@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-mini-pcs";
 export const guideTitle = "7 Best Portable Monitors for Mini PCs in 2026";
-export const metaTitle = "Best Portable Monitors for Mini PCs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 portable monitors we evaluated for Mini PCs, with a clear read on HDMI 2.0 vs 2.1 bandwidth limits and which picks let you piggyback-mount alongside the Mini PC itself.";
+export const metaTitle = "Best Portable Monitors for Mini PCs";
+export const metaDescription = "7 portable monitors we evaluated for Mini PCs, with a clear read on HDMI 2.0 vs 2.1 bandwidth limits and which picks let you piggyback-mount alongside the Mini.";
 export const mainKeyword = "portable monitor for mini PC";
 export const introParagraphs = [
   "Mini PCs are always mains-powered, so the battery-drain framing common in laptop portable-monitor roundups doesn't apply here, that copy-pasted concern wastes space that should go toward what actually matters: port bandwidth. Many budget Mini PCs (Beelink, budget NUC-style units) ship with HDMI 2.0, not 2.1, capping 4K at 60Hz with no VRR or high-bandwidth support, a real mismatch if you pair one with a 4K120 or 165Hz-rated monitor.",
@@ -46,9 +45,9 @@ export const products: GuideProduct[] = [
     reviews: "10,899 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
-    description: "FreeSync here actually matters for a Mini PC in a way it doesn't for a MacBook, since many budget Mini PCs use AMD-integrated graphics that support variable refresh, worth checking your specific Mini PC's GPU before counting on it. Its 360-degree adjustable VESA bracket is unusually flexible for piggyback mounting alongside a Mini PC.\n\nOne spot below cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. The compromise here is straightforward: FreeSync benefit depends entirely on your Mini PC's specific GPU. What you gain in return: FreeSync can genuinely help on AMD-graphics Mini PCs. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 360° adjustable VESA bracket for flexible piggyback mounting. On the other side, 1080p, not a sharp 2K panel. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","75x75mm VESA, 360° adjustable bracket","Includes sleeve case","Largest review base in this guide"],
-    pros: ["FreeSync can genuinely help on AMD-graphics Mini PCs","360° adjustable VESA bracket for flexible piggyback mounting","Lowest price among the large-screen picks","Largest review base here"],
+    description: "FreeSync here actually matters for a Mini PC in a way it doesn't for a MacBook, since many budget Mini PCs use AMD-integrated graphics that support variable refresh, worth checking your specific Mini PC's GPU before counting on it. Its 360-degree adjustable VESA bracket is unusually flexible for piggyback mounting alongside a Mini PC.\n\nOne spot below cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. The compromise here is straightforward: FreeSync benefit depends entirely on your Mini PC's specific GPU. What you gain in return: FreeSync can genuinely help on AMD-graphics Mini PCs. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: 360 degrees adjustable VESA bracket for flexible piggyback mounting. On the other side, 1080p, not a sharp 2K panel. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","75x75mm VESA, 360 degrees adjustable bracket","Includes sleeve case","Largest review base in this guide"],
+    pros: ["FreeSync can genuinely help on AMD-graphics Mini PCs","360 degrees adjustable VESA bracket for flexible piggyback mounting","Lowest price among the large-screen picks","Largest review base here"],
     cons: ["FreeSync benefit depends entirely on your Mini PC's specific GPU","125% sRGB unverified against a colorimeter","1080p, not a sharp 2K panel"],
     bestFor: "Budget-focused Mini PC users, especially those with AMD-integrated graphics that support FreeSync",
   },

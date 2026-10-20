@@ -1,7 +1,7 @@
 export const guideSlug = "best-lenovo-usb-c-ethernet-adapters";
 export const guideTitle = "Best Lenovo USB-C Ethernet Adapters in 2026";
 export const metaTitle = "Best Lenovo USB-C Ethernet Adapters";
-export const metaDescription = "Lenovo and ThinkPad Options both sell OEM Gigabit adapters with minimal published specs. Here's what we could verify.";
+export const metaDescription = "Lenovo and ThinkPad Options both sell OEM Gigabit adapters with minimal published specs, which complicates comparison. Here's what we could actually verify.";
 export const mainKeyword = "lenovo usb-c ethernet adapters";
 export const introParagraphs = [
   "Lenovo's current USB-C Ethernet options on Amazon come from two related listings, a ThinkPad Options-branded adapter and a Lenovo-branded one, both with notably thin published specifications compared to third-party competitors.",

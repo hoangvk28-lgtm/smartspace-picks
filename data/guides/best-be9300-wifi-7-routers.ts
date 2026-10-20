@@ -1,8 +1,7 @@
 export const guideSlug = "best-be9300-wifi-7-routers";
 export const guideTitle = "5 Best BE9300 Wi-Fi 7 Routers in 2026";
-export const metaTitle = "Best BE9300 Wi-Fi 7 Routers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 BE9300 Wi-Fi 7 routers we evaluated, the common flagship tri-band tier, with the per-vendor MLO maturity check competitors skip: different manufacturers' chipset implementations vary meaningfully even under the same BE9300 designation.";
+export const metaTitle = "Best BE9300 Wi-Fi 7 Routers";
+export const metaDescription = "5 BE9300 Wi-Fi 7 routers we evaluated, the common flagship tri-band tier, with the per-vendor MLO maturity check competitors skip: different manufacturers'.";
 export const mainKeyword = "BE9300 Wi-Fi 7 router";
 export const introParagraphs = [
   "BE9300 is a common flagship tri-band spec, and this tier genuinely includes a real 6GHz radio with a reasonable channel width up to 320MHz, a meaningful positive contrast against the dual-band limitations found at the entry BE3600/BE6500 tiers.",
@@ -66,7 +65,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0FB8X43KJ?tag=deskfinds0d-20",
     description:
       "Five full 2.5G ports is a genuine differentiator at this tier, appropriate for a buyer with multiple wired multi-gig devices like a NAS, workstation, or additional switch to connect.\n\nGL.iNet's more technical, VPN-focused firmware appeals to buyers wanting deeper configuration control, verify MLO implementation maturity specifically for this chipset given per-vendor variation at this tier.\n\nStrong VPN configuration options. Set against that, less mainstream brand recognition than TP-Link or NETGEAR. Both matter when comparing it to the other picks here.",
-    specs: ["Genuine tri-band, 5×2.5G ports", "VPN-focused firmware", "More technical configuration options", "Solid review base"],
+    specs: ["Genuine tri-band, 5x2.5G ports", "VPN-focused firmware", "More technical configuration options", "Solid review base"],
     pros: ["Five 2.5G ports, more than typical for this tier", "Strong VPN configuration options", "Solid review base and rating", "Appeals to technical buyers wanting configuration depth"],
     cons: ["Less mainstream brand recognition than TP-Link or NETGEAR", "Interface complexity may not suit less technical buyers", "MLO implementation maturity should be verified per current firmware"],
     bestFor: "Technical buyers with multiple wired multi-gig devices to connect",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-be600",
     rank: 4,
     badge: "Best Step-Up Pick Toward BE19000",
-    name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600), 10G Port, 2.5G Port, 3× 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
+    name: "TP-Link Tri-Band BE9700 WiFi 7 Router (Archer BE600), 10G Port, 2.5G Port, 3x 2.5G LAN, 320MHz Channel, Covers up to 2,600 sq. ft., 120 Devices, VPN, HomeShield Security",
     price: "$189.99",
     rating: "4.3 stars from 472 Amazon ratings",
     reviews: "472 ratings",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0F76PQ2T8?tag=deskfinds0d-20",
     description:
       "Technically a BE9700, included here as a genuine step-up option offering the full 320MHz 6GHz channel width, addressing the very channel-width cap concern that limits some BE6500/BE9300-tier products.\n\nA 10G port is a real differentiator for a buyer with 10-gigabit internet or a 10GbE NAS setup, worth the modest price premium over standard BE9300 picks if that infrastructure matters to you.\n\nThe standout detail is that 10G port for 10-gigabit internet or NAS setups. Balancing that out, technically a step above BE9300 branding.",
-    specs: ["Genuine tri-band, full 320MHz 6GHz channel width", "10G port plus 2.5G port and 3×2.5G LAN", "Rated for 2,600 sq ft, 120 devices", "HomeShield security included"],
+    specs: ["Genuine tri-band, full 320MHz 6GHz channel width", "10G port plus 2.5G port and 3x2.5G LAN", "Rated for 2,600 sq ft, 120 devices", "HomeShield security included"],
     pros: ["Full 320MHz 6GHz channel width, no capped-tier limitation", "10G port for 10-gigabit internet or NAS setups", "Largest rated coverage and device count in this guide", "Solid review base and rating"],
     cons: ["Technically a step above BE9300 branding", "Higher price than pure BE9300-tier picks", "10G port benefit only matters with matching infrastructure"],
     bestFor: "Buyers wanting the full 320MHz 6GHz channel width and a 10G port",

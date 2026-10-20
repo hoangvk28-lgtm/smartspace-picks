@@ -1,8 +1,7 @@
 export const guideSlug = "best-battery-powered-video-lighting";
 export const guideTitle = "5 Best Battery-Powered Video Lighting in 2026";
-export const metaTitle = "Best Battery-Powered Video Lighting, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 battery-powered video lights we evaluated, with the runtime-at-brightness math competitors skip: a light's stated battery life is usually measured at a low brightness setting, real runtime at full brightness is shorter.";
+export const metaTitle = "Best Battery-Powered Video Lighting";
+export const metaDescription = "5 battery-powered video lights we evaluated, with the runtime-at-brightness math competitors skip: a light's stated battery life is usually measured at a low.";
 export const mainKeyword = "battery powered video lighting";
 export const introParagraphs = [
   "A battery-powered light's stated runtime is usually measured at a low or medium brightness setting, running at full brightness for a demanding video call will drain the battery notably faster than the headline runtime figure suggests.",
@@ -75,16 +74,16 @@ export const products: GuideProduct[] = [
     id: "anautin-battery",
     rank: 4,
     badge: "Best Budget Portable Battery Pick",
-    name: "Anautin Ring Light for Video Conference Lighting,360°Adjustable,Portable LED Video Conference Lighting for Monitor,Laptop&Desktop Computer,Streaming Light for Zoom Meetings, Selfie Makeup, Video Calls",
+    name: "Anautin Ring Light for Video Conference Lighting,360 degreesAdjustable,Portable LED Video Conference Lighting for Monitor,Laptop&Desktop Computer,Streaming Light for Zoom Meetings, Selfie Makeup, Video Calls",
     price: "$10.60",
     rating: "4.4 stars from 152 Amazon ratings",
     reviews: "152 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41P6ZIeAUXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLPR9ZBK?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide, genuinely portable design suited to cord-free use across monitor, laptop, and desktop setups. 360° adjustability lets you angle for the best light direction.\\n\\nModest review base, but a solid rating for the price given the portability this offers.\n\nCompared with the Video Conference Lighting Kit above, this pick trades some of that pick's proven track record for a different balance of price and features, worth weighing against your own video call setup.\n\nGenuinely portable, cord-free. That's a real strength, but weigh it against the flip side: modest review base.",
-    specs: ["Ring light, 360° adjustable","Portable, cord-free design","Clip-on mount","Most affordable pick in this guide"],
-    pros: ["Most affordable pick in this guide","Genuinely portable, cord-free","360° adjustability","Solid rating for the price"],
+      "The most affordable pick in this guide, genuinely portable design suited to cord-free use across monitor, laptop, and desktop setups. 360 degrees adjustability lets you angle for the best light direction.\\n\\nModest review base, but a solid rating for the price given the portability this offers.\n\nCompared with the Video Conference Lighting Kit above, this pick trades some of that pick's proven track record for a different balance of price and features, worth weighing against your own video call setup.\n\nGenuinely portable, cord-free. That's a real strength, but weigh it against the flip side: modest review base.",
+    specs: ["Ring light, 360 degrees adjustable","Portable, cord-free design","Clip-on mount","Most affordable pick in this guide"],
+    pros: ["Most affordable pick in this guide","Genuinely portable, cord-free","360 degrees adjustability","Solid rating for the price"],
     cons: ["Modest review base","Battery capacity not explicitly disclosed in mAh","Basic feature set at this price point"],
     bestFor: "Budget-conscious buyers who want basic, cord-free portable lighting",
   },

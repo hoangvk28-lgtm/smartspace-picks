@@ -1,8 +1,7 @@
 export const guideSlug = "best-four-monitor-kvm-switches";
 export const guideTitle = "Best Four-Monitor KVM Switches in 2026";
-export const metaTitle = "Best Four-Monitor KVM Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "True dedicated 4-monitor KVM switches are genuinely rare in the current market, we researched what's actually available and the more realistic alternatives worth considering instead.";
+export const metaTitle = "Best Four-Monitor KVM Switches";
+export const metaDescription = "True dedicated 4-monitor KVM switches are genuinely rare in the current market, we researched what's actually available and the more realistic alternatives.";
 export const mainKeyword = "4 monitor kvm switch";
 export const introParagraphs = [
   "Dedicated KVM switches supporting four simultaneous monitors are genuinely rare in the current consumer market, most manufacturers cap out at three monitors per switch given the combined bandwidth demand, worth knowing this upfront rather than searching for a product category that's still quite limited.",

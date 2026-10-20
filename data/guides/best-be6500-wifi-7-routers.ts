@@ -1,8 +1,7 @@
 export const guideSlug = "best-be6500-wifi-7-routers";
 export const guideTitle = "5 Best BE6500 Wi-Fi 7 Routers in 2026";
-export const metaTitle = "Best BE6500 Wi-Fi 7 Routers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 BE6500 Wi-Fi 7 routers we evaluated, with the mid-tier 6GHz verification competitors skip: at this tier some models still lack a real 6GHz radio, and when present, its channel width is often capped below flagship-tier capability.";
+export const metaTitle = "Best BE6500 Wi-Fi 7 Routers";
+export const metaDescription = "5 BE6500 Wi-Fi 7 routers we evaluated, with the mid-tier 6GHz verification competitors skip: at this tier some models still lack a real 6GHz radio.";
 export const mainKeyword = "BE6500 Wi-Fi 7 router";
 export const introParagraphs = [
   "BE6500 doesn't automatically confirm a genuine 6GHz radio, numbering alone doesn't guarantee tri-band presence at this mid-tier, some BE6500-labeled routers remain dual-band, worth verifying per product rather than assuming from the number.",
@@ -67,7 +66,7 @@ export const products: GuideProduct[] = [
     description:
       "TP-Link's own listing explicitly states 'No 6 GHz' for this gaming-focused variant, an honest disclosure worth crediting, with a dedicated gaming port and game acceleration features for a gaming-priority buyer.\n\nThe small review base is a genuine limitation for such a new product, weigh this against the gaming-specific feature set if that's your priority over general Wi-Fi 7 performance.\n\nDedicated gaming port with game acceleration. That's a real strength, but weigh it against the flip side: small review base for such a new product.",
     specs: ["Dual-band only, explicitly 'No 6 GHz' per listing", "Dedicated gaming port and panel", "Game acceleration features", "RGB lighting"],
-    pros: ["Explicit 'No 6 GHz' disclosure directly in the product listing", "Dedicated gaming port with game acceleration", "2×2.5G + 3×1G port configuration", "RGB lighting for gaming aesthetics"],
+    pros: ["Explicit 'No 6 GHz' disclosure directly in the product listing", "Dedicated gaming port with game acceleration", "2x2.5G + 3x1G port configuration", "RGB lighting for gaming aesthetics"],
     cons: ["Small review base for such a new product", "Highest price among dual-band BE6500 picks in this guide", "No 6GHz for buyers specifically wanting tri-band"],
     bestFor: "Gaming-priority buyers wanting a dedicated gaming port and acceleration features",
   },

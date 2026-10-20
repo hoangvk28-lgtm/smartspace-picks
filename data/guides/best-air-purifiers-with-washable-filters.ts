@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-with-washable-filters";
 export const guideTitle = "5 Best Air Purifiers with Washable Filters in 2026";
-export const metaTitle = "Best Air Purifiers with Washable Filters, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers with washable filters we evaluated, with the marketing gap competitors skip: washable pre-filters typically capture only larger particles and are usually paired with a separate non-washable HEPA or carbon filter that still needs replacement.";
+export const metaTitle = "Best Air Purifiers with Washable Filters";
+export const metaDescription = "5 air purifiers with washable filters we evaluated, with the marketing gap competitors skip: washable pre-filters typically capture only larger particles and.";
 export const mainKeyword = "air purifier with washable filter";
 export const introParagraphs = [
   "Washable pre-filters typically only capture larger particles like dust and pet hair, and are usually paired with a separate non-washable HEPA or carbon filter that still requires periodic replacement, washable filter marketing sometimes implies eliminating the entire ongoing filter cost, which it doesn't.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "levoit-washable-overall",
     rank: 1,
     badge: "Best Air Purifier with Washable Filter Overall",
-    name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre-Filter",
+    name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre-Filter",
     price: "$119.99",
     rating: "4.7 stars from 11,367 Amazon ratings",
     reviews: "11,367 ratings",
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-washablealt",
     rank: 2,
     badge: "Best Filter-Indicator Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-white-washablealt2",
     rank: 3,
     badge: "Best White Finish Alternative",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -159,7 +158,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Basic manual controls",
-        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre, COWAY Air Purifier for Home Up to 1, COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home."
+        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre, COWAY Air Purifier for Home Up to 1, COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home."
       }
     ],
     "note": "Default to basic manual controls unless you specifically want app-based monitoring or automation."

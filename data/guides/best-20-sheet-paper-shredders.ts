@@ -1,8 +1,7 @@
 export const guideSlug = "best-20-sheet-paper-shredders";
 export const guideTitle = "8 Best 20-Sheet Paper Shredders in 2026";
-export const metaTitle = "Best 20-Sheet Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders we evaluated near the 20-sheet capacity tier, with an honest note that models labeled similarly at this level can have wildly different daily volume ratings between them.";
+export const metaTitle = "Best 20-Sheet Paper Shredders";
+export const metaDescription = "8 shredders we evaluated near the 20-sheet capacity tier, with an honest note that models labeled similarly at this level can have wildly different daily.";
 export const mainKeyword = "20-sheet paper shredder";
 export const introParagraphs = [
   "At this capacity tier, shredders labeled similarly can have daily volume ratings that differ enormously, an invisible gap when comparing on sheet count alone. Real-world capacity with mixed office paper is still typically 25-30% below the rated number, the same pattern seen at every lower tier, just scaled up.",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "The auto-feed hopper (120 sheets) dwarfs the manual 20-sheet-per-pass tier entirely, a genuinely different category for buyers with a large one-time purge rather than regular 20-sheet-per-pass office use. Same duty-cycle and mixed-paper caveats from the auto-feed tier apply here regardless of the larger hopper size.\n\nA reasonable alternative if minimizing hands-on feeding effort matters more than a strict per-pass 20-sheet manual comparison.\n\nSeparate manual slot for cards/staples. On the other hand, same auto-feed duty-cycle and mixed-paper caveats as lower tiers apply. Both are worth keeping in mind before deciding.",
-    specs: ["120-sheet auto-feed hopper (dwarfs the manual 20-sheet tier)", "P-4 micro-cut, separate 12-sheet manual slot", "30-minute continuous run time", "6-gallon bin, 360° casters"],
+    specs: ["120-sheet auto-feed hopper (dwarfs the manual 20-sheet tier)", "P-4 micro-cut, separate 12-sheet manual slot", "30-minute continuous run time", "6-gallon bin, 360 degrees casters"],
     pros: ["Vastly higher hopper capacity than any manual pick in this guide", "Separate manual slot for cards/staples", "Bin proportional to hopper output", "P-4 high security"],
     cons: ["Same auto-feed duty-cycle and mixed-paper caveats as lower tiers apply", "Not a direct manual per-pass 20-sheet comparison", "Priced similarly to the P-4 manual picks"],
     bestFor: "Buyers who want hands-free bulk capacity rather than a strict manual per-pass shredder",
@@ -101,7 +100,7 @@ export const products: GuideProduct[] = [
     description:
       "A smaller auto-feed hopper (100 sheets) than the rank-4 pick at a lower price, still vastly exceeding the manual 20-sheet-per-pass tier this guide targets. Anti-jam auto-reverse and a bin-full indicator round out a well-equipped auto-feed alternative.\n\nA reasonable choice if you want auto-feed bulk convenience without paying for the largest hopper.\n\nA genuine advantage here is that anti-jam auto-reverse. The tradeoff is that smaller hopper than the rank-4 pick.",
     specs: ["100-sheet auto-feed hopper", "P-4 micro-cut, anti-jam auto-reverse", "30-minute continuous run time", "4.2-gallon bin, bin-full indicator"],
-    pros: ["Lower price than the largest auto-feed hopper pick", "Anti-jam auto-reverse", "Bin-full indicator", "Mobile on 360° casters"],
+    pros: ["Lower price than the largest auto-feed hopper pick", "Anti-jam auto-reverse", "Bin-full indicator", "Mobile on 360 degrees casters"],
     cons: ["Smaller hopper than the rank-4 pick", "Same auto-feed reliability caveats apply", "Not a manual per-pass 20-sheet comparison"],
     bestFor: "Buyers who want auto-feed bulk convenience at a more moderate price",
   },

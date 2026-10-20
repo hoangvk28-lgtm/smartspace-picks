@@ -1,8 +1,7 @@
 export const guideSlug = "best-165hz-portable-monitors";
 export const guideTitle = "8 Best 165Hz Portable Monitors in 2026";
-export const metaTitle = "Best 165Hz Portable Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors rated 165Hz, with an honest read on which connection actually reaches that rate, which panels are native versus overclocked, and when the jump from 144Hz is even perceptible.";
+export const metaTitle = "Best 165Hz Portable Monitors";
+export const metaDescription = "8 portable monitors rated 165Hz, with an honest read on which connection actually reaches that rate, which panels are native versus overclocked.";
 export const mainKeyword = "165Hz portable monitor";
 export const introParagraphs = [
   "165Hz almost always requires DisplayPort or USB-C DP Alt Mode, not HDMI 2.0, whose bandwidth ceiling supports roughly 1080p144 but falls short of 165Hz at most resolutions. The jump from 144Hz to 165Hz is also imperceptible unless your source device can sustain frame rates that high, a thin-and-light gaming laptop or console rarely does.",
@@ -63,7 +62,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51bADiNA5RL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G5YRPXTV?tag=deskfinds0d-20",
     description: "This listing is unusually transparent about the port-specific ceiling, explicitly noting the Type-C interface reaches 165Hz while the HDMI interface is limited to 144Hz, exactly the distinction most competitors bury or omit entirely. Genuine FreeSync/VRR support is claimed alongside HDR.\n\nSitting just under 16 Inch Portable Monitor for Laptop and Gaming, it's priced lower than 16 Inch Portable Monitor for Laptop and Gaming. Here's the honest tradeoff: Very small review count. And here's what it gets you instead: Explicitly discloses the USB-C 165Hz vs. HDMI 144Hz split. That's the real difference between the two picks, not just a ranking number.\n\nWorth knowing before you decide: Lowest price in this guide. On the other side, Limited track record for a value-priced panel. That's the main tradeoff to weigh against everything above.",
-    specs: ["16-inch 165Hz USB-C / 144Hz HDMI, 1920x1200","133% sRGB, FreeSync/VRR support","0°-120° adjustable stand, VESA 75mm","1.5 lb"],
+    specs: ["16-inch 165Hz USB-C / 144Hz HDMI, 1920x1200","133% sRGB, FreeSync/VRR support","0 degrees-120 degrees adjustable stand, VESA 75mm","1.5 lb"],
     pros: ["Explicitly discloses the USB-C 165Hz vs. HDMI 144Hz split","Lowest price in this guide","Claims genuine FreeSync/VRR support","VESA mountable"],
     cons: ["Very small review count","Lower rating than the premium picks","Limited track record for a value-priced panel"],
     bestFor: "Budget-focused buyers who want an honestly-specced 165Hz/144Hz split at the lowest price here",
@@ -79,7 +78,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51BaHFxSPsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DP2HD8H8?tag=deskfinds0d-20",
     description: "This is genuinely the largest \"portable\" monitor in this guide at 24.5 inches, explicitly disclosing USB-C hits 165Hz while Mini HDMI caps at 144Hz, the same honest per-port split as the AHXJKA pick above but at a much larger, less travel-friendly size. At 5.42 lb, this stretches the definition of portable, more of a desk-bound secondary display than a bag-friendly travel monitor.\n\nRanked just behind AHXJKA Portable Monitor 16\" 165Hz 1920x1200P 133% sRGB, it costs more than AHXJKA Portable Monitor 16\" 165Hz 1920x1200P 133% sRGB. The real tradeoff against that pick: At 5.42 lb, stretches the definition of 'portable'. In exchange, it offers this instead: Largest screen in this guide by far. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: Honest per-port refresh rate disclosure. On the other side, Company itself recommends the smaller 22\" version for frequent travel. That's the main tradeoff to weigh against everything above.",
-    specs: ["24.5-inch 2K QHD, 165Hz USB-C / 144Hz Mini HDMI","100% sRGB, HDR, FreeSync","180° adjustable stand, VESA mountable","5.42 lb"],
+    specs: ["24.5-inch 2K QHD, 165Hz USB-C / 144Hz Mini HDMI","100% sRGB, HDR, FreeSync","180 degrees adjustable stand, VESA mountable","5.42 lb"],
     pros: ["Largest screen in this guide by far","Honest per-port refresh rate disclosure","FreeSync support","VESA mountable for permanent desk use"],
     cons: ["At 5.42 lb, stretches the definition of 'portable'","Highest price in this guide","Company itself recommends the smaller 22\" version for frequent travel"],
     bestFor: "Buyers who want the largest screen here for a semi-permanent desk setup rather than frequent travel",
@@ -143,7 +142,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
     description: "Included as the largest-screen budget option in this guide, at 120Hz rather than 165Hz, a real step down in refresh rate but a real step up in screen size and price. Genuine FreeSync support if your GPU is AMD-based.\n\nOne spot below VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz in this ranking, it's priced lower than VisionOwl Portable Monitor 16 Inch 2.5K QHD 144Hz. The compromise here is straightforward: 120Hz, well below the 165Hz target of this guide. What you gain in return: Largest screen in this guide at a portable weight. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Lowest price among the large-screen options. On the other side, Not a true 165Hz option. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360° bracket","Largest review base in this guide"],
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360 degrees bracket","Largest review base in this guide"],
     pros: ["Largest screen in this guide at a portable weight","Lowest price among the large-screen options","Genuine FreeSync for AMD GPUs","Largest review base here"],
     cons: ["120Hz, well below the 165Hz target of this guide","125% sRGB unverified","Not a true 165Hz option"],
     bestFor: "Buyers who want the largest affordable screen and are fine trading 165Hz for 120Hz",

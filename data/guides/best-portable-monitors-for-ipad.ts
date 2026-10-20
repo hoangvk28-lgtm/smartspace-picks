@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-ipad";
 export const guideTitle = "8 Best Portable Monitors for iPad in 2026";
-export const metaTitle = "Best Portable Monitors for iPad, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated for iPad, with a clear warning that only M-series iPads support true extended-desktop Stage Manager, and that touch never passes through to the external screen.";
+export const metaTitle = "Best Portable Monitors for iPad";
+export const metaDescription = "8 portable monitors we evaluated for iPad, with a clear warning that only M-series iPads support true extended-desktop Stage Manager.";
 export const mainKeyword = "portable monitor for iPad";
 export const introParagraphs = [
   "Only M-series iPad Pro/Air (2022 and later) support full Stage Manager external display extension, an independent second desktop. Non-M-chip iPads (10th-gen, older A-series Air) are limited to mirroring or basic video-out with no independent extended desktop. Photos of an iPad next to a monitor don't tell you which mode you'll actually get, check your chip first.",
@@ -143,7 +142,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/414VyKmpPFL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FXX3416Q?tag=deskfinds0d-20",
     description: "This newer KYY model's built-in kickstand rotates for landscape or portrait mode without unplugging cables, useful for iPad users reading long documents or code in Stage Manager. As with every pick here, it's an M-series-only feature for true extension, and touch never passes through regardless of chip.\n\nOne spot below Anyuse 15.6\" FHD IPS USB-C HDMI Portable Monitor in this ranking, it costs more than Anyuse 15.6\" FHD IPS USB-C HDMI Portable Monitor. The compromise here is straightforward: Smaller review count than established KYY models. What you gain in return: Rotates between landscape/portrait without recabling. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Aluminum build quality. On the other side, Portrait mode still needs an M-series iPad for real Stage Manager benefit. That's the main tradeoff to weigh against everything above.",
-    specs: ["15.6-inch, rotating kickstand (65° tilt/90° rotation)","Dual USB-C + mini-HDMI","1.65 lb, 0.23-inch profile","Aluminum alloy body"],
+    specs: ["15.6-inch, rotating kickstand (65 degrees tilt/90 degrees rotation)","Dual USB-C + mini-HDMI","1.65 lb, 0.23-inch profile","Aluminum alloy body"],
     pros: ["Rotates between landscape/portrait without recabling","Aluminum build quality","Lightweight and slim","Good rating despite smaller review base"],
     cons: ["Smaller review count than established KYY models","Mini-HDMI only","Portrait mode still needs an M-series iPad for real Stage Manager benefit"],
     bestFor: "M-series iPad owners who read long documents or code and want easy portrait-mode switching",

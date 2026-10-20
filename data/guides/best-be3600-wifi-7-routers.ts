@@ -1,8 +1,7 @@
 export const guideSlug = "best-be3600-wifi-7-routers";
 export const guideTitle = "5 Best BE3600 Wi-Fi 7 Routers in 2026";
-export const metaTitle = "Best BE3600 Wi-Fi 7 Routers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 BE3600 Wi-Fi 7 routers we evaluated, with the tier-honesty check competitors skip: BE3600 sits at the entry tier and typically lacks a 6GHz radio entirely, meaning it inherits the same dual-band-only limitation as budget Wi-Fi 7 branding generally.";
+export const metaTitle = "Best BE3600 Wi-Fi 7 Routers";
+export const metaDescription = "5 BE3600 Wi-Fi 7 routers we evaluated, with the tier-honesty check competitors skip: BE3600 sits at the entry tier and typically lacks a 6GHz radio entirely.";
 export const mainKeyword = "BE3600 Wi-Fi 7 router";
 export const introParagraphs = [
   "BE3600 sits at the very bottom of Wi-Fi 7 branding and typically lacks a 6GHz radio entirely, dual-band only, meaning it inherits the same 'Wi-Fi 7 in name only' risk common to entry-tier branding, worth verifying rather than assuming the 'BE' designation guarantees tri-band capability.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-be230",
     rank: 1,
     badge: "Best BE3600 Wi-Fi 7 Router Overall",
-    name: "TP-Link Dual-Band BE3600 Wi-Fi 7 Router Archer BE230 | 4-Stream | 2×2.5G + 3×1G Ports, USB 3.0, 2.0 GHz Quad Core, 4 Antennas | VPN, EasyMesh, HomeShield, MLO, Private IOT",
+    name: "TP-Link Dual-Band BE3600 Wi-Fi 7 Router Archer BE230 | 4-Stream | 2x2.5G + 3x1G Ports, USB 3.0, 2.0 GHz Quad Core, 4 Antennas | VPN, EasyMesh, HomeShield, MLO, Private IOT",
     price: "$79.99",
     rating: "4.4 stars from 1,401 Amazon ratings",
     reviews: "1,401 ratings",
@@ -32,7 +31,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DC99N2T8?tag=deskfinds0d-20",
     description:
       "A dual-band-only design, TP-Link's own listing confirms no 6GHz radio at this tier, with dual 2.5G ports and a quad-core processor that genuinely outperform a comparable Wi-Fi 6 router at this price.\n\nThe '3600' figure splits into roughly 688Mbps (2.4GHz) plus 2882Mbps (5GHz) per TP-Link's own spec sheet, no single device reaches that combined number, treat it as a theoretical ceiling, not an achievable real-world speed.\n\nDual 2.5G ports for multi-gig wired devices. That's a real strength, but weigh it against the flip side: no 6GHz radio despite Wi-Fi 7 branding.",
-    specs: ["Dual-band only, no 6GHz radio", "2×2.5G + 3×1G ports", "2.0GHz quad-core processor", "MLO listed, structurally limited to one high-speed band"],
+    specs: ["Dual-band only, no 6GHz radio", "2x2.5G + 3x1G ports", "2.0GHz quad-core processor", "MLO listed, structurally limited to one high-speed band"],
     pros: ["Genuine real-world upgrade over aging Wi-Fi 6 hardware at this price", "Dual 2.5G ports for multi-gig wired devices", "Quad-core processor keeps up with routing demands", "EasyMesh expansion supported"],
     cons: ["No 6GHz radio despite Wi-Fi 7 branding", "MLO has no second high-speed band to aggregate with at this tier", "'3600' number is a combined theoretical ceiling, not a per-device speed"],
     bestFor: "Buyers wanting a genuine budget upgrade over an aging Wi-Fi 6 router",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "tplink-deco7-be23-mesh",
     rank: 4,
     badge: "Best Mesh System at This Tier",
-    name: "TP-Link Deco 7 BE23 Dual-Band BE3600 WiFi 7 Mesh Wi-Fi System | 4-Stream 3.6 Gbps, 160 Mhz | Covers up to 6,500 Sq.Ft | 2× 2.5G Ports Wired Backhaul | 3-Pack",
+    name: "TP-Link Deco 7 BE23 Dual-Band BE3600 WiFi 7 Mesh Wi-Fi System | 4-Stream 3.6 Gbps, 160 Mhz | Covers up to 6,500 Sq.Ft | 2x 2.5G Ports Wired Backhaul | 3-Pack",
     price: "$152.99",
     rating: "4.4 stars from 671 Amazon ratings",
     reviews: "671 ratings",

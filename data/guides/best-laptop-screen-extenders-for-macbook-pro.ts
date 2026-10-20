@@ -1,8 +1,7 @@
 export const guideSlug = "best-laptop-screen-extenders-for-macbook-pro";
 export const guideTitle = "5 Best Laptop Screen Extenders for MacBook Pro in 2026";
-export const metaTitle = "Best Laptop Screen Extenders for MacBook Pro, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 laptop screen extenders we evaluated for MacBook Pro, with the Thunderbolt-versus-standard-USB-C check competitors skip: MacBook Pro's Thunderbolt ports support extenders fine, but verify the extender itself doesn't require a specific chipset MacBook Pro lacks.";
+export const metaTitle = "Best Laptop Screen Extenders for MacBook Pro";
+export const metaDescription = "5 laptop screen extenders we evaluated for MacBook Pro, with the Thunderbolt-versus-standard-USB-C check competitors skip: MacBook Pro's Thunderbolt ports.";
 export const mainKeyword = "laptop screen extender for MacBook Pro";
 export const introParagraphs = [
   "MacBook Pro's Thunderbolt-capable USB-C ports generally provide strong power delivery for a screen extender, worth confirming the extender doesn't require a Windows-specific driver or chipset feature MacBook Pro's macOS environment doesn't support.",
@@ -40,7 +39,7 @@ export const products: GuideProduct[] = [
     id: "sidetrak-swivel-mbp",
     rank: 2,
     badge: "Best Swivel Attachment Pick for MacBook Pro",
-    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C® or Mini HDMI (Light Silver)",
+    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C or Mini HDMI (Light Silver)",
     price: "$319.95",
     rating: "4.2 stars from 400+ Amazon ratings",
     reviews: "400+ ratings",
@@ -56,7 +55,7 @@ export const products: GuideProduct[] = [
     id: "vueforge-mbp",
     rank: 3,
     badge: "Best Two-Cable Pick for MacBook Pro",
-    name: "VueForge Laptop Screen Extender, 15.6” Ultra-Slim Triple Portable Monitor for Laptop, Two Cable USB-C/HDMI Plug-Play, Travel Dual Monitor for 13-17.3\" Laptops, MacOS/Windows/Android",
+    name: "VueForge Laptop Screen Extender, 15.6\" Ultra-Slim Triple Portable Monitor for Laptop, Two Cable USB-C/HDMI Plug-Play, Travel Dual Monitor for 13-17.3\" Laptops, MacOS/Windows/Android",
     price: "$179.99",
     rating: "4.8 stars from 80+ Amazon ratings",
     reviews: "80+ ratings",

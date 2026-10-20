@@ -1,7 +1,7 @@
 export const guideSlug = "best-12-port-network-switches";
 export const guideTitle = "Best 12-Port Network Switches in 2026";
 export const metaTitle = "Best 12-Port Network Switches 2026";
-export const metaDescription = "12 ports is a genuinely underserved gap between 8-port and 16-port switches. We covered the limited current options.";
+export const metaDescription = "12 ports is a genuinely underserved gap between 8-port and 16-port switches. We covered the limited current options and what each one actually offers.";
 export const mainKeyword = "12-port network switches";
 export const introParagraphs = [
   "12-port switches fill a genuine gap in the market, most manufacturers jump straight from 8 ports to 16, leaving 12-port options as a narrower, more specialized category than the more common port counts on either side.",

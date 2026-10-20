@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-xbox-series-x-and-s";
 export const guideTitle = "8 Best Portable Monitors for Xbox Series X and S in 2026";
-export const metaTitle = "Best Portable Monitors for Xbox Series X/S, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated for Xbox Series X and S, with a clear read on why these two consoles have different real resolution needs and which panels can actually use Xbox's Auto HDR and VRR.";
+export const metaTitle = "Best Portable Monitors for Xbox Series X/S";
+export const metaDescription = "8 portable monitors we evaluated for Xbox Series X and S, with a clear read on why these two consoles have different real resolution needs and which panels can.";
 export const mainKeyword = "portable monitor for Xbox";
 export const introParagraphs = [
   "Series X and Series S USB-C ports are charge/data only, the same HDMI-required limitation PS5 has, so every pick here has real HDMI input. But Series X and Series S also have genuinely different resolution needs: Series X targets native 4K (often upscaled to 4K120 via HDMI 2.1), while Series S targets 1080p-1440p with upscaling and gets no benefit from a 4K panel at all. A roundup recommending the same monitor for both consoles is ignoring that Series S owners would be paying for resolution they can't use.",
@@ -143,8 +142,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
     description: "FreeSync here is worth a closer look for Xbox specifically: Xbox's VRR implementation supports the general HDMI VRR standard rather than being tied to AMD's FreeSync branding, so don't assume FreeSync labeling alone guarantees Xbox VRR compatibility. Full-size HDMI connects directly.\n\nOne spot below ARZOPA 16.1'' 180Hz 2.5K Portable Monitor in this ranking, it's priced lower than ARZOPA 16.1'' 180Hz 2.5K Portable Monitor. The compromise here is straightforward: FreeSync branding doesn't guarantee Xbox VRR compatibility. What you gain in return: Lowest price of the large-screen picks. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Full-size HDMI. On the other side, Lower rating than the premium picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360° bracket","1ms response time"],
-    pros: ["Lowest price of the large-screen picks","Full-size HDMI","Largest review base in this guide","360° adjustable VESA bracket"],
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360 degrees bracket","1ms response time"],
+    pros: ["Lowest price of the large-screen picks","Full-size HDMI","Largest review base in this guide","360 degrees adjustable VESA bracket"],
     cons: ["FreeSync branding doesn't guarantee Xbox VRR compatibility","125% sRGB unverified","Lower rating than the premium picks"],
     bestFor: "Budget-focused Xbox owners who want a large 120Hz screen without premium pricing",
   }

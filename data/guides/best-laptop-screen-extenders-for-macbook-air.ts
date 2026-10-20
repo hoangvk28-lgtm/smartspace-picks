@@ -1,8 +1,7 @@
 export const guideSlug = "best-laptop-screen-extenders-for-macbook-air";
 export const guideTitle = "5 Best Laptop Screen Extenders for MacBook Air in 2026";
-export const metaTitle = "Best Laptop Screen Extenders for MacBook Air, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 laptop screen extenders we evaluated for MacBook Air, with the power-delivery-headroom check competitors skip: MacBook Air's USB-C port has less power headroom than MacBook Pro's Thunderbolt ports, worth choosing a lighter-power-draw extender.";
+export const metaTitle = "Best Laptop Screen Extenders for MacBook Air";
+export const metaDescription = "5 laptop screen extenders we evaluated for MacBook Air, with the power-delivery-headroom check competitors skip: MacBook Air's USB-C port has less power.";
 export const mainKeyword = "laptop screen extender for MacBook Air";
 export const introParagraphs = [
   "MacBook Air's USB-C port has genuinely less power headroom than MacBook Pro's Thunderbolt-capable ports, worth choosing a lighter-power-draw single-screen extender over a power-hungry triple-screen setup to avoid throttled brightness or an unstable connection.",
@@ -56,7 +55,7 @@ export const products: GuideProduct[] = [
     id: "sidetrak-swivel-air",
     rank: 3,
     badge: "Best Lightweight Swivel Pick for MacBook Air",
-    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C® or Mini HDMI (Light Silver)",
+    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C or Mini HDMI (Light Silver)",
     price: "$319.95",
     rating: "4.2 stars from 400+ Amazon ratings",
     reviews: "400+ ratings",

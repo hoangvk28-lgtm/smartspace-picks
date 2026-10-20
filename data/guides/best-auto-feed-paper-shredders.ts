@@ -1,8 +1,7 @@
 export const guideSlug = "best-auto-feed-paper-shredders";
 export const guideTitle = "8 Best Auto-Feed Paper Shredders in 2026";
-export const metaTitle = "Best Auto-Feed Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders we evaluated for auto-feed searches, with an honest split: only 3 are genuine auto-feed hopper models, the rest are proven manual-feed shredders that show up in these searches anyway.";
+export const metaTitle = "Best Auto-Feed Paper Shredders";
+export const metaDescription = "8 shredders we evaluated for auto-feed searches, with an honest split: only 3 are genuine auto-feed hopper models worth buying for that feature.";
 export const mainKeyword = "auto-feed paper shredder";
 export const introParagraphs = [
   "Auto-feed hopper capacity is not the same as continuous duty cycle. A shredder with a 100-120 sheet auto-feed hopper still has a thermal run-time limit, typically 30-40 minutes, and loading a full hopper of mixed-weight paper can hit that limit mid-batch. Of the 8 picks below, only 3 are genuine auto-feed hopper models; the rest are proven manual-feed shredders that surface in these searches due to general popularity, we call out the difference directly.",
@@ -32,8 +31,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "This is a genuine auto-feed hopper model, 120 sheets loaded and left to run automatically, plus a separate 12-sheet manual slot for cards and staples. Its 30-minute auto duty cycle means a completely full hopper of light paper can be shredded in one run, but mixed-weight paper (cardstock, folded pages) can trip the thermal limit before the hopper empties.\n\nThe 6-gallon pull-out bin on 360-degree casters is sized appropriately for the hopper capacity, and P-4 micro-cut security is a genuine step up from basic cross-cut for sensitive documents.\n\nP-4 micro-cut security level. That's a real strength, but weigh it against the flip side: mixed-weight paper batches can trip the 30-minute limit before the hopper empties.",
-    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "P-4 micro-cut, 4x12mm particles", "30 min auto / 10 min manual run time", "6-gallon pull-out bin, 360° casters"],
-    pros: ["Largest genuine auto-feed hopper in this guide", "P-4 micro-cut security level", "Bin capacity matched to hopper size", "Mobile on 360° casters"],
+    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "P-4 micro-cut, 4x12mm particles", "30 min auto / 10 min manual run time", "6-gallon pull-out bin, 360 degrees casters"],
+    pros: ["Largest genuine auto-feed hopper in this guide", "P-4 micro-cut security level", "Bin capacity matched to hopper size", "Mobile on 360 degrees casters"],
     cons: ["Mixed-weight paper batches can trip the 30-minute limit before the hopper empties", "Heaviest, largest footprint in this guide", "Higher price than manual-feed alternatives"],
     bestFor: "Buyers who genuinely need a large auto-feed hopper for hands-free bulk shredding",
   },
@@ -50,7 +49,7 @@ export const products: GuideProduct[] = [
     description:
       "A genuine 100-sheet auto-feed hopper at a lower price than the rank-1 pick, with an explicit anti-jam auto-reverse function to clear the paper when the sensor detects a jam. Its 4.2-gallon bin is proportionally smaller than the rank-1 pick's, meaning more frequent emptying during a full-hopper run.\n\nSame mixed-paper-batch caution applies here as with any auto-feed hopper, a batch of uniform 20 lb paper runs far more reliably than one mixed with heavier stock.\n\nExplicit anti-jam auto-reverse. On the other hand, smaller bin than the rank-1 pick relative to hopper size. Both are worth keeping in mind before deciding.",
     specs: ["100-sheet auto-feed hopper, 8-sheet manual", "P-4 micro-cut, 4x12mm particles", "30 min auto / 40 min off, 40 min manual off", "4.2-gallon pull-out bin, bin-full indicator"],
-    pros: ["Genuine 100-sheet auto-feed hopper at a lower price", "Explicit anti-jam auto-reverse", "Bin-full indicator for easy monitoring", "360° casters for mobility"],
+    pros: ["Genuine 100-sheet auto-feed hopper at a lower price", "Explicit anti-jam auto-reverse", "Bin-full indicator for easy monitoring", "360 degrees casters for mobility"],
     cons: ["Smaller bin than the rank-1 pick relative to hopper size", "Mixed-paper batches can still trip the thermal limit", "Not the cheapest option in this guide"],
     bestFor: "Buyers who want genuine auto-feed capability at a more moderate price",
   },

@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-that-dont-overheat";
 export const guideTitle = "8 Best Paper Shredders That Don't Overheat in 2026";
-export const metaTitle = "Best Paper Shredders That Don't Overheat, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders we evaluated for overheat protection, with a reframe: thermal shutoff exists because shredder motors already run close to their limit under real use, not because overheating is a solved problem.";
+export const metaTitle = "Best Paper Shredders That Don't Overheat";
+export const metaDescription = "8 shredders we evaluated for overheat protection, with a reframe: thermal shutoff exists because shredder motors already run close to their limit under real.";
 export const mainKeyword = "paper shredder that doesn't overheat";
 export const introParagraphs = [
   "Thermal overload protection is a symptom of motor duty-cycle limitations, not a bonus feature. Its presence means the underlying motor already runs close to its thermal limit under real use, the shredders in this guide that 'don't overheat' are the ones whose rated duty cycle most closely matches typical real-world usage patterns, not ones that have somehow solved overheating entirely.",
@@ -118,7 +117,7 @@ export const products: GuideProduct[] = [
     description:
       "A 30-minute auto-feed duty cycle followed by a 40-minute cooldown, explicitly disclosed together rather than just quoting the run time alone, a genuinely useful transparency for planning a bulk auto-feed session around the thermal limit rather than discovering it mid-batch.\n\nStanding this shredder up to run a full 100-sheet hopper of mixed-weight paper may still trip the limit before the hopper empties, plan for that even with the disclosed cooldown pairing.\n\nAuto-feed reduces hands-on session effort. That said, mixed-weight paper can still trip the limit before the hopper empties. Neither should be a surprise once you know to look for it.",
     specs: ["100-sheet auto-feed hopper, 8-sheet manual", "30-minute duty cycle / 40-minute cooldown, both disclosed", "4.2-gallon bin, bin-full indicator", "Anti-jam auto-reverse"],
-    pros: ["Both duty cycle and cooldown explicitly disclosed together", "Auto-feed reduces hands-on session effort", "Anti-jam auto-reverse", "Mobile on 360° casters"],
+    pros: ["Both duty cycle and cooldown explicitly disclosed together", "Auto-feed reduces hands-on session effort", "Anti-jam auto-reverse", "Mobile on 360 degrees casters"],
     cons: ["Mixed-weight paper can still trip the limit before the hopper empties", "Smaller bin than some alternatives", "Not the longest duty cycle in this guide"],
     bestFor: "Buyers who want transparent duty-cycle-plus-cooldown planning for auto-feed sessions",
   },
@@ -134,7 +133,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "Same 30-minute auto-feed duty cycle disclosure as the rank-6 pick, but with a larger 120-sheet hopper and a proportionally sized 6-gallon bin. If you're purging a genuinely large batch, this larger hopper reduces how many separate duty-cycle windows you'll need to complete the job.\n\nStill subject to the same mixed-paper caveat as any auto-feed hopper, uniform light paper runs more predictably within the rated duty cycle than mixed-weight batches.\n\nWorth calling out specifically: bin proportional to hopper output. The catch is higher price than the smaller auto-feed alternative.",
-    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "30-minute duty cycle / 10-minute manual cooldown", "6-gallon bin, 360° casters", "P-4 micro-cut"],
+    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "30-minute duty cycle / 10-minute manual cooldown", "6-gallon bin, 360 degrees casters", "P-4 micro-cut"],
     pros: ["Largest auto-feed hopper reduces total duty-cycle windows needed", "Bin proportional to hopper output", "Separate manual slot for cards/staples", "Mobile on casters"],
     cons: ["Higher price than the smaller auto-feed alternative", "Mixed-weight paper can still trip the limit before the hopper empties", "Not the longest per-cycle duty rating in this guide"],
     bestFor: "Buyers purging a large one-time batch who want to minimize the number of duty-cycle windows needed",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-laptop-screen-extenders-for-hp-laptops";
 export const guideTitle = "5 Best Laptop Screen Extenders for HP Laptops in 2026";
-export const metaTitle = "Best Laptop Screen Extenders for HP Laptops, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 laptop screen extenders we evaluated for HP laptops, with the EliteBook-versus-Pavilion port variance competitors skip: HP's business EliteBook and consumer Pavilion/Envy lines have different USB-C power delivery specs worth checking before buying.";
+export const metaTitle = "Best Laptop Screen Extenders for HP Laptops";
+export const metaDescription = "5 laptop screen extenders we evaluated for HP laptops, with the EliteBook-versus-Pavilion port variance competitors skip: HP's business EliteBook and consumer.";
 export const mainKeyword = "laptop screen extender for HP laptop";
 export const introParagraphs = [
   "HP's business-focused EliteBook line and consumer-focused Pavilion or Envy models have genuinely different USB-C power delivery specs, worth checking your exact model's port capability before assuming any extender performs the same across HP's whole lineup.",
@@ -88,7 +87,7 @@ export const products: GuideProduct[] = [
     id: "sidetrak-swivel-hp",
     rank: 5,
     badge: "Best Precision Swivel Pick for HP's Varied Lines",
-    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C® or Mini HDMI (Light Silver)",
+    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C or Mini HDMI (Light Silver)",
     price: "$319.95",
     rating: "4.2 stars from 400+ Amazon ratings",
     reviews: "400+ ratings",

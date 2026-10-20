@@ -1,8 +1,7 @@
 export const guideSlug = "best-bright-portable-monitors-for-outdoor-use";
 export const guideTitle = "8 Best Bright Portable Monitors for Outdoor Use in 2026";
-export const metaTitle = "Best Bright Portable Monitors for Outdoor Use, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated for outdoor brightness, with a realistic nits-to-lux legibility check since direct sunlight needs far more than the 250-400 nits most portable monitors offer.";
+export const metaTitle = "Best Bright Portable Monitors for Outdoor Use";
+export const metaDescription = "8 portable monitors we evaluated for outdoor brightness, with a realistic nits-to-lux legibility check since direct sunlight needs far more than the 250-400.";
 export const mainKeyword = "bright portable monitor";
 export const introParagraphs = [
   "Direct sunlight reaches roughly 30,000-100,000 lux, and a display needs approximately 1,000+ nits to remain legible under those conditions. Most portable monitors top out around 250-400 nits, adequate only for shade or overcast conditions, not direct sun. All 8 picks below claim 1,200 nits peak brightness specifically for this reason.",
@@ -79,7 +78,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51rHXdw8C0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FSZZHJKC?tag=deskfinds0d-20",
     description: "This listing is unusually explicit about power requirements at 4K brightness: it directly states a single USB-C to USB-C cable may not deliver enough power to drive 3840x2400 at peak brightness on all devices, recommending the included USB-C to USB-A plus power adapter combo instead for stable full-resolution output. That's a genuinely useful disclosure most competitors omit.\n\nRanked just behind Newsoul 4K Portable Monitor 1200Nits Ultra Bright 16'' Laptop Monitor, it costs more than Newsoul 4K Portable Monitor 1200Nits Ultra Bright 16'' Laptop Monitor. The real tradeoff against that pick: Requires the specific USB-A+adapter combo for full power at peak brightness. In exchange, it offers this instead: Explicitly discloses the power-cable caveat for peak 4K brightness. That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: 16:10 ratio gives 15% more vertical space than 16:9. On the other side, 2.2 lb is not the lightest in this guide. That's the main tradeoff to weigh against everything above.",
-    specs: ["16-inch 4K, 3840x2400 (16:10), 1200 nits, 145% sRGB","Dual USB-C + mini-HDMI, complete cable kit","Magnetic folio cover, 0°-180° stand","2.2 lb, under 0.35\" thin"],
+    specs: ["16-inch 4K, 3840x2400 (16:10), 1200 nits, 145% sRGB","Dual USB-C + mini-HDMI, complete cable kit","Magnetic folio cover, 0 degrees-180 degrees stand","2.2 lb, under 0.35\" thin"],
     pros: ["Explicitly discloses the power-cable caveat for peak 4K brightness","16:10 ratio gives 15% more vertical space than 16:9","Complete cable kit for DSLR/field use","Built-in dual speakers"],
     cons: ["Requires the specific USB-A+adapter combo for full power at peak brightness","Priced similarly to the other premium picks","2.2 lb is not the lightest in this guide"],
     bestFor: "Field photographers connecting DSLR/mirrorless cameras who want the clearest power-requirement disclosure",

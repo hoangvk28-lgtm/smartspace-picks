@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-pet-owners";
 export const guideTitle = "5 Best Air Purifiers for Pet Owners in 2026";
-export const metaTitle = "Best Air Purifiers for Pet Owners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for pet owners, covering hair, dander, and odor together, with the activated carbon depth angle competitors gloss over: a thin carbon layer saturates with pet odor faster than a thicker one.";
+export const metaTitle = "Best Air Purifiers for Pet Owners";
+export const metaDescription = "5 air purifiers we evaluated for pet owners, covering hair, dander, and odor together, with the activated carbon depth angle competitors gloss over: a thin.";
 export const mainKeyword = "air purifier for pet owners";
 export const introParagraphs = [
   "Pet ownership brings three distinct air-quality issues at once, hair, dander, and odor, and a purifier optimized for one doesn't automatically handle the other two equally well, a distinction most buying guides collapse into one generic recommendation.",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-petowners",
     rank: 3,
     badge: "Best for Dander-Sensitive Households",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

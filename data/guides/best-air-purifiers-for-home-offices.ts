@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-home-offices";
 export const guideTitle = "6 Best Air Purifiers for Home Offices in 2026";
-export const metaTitle = "Best Air Purifiers for Home Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 air purifiers we evaluated for home offices, with the gap competitors skip: CADR-based room size recommendations assume an open, empty room, a furnished home office with a closed door reduces effective coverage well below the rated square footage.";
+export const metaTitle = "Best Air Purifiers for Home Offices";
+export const metaDescription = "6 air purifiers we evaluated for home offices, with the gap competitors skip: CADR-based room size recommendations assume an open, empty room.";
 export const mainKeyword = "office air purifier";
 export const introParagraphs = [
   "CADR-based room size recommendations assume an open, empty room, a home office with a desk, shelving, and a closed door reduces effective coverage well below the rated square footage, size up from the manufacturer's nominal room-size claim.",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-homeofficealt2",
     rank: 3,
     badge: "Best Established Brand Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-white-homeofficealt3",
     rank: 4,
     badge: "Best White Finish Alternative",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH(W), White",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

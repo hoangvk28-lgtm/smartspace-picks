@@ -1,8 +1,7 @@
 export const guideSlug = "best-15-sheet-paper-shredders";
 export const guideTitle = "8 Best 15-Sheet Paper Shredders in 2026";
-export const metaTitle = "Best 15-Sheet Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders rated for 15 sheets, where auto-feed hoppers start becoming common but the same duty-cycle and mixed-paper caveats from lower tiers still apply just as much.";
+export const metaTitle = "Best 15-Sheet Paper Shredders";
+export const metaDescription = "8 shredders rated for 15 sheets, where auto-feed hoppers start becoming common but the same duty-cycle and mixed-paper caveats from lower tiers still apply.";
 export const mainKeyword = "15-sheet paper shredder";
 export const introParagraphs = [
   "15-sheet capacity is where auto-feed hoppers start appearing more often, but marketing leans harder into 'walk away and shred' framing without the underlying duty-cycle and mixed-paper limitations actually going away. Higher capacity doesn't solve the reliability caveats that apply at every tier below it.",
@@ -67,7 +66,7 @@ export const products: GuideProduct[] = [
     description:
       "The auto-feed hopper (100 sheets) exceeds the manual-feed 15-sheet-per-pass tier entirely, exactly the auto-feed-versus-manual bifurcation this guide's introduction flags at this capacity level, even though it's not a direct 15-sheet manual comparison. Its 30-minute duty cycle and mixed-paper caveats apply just as much as they do at every lower auto-feed tier, higher capacity doesn't solve those underlying constraints.\n\nA genuine option if hands-free hopper operation matters more to you than a strict 15-sheet-per-pass manual comparison.\n\nThe standout detail is that anti-jam auto-reverse. Balancing that out, same duty-cycle and mixed-paper caveats as lower auto-feed tiers apply here too.",
     specs: ["100-sheet auto-feed hopper (exceeds 15-sheet manual tier)", "P-4 micro-cut, anti-jam auto-reverse", "30-minute continuous run time", "4.2-gallon bin, bin-full indicator"],
-    pros: ["Auto-feed hopper vastly exceeds manual 15-sheet-per-pass capacity", "Anti-jam auto-reverse", "Bin-full indicator", "Mobile on 360° casters"],
+    pros: ["Auto-feed hopper vastly exceeds manual 15-sheet-per-pass capacity", "Anti-jam auto-reverse", "Bin-full indicator", "Mobile on 360 degrees casters"],
     cons: ["Same duty-cycle and mixed-paper caveats as lower auto-feed tiers apply here too", "Higher price than the manual 15-sheet picks", "Not a direct manual-feed 15-sheet comparison"],
     bestFor: "Buyers who want auto-feed convenience rather than a strict manual 15-sheet-per-pass shredder",
   },
@@ -151,7 +150,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "The largest auto-feed hopper in this comparison set at 120 sheets, again exceeding the manual 15-sheet-per-pass tier this guide targets, included as the hands-free alternative for buyers with genuinely large one-time purges. Same duty-cycle and mixed-paper caveats apply as with any auto-feed hopper regardless of size.\n\nA reasonable choice if minimizing hands-on feeding effort matters more to you than matching this guide's specific 15-sheet manual target.\n\nWorth calling out specifically: separate manual slot for cards/staples. The catch is same auto-feed duty-cycle and mixed-paper caveats as lower tiers apply here.",
-    specs: ["120-sheet auto-feed hopper (exceeds 15-sheet manual tier)", "P-4 micro-cut, separate 12-sheet manual slot", "30-minute continuous run time", "6-gallon bin, 360° casters"],
+    specs: ["120-sheet auto-feed hopper (exceeds 15-sheet manual tier)", "P-4 micro-cut, separate 12-sheet manual slot", "30-minute continuous run time", "6-gallon bin, 360 degrees casters"],
     pros: ["Largest auto-feed hopper in this comparison set", "Separate manual slot for cards/staples", "Bin proportional to hopper output", "Mobile on casters"],
     cons: ["Same auto-feed duty-cycle and mixed-paper caveats as lower tiers apply here", "Highest price tier alongside the rank-6 pick", "Not a direct manual 15-sheet comparison"],
     bestFor: "Buyers who want hands-free bulk capacity rather than a strict manual 15-sheet-per-pass shredder",

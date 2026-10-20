@@ -1,11 +1,11 @@
 export const guideSlug = "best-desktop-whiteboards-with-calculators";
 export const guideTitle = "5 Best Desktop Whiteboards with Calculators in 2026";
-export const metaTitle = "Best Desktop Whiteboards with Calculators (2026)";
+export const metaTitle = "Best Desktop Whiteboards with Calculators";
 export const metaDescription =
   "5 glass desk whiteboards with a built-in, permanently integrated calculator, all clustered in a similar $35-37 price band regardless of brand.";
 export const mainKeyword = "desktop whiteboard with calculator";
 export const introParagraphs = [
-  "This is a real, distinct hybrid product category — glass desktop whiteboards with a permanently integrated calculator, not a loose calculator accessory placed near a whiteboard. We found five legitimate products, and interestingly they cluster tightly in price between $35.99 and $36.99 regardless of brand.",
+  "This is a real, distinct hybrid product category - glass desktop whiteboards with a permanently integrated calculator, not a loose calculator accessory placed near a whiteboard. We found five legitimate products, and interestingly they cluster tightly in price between $35.99 and $36.99 regardless of brand.",
   "Because the calculator function is functionally similar across all five, we focused our comparison on organizer features and review evidence to differentiate them.",
 ];
 export const lastUpdated = "2026-08-08";
@@ -78,7 +78,7 @@ export const products: GuideProduct[] = [
     reviews: "1,201",
     imageUrl: "https://m.media-amazon.com/images/I/41gU+wVBaCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRK225LS?tag=deskfinds0d-20",
-    description: "The same TOWON design as the pick above, one inch narrower and in black, sharing the identical review count and rating — likely the same underlying listing data shared across color variants.",
+    description: "The same TOWON design as the pick above, one inch narrower and in black, sharing the identical review count and rating - likely the same underlying listing data shared across color variants.",
     specs: ["17 x 6 in, glass surface with calculator", "1,201 reviews at 4.4 stars"],
     pros: ["Same proven TOWON design, available in black"],
     cons: ["Slightly smaller writing area and slightly higher price than the 18x6 version"],
@@ -128,7 +128,7 @@ export const howToChoose: HowToChooseSection[] = [
 
 export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Confirm the calculator is permanently integrated", explanation: "This category requires a built-in calculator, not a separate accessory that could be lost or is sold apart from the board." },
-  { criterion: "Don't expect price to differentiate these products much", explanation: "All five picks price within a $1 band regardless of brand — focus your decision on review evidence and extra features instead." },
+  { criterion: "Don't expect price to differentiate these products much", explanation: "All five picks price within a $1 band regardless of brand - focus your decision on review evidence and extra features instead." },
   { criterion: "Decide if you want storage added to the calculator function", explanation: "Only the SELEAD option combines calculator and storage compartments in this comparison." },
   { criterion: "Weigh review volume heavily given similar core function", explanation: "Since the calculator feature is similar across all five, an established review base is the strongest way to differentiate them." },
   { criterion: "Check writing area size if that matters to you", explanation: "The TOWON 18x6 option has the largest writing area in this comparison at the same price as several smaller alternatives." },
@@ -136,7 +136,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 
 export const faq: FaqItem[] = [
   { q: "Is the calculator a real built-in feature or a loose accessory?", a: "We only included products with a permanently integrated calculator, verified against the current listing." },
-  { q: "Why do all these cost about the same?", a: "We found genuine price clustering between $35.99 and $36.99 across every brand in this category — it's not a coincidence, just the current market rate for this hybrid product." },
+  { q: "Why do all these cost about the same?", a: "We found genuine price clustering between $35.99 and $36.99 across every brand in this category - it's not a coincidence, just the current market rate for this hybrid product." },
   { q: "Which has the most reviews?", a: "The TOWON Glass Desk Whiteboard, with 1,201 reviews at 4.4 stars, shared across its size/color variants." },
   { q: "Which has the highest rating?", a: "The Varhomax Glass Desk Whiteboard with Calculator, at 4.8 stars, though with a smaller review base." },
   { q: "Is there an option with storage as well as a calculator?", a: "Yes, the SELEAD Desktop Glass Whiteboard with Calculator and Storage." },

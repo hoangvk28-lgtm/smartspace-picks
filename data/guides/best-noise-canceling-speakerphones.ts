@@ -1,8 +1,7 @@
 export const guideSlug = "best-noise-canceling-speakerphones";
 export const guideTitle = "6 Best Noise-Canceling Speakerphones in 2026";
-export const metaTitle = "Best Noise-Canceling Speakerphones, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 speakerphones we evaluated for noise cancellation, with the distinction competitors blur: AI noise cancellation filters out background sound from what the mic picks up, it doesn't reduce echo or room reverb, a separate problem entirely.";
+export const metaTitle = "Best Noise-Canceling Speakerphones";
+export const metaDescription = "6 speakerphones we evaluated for noise cancellation, with the distinction competitors blur: AI noise cancellation filters out background sound from what the.";
 export const mainKeyword = "noise canceling speakerphone";
 export const introParagraphs = [
   "AI noise cancellation filters background sound (typing, HVAC hum, street noise) out of what the microphone picks up, it's a separate feature from echo cancellation, which prevents your own speaker output from feeding back into the mic, competitors often conflate the two under one 'noise canceling' label.",
@@ -32,9 +31,9 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
       "Explicit AI noise cancellation filters background sound like typing or HVAC hum from your mic pickup, separate from the full-duplex echo cancellation that keeps your own speaker output from feeding back in. 13ft pickup radius and 360 omni mic genuinely cover a small meeting table.\n\nA genuinely affordable price for the feature set, though the review base is still modest compared to established Jabra and Anker alternatives.\n\nLong 20H call time. Set against that, smaller review base than Jabra/Anker alternatives. Both matter when comparing it to the other picks here.",
-    specs: ["AI noise cancellation, full-duplex", "13ft mic pickup radius, 360° omni mic", "20H call time, Bluetooth 5.3", "USB and Bluetooth connectivity"],
+    specs: ["AI noise cancellation, full-duplex", "13ft mic pickup radius, 360 degrees omni mic", "20H call time, Bluetooth 5.3", "USB and Bluetooth connectivity"],
     pros: ["Explicit AI noise cancellation distinct from echo cancellation", "Long 20H call time", "Good pickup radius for a small table", "Very competitive price"],
-    cons: ["Smaller review base than Jabra/Anker alternatives", "Not certified for a specific platform like Zoom or Teams beyond general compatibility", "360° omni pickup may capture more room noise on an open floor plan"],
+    cons: ["Smaller review base than Jabra/Anker alternatives", "Not certified for a specific platform like Zoom or Teams beyond general compatibility", "360 degrees omni pickup may capture more room noise on an open floor plan"],
     bestFor: "Buyers who want explicit AI noise cancellation at a budget-friendly price",
   },
   {
@@ -92,17 +91,17 @@ export const products: GuideProduct[] = [
     id: "emeet-m0plus-noisecancel",
     rank: 5,
     badge: "Best Budget 4-Mic Noise-Canceling Pick",
-    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360° Voice Pickup",
+    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
     rating: "4.3 stars from 1,596 Amazon ratings",
     reviews: "1,596 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
-      "4 mics with 360° voice pickup at a genuinely affordable price, a solid review base gives real-world confidence at this budget tier. 360° pickup means it's designed for a small round table rather than a directional setup.\n\nNo specific platform certification listed, but works over standard USB/Bluetooth with any video conferencing software.\n\nWorth calling out specifically: solid review base for the price. The catch is no specific platform certification.",
-    specs: ["4 mics, 360° voice pickup", "USB and Bluetooth connectivity", "Compact design", "Budget-friendly"],
-    pros: ["Very affordable for a 4-mic design", "Solid review base for the price", "360° pickup suits a small round table", "Compatible with any standard video conferencing software"],
-    cons: ["No specific platform certification", "Fewer premium features than Jabra/Anker options", "360° pickup less directional for narrow rectangular tables"],
+      "4 mics with 360 degrees voice pickup at a genuinely affordable price, a solid review base gives real-world confidence at this budget tier. 360 degrees pickup means it's designed for a small round table rather than a directional setup.\n\nNo specific platform certification listed, but works over standard USB/Bluetooth with any video conferencing software.\n\nWorth calling out specifically: solid review base for the price. The catch is no specific platform certification.",
+    specs: ["4 mics, 360 degrees voice pickup", "USB and Bluetooth connectivity", "Compact design", "Budget-friendly"],
+    pros: ["Very affordable for a 4-mic design", "Solid review base for the price", "360 degrees pickup suits a small round table", "Compatible with any standard video conferencing software"],
+    cons: ["No specific platform certification", "Fewer premium features than Jabra/Anker options", "360 degrees pickup less directional for narrow rectangular tables"],
     bestFor: "Budget-conscious buyers who want a solid 4-mic noise-canceling option",
   },
   {
@@ -255,7 +254,7 @@ export const faq: FaqItem[] = [
   { q: "Is noise cancellation the same as echo cancellation on a speakerphone?", a: "No. AI noise cancellation filters background sound like typing or HVAC hum out of what the mic picks up. Echo cancellation is a separate feature that prevents your own speaker output from feeding back into the mic. Check both specifically." },
   { q: "Does more microphones mean better noise cancellation?", a: "Generally yes for real-world voice isolation across a table. More physical mics with a wider pickup radius genuinely improve how well a speakerphone isolates voices in a real conference room, more so than a single marketing claim." },
   { q: "Do I need a platform-certified speakerphone?", a: "If your team standardizes on Zoom, Google Meet, or Teams, a certified device has been specifically tested against that platform's audio pipeline. General USB/Bluetooth compatibility works with most software but isn't the same tested guarantee." },
-  { q: "What's the difference between 360° and directional mic pickup?", a: "A 360° omni mic design works best for a small round table with people seated all around. A more directional pickup pattern can perform better across a narrow rectangular table where voices come from a more limited range of angles." },
+  { q: "What's the difference between 360 degrees and directional mic pickup?", a: "A 360 degrees omni mic design works best for a small round table with people seated all around. A more directional pickup pattern can perform better across a narrow rectangular table where voices come from a more limited range of angles." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

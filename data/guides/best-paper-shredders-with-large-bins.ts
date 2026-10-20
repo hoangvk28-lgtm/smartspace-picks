@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-with-large-bins";
 export const guideTitle = "8 Best Paper Shredders with Large Bins in 2026";
-export const metaTitle = "Best Paper Shredders with Large Bins, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders with large bin capacity, with a calculation showing bin gallons don't translate to sheet count linearly, cut type changes how much shredded paper packs into the same volume.";
+export const metaTitle = "Best Paper Shredders with Large Bins";
+export const metaDescription = "8 shredders with large bin capacity, with a calculation showing bin gallons don't translate to sheet count linearly across brands.";
 export const mainKeyword = "paper shredder with large bin";
 export const introParagraphs = [
   "A bin's gallon rating doesn't translate linearly to actual sheet capacity, cross-cut and micro-cut shredded paper is far more compact than strip-cut for the same original sheet count, meaning two shredders with identical bin sizes can hold very different numbers of source sheets. We note each pick's cut type alongside its bin size for this reason.",
@@ -49,8 +48,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "Also a 6-gallon bin, but paired with micro-cut particles, even more compact than cross-cut for the same original sheet count, meaning this bin can genuinely hold the most source paper per gallon in this entire guide. Sized appropriately for the 120-sheet auto-feed hopper it serves.\n\n360-degree casters help offset the real weight and footprint tradeoff of carrying this much bin capacity around a shared office.\n\nBin sized appropriately for its large auto-feed hopper. On the other hand, same price as the rank-1 pick with a lower rating. Both are worth keeping in mind before deciding.",
-    specs: ["6-gallon bin, micro-cut density (most compact per gallon)", "120-sheet auto-feed hopper", "30-minute continuous run time", "360° casters"],
-    pros: ["Micro-cut density holds the most source sheets per gallon in this guide", "Bin sized appropriately for its large auto-feed hopper", "Mobile on 360° casters", "P-4 high security"],
+    specs: ["6-gallon bin, micro-cut density (most compact per gallon)", "120-sheet auto-feed hopper", "30-minute continuous run time", "360 degrees casters"],
+    pros: ["Micro-cut density holds the most source sheets per gallon in this guide", "Bin sized appropriately for its large auto-feed hopper", "Mobile on 360 degrees casters", "P-4 high security"],
     cons: ["Same price as the rank-1 pick with a lower rating", "Real weight and footprint tradeoff for a bin this size", "Micro-cut has less foreign-object tolerance than cross-cut"],
     bestFor: "Buyers who want maximum source-sheet capacity per gallon via micro-cut density",
   },

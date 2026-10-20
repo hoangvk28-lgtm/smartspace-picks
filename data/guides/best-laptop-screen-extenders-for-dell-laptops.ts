@@ -1,8 +1,7 @@
 export const guideSlug = "best-laptop-screen-extenders-for-dell-laptops";
 export const guideTitle = "5 Best Laptop Screen Extenders for Dell Laptops in 2026";
-export const metaTitle = "Best Laptop Screen Extenders for Dell Laptops, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 laptop screen extenders we evaluated for Dell laptops, with the port-generation check competitors skip: Dell's lineup spans older USB-A-only ports to newer Thunderbolt 4 USB-C, worth confirming your exact model's port type before buying.";
+export const metaTitle = "Best Laptop Screen Extenders for Dell Laptops";
+export const metaDescription = "5 laptop screen extenders we evaluated for Dell laptops, with the port-generation check competitors skip: Dell's lineup spans older USB-A-only ports to newer.";
 export const mainKeyword = "laptop screen extender for Dell laptop";
 export const introParagraphs = [
   "Dell's laptop lineup spans many generations with genuinely different port configurations, from older USB-A-only business laptops to newer Thunderbolt 4 USB-C models, worth confirming your exact model's port type before assuming any extender connects the same way.",
@@ -88,7 +87,7 @@ export const products: GuideProduct[] = [
     id: "sidetrak-swivel-dell",
     rank: 5,
     badge: "Best Precision Swivel Pick for Dell Laptops",
-    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C® or Mini HDMI (Light Silver)",
+    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C or Mini HDMI (Light Silver)",
     price: "$319.95",
     rating: "4.2 stars from 400+ Amazon ratings",
     reviews: "400+ ratings",

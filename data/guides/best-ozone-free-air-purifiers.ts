@@ -1,8 +1,7 @@
 export const guideSlug = "best-ozone-free-air-purifiers";
 export const guideTitle = "5 Best Ozone-Free Air Purifiers in 2026";
-export const metaTitle = "Best Ozone-Free Air Purifiers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 ozone-free air purifiers we evaluated, with the labeling gap competitors skip: 'ionic' and 'plasma' branding doesn't automatically mean ozone-generating, but the EPA has flagged elevated ozone concentrations as a lung irritant, worth verifying before buying.";
+export const metaTitle = "Best Ozone-Free Air Purifiers";
+export const metaDescription = "5 ozone-free air purifiers we evaluated, with the labeling gap competitors skip: 'ionic' and 'plasma' branding doesn't automatically mean ozone-generating.";
 export const mainKeyword = "ozone-free air purifier";
 export const introParagraphs = [
   "Marketing terms like 'ionic' or 'plasma' don't automatically mean a unit generates ozone, but the EPA has flagged elevated ozone concentrations as a lung irritant, worth verifying the actual mechanism rather than assuming from branding language alone.",
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-ozonefree",
     rank: 2,
     badge: "Best Established Brand Ozone-Free Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

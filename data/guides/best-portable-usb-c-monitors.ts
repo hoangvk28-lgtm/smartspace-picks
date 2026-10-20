@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-usb-c-monitors";
 export const guideTitle = "5 Best Portable USB-C Monitors in 2026";
-export const metaTitle = "Best Portable USB-C Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable USB-C monitors we evaluated, with a note on single-cable power draw: a portable monitor pulling power from your laptop's battery can drain it faster than expected on the go.";
+export const metaTitle = "Best Portable USB-C Monitors";
+export const metaDescription = "5 portable USB-C monitors we evaluated, with a note on single-cable power draw: a portable monitor pulling power from your laptop's battery can drain it faster.";
 export const mainKeyword = "portable usb-c monitor";
 export const introParagraphs = [
   "A portable USB-C monitor that draws power from your laptop's own battery rather than a separate power source can drain your laptop faster than expected, worth checking whether a specific model needs its own power adapter for extended use away from an outlet.",
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "09k3fwmpl-portusbc",
     rank: 2,
     badge: "Best Value Portable USB-C Pick",
-    name: "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve, Built-in 90° Adjustable Stand",
+    name: "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve, Built-in 90 degrees Adjustable Stand",
     price: "$59.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
@@ -49,7 +48,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
     description:
       "Includes a protective sleeve for travel, a genuinely practical inclusion most competitors charge extra for or omit entirely.\n\nThe built-in 90-degree adjustable stand gives real viewing angle flexibility without needing to carry a separate accessory.\n\nA genuine advantage here is that built-in adjustable stand avoids extra accessories. The tradeoff is that uSB-C power draw comes from your laptop by default.",
-    specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90° adjustable stand", "Budget-friendly price"],
+    specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90 degrees adjustable stand", "Budget-friendly price"],
     pros: ["Included protective sleeve adds real travel value", "Built-in adjustable stand avoids extra accessories", "Budget-friendly price", "Solid rating for the price point"],
     cons: ["USB-C power draw comes from your laptop by default", "Standard 1080P resolution, not higher-end", "Verify brightness rating for varied lighting use"],
     bestFor: "Budget-conscious travelers wanting an included protective case and adjustable stand",

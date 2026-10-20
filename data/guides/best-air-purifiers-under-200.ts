@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-under-200";
 export const guideTitle = "5 Best Air Purifiers Under $200 in 2026";
-export const metaTitle = "Best Air Purifiers Under $200, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers under $200 we evaluated, with the diminishing-returns question competitors skip: at this price tier, you're paying mostly for smart features, sensors, and larger coverage, not a fundamentally different filtration mechanism than a sub-$100 unit.";
+export const metaTitle = "Best Air Purifiers Under $200";
+export const metaDescription = "5 air purifiers under $200 we evaluated, with the diminishing-returns question competitors skip: at this price tier, you're paying mostly for smart features.";
 export const mainKeyword = "air purifier under $200";
 export const introParagraphs = [
   "At the $100-200 tier, you're paying mostly for smart features, sensors, larger rated coverage, and established brand reliability, not a fundamentally different filtration mechanism than a genuine sub-$100 True HEPA unit, worth knowing before assuming more expensive automatically means better air cleaning.",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-under200",
     rank: 3,
     badge: "Best Pick with Real-Time Feedback",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

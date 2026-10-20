@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-with-pull-out-bins";
 export const guideTitle = "8 Best Paper Shredders with Pull-Out Bins in 2026";
-export const metaTitle = "Best Paper Shredders with Pull-Out Bins, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders with genuine pull-out bin designs, with a note on slide-rail wear over time and the clearance space a pull-out bin needs that a swing-open design doesn't.";
+export const metaTitle = "Best Paper Shredders with Pull-Out Bins";
+export const metaDescription = "8 shredders with genuine pull-out bin designs, with a note on slide-rail wear over time and the clearance space a pull-out bin needs that a swing-open design.";
 export const mainKeyword = "shredder with pull-out bin";
 export const introParagraphs = [
   "A pull-out bin needs unobstructed clearance space in front of or behind the shredder to fully extend for emptying, a real placement constraint in a tucked-under-desk or corner cabinet location. We note this for each pick since it's rarely diagrammed in general shredder marketing.",
@@ -66,7 +65,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "A 6-gallon pull-out bin paired with a 120-sheet auto-feed hopper, meaning this bin fills faster per session than a manual-feed shredder's, worth factoring into how often you'll be pulling it out. 360-degree casters make positioning the whole unit for bin access easier in a shared office.\n\nStatic buildup is a real consideration with cross-cut/micro-cut paper during pull-out, shreds can cling to the bin walls, making it look emptier than it is.\n\nCasters ease positioning for bin access. On the other hand, fills faster per session due to the large auto-feed hopper. Neither should be a surprise once you know to look for it.",
-    specs: ["6-gallon pull-out bin", "120-sheet auto-feed hopper, P-4 micro-cut", "30-minute continuous run time", "360° casters"],
+    specs: ["6-gallon pull-out bin", "120-sheet auto-feed hopper, P-4 micro-cut", "30-minute continuous run time", "360 degrees casters"],
     pros: ["Large pull-out bin matched to a high-capacity auto-feed hopper", "Casters ease positioning for bin access", "Separate manual slot for cards/staples", "P-4 security level"],
     cons: ["Fills faster per session due to the large auto-feed hopper", "Static cling can make the bin look emptier than it is", "Same clearance-space requirement as any large pull-out bin"],
     bestFor: "Buyers who want a large pull-out bin paired with auto-feed convenience",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DG2MGVMV?tag=deskfinds0d-20",
     description:
       "A smaller 4.2-gallon pull-out bin than the rank-3 pick, meaning less clearance space needed to fully extend it, genuinely useful in a tighter under-desk placement. Bin-full indicator helps you plan the pull-out timing rather than being surprised.\n\nA reasonable choice if clearance space is tight and you don't need the largest pull-out bin in this guide.\n\nBin-full indicator for planning pull-out timing. That's a real strength, but weigh it against the flip side: smaller capacity requires more frequent emptying.",
-    specs: ["4.2-gallon pull-out bin, bin-full indicator", "100-sheet auto-feed hopper, P-4 micro-cut", "30-minute continuous run time", "360° casters"],
+    specs: ["4.2-gallon pull-out bin, bin-full indicator", "100-sheet auto-feed hopper, P-4 micro-cut", "30-minute continuous run time", "360 degrees casters"],
     pros: ["Smaller bin needs less clearance space to extend", "Bin-full indicator for planning pull-out timing", "Lower price than the largest bin picks", "Mobile on casters"],
     cons: ["Smaller capacity requires more frequent emptying", "Same static-cling consideration as any micro-cut pull-out bin", "Not the largest option in this guide"],
     bestFor: "Buyers with tighter clearance space who still want auto-feed pull-out convenience",

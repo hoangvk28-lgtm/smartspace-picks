@@ -1,8 +1,7 @@
 export const guideSlug = "best-speakerphones-for-zoom";
 export const guideTitle = "5 Best Speakerphones for Zoom in 2026";
-export const metaTitle = "Best Speakerphones for Zoom, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 speakerphones we evaluated for Zoom, with the certification distinction that matters: Zoom-certified devices go through Zoom's own testing program, general USB compatibility works but isn't the same tested guarantee.";
+export const metaTitle = "Best Speakerphones for Zoom";
+export const metaDescription = "5 speakerphones we evaluated for Zoom, with the certification distinction that matters: Zoom-certified devices go through Zoom's own testing program.";
 export const mainKeyword = "speakerphone for Zoom";
 export const introParagraphs = [
   "Zoom certification means a device has gone through Zoom's own hardware testing program, confirming its audio driver and echo/noise handling work correctly with Zoom's specific audio pipeline, general USB or Bluetooth plug-and-play compatibility works too, but isn't the same tested guarantee.",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
       "The most affordable pick in this guide, works over standard USB/Bluetooth with Zoom without carrying explicit Zoom certification, general compatibility that's fine for most everyday calls but not the same tested guarantee as a certified device.\n\nAI noise cancellation and full-duplex audio genuinely help call clarity, even without formal Zoom certification.\n\nAI noise cancellation and full-duplex audio. That's a real strength, but weigh it against the flip side: no explicit Zoom certification, general compatibility only.",
-    specs: ["AI noise cancellation, full-duplex, general USB/Bluetooth compatibility", "13ft pickup radius, 360° omni mic", "20H call time", "Marketed primarily for Teams, works with Zoom generally"],
+    specs: ["AI noise cancellation, full-duplex, general USB/Bluetooth compatibility", "13ft pickup radius, 360 degrees omni mic", "20H call time", "Marketed primarily for Teams, works with Zoom generally"],
     pros: ["Most affordable pick in this guide", "AI noise cancellation and full-duplex audio", "Good pickup radius", "Long call time"],
     cons: ["No explicit Zoom certification, general compatibility only", "Smaller review base", "Marketed primarily toward Teams rather than Zoom specifically"],
     bestFor: "Budget-conscious buyers who want general Zoom compatibility without paying for formal certification",
@@ -92,7 +91,7 @@ export const products: GuideProduct[] = [
     id: "emeet-m1a-zoom",
     rank: 5,
     badge: "Best Budget USB Speakerphone",
-    name: "EMEET M1A USB Speakerphone, Built-in Mics, 360° Voice Pickup, Plug&Play",
+    name: "EMEET M1A USB Speakerphone, Built-in Mics, 360 degrees Voice Pickup, Plug&Play",
     price: "$63.99",
     rating: "4.4 stars from 435 Amazon ratings",
     reviews: "435 ratings",
@@ -100,9 +99,9 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description:
       "A genuinely simple USB plug-and-play design, works with Zoom over standard USB audio without any specific setup, a reasonable option if you just need reliable basic call audio rather than certified premium features.\n\nSolid rating base for the price, though it lacks the explicit platform certification of the top picks in this guide.\n\nWorth calling out specifically: solid rating base for the price. The catch is no specific Zoom certification.",
-    specs: ["USB plug-and-play, 360° voice pickup", "Built-in microphones", "Compact design", "Budget-friendly"],
+    specs: ["USB plug-and-play, 360 degrees voice pickup", "Built-in microphones", "Compact design", "Budget-friendly"],
     pros: ["Simple USB plug-and-play setup", "Solid rating base for the price", "Compact, easy to store", "Works with Zoom over standard USB audio"],
-    cons: ["No specific Zoom certification", "Fewer premium features than the certified picks", "360° pickup less directional for narrow tables"],
+    cons: ["No specific Zoom certification", "Fewer premium features than the certified picks", "360 degrees pickup less directional for narrow tables"],
     bestFor: "Buyers who want a simple, affordable USB speakerphone for basic Zoom calls",
   },
 ];

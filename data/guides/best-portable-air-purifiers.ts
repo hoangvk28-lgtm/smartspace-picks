@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-air-purifiers";
 export const guideTitle = "5 Best Portable Air Purifiers in 2026";
-export const metaTitle = "Best Portable Air Purifiers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable air purifiers we evaluated, with the context-dependent effectiveness competitors miss: a modest-CADR portable unit may perform adequately in an enclosed travel space like a car or hotel room despite being underpowered for home-room use.";
+export const metaTitle = "Best Portable Air Purifiers";
+export const metaDescription = "5 portable air purifiers we evaluated, with the context-dependent effectiveness competitors miss: a modest-CADR portable unit may perform adequately in an.";
 export const mainKeyword = "portable air purifier";
 export const introParagraphs = [
   "Portable purifiers used in a car, hotel room, or small enclosed travel space have a genuinely different, usually much smaller, effective air volume to clean than home use, meaning even a modest-CADR portable unit may perform adequately in these enclosed travel contexts despite being underpowered for home-room use.",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "voopnu-portablealt2",
     rank: 3,
     badge: "Best Budget Portable Pick",
-    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft², White",
+    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
     rating: "4.5 stars from 4,026 Amazon ratings",
     reviews: "4,026 ratings",

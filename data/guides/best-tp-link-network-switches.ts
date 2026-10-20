@@ -1,7 +1,7 @@
 export const guideSlug = "best-tp-link-network-switches";
 export const guideTitle = "8 Best TP-Link Network Switches in 2026";
 export const metaTitle = "Best TP-Link Network Switches 2026";
-export const metaDescription = "TP-Link's SG-series spans unmanaged through Omada SDN-managed switches. We mapped the current lineup by tier and speed.";
+export const metaDescription = "TP-Link's SG-series spans unmanaged through Omada SDN-managed switches. We mapped the current lineup by tier, port count, and speed.";
 export const mainKeyword = "tp-link network switches";
 export const introParagraphs = [
   "TP-Link's SG-series and Omada-branded switches span the entire management spectrum, from $15 unmanaged 5-port boxes through 48-port Omada SDN-managed PoE switches, all sharing TP-Link's standard 3-year warranty and free technical support.",
@@ -76,7 +76,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31m3lB8222L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07GR9S6FN?tag=deskfinds0d-20",
     description: "The TL-SG116 brings TP-Link's Gigabit unmanaged line to 16 ports in the same sturdy fanless metal case, rated for a 0 to 40 degree Celsius operating range that's wider than most desktop switches bother to publish.\n\n802.1p/DSCP QoS and IGMP Snooping carry over from the smaller models, giving basic multicast and voice/video prioritization without a management interface. Backed by the same 3-year warranty as the rest of the TP-Link SG line.",
-    specs: ["16 Gigabit ports, QoS + IGMP snooping","0-40°C rated operation","3-year warranty"],
+    specs: ["16 Gigabit ports, QoS + IGMP snooping","0-40 degreesC rated operation","3-year warranty"],
     pros: ["Wide temperature rating for closets/garages","QoS and IGMP snooping despite unmanaged design","Consistent 3-year warranty across the line"],
     cons: ["No VLAN or web management","Larger footprint than 8-port models"],
     bestFor: "buyers prioritizing 16 gigabit ports, qos + igmp snooping",

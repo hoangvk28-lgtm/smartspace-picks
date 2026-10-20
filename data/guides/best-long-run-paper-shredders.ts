@@ -1,8 +1,7 @@
 export const guideSlug = "best-long-run-paper-shredders";
 export const guideTitle = "8 Best Long-Run Paper Shredders in 2026";
-export const metaTitle = "Best Long-Run Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders ranked by real continuous run time, with a note that manufacturer run-time specs assume ideal single-weight paper, rarely matched in a real bulk document purge.";
+export const metaTitle = "Best Long-Run Paper Shredders";
+export const metaDescription = "8 shredders ranked by real continuous run time, with a note that manufacturer run-time specs assume ideal single-weight paper.";
 export const mainKeyword = "continuous-duty paper shredder";
 export const introParagraphs = [
   "A '60-minute continuous run' rating assumes consistent, light paper feeding under lab conditions. Real bulk-shredding sessions with mixed paper weights and staples will often hit the thermal limit before the rated time, an optimistic-lab-condition gap we account for by ranking based on the disclosed run time relative to bin capacity and cooldown period together, not the run-time number alone.",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "At a 30-minute continuous run time, shorter than the two 60-minute picks above, but its 120-sheet hopper capacity means far less total hands-on time for the same document volume, since you're not manually feeding sheet by sheet. Its 6-gallon bin is well-matched to the hopper's output.\n\nA daily volume limit isn't explicitly disclosed here, if you're purging a truly massive backlog across multiple sessions, factor that uncertainty in.\n\nBin proportional to hopper output. Set against that, shorter continuous run time than the top manual-feed picks. Both matter when comparing it to the other picks here.",
-    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "30-minute continuous auto run", "6-gallon pull-out bin, 360° casters", "P-4 micro-cut"],
+    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "30-minute continuous auto run", "6-gallon pull-out bin, 360 degrees casters", "P-4 micro-cut"],
     pros: ["Largest auto-feed hopper capacity in this guide", "Bin proportional to hopper output", "Separate manual slot for cards/staples", "Mobile on casters"],
     cons: ["Shorter continuous run time than the top manual-feed picks", "No explicit daily volume limit disclosed", "Higher price than the smaller auto-feed alternative"],
     bestFor: "Buyers who want the least hands-on-time approach to a large one-time document purge",
@@ -101,7 +100,7 @@ export const products: GuideProduct[] = [
     description:
       "A 30-minute auto-feed run at a lower price than the 120-sheet pick, with explicit anti-jam auto-reverse to keep a long session moving without manual intervention. Its 4.2-gallon bin is proportionally smaller, meaning more mid-session emptying during a genuinely large purge.\n\nA reasonable value pick for auto-feed long-run sessions if you don't need the largest hopper capacity.\n\nThe standout detail is that explicit anti-jam auto-reverse keeps long sessions moving. Balancing that out, smaller bin requires more frequent emptying during a long session.",
     specs: ["100-sheet auto-feed hopper, 8-sheet manual", "30-minute continuous auto run", "4.2-gallon bin, bin-full indicator", "Anti-jam auto-reverse"],
-    pros: ["Lower price than the 120-sheet auto-feed pick", "Explicit anti-jam auto-reverse keeps long sessions moving", "Bin-full indicator", "Mobile on 360° casters"],
+    pros: ["Lower price than the 120-sheet auto-feed pick", "Explicit anti-jam auto-reverse keeps long sessions moving", "Bin-full indicator", "Mobile on 360 degrees casters"],
     cons: ["Smaller bin requires more frequent emptying during a long session", "Same 30-minute run time as the pricier 120-sheet pick", "Mixed-weight paper can trip the limit before the hopper empties"],
     bestFor: "Buyers who want auto-feed long-run convenience without paying for the largest hopper",
   },

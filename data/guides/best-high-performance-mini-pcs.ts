@@ -1,8 +1,7 @@
 export const guideSlug = "best-high-performance-mini-pcs";
 export const guideTitle = "5 Best High-Performance Mini PCs in 2026";
-export const metaTitle = "Best High-Performance Mini PCs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 high-performance mini PCs we evaluated, with an honest note that even top-tier mini PC chips run in a lower power envelope than a full desktop tower's processor, verify this suits your genuinely demanding workload.";
+export const metaTitle = "Best High-Performance Mini PCs";
+export const metaDescription = "5 high-performance mini PCs we evaluated, with an honest note that even top-tier mini PC chips run in a lower power envelope than a full desktop tower's.";
 export const mainKeyword = "high performance mini pc";
 export const introParagraphs = [
   "Even top-tier mini PC processors run in a lower power envelope than a full desktop tower's equivalent chip, worth verifying this genuinely suits your demanding workload rather than assuming a high-performance mini PC matches a full desktop tower's raw processing capability at the same price point.",

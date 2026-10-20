@@ -1,6 +1,6 @@
 export const guideSlug = "best-desktop-whiteboards-for-home-offices";
 export const guideTitle = "5 Best Desktop Whiteboards for Home Offices in 2026";
-export const metaTitle = "Best Desktop Whiteboards for Home Offices (2026)";
+export const metaTitle = "Best Desktop Whiteboards for Home Offices";
 export const metaDescription =
   "5 desktop whiteboards ranked by usable writing area per square inch of desk footprint, since home-office desks are usually smaller than a corporate workstation.";
 export const mainKeyword = "desktop whiteboard for home office";
@@ -128,9 +128,9 @@ export const howToChoose: HowToChooseSection[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Weigh writing area against your actual home-office desk size", explanation: "Home-office desks tend to be smaller than corporate workstations — measure your available space before choosing a larger board." },
+  { criterion: "Weigh writing area against your actual home-office desk size", explanation: "Home-office desks tend to be smaller than corporate workstations - measure your available space before choosing a larger board." },
   { criterion: "Consider a combined organizer if desk space is tight", explanation: "The Varhomax and Amazon Basics options combine whiteboard and storage, saving overall desk footprint." },
-  { criterion: "Match price to your setup budget", explanation: "Options here range from under $10 to nearly $30 — pick based on what fits your overall home-office budget, not just the board alone." },
+  { criterion: "Match price to your setup budget", explanation: "Options here range from under $10 to nearly $30 - pick based on what fits your overall home-office budget, not just the board alone." },
   { criterion: "Check glass vs. magnetic surface for your needs", explanation: "Glass resists ghosting best; magnetic surfaces add note-holding functionality if you reference printed materials." },
   { criterion: "Use review volume for build-quality confidence", explanation: "An established review base is useful evidence a board holds up to regular home-office use." },
 ];

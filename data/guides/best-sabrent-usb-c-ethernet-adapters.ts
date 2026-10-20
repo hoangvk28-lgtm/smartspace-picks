@@ -1,7 +1,7 @@
 export const guideSlug = "best-sabrent-usb-c-ethernet-adapters";
 export const guideTitle = "Best Sabrent USB-C Ethernet Adapters in 2026";
 export const metaTitle = "Best Sabrent USB-C Ethernet Adapters";
-export const metaDescription = "Sabrent's current lineup spans a 5GbE model and a Thunderbolt/USB4-only 10GbE adapter. We verified both before ranking.";
+export const metaDescription = "Sabrent's current lineup spans a 5GbE model and a Thunderbolt/USB4-only 10GbE adapter, a real speed and compatibility split. We verified both before ranking.";
 export const mainKeyword = "sabrent usb-c ethernet adapters";
 export const introParagraphs = [
   "Sabrent currently sells two verified standalone Ethernet adapters, a 5GbE model that auto-negotiates down to Gigabit, and a true 10GbE adapter that explicitly requires Thunderbolt 3/4/5 or USB4, both built around Realtek controllers with honest driver troubleshooting documentation.",

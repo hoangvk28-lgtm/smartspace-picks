@@ -1,8 +1,7 @@
 export const guideSlug = "best-hepa-air-purifiers";
 export const guideTitle = "5 Best HEPA Air Purifiers in 2026";
-export const metaTitle = "Best HEPA Air Purifiers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 HEPA air purifiers we evaluated, with the distinction competitors blur: HEPA-type and HEPA-like claims are materially different from certified True HEPA, verifying which claim a specific product actually makes is the single most important check.";
+export const metaTitle = "Best HEPA Air Purifiers";
+export const metaDescription = "5 HEPA air purifiers we evaluated, with the distinction competitors blur: HEPA-type and HEPA-like claims are materially different from certified True HEPA.";
 export const mainKeyword = "HEPA air purifier";
 export const introParagraphs = [
   "HEPA-type or HEPA-like is materially different from certified True HEPA (99.97% at 0.3 microns), a marketing-language distinction that determines real filtration performance and is frequently blurred in product titles.",
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-hepaalt",
     rank: 2,
     badge: "Best Established Brand HEPA Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -92,7 +91,7 @@ export const products: GuideProduct[] = [
     id: "levoit-washable-hepaalt4",
     rank: 5,
     badge: "Best HEPA Pick with Washable Pre-Filter",
-    name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre-Filter",
+    name: "LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre-Filter",
     price: "$119.99",
     rating: "4.7 stars from 11,367 Amazon ratings",
     reviews: "11,367 ratings",
@@ -163,7 +162,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Maximum airflow",
-        "text": "Faster air turnover for a larger room, usually at a higher noise level on top speed. In this comparison: COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home, Air Purifiers for Bedroom, LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft² Washable Pre."
+        "text": "Faster air turnover for a larger room, usually at a higher noise level on top speed. In this comparison: COWAY Air Purifier for Home Up to 1, Membrane Solutions MSA3 Air Purifier for Home, Air Purifiers for Bedroom, LEVOIT Air Purifier for Home Pets Bedroom Up to 1073Ft2 Washable Pre."
       }
     ],
     "note": "Default to the quieter pick unless your room is large enough that airflow speed matters more than noise."

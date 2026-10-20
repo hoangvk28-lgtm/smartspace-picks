@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-mold-spores";
 export const guideTitle = "5 Best Air Purifiers for Mold Spores in 2026";
-export const metaTitle = "Best Air Purifiers for Mold Spores, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for mold spores, with the source-vs-symptom distinction competitors skip: an air purifier captures airborne spores, it doesn't remediate an active mold source, which needs moisture control and physical remediation first.";
+export const metaTitle = "Best Air Purifiers for Mold Spores";
+export const metaDescription = "5 air purifiers we evaluated for mold spores, with the source-vs-symptom distinction competitors skip: an air purifier captures airborne spores.";
 export const mainKeyword = "air purifier for mold spores";
 export const introParagraphs = [
   "An air purifier captures airborne mold spores as they circulate, it doesn't remediate an active mold source on a wall or in ductwork, which needs moisture control and physical remediation first, a scope limit rarely stated clearly.",
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-mold",
     rank: 2,
     badge: "Best Established Brand Mold Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

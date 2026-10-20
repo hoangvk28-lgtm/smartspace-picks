@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-large-home-offices";
 export const guideTitle = "5 Best Air Purifiers for Large Home Offices in 2026";
-export const metaTitle = "Best Air Purifiers for Large Home Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for large home offices, with the ACH-at-distance math competitors skip: a coverage rating assumes an open room, a large office with furniture, shelving, and room dividers needs meaningfully more capacity than the raw square footage suggests.";
+export const metaTitle = "Best Air Purifiers for Large Home Offices";
+export const metaDescription = "5 air purifiers we evaluated for large home offices, with the ACH-at-distance math competitors skip: a coverage rating assumes an open room.";
 export const mainKeyword = "air purifier for large home office";
 export const introParagraphs = [
   "A rated coverage number assumes an open room with unobstructed airflow, a large home office with furniture, shelving, bookcases, and room dividers needs meaningfully more capacity than the raw square footage suggests, since obstructions slow real air circulation.",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-largeoffice",
     rank: 4,
     badge: "Best Large-Office Pick with Filter Indicator",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

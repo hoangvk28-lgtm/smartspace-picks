@@ -1,7 +1,7 @@
 export const guideSlug = "best-d-link-network-switches";
 export const guideTitle = "5 Best D-Link Network Switches in 2026";
 export const metaTitle = "Best D-Link Network Switches in 2026";
-export const metaDescription = "D-Link's lineup spans Gigabit and 2.5G unmanaged switches with genuinely strong lifetime warranty coverage.";
+export const metaDescription = "D-Link's lineup spans Gigabit and 2.5G unmanaged switches with genuinely strong lifetime warranty coverage across most current models.";
 export const mainKeyword = "d-link network switches";
 export const introParagraphs = [
   "D-Link's current unmanaged switch lineup covers Gigabit through 2.5G speeds, distinguished by genuinely useful extras like QoS, IGMP snooping, and jumbo frame support baked into switches that otherwise skip management entirely, backed by D-Link's Limited Lifetime Product Coverage.",
@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/4127YmkiQvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000BC7QMM?tag=deskfinds0d-20",
-    description: "The DGS-105 mirrors the DGS-108's feature set at 5 ports: auto-negotiating Gigabit with QoS traffic classes and IGMP snooping, silent fanless metal housing, and D-Link's Limited Lifetime Product Coverage.\n\nThe same ±4kV surge protection and jumbo frame support carry over from the 8-port model, just in a smaller footprint appropriate for simpler network expansions.",
-    specs: ["5 Gigabit ports, QoS + IGMP snooping","Lifetime warranty, ±4kV surge protection","Fanless metal housing"],
+    description: "The DGS-105 mirrors the DGS-108's feature set at 5 ports: auto-negotiating Gigabit with QoS traffic classes and IGMP snooping, silent fanless metal housing, and D-Link's Limited Lifetime Product Coverage.\n\nThe same +/-4kV surge protection and jumbo frame support carry over from the 8-port model, just in a smaller footprint appropriate for simpler network expansions.",
+    specs: ["5 Gigabit ports, QoS + IGMP snooping","Lifetime warranty, +/-4kV surge protection","Fanless metal housing"],
     pros: ["Lifetime warranty at a 5-port entry price","QoS and jumbo frame support despite unmanaged design","Consistent surge protection with the 8-port model"],
     cons: ["No web management despite QoS features","5-port limits room to grow"],
     bestFor: "buyers prioritizing 5 gigabit ports, qos + igmp snooping",
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31JsndUneqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000BCC0LO?tag=deskfinds0d-20",
-    description: "The DGS-108 pairs 8 auto-negotiating Gigabit ports with genuinely useful extras for an unmanaged switch: 802.1p QoS traffic classes, IGMP Snooping for clean 4K/8K multicast streaming, and jumbo frame support up to 9KB for large NAS transfers.\n\nBuilt-in surge and ESD protection rated to ±4kV guards against everyday power spikes, and D-Link backs it with Limited Lifetime Protection, meaning they'll repair or replace it for as long as you own it.",
-    specs: ["8 Gigabit ports, QoS + IGMP snooping","9KB jumbo frame support","±4kV surge protection, lifetime warranty"],
+    description: "The DGS-108 pairs 8 auto-negotiating Gigabit ports with genuinely useful extras for an unmanaged switch: 802.1p QoS traffic classes, IGMP Snooping for clean 4K/8K multicast streaming, and jumbo frame support up to 9KB for large NAS transfers.\n\nBuilt-in surge and ESD protection rated to +/-4kV guards against everyday power spikes, and D-Link backs it with Limited Lifetime Protection, meaning they'll repair or replace it for as long as you own it.",
+    specs: ["8 Gigabit ports, QoS + IGMP snooping","9KB jumbo frame support","+/-4kV surge protection, lifetime warranty"],
     pros: ["Lifetime warranty rare at this price point","Jumbo frame support aids large NAS transfers","Surge protection adds real durability"],
     cons: ["No web management despite QoS features","Plastic components less rugged than full-metal rivals"],
     bestFor: "buyers prioritizing 8 gigabit ports, qos + igmp snooping",

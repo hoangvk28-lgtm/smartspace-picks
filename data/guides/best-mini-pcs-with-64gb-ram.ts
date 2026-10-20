@@ -1,6 +1,6 @@
 export const guideSlug = "best-mini-pcs-with-64gb-ram";
 export const guideTitle = "Best Mini PCs with 64GB RAM in 2026";
-export const metaTitle = "Best Mini PCs with 64GB RAM, Honestly Reviewed (2026)";
+export const metaTitle = "Best Mini PCs with 64GB RAM";
 export const metaDescription =
   "64GB RAM mini PCs are a genuinely niche, high-end category, we researched what's actually verified available and who this level of memory realistically serves.";
 export const mainKeyword = "mini pc with 64gb ram";

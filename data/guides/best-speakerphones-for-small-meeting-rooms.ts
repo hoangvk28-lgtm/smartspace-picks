@@ -1,8 +1,7 @@
 export const guideSlug = "best-speakerphones-for-small-meeting-rooms";
 export const guideTitle = "5 Best Speakerphones for Small Meeting Rooms in 2026";
-export const metaTitle = "Best Speakerphones for Small Meeting Rooms, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 speakerphones we evaluated for small meeting rooms, with the pickup-radius math competitors skip: a device's stated pickup radius assumes ideal conditions, real rooms with hard surfaces need real margin.";
+export const metaTitle = "Best Speakerphones for Small Meeting Rooms";
+export const metaDescription = "5 speakerphones we evaluated for small meeting rooms, with the pickup-radius math competitors skip: a device's stated pickup radius assumes ideal conditions.";
 export const mainKeyword = "speakerphone for small meeting room";
 export const introParagraphs = [
   "A speakerphone's stated pickup radius (e.g., 13ft) assumes close-to-ideal acoustic conditions, small meeting rooms with hard surfaces, glass walls, or minimal sound absorption will perform worse in practice, buy a device rated for more radius than your room's actual size to build in real margin.",
@@ -48,10 +47,10 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31E89kCEPNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F28HTJP3?tag=deskfinds0d-20",
     description:
-      "An explicit 13ft pickup radius spec, genuinely useful for planning around a small meeting room's actual dimensions, remember this assumes near-ideal conditions, so a room with hard surfaces or glass will perform somewhat below that stated figure.\n\n360° omni mic and full-duplex speaker at a genuinely affordable price for a dedicated small-room device.\n\nA genuine advantage here is that very affordable for a dedicated small-room device. The tradeoff is stated radius assumes near-ideal acoustic conditions, build in margin for hard-surface rooms.",
-    specs: ["13ft pickup radius, 360° omni mic", "AI noise cancellation, full-duplex", "20H call time, Bluetooth 5.3", "Budget-friendly"],
+      "An explicit 13ft pickup radius spec, genuinely useful for planning around a small meeting room's actual dimensions, remember this assumes near-ideal conditions, so a room with hard surfaces or glass will perform somewhat below that stated figure.\n\n360 degrees omni mic and full-duplex speaker at a genuinely affordable price for a dedicated small-room device.\n\nA genuine advantage here is that very affordable for a dedicated small-room device. The tradeoff is stated radius assumes near-ideal acoustic conditions, build in margin for hard-surface rooms.",
+    specs: ["13ft pickup radius, 360 degrees omni mic", "AI noise cancellation, full-duplex", "20H call time, Bluetooth 5.3", "Budget-friendly"],
     pros: ["Explicit pickup radius spec aids room-size planning", "Very affordable for a dedicated small-room device", "AI noise cancellation", "Long call time"],
-    cons: ["Stated radius assumes near-ideal acoustic conditions, build in margin for hard-surface rooms", "Smaller review base than Anker/Jabra alternatives", "360° pickup may capture hallway noise near a door"],
+    cons: ["Stated radius assumes near-ideal acoustic conditions, build in margin for hard-surface rooms", "Smaller review base than Anker/Jabra alternatives", "360 degrees pickup may capture hallway noise near a door"],
     bestFor: "Buyers who want an explicit pickup-radius spec to plan around their room's actual size",
   },
   {
@@ -75,17 +74,17 @@ export const products: GuideProduct[] = [
     id: "emeet-m0plus-smallroom",
     rank: 4,
     badge: "Best Budget Small Room Pick",
-    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360° Voice Pickup",
+    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
     rating: "4.3 stars from 1,596 Amazon ratings",
     reviews: "1,596 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51zfICZQrEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
-      "4 mics with 360° voice pickup at a genuinely affordable price for a small dedicated meeting room, solid review base gives real-world confidence at this budget tier without paying for premium certification.\n\n360° pickup pattern suits a small round table specifically, verify your room's table shape before buying.\n\nSolid review base for the price. That's a real strength, but weigh it against the flip side: no specific platform certification.",
-    specs: ["4 mics, 360° voice pickup", "USB and Bluetooth connectivity", "Compact design", "Budget-friendly"],
-    pros: ["Very affordable for a 4-mic small-room design", "Solid review base for the price", "360° pickup suits a small round table", "Compact, unobtrusive design"],
-    cons: ["No specific platform certification", "360° pickup less directional for narrow rectangular tables", "Fewer premium features than certified alternatives"],
+      "4 mics with 360 degrees voice pickup at a genuinely affordable price for a small dedicated meeting room, solid review base gives real-world confidence at this budget tier without paying for premium certification.\n\n360 degrees pickup pattern suits a small round table specifically, verify your room's table shape before buying.\n\nSolid review base for the price. That's a real strength, but weigh it against the flip side: no specific platform certification.",
+    specs: ["4 mics, 360 degrees voice pickup", "USB and Bluetooth connectivity", "Compact design", "Budget-friendly"],
+    pros: ["Very affordable for a 4-mic small-room design", "Solid review base for the price", "360 degrees pickup suits a small round table", "Compact, unobtrusive design"],
+    cons: ["No specific platform certification", "360 degrees pickup less directional for narrow rectangular tables", "Fewer premium features than certified alternatives"],
     bestFor: "Budget-conscious small meeting rooms with a round table",
   },
   {
@@ -237,7 +236,7 @@ export const buyingCriteria: BuyingCriterion[] = [
 export const faq: FaqItem[] = [
   { q: "How much pickup radius do I need for a small meeting room?", a: "Buy more than your room's actual dimensions suggest. Stated pickup radius figures assume near-ideal acoustic conditions, a room with hard surfaces or glass walls will perform somewhat below that stated figure in practice." },
   { q: "Does mic count matter more than pickup radius for a small room?", a: "They solve different problems. Mic count drives how well a device isolates individual voices from each other around a table, pickup radius measures how far away it can hear sound at all. A small room with several people needs both." },
-  { q: "What pickup pattern works best for a small meeting room?", a: "360° omni pickup suits a small round table, while a more directional pickup pattern can perform better across a narrow rectangular table, match the pattern to your room's actual table shape." },
+  { q: "What pickup pattern works best for a small meeting room?", a: "360 degrees omni pickup suits a small round table, while a more directional pickup pattern can perform better across a narrow rectangular table, match the pattern to your room's actual table shape." },
   { q: "Do I need a platform-certified speakerphone for a small meeting room?", a: "If the room is dedicated to one video platform, a certified device offers a stronger tested guarantee. If it hosts calls on multiple platforms, a dual-certified pick like the Jabra Speak2 40 offers more flexibility." },
 ];
 

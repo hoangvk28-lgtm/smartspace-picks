@@ -1,8 +1,7 @@
 export const guideSlug = "best-2k-portable-monitors";
 export const guideTitle = "7 Best 2K Portable Monitors in 2026";
-export const metaTitle = "Best 2K Portable Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 portable monitors marketed as '2K,' with an honest breakdown of the actual resolution behind that label and when the sharpness gain over 1080p is genuinely worth the OS scaling tradeoff.";
+export const metaTitle = "Best 2K Portable Monitors";
+export const metaDescription = "7 portable monitors marketed as '2K,' with an honest breakdown of the actual resolution behind that label and when the sharpness gain over 1080p is genuinely.";
 export const mainKeyword = "2K portable monitor";
 export const introParagraphs = [
   "\"2K\" is a marketing term, not a standard, actual resolution varies between 2560x1440, 2560x1600, and other figures depending on the listing. We disclose the exact resolution behind each pick's \"2K\" label rather than treating the term as interchangeable.",
@@ -127,7 +126,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41jGkitNULL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08LCPY1TR?tag=deskfinds0d-20",
     description: "Included here as a reference point, not a genuine \"portable\" recommendation: this is a 27-inch desktop monitor at a true 2560x1440 resolution with Calman-verified Delta E < 2 accuracy, a level of factory calibration none of the truly portable picks in this guide claim. If color accuracy at 2K resolution matters more than portability, this is worth knowing about even though it doesn't fold into a bag.\n\nRanked just behind Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB, it costs more than Upperizon Portable Monitor 16 inch 2K QHD 106% sRGB. The real tradeoff against that pick: Not a portable monitor, a 27-inch desktop display. In exchange, it offers this instead: Genuinely factory-calibrated color accuracy (Delta E < 2). That's the swap that decides whether this pick or the one above it is the better fit for your source device.\n\nWorth knowing before you decide: 100% Rec. 709 gamut for video work. On the other side, Highest price among the picks here. That's the main tradeoff to weigh against everything above.",
-    specs: ["27-inch 2560x1440, Calman-verified Delta E < 2","USB-C 65W PD, DisplayPort daisy-chain","90° pivot ergonomic stand","Not a portable/travel monitor"],
+    specs: ["27-inch 2560x1440, Calman-verified Delta E < 2","USB-C 65W PD, DisplayPort daisy-chain","90 degrees pivot ergonomic stand","Not a portable/travel monitor"],
     pros: ["Genuinely factory-calibrated color accuracy (Delta E < 2)","100% Rec. 709 gamut for video work","5-year warranty available","DisplayPort daisy-chaining for multi-monitor setups"],
     cons: ["Not a portable monitor, a 27-inch desktop display","Doesn't fold or travel like the other picks in this guide","Highest price among the picks here"],
     bestFor: "Buyers who searched '2K monitor' for color accuracy but don't actually need portability",

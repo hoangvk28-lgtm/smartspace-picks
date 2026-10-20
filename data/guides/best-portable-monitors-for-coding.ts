@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-coding";
 export const guideTitle = "8 Best Portable Monitors for Coding in 2026";
-export const metaTitle = "Best Portable Monitors for Coding, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors ranked for coding specifically, prioritizing pixel density and flicker-free backlighting over the gaming-style refresh rate specs most roundups default to.";
+export const metaTitle = "Best Portable Monitors for Coding";
+export const metaDescription = "8 portable monitors ranked for coding specifically, prioritizing pixel density and flicker-free backlighting over the gaming-style refresh rate specs most.";
 export const mainKeyword = "portable monitor for coding";
 export const introParagraphs = [
   "Coding is a static-text, long-session use case where pixel density (PPI) and flicker-free backlighting matter far more than 144Hz/165Hz marketing. Most 'best for coding' content is repurposed gaming-monitor copy, we reorder priorities here toward what actually matters for reading code for hours.",
@@ -95,8 +94,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
     description: "At 18.5 inches, this gives more horizontal room for split-pane editors, terminal windows, and documentation side by side than the 16-inch picks above, a genuine multi-window coding benefit if screen size matters more to your workflow than pixel density. FreeSync is unused for coding, don't pay extra for it specifically for this use case.\n\nOne spot below InnoView 16\" Portable Monitor 120Hz 2.5K QHD 2160x1600 100% sRGB in this ranking, it costs more than InnoView 16\" Portable Monitor 120Hz 2.5K QHD 2160x1600 100% sRGB. The compromise here is straightforward: 1080p, lower pixel density than the 2.5K picks. What you gain in return: Largest screen for multi-window coding layouts. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Largest review base in this guide. On the other side, Heaviest pick here. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360° bracket","Largest review base in this guide"],
-    pros: ["Largest screen for multi-window coding layouts","Largest review base in this guide","VESA mountable with a flexible 360° bracket","Lower price than the premium 2.5K picks"],
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360 degrees bracket","Largest review base in this guide"],
+    pros: ["Largest screen for multi-window coding layouts","Largest review base in this guide","VESA mountable with a flexible 360 degrees bracket","Lower price than the premium 2.5K picks"],
     cons: ["1080p, lower pixel density than the 2.5K picks","FreeSync is unused value for coding","Heaviest pick here"],
     bestFor: "Developers who want maximum horizontal screen space for split-pane editing over pixel density",
   },

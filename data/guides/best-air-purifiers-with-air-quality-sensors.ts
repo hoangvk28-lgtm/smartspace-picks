@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-with-air-quality-sensors";
 export const guideTitle = "5 Best Air Purifiers with Air Quality Sensors in 2026";
-export const metaTitle = "Best Air Purifiers with Air Quality Sensors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers with built-in air quality sensors we evaluated, with the sensor-specificity gap competitors skip: most built-in sensors detect general PM2.5 particulate, not VOCs or CO2 specifically, worth knowing before trusting the reading for a specific concern.";
+export const metaTitle = "Best Air Purifiers with Air Quality Sensors";
+export const metaDescription = "5 air purifiers with built-in air quality sensors we evaluated, with the sensor-specificity gap competitors skip: most built-in sensors detect general PM2.5.";
 export const mainKeyword = "air purifier with air quality sensor";
 export const introParagraphs = [
   "Most built-in air quality sensors detect general PM2.5 particulate concentration, not VOCs, CO2, or specific gas-phase pollutants, meaning a good reading doesn't necessarily mean your air is clear of odor-causing or gas-phase compounds specifically.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-sensor",
     rank: 1,
     badge: "Best Air Purifier with Air Quality Sensor Overall",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

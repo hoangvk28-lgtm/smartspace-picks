@@ -1,8 +1,7 @@
 export const guideSlug = "best-8-port-kvm-switches";
 export const guideTitle = "Best 8-Port KVM Switches in 2026";
-export const metaTitle = "Best 8-Port KVM Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "Consumer-grade 8-port KVM switches are genuinely uncommon, this level of port count typically moves into enterprise or rack-mount equipment, we researched what's realistically available.";
+export const metaTitle = "Best 8-Port KVM Switches";
+export const metaDescription = "Consumer-grade 8-port KVM switches are genuinely uncommon, this level of port count typically moves into enterprise or rack-mount equipment.";
 export const mainKeyword = "8 port kvm switch";
 export const introParagraphs = [
   "Consumer-grade KVM switches supporting eight simultaneous computers are genuinely uncommon in typical desk-focused product lines, this level of port count typically moves into enterprise, IT department, or rack-mount equipment categories rather than home office or small business desk accessories.",

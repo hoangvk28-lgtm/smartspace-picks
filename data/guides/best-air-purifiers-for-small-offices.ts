@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-small-offices";
 export const guideTitle = "5 Best Air Purifiers for Small Offices in 2026";
-export const metaTitle = "Best Air Purifiers for Small Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for shared small offices, with the sizing gap competitors skip: multiple occupants generate more particulates than a single-person room the same size, under-serving actual occupancy-driven air quality needs.";
+export const metaTitle = "Best Air Purifiers for Small Offices";
+export const metaDescription = "5 air purifiers we evaluated for shared small offices, with the sizing gap competitors skip: multiple occupants generate more particulates than a single-person.";
 export const mainKeyword = "air purifier for small office";
 export const introParagraphs = [
   "Small offices with multiple occupants generate more particulates, skin cells, dust from foot traffic, shared equipment, than a single-person room the same size, meaning CADR sized for room square footage alone under-serves actual occupancy-driven air quality needs.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-smalloffice",
     rank: 1,
     badge: "Best Air Purifier for Small Offices Overall",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",
@@ -92,7 +91,7 @@ export const products: GuideProduct[] = [
     id: "honeywell-1700-smalloffice",
     rank: 5,
     badge: "Best High-Capacity Alternative",
-    name: "Honeywell HEPA Air Purifier for Home and Large 1700 ft² Rooms, Black",
+    name: "Honeywell HEPA Air Purifier for Home and Large 1700 ft2 Rooms, Black",
     price: "$219.07",
     rating: "4.6 stars from 1,911 Amazon ratings",
     reviews: "1,911 ratings",
@@ -163,7 +162,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Basic manual controls",
-        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: COWAY Air Purifier for Home Up to 1, LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, Membrane Solutions MSA3 Air Purifier for Home, Honeywell HEPA Air Purifier for Home and Large 1700 ft² Rooms."
+        "text": "Simpler and usually cheaper, with nothing to set up or connect. In this comparison: COWAY Air Purifier for Home Up to 1, LEVOIT Air Purifier for Home Allergies and Pets Hair Smokers in Bedroom, Membrane Solutions MSA3 Air Purifier for Home, Honeywell HEPA Air Purifier for Home and Large 1700 ft2 Rooms."
       }
     ],
     "note": "Default to basic manual controls unless you specifically want app-based monitoring or automation."

@@ -1,8 +1,7 @@
 export const guideSlug = "best-14-inch-laptop-screen-extenders";
 export const guideTitle = "5 Best 14-Inch Laptop Screen Extenders in 2026";
-export const metaTitle = "Best 14-Inch Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 14-inch laptop screen extenders we evaluated, with the resolution-versus-size interaction competitors skip: 14-inch panels commonly ship at 1080P, meaning pixel density is genuinely higher than a similarly resolved larger 15.6-inch panel.";
+export const metaTitle = "Best 14-Inch Laptop Screen Extenders";
+export const metaDescription = "5 14-inch laptop screen extenders we evaluated, with the resolution-versus-size interaction competitors skip: 14-inch panels commonly ship at 1080P.";
 export const mainKeyword = "14-inch laptop screen extender";
 export const introParagraphs = [
   "14-inch panels commonly ship at 1080P resolution, meaning pixel density is genuinely higher than a similarly resolved larger 15.6-inch panel, a real sharpness advantage worth understanding rather than assuming size alone determines display quality.",
@@ -56,7 +55,7 @@ export const products: GuideProduct[] = [
     id: "sidetrak-14-size",
     rank: 3,
     badge: "Best Precision Swivel 14-Inch Pick",
-    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C® or Mini HDMI (Light Silver)",
+    name: "SideTrak Swivel 14\" Patented Attachable Portable Monitor for Laptop | FHD TFT Laptop Dual Screen | Mac, PC & Chrome Compatible | Fits All Laptops | Powered by USB-C or Mini HDMI (Light Silver)",
     price: "$319.95",
     rating: "4.2 stars from 400+ Amazon ratings",
     reviews: "400+ ratings",

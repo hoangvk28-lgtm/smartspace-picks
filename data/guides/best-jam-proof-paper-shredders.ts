@@ -1,8 +1,7 @@
 export const guideSlug = "best-jam-proof-paper-shredders";
 export const guideTitle = "8 Best Jam-Proof Paper Shredders in 2026";
-export const metaTitle = "Best Jam-Proof Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders with genuine anti-jam auto-reverse systems, with an honest clarification that 'jam-proof' means jam-sensing plus auto-reverse, not mechanically impossible to jam.";
+export const metaTitle = "Best Jam-Proof Paper Shredders";
+export const metaDescription = "8 shredders with genuine anti-jam auto-reverse systems, with an honest clarification that 'jam-proof' means jam-sensing plus auto-reverse.";
 export const mainKeyword = "jam-proof paper shredder";
 export const introParagraphs = [
   "\"Jam-proof\" almost never means mechanically impossible to jam, it typically means a sensor detects excess sheet thickness and automatically reverses or ejects before a full jam occurs, still requiring some manual intervention in edge cases. We verify which picks have an explicit auto-reverse or anti-jam system disclosed in their own listing.",
@@ -49,7 +48,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0CSJ3K6T3?tag=deskfinds0d-20",
     description:
       "The largest auto-feed hopper in this guide, which raises real jam-resistance stakes since a bulk hopper load has more opportunity for a jam than a single manual pass. This listing doesn't detail sensor sensitivity specifically, but the combination of auto-feed plus a separate manual slot for cards and staples suggests the auto path is tuned conservatively for standard paper only.\n\nP-4 micro-cut adds security but also means less foreign-object tolerance than a coarser cut, factor that into your expectations for staple/clip handling in the auto hopper specifically.\n\nA genuine advantage here is that separate manual slot for cards/staples reduces jam risk in the main hopper. The tradeoff is that sensor sensitivity for the auto hopper isn't explicitly detailed.",
-    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "P-4 micro-cut", "30 min auto / 10 min manual run time", "6-gallon pull-out bin, 360° casters"],
+    specs: ["120-sheet auto-feed hopper, 12-sheet manual", "P-4 micro-cut", "30 min auto / 10 min manual run time", "6-gallon pull-out bin, 360 degrees casters"],
     pros: ["Largest auto-feed hopper in this guide", "Separate manual slot for cards/staples reduces jam risk in the main hopper", "P-4 security level", "Mobile on casters"],
     cons: ["Sensor sensitivity for the auto hopper isn't explicitly detailed", "Micro-cut has less foreign-object tolerance than coarser cuts", "Higher price than the dedicated jam-proof budget picks"],
     bestFor: "Buyers who want auto-feed bulk capacity with a separated manual path for jam-prone items",
@@ -67,7 +66,7 @@ export const products: GuideProduct[] = [
     description:
       "This listing explicitly names an \"Anti-Jam System\" with an auto-reverse function to clear paper when jammed, exactly the jam-sensing-plus-reverse mechanism most \"jam-proof\" marketing actually refers to, disclosed directly here rather than implied. A bin-full indicator helps prevent overflow-related jams too.\n\nAt 100 sheets, similar jam-threshold caveats apply as with the rank-2 pick, treat the rated capacity as an upper bound, not a guaranteed jam-free number.\n\nBin-full indicator reduces overflow jams. That said, rated 100-sheet capacity likely exceeds real-world jam-free capacity with mixed paper. Neither should be a surprise once you know to look for it.",
     specs: ["100-sheet auto-feed hopper, 8-sheet manual", "P-4 micro-cut, explicit Anti-Jam System", "30 min auto / 40 min off", "4.2-gallon bin, bin-full indicator"],
-    pros: ["Explicitly named Anti-Jam System with auto-reverse", "Bin-full indicator reduces overflow jams", "Lower price than the rank-2 pick", "360° casters"],
+    pros: ["Explicitly named Anti-Jam System with auto-reverse", "Bin-full indicator reduces overflow jams", "Lower price than the rank-2 pick", "360 degrees casters"],
     cons: ["Rated 100-sheet capacity likely exceeds real-world jam-free capacity with mixed paper", "Smaller bin relative to hopper size", "Auto-feed sensor sensitivity not explicitly detailed"],
     bestFor: "Buyers who want an explicitly-named anti-jam system at a more moderate auto-feed price",
   },

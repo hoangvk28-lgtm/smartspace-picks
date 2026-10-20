@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-vocs";
 export const guideTitle = "5 Best Air Purifiers for VOCs in 2026";
-export const metaTitle = "Best Air Purifiers for VOCs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for VOCs (volatile organic compounds), with the HEPA-doesn't-help gap competitors skip: HEPA filters trap particulate, not gas-phase VOC molecules, only a genuine activated carbon stage addresses VOCs.";
+export const metaTitle = "Best Air Purifiers for VOCs";
+export const metaDescription = "5 air purifiers we evaluated for VOCs (volatile organic compounds), with the HEPA-doesn't-help gap competitors skip: HEPA filters trap particulate.";
 export const mainKeyword = "air purifier for VOCs";
 export const introParagraphs = [
   "HEPA filters trap particulate matter, not gas-phase VOC (volatile organic compound) molecules, meaning a HEPA-only unit does essentially nothing for VOCs from paint, new furniture, or cleaning products without a genuine activated carbon stage.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-vocs",
     rank: 1,
     badge: "Best Air Purifier for VOCs Overall",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

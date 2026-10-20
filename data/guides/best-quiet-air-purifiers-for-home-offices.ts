@@ -1,8 +1,7 @@
 export const guideSlug = "best-quiet-air-purifiers-for-home-offices";
 export const guideTitle = "5 Best Quiet Air Purifiers for Home Offices in 2026";
-export const metaTitle = "Best Quiet Air Purifiers for Home Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 quiet air purifiers we evaluated for home offices, with the disclosure gap competitors skip: decibel ratings are almost universally quoted at the lowest fan speed, which also delivers the lowest, often inadequate, CADR.";
+export const metaTitle = "Best Quiet Air Purifiers for Home Offices";
+export const metaDescription = "5 quiet air purifiers we evaluated for home offices, with the disclosure gap competitors skip: decibel ratings are almost universally quoted at the lowest fan.";
 export const mainKeyword = "quiet air purifier";
 export const introParagraphs = [
   "Decibel ratings are almost universally quoted at the lowest fan speed, which also delivers the lowest, often inadequate, CADR, the genuinely relevant spec is noise at the speed needed for real air cleaning, rarely disclosed.",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-quietalt2",
     rank: 3,
     badge: "Best Established Brand Quiet Pick",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

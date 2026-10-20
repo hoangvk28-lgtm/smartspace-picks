@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-printer-and-office-odors";
 export const guideTitle = "5 Best Air Purifiers for Printer and Office Odors in 2026";
-export const metaTitle = "Best Air Purifiers for Printer and Office Odors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for printer and office odors, with the ozone-from-laser-printers angle competitors skip: laser printers genuinely emit trace ozone during operation, worth knowing if you're already choosing an ozone-free purifier.";
+export const metaTitle = "Best Air Purifiers for Printer and Office Odors";
+export const metaDescription = "5 air purifiers we evaluated for printer and office odors, with the ozone-from-laser-printers angle competitors skip: laser printers genuinely emit trace ozone.";
 export const mainKeyword = "air purifier for printer odor";
 export const introParagraphs = [
   "Laser printers genuinely emit trace ozone during operation as a byproduct of the printing process itself, a detail worth knowing if you're specifically choosing an ozone-free purifier for an office, since the room already has a small ozone source unrelated to the purifier.",
@@ -24,7 +23,7 @@ export const products: GuideProduct[] = [
     id: "coway-mighty-printer",
     rank: 1,
     badge: "Best Air Purifier for Printer and Office Odors Overall",
-    name: "COWAY Air Purifier for Home Up to 1,748ft², HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
+    name: "COWAY Air Purifier for Home Up to 1,748ft2, HEPA Filter for Smoke, Allergies, Pet Dander, Odor, Air Quality Monitor, Auto&Eco Mode, Timer, Filter Indicator, 3yr Warranty, Mighty AP-1512HH, Black",
     price: "$229.99",
     rating: "4.6 stars from 28,866 Amazon ratings",
     reviews: "28,866 ratings",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-personal-desktop-whiteboards";
 export const guideTitle = "5 Best Personal Desktop Whiteboards in 2026";
-export const metaTitle = "Best Personal Desktop Whiteboards (2026)";
-export const metaDescription =
-  "5 desktop whiteboards for single-user desk placement, overlapping with our compact whiteboards guide but focused on keyboard-adjacent positioning and organizer features for one person's workflow.";
+export const metaTitle = "Best Personal Desktop Whiteboards";
+export const metaDescription = "5 desktop whiteboards for single-user desk placement, overlapping with our compact whiteboards guide but focused on keyboard-adjacent positioning and organizer.";
 export const mainKeyword = "personal desktop whiteboard";
 export const introParagraphs = [
   "This product pool overlaps substantially with our compact desktop whiteboards guide, since both draw from small glass and magnetic boards sized for a single desk. The distinction we're drawing here is specifically keyboard-adjacent placement and personal organizer features (storage trays, to-do sections) rather than pure footprint.",
@@ -78,11 +77,11 @@ export const products: GuideProduct[] = [
     reviews: "723",
     imageUrl: "https://m.media-amazon.com/images/I/31W4Q2LBraL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09PHHT8DM?tag=deskfinds0d-20",
-    description: "Same core storage-organizer concept as the pick above at an identical price — check the current listing for exact feature differences before choosing between them.",
+    description: "Same core storage-organizer concept as the pick above at an identical price - check the current listing for exact feature differences before choosing between them.",
     specs: ["Glass surface with storage organizer", "723 reviews at 4.7 stars"],
     pros: ["Same organizer concept as the higher-rated listing above at the same price"],
     cons: ["Smaller review base and slightly lower rating than the other Varhomax listing"],
-    bestFor: "Buyers comparing Varhomax listings — check current feature differences before choosing.",
+    bestFor: "Buyers comparing Varhomax listings - check current feature differences before choosing.",
   },
   {
     id: "b0dmzyk585-personalwb",
@@ -119,9 +118,9 @@ export const howToChoose: HowToChooseSection[] = [
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Confirm keyboard-adjacent fit if that's your placement plan", explanation: "Several products here are specifically designed to sit behind a keyboard — check dimensions against your actual desk setup." },
+  { criterion: "Confirm keyboard-adjacent fit if that's your placement plan", explanation: "Several products here are specifically designed to sit behind a keyboard - check dimensions against your actual desk setup." },
   { criterion: "Decide if you need a built-in organizer", explanation: "The Varhomax and Amazon Basics options add storage/to-do features; the TSJ and top pick are pure whiteboard surfaces." },
-  { criterion: "Compare near-identical listings by review data", explanation: "Some products here use very similar designs from the same brand — use review count and rating to pick between them rather than assuming they're the same." },
+  { criterion: "Compare near-identical listings by review data", explanation: "Some products here use very similar designs from the same brand - use review count and rating to pick between them rather than assuming they're the same." },
   { criterion: "Check overlap with our compact whiteboards guide", explanation: "If keyboard placement and organizer features aren't essential, a broader compact-board comparison may surface cheaper options." },
   { criterion: "Weigh glass surface durability against price", explanation: "All the top picks here use glass, which resists ghosting better than cheaper melamine boards over time." },
 ];
@@ -131,7 +130,7 @@ export const faq: FaqItem[] = [
   { q: "Which has the most reviews?", a: "The TSJ OFFICE Small Desktop Whiteboard, with 2,500 reviews at 4.7 stars." },
   { q: "Do any of these include storage?", a: "Yes, the Varhomax listings and the Amazon Basics option include built-in storage or organizer features alongside the whiteboard surface." },
   { q: "What's the cheapest option here?", a: "The Amazon Basics Desktop Dry Erase Whiteboard at $15.74, which includes organizer accessories." },
-  { q: "Are the two Varhomax listings different products?", a: "They appear to be very similar designs at the same price — check the current listing for exact feature differences before choosing between them." },
+  { q: "Are the two Varhomax listings different products?", a: "They appear to be very similar designs at the same price - check the current listing for exact feature differences before choosing between them." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -1,8 +1,7 @@
 export const guideSlug = "best-be19000-wifi-7-routers";
 export const guideTitle = "5 Best BE19000 Wi-Fi 7 Routers in 2026";
-export const metaTitle = "Best BE19000 Wi-Fi 7 Routers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 BE19000 Wi-Fi 7 routers we evaluated, the top-flagship spec, with the honest client-hardware check competitors skip: this extreme theoretical capacity remains almost entirely theoretical headroom given how few devices can currently exploit it.";
+export const metaTitle = "Best BE19000 Wi-Fi 7 Routers";
+export const metaDescription = "5 BE19000 Wi-Fi 7 routers we evaluated, the top-flagship spec, with the honest client-hardware check competitors skip: this extreme theoretical capacity.";
 export const mainKeyword = "BE19000 Wi-Fi 7 router";
 export const introParagraphs = [
   "At this extreme flagship tier, genuine client hardware that can meaningfully exploit this capacity remains rare, this level of theoretical headroom is almost entirely future-facing for the foreseeable future rather than something most connected devices can use today.",
@@ -24,16 +23,16 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-be800",
     rank: 1,
     badge: "Best BE19000 Wi-Fi 7 Router Overall",
-    name: "TP-Link Tri-Band BE19000 WiFi 7 Router (Archer BE800) | 12-Stream 19 Gbps | 2×10G + 4×2.5G Ports | LED Screen, 8 High-Performance Antennas | VPN, Easy Mesh, HomeShield, Private IoT",
+    name: "TP-Link Tri-Band BE19000 WiFi 7 Router (Archer BE800) | 12-Stream 19 Gbps | 2x10G + 4x2.5G Ports | LED Screen, 8 High-Performance Antennas | VPN, Easy Mesh, HomeShield, Private IoT",
     price: "$329.99",
     rating: "4.0 stars from 503 Amazon ratings",
     reviews: "503 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/416sP+jL17L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C4VZWTM7?tag=deskfinds0d-20",
     description:
-      "The larger review base of the two flagship picks in this guide, with genuine 2×10G ports and 8 high-performance antennas, real hardware capability at this extreme tier.\n\nThe '19000' number decodes into a per-band split across three radios that no single device can achieve simultaneously, an even more exaggerated gap between the marketed figure and achievable real-world speed than lower tiers.\n\n8 antennas for real beamforming capability. Set against that, lower average rating suggests mixed real-world experiences at this extreme tier. Both matter when comparing it to the other picks here.",
-    specs: ["Genuine tri-band flagship, 12-stream", "2×10G + 4×2.5G ports", "8 high-performance antennas, LED screen", "Larger review base than the gaming variant"],
-    pros: ["Genuine 2×10G ports for serious wired infrastructure", "8 antennas for real beamforming capability", "Larger review base than the alternative flagship pick", "LED screen for at-a-glance status"],
+      "The larger review base of the two flagship picks in this guide, with genuine 2x10G ports and 8 high-performance antennas, real hardware capability at this extreme tier.\n\nThe '19000' number decodes into a per-band split across three radios that no single device can achieve simultaneously, an even more exaggerated gap between the marketed figure and achievable real-world speed than lower tiers.\n\n8 antennas for real beamforming capability. Set against that, lower average rating suggests mixed real-world experiences at this extreme tier. Both matter when comparing it to the other picks here.",
+    specs: ["Genuine tri-band flagship, 12-stream", "2x10G + 4x2.5G ports", "8 high-performance antennas, LED screen", "Larger review base than the gaming variant"],
+    pros: ["Genuine 2x10G ports for serious wired infrastructure", "8 antennas for real beamforming capability", "Larger review base than the alternative flagship pick", "LED screen for at-a-glance status"],
     cons: ["Lower average rating suggests mixed real-world experiences at this extreme tier", "Very few client devices can currently exploit this level of capacity", "High price for headroom most homes won't use for years"],
     bestFor: "Buyers wanting maximum wired infrastructure with dual 10G ports today",
   },
@@ -41,7 +40,7 @@ export const products: GuideProduct[] = [
     id: "tplink-archer-ge800-gaming",
     rank: 2,
     badge: "Best Gaming-Focused BE19000 Pick",
-    name: "TP-Link Tri-Band BE19000 Wi-Fi 7 Gaming Router Archer GE800 | 12-Stream | 2×10G + 4×2.5G Ports, USB 3.0 | Turbo Acceleration, Dedicated Gaming Port & Panel, RGB Lighting",
+    name: "TP-Link Tri-Band BE19000 Wi-Fi 7 Gaming Router Archer GE800 | 12-Stream | 2x10G + 4x2.5G Ports, USB 3.0 | Turbo Acceleration, Dedicated Gaming Port & Panel, RGB Lighting",
     price: "$499.99",
     rating: "3.7 stars from 312 Amazon ratings",
     reviews: "312 ratings",
@@ -49,7 +48,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0D7MSQG4T?tag=deskfinds0d-20",
     description:
       "The gaming-focused variant of the same BE19000 flagship platform, adding a dedicated gaming port, panel, and turbo acceleration features at a significant price premium.\n\nThe notably lower average rating here versus the standard variant is worth serious consideration, honestly weigh whether the gaming-specific features justify both the price premium and the lower satisfaction signal from existing buyers.\n\nThe standout detail is that same core hardware capability as the standard BE800. Balancing that out, notably lower average rating than the standard variant at a much higher price.",
-    specs: ["Genuine tri-band flagship, 12-stream", "2×10G + 4×2.5G ports, USB 3.0", "Dedicated gaming port and panel", "Turbo acceleration, RGB lighting"],
+    specs: ["Genuine tri-band flagship, 12-stream", "2x10G + 4x2.5G ports, USB 3.0", "Dedicated gaming port and panel", "Turbo acceleration, RGB lighting"],
     pros: ["Dedicated gaming port and panel for prioritized gaming traffic", "Same core hardware capability as the standard BE800", "Turbo acceleration feature for gaming priority", "RGB lighting for gaming aesthetics"],
     cons: ["Notably lower average rating than the standard variant at a much higher price", "Significant price premium over the near-identical standard model", "Very few devices can currently exploit this level of capacity regardless of gaming features"],
     bestFor: "Gaming enthusiasts specifically wanting a dedicated gaming port on flagship hardware",

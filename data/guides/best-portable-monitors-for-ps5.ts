@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-ps5";
 export const guideTitle = "8 Best Portable Monitors for PS5 in 2026";
-export const metaTitle = "Best Portable Monitors for PS5, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated for PS5, all with real HDMI input since PS5 has zero USB-C video output, with an honest read on which features actually reach PS5's HDMI 2.1 capabilities.";
+export const metaTitle = "Best Portable Monitors for PS5";
+export const metaDescription = "8 portable monitors we evaluated for PS5, all with real HDMI input since PS5 has zero USB-C video output on any current model.";
 export const mainKeyword = "portable monitor for PS5";
 export const introParagraphs = [
   "PS5's front and rear USB-C ports are power/data only, no DisplayPort Alt Mode, no video signal. Any portable monitor marketed as USB-C-first cannot connect to a PS5 without a separate HDMI cable. All 8 picks below have real HDMI input for this reason.",
@@ -143,8 +142,8 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
     description: "FreeSync is an AMD-specific variable refresh technology; PS5's VRR feature (when supported) relies on the general HDMI VRR standard, not FreeSync specifically, so don't buy this pick for PS5 expecting FreeSync branding to guarantee VRR compatibility. Full-size HDMI connects directly regardless.\n\nOne spot below ARZOPA 16.1'' 180Hz 2.5K Portable Monitor in this ranking, it's priced lower than ARZOPA 16.1'' 180Hz 2.5K Portable Monitor. The compromise here is straightforward: FreeSync branding doesn't guarantee PS5 VRR compatibility. What you gain in return: Lowest price of the large-screen picks. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Full-size HDMI. On the other side, Lower rating than the premium picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360° bracket","1ms response time"],
-    pros: ["Lowest price of the large-screen picks","Full-size HDMI","Largest review base in this guide","360° adjustable VESA bracket"],
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360 degrees bracket","1ms response time"],
+    pros: ["Lowest price of the large-screen picks","Full-size HDMI","Largest review base in this guide","360 degrees adjustable VESA bracket"],
     cons: ["FreeSync branding doesn't guarantee PS5 VRR compatibility","125% sRGB unverified","Lower rating than the premium picks"],
     bestFor: "Budget-focused PS5 owners who understand FreeSync isn't the same as PS5's own VRR support",
   }

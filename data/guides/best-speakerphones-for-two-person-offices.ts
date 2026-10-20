@@ -1,8 +1,7 @@
 export const guideSlug = "best-speakerphones-for-two-person-offices";
 export const guideTitle = "5 Best Speakerphones for Two-Person Offices in 2026";
-export const metaTitle = "Best Speakerphones for Two-Person Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 speakerphones we evaluated for two-person offices, where a 6-mic conference-room design is genuinely overkill, a compact 1-2 mic speakerphone handles close-range calls just as well for a fraction of the price.";
+export const metaTitle = "Best Speakerphones for Two-Person Offices";
+export const metaDescription = "5 speakerphones we evaluated for two-person offices, where a 6-mic conference-room design is genuinely overkill for the room size.";
 export const mainKeyword = "speakerphone for two person office";
 export const introParagraphs = [
   "A 6-mic conference-room speakerphone is genuinely overkill for a two-person office where both people sit within a few feet of the device, a compact design with fewer mics handles this close-range use case just as well, often for a fraction of the price.",
@@ -41,15 +40,15 @@ export const products: GuideProduct[] = [
     id: "emeet-m1a-twoperson",
     rank: 2,
     badge: "Best Budget Two-Person Pick",
-    name: "EMEET M1A USB Speakerphone, Built-in Mics, 360° Voice Pickup, Plug&Play",
+    name: "EMEET M1A USB Speakerphone, Built-in Mics, 360 degrees Voice Pickup, Plug&Play",
     price: "$63.99",
     rating: "4.4 stars from 435 Amazon ratings",
     reviews: "435 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51Iv2SVmQfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09WWYKP42?tag=deskfinds0d-20",
     description:
-      "A genuinely simple, affordable USB plug-and-play design, more than adequate for two people talking at close range to a video call. 360° pickup easily covers a small shared desk without needing a larger conference-room mic array.\n\nSolid rating base for the price, a sensible choice if you don't want to overspend on conference-room features you won't use.\n\nA genuine advantage here is that solid rating base for the price. The tradeoff is no specific platform certification.",
-    specs: ["USB plug-and-play, 360° voice pickup", "Built-in microphones", "Compact design", "Budget-friendly"],
+      "A genuinely simple, affordable USB plug-and-play design, more than adequate for two people talking at close range to a video call. 360 degrees pickup easily covers a small shared desk without needing a larger conference-room mic array.\n\nSolid rating base for the price, a sensible choice if you don't want to overspend on conference-room features you won't use.\n\nA genuine advantage here is that solid rating base for the price. The tradeoff is no specific platform certification.",
+    specs: ["USB plug-and-play, 360 degrees voice pickup", "Built-in microphones", "Compact design", "Budget-friendly"],
     pros: ["Very affordable for two-person close-range use", "Solid rating base for the price", "Simple plug-and-play setup", "Compact, easy to move between desks"],
     cons: ["No specific platform certification", "Fewer premium features than higher-priced picks", "Not designed for a larger room"],
     bestFor: "Budget-conscious two-person offices that want simple, reliable close-range audio",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "emeet-m0plus-twoperson",
     rank: 3,
     badge: "Best 4-Mic Pick for a Slightly Larger Two-Person Space",
-    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360° Voice Pickup",
+    name: "EMEET M0 Plus Conference Speaker and Microphone, 4 Mics 360 degrees Voice Pickup",
     price: "$52.23",
     rating: "4.3 stars from 1,596 Amazon ratings",
     reviews: "1,596 ratings",
@@ -66,9 +65,9 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0BVZLS5GZ?tag=deskfinds0d-20",
     description:
       "4 mics offer a bit more headroom than a single-mic design, useful if your two-person office is a bit larger or the desks are spaced further apart than a truly compact shared space. Still well below the cost of a full 6-mic conference-room unit.\n\nSolid review base for the price, a reasonable middle ground between the most compact picks and full conference-room designs.\n\nStill well below conference-room pricing. On the other hand, more mics than a truly compact two-person space needs. Neither should be a surprise once you know to look for it.",
-    specs: ["4 mics, 360° voice pickup", "USB and Bluetooth connectivity", "Compact design", "Budget-friendly"],
-    pros: ["4 mics offer more headroom than single-mic designs", "Still well below conference-room pricing", "Solid review base", "360° pickup covers a small-to-medium shared office"],
-    cons: ["More mics than a truly compact two-person space needs", "No specific platform certification", "360° pickup less directional for a narrow desk layout"],
+    specs: ["4 mics, 360 degrees voice pickup", "USB and Bluetooth connectivity", "Compact design", "Budget-friendly"],
+    pros: ["4 mics offer more headroom than single-mic designs", "Still well below conference-room pricing", "Solid review base", "360 degrees pickup covers a small-to-medium shared office"],
+    cons: ["More mics than a truly compact two-person space needs", "No specific platform certification", "360 degrees pickup less directional for a narrow desk layout"],
     bestFor: "Two-person offices with desks spaced a bit further apart than a fully compact setup",
   },
   {

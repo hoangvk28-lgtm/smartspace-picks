@@ -1,8 +1,7 @@
 export const guideSlug = "best-compact-air-purifiers-for-desks";
 export const guideTitle = "5 Best Compact Air Purifiers for Desks in 2026";
-export const metaTitle = "Best Compact Air Purifiers for Desks, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 compact desk air purifiers we evaluated, with the distinction competitors blur: desk-proximity CADR effectiveness is fundamentally different from whole-room CADR, a compact desk unit primarily cleans your immediate vicinity, not the whole room.";
+export const metaTitle = "Best Compact Air Purifiers for Desks";
+export const metaDescription = "5 compact desk air purifiers we evaluated, with the distinction competitors blur: desk-proximity CADR effectiveness is fundamentally different from whole-room.";
 export const mainKeyword = "compact air purifier";
 export const introParagraphs = [
   "Desk-proximity CADR effectiveness is fundamentally different from whole-room CADR, a compact desk unit primarily cleans air in its immediate vicinity rather than achieving genuine whole-room air changes, a distinction competitors blur by quoting whole-room CADR figures for a personal-zone product.",
@@ -58,7 +57,7 @@ export const products: GuideProduct[] = [
     id: "voopnu-compactdeskalt2",
     rank: 3,
     badge: "Best Budget Compact Desk Pick",
-    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft², White",
+    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
     rating: "4.5 stars from 4,026 Amazon ratings",
     reviews: "4,026 ratings",

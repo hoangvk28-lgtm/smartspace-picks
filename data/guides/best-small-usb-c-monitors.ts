@@ -1,8 +1,7 @@
 export const guideSlug = "best-small-usb-c-monitors";
 export const guideTitle = "5 Best Small USB-C Monitors in 2026";
-export const metaTitle = "Best Small USB-C Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 small USB-C monitors we evaluated, with a note that a small panel running 1080p or higher resolution can make default text and icons uncomfortably tiny without scaling adjustments.";
+export const metaTitle = "Best Small USB-C Monitors";
+export const metaDescription = "5 small USB-C monitors we evaluated, with a note that a small panel running 1080p or higher resolution can make default text and icons uncomfortably tiny.";
 export const mainKeyword = "small usb-c monitor";
 export const introParagraphs = [
   "A small panel running 1080p or higher resolution can make default text, icons, and UI elements uncomfortably tiny without scaling adjustments, worth planning for a scaling setup step rather than assuming a small high-resolution monitor looks proportionally correct immediately out of the box.",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "09k3fwmpl-small",
     rank: 4,
     badge: "Best Compact Pick with Stand and Sleeve",
-    name: "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve, Built-in 90° Adjustable Stand",
+    name: "InnoView Portable Monitor 15.6\" 1080P for Laptop with Protective Sleeve, Built-in 90 degrees Adjustable Stand",
     price: "$59.99",
     rating: "4.4 stars from Amazon ratings",
     reviews: "Verified Amazon listing",
@@ -83,7 +82,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B09K3FWMPL?tag=deskfinds0d-20",
     description:
       "Includes a protective sleeve and built-in adjustable stand, genuinely useful extras for a small monitor intended as a secondary or travel-friendly display.\n\n1080P resolution at this size avoids scaling complications while still offering a meaningful resolution bump for reference material.\n\nA genuine advantage here is that built-in adjustable stand avoids extra accessories. The tradeoff is that not suited as a primary all-day productivity display.",
-    specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90° adjustable stand", "Budget-friendly price"],
+    specs: ["15.6-inch 1080P panel", "Included protective sleeve", "Built-in 90 degrees adjustable stand", "Budget-friendly price"],
     pros: ["Included protective sleeve adds real travel value", "Built-in adjustable stand avoids extra accessories", "1080P resolution at this size avoids scaling complications", "Budget-friendly price"],
     cons: ["Not suited as a primary all-day productivity display", "Verify brightness rating for varied lighting use", "Standard resolution, not higher-end"],
     bestFor: "Buyers wanting a compact secondary display with useful included accessories",

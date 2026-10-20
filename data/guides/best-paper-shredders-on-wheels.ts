@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-on-wheels";
 export const guideTitle = "8 Best Paper Shredders on Wheels in 2026";
-export const metaTitle = "Best Paper Shredders on Wheels, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders with caster wheels, with an honest note that caster locking (or the lack of it) affects shredding stability during operation, not just ease of moving the unit around.";
+export const metaTitle = "Best Paper Shredders on Wheels";
+export const metaDescription = "8 shredders with caster wheels, with an honest note that caster locking (or the lack of it) affects shredding stability during operation.";
 export const mainKeyword = "paper shredder with wheels";
 export const introParagraphs = [
   "Caster locking mechanisms directly affect shredding stability, not just mobility. A shredder without lockable casters can shift slightly during operation, especially with an auto-feed hopper vibrating through a run, while locking casters keep the unit stable while actually shredding. We note which picks below address this.",
@@ -32,8 +31,8 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DTKBX3D9?tag=deskfinds0d-20",
     description:
       "Explicitly features 360-degree smooth-rolling casters for easy repositioning around a shared workspace. Its 14-sheet capacity and 20-minute run time are substantial enough that a full 5.3-gallon bin will noticeably increase rolling effort versus empty, plan for that when moving it to empty rather than assuming consistent ease.\n\nNo explicit caster-locking mechanism is mentioned, worth verifying stability during operation if you're placing this on an uneven floor.\n\nWorth calling out specifically: high capacity and long run time for the price. The catch is no explicit caster-locking mechanism confirmed.",
-    specs: ["360° smooth-rolling casters", "14-sheet cross-cut, P-4", "20-minute continuous run, up to 1,400 sheets/session", "5.3-gallon bin"],
-    pros: ["Genuinely smooth 360° casters for repositioning", "High capacity and long run time for the price", "ETL listed", "5.3-gallon bin capacity"],
+    specs: ["360 degrees smooth-rolling casters", "14-sheet cross-cut, P-4", "20-minute continuous run, up to 1,400 sheets/session", "5.3-gallon bin"],
+    pros: ["Genuinely smooth 360 degrees casters for repositioning", "High capacity and long run time for the price", "ETL listed", "5.3-gallon bin capacity"],
     cons: ["No explicit caster-locking mechanism confirmed", "Full-bin rolling will be noticeably harder than empty", "Lowest rating among the higher-capacity picks in this guide"],
     bestFor: "Buyers who want smooth casters paired with substantial shredding capacity",
   },

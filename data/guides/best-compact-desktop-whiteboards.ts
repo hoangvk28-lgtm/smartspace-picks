@@ -1,11 +1,11 @@
 export const guideSlug = "best-compact-desktop-whiteboards";
 export const guideTitle = "5 Best Compact Desktop Whiteboards in 2026";
-export const metaTitle = "Best Compact Desktop Whiteboards (2026)";
+export const metaTitle = "Best Compact Desktop Whiteboards";
 export const metaDescription =
   "5 small desktop whiteboards ranked by writing area relative to footprint, so \"compact\" means space-efficient rather than just narrow packaging.";
 export const mainKeyword = "compact desktop whiteboard";
 export const introParagraphs = [
-  "Compact desktop whiteboards range from 5x7 inch memo pads under $10 to 16x12 inch magnetic boards near $24, and the honest tradeoff is writing area versus desk footprint — a smaller board frees more desk space but gives you less room per note before you need to erase.",
+  "Compact desktop whiteboards range from 5x7 inch memo pads under $10 to 16x12 inch magnetic boards near $24, and the honest tradeoff is writing area versus desk footprint - a smaller board frees more desk space but gives you less room per note before you need to erase.",
   "We compared actual dimensions and stand designs across this price range rather than assuming \"desktop whiteboard\" search results are interchangeable.",
 ];
 export const lastUpdated = "2026-08-08";
@@ -97,7 +97,7 @@ export const products: GuideProduct[] = [
     description: "The smallest and cheapest option in this comparison, a 2-pack of 5x7 memo pads for quick notes rather than an upright whiteboard, at the highest rating tied with the TSJ glass pick.",
     specs: ["5x7 in, notepad format", "2-pack", "1,027 reviews at 4.7 stars"],
     pros: ["Cheapest option, and you get two", "Highest rating tied for this comparison"],
-    cons: ["Notepad format, not an upright board — different use case than the stand-mounted picks"],
+    cons: ["Notepad format, not an upright board - different use case than the stand-mounted picks"],
     bestFor: "Buyers who want the smallest, cheapest option for quick memo notes rather than an upright display board.",
   },
 ];
@@ -131,7 +131,7 @@ export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Weigh writing area against footprint, not just overall size", explanation: "A truly compact board should give you a good writing-area-to-footprint ratio, not just be small in every dimension." },
   { criterion: "Consider glass over melamine if ghosting matters to you", explanation: "Glass surfaces resist marker ghosting better over repeated use than cheaper melamine boards." },
   { criterion: "Check if double-sided fits your workflow", explanation: "A double-sided board effectively doubles usable writing area within the same desk footprint." },
-  { criterion: "Decide between an upright board and a memo notepad format", explanation: "Notepad-format products like the Scribbledo work differently than stand-mounted boards — pick based on your actual use case." },
+  { criterion: "Decide between an upright board and a memo notepad format", explanation: "Notepad-format products like the Scribbledo work differently than stand-mounted boards - pick based on your actual use case." },
   { criterion: "Weigh review volume alongside rating", explanation: "A large, well-established review base is more reliable evidence than a small sample with a similarly high rating." },
 ];
 
@@ -140,7 +140,7 @@ export const faq: FaqItem[] = [
   { q: "Which has the most usable writing area for its size?", a: "The AMUSIGHT Double-Sided Magnetic White Board at 16x12 inches, the largest writing area in this comparison." },
   { q: "Should I get glass or melamine?", a: "Glass resists ghosting better over repeated use. The TSJ OFFICE and Mini Pure Glass picks are both genuine glass surfaces." },
   { q: "What's the cheapest option?", a: "The Scribbledo Mini Dry Erase Notepad 2-pack at $8.99." },
-  { q: "Does double-sided actually help?", a: "Yes — it effectively doubles your usable writing area within the same desk footprint, useful if you erase and reuse the board frequently." },
+  { q: "Does double-sided actually help?", a: "Yes - it effectively doubles your usable writing area within the same desk footprint, useful if you erase and reuse the board frequently." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

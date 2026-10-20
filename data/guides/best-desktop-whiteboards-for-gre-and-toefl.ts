@@ -1,11 +1,10 @@
 export const guideSlug = "best-desktop-whiteboards-for-gre-and-toefl";
 export const guideTitle = "5 Best Desktop Whiteboards for GRE and TOEFL in 2026";
-export const metaTitle = "Best Desktop Whiteboards for GRE and TOEFL (2026)";
-export const metaDescription =
-  "5 small erasable whiteboards suited to at-home GRE and TOEFL scratch work, with a direct reminder to verify current ETS rules before your test date since testing policies can change.";
+export const metaTitle = "Best Desktop Whiteboards for GRE and TOEFL";
+export const metaDescription = "5 small erasable whiteboards suited to at-home GRE and TOEFL scratch work, with a direct reminder to verify current ETS rules before your test date since.";
 export const mainKeyword = "desktop whiteboard for GRE";
 export const introParagraphs = [
-  "At-home GRE and TOEFL testing generally permits one small erasable whiteboard for scratch work, shown to the proctor before and after erasing. We are not claiming any specific product here is officially ETS-approved — verify current requirements directly on the ETS website before your test date, since testing policies can change.",
+  "At-home GRE and TOEFL testing generally permits one small erasable whiteboard for scratch work, shown to the proctor before and after erasing. We are not claiming any specific product here is officially ETS-approved - verify current requirements directly on the ETS website before your test date, since testing policies can change.",
   "What we can rank is board size, erase speed, and camera visibility, all of which matter for a fast-paced at-home testing scenario where you need to work, show the board, and erase quickly under time pressure.",
 ];
 export const lastUpdated = "2026-08-08";
@@ -65,7 +64,7 @@ export const products: GuideProduct[] = [
     description: "The largest writing area in this comparison, useful for quantitative scratch work that needs more room than a compact glass board offers, double-sided for extended sessions.",
     specs: ["16 x 12 in, double-sided, magnetic", "2,486 reviews at 4.8 stars"],
     pros: ["Largest writing area for quantitative scratch work", "Double-sided for more room across a test session"],
-    cons: ["Larger footprint may need repositioning to stay within camera view — check exam-specific camera requirements"],
+    cons: ["Larger footprint may need repositioning to stay within camera view - check exam-specific camera requirements"],
     bestFor: "Test-takers who need more scratch space for complex quantitative work.",
   },
   {
@@ -104,7 +103,7 @@ export const products: GuideProduct[] = [
 
 export interface HowWeEvaluatedItem { title: string; description: string; }
 export const howWeEvaluated: HowWeEvaluatedItem[] = [
-  { title: "No claim of official ETS approval", description: "We did not claim any specific product is officially approved — we directed readers to verify current ETS rules directly, since testing policies can change." },
+  { title: "No claim of official ETS approval", description: "We did not claim any specific product is officially approved - we directed readers to verify current ETS rules directly, since testing policies can change." },
   { title: "Camera visibility and desk footprint", description: "We noted where a compact size fits more easily within typical webcam framing versus larger boards that may need repositioning." },
   { title: "Erase speed for time-pressured test scenarios", description: "We favored glass and magnetic surfaces that erase quickly and completely, relevant for showing an erased board to a proctor under time pressure." },
   { title: "Review volume across board sizes", description: "We compared review evidence across both compact and larger board options, since test-takers have different scratch-space needs by section type." },
@@ -114,15 +113,15 @@ export interface HowToChooseSection { subheading: string; intro?: string; table?
 export const howToChoose: HowToChooseSection[] = [
   {
     subheading: "Verify Current ETS Rules Before Your Test Date",
-    note: "At-home testing requirements can change. Check the official ETS GRE and TOEFL at-home testing pages directly before your exam date to confirm current whiteboard and scratch-work rules — this guide covers board selection, not official certification.",
+    note: "At-home testing requirements can change. Check the official ETS GRE and TOEFL at-home testing pages directly before your exam date to confirm current whiteboard and scratch-work rules - this guide covers board selection, not official certification.",
   },
 ];
 
 export const buyingCriteria: BuyingCriterion[] = [
-  { criterion: "Verify current official testing rules before buying", explanation: "At-home GRE and TOEFL requirements can change — check the current ETS pages directly rather than relying on this or any other guide as the final word." },
+  { criterion: "Verify current official testing rules before buying", explanation: "At-home GRE and TOEFL requirements can change - check the current ETS pages directly rather than relying on this or any other guide as the final word." },
   { criterion: "Match board size to your section needs", explanation: "Quantitative-heavy sections may benefit from more scratch space (16x12 in); a compact board (8x6 in) keeps desk clutter minimal." },
-  { criterion: "Check webcam framing with your specific desk setup", explanation: "A larger board may need repositioning to stay within camera view during a proctored exam — test this before your actual test date." },
-  { criterion: "Prioritize fast, complete erasing", explanation: "You may need to show the board erased to a proctor quickly — glass and magnetic surfaces generally erase more cleanly than melamine." },
+  { criterion: "Check webcam framing with your specific desk setup", explanation: "A larger board may need repositioning to stay within camera view during a proctored exam - test this before your actual test date." },
+  { criterion: "Prioritize fast, complete erasing", explanation: "You may need to show the board erased to a proctor quickly - glass and magnetic surfaces generally erase more cleanly than melamine." },
   { criterion: "Use review volume as evidence of build reliability", explanation: "A large, established review base is useful evidence a board holds up to repeated writing and erasing during test preparation." },
 ];
 

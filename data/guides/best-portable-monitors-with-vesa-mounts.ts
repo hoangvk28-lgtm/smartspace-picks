@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-with-vesa-mounts";
 export const guideTitle = "7 Best Portable Monitors with VESA Mounts in 2026";
-export const metaTitle = "Best Portable Monitors with VESA Mounts, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 portable monitors we checked specifically for real native VESA holes, since most 'portable' monitors marketed as VESA-compatible actually require a separate adapter plate or don't have holes at all.";
+export const metaTitle = "Best Portable Monitors with VESA Mounts";
+export const metaDescription = "7 portable monitors we checked specifically for real native VESA holes, since most 'portable' monitors marketed as VESA-compatible actually require a separate.";
 export const mainKeyword = "VESA portable monitor";
 export const introParagraphs = [
   "Most portable monitors are designed around a thin folio case and integrated kickstand, which typically excludes native VESA mounting points entirely. Buyers need a separate VESA adapter plate for many listings casually described as \"VESA compatible,\" an add-on cost and compatibility step rarely disclosed clearly. We verified which picks below actually have confirmed 75x75mm VESA holes molded into the chassis.",
@@ -87,16 +86,16 @@ export const products: GuideProduct[] = [
   {
     id: "eviciv-185-vesa",
     rank: 5,
-    badge: "Best Budget VESA with 360° Bracket",
+    badge: "Best Budget VESA with 360 degrees Bracket",
     name: "EVICIV Portable Monitor 18.5 Inch 120Hz, 125% sRGB FreeSync",
     price: "$119.99",
     rating: "4.4 stars from 10,899 Amazon ratings",
     reviews: "10,899 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
-    description: "The 360-degree adjustable VESA bracket here is unusually flexible for the price, a genuine step up from a fixed VESA plate. Explicit 75x75mm VESA compatibility with 4x M4x4mm screws included, removing the guesswork of sourcing hardware separately.\n\nOne spot below cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. The compromise here is straightforward: FreeSync not applicable to Mac use. What you gain in return: Confirmed VESA with mounting screws included. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Unusually flexible 360° adjustable bracket. On the other side, Heavier than the 15.6-inch picks. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, VESA 75x75mm","360° adjustable bracket, screws included","FreeSync","Largest review base here"],
-    pros: ["Confirmed VESA with mounting screws included","Unusually flexible 360° adjustable bracket","Lowest price of the large-screen VESA picks","Largest review base in this guide"],
+    description: "The 360-degree adjustable VESA bracket here is unusually flexible for the price, a genuine step up from a fixed VESA plate. Explicit 75x75mm VESA compatibility with 4x M4x4mm screws included, removing the guesswork of sourcing hardware separately.\n\nOne spot below cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB in this ranking, it's priced lower than cocopar Portable Monitor 18.5 Inch 2K QHD 120Hz 120% sRGB. The compromise here is straightforward: FreeSync not applicable to Mac use. What you gain in return: Confirmed VESA with mounting screws included. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Unusually flexible 360 degrees adjustable bracket. On the other side, Heavier than the 15.6-inch picks. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 120Hz, 125% sRGB, VESA 75x75mm","360 degrees adjustable bracket, screws included","FreeSync","Largest review base here"],
+    pros: ["Confirmed VESA with mounting screws included","Unusually flexible 360 degrees adjustable bracket","Lowest price of the large-screen VESA picks","Largest review base in this guide"],
     cons: ["FreeSync not applicable to Mac use","1080p, not the sharpest option","Heavier than the 15.6-inch picks"],
     bestFor: "Budget-focused buyers who want a flexible, confirmed VESA bracket with hardware included",
   },

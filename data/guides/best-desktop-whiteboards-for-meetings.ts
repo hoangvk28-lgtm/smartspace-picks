@@ -1,6 +1,6 @@
 export const guideSlug = "best-desktop-whiteboards-for-meetings";
 export const guideTitle = "5 Best Desktop Whiteboards for Meetings in 2026";
-export const metaTitle = "Best Desktop Whiteboards for Meetings (2026)";
+export const metaTitle = "Best Desktop Whiteboards for Meetings";
 export const metaDescription =
   "5 whiteboards evaluated for video-call camera visibility and quick erase-and-reset between meetings, drawing from our broader desktop whiteboard research.";
 export const mainKeyword = "desktop whiteboard for meetings";
@@ -130,9 +130,9 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria: BuyingCriterion[] = [
   { criterion: "Check camera visibility with your actual webcam setup", explanation: "Test a candidate board's position against your webcam framing before committing, since desk and camera angles vary." },
   { criterion: "Favor glass for reduced glare and ghosting on camera", explanation: "Glass surfaces show less glare under typical office lighting and resist ghosting better than melamine over repeated meetings." },
-  { criterion: "Match writing area to how you actually use it in meetings", explanation: "Quick reminders need less space than sketched diagrams — pick size accordingly." },
+  { criterion: "Match writing area to how you actually use it in meetings", explanation: "Quick reminders need less space than sketched diagrams - pick size accordingly." },
   { criterion: "Consider an organizer if meeting materials clutter your desk", explanation: "The Varhomax option combines whiteboard and storage for meeting-related items." },
-  { criterion: "Weigh review volume for confidence in long-term durability", explanation: "Frequent meeting use means more erase cycles — an established review base is useful evidence of durability." },
+  { criterion: "Weigh review volume for confidence in long-term durability", explanation: "Frequent meeting use means more erase cycles - an established review base is useful evidence of durability." },
 ];
 
 export const faq: FaqItem[] = [

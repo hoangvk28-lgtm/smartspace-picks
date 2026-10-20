@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-under-200";
 export const guideTitle = "8 Best Portable Monitors Under $200 in 2026";
-export const metaTitle = "Best Portable Monitors Under $200, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors under $200, with an honest breakdown of what you're actually getting at this price tier versus what's cut, stand quality, port count, and speaker wattage among them.";
+export const metaTitle = "Best Portable Monitors Under $200";
+export const metaDescription = "8 portable monitors under $200, with an honest breakdown of what you're actually getting at this price tier versus what's cut, stand quality, port count.";
 export const mainKeyword = "portable monitor under 200";
 export const introParagraphs = [
   "Under $200 realistically means 1080p to entry 2.5K IPS panels, not premium color-calibrated displays. Stand and case quality is often the first corner cut at this price, thinner folio covers with fewer fixed angles versus continuously adjustable kickstands on pricier models. We call out exactly where each pick sits within this budget tier.",
@@ -62,9 +61,9 @@ export const products: GuideProduct[] = [
     reviews: "10,899 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/51OlDMVIAEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DWXLCTGZ?tag=deskfinds0d-20",
-    description: "A genuine step up from the two cheapest picks: real 75x75mm VESA mounting with a 360-degree adjustable bracket, one of the better stand designs in this entire budget tier. FreeSync is included too, a feature not every budget-tier monitor bothers with. Sitting just under MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR, it costs more than MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR. Here's the honest tradeoff: Heavier than the 15.6-inch picks. And here's what it gets you instead: Real VESA mount with an unusually flexible 360° bracket for this price. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: Largest screen in this guide. On the other side, 1080p, not the sharpest resolution here. That's the main tradeoff to weigh against everything above.",
-    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360° bracket","Largest review base among large-screen picks"],
-    pros: ["Real VESA mount with an unusually flexible 360° bracket for this price","Largest screen in this guide","FreeSync included","Largest review base among large-screen options"],
+    description: "A genuine step up from the two cheapest picks: real 75x75mm VESA mounting with a 360-degree adjustable bracket, one of the better stand designs in this entire budget tier. FreeSync is included too, a feature not every budget-tier monitor bothers with. Sitting just under MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR, it costs more than MNN 15.6\" FHD 60Hz Portable Monitor USB-C HDMI IPS HDR. Here's the honest tradeoff: Heavier than the 15.6-inch picks. And here's what it gets you instead: Real VESA mount with an unusually flexible 360 degrees bracket for this price. That's the real difference between the two picks, not just a ranking number. Worth knowing before you decide: Largest screen in this guide. On the other side, 1080p, not the sharpest resolution here. That's the main tradeoff to weigh against everything above.",
+    specs: ["18.5-inch 120Hz, 125% sRGB, FreeSync","Full-size HDMI + dual USB-C","75x75mm VESA, 360 degrees bracket","Largest review base among large-screen picks"],
+    pros: ["Real VESA mount with an unusually flexible 360 degrees bracket for this price","Largest screen in this guide","FreeSync included","Largest review base among large-screen options"],
     cons: ["Heavier than the 15.6-inch picks","125% sRGB unverified against a colorimeter","1080p, not the sharpest resolution here"],
     bestFor: "Buyers who want the best stand quality and largest screen within this budget",
   },

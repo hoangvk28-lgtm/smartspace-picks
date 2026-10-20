@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-dorm-rooms";
 export const guideTitle = "5 Best Air Purifiers for Dorm Rooms in 2026";
-export const metaTitle = "Best Air Purifiers for Dorm Rooms, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for dorm rooms, with the compliance check competitors skip: many universities have specific fire-safety or electrical policies restricting certain appliance types or wattage in dorm rooms.";
+export const metaTitle = "Best Air Purifiers for Dorm Rooms";
+export const metaDescription = "5 air purifiers we evaluated for dorm rooms, with the compliance check competitors skip: many universities have specific fire-safety or electrical policies.";
 export const mainKeyword = "air purifier dorm";
 export const introParagraphs = [
   "Many universities have specific fire-safety or electrical policies restricting certain appliance types or wattage in dorm rooms, verify your specific school's housing policy before assuming any air purifier is automatically permitted.",
@@ -75,7 +74,7 @@ export const products: GuideProduct[] = [
     id: "voopnu-dormalt3",
     rank: 4,
     badge: "Best Budget Dorm Pick",
-    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft², White",
+    name: "VOOPNU Air Purifiers for Home, High Efficiency Filter Up to 1076 Ft2, White",
     price: "$26.99",
     rating: "4.5 stars from 4,026 Amazon ratings",
     reviews: "4,026 ratings",

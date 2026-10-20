@@ -1,8 +1,7 @@
 export const guideSlug = "best-clip-on-video-lighting";
 export const guideTitle = "6 Best Clip-On Video Lighting in 2026";
-export const metaTitle = "Best Clip-On Video Lighting, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 clip-on video lights we evaluated, with the CRI number competitors bury: a light's Color Rendering Index matters more for accurate skin tone on camera than raw brightness or color temperature options.";
+export const metaTitle = "Best Clip-On Video Lighting";
+export const metaDescription = "6 clip-on video lights we evaluated, with the CRI number competitors bury: a light's Color Rendering Index matters more for accurate skin tone on camera than.";
 export const mainKeyword = "clip-on video lighting";
 export const introParagraphs = [
   "A light's CRI (Color Rendering Index) determines how accurately it renders skin tones and colors on camera, a high CRI (95+) genuinely matters more for looking natural on a video call than raw brightness or a wide color temperature range, yet many listings bury or omit this spec entirely.",
@@ -108,17 +107,17 @@ export const products: GuideProduct[] = [
   {
     id: "anautin-clipon",
     rank: 6,
-    badge: "Best Budget 360° Clip-On Pick",
-    name: "Anautin Ring Light for Video Conference Lighting,360°Adjustable,Portable LED Video Conference Lighting for Monitor,Laptop&Desktop Computer,Streaming Light for Zoom Meetings, Selfie Makeup, Video Calls",
+    badge: "Best Budget 360 degrees Clip-On Pick",
+    name: "Anautin Ring Light for Video Conference Lighting,360 degreesAdjustable,Portable LED Video Conference Lighting for Monitor,Laptop&Desktop Computer,Streaming Light for Zoom Meetings, Selfie Makeup, Video Calls",
     price: "$10.60",
     rating: "4.4 stars from 152 Amazon ratings",
     reviews: "152 ratings",
     imageUrl: "https://m.media-amazon.com/images/I/41P6ZIeAUXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLPR9ZBK?tag=deskfinds0d-20",
     description:
-      "The most affordable pick in this guide, 360° adjustability lets you angle the light precisely for your specific setup. A genuinely budget-friendly entry point if you just want basic clip-on lighting without premium CRI or color-temperature features.\\n\\nModest review base, but a solid rating for the price, reasonable if budget is the primary constraint.\n\nRelative to the InnoGear Ring Light for Computer On, this pick leans toward a different priority, whether that's a lower price, a wider color temperature range, or a different power source.\n\n360° adjustability for precise angling. Set against that, modest review base. Both matter when comparing it to the other picks here.",
-    specs: ["Ring light, 360° adjustable","Clip-on mount","Portable design","Most affordable pick in this guide"],
-    pros: ["Most affordable pick in this guide","360° adjustability for precise angling","Solid rating for the price","Portable, works across monitor, laptop, and desktop setups"],
+      "The most affordable pick in this guide, 360 degrees adjustability lets you angle the light precisely for your specific setup. A genuinely budget-friendly entry point if you just want basic clip-on lighting without premium CRI or color-temperature features.\\n\\nModest review base, but a solid rating for the price, reasonable if budget is the primary constraint.\n\nRelative to the InnoGear Ring Light for Computer On, this pick leans toward a different priority, whether that's a lower price, a wider color temperature range, or a different power source.\n\n360 degrees adjustability for precise angling. Set against that, modest review base. Both matter when comparing it to the other picks here.",
+    specs: ["Ring light, 360 degrees adjustable","Clip-on mount","Portable design","Most affordable pick in this guide"],
+    pros: ["Most affordable pick in this guide","360 degrees adjustability for precise angling","Solid rating for the price","Portable, works across monitor, laptop, and desktop setups"],
     cons: ["Modest review base","CRI not disclosed","Basic feature set at this price point"],
     bestFor: "Budget-conscious buyers who want basic, adjustable clip-on lighting",
   }

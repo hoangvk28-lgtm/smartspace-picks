@@ -1,7 +1,7 @@
 export const guideSlug = "best-5-port-poe-network-switches";
 export const guideTitle = "5 Best 5-Port PoE Network Switches in 2026";
 export const metaTitle = "Best 5-Port PoE Network Switches";
-export const metaDescription = "5-port PoE switches suit small camera or AP installs. We compared real power budgets across the compact PoE lineup.";
+export const metaDescription = "5-port PoE switches suit small camera or AP installs. We compared real power budgets and port speeds across the current compact PoE lineup.";
 export const mainKeyword = "5-port poe network switches";
 export const introParagraphs = [
   "5-port PoE switches typically dedicate 4 ports to PoE output plus one uplink, right-sized for a small home security camera setup or extending WiFi with one or two additional access points without buying more capacity than needed.",
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/415BKXFHq2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BBLW7DXG?tag=deskfinds0d-20",
-    description: "This industrial PoE switch delivers up to 30W per port under 802.3at across 5 Gigabit ports in an ultra-small 3.74 x 2.76 x 1.18-inch housing, with 12-48V DC redundant input for flexible power sourcing.\n\nThe industrial-grade aluminum housing handles -40°C to 75°C operation, and DIN-rail plus wall-mount hardware ships included for control cabinet installs.",
-    specs: ["5x PoE ports @30W/port, industrial","-40°C to 75°C, 12-48V DC input","DIN-rail + wall mount included"],
+    description: "This industrial PoE switch delivers up to 30W per port under 802.3at across 5 Gigabit ports in an ultra-small 3.74 x 2.76 x 1.18-inch housing, with 12-48V DC redundant input for flexible power sourcing.\n\nThe industrial-grade aluminum housing handles -40 degreesC to 75 degreesC operation, and DIN-rail plus wall-mount hardware ships included for control cabinet installs.",
+    specs: ["5x PoE ports @30W/port, industrial","-40 degreesC to 75 degreesC, 12-48V DC input","DIN-rail + wall mount included"],
     pros: ["30W per port supports higher-draw PoE devices","Wide temperature range suits industrial settings","Redundant DC power input"],
     cons: ["Ultra-small size limits total PoE budget across all 5 ports","Niche industrial brand"],
     bestFor: "buyers prioritizing 5x poe ports @30w/port, industrial",
