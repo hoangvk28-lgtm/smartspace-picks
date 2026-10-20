@@ -1,8 +1,7 @@
 export const guideSlug = "best-under-desk-surge-protectors";
 export const guideTitle = "5 Best Under-Desk Surge Protectors in 2026";
-export const metaTitle = "Best Under-Desk Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 under-desk surge protectors we evaluated, with the compounded risk competitors skip: under-desk mounting hides the one visible signal of MOV status, making a hidden failure even more consequential than for a basic power strip.";
+export const metaTitle = "Best Under-Desk Surge Protectors";
+export const metaDescription = "5 under-desk surge protectors we evaluated, with the compounded risk competitors skip: under-desk mounting hides the one visible signal of MOV status,.";
 export const mainKeyword = "surge protector under desk";
 export const introParagraphs = [
   "Under-desk mounting hides the one visible signal a buyer has of MOV status, combining general under-desk heat and dust concerns with the surge-protection-specific degradation-signal gap makes this a meaningfully higher-stakes visibility problem than for a basic power strip.",

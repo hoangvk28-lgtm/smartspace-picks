@@ -1,8 +1,7 @@
 export const guideSlug = "best-ergonomic-keyboards-for-coding";
 export const guideTitle = "5 Best Ergonomic Keyboards for Coding in 2026";
-export const metaTitle = "Best Ergonomic Keyboards for Coding, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 ergonomic keyboards we evaluated for coding, with the symbol-key-clarity angle competitors skip: coding involves heavy use of brackets, semicolons, and special characters, and keycap legend clarity for these specific keys matters more than general typing comfort alone.";
+export const metaTitle = "Best Ergonomic Keyboards for Coding";
+export const metaDescription = "5 ergonomic keyboards we evaluated for coding, with the symbol-key-clarity angle competitors skip: coding involves heavy use of brackets, semicolons,.";
 export const mainKeyword = "ergonomic keyboard for coding";
 export const introParagraphs = [
   "Coding involves heavy use of symbol keys, brackets, semicolons, and special characters, worth verifying keycap legend clarity and layout accessibility for these specific keys rather than assuming general typing comfort automatically covers coding-specific needs.",

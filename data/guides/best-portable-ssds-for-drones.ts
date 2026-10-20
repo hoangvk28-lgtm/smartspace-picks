@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-ssds-for-drones";
 export const guideTitle = "5 Best Portable SSDs for Drones in 2026";
-export const metaTitle = "Best Portable SSDs for Drones, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable SSDs we evaluated for drone footage, with the realistic-footage-bitrate testing competitors skip: 4K/8K drone footage needs sustained write speed tested against realistic file sizes and bitrates, not generic benchmark files.";
+export const metaTitle = "Best Portable SSDs for Drones";
+export const metaDescription = "5 portable SSDs we evaluated for drone footage, with the realistic-footage-bitrate testing competitors skip: 4K/8K drone footage needs sustained write speed.";
 export const mainKeyword = "portable SSD for drone footage";
 export const introParagraphs = [
   "Drone footage files, especially 4K/8K at high bitrate, require sustained write speed similar to serious video editing needs, worth testing against realistic drone footage file sizes and bitrates specifically rather than generic benchmark file sizes.",

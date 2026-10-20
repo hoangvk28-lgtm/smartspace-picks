@@ -1,8 +1,7 @@
 export const guideSlug = "best-small-surge-protectors-for-travel";
 export const guideTitle = "5 Best Small Surge Protectors for Travel in 2026";
-export const metaTitle = "Best Small Surge Protectors for Travel, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 compact travel surge protectors we evaluated, with the scope limitation competitors skip: a 120V US-market travel surge protector is often only genuinely applicable to domestic travel, not international trips.";
+export const metaTitle = "Best Small Surge Protectors for Travel";
+export const metaDescription = "5 compact travel surge protectors we evaluated, with the scope limitation competitors skip: a 120V US-market travel surge protector is often only genuinely.";
 export const mainKeyword = "small surge protector";
 export const introParagraphs = [
   "International power infrastructure quality varies significantly, and a traveler most needs reliable surge protection specifically in regions or buildings with less consistent grid power, yet a 120V-only US surge protector provides zero protection value internationally since it can't be safely used on a 230V circuit without a separate voltage converter.",

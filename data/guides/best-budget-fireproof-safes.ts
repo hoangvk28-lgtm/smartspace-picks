@@ -1,7 +1,7 @@
 export const guideSlug = "best-budget-fireproof-safes";
 export const guideTitle = "8 Best Budget Fireproof Safes in 2026";
 export const metaTitle = "Best Budget Fireproof Safes 2026";
-export const metaDescription = "We compared budget fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared budget fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "budget fireproof safes";
 export const introParagraphs = [
   "Best Budget Fireproof Safes deserves function-specific scrutiny before ranking, since this category comes down to verifying independent fire evidence instead of trusting a listing's own claims.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41ZBhxLuCQL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008HZUI34?tag=deskfinds0d-20",
-    description: "UL Classified for 30 minutes at 1550°F with separate ETL verification for CDs, DVDs, and USBs, this is SentrySafe's smallest chest in this comparison at 0.18 cu ft, 13 lbs, purpose-built for money and documents in a compact footprint.\n\nA flat key lock (2 keys included) prevents the lid opening during a fire, and included bolt-down hardware plus a built-in carrying handle give both stationary security and portability options.",
-    specs: ["0.18 cu ft, 13 lbs, UL 1/2hr at 1550°F","Flat key lock, 2 keys, bolt-down hardware","Built-in carrying handle"],
+    description: "UL Classified for 30 minutes at 1550 degreesF with separate ETL verification for CDs, DVDs, and USBs, this is SentrySafe's smallest chest in this comparison at 0.18 cu ft, 13 lbs, purpose-built for money and documents in a compact footprint.\n\nA flat key lock (2 keys included) prevents the lid opening during a fire, and included bolt-down hardware plus a built-in carrying handle give both stationary security and portability options.",
+    specs: ["0.18 cu ft, 13 lbs, UL 1/2hr at 1550 degreesF","Flat key lock, 2 keys, bolt-down hardware","Built-in carrying handle"],
     pros: ["Includes both bolt-down hardware and a carrying handle, genuine flexibility between stationary and portable","Flat key lock design specifically prevents lid pop-open during fire","SentrySafe's specific storage guidance (feet down, locked, key plate facing out) helps ensure proper"],
     cons: ["0.18 cu ft is genuinely small, fits documents and cash","Half-hour rating is the entry tier"],
-    bestFor: "buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550°f",
+    bestFor: "buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550 degreesf",
   },
   {
     id: "best-budget-fireproof-safes-2",
@@ -43,11 +43,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550 degreesF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550 degreesF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified",
   },
   {
     id: "best-budget-fireproof-safes-3",
@@ -101,14 +101,14 @@ export const products: GuideProduct[] = [
     id: "best-budget-fireproof-safes-6",
     rank: 6,
     badge: "Solid Option",
-    name: "DocSafe 5200°F Fireproof Document Organizer",
+    name: "DocSafe 5200 degreesF Fireproof Document Organizer",
     price: "$31.33",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51xzFNOAeLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRR524VK?tag=deskfinds0d-20",
-    description: "This organizer's headline claim is a genuinely high 5200°F temperature tolerance across 8 fireproof layers including an aluminum foil lining that resists melting at high heat, a notably aggressive spec for a soft-sided product.\n\nThe 15\"x11\"x4.1\" interior uses a multi-layer design with 8 passport mesh bags, 16 card slots, 4 USB pockets, and 7 folder layers, and a combination lock secures the waterproof-zippered exterior without requiring keys.",
-    specs: ["15\"x11\"x4.1\", 8 fireproof layers","Rated to ~5200°F with aluminum foil lining","Combination lock, waterproof zippers"],
+    description: "This organizer's headline claim is a genuinely high 5200 degreesF temperature tolerance across 8 fireproof layers including an aluminum foil lining that resists melting at high heat, a notably aggressive spec for a soft-sided product.\n\nThe 15\"x11\"x4.1\" interior uses a multi-layer design with 8 passport mesh bags, 16 card slots, 4 USB pockets, and 7 folder layers, and a combination lock secures the waterproof-zippered exterior without requiring keys.",
+    specs: ["15\"x11\"x4.1\", 8 fireproof layers","Rated to ~5200 degreesF with aluminum foil lining","Combination lock, waterproof zippers"],
     pros: ["8-layer construction with aluminum foil lining gives a genuinely high stated temperature tolerance","Highly organized interior (8 passport pockets, 16 card slots, 7 folder layers) beats","Waterproof zippers rated to withstand high-speed fire hose spray"],
     cons: ["Soft-sided organizer, not a rigid steel safe, offers no forced-entry resistance","Extreme temperature claim should be weighed against independently UL-classified competitors"],
     bestFor: "buyers prioritizing 15\"x11\"x4.1\", 8 fireproof layers",
@@ -235,7 +235,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

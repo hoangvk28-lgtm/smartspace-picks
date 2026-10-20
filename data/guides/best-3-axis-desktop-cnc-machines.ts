@@ -1,7 +1,7 @@
 export const guideSlug = "best-3-axis-desktop-cnc-machines";
 export const guideTitle = "7 Best 3 Axis Desktop CNC Machines in 2026";
 export const metaTitle = "Best 3 Axis Desktop CNC Machines 2026";
-export const metaDescription = "We compared 3 axis desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared 3 axis desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price.";
 export const mainKeyword = "3 axis desktop cnc machines";
 export const introParagraphs = [
   "Best 3 Axis Desktop CNC Machines looks straightforward from the outside, but the real differentiator between machines is checking rigidity and usable envelope rather than axis count alone.",
@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41RpbagnLCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G3P6QFS7?tag=deskfinds0d-20",
-    description: "An upgraded Z-axis linear guideway paired with a heavy-duty structure delivers a documented ±0.05mm repeatable positioning accuracy, a genuine step up from the earlier PROVerXL 4030 V1/V2's 8-bit controllers. The 130mm Z-height pass is notably taller than most desktop routers, enabling rotary projects and thicker stock.\n\nA 710W spindle replaces the standard hobbyist spindle for stronger cutting force on harder materials like aluminum and acrylic. Speed jumps from 2000 to 5000mm/min (a 150% increase) while staying under 65dB, and the modular pre-assembled design cuts setup time by roughly 30%.",
-    specs: ["130mm Z-height pass, 710W spindle","±0.05mm repeatable positioning accuracy","Up to 5000mm/min, under 65dB"],
+    description: "An upgraded Z-axis linear guideway paired with a heavy-duty structure delivers a documented +/-0.05mm repeatable positioning accuracy, a genuine step up from the earlier PROVerXL 4030 V1/V2's 8-bit controllers. The 130mm Z-height pass is notably taller than most desktop routers, enabling rotary projects and thicker stock.\n\nA 710W spindle replaces the standard hobbyist spindle for stronger cutting force on harder materials like aluminum and acrylic. Speed jumps from 2000 to 5000mm/min (a 150% increase) while staying under 65dB, and the modular pre-assembled design cuts setup time by roughly 30%.",
+    specs: ["130mm Z-height pass, 710W spindle","+/-0.05mm repeatable positioning accuracy","Up to 5000mm/min, under 65dB"],
     pros: ["130mm Z-height is notably taller than most desktop routers","32-bit MCU is a real upgrade from earlier 8-bit controllers","Runs at up to 5000mm/min while staying under 65dB"],
     cons: ["WiFi module for wireless control is a separate purchase","710W spindle still trails premium options for hard metals"],
     bestFor: "buyers prioritizing 130mm z-height pass, 710w spindle",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41LOQncqszL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DSWK727K?tag=deskfinds0d-20",
-    description: "Repeatability accuracy of ±0.005mm and 6061 aluminum cutting accuracy of ±0.02mm are documented figures that put this ahead of AnoleX's own 3030-Evo Max on precision. HGH-15 dual linear rails with dual-bearing 1204 ball screws on every axis specifically target vibration reduction and stepper motor longevity.\n\nNema 23 stepper motors (2.8A, 1.2 N/m torque) give more headroom than the Nema17 motors common on this class of machine, with closed-loop interfaces for plug-and-play upgrades later. GRBL 1.3a firmware on the ESP32 board supports 4th-axis rotation, coolant control, and closed-loop stepper motors out of the box.",
-    specs: ["±0.005mm repeatability, ±0.02mm on 6061 aluminum","Nema 23 steppers, 2.8A, 1.2 N/m torque","Dual-bearing 1204 ball screws all axes"],
-    pros: ["±0.005mm repeatability beats AnoleX's own 3030-Evo Max","Nema 23 steppers give more torque than common Nema17 motors","GRBL 1.3a supports coolant control and closed-loop upgrades natively"],
+    description: "Repeatability accuracy of +/-0.005mm and 6061 aluminum cutting accuracy of +/-0.02mm are documented figures that put this ahead of AnoleX's own 3030-Evo Max on precision. HGH-15 dual linear rails with dual-bearing 1204 ball screws on every axis specifically target vibration reduction and stepper motor longevity.\n\nNema 23 stepper motors (2.8A, 1.2 N/m torque) give more headroom than the Nema17 motors common on this class of machine, with closed-loop interfaces for plug-and-play upgrades later. GRBL 1.3a firmware on the ESP32 board supports 4th-axis rotation, coolant control, and closed-loop stepper motors out of the box.",
+    specs: ["+/-0.005mm repeatability, +/-0.02mm on 6061 aluminum","Nema 23 steppers, 2.8A, 1.2 N/m torque","Dual-bearing 1204 ball screws all axes"],
+    pros: ["+/-0.005mm repeatability beats AnoleX's own 3030-Evo Max","Nema 23 steppers give more torque than common Nema17 motors","GRBL 1.3a supports coolant control and closed-loop upgrades natively"],
     cons: ["800W stock router still benefits from the 1.5kW upgrade for metal","Speed adjustment requires a manual dial, not software"],
-    bestFor: "buyers prioritizing ±0.005mm repeatability, ±0.02mm on 6061 aluminum",
+    bestFor: "buyers prioritizing +/-0.005mm repeatability, +/-0.02mm on 6061 aluminum",
   },
   {
     id: "best-3-axis-desktop-cnc-machines-6",
@@ -107,9 +107,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41qT8visyJL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9VQGNMM?tag=deskfinds0d-20",
-    description: "A longer Y-axis table gives a 300 x 600mm bed and a genuinely large 300 x 600 x 73mm effective processing area, meant specifically for projects needing large or multiple pieces machined at once. The same 800W trim router with 65mm mount upgrades to a 1.5kW spindle kit as its 3030 and 4030 siblings in this lineup.\n\nMGN-15 dual linear guides and T8 lead screws on every axis handle metal cutting loads, and a 650mN·m stepper motor gives real torque advantage over the 420mN·m common on standard Nema17 setups. GRBL 1.3a firmware on the ESP32 board adds 4th-axis rotation and closed-loop stepper support, and major components arrive pre-assembled with clear cable management.",
-    specs: ["300 x 600mm bed, 73mm effective depth","800W router, upgrades to 1.5kW spindle","650mN·m stepper motor"],
-    pros: ["300 x 600mm bed is genuinely large for multi-piece projects","Same proven upgrade path to a 1.5kW spindle as its siblings","650mN·m stepper gives real torque advantage for metal cutting"],
+    description: "A longer Y-axis table gives a 300 x 600mm bed and a genuinely large 300 x 600 x 73mm effective processing area, meant specifically for projects needing large or multiple pieces machined at once. The same 800W trim router with 65mm mount upgrades to a 1.5kW spindle kit as its 3030 and 4030 siblings in this lineup.\n\nMGN-15 dual linear guides and T8 lead screws on every axis handle metal cutting loads, and a 650mN-m stepper motor gives real torque advantage over the 420mN-m common on standard Nema17 setups. GRBL 1.3a firmware on the ESP32 board adds 4th-axis rotation and closed-loop stepper support, and major components arrive pre-assembled with clear cable management.",
+    specs: ["300 x 600mm bed, 73mm effective depth","800W router, upgrades to 1.5kW spindle","650mN-m stepper motor"],
+    pros: ["300 x 600mm bed is genuinely large for multi-piece projects","Same proven upgrade path to a 1.5kW spindle as its siblings","650mN-m stepper gives real torque advantage for metal cutting"],
     cons: ["Larger bed needs more floor or bench space than 3030-class machines","800W stock router still benefits from the spindle upgrade for metal"],
     bestFor: "buyers prioritizing 300 x 600mm bed, 73mm effective depth",
   },

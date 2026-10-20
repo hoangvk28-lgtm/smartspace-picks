@@ -1,6 +1,6 @@
 export const guideSlug = "best-smart-desk-clocks";
 export const guideTitle = "Best Smart Desk Clocks in 2026: What You're Really Looking For";
-export const metaTitle = "Best Smart Desk Clocks (2026)";
+export const metaTitle = "Best Smart Desk Clocks";
 export const metaDescription =
   "\"Smart desk clock\" usually means a smart display with a clock face. We clarify the difference and cover the closest non-app-connected alternatives.";
 export const mainKeyword = "smart desk clock";

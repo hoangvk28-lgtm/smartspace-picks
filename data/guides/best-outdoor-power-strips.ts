@@ -1,8 +1,7 @@
 export const guideSlug = "best-outdoor-power-strips";
 export const guideTitle = "3 Best Outdoor Power Strips in 2026";
-export const metaTitle = "Best Outdoor Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "3 outdoor power strips we evaluated, with the distinction competitors blur: genuine outdoor electrical safety requires GFCI protection, a separate, more critical feature than basic weather-resistant casing alone.";
+export const metaTitle = "Best Outdoor Power Strips";
+export const metaDescription = "3 outdoor power strips we evaluated, with the distinction competitors blur: genuine outdoor electrical safety requires GFCI protection, a separate,.";
 export const mainKeyword = "outdoor power strip";
 export const introParagraphs = [
   "Genuine outdoor electrical safety requires GFCI (Ground Fault Circuit Interrupter) protection, a separate, more critical safety feature than basic weather-resistant casing, an outdoor power strip's housing being water-resistant doesn't address the shock-hazard risk of moisture contacting live electrical contacts.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-multi-device-vertical-mice";
 export const guideTitle = "5 Best Multi-Device Vertical Mice in 2026";
-export const metaTitle = "Best Multi-Device Vertical Mice, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 multi-device vertical mice we evaluated, with the pairing-slot and DPI-persistence check competitors skip: pairing slot count, switching mechanism reliability, and whether DPI settings persist per device all vary meaningfully between products.";
+export const metaTitle = "Best Multi-Device Vertical Mice";
+export const metaDescription = "5 multi-device vertical mice we evaluated, with the pairing-slot and DPI-persistence check competitors skip: pairing slot count,.";
 export const mainKeyword = "multi-device vertical mouse";
 export const introParagraphs = [
   "Multi-device pairing slot count, how many devices can be paired simultaneously and quick-switched, should be verified per product, cross-referencing the same specification gap relevant to multi-device ergonomic keyboard research.",

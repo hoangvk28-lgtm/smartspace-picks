@@ -1,8 +1,7 @@
 export const guideSlug = "best-heavy-duty-power-strips";
 export const guideTitle = "5 Best Heavy-Duty Power Strips in 2026";
-export const metaTitle = "Best Heavy-Duty Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 heavy-duty power strips we evaluated, with the ambiguity competitors skip: heavy-duty can mean amperage capacity, physical durability, or both, two genuinely different attributes buyers should distinguish.";
+export const metaTitle = "Best Heavy-Duty Power Strips";
+export const metaDescription = "5 heavy-duty power strips we evaluated, with the ambiguity competitors skip: heavy-duty can mean amperage capacity, physical durability, or both,.";
 export const mainKeyword = "heavy duty power strip";
 export const introParagraphs = [
   "Heavy-duty is frequently used as marketing language without clarifying whether it refers to amperage capacity, physical durability, or both, a strip can be physically rugged while still being a standard 15A/1800W unit, or electrically higher-capacity while housed in standard plastic.",

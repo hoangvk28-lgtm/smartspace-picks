@@ -1,8 +1,7 @@
 export const guideSlug = "best-travel-laptop-screen-extenders";
 export const guideTitle = "5 Best Travel Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Travel Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 travel laptop screen extenders we evaluated, weighing genuine portability (weight, folded thickness, included case) against the fact that a truly ultralight design sometimes trades off panel rigidity.";
+export const metaTitle = "Best Travel Laptop Screen Extenders";
+export const metaDescription = "5 travel laptop screen extenders we evaluated, weighing genuine portability (weight, folded thickness, included case) against the fact that a truly ultralight.";
 export const mainKeyword = "travel laptop screen extender";
 export const introParagraphs = [
   "Weighing genuine portability, actual weight, folded thickness, and whether a protective case is included, matters more here than for a desk-bound extender, since a travel pick spends most of its life inside a bag.",

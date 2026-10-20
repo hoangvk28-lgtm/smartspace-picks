@@ -1,8 +1,7 @@
 export const guideSlug = "best-smart-power-strips";
 export const guideTitle = "5 Best Smart Power Strips in 2026";
-export const metaTitle = "Best Smart Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 smart power strips we evaluated, with the control-granularity distinction competitors blur: some only toggle the entire strip as one unit, others provide fully independent per-outlet control.";
+export const metaTitle = "Best Smart Power Strips";
+export const metaDescription = "5 smart power strips we evaluated, with the control-granularity distinction competitors blur: some only toggle the entire strip as one unit,.";
 export const mainKeyword = "smart power strip";
 export const introParagraphs = [
   "Smart control granularity varies from whole-strip on/off to fully independent per-outlet control, a meaningful capability difference blurred by generic smart marketing, some smart power strips only allow toggling the entire strip as one unit.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-printers-without-ink-subscriptions";
 export const guideTitle = "8 Best Printers Without Ink Subscriptions in 2026";
-export const metaTitle = "Best Printers Without Ink Subscriptions in 2026 (Ink Tank vs Cartridge)";
-export const metaDescription =
-  "8 printers we evaluated for buyers who want to avoid ink subscriptions entirely, plus the difference between no subscription and no ink lock that most guides skip.";
+export const metaTitle = "Best Printers Without Ink Subscriptions in 2026";
+export const metaDescription = "8 printers we evaluated for buyers who want to avoid ink subscriptions entirely, plus the difference between no subscription and no ink lock that most guides.";
 export const mainKeyword = "printer without ink subscription";
 export const introParagraphs = [
   "Wanting to avoid an ink subscription is a reasonable, common goal, but it's worth being precise about what that actually protects you from. A printer having no subscription program built in isn't the same thing as a printer that will accept any third-party ink you buy; some models still restrict non-original cartridges through firmware even without an active subscription running.",

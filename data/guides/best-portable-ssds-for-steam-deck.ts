@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-ssds-for-steam-deck";
 export const guideTitle = "5 Best Portable SSDs for Steam Deck in 2026";
-export const metaTitle = "Best Portable SSDs for Steam Deck, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable SSDs we evaluated for Steam Deck, with the SteamOS file system compatibility check competitors skip: exFAT works broadly, but native Linux formats might not be readily accessible without additional configuration on this platform.";
+export const metaTitle = "Best Portable SSDs for Steam Deck";
+export const metaDescription = "5 portable SSDs we evaluated for Steam Deck, with the SteamOS file system compatibility check competitors skip: exFAT works broadly,.";
 export const mainKeyword = "portable SSD for Steam Deck";
 export const introParagraphs = [
   "Steam Deck's specific USB-C port bandwidth and power delivery characteristics should be verified against the SSD's requirements, since the Deck's port may not provide full power for all bus-powered drives.",

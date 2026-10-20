@@ -1,8 +1,7 @@
 export const guideSlug = "best-laptop-screen-extenders";
 export const guideTitle = "5 Best Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 laptop screen extenders we evaluated, with the port-versus-power-draw check competitors skip: a single USB-C cable must carry both video signal and power, and older or budget laptop ports can't always supply enough power for full brightness.";
+export const metaTitle = "Best Laptop Screen Extenders";
+export const metaDescription = "5 laptop screen extenders we evaluated, with the port-versus-power-draw check competitors skip: a single USB-C cable must carry both video signal and power,.";
 export const mainKeyword = "laptop screen extender";
 export const introParagraphs = [
   "A laptop screen extender draws power directly from your laptop's own USB-C port in most single-cable designs, meaning your laptop's available power output, not just the extender's own spec, determines whether the screen runs at full brightness or throttles.",

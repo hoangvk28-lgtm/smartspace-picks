@@ -1,6 +1,6 @@
 export const guideSlug = "best-wooden-desk-clocks";
 export const guideTitle = "2 Best Wooden Desk Clocks in 2026";
-export const metaTitle = "Best Wooden Desk Clocks (2026)";
+export const metaTitle = "Best Wooden Desk Clocks";
 export const metaDescription =
   "An honest, short guide to genuinely wood-material desk clocks. Only two verified real-wood picks turned up in our research, here they are.";
 export const mainKeyword = "wooden desk clock";

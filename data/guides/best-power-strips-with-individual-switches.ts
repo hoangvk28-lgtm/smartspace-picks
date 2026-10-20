@@ -1,8 +1,7 @@
 export const guideSlug = "best-power-strips-with-individual-switches";
 export const guideTitle = "5 Best Power Strips with Individual Switches in 2026";
-export const metaTitle = "Best Power Strips with Individual Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 power strips with individual switches we evaluated, with the phantom-load detail competitors skip: switched outlets still draw standby power for the strip's own indicator LEDs and protection circuitry.";
+export const metaTitle = "Best Power Strips with Individual Switches";
+export const metaDescription = "5 power strips with individual switches we evaluated, with the phantom-load detail competitors skip: switched outlets still draw standby power for the strip's.";
 export const mainKeyword = "power strip individual switches";
 export const introParagraphs = [
   "Individual switches control power delivery per outlet, but this doesn't necessarily indicate independent internal circuits, some budget models group two outlets per switch despite implying full independence, verify against the actual wiring rather than the visual presence of multiple switches.",

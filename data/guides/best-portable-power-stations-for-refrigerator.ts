@@ -1,7 +1,7 @@
 export const guideSlug = "best-portable-power-stations-for-refrigerator";
 export const guideTitle = "6 Best Portable Power Stations for Refrigerator in 2026";
-export const metaTitle = "Best Portable Power Stations for Refrigerator 2026";
-export const metaDescription = "We compared portable power stations for refrigerator by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaTitle = "Best Portable Power Stations for Refrigerator";
+export const metaDescription = "We compared portable power stations for refrigerator by measured usable energy, continuous output, and safety documentation rather than ranking by headline.";
 export const mainKeyword = "portable power stations for refrigerator";
 export const introParagraphs = [
   "Choosing among portable power stations for refrigerator means starting with measuring compressor startup surge and duty cycle instead of trusting nameplate running watts rather than star rating alone.",

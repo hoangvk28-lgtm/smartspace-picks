@@ -1,7 +1,7 @@
 export const guideSlug = "best-8-cu-ft-fireproof-safes";
 export const guideTitle = "8 Best 8 Cu ft Fireproof Safes in 2026";
 export const metaTitle = "Best 8 Cu ft Fireproof Safes 2026";
-export const metaDescription = "We compared 8 cu ft fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 8 cu ft fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "8 cu ft fireproof safes";
 export const introParagraphs = [
   "Choosing among 8 cu ft fireproof safes means starting with verifying how much insulation eats into the nominal cubic-foot figure rather than price or star rating.",
@@ -45,7 +45,7 @@ export const products: GuideProduct[] = [
     amazonUrl: "https://www.amazon.com/dp/B0DYNXWQ3N?tag=deskfinds0d-20",
     description: "A dual-door design with two removable shelves gives this 8.6 cu ft safe genuinely flexible organization into up to four compartments or open space, and a concealed bottom lock box adds a hidden extra layer of protection for passports or sensitive files.\n\nSeven solid lock bolts and a 65mm alloy steel door provide substantial forced-entry resistance, and the listing specifically highlights dual-authentication (password plus physical key) for business cash-management scenarios like hotels or retail.",
     specs: ["8.6 cu ft, dual-door design, 2 shelves","7 solid lock bolts, 65mm alloy steel door","Concealed bottom lock box"],
-    pros: ["Concealed bottom lock box adds a genuinely hidden extra layer for passports or sensitive","Dual-authentication (password + physical key) specifically suits business cash-management use","120° wide-opening door improves access versus a standard door swing"],
+    pros: ["Concealed bottom lock box adds a genuinely hidden extra layer for passports or sensitive","Dual-authentication (password + physical key) specifically suits business cash-management use","120 degrees wide-opening door improves access versus a standard door swing"],
     cons: ["No independent UL/ETL fire-duration classification cited despite the fireproof marketing","Complexity of dual-door, multi-lock design means more components than a simple single-door safe"],
     bestFor: "buyers prioritizing 8.6 cu ft, dual-door design, 2 shelves",
   },
@@ -75,11 +75,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Ftm-p2UuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H4QKX548?tag=deskfinds0d-20",
-    description: "This safe documents a specific 35 minutes at 1800°F rating and uses advanced semiconductor fingerprint technology recognizing authorized users in under 1 second, storing up to 29 fingerprints, notably fast biometric performance.\n\nAt 85 lbs with reinforced cold-rolled steel and a thick pry-resistant door, the manufacturer specifically notes no pre-drilled mounting holes are included to preserve fire-resistant construction, a deliberate design tradeoff worth knowing before planning to anchor it.",
-    specs: ["85 lbs, 35 min at 1800°F","Sub-1-second fingerprint access, 29 fingerprints","No pre-drilled mounting holes (fire-preservation tradeoff)"],
-    pros: ["Sub-1-second biometric access is genuinely fast compared to typical fingerprint safes","35 minutes at 1800°F is a higher temperature figure than many 1550-1700°F competitors","Type-C backup power ensures access even with depleted batteries"],
+    description: "This safe documents a specific 35 minutes at 1800 degreesF rating and uses advanced semiconductor fingerprint technology recognizing authorized users in under 1 second, storing up to 29 fingerprints, notably fast biometric performance.\n\nAt 85 lbs with reinforced cold-rolled steel and a thick pry-resistant door, the manufacturer specifically notes no pre-drilled mounting holes are included to preserve fire-resistant construction, a deliberate design tradeoff worth knowing before planning to anchor it.",
+    specs: ["85 lbs, 35 min at 1800 degreesF","Sub-1-second fingerprint access, 29 fingerprints","No pre-drilled mounting holes (fire-preservation tradeoff)"],
+    pros: ["Sub-1-second biometric access is genuinely fast compared to typical fingerprint safes","35 minutes at 1800 degreesF is a higher temperature figure than many 1550-1700 degreesF competitors","Type-C backup power ensures access even with depleted batteries"],
     cons: ["No pre-drilled mounting holes is a deliberate fire-preservation tradeoff that limits anchoring convenience","85 lbs requires careful placement planning without factory anchor points"],
-    bestFor: "buyers prioritizing 85 lbs, 35 min at 1800°f",
+    bestFor: "buyers prioritizing 85 lbs, 35 min at 1800 degreesf",
   },
   {
     id: "best-8-cu-ft-fireproof-safes-5",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Mr0GrruXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKF7P7F?tag=deskfinds0d-20",
-    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this 5.0 cu ft safe real structural robustness, and it bundles a separate A4-size fireproof document bag rated for 30 minutes at 1700°F.\n\nThree removable steel shelves organize a genuinely large interior fitting a 14-inch laptop alongside documents and firearms, with a tiered alarm lockout and unique lock-cylinder serial numbers for traceable key replacement.",
-    specs: ["5.0 cu ft, 50mm steel door, 38.8 lbs","3 removable steel shelves","Bundled A4 fireproof bag (30min at 1700°F)"],
+    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this 5.0 cu ft safe real structural robustness, and it bundles a separate A4-size fireproof document bag rated for 30 minutes at 1700 degreesF.\n\nThree removable steel shelves organize a genuinely large interior fitting a 14-inch laptop alongside documents and firearms, with a tiered alarm lockout and unique lock-cylinder serial numbers for traceable key replacement.",
+    specs: ["5.0 cu ft, 50mm steel door, 38.8 lbs","3 removable steel shelves","Bundled A4 fireproof bag (30min at 1700 degreesF)"],
     pros: ["3 removable shelves genuinely organize a large 5.0 cu ft interior for laptops, documents","Bundled separate fireproof document bag adds double protection","Unique lock cylinder serial numbers make lost-key replacement traceable"],
     cons: ["38.8 lbs is light for a 5.0 cu ft safe, worth comparing gauge thickness","No independent UL/ETL fire-duration classification for the main steel body"],
     bestFor: "buyers prioritizing 5.0 cu ft, 50mm steel door, 38.8 lbs",
@@ -123,11 +123,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41GbjH3CE0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWD6F45C?tag=deskfinds0d-20",
-    description: "This model is explicitly built and tested to Underwriters Laboratories standards with SGS-certified materials, withstanding 1700°F for 35 minutes, a genuinely documented independent testing claim rather than a vague marketing figure.\n\nThree removable shelves organize the interior, and 3 solid 0.98\" locking bolts with concealed anti-pry hinges back the 45 lb steel construction. A dual fire-and-theft design includes pre-drilled anchoring holes with included fireproof plugs to seal unused openings and preserve fire resistance.",
-    specs: ["23.4\"H, UL standard, SGS-certified, 35min at 1700°F","45 lbs, 3x 0.98in locking bolts","Pre-drilled holes with fireproof sealing plugs"],
+    description: "This model is explicitly built and tested to Underwriters Laboratories standards with SGS-certified materials, withstanding 1700 degreesF for 35 minutes, a genuinely documented independent testing claim rather than a vague marketing figure.\n\nThree removable shelves organize the interior, and 3 solid 0.98\" locking bolts with concealed anti-pry hinges back the 45 lb steel construction. A dual fire-and-theft design includes pre-drilled anchoring holes with included fireproof plugs to seal unused openings and preserve fire resistance.",
+    specs: ["23.4\"H, UL standard, SGS-certified, 35min at 1700 degreesF","45 lbs, 3x 0.98in locking bolts","Pre-drilled holes with fireproof sealing plugs"],
     pros: ["UL-standard testing with SGS-certified materials is a genuinely documented claim, not vague marketing language","Fireproof plugs specifically seal anchoring holes to preserve fire resistance when not mounted","Unique key serial numbers make lost-key replacement traceable"],
     cons: ["35 minutes is shorter than the 1- and 2-hour ratings on premium competitors like","45 lbs at 5.0 cu ft-equivalent size is on the lighter end"],
-    bestFor: "buyers prioritizing 23.4\"h, ul standard, sgs-certified, 35min at 1700°f",
+    bestFor: "buyers prioritizing 23.4\"h, ul standard, sgs-certified, 35min at 1700 degreesf",
   },
   {
     id: "best-8-cu-ft-fireproof-safes-8",
@@ -239,7 +239,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

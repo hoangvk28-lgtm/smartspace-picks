@@ -1,8 +1,7 @@
 export const guideSlug = "best-ergonomic-keyboards-for-typing";
 export const guideTitle = "5 Best Ergonomic Keyboards for Typing in 2026";
-export const metaTitle = "Best Ergonomic Keyboards for Typing, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 ergonomic keyboards we evaluated specifically for general prose and document typing, with the adaptation-period disclosure competitors skip: expect a temporary speed reduction while adjusting to a split or curved layout before typing speed recovers.";
+export const metaTitle = "Best Ergonomic Keyboards for Typing";
+export const metaDescription = "5 ergonomic keyboards we evaluated specifically for general prose and document typing, with the adaptation-period disclosure competitors skip: expect a.";
 export const mainKeyword = "ergonomic keyboard for typing";
 export const introParagraphs = [
   "This broad 'for typing' framing should be clarified against more specific-use-case content like gaming or coding keyboards, worth focusing specifically on general prose and document typing comfort and speed rather than duplicating specialized use-case research.",

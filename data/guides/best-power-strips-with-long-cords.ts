@@ -1,8 +1,7 @@
 export const guideSlug = "best-power-strips-with-long-cords";
 export const guideTitle = "5 Best Power Strips with Long Cords in 2026";
-export const metaTitle = "Best Power Strips with Long Cords, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 long-cord power strips we evaluated, with the safety detail competitors skip: longer cords increase voltage drop under sustained load, and cord gauge, rarely disclosed, determines how much this actually matters.";
+export const metaTitle = "Best Power Strips with Long Cords";
+export const metaDescription = "5 long-cord power strips we evaluated, with the safety detail competitors skip: longer cords increase voltage drop under sustained load, and cord gauge,.";
 export const mainKeyword = "power strip with long cord";
 export const introParagraphs = [
   "Longer cords increase voltage drop under sustained load, and cord gauge, rarely disclosed, determines how much this actually matters, a thin-gauge long cord run at high load can experience measurable voltage drop over 15+ feet.",

@@ -1,7 +1,7 @@
 export const guideSlug = "best-7-cu-ft-fireproof-safes";
 export const guideTitle = "8 Best 7 Cu ft Fireproof Safes in 2026";
 export const metaTitle = "Best 7 Cu ft Fireproof Safes 2026";
-export const metaDescription = "We compared 7 cu ft fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 7 cu ft fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "7 cu ft fireproof safes";
 export const introParagraphs = [
   "The real test for 7 cu ft fireproof safes comes down to checking real usable interior space against the advertised cubic footage, not a glance at the listing photo.",
@@ -27,8 +27,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51S0z9UrxbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H9SLC7DF?tag=deskfinds0d-20",
-    description: "At 64 lbs and 7.5 cu ft with 3 removable shelves, this is a genuinely large-capacity safe from Mitlvge's line, built to Underwriters Laboratories standards with SGS-certified materials for 1700°F over 35 minutes.\n\nNotably, this model ships without pre-drilled mounting holes specifically to maximize fire protection, meaning drilling isn't required out of the box, though it also means anchoring requires more deliberate planning if desired.",
-    specs: ["7.5 cu ft, 64 lbs, UL standard, SGS-certified","35 min at 1700°F","No drilling required, 3 removable shelves"],
+    description: "At 64 lbs and 7.5 cu ft with 3 removable shelves, this is a genuinely large-capacity safe from Mitlvge's line, built to Underwriters Laboratories standards with SGS-certified materials for 1700 degreesF over 35 minutes.\n\nNotably, this model ships without pre-drilled mounting holes specifically to maximize fire protection, meaning drilling isn't required out of the box, though it also means anchoring requires more deliberate planning if desired.",
+    specs: ["7.5 cu ft, 64 lbs, UL standard, SGS-certified","35 min at 1700 degreesF","No drilling required, 3 removable shelves"],
     pros: ["No-drilling-required design specifically preserves maximum fire protection integrity","7.5 cu ft with 3 removable shelves is genuinely large, flexible capacity","UL-standard testing with SGS-certified materials documents the claim beyond marketing language"],
     cons: ["35-minute rating remains shorter than premium 1- and 2-hour competitors","Lack of pre-drilled holes means anchoring requires extra planning if theft deterrence via mounting"],
     bestFor: "buyers prioritizing 7.5 cu ft, 64 lbs, ul standard, sgs-certified",
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51S0z9UrxbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GRV7WC3R?tag=deskfinds0d-20",
-    description: "This safe documents UL-standard testing with SGS-certified fireproof materials rated to 1700°F for 35 minutes, at a substantial 64 lb weight with 7 solid 0.98\" locking bolts, more bolts than many competitors at similar capacity.\n\nLike its Mitlvge siblings, this model deliberately omits pre-drilled mounting holes to maximize fireproof performance, and unique lock-cylinder serial numbers support traceable key replacement.",
-    specs: ["7.5 cu ft, 64 lbs, UL standard, SGS-certified","35 min at 1700°F, 7x 0.98in locking bolts","No pre-drilled holes (fire-preservation design)"],
+    description: "This safe documents UL-standard testing with SGS-certified fireproof materials rated to 1700 degreesF for 35 minutes, at a substantial 64 lb weight with 7 solid 0.98\" locking bolts, more bolts than many competitors at similar capacity.\n\nLike its Mitlvge siblings, this model deliberately omits pre-drilled mounting holes to maximize fireproof performance, and unique lock-cylinder serial numbers support traceable key replacement.",
+    specs: ["7.5 cu ft, 64 lbs, UL standard, SGS-certified","35 min at 1700 degreesF, 7x 0.98in locking bolts","No pre-drilled holes (fire-preservation design)"],
     pros: ["7 locking bolts is genuinely more than many competitors at this capacity","UL-standard SGS-certified testing documents the claim with real evidence","Unique lock cylinder serial numbers make lost-key replacement traceable"],
     cons: ["35-minute rating is shorter than premium 1- and 2-hour rated safes","No pre-drilled mounting holes means anchoring requires more deliberate planning"],
     bestFor: "buyers prioritizing 7.5 cu ft, 64 lbs, ul standard, sgs-certified",
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51nFtYOnMfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GV3R89NC?tag=deskfinds0d-20",
-    description: "A close sibling to the 7.5 cu ft models in this lineup, this 7.0 cu ft safe carries the same UL-standard, SGS-certified 1700°F/35-minute rating and 64 lb weight, but is specifically noted as designed without pre-drilled mounting holes to maximize fireproof performance.\n\nThree removable shelves and the same three-way unlock system (keypad, backup keys, external battery box) carry over, giving consistent features across this manufacturer's size range.",
-    specs: ["7.0 cu ft, 64 lbs, UL standard, SGS-certified","35 min at 1700°F","3 removable shelves, 3 unlock methods"],
+    description: "A close sibling to the 7.5 cu ft models in this lineup, this 7.0 cu ft safe carries the same UL-standard, SGS-certified 1700 degreesF/35-minute rating and 64 lb weight, but is specifically noted as designed without pre-drilled mounting holes to maximize fireproof performance.\n\nThree removable shelves and the same three-way unlock system (keypad, backup keys, external battery box) carry over, giving consistent features across this manufacturer's size range.",
+    specs: ["7.0 cu ft, 64 lbs, UL standard, SGS-certified","35 min at 1700 degreesF","3 removable shelves, 3 unlock methods"],
     pros: ["Consistent feature set across this manufacturer's size range simplifies comparing capacity tiers","3 removable shelves organize a genuinely large interior","Same documented UL-standard, SGS-certified testing as the larger sibling models"],
     cons: ["Slightly smaller capacity than the 7.5 cu ft sibling for a similar weight","35-minute rating remains the entry tier versus 1- and 2-hour premium safes"],
     bestFor: "buyers prioritizing 7.0 cu ft, 64 lbs, ul standard, sgs-certified",
@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Mr0GrruXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKF7P7F?tag=deskfinds0d-20",
-    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this 5.0 cu ft safe real structural robustness, and it bundles a separate A4-size fireproof document bag rated for 30 minutes at 1700°F.\n\nThree removable steel shelves organize a genuinely large interior fitting a 14-inch laptop alongside documents and firearms, with a tiered alarm lockout and unique lock-cylinder serial numbers for traceable key replacement.",
-    specs: ["5.0 cu ft, 50mm steel door, 38.8 lbs","3 removable steel shelves","Bundled A4 fireproof bag (30min at 1700°F)"],
+    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this 5.0 cu ft safe real structural robustness, and it bundles a separate A4-size fireproof document bag rated for 30 minutes at 1700 degreesF.\n\nThree removable steel shelves organize a genuinely large interior fitting a 14-inch laptop alongside documents and firearms, with a tiered alarm lockout and unique lock-cylinder serial numbers for traceable key replacement.",
+    specs: ["5.0 cu ft, 50mm steel door, 38.8 lbs","3 removable steel shelves","Bundled A4 fireproof bag (30min at 1700 degreesF)"],
     pros: ["3 removable shelves genuinely organize a large 5.0 cu ft interior for laptops, documents","Bundled separate fireproof document bag adds double protection","Unique lock cylinder serial numbers make lost-key replacement traceable"],
     cons: ["38.8 lbs is light for a 5.0 cu ft safe, worth comparing gauge thickness","No independent UL/ETL fire-duration classification for the main steel body"],
     bestFor: "buyers prioritizing 5.0 cu ft, 50mm steel door, 38.8 lbs",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41GbjH3CE0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWD6F45C?tag=deskfinds0d-20",
-    description: "This model is explicitly built and tested to Underwriters Laboratories standards with SGS-certified materials, withstanding 1700°F for 35 minutes, a genuinely documented independent testing claim rather than a vague marketing figure.\n\nThree removable shelves organize the interior, and 3 solid 0.98\" locking bolts with concealed anti-pry hinges back the 45 lb steel construction. A dual fire-and-theft design includes pre-drilled anchoring holes with included fireproof plugs to seal unused openings and preserve fire resistance.",
-    specs: ["23.4\"H, UL standard, SGS-certified, 35min at 1700°F","45 lbs, 3x 0.98in locking bolts","Pre-drilled holes with fireproof sealing plugs"],
+    description: "This model is explicitly built and tested to Underwriters Laboratories standards with SGS-certified materials, withstanding 1700 degreesF for 35 minutes, a genuinely documented independent testing claim rather than a vague marketing figure.\n\nThree removable shelves organize the interior, and 3 solid 0.98\" locking bolts with concealed anti-pry hinges back the 45 lb steel construction. A dual fire-and-theft design includes pre-drilled anchoring holes with included fireproof plugs to seal unused openings and preserve fire resistance.",
+    specs: ["23.4\"H, UL standard, SGS-certified, 35min at 1700 degreesF","45 lbs, 3x 0.98in locking bolts","Pre-drilled holes with fireproof sealing plugs"],
     pros: ["UL-standard testing with SGS-certified materials is a genuinely documented claim, not vague marketing language","Fireproof plugs specifically seal anchoring holes to preserve fire resistance when not mounted","Unique key serial numbers make lost-key replacement traceable"],
     cons: ["35 minutes is shorter than the 1- and 2-hour ratings on premium competitors like","45 lbs at 5.0 cu ft-equivalent size is on the lighter end"],
-    bestFor: "buyers prioritizing 23.4\"h, ul standard, sgs-certified, 35min at 1700°f",
+    bestFor: "buyers prioritizing 23.4\"h, ul standard, sgs-certified, 35min at 1700 degreesf",
   },
   {
     id: "best-7-cu-ft-fireproof-safes-6",
@@ -223,7 +223,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

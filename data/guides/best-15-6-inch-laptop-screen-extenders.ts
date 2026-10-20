@@ -1,8 +1,7 @@
 export const guideSlug = "best-15-6-inch-laptop-screen-extenders";
 export const guideTitle = "5 Best 15.6-Inch Laptop Screen Extenders in 2026";
-export const metaTitle = "Best 15.6-Inch Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 15.6-inch laptop screen extenders we evaluated, the most common size in this category, with the desk-footprint interaction competitors skip: a 15.6-inch panel needs real desk depth to sit at a usable angle beside your primary laptop.";
+export const metaTitle = "Best 15.6-Inch Laptop Screen Extenders";
+export const metaDescription = "5 15.6-inch laptop screen extenders we evaluated, the most common size in this category, with the desk-footprint interaction competitors skip: a 15.6-inch.";
 export const mainKeyword = "15.6-inch laptop screen extender";
 export const introParagraphs = [
   "15.6-inch is genuinely the most common panel size in this category, meaning the largest product pool and deepest review history exists at this size, worth leaning into that maturity for proven reliability rather than a newer, less-tested size.",

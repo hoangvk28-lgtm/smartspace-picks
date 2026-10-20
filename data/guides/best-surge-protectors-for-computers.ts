@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protectors-for-computers";
 export const guideTitle = "5 Best Surge Protectors for Computers in 2026";
-export const metaTitle = "Best Surge Protectors for Computers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors we evaluated for computer setups, with the scope limitation competitors skip: a surge protector addresses external electrical events, not internal PC hardware failure.";
+export const metaTitle = "Best Surge Protectors for Computers";
+export const metaDescription = "5 surge protectors we evaluated for computer setups, with the scope limitation competitors skip: a surge protector addresses external electrical events,.";
 export const mainKeyword = "computer surge protector";
 export const introParagraphs = [
   "A surge protector protects against externally-sourced surges (grid fluctuations, nearby lightning) but does nothing for internally-generated power supply failures or other internal PC hardware faults, a scope limitation worth understanding clearly.",

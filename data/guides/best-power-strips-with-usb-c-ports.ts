@@ -1,8 +1,7 @@
 export const guideSlug = "best-power-strips-with-usb-c-ports";
 export const guideTitle = "5 Best Power Strips with USB-C Ports in 2026";
-export const metaTitle = "Best Power Strips with USB-C Ports, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 power strips with USB-C ports we evaluated, with the distinction competitors skip: USB-C port presence doesn't guarantee USB-C PD fast charging, many are simply USB-A speeds routed through a USB-C connector shape.";
+export const metaTitle = "Best Power Strips with USB-C Ports";
+export const metaDescription = "5 power strips with USB-C ports we evaluated, with the distinction competitors skip: USB-C port presence doesn't guarantee USB-C PD fast charging,.";
 export const mainKeyword = "power strip with USB-C ports";
 export const introParagraphs = [
   "USB-C port presence doesn't guarantee USB-C PD (Power Delivery) fast charging, a USB-C port without PD negotiation support charges at the same basic speed as a standard USB-A port, just with the newer connector shape.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-smart-power-strips-with-energy-monitoring";
 export const guideTitle = "5 Best Smart Power Strips with Energy Monitoring in 2026";
-export const metaTitle = "Best Smart Power Strips with Energy Monitoring, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 smart power strips we evaluated for energy monitoring, with the granularity distinction competitors blur: per-outlet monitoring tells you which device is responsible, whole-strip aggregate monitoring only tells you total draw.";
+export const metaTitle = "Best Smart Power Strips with Energy Monitoring";
+export const metaDescription = "5 smart power strips we evaluated for energy monitoring, with the granularity distinction competitors blur: per-outlet monitoring tells you which device is.";
 export const mainKeyword = "smart power strip with energy monitoring";
 export const introParagraphs = [
   "Per-outlet energy monitoring, which tells you which specific device is responsible for how much draw, is the more useful and less commonly available capability than whole-strip aggregate monitoring, which only tells you total draw without identifying the source.",

@@ -1,6 +1,6 @@
 export const guideSlug = "best-wifi-desk-clocks";
 export const guideTitle = "Best WiFi Desk Clocks in 2026: What You're Really Looking For";
-export const metaTitle = "Best WiFi Desk Clocks (2026)";
+export const metaTitle = "Best WiFi Desk Clocks";
 export const metaDescription =
   "None of our verified desk clocks have WiFi. We clarify how auto DST differs from WiFi sync and cover the closest non-connected alternatives.";
 export const mainKeyword = "wifi desk clock";

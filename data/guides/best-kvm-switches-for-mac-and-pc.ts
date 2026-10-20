@@ -1,8 +1,7 @@
 export const guideSlug = "best-kvm-switches-for-mac-and-pc";
 export const guideTitle = "5 Best KVM Switches for Mac and PC in 2026";
-export const metaTitle = "Best KVM Switches for Mac and PC, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 KVM switches for Mac and PC we evaluated, with a note that keyboard layout differences between macOS and Windows can cause the Command and Alt/Option keys to map incorrectly through some switches.";
+export const metaTitle = "Best KVM Switches for Mac and PC";
+export const metaDescription = "5 KVM switches for Mac and PC we evaluated, with a note that keyboard layout differences between macOS and Windows can cause the Command and Alt/Option keys to.";
 export const mainKeyword = "kvm switch for mac and pc";
 export const introParagraphs = [
   "Keyboard layout differences between macOS and Windows can cause the Command and Alt/Option keys to map incorrectly through some KVM switches, worth checking reviews specifically from Mac-and-PC mixed setups for reports on keyboard mapping behavior before assuming any switch handles this translation correctly.",

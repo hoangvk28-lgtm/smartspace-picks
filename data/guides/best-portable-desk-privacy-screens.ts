@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-desk-privacy-screens";
 export const guideTitle = "5 Best Portable Desk Privacy Screens in 2026";
-export const metaTitle = "Best Portable Desk Privacy Screens, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable desk privacy screens we evaluated for buyers who move between desks or workspaces, weighing genuine portability (weight, fold-flat size) against the setup time each design actually takes.";
+export const metaTitle = "Best Portable Desk Privacy Screens";
+export const metaDescription = "5 portable desk privacy screens we evaluated for buyers who move between desks or workspaces, weighing genuine portability (weight,.";
 export const mainKeyword = "portable desk privacy screen";
 export const introParagraphs = [
   "Genuine portability means more than just being lightweight, it's the combination of low weight, a small fold-flat footprint, and quick setup/teardown time, some 'portable' panels still take a few minutes to configure with bases and clips each time you move desks.",

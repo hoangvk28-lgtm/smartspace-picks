@@ -1,8 +1,7 @@
 export const guideSlug = "best-right-handed-vertical-mice";
 export const guideTitle = "5 Best Right-Handed Vertical Mice in 2026";
-export const metaTitle = "Best Right-Handed Vertical Mice, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 right-handed vertical mice we evaluated, with the search-intent clarification competitors skip: most vertical mice on the market default to right-handed design without explicit labeling, worth understanding what distinguishes an explicitly right-handed product.";
+export const metaTitle = "Best Right-Handed Vertical Mice";
+export const metaDescription = "5 right-handed vertical mice we evaluated, with the search-intent clarification competitors skip: most vertical mice on the market default to right-handed.";
 export const mainKeyword = "right-handed vertical mouse";
 export const introParagraphs = [
   "Since most vertical mice on the market default to right-handed design without explicit labeling, worth clarifying what specifically distinguishes a product deliberately marketed as 'right-handed' from the unmarked default right-handed products that dominate this entire category.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-silent-vertical-mice";
 export const guideTitle = "5 Best Silent Vertical Mice in 2026";
-export const metaTitle = "Best Silent Vertical Mice, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 silent vertical mice we evaluated, with the tactile-feedback tradeoff competitors skip: silent click mechanisms sometimes trade tactile click feel for noise reduction, and scroll wheel noise deserves separate testing from the click mechanism.";
+export const metaTitle = "Best Silent Vertical Mice";
+export const metaDescription = "5 silent vertical mice we evaluated, with the tactile-feedback tradeoff competitors skip: silent click mechanisms sometimes trade tactile click feel for noise.";
 export const mainKeyword = "silent vertical mouse";
 export const introParagraphs = [
   "Click actuation noise, distinct from keyboard switch noise but the mouse's own click mechanism, varies meaningfully between products, worth testing actual decibel levels for clicking specifically rather than treating 'silent' as a self-evident marketing claim.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-macbook-air";
 export const guideTitle = "7 Best Portable Monitors for MacBook Air in 2026";
-export const metaTitle = "Best Portable Monitors for MacBook Air, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 portable monitors we evaluated for MacBook Air, with a clear read on the one-external-display limit on M1/M2 Air and the power budget math a small adapter forces.";
+export const metaTitle = "Best Portable Monitors for MacBook Air";
+export const metaDescription = "7 portable monitors we evaluated for MacBook Air, with a clear read on the one-external-display limit on M1/M2 Air and the power budget math a small adapter.";
 export const mainKeyword = "portable monitor for MacBook Air";
 export const introParagraphs = [
   "Unlike MacBook Pro, there's no Pro/Max chip tier to unlock a second external display on MacBook Air. M1 and M2 Air are permanently capped at one external display without third-party software like DisplayLink (which blocks DRM streaming); M3 Air adds a second display only in clamshell mode, lid closed. If you're hoping to run this monitor alongside another external display with the lid open, an M1/M2 Air can't do it.",

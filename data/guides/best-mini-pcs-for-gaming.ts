@@ -1,8 +1,7 @@
 export const guideSlug = "best-mini-pcs-for-gaming";
 export const guideTitle = "5 Best Mini PCs for Gaming in 2026";
-export const metaTitle = "Best Mini PCs for Gaming, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 mini PCs for gaming we evaluated, with an honest note that integrated graphics on even the best mini PCs remain meaningfully behind a dedicated gaming desktop GPU, set realistic expectations before buying.";
+export const metaTitle = "Best Mini PCs for Gaming";
+export const metaDescription = "5 mini PCs for gaming we evaluated, with an honest note that integrated graphics on even the best mini PCs remain meaningfully behind a dedicated gaming.";
 export const mainKeyword = "mini pc for gaming";
 export const introParagraphs = [
   "Integrated graphics on even the best gaming-focused mini PCs remain meaningfully behind a dedicated desktop GPU, worth setting realistic expectations that a mini PC suits 1080p esports titles and moderate settings well, rather than expecting desktop-tower-level performance at maximum settings in demanding AAA titles.",

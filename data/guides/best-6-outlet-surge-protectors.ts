@@ -1,8 +1,7 @@
 export const guideSlug = "best-6-outlet-surge-protectors";
 export const guideTitle = "5 Best 6-Outlet Surge Protectors in 2026";
-export const metaTitle = "Best 6-Outlet Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 six-outlet surge protectors we evaluated, with the gap competitors skip: 6 rated outlets rarely means 6 usable outlets once realistic desk equipment with wide power adapters is plugged in.";
+export const metaTitle = "Best 6-Outlet Surge Protectors";
+export const metaDescription = "5 six-outlet surge protectors we evaluated, with the gap competitors skip: 6 rated outlets rarely means 6 usable outlets once realistic desk equipment with.";
 export const mainKeyword = "6 outlet surge protector";
 export const introParagraphs = [
   "6 rated outlets rarely means 6 usable outlets once realistic desk or entertainment equipment with wide power adapters is plugged in, a 6-outlet strip with a few wide laptop or monitor adapters often leaves only 3-4 genuinely usable outlets.",

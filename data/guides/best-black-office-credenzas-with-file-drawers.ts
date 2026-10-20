@@ -1,7 +1,7 @@
 export const guideSlug = "best-black-office-credenzas-with-file-drawers";
 export const guideTitle = "8 Best Black Office Credenzas With File Drawers in 2026";
-export const metaTitle = "Best Black Office Credenzas With File Drawers 2026";
-export const metaDescription = "We compared black office credenzas with file drawers by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaTitle = "Best Black Office Credenzas With File Drawers";
+export const metaDescription = "We compared black office credenzas with file drawers by verified interior dimensions, real file and lock compatibility,.";
 export const mainKeyword = "black office credenzas with file drawers";
 export const introParagraphs = [
   "Best Black Office Credenzas With File Drawers deserves function-specific scrutiny before ranking, since this category comes down to verifying letter/legal compatibility and lock coverage drawer by drawer.",

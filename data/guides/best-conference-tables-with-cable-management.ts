@@ -1,7 +1,7 @@
 export const guideSlug = "best-conference-tables-with-cable-management";
 export const guideTitle = "8 Best Conference Tables With Cable Management in 2026";
-export const metaTitle = "Best Conference Tables With Cable Management 2026";
-export const metaDescription = "We compared conference tables with cable management by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaTitle = "Best Conference Tables With Cable Management";
+export const metaDescription = "We compared conference tables with cable management by usable seating zones, base and cable clearance, and material construction rather than ranking by.";
 export const mainKeyword = "conference tables with cable management";
 export const introParagraphs = [
   "A conference table with built-in power needs the outlets to actually be reachable from real seats, not just present somewhere on the table.",

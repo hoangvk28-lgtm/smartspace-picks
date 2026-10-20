@@ -1,6 +1,6 @@
 export const guideSlug = "best-conference-cameras-for-conference-room";
 export const guideTitle = "6 Best Conference Cameras for Conference Room in 2026";
-export const metaTitle = "Best Conference Cameras for Conference Room in 2026";
+export const metaTitle = "Best Conference Cameras for Conference Room in";
 export const metaDescription = "We compared best conference cameras for conference room by verified specs and real use-case fit rather than ranking by marketing claims alone.";
 export const mainKeyword = "conference cameras for conference room";
 export const introParagraphs = [
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31q+ilMYC-L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0B193JVDJ?tag=deskfinds0d-20",
-    description: "Owl Labs Meeting Owl 3 punches above its price tier. The meeting owl 3 is an all-in-one video conferencing device that captures 360° video in 1080p HD and 360° audio up to 18’ (5.5m) away. Go from unboxing to your first meeting in 6 min with our plug-and-play USB device.\n\nIt doesn't stop there either. The flexibility of the owl labs ecosystem is unmatched. Certified for microsoft teams. That combination alone makes it worth a second look.",
+    description: "Owl Labs Meeting Owl 3 punches above its price tier. The meeting owl 3 is an all-in-one video conferencing device that captures 360 degrees video in 1080p HD and 360 degrees audio up to 18' (5.5m) away. Go from unboxing to your first meeting in 6 min with our plug-and-play USB device.\n\nIt doesn't stop there either. The flexibility of the owl labs ecosystem is unmatched. Certified for microsoft teams. That combination alone makes it worth a second look.",
     specs: ["Meeting owl 3 is an all-in-one video conferencing device that captures", "Go from unboxing to your first meeting in 6 min", "Flexibility of the owl labs ecosystem is unmatched"],
     pros: ["Meeting owl 3 is an all-in-one video conferencing device that captures", "Go from unboxing to your first meeting in 6 min", "Flexibility of the owl labs ecosystem is unmatched"],
     cons: ["Match field of view to your actual room size first", "Mounting options may not fit every room setup"],

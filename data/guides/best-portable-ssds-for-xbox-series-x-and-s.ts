@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-ssds-for-xbox-series-x-and-s";
 export const guideTitle = "5 Best Portable SSDs for Xbox Series X and S in 2026";
-export const metaTitle = "Best Portable SSDs for Xbox Series X and S, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable SSDs we evaluated for Xbox Series X and S, with the direct-play verification competitors skip: Xbox handles external USB storage differently than PS5's storage-only limitation, and Series S vs Series X have distinct needs.";
+export const metaTitle = "Best Portable SSDs for Xbox Series X and S";
+export const metaDescription = "5 portable SSDs we evaluated for Xbox Series X and S, with the direct-play verification competitors skip: Xbox handles external USB storage differently than.";
 export const mainKeyword = "portable SSD for Xbox";
 export const introParagraphs = [
   "Xbox Series X/S handles external USB storage differently than PS5's storage/backup-only versus direct-play distinction, current-generation Xbox titles can generally be played directly from a certified external USB drive, worth verifying per specific drive rather than assuming PS5's limitations apply identically here.",

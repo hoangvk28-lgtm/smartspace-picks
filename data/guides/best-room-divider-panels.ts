@@ -1,8 +1,7 @@
 export const guideSlug = "best-room-divider-panels";
 export const guideTitle = "7 Best Room Divider Panels in 2026";
-export const metaTitle = "Best Room Divider Panels in 2026 (Fabric, Folding & Wheeled)";
-export const metaDescription =
-  "7 best room divider panels in 2026, from thick 240gsm fabric screens to a magnetic modular panel and a lockable wheeled 6-panel divider. Compare width, panels, and stability.";
+export const metaTitle = "Best Room Divider Panels in 2026 (Fabric,";
+export const metaDescription = "7 best room divider panels in 2026, from thick 240gsm fabric screens to a magnetic modular panel and a lockable wheeled 6-panel divider. Compare width, panels,.";
 export const mainKeyword = "room divider panels";
 export const introParagraphs = [
   "Room divider panels look interchangeable in thumbnail photos, but the details that actually matter, fabric weight, panel count, foot width, and whether the hinges let the whole thing stand up straight without wobbling, vary a lot from one listing to the next. A thin 180gsm fabric on flimsy feet will sag and topple in a doorway breeze, while a 240gsm panel on wide, reinforced feet stays put through daily folding and moving.",

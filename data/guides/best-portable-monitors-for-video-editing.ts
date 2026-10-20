@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-video-editing";
 export const guideTitle = "8 Best Portable Monitors for Video Editing in 2026";
-export const metaTitle = "Best Portable Monitors for Video Editing, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated for video editing, with an honest note that none carry real HDR certification for grading and that 60Hz, not high refresh rate, is what actually matters for timeline work.";
+export const metaTitle = "Best Portable Monitors for Video Editing";
+export const metaDescription = "8 portable monitors we evaluated for video editing, with an honest note that none carry real HDR certification for grading and that 60Hz,.";
 export const mainKeyword = "portable monitor for video editing";
 export const introParagraphs = [
   "Video editing workflows (timeline scrubbing, playback preview) rarely benefit from refresh rates above 60Hz the way gaming does. Several picks in this guide are marketed with 144Hz+ specs you simply won't use for editing, we flag that clearly rather than treating high refresh as a universal positive.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-odors";
 export const guideTitle = "5 Best Air Purifiers for Odors in 2026";
-export const metaTitle = "Best Air Purifiers for Odors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for household odors, with the saturation-cycle math competitors skip: activated carbon has a finite absorption capacity and saturates faster in a small room with a strong odor source than the standard replacement estimate assumes.";
+export const metaTitle = "Best Air Purifiers for Odors";
+export const metaDescription = "5 air purifiers we evaluated for household odors, with the saturation-cycle math competitors skip: activated carbon has a finite absorption capacity and.";
 export const mainKeyword = "air purifier for odors";
 export const introParagraphs = [
   "Activated carbon has a finite absorption capacity, meaning it saturates faster in a small room with a strong odor source (cooking, litter box, mildew) than the standard filter-replacement estimate assumes, a nuance most product listings skip entirely.",

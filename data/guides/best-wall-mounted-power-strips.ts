@@ -1,8 +1,7 @@
 export const guideSlug = "best-wall-mounted-power-strips";
 export const guideTitle = "5 Best Wall-Mounted Power Strips in 2026";
-export const metaTitle = "Best Wall-Mounted Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 wall-mounted power strips we evaluated, with the orientation issue competitors skip: wall-mounting changes outlet orientation from the manufacturer's intended horizontal use, which can affect plug retention for heavier adapters.";
+export const metaTitle = "Best Wall-Mounted Power Strips";
+export const metaDescription = "5 wall-mounted power strips we evaluated, with the orientation issue competitors skip: wall-mounting changes outlet orientation from the manufacturer's.";
 export const mainKeyword = "wall mount power strip";
 export const introParagraphs = [
   "Wall-mounting a power strip changes its outlet orientation from the manufacturer's intended horizontal-desktop use, which can affect plug retention and gravity-assisted disconnection for heavier plugs like laptop power bricks.",

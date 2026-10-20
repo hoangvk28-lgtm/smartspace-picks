@@ -1,8 +1,7 @@
 export const guideSlug = "best-curved-usb-c-monitors";
 export const guideTitle = "5 Best Curved USB-C Monitors in 2026";
-export const metaTitle = "Best Curved USB-C Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 curved USB-C monitors we evaluated, with a note on curve radius: a tighter curve (lower R number) suits closer viewing distances, a gentler curve works better if your desk is deeper.";
+export const metaTitle = "Best Curved USB-C Monitors";
+export const metaDescription = "5 curved USB-C monitors we evaluated, with a note on curve radius: a tighter curve (lower R number) suits closer viewing distances,.";
 export const mainKeyword = "curved usb-c monitor";
 export const introParagraphs = [
   "Curve radius, expressed as an R number like 1500R or 1000R, matters more than most buyers realize, a tighter curve (lower R number) suits closer viewing distances while a gentler curve works better if your desk setup puts you farther from the screen.",

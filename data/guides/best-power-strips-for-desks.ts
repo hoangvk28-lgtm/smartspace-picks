@@ -1,8 +1,7 @@
 export const guideSlug = "best-power-strips-for-desks";
 export const guideTitle = "8 Best Power Strips for Desks in 2026";
-export const metaTitle = "Best Power Strips for Desks, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 power strips we evaluated for desk use, with the distinction competitors skip: many desk power strips carry zero surge protection despite looking identical to surge-protected models.";
+export const metaTitle = "Best Power Strips for Desks";
+export const metaDescription = "8 power strips we evaluated for desk use, with the distinction competitors skip: many desk power strips carry zero surge protection despite looking identical.";
 export const mainKeyword = "power strip for desk";
 export const introParagraphs = [
   "A basic power strip is simply a multi-outlet extension with no surge suppression at all, while a surge protector adds MOV components to absorb voltage spikes. Many products marketed generically as power strips provide zero surge protection despite looking nearly identical to protected models, verify this before assuming any strip protects your equipment.",

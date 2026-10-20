@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protectors-with-usb-ports";
 export const guideTitle = "5 Best Surge Protectors with USB Ports in 2026";
-export const metaTitle = "Best Surge Protectors with USB Ports, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors with USB ports we evaluated, with the scope question competitors skip: many combined units surge-protect the AC outlets but provide no meaningful surge suppression on the USB output circuitry itself.";
+export const metaTitle = "Best Surge Protectors with USB Ports";
+export const metaDescription = "5 surge protectors with USB ports we evaluated, with the scope question competitors skip: many combined units surge-protect the AC outlets but provide no.";
 export const mainKeyword = "surge protector with USB";
 export const introParagraphs = [
   "Many combined AC-plus-USB units surge-protect the AC outlets but provide no meaningful surge suppression on the USB output circuitry itself, since USB ports operate at low DC voltage where the AC-side MOV protection may not extend, a distinction almost never clarified.",

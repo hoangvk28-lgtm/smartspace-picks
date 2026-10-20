@@ -1,8 +1,7 @@
 export const guideSlug = "best-pure-sine-wave-ups";
 export const guideTitle = "7 Best Pure Sine Wave UPS Battery Backups in 2026";
-export const metaTitle = "Best Pure Sine Wave UPS Battery Backups, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 pure sine wave UPS units we evaluated, with the compatibility detail most listings skip: modified sine wave power can cause buzzing, overheating, or shutdown on modern APFC power supplies, and pure sine wave isn't a universal upgrade every setup needs.";
+export const metaTitle = "Best Pure Sine Wave UPS Battery Backups";
+export const metaDescription = "7 pure sine wave UPS units we evaluated, with the compatibility detail most listings skip: modified sine wave power can cause buzzing, overheating,.";
 export const mainKeyword = "pure sine wave UPS battery backup";
 export const introParagraphs = [
   "Modified sine wave output is specifically incompatible with the active power factor correction (APFC) circuitry found in the vast majority of desktop PC power supplies built in the last decade, running APFC equipment on a modified sine wave UPS during an outage can cause audible buzzing, overheating, reduced efficiency, or unexpected shutdown mid-outage, the exact scenario the UPS exists to prevent.",

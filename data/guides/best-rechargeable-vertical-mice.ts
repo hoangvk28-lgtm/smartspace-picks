@@ -1,8 +1,7 @@
 export const guideSlug = "best-rechargeable-vertical-mice";
 export const guideTitle = "5 Best Rechargeable Vertical Mice in 2026";
-export const metaTitle = "Best Rechargeable Vertical Mice, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 rechargeable vertical mice we evaluated, with the charge-while-in-use check competitors skip: whether a mouse can be used during charging, or becomes unusable while plugged in, is a genuine usability differentiator most listings don't disclose.";
+export const metaTitle = "Best Rechargeable Vertical Mice";
+export const metaDescription = "5 rechargeable vertical mice we evaluated, with the charge-while-in-use check competitors skip: whether a mouse can be used during charging,.";
 export const mainKeyword = "rechargeable vertical mouse";
 export const introParagraphs = [
   "Charging cable type, USB-C standard versus older micro-USB, should be verified per product, mirroring the same connector-type concern raised in compact travel mouse research, since a mismatched cable adds friction to an otherwise convenient charging routine.",

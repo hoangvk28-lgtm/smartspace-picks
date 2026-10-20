@@ -1,8 +1,7 @@
 export const guideSlug = "best-dual-monitor-kvm-switches";
 export const guideTitle = "5 Best Dual-Monitor KVM Switches in 2026";
-export const metaTitle = "Best Dual-Monitor KVM Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 dual-monitor KVM switches we evaluated, with a note that switching both monitors together requires the switch to treat them as a synchronized pair, some budget switches only sync video but not USB peripherals correctly.";
+export const metaTitle = "Best Dual-Monitor KVM Switches";
+export const metaDescription = "5 dual-monitor KVM switches we evaluated, with a note that switching both monitors together requires the switch to treat them as a synchronized pair,.";
 export const mainKeyword = "dual monitor kvm switch";
 export const introParagraphs = [
   "Switching both monitors together requires the switch to treat them as a genuinely synchronized pair, some budget switches only sync the video signal correctly while USB peripheral switching lags or requires a separate manual step, worth checking reviews specifically for dual-monitor synchronization reports.",

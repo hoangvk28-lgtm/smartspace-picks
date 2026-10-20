@@ -1,8 +1,7 @@
 export const guideSlug = "best-white-monitor-shelves";
 export const guideTitle = "5 Best White Monitor Shelves in 2026";
-export const metaTitle = "Best White Monitor Shelves, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 white monitor shelves we evaluated, with the honest maintenance disclosure competitors skip: white surfaces show visible dust, dirt, and staining far more readily than darker colors, and white finishes can yellow with UV exposure over time.";
+export const metaTitle = "Best White Monitor Shelves";
+export const metaDescription = "5 white monitor shelves we evaluated, with the honest maintenance disclosure competitors skip: white surfaces show visible dust, dirt,.";
 export const mainKeyword = "white monitor shelf";
 export const introParagraphs = [
   "Like color-specific research generally, this should cross-reference the underlying material-specific findings, wood, metal, acrylic, rather than treating 'white' as an independent structural product category.",

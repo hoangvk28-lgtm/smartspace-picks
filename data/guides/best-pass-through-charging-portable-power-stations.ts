@@ -1,7 +1,7 @@
 export const guideSlug = "best-pass-through-charging-portable-power-stations";
 export const guideTitle = "8 Best Pass Through Charging Portable Power Stations in 2026";
-export const metaTitle = "Best Pass Through Charging Portable Power Stations 2026";
-export const metaDescription = "We compared pass through charging portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaTitle = "Best Pass Through Charging Portable Power";
+export const metaDescription = "We compared pass through charging portable power stations by measured usable energy, continuous output, and safety documentation rather than ranking by.";
 export const mainKeyword = "pass through charging portable power stations";
 export const introParagraphs = [
   "Shopping for pass through charging portable power stations starts with verifying simultaneous charge-and-discharge is officially supported, not just implied, not with trusting a single headline wattage number.",

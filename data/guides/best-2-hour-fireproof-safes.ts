@@ -1,7 +1,7 @@
 export const guideSlug = "best-2-hour-fireproof-safes";
 export const guideTitle = "8 Best 2 Hour Fireproof Safes in 2026";
 export const metaTitle = "Best 2 Hour Fireproof Safes 2026";
-export const metaDescription = "We compared 2 hour fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 2 hour fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "2 hour fireproof safes";
 export const introParagraphs = [
   "Most 2 hour fireproof safes buyers skip straight to price, when the more useful first step is confirming both the exact duration and the test temperature together.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31+ZaOADbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ83PN3G?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 2 hours at 1850°F, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
-    specs: ["2.0 cu ft, UL 2hr at 1850°F","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
-    pros: ["2-hour UL rating at 1850°F is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
+    description: "This is genuinely UL classified for 2 hours at 1850 degreesF, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
+    specs: ["2.0 cu ft, UL 2hr at 1850 degreesF","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
+    pros: ["2-hour UL rating at 1850 degreesF is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
     cons: ["Substantial size and weight require dedicated floor space and bolt-down installation","Digital lock needs battery maintenance to stay reliable"],
-    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850°f",
+    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf",
   },
   {
     id: "best-2-hour-fireproof-safes-2",
@@ -169,7 +169,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     "subheading": "Check the Test Temperature, Not Just the Time",
-    "note": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700°F and 2-hour testing at 1850°F, meaningfully different heat exposure."
+    "note": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure."
   },
   {
     "subheading": "Verify What Contents the Rating Actually Covers",
@@ -192,7 +192,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Check the Test Temperature, Not Just the Time",
-    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700°F and 2-hour testing at 1850°F, meaningfully different heat exposure."
+    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure."
   },
   {
     "criterion": "Verify What Contents the Rating Actually Covers",
@@ -215,7 +215,7 @@ export const faq = [
   },
   {
     "q": "How is a fire-duration rating actually tested?",
-    "a": "Independent labs place a loaded safe in a furnace at a specified temperature for the stated duration, then check that the interior stayed below the threshold that would damage paper (typically well under 350°F even when the exterior sees 1550-1850°F)."
+    "a": "Independent labs place a loaded safe in a furnace at a specified temperature for the stated duration, then check that the interior stayed below the threshold that would damage paper (typically well under 350 degreesF even when the exterior sees 1550-1850 degreesF)."
   },
   {
     "q": "What's the real difference between 'fireproof' and 'fire-resistant' safes?",
@@ -223,7 +223,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-mini-pcs-with-32gb-ram";
 export const guideTitle = "5 Best Mini PCs with 32GB RAM in 2026";
-export const metaTitle = "Best Mini PCs with 32GB RAM, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 mini PCs with 32GB RAM we evaluated, a genuine sweet spot for heavy multitasking, multiple browser tabs and apps, and light creative work without paying for 64GB most buyers don't need.";
+export const metaTitle = "Best Mini PCs with 32GB RAM";
+export const metaDescription = "5 mini PCs with 32GB RAM we evaluated, a genuine sweet spot for heavy multitasking, multiple browser tabs and apps, and light creative work without paying for.";
 export const mainKeyword = "mini pc with 32gb ram";
 export const introParagraphs = [
   "32GB RAM represents a genuine sweet spot for buyers doing heavy multitasking, running many browser tabs alongside multiple applications, or light creative work like photo editing, without paying the substantial premium for 64GB that most buyers genuinely don't need.",

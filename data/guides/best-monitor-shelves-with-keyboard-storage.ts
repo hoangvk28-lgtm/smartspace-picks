@@ -1,8 +1,7 @@
 export const guideSlug = "best-monitor-shelves-with-keyboard-storage";
 export const guideTitle = "5 Best Monitor Shelves with Keyboard Storage in 2026";
-export const metaTitle = "Best Monitor Shelves with Keyboard Storage, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 monitor shelves with keyboard storage we evaluated, with the slot-dimension check competitors skip: keyboard storage slot dimensions should be verified against your specific keyboard size, compact vs full-size, not assumed one-size-fits-all.";
+export const metaTitle = "Best Monitor Shelves with Keyboard Storage";
+export const metaDescription = "5 monitor shelves with keyboard storage we evaluated, with the slot-dimension check competitors skip: keyboard storage slot dimensions should be verified.";
 export const mainKeyword = "monitor shelf with keyboard storage";
 export const introParagraphs = [
   "This is a genuinely different product type than a laptop storage shelf, worth verifying actual keyboard slot dimensions against common keyboard sizes, compact 60% versus full-size with a number pad, rather than assuming one slot size fits all keyboards.",

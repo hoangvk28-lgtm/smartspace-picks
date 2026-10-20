@@ -1,8 +1,7 @@
 export const guideSlug = "best-sound-absorbing-desk-privacy-panels";
 export const guideTitle = "5 Best Sound-Absorbing Desk Privacy Panels in 2026";
-export const metaTitle = "Best Sound-Absorbing Desk Privacy Panels, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 desk privacy panels we evaluated for sound absorption, with the honest distinction competitors blur: felt and acoustic foam absorb some reflected sound, they don't block sound transmission the way a soundproof partition does.";
+export const metaTitle = "Best Sound-Absorbing Desk Privacy Panels";
+export const metaDescription = "5 desk privacy panels we evaluated for sound absorption, with the honest distinction competitors blur: felt and acoustic foam absorb some reflected sound,.";
 export const mainKeyword = "sound absorbing desk privacy panel";
 export const introParagraphs = [
   "Felt and acoustic foam desk panels absorb some reflected sound within your immediate area, reducing echo and softening nearby noise, but they don't block sound transmission the way a genuinely soundproof partition does, don't expect a desk panel to stop a neighboring conversation from being audible.",

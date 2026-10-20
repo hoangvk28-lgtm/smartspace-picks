@@ -1,8 +1,7 @@
 export const guideSlug = "best-lightweight-laptop-screen-extenders";
 export const guideTitle = "5 Best Lightweight Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Lightweight Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 lightweight laptop screen extenders we evaluated, focused on actual measured weight rather than marketing language, since two panels can differ by half a pound despite similar screen sizes.";
+export const metaTitle = "Best Lightweight Laptop Screen Extenders";
+export const metaDescription = "5 lightweight laptop screen extenders we evaluated, focused on actual measured weight rather than marketing language, since two panels can differ by half a.";
 export const mainKeyword = "lightweight laptop screen extender";
 export const introParagraphs = [
   "Actual measured weight matters more than marketing language like 'lightweight' or 'ultra-thin', since two panels of the same screen size can differ by half a pound or more depending on panel type and frame material.",

@@ -1,7 +1,7 @@
 export const guideSlug = "best-3-0-cu-ft-fireproof-safes";
 export const guideTitle = "8 Best 3.0 Cu ft Fireproof Safes in 2026";
 export const metaTitle = "Best 3.0 Cu ft Fireproof Safes 2026";
-export const metaDescription = "We compared 3.0 cu ft fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 3.0 cu ft fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "3.0 cu ft fireproof safes";
 export const introParagraphs = [
   "Best 3.0 Cu ft Fireproof Safes looks straightforward from the outside, but the real differentiator between models is verifying how much insulation eats into the nominal cubic-foot figure.",
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51kf83JfLCL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G1M87HB3?tag=deskfinds0d-20",
-    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this genuine structural robustness, and it bundles a separate A4-size fireproof document bag rated to endure 30 minutes at 1700°F for extra small-item protection.\n\nA tiered alarm lockout (20 seconds after 3 wrong attempts, 5 minutes after 6) adds graduated security response, and each lock cylinder carries a unique serial number specifically for easier key replacement if lost.",
-    specs: ["3.2 cu ft, 50mm steel door, 27.5 lbs","Bundled A4 fireproof bag (30min at 1700°F)","Tiered alarm lockout: 20s then 5min"],
+    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this genuine structural robustness, and it bundles a separate A4-size fireproof document bag rated to endure 30 minutes at 1700 degreesF for extra small-item protection.\n\nA tiered alarm lockout (20 seconds after 3 wrong attempts, 5 minutes after 6) adds graduated security response, and each lock cylinder carries a unique serial number specifically for easier key replacement if lost.",
+    specs: ["3.2 cu ft, 50mm steel door, 27.5 lbs","Bundled A4 fireproof bag (30min at 1700 degreesF)","Tiered alarm lockout: 20s then 5min"],
     pros: ["50mm door thickness is substantial for this weight class","Bundled separate fireproof document bag adds real double protection","Unique lock cylinder serial numbers make lost-key replacement genuinely traceable"],
     cons: ["27.5 lbs is light for the stated 3.2 cu ft capacity, worth comparing wall","No independent UL/ETL classification for the main steel body itself"],
     bestFor: "buyers prioritizing 3.2 cu ft, 50mm steel door, 27.5 lbs",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Mr0GrruXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSKF7P7F?tag=deskfinds0d-20",
-    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this 5.0 cu ft safe real structural robustness, and it bundles a separate A4-size fireproof document bag rated for 30 minutes at 1700°F.\n\nThree removable steel shelves organize a genuinely large interior fitting a 14-inch laptop alongside documents and firearms, with a tiered alarm lockout and unique lock-cylinder serial numbers for traceable key replacement.",
-    specs: ["5.0 cu ft, 50mm steel door, 38.8 lbs","3 removable steel shelves","Bundled A4 fireproof bag (30min at 1700°F)"],
+    description: "A 50mm extra-thick explosion-proof steel door with three 20mm high-strength locking bolts gives this 5.0 cu ft safe real structural robustness, and it bundles a separate A4-size fireproof document bag rated for 30 minutes at 1700 degreesF.\n\nThree removable steel shelves organize a genuinely large interior fitting a 14-inch laptop alongside documents and firearms, with a tiered alarm lockout and unique lock-cylinder serial numbers for traceable key replacement.",
+    specs: ["5.0 cu ft, 50mm steel door, 38.8 lbs","3 removable steel shelves","Bundled A4 fireproof bag (30min at 1700 degreesF)"],
     pros: ["3 removable shelves genuinely organize a large 5.0 cu ft interior for laptops, documents","Bundled separate fireproof document bag adds double protection","Unique lock cylinder serial numbers make lost-key replacement traceable"],
     cons: ["38.8 lbs is light for a 5.0 cu ft safe, worth comparing gauge thickness","No independent UL/ETL fire-duration classification for the main steel body"],
     bestFor: "buyers prioritizing 5.0 cu ft, 50mm steel door, 38.8 lbs",
@@ -123,11 +123,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41GbjH3CE0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GWD6F45C?tag=deskfinds0d-20",
-    description: "This model is explicitly built and tested to Underwriters Laboratories standards with SGS-certified materials, withstanding 1700°F for 35 minutes, a genuinely documented independent testing claim rather than a vague marketing figure.\n\nThree removable shelves organize the interior, and 3 solid 0.98\" locking bolts with concealed anti-pry hinges back the 45 lb steel construction. A dual fire-and-theft design includes pre-drilled anchoring holes with included fireproof plugs to seal unused openings and preserve fire resistance.",
-    specs: ["23.4\"H, UL standard, SGS-certified, 35min at 1700°F","45 lbs, 3x 0.98in locking bolts","Pre-drilled holes with fireproof sealing plugs"],
+    description: "This model is explicitly built and tested to Underwriters Laboratories standards with SGS-certified materials, withstanding 1700 degreesF for 35 minutes, a genuinely documented independent testing claim rather than a vague marketing figure.\n\nThree removable shelves organize the interior, and 3 solid 0.98\" locking bolts with concealed anti-pry hinges back the 45 lb steel construction. A dual fire-and-theft design includes pre-drilled anchoring holes with included fireproof plugs to seal unused openings and preserve fire resistance.",
+    specs: ["23.4\"H, UL standard, SGS-certified, 35min at 1700 degreesF","45 lbs, 3x 0.98in locking bolts","Pre-drilled holes with fireproof sealing plugs"],
     pros: ["UL-standard testing with SGS-certified materials is a genuinely documented claim, not vague marketing language","Fireproof plugs specifically seal anchoring holes to preserve fire resistance when not mounted","Unique key serial numbers make lost-key replacement traceable"],
     cons: ["35 minutes is shorter than the 1- and 2-hour ratings on premium competitors like","45 lbs at 5.0 cu ft-equivalent size is on the lighter end"],
-    bestFor: "buyers prioritizing 23.4\"h, ul standard, sgs-certified, 35min at 1700°f",
+    bestFor: "buyers prioritizing 23.4\"h, ul standard, sgs-certified, 35min at 1700 degreesf",
   },
   {
     id: "best-3-0-cu-ft-fireproof-safes-8",
@@ -239,7 +239,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

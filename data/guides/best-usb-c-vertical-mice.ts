@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-vertical-mice";
 export const guideTitle = "5 Best USB-C Vertical Mice in 2026";
-export const metaTitle = "Best USB-C Vertical Mice, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C vertical mice we evaluated, with the ambiguous-term decode competitors skip: 'USB-C' could refer to the charging port, the wireless dongle's connector, or a wired connection, and each implies a very different product.";
+export const metaTitle = "Best USB-C Vertical Mice";
+export const metaDescription = "5 USB-C vertical mice we evaluated, with the ambiguous-term decode competitors skip: 'USB-C' could refer to the charging port, the wireless dongle's connector,.";
 export const mainKeyword = "USB-C vertical mouse";
 export const introParagraphs = [
   "USB-C in this context could refer to the charging port, the wireless dongle's connector, or a wired connection method, worth clarifying which specific USB-C implementation each product uses rather than treating 'USB-C' as one undifferentiated feature.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-with-pass-through-charging";
 export const guideTitle = "8 Best Portable Monitors with Pass-Through Charging in 2026";
-export const metaTitle = "Best Portable Monitors with Pass-Through Charging, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors with pass-through charging, with a real power-budget calculation since the rated wattage on the box is a ceiling your charger and cable have to actually deliver, not a guarantee.";
+export const metaTitle = "Best Portable Monitors with Pass-Through";
+export const metaDescription = "8 portable monitors with pass-through charging, with a real power-budget calculation since the rated wattage on the box is a ceiling your charger and cable.";
 export const mainKeyword = "portable monitor pass-through charging";
 export const introParagraphs = [
   "A monitor rated for 65W or 100W pass-through only delivers what your host device's charger and cable actually negotiate, if your laptop's own charger is 45W, the monitor cannot magically provide more. We calculate the realistic net power budget for each pick below rather than just quoting the rated ceiling.",

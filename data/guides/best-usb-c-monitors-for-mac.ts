@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-monitors-for-mac";
 export const guideTitle = "5 Best USB-C Monitors for Mac in 2026";
-export const metaTitle = "Best USB-C Monitors for Mac, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C monitors for Mac we evaluated, with a note on macOS scaling: Apple's 'Looks like' scaling options don't always include every resolution a third-party monitor supports natively.";
+export const metaTitle = "Best USB-C Monitors for Mac";
+export const metaDescription = "5 USB-C monitors for Mac we evaluated, with a note on macOS scaling: Apple's 'Looks like' scaling options don't always include every resolution a third-party.";
 export const mainKeyword = "usb-c monitor for mac";
 export const introParagraphs = [
   "macOS handles external display scaling through 'Looks like' resolution options rather than native pixel-for-pixel settings, these presets don't always include every resolution a third-party monitor supports, worth checking reviews specifically from Mac users before assuming perfect scaling out of the box.",

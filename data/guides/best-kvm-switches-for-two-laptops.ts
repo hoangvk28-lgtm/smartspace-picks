@@ -1,8 +1,7 @@
 export const guideSlug = "best-kvm-switches-for-two-laptops";
 export const guideTitle = "5 Best KVM Switches for Two Laptops in 2026";
-export const metaTitle = "Best KVM Switches for Two Laptops, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 KVM switches for two laptops we evaluated, with a note that switching between two laptops through USB-C often needs both laptop ports to support video output, not just one.";
+export const metaTitle = "Best KVM Switches for Two Laptops";
+export const metaDescription = "5 KVM switches for two laptops we evaluated, with a note that switching between two laptops through USB-C often needs both laptop ports to support video.";
 export const mainKeyword = "kvm switch for two laptops";
 export const introParagraphs = [
   "Switching between two laptops through USB-C often requires both laptop ports to support DisplayPort Alt Mode video output, not just one, worth verifying both your laptops' specific USB-C ports carry video before assuming a USB-C KVM switch works symmetrically across both devices.",

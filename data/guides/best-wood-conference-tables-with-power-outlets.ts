@@ -1,7 +1,7 @@
 export const guideSlug = "best-wood-conference-tables-with-power-outlets";
 export const guideTitle = "8 Best Wood Conference Tables With Power Outlets in 2026";
-export const metaTitle = "Best Wood Conference Tables With Power Outlets 2026";
-export const metaDescription = "We compared wood conference tables with power outlets by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaTitle = "Best Wood Conference Tables With Power Outlets";
+export const metaDescription = "We compared wood conference tables with power outlets by usable seating zones, base and cable clearance, and material construction rather than ranking by.";
 export const mainKeyword = "wood conference tables with power outlets";
 export const introParagraphs = [
   "A conference table with built-in power needs the outlets to actually be reachable from real seats, not just present somewhere on the table.",

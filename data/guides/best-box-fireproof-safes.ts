@@ -1,7 +1,7 @@
 export const guideSlug = "best-box-fireproof-safes";
 export const guideTitle = "8 Best Box Fireproof Safes in 2026";
 export const metaTitle = "Best Box Fireproof Safes 2026";
-export const metaDescription = "We compared box fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared box fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking.";
 export const mainKeyword = "box fireproof safes";
 export const introParagraphs = [
   "The real test for box fireproof safes comes down to checking fire evidence for the exact chest, not just the safe category, not a glance at the listing photo.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550 degreesF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550 degreesF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified",
   },
   {
     id: "best-box-fireproof-safes-2",
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bga8Z6v2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FORBWW?tag=deskfinds0d-20",
-    description: "Built from strong ABS plastic rather than steel, this Honeywell chest is rated for 30 minutes at 1550°F and separately verified for 24-hour waterproofing to a full meter underwater, a genuinely deep submersion claim for a box this size.\n\nAt 0.15 cu ft interior it's sized specifically for folded letter documents, not flat files, and the carry handle makes it easy to grab in an emergency evacuation.",
-    specs: ["0.15 cu ft, fits folded letter documents","30-min UL rating at 1550°F","24hr waterproof to 1m submersion"],
+    description: "Built from strong ABS plastic rather than steel, this Honeywell chest is rated for 30 minutes at 1550 degreesF and separately verified for 24-hour waterproofing to a full meter underwater, a genuinely deep submersion claim for a box this size.\n\nAt 0.15 cu ft interior it's sized specifically for folded letter documents, not flat files, and the carry handle makes it easy to grab in an emergency evacuation.",
+    specs: ["0.15 cu ft, fits folded letter documents","30-min UL rating at 1550 degreesF","24hr waterproof to 1m submersion"],
     pros: ["24-hour waterproof rating to a full meter submersion is genuinely deep for a chest","ABS plastic construction keeps this lighter than steel alternatives","Carry handle makes grab-and-go evacuation genuinely practical"],
     cons: ["0.15 cu ft interior only fits folded, not flat, letter documents","Plastic construction offers less physical security than steel chests"],
     bestFor: "buyers prioritizing 0.15 cu ft, fits folded letter documents",
@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31tKYJCZ7GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FORBX6?tag=deskfinds0d-20",
-    description: "This Honeywell chest documents a 30-minute UL rating at 1550°F alongside a genuinely long 100-hour waterproof seal verified to 39 inches submersion, longer duration than many comparable chests claim.\n\nThe interior is specifically sized to lay letter and A4 documents flat rather than folded, and the carry handle plus 0.24 cu ft capacity keep it in the portable-chest category for home, office, or dorm use.",
-    specs: ["0.24 cu ft, fits flat letter/A4 documents","30-min UL rating at 1550°F","100-hour waterproof seal to 39in submersion"],
+    description: "This Honeywell chest documents a 30-minute UL rating at 1550 degreesF alongside a genuinely long 100-hour waterproof seal verified to 39 inches submersion, longer duration than many comparable chests claim.\n\nThe interior is specifically sized to lay letter and A4 documents flat rather than folded, and the carry handle plus 0.24 cu ft capacity keep it in the portable-chest category for home, office, or dorm use.",
+    specs: ["0.24 cu ft, fits flat letter/A4 documents","30-min UL rating at 1550 degreesF","100-hour waterproof seal to 39in submersion"],
     pros: ["100-hour waterproof duration is notably longer than many comparable fire chests","Documents lie flat rather than requiring folding, protecting them from crease damage","Carry handle makes evacuation genuinely practical at this size"],
     cons: ["30-minute rating is the entry fire-protection tier","0.24 cu ft limits this to documents, not bulky valuables"],
     bestFor: "buyers prioritizing 0.24 cu ft, fits flat letter/a4 documents",
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51j5rL5OMhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000MPRHBS?tag=deskfinds0d-20",
-    description: "A straightforward fire-only chest (no waterproof claim) rated for 30 minutes at 1550°F, sized specifically for money, small electronic media, and other compact items rather than full document storage.\n\nThe clamping-style latch with key lock (2 keys included) is a simple, battery-free closure, and the carrying handle keeps this genuinely portable despite its steel construction.",
-    specs: ["0.17 cu ft, fire-only (no waterproof claim)","30-min UL rating at 1550°F","Clamp latch, key lock, 2 keys"],
+    description: "A straightforward fire-only chest (no waterproof claim) rated for 30 minutes at 1550 degreesF, sized specifically for money, small electronic media, and other compact items rather than full document storage.\n\nThe clamping-style latch with key lock (2 keys included) is a simple, battery-free closure, and the carrying handle keeps this genuinely portable despite its steel construction.",
+    specs: ["0.17 cu ft, fire-only (no waterproof claim)","30-min UL rating at 1550 degreesF","Clamp latch, key lock, 2 keys"],
     pros: ["Straightforward fire-only design at a lower price point than dual fire/water models","Rated specifically to protect digital media like CDs and hard drives","Clamp-style key lock is simple and battery-free"],
     cons: ["No waterproof rating, only addresses fire risk","0.17 cu ft is quite small, fits money and small media"],
     bestFor: "buyers prioritizing 0.17 cu ft, fire-only (no waterproof claim)",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41QUJenr3kL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000MPMEZ2?tag=deskfinds0d-20",
-    description: "The waterproof sibling to First Alert's 2011F, this chest adds genuine water-submersion protection to the same 30-minute, 1550°F fire rating and 0.17 cu ft capacity, independently verified to protect electronic media specifically.\n\nSame clamping-style key lock with 2 included keys, making the choice between this and the fire-only 2011F mainly about whether water exposure is a real concern for the storage location.",
-    specs: ["0.17 cu ft, fire and waterproof","30-min UL rating at 1550°F, waterproof design","Clamp latch, key lock, 2 keys"],
+    description: "The waterproof sibling to First Alert's 2011F, this chest adds genuine water-submersion protection to the same 30-minute, 1550 degreesF fire rating and 0.17 cu ft capacity, independently verified to protect electronic media specifically.\n\nSame clamping-style key lock with 2 included keys, making the choice between this and the fire-only 2011F mainly about whether water exposure is a real concern for the storage location.",
+    specs: ["0.17 cu ft, fire and waterproof","30-min UL rating at 1550 degreesF, waterproof design","Clamp latch, key lock, 2 keys"],
     pros: ["Adds genuine waterproof protection over First Alert's fire-only 2011F at the same capacity","Independently verified to protect electronic media specifically","Same simple, battery-free clamp lock as the fire-only version"],
     cons: ["0.17 cu ft remains small, fits money and small media","30-minute rating is the entry tier"],
     bestFor: "buyers prioritizing 0.17 cu ft, fire and waterproof",
@@ -223,7 +223,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-power-strips-for-standing-desks";
 export const guideTitle = "5 Best Power Strips for Standing Desks in 2026";
-export const metaTitle = "Best Power Strips for Standing Desks, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 power strips we evaluated for standing desks, with the cable-strain issue competitors skip: a fixed-position strip creates real mechanical stress as the desk moves through its full height range.";
+export const metaTitle = "Best Power Strips for Standing Desks";
+export const metaDescription = "5 power strips we evaluated for standing desks, with the cable-strain issue competitors skip: a fixed-position strip creates real mechanical stress as the desk.";
 export const mainKeyword = "power strip for standing desk";
 export const introParagraphs = [
   "A power strip mounted to the desk frame or a fixed point while cables run to devices that move with the desktop experiences repeated flex and strain at connector points every time the desk height changes, a durability concern unique to standing desks that generic power strip reviews don't test.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-ssds-for-cameras";
 export const guideTitle = "5 Best Portable SSDs for Cameras in 2026";
-export const metaTitle = "Best Portable SSDs for Cameras, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable SSDs we evaluated for cameras, with the field-power-draw angle competitors skip: battery-powered field use means the SSD's own power draw affects overall camera battery management, a real photographer workflow constraint.";
+export const metaTitle = "Best Portable SSDs for Cameras";
+export const metaDescription = "5 portable SSDs we evaluated for cameras, with the field-power-draw angle competitors skip: battery-powered field use means the SSD's own power draw affects.";
 export const mainKeyword = "portable SSD for camera";
 export const introParagraphs = [
   "Battery-powered field use, no wall power available, means the SSD's own power draw affects overall field battery management, a real photographer and videographer workflow constraint worth addressing explicitly rather than assuming any bus-powered drive is equally efficient.",

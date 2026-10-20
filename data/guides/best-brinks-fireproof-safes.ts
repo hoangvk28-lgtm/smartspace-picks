@@ -1,7 +1,7 @@
 export const guideSlug = "best-brinks-fireproof-safes";
 export const guideTitle = "8 Best Brinks Fireproof Safes in 2026";
 export const metaTitle = "Best Brinks Fireproof Safes 2026";
-export const metaDescription = "We compared brinks fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared brinks fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "brinks fireproof safes";
 export const introParagraphs = [
   "Ranking brinks fireproof safes fairly means putting mapping the brand's current fire-rated lineup instead of assuming every model qualifies ahead of anything the listing photos suggest.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31XTyTneoXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JQ753YQ?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F, this safe is also ETL verified to survive a 15-foot fall during a fire and remain closed, a specific structural-integrity test beyond just heat resistance. It's separately ETL verified for 24 hours in up to 8 inches of water.\n\nSix live-locking bolts, steel construction, a pry-resistant hinge bar, and an interior light make this a genuinely full-featured floor safe, with a drawer and file organizer for keeping the 2.05 cu ft interior organized.",
-    specs: ["2.05 cu ft, UL 1hr at 1700°F","ETL verified for 15ft fire-fall drop test","6 live-locking bolts, interior light"],
-    pros: ["15-foot fire-fall drop test is a specific structural claim most competitors don't document","Interior light and built-in drawer/file organizer are genuine usability extras","1-hour 1700°F rating with 8-inch, 24-hour water protection covers both major hazards"],
+    description: "UL Classified for a full hour at 1700 degreesF, this safe is also ETL verified to survive a 15-foot fall during a fire and remain closed, a specific structural-integrity test beyond just heat resistance. It's separately ETL verified for 24 hours in up to 8 inches of water.\n\nSix live-locking bolts, steel construction, a pry-resistant hinge bar, and an interior light make this a genuinely full-featured floor safe, with a drawer and file organizer for keeping the 2.05 cu ft interior organized.",
+    specs: ["2.05 cu ft, UL 1hr at 1700 degreesF","ETL verified for 15ft fire-fall drop test","6 live-locking bolts, interior light"],
+    pros: ["15-foot fire-fall drop test is a specific structural claim most competitors don't document","Interior light and built-in drawer/file organizer are genuine usability extras","1-hour 1700 degreesF rating with 8-inch, 24-hour water protection covers both major hazards"],
     cons: ["Door needs 17.5 inches of clearance to fully open, worth checking against room layout","Digital lock is battery-dependent"],
-    bestFor: "buyers prioritizing 2.05 cu ft, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf",
   },
   {
     id: "best-brinks-fireproof-safes-2",
@@ -59,11 +59,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DOhkXmzOL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008NHKWZU?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 1/2 hour at 1550°F, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
-    specs: ["UL 1/2hr at 1550°F, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
+    description: "This is genuinely UL classified for 1/2 hour at 1550 degreesF, not just a marketing claim, with a separate ETL water-verification for digital media like CDs and USB drives. A lifetime after-fire replacement guarantee backs the fire rating directly.\n\nThe flat key lock (2 keys included) is built specifically to keep the lid from popping open during a fire, and carrying grips make the 17 lb chest genuinely portable, though at 0.197 cu ft usable interior it suits documents and small valuables, not bulk storage.",
+    specs: ["UL 1/2hr at 1550 degreesF, ETL digital media verified","0.197 cu ft interior, 17 lbs","Key lock, 2 keys, carrying grips"],
     pros: ["Lifetime after-fire replacement guarantee backs the rating directly","Flat key lock is specifically engineered to stay shut during fire","Carrying grips make this genuinely portable at 17 lbs"],
     cons: ["0.197 cu ft usable interior is small, fits documents but not much else","Key-only lock, no digital or combination option"],
-    bestFor: "buyers prioritizing ul 1/2hr at 1550°f, etl digital media verified",
+    bestFor: "buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified",
   },
   {
     id: "best-brinks-fireproof-safes-4",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51ZHOze0arL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQ8LPBV7?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F and ETL verified for water resistance up to 5 inches for 24 hours even while bolted down, this SentrySafe model uses a dial combination lock with an override key for backup access.\n\nMaster Lock security technology is built into the combination mechanism specifically to resist manipulation attacks, and at 55 lbs with 0.81 cu ft interior it's a genuinely full-featured mid-size home or office safe.",
-    specs: ["0.81 cu ft, 55 lbs, UL 1hr at 1700°F","Dial combination lock + override key","ETL waterproof to 5in for 24hr while bolted"],
+    description: "UL Classified for a full hour at 1700 degreesF and ETL verified for water resistance up to 5 inches for 24 hours even while bolted down, this SentrySafe model uses a dial combination lock with an override key for backup access.\n\nMaster Lock security technology is built into the combination mechanism specifically to resist manipulation attacks, and at 55 lbs with 0.81 cu ft interior it's a genuinely full-featured mid-size home or office safe.",
+    specs: ["0.81 cu ft, 55 lbs, UL 1hr at 1700 degreesF","Dial combination lock + override key","ETL waterproof to 5in for 24hr while bolted"],
     pros: ["Dial combination avoids battery dependency while still including an override key backup","Master Lock-built combination mechanism specifically resists manipulation attacks","Waterproof rating remains valid even when bolted"],
     cons: ["Dial combination access is slower for daily use than a digital keypad","0.81 cu ft is modest capacity relative to the 55 lb weight"],
-    bestFor: "buyers prioritizing 0.81 cu ft, 55 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 0.81 cu ft, 55 lbs, ul 1hr at 1700 degreesf",
   },
   {
     id: "best-brinks-fireproof-safes-6",
@@ -107,11 +107,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vwOEUg7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005P12F2K?tag=deskfinds0d-20",
-    description: "UL Classified for 1 hour at 1700°F and ETL verified for 24 hours in up to 8 inches of water, this 1.23 cu ft safe uses a dial combination rather than digital keypad, avoiding battery dependency entirely.\n\nFour live-locking bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware secure the interior, and SentrySafe backs it with a genuine fire/water damage replacement warranty, a meaningful protection beyond the rating itself.",
-    specs: ["1.23 cu ft, 86 lbs, UL 1hr at 1700°F","Dial combination, no batteries required","ETL waterproof 24hr to 8in depth"],
+    description: "UL Classified for 1 hour at 1700 degreesF and ETL verified for 24 hours in up to 8 inches of water, this 1.23 cu ft safe uses a dial combination rather than digital keypad, avoiding battery dependency entirely.\n\nFour live-locking bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware secure the interior, and SentrySafe backs it with a genuine fire/water damage replacement warranty, a meaningful protection beyond the rating itself.",
+    specs: ["1.23 cu ft, 86 lbs, UL 1hr at 1700 degreesF","Dial combination, no batteries required","ETL waterproof 24hr to 8in depth"],
     pros: ["Dial combination lock has zero battery dependency, genuinely simpler long-term reliability","SentrySafe's fire/water damage replacement warranty adds real protection beyond the rating alone","ETL verified to a full 15-foot fall during fire, per SentrySafe's stated testing"],
     cons: ["Dial combination access is slower for daily use than a digital keypad","86 lbs still requires deliberate placement planning"],
-    bestFor: "buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700 degreesf",
   }
 ];
 
@@ -203,7 +203,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

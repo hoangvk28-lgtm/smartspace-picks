@@ -1,8 +1,7 @@
 export const guideSlug = "best-compact-document-scanners";
 export const guideTitle = "8 Best Compact Document Scanners in 2026";
-export const metaTitle = "Best Compact Document Scanners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for genuine desk-space savings, with an honest note that compact form factor almost always means reduced ADF capacity, not just a smaller footprint.";
+export const metaTitle = "Best Compact Document Scanners";
+export const metaDescription = "8 scanners we evaluated for genuine desk-space savings, with an honest note that compact form factor almost always means reduced ADF capacity,.";
 export const mainKeyword = "compact document scanner";
 export const introParagraphs = [
   "Compact form factor almost always means reduced ADF capacity, 10-20 sheets versus 50-100 on full-size desktop scanners, a real workflow tradeoff most 'space-saving' marketing doesn't disclose alongside the footprint claim. We call out each pick's actual feeder capacity directly.",

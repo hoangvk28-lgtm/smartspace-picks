@@ -1,8 +1,7 @@
 export const guideSlug = "best-12-outlet-surge-protectors";
 export const guideTitle = "5 Best 12-Outlet Surge Protectors in 2026";
-export const metaTitle = "Best 12-Outlet Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 twelve-outlet surge protectors we evaluated, with the risk-concentration point competitors skip: consolidating an entire home theater or office onto one 12-outlet unit means a single point of failure takes down everything at once.";
+export const metaTitle = "Best 12-Outlet Surge Protectors";
+export const metaDescription = "5 twelve-outlet surge protectors we evaluated, with the risk-concentration point competitors skip: consolidating an entire home theater or office onto one.";
 export const mainKeyword = "12 outlet surge protector";
 export const introParagraphs = [
   "12 rated outlets is where the usable-outlet-count gap becomes most severe in absolute terms, a high-density outlet layout with 12 slots in a compact strip body has even less spacing margin per outlet than a 6-outlet unit, often leaving considerably fewer than 12 genuinely usable slots with real-world adapters.",

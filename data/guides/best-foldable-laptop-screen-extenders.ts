@@ -1,8 +1,7 @@
 export const guideSlug = "best-foldable-laptop-screen-extenders";
 export const guideTitle = "5 Best Foldable Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Foldable Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 foldable laptop screen extenders we evaluated, with the fold-mechanism durability check competitors skip: a foldable hinge undergoes far more repeated stress cycles than a fixed-panel design, worth verifying long-term fold durability before buying.";
+export const metaTitle = "Best Foldable Laptop Screen Extenders";
+export const metaDescription = "5 foldable laptop screen extenders we evaluated, with the fold-mechanism durability check competitors skip: a foldable hinge undergoes far more repeated stress.";
 export const mainKeyword = "foldable laptop screen extender";
 export const introParagraphs = [
   "A foldable hinge undergoes far more repeated stress cycles than a fixed-panel or simple clip-on design, worth verifying long-term fold durability through real reviews rather than assuming any foldable mechanism holds up equally well after months of daily folding.",

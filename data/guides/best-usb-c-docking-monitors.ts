@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-docking-monitors";
 export const guideTitle = "5 Best USB-C Docking Monitors in 2026";
-export const metaTitle = "Best USB-C Docking Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C docking monitors we evaluated, with a note on EDID emulation: without it, a docking monitor may not remember your window layout after disconnecting and reconnecting your laptop.";
+export const metaTitle = "Best USB-C Docking Monitors";
+export const metaDescription = "5 USB-C docking monitors we evaluated, with a note on EDID emulation: without it, a docking monitor may not remember your window layout after disconnecting and.";
 export const mainKeyword = "usb-c docking monitor";
 export const introParagraphs = [
   "EDID emulation is a small but genuinely important feature, without it a docking monitor may not remember your window layout and resolution settings after you disconnect and reconnect your laptop, forcing you to rearrange windows every time.",

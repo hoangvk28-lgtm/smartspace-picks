@@ -1,7 +1,7 @@
 export const guideSlug = "best-1-2-cubic-feet-fireproof-safes";
 export const guideTitle = "8 Best 1.2 Cubic Feet Fireproof Safes in 2026";
 export const metaTitle = "Best 1.2 Cubic Feet Fireproof Safes 2026";
-export const metaDescription = "We compared 1.2 cubic feet fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 1.2 cubic feet fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather.";
 export const mainKeyword = "1.2 cubic feet fireproof safes";
 export const introParagraphs = [
   "Before ranking any pick for 1.2 cubic feet fireproof safes, the real work is checking real usable interior space against the advertised cubic footage.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41xOvU3ByLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0C333ZHLF?tag=deskfinds0d-20",
-    description: "A specific 30-minute rating at 1400°F is documented here via a fireproof plaster layer and alloy steel latch, with a heat-activated door seal that expands specifically to block heat and smoke intrusion during a fire.\n\nA 240° oversized door-opening angle is a genuine convenience most safes in this category don't offer, and the alarm system locks out for 3 minutes after 5 incorrect password attempts, a specific documented lockout behavior.",
-    specs: ["1.2 cu ft, 30 min at 1400°F","Heat-activated expanding door seal","240° oversized door opening angle"],
-    pros: ["Heat-activated expanding door seal is a specific, documented mechanism","240° door opening angle genuinely improves access versus a standard door swing","Detachable movable partition adds real interior flexibility"],
-    cons: ["1400°F rating is lower than the 1550-1850°F figures common among UL-classified competitors","3-minute lockout after 5 failed attempts is longer than some rivals' 20-second lockout"],
-    bestFor: "buyers prioritizing 1.2 cu ft, 30 min at 1400°f",
+    description: "A specific 30-minute rating at 1400 degreesF is documented here via a fireproof plaster layer and alloy steel latch, with a heat-activated door seal that expands specifically to block heat and smoke intrusion during a fire.\n\nA 240 degrees oversized door-opening angle is a genuine convenience most safes in this category don't offer, and the alarm system locks out for 3 minutes after 5 incorrect password attempts, a specific documented lockout behavior.",
+    specs: ["1.2 cu ft, 30 min at 1400 degreesF","Heat-activated expanding door seal","240 degrees oversized door opening angle"],
+    pros: ["Heat-activated expanding door seal is a specific, documented mechanism","240 degrees door opening angle genuinely improves access versus a standard door swing","Detachable movable partition adds real interior flexibility"],
+    cons: ["1400 degreesF rating is lower than the 1550-1850 degreesF figures common among UL-classified competitors","3-minute lockout after 5 failed attempts is longer than some rivals' 20-second lockout"],
+    bestFor: "buyers prioritizing 1.2 cu ft, 30 min at 1400 degreesf",
   },
   {
     id: "best-1-2-cubic-feet-fireproof-safes-2",
@@ -43,11 +43,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31yJvo-CDPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BBNFTDZX?tag=deskfinds0d-20",
-    description: "UL Classified for 2 hours at 1850°F and ETL verified for 24 hours of protection in up to 5 inches of water, this Master Lock model brings the brand's century-plus lock expertise to a more compact 1.2 cu ft capacity than its larger 2.0 cu ft sibling.\n\nThe digital keypad and steel construction carry the same design language as Master Lock's larger safes, just scaled down for smaller rooms or closets needing genuine 2-hour protection.",
-    specs: ["1.2 cu ft, UL 2hr at 1850°F","ETL waterproof 24hr to 5in depth","Digital keypad, steel construction"],
-    pros: ["2-hour 1850°F rating in a more compact 1.2 cu ft footprint than Master Lock's","Same ETL 24-hour, 5-inch waterproof verification as the brand's bigger safes","Master Lock's century-plus lock-making pedigree backs the digital keypad design"],
+    description: "UL Classified for 2 hours at 1850 degreesF and ETL verified for 24 hours of protection in up to 5 inches of water, this Master Lock model brings the brand's century-plus lock expertise to a more compact 1.2 cu ft capacity than its larger 2.0 cu ft sibling.\n\nThe digital keypad and steel construction carry the same design language as Master Lock's larger safes, just scaled down for smaller rooms or closets needing genuine 2-hour protection.",
+    specs: ["1.2 cu ft, UL 2hr at 1850 degreesF","ETL waterproof 24hr to 5in depth","Digital keypad, steel construction"],
+    pros: ["2-hour 1850 degreesF rating in a more compact 1.2 cu ft footprint than Master Lock's","Same ETL 24-hour, 5-inch waterproof verification as the brand's bigger safes","Master Lock's century-plus lock-making pedigree backs the digital keypad design"],
     cons: ["1.2 cu ft is a real capacity tradeoff for the more compact footprint","Digital lock requires battery maintenance"],
-    bestFor: "buyers prioritizing 1.2 cu ft, ul 2hr at 1850°f",
+    bestFor: "buyers prioritizing 1.2 cu ft, ul 2hr at 1850 degreesf",
   },
   {
     id: "best-1-2-cubic-feet-fireproof-safes-3",
@@ -59,11 +59,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41vwOEUg7fL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B005P12F2K?tag=deskfinds0d-20",
-    description: "UL Classified for 1 hour at 1700°F and ETL verified for 24 hours in up to 8 inches of water, this 1.23 cu ft safe uses a dial combination rather than digital keypad, avoiding battery dependency entirely.\n\nFour live-locking bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware secure the interior, and SentrySafe backs it with a genuine fire/water damage replacement warranty, a meaningful protection beyond the rating itself.",
-    specs: ["1.23 cu ft, 86 lbs, UL 1hr at 1700°F","Dial combination, no batteries required","ETL waterproof 24hr to 8in depth"],
+    description: "UL Classified for 1 hour at 1700 degreesF and ETL verified for 24 hours in up to 8 inches of water, this 1.23 cu ft safe uses a dial combination rather than digital keypad, avoiding battery dependency entirely.\n\nFour live-locking bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware secure the interior, and SentrySafe backs it with a genuine fire/water damage replacement warranty, a meaningful protection beyond the rating itself.",
+    specs: ["1.23 cu ft, 86 lbs, UL 1hr at 1700 degreesF","Dial combination, no batteries required","ETL waterproof 24hr to 8in depth"],
     pros: ["Dial combination lock has zero battery dependency, genuinely simpler long-term reliability","SentrySafe's fire/water damage replacement warranty adds real protection beyond the rating alone","ETL verified to a full 15-foot fall during fire, per SentrySafe's stated testing"],
     cons: ["Dial combination access is slower for daily use than a digital keypad","86 lbs still requires deliberate placement planning"],
-    bestFor: "buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700 degreesf",
   },
   {
     id: "best-1-2-cubic-feet-fireproof-safes-4",
@@ -75,11 +75,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31BauXQBkfL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B008HZUH94?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F, this SentrySafe lets you set your own combination directly on the keypad rather than a factory-preset code, at a substantial 85 lb weight backed by 4 live-locking bolts and a pry-resistant hinge bar.\n\nA shelf and door pocket organize the 1.23 cu ft interior into distinct zones, useful for separating documents from smaller items rather than one open cavity.",
-    specs: ["1.23 cu ft, 85 lbs, UL 1hr at 1700°F","4 live-locking bolts, pry-resistant hinge bar","Shelf + door pocket organization"],
+    description: "UL Classified for a full hour at 1700 degreesF, this SentrySafe lets you set your own combination directly on the keypad rather than a factory-preset code, at a substantial 85 lb weight backed by 4 live-locking bolts and a pry-resistant hinge bar.\n\nA shelf and door pocket organize the 1.23 cu ft interior into distinct zones, useful for separating documents from smaller items rather than one open cavity.",
+    specs: ["1.23 cu ft, 85 lbs, UL 1hr at 1700 degreesF","4 live-locking bolts, pry-resistant hinge bar","Shelf + door pocket organization"],
     pros: ["User-set combination on the keypad avoids relying on a factory-preset code","Shelf and door pocket genuinely separate storage zones instead of one open cavity","85 lb weight and 4 live-locking bolts give real forced-entry resistance"],
     cons: ["No waterproof rating cited in this listing, fire-only protection","Digital lock requires battery maintenance"],
-    bestFor: "buyers prioritizing 1.23 cu ft, 85 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 1.23 cu ft, 85 lbs, ul 1hr at 1700 degreesf",
   },
   {
     id: "best-1-2-cubic-feet-fireproof-safes-5",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51ZHOze0arL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BQ8LPBV7?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F and ETL verified for water resistance up to 5 inches for 24 hours even while bolted down, this SentrySafe model uses a dial combination lock with an override key for backup access.\n\nMaster Lock security technology is built into the combination mechanism specifically to resist manipulation attacks, and at 55 lbs with 0.81 cu ft interior it's a genuinely full-featured mid-size home or office safe.",
-    specs: ["0.81 cu ft, 55 lbs, UL 1hr at 1700°F","Dial combination lock + override key","ETL waterproof to 5in for 24hr while bolted"],
+    description: "UL Classified for a full hour at 1700 degreesF and ETL verified for water resistance up to 5 inches for 24 hours even while bolted down, this SentrySafe model uses a dial combination lock with an override key for backup access.\n\nMaster Lock security technology is built into the combination mechanism specifically to resist manipulation attacks, and at 55 lbs with 0.81 cu ft interior it's a genuinely full-featured mid-size home or office safe.",
+    specs: ["0.81 cu ft, 55 lbs, UL 1hr at 1700 degreesF","Dial combination lock + override key","ETL waterproof to 5in for 24hr while bolted"],
     pros: ["Dial combination avoids battery dependency while still including an override key backup","Master Lock-built combination mechanism specifically resists manipulation attacks","Waterproof rating remains valid even when bolted"],
     cons: ["Dial combination access is slower for daily use than a digital keypad","0.81 cu ft is modest capacity relative to the 55 lb weight"],
-    bestFor: "buyers prioritizing 0.81 cu ft, 55 lbs, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 0.81 cu ft, 55 lbs, ul 1hr at 1700 degreesf",
   },
   {
     id: "best-1-2-cubic-feet-fireproof-safes-6",
@@ -224,7 +224,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

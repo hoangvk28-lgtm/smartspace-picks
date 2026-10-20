@@ -1,8 +1,7 @@
 export const guideSlug = "best-ups-battery-backups-for-nas-devices";
 export const guideTitle = "6 Best UPS Battery Backups for NAS Devices in 2026";
-export const metaTitle = "Best UPS Battery Backups for NAS Devices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 UPS units we evaluated for NAS protection, with the detail that actually prevents RAID corruption: graceful shutdown signal timing must be configured with enough margin, or your NAS may not fully shut down before the battery depletes.";
+export const metaTitle = "Best UPS Battery Backups for NAS Devices";
+export const metaDescription = "6 UPS units we evaluated for NAS protection, with the detail that actually prevents RAID corruption: graceful shutdown signal timing must be configured with.";
 export const mainKeyword = "UPS battery backup for NAS";
 export const introParagraphs = [
   "A UPS communicates remaining runtime to a NAS via USB or network, often using NUT (Network UPS Tools) or a vendor-proprietary protocol, if the shutdown trigger threshold isn't configured with sufficient margin, the NAS's RAID array can be caught mid-write when the battery finally depletes, risking data corruption despite having a UPS in place.",

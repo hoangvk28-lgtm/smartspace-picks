@@ -1,8 +1,7 @@
 export const guideSlug = "best-single-outlet-surge-protectors";
 export const guideTitle = "5 Best Single-Outlet Surge Protectors in 2026";
-export const metaTitle = "Best Single-Outlet Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 single-outlet surge protectors we evaluated, with the value framing competitors skip: since only one device shares the protection budget, this category arguably offers the most protection per device for its joule rating.";
+export const metaTitle = "Best Single-Outlet Surge Protectors";
+export const metaDescription = "5 single-outlet surge protectors we evaluated, with the value framing competitors skip: since only one device shares the protection budget,.";
 export const mainKeyword = "single outlet surge protector";
 export const introParagraphs = [
   "Single-outlet surge protectors are commonly used for single high-value devices, a monitor, a modem or router, a lamp, where the joule rating and clamping voltage matter proportionally more since there's no shared-load risk dilution across multiple devices.",

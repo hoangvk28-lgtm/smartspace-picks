@@ -1,6 +1,6 @@
 export const guideSlug = "best-passive-laptop-cooling-pads";
 export const guideTitle = "3 Best Passive Laptop Cooling Pads in 2026";
-export const metaTitle = "Best Passive Laptop Cooling Pads (2026)";
+export const metaTitle = "Best Passive Laptop Cooling Pads";
 export const metaDescription =
   "3 genuinely fanless laptop cooling pads we evaluated for elevation, material conductivity, and honest cooling limits, narrowed from a thin category.";
 export const mainKeyword = "passive laptop cooling pads";

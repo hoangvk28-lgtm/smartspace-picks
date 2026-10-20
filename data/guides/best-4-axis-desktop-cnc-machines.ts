@@ -1,7 +1,7 @@
 export const guideSlug = "best-4-axis-desktop-cnc-machines";
 export const guideTitle = "6 Best 4 Axis Desktop CNC Machines in 2026";
 export const metaTitle = "Best 4 Axis Desktop CNC Machines 2026";
-export const metaDescription = "We compared 4 axis desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared 4 axis desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than spindle wattage alone.";
 export const mainKeyword = "4 axis desktop cnc machines";
 export const introParagraphs = [
   "Most 4 axis desktop cnc machines buyers skip straight to price, when the more useful first step is verifying whether rotary motion is simultaneous or just indexed, and how much envelope it costs.",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41K0w8BPrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F18TC7QL?tag=deskfinds0d-20",
-    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A Φ65mm spindle holder plus Φ52mm adapter cover spindle and laser swaps, and it's also compatible with Φ69mm brackets for further upgrades.",
-    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","Φ65mm + Φ52mm spindle/laser adapters included"],
+    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A 65mm dia. spindle holder plus 52mm dia. adapter cover spindle and laser swaps, and it's also compatible with 69mm dia. brackets for further upgrades.",
+    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","65mm dia. + 52mm dia. spindle/laser adapters included"],
     pros: ["Documented 1.5mm aluminum cut depth in a single pass","7.3 Nm of torque is a real, specific figure","Spindle and laser swap via included adapters"],
     cons: ["All-metal build adds weight versus lighter hobby routers","6500 RPM minimum speed limits very fine detail work"],
     bestFor: "buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque",

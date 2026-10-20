@@ -1,8 +1,7 @@
 export const guideSlug = "best-24-inch-usb-c-monitors";
 export const guideTitle = "5 Best 24-Inch USB-C Monitors in 2026";
-export const metaTitle = "Best 24-Inch USB-C Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 24-inch USB-C monitors we evaluated, with a note that 24 inches is the sweet spot for 1080p without visible pixelation, while the same resolution at 27 inches or larger looks noticeably softer.";
+export const metaTitle = "Best 24-Inch USB-C Monitors";
+export const metaDescription = "5 24-inch USB-C monitors we evaluated, with a note that 24 inches is the sweet spot for 1080p without visible pixelation,.";
 export const mainKeyword = "24 inch usb-c monitor";
 export const introParagraphs = [
   "24 inches is widely considered the practical sweet spot for 1080p resolution, at this size pixel density stays high enough to avoid visible pixelation, while the same 1080p resolution stretched across a 27-inch or larger panel looks noticeably softer.",

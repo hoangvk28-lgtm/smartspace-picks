@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protectors-with-usb-c-ports";
 export const guideTitle = "5 Best Surge Protectors with USB-C Ports in 2026";
-export const metaTitle = "Best Surge Protectors with USB-C Ports, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors with USB-C ports we evaluated, with the thermal detail competitors skip: high-wattage USB-C PD laptop charging generates meaningful heat within a compact housing that already contains heat-sensitive surge-protection MOV components.";
+export const metaTitle = "Best Surge Protectors with USB-C Ports";
+export const metaDescription = "5 surge protectors with USB-C ports we evaluated, with the thermal detail competitors skip: high-wattage USB-C PD laptop charging generates meaningful heat.";
 export const mainKeyword = "USB-C surge protector";
 export const introParagraphs = [
   "High-wattage USB-C PD laptop charging (45-65W+) generates meaningful heat within a compact combined surge-protector-plus-USB-C housing, and this housing already contains surge-protection MOV components that can be sensitive to sustained elevated internal temperature.",

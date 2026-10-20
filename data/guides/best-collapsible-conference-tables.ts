@@ -1,7 +1,7 @@
 export const guideSlug = "best-collapsible-conference-tables";
 export const guideTitle = "8 Best Collapsible Conference Tables in 2026";
 export const metaTitle = "Best Collapsible Conference Tables 2026";
-export const metaDescription = "We compared collapsible conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared collapsible conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or.";
 export const mainKeyword = "collapsible conference tables";
 export const introParagraphs = [
   "A folding or flip-top conference table needs a mechanism that actually locks securely and resets quickly, not just a fold that looks smooth once in a showroom demo.",
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51ppTZS34EL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2QG7J71?tag=deskfinds0d-20",
-    description: "Sold as a 2-pack in four available lengths (47.2\" to 70.8\"), these tables are built for rooms that need to reconfigure often, 360° silent wheels with dual lockable brakes let one person move and rearrange the whole layout solo. The aluminum alloy frame is rated to 550 lbs even on uneven floors.\n\nMultiple units connect side-by-side into U-shapes or long banquet rows for larger seminars, and Amazon lists this as part of a broader lineup sold in set sizes up to 10 tables for facilities furnishing an entire room at once.",
-    specs: ["4 length options: 47.2\" to 70.8\"","360° silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
+    description: "Sold as a 2-pack in four available lengths (47.2\" to 70.8\"), these tables are built for rooms that need to reconfigure often, 360 degrees silent wheels with dual lockable brakes let one person move and rearrange the whole layout solo. The aluminum alloy frame is rated to 550 lbs even on uneven floors.\n\nMultiple units connect side-by-side into U-shapes or long banquet rows for larger seminars, and Amazon lists this as part of a broader lineup sold in set sizes up to 10 tables for facilities furnishing an entire room at once.",
+    specs: ["4 length options: 47.2\" to 70.8\"","360 degrees silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
     pros: ["550 lb rating is unusually high for a folding table this mobile","Dual lockable brakes let one person reconfigure a full room layout solo","Splices into U-shapes or long rows for larger seminar setups"],
     cons: ["Sold as a 2-pack, so single-table buyers pay for capacity they may not need yet","Melamine surface is waterproof but still a laminate finish, not solid material"],
     bestFor: "buyers prioritizing 4 length options: 47.2\" to 70.8\"",
@@ -123,8 +123,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51tdcAeVSpL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H2QC1H2T?tag=deskfinds0d-20",
-    description: "The same 550-lb-rated, 360°-wheel folding table as the 2-pack version above, sold here as a 6-pack for facilities that need to furnish a full training room or reconfigurable event space in one purchase. Available in the same four lengths from 47.2\" to 70.8\".\n\nDual lockable brakes and an aluminum alloy frame keep the mobility-and-stability tradeoff in check, and units connect into U-shapes or long banquet rows for larger seminar layouts.",
-    specs: ["4 length options: 47.2\" to 70.8\", 6-pack","360° silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
+    description: "The same 550-lb-rated, 360 degrees-wheel folding table as the 2-pack version above, sold here as a 6-pack for facilities that need to furnish a full training room or reconfigurable event space in one purchase. Available in the same four lengths from 47.2\" to 70.8\".\n\nDual lockable brakes and an aluminum alloy frame keep the mobility-and-stability tradeoff in check, and units connect into U-shapes or long banquet rows for larger seminar layouts.",
+    specs: ["4 length options: 47.2\" to 70.8\", 6-pack","360 degrees silent wheels, dual lockable brakes","550 lb rated aluminum alloy frame"],
     pros: ["6-pack is the most efficient way to furnish a full reconfigurable training room at once","Same 550 lb rating and dual-brake casters as the smaller-pack version","Splices into U-shapes or long banquet rows for large seminars"],
     cons: ["Only makes sense for buyers actually needing 6 units, overkill for a single meeting room","Waterproof melamine surface, not a premium wood or laminate finish"],
     bestFor: "buyers prioritizing 4 length options: 47.2\" to 70.8\", 6-pack",

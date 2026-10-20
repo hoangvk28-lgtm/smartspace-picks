@@ -1,8 +1,7 @@
 export const guideSlug = "best-desk-mounted-surge-protectors";
 export const guideTitle = "5 Best Desk-Mounted Surge Protectors in 2026";
-export const metaTitle = "Best Desk-Mounted Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 desk-mounted surge protectors we evaluated, with the risk competitors skip: a fixed, semi-permanent mounted position is statistically less likely to be proactively replaced on a reasonable schedule than a surface-sitting unit you regularly notice.";
+export const metaTitle = "Best Desk-Mounted Surge Protectors";
+export const metaDescription = "5 desk-mounted surge protectors we evaluated, with the risk competitors skip: a fixed, semi-permanent mounted position is statistically less likely to be.";
 export const mainKeyword = "surge protector desk mount";
 export const introParagraphs = [
   "Mounting position affects how easily a buyer notices and responds to a tripped surge protector, many units have a reset button after tripping from a significant event, and a poorly positioned mount can leave a tripped, non-functioning surge protector unnoticed for an extended period.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-kvm-docking-stations";
 export const guideTitle = "5 Best KVM Docking Stations in 2026";
-export const metaTitle = "Best KVM Docking Stations, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 KVM docking stations we evaluated, with a note that a docking station's total power delivery is shared across laptop charging and peripheral power, verify this budget before assuming everything runs at full power at once.";
+export const metaTitle = "Best KVM Docking Stations";
+export const metaDescription = "5 KVM docking stations we evaluated, with a note that a docking station's total power delivery is shared across laptop charging and peripheral power,.";
 export const mainKeyword = "kvm docking station";
 export const introParagraphs = [
   "A docking station's total power delivery budget is shared across laptop charging and any connected peripherals, verify this budget against your actual setup before assuming your laptop charges at full speed while also powering external drives or a second monitor.",

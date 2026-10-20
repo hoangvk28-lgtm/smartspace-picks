@@ -1,8 +1,7 @@
 export const guideSlug = "best-kvm-switches-for-a-laptop-and-desktop";
 export const guideTitle = "5 Best KVM Switches for a Laptop and Desktop in 2026";
-export const metaTitle = "Best KVM Switches for a Laptop and Desktop, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 KVM switches for a laptop and desktop we evaluated, with a note that your desktop needs its own dedicated graphics output while your laptop may share power and video over one USB-C cable.";
+export const metaTitle = "Best KVM Switches for a Laptop and Desktop";
+export const metaDescription = "5 KVM switches for a laptop and desktop we evaluated, with a note that your desktop needs its own dedicated graphics output while your laptop may share power.";
 export const mainKeyword = "kvm switch for laptop and desktop";
 export const introParagraphs = [
   "Your desktop typically needs its own dedicated graphics card output connected to the switch, while your laptop may share power and video over a single USB-C cable, worth understanding this asymmetry before assuming both devices connect to the switch identically.",

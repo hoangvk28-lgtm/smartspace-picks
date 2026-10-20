@@ -1,8 +1,7 @@
 export const guideSlug = "best-wi-fi-document-scanners";
 export const guideTitle = "7 Best Wi-Fi Document Scanners in 2026";
-export const metaTitle = "Best Wi-Fi Document Scanners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 scanners we evaluated for real Wi-Fi network use, with a note that scan-to-folder requires the destination computer to stay on, unlike scan-to-cloud, a distinction Wi-Fi convenience marketing rarely makes clear.";
+export const metaTitle = "Best Wi-Fi Document Scanners";
+export const metaDescription = "7 scanners we evaluated for real Wi-Fi network use, with a note that scan-to-folder requires the destination computer to stay on, unlike scan-to-cloud,.";
 export const mainKeyword = "Wi-Fi document scanner";
 export const introParagraphs = [
   "Wi-Fi scan-to-folder typically requires the destination computer to remain on and network-discoverable, unlike scan-to-cloud. Wi-Fi convenience marketing implies standalone operation that doesn't always exist for folder-based destinations, we clarify which mode each pick actually needs.",

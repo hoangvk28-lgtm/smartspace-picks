@@ -1,8 +1,7 @@
 export const guideSlug = "best-10-sheet-paper-shredders";
 export const guideTitle = "8 Best 10-Sheet Paper Shredders in 2026";
-export const metaTitle = "Best 10-Sheet Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders rated for 10 sheets, at the price 'sweet spot' where security level varies most widely between similarly priced models, from P-2 strip-cut to P-4 micro-cut.";
+export const metaTitle = "Best 10-Sheet Paper Shredders";
+export const metaDescription = "8 shredders rated for 10 sheets, at the price 'sweet spot' where security level varies most widely between similarly priced models,.";
 export const mainKeyword = "10-sheet paper shredder";
 export const introParagraphs = [
   "Real-world 10-sheet capacity with mixed paper is closer to 7-8 sheets, the same 25-30% real-world reduction seen at the 8-sheet tier, scaled up. This tier is also where buyers will find both P-2 strip-cut and P-4 cross-cut/micro-cut models at similar prices, a security-level comparison at matched capacity worth organizing clearly rather than treating all '10-sheet' listings as equivalent.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-tax-documents";
 export const guideTitle = "6 Best Document Scanners for Tax Documents in 2026";
-export const metaTitle = "Best Document Scanners for Tax Documents, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 scanners we evaluated for tax document digitization, with a split recommendation: a one-time multi-year backlog project needs different capacity than ongoing annual scanning, a distinction most tax-scanner content ignores.";
+export const metaTitle = "Best Document Scanners for Tax Documents";
+export const metaDescription = "6 scanners we evaluated for tax document digitization, with a split recommendation: a one-time multi-year backlog project needs different capacity than ongoing.";
 export const mainKeyword = "document scanner for tax documents";
 export const introParagraphs = [
   "Archival-quality scanning (600 DPI) is necessary for long-term legibility over the 3-7 year retention window tax documents typically need, but is significantly slower per page than standard 300 DPI, a tradeoff rarely explained in tax-document-specific content.",

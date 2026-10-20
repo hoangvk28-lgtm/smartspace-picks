@@ -1,8 +1,7 @@
 export const guideSlug = "best-brass-desk-clocks";
 export const guideTitle = "5 Best Brass Desk Clocks in 2026";
-export const metaTitle = "Best Brass Desk Clocks (2026)";
-export const metaDescription =
-  "5 desk clocks compared for actual brass or brass-toned metal construction, since \"brass\" in a listing title can mean solid metal or simply a brass-colored finish.";
+export const metaTitle = "Best Brass Desk Clocks";
+export const metaDescription = "5 desk clocks compared for actual brass or brass-toned metal construction, since a listing title can mean solid metal or simply a brass-colored finish.";
 export const mainKeyword = "brass desk clock";
 export const introParagraphs = [
   "Genuine solid brass desk clocks are less common than brass-toned or brass-finish clocks. We checked each listing's described construction and flagged where a product is metal with a brass-like finish rather than confirmed solid brass.",
@@ -72,7 +71,7 @@ export const products: GuideProduct[] = [
     id: "b0dk6r22kd-brassclock",
     rank: 4,
     badge: "Most Premium",
-    name: "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3×9.1in",
+    name: "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in",
     price: "$39.99",
     rating: "4.2",
     reviews: "63",
@@ -94,7 +93,7 @@ export const products: GuideProduct[] = [
     reviews: "822",
     imageUrl: "https://m.media-amazon.com/images/I/41c1kZ9IKNL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07PYN9YZN?tag=deskfinds0d-20",
-    description: "A genuinely different mechanism, an auto-flip display rather than a traditional dial, with brass-adjacent retro styling, at a solid review base for its category.\n\nOne spot below QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3×9.1in in this ranking, it's priced lower than QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3×9.1in. The compromise here is straightforward: Same price tier as the mantel-style option above without the same substantial size. What you gain in return: Distinctive flip mechanism, not just another traditional dial. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Solid review base. On the other side, Same price tier as the mantel-style option above without the same substantial size. That's the main tradeoff to weigh against everything above.",
+    description: "A genuinely different mechanism, an auto-flip display rather than a traditional dial, with brass-adjacent retro styling, at a solid review base for its category.\n\nOne spot below QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in in this ranking, it's priced lower than QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in. The compromise here is straightforward: Same price tier as the mantel-style option above without the same substantial size. What you gain in return: Distinctive flip mechanism, not just another traditional dial. Whether that trade is worth it depends on which side matters more to you.\n\nWorth knowing before you decide: Solid review base. On the other side, Same price tier as the mantel-style option above without the same substantial size. That's the main tradeoff to weigh against everything above.",
     specs: ["Auto-flip mechanism","Retro vintage design","822 reviews at 4.4 stars"],
     pros: ["Distinctive flip mechanism, not just another traditional dial","Solid review base"],
     cons: ["Same price tier as the mantel-style option above without the same substantial size"],
@@ -153,7 +152,7 @@ export const howToChoose: HowToChooseSection[] = [
         ],
         [
           "No firm budget ceiling, prioritizing material or brand",
-          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3×9.1in"
+          "QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in"
         ]
       ]
     }
@@ -209,7 +208,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "You want what QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3×9.1in offers: Largest, most substantial piece in this comparison. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
+        "text": "You want what QIYAODECO Vintage Table Clock Silent Mantel Gold Analog 8.3x9.1in offers: Largest, most substantial piece in this comparison. That's a real material or craftsmanship upgrade over the budget picks here, not just a brand markup."
       },
       {
         "label": "Save if",

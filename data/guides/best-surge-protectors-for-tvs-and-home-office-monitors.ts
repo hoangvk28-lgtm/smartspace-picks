@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protectors-for-tvs-and-home-office-monitors";
 export const guideTitle = "5 Best Surge Protectors for TVs and Home Office Monitors in 2026";
-export const metaTitle = "Best Surge Protectors for TVs and Home Office Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors we evaluated for TVs and monitors, with the density gap competitors skip: multi-monitor home office setups share one surge protector's joule budget across several expensive panels simultaneously.";
+export const metaTitle = "Best Surge Protectors for TVs and Home Office";
+export const metaDescription = "5 surge protectors we evaluated for TVs and monitors, with the density gap competitors skip: multi-monitor home office setups share one surge protector's joule.";
 export const mainKeyword = "surge protector for TV";
 export const introParagraphs = [
   "Large OLED and high-refresh monitors and TVs draw more sustained wattage than older LCDs, and clamping voltage and response time matter more for panel electronics than for simpler devices, since modern panel driver electronics are more sensitive to voltage transients.",

@@ -1,7 +1,7 @@
 export const guideSlug = "best-3030-pro-max-desktop-cnc-machines";
 export const guideTitle = "3 Best 3030 Pro Max Desktop CNC Machines in 2026";
 export const metaTitle = "Best 3030 Pro Max Desktop CNC Machines 2026";
-export const metaDescription = "We compared 3030 pro max desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared 3030 pro max desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or.";
 export const mainKeyword = "3030 pro max desktop cnc machines";
 export const introParagraphs = [
   "Ranking 3030 pro max desktop cnc machines fairly means putting verifying exact model generation and travel, since the size-class name alone isn't a technical spec ahead of anything the listing photos suggest.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41Xwcf8fMTL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CH9KCQ6C?tag=deskfinds0d-20",
-    description: "A 710W digital spindle is documented as 2.4 times stronger than the earlier 300W generation, with a real-time digital display removing the guesswork around overheating or underpowering. All-metal chassis construction paired with high-torque stepper motors targets wobble and vibration specifically.\n\n±0.03mm precision is backed by HG15 dual linear rails and 1204 ball screws on every axis, with dust protection on the X/Y axes and hidden cabling. The Genmitsu App handles remote control and troubleshooting, and it ships as two pre-assembled modules that cut assembly effort by roughly 80%, with setup claimed at around 10 minutes.",
-    specs: ["710W spindle, ±0.03mm precision","2 pre-assembled modules, ~10 min setup","HG15 rails + 1204 ball screws all axes"],
+    description: "A 710W digital spindle is documented as 2.4 times stronger than the earlier 300W generation, with a real-time digital display removing the guesswork around overheating or underpowering. All-metal chassis construction paired with high-torque stepper motors targets wobble and vibration specifically.\n\n+/-0.03mm precision is backed by HG15 dual linear rails and 1204 ball screws on every axis, with dust protection on the X/Y axes and hidden cabling. The Genmitsu App handles remote control and troubleshooting, and it ships as two pre-assembled modules that cut assembly effort by roughly 80%, with setup claimed at around 10 minutes.",
+    specs: ["710W spindle, +/-0.03mm precision","2 pre-assembled modules, ~10 min setup","HG15 rails + 1204 ball screws all axes"],
     pros: ["710W spindle is documented as 2.4x stronger than the prior generation","Ships as two pre-assembled modules for roughly 10-minute setup","Genmitsu App enables remote control and troubleshooting"],
-    cons: ["±0.03mm precision trails the tightest machines in this cluster","Large side-mounted e-stop adds bulk to the footprint"],
-    bestFor: "buyers prioritizing 710w spindle, ±0.03mm precision",
+    cons: ["+/-0.03mm precision trails the tightest machines in this cluster","Large side-mounted e-stop adds bulk to the footprint"],
+    bestFor: "buyers prioritizing 710w spindle, +/-0.03mm precision",
   },
   {
     id: "best-3030-pro-max-desktop-cnc-machines-2",
@@ -43,9 +43,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41aMwUcqnxL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H8DH7B9K?tag=deskfinds0d-20",
-    description: "This pairs the same 710W spindle and ±0.03mm precision 3030-PROVer Ultra frame with a genuinely large 7-inch IPS touchscreen at 1024x600 resolution, a real step up from the small 2.8-inch controllers common on comparable machines. HG15 dual linear rails and 1204 ball screws carry over from the base model.\n\nTrue offline operation lets G-code run directly from the controller, keeping a laptop out of the dusty workshop environment entirely rather than just supplementing PC control. The controller also supports 4-axis operation, worth confirming against your specific rotary accessory before assuming full compatibility.",
-    specs: ["7in IPS touchscreen, 1024x600 resolution","710W spindle, ±0.03mm precision","True offline G-code operation"],
-    pros: ["7-inch 1024x600 touchscreen is far larger than typical controllers","Runs G-code fully offline, no laptop needed in the workshop","Same 710W spindle and ±0.03mm precision as the base Ultra"],
+    description: "This pairs the same 710W spindle and +/-0.03mm precision 3030-PROVer Ultra frame with a genuinely large 7-inch IPS touchscreen at 1024x600 resolution, a real step up from the small 2.8-inch controllers common on comparable machines. HG15 dual linear rails and 1204 ball screws carry over from the base model.\n\nTrue offline operation lets G-code run directly from the controller, keeping a laptop out of the dusty workshop environment entirely rather than just supplementing PC control. The controller also supports 4-axis operation, worth confirming against your specific rotary accessory before assuming full compatibility.",
+    specs: ["7in IPS touchscreen, 1024x600 resolution","710W spindle, +/-0.03mm precision","True offline G-code operation"],
+    pros: ["7-inch 1024x600 touchscreen is far larger than typical controllers","Runs G-code fully offline, no laptop needed in the workshop","Same 710W spindle and +/-0.03mm precision as the base Ultra"],
     cons: ["Touchscreen controller adds real cost over the base model","4-axis support needs confirming against your specific rotary hardware"],
     bestFor: "buyers prioritizing 7in ips touchscreen, 1024x600 resolution",
   },
@@ -59,8 +59,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41tbx3B9sLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D6W7TX1P?tag=deskfinds0d-20",
-    description: "This bundles the 710W spindle, ±0.03mm precision 3030-PROVer Ultra frame with a 360 x 300 x 12mm MDF grid spoilboard rather than requiring it as a separate purchase later. The spoilboard is explicitly a disposable protective layer, meant to be replaced rather than repaired.\n\nHG15 dual linear rails and 1204 ball screws carry over from the base machine, and the same all-metal chassis targets wobble and vibration under load. Installation is a genuine 2-step process, attach the spoilboard using pre-drilled holes and screws, with no additional configuration required.",
-    specs: ["MDF grid spoilboard, 360x300x12mm, included","710W spindle, ±0.03mm precision","2-step spoilboard installation"],
+    description: "This bundles the 710W spindle, +/-0.03mm precision 3030-PROVer Ultra frame with a 360 x 300 x 12mm MDF grid spoilboard rather than requiring it as a separate purchase later. The spoilboard is explicitly a disposable protective layer, meant to be replaced rather than repaired.\n\nHG15 dual linear rails and 1204 ball screws carry over from the base machine, and the same all-metal chassis targets wobble and vibration under load. Installation is a genuine 2-step process, attach the spoilboard using pre-drilled holes and screws, with no additional configuration required.",
+    specs: ["MDF grid spoilboard, 360x300x12mm, included","710W spindle, +/-0.03mm precision","2-step spoilboard installation"],
     pros: ["MDF grid spoilboard ships included, not a later purchase","Spoilboard is explicitly disposable, protecting the real machine bed","2-step installation with pre-drilled holes, no extra hardware needed"],
     cons: ["Spoilboard is a consumable that needs periodic replacement","Same core precision as the base Ultra, no additional accuracy gain"],
     bestFor: "buyers prioritizing mdf grid spoilboard, 360x300x12mm, included",

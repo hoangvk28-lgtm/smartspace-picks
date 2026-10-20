@@ -1,8 +1,7 @@
 export const guideSlug = "best-34-inch-usb-c-monitors";
 export const guideTitle = "5 Best 34-Inch USB-C Monitors in 2026";
-export const metaTitle = "Best 34-Inch USB-C Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 34-inch USB-C monitors we evaluated, with a note that a 34-inch panel typically demands roughly a 30-inch minimum desk depth for comfortable viewing distance, measure before buying.";
+export const metaTitle = "Best 34-Inch USB-C Monitors";
+export const metaDescription = "5 34-inch USB-C monitors we evaluated, with a note that a 34-inch panel typically demands roughly a 30-inch minimum desk depth for comfortable viewing.";
 export const mainKeyword = "34 inch usb-c monitor";
 export const introParagraphs = [
   "A 34-inch panel typically demands roughly a 30-inch minimum desk depth for comfortable viewing distance, since sitting too close to a panel this wide makes it hard to take in the full screen without excessive head movement, worth measuring your actual desk depth before buying.",

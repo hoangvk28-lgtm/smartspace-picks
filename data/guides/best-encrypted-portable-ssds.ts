@@ -1,8 +1,7 @@
 export const guideSlug = "best-encrypted-portable-ssds";
 export const guideTitle = "5 Best Encrypted Portable SSDs in 2026";
-export const metaTitle = "Best Encrypted Portable SSDs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 encrypted portable SSDs we evaluated, with the hardware-vs-software distinction competitors skip: hardware-based AES-256 encryption is meaningfully more secure and often faster than software-based encryption, and password recovery risk deserves upfront disclosure.";
+export const metaTitle = "Best Encrypted Portable SSDs";
+export const metaDescription = "5 encrypted portable SSDs we evaluated, with the hardware-vs-software distinction competitors skip: hardware-based AES-256 encryption is meaningfully more.";
 export const mainKeyword = "encrypted portable SSD";
 export const introParagraphs = [
   "Hardware-based AES-256 encryption, built into the drive controller, is meaningfully more secure and often faster than software-based encryption, worth verifying and disclosing which encryption type a product actually uses rather than treating 'encrypted' as one undifferentiated claim.",

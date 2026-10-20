@@ -1,8 +1,7 @@
 export const guideSlug = "best-digital-notebooks-with-expandable-storage";
 export const guideTitle = "5 Best Digital Notebooks with Expandable Storage in 2026";
-export const metaTitle = "Best Digital Notebooks with Expandable Storage (2026)";
-export const metaDescription =
-  "Honest disclosure: true removable-card expandable storage is rare on premium E Ink notebooks. We ranked by actual fixed storage tier instead, since that's the real lever available on most current devices.";
+export const metaTitle = "Best Digital Notebooks with Expandable Storage";
+export const metaDescription = "Honest disclosure: true removable-card expandable storage is rare on premium E Ink notebooks. We ranked by actual fixed storage tier instead,.";
 export const mainKeyword = "digital notebook expandable storage";
 export const introParagraphs = [
   "We need to correct an assumption here: none of the leading E Ink notebooks, Kindle Scribe, reMarkable, XPPen, BOOX, currently ship with a user-accessible microSD or removable storage slot as a standard feature across the board. What buyers actually control is which fixed storage tier they purchase.",

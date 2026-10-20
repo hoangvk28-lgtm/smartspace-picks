@@ -1,8 +1,7 @@
 export const guideSlug = "best-compact-under-desk-treadmill";
 export const guideTitle = "4 Best Compact Under-Desk Treadmills in 2026";
-export const metaTitle = "Best Compact Under-Desk Treadmills in 2026 (Under 4.5 Inches Thin)";
-export const metaDescription =
-  "4 best compact under-desk treadmills in 2026 for tight desk clearance, from a 4.1-inch ultra-slim pad to a handlebar-equipped incline model. Compare thickness, speed, and price.";
+export const metaTitle = "Best Compact Under-Desk Treadmills in 2026";
+export const metaDescription = "4 best compact under-desk treadmills in 2026 for tight desk clearance, from a 4.1-inch ultra-slim pad to a handlebar-equipped incline model. Compare thickness,.";
 export const mainKeyword = "under desk treadmill small";
 export const introParagraphs = [
   "A compact under-desk treadmill is built specifically around one constraint: fitting into the narrow gap between the floor and the underside of a desk without needing to be dragged out for every walking session. That means overall thickness matters more here than in the wider treadmill category, since a couple extra inches of height can be the difference between sliding smoothly under a desk and not fitting at all.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-two-tier-monitor-shelves";
 export const guideTitle = "5 Best Two-Tier Monitor Shelves in 2026";
-export const metaTitle = "Best Two-Tier Monitor Shelves, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 two-tier monitor shelves we evaluated, with the per-tier weight capacity check competitors skip: each tier bears independent weight, and vertical clearance between tiers should be verified against realistic monitor stand height plus accessories.";
+export const metaTitle = "Best Two-Tier Monitor Shelves";
+export const metaDescription = "5 two-tier monitor shelves we evaluated, with the per-tier weight capacity check competitors skip: each tier bears independent weight,.";
 export const mainKeyword = "two-tier monitor shelf";
 export const introParagraphs = [
   "Two-tier shelf designs add a second point-load consideration since each tier bears independent weight, worth testing both tiers' individual and combined weight capacity rather than presenting one blended capacity rating.",

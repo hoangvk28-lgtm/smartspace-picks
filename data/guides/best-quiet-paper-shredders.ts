@@ -1,8 +1,7 @@
 export const guideSlug = "best-quiet-paper-shredders";
 export const guideTitle = "8 Best Quiet Paper Shredders in 2026";
-export const metaTitle = "Best Quiet Paper Shredders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders ranked by real noise level, with a note that manufacturer dB ratings are usually measured at idle or with a single sheet, not under an actual loaded, stapled batch.";
+export const metaTitle = "Best Quiet Paper Shredders";
+export const metaDescription = "8 shredders ranked by real noise level, with a note that manufacturer dB ratings are usually measured at idle or with a single sheet,.";
 export const mainKeyword = "quiet paper shredder";
 export const introParagraphs = [
   "Manufacturer decibel ratings are typically measured under idealized conditions, idle or a single sheet, while actual shredding of a full stack, especially with staples, produces measurably higher and more variable noise. We prioritize picks that explicitly disclose a dB rating at all, since many listings omit noise specs entirely.",

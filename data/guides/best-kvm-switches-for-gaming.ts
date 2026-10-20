@@ -1,8 +1,7 @@
 export const guideSlug = "best-kvm-switches-for-gaming";
 export const guideTitle = "5 Best KVM Switches for Gaming in 2026";
-export const metaTitle = "Best KVM Switches for Gaming, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 KVM switches for gaming we evaluated, with a note that most KVM switches add a small amount of input lag, worth checking reviews specifically for competitive-gaming-relevant lag reports before relying on one for ranked play.";
+export const metaTitle = "Best KVM Switches for Gaming";
+export const metaDescription = "5 KVM switches for gaming we evaluated, with a note that most KVM switches add a small amount of input lag, worth checking reviews specifically for.";
 export const mainKeyword = "kvm switch for gaming";
 export const introParagraphs = [
   "Most KVM switches add a small amount of input lag compared to a direct connection, worth checking reviews specifically for competitive-gaming-relevant lag reports before relying on one for ranked or latency-sensitive play, since even a few milliseconds can matter at a high level.",

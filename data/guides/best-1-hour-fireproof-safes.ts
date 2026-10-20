@@ -1,7 +1,7 @@
 export const guideSlug = "best-1-hour-fireproof-safes";
 export const guideTitle = "8 Best 1 Hour Fireproof Safes in 2026";
 export const metaTitle = "Best 1 Hour Fireproof Safes 2026";
-export const metaDescription = "We compared 1 hour fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 1 hour fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "1 hour fireproof safes";
 export const introParagraphs = [
   "A quick scan of 1 hour fireproof safes listings rarely settles the question of confirming both the exact duration and the test temperature together, so that's where we started.",
@@ -43,8 +43,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/612mey+zIsL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004QWZIMI?tag=deskfinds0d-20",
-    description: "At 0.61 cu ft this is genuinely larger than SentrySafe's compact chests, sized specifically to accommodate letter-size hanging files rather than just loose papers. It carries the same UL half-hour 1550°F classification and ETL digital-media verification as the brand's smaller boxes.\n\nThe flat key lock keeps the lid sealed during a fire event, and the black exterior gives it a more office-appropriate look than SentrySafe's colored chest options.",
-    specs: ["0.61 cu ft, fits letter-size hanging files","UL 1/2hr at 1550°F, ETL digital media verified","Flat key lock, 2 keys included"],
+    description: "At 0.61 cu ft this is genuinely larger than SentrySafe's compact chests, sized specifically to accommodate letter-size hanging files rather than just loose papers. It carries the same UL half-hour 1550 degreesF classification and ETL digital-media verification as the brand's smaller boxes.\n\nThe flat key lock keeps the lid sealed during a fire event, and the black exterior gives it a more office-appropriate look than SentrySafe's colored chest options.",
+    specs: ["0.61 cu ft, fits letter-size hanging files","UL 1/2hr at 1550 degreesF, ETL digital media verified","Flat key lock, 2 keys included"],
     pros: ["0.61 cu ft capacity genuinely fits letter-size hanging files","Same UL half-hour rating as smaller SentrySafe chests at more usable capacity","Flat key lock design specifically prevents lid pop-open during fire"],
     cons: ["Hanging files need to be purchased separately","Half-hour rating is the entry tier, shorter than SentrySafe's 1-hour models"],
     bestFor: "buyers prioritizing 0.61 cu ft, fits letter-size hanging files",
@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/413zQ2PYMHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B000GB3CBC?tag=deskfinds0d-20",
-    description: "First Alert documents this chest withstanding 1550°F for 30 minutes while staying genuinely waterproof enough to keep contents dry even fully submerged, addressing both hazards separately rather than a vague combined claim.\n\nAt 0.62 cu ft the interior is specifically sized for standard hanging file folders, and the clamp-style latch with key lock (2 keys included) gives a simple, reliable closure mechanism without batteries.",
-    specs: ["0.62 cu ft, fits standard hanging file folders","1550°F for 30 min, waterproof submersion tested","Clamp latch, key lock, 2 keys"],
+    description: "First Alert documents this chest withstanding 1550 degreesF for 30 minutes while staying genuinely waterproof enough to keep contents dry even fully submerged, addressing both hazards separately rather than a vague combined claim.\n\nAt 0.62 cu ft the interior is specifically sized for standard hanging file folders, and the clamp-style latch with key lock (2 keys included) gives a simple, reliable closure mechanism without batteries.",
+    specs: ["0.62 cu ft, fits standard hanging file folders","1550 degreesF for 30 min, waterproof submersion tested","Clamp latch, key lock, 2 keys"],
     pros: ["Waterproof rating specifically verified for full submersion","0.62 cu ft interior genuinely fits standard hanging file folders","Clamp-style key lock needs no batteries, simple and reliable"],
     cons: ["30-minute rating is the entry tier versus 1-hour and 2-hour safes","Key-only lock, no digital or combination backup"],
     bestFor: "buyers prioritizing 0.62 cu ft, fits standard hanging file folders",
@@ -91,8 +91,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41bga8Z6v2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FORBWW?tag=deskfinds0d-20",
-    description: "Built from strong ABS plastic rather than steel, this Honeywell chest is rated for 30 minutes at 1550°F and separately verified for 24-hour waterproofing to a full meter underwater, a genuinely deep submersion claim for a box this size.\n\nAt 0.15 cu ft interior it's sized specifically for folded letter documents, not flat files, and the carry handle makes it easy to grab in an emergency evacuation.",
-    specs: ["0.15 cu ft, fits folded letter documents","30-min UL rating at 1550°F","24hr waterproof to 1m submersion"],
+    description: "Built from strong ABS plastic rather than steel, this Honeywell chest is rated for 30 minutes at 1550 degreesF and separately verified for 24-hour waterproofing to a full meter underwater, a genuinely deep submersion claim for a box this size.\n\nAt 0.15 cu ft interior it's sized specifically for folded letter documents, not flat files, and the carry handle makes it easy to grab in an emergency evacuation.",
+    specs: ["0.15 cu ft, fits folded letter documents","30-min UL rating at 1550 degreesF","24hr waterproof to 1m submersion"],
     pros: ["24-hour waterproof rating to a full meter submersion is genuinely deep for a chest","ABS plastic construction keeps this lighter than steel alternatives","Carry handle makes grab-and-go evacuation genuinely practical"],
     cons: ["0.15 cu ft interior only fits folded, not flat, letter documents","Plastic construction offers less physical security than steel chests"],
     bestFor: "buyers prioritizing 0.15 cu ft, fits folded letter documents",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31tKYJCZ7GL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B004FORBX6?tag=deskfinds0d-20",
-    description: "This Honeywell chest documents a 30-minute UL rating at 1550°F alongside a genuinely long 100-hour waterproof seal verified to 39 inches submersion, longer duration than many comparable chests claim.\n\nThe interior is specifically sized to lay letter and A4 documents flat rather than folded, and the carry handle plus 0.24 cu ft capacity keep it in the portable-chest category for home, office, or dorm use.",
-    specs: ["0.24 cu ft, fits flat letter/A4 documents","30-min UL rating at 1550°F","100-hour waterproof seal to 39in submersion"],
+    description: "This Honeywell chest documents a 30-minute UL rating at 1550 degreesF alongside a genuinely long 100-hour waterproof seal verified to 39 inches submersion, longer duration than many comparable chests claim.\n\nThe interior is specifically sized to lay letter and A4 documents flat rather than folded, and the carry handle plus 0.24 cu ft capacity keep it in the portable-chest category for home, office, or dorm use.",
+    specs: ["0.24 cu ft, fits flat letter/A4 documents","30-min UL rating at 1550 degreesF","100-hour waterproof seal to 39in submersion"],
     pros: ["100-hour waterproof duration is notably longer than many comparable fire chests","Documents lie flat rather than requiring folding, protecting them from crease damage","Carry handle makes evacuation genuinely practical at this size"],
     cons: ["30-minute rating is the entry fire-protection tier","0.24 cu ft limits this to documents, not bulky valuables"],
     bestFor: "buyers prioritizing 0.24 cu ft, fits flat letter/a4 documents",
@@ -153,7 +153,7 @@ export const howToChoose: HowToChooseSection[] = [
   },
   {
     "subheading": "Check the Test Temperature, Not Just the Time",
-    "note": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700°F and 2-hour testing at 1850°F, meaningfully different heat exposure."
+    "note": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure."
   },
   {
     "subheading": "Verify What Contents the Rating Actually Covers",
@@ -176,7 +176,7 @@ export const buyingCriteria = [
   },
   {
     "criterion": "Check the Test Temperature, Not Just the Time",
-    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700°F and 2-hour testing at 1850°F, meaningfully different heat exposure."
+    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure."
   },
   {
     "criterion": "Verify What Contents the Rating Actually Covers",
@@ -199,7 +199,7 @@ export const faq = [
   },
   {
     "q": "How is a fire-duration rating actually tested?",
-    "a": "Independent labs place a loaded safe in a furnace at a specified temperature for the stated duration, then check that the interior stayed below the threshold that would damage paper (typically well under 350°F even when the exterior sees 1550-1850°F)."
+    "a": "Independent labs place a loaded safe in a furnace at a specified temperature for the stated duration, then check that the interior stayed below the threshold that would damage paper (typically well under 350 degreesF even when the exterior sees 1550-1850 degreesF)."
   },
   {
     "q": "What's the real difference between 'fireproof' and 'fire-resistant' safes?",
@@ -207,7 +207,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

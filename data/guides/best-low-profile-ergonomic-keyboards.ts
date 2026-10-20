@@ -1,8 +1,7 @@
 export const guideSlug = "best-low-profile-ergonomic-keyboards";
 export const guideTitle = "5 Best Low-Profile Ergonomic Keyboards in 2026";
-export const metaTitle = "Best Low-Profile Ergonomic Keyboards, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 low-profile ergonomic keyboards we evaluated, with the switch-height-versus-case-thickness distinction competitors skip: 'low-profile' can refer to switch height, overall case thickness, or both, and each affects typing feel differently.";
+export const metaTitle = "Best Low-Profile Ergonomic Keyboards";
+export const metaDescription = "5 low-profile ergonomic keyboards we evaluated, with the switch-height-versus-case-thickness distinction competitors skip: 'low-profile' can refer to switch.";
 export const mainKeyword = "low-profile ergonomic keyboard";
 export const introParagraphs = [
   "Low-profile mechanical switches, shorter travel distance, are a distinct category from standard-height mechanical switches, worth verifying whether 'low-profile' refers to switch height, overall keyboard case thickness, or both, since these are related but genuinely distinct specs.",

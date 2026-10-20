@@ -1,8 +1,7 @@
 export const guideSlug = "best-printers-under-200";
 export const guideTitle = "7 Best Printers Under $200 in 2026";
-export const metaTitle = "Best Printers Under $200 in 2026 (Verified Prices)";
-export const metaDescription =
-  "7 best printers under $200 in 2026, all verified current pricing. Compare inkjet all-in-ones against entry ink-tank models on duplex, ADF, and true cost per page.";
+export const metaTitle = "Best Printers Under $200 in 2026 (Verified";
+export const metaDescription = "7 best printers under $200 in 2026, all verified current pricing. Compare inkjet all-in-ones against entry ink-tank models on duplex, ADF,.";
 export const mainKeyword = "printers under $200";
 export const introParagraphs = [
   "At $200 you can finally choose between a well-specced inkjet all-in-one and an entry-level ink-tank printer, a real tradeoff between upfront price, print speed, and long-run ink cost that lower price tiers don't offer. Duplex printing and an automatic document feeder start showing up more often here too, though still not on every model.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-small-air-purifiers";
 export const guideTitle = "5 Best Small Air Purifiers in 2026";
-export const metaTitle = "Best Small Air Purifiers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 small air purifiers we evaluated, with the CADR-per-square-foot tradeoff competitors skip: a small footprint often means a smaller fan and filter surface, meaning genuinely lower CADR than its size alone would suggest.";
+export const metaTitle = "Best Small Air Purifiers";
+export const metaDescription = "5 small air purifiers we evaluated, with the CADR-per-square-foot tradeoff competitors skip: a small footprint often means a smaller fan and filter surface,.";
 export const mainKeyword = "small air purifier";
 export const introParagraphs = [
   "A small footprint often comes with a smaller fan and less filter surface area, meaning a genuinely lower CADR (Clean Air Delivery Rate) than the compact size alone would suggest, worth checking the actual coverage rating rather than assuming small equals sufficient.",

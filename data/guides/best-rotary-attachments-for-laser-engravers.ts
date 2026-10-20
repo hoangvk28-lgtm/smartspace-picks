@@ -1,6 +1,6 @@
 export const guideSlug = "best-rotary-attachments-for-laser-engravers";
 export const guideTitle = "6 Best Rotary Attachments for Laser Engravers in 2026";
-export const metaTitle = "Best Rotary Attachments for Laser Engravers in 2026";
+export const metaTitle = "Best Rotary Attachments for Laser Engravers in";
 export const metaDescription = "We compared best rotary attachments for laser engravers by verified specs and real use-case fit rather than ranking by marketing claims alone.";
 export const mainKeyword = "rotary attachments for laser engravers";
 export const introParagraphs = [
@@ -27,7 +27,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41DStjZxsuL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0G7FSVXYF?tag=deskfinds0d-20",
-    description: "ACMER M4 Laser Rotary Roller punches above its price tier. Designed for smooth y-axis rotary motion, the acmer m4 laser rotary roller attachment enables precise 360° engraving on cylindrical and round objects such as bottles, cups, tumblers, pens, rings, and tubes. Flexible rotary roller spacing supports a wide diameter range from small rings to large cylindrical items, providing stable and consistent results for laser rotary engraving projects.\n\nOn top of that, This laser engraver rotary attachment comes 100% pre-assembled, simply connect it to the y-axis port of your laser engraver and start engraving cylindrical objects with no complex setup. Built with high-friction rubber rollers and a rigid aluminum frame, this rotary roller for laser engraver ensures strong grip, reduced slipping, and accurate engraving on long or heavy cylindrical materials. A genuinely strong contender once you look past the headline spec.",
+    description: "ACMER M4 Laser Rotary Roller punches above its price tier. Designed for smooth y-axis rotary motion, the acmer m4 laser rotary roller attachment enables precise 360 degrees engraving on cylindrical and round objects such as bottles, cups, tumblers, pens, rings, and tubes. Flexible rotary roller spacing supports a wide diameter range from small rings to large cylindrical items, providing stable and consistent results for laser rotary engraving projects.\n\nOn top of that, This laser engraver rotary attachment comes 100% pre-assembled, simply connect it to the y-axis port of your laser engraver and start engraving cylindrical objects with no complex setup. Built with high-friction rubber rollers and a rigid aluminum frame, this rotary roller for laser engraver ensures strong grip, reduced slipping, and accurate engraving on long or heavy cylindrical materials. A genuinely strong contender once you look past the headline spec.",
     specs: ["Designed for smooth y-axis rotary motion, the acmer m4 laser rotary", "Flexible rotary roller spacing supports a wide diameter range from small", "Laser engraver rotary attachment comes 100% pre-assembled, simply connect it"],
     pros: ["Designed for smooth y-axis rotary motion, the acmer m4 laser rotary", "Flexible rotary roller spacing supports a wide diameter range from small", "Laser engraver rotary attachment comes 100% pre-assembled, simply connect it"],
     cons: ["Double-check wattage and cutting depth before buying", "Software workflow varies, confirm it matches your setup"],

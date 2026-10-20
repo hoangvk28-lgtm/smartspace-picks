@@ -1,8 +1,7 @@
 export const guideSlug = "best-kvm-switches-for-two-computers";
 export const guideTitle = "5 Best KVM Switches for Two Computers in 2026";
-export const metaTitle = "Best KVM Switches for Two Computers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 KVM switches for two computers we evaluated, with a note that switching methods vary, hotkey combinations can occasionally conflict with an app's own keyboard shortcuts.";
+export const metaTitle = "Best KVM Switches for Two Computers";
+export const metaDescription = "5 KVM switches for two computers we evaluated, with a note that switching methods vary, hotkey combinations can occasionally conflict with an app's own.";
 export const mainKeyword = "kvm switch for two computers";
 export const introParagraphs = [
   "Switching methods vary between models, hotkey combinations can occasionally conflict with a specific application's own keyboard shortcuts, worth checking whether a switch offers an alternative physical button or auto-detect method if hotkey conflicts become a problem in your workflow.",

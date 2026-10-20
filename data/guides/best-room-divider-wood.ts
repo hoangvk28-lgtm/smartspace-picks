@@ -1,6 +1,6 @@
 export const guideSlug = "best-room-divider-wood";
 export const guideTitle = "8 Best Wood Room Dividers in 2026";
-export const metaTitle = "Best Wood Room Dividers in 2026 (Shoji, Bamboo & Carved)";
+export const metaTitle = "Best Wood Room Dividers in 2026 (Shoji, Bamboo";
 export const metaDescription =
   "8 best wood room dividers in 2026, from Japanese shoji screens to a hand-carved mango wood panel. Compare wood type, weight, and privacy for your space.";
 export const mainKeyword = "room divider wood";
@@ -280,7 +280,7 @@ export const products: GuideProduct[] = [
       "104\"W x 70.9\"H, 6 panels",
       "Pine wood + non-woven fabric",
       "Widest wood shoji pick in this list",
-      "Stainless steel 180° hinges",
+      "Stainless steel 180 degrees hinges",
       "No assembly",
     ],
     pros: [

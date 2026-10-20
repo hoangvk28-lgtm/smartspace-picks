@@ -1,7 +1,7 @@
 export const guideSlug = "best-combination-fireproof-safes";
 export const guideTitle = "8 Best Combination Fireproof Safes in 2026";
 export const metaTitle = "Best Combination Fireproof Safes 2026";
-export const metaDescription = "We compared combination fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared combination fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "combination fireproof safes";
 export const introParagraphs = [
   "combination fireproof safes products vary enough that weighing dial reliability against the convenience of a digital keypad matters more than brand name alone.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31+ZaOADbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ83PN3G?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 2 hours at 1850°F, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
-    specs: ["2.0 cu ft, UL 2hr at 1850°F","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
-    pros: ["2-hour UL rating at 1850°F is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
+    description: "This is genuinely UL classified for 2 hours at 1850 degreesF, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
+    specs: ["2.0 cu ft, UL 2hr at 1850 degreesF","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
+    pros: ["2-hour UL rating at 1850 degreesF is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
     cons: ["Substantial size and weight require dedicated floor space and bolt-down installation","Digital lock needs battery maintenance to stay reliable"],
-    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850°f",
+    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf",
   },
   {
     id: "best-combination-fireproof-safes-2",
@@ -43,9 +43,9 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51nPPyA9QPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B08D6JLTXJ?tag=deskfinds0d-20",
-    description: "This is a soft-sided fireproof organizer, not a rigid steel chest, built from double-layered silicone-coated fiberglass rated to withstand up to 2000°F and passing the UL94-V0/5VA flame retardant test, a genuinely high temperature figure for a fabric-based product.\n\nA combination lock secures the zippers, and the 15.55\"x12.2\"x10\" size fits both letter and legal files alongside CDs, USBs, and passports. It collapses flat for storage when not in use, a real space-saving advantage over a rigid box.",
-    specs: ["15.55\"x12.2\"x10\", fits letter and legal files","2000°F rated, UL94-V0/5VA flame retardant tested","Combination lock, collapsible design"],
-    pros: ["2000°F rating is notably high for a soft-sided fireproof organizer","Collapses flat for storage","Reflective strip helps locate the bag quickly in a dark or smoke-filled room"],
+    description: "This is a soft-sided fireproof organizer, not a rigid steel chest, built from double-layered silicone-coated fiberglass rated to withstand up to 2000 degreesF and passing the UL94-V0/5VA flame retardant test, a genuinely high temperature figure for a fabric-based product.\n\nA combination lock secures the zippers, and the 15.55\"x12.2\"x10\" size fits both letter and legal files alongside CDs, USBs, and passports. It collapses flat for storage when not in use, a real space-saving advantage over a rigid box.",
+    specs: ["15.55\"x12.2\"x10\", fits letter and legal files","2000 degreesF rated, UL94-V0/5VA flame retardant tested","Combination lock, collapsible design"],
+    pros: ["2000 degreesF rating is notably high for a soft-sided fireproof organizer","Collapses flat for storage","Reflective strip helps locate the bag quickly in a dark or smoke-filled room"],
     cons: ["Soft-sided fiberglass construction offers less physical security than a steel safe","Combination lock only, no key backup mentioned"],
     bestFor: "buyers prioritizing 15.55\"x12.2\"x10\", fits letter and legal files",
   },
@@ -69,14 +69,14 @@ export const products: GuideProduct[] = [
     id: "best-combination-fireproof-safes-4",
     rank: 4,
     badge: "Strong Alternative",
-    name: "DocSafe 5200°F Fireproof Document Organizer",
+    name: "DocSafe 5200 degreesF Fireproof Document Organizer",
     price: "$31.33",
     rating: null,
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51xzFNOAeLL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CRR524VK?tag=deskfinds0d-20",
-    description: "This organizer's headline claim is a genuinely high 5200°F temperature tolerance across 8 fireproof layers including an aluminum foil lining that resists melting at high heat, a notably aggressive spec for a soft-sided product.\n\nThe 15\"x11\"x4.1\" interior uses a multi-layer design with 8 passport mesh bags, 16 card slots, 4 USB pockets, and 7 folder layers, and a combination lock secures the waterproof-zippered exterior without requiring keys.",
-    specs: ["15\"x11\"x4.1\", 8 fireproof layers","Rated to ~5200°F with aluminum foil lining","Combination lock, waterproof zippers"],
+    description: "This organizer's headline claim is a genuinely high 5200 degreesF temperature tolerance across 8 fireproof layers including an aluminum foil lining that resists melting at high heat, a notably aggressive spec for a soft-sided product.\n\nThe 15\"x11\"x4.1\" interior uses a multi-layer design with 8 passport mesh bags, 16 card slots, 4 USB pockets, and 7 folder layers, and a combination lock secures the waterproof-zippered exterior without requiring keys.",
+    specs: ["15\"x11\"x4.1\", 8 fireproof layers","Rated to ~5200 degreesF with aluminum foil lining","Combination lock, waterproof zippers"],
     pros: ["8-layer construction with aluminum foil lining gives a genuinely high stated temperature tolerance","Highly organized interior (8 passport pockets, 16 card slots, 7 folder layers) beats","Waterproof zippers rated to withstand high-speed fire hose spray"],
     cons: ["Soft-sided organizer, not a rigid steel safe, offers no forced-entry resistance","Extreme temperature claim should be weighed against independently UL-classified competitors"],
     bestFor: "buyers prioritizing 15\"x11\"x4.1\", 8 fireproof layers",
@@ -224,7 +224,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

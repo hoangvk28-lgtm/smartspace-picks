@@ -1,8 +1,7 @@
 export const guideSlug = "best-multi-device-ergonomic-keyboards";
 export const guideTitle = "5 Best Multi-Device Ergonomic Keyboards in 2026";
-export const metaTitle = "Best Multi-Device Ergonomic Keyboards, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 multi-device ergonomic keyboards we evaluated, with the OS-layout-auto-switching check competitors skip: switching to a different paired device running a different OS should ideally adjust the keyboard's active layout mapping, a genuinely advanced feature worth verifying.";
+export const metaTitle = "Best Multi-Device Ergonomic Keyboards";
+export const metaDescription = "5 multi-device ergonomic keyboards we evaluated, with the OS-layout-auto-switching check competitors skip: switching to a different paired device running a.";
 export const mainKeyword = "multi-device ergonomic keyboard";
 export const introParagraphs = [
   "This overlaps with multi-device vertical mouse research, worth applying similar verification, pairing slot count, switching mechanism reliability, cross-platform behavior, specifically to keyboards rather than assuming keyboard-specific behavior differs fundamentally.",

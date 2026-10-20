@@ -1,8 +1,7 @@
 export const guideSlug = "best-high-speed-document-scanners";
 export const guideTitle = "8 Best High-Speed Document Scanners in 2026";
-export const metaTitle = "Best High-Speed Document Scanners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for real high-speed throughput, with a note that manufacturer ppm claims are tested at low-DPI black-and-white simplex, not the 300 DPI color duplex most buyers actually use.";
+export const metaTitle = "Best High-Speed Document Scanners";
+export const metaDescription = "8 scanners we evaluated for real high-speed throughput, with a note that manufacturer ppm claims are tested at low-DPI black-and-white simplex,.";
 export const mainKeyword = "high-speed document scanner";
 export const introParagraphs = [
   "Manufacturer speed claims like '45 ppm' are typically measured at 200 DPI black-and-white simplex on letter-size paper. Switching to 300 DPI color duplex, standard for archival-quality scanning, can reduce real throughput by 30-50%, a discrepancy almost no roundup discloses. We flag each pick's actual duplex/color capability rather than repeating the headline number.",

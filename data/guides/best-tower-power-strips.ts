@@ -1,8 +1,7 @@
 export const guideSlug = "best-tower-power-strips";
 export const guideTitle = "5 Best High-Outlet Power Strips for Tower-Style Needs in 2026";
-export const metaTitle = "Best High-Outlet Power Strips for Tower-Style Needs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 high-outlet-count power strips we evaluated for buyers considering a vertical tower design, with the tip-over risk competitors rarely stress-test against a realistic fully-loaded cable scenario.";
+export const metaTitle = "Best High-Outlet Power Strips for Tower-Style";
+export const metaDescription = "5 high-outlet-count power strips we evaluated for buyers considering a vertical tower design, with the tip-over risk competitors rarely stress-test against a.";
 export const mainKeyword = "tower power strip";
 export const introParagraphs = [
   "Vertical tower power strips have a genuine tip-over risk that scales with cord weight and pull from many simultaneously plugged-in devices, a tall, narrow tower with 10+ outlets fully loaded with cables pulling in various directions has a real stability concern a wide, low-profile strip doesn't share.",

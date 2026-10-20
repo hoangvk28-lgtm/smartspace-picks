@@ -1,8 +1,7 @@
 export const guideSlug = "best-dual-laptop-screen-extenders";
 export const guideTitle = "5 Best Dual Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Dual Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 dual laptop screen extenders we evaluated, with the single-versus-two-panel clarification competitors skip: 'dual' can mean one extra screen making a dual-monitor setup, or a genuinely two-panel extender kit, and buyers should verify which before ordering.";
+export const metaTitle = "Best Dual Laptop Screen Extenders";
+export const metaDescription = "5 dual laptop screen extenders we evaluated, with the single-versus-two-panel clarification competitors skip: 'dual' can mean one extra screen making a.";
 export const mainKeyword = "dual laptop screen extender";
 export const introParagraphs = [
   "'Dual' is genuinely ambiguous in this category, it can mean a single extra screen that makes your laptop plus extender a dual-monitor setup, or a genuinely two-panel extender kit adding two additional screens, worth verifying which before ordering.",

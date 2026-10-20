@@ -1,8 +1,7 @@
 export const guideSlug = "best-foldable-desk-privacy-panels";
 export const guideTitle = "5 Best Foldable Desk Privacy Panels in 2026";
-export const metaTitle = "Best Foldable Desk Privacy Panels, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 foldable desk privacy panels we evaluated, with the stability tradeoff competitors skip: foldable panels are easier to store but generally less rigid than a clamp-mounted panel under daily bumping.";
+export const metaTitle = "Best Foldable Desk Privacy Panels";
+export const metaDescription = "5 foldable desk privacy panels we evaluated, with the stability tradeoff competitors skip: foldable panels are easier to store but generally less rigid than a.";
 export const mainKeyword = "foldable desk privacy panel";
 export const introParagraphs = [
   "Foldable privacy panels fold flat for easy storage or transport, a genuine advantage over a fixed clamp-on panel, but the tradeoff is generally less rigidity, a foldable panel can wobble or shift under daily bumping in a way a mechanically clamped panel won't.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-outlet-surge-protectors";
 export const guideTitle = "5 Best Outlet Surge Protectors in 2026";
-export const metaTitle = "Best Outlet Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 plug-in outlet surge protectors we evaluated, with the ambiguity competitors skip: 'outlet surge protector' could mean a plug-in strip or a professionally-installed in-wall receptacle, genuinely different products with different scopes of protection.";
+export const metaTitle = "Best Outlet Surge Protectors";
+export const metaDescription = "5 plug-in outlet surge protectors we evaluated, with the ambiguity competitors skip: 'outlet surge protector' could mean a plug-in strip or a.";
 export const mainKeyword = "outlet surge protector";
 export const introParagraphs = [
   "This title is generically ambiguous between wall-outlet-replacement devices (in-wall surge protection receptacles installed by an electrician) and plug-in surge protector strips, this guide covers plug-in strips specifically, since that's the most common consumer product in this category.",

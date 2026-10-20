@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protectors-for-gaming-pcs";
 export const guideTitle = "5 Best Surge Protectors for Gaming PCs in 2026";
-export const metaTitle = "Best Surge Protectors for Gaming PCs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors we evaluated for gaming PCs, with the calculation competitors rarely perform: high-wattage gaming PC power supplies draw close to what a standard 15A circuit can safely deliver combined with monitors and peripherals.";
+export const metaTitle = "Best Surge Protectors for Gaming PCs";
+export const metaDescription = "5 surge protectors we evaluated for gaming PCs, with the calculation competitors rarely perform: high-wattage gaming PC power supplies draw close to what a.";
 export const mainKeyword = "best surge protector for gaming PC";
 export const introParagraphs = [
   "High-wattage gaming PC power supplies, 750W-1200W+, draw close to what a standard 15A circuit and surge protector can safely deliver when combined with high-refresh monitors and peripherals, a total-load calculation worth performing for this specific high-draw use case.",

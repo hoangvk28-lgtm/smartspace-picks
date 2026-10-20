@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-monitors-with-power-delivery";
 export const guideTitle = "5 Best USB-C Monitors with Power Delivery in 2026";
-export const metaTitle = "Best USB-C Monitors with Power Delivery, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C monitors with power delivery we evaluated, focused on matching actual PD wattage to your laptop's charging requirement, since a 65W monitor won't fully charge a 90W gaming laptop.";
+export const metaTitle = "Best USB-C Monitors with Power Delivery";
+export const metaDescription = "5 USB-C monitors with power delivery we evaluated, focused on matching actual PD wattage to your laptop's charging requirement,.";
 export const mainKeyword = "usb-c monitor with power delivery";
 export const introParagraphs = [
   "Matching the monitor's actual power delivery wattage to your laptop's charging requirement is the single most important spec here, since a 65W-rated monitor won't fully charge a 90W or higher gaming or workstation laptop even while displaying video correctly.",

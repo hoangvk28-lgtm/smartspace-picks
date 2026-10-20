@@ -1,8 +1,7 @@
 export const guideSlug = "best-business-card-scanners";
 export const guideTitle = "8 Best Business Card Scanners in 2026";
-export const metaTitle = "Best Business Card Scanners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for business cards, with an honest note that OCR accuracy drops significantly on stylized fonts, dark/foil cards, and non-standard sizes most reviews test only on plain white samples.";
+export const metaTitle = "Best Business Card Scanners";
+export const metaDescription = "8 scanners we evaluated for business cards, with an honest note that OCR accuracy drops significantly on stylized fonts, dark/foil cards,.";
 export const mainKeyword = "business card scanner";
 export const introParagraphs = [
   "Card OCR accuracy drops significantly on stylized fonts, low-contrast printing, and dark or foil-accented cards common in premium designs, standard OCR trained on document text struggles here, a gap untested in reviews using only plain white-background sample cards.",

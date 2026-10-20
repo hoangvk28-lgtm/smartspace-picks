@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protector-power-strips";
 export const guideTitle = "6 Best Surge Protector Power Strips in 2026";
-export const metaTitle = "Best Surge Protector Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 surge protector power strips we evaluated, with the mechanism competitors almost never explain: joule rating is a cumulative lifetime capacity, not a per-surge rating, and MOV components degrade with each surge absorbed.";
+export const metaTitle = "Best Surge Protector Power Strips";
+export const metaDescription = "6 surge protector power strips we evaluated, with the mechanism competitors almost never explain: joule rating is a cumulative lifetime capacity,.";
 export const mainKeyword = "best surge protector power strip";
 export const introParagraphs = [
   "Joule rating is a cumulative lifetime capacity, not a per-surge rating, MOV (metal oxide varistor) components degrade with each surge absorbed, silently, with no way to know remaining capacity without a specific diagnostic, a 2000-joule surge protector that has absorbed several moderate surges may have meaningfully less remaining protective capacity than its rating suggests.",

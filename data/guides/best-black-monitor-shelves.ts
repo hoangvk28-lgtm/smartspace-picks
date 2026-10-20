@@ -1,8 +1,7 @@
 export const guideSlug = "best-black-monitor-shelves";
 export const guideTitle = "5 Best Black Monitor Shelves in 2026";
-export const metaTitle = "Best Black Monitor Shelves, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 black monitor shelves we evaluated, with the finish-durability angle competitors skip: matte versus glossy black shows dust and fingerprints very differently, and dark finishes can reveal scratches more visibly than lighter colors.";
+export const metaTitle = "Best Black Monitor Shelves";
+export const metaDescription = "5 black monitor shelves we evaluated, with the finish-durability angle competitors skip: matte versus glossy black shows dust and fingerprints very.";
 export const mainKeyword = "black monitor shelf";
 export const introParagraphs = [
   "Color choice should be evaluated for whether it's purely a coating or finish over the same base material and construction covered in material-specific research, worth cross-referencing rather than treating 'black' as its own structural product category.",

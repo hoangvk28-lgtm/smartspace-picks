@@ -1,6 +1,6 @@
 export const guideSlug = "best-small-office-pods";
 export const guideTitle = "2 Best Small Office Pods in 2026";
-export const metaTitle = "Best Small Office Pods (2026)";
+export const metaTitle = "Best Small Office Pods";
 export const metaDescription =
   "2 small-footprint office pods we evaluated with actual dimensions where disclosed, cross-referenced against our mini and one-person pod guides.";
 export const mainKeyword = "small office pods";

@@ -1,8 +1,7 @@
 export const guideSlug = "best-smart-surge-protectors";
 export const guideTitle = "5 Best Smart Surge Protectors in 2026";
-export const metaTitle = "Best Smart Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 smart surge protectors we evaluated, with the capability gap competitors blur: most 'smart surge protectors' only add smart control to the AC outlets without adding any actual smart diagnostics about the surge protection circuitry itself.";
+export const metaTitle = "Best Smart Surge Protectors";
+export const metaDescription = "5 smart surge protectors we evaluated, with the capability gap competitors blur: most 'smart surge protectors' only add smart control to the AC outlets without.";
 export const mainKeyword = "smart surge protector";
 export const introParagraphs = [
   "Most smart surge protectors on the market actually only add smart control to the AC outlets, on/off scheduling and voice control, without adding any actual smart diagnostics about the surge protection circuitry itself, a meaningful capability gap between smart outlet control and smart surge protection monitoring.",

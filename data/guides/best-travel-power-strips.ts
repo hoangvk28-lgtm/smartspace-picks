@@ -1,8 +1,7 @@
 export const guideSlug = "best-travel-power-strips";
 export const guideTitle = "5 Best Travel Power Strips in 2026";
-export const metaTitle = "Best Travel Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 travel power strips we evaluated, with the safety point competitors bury: most travel power strips are 120V-only and are not voltage converters, using one internationally on a 230V circuit can damage your electronics.";
+export const metaTitle = "Best Travel Power Strips";
+export const metaDescription = "5 travel power strips we evaluated, with the safety point competitors bury: most travel power strips are 120V-only and are not voltage converters,.";
 export const mainKeyword = "travel power strip";
 export const introParagraphs = [
   "Most travel power strips are 120V-only (US-market) and are not voltage converters, using one internationally requires understanding this distinction clearly, plugging a 120V-only strip into a 230V outlet abroad, even via a simple plug-shape adapter, can damage the strip or connected devices.",

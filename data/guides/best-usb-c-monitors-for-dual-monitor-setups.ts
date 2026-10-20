@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-monitors-for-dual-monitor-setups";
 export const guideTitle = "5 Best USB-C Monitors for Dual-Monitor Setups in 2026";
-export const metaTitle = "Best USB-C Monitors for Dual-Monitor Setups, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C monitors we evaluated for dual-monitor setups, with a note that only one monitor in the pair typically needs power delivery capability, the second can often connect via a simpler standard cable.";
+export const metaTitle = "Best USB-C Monitors for Dual-Monitor Setups";
+export const metaDescription = "5 USB-C monitors we evaluated for dual-monitor setups, with a note that only one monitor in the pair typically needs power delivery capability,.";
 export const mainKeyword = "usb-c monitor for dual monitor setup";
 export const introParagraphs = [
   "Only one monitor in a dual-monitor pair typically needs power delivery capability if your laptop only has one USB-C port available for the setup, the second monitor can often connect via a simpler standard HDMI or DisplayPort cable from the first monitor's pass-through port.",

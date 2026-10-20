@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-under-100";
 export const guideTitle = "8 Best Paper Shredders Under $100 in 2026";
-export const metaTitle = "Best Paper Shredders Under $100, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders under $100, with an honest security-level ceiling disclosure: sub-$100 shredders are almost universally P-3 to P-4, buyers needing higher security won't find it reliably at this price.";
+export const metaTitle = "Best Paper Shredders Under $100";
+export const metaDescription = "8 shredders under $100, with an honest security-level ceiling disclosure: sub-$100 shredders are almost universally P-3 to P-4,.";
 export const mainKeyword = "paper shredder under 100";
 export const introParagraphs = [
   "Sub-$100 shredders sit almost universally at P-3 to P-4 security, a real ceiling worth knowing upfront if your documents need higher-security destruction. Duty cycle at this price point is also the shortest in the category, often 3-9 minutes with 30-40 minute cooldowns, plan for that if you're purging a large document backlog.",

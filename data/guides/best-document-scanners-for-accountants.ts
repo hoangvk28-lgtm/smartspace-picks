@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-accountants";
 export const guideTitle = "6 Best Document Scanners for Accountants in 2026";
-export const metaTitle = "Best Document Scanners for Accountants, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 scanners we evaluated for accounting workflows, with a note that tax-season volume spikes require duty cycle headroom far above average monthly use, a seasonality factor generic speed comparisons ignore.";
+export const metaTitle = "Best Document Scanners for Accountants";
+export const metaDescription = "6 scanners we evaluated for accounting workflows, with a note that tax-season volume spikes require duty cycle headroom far above average monthly use,.";
 export const mainKeyword = "document scanner for accountants";
 export const introParagraphs = [
   "Accountants may scan at 3-5x their average monthly volume during a concentrated tax season window; a scanner sized for average use can hit duty cycle strain precisely when reliability matters most. We factor this seasonality into our picks rather than sizing against average-month volume alone.",

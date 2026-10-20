@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-for-credit-cards";
 export const guideTitle = "8 Best Paper Shredders for Credit Cards in 2026";
-export const metaTitle = "Best Paper Shredders for Credit Cards, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders we evaluated for credit card destruction, with a note that P-4 micro-cut particle size actually matters for chip security, not just whether a card slot exists.";
+export const metaTitle = "Best Paper Shredders for Credit Cards";
+export const metaDescription = "8 shredders we evaluated for credit card destruction, with a note that P-4 micro-cut particle size actually matters for chip security,.";
 export const mainKeyword = "paper shredder for credit cards";
 export const introParagraphs = [
   "Not all shredders with a card slot achieve the same destruction security for an embedded chip. A basic cross-cut may render a card visually unreadable while leaving chip fragments large enough to theoretically extract data; genuine security needs cross-cut or micro-cut at a sufficiently fine particle size. We prioritize P-4-rated picks below and note particle dimensions where disclosed.",

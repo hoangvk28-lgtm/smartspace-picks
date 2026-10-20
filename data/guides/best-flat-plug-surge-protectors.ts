@@ -1,8 +1,7 @@
 export const guideSlug = "best-flat-plug-surge-protectors";
 export const guideTitle = "5 Best Flat-Plug Surge Protectors in 2026";
-export const metaTitle = "Best Flat-Plug Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 flat-plug surge protectors we evaluated, with the compounded risk competitors skip: the exact behind-furniture placement flat plugs are marketed for is also the placement that hides the surge protection status indicator most effectively.";
+export const metaTitle = "Best Flat-Plug Surge Protectors";
+export const metaDescription = "5 flat-plug surge protectors we evaluated, with the compounded risk competitors skip: the exact behind-furniture placement flat plugs are marketed for is also.";
 export const mainKeyword = "surge protector with flat plug";
 export const introParagraphs = [
   "A flat-plug design's compact profile shouldn't be assumed to correlate with reduced joule rating, but this needs explicit verification for the surge-protector category specifically, since MOV components take up internal space a slim housing may or may not accommodate at the same capacity.",

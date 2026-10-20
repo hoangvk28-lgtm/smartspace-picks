@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-searchable-pdfs";
 export const guideTitle = "7 Best Document Scanners for Searchable PDFs in 2026";
-export const metaTitle = "Best Document Scanners for Searchable PDFs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 scanners for searchable PDF creation, with an honest dependency disclosure: a searchable PDF's usefulness is bounded entirely by the underlying OCR accuracy, not a separately solved feature.";
+export const metaTitle = "Best Document Scanners for Searchable PDFs";
+export const metaDescription = "7 scanners for searchable PDF creation, with an honest dependency disclosure: a searchable PDF's usefulness is bounded entirely by the underlying OCR accuracy,.";
 export const mainKeyword = "document scanner for searchable PDF";
 export const introParagraphs = [
   "A searchable PDF is an image with an invisible OCR text layer overlaid, its search reliability is only as good as the underlying OCR accuracy. Marketing treats searchable PDF as a solved capability without disclosing that poor OCR on the source scan directly produces unreliable search results, we test the two together rather than as separate features.",

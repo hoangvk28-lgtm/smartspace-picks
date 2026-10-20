@@ -1,8 +1,7 @@
 export const guideSlug = "best-ups-battery-backups-for-multiple-monitors";
 export const guideTitle = "6 Best UPS Battery Backups for Multiple Monitors in 2026";
-export const metaTitle = "Best UPS Battery Backups for Multiple Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 UPS units we evaluated for multi-monitor desk setups, with the outlet-count and real-wattage math competitors skip: each additional monitor adds meaningful draw, and outlet count matters as much as capacity for a 2-3 monitor setup.";
+export const metaTitle = "Best UPS Battery Backups for Multiple Monitors";
+export const metaDescription = "6 UPS units we evaluated for multi-monitor desk setups, with the outlet-count and real-wattage math competitors skip: each additional monitor adds meaningful.";
 export const mainKeyword = "UPS battery backup for multiple monitors";
 export const introParagraphs = [
   "Each additional monitor in a multi-monitor setup adds meaningful real wattage draw, typically 20-40W per monitor depending on size and panel type, a two or three-monitor setup can push combined draw well past what a basic single-monitor UPS was sized for.",

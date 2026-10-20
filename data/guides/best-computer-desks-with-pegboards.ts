@@ -1,8 +1,7 @@
 export const guideSlug = "best-computer-desks-with-pegboards";
 export const guideTitle = "5 Best Computer Desks with Pegboards in 2026";
-export const metaTitle = "Best Computer Desks with Pegboards, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 computer desks with integrated pegboards we evaluated, with the SERP-intent clarification competitors skip: this keyword represents complete desk products, not standalone pegboard accessories, and the desk's own quality deserves full evaluation.";
+export const metaTitle = "Best Computer Desks with Pegboards";
+export const metaDescription = "5 computer desks with integrated pegboards we evaluated, with the SERP-intent clarification competitors skip: this keyword represents complete desk products,.";
 export const mainKeyword = "computer desk with pegboard";
 export const introParagraphs = [
   "This keyword represents integrated desk products, a desk with a built-in pegboard back panel, rather than a separate pegboard accessory, worth verifying actual product category since buyers searching this term likely want a complete desk, not just an organizer.",

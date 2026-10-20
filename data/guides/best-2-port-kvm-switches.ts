@@ -1,8 +1,7 @@
 export const guideSlug = "best-2-port-kvm-switches";
 export const guideTitle = "5 Best 2-Port KVM Switches in 2026";
-export const metaTitle = "Best 2-Port KVM Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 2-port KVM switches we evaluated, with a note that a 2-port switch is the simplest and most affordable KVM category, but check EDID emulation before assuming lower price means lower quality is acceptable.";
+export const metaTitle = "Best 2-Port KVM Switches";
+export const metaDescription = "5 2-port KVM switches we evaluated, with a note that a 2-port switch is the simplest and most affordable KVM category, but check EDID emulation before assuming.";
 export const mainKeyword = "2 port kvm switch";
 export const introParagraphs = [
   "A 2-port switch is the simplest and most affordable KVM category, but don't assume lower price automatically means acceptable quality compromises, check EDID emulation and USB peripheral scope specifically rather than assuming a basic 2-port design cuts these corners.",

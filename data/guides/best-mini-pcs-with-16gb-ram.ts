@@ -1,8 +1,7 @@
 export const guideSlug = "best-mini-pcs-with-16gb-ram";
 export const guideTitle = "5 Best Mini PCs with 16GB RAM in 2026";
-export const metaTitle = "Best Mini PCs with 16GB RAM, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 mini PCs with 16GB RAM we evaluated, a genuinely solid everyday productivity tier for web browsing, office work, and moderate multitasking without overpaying for RAM you won't use.";
+export const metaTitle = "Best Mini PCs with 16GB RAM";
+export const metaDescription = "5 mini PCs with 16GB RAM we evaluated, a genuinely solid everyday productivity tier for web browsing, office work, and moderate multitasking without overpaying.";
 export const mainKeyword = "mini pc with 16gb ram";
 export const introParagraphs = [
   "16GB RAM is a genuinely solid tier for everyday productivity like web browsing with many tabs open, office work, and moderate multitasking, worth recognizing this covers the vast majority of common use cases without needing to overpay for 32GB or 64GB most buyers won't actually use.",

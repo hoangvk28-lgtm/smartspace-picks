@@ -1,8 +1,7 @@
 export const guideSlug = "best-desk-mounted-power-strips";
 export const guideTitle = "5 Best Desk-Mounted Power Strips in 2026";
-export const metaTitle = "Best Desk-Mounted Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 desk-mounted power strips we evaluated, with the mounting-method tradeoff competitors treat as interchangeable: screw, adhesive, and clamp mounts have fundamentally different desk-damage and rental-friendliness implications.";
+export const metaTitle = "Best Desk-Mounted Power Strips";
+export const metaDescription = "5 desk-mounted power strips we evaluated, with the mounting-method tradeoff competitors treat as interchangeable: screw, adhesive,.";
 export const mainKeyword = "desk mount power strip";
 export const introParagraphs = [
   "Mounting method (screw-in vs. adhesive vs. clamp) has fundamentally different desk-damage and rental-friendliness implications. Screw-mounted strips require permanent holes, adhesive mounts can damage finishes on removal, and clamp mounts are damage-free but bulkier, these are genuinely different tradeoffs, not interchangeable options.",

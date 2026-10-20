@@ -1,8 +1,7 @@
 export const guideSlug = "best-thunderbolt-kvm-switches";
 export const guideTitle = "5 Best Thunderbolt KVM Switches in 2026";
-export const metaTitle = "Best Thunderbolt KVM Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 Thunderbolt KVM switches we evaluated, with a note that Thunderbolt ports look identical to USB-C but only work at full speed with a genuinely Thunderbolt-certified cable and laptop port.";
+export const metaTitle = "Best Thunderbolt KVM Switches";
+export const metaDescription = "5 Thunderbolt KVM switches we evaluated, with a note that Thunderbolt ports look identical to USB-C but only work at full speed with a genuinely.";
 export const mainKeyword = "thunderbolt kvm switch";
 export const introParagraphs = [
   "Thunderbolt ports look physically identical to standard USB-C ports, but a switch only performs at full Thunderbolt speed with a genuinely Thunderbolt-certified cable and a laptop port that actually supports the Thunderbolt protocol, not just USB-C's base data and power spec.",

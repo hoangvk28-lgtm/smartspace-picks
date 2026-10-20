@@ -1,8 +1,7 @@
 export const guideSlug = "best-weatherproof-outdoor-power-strips";
 export const guideTitle = "3 Best Weatherproof Outdoor Power Strips in 2026";
-export const metaTitle = "Best Weatherproof Outdoor Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "3 weatherproof outdoor power strips we evaluated, with the vulnerability competitors skip: even fully sealed strips have cord entry points that are the most common failure point for water ingress, rarely tested separately from the main housing.";
+export const metaTitle = "Best Weatherproof Outdoor Power Strips";
+export const metaDescription = "3 weatherproof outdoor power strips we evaluated, with the vulnerability competitors skip: even fully sealed strips have cord entry points that are the most.";
 export const mainKeyword = "outdoor power strip weatherproof";
 export const introParagraphs = [
   "Fully sealed weatherproof strips still have cord entry and exit points that are the most common failure point for water ingress, a strip's main body may be well-sealed while the cord grommet or entry seal is the actual weak point over time.",

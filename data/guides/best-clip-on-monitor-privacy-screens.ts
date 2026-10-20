@@ -1,8 +1,7 @@
 export const guideSlug = "best-clip-on-monitor-privacy-screens";
 export const guideTitle = "7 Best Clip-On Monitor Privacy Screens in 2026";
-export const metaTitle = "Best Clip-On Monitor Privacy Screens (2026)";
-export const metaDescription =
-  "Honest note: current listings mostly use hanging or magnetic mounts rather than traditional bezel clips. We compared these no-adhesive attachment styles directly.";
+export const metaTitle = "Best Clip-On Monitor Privacy Screens";
+export const metaDescription = "Honest note: current listings mostly use hanging or magnetic mounts rather than traditional bezel clips. We compared these no-adhesive attachment styles.";
 export const mainKeyword = "clip-on monitor privacy screen";
 export const introParagraphs = [
   "We need to be upfront: our research found that current \"clip-on\" style privacy filters mostly use hanging hooks or magnetic mounts rather than the traditional side-bezel clip design. These serve the same purpose (no adhesive, fully removable) but attach differently.",
@@ -47,7 +46,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41ZHkDWhuHL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FSRLXCYY?tag=deskfinds0d-20",
     description: "Explicitly rated for frameless 23-24 inch monitors, where a traditional side-clip wouldn't have a bezel to grip, with a claimed 95 percent light blocking and 87 percent blue-light reduction at a 30-plus degree privacy angle.\n\nOne spot below [2-Pack] 24 Inch Privacy Screen for Computer Monitor in this ranking, it costs more than [2-Pack] 24 Inch Privacy Screen for Computer Monitor. The compromise here is straightforward: Highest price in this comparison. What you gain in return: Explicitly compatible with frameless monitors. Whether that trade is worth it depends on which side matters more for your setup.\n\nWorth knowing before you decide: Cites specific claimed performance figures. On the other side, Cited performance figures are manufacturer claims, not independently verified. That's the main tradeoff to weigh against everything above.",
-    specs: ["23-24 inch, frameless-compatible","Hanging, 2-pack, claimed 30°+ privacy angle"],
+    specs: ["23-24 inch, frameless-compatible","Hanging, 2-pack, claimed 30 degrees+ privacy angle"],
     pros: ["Explicitly compatible with frameless monitors","Cites specific claimed performance figures"],
     cons: ["Highest price in this comparison","Cited performance figures are manufacturer claims, not independently verified"],
     bestFor: "Buyers with a frameless 23-24 inch monitor who want a hanging design built for that specific case.",

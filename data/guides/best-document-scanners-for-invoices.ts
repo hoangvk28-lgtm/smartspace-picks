@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-invoices";
 export const guideTitle = "7 Best Document Scanners for Invoices in 2026";
-export const metaTitle = "Best Document Scanners for Invoices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 scanners we evaluated for invoice processing, with a note that vendor invoices arrive in wildly variable page sizes and formats that most ADF scanners handle inconsistently in mixed batches.";
+export const metaTitle = "Best Document Scanners for Invoices";
+export const metaDescription = "7 scanners we evaluated for invoice processing, with a note that vendor invoices arrive in wildly variable page sizes and formats that most ADF scanners handle.";
 export const mainKeyword = "document scanner for invoices";
 export const introParagraphs = [
   "Vendor invoices range from single-page letter-size documents to multi-page legal-size statements with attached receipts of different sizes. Mixed-size batch scanning without manual sorting produces skewed or cropped scans on many ADF scanners not designed for it, we flag which picks handle this more gracefully.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-tenkeyless-split-keyboards";
 export const guideTitle = "5 Best Tenkeyless Split Keyboards in 2026";
-export const metaTitle = "Best Tenkeyless Split Keyboards, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 tenkeyless split keyboards we evaluated, with the limited-product-pool disclosure competitors skip: this combined TKL-plus-split intersection has a genuinely smaller product pool than either category alone, worth being transparent about before you go searching for endless options.";
+export const metaTitle = "Best Tenkeyless Split Keyboards";
+export const metaDescription = "5 tenkeyless split keyboards we evaluated, with the limited-product-pool disclosure competitors skip: this combined TKL-plus-split intersection has a genuinely.";
 export const mainKeyword = "tenkeyless split keyboard";
 export const introParagraphs = [
   "This combines two distinct form-factor concepts, tenkeyless and split, into one specific product intersection, worth verifying actual product availability at this combined intersection rather than assuming the same broad selection found in either category individually.",

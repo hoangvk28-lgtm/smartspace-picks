@@ -1,8 +1,7 @@
 export const guideSlug = "best-compact-power-strips-for-small-desks";
 export const guideTitle = "5 Best Compact Power Strips for Small Desks in 2026";
-export const metaTitle = "Best Compact Power Strips for Small Desks, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 compact power strips we evaluated for small desks, with the tradeoff competitors rarely quantify: compact size almost always means reduced outlet count or tighter spacing relative to the space actually saved.";
+export const metaTitle = "Best Compact Power Strips for Small Desks";
+export const metaDescription = "5 compact power strips we evaluated for small desks, with the tradeoff competitors rarely quantify: compact size almost always means reduced outlet count or.";
 export const mainKeyword = "compact power strip";
 export const introParagraphs = [
   "Compact size almost always means reduced outlet count or tighter outlet spacing, a tradeoff rarely quantified against the space actually saved, a compact strip saves a modest amount of desk space while sacrificing outlet count or spacing usability.",

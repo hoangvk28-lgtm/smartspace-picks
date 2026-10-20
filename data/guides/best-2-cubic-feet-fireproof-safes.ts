@@ -1,7 +1,7 @@
 export const guideSlug = "best-2-cubic-feet-fireproof-safes";
 export const guideTitle = "8 Best 2 Cubic Feet Fireproof Safes in 2026";
 export const metaTitle = "Best 2 Cubic Feet Fireproof Safes 2026";
-export const metaDescription = "We compared 2 cubic feet fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 2 cubic feet fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "2 cubic feet fireproof safes";
 export const introParagraphs = [
   "Most 2 cubic feet fireproof safes buyers skip straight to price, when the more useful first step is measuring actual interior height, width, and depth against the listed capacity.",
@@ -27,11 +27,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31XTyTneoXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B00JQ753YQ?tag=deskfinds0d-20",
-    description: "UL Classified for a full hour at 1700°F, this safe is also ETL verified to survive a 15-foot fall during a fire and remain closed, a specific structural-integrity test beyond just heat resistance. It's separately ETL verified for 24 hours in up to 8 inches of water.\n\nSix live-locking bolts, steel construction, a pry-resistant hinge bar, and an interior light make this a genuinely full-featured floor safe, with a drawer and file organizer for keeping the 2.05 cu ft interior organized.",
-    specs: ["2.05 cu ft, UL 1hr at 1700°F","ETL verified for 15ft fire-fall drop test","6 live-locking bolts, interior light"],
-    pros: ["15-foot fire-fall drop test is a specific structural claim most competitors don't document","Interior light and built-in drawer/file organizer are genuine usability extras","1-hour 1700°F rating with 8-inch, 24-hour water protection covers both major hazards"],
+    description: "UL Classified for a full hour at 1700 degreesF, this safe is also ETL verified to survive a 15-foot fall during a fire and remain closed, a specific structural-integrity test beyond just heat resistance. It's separately ETL verified for 24 hours in up to 8 inches of water.\n\nSix live-locking bolts, steel construction, a pry-resistant hinge bar, and an interior light make this a genuinely full-featured floor safe, with a drawer and file organizer for keeping the 2.05 cu ft interior organized.",
+    specs: ["2.05 cu ft, UL 1hr at 1700 degreesF","ETL verified for 15ft fire-fall drop test","6 live-locking bolts, interior light"],
+    pros: ["15-foot fire-fall drop test is a specific structural claim most competitors don't document","Interior light and built-in drawer/file organizer are genuine usability extras","1-hour 1700 degreesF rating with 8-inch, 24-hour water protection covers both major hazards"],
     cons: ["Door needs 17.5 inches of clearance to fully open, worth checking against room layout","Digital lock is battery-dependent"],
-    bestFor: "buyers prioritizing 2.05 cu ft, ul 1hr at 1700°f",
+    bestFor: "buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf",
   },
   {
     id: "best-2-cubic-feet-fireproof-safes-2",
@@ -75,11 +75,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31+ZaOADbhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DZ83PN3G?tag=deskfinds0d-20",
-    description: "This is genuinely UL classified for 2 hours at 1850°F, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
-    specs: ["2.0 cu ft, UL 2hr at 1850°F","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
-    pros: ["2-hour UL rating at 1850°F is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
+    description: "This is genuinely UL classified for 2 hours at 1850 degreesF, a notably longer duration than the 30-minute chests in this category, and separately ETL verified for 24 hours in up to 5 inches of water. Master Lock backs this with over a century of lock-making credibility.\n\nSix 1-inch door bolts, steel construction, a pry-resistant hinge bar, and bolt-down hardware give this real physical security alongside the fire rating, at a substantial 2 cu ft capacity for a genuinely full-size home safe.",
+    specs: ["2.0 cu ft, UL 2hr at 1850 degreesF","ETL waterproof 24hr to 5in depth","6x 1-inch door bolts, bolt-down hardware"],
+    pros: ["2-hour UL rating at 1850 degreesF is a genuine step up from the 30-minute chests","Six 1-inch bolts give real theft resistance beyond fire protection alone","Digital keypad access is fast for daily use compared to key-only chests"],
     cons: ["Substantial size and weight require dedicated floor space and bolt-down installation","Digital lock needs battery maintenance to stay reliable"],
-    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850°f",
+    bestFor: "buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf",
   },
   {
     id: "best-2-cubic-feet-fireproof-safes-5",
@@ -91,11 +91,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/31yJvo-CDPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BBNFTDZX?tag=deskfinds0d-20",
-    description: "UL Classified for 2 hours at 1850°F and ETL verified for 24 hours of protection in up to 5 inches of water, this Master Lock model brings the brand's century-plus lock expertise to a more compact 1.2 cu ft capacity than its larger 2.0 cu ft sibling.\n\nThe digital keypad and steel construction carry the same design language as Master Lock's larger safes, just scaled down for smaller rooms or closets needing genuine 2-hour protection.",
-    specs: ["1.2 cu ft, UL 2hr at 1850°F","ETL waterproof 24hr to 5in depth","Digital keypad, steel construction"],
-    pros: ["2-hour 1850°F rating in a more compact 1.2 cu ft footprint than Master Lock's","Same ETL 24-hour, 5-inch waterproof verification as the brand's bigger safes","Master Lock's century-plus lock-making pedigree backs the digital keypad design"],
+    description: "UL Classified for 2 hours at 1850 degreesF and ETL verified for 24 hours of protection in up to 5 inches of water, this Master Lock model brings the brand's century-plus lock expertise to a more compact 1.2 cu ft capacity than its larger 2.0 cu ft sibling.\n\nThe digital keypad and steel construction carry the same design language as Master Lock's larger safes, just scaled down for smaller rooms or closets needing genuine 2-hour protection.",
+    specs: ["1.2 cu ft, UL 2hr at 1850 degreesF","ETL waterproof 24hr to 5in depth","Digital keypad, steel construction"],
+    pros: ["2-hour 1850 degreesF rating in a more compact 1.2 cu ft footprint than Master Lock's","Same ETL 24-hour, 5-inch waterproof verification as the brand's bigger safes","Master Lock's century-plus lock-making pedigree backs the digital keypad design"],
     cons: ["1.2 cu ft is a real capacity tradeoff for the more compact footprint","Digital lock requires battery maintenance"],
-    bestFor: "buyers prioritizing 1.2 cu ft, ul 2hr at 1850°f",
+    bestFor: "buyers prioritizing 1.2 cu ft, ul 2hr at 1850 degreesf",
   },
   {
     id: "best-2-cubic-feet-fireproof-safes-6",
@@ -208,7 +208,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

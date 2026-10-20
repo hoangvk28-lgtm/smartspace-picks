@@ -1,6 +1,6 @@
 export const guideSlug = "best-sound-absorbing-desk-hoods";
 export const guideTitle = "2 Best Sound-Absorbing Desk Hood Alternatives in 2026";
-export const metaTitle = "Best Sound-Absorbing Desk Hoods (2026)";
+export const metaTitle = "Best Sound-Absorbing Desk Hoods";
 export const metaDescription =
   "We found no genuine sound-absorbing desk hood listings on Amazon, so here are 2 flat acoustic panels worth considering instead as honest alternatives.";
 export const mainKeyword = "sound absorbing desk hood";

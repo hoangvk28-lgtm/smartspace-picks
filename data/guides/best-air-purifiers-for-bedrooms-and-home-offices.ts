@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-bedrooms-and-home-offices";
 export const guideTitle = "5 Best Air Purifiers for Bedrooms and Home Offices in 2026";
-export const metaTitle = "Best Air Purifiers for Bedrooms and Home Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 dual-use air purifiers we evaluated, with the mode-switching gap competitors skip: night mode dims lights and reduces fan speed for sleep, but is irrelevant or counterproductive during daytime home-office operation.";
+export const metaTitle = "Best Air Purifiers for Bedrooms and Home Offices";
+export const metaDescription = "5 dual-use air purifiers we evaluated, with the mode-switching gap competitors skip: night mode dims lights and reduces fan speed for sleep,.";
 export const mainKeyword = "air purifier for bedroom";
 export const introParagraphs = [
   "Bedroom use prioritizes nighttime noise, sleep-compatible dB at effective speed, while home-office use prioritizes daytime call-compatible noise, these are genuinely different noise-tolerance contexts a single quiet-enough-for-both claim glosses over.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-cruise-approved-power-strips";
 export const guideTitle = "5 Best Cruise-Approved Power Strips in 2026";
-export const metaTitle = "Best Cruise-Approved Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 cruise-approved power strips we evaluated, with the rule competitors sometimes get backwards: major cruise lines prohibit surge protectors and traditional power strips with internal circuitry, only basic non-surge extenders are typically permitted.";
+export const metaTitle = "Best Cruise-Approved Power Strips";
+export const metaDescription = "5 cruise-approved power strips we evaluated, with the rule competitors sometimes get backwards: major cruise lines prohibit surge protectors and traditional.";
 export const mainKeyword = "cruise approved power strip";
 export const introParagraphs = [
   "Major cruise lines explicitly prohibit power strips with surge protection or any built-in circuit breaker component, allowing only simple non-surge-protected multi-outlet extensions, this is the inverse of what buyers might assume, since more protection seems like it should be better or allowed.",

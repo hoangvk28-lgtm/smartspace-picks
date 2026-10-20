@@ -1,7 +1,7 @@
 export const guideSlug = "best-20-person-conference-tables";
 export const guideTitle = "8 Best 20-Person Conference Tables in 2026";
 export const metaTitle = "Best 20-Person Conference Tables 2026";
-export const metaDescription = "We compared 20-person conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price alone.";
+export const metaDescription = "We compared 20-person conference tables by usable seating zones, base and cable clearance, and material construction rather than ranking by appearance or price.";
 export const mainKeyword = "20-person conference tables";
 export const introParagraphs = [
   "A conference table's advertised seat count needs verification against its actual length and depth, since manufacturers sometimes count seats using tighter per-person spacing than most buyers find comfortable.",
@@ -92,7 +92,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Aym8lgGEL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0H93H3KHJ?tag=deskfinds0d-20",
     description: "A one-touch flip-and-fold mechanism cuts storage footprint dramatically, and four standard size options (47.2\" to 70.8\") combine via seamless splicing into straight rows or U-shapes for gatherings scaling from 2 to 20 people from one product family.\n\nA 0.98\"-thick tabletop on an industrial-grade aluminum alloy frame resists wobbling, and the waterproof, scratch-resistant, wipeable surface handles daily office use with just a damp cloth.",
-    specs: ["4 size options: 47.2\" to 70.8\"","One-touch flip-and-fold, 360° wheels","0.98\" thick tabletop, aluminum alloy frame"],
+    specs: ["4 size options: 47.2\" to 70.8\"","One-touch flip-and-fold, 360 degrees wheels","0.98\" thick tabletop, aluminum alloy frame"],
     pros: ["Scales genuinely from a 2-person huddle table up to a 20-person combined layout","0.98\" tabletop thickness is substantial for a folding table","24/7 customer service is notably more responsive than typical after-sales support"],
     cons: ["Combined large layouts require careful alignment of multiple folding units","Four size options mean careful measurement before ordering the right length"],
     bestFor: "buyers prioritizing 4 size options: 47.2\" to 70.8\"",
@@ -107,8 +107,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51e611jMgvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CSP9VCQ8?tag=deskfinds0d-20",
-    description: "This is genuinely built from 3 separate 55.1\"x23.6\" desk units joined into a 165\" run rather than one continuous slab, which explains the 14ft length and makes sense of shipping and assembly logistics for a set this large. Particle board tops with a high-gloss finish sit on powder-coated metal frames rated to 120 lbs each.\n\nThe bundled chairs add 360° rotation, a 3.94\" seat-height lift range, and a 250 lb weight rating, genuinely usable ergonomics rather than throwaway seating, which matters given how many chairs (16) this set includes.",
-    specs: ["165\"x47.2\"x29.5\" total footprint, 3 joined desk units","16 chairs, 250 lb rated, 360° rotation","120 lb load capacity per desk section"],
+    description: "This is genuinely built from 3 separate 55.1\"x23.6\" desk units joined into a 165\" run rather than one continuous slab, which explains the 14ft length and makes sense of shipping and assembly logistics for a set this large. Particle board tops with a high-gloss finish sit on powder-coated metal frames rated to 120 lbs each.\n\nThe bundled chairs add 360 degrees rotation, a 3.94\" seat-height lift range, and a 250 lb weight rating, genuinely usable ergonomics rather than throwaway seating, which matters given how many chairs (16) this set includes.",
+    specs: ["165\"x47.2\"x29.5\" total footprint, 3 joined desk units","16 chairs, 250 lb rated, 360 degrees rotation","120 lb load capacity per desk section"],
     pros: ["Modular 3-section build makes shipping and room-fit far more manageable than a single 165\" slab","16 chairs with real height adjustment and rotation, not filler seating","Adjustable rubber feet handle uneven flooring across all sections"],
     cons: ["Per-section 120 lb load capacity is modest for equipment-heavy setups","Assembling and aligning 3 separate desk sections plus 16 chairs is a substantial project"],
     bestFor: "buyers prioritizing 165\"x47.2\"x29.5\" total footprint, 3 joined desk units",
@@ -139,8 +139,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51wFnigEhmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GGQD1RY2?tag=deskfinds0d-20",
-    description: "Available in four sizes and four finishes (black, elm, walnut, white), this flip-top table uses a one-knob mechanism paired with 360° silent locking casters, aimed at offices that reconfigure meeting spaces frequently. Multiple units push together into a larger modular conference or training surface.\n\nThe thickened desktop is scratch-resistant and waterproof, backed by an industrial-strength metal frame, and JNMDLAKO markets this as equally at home as a training table, library worktable, or reception desk.",
-    specs: ["4 size options, 4 finish options (Elm shown)","One-knob flip-top, 360° locking casters","Scratch-resistant, waterproof thickened desktop"],
+    description: "Available in four sizes and four finishes (black, elm, walnut, white), this flip-top table uses a one-knob mechanism paired with 360 degrees silent locking casters, aimed at offices that reconfigure meeting spaces frequently. Multiple units push together into a larger modular conference or training surface.\n\nThe thickened desktop is scratch-resistant and waterproof, backed by an industrial-strength metal frame, and JNMDLAKO markets this as equally at home as a training table, library worktable, or reception desk.",
+    specs: ["4 size options, 4 finish options (Elm shown)","One-knob flip-top, 360 degrees locking casters","Scratch-resistant, waterproof thickened desktop"],
     pros: ["Four finish options give more style flexibility than most folding conference tables","One-knob flip mechanism is quick to operate solo","Industrial-strength metal frame targets heavy-duty daily use, not occasional folding"],
     cons: ["61\" length shown here suits mid-size groups, check the size chart carefully against room needs","Modular splicing works best when all connected units share the same finish and size"],
     bestFor: "buyers prioritizing 4 size options, 4 finish options (elm shown)",

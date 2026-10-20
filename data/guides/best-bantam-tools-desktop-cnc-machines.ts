@@ -1,7 +1,7 @@
 export const guideSlug = "best-bantam-tools-desktop-cnc-machines";
 export const guideTitle = "4 Best Bantam Tools Desktop CNC Machines in 2026";
 export const metaTitle = "Best Bantam Tools Desktop CNC Machines 2026";
-export const metaDescription = "We compared bantam tools desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or price alone.";
+export const metaDescription = "We compared bantam tools desktop cnc machines by documented rigidity, spindle evidence, and real cutting capability rather than ranking by spindle wattage or.";
 export const mainKeyword = "bantam tools desktop cnc machines";
 export const introParagraphs = [
   "Ranking bantam tools desktop cnc machines fairly means putting mapping the brand's current model lineup instead of assuming every listing is a current product ahead of anything the listing photos suggest.",
@@ -59,11 +59,11 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41pCr4H7f0L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0FLXMJF32?tag=deskfinds0d-20",
-    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at ±0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
-    specs: ["Pre-assembled, enclosed, ±0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
+    description: "This ships pre-assembled rather than as a kit, aimed specifically at getting a first-time buyer from unboxing to a first cut faster than a traditional CNC build. The enclosure pauses operation automatically when opened, a real safety interlock rather than just a dust cover.\n\nAuto Z-probing reads material thickness and sets tool height automatically, and a separate surface-mapping feature measures multiple points across the bed to compensate for height variation, useful specifically for PCB trace milling. Positioning accuracy is rated at +/-0.1mm, and control runs through the Genmitsu App, WiFi, PC software, or fully offline.",
+    specs: ["Pre-assembled, enclosed, +/-0.1mm accuracy","Auto Z-probing + multi-point surface mapping","App, WiFi, PC, or offline control"],
     pros: ["Enclosure auto-pauses the job when opened, a real safety feature","Surface mapping compensates for uneven stock automatically","Ships pre-assembled, not as a build-it-yourself kit"],
     cons: ["Enclosed design caps maximum workpiece size","Positioning accuracy is modest next to ball-screw machines"],
-    bestFor: "buyers prioritizing pre-assembled, enclosed, ±0.1mm accuracy",
+    bestFor: "buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy",
   },
   {
     id: "best-bantam-tools-desktop-cnc-machines-4",
@@ -75,8 +75,8 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/41K0w8BPrbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F18TC7QL?tag=deskfinds0d-20",
-    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A Φ65mm spindle holder plus Φ52mm adapter cover spindle and laser swaps, and it's also compatible with Φ69mm brackets for further upgrades.",
-    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","Φ65mm + Φ52mm spindle/laser adapters included"],
+    description: "A 710W spindle with 6 speed settings from 6,500 to 30,000 RPM and 7.3 Nm of torque from the 60mm stepper motors is enough to cut 1.5mm deep into aluminum in a single pass, a genuinely specific capability figure rather than a vague metal-cutting claim. All-metal construction includes dual linear rails on X and 10mm/12mm polished rods on Z and Y.\n\nThe enclosed mold materials and reinforced X-axis backplate are built specifically for stability under that cutting load. A 6mm-dia 5mm spindle holder plus 5mm-dia 2mm adapter cover spindle and laser swaps, and it's also compatible with 6mm-dia 9mm brackets for further upgrades.",
+    specs: ["710W spindle, 6500-30000 RPM, 7.3 Nm torque","Cuts 1.5mm aluminum in one pass","6mm-dia 5mm + 5mm-dia 2mm spindle/laser adapters included"],
     pros: ["Documented 1.5mm aluminum cut depth in a single pass","7.3 Nm of torque is a real, specific figure","Spindle and laser swap via included adapters"],
     cons: ["All-metal build adds weight versus lighter hobby routers","6500 RPM minimum speed limits very fine detail work"],
     bestFor: "buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque",

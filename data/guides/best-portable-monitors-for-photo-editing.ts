@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-photo-editing";
 export const guideTitle = "8 Best Portable Monitors for Photo Editing in 2026";
-export const metaTitle = "Best Portable Monitors for Photo Editing, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated for photo editing, with an honest note that gamut coverage percentage and color accuracy (Delta E) are different measurements most listings conflate.";
+export const metaTitle = "Best Portable Monitors for Photo Editing";
+export const metaDescription = "8 portable monitors we evaluated for photo editing, with an honest note that gamut coverage percentage and color accuracy (Delta E) are different measurements.";
 export const mainKeyword = "portable monitor for photo editing";
 export const introParagraphs = [
   "A panel can cover 100% of the sRGB gamut while still displaying colors inaccurately out of the box, gamut coverage and color accuracy (Delta E) are different measurements. Only one pick in this guide, a non-portable desktop reference monitor included for comparison, has independently verified Delta E accuracy, none of the truly portable panels here carry that certification.",

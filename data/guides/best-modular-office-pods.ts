@@ -1,6 +1,6 @@
 export const guideSlug = "best-modular-office-pods";
 export const guideTitle = "2 Best Office Pods for Group Configurations in 2026";
-export const metaTitle = "Best Modular Office Pods (2026)";
+export const metaTitle = "Best Modular Office Pods";
 export const metaDescription =
   "No genuinely modular office pod systems were verified on Amazon, we cover the closest group-capacity options with full transparency about this gap.";
 export const mainKeyword = "modular office pods";

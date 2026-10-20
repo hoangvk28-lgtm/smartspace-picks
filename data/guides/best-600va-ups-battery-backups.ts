@@ -1,8 +1,7 @@
 export const guideSlug = "best-600va-ups-battery-backups";
 export const guideTitle = "5 Best 600VA UPS Battery Backups in 2026";
-export const metaTitle = "Best 600VA UPS Battery Backups, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 UPS units we evaluated at the 600VA capacity tier, with the real-watt math competitors skip: a 600VA rating typically means around 330-360W of real usable capacity, appropriate for a single low-power PC, router, or NAS, not a full desktop.";
+export const metaTitle = "Best 600VA UPS Battery Backups";
+export const metaDescription = "5 UPS units we evaluated at the 600VA capacity tier, with the real-watt math competitors skip: a 600VA rating typically means around 330-360W of real usable.";
 export const mainKeyword = "600VA UPS battery backup";
 export const introParagraphs = [
   "A 600VA rating typically translates to around 330-360W of real usable capacity due to the power factor of most UPS designs, genuinely appropriate for a single low-power PC, router, or NAS device, not a full desktop with a monitor and peripherals.",

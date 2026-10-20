@@ -1,8 +1,7 @@
 export const guideSlug = "best-standing-desk-treadmill";
 export const guideTitle = "8 Best Standing Desk Treadmills in 2026";
-export const metaTitle = "Best Standing Desk Treadmills in 2026 (Combo Desk + Walking Pad)";
-export const metaDescription =
-  "8 best standing desk treadmills in 2026, combo units with a removable desk workstation built in. Compare incline, motor power, noise level, and desk weight limits.";
+export const metaTitle = "Best Standing Desk Treadmills in 2026 (Combo";
+export const metaDescription = "8 best standing desk treadmills in 2026, combo units with a removable desk workstation built in. Compare incline, motor power, noise level,.";
 export const mainKeyword = "standing desk treadmill";
 export const introParagraphs = [
   "A standing desk treadmill is a combo unit that pairs a walking pad with its own removable or foldable desk surface, so you get a workstation and a treadmill in one footprint rather than shopping for them separately. That convenience comes with its own set of details to check: the desk surface itself usually carries a lower weight limit than the treadmill's walking deck, so it's worth checking that rating separately if you plan to rest a monitor or heavier laptop on it.",

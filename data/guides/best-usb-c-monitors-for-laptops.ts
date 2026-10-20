@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-monitors-for-laptops";
 export const guideTitle = "5 Best USB-C Monitors for Laptops in 2026";
-export const metaTitle = "Best USB-C Monitors for Laptops, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C monitors for laptops we evaluated, with a note that your laptop's specific USB-C port needs to support DisplayPort Alt Mode, since not every USB-C port on every laptop carries video.";
+export const metaTitle = "Best USB-C Monitors for Laptops";
+export const metaDescription = "5 USB-C monitors for laptops we evaluated, with a note that your laptop's specific USB-C port needs to support DisplayPort Alt Mode,.";
 export const mainKeyword = "usb-c monitor for laptop";
 export const introParagraphs = [
   "Your laptop's specific USB-C port needs to support DisplayPort Alt Mode for video output, not every USB-C port on every laptop carries a video signal, some are data or charging only, worth checking your laptop's exact port specs before buying any USB-C monitor.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-wireless-document-scanners";
 export const guideTitle = "7 Best Wireless Document Scanners in 2026";
-export const metaTitle = "Best Wireless Document Scanners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 scanners we evaluated for real wireless use, with a distinction between Wi-Fi Direct, home-network Wi-Fi, and Bluetooth, three genuinely different setup and security profiles competitors blur into one 'wireless' bucket.";
+export const metaTitle = "Best Wireless Document Scanners";
+export const metaDescription = "7 scanners we evaluated for real wireless use, with a distinction between Wi-Fi Direct, home-network Wi-Fi, and Bluetooth,.";
 export const mainKeyword = "wireless document scanner";
 export const introParagraphs = [
   "\"Wireless\" conflates three distinct technologies: Wi-Fi Direct (peer-to-peer, no router needed), home-network Wi-Fi (requires a router, enables multi-user access), and Bluetooth (short-range, single-device pairing). We specify which mode each pick actually uses rather than treating wireless as one undifferentiated feature.",

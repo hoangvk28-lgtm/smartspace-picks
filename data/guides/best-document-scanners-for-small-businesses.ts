@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-small-businesses";
 export const guideTitle = "8 Best Document Scanners for Small Businesses in 2026";
-export const metaTitle = "Best Document Scanners for Small Businesses, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for small business use, with a note that daily/monthly duty cycle, not ADF capacity, actually determines whether a scanner fits your real volume, plus the hidden ISIS licensing cost for DMS-integrated businesses.";
+export const metaTitle = "Best Document Scanners for Small Businesses";
+export const metaDescription = "8 scanners we evaluated for small business use, with a note that daily/monthly duty cycle, not ADF capacity, actually determines whether a scanner fits your.";
 export const mainKeyword = "document scanner for small business";
 export const introParagraphs = [
   "Small businesses vary enormously in real monthly scan volume, a 3-person consulting firm versus a 15-person accounting office. Matching duty cycle rating to realistic volume matters more than generic 'business' labeling, we call out each pick's actual sustained capacity rather than just its ADF sheet count.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-password-protected-portable-ssds";
 export const guideTitle = "5 Best Password-Protected Portable SSDs in 2026";
-export const metaTitle = "Best Password-Protected Portable SSDs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 password-protected portable SSDs we evaluated, with the security-tier distinction competitors blur: password-protection alone, without full-disk hardware encryption, represents a lesser security tier that's worth understanding before buying.";
+export const metaTitle = "Best Password-Protected Portable SSDs";
+export const metaDescription = "5 password-protected portable SSDs we evaluated, with the security-tier distinction competitors blur: password-protection alone,.";
 export const mainKeyword = "password-protected portable SSD";
 export const introParagraphs = [
   "Password-protection alone, without necessarily full-disk hardware encryption, can represent a lesser security tier than genuine encryption, a distinction routinely blurred in marketing, worth clarifying before assuming these terms mean the same thing.",

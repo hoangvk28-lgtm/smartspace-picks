@@ -1,8 +1,7 @@
 export const guideSlug = "best-flat-plug-power-strips";
 export const guideTitle = "5 Best Flat-Plug Power Strips in 2026";
-export const metaTitle = "Best Flat-Plug Power Strips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 flat-plug power strips we evaluated, with the distinction competitors skip: a flat plug solves the wall-outlet clearance problem, it doesn't reduce the strip body's own footprint behind furniture.";
+export const metaTitle = "Best Flat-Plug Power Strips";
+export const metaDescription = "5 flat-plug power strips we evaluated, with the distinction competitors skip: a flat plug solves the wall-outlet clearance problem,.";
 export const mainKeyword = "flat plug power strip";
 export const introParagraphs = [
   "Flat-plug design solves a specific clearance problem, furniture flush against the wall, but doesn't address the strip body's own clearance needs, a flat plug allows the cord to exit close to the wall, but the power strip body itself still needs space to sit.",

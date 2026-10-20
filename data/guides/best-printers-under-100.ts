@@ -1,8 +1,7 @@
 export const guideSlug = "best-printers-under-100";
 export const guideTitle = "5 Best Printers Under $100 in 2026";
-export const metaTitle = "Best Printers Under $100 in 2026 (Verified Prices)";
-export const metaDescription =
-  "5 best printers under $100 in 2026, all verified current pricing. Compare true first-year cost, feature cuts, and honest lifespan expectations at this price tier.";
+export const metaTitle = "Best Printers Under $100 in 2026 (Verified";
+export const metaDescription = "5 best printers under $100 in 2026, all verified current pricing. Compare true first-year cost, feature cuts, and honest lifespan expectations at this price.";
 export const mainKeyword = "printers under $100";
 export const introParagraphs = [
   "A printer under $100 can absolutely handle everyday home or light office printing, but the price tag hides a real tradeoff most listings never explain: the sticker price is rarely the true first-year cost once ink is factored in, and features like duplex printing or an automatic document feeder are often cut entirely to hit this price point.",

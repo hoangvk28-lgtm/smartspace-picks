@@ -1,6 +1,6 @@
 export const guideSlug = "best-room-divider-on-wheels";
 export const guideTitle = "8 Best Room Dividers on Wheels in 2026";
-export const metaTitle = "Best Room Dividers on Wheels in 2026 (Rolling & Lockable)";
+export const metaTitle = "Best Room Dividers on Wheels in 2026 (Rolling &";
 export const metaDescription =
   "8 best room dividers on wheels in 2026, from budget 4-panel folding screens to a soundproof rolling panel. Compare caster count, locking wheels, and stability.";
 export const mainKeyword = "room divider on wheels";
@@ -183,12 +183,12 @@ export const products: GuideProduct[] = [
     specs: [
       "89\"W x 68\"H, 4 panels",
       "Polyester + metal",
-      "10 lockable 360° swivel wheels with individual brakes",
+      "10 lockable 360 degrees swivel wheels with individual brakes",
       "L/W/C-shaped configurations",
       "Folds compact to 22\" wide",
     ],
     pros: [
-      "10 lockable 360°-swivel wheels with individual brakes",
+      "10 lockable 360 degrees-swivel wheels with individual brakes",
       "Folds down to the most compact width in the 4-panel group at just 22\"",
       "Lowest price among the 4-panel picks",
       "Flexible L, W, or C configurations",

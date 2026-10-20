@@ -1,8 +1,7 @@
 export const guideSlug = "best-clip-on-laptop-screen-extenders";
 export const guideTitle = "5 Best Clip-On Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Clip-On Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 clip-on laptop screen extenders we evaluated, focused on clip tension and lid-edge protection, since a clip that grips too tightly can stress a thin laptop lid over repeated use.";
+export const metaTitle = "Best Clip-On Laptop Screen Extenders";
+export const metaDescription = "5 clip-on laptop screen extenders we evaluated, focused on clip tension and lid-edge protection, since a clip that grips too tightly can stress a thin laptop.";
 export const mainKeyword = "clip-on laptop screen extender";
 export const introParagraphs = [
   "Clip tension and lid-edge protection matter more for a clip-on design than for a bracket-mounted one, since a clip that grips too tightly can stress a thin laptop lid edge over repeated attach and detach cycles.",

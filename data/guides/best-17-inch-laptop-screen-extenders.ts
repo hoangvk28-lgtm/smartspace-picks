@@ -1,8 +1,7 @@
 export const guideSlug = "best-17-inch-laptop-screen-extenders";
 export const guideTitle = "5 Best 17-Inch Laptop Screen Extenders in 2026";
-export const metaTitle = "Best 17-Inch Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 17-inch laptop screen extenders we evaluated, with the genuine-17-inch-versus-fits-17-inch-laptops distinction competitors skip: many 'for 17-inch laptop' listings ship a smaller panel, not a genuine 17-inch extender screen.";
+export const metaTitle = "Best 17-Inch Laptop Screen Extenders";
+export const metaDescription = "5 17-inch laptop screen extenders we evaluated, with the genuine-17-inch-versus-fits-17-inch-laptops distinction competitors skip: many 'for 17-inch laptop'.";
 export const mainKeyword = "17-inch laptop screen extender";
 export const introParagraphs = [
   "Many products marketed 'for 17-inch laptops' actually ship a smaller extender panel (13-15 inches) that simply fits alongside a 17-inch laptop rather than being a genuine 17-inch extender screen itself, worth verifying the actual panel size in the specs before ordering.",

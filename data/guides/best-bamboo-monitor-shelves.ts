@@ -1,8 +1,7 @@
 export const guideSlug = "best-bamboo-monitor-shelves";
 export const guideTitle = "5 Best Bamboo Monitor Shelves in 2026";
-export const metaTitle = "Best Bamboo Monitor Shelves, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 bamboo monitor shelves we evaluated, with the construction-method decode competitors skip: bamboo sourcing and manufacturing quality, laminated strips versus solid bamboo, genuinely affects real durability and sag resistance.";
+export const metaTitle = "Best Bamboo Monitor Shelves";
+export const metaDescription = "5 bamboo monitor shelves we evaluated, with the construction-method decode competitors skip: bamboo sourcing and manufacturing quality,.";
 export const mainKeyword = "bamboo monitor shelf";
 export const introParagraphs = [
   "Bamboo is a specific material with different properties than the general 'wood' category, worth testing bamboo's specific sag resistance, moisture susceptibility, and weight capacity rather than assuming it shares identical properties with hardwood or plywood.",

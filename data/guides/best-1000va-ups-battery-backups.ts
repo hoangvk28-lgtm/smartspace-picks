@@ -1,8 +1,7 @@
 export const guideSlug = "best-1000va-ups-battery-backups";
 export const guideTitle = "6 Best 1000VA UPS Battery Backups in 2026";
-export const metaTitle = "Best 1000VA UPS Battery Backups, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 UPS units we evaluated at the 1000VA capacity tier, with the real-watt spread competitors ignore: 1000VA-labeled units in this guide range from 600W to 800W of real capacity depending on design, a meaningful difference for sizing.";
+export const metaTitle = "Best 1000VA UPS Battery Backups";
+export const metaDescription = "6 UPS units we evaluated at the 1000VA capacity tier, with the real-watt spread competitors ignore: 1000VA-labeled units in this guide range from 600W to 800W.";
 export const mainKeyword = "1000VA UPS battery backup";
 export const introParagraphs = [
   "1000VA-labeled UPS units don't all provide the same real usable wattage, in this guide alone they range from 600W to 800W depending on the specific design's power factor, check the actual watt rating before comparing two 1000VA units as equivalent.",

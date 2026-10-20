@@ -1,8 +1,7 @@
 export const guideSlug = "best-144hz-portable-monitors";
 export const guideTitle = "7 Best 144Hz Portable Monitors in 2026";
-export const metaTitle = "Best 144Hz Portable Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 portable monitors rated 144Hz, with an honest read on which port actually delivers that refresh rate and which sources (including handheld gaming PCs) can't reach it at all.";
+export const metaTitle = "Best 144Hz Portable Monitors";
+export const metaDescription = "7 portable monitors rated 144Hz, with an honest read on which port actually delivers that refresh rate and which sources (including handheld gaming PCs) can't.";
 export const mainKeyword = "144Hz portable monitor";
 export const introParagraphs = [
   "A monitor's panel can be rated 144Hz while the actual link delivered by your source device caps at 60Hz. 144Hz over USB-C requires DisplayPort Alt Mode with sufficient bandwidth, not just a spec sheet number, and several picks below only hit 144Hz over USB-C while their HDMI port is limited to 120Hz, a distinction worth knowing before you cable up a console.",

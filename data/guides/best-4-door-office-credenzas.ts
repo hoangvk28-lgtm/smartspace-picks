@@ -1,7 +1,7 @@
 export const guideSlug = "best-4-door-office-credenzas";
 export const guideTitle = "8 Best 4 Door Office Credenzas in 2026";
 export const metaTitle = "Best 4 Door Office Credenzas 2026";
-export const metaDescription = "We compared 4 door office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by exterior width or door count alone.";
+export const metaDescription = "We compared 4 door office credenzas by verified interior dimensions, real file and lock compatibility, and top-surface usability rather than ranking by.";
 export const mainKeyword = "4 door office credenzas";
 export const introParagraphs = [
   "Before ranking any pick for 4 door office credenzas, the real work is checking interior bay dimensions per door instead of assuming more doors means more room.",
@@ -123,7 +123,7 @@ export const products: GuideProduct[] = [
     reviews: null,
     imageUrl: "https://m.media-amazon.com/images/I/51yayDfWVmL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DRRTR25P?tag=deskfinds0d-20",
-    description: "Six doors across the full 67 inch width give this more individual storage compartments than most credenzas in this cluster, useful for keeping different categories of supplies genuinely separated rather than piled together. The patented vertical fluted door design, covered under USPTO Patent USD1133647, is a distinct enough look that it is worth confirming it fits the room before ordering.\n\nThe spacious top surface is sized for décor, a coffee setup, or media equipment rather than just being leftover space above the doors. Engineered wood construction with a water-resistant surface is built to wipe clean easily and resist everyday spills, a practical detail for a piece doing double duty as a credenza and a buffet.",
+    description: "Six doors across the full 67 inch width give this more individual storage compartments than most credenzas in this cluster, useful for keeping different categories of supplies genuinely separated rather than piled together. The patented vertical fluted door design, covered under USPTO Patent USD1133647, is a distinct enough look that it is worth confirming it fits the room before ordering.\n\nThe spacious top surface is sized for decor, a coffee setup, or media equipment rather than just being leftover space above the doors. Engineered wood construction with a water-resistant surface is built to wipe clean easily and resist everyday spills, a practical detail for a piece doing double duty as a credenza and a buffet.",
     specs: ["67in wide, 6 doors","Patented fluted door design (USD1133647)","Water-resistant, wipe-clean surface"],
     pros: ["Six separate doors keep categories genuinely apart","Surface wipes clean and resists everyday spills","Patented fluted design stands out from generic looks"],
     cons: ["Fluted design won't blend into every decor","No file drawer or hanging-folder storage included"],

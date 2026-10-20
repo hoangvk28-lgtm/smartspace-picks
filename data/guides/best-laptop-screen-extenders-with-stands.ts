@@ -1,8 +1,7 @@
 export const guideSlug = "best-laptop-screen-extenders-with-stands";
 export const guideTitle = "5 Best Laptop Screen Extenders with Stands in 2026";
-export const metaTitle = "Best Laptop Screen Extenders with Stands, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 laptop screen extenders with integrated stands we evaluated, focused on stand adjustability and base footprint, since a fixed-angle stand can leave the extra screen at an awkward viewing height.";
+export const metaTitle = "Best Laptop Screen Extenders with Stands";
+export const metaDescription = "5 laptop screen extenders with integrated stands we evaluated, focused on stand adjustability and base footprint, since a fixed-angle stand can leave the extra.";
 export const mainKeyword = "laptop screen extender with stand";
 export const introParagraphs = [
   "Stand adjustability matters more than whether a stand exists at all, since a fixed-angle stand can leave the extra screen at an awkward viewing height relative to your main laptop display.",

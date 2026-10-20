@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-with-ocr";
 export const guideTitle = "8 Best Document Scanners with OCR in 2026";
-export const metaTitle = "Best Document Scanners with OCR, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners with bundled OCR, with an honest note that OCR accuracy depends heavily on scan resolution and source document quality, and that bundled software ranges from full ABBYY licenses to stripped-down tools.";
+export const metaTitle = "Best Document Scanners with OCR";
+export const metaDescription = "8 scanners with bundled OCR, with an honest note that OCR accuracy depends heavily on scan resolution and source document quality,.";
 export const mainKeyword = "document scanner with OCR";
 export const introParagraphs = [
   "Bundled OCR engines range from full ABBYY FineReader licenses to stripped-down proprietary utilities with a fraction of the capability, both marketed as 'includes OCR' with no distinction made. We identify what software each pick actually bundles rather than treating the checkbox as equivalent everywhere.",

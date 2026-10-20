@@ -1,7 +1,7 @@
 export const guideSlug = "best-4-cubic-feet-fireproof-safes";
 export const guideTitle = "8 Best 4 Cubic Feet Fireproof Safes in 2026";
 export const metaTitle = "Best 4 Cubic Feet Fireproof Safes 2026";
-export const metaDescription = "We compared 4 cubic feet fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than ranking by brand or price alone.";
+export const metaDescription = "We compared 4 cubic feet fireproof safes by independent fire evidence, usable interior capacity, and separately verified water and security claims rather than.";
 export const mainKeyword = "4 cubic feet fireproof safes";
 export const introParagraphs = [
   "Ranking 4 cubic feet fireproof safes fairly means putting confirming shelf and door hardware don't quietly shrink the advertised interior ahead of anything the listing photos suggest.",
@@ -239,7 +239,7 @@ export const faq = [
   },
   {
     "q": "What does a UL fire classification actually certify?",
-    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550°F, 1 hour at 1700°F, or 2 hours at 1850°F) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
+    "a": "A UL Classified rating means an independent lab tested that specific model to a defined time-and-temperature standard (commonly 1/2 hour at 1550 degreesF, 1 hour at 1700 degreesF, or 2 hours at 1850 degreesF) and confirmed the interior stayed below a safe threshold for paper documents. It's a model-specific certification, not a general brand claim."
   },
   {
     "q": "Does a fireproof safe also protect against water damage?",

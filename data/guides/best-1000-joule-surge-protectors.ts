@@ -1,8 +1,7 @@
 export const guideSlug = "best-1000-joule-surge-protectors";
 export const guideTitle = "5 Best 1000-Joule Surge Protectors in 2026";
-export const metaTitle = "Best 1000-Joule Surge Protectors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors around 1000 joules we evaluated, with the reality competitors skip: at this tier, the joule budget can be meaningfully depleted by a handful of moderate grid fluctuations, not just one dramatic lightning event.";
+export const metaTitle = "Best 1000-Joule Surge Protectors";
+export const metaDescription = "5 surge protectors around 1000 joules we evaluated, with the reality competitors skip: at this tier, the joule budget can be meaningfully depleted by a handful.";
 export const mainKeyword = "1000 joules surge protector";
 export const introParagraphs = [
   "1000 joules is a cumulative lifetime budget, not a per-surge allowance, at this tier it can be meaningfully depleted by a handful of moderate grid fluctuations, not just one dramatic lightning event, don't assume the rating resets or lasts indefinitely.",

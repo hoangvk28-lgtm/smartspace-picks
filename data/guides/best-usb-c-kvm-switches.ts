@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-kvm-switches";
 export const guideTitle = "5 Best USB-C KVM Switches in 2026";
-export const metaTitle = "Best USB-C KVM Switches, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C KVM switches we evaluated, with a note that USB-C connectivity on a switch doesn't automatically mean it carries video, some USB-C ports are data or power only.";
+export const metaTitle = "Best USB-C KVM Switches";
+export const metaDescription = "5 USB-C KVM switches we evaluated, with a note that USB-C connectivity on a switch doesn't automatically mean it carries video,.";
 export const mainKeyword = "usb-c kvm switch";
 export const introParagraphs = [
   "USB-C connectivity on a switch doesn't automatically mean it carries video signal, some USB-C ports are data or power delivery only, worth confirming the specific USB-C port supports DisplayPort Alt Mode video before assuming any USB-C KVM switch handles your laptop's single-cable video output.",

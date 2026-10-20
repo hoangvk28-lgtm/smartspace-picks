@@ -1,8 +1,7 @@
 export const guideSlug = "best-clamp-on-power-strips-for-desks";
 export const guideTitle = "5 Best Clamp-On Power Strips for Desks in 2026";
-export const metaTitle = "Best Clamp-On Power Strips for Desks, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 clamp-on power strips we evaluated, with the compatibility detail competitors skip: clamp mounts are rated for a specific desk edge thickness range that doesn't universally fit every desk type.";
+export const metaTitle = "Best Clamp-On Power Strips for Desks";
+export const metaDescription = "5 clamp-on power strips we evaluated, with the compatibility detail competitors skip: clamp mounts are rated for a specific desk edge thickness range that.";
 export const mainKeyword = "desk clamp power strip";
 export const introParagraphs = [
   "Clamp compatibility range is rarely tested against real desk edge variety, glass, thin folding tables, and thick industrial desks all have different edge thicknesses, and a clamp-on power strip rated for one range may not fit securely on another.",

@@ -1,6 +1,6 @@
 export const guideSlug = "best-office-phone-booths-for-home-use";
 export const guideTitle = "2 Best Office Phone Booths for Home Use in 2026";
-export const metaTitle = "Best Office Phone Booths for Home (2026)";
+export const metaTitle = "Best Office Phone Booths for Home";
 export const metaDescription =
   "No standing-only phone booths were verified on Amazon for this niche, we cover the closest compact seated alternatives with full transparency.";
 export const mainKeyword = "office phone booths for home use";

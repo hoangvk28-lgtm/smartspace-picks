@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-for-smoke";
 export const guideTitle = "5 Best Air Purifiers for Smoke in 2026";
-export const metaTitle = "Best Air Purifiers for Smoke, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers we evaluated for smoke, with the CADR-for-smoke specificity competitors skip: a general CADR rating doesn't tell you the smoke-specific CADR, which is often meaningfully lower than the dust or pollen number on the same box.";
+export const metaTitle = "Best Air Purifiers for Smoke";
+export const metaDescription = "5 air purifiers we evaluated for smoke, with the CADR-for-smoke specificity competitors skip: a general CADR rating doesn't tell you the smoke-specific CADR,.";
 export const mainKeyword = "air purifier for smoke";
 export const introParagraphs = [
   "A general CADR (Clean Air Delivery Rate) rating doesn't tell you the smoke-specific CADR, which is often meaningfully lower than the dust or pollen number printed on the same box, since smoke particles are finer and behave differently in airflow.",

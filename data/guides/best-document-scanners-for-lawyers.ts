@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-lawyers";
 export const guideTitle = "8 Best Document Scanners for Lawyers in 2026";
-export const metaTitle = "Best Document Scanners for Lawyers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for legal document workflows, with a critical disclosure: no document scanner redacts sensitive information, and Bates numbering is a DMS software feature, not a scanner hardware capability.";
+export const metaTitle = "Best Document Scanners for Lawyers";
+export const metaDescription = "8 scanners we evaluated for legal document workflows, with a critical disclosure: no document scanner redacts sensitive information,.";
 export const mainKeyword = "document scanner for lawyers";
 export const introParagraphs = [
   "No document scanner redacts sensitive information during scanning, a critical distinction for handling privileged material. Attorneys need separate redaction software with proper pixel-level redaction, not just a black box overlay, assuming a scanner's 'security features' include redaction could create real compliance risk.",

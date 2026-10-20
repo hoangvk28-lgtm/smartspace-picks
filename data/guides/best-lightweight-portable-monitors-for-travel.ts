@@ -1,8 +1,7 @@
 export const guideSlug = "best-lightweight-portable-monitors-for-travel";
 export const guideTitle = "8 Best Lightweight Portable Monitors for Travel in 2026";
-export const metaTitle = "Best Lightweight Portable Monitors for Travel, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 portable monitors we evaluated on true travel-kit weight, panel plus case plus cables, not the marketed panel-only weight that understates what actually goes in your bag.";
+export const metaTitle = "Best Lightweight Portable Monitors for Travel";
+export const metaDescription = "8 portable monitors we evaluated on true travel-kit weight, panel plus case plus cables, not the marketed panel-only weight that understates what actually goes.";
 export const mainKeyword = "lightweight portable monitor";
 export const introParagraphs = [
   "Many listings advertise bare panel weight while the included folio case or stand adds another 150-300g, meaning the real travel weight is often 20-40% higher than the headline spec. We calculate the true kit weight, panel plus case plus cables, for each pick below rather than repeating the marketed number.",

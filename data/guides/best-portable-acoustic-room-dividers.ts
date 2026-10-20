@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-acoustic-room-dividers";
 export const guideTitle = "5 Best Portable Acoustic Room Dividers in 2026";
-export const metaTitle = "Best Portable Acoustic Room Dividers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable acoustic room dividers we evaluated, from budget fold screens to premium architectural partitions, with an honest look at what 'acoustic' actually means at each price tier.";
+export const metaTitle = "Best Portable Acoustic Room Dividers";
+export const metaDescription = "5 portable acoustic room dividers we evaluated, from budget fold screens to premium architectural partitions, with an honest look at what 'acoustic' actually.";
 export const mainKeyword = "portable acoustic room divider";
 export const introParagraphs = [
   "The word 'acoustic' spans a huge price and performance range in this category, a $99 folding privacy screen and a $1,400 architectural partition are both marketed as acoustic, but only genuinely engineered products at the higher end approach real sound-transmission reduction.",

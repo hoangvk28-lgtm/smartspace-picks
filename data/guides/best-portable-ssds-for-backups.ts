@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-ssds-for-backups";
 export const guideTitle = "5 Best Portable SSDs for Backups in 2026";
-export const metaTitle = "Best Portable SSDs for Backups, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable SSDs we evaluated for backups, with the 3-2-1 framework competitors skip: a single portable SSD is one piece of a genuine backup strategy, not a complete standalone solution, and endurance matters more than peak speed here.";
+export const metaTitle = "Best Portable SSDs for Backups";
+export const metaDescription = "5 portable SSDs we evaluated for backups, with the 3-2-1 framework competitors skip: a single portable SSD is one piece of a genuine backup strategy,.";
 export const mainKeyword = "portable SSD backup drive";
 export const introParagraphs = [
   "Backup use benefits from write-once/read-rarely usage patterns, meaning TBW/endurance-weighted criteria matter more here than the speed-focused criteria common to most portable SSD buying guides.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-paper-shredders-for-staples-and-paper-clips";
 export const guideTitle = "8 Best Paper Shredders for Staples and Paper Clips in 2026";
-export const metaTitle = "Best Paper Shredders for Staples and Paper Clips, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 shredders that explicitly handle staples and paper clips, with an honest note on the security-vs-durability tradeoff: the most secure micro-cut shredders are often the least staple-tolerant.";
+export const metaTitle = "Best Paper Shredders for Staples and Paper Clips";
+export const metaDescription = "8 shredders that explicitly handle staples and paper clips, with an honest note on the security-vs-durability tradeoff: the most secure micro-cut shredders are.";
 export const mainKeyword = "shredder for staples and paper clips";
 export const introParagraphs = [
   "Cross-cut and strip-cut shredders generally tolerate staples and clips better than micro-cut, since micro-cut blades have tighter tolerances and are more prone to jamming or damage from hard metal objects. This means the most 'secure' shredders are often the least staple-tolerant, a direct tradeoff most listings don't connect for you.",

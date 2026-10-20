@@ -1,8 +1,7 @@
 export const guideSlug = "best-ups-battery-backups-with-avr";
 export const guideTitle = "6 Best UPS Battery Backups with AVR in 2026";
-export const metaTitle = "Best UPS Battery Backups with AVR, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 UPS units we evaluated for Automatic Voltage Regulation, with the detail most listings skip: AVR corrects brownouts without draining the battery, directly extending battery lifespan, but correction range varies significantly between models.";
+export const metaTitle = "Best UPS Battery Backups with AVR";
+export const metaDescription = "6 UPS units we evaluated for Automatic Voltage Regulation, with the detail most listings skip: AVR corrects brownouts without draining the battery,.";
 export const mainKeyword = "UPS battery backup with AVR";
 export const introParagraphs = [
   "AVR (Automatic Voltage Regulation) corrects moderate voltage fluctuations in-line, without switching to battery power, a distinction that directly extends battery lifespan since every unnecessary battery-mode switch during a minor brownout drains a charge cycle that a genuine outage would otherwise need.",

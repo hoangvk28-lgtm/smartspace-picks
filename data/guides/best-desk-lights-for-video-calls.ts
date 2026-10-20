@@ -1,8 +1,7 @@
 export const guideSlug = "best-desk-lights-for-video-calls";
 export const guideTitle = "6 Best Desk Lights for Video Calls in 2026";
-export const metaTitle = "Best Desk Lights for Video Calls, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 desk lights we evaluated for video calls, with the PWM flicker issue competitors rarely mention: cheap LED dimming can introduce flicker invisible to the eye but noticeable as banding on camera.";
+export const metaTitle = "Best Desk Lights for Video Calls";
+export const metaDescription = "6 desk lights we evaluated for video calls, with the PWM flicker issue competitors rarely mention: cheap LED dimming can introduce flicker invisible to the eye.";
 export const mainKeyword = "desk light for video calls";
 export const introParagraphs = [
   "Some budget LED lights use PWM (pulse-width modulation) dimming, which can introduce flicker invisible to the naked eye but visible as banding or strobing on camera, especially at lower brightness settings, a real issue most listings never mention.",

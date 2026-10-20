@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-monitors-for-surface-pro";
 export const guideTitle = "7 Best Portable Monitors for Surface Pro in 2026";
-export const metaTitle = "Best Portable Monitors for Surface Pro, Honestly Reviewed (2026)";
-export const metaDescription =
-  "7 portable monitors we evaluated for Surface Pro, with a clear read on why the Surface Connect port can't output video and how kickstand-plus-monitor-stand depth adds up on a small desk.";
+export const metaTitle = "Best Portable Monitors for Surface Pro";
+export const metaDescription = "7 portable monitors we evaluated for Surface Pro, with a clear read on why the Surface Connect port can't output video and how kickstand-plus-monitor-stand.";
 export const mainKeyword = "portable monitor for Surface Pro";
 export const introParagraphs = [
   "Surface Pro's proprietary Surface Connect port carries power only, never video, only the USB-C port (or Mini DisplayPort on some models) can output display signal. Buyers assuming the charging port doubles as a video port are a common source of \"monitor not detected\" confusion, one this guide won't repeat.",

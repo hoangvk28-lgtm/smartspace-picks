@@ -1,6 +1,6 @@
 export const guideSlug = "best-room-divider-screens";
 export const guideTitle = "8 Best Room Divider Screens in 2026";
-export const metaTitle = "Best Room Divider Screens in 2026 (Shoji, Rattan & Acrylic)";
+export const metaTitle = "Best Room Divider Screens in 2026 (Shoji,";
 export const metaDescription =
   "8 best room divider screens in 2026, from traditional shoji panels to frosted acrylic and rattan weave. Compare material, weight, and privacy level.";
 export const mainKeyword = "room divider screens";
@@ -213,7 +213,7 @@ export const products: GuideProduct[] = [
     specs: [
       "70.9\"H x 69\"W (4 panels)",
       "Pine wood + non-woven fabric",
-      "Stainless steel 180° hinges",
+      "Stainless steel 180 degrees hinges",
       "Handmade pine, no odor",
       "No assembly required",
     ],
@@ -241,17 +241,17 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51l6YdJzIPL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DL95KY4S?tag=deskfinds0d-20",
     description:
-      "VEVOR steps up to 6 panels spanning 95.3 inches wide, the widest screen in this list, built for rooms where a standard 4-panel screen wouldn't stretch far enough to fully divide the space. Durable tung wood framing holds up better against humidity than typical pine.\n\n360-degree bidirectional hinges are the most flexible in this list, letting panels fold either direction freely, and waterproof fabric panels add some resilience the paper-based shoji screens don't have.\n\nMost flexible 360° bidirectional hinges. Set against that, shorter 66.9\" height than most other picks. Both matter when comparing it to the other picks here.",
+      "VEVOR steps up to 6 panels spanning 95.3 inches wide, the widest screen in this list, built for rooms where a standard 4-panel screen wouldn't stretch far enough to fully divide the space. Durable tung wood framing holds up better against humidity than typical pine.\n\n360-degree bidirectional hinges are the most flexible in this list, letting panels fold either direction freely, and waterproof fabric panels add some resilience the paper-based shoji screens don't have.\n\nMost flexible 360 degrees bidirectional hinges. Set against that, shorter 66.9\" height than most other picks. Both matter when comparing it to the other picks here.",
     specs: [
       "95.3\"W x 66.9\"H (6 panels)",
       "Tung wood + MDF + non-woven fabric",
-      "360° bidirectional hinges",
+      "360 degrees bidirectional hinges",
       "Waterproof fabric panels",
       "No assembly required",
     ],
     pros: [
       "Widest pick in this list at 95.3\"",
-      "Most flexible 360° bidirectional hinges",
+      "Most flexible 360 degrees bidirectional hinges",
       "Durable tung wood, holds up well against humidity",
       "Waterproof fabric panels",
     ],
@@ -311,7 +311,7 @@ export const howWeEvaluated: HowWeEvaluatedItem[] = [
   },
   {
     title: "Hinge quality and fold flexibility",
-    description: "Checked hinge material and rotation range, since repeated folding is typically where a screen wears out first, and stainless steel or 360° hinges hold up better than basic metal pins.",
+    description: "Checked hinge material and rotation range, since repeated folding is typically where a screen wears out first, and stainless steel or 360 degrees hinges hold up better than basic metal pins.",
   },
   {
     title: "Weight and portability",

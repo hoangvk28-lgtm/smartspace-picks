@@ -1,8 +1,7 @@
 export const guideSlug = "best-ergonomic-keyboards-for-programmers";
 export const guideTitle = "5 Best Ergonomic Keyboards for Programmers in 2026";
-export const metaTitle = "Best Ergonomic Keyboards for Programmers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 ergonomic keyboards we evaluated for programmers, with the occupational-RSI-risk weighting competitors skip: this profession's high daily keyboard-use hours warrant heavier emphasis on ergonomic-design tier and RSI-focused actuation force than a general typing guide.";
+export const metaTitle = "Best Ergonomic Keyboards for Programmers";
+export const metaDescription = "5 ergonomic keyboards we evaluated for programmers, with the occupational-RSI-risk weighting competitors skip: this profession's high daily keyboard-use hours.";
 export const mainKeyword = "ergonomic keyboard for programmers";
 export const introParagraphs = [
   "This article differentiates from a task-based 'for coding' framing by clarifying whether 'programmers' as a job-title-based framing meaningfully differs, or whether these should be considered together to avoid duplicated content covering essentially the same audience.",

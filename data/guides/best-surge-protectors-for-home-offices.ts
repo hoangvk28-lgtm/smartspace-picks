@@ -1,8 +1,7 @@
 export const guideSlug = "best-surge-protectors-for-home-offices";
 export const guideTitle = "5 Best Surge Protectors for Home Offices in 2026";
-export const metaTitle = "Best Surge Protectors for Home Offices, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 surge protectors we evaluated for home offices, with the sizing gap competitors skip: a realistic home office setup accumulates total wattage and joule-rating consumption faster than single-device framing accounts for.";
+export const metaTitle = "Best Surge Protectors for Home Offices";
+export const metaDescription = "5 surge protectors we evaluated for home offices, with the sizing gap competitors skip: a realistic home office setup accumulates total wattage and.";
 export const mainKeyword = "surge protector for home office";
 export const introParagraphs = [
   "A realistic home office setup, computer, monitor, printer, networking equipment, desk lamp, phone charger, accumulates joule-rating consumption faster than single-device framing accounts for, size your surge protector against the actual full-setup device count.",

@@ -1,6 +1,6 @@
 export const guideSlug = "best-rechargeable-lcd-writing-tablets";
 export const guideTitle = "2 Best Rechargeable LCD Writing Tablets in 2026";
-export const metaTitle = "Best Rechargeable LCD Writing Tablets (2026)";
+export const metaTitle = "Best Rechargeable LCD Writing Tablets";
 export const metaDescription =
   "Only 2 LCD writing tablets with confirmed USB rechargeable batteries exist, since most models in this category use a coin-cell battery instead.";
 export const mainKeyword = "rechargeable lcd writing tablet";

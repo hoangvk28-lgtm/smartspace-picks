@@ -1,8 +1,7 @@
 export const guideSlug = "best-document-scanners-for-computers";
 export const guideTitle = "8 Best Document Scanners for Computers in 2026";
-export const metaTitle = "Best Document Scanners for Computers, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for real computer compatibility, with a note that driver architecture (TWAIN vs. ISIS vs. WIA) determines software compatibility, not just OS support.";
+export const metaTitle = "Best Document Scanners for Computers";
+export const metaDescription = "8 scanners we evaluated for real computer compatibility, with a note that driver architecture (TWAIN vs. ISIS vs. WIA) determines software compatibility,.";
 export const mainKeyword = "document scanner for computer";
 export const introParagraphs = [
   "A USB scanner marketed generically as 'computer compatible' may only support TWAIN, fine for casual scan-to-file use but incompatible with ISIS-dependent enterprise document management software (OpenText, Laserfiche, DocuWare). We disclose each pick's driver architecture rather than assuming 'Windows compatible' means one uniform thing.",

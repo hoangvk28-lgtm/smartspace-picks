@@ -1,8 +1,7 @@
 export const guideSlug = "best-book-and-document-scanners";
 export const guideTitle = "8 Best Book and Document Scanners in 2026";
-export const metaTitle = "Best Book and Document Scanners, Honestly Reviewed (2026)";
-export const metaDescription =
-  "8 scanners we evaluated for both book and document scanning, with an honest recommendation: no single scanner in this lineup does both jobs equally well, and knowing which task matters more should drive your pick.";
+export const metaTitle = "Best Book and Document Scanners";
+export const metaDescription = "8 scanners we evaluated for both book and document scanning, with an honest recommendation: no single scanner in this lineup does both jobs equally well,.";
 export const mainKeyword = "book and document scanner";
 export const introParagraphs = [
   "Book scanning (overhead cradle scanners for bound pages) and document scanning (sheetfed ADF scanners for loose pages) are genuinely different technologies solving different problems, and no single scanner in this lineup does both jobs equally well.",

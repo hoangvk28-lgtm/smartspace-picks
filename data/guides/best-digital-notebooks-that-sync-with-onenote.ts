@@ -1,8 +1,7 @@
 export const guideSlug = "best-digital-notebooks-that-sync-with-onenote";
 export const guideTitle = "5 Best Digital Notebooks That Sync with OneNote in 2026";
-export const metaTitle = "Best Digital Notebooks That Sync with OneNote (2026)";
-export const metaDescription =
-  "Honest finding: none of these devices sync natively with OneNote. We tested the realistic path, export to PDF or image, then manually import into OneNote, and ranked by how clean that export actually is.";
+export const metaTitle = "Best Digital Notebooks That Sync with OneNote";
+export const metaDescription = "Honest finding: none of these devices sync natively with OneNote. We tested the realistic path, export to PDF or image, then manually import into OneNote,.";
 export const mainKeyword = "digital notebook that syncs with OneNote";
 export const introParagraphs = [
   "We need to correct a common assumption up front: none of the major E Ink notebooks (Kindle Scribe, reMarkable, XPPen) have a native, automatic OneNote sync integration. What actually exists is indirect: you export your notes as a PDF or image from the device's own app, then manually bring that file into OneNote yourself.",

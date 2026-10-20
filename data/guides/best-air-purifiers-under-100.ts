@@ -1,8 +1,7 @@
 export const guideSlug = "best-air-purifiers-under-100";
 export const guideTitle = "5 Best Air Purifiers Under $100 in 2026";
-export const metaTitle = "Best Air Purifiers Under $100, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 air purifiers under $100 we evaluated, with the true cost-of-ownership angle competitors skip: the sticker price is only part of the story, ongoing filter replacement cost over a year can rival or exceed the unit's original price.";
+export const metaTitle = "Best Air Purifiers Under $100";
+export const metaDescription = "5 air purifiers under $100 we evaluated, with the true cost-of-ownership angle competitors skip: the sticker price is only part of the story,.";
 export const mainKeyword = "air purifier under $100";
 export const introParagraphs = [
   "The sticker price is only part of the true cost, ongoing filter replacement cost over a year of regular use can rival or exceed the unit's original purchase price, a real factor competitors rarely mention when comparing budget units.",

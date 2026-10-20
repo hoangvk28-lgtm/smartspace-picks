@@ -1,8 +1,7 @@
 export const guideSlug = "best-27-inch-usb-c-monitors";
 export const guideTitle = "5 Best 27-Inch USB-C Monitors in 2026";
-export const metaTitle = "Best 27-Inch USB-C Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 27-inch USB-C monitors we evaluated, with a note that 1080p resolution stretched across 27 inches looks visibly softer than the same resolution at 24 inches, QHD or 4K is worth the upgrade at this size.";
+export const metaTitle = "Best 27-Inch USB-C Monitors";
+export const metaDescription = "5 27-inch USB-C monitors we evaluated, with a note that 1080p resolution stretched across 27 inches looks visibly softer than the same resolution at 24 inches,.";
 export const mainKeyword = "27 inch usb-c monitor";
 export const introParagraphs = [
   "1080p resolution stretched across a 27-inch panel looks visibly softer than the same resolution at 24 inches, since pixel density drops as the same pixel count spreads over more physical screen area, worth stepping up to QHD or 4K resolution at this size rather than settling for standard 1080p.",

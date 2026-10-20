@@ -1,8 +1,7 @@
 export const guideSlug = "best-adjustable-temperature-video-lighting";
 export const guideTitle = "5 Best Adjustable-Temperature Video Lighting in 2026";
-export const metaTitle = "Best Adjustable-Temperature Video Lighting, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 video lights we evaluated for adjustable color temperature, with the range-in-Kelvin detail competitors gloss over: a wider Kelvin range (like 2500K-6500K) matters more for matching mixed room lighting than a fixed number of preset steps.";
+export const metaTitle = "Best Adjustable-Temperature Video Lighting";
+export const metaDescription = "5 video lights we evaluated for adjustable color temperature, with the range-in-Kelvin detail competitors gloss over: a wider Kelvin range (like 2500K-6500K).";
 export const mainKeyword = "adjustable color temperature video lighting";
 export const introParagraphs = [
   "Color temperature is measured in Kelvin, a wider adjustable range (like 2500K-6500K, from warm to daylight) matters more for genuinely matching mixed room lighting conditions than simply having a certain number of preset steps within a narrower range.",

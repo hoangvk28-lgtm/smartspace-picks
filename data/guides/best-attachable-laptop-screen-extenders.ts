@@ -1,8 +1,7 @@
 export const guideSlug = "best-attachable-laptop-screen-extenders";
 export const guideTitle = "5 Best Attachable Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Attachable Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 attachable laptop screen extenders we evaluated, focused on how the mounting bracket actually clamps to a laptop lid, since a poor-fitting bracket can scratch the lid or fail to hold securely.";
+export const metaTitle = "Best Attachable Laptop Screen Extenders";
+export const metaDescription = "5 attachable laptop screen extenders we evaluated, focused on how the mounting bracket actually clamps to a laptop lid,.";
 export const mainKeyword = "attachable laptop screen extender";
 export const introParagraphs = [
   "How the mounting bracket actually clamps to your laptop lid matters more than screen specs alone, since a poor-fitting bracket can scratch the lid finish or fail to hold securely during transport.",

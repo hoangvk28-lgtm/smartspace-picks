@@ -1,7 +1,7 @@
 export const guideSlug = "best-1000w-portable-power-stations-with-solar-panel";
 export const guideTitle = "8 Best 1000W Portable Power Stations With Solar Panel in 2026";
-export const metaTitle = "Best 1000W Portable Power Stations With Solar Panel 2026";
-export const metaDescription = "We compared 1000w portable power stations with solar panel by measured usable energy, continuous output, and safety documentation rather than ranking by headline wattage alone.";
+export const metaTitle = "Best 1000W Portable Power Stations With Solar";
+export const metaDescription = "We compared 1000w portable power stations with solar panel by measured usable energy, continuous output, and safety documentation rather than ranking by.";
 export const mainKeyword = "1000w portable power stations with solar panel";
 export const introParagraphs = [
   "The real test for 1000w portable power stations with solar panel comes down to verifying MPPT input window and real panel compatibility, not a bundle photo, not a glance at the listing photo.",

@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-laptop-screen-extenders";
 export const guideTitle = "5 Best Portable Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Portable Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 portable laptop screen extenders we evaluated, with the true-kit-weight disclosure competitors skip: total travel weight includes the cable, cover, and any stand accessory, not just the screen panel's own listed weight.";
+export const metaTitle = "Best Portable Laptop Screen Extenders";
+export const metaDescription = "5 portable laptop screen extenders we evaluated, with the true-kit-weight disclosure competitors skip: total travel weight includes the cable, cover,.";
 export const mainKeyword = "portable laptop screen extender";
 export const introParagraphs = [
   "Total travel weight includes the cable, protective cover, and any stand accessory, not just the screen panel's own listed weight, worth calculating the true kit weight before assuming a lightweight-sounding panel keeps your bag light overall.",

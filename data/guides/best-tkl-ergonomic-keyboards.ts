@@ -1,8 +1,7 @@
 export const guideSlug = "best-tkl-ergonomic-keyboards";
 export const guideTitle = "5 Best TKL Ergonomic Keyboards in 2026";
-export const metaTitle = "Best TKL Ergonomic Keyboards, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 tenkeyless ergonomic keyboards we evaluated, with the navigation-cluster verification competitors skip: TKL keyboards remove the number pad, but whether arrow keys and Home/End survive varies, a real functional distinction worth checking before buying.";
+export const metaTitle = "Best TKL Ergonomic Keyboards";
+export const metaDescription = "5 tenkeyless ergonomic keyboards we evaluated, with the navigation-cluster verification competitors skip: TKL keyboards remove the number pad,.";
 export const mainKeyword = "TKL ergonomic keyboard";
 export const introParagraphs = [
   "Tenkeyless, TKL, meaning no number pad, is a form factor distinct from a vaguer 'compact' descriptor, worth clarifying whether TKL ergonomic keyboards retain the navigation cluster, arrow keys, Home and End, that some more aggressively compact designs remove entirely.",

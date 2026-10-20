@@ -1,8 +1,7 @@
 export const guideSlug = "best-850va-ups-battery-backups";
 export const guideTitle = "5 Best 850VA UPS Battery Backups in 2026";
-export const metaTitle = "Best 850VA UPS Battery Backups, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 UPS units we evaluated at the 850VA capacity tier, with the real-watt math competitors skip: an 850VA rating typically means around 450-510W of real usable capacity, a genuine step up for a basic PC and monitor combination.";
+export const metaTitle = "Best 850VA UPS Battery Backups";
+export const metaDescription = "5 UPS units we evaluated at the 850VA capacity tier, with the real-watt math competitors skip: an 850VA rating typically means around 450-510W of real usable.";
 export const mainKeyword = "850VA UPS battery backup";
 export const introParagraphs = [
   "An 850VA rating typically translates to around 450-510W of real usable capacity, a genuine step up from the 600VA tier, enough headroom for a basic PC and monitor combination rather than just a single router or NAS device.",

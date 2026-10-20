@@ -1,8 +1,7 @@
 export const guideSlug = "best-portable-metal-file-boxes-with-handles";
 export const guideTitle = "5 Best Portable Metal File Boxes with Handles in 2026";
-export const metaTitle = "Best Portable Metal File Boxes with Handles (2026)";
-export const metaDescription =
-  "5 file boxes marketed with fireproof or security features, with an honest note that metal construction or a lock alone doesn't guarantee a certified fire rating.";
+export const metaTitle = "Best Portable Metal File Boxes with Handles";
+export const metaDescription = "5 file boxes marketed with fireproof or security features, with an honest note that metal construction or a lock alone doesn't guarantee a certified fire.";
 export const mainKeyword = "portable metal file box with handle";
 export const introParagraphs = [
   "We need to be direct here: several products marketed as \"fireproof\" don't cite an independent certification in their listing. Metal-adjacent construction and a lock are real security features, but they don't automatically mean a certified fire rating, verify any such claim directly before relying on it for irreplaceable documents.",

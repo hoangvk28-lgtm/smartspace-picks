@@ -1,8 +1,7 @@
 export const guideSlug = "best-wireless-laptop-screen-extenders";
 export const guideTitle = "5 Best Wireless Laptop Screen Extenders in 2026";
-export const metaTitle = "Best Wireless Laptop Screen Extenders, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 wireless laptop screen extenders we evaluated, with an honest note that most 'wireless' screen extenders still require a wired power connection, only the video signal is cable-free.";
+export const metaTitle = "Best Wireless Laptop Screen Extenders";
+export const metaDescription = "5 wireless laptop screen extenders we evaluated, with an honest note that most 'wireless' screen extenders still require a wired power connection,.";
 export const mainKeyword = "wireless laptop screen extender";
 export const introParagraphs = [
   "Most products marketed as 'wireless' laptop screen extenders only remove the video signal cable, they still require a wired power connection, worth confirming exactly what is wireless before assuming a fully cable-free setup.",

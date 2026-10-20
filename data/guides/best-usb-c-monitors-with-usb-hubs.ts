@@ -1,8 +1,7 @@
 export const guideSlug = "best-usb-c-monitors-with-usb-hubs";
 export const guideTitle = "5 Best USB-C Monitors with USB Hubs in 2026";
-export const metaTitle = "Best USB-C Monitors with USB Hubs, Honestly Reviewed (2026)";
-export const metaDescription =
-  "5 USB-C monitors with built-in USB hubs we evaluated, with a note that a built-in hub's total bandwidth is shared across all connected devices, which can bottleneck a fast external SSD.";
+export const metaTitle = "Best USB-C Monitors with USB Hubs";
+export const metaDescription = "5 USB-C monitors with built-in USB hubs we evaluated, with a note that a built-in hub's total bandwidth is shared across all connected devices,.";
 export const mainKeyword = "usb-c monitor with usb hub";
 export const introParagraphs = [
   "A monitor's built-in USB hub shares total bandwidth across every connected device, worth checking the hub's actual USB standard (USB 3.0 vs 3.2 vs 2.0 ports) since a fast external SSD plugged into a bandwidth-limited hub port won't hit its rated speed.",

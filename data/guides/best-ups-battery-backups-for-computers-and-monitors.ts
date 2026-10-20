@@ -1,8 +1,7 @@
 export const guideSlug = "best-ups-battery-backups-for-computers-and-monitors";
 export const guideTitle = "6 Best UPS Battery Backups for Computers and Monitors in 2026";
-export const metaTitle = "Best UPS Battery Backups for Computers and Monitors, Honestly Reviewed (2026)";
-export const metaDescription =
-  "6 UPS units we evaluated for protecting a PC and monitor together, with the VA-to-watts distinction competitors gloss over: a UPS's VA rating overstates its real usable wattage by roughly 0.6, so check the watts number, not just VA.";
+export const metaTitle = "Best UPS Battery Backups for Computers and";
+export const metaDescription = "6 UPS units we evaluated for protecting a PC and monitor together, with the VA-to-watts distinction competitors gloss over: a UPS's VA rating overstates its.";
 export const mainKeyword = "UPS battery backup for computer and monitor";
 export const introParagraphs = [
   "A UPS's VA (volt-amps) rating is not the same as its real usable wattage, the power factor of typical UPS designs means actual watts available is roughly 0.6 times the VA number, a 1000VA unit is usually rated for about 600W, not 1000W, a distinction that matters when sizing for a PC plus monitor.",
