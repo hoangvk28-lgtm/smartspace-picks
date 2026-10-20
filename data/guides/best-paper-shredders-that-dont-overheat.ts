@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Why does my shredder keep overheating even though it has overheat protection?", a: "Most overheating complaints stem from exceeding the stated continuous run-time rating, not a defective unit. Check your typical session length against the shredder's disclosed duty cycle and give it the stated cooldown period between sessions." },
   { q: "Does placement affect how often a shredder overheats?", a: "Yes. Shredders placed in enclosed cabinets or against walls with restricted airflow overheat more readily than the same model in open, ventilated placement, an environmental factor independent of the shredder's internal engineering." },
   { q: "Which pick in this guide has the longest duty cycle before overheating?", a: "The Aurora AU1210MA (rank 1) and Bonsaii 18-sheet (rank 2) both offer a genuine 60-minute duty cycle, the longest confirmed in this guide, backed by the highest ratings and review bases here." },
+  { q: "Does room temperature affect how quickly a shredder overheats?", a: "Yes, a shredder running in a warm, poorly ventilated space reaches its thermal shutoff threshold faster than the same unit in a cooler, well-ventilated room, placement genuinely affects real-world run time." },
+  { q: "Is a shredder that never overheats safe to run completely unattended?", a: "No, even a long-duty-cycle model should be monitored during operation, thermal protection prevents motor damage but doesn't replace basic supervision for paper jams or other issues." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

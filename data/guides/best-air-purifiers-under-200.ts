@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "What's the best reason to spend closer to $200 on an air purifier?", a: "Coverage headroom for a larger room. A higher price in this range often does buy real coverage headroom, meaningfully reducing the risk of undersizing compared to a budget unit." },
   { q: "Why do some air purifier prices fluctuate above or below $200?", a: "Product lineups often include variants that fall within and outside a stated price tier depending on current promotions and configuration, always verify current pricing before buying." },
   { q: "Is a 3-year warranty worth paying extra for?", a: "For buyers who want ongoing peace of mind and real-time feedback rather than a set-and-forget unit, a pick with a 3-year warranty and filter indicator at the higher end of this tier is a reasonable choice." },
+  { q: "What's the real ongoing cost of an under-$200 air purifier beyond the sticker price?", a: "Factor in replacement filter cost and frequency, a cheaper unit with pricier or more frequent filter changes can cost more over a year than a slightly pricier unit with cheaper, longer-lasting filters." },
+  { q: "Do under-$200 air purifiers include a true HEPA filter?", a: "Most reputable picks at this price do, but check the specific listing explicitly states true HEPA rather than a HEPA-type or HEPA-like filter not held to the same tested capture standard." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

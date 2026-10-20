@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Are all 15-sheet shredders rated for the same daily volume?", a: "No, this is a real point of divergence at this tier. Two similarly-labeled '15-sheet' shredders can have very different daily volume ratings, check this spec separately from the per-pass sheet count if you shred regularly." },
   { q: "Should I buy a true 15-sheet shredder or a close 12-14 sheet alternative?", a: "Compare price and run time directly. Several 12-14 sheet-rated picks in this guide offer similar or better continuous run time at a comparable or lower price than the true 15-sheet options." },
   { q: "Which 15-sheet pick has the most substantiated capacity claim?", a: "The Bonsaii 15-sheet pick (rank 1) explicitly discloses durable alloy cutters and a run time twice as long as typical home shredders, more specific engineering detail than most competing listings provide." },
+  { q: "Is 15-sheet capacity enough for a small home office?", a: "For most individual or small-team paperwork, yes, 15 sheets per pass handles routine document disposal well, reserve a higher-capacity model only if you regularly shred in large batches." },
+  { q: "Does a 15-sheet shredder need a cooldown period between uses?", a: "Many do, check the specific listed continuous run time and required cooldown, since repeatedly feeding paper past that limit can trigger an automatic thermal shutoff on most models." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

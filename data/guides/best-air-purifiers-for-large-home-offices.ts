@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Why does my large air purifier still seem underpowered in a big office?", a: "Achieving 4-5 air changes per hour requires proportionally more CFM in a large room than a small one, undersizing is the most common mistake in a big home office." },
   { q: "Is it better to buy one large unit or two smaller ones for a big office?", a: "For a very large or open-plan space, two moderate-capacity units placed at opposite ends of the room often outperform a single unit pushed beyond its realistic coverage." },
   { q: "Will a high-CFM air purifier be too loud for video calls in a large office?", a: "Not necessarily. Some high-airflow designs like HEPASilent technology are built to keep noise down at higher CFM, worth prioritizing if your large office is also a daily call environment." },
+  { q: "Do I need multiple smaller purifiers instead of one large-capacity unit for a big room?", a: "Either approach can work, two smaller units let you place coverage near different activity zones in a large room, while one large unit simplifies filter maintenance to a single schedule." },
+  { q: "How often should I replace filters in a large-room air purifier running continuously?", a: "Check the specific manufacturer's stated filter life, continuous operation in a large room typically shortens the real-world interval compared to the manufacturer's best-case estimate for intermittent use." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Is a 'quiet' air purifier quiet enough for a shared office with several people?", a: "Verify at the effective operating speed, not just a single-person review's impression. Multiple coworkers' collective sensitivity to fan noise during calls raises the bar for genuinely quiet operation beyond one person's tolerance." },
   { q: "Who should be responsible for replacing the filter in a shared office purifier?", a: "Assign this explicitly upfront, shared small offices frequently lack a clear owner for this task, a real adoption barrier that leads to overdue filters if not addressed directly." },
   { q: "How do I handle different coworkers' sensitivities to a shared air purifier?", a: "Consider allergy sensitivity, fragrance preference, and comfort near the exhaust vent as competing factors, a single placement or setting may not satisfy everyone, some compromise or a centrally neutral placement is often necessary." },
+  { q: "Should a shared small office purifier run continuously or only during work hours?", a: "Continuous low-speed operation generally keeps air quality more stable than cycling on and off, though an auto mode tied to an air quality sensor balances energy use against consistent filtration reasonably well." },
+  { q: "Who's responsible for filter replacement costs in a shared office purifier?", a: "This is a practical, not technical, question worth settling upfront among coworkers or with a facilities budget, since filter costs recur on a schedule and shared-use purifiers see more cumulative load than a single-person unit." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

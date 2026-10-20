@@ -227,6 +227,8 @@ export const faq: FaqItem[] = [
   { q: "How do I compare battery life across different video lights?", a: "Look for an explicit mAh battery capacity rather than relying on a stated 'hours of runtime' claim alone, since runtime depends heavily on what brightness level was used for that measurement. An mAh figure is a more objective comparison point." },
   { q: "Does having multiple brightness levels help battery life?", a: "Yes. A light with several brightness settings lets you deliberately dial down when full brightness isn't necessary, extending runtime across a longer day of video calls rather than draining the battery at a single fixed high setting." },
   { q: "Are all ring lights in a product line battery-powered?", a: "Not necessarily. Some product lines offer both battery-powered and USB-only variants under similar names, verify the specific listing you're buying is actually battery-powered before purchasing if that's what you need." },
+  { q: "How long does a typical battery-powered video light last on one charge?", a: "This varies widely by brightness setting and battery capacity, check the specific listed runtime at full brightness rather than the often longer figure quoted at the lowest, dimmest setting." },
+  { q: "Can I use a battery-powered video light while it's charging?", a: "Many models support pass-through charging that lets you use the light plugged in once the battery runs low, check the specific listing to confirm this feature before relying on it for long sessions." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

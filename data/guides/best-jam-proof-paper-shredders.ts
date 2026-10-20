@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "If a shredder is rated for 12 sheets, can I safely feed it 12 sheets every time?", a: "Not reliably. Real-world jam resistance with slightly heavier paper is typically lower than the rated capacity, often closer to 9-10 sheets for a 12-sheet-rated shredder. Treat the rated number as an upper bound." },
   { q: "Are staples and paper clips handled the same as generic paper jam resistance?", a: "No, they're separate claims. A shredder can be excellent at avoiding paper-stack jams while still jamming on staples or clips if the blade set isn't specifically rated for fasteners. Check the listing explicitly." },
   { q: "Which pick in this guide has the most detailed anti-jam disclosure?", a: "The BONSEN 14-sheet pick (rank 7) explicitly names a 'Smart Jam-Proof System' with real-time indicator lights for overheat and overload status, giving more visibility than a silent auto-reverse alone." },
+  { q: "Does jam-proof technology mean I can exceed the stated sheet capacity?", a: "No, anti-jam features reduce jams within the rated capacity by sensing overload before it happens, they don't expand how many sheets the shredder can actually process at once." },
+  { q: "What should I do if my jam-proof shredder still jams?", a: "Stop feeding paper, let the auto-reverse clear what it can, then manually remove any remaining stuck sheets after powering off, forcing more paper through an active jam risks motor damage even on an anti-jam model." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

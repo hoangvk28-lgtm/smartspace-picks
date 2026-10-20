@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Is Zoom Rooms certification the same as Zoom certification?", a: "No. Zoom Rooms certification is a separate, stricter tier that applies to dedicated conference room hardware. Basic Zoom-certified peripheral compatibility is a different, less rigorous testing level." },
   { q: "Can I use a non-Zoom-certified speakerphone with Zoom?", a: "Yes, most speakerphones work with Zoom over standard USB or Bluetooth audio without formal certification. It's fine for casual or occasional use, but a certified device offers more tested reliability for daily calls." },
   { q: "How many microphones do I need for Zoom calls with multiple people?", a: "More physical microphones with a wider pickup radius genuinely improve voice isolation. A 6-mic design like the Anker PowerConf handles a larger table better than a single-mic speakerphone." },
+  { q: "Does Zoom certification matter if I mostly use the speakerphone for phone calls too?", a: "Zoom certification specifically verifies compatibility with Zoom's software, a certified device still functions as a standard Bluetooth or USB speakerphone for regular calls outside of Zoom." },
+  { q: "Can I use a Zoom-certified speakerphone with Zoom Rooms hardware setups?", a: "Check the specific listing, standard USB or Bluetooth speakerphones generally work with a basic Zoom account on a laptop, but a dedicated Zoom Rooms deployment may require separately certified conference room hardware." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

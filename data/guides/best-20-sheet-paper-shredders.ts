@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Will a 20-24 sheet shredder actually handle that many sheets of office paper?", a: "Real-world capacity with mixed-weight paper is typically 25-30% below the rated number, the same pattern seen at every lower capacity tier, just scaled up." },
   { q: "Are shredders at this capacity tier noisier than smaller ones?", a: "Generally yes, on average. Larger motors needed to handle higher throughput tend to produce more noise than smaller-capacity shredders, a real tradeoff for the extra capacity." },
   { q: "Should I buy a 20+ sheet manual shredder or an auto-feed hopper instead?", a: "Depends on your use case. An auto-feed hopper (even a 100-120 sheet one) serves a different need, hands-free bulk processing, than a manual 20-24 sheet shredder fed by hand, they're not directly interchangeable despite both appearing in this capacity discussion." },
+  { q: "Does a 20-sheet shredder need a larger waste bin than smaller models?", a: "Typically yes, a higher sheet-per-pass capacity fills the bin faster, check the specific listed bin capacity in gallons against how often you're willing to empty it." },
+  { q: "Can a 20-sheet shredder handle staples and paper clips without jamming?", a: "Many are rated for light staples and clips, but check the specific listing's stated tolerance, since repeatedly feeding heavy-duty staples can dull blades faster than the rated paper capacity alone would suggest." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

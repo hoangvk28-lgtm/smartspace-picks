@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Can an air purifier's ionizer feature make my allergies worse?", a: "Potentially, if you're also sensitive to ozone. Some allergy sufferers have respiratory sensitivity to ozone byproduct from ionizer-equipped units, creating a real risk of exacerbating symptoms rather than helping." },
   { q: "Do I need a bigger air purifier during allergy season?", a: "Possibly. Seasonal allergy sufferers may need higher ACH during specific pollen seasons than year-round, a unit sized for average need may underperform during peak weeks, consider extra headroom or smart scheduling." },
   { q: "Does air purifier placement matter for allergy relief?", a: "Yes. Allergens like dust mite debris and pet dander settle on surfaces and are only recirculated into the air by disturbance, walking, cleaning, purifier placement and timing relative to cleaning activity affects real exposure reduction." },
+  { q: "Will an air purifier eliminate allergy symptoms completely?", a: "No, it reduces airborne allergen load but doesn't address allergens already settled on surfaces, bedding, or carpets, regular cleaning alongside filtration gives more complete symptom relief than either alone." },
+  { q: "Is a true HEPA filter necessary for allergy relief, or does HEPA-type work too?", a: "True HEPA is the meaningful distinction, it captures 99.97% of particles at 0.3 microns under a tested standard, while HEPA-type or HEPA-like filters aren't held to that same verified performance threshold." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

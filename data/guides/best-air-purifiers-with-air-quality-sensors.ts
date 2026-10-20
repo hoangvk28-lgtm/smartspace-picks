@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does auto mode reduce how well my air purifier actually cleans the air?", a: "It can, temporarily. Auto mode ramps the fan down when the sensor reads clean air to save energy and reduce noise, meaning airflow is lower during those periods than a fixed high-speed setting would provide." },
   { q: "Is a smart app better than an on-unit display for air quality tracking?", a: "It depends on your needs. A smart app gives historical tracking of readings over time, useful for spotting patterns, while an on-unit display or indicator light gives a faster at-a-glance check without needing a phone." },
   { q: "Should I just run my air purifier at a fixed speed instead of auto mode?", a: "If you want consistent, predictable airflow regardless of momentary sensor readings, yes, a fixed manual speed avoids the fan ramp-down tradeoff that auto mode introduces." },
+  { q: "How accurate are built-in air quality sensors compared to a dedicated monitor?", a: "Generally less precise, built-in sensors are tuned for relative change detection to drive auto mode rather than for displaying lab-grade absolute readings, a dedicated standalone monitor gives more precise numbers if that matters to you." },
+  { q: "Does an air quality sensor need periodic calibration or cleaning?", a: "Some models benefit from occasional sensor port cleaning since dust buildup on the sensor itself can skew readings over time, check the specific manufacturer's maintenance guidance." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

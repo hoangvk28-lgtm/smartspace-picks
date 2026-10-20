@@ -244,6 +244,8 @@ export const faq: FaqItem[] = [
   { q: "Will a clip-on light fit any monitor or laptop?", a: "Not automatically. Every clip mount has a maximum screen thickness it can grip securely, verify your monitor or laptop's edge thickness against the specific clip range listed for the light you're considering." },
   { q: "Is a rechargeable clip-on light better than a USB-powered one?", a: "It depends on your setup. A rechargeable battery frees you from being tethered to a USB port during calls, genuinely useful for a portable or frequently repositioned setup, though verify the battery life matches your typical call length." },
   { q: "Do I need adjustable color temperature on a clip-on light?", a: "It helps match the light to your room's ambient lighting throughout the day, a light with multiple color temperature and brightness settings offers more control than a fixed-setting design, though it's not essential if your lighting conditions stay consistent." },
+  { q: "Can a clip-on light damage my monitor or laptop lid?", a: "A properly rated clip with padded jaws shouldn't mark most finishes, but check the specific listing's stated clip grip strength and padding material before clamping onto a thin or glossy screen edge repeatedly." },
+  { q: "Is USB power enough for a clip-on video light, or does it need a wall outlet?", a: "Most clip-on lights draw modest enough power to run from a laptop or powered USB hub, check the specific listed power draw if you're also running other USB devices from the same limited source." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -222,6 +222,8 @@ export const faq: FaqItem[] = [
   { q: "Does a multi-gig port always help my internet speed?", a: "Only if it's a WAN port and you have a matching multi-gig internet plan, a multi-gig LAN port is for internal transfers and doesn't affect internet speed at all." },
   { q: "Does a 2.5GbE port guarantee 2.5Gbps real-world speed?", a: "Not necessarily. Real achieved multi-gig throughput depends on router CPU capability, not just port presence, verify the router can actually sustain that speed under load." },
   { q: "Is it worth paying more for a 10GbE port on a home router?", a: "Only if you have a 10-gigabit internet plan or a genuine internal-transfer use case like a 10GbE NAS, most home internet plans remain under 1Gbps regardless of LAN port speed." },
+  { q: "Does a multi-gig router automatically give multi-gig speeds over Wi-Fi?", a: "No, the multi-gig port specifically covers wired LAN/WAN speed, actual wireless throughput depends on your client device's own Wi-Fi 7 capability and distance from the router." },
+  { q: "Can I use a multi-gig router with a standard gigabit internet plan?", a: "Yes, the router simply won't be bottlenecked by your internet plan on local network transfers, though your actual internet speed stays capped at whatever your ISP provides regardless of the router's port speed." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

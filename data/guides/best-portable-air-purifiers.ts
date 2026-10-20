@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does a portable air purifier's listed weight reflect what I'll actually pack?", a: "Not entirely. True portability weight often excludes the charging cable, adapter, and any carrying case, add these to the unit's own listed weight for a realistic sense of your travel kit." },
   { q: "Can I easily find replacement filters for a portable air purifier while traveling?", a: "Verify this before relying on regular use. Ultra-compact portable units sometimes use proprietary small filters that are less commonly stocked at retail than standard room-sized purifier filters." },
   { q: "How long does a battery-powered portable air purifier actually run?", a: "Check the runtime at the speed you'll actually use, not the marketed 'up to X hours' figure, which is typically quoted at the lowest, least-effective speed, running at a meaningful cleaning speed drains the battery much faster." },
+  { q: "Is a portable air purifier powerful enough for a whole small room?", a: "Many are sized for personal or close-range coverage rather than whole-room filtration, check the specific listed room-size rating before assuming it covers more than a desk or bedside area." },
+  { q: "Can I bring a portable air purifier on a flight?", a: "Most battery-powered units fall within standard airline carry-on battery limits, but check your specific unit's battery capacity in watt-hours against your airline's policy before traveling with it." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

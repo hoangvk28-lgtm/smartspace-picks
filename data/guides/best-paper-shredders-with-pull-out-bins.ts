@@ -289,6 +289,8 @@ export const faq: FaqItem[] = [
   { q: "Do pull-out bin slide rails wear out over time?", a: "They can, especially with repeated pulling of a heavy, paper-filled bin on plastic rails, potentially causing sticking or misalignment after months of regular use. Established, high-review-count brands provide more real-world evidence of long-term durability." },
   { q: "Why does my pull-out bin look empty when it isn't?", a: "Static electricity from cross-cut or micro-cut shredded paper can cause shreds to cling to the bin walls, especially during the pull-out motion, making the bin appear emptier than its actual fill level." },
   { q: "What if my shredder's location doesn't have room for the bin to pull out?", a: "Consider a model with caster wheels, like the Amazon Basics 8-sheet pick in this guide, which lets you roll the whole unit to a spot with clearance rather than needing fixed space at its permanent location." },
+  { q: "Does a pull-out bin make a shredder easier to line with a trash bag?", a: "Yes, generally, a fully removable bin lets you line it with a standard bag the same way you would a trash can, while a fixed internal bin can be more awkward to bag." },
+  { q: "Can a pull-out bin be used separately from the shredder base?", a: "No, it's designed to slide out just far enough for emptying while still attached to the base unit, it's not a fully detachable container meant for separate use." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

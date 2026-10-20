@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "What's the most reliable way to guarantee an air purifier is ozone-free?", a: "A mechanical-only design relying on HEPA filtration and activated carbon, without any ion-generating or corona-discharge technology, is the most reliable way to avoid ozone byproduct entirely." },
   { q: "Should I double-check specifications if I'm sensitive to ozone?", a: "Yes. Product specifications and technology names can change between model revisions, verify the current published specification for the exact model you're considering rather than relying on a general marketing description." },
   { q: "Do ozone-free air purifiers control odor as well as ion-assisted ones?", a: "Often somewhat less aggressively. A mechanical-only unit relies on activated carbon alone for odor control, which can be a real tradeoff for buyers prioritizing the ozone-free guarantee over maximum odor control." },
+  { q: "How do I confirm a purifier is genuinely ozone-free rather than just low-ozone?", a: "Look for CARB certification specifically, a recognized regulatory standard that caps ozone emissions, rather than trusting a marketing claim of 'ozone-free' alone without that independent verification." },
+  { q: "Is an ionizer feature always a source of ozone in an air purifier?", a: "Most ionizers do produce trace ozone as a byproduct, though some models let you disable the ionizer function specifically while keeping mechanical HEPA filtration active, check the specific listing for that toggle option." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

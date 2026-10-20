@@ -239,6 +239,8 @@ export const faq: FaqItem[] = [
   { q: "What does the '3600' number in BE3600 actually mean?", a: "It's a combined theoretical maximum, roughly 574-688Mbps on 2.4GHz plus 2882Mbps on 5GHz, achievable by no single connected device, not a real-world per-device speed." },
   { q: "Does MLO work on a BE3600 router?", a: "Not meaningfully. With only one usable non-2.4GHz band, there's no second high-speed band to aggregate with, so MLO's core cross-band benefit doesn't exist at the hardware level regardless of firmware." },
   { q: "Is a BE3600 router actually better than my current Wi-Fi 6 router?", a: "Often yes for basic upgrades, but verify against a comparably priced Wi-Fi 6 router's real specs rather than assuming any 'BE'-labeled router represents a meaningful improvement." },
+  { q: "Do I need Wi-Fi 7 client devices to benefit from a BE3600 router?", a: "Partially, a BE3600 still improves connections for older Wi-Fi 5/6 devices through general hardware upgrades, but the specific Wi-Fi 7 features like MLO only activate with a genuinely Wi-Fi 7 capable client device." },
+  { q: "Is BE3600 a good entry point for a first-time mesh Wi-Fi 7 upgrade?", a: "It can be for a small home, check whether the specific model supports mesh expansion since not every BE3600 router is designed to pair with additional satellite units." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

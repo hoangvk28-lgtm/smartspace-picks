@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Does carbon filter thickness matter for pet odor?", a: "Yes. A thin carbon layer saturates with pet odor compounds faster than a thicker one, genuinely affecting how long odor control lasts between filter changes." },
   { q: "Do I need a different air purifier for a shedding breed versus a low-shedding pet?", a: "Airflow matters more for hair than for dander or odor, since hair particles are physically larger and heavier. A heavy-shedding breed benefits from a higher-airflow pick like the Blueair 211i Max." },
   { q: "Should I buy a bigger air purifier if I have multiple pets?", a: "Likely yes. More pets mean proportionally more hair, dander, and odor load moving through the same filtration system, size up in coverage and airflow for a multi-pet home." },
+  { q: "Does a pet-specific air purifier differ meaningfully from a standard HEPA model?", a: "The real differences usually come from a dedicated pre-filter for hair and an activated carbon stage sized for odor, not a fundamentally different core filtration technology than a standard true HEPA purifier." },
+  { q: "How often should I clean pet hair off a purifier's intake vents?", a: "Check weekly in a multi-pet home, since accumulated hair on the intake mesh can restrict airflow and force the fan to work harder, reducing both effectiveness and filter life over time." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

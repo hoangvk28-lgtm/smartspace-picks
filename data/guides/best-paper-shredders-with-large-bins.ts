@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Is a large bin harder to empty than a small one?", a: "Yes, a full large bin is noticeably heavier to lift than a full small bin, a real ergonomic consideration especially for frequent users or shared office settings." },
   { q: "Can I tell when a large bin is full without opening it?", a: "Only if it has a transparent window or fill-level indicator. Several picks in this guide include this feature; fully opaque bins require you to check manually or risk overflow." },
   { q: "Does a large bin mean I can shred longer without stopping?", a: "Not necessarily. Bin size and motor duty cycle are separate specs, a large-bin shredder can still hit its thermal run-time limit well before the bin actually fills up." },
+  { q: "Are pull-out bins or swing-open bins easier to empty on a large-capacity shredder?", a: "A pull-out bin is generally easier to carry to a trash can without spilling, while a swing-open design can be faster for a quick in-place dump, check which style the specific listing uses." },
+  { q: "Does a larger bin make the shredder noticeably heavier to move?", a: "Yes, a larger bin housing adds real weight even when empty, check the specific listed total weight if you'll need to move or reposition the unit regularly." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

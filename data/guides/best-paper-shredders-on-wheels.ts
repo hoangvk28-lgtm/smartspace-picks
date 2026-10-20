@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Is it hard to move a wheeled shredder once the bin is full?", a: "Yes, noticeably. A large bin (6-7 gallons) full of shredded paper adds real weight versus the same bin empty, expect meaningfully more rolling effort once loaded." },
   { q: "Can I just roll my wheeled shredder straight out from under my desk?", a: "You'll likely need pivot/turning clearance too, not just straight-line rolling space, to actually maneuver it into an open position. Measure your under-desk space with a turning radius in mind." },
   { q: "Are locking casters important if I have kids or pets at home?", a: "Yes, it's a genuine safety consideration. An unlocked, easily-rolled shredder can be bumped or pulled by curious kids or pets, worth checking for a locking mechanism specifically in a shared home space." },
+  { q: "Do wheeled shredders work on carpet as easily as hard flooring?", a: "Less easily, small casters can struggle on thick carpet, check wheel size and type if your office or home has carpeted floors rather than assuming any wheeled design rolls smoothly everywhere." },
+  { q: "Does adding wheels make a shredder bulkier than a stationary model?", a: "Slightly, the wheel base and bin housing typically add a bit of footprint, check the specific listed dimensions against your planned storage spot before assuming it matches a non-wheeled equivalent's size." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

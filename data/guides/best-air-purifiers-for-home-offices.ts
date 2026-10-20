@@ -259,6 +259,8 @@ export const faq: FaqItem[] = [
   { q: "Will my air purifier be quiet during video calls?", a: "Check noise at the speed needed for real air changes, not just the marketed minimum. Many quiet claims are only true at the lowest, least-effective fan speed, which may not deliver adequate air cleaning." },
   { q: "Where should I place an air purifier relative to my desk?", a: "Consider both intake efficiency and comfort, placement too close can mean exhaust airflow blows directly at you, drying eyes or blowing papers, a real ergonomic factor specific to close desk placement." },
   { q: "Does running a purifier all day affect filter replacement schedules?", a: "Yes. A home office occupied 8+ continuous hours a day has more relevant cumulative filter loading than a room used only intermittently, factor this into your replacement schedule expectations." },
+  { q: "Can I run an air purifier on a timer to save on filter life?", a: "Yes, many models support a timer or auto mode that only ramps up when its air quality sensor detects a change, a reasonable way to reduce continuous full-speed operation without manually turning it off." },
+  { q: "Does an air purifier replace the need to open a window in a home office?", a: "No, a purifier recirculates and filters existing indoor air but doesn't bring in fresh outdoor air or reduce indoor CO2 buildup, periodic ventilation still matters alongside filtration." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

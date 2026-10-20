@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Do I need to replace filters more often in a dusty home?", a: "Likely yes. Dust-heavy environments load HEPA and pre-filters faster than average use, shortening real filter replacement intervals below the manufacturer's standard estimate." },
   { q: "Is a regular air purifier good enough for construction or renovation dust?", a: "Not necessarily. Construction dust is finer and more abrasive than routine household dust and can clog filters faster than a standard household pick is designed for, consider a heavier-duty option." },
   { q: "Why does my room seem dustier right after I turn on my air purifier?", a: "This is a normal, temporary effect. The purifier stirring room air can temporarily increase perceived airborne dust near the intake as settled dust gets re-suspended by the airflow before being captured, not a sign it isn't working." },
+  { q: "How often do I need to replace a filter if dust is my main concern?", a: "More often than a typical household, since dust loads a filter faster than lighter airborne particles, check the specific manufacturer's filter-life estimate and watch for a visible gray buildup as an early replacement signal." },
+  { q: "Does a pre-filter help extend the main HEPA filter's life against dust?", a: "Yes, a washable or replaceable pre-filter captures larger dust particles before they reach the HEPA stage, meaningfully extending the more expensive main filter's usable life." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does Energy Star certification mean an air purifier cleans air well?", a: "No, it only addresses energy consumption. A certified energy-efficient unit could still be a poor performer on CADR and filtration, the certification's scope doesn't cover air-cleaning performance at all." },
   { q: "Is it cheaper to run a weak air purifier at high speed or a strong one at low speed?", a: "Often the stronger unit run at a lower, adequate speed is cheaper. Running a lower-efficiency unit harder to compensate for inadequate CADR can consume more total energy over time than a genuinely more capable unit run modestly." },
   { q: "Do smart air purifiers use power even when turned off?", a: "Often yes, a small amount. Standby power draw for smart features active in 'off' or auto-idle mode adds a phantom-load cost rarely included in advertised running-cost estimates." },
+  { q: "Does Energy Star certification actually matter for air purifiers?", a: "Yes, it's an independently verified efficiency standard, a certified unit uses measurably less electricity per unit of air cleaned than a comparable uncertified model at the same CADR rating." },
+  { q: "Will running an air purifier in auto mode save meaningfully more energy than a fixed low speed?", a: "Often yes, since auto mode only ramps up fan speed when its sensor detects worse air quality, rather than running at a constant speed regardless of actual need." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "How do I know if a carbon filter is actually good for VOCs?", a: "The amount of carbon, measured in pounds or ounces when published, correlates with real VOC-capture capacity far more than a generic 'carbon filter' marketing label alone." },
   { q: "Do I need a stronger air purifier after painting or buying new furniture?", a: "Yes. Fresh paint and new furniture off-gassing are intense VOC sources that need the substantial carbon mass and multi-stage depth of a higher-capacity pick rather than a standard basic carbon layer." },
   { q: "Can I trust my air purifier's air quality sensor to show VOC levels?", a: "Not fully. Most built-in sensors detect general particulate and air quality rather than VOC concentration specifically, don't rely on the sensor reading alone to judge VOC control." },
+  { q: "How quickly does activated carbon lose its effectiveness against VOCs?", a: "Faster than a HEPA filter loses particulate capacity, since carbon has a finite adsorption capacity that fills up with continuous VOC exposure, check the specific manufacturer's replacement interval rather than assuming it lasts as long as the HEPA stage." },
+  { q: "Do houseplants reduce VOCs as effectively as an air purifier?", a: "No, despite popular claims, the air exchange rate houseplants provide is far too slow to meaningfully reduce VOC concentration compared to a purifier's active carbon filtration and continuous airflow." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

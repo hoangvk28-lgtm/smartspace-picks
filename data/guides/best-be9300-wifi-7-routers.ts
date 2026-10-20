@@ -222,6 +222,8 @@ export const faq: FaqItem[] = [
   { q: "Do all BE9300 routers implement MLO the same way?", a: "No. MLO support maturity and firmware completeness varies meaningfully per vendor, even under the same BE9300 designation, check current firmware notes for the specific model." },
   { q: "Does a higher antenna count mean better Wi-Fi performance on a BE9300 router?", a: "Not necessarily. Antenna count alone doesn't indicate real spatial stream capability, verify the actual spatial stream count specific to the product." },
   { q: "Is it worth paying more for a BE9700 with a 10G port instead of standard BE9300?", a: "Only if you have matching infrastructure, like 10-gigabit internet or a 10GbE NAS, otherwise the 10G port provides no real-world benefit over standard BE9300." },
+  { q: "Does a BE9300 router need a dedicated wired backhaul for mesh satellites?", a: "Not necessarily, BE9300's tri-band design can use its own extra band for wireless mesh backhaul, though a wired connection between units still delivers more consistent throughput where running cable is practical." },
+  { q: "Is BE9300 overkill for a typical home office setup?", a: "For most single-household office use, likely yes, its highest-tier bandwidth mainly benefits households running many simultaneous high-bandwidth devices rather than a standard one or two-person office." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

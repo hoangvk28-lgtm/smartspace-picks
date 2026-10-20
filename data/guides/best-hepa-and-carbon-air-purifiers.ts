@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Will I need to replace the HEPA and carbon filters at the same time?", a: "Not necessarily, and this can be a waste inefficiency if they're combined into one cartridge. Carbon media saturates independently of the HEPA filter's own schedule, a combined cartridge sometimes forces premature replacement of the still-good layer." },
   { q: "Do I need a combined HEPA and carbon purifier if I don't have odor problems?", a: "Probably not. Buyers in low-odor, low-VOC environments, a well-ventilated home office with no cooking or smoking nearby, may be paying for carbon capability they don't actually need, a HEPA-only unit may suffice." },
   { q: "Does it matter whether carbon or HEPA filters air first?", a: "It can affect performance and lifespan. Carbon-first designs can protect the HEPA layer from some particulate load, while HEPA-first designs may expose carbon media to already-cleaned air, this design detail is rarely disclosed by manufacturers." },
+  { q: "Do HEPA and carbon filters need replacing at the same time?", a: "Not always, carbon media typically saturates faster than HEPA fiber, check whether the specific unit uses a combined single filter or separate replaceable stages, since that determines whether you're forced to replace both together." },
+  { q: "Is a combined HEPA-carbon filter better than two separate filter stages?", a: "A combined filter is simpler to maintain with one replacement schedule, while separate stages let you replace only the saturated carbon layer without discarding still-usable HEPA media, a real cost tradeoff depending on your usage pattern." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

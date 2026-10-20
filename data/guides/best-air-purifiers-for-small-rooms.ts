@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Why doesn't my air purifier reach every corner of my small room?", a: "Small rooms with poor air circulation, closed doors, minimal HVAC airflow, can create localized dead zones where the purifier's effective range doesn't fully reach, a real placement consideration for enclosed spaces." },
   { q: "Do small-room air purifiers need filter replacement more often?", a: "Often yes. Compact purifiers designed for small rooms sometimes use smaller filter media with reduced total filtration surface area, requiring more frequent replacement than a larger unit's filter." },
   { q: "Can running an air purifier in a small room make it feel stuffy?", a: "Yes, potentially. A unit running continuously in a small enclosed space can measurably raise room temperature or perceived stuffiness over hours of operation, a secondary comfort effect worth considering." },
+  { q: "Is an oversized air purifier wasteful in a genuinely small room?", a: "It can cycle air faster than necessary, which isn't harmful but means you're paying for coverage capacity you don't need, matching the unit's rated room size closely to your actual room is more cost-efficient." },
+  { q: "How much desk or floor space does a small-room air purifier actually need?", a: "Check the specific listed footprint dimensions, compact models designed for small rooms typically need only a narrow corner or shelf space rather than a dedicated floor area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

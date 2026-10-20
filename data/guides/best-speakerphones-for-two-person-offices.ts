@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Is portability important for a two-person office speakerphone?", a: "It can be a real advantage if you move the device between desks or take it to another space. A genuinely portable pick like the Jabra Speak 510 makes this easy, though it's not essential if the device stays in one fixed spot." },
   { q: "What's the most affordable speakerphone option for a small shared office?", a: "The EMEET M1A and Yealink SP92 are the most budget-friendly options in this guide, both offer more than adequate audio quality for close-range two-person calls without conference-room pricing." },
   { q: "Do I need platform certification for a two-person office speakerphone?", a: "Usually not essential. General USB/Bluetooth compatibility is typically sufficient for close-range calls between two people, formal platform certification matters more in larger rooms where audio pickup is more challenging." },
+  { q: "Should two people share one speakerphone or each use a headset?", a: "A shared speakerphone works well when both people are speaking in the same conversation, while individual headsets suit a setup where each person takes separate calls, match the choice to how you actually use the space." },
+  { q: "Does a two-person speakerphone need a battery, or can it stay plugged in?", a: "Either works for a fixed desk setup where USB power is always available, a battery mainly matters if you'll move the speakerphone between rooms or use it away from a power source." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

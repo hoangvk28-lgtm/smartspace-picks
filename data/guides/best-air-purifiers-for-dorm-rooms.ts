@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Should I avoid air purifiers with an ionizer feature in a dorm room?", a: "Generally a good idea. Ozone-generating ionizer features are a more elevated risk consideration in a small, poorly ventilated, overnight-occupied dorm room, given the smaller air volume per occupant than in a larger home." },
   { q: "Do I need my roommate's agreement to run an air purifier overnight?", a: "It's worth discussing. Roommate noise tolerance and shared-space etiquette introduce a joint-decision noise threshold distinct from a single-occupant bedroom, talk to your roommate before committing to overnight operation." },
   { q: "How do I handle a dorm air purifier during summer break?", a: "Consider its storage footprint when moving out, dorm move-in and move-out logistics mean limited storage space over summer, a more compact purifier is genuinely easier to manage during this transition." },
+  { q: "Do dorms typically allow air purifiers, or are there restrictions?", a: "Policies vary by school, check your specific dorm's appliance rules before buying, some restrict wattage or require UL certification, which most mainstream air purifier brands already meet." },
+  { q: "Is a quiet air purifier important for a shared dorm room?", a: "Yes, genuinely more than in a private room, since a roommate sharing the same space has no control over the noise, prioritize a low decibel rating at the speed you'd actually run it overnight." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

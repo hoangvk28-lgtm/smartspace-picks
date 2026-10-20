@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Is Google Meet certification the same as the Google Meet Hardware program?", a: "No. Standard Google Meet certification for a personal speakerphone is different from the Google Meet Hardware program, which applies to dedicated conference room equipment with stricter testing requirements." },
   { q: "Can I use a non-certified speakerphone with Google Meet?", a: "Yes, most speakerphones work with Google Meet's browser-based audio over standard USB or Bluetooth without formal certification. It's fine for casual use, though a certified device offers more tested reliability for daily calls." },
   { q: "Do I need a Google Meet certified speakerphone if my team also uses Zoom?", a: "Consider a dual-certified pick like the Jabra Speak2 40, which is certified for both Google Meet and Zoom, rather than choosing a single-platform-certified device if your team switches between the two." },
+  { q: "Does Google Meet certification mean better audio quality than an uncertified device?", a: "Certification verifies tested compatibility with Google Meet's specific software behavior, not necessarily superior raw audio hardware, an uncertified device can still have excellent microphone and speaker quality." },
+  { q: "Can I use a Google Meet certified speakerphone on a laptop without the Chrome browser?", a: "Yes, certification applies to the device's hardware and driver behavior with Google Meet generally, not to a specific browser, it works the same way across supported browsers running Google Meet." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

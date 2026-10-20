@@ -246,6 +246,8 @@ export const faq: FaqItem[] = [
   { q: "Is a HEPA-only air purifier enough for printer and office odor?", a: "Not fully. Toner particulate and VOCs from ink and adhesives are both real office-odor sources, a combined carbon-and-HEPA design addresses both rather than one alone." },
   { q: "Where should I place an air purifier relative to my office printer?", a: "As close to the printer as reasonably possible. Placement near the printer itself genuinely helps capture toner particulate and trace ozone before it disperses through the whole room." },
   { q: "Do I need a bigger air purifier for a shared print room?", a: "Likely yes. Multiple printers running together compound both toner particulate and trace ozone beyond what a single-printer setup produces, size up coverage for a shared print room." },
+  { q: "Does an activated carbon filter specifically help with toner smell?", a: "Yes, activated carbon is genuinely effective against the volatile organic compounds that cause toner and printer odor, a HEPA-only purifier without a carbon stage captures particulates but does little for smell specifically." },
+  { q: "Should I place the air purifier right next to the printer?", a: "Close placement captures particulate and odor at the source more effectively, but check the printer's own ventilation requirements first, since blocking its vents with a nearby appliance can cause overheating." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

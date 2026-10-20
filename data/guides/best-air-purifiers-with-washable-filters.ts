@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "How do I properly clean a washable air purifier filter?", a: "Wash with plain water unless the manufacturer specifically permits detergent, some void warranty coverage for anything beyond water, and always allow the filter to fully air-dry before reinstalling to avoid mold growth risk inside the unit." },
   { q: "Can I use soap to clean a washable air purifier filter?", a: "Check the manufacturer's specific guidance first. Some manufacturers explicitly void warranty coverage if a washable filter is cleaned with anything beyond plain water, since soap or detergent residue can damage certain filter media." },
   { q: "What's the difference between fully washable and partially washable air purifiers?", a: "A fully washable-filter unit has no disposable stage at all, a genuinely rarer product tier. A partially washable unit has only a washable pre-filter alongside a still-disposable main filter, these are different total-cost-of-ownership categories." },
+  { q: "How often should I wash a washable air purifier filter?", a: "Check the specific manufacturer's recommended interval, typically every 2-4 weeks for a pre-filter, and always let it fully air-dry before reinstalling to avoid mold growth inside the unit." },
+  { q: "Does a washable filter capture particles as effectively as a disposable HEPA filter?", a: "Not usually to the same standard, washable filters generally target larger particles like hair and dust, while a true HEPA stage still handles the finer 0.3-micron particle capture a washable filter alone can't match." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

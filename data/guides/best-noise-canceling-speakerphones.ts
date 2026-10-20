@@ -255,6 +255,8 @@ export const faq: FaqItem[] = [
   { q: "Does more microphones mean better noise cancellation?", a: "Generally yes for real-world voice isolation across a table. More physical mics with a wider pickup radius genuinely improve how well a speakerphone isolates voices in a real conference room, more so than a single marketing claim." },
   { q: "Do I need a platform-certified speakerphone?", a: "If your team standardizes on Zoom, Google Meet, or Teams, a certified device has been specifically tested against that platform's audio pipeline. General USB/Bluetooth compatibility works with most software but isn't the same tested guarantee." },
   { q: "What's the difference between 360 degrees and directional mic pickup?", a: "A 360 degrees omni mic design works best for a small round table with people seated all around. A more directional pickup pattern can perform better across a narrow rectangular table where voices come from a more limited range of angles." },
+  { q: "Does noise cancellation on a speakerphone remove background sound for everyone?", a: "No, it specifically cleans up what the microphone picks up and sends to other call participants, it doesn't reduce what you yourself hear from the room's own ambient noise." },
+  { q: "Can noise cancellation make my voice sound unnatural to call participants?", a: "In rare cases with aggressive processing, yes, check reviews for mentions of a robotic or clipped voice quality, since overly aggressive noise suppression can trade off some natural voice warmth for background noise removal." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

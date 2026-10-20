@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Which matters more for a big document purge, run time or cooldown time?", a: "Both together. A shredder with a long run time but a long cooldown (like 60 minutes on, 60 minutes off) can take just as long overall as a shorter-run shredder with a quick cooldown, check both numbers, not run time alone." },
   { q: "Is an auto-feed shredder better than a long-run manual one for a big purge?", a: "Often yes for total effort, even with a shorter rated run time, an auto-feed hopper processes documents with far less hands-on feeding than a manual shredder, meaningfully reducing the real time and effort of a large purge." },
   { q: "Can bin size limit how long I can actually shred, even if the motor could keep running?", a: "Yes. A small bin can force an emptying stop well before the motor's rated duty cycle limit is reached. Check that bin capacity and run time are proportionally matched, like the Bonsaii 18-sheet pick's 6-gallon bin paired with its 60-minute run." },
+  { q: "What happens if I exceed a shredder's rated continuous run time?", a: "Most models include a thermal auto-shutoff that forces a cooldown period before resuming, continuing to force paper through past this point risks motor damage rather than simply working slower." },
+  { q: "Do long-run shredders cost more to buy than standard models?", a: "Often yes, a motor and cooling design rated for extended continuous operation typically commands a price premium over a basic shredder rated for shorter intermittent bursts." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

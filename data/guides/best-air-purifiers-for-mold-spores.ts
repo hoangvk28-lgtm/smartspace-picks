@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Is HEPA filtration actually effective against mold spores?", a: "Yes. Mold spores are typically 2-10 microns, well within HEPA's 0.3-micron capture efficiency, making HEPA-based units genuinely effective for the airborne-spore portion of a mold problem." },
   { q: "Do I need to be careful when changing a filter from a mold-affected room?", a: "Yes. A spore captured on the filter can still be viable, so filter handling and disposal matters more than with inert dust, wear gloves and seal the old filter." },
   { q: "Should I get a dehumidifier along with an air purifier for a damp basement?", a: "It's a good idea. A higher-capacity air purifier manages the airborne spore load, but pairing it with a dehumidifier addresses the actual moisture source generating new spores." },
+  { q: "Can an air purifier remove visible mold growth from a wall or ceiling?", a: "No, it only filters airborne spores, visible mold growth on a surface needs direct remediation and addressing the underlying moisture source, a purifier doesn't replace that cleanup step." },
+  { q: "Does a true HEPA filter actually capture mold spores effectively?", a: "Yes, mold spores typically range from 2 to 10 microns, well within true HEPA's tested 99.97% capture rate at 0.3 microns, making it genuinely effective filtration for this specific particle type." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

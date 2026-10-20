@@ -239,6 +239,8 @@ export const faq: FaqItem[] = [
   { q: "If my BE6500 router has 6GHz, is it as fast as a flagship BE9300's 6GHz?", a: "Likely not. The 6GHz channel width at this mid-tier is often capped below the 320MHz available on flagship tiers, commonly limited to 160MHz, meaningfully reducing peak throughput." },
   { q: "Is BE6500 a good value tier, or should I just get BE9300?", a: "BE6500 is often a genuine value sweet spot, but BE9300 can offer disproportionately more real capability for a modest price increase, compare the specific price gap against your needs." },
   { q: "Does MLO work well on a dual-band BE6500 router?", a: "Its cross-band benefit is limited the same way as entry-tier BE3600 routers, since dual-band units lack the second high-speed band MLO is designed to aggregate with." },
+  { q: "Is BE6500 fast enough for a gigabit internet connection?", a: "Yes, comfortably, a BE6500's wired and wireless throughput ceiling sits well above a standard gigabit internet plan's actual speed, so your connection itself becomes the bottleneck before the router does." },
+  { q: "Should I buy BE6500 or wait for prices to drop on BE9300?", a: "Depends on your actual bandwidth needs, BE6500 already covers most home use cases well, so paying extra for BE9300's higher ceiling only makes sense if you have genuinely bandwidth-intensive, multi-gigabit needs today." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

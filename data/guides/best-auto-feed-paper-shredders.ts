@@ -293,6 +293,8 @@ export const faq: FaqItem[] = [
   { q: "Can I load a full 100+ sheet auto-feed hopper and expect it to finish in one run?", a: "Only if the paper is uniform and light. Mixed-weight paper, cardstock, or folded pages can trip the 30-40 minute thermal run-time limit before the hopper empties, requiring a cooldown period and a second run." },
   { q: "Do auto-feed shredders need any special maintenance?", a: "Yes. The feed rollers accumulate paper dust over time and need periodic cleaning to maintain reliable pulling, a maintenance step that doesn't apply to manual-feed shredders." },
   { q: "Why do manual-feed shredders show up when I search for auto-feed shredders?", a: "Popular, highly-rated manual-feed shredders often rank well in general shredder searches, including auto-feed-specific ones, due to their overall popularity, not because they actually have an auto-feed hopper. Always check the specific feed mechanism in the listing." },
+  { q: "Can I still feed sheets by hand into an auto-feed shredder?", a: "Most auto-feed models include a manual slot alongside the hopper, letting you hand-feed a single document or a stapled packet without loading the whole batch into the hopper tray." },
+  { q: "How many sheets can a typical auto-feed hopper hold at once?", a: "This varies significantly by model, ranging from a modest stack up to 100+ sheets on higher-capacity units, check the specific listed hopper capacity against your typical batch size before buying." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

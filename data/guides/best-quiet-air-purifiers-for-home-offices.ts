@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Can a video call pick up my air purifier's fan noise even if I can't hear it?", a: "Yes, potentially. Microphone pickup sensitivity can pick up fan noise even when it's subjectively unnoticeable to the room's occupants, quiet enough for you doesn't guarantee inaudible to call participants." },
   { q: "Are compact air purifiers as quiet as larger ones?", a: "Not necessarily. Some quiet claims are achieved through a larger, slower-spinning fan design rather than genuinely superior engineering, be skeptical of ultra-compact 'whisper quiet' claims specifically." },
   { q: "Does an air purifier get louder as it ages?", a: "It can. Noise level can increase measurably over the unit's lifespan as bearings wear or the filter clogs, forcing the fan to work harder for the same airflow, a longevity dimension rarely tested in initial reviews." },
+  { q: "What decibel level counts as genuinely quiet for a home office purifier?", a: "Roughly 30-40 dB at its lowest running speed is comparable to a quiet library, check the specific listed decibel rating at the speed you'll actually use daily, not just its lowest, least-effective setting." },
+  { q: "Does a quiet-rated air purifier sacrifice filtration performance for lower noise?", a: "Not inherently, quiet operation at low speed is achievable without reducing filter quality, though reaching the unit's full rated CADR does typically require a higher, louder fan speed regardless of how quiet its lowest setting is." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

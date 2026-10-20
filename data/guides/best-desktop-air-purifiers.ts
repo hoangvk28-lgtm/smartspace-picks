@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Should I place an air purifier right next to my face?", a: "No, avoid placing it too close. The exhaust can recirculate exhaled breath and CO2 in a small radius, a genuine air-quality consideration specific to very close desk proximity." },
   { q: "What's the difference between 'desktop' and 'compact for desks' air purifiers?", a: "Desktop units are typically larger with genuinely higher CADR that could contribute to real whole-room air changes in a small enough room, while 'compact for desks' units are more miniaturized and personal-zone focused only." },
   { q: "Can a desktop air purifier affect nearby electronics?", a: "Potentially, through a thermal interaction. A purifier placed near a monitor or laptop can draw warm exhaust air across the device's own ventilation intakes, worth checking if you place them very close together." },
+  { q: "How often should I clean a desktop air purifier's pre-filter?", a: "Check the specific manufacturer's guidance, but a pre-filter mesh sitting in a dusty desk environment typically benefits from vacuuming or wiping every few weeks between full filter replacements to maintain airflow." },
+  { q: "Does a desktop air purifier need to run 24/7 to be effective?", a: "Not necessarily, running it during active desk hours covers the time you're actually breathing that air, though continuous low-speed operation does keep particulate levels more consistently low overall." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

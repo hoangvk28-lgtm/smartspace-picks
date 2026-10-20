@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does a HEPA air purifier remove smoke smell?", a: "Not on its own. True HEPA filtration captures particulate matter effectively but doesn't address gases or odors at all, only activated carbon media addresses those, verify the carbon layer's presence and substantiality if odor control matters." },
   { q: "Does a HEPA filter lose effectiveness before it needs replacing?", a: "Yes, gradually. HEPA filter effectiveness degrades as it loads with captured particulate, reducing actual CADR well before the manufacturer's 'replace every X months' indicator triggers, this is normal wear." },
   { q: "Can a certified HEPA filter still underperform in a real unit?", a: "Yes, if the housing isn't well sealed. A genuinely certified HEPA filter installed in a poorly sealed unit, with air bypassing the filter through gaps, delivers meaningfully worse real-world performance than the filter media's own rating suggests." },
+  { q: "Is True HEPA the same as HEPA-type or HEPA-like?", a: "No, True HEPA meets a verified 99.97% capture rate at 0.3 microns under a tested standard, while HEPA-type or HEPA-like filters aren't held to that same independently verified threshold despite the similar name." },
+  { q: "How long does a HEPA filter actually last before replacement?", a: "Check the specific manufacturer's stated interval, typically 6-12 months under normal use, though continuous operation or a dustier environment can shorten that real-world lifespan meaningfully." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

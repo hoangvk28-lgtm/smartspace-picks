@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Does auto mode make an air purifier noisy at unpredictable times?", a: "It can. Auto-mode sensor-based speed adjustment reacts to detected air quality changes, which may conflict with home-office noise-consistency needs during calls, consider a manual speed override for predictable noise." },
   { q: "Is a smart air purifier better at cleaning air than a non-smart one?", a: "Not necessarily. Smart features add complexity, more potential failure points, without necessarily improving actual air-cleaning performance compared to a non-smart unit at similar CADR, the smart features are about convenience, not filtration power." },
   { q: "What happens to smart air purifier features if the manufacturer stops supporting the app?", a: "Remote monitoring and control features can degrade or stop working entirely, a real longevity risk for smart devices generally, worth considering alongside the convenience these features offer." },
+  { q: "Does a smart air purifier still work without Wi-Fi connected?", a: "Most still function as a basic purifier using physical controls, you'd just lose the remote app control and air quality data logging that the smart features specifically provide." },
+  { q: "Is voice assistant compatibility worth prioritizing in a smart air purifier?", a: "Only if you'll actually use it, check the specific listing confirms support for your particular assistant, like Alexa or Google Assistant, rather than assuming generic 'smart' branding covers your ecosystem." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

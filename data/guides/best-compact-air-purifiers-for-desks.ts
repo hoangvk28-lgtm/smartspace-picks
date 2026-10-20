@@ -242,6 +242,8 @@ export const faq: FaqItem[] = [
   { q: "Should I pick the smallest desk air purifier available?", a: "Not necessarily. Footprint should be weighed against genuine airflow effectiveness, a tiny unit that barely moves air isn't automatically the better choice just because it takes up less desk space." },
   { q: "How often do compact desk air purifier filters need replacing?", a: "More often than room-sized purifiers. Very compact filter media in desk-sized units has meaningfully shorter replacement intervals, an ongoing cost factor proportionally larger relative to the low purchase price." },
   { q: "Does the exhaust direction on a desk purifier matter?", a: "Yes, at this close range. A desk purifier's exhaust can blow dust it hasn't yet captured across the desk surface toward your monitor and keyboard rather than purely upward or away, check this against your specific desk layout." },
+  { q: "Can a compact desk purifier actually clean a whole small room too?", a: "Often it can handle a small enclosed room at a slower pace, though its rated CADR is typically calculated for close-range desk use, check the manufacturer's specific room-size claim before relying on it for whole-room coverage." },
+  { q: "Will a desk purifier's fan noise distract me during focused work?", a: "At its highest speed, often yes since the fan sits close to your ears at desk distance, check the specific listing's noise rating at the speed you'd actually use daily, not just its lowest, quietest setting." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

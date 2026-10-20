@@ -238,6 +238,8 @@ export const faq: FaqItem[] = [
   { q: "Does mic count matter more than pickup radius for a small room?", a: "They solve different problems. Mic count drives how well a device isolates individual voices from each other around a table, pickup radius measures how far away it can hear sound at all. A small room with several people needs both." },
   { q: "What pickup pattern works best for a small meeting room?", a: "360 degrees omni pickup suits a small round table, while a more directional pickup pattern can perform better across a narrow rectangular table, match the pattern to your room's actual table shape." },
   { q: "Do I need a platform-certified speakerphone for a small meeting room?", a: "If the room is dedicated to one video platform, a certified device offers a stronger tested guarantee. If it hosts calls on multiple platforms, a dual-certified pick like the Jabra Speak2 40 offers more flexibility." },
+  { q: "How many people can a small meeting room speakerphone actually support?", a: "Check the specific listed pickup radius, most small-room models are rated for 4-6 people around a standard table, exceeding that range measurably degrades pickup for people seated farther away." },
+  { q: "Should a small meeting room speakerphone sit on the table or mount on a wall?", a: "Table placement typically gives more even pickup for a seated group, a wall-mounted option suits a room needing the table surface clear, check the specific listing supports your preferred placement." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [
