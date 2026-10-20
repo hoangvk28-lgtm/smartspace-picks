@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require a Narrow Capacity Tolerance",
-    "explanation": "Confirm 5000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance. With prices in this roundup ranging roughly $1169 to $2799, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm 5000wh portable power stations sits within a genuinely narrow tolerance of the target Wh figure, and publish that tolerance. This matters in practice because the picks in this comparison span from about $1169 to $2799, and skipping a real check on narrow capacity tolerance is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on narrow capacity tolerance, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Usable Energy, Not Rated Capacity",
-    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone. Given the real spread here, from about $1169 up to $2799, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check measured or documented usable AC and DC energy from full to automatic cutoff, not the rated capacity alone. Buyers shopping anywhere from $1169 to $2799 in this category often assume usable energy rated capacity is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on usable energy rated capacity stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Pair Capacity With Continuous Output",
-    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity. Across this comparison's $1169 to $2799 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm continuous inverter output is sufficient for the devices you actually plan to power at this capacity. At every price point in this comparison's $1169 to $2799 range, pair capacity continuous output varies enough between listings that assuming it scales with price is a real way to get burned. Confirm pair capacity continuous output directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Compare Weight and Wh-Per-Pound",
-    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity. Products at the low end near $1169 and the high end near $2799 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare weight, volume, and Wh-per-pound efficiency across finalists at the same target capacity. Two picks priced close together, anywhere in this comparison's $1169-$2799 band, can still land on opposite ends of weight wh-per-pound, so price alone is a poor proxy for it here. Compare the stated figure for weight wh-per-pound across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Recharge Time and Expansion",
-    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class. This matters in practice because the picks in this comparison span from about $1169 to $2799, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Publish AC and solar recharge time, cycle-life conditions, and expansion-battery compatibility for this capacity class. Products at the low end near $1169 and the high end near $2799 of this comparison don't always handle recharge time expansion the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of recharge time expansion, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "P5000 Pro Portable Power Station is aimed at buyers prioritizing 5120wh, 3600w, 112 lbs (39% lighter class)." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "P5000 Pro Portable Power Station is aimed at buyers prioritizing 5120wh, 3600w, 112 lbs (39% lighter class)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000wh-portable-power-stations","title":"Best 1000Wh Portable Power Stations in 2026"},{"href":"/guide/best-500wh-portable-power-stations","title":"Best 500Wh Portable Power Stations in 2026"},{"href":"/guide/best-2000wh-portable-power-stations","title":"Best 2000Wh Portable Power Stations in 2026"}];

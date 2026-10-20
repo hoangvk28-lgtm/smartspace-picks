@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Match Host Link Architecture Exactly",
-    "explanation": "Confirm egpu enclosures for laptop's host port generation and type precisely, since laptop and mini PC eGPU support varies significantly even within similar-looking USB-C ports. This matters in practice because the picks in this comparison span from about $96 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm egpu enclosures for laptop's host port generation and type precisely, since laptop and mini PC eGPU support varies significantly even within similar-looking USB-C ports. Products at the low end near $96 and the high end near $630 of this comparison don't always handle host link architecture exactly the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of host link architecture exactly, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Charging and Power Requirements Together",
-    "explanation": "Verify laptop charging wattage and GPU power supply requirements together, since eGPU setups can unexpectedly need a second power cable. With prices in this roundup ranging roughly $96 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify laptop charging wattage and GPU power supply requirements together, since eGPU setups can unexpectedly need a second power cable. Across this comparison's $96 to $630 range, charging power requirements together is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check charging power requirements together against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Display Path Behavior",
-    "explanation": "Check documented performance for both external monitor and internal display paths separately where the host supports both. Given the real spread here, from about $96 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check documented performance for both external monitor and internal display paths separately where the host supports both. Given the real spread here, from about $96 up to $630, two products can look nearly identical on the surface while differing exactly on display path behavior, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on display path behavior, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm BIOS and Driver Requirements",
-    "explanation": "Verify BIOS, firmware, and driver versions needed for stable operation, since eGPU support can depend on specific software versions. Across this comparison's $96 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify BIOS, firmware, and driver versions needed for stable operation, since eGPU support can depend on specific software versions. With prices in this roundup ranging roughly $96 to $630, bios driver requirements is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify bios driver requirements directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Dock-Peripheral Behavior Under GPU Load",
-    "explanation": "Confirm that any additional dock functionality (Ethernet, USB, storage) doesn't degrade meaningfully while the GPU is under load. Products at the low end near $96 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm that any additional dock functionality (Ethernet, USB, storage) doesn't degrade meaningfully while the GPU is under load. This matters in practice because the picks in this comparison span from about $96 to $630, and skipping a real check on dock-peripheral behavior under gpu is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on dock-peripheral behavior under gpu, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18) is aimed at buyers prioritizing jhl7540/7440 controller, pcie 4.0 x16 mode." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Maskedfish eGPU Enclosure Thunderbolt 3/4 USB4 40Gbps PD 85W Charging (MK-L18) is aimed at buyers prioritizing jhl7540/7440 controller, pcie 4.0 x16 mode." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

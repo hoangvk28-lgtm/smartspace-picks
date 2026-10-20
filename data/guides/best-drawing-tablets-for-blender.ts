@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Test the Target App's Actual Shortcuts",
-    "explanation": "Confirm drawing tablets for blender's express keys map cleanly to shortcuts used in your specific target application's actual workflow. Across this comparison's $45 to $210 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm drawing tablets for blender's express keys map cleanly to shortcuts used in your specific target application's actual workflow. Buyers shopping anywhere from $45 to $210 in this category often assume target apps actual shortcuts is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on target apps actual shortcuts stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Map Viewport and Navigation Controls",
-    "explanation": "Check dial or Quick Key mapping for viewport navigation, since 3D and animation apps rely heavily on this. Products at the low end near $45 and the high end near $210 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check dial or Quick Key mapping for viewport navigation, since 3D and animation apps rely heavily on this. At every price point in this comparison's $45 to $210 range, map viewport navigation controls varies enough between listings that assuming it scales with price is a real way to get burned. Confirm map viewport navigation controls directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Evaluate Precision During Detail Work",
-    "explanation": "Test pen precision during masking, sculpting, or frame-by-frame cleanup relevant to the specific workflow. This matters in practice because the picks in this comparison span from about $45 to $210, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Test pen precision during masking, sculpting, or frame-by-frame cleanup relevant to the specific workflow. Two picks priced close together, anywhere in this comparison's $45-$210 band, can still land on opposite ends of precision during detail work, so price alone is a poor proxy for it here. Compare the stated figure for precision during detail work across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Color Workflow for Production Use",
-    "explanation": "For displays, confirm color space support matches your specific production pipeline's requirements. With prices in this roundup ranging roughly $45 to $210, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "For displays, confirm color space support matches your specific production pipeline's requirements. Products at the low end near $45 and the high end near $210 of this comparison don't always handle color workflow production use the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of color workflow production use, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Long-Session Posture Support",
-    "explanation": "Verify stand angle and hand-travel comfort across the active area for extended production sessions. Given the real spread here, from about $45 up to $210, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify stand angle and hand-travel comfort across the active area for extended production sessions. Across this comparison's $45 to $210 range, long-session posture support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check long-session posture support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "XPPen Deco 01 V3 10x6 Drawing Tablet is aimed at buyers prioritizing 16,384 pressure levels, 60-degree tilt." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "XPPen Deco 01 V3 10x6 Drawing Tablet is aimed at buyers prioritizing 16,384 pressure levels, 60-degree tilt." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-animation","title":"Best Drawing Tablets for Animation in 2026"},{"href":"/guide/best-drawing-tablets-for-3d-modeling","title":"Best Drawing Tablets for 3d Modeling in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"}];

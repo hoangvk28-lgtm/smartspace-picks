@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Battery Chemistry",
-    "explanation": "Confirm lifepo4 portable power stations's exact battery chemistry rather than inferring LiFePO4 from product generation or marketing language alone. This matters in practice because the picks in this comparison span from about $330 to $800, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm lifepo4 portable power stations's exact battery chemistry rather than inferring LiFePO4 from product generation or marketing language alone. Two picks priced close together, anywhere in this comparison's $330-$800 band, can still land on opposite ends of documented battery chemistry, so price alone is a poor proxy for it here. Compare the stated figure for documented battery chemistry across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Cycle-Life Claim Conditions",
-    "explanation": "Verify the cycle-life claim together with its remaining-capacity threshold and documented test conditions. With prices in this roundup ranging roughly $330 to $800, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify the cycle-life claim together with its remaining-capacity threshold and documented test conditions. Products at the low end near $330 and the high end near $800 of this comparison don't always handle cycle-life claim conditions the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cycle-life claim conditions, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Compare Storage and Temperature Guidance",
-    "explanation": "Compare calendar-storage guidance and operating/charging temperature ranges across finalists. Given the real spread here, from about $330 up to $800, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Compare calendar-storage guidance and operating/charging temperature ranges across finalists. Across this comparison's $330 to $800 range, storage temperature guidance is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check storage temperature guidance against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Evaluate Warranty and Serviceability",
-    "explanation": "Check warranty length and whether battery or expansion modules are actually serviceable if they fail. Across this comparison's $330 to $800 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check warranty length and whether battery or expansion modules are actually serviceable if they fail. Given the real spread here, from about $330 up to $800, two products can look nearly identical on the surface while differing exactly on warranty serviceability, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on warranty serviceability, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Standby and Inverter Losses",
-    "explanation": "Measure inverter and standby losses directly, since longevity alone doesn't guarantee real runtime efficiency. Products at the low end near $330 and the high end near $800 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure inverter and standby losses directly, since longevity alone doesn't guarantee real runtime efficiency. With prices in this roundup ranging roughly $330 to $800, standby inverter losses is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify standby inverter losses directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Anker SOLIX C1000 Gen 2 Portable Power Station is aimed at buyers prioritizing 1024wh, 2000w output, 10 ports." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

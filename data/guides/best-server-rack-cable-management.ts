@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Match Slot Count to Real Cable Volume",
-    "explanation": "Confirm server rack cable management's slot or channel count actually covers your real number of cable runs, not just a rough estimate. Products at the low end near $24 and the high end near $47 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm server rack cable management's slot or channel count actually covers your real number of cable runs, not just a rough estimate. With prices in this roundup ranging roughly $24 to $47, slot count real cable is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify slot count real cable directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Metal vs Plastic Construction",
-    "explanation": "Verify metal construction over plastic finger ducts, since metal holds up better under repeated cable adjustments. This matters in practice because the picks in this comparison span from about $24 to $47, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify metal construction over plastic finger ducts, since metal holds up better under repeated cable adjustments. This matters in practice because the picks in this comparison span from about $24 to $47, and skipping a real check on metal vs plastic construction is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on metal vs plastic construction, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Rounded Edges Protect Cable Jackets",
-    "explanation": "Look for rounded or smoothed edges specifically, since sharp metal edges can nick cable insulation over time. With prices in this roundup ranging roughly $24 to $47, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Look for rounded or smoothed edges specifically, since sharp metal edges can nick cable insulation over time. Buyers shopping anywhere from $24 to $47 in this category often assume rounded edges protect cable is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on rounded edges protect cable stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Mounting Compatibility With Your Rack",
-    "explanation": "Check that the cable manager's screw pattern matches your rack's hole spacing before ordering. Given the real spread here, from about $24 up to $47, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check that the cable manager's screw pattern matches your rack's hole spacing before ordering. At every price point in this comparison's $24 to $47 range, mounting compatibility rack varies enough between listings that assuming it scales with price is a real way to get burned. Confirm mounting compatibility rack directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Whether It Also Blocks Dust",
-    "explanation": "Confirm brush-style panels also reduce dust intake through unused rack slots, not just organize visible cables. Across this comparison's $24 to $47 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm brush-style panels also reduce dust intake through unused rack slots, not just organize visible cables. Two picks priced close together, anywhere in this comparison's $24-$47 band, can still land on opposite ends of whether it also blocks, so price alone is a poor proxy for it here. Compare the stated figure for whether it also blocks across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 

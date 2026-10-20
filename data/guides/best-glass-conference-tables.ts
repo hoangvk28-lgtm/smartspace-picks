@@ -244,23 +244,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Material Authenticity",
-    "explanation": "Confirm whether the glass conference tables's surface is genuine stone, engineered stone, tempered glass, or a printed laminate look, since the label alone doesn't guarantee the material. This matters in practice because the picks in this comparison span from about $174 to $700, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm whether the glass conference tables's surface is genuine stone, engineered stone, tempered glass, or a printed laminate look, since the label alone doesn't guarantee the material. Two picks priced close together, anywhere in this comparison's $174-$700 band, can still land on opposite ends of material authenticity, so price alone is a poor proxy for it here. Compare the stated figure for material authenticity across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate behaves very differently than a genuine slab or engineered-stone top. With prices in this roundup ranging roughly $174 to $700, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate behaves very differently than a genuine slab or engineered-stone top. Products at the low end near $174 and the high end near $700 of this comparison don't always handle top substrate thickness the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of top substrate thickness, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Compare Stain and Heat Behavior",
-    "explanation": "Check manufacturer care guidance for staining, etching, and heat tolerance, since genuine stone, engineered stone, glass, and laminate all react differently to daily office use. Given the real spread here, from about $174 up to $700, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check manufacturer care guidance for staining, etching, and heat tolerance, since genuine stone, engineered stone, glass, and laminate all react differently to daily office use. Across this comparison's $174 to $700 range, stain heat behavior is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check stain heat behavior against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Inspect Edge and Seam Repair Options",
-    "explanation": "Ask how a chipped edge or visible seam gets repaired, particularly on larger tables where a single continuous slab isn't practical. Across this comparison's $174 to $700 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Ask how a chipped edge or visible seam gets repaired, particularly on larger tables where a single continuous slab isn't practical. Given the real spread here, from about $174 up to $700, two products can look nearly identical on the surface while differing exactly on edge seam repair options, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on edge seam repair options, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Calculate Weight Against the Base and Floor",
-    "explanation": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration. Products at the low end near $174 and the high end near $700 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration. With prices in this roundup ranging roughly $174 to $700, calculate weight against base is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify calculate weight against base directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "71\" Tempered Glass Dining/Conference Table is aimed at buyers prioritizing 71\"x35.4\"x30\", 0.39\" tempered glass top." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "71\" Tempered Glass Dining/Conference Table is aimed at buyers prioritizing 71\"x35.4\"x30\", 0.39\" tempered glass top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-epoxy-conference-tables","title":"Best Epoxy Conference Tables in 2026"},{"href":"/guide/best-marble-conference-tables","title":"Best Marble Conference Tables in 2026"},{"href":"/guide/best-concrete-conference-tables","title":"Best Concrete Conference Tables in 2026"}];

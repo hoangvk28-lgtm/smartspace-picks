@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm 10-Inch Compatibility, Not 19-Inch",
-    "explanation": "Verify mini server racks for home only fits 10-inch mini rack equipment, since standard 19-inch servers and switches won't mount in this format. With prices in this roundup ranging roughly $70 to $150, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify mini server racks for home only fits 10-inch mini rack equipment, since standard 19-inch servers and switches won't mount in this format. This matters in practice because the picks in this comparison span from about $70 to $150, and skipping a real check on 10-inch compatibility 19-inch is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on 10-inch compatibility 19-inch, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check U-Height for the Actual Cluster Size",
-    "explanation": "Count the actual boards or devices planned for the cluster against the U-height rather than assuming any mini rack size works. Given the real spread here, from about $70 up to $150, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Count the actual boards or devices planned for the cluster against the U-height rather than assuming any mini rack size works. Buyers shopping anywhere from $70 to $150 in this category often assume u-height actual cluster size is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on u-height actual cluster size stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Included Shelves and Adapter Boards",
-    "explanation": "Check which shelves, blank panels, and adapter boards are actually included, since this varies notably between mini rack sizes. Across this comparison's $70 to $150 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check which shelves, blank panels, and adapter boards are actually included, since this varies notably between mini rack sizes. At every price point in this comparison's $70 to $150 range, included shelves adapter boards varies enough between listings that assuming it scales with price is a real way to get burned. Confirm included shelves adapter boards directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Confirm Depth Fits Your SBC or Mini-ITX Build",
-    "explanation": "Verify the rack's depth accommodates your specific single-board computer or mini-ITX case dimensions. Products at the low end near $70 and the high end near $150 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify the rack's depth accommodates your specific single-board computer or mini-ITX case dimensions. Two picks priced close together, anywhere in this comparison's $70-$150 band, can still land on opposite ends of depth fits sbc mini-itx, so price alone is a poor proxy for it here. Compare the stated figure for depth fits sbc mini-itx across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Ventilation for Passive Cooling",
-    "explanation": "Confirm the frame's open or translucent-panel design provides enough passive airflow for a small cluster generating real heat. This matters in practice because the picks in this comparison span from about $70 to $150, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the frame's open or translucent-panel design provides enough passive airflow for a small cluster generating real heat. Products at the low end near $70 and the high end near $150 of this comparison don't always handle ventilation passive cooling the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of ventilation passive cooling, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GeeekPi 12U Network Rack is aimed at buyers prioritizing 12u, 10\" width, 10.23\" depth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GeeekPi 12U Network Rack is aimed at buyers prioritizing 12u, 10\" width, 10.23\" depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mini-server-racks","title":"Best Mini Server Racks in 2026"},{"href":"/guide/best-10-inch-server-racks","title":"Best 10-Inch Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

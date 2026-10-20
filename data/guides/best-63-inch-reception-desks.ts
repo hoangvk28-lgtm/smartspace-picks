@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width",
-    "explanation": "Require an actual assembled width close to 63 inches and publish any counter or side-panel overhang beyond the nominal size, since retail titles can round dimensions that differ from the assembled product. With prices in this roundup ranging roughly $198 to $560, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Require an actual assembled width close to 63 inches and publish any counter or side-panel overhang beyond the nominal size, since retail titles can round dimensions that differ from the assembled product. With prices in this roundup ranging roughly $198 to $560, actual assembled width is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify actual assembled width directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Lay Out Real Equipment at Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. Given the real spread here, from about $198 up to $560, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Lay out monitor, keyboard, phone or POS, and visitor-handoff zones at scale so the exact width is proven usable, not just theoretically sufficient. This matters in practice because the picks in this comparison span from about $198 to $560, and skipping a real check on lay out real equipment is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on lay out real equipment, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Publish Full Depth and Return Footprint",
-    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. Across this comparison's $198 to $560 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Publish full depth and any return or wing footprint, since front width alone does not establish whether the desk actually fits the room. Buyers shopping anywhere from $198 to $560 in this category often assume full depth return footprint is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on full depth return footprint stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Knee Space After Storage",
-    "explanation": "Measure knee space after drawers and cabinets are installed, and identify which equipment must be omitted in a compact footprint at this width. Products at the low end near $198 and the high end near $560 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure knee space after drawers and cabinets are installed, and identify which equipment must be omitted in a compact footprint at this width. At every price point in this comparison's $198 to $560 range, knee space after storage varies enough between listings that assuming it scales with price is a real way to get burned. Confirm knee space after storage directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Cable and Counter Depth",
-    "explanation": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one. This matters in practice because the picks in this comparison span from about $198 to $560, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one. Two picks priced close together, anywhere in this comparison's $198-$560 band, can still land on opposite ends of cable counter depth, so price alone is a poor proxy for it here. Compare the stated figure for cable counter depth across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Kikihouse 63\" Fluted Reception Desk with LED is aimed at buyers prioritizing 63\"w x 22\"d x 42\"h fluted-front desk, maple." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-60-inch-reception-desks","title":"5 Best 60-Inch Reception Desks in 2026"},{"href":"/guide/best-70-inch-reception-desks","title":"5 Best 70-Inch Reception Desks in 2026"},{"href":"/guide/best-6ft-reception-desks","title":"6 Best 6ft Reception Desks in 2026"}];

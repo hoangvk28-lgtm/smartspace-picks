@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish the Full Installed Footprint",
-    "explanation": "Get the full installed footprint for a curved desk, not just the front-facing width, since the curve adds depth that a straight desk's spec sheet doesn't need to account for. Across this comparison's $522 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Get the full installed footprint for a curved desk, not just the front-facing width, since the curve adds depth that a straight desk's spec sheet doesn't need to account for. Products at the low end near $522 and the high end near $1469 of this comparison don't always handle full installed footprint the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of full installed footprint, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Staff Reach Around the Curve",
-    "explanation": "Measure staff reach and chair movement around the curve itself, since a tight radius can push a monitor or storage cabinet out of comfortable reach. Products at the low end near $522 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure staff reach and chair movement around the curve itself, since a tight radius can push a monitor or storage cabinet out of comfortable reach. Across this comparison's $522 to $1469 range, staff reach around curve is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check staff reach around curve against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Map Visitor Approach to the Curve",
-    "explanation": "Confirm the curve improves visitor approach and queue flow rather than creating a blind spot or awkward standing position at the desk's tightest point. This matters in practice because the picks in this comparison span from about $522 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the curve improves visitor approach and queue flow rather than creating a blind spot or awkward standing position at the desk's tightest point. Given the real spread here, from about $522 up to $1469, two products can look nearly identical on the surface while differing exactly on map visitor approach curve, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on map visitor approach curve, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Orientation Options",
-    "explanation": "Check whether the curved design ships in a fixed orientation or offers mirrored options, since a curve can't be flipped after assembly the way a flat panel sometimes can. With prices in this roundup ranging roughly $522 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether the curved design ships in a fixed orientation or offers mirrored options, since a curve can't be flipped after assembly the way a flat panel sometimes can. With prices in this roundup ranging roughly $522 to $1469, orientation options is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify orientation options directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Locate Storage Relative to the Curve",
-    "explanation": "Place storage, printers, and cable routing relative to the curved profile itself to avoid dead space where the curve meets a straight storage module. Given the real spread here, from about $522 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Place storage, printers, and cable routing relative to the curved profile itself to avoid dead space where the curve meets a straight storage module. This matters in practice because the picks in this comparison span from about $522 to $1469, and skipping a real check on locate storage relative curve is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on locate storage relative curve, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Romig Marque Curved Single-Unit Reception Workstation is aimed at buyers prioritizing 72\"w x 32\"d curved single-unit desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-round-reception-desks","title":"6 Best Round Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks","title":"7 Best L-Shaped Reception Desks in 2026"}];

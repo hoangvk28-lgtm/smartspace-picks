@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Set Explicit Footprint Limits",
-    "explanation": "Define maximum external dimensions for mini desktop cnc machines rather than judging 'mini' from photos alone. Products at the low end near $154 and the high end near $549 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Define maximum external dimensions for mini desktop cnc machines rather than judging 'mini' from photos alone. Given the real spread here, from about $154 up to $549, two products can look nearly identical on the surface while differing exactly on set explicit footprint limits, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on set explicit footprint limits, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Usable Travel After Clamps",
-    "explanation": "Verify usable travel after clamps, vise, and tool clearance are accounted for, since compact machines lose a larger share of nominal travel. This matters in practice because the picks in this comparison span from about $154 to $549, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify usable travel after clamps, vise, and tool clearance are accounted for, since compact machines lose a larger share of nominal travel. With prices in this roundup ranging roughly $154 to $549, usable travel after clamps is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify usable travel after clamps directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Bench Weight and Space Needs",
-    "explanation": "Check machine, controller, and power-supply weight plus real bench space requirements before assuming compact means lightweight. With prices in this roundup ranging roughly $154 to $549, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check machine, controller, and power-supply weight plus real bench space requirements before assuming compact means lightweight. This matters in practice because the picks in this comparison span from about $154 to $549, and skipping a real check on bench weight space needs is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on bench weight space needs, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Noise in a Small Room",
-    "explanation": "Consider noise and extraction needs specifically in a smaller room, where sound carries differently than in an open shop. Given the real spread here, from about $154 up to $549, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Consider noise and extraction needs specifically in a smaller room, where sound carries differently than in an open shop. Buyers shopping anywhere from $154 to $549 in this category often assume noise small room is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on noise small room stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Storage for Cutters and Clamps",
-    "explanation": "Account for storage space needed for cutters, clamps, stock, and maintenance supplies alongside the machine itself. Across this comparison's $154 to $549 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Account for storage space needed for cutters, clamps, stock, and maintenance supplies alongside the machine itself. At every price point in this comparison's $154 to $549 range, plan storage cutters clamps varies enough between listings that assuming it scales with price is a real way to get burned. Confirm plan storage cutters clamps directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

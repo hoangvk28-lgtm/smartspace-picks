@@ -236,7 +236,7 @@ export const faq: FaqItem[] = [
   { q: "Do travel power strips have surge protection?", a: "Not always. Travel-oriented compact strips often cut surge protection entirely to save size and weight, verify this specifically if the strip will also serve as your daily desk protector." },
   { q: "Why don't some travel power strips have surge protection?", a: "Some are explicitly designed this way for cruise-line compliance, most cruise lines prohibit surge protectors and traditional power strips with internal circuitry, cruise-approved picks omit this component by policy." },
   { q: "Can I use a US travel power strip internationally?", a: "Only if it's explicitly voltage-compatible. Many power strips are voltage-locked to 120V and are not safe or functional on 230V international circuits, even with a simple plug-shape adapter, verify voltage compatibility before international travel." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who genuinely need one strip for both occasional travel and daily desk use" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who genuinely need one strip for both occasional travel and daily desk use" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who need a cruise-compliant dual-use strip with more outlets At $8.99, it's the lowest-cost pick in this comparison." },
 ];
 

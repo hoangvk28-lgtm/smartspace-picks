@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Official Pure-Sine-Wave Documentation",
-    "explanation": "Confirm pure sine wave portable power stations documents genuine pure-sine-wave output in official specs, not just as a marketing phrase. Across this comparison's $109 to $669 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm pure sine wave portable power stations documents genuine pure-sine-wave output in official specs, not just as a marketing phrase. This matters in practice because the picks in this comparison span from about $109 to $669, and skipping a real check on official pure-sine-wave documentation is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on official pure-sine-wave documentation, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Waveform Under Representative Loads",
-    "explanation": "Check AC voltage, frequency, and waveform quality across representative loads where test data is available. Products at the low end near $109 and the high end near $669 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check AC voltage, frequency, and waveform quality across representative loads where test data is available. Buyers shopping anywhere from $109 to $669 in this category often assume waveform under representative loads is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on waveform under representative loads stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Test Inductive Startup Behavior",
-    "explanation": "Verify inductive or compressor startup behavior directly rather than relying only on a surge rating. This matters in practice because the picks in this comparison span from about $109 to $669, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify inductive or compressor startup behavior directly rather than relying only on a surge rating. At every price point in this comparison's $109 to $669 range, inductive startup behavior varies enough between listings that assuming it scales with price is a real way to get burned. Confirm inductive startup behavior directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Efficiency at Low and Medium Load",
-    "explanation": "Compare inverter efficiency and fan noise specifically at low and medium load levels. With prices in this roundup ranging roughly $109 to $669, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Compare inverter efficiency and fan noise specifically at low and medium load levels. Two picks priced close together, anywhere in this comparison's $109-$669 band, can still land on opposite ends of efficiency at low medium, so price alone is a poor proxy for it here. Compare the stated figure for efficiency at low medium across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Boost Mode Doesn't Distort Voltage",
-    "explanation": "Confirm whether boost modes distort voltage or alter compatibility with sensitive electronics. Given the real spread here, from about $109 up to $669, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm whether boost modes distort voltage or alter compatibility with sensitive electronics. Products at the low end near $109 and the high end near $669 of this comparison don't always handle boost mode doesnt distort the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of boost mode doesnt distort, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

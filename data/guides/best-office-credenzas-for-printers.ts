@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Printer Footprint Against Top Dimensions",
-    "explanation": "Check your actual printer's footprint, including open paper trays, against office credenzas for printers's top width and depth, since a decorative credenza top is not automatically printer-ready. With prices in this roundup ranging roughly $108 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check your actual printer's footprint, including open paper trays, against office credenzas for printers's top width and depth, since a decorative credenza top is not automatically printer-ready. Products at the low end near $108 and the high end near $360 of this comparison don't always handle printer footprint against top the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of printer footprint against top, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Documented Load Guidance",
-    "explanation": "Look for a stated top load rating before assuming any flat surface can support a multifunction printer indefinitely, especially with paper loaded. Given the real spread here, from about $108 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for a stated top load rating before assuming any flat surface can support a multifunction printer indefinitely, especially with paper loaded. Across this comparison's $108 to $360 range, documented load guidance is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check documented load guidance against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Leave Access for Jams and Scanner Lids",
-    "explanation": "Check for rear and top clearance for paper jams, scanner lids, and consumable swaps, since a tight installation can make routine printer maintenance genuinely difficult. Across this comparison's $108 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check for rear and top clearance for paper jams, scanner lids, and consumable swaps, since a tight installation can make routine printer maintenance genuinely difficult. Given the real spread here, from about $108 up to $360, two products can look nearly identical on the surface while differing exactly on leave access jams scanner, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on leave access jams scanner, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map Power and Data Cable Routing",
-    "explanation": "Plan for power, USB, or Ethernet cable routing without crushed plugs, particularly if the credenza sits flush against a wall. Products at the low end near $108 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Plan for power, USB, or Ethernet cable routing without crushed plugs, particularly if the credenza sits flush against a wall. With prices in this roundup ranging roughly $108 to $360, map power data cable is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map power data cable directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Store Consumables Without Blocking Vents",
-    "explanation": "Keep paper and toner storage away from any vents or intake points on the printer to avoid overheating or airflow issues during heavy print jobs. This matters in practice because the picks in this comparison span from about $108 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Keep paper and toner storage away from any vents or intake points on the printer to avoid overheating or airflow issues during heavy print jobs. This matters in practice because the picks in this comparison span from about $108 to $360, and skipping a real check on store consumables without blocking is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on store consumables without blocking, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

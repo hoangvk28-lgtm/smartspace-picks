@@ -249,23 +249,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Material Authenticity",
-    "explanation": "Confirm whether the epoxy conference tables's surface is genuine stone, engineered stone, tempered glass, or a printed laminate look, since the label alone doesn't guarantee the material. Given the real spread here, from about $153 up to $15400, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm whether the epoxy conference tables's surface is genuine stone, engineered stone, tempered glass, or a printed laminate look, since the label alone doesn't guarantee the material. Products at the low end near $153 and the high end near $15400 of this comparison don't always handle material authenticity the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of material authenticity, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate behaves very differently than a genuine slab or engineered-stone top. Across this comparison's $153 to $15400 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin stone-pattern laminate behaves very differently than a genuine slab or engineered-stone top. Across this comparison's $153 to $15400 range, top substrate thickness is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check top substrate thickness against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Stain and Heat Behavior",
-    "explanation": "Check manufacturer care guidance for staining, etching, and heat tolerance, since genuine stone, engineered stone, glass, and laminate all react differently to daily office use. Products at the low end near $153 and the high end near $15400 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check manufacturer care guidance for staining, etching, and heat tolerance, since genuine stone, engineered stone, glass, and laminate all react differently to daily office use. Given the real spread here, from about $153 up to $15400, two products can look nearly identical on the surface while differing exactly on stain heat behavior, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on stain heat behavior, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Inspect Edge and Seam Repair Options",
-    "explanation": "Ask how a chipped edge or visible seam gets repaired, particularly on larger tables where a single continuous slab isn't practical. This matters in practice because the picks in this comparison span from about $153 to $15400, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Ask how a chipped edge or visible seam gets repaired, particularly on larger tables where a single continuous slab isn't practical. With prices in this roundup ranging roughly $153 to $15400, edge seam repair options is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify edge seam repair options directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Calculate Weight Against the Base and Floor",
-    "explanation": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration. With prices in this roundup ranging roughly $153 to $15400, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Genuine stone and thick glass tops are significantly heavier than laminate equivalents and may need a reinforced base or careful floor-loading consideration. This matters in practice because the picks in this comparison span from about $153 to $15400, and skipping a real check on calculate weight against base is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on calculate weight against base, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Custom Walnut Slab Epoxy Resin Conference Table is aimed at buyers prioritizing custom walnut slab epoxy resin table." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Custom Walnut Slab Epoxy Resin Conference Table is aimed at buyers prioritizing custom walnut slab epoxy resin table." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-glass-conference-tables","title":"Best Glass Conference Tables in 2026"},{"href":"/guide/best-marble-conference-tables","title":"Best Marble Conference Tables in 2026"},{"href":"/guide/best-concrete-conference-tables","title":"Best Concrete Conference Tables in 2026"}];

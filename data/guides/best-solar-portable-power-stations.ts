@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish Rated Wh and Usable Energy",
-    "explanation": "Confirm solar portable power stations's rated Wh and measured usable AC/DC energy are documented separately after conversion losses. Across this comparison's $180 to $699 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm solar portable power stations's rated Wh and measured usable AC/DC energy are documented separately after conversion losses. Two picks priced close together, anywhere in this comparison's $180-$699 band, can still land on opposite ends of rated wh usable energy, so price alone is a poor proxy for it here. Compare the stated figure for rated wh usable energy across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Separate Continuous Output From Surge",
-    "explanation": "Verify continuous inverter output is clearly separated from short surge or boost mode marketing. Products at the low end near $180 and the high end near $699 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify continuous inverter output is clearly separated from short surge or boost mode marketing. Products at the low end near $180 and the high end near $699 of this comparison don't always handle separate continuous output from the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of separate continuous output from, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Verify Battery Chemistry and Cycle Life",
-    "explanation": "Check documented battery chemistry, cycle-life conditions, and warranty rather than assuming all packs age similarly. This matters in practice because the picks in this comparison span from about $180 to $699, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check documented battery chemistry, cycle-life conditions, and warranty rather than assuming all packs age similarly. Across this comparison's $180 to $699 range, battery chemistry cycle life is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check battery chemistry cycle life against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Recharge Curves and Input Limits",
-    "explanation": "Confirm AC and solar recharge curves, input limits, and simultaneous-input behavior. With prices in this roundup ranging roughly $180 to $699, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm AC and solar recharge curves, input limits, and simultaneous-input behavior. Given the real spread here, from about $180 up to $699, two products can look nearly identical on the surface while differing exactly on recharge curves input limits, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on recharge curves input limits, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Safety Certification Evidence",
-    "explanation": "Look for safety certification evidence, thermal limits, fan behavior, and manual operating restrictions. Given the real spread here, from about $180 up to $699, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for safety certification evidence, thermal limits, fan behavior, and manual operating restrictions. With prices in this roundup ranging roughly $180 to $699, safety certification evidence is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify safety certification evidence directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Jackery Solar Generator 1000 v2 and 200W Solar Panel is aimed at buyers prioritizing 1070wh, 1500w, includes 200w solar panel." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Jackery Solar Generator 1000 v2 and 200W Solar Panel is aimed at buyers prioritizing 1070wh, 1500w, includes 200w solar panel." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

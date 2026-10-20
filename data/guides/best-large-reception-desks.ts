@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish Exact Frontage and Construction Type",
-    "explanation": "Publish exact frontage and whether construction is one-piece or modular, since a wide desk that ships in sections behaves differently under load than a single molded piece. With prices in this roundup ranging roughly $350 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Publish exact frontage and whether construction is one-piece or modular, since a wide desk that ships in sections behaves differently under load than a single molded piece. This matters in practice because the picks in this comparison span from about $350 to $1469, and skipping a real check on exact frontage construction type is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on exact frontage construction type, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Map Realistic Work Zones",
-    "explanation": "Map realistic one-, two-, or three-person work zones based on actual usable width, not just total desk length divided evenly. Given the real spread here, from about $350 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Map realistic one-, two-, or three-person work zones based on actual usable width, not just total desk length divided evenly. Buyers shopping anywhere from $350 to $1469 in this category often assume map realistic work zones is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on map realistic work zones stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Locate Seams Relative to Chairs and Pedestals",
-    "explanation": "Locate seams and support panels relative to where chairs and pedestals actually sit, since a support post in the wrong spot can block a staff position entirely. Across this comparison's $350 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Locate seams and support panels relative to where chairs and pedestals actually sit, since a support post in the wrong spot can block a staff position entirely. At every price point in this comparison's $350 to $1469 range, locate seams relative chairs varies enough between listings that assuming it scales with price is a real way to get burned. Confirm locate seams relative chairs directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Define Simultaneous Visitor Positions",
-    "explanation": "Define simultaneous visitor positions and queue clearance for a large desk, since more frontage should translate to more usable visitor-facing space, not just a longer wall. Products at the low end near $350 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Define simultaneous visitor positions and queue clearance for a large desk, since more frontage should translate to more usable visitor-facing space, not just a longer wall. Two picks priced close together, anywhere in this comparison's $350-$1469 band, can still land on opposite ends of define simultaneous visitor positions, so price alone is a poor proxy for it here. Compare the stated figure for define simultaneous visitor positions across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Include Delivery and Installation Logistics",
-    "explanation": "Include section or carton size, doorway and elevator access, and on-site assembly requirements, since large desks are more likely to need careful delivery planning. This matters in practice because the picks in this comparison span from about $350 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Include section or carton size, doorway and elevator access, and on-site assembly requirements, since large desks are more likely to need careful delivery planning. Products at the low end near $350 and the high end near $1469 of this comparison don't always handle include delivery installation logistics the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of include delivery installation logistics, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-commercial","title":"5 Best Reception Desks for Commercial Use in 2026"},{"href":"/guide/best-2-person-reception-desks","title":"best-2-person-reception-desks"},{"href":"/guide/best-modular-reception-desks","title":"5 Best Modular Reception Desks in 2026"}];

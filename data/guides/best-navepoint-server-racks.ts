@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which navepoint rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. Given the real spread here, from about $140 up to $615, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm which navepoint rack models are currently sold rather than assuming an older listing reflects the current lineup, since weight ratings and depth ranges change between generations. Buyers shopping anywhere from $140 to $615 in this category often assume build current model map is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on build current model map stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Weight Rating by Mount Type",
-    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. Across this comparison's $140 to $615 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify stationary, rolling, and wall-mounted weight ratings separately for the exact model, not the brand's range in general. At every price point in this comparison's $140 to $615 range, weight rating by mount varies enough between listings that assuming it scales with price is a real way to get burned. Confirm weight rating by mount directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Rail Depth Against Your Equipment",
-    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. Products at the low end near $140 and the high end near $615 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check documented mounting depth or adjustable depth range before assuming standard rack gear will fit. Two picks priced close together, anywhere in this comparison's $140-$615 band, can still land on opposite ends of rail depth against equipment, so price alone is a poor proxy for it here. Compare the stated figure for rail depth against equipment across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Compare Warranty and Included Hardware",
-    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. This matters in practice because the picks in this comparison span from about $140 to $615, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare warranty length and which cage nuts, casters, or shelves actually ship in the box by exact model. Products at the low end near $140 and the high end near $615 of this comparison don't always handle warranty included hardware the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of warranty included hardware, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Post Configuration for Your Load",
-    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. With prices in this roundup ranging roughly $140 to $615, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support. Across this comparison's $140 to $615 range, post configuration load is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check post configuration load against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "NavePoint 9U Open-Frame Server Rack is aimed at buyers prioritizing 9u, 18\"l x 20\"w x 19.5\"h." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "NavePoint 9U Open-Frame Server Rack is aimed at buyers prioritizing 9u, 18\"l x 20\"w x 19.5\"h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

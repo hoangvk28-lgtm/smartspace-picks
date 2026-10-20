@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Series Map",
-    "explanation": "Build a current HON reception-series or model map and label older project or reseller products separately, since HON's Mod and 10500 series have both been refreshed over time. Across this comparison's $312 to $350 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Build a current HON reception-series or model map and label older project or reseller products separately, since HON's Mod and 10500 series have both been refreshed over time. Products at the low end near $312 and the high end near $350 of this comparison don't always handle build current series map the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of build current series map, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Compare Configuration Range",
-    "explanation": "Compare straight, L-shaped, and multi-user configurations only where the exact current series genuinely supports them, since HON's shell-and-return system requires ordering matching components. Products at the low end near $312 and the high end near $350 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare straight, L-shaped, and multi-user configurations only where the exact current series genuinely supports them, since HON's shell-and-return system requires ordering matching components. Across this comparison's $312 to $350 range, configuration range is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check configuration range against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Planning Dimensions",
-    "explanation": "Use current planning resources to verify overall width, depth, work height, transaction-counter geometry, handedness, and grommet locations before ordering. This matters in practice because the picks in this comparison span from about $312 to $350, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Use current planning resources to verify overall width, depth, work height, transaction-counter geometry, handedness, and grommet locations before ordering. Given the real spread here, from about $312 up to $350, two products can look nearly identical on the surface while differing exactly on planning dimensions, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on planning dimensions, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map Separately Ordered Returns",
-    "explanation": "Map storage, finishes, and the reception desk return that completes an L-workstation, since HON's shell listings are the main desk unit only. With prices in this roundup ranging roughly $312 to $350, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Map storage, finishes, and the reception desk return that completes an L-workstation, since HON's shell listings are the main desk unit only. With prices in this roundup ranging roughly $312 to $350, map separately ordered returns is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map separately ordered returns directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Include Warranty and Dealer Support",
-    "explanation": "Include current lead-time workflow, HON's Limited 5-Year Warranty terms, and dealer support path in your total cost of ownership evaluation. Given the real spread here, from about $312 up to $350, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Include current lead-time workflow, HON's Limited 5-Year Warranty terms, and dealer support path in your total cost of ownership evaluation. This matters in practice because the picks in this comparison span from about $312 to $350, and skipping a real check on include warranty dealer support is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on include warranty dealer support, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "HON Mod Reception Desk Shell is aimed at buyers prioritizing 72\"w reception desk shell, slate teak finish." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "HON Mod Reception Desk Shell is aimed at buyers prioritizing 72\"w reception desk shell, slate teak finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ofs-reception-desks","title":"3 Best OFS Reception Desks in 2026"},{"href":"/guide/best-teknion-reception-desks","title":"best-teknion-reception-desks"},{"href":"/guide/best-enwork-reception-desks","title":"best-enwork-reception-desks"}];

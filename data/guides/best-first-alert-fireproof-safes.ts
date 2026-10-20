@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map the Brand's Current Fire-Rated Lineup",
-    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the first alert fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side. Products at the low end near $73 and the high end near $490 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm which current models actually carry a fire rating rather than assuming every product in the first alert fireproof safes catalog does, since brands often sell fire-resistant and purely security-focused safes side by side. With prices in this roundup ranging roughly $73 to $490, map brands current fire-rated is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map brands current fire-rated directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Require Exact Model-Level Rating Evidence",
-    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying. This matters in practice because the picks in this comparison span from about $73 to $490, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "A brand's overall reputation doesn't establish any single model's fire duration; check the specific classification for the exact SKU you're buying. This matters in practice because the picks in this comparison span from about $73 to $490, and skipping a real check on exact model-level rating evidence is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on exact model-level rating evidence, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Lock Variants Within the Line",
-    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options. With prices in this roundup ranging roughly $73 to $490, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "The same brand often offers key, dial-combination, and digital-keypad versions of a similar safe body; compare these as genuinely different products, not interchangeable options. Buyers shopping anywhere from $73 to $490 in this category often assume lock variants within line is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on lock variants within line stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check the Documented Capacity Range",
-    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options. Given the real spread here, from about $73 up to $490, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Map the brand's current size range against your actual storage needs, since one popular model doesn't represent the full lineup's capacity options. At every price point in this comparison's $73 to $490 range, documented capacity range varies enough between listings that assuming it scales with price is a real way to get burned. Confirm documented capacity range directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model. Across this comparison's $73 to $490 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model. Two picks priced close together, anywhere in this comparison's $73-$490 band, can still land on opposite ends of warranty replacement support, so price alone is a poor proxy for it here. Compare the stated figure for warranty replacement support across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -246,7 +246,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-brinks-fireproof-safes","title":"Best Brinks Fireproof Safes in 2026"},{"href":"/guide/best-honeywell-fireproof-safes","title":"Best Honeywell Fireproof Safes in 2026"},{"href":"/guide/best-sentrysafe-fireproof-safes","title":"Best SentrySafe Fireproof Safes in 2026"}];

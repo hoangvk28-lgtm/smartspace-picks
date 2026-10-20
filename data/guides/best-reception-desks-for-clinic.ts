@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map Fast Check-In and Referral Routing",
-    "explanation": "Map fast check-in, forms, payment, and referral or document routing as one continuous workflow rather than evaluating each function separately. Products at the low end near $370 and the high end near $1659 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Map fast check-in, forms, payment, and referral or document routing as one continuous workflow rather than evaluating each function separately. Across this comparison's $370 to $1659 range, map fast check-in referral is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check map fast check-in referral against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Accessible Approach and Queue Circulation",
-    "explanation": "Verify accessible approach and queue circulation against current ADA standards where the desk claims an accessible section. This matters in practice because the picks in this comparison span from about $370 to $1659, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify accessible approach and queue circulation against current ADA standards where the desk claims an accessible section. Given the real spread here, from about $370 up to $1659, two products can look nearly identical on the surface while differing exactly on accessible approach queue circulation, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on accessible approach queue circulation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Reduce Visual Exposure of Monitors and Paperwork",
-    "explanation": "Reduce visual exposure of monitors and paperwork from the waiting area, since clinic patient privacy expectations are higher than a typical office lobby. With prices in this roundup ranging roughly $370 to $1659, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Reduce visual exposure of monitors and paperwork from the waiting area, since clinic patient privacy expectations are higher than a typical office lobby. With prices in this roundup ranging roughly $370 to $1659, reduce visual exposure monitors is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify reduce visual exposure monitors directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Evaluate High-Contact Cleaning",
-    "explanation": "Evaluate high-contact top, edge, and pull cleaning, since clinics follow more frequent cleaning protocols than standard office maintenance. Given the real spread here, from about $370 up to $1659, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Evaluate high-contact top, edge, and pull cleaning, since clinics follow more frequent cleaning protocols than standard office maintenance. This matters in practice because the picks in this comparison span from about $370 to $1659, and skipping a real check on high-contact cleaning is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on high-contact cleaning, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Separate Public Transaction from Document Staging",
-    "explanation": "Separate public transaction surface from printer, label, and document staging, since clinics handle more paperwork volume than most reception settings. Across this comparison's $370 to $1659 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Separate public transaction surface from printer, label, and document staging, since clinics handle more paperwork volume than most reception settings. Buyers shopping anywhere from $370 to $1659 in this category often assume separate public transaction from is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on separate public transaction from stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-medical","title":"best-reception-desks-for-medical"},{"href":"/guide/best-reception-desks-for-dental","title":"4 Best Reception Desks for Dental in 2026"},{"href":"/guide/best-reception-desks-for-hospital","title":"best-reception-desks-for-hospital"}];

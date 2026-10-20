@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check the Rolling Weight Rating, Not Stationary",
-    "explanation": "Confirm portable server racks's weight rating specifically for caster-mounted use, since rolling capacity is documented separately and typically lower than the stationary rating. Products at the low end near $160 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm portable server racks's weight rating specifically for caster-mounted use, since rolling capacity is documented separately and typically lower than the stationary rating. At every price point in this comparison's $160 to $300 range, rolling weight rating stationary varies enough between listings that assuming it scales with price is a real way to get burned. Confirm rolling weight rating stationary directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Casters Lock in Place",
-    "explanation": "Look for locking casters, not just wheels, so the rack stays put once positioned rather than drifting during use. This matters in practice because the picks in this comparison span from about $160 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Look for locking casters, not just wheels, so the rack stays put once positioned rather than drifting during use. Two picks priced close together, anywhere in this comparison's $160-$300 band, can still land on opposite ends of casters lock place, so price alone is a poor proxy for it here. Compare the stated figure for casters lock place across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Floor Surface Compatibility",
-    "explanation": "Check caster type against your actual floor surface, since hard casters can mark hardwood while soft casters wear faster on rough concrete. With prices in this roundup ranging roughly $160 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check caster type against your actual floor surface, since hard casters can mark hardwood while soft casters wear faster on rough concrete. Products at the low end near $160 and the high end near $300 of this comparison don't always handle floor surface compatibility the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of floor surface compatibility, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Plan Cable Slack for Movement",
-    "explanation": "Leave enough cable slack for the rack to move its intended distance without straining connections at the wall or PDU. Given the real spread here, from about $160 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Leave enough cable slack for the rack to move its intended distance without straining connections at the wall or PDU. Across this comparison's $160 to $300 range, plan cable slack movement is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan cable slack movement against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Weigh Portability Against Overall Stability",
-    "explanation": "Confirm the rack still feels stable when loaded and rolling, since a taller, lighter frame can tip more easily than a heavier stationary design. Across this comparison's $160 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the rack still feels stable when loaded and rolling, since a taller, lighter frame can tip more easily than a heavier stationary design. Given the real spread here, from about $160 up to $300, two products can look nearly identical on the surface while differing exactly on portability against overall stability, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on portability against overall stability, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rolling-server-racks","title":"Best Rolling Server Racks in 2026"},{"href":"/guide/best-server-racks-on-wheels","title":"Best Server Racks on Wheels in 2026"},{"href":"/guide/best-mobile-server-racks","title":"Best Mobile Server Racks in 2026"}];

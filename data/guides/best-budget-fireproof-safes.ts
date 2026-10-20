@@ -244,23 +244,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Independent Fire Evidence",
-    "explanation": "Verify budget fireproof safes's fire classification is backed by an independent test (UL, ETL) rather than accepting a manufacturer's own unverified claim. This matters in practice because the picks in this comparison span from about $30 to $68, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify budget fireproof safes's fire classification is backed by an independent test (UL, ETL) rather than accepting a manufacturer's own unverified claim. With prices in this roundup ranging roughly $30 to $68, independent fire evidence is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify independent fire evidence directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Time and Temperature Together",
-    "explanation": "A fire rating means little without both the duration and the test temperature stated together. With prices in this roundup ranging roughly $30 to $68, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "A fire rating means little without both the duration and the test temperature stated together. This matters in practice because the picks in this comparison span from about $30 to $68, and skipping a real check on time temperature together is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on time temperature together, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Usable Interior Dimensions",
-    "explanation": "Check actual interior space rather than trusting the nominal capacity figure alone. Given the real spread here, from about $30 up to $68, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check actual interior space rather than trusting the nominal capacity figure alone. Buyers shopping anywhere from $30 to $68 in this category often assume usable interior dimensions is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on usable interior dimensions stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Water and Security Claims",
-    "explanation": "Treat fire, water, and burglary protection as three separate facts, never assumed from one another. Across this comparison's $30 to $68 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Treat fire, water, and burglary protection as three separate facts, never assumed from one another. At every price point in this comparison's $30 to $68 range, separate water security claims varies enough between listings that assuming it scales with price is a real way to get burned. Confirm separate water security claims directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Weigh Ownership Details",
-    "explanation": "Factor in weight, anchoring, and lock or key replacement support as part of the real cost of ownership. Products at the low end near $30 and the high end near $68 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Factor in weight, anchoring, and lock or key replacement support as part of the real cost of ownership. Two picks priced close together, anywhere in this comparison's $30-$68 band, can still land on opposite ends of ownership details, so price alone is a poor proxy for it here. Compare the stated figure for ownership details across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -286,7 +286,7 @@ export const faq = [
     "a": "For anything beyond a small portable chest, yes, if theft deterrence matters to you: an unanchored safe, however heavy, can still be carried off by a determined thief with the right tools and enough time. Most safes over about 1 cubic foot include pre-drilled mounting holes and hardware for this reason."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550 degreesf" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550 degreesf" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

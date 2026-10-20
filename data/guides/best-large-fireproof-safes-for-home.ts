@@ -220,23 +220,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish Usable Interior vs. Exterior Footprint",
-    "explanation": "Get large fireproof safes for home's actual interior dimensions and shelf layout, not just its exterior size, since insulation and hardware take a real bite out of large safes too. Products at the low end near $68 and the high end near $562 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Get large fireproof safes for home's actual interior dimensions and shelf layout, not just its exterior size, since insulation and hardware take a real bite out of large safes too. Two picks priced close together, anywhere in this comparison's $68-$562 band, can still land on opposite ends of usable interior vs exterior, so price alone is a poor proxy for it here. Compare the stated figure for usable interior vs exterior across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Calculate Realistic Loaded Weight",
-    "explanation": "Large safes can weigh hundreds of pounds empty; account for the added weight of everything you plan to store before assuming your floor can support it. This matters in practice because the picks in this comparison span from about $68 to $562, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Large safes can weigh hundreds of pounds empty; account for the added weight of everything you plan to store before assuming your floor can support it. Products at the low end near $68 and the high end near $562 of this comparison don't always handle calculate realistic loaded weight the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of calculate realistic loaded weight, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Plan Stairs, Doorways, and Professional Delivery",
-    "explanation": "Check doorway widths, stairwells, and floor loading along the delivery path, and budget for professional delivery on anything in the 150+ lb range. With prices in this roundup ranging roughly $68 to $562, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check doorway widths, stairwells, and floor loading along the delivery path, and budget for professional delivery on anything in the 150+ lb range. Across this comparison's $68 to $562 range, plan stairs doorways professional is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan stairs doorways professional against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Shelf Adjustability and Door Clearance",
-    "explanation": "Confirm shelves can be reconfigured for your actual items, and measure the door's full swing clearance in the room where the safe will sit. Given the real spread here, from about $68 up to $562, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm shelves can be reconfigured for your actual items, and measure the door's full swing clearance in the room where the safe will sit. Given the real spread here, from about $68 up to $562, two products can look nearly identical on the surface while differing exactly on shelf adjustability door clearance, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on shelf adjustability door clearance, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Anchoring Instructions and Warranty Impact",
-    "explanation": "Some safes require anchoring to maintain their stated security rating or warranty coverage; check the manufacturer's specific installation requirements before skipping this step. Across this comparison's $68 to $562 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Some safes require anchoring to maintain their stated security rating or warranty coverage; check the manufacturer's specific installation requirements before skipping this step. With prices in this roundup ranging roughly $68 to $562, anchoring instructions warranty impact is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify anchoring instructions warranty impact directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -262,7 +262,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850-degreef." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-fireproof-safes","title":"Best Large Fireproof Safes in 2026"},{"href":"/guide/best-extra-large-fireproof-safes","title":"Best Extra Large Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

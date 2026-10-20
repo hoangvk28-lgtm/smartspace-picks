@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Measure Real Cutting Area After Spoilboard and Clamps",
-    "explanation": "Check desktop cnc machines for wood's usable Z-height and cutting area after the spoilboard and clamps are installed, not the nominal axis travel alone. This matters in practice because the picks in this comparison span from about $137 to $2499, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check desktop cnc machines for wood's usable Z-height and cutting area after the spoilboard and clamps are installed, not the nominal axis travel alone. At every price point in this comparison's $137 to $2499 range, real cutting area after varies enough between listings that assuming it scales with price is a real way to get burned. Confirm real cutting area after directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Spindle and Collet Match Your Bits",
-    "explanation": "Confirm the spindle RPM range and collet size match the router bits you actually plan to use. With prices in this roundup ranging roughly $137 to $2499, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm the spindle RPM range and collet size match the router bits you actually plan to use. Two picks priced close together, anywhere in this comparison's $137-$2499 band, can still land on opposite ends of spindle collet match bits, so price alone is a poor proxy for it here. Compare the stated figure for spindle collet match bits across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Plan Dust Collection From the Start",
-    "explanation": "Budget for a dust collection or shop-vac connection, since wood dust accumulates quickly and affects both air quality and machine longevity. Given the real spread here, from about $137 up to $2499, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Budget for a dust collection or shop-vac connection, since wood dust accumulates quickly and affects both air quality and machine longevity. Products at the low end near $137 and the high end near $2499 of this comparison don't always handle plan dust collection from the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan dust collection from, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Frame Rigidity Under Load",
-    "explanation": "Look for documented backlash or deflection figures on a representative cut, not just frame appearance in photos. Across this comparison's $137 to $2499 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Look for documented backlash or deflection figures on a representative cut, not just frame appearance in photos. Across this comparison's $137 to $2499 range, frame rigidity under load is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check frame rigidity under load against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Workholding Options",
-    "explanation": "Verify what workholding (T-track, clamps, spoilboard) ships standard versus what needs to be added separately. Products at the low end near $137 and the high end near $2499 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify what workholding (T-track, clamps, spoilboard) ships standard versus what needs to be added separately. Given the real spread here, from about $137 up to $2499, two products can look nearly identical on the surface while differing exactly on workholding options, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on workholding options, since it's often left out of the main bullet points entirely."
   }
 ];
 

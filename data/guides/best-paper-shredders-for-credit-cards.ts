@@ -293,7 +293,7 @@ export const faq: FaqItem[] = [
   { q: "Can I shred a metal credit card in any of these shredders?", a: "No. Every pick in this guide explicitly excludes metal credit cards from its shredding capability. None of these are rated for metal card destruction." },
   { q: "Will shredding credit cards regularly wear out my shredder faster?", a: "Yes. Plastic cards are harder on shredder blades than paper alone, so frequent card shredding accelerates blade dulling and can increase paper jam frequency over time compared to paper-only use." },
   { q: "Which pick in this guide has the finest particle size for card security?", a: "The Amazon Basics 8-sheet micro-cut pick with a pull-out bin (rank 4) discloses the finest particle size in this guide at 4.5 x 12mm, genuinely superior chip-destruction security compared to the coarser P-3 and standard P-4 alternatives." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the finest confirmed particle size for genuine chip-destruction security" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the finest confirmed particle size for genuine chip-destruction security" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the finest confirmed particle size for genuine chip-destruction security At $33.16, it's the lowest-cost pick in this comparison." },
 ];
 

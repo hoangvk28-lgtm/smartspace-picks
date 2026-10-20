@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Measure Staff Worksurface Height",
-    "explanation": "Measure staff worksurface height and chair or standing compatibility, since a reception desk's ergonomics need to work for a full workday, not just a quick visitor interaction. Products at the low end near $437 and the high end near $950 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure staff worksurface height and chair or standing compatibility, since a reception desk's ergonomics need to work for a full workday, not just a quick visitor interaction. Given the real spread here, from about $437 up to $950, two products can look nearly identical on the surface while differing exactly on staff worksurface height, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on staff worksurface height, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Monitor Ergonomics With Panels Installed",
-    "explanation": "Check monitor distance and height with privacy and counter panels installed, since these can block or shift ideal monitor placement. This matters in practice because the picks in this comparison span from about $437 to $950, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check monitor distance and height with privacy and counter panels installed, since these can block or shift ideal monitor placement. With prices in this roundup ranging roughly $437 to $950, monitor ergonomics panels installed is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify monitor ergonomics panels installed directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Full Keyboard and Mouse Area",
-    "explanation": "Verify full keyboard and mouse area without wrist contact on a raised edge, since some reception desks place a raised counter edge too close to the working keyboard zone. With prices in this roundup ranging roughly $437 to $950, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify full keyboard and mouse area without wrist contact on a raised edge, since some reception desks place a raised counter edge too close to the working keyboard zone. This matters in practice because the picks in this comparison span from about $437 to $950, and skipping a real check on full keyboard mouse area is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on full keyboard mouse area, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Repeated Handoff Reach",
-    "explanation": "Measure repeated handoff reach to visitors, since this motion happens dozens of times a day and poor reach ergonomics compound over a shift. Given the real spread here, from about $437 up to $950, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure repeated handoff reach to visitors, since this motion happens dozens of times a day and poor reach ergonomics compound over a shift. Buyers shopping anywhere from $437 to $950 in this category often assume repeated handoff reach is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on repeated handoff reach stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Knee Clearance With Storage Installed",
-    "explanation": "Publish knee width, depth, and height after storage and cable trays are installed, since these can meaningfully reduce ergonomic legroom. Across this comparison's $437 to $950 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Publish knee width, depth, and height after storage and cable trays are installed, since these can meaningfully reduce ergonomic legroom. At every price point in this comparison's $437 to $950 range, knee clearance storage installed varies enough between listings that assuming it scales with price is a real way to get burned. Confirm knee clearance storage installed directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-standing-reception-desks","title":"best-standing-reception-desks"},{"href":"/guide/best-reception-desks-with-counter","title":"best-reception-desks-with-counter"},{"href":"/guide/best-tall-reception-desks","title":"best-tall-reception-desks"}];

@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm locking server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths. This matters in practice because the picks in this comparison span from about $100 to $1389, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm locking server racks's mounting depth independently of its U-height, since two racks at the same height can fit very different equipment lengths. This matters in practice because the picks in this comparison span from about $100 to $1389, and skipping a real check on separate u-height from rail is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on separate u-height from rail, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. With prices in this roundup ranging roughly $100 to $1389, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check the stationary, rolling, or wall-mounted weight rating specifically for how the rack will actually be installed. Buyers shopping anywhere from $100 to $1389 in this category often assume weight rating mount type is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on weight rating mount type stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. Given the real spread here, from about $100 up to $1389, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since that determines what equipment class it can safely support. At every price point in this comparison's $100 to $1389 range, post configuration suits load varies enough between listings that assuming it scales with price is a real way to get burned. Confirm post configuration suits load directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. Across this comparison's $100 to $1389 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access. Two picks priced close together, anywhere in this comparison's $100-$1389 band, can still land on opposite ends of plan rear clearance cabling, so price alone is a poor proxy for it here. Compare the stated figure for plan rear clearance cabling across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Cooling Method Fits the Enclosure",
-    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load. Products at the low end near $100 and the high end near $1389 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load. Products at the low end near $100 and the high end near $1389 of this comparison don't always handle cooling method fits enclosure the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cooling method fits enclosure, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-lockable-server-racks","title":"Best Lockable Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

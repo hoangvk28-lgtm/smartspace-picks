@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Real Cut Evidence for the Target Material",
-    "explanation": "Look for documented feeds, tooling, and cut depth specific to steel desktop cnc machines rather than a generic material-compatibility badge. Given the real spread here, from about $487 up to $1063, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for documented feeds, tooling, and cut depth specific to steel desktop cnc machines rather than a generic material-compatibility badge. Products at the low end near $487 and the high end near $1063 of this comparison don't always handle real cut evidence target the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of real cut evidence target, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Spindle Torque, Not Just Speed",
-    "explanation": "Verify spindle torque and rigidity figures, since RPM alone doesn't predict whether a machine can hold a cut in metal without deflecting. Across this comparison's $487 to $1063 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify spindle torque and rigidity figures, since RPM alone doesn't predict whether a machine can hold a cut in metal without deflecting. Across this comparison's $487 to $1063 range, spindle torque speed is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check spindle torque speed against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Chip Evacuation and Lubrication",
-    "explanation": "Confirm the machine documents chip evacuation and coolant or lubrication needs, since metal chips behave very differently from wood dust. Products at the low end near $487 and the high end near $1063 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the machine documents chip evacuation and coolant or lubrication needs, since metal chips behave very differently from wood dust. Given the real spread here, from about $487 up to $1063, two products can look nearly identical on the surface while differing exactly on plan chip evacuation lubrication, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on plan chip evacuation lubrication, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Tool Wear and Cycle Time",
-    "explanation": "Check that 'can cut' claims are backed by realistic cycle time and tool wear data, not just a single demonstration pass. This matters in practice because the picks in this comparison span from about $487 to $1063, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check that 'can cut' claims are backed by realistic cycle time and tool wear data, not just a single demonstration pass. With prices in this roundup ranging roughly $487 to $1063, tool wear cycle time is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify tool wear cycle time directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Workholding for Metal Loads",
-    "explanation": "Confirm the included or recommended workholding can handle metal-cutting forces, since wood-grade clamps often aren't rigid enough. With prices in this roundup ranging roughly $487 to $1063, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm the included or recommended workholding can handle metal-cutting forces, since wood-grade clamps often aren't rigid enough. This matters in practice because the picks in this comparison span from about $487 to $1063, and skipping a real check on workholding metal loads is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on workholding metal loads, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AnoleX CNC Router Machine 3030-Evo Max is aimed at buyers prioritizing +/-0.01mm repeatability, +/-0.05mm on 6061 aluminum." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "AnoleX CNC Router Machine 3030-Evo Max is aimed at buyers prioritizing +/-0.01mm repeatability, +/-0.05mm on 6061 aluminum." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines-for-steel","title":"Best Desktop CNC Machines for Steel in 2026"},{"href":"/guide/best-desktop-cnc-machines-for-stainless-steel","title":"Best Desktop CNC Machines for Stainless Steel in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

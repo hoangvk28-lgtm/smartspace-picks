@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check Continuous Amperage Against Your Circuit",
-    "explanation": "Confirm server rack pdus's continuous amperage rating stays well under your home's branch circuit capacity, since a PDU distributes outlets but doesn't increase available circuit power. This matters in practice because the picks in this comparison span from about $36 to $95, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm server rack pdus's continuous amperage rating stays well under your home's branch circuit capacity, since a PDU distributes outlets but doesn't increase available circuit power. Given the real spread here, from about $36 up to $95, two products can look nearly identical on the surface while differing exactly on continuous amperage against circuit, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on continuous amperage against circuit, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Count Outlets Against Real Equipment",
-    "explanation": "Count actual devices needing power, including PDU-fed fans and accessories, against the outlet count rather than assuming extra room exists. With prices in this roundup ranging roughly $36 to $95, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Count actual devices needing power, including PDU-fed fans and accessories, against the outlet count rather than assuming extra room exists. With prices in this roundup ranging roughly $36 to $95, count outlets against real is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify count outlets against real directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Surge Protection if Needed",
-    "explanation": "Check whether the PDU includes surge protection with a joule rating, since basic power strips often skip this. Given the real spread here, from about $36 up to $95, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check whether the PDU includes surge protection with a joule rating, since basic power strips often skip this. This matters in practice because the picks in this comparison span from about $36 to $95, and skipping a real check on surge protection needed is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on surge protection needed, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Mounting Orientation Fits the Rack",
-    "explanation": "Verify horizontal 1U mounting versus vertical 0U mounting matches how much rack space you want to dedicate to power distribution. Across this comparison's $36 to $95 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify horizontal 1U mounting versus vertical 0U mounting matches how much rack space you want to dedicate to power distribution. Buyers shopping anywhere from $36 to $95 in this category often assume mounting orientation fits rack is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on mounting orientation fits rack stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Cord Length for Your Outlet Location",
-    "explanation": "Confirm the included cord length reaches your actual wall outlet without a separate extension cord bridging the gap. Products at the low end near $36 and the high end near $95 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the included cord length reaches your actual wall outlet without a separate extension cord bridging the gap. At every price point in this comparison's $36 to $95 range, cord length outlet location varies enough between listings that assuming it scales with price is a real way to get burned. Confirm cord length outlet location directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "StarTech 8-Outlet 1U PDU is aimed at buyers prioritizing 1u, 8 outlets, 120v/15a." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "StarTech 8-Outlet 1U PDU is aimed at buyers prioritizing 1u, 8 outlets, 120v/15a." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

@@ -244,7 +244,7 @@ export const faq: FaqItem[] = [
   { q: "Does outlet count matter more than wattage for a multi-monitor desk?", a: "Both matter. A multi-monitor setup needs enough real watt capacity for the combined load, but also enough battery-backed outlets to actually plug in a PC, multiple monitors, a dock, and speakers without running out of plugs." },
   { q: "What UPS capacity do I need for three monitors?", a: "Plan for roughly 900-1000W of real capacity for a three-monitor setup with a high-performance PC, picks like the APC BR1500MS2 or CyberPower CP1500PFCLCD provide that headroom along with enough outlets." },
   { q: "Can I use a single-monitor UPS for a two-monitor setup?", a: "Only if you've verified the real watt capacity against your combined PC and monitor draw. A UPS sized for one monitor may not have enough headroom or outlets once a second monitor and its peripherals are added." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a 2-3 monitor desk setup who need both wattage and outlet headroom" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers with a 2-3 monitor desk setup who need both wattage and outlet headroom" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with two smaller or lower-power monitors At $161.99, it's the lowest-cost pick in this comparison." },
 ];
 

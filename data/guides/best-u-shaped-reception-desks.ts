@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish the Full Installed Footprint",
-    "explanation": "Get the full installed footprint for the U-shaped desk, not just the front width, since the U wraps depth on three sides rather than one or two. With prices in this roundup ranging roughly $198 to $817, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Get the full installed footprint for the U-shaped desk, not just the front width, since the U wraps depth on three sides rather than one or two. At every price point in this comparison's $198 to $817 range, full installed footprint varies enough between listings that assuming it scales with price is a real way to get burned. Confirm full installed footprint directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Measure Staff Reach on All Three Sides",
-    "explanation": "Measure staff reach and chair movement around inside corners on all three sides of the U, since this design has more potential dead zones than an L-shape. Given the real spread here, from about $198 up to $817, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure staff reach and chair movement around inside corners on all three sides of the U, since this design has more potential dead zones than an L-shape. Two picks priced close together, anywhere in this comparison's $198-$817 band, can still land on opposite ends of staff reach all three, so price alone is a poor proxy for it here. Compare the stated figure for staff reach all three across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Map Visitor Approach Around the U",
-    "explanation": "Map visitor approach and queue positions so the U-shape improves rather than blocks circulation, since the wraparound design can create a more enclosed feel. Across this comparison's $198 to $817 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Map visitor approach and queue positions so the U-shape improves rather than blocks circulation, since the wraparound design can create a more enclosed feel. Products at the low end near $198 and the high end near $817 of this comparison don't always handle map visitor approach around the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of map visitor approach around, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Verify Orientation and Convertibility",
-    "explanation": "Verify whether the U-shaped configuration can convert to an L-shape or straight desk if room needs change, since some models offer this flexibility and others don't. Products at the low end near $198 and the high end near $817 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify whether the U-shaped configuration can convert to an L-shape or straight desk if room needs change, since some models offer this flexibility and others don't. Across this comparison's $198 to $817 range, orientation convertibility is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check orientation convertibility against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Place Storage Without Creating Dead Zones",
-    "explanation": "Place storage, printers, pedestals, and transaction counters on the drawing to expose dead zones, since a U-shape's extra corners create more opportunities for wasted space. This matters in practice because the picks in this comparison span from about $198 to $817, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Place storage, printers, pedestals, and transaction counters on the drawing to expose dead zones, since a U-shape's extra corners create more opportunities for wasted space. Given the real spread here, from about $198 up to $817, two products can look nearly identical on the surface while differing exactly on place storage without creating, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on place storage without creating, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel is aimed at buyers prioritizing 63\"l x 24\"w u-shaped two-tier surface." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns 63-Inch U-Shaped Reception Desk with Private Panel is aimed at buyers prioritizing 63\"l x 24\"w u-shaped two-tier surface." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-l-shaped-reception-desks","title":"best-l-shaped-reception-desks"},{"href":"/guide/best-u-shaped-reception-desks-with-counter","title":"4 Best U-Shaped Reception Desks with Counter in 2026"},{"href":"/guide/best-standing-reception-desks","title":"best-standing-reception-desks"}];

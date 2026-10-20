@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which grecell models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. With prices in this roundup ranging roughly $130 to $1290, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm which grecell models are currently sold rather than assuming an older listing reflects the current lineup, since capacity and features change between generations. Given the real spread here, from about $130 up to $1290, two products can look nearly identical on the surface while differing exactly on build current model map, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on build current model map, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Rated Wh and Continuous W by Model",
-    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general. Given the real spread here, from about $130 up to $1290, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify exact rated capacity, continuous output, and battery chemistry for the specific model, not the brand's range in general. With prices in this roundup ranging roughly $130 to $1290, rated wh continuous w is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify rated wh continuous w directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify AC/Solar/Car Charging Input",
-    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically. Across this comparison's $130 to $1290 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check documented charging input limits and current app or firmware requirements before assuming fast-charge claims apply automatically. This matters in practice because the picks in this comparison span from about $130 to $1290, and skipping a real check on acsolarcar charging input is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on acsolarcar charging input, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Cycle-Life Claims and Warranty",
-    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model. Products at the low end near $130 and the high end near $1290 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare cycle-life test conditions, warranty length, and documented safety certification by exact model. Buyers shopping anywhere from $130 to $1290 in this category often assume cycle-life claims warranty is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on cycle-life claims warranty stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Current Generation From Older Listings",
-    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded. This matters in practice because the picks in this comparison span from about $130 to $1290, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded. At every price point in this comparison's $130 to $1290 range, separate current generation from varies enough between listings that assuming it scales with price is a real way to get burned. Confirm separate current generation from directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home is aimed at buyers prioritizing 999wh, 1000w (2000w peak), 17 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

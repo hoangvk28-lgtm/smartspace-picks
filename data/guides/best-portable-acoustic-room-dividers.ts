@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Does 'acoustic' mean the same thing at every price point?", a: "No. A $99 folding screen and a $1,400 architectural partition are both marketed as acoustic, but only genuinely engineered products at the higher end approach real sound-transmission reduction, most budget and mid-tier options primarily provide visual privacy with modest sound softening." },
   { q: "Is the most expensive room divider always the best rated?", a: "Not necessarily. The premium architectural-grade pick in this guide actually carries a notably lower rating than several much cheaper alternatives, always check recent reviews rather than assuming price predicts satisfaction." },
   { q: "What should I look for in a portable acoustic room divider?", a: "Match your expectations to price tier (visual privacy vs. genuine sound reduction), check wheel and locking-caster quality for practical daily use, and read recent reviews carefully, especially for newer listings with limited review history." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a genuine mobile partition wall at a mid-tier price" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want a genuine mobile partition wall at a mid-tier price" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who genuinely need architectural-grade sound reduction and have the budget and space for it At $1,411.09, it's the lowest-cost pick in this comparison." },
 ];
 

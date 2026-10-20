@@ -241,7 +241,7 @@ export const faq: FaqItem[] = [
   { q: "Does a 4-port switch handle USB peripherals as well as a 2-port switch?", a: "Verify this specifically, shared bandwidth and USB capacity get divided more ways with four ports, don't assume it scales linearly." },
   { q: "Do I really need a 4-port KVM switch?", a: "Only if you genuinely switch between four active computers regularly, a simpler two-port switch may better fit your actual daily workflow." },
   { q: "Can a 4-port KVM switch handle two monitors too?", a: "Some models do, verify this specific capability if you want a full dual-monitor workspace across your four computers." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with exactly four computers wanting straightforward shared-monitor switching" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers with exactly four computers wanting straightforward shared-monitor switching" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers reconsidering whether they truly need four ports versus a simpler two-port switch At $29.99, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -241,7 +241,7 @@ export const faq: FaqItem[] = [
   { q: "Do simple two-computer KVM switches still have EDID emulation?", a: "Not always, verify this specifically rather than assuming a simple switch includes it, since budget models can shortchange this feature." },
   { q: "Should I buy a switch that supports more than two computers?", a: "If you might expand your setup later, a switch supporting more computers gives room to grow without buying a new one." },
   { q: "Is a budget two-computer KVM switch good enough for most people?", a: "For the most common simple use case, yes, a budget-friendly switch often covers the need well without needing premium features." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a straightforward two-computer, one-monitor setup wanting simplicity and value" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers with a straightforward two-computer, one-monitor setup wanting simplicity and value" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple two-computer KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
 ];
 

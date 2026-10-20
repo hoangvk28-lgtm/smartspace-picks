@@ -244,7 +244,7 @@ export const faq: FaqItem[] = [
   { q: "Why does AVR matter for battery lifespan?", a: "Without AVR, a UPS switches to battery during any voltage sag, even a minor one, draining a charge cycle. AVR corrects moderate under/over-voltage in-line, preserving battery charge cycles for genuine outages." },
   { q: "Does AVR use extra power all the time?", a: "Yes, marginally. The always-active voltage correction circuitry in AVR-equipped UPS units draws slightly more standby wattage than simpler battery-only backup models, a small but real tradeoff." },
   { q: "How do I know which AVR correction range a UPS offers?", a: "Manufacturers don't always disclose the exact AVR correction range (e.g., plus or minus 8% versus 15-20%). Check the product's detailed spec sheet where available, wider ranges handle more severe brownouts before switching to battery." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most-proven AVR pick for a full desktop setup" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the most-proven AVR pick for a full desktop setup" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want basic AVR brownout correction for a modest setup At $119.95, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Fire and Security Claims Independently",
-    "explanation": "Check fireproof safes for jewelry's fire classification and physical security features (bolts, hinges, steel gauge) as two separate facts before assuming either applies to the other. With prices in this roundup ranging roughly $70 to $288, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check fireproof safes for jewelry's fire classification and physical security features (bolts, hinges, steel gauge) as two separate facts before assuming either applies to the other. Given the real spread here, from about $70 up to $288, two products can look nearly identical on the surface while differing exactly on fire security claims independently, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on fire security claims independently, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Look for Soft-Lined Interior Storage",
-    "explanation": "A felt-lined shelf, tray, or dedicated jewelry bag prevents pieces from scratching against bare metal or each other during normal use. Given the real spread here, from about $70 up to $288, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "A felt-lined shelf, tray, or dedicated jewelry bag prevents pieces from scratching against bare metal or each other during normal use. With prices in this roundup ranging roughly $70 to $288, soft-lined interior storage is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify soft-lined interior storage directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan for Humidity and Tarnish Control",
-    "explanation": "Sealed safes can trap humidity that accelerates tarnish on silver and some metals; periodic airing out or a moisture-absorbing packet helps for long-term jewelry storage. Across this comparison's $70 to $288 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Sealed safes can trap humidity that accelerates tarnish on silver and some metals; periodic airing out or a moisture-absorbing packet helps for long-term jewelry storage. This matters in practice because the picks in this comparison span from about $70 to $288, and skipping a real check on plan humidity tarnish control is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan humidity tarnish control, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Organizers Stay Secure During Movement",
-    "explanation": "Check that removable trays or shelves lock into place rather than sliding freely, especially if the safe will ever be moved or bolted in later. Products at the low end near $70 and the high end near $288 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check that removable trays or shelves lock into place rather than sliding freely, especially if the safe will ever be moved or bolted in later. Buyers shopping anywhere from $70 to $288 in this category often assume organizers stay secure during is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on organizers stay secure during stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Document Anchoring and Access Control",
-    "explanation": "For genuinely valuable jewelry collections, anchoring hardware and a documented access-control method (not just a basic privacy lock) matter more than for everyday document storage. This matters in practice because the picks in this comparison span from about $70 to $288, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "For genuinely valuable jewelry collections, anchoring hardware and a documented access-control method (not just a basic privacy lock) matter more than for everyday document storage. At every price point in this comparison's $70 to $288 range, document anchoring access control varies enough between listings that assuming it scales with price is a real way to get burned. Confirm document anchoring access control directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.0 cu ft, 4x 1.2in live-locking bolts." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

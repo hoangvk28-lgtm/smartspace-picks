@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Can a long cord affect how well the surge protection actually works?", a: "Potentially, in a subtle way. Voltage drop over a long cord run could theoretically affect the baseline voltage the surge suppression circuitry measures against, though the practical impact is often modest." },
   { q: "Should I coil the excess length of a long surge protector cord?", a: "Avoid coiling it tightly under sustained load. Bundled cords build up heat that can affect nearby MOV component temperature and longevity, let excess cord lay loosely instead." },
   { q: "Does a long-cord surge protector have the same certification as a shorter version?", a: "Don't assume so, verify UL 1449 certification specifically for the exact long-cord product you're buying, extended cord lengths can involve different safety testing considerations than standard-length products." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who need to protect valuable equipment at a distant outlet" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who need to protect valuable equipment at a distant outlet" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a mid-length cord with genuine surge protection at a budget price At $12.98, it's the lowest-cost pick in this comparison." },
 ];
 

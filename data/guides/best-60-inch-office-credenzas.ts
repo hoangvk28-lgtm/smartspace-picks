@@ -249,23 +249,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Actual Assembled Width, Not Just Nominal",
-    "explanation": "Confirm 60-inch office credenzas's real assembled width including any top or trim overhang, since nominal width figures don't always account for edge details that extend beyond the case. Across this comparison's $180 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm 60-inch office credenzas's real assembled width including any top or trim overhang, since nominal width figures don't always account for edge details that extend beyond the case. Products at the low end near $180 and the high end near $360 of this comparison don't always handle actual assembled width nominal the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of actual assembled width nominal, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Uninterrupted Top Width and Depth",
-    "explanation": "Check how much of the top surface is genuinely usable for active equipment after subtracting any raised trim or hutch footprint. Products at the low end near $180 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check how much of the top surface is genuinely usable for active equipment after subtracting any raised trim or hutch footprint. Across this comparison's $180 to $360 range, uninterrupted top width depth is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check uninterrupted top width depth against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Publish Every Interior Bay Individually",
-    "explanation": "Get dimensions for each cabinet or drawer bay separately, since exterior width alone can be mistaken for proportional interior capacity. This matters in practice because the picks in this comparison span from about $180 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Get dimensions for each cabinet or drawer bay separately, since exterior width alone can be mistaken for proportional interior capacity. Given the real spread here, from about $180 up to $360, two products can look nearly identical on the surface while differing exactly on every interior bay individually, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on every interior bay individually, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Doors and Drawers Fully Open",
-    "explanation": "Check clearance with doors and drawers fully extended in the exact spot the credenza will sit, particularly beside a desk or chair. With prices in this roundup ranging roughly $180 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check clearance with doors and drawers fully extended in the exact spot the credenza will sit, particularly beside a desk or chair. With prices in this roundup ranging roughly $180 to $360, doors drawers fully open is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify doors drawers fully open directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Include Wall, Baseboard, and Cable Clearance",
-    "explanation": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall. Given the real spread here, from about $180 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall. This matters in practice because the picks in this comparison span from about $180 to $360, and skipping a real check on include wall baseboard cable is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on include wall baseboard cable, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-72-inch-office-credenzas","title":"Best 72-Inch Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

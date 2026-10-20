@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm Half-Height Still Fits Equipment Depth",
-    "explanation": "Verify half server racks's shorter height doesn't come with a reduced depth that no longer fits your equipment. With prices in this roundup ranging roughly $90 to $732, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify half server racks's shorter height doesn't come with a reduced depth that no longer fits your equipment. At every price point in this comparison's $90 to $732 range, half-height still fits equipment varies enough between listings that assuming it scales with price is a real way to get burned. Confirm half-height still fits equipment directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Weight Rating Relative to Full-Height Models",
-    "explanation": "Compare the half-height rack's weight rating against full-height models in the same line, since it's not always proportionally lower. Given the real spread here, from about $90 up to $732, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Compare the half-height rack's weight rating against full-height models in the same line, since it's not always proportionally lower. Two picks priced close together, anywhere in this comparison's $90-$732 band, can still land on opposite ends of weight rating relative full-height, so price alone is a poor proxy for it here. Compare the stated figure for weight rating relative full-height across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Room Clearance Advantage",
-    "explanation": "Confirm the shorter height genuinely solves a real ceiling or doorway clearance issue rather than just looking more compact. Across this comparison's $90 to $732 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the shorter height genuinely solves a real ceiling or doorway clearance issue rather than just looking more compact. Products at the low end near $90 and the high end near $732 of this comparison don't always handle room clearance advantage the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of room clearance advantage, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Expansion Headroom",
-    "explanation": "Consider whether a half-height rack leaves enough room for equipment growth before needing to replace it entirely. Products at the low end near $90 and the high end near $732 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Consider whether a half-height rack leaves enough room for equipment growth before needing to replace it entirely. Across this comparison's $90 to $732 range, expansion headroom is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check expansion headroom against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Confirm Casters or Feet Suit the Shorter Frame",
-    "explanation": "Verify the mounting hardware included is appropriately sized for a shorter, sometimes more top-heavy relative frame. This matters in practice because the picks in this comparison span from about $90 to $732, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify the mounting hardware included is appropriately sized for a shorter, sometimes more top-heavy relative frame. Given the real spread here, from about $90 up to $732, two products can look nearly identical on the surface while differing exactly on casters feet suit shorter, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on casters feet suit shorter, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

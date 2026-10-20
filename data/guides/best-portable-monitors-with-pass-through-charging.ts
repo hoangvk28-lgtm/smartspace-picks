@@ -289,7 +289,7 @@ export const faq: FaqItem[] = [
   { q: "Does a 4K portable monitor charge my laptop as well as a 1080p one?", a: "Generally not as well. A 4K panel draws significantly more power to run itself, leaving less of your charger's wattage budget available to pass through to your laptop compared to a lower-resolution monitor." },
   { q: "Will pass-through charging fast-charge my phone at its maximum speed?", a: "Not necessarily. Fast phone charging often requires PPS (Programmable Power Supply) support, which basic USB-PD pass-through doesn't guarantee. None of the picks in this guide explicitly confirm PPS support." },
   { q: "Can any generic USB-C cable handle pass-through charging plus video?", a: "Not reliably. You need a cable certified for DisplayPort Alt Mode, your target wattage, and adequate data speed together. A generic or uncertified cable can silently bottleneck performance with no error message." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most honest wattage math and genuine hub functionality" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want the most honest wattage math and genuine hub functionality" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want confirmed pass-through charging without a premium price At $109.99, it's the lowest-cost pick in this comparison." },
 ];
 

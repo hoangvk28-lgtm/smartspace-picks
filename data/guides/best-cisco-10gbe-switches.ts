@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which cisco 10gbe switches models are currently sold rather than assuming an older listing reflects the current lineup, since old support pages stay heavily indexed. With prices in this roundup ranging roughly $440 to $1450, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm which cisco 10gbe switches models are currently sold rather than assuming an older listing reflects the current lineup, since old support pages stay heavily indexed. This matters in practice because the picks in this comparison span from about $440 to $1450, and skipping a real check on build current model map is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on build current model map, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Publish Exact Port Topology by Model",
-    "explanation": "Check exact copper/SFP+ topology and documented switching capacity for the specific model, not the brand's range in general. Given the real spread here, from about $440 up to $1450, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check exact copper/SFP+ topology and documented switching capacity for the specific model, not the brand's range in general. Buyers shopping anywhere from $440 to $1450 in this category often assume exact port topology by is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on exact port topology by stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Management and Licensing Requirements",
-    "explanation": "Confirm whether the switch needs a controller, cloud account, or subscription license before it unlocks full functionality. Across this comparison's $440 to $1450 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm whether the switch needs a controller, cloud account, or subscription license before it unlocks full functionality. At every price point in this comparison's $440 to $1450 range, management licensing requirements varies enough between listings that assuming it scales with price is a real way to get burned. Confirm management licensing requirements directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Optics and DAC Compatibility",
-    "explanation": "Use official transceiver compatibility guidance rather than assuming any generic SFP+ module works. Products at the low end near $440 and the high end near $1450 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Use official transceiver compatibility guidance rather than assuming any generic SFP+ module works. Two picks priced close together, anywhere in this comparison's $440-$1450 band, can still land on opposite ends of optics dac compatibility, so price alone is a poor proxy for it here. Compare the stated figure for optics dac compatibility across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Firmware and Support Lifecycle",
-    "explanation": "Verify current firmware support and warranty terms, since older switches in a brand's lineup can lose active support over time. This matters in practice because the picks in this comparison span from about $440 to $1450, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify current firmware support and warranty terms, since older switches in a brand's lineup can lose active support over time. Products at the low end near $440 and the high end near $1450 of this comparison don't always handle firmware support lifecycle the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of firmware support lifecycle, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Cisco SG350-10P Managed Switch is aimed at buyers prioritizing 8x 1g + 2x combo sfp, 62w poe." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Cisco SG350-10P Managed Switch is aimed at buyers prioritizing 8x 1g + 2x combo sfp, 62w poe." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-mikrotik-10gbe-switches","title":"Best MikroTik 10GbE Switches in 2026"},{"href":"/guide/best-qnap-10gbe-switches","title":"Best QNAP 10GbE Switches in 2026"}];

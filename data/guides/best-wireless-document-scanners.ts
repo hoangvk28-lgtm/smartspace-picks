@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
-      "Identical home-network Wi-Fi capability to the rank-1 pick in a black finish, same standalone cloud-scanning and Chromebook support, same real-world caveat about large batch/high-DPI jobs running slower over Wi-Fi than a wired connection.",
+      "Identical home-network Wi-Fi capability to the rank-1 pick in a black finish, same standalone cloud-scanning and Chromebook support, same real-world caveat about large batch/high-DPI jobs running slower over Wi-Fi than a wired connection.\n\nWhat stands out here is same standalone cloud scanning as the white version, plus chromebook support via mobile app. The main tradeoff: same Wi-Fi speed tradeoff for large/high-DPI batches, so weigh that against the $279.99 price before buying.",
     specs: ["Home-network Wi-Fi + USB", "Scans to Mac/PC/mobile/cloud, works without a computer", "Chromebook scanning via mobile app", "30ppm duplex, auto de-skew"],
     pros: ["Same standalone cloud scanning as the white version", "Chromebook support via mobile app", "Black finish option", "30ppm duplex speed"],
     cons: ["Same Wi-Fi speed tradeoff for large/high-DPI batches", "No explicit encryption standard disclosed", "Same setup complexity as the white version"],
@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41m9omvtbvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1PMTS?tag=deskfinds0d-20",
     description:
-      "The same Wi-Fi 6 plus USB-C iX2500 under a separate listing with a smaller review count. Compare current pricing between this and the rank-3 listing before buying, the hardware and wireless capability are identical.",
+      "The same Wi-Fi 6 plus USB-C iX2500 under a separate listing with a smaller review count. Compare current pricing between this and the rank-3 listing before buying, the hardware and wireless capability are identical.\n\nWhere this one earns its spot is same Wi-Fi 6 capability as the rank-3 listing, and touchscreen for on-device control. Worth noting before buying: smallest review count in this guide, which matters more at Check current price than it would on a cheaper pick.",
     specs: ["Wi-Fi 6 + USB-C", "Touchscreen with personalized profiles", "Sends to PC, Mac, mobile, cloud", "Multi-feed sensor, brake roller system"],
     pros: ["Same Wi-Fi 6 capability as the rank-3 listing", "Touchscreen for on-device control", "USB-C fallback for large batches", "Multi-feed sensor"],
     cons: ["Smallest review count in this guide", "Same lack of disclosed encryption standard", "Same higher price tier"],
@@ -276,7 +276,7 @@ export const faq: FaqItem[] = [
   { q: "Is wireless scanning secure for sensitive documents?", a: "It's not clearly disclosed for most consumer scanners. None of the picks in this guide explicitly confirm an encryption standard for wireless scan transmission, verify with the manufacturer if you're scanning sensitive financial, legal, or medical documents." },
   { q: "Should I use wireless or USB for a large batch scan job?", a: "USB, generally. Large scanned files at archival DPI can introduce latency or dropped connections over Wi-Fi mid-batch. Every wireless pick in this guide also supports a wired connection for this reason." },
   { q: "Can I scan directly to the cloud without a computer using these scanners?", a: "Yes, on the ScanSnap iX1300 and iX2500 picks in this guide, which support standalone scan-to-cloud over home-network Wi-Fi without needing a computer powered on." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want genuine standalone wireless scanning to cloud services or a Chromebook" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want genuine standalone wireless scanning to cloud services or a Chromebook" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the most modern wireless standard (Wi-Fi 6) with a fallback wired option At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 

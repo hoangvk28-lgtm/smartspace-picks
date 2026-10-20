@@ -263,7 +263,7 @@ export const faq: FaqItem[] = [
   { q: "Why is my UPS's watt rating lower than its VA rating?", a: "This is normal. The power factor of typical UPS designs means actual usable watts is roughly 0.6 times the VA number, a 1000VA unit is usually rated for about 600W, not 1000W." },
   { q: "Should I use my power supply's maximum wattage to size a UPS?", a: "No, use your PC's typical actual power draw instead. A power supply's maximum rating is far higher than what a PC actually consumes during normal use, sizing to the maximum rating will lead you to overspend on capacity you don't need." },
   { q: "Do I need pure sine wave for my PC and monitor?", a: "If your PC has an active power factor correction (APFC) power supply, which is standard on most desktops built in the last decade, yes. Modified sine wave can cause buzzing, overheating, or unexpected shutdown on that hardware." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a gaming or high-performance PC plus monitor who want real wattage headroom" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a gaming or high-performance PC plus monitor who want real wattage headroom" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a low-power PC and monitor setup At $109.99, it's the lowest-cost pick in this comparison." },
 ];
 

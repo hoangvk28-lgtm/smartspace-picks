@@ -252,7 +252,7 @@ export const faq: FaqItem[] = [
   { q: "Why does this list have 6 products instead of 8?", a: "One original candidate ASIN was not accessible through the Amazon catalog API, and another turned out to be a laptop stand with no charging function. We excluded both rather than padding the list." },
   { q: "Which pick has the most ports?", a: "The 12 Ports Aluminum Alloy MEKIOJEO 380W Charging Station, though it has lower total wattage than the 10-port Zobirez option." },
   { q: "Is there an organizer-style option instead of a GaN charging block?", a: "Yes, the G.U.S. and Prosumer's Choice picks are organizer-style docks better suited to phones and tablets." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most proven multi-device charging station." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most proven multi-device charging station." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

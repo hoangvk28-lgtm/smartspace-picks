@@ -280,7 +280,7 @@ export const faq: FaqItem[] = [
   { q: "Do any of these scanners produce PDF/A-compliant archival output?", a: "None of the picks in this guide explicitly confirm PDF/A compliance, required by some legal/government retention rules. Verify directly with the manufacturer if this specific compliance matters for your use case." },
   { q: "Will a large batch scan job become searchable as fast as it scans?", a: "No. OCR processing to generate the searchable text layer adds real time beyond the raw scan time, a large multi-hundred-page project will take longer to become fully searchable than the scan time alone suggests." },
   { q: "How much scan resolution do I need for reliable searchable PDF text?", a: "At least 300 DPI for a clean original document. Lower resolution, especially on faxed or low-contrast source documents, produces meaningfully worse OCR text extraction and less reliable search results." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the cleanest source scans for reliable searchable PDF text layers" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want the cleanest source scans for reliable searchable PDF text layers" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the cleanest source scans for reliable searchable PDF text layers At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 

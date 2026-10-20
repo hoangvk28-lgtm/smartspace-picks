@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Measure Compressor Startup Surge",
-    "explanation": "Check portable power stations for refrigerator's documented startup surge and running draw against the actual refrigerator or a representative compressor load. With prices in this roundup ranging roughly $449 to $899, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check portable power stations for refrigerator's documented startup surge and running draw against the actual refrigerator or a representative compressor load. This matters in practice because the picks in this comparison span from about $449 to $899, and skipping a real check on compressor startup surge is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on compressor startup surge, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Estimate Runtime From Duty-Cycle Logging",
-    "explanation": "Estimate runtime using duty-cycle behavior and measured usable AC energy, not a single running-watts figure. Given the real spread here, from about $449 up to $899, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Estimate runtime using duty-cycle behavior and measured usable AC energy, not a single running-watts figure. Buyers shopping anywhere from $449 to $899 in this category often assume estimate runtime from duty-cycle is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on estimate runtime from duty-cycle stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Test Restart at Low Charge",
-    "explanation": "Verify restart behavior after the station reaches low state of charge or after a brief transfer event. Across this comparison's $449 to $899 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify restart behavior after the station reaches low state of charge or after a brief transfer event. At every price point in this comparison's $449 to $899 range, restart at low charge varies enough between listings that assuming it scales with price is a real way to get burned. Confirm restart at low charge directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Compare Inverter Efficiency at Low Average Load",
-    "explanation": "Compare inverter efficiency at the refrigerator's relatively low average load, since efficiency varies by load level. Products at the low end near $449 and the high end near $899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare inverter efficiency at the refrigerator's relatively low average load, since efficiency varies by load level. Two picks priced close together, anywhere in this comparison's $449-$899 band, can still land on opposite ends of inverter efficiency at low, so price alone is a poor proxy for it here. Compare the stated figure for inverter efficiency at low across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Plan for Food Safety, Not Just Power",
-    "explanation": "Treat this as food-safety backup planning rather than trusting one power station to guarantee a fixed duration for every fridge. This matters in practice because the picks in this comparison span from about $449 to $899, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Treat this as food-safety backup planning rather than trusting one power station to guarantee a fixed duration for every fridge. Products at the low end near $449 and the high end near $899 of this comparison don't always handle plan food safety power the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan food safety power, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "BLUETTI FridgePower Portable Power Station is aimed at buyers prioritizing 2016wh (expandable to 8064wh), 1800w" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", "a": "BLUETTI FridgePower Portable Power Station is aimed at buyers prioritizing 2016wh (expandable to 8064wh), 1800w" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-for-fridge","title":"Best Portable Power Stations for Fridge in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"}];

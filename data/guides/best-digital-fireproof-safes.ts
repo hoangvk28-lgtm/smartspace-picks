@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Test Keypad Reliability and Lockout Behavior",
-    "explanation": "Check how digital fireproof safes's keypad handles repeated entries and what happens after multiple wrong attempts, since lockout duration and alarm behavior vary meaningfully between models. Across this comparison's $70 to $490 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check how digital fireproof safes's keypad handles repeated entries and what happens after multiple wrong attempts, since lockout duration and alarm behavior vary meaningfully between models. This matters in practice because the picks in this comparison span from about $70 to $490, and skipping a real check on keypad reliability lockout behavior is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on keypad reliability lockout behavior, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Battery Type and Backup Access",
-    "explanation": "Confirm what batteries the keypad needs, whether a low-battery warning exists, and what backup access (physical key, external battery port) is available if the batteries die. Products at the low end near $70 and the high end near $490 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm what batteries the keypad needs, whether a low-battery warning exists, and what backup access (physical key, external battery port) is available if the batteries die. Buyers shopping anywhere from $70 to $490 in this category often assume battery type backup access is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on battery type backup access stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Understand Master and User Code Behavior",
-    "explanation": "Check whether the safe supports multiple codes for different users, and how straightforward the code-change process actually is. This matters in practice because the picks in this comparison span from about $70 to $490, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check whether the safe supports multiple codes for different users, and how straightforward the code-change process actually is. At every price point in this comparison's $70 to $490 range, understand master user code varies enough between listings that assuming it scales with price is a real way to get burned. Confirm understand master user code directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Fire Rating Independently of the Lock",
-    "explanation": "A digital lock is a convenience feature, not a fire-protection feature; check the safe's fire classification separately from its keypad specs. With prices in this roundup ranging roughly $70 to $490, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "A digital lock is a convenience feature, not a fire-protection feature; check the safe's fire classification separately from its keypad specs. Two picks priced close together, anywhere in this comparison's $70-$490 band, can still land on opposite ends of fire rating independently lock, so price alone is a poor proxy for it here. Compare the stated figure for fire rating independently lock across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Separate Alarm and Security Features From Fire Performance",
-    "explanation": "Tamper alarms, vibration sensors, and bolt count address theft, not fire; evaluate these as a distinct category from the fire-resistance rating. Given the real spread here, from about $70 up to $490, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Tamper alarms, vibration sensors, and bolt count address theft, not fire; evaluate these as a distinct category from the fire-resistance rating. Products at the low end near $70 and the high end near $490 of this comparison don't always handle separate alarm security features the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of separate alarm security features, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-digital-fireproof-safes-for-home","title":"Best Digital Fireproof Safes for Home in 2026"},{"href":"/guide/best-keypad-fireproof-safes","title":"Best Keypad Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

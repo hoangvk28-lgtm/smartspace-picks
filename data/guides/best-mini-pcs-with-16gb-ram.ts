@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Can I upgrade a 16GB mini PC's RAM later?", a: "It depends on the model, some explicitly support upgradable RAM while others solder it permanently, verify this before buying if future-proofing matters." },
   { q: "Should I choose 16GB or 32GB RAM?", a: "16GB covers most everyday productivity well, 32GB is worth it specifically for heavy multitasking or light creative work." },
   { q: "Do 16GB mini PCs come with Windows included?", a: "Some do, including Windows 11 Pro is genuine value that avoids a separate license purchase." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a well-rounded, upgradable 16GB mini PC with strong all-around performance" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers wanting a well-rounded, upgradable 16GB mini PC with strong all-around performance" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting more generous storage alongside 16GB RAM At $309.00, it's the lowest-cost pick in this comparison." },
 ];
 

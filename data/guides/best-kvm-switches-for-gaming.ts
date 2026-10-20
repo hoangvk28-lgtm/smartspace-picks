@@ -226,7 +226,7 @@ export const faq: FaqItem[] = [
   { q: "Will a KVM switch limit my 144Hz gaming monitor to 60Hz?", a: "It can if the switch is capped at 60Hz, verify the switch supports your monitor's full refresh rate, not just its resolution." },
   { q: "Is a KVM switch okay for casual gaming?", a: "Generally yes, minor added lag matters less for casual play than for competitive ranked gaming." },
   { q: "Do gaming mice and keyboards work well through a KVM switch?", a: "Most do, but verify USB port responsiveness for high-polling-rate peripherals specifically through reviews." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Gamers wanting a switch that actually supports their monitor's full 144Hz refresh rate" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Gamers wanting a switch that actually supports their monitor's full 144Hz refresh rate" },
   { q: "Which pick offers the best value for a tight budget?", a: "Casual gamers wanting a budget-friendly switch without competitive-tier performance needs At $32.99, it's the lowest-cost pick in this comparison." },
 ];
 

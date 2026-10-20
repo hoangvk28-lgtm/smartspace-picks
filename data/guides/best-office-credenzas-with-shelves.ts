@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Measure Vertical Clearance for Binders and Books",
-    "explanation": "Check shelf spacing in office credenzas with shelves against your actual binder and book heights, since open-shelf credenzas vary meaningfully in vertical clearance between shelves. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check shelf spacing in office credenzas with shelves against your actual binder and book heights, since open-shelf credenzas vary meaningfully in vertical clearance between shelves. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping a real check on vertical clearance binders books is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on vertical clearance binders books, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Documented Shelf Load Rating",
-    "explanation": "Look for a stated per-shelf weight rating before loading it with books or files, since shelf sag becomes a real risk without documented load capacity. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Look for a stated per-shelf weight rating before loading it with books or files, since shelf sag becomes a real risk without documented load capacity. Buyers shopping anywhere from $144 to $360 in this category often assume documented shelf load rating is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on documented shelf load rating stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Shelf Adjustability",
-    "explanation": "Confirm how many height positions each shelf supports, since fixed shelves offer less flexibility than adjustable ones as your storage needs change. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm how many height positions each shelf supports, since fixed shelves offer less flexibility than adjustable ones as your storage needs change. At every price point in this comparison's $144 to $360 range, shelf adjustability varies enough between listings that assuming it scales with price is a real way to get burned. Confirm shelf adjustability directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Plan Open vs. Closed Storage Balance",
-    "explanation": "Weigh how much of the total storage is open shelving versus closed cabinets, since open shelves offer no dust or privacy protection for their contents. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Weigh how much of the total storage is open shelving versus closed cabinets, since open shelves offer no dust or privacy protection for their contents. Two picks priced close together, anywhere in this comparison's $144-$360 band, can still land on opposite ends of plan open vs closed, so price alone is a poor proxy for it here. Compare the stated figure for plan open vs closed across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Anti-Tip Hardware Is Included",
-    "explanation": "Verify anti-tip wall-anchor hardware ships standard, since a tall, shelf-heavy piece carries more tipping risk than a low, drawer-only cabinet. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify anti-tip wall-anchor hardware ships standard, since a tall, shelf-heavy piece carries more tipping risk than a low, drawer-only cabinet. Products at the low end near $144 and the high end near $360 of this comparison don't always handle anti-tip hardware included the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of anti-tip hardware included, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-bookshelves","title":"Best Office Credenzas With Bookshelves in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

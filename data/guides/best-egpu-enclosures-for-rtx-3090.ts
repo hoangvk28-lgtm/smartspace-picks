@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Qualify Exact Board-Partner Dimensions",
-    "explanation": "Check the exact egpu enclosures for rtx 3090 board-partner card's length, height, and width rather than assuming all cards in that GPU family match the reference design. Products at the low end near $161 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the exact egpu enclosures for rtx 3090 board-partner card's length, height, and width rather than assuming all cards in that GPU family match the reference design. Across this comparison's $161 to $630 range, qualify exact board-partner dimensions is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check qualify exact board-partner dimensions against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify PSU Wattage and Native Connectors for This Exact Card",
-    "explanation": "Confirm PSU wattage and required 12V-2x6/12VHPWR/8-pin connectors match your specific card model's documented requirements. This matters in practice because the picks in this comparison span from about $161 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm PSU wattage and required 12V-2x6/12VHPWR/8-pin connectors match your specific card model's documented requirements. Given the real spread here, from about $161 up to $630, two products can look nearly identical on the surface while differing exactly on psu wattage native connectors, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on psu wattage native connectors, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Connector Clearance and Cable Bend Radius",
-    "explanation": "Verify side-panel or open-frame clearance for the power connector and cable bend radius with this specific card installed. With prices in this roundup ranging roughly $161 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify side-panel or open-frame clearance for the power connector and cable bend radius with this specific card installed. With prices in this roundup ranging roughly $161 to $630, connector clearance cable bend is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify connector clearance cable bend directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Benchmark Over Your Intended Host Link",
-    "explanation": "Look for benchmarks using the same GPU over the Thunderbolt, USB4, or OCuLink link you actually plan to use. Given the real spread here, from about $161 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for benchmarks using the same GPU over the Thunderbolt, USB4, or OCuLink link you actually plan to use. This matters in practice because the picks in this comparison span from about $161 to $630, and skipping a real check on benchmark over intended host is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on benchmark over intended host, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Sustained Thermals in the Enclosure",
-    "explanation": "Check sustained-load temperature and noise data measured inside the enclosure, not open-bench GPU data that doesn't reflect enclosed airflow. Across this comparison's $161 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check sustained-load temperature and noise data measured inside the enclosure, not open-bench GPU data that doesn't reflect enclosed airflow. Buyers shopping anywhere from $161 to $630 in this category often assume sustained thermals enclosure is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on sustained thermals enclosure stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures-for-rtx-4090","title":"Best eGPU Enclosures for RTX 4090 in 2026"},{"href":"/guide/best-egpu-enclosures-for-rtx-5090","title":"Best eGPU Enclosures for RTX 5090 in 2026"},{"href":"/guide/best-egpu-enclosures-for-rtx-3060","title":"Best eGPU Enclosures for RTX 3060 in 2026"}];

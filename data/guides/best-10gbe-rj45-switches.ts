@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Native 10GBASE-T, Not Populated SFP+ Cages",
-    "explanation": "Confirm 10gbe rj45 switches's 10G ports are native copper rather than SFP+ cages fitted with optional copper modules. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm 10gbe rj45 switches's 10G ports are native copper rather than SFP+ cages fitted with optional copper modules. At every price point in this comparison's $80 to $252 range, native 10gbase-t populated sfp varies enough between listings that assuming it scales with price is a real way to get burned. Confirm native 10gbase-t populated sfp directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Multi-Gig Fallback on Every Port",
-    "explanation": "Check 5G/2.5G/1G auto-negotiation fallback on each port, since mixed-speed devices are common on real networks. Across this comparison's $80 to $252 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check 5G/2.5G/1G auto-negotiation fallback on each port, since mixed-speed devices are common on real networks. Two picks priced close together, anywhere in this comparison's $80-$252 band, can still land on opposite ends of multi-gig fallback every port, so price alone is a poor proxy for it here. Compare the stated figure for multi-gig fallback every port across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Cable Category and Distance Requirements",
-    "explanation": "Confirm the exact cable category (Cat6, Cat6A) and maximum distance needed for sustained 10G operation. Products at the low end near $80 and the high end near $252 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the exact cable category (Cat6, Cat6A) and maximum distance needed for sustained 10G operation. Products at the low end near $80 and the high end near $252 of this comparison don't always handle cable category distance requirements the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cable category distance requirements, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Warm-State Acoustics Under Load",
-    "explanation": "Look for noise measurements taken after warm-up under real traffic, not just an idle or fanless label. This matters in practice because the picks in this comparison span from about $80 to $252, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Look for noise measurements taken after warm-up under real traffic, not just an idle or fanless label. Across this comparison's $80 to $252 range, warm-state acoustics under load is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check warm-state acoustics under load against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Thermal Behavior With Copper Modules Active",
-    "explanation": "Check thermal ratings specifically with 10GBASE-T ports active, since copper PHYs generate meaningfully more heat than SFP+ optics. With prices in this roundup ranging roughly $80 to $252, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check thermal ratings specifically with 10GBASE-T ports active, since copper PHYs generate meaningfully more heat than SFP+ optics. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on thermal behavior copper modules, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on thermal behavior copper modules, since it's often left out of the main bullet points entirely."
   }
 ];
 

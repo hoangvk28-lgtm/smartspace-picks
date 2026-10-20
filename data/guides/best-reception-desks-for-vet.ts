@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Keep Leashes and Pets Out of Staff Leg Space",
-    "explanation": "Keep leashes, carriers, and pets out of staff leg space, since animal movement near the desk creates a different hazard profile than typical human foot traffic. Given the real spread here, from about $370 up to $1659, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Keep leashes, carriers, and pets out of staff leg space, since animal movement near the desk creates a different hazard profile than typical human foot traffic. Given the real spread here, from about $370 up to $1659, two products can look nearly identical on the surface while differing exactly on keep leashes pets out, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on keep leashes pets out, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Use Durable Cleanable Lower Fronts",
-    "explanation": "Use durable, cleanable lower fronts and corners, since pet claws and repeated cleaning at floor level demand more durability than a standard office desk front. Across this comparison's $370 to $1659 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Use durable, cleanable lower fronts and corners, since pet claws and repeated cleaning at floor level demand more durability than a standard office desk front. With prices in this roundup ranging roughly $370 to $1659, durable cleanable lower fronts is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify durable cleanable lower fronts directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Accessible Approach Without Animal Queuing",
-    "explanation": "Verify an accessible service approach without queuing animals blocking the route, since a vet waiting area's circulation includes pets as well as owners. Products at the low end near $370 and the high end near $1659 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify an accessible service approach without queuing animals blocking the route, since a vet waiting area's circulation includes pets as well as owners. This matters in practice because the picks in this comparison span from about $370 to $1659, and skipping a real check on accessible approach without animal is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on accessible approach without animal, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Separate Payment from Medication Handoff",
-    "explanation": "Separate payment and records from medication or package handoff, since vet reception manages more physical item categories than a typical front desk. This matters in practice because the picks in this comparison span from about $370 to $1659, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Separate payment and records from medication or package handoff, since vet reception manages more physical item categories than a typical front desk. Buyers shopping anywhere from $370 to $1659 in this category often assume separate payment from medication is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on separate payment from medication stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Maintain Sightlines to Waiting Animals",
-    "explanation": "Maintain sightlines to entry and waiting animals, since staff need to monitor pet behavior and owner needs simultaneously. With prices in this roundup ranging roughly $370 to $1659, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Maintain sightlines to entry and waiting animals, since staff need to monitor pet behavior and owner needs simultaneously. At every price point in this comparison's $370 to $1659 range, maintain sightlines waiting animals varies enough between listings that assuming it scales with price is a real way to get burned. Confirm maintain sightlines waiting animals directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Exsunnyfit Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 70.8\"l x 23.6\"d x 39.3\"h, fully assembled." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-medical","title":"best-reception-desks-for-medical"},{"href":"/guide/best-reception-desks-for-clinic","title":"best-reception-desks-for-clinic"}];

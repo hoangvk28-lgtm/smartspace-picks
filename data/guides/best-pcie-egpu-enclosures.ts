@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm a Genuine Direct PCIe Connection",
-    "explanation": "Verify pcie egpu enclosures provides a real direct PCIe path rather than tunneling through another protocol, and check the documented PCIe generation and lane count. Products at the low end near $161 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify pcie egpu enclosures provides a real direct PCIe path rather than tunneling through another protocol, and check the documented PCIe generation and lane count. Buyers shopping anywhere from $161 to $630 in this category often assume genuine direct pcie connection is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on genuine direct pcie connection stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Host-Side OCuLink or M.2 Wiring",
-    "explanation": "Confirm your host actually exposes the exact connector type (OCuLink, NVMe M.2) required, since this is far less standardized than Thunderbolt or USB4. This matters in practice because the picks in this comparison span from about $161 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm your host actually exposes the exact connector type (OCuLink, NVMe M.2) required, since this is far less standardized than Thunderbolt or USB4. At every price point in this comparison's $161 to $630 range, host-side oculink m2 wiring varies enough between listings that assuming it scales with price is a real way to get burned. Confirm host-side oculink m2 wiring directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Hot-Plug Limitations",
-    "explanation": "Verify whether the connection supports hot-plugging or requires a full shutdown before connecting or disconnecting, a real workflow difference from Thunderbolt. With prices in this roundup ranging roughly $161 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify whether the connection supports hot-plugging or requires a full shutdown before connecting or disconnecting, a real workflow difference from Thunderbolt. Two picks priced close together, anywhere in this comparison's $161-$630 band, can still land on opposite ends of hot-plug limitations, so price alone is a poor proxy for it here. Compare the stated figure for hot-plug limitations across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Power Supply Format and Sizing",
-    "explanation": "Check ATX/SFX power supply compatibility and size it to your specific GPU's power draw, since these connections still need a separate PSU. Given the real spread here, from about $161 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check ATX/SFX power supply compatibility and size it to your specific GPU's power draw, since these connections still need a separate PSU. Products at the low end near $161 and the high end near $630 of this comparison don't always handle power supply format sizing the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of power supply format sizing, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Benchmark Against Thunderbolt Alternatives",
-    "explanation": "Compare real performance against a Thunderbolt/USB4 option using the same GPU where possible, to confirm the direct-PCIe advantage is worth the added setup complexity. Across this comparison's $161 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Compare real performance against a Thunderbolt/USB4 option using the same GPU where possible, to confirm the direct-PCIe advantage is worth the added setup complexity. Across this comparison's $161 to $630 range, benchmark against thunderbolt alternatives is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check benchmark against thunderbolt alternatives against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Plugable Thunderbolt 5 AI eGPU Enclosure & Dock is aimed at buyers prioritizing 850w psu (80+ gold), 600w dedicated to gpu." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

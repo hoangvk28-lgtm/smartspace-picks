@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Set Explicit Weight Thresholds",
-    "explanation": "Set an explicit weight and packed-volume threshold for small portable power stations rather than judging portability from photos alone. Given the real spread here, from about $70 up to $259, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Set an explicit weight and packed-volume threshold for small portable power stations rather than judging portability from photos alone. Buyers shopping anywhere from $70 to $259 in this category often assume set explicit weight thresholds is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on set explicit weight thresholds stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Publish Measured Wh Per Pound",
-    "explanation": "Compare measured usable Wh per pound across finalists to judge real energy density. Across this comparison's $70 to $259 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Compare measured usable Wh per pound across finalists to judge real energy density. At every price point in this comparison's $70 to $259 range, measured wh per pound varies enough between listings that assuming it scales with price is a real way to get burned. Confirm measured wh per pound directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Output Still Meets Target Load",
-    "explanation": "Confirm AC, USB-C, and DC outputs still meet your target load despite the compact size. Products at the low end near $70 and the high end near $259 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm AC, USB-C, and DC outputs still meet your target load despite the compact size. Two picks priced close together, anywhere in this comparison's $70-$259 band, can still land on opposite ends of output still meets target, so price alone is a poor proxy for it here. Compare the stated figure for output still meets target across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Compare Ergonomics and Charger Weight",
-    "explanation": "Compare handle and packing ergonomics, plus the weight of any required charger or adapter. This matters in practice because the picks in this comparison span from about $70 to $259, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare handle and packing ergonomics, plus the weight of any required charger or adapter. Products at the low end near $70 and the high end near $259 of this comparison don't always handle ergonomics charger weight the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of ergonomics charger weight, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Low-Load Efficiency",
-    "explanation": "Check low-load efficiency and fan noise, since small inverters can waste a larger share of stored energy. With prices in this roundup ranging roughly $70 to $259, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check low-load efficiency and fan noise, since small inverters can waste a larger share of stored energy. Across this comparison's $70 to $259 range, low-load efficiency is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check low-load efficiency against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Daran Portable Power Station 89.6Wh is aimed at buyers prioritizing 89.6wh, 100w (200w peak), 2.54 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

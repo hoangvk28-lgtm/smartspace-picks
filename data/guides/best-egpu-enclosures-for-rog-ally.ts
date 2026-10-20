@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm the Exact Host Generation's Port",
-    "explanation": "Verify egpu enclosures for rog ally's exact external-PCIe-capable port and generation, since handheld gaming devices vary significantly in eGPU support even within the same product line. Across this comparison's $96 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify egpu enclosures for rog ally's exact external-PCIe-capable port and generation, since handheld gaming devices vary significantly in eGPU support even within the same product line. Across this comparison's $96 to $300 range, exact host generations port is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check exact host generations port against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Use Only the Officially Supported Link Architecture",
-    "explanation": "Confirm the enclosure matches the handheld's actual documented link type rather than assuming generic USB-C compatibility. Products at the low end near $96 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the enclosure matches the handheld's actual documented link type rather than assuming generic USB-C compatibility. Given the real spread here, from about $96 up to $300, two products can look nearly identical on the surface while differing exactly on only officially supported link, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on only officially supported link, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check for a Second-Cable Power Problem",
-    "explanation": "Verify charging and power requirements together, since some eGPU setups on handhelds unexpectedly require a second power cable alongside the eGPU cable. This matters in practice because the picks in this comparison span from about $96 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify charging and power requirements together, since some eGPU setups on handhelds unexpectedly require a second power cable alongside the eGPU cable. With prices in this roundup ranging roughly $96 to $300, second-cable power problem is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify second-cable power problem directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Benchmark Internal and External Display Paths Separately",
-    "explanation": "Check documented performance for both the handheld's built-in screen and an external monitor, since these paths can behave differently. With prices in this roundup ranging roughly $96 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check documented performance for both the handheld's built-in screen and an external monitor, since these paths can behave differently. This matters in practice because the picks in this comparison span from about $96 to $300, and skipping a real check on benchmark internal external display is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on benchmark internal external display, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Record Firmware and Driver Versions That Work",
-    "explanation": "Note the specific BIOS, firmware, and driver versions confirmed compatible, since handheld eGPU support has evolved significantly across firmware updates. Given the real spread here, from about $96 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Note the specific BIOS, firmware, and driver versions confirmed compatible, since handheld eGPU support has evolved significantly across firmware updates. Buyers shopping anywhere from $96 to $300 in this category often assume record firmware driver versions is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on record firmware driver versions stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "TREBLEET 80Gbps eGPU Enclosure is aimed at buyers prioritizing jhl9480 controller, 80gbps bandwidth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "TREBLEET 80Gbps eGPU Enclosure is aimed at buyers prioritizing jhl9480 controller, 80gbps bandwidth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

@@ -293,7 +293,7 @@ export const faq: FaqItem[] = [
   { q: "Does 'supports Bates numbering' mean the scanner stamps documents itself?", a: "No. This marketing language usually refers to compatibility with third-party legal document management software, which performs the actual stamping, not a built-in scanner hardware feature." },
   { q: "Can I scan legal-size (8.5x14) documents at full batch speed?", a: "It depends on the model, and none of the picks in this guide explicitly confirm full-speed legal-size batch ADF support. Some scanners only support legal-size paper in a reduced-speed or manual single-sheet mode, verify directly." },
   { q: "Is it safe to scan privileged documents over Wi-Fi or to the cloud?", a: "Only if the connection uses verified encryption, and none of the picks in this guide disclose a specific encryption standard. Verify directly with the manufacturer before scanning privileged material wirelessly." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Firms who want reliable duplex batch scanning and will verify legal-size ADF speed separately" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Firms who want reliable duplex batch scanning and will verify legal-size ADF speed separately" },
   { q: "Which pick offers the best value for a tight budget?", a: "Attorneys who need portable scanning for off-site client or deposition work At $184.00, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm Pull-Out Depth Fits the Rack",
-    "explanation": "Verify server rack drawers's extension depth fits the actual clearance behind the rack before it hits a wall or another piece of equipment. Across this comparison's $55 to $80 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify server rack drawers's extension depth fits the actual clearance behind the rack before it hits a wall or another piece of equipment. Products at the low end near $55 and the high end near $80 of this comparison don't always handle pull-out depth fits rack the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of pull-out depth fits rack, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Reinforcement Against Wobble",
-    "explanation": "Look for a reinforced crossbar or rail system, since basic slides can wobble noticeably when fully extended. Products at the low end near $55 and the high end near $80 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Look for a reinforced crossbar or rail system, since basic slides can wobble noticeably when fully extended. Across this comparison's $55 to $80 range, reinforcement against wobble is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check reinforcement against wobble against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Weight Rating for Contents",
-    "explanation": "Confirm the documented weight rating matches what's actually being stored, whether that's a keyboard or heavier drawer contents. This matters in practice because the picks in this comparison span from about $55 to $80, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the documented weight rating matches what's actually being stored, whether that's a keyboard or heavier drawer contents. Given the real spread here, from about $55 up to $80, two products can look nearly identical on the surface while differing exactly on weight rating contents, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on weight rating contents, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Lock Type if Security Matters",
-    "explanation": "Check whether the drawer uses a key lock or combination lock, and whether that fits how the rack is shared or accessed. With prices in this roundup ranging roughly $55 to $80, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether the drawer uses a key lock or combination lock, and whether that fits how the rack is shared or accessed. With prices in this roundup ranging roughly $55 to $80, lock type security matters is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify lock type security matters directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check U-Height Impact on Rack Space",
-    "explanation": "Confirm how much U-height the tray or drawer consumes, since that's space unavailable for active equipment. Given the real spread here, from about $55 up to $80, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm how much U-height the tray or drawer consumes, since that's space unavailable for active equipment. This matters in practice because the picks in this comparison span from about $55 to $80, and skipping a real check on u-height impact rack space is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on u-height impact rack space, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "QiaoYoubang 2U Server Cabinet Case is aimed at buyers prioritizing 2u, 19\"w x 12.6\"d x 2u h." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "QiaoYoubang 2U Server Cabinet Case is aimed at buyers prioritizing 2u, 19\"w x 12.6\"d x 2u h." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

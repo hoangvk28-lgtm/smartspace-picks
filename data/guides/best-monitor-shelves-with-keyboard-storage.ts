@@ -241,7 +241,7 @@ export const faq: FaqItem[] = [
   { q: "Can I store a wired keyboard in a monitor shelf's storage slot?", a: "Usually yes, but check for cable pass-through, sliding a wired keyboard into a slot with the cable still attached could cause connector strain over repeated use." },
   { q: "Does a keyboard get too hot stored in an enclosed monitor shelf slot?", a: "No. Keyboards don't generate heat, so the enclosed-space heat-buildup concern relevant to laptop storage doesn't apply here." },
   { q: "How often can I slide my keyboard in and out of the storage slot?", a: "These slots are designed for daily accessibility, sliding a keyboard in/out multiple times per day, verify the drawer mechanism handles that frequency smoothly before buying." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven, most affordable keyboard storage stand" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the most-proven, most affordable keyboard storage stand" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the most-proven, most affordable keyboard storage stand At $19.99, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which asus egpu enclosures models are currently sold rather than assuming an older listing reflects the current lineup, since generations change bandwidth and card support significantly. Products at the low end near $96 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm which asus egpu enclosures models are currently sold rather than assuming an older listing reflects the current lineup, since generations change bandwidth and card support significantly. At every price point in this comparison's $96 to $630 range, build current model map varies enough between listings that assuming it scales with price is a real way to get burned. Confirm build current model map directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Compare Controller Generation by Exact Model",
-    "explanation": "Check the specific Thunderbolt/USB4 controller generation and effective PCIe path for the exact model, not the brand's range in general. This matters in practice because the picks in this comparison span from about $96 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check the specific Thunderbolt/USB4 controller generation and effective PCIe path for the exact model, not the brand's range in general. Two picks priced close together, anywhere in this comparison's $96-$630 band, can still land on opposite ends of controller generation by exact, so price alone is a poor proxy for it here. Compare the stated figure for controller generation by exact across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify GPU Dimension Limits",
-    "explanation": "Confirm maximum supported GPU length, height, and slot width against your specific card before assuming any enclosure in the brand's lineup fits. With prices in this roundup ranging roughly $96 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm maximum supported GPU length, height, and slot width against your specific card before assuming any enclosure in the brand's lineup fits. Products at the low end near $96 and the high end near $630 of this comparison don't always handle gpu dimension limits the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of gpu dimension limits, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Current Firmware and Driver Support",
-    "explanation": "Verify current firmware and driver support status, since older models can lose active support over time. Given the real spread here, from about $96 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify current firmware and driver support status, since older models can lose active support over time. Across this comparison's $96 to $630 range, current firmware driver support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check current firmware driver support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Warranty and Support Channels",
-    "explanation": "Check warranty length and support responsiveness, since this varies meaningfully even within the same brand's product line. Across this comparison's $96 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check warranty length and support responsiveness, since this varies meaningfully even within the same brand's product line. Given the real spread here, from about $96 up to $630, two products can look nearly identical on the surface while differing exactly on warranty support channels, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on warranty support channels, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU is aimed at buyers prioritizing 750w psu included." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU is aimed at buyers prioritizing 750w psu included." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-razer-egpu-enclosures","title":"Best Razer eGPU Enclosures in 2026"},{"href":"/guide/best-trebleet-egpu-enclosures","title":"Best TREBLEET eGPU Enclosures in 2026"},{"href":"/guide/best-akitio-egpu-enclosures","title":"Best AKiTiO eGPU Enclosures in 2026"}];

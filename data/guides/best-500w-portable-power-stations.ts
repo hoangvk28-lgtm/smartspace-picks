@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 500w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. Across this comparison's $130 to $429 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm 500w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. Given the real spread here, from about $130 up to $429, two products can look nearly identical on the surface while differing exactly on documented continuous output, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on documented continuous output, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. Products at the low end near $130 and the high end near $429 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. With prices in this roundup ranging roughly $130 to $429, surge duration separately is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify surge duration separately directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. This matters in practice because the picks in this comparison span from about $130 to $429, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. This matters in practice because the picks in this comparison span from about $130 to $429, and skipping a real check on battery wh at same is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on battery wh at same, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. With prices in this roundup ranging roughly $130 to $429, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. Buyers shopping anywhere from $130 to $429 in this category often assume efficiency at partial load is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on efficiency at partial load stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Given the real spread here, from about $130 up to $429, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. At every price point in this comparison's $130 to $429 range, port recharge limits varies enough between listings that assuming it scales with price is a real way to get burned. Confirm port recharge limits directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Portable Power Station 500W is aimed at buyers prioritizing 519.48wh, 500w, 10 simultaneous devices." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Portable Power Station 500W is aimed at buyers prioritizing 519.48wh, 500w, 10 simultaneous devices." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1000w-portable-power-stations","title":"Best 1000W Portable Power Stations in 2026"},{"href":"/guide/best-2000w-portable-power-stations","title":"Best 2000W Portable Power Stations in 2026"},{"href":"/guide/best-3000w-portable-power-stations","title":"Best 3000W Portable Power Stations in 2026"}];

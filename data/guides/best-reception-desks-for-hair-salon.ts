@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map Booking, POS, and Display on One Counter",
-    "explanation": "Plan booking device, POS, receipt printer, and product display on the same counter without them competing for the same limited desktop space. With prices in this roundup ranging roughly $170 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Plan booking device, POS, receipt printer, and product display on the same counter without them competing for the same limited desktop space. With prices in this roundup ranging roughly $170 to $1469, map booking pos display is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map booking pos display directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Finish Care for Color Residue",
-    "explanation": "Check top and front finish care specifically against hair-color residue and aerosol overspray, since these are harsher than typical office cleaning demands. Given the real spread here, from about $170 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check top and front finish care specifically against hair-color residue and aerosol overspray, since these are harsher than typical office cleaning demands. This matters in practice because the picks in this comparison span from about $170 to $1469, and skipping a real check on finish care color residue is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on finish care color residue, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Reserve Retail Display Without Blocking Handoff",
-    "explanation": "Reserve retail haircare display space without covering the visitor handoff area where clients pay or receive receipts. Across this comparison's $170 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Reserve retail haircare display space without covering the visitor handoff area where clients pay or receive receipts. Buyers shopping anywhere from $170 to $1469 in this category often assume reserve retail display without is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on reserve retail display without stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Provide Protected Staff Storage",
-    "explanation": "Provide protected storage for forms, color charts, and staff-only items separate from the client-facing retail display. Products at the low end near $170 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Provide protected storage for forms, color charts, and staff-only items separate from the client-facing retail display. At every price point in this comparison's $170 to $1469 range, provide protected staff storage varies enough between listings that assuming it scales with price is a real way to get burned. Confirm provide protected staff storage directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Entry Circulation for Bags and Coats",
-    "explanation": "Verify circulation for clients arriving with bags and coats near the desk, since hair salon entries are often more compact than a standard office lobby. This matters in practice because the picks in this comparison span from about $170 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify circulation for clients arriving with bags and coats near the desk, since hair salon entries are often more compact than a standard office lobby. Two picks priced close together, anywhere in this comparison's $170-$1469 band, can still land on opposite ends of entry circulation bags coats, so price alone is a poor proxy for it here. Compare the stated figure for entry circulation bags coats across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 71\" or 78\"l x 27\"w x 39\"h, fully assembled." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Fully Assembled Curved Reception Desk is aimed at buyers prioritizing 71\" or 78\"l x 27\"w x 39\"h, fully assembled." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-salon","title":"6 Best Reception Desks for Salon in 2026"},{"href":"/guide/best-reception-desks-for-beauty-salon","title":"6 Best Reception Desks for Beauty Salon in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];

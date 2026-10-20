@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Exact Model Generation",
-    "explanation": "Confirm 4040 desktop cnc machines's exact model and revision rather than trusting the size-class number alone, since hardware changes across generations while the name stays similar. Given the real spread here, from about $341 up to $911, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm 4040 desktop cnc machines's exact model and revision rather than trusting the size-class number alone, since hardware changes across generations while the name stays similar. Across this comparison's $341 to $911 range, exact model generation is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check exact model generation against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Publish Real XYZ Travel and Footprint",
-    "explanation": "Check actual working range and total machine footprint, since size-class labels describe rough XY dimensions, not a technical standard. Across this comparison's $341 to $911 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check actual working range and total machine footprint, since size-class labels describe rough XY dimensions, not a technical standard. Given the real spread here, from about $341 up to $911, two products can look nearly identical on the surface while differing exactly on real xyz travel footprint, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on real xyz travel footprint, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Rail and Screw Architecture",
-    "explanation": "Verify rails, screws, and frame construction directly, since two machines in the same size class can use very different motion hardware. Products at the low end near $341 and the high end near $911 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify rails, screws, and frame construction directly, since two machines in the same size class can use very different motion hardware. With prices in this roundup ranging roughly $341 to $911, rail screw architecture is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify rail screw architecture directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Spindle and Collet Compatibility",
-    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the size-class name. This matters in practice because the picks in this comparison span from about $341 to $911, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check spindle specs and official upgrade mounts by the exact model revision, not the size-class name. This matters in practice because the picks in this comparison span from about $341 to $911, and skipping a real check on spindle collet compatibility is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on spindle collet compatibility, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Map Controller and Expansion Options",
-    "explanation": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility. With prices in this roundup ranging roughly $341 to $911, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility. Buyers shopping anywhere from $341 to $911 in this category often assume map controller expansion options is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on map controller expansion options stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling is aimed at buyers prioritizing 435 x 400 x 80mm work area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-3020-desktop-cnc-machines","title":"Best 3020 Desktop CNC Machines in 2026"},{"href":"/guide/best-3020-pro-ultra-desktop-cnc-machines","title":"Best 3020 Pro Ultra Desktop CNC Machines in 2026"},{"href":"/guide/best-3018-desktop-cnc-machines","title":"Best 3018 Desktop CNC Machines in 2026"}];

@@ -218,23 +218,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Measure Residential Footprint With Everything Open",
-    "explanation": "Check office credenzas for home office's footprint with doors and drawers fully open, and account for baseboards, since residential rooms often have less clearance margin than a commercial office layout. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check office credenzas for home office's footprint with doors and drawers fully open, and account for baseboards, since residential rooms often have less clearance margin than a commercial office layout. Across this comparison's $144 to $360 range, residential footprint everything open is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check residential footprint everything open against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Printer or Equipment Fit on Top",
-    "explanation": "Place your actual printer, scanner, or monitor setup on the top surface mentally and check ventilation and cable reach before assuming it fits. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Place your actual printer, scanner, or monitor setup on the top surface mentally and check ventilation and cable reach before assuming it fits. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on printer equipment fit top, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on printer equipment fit top, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Balance File Drawers With Closed Supply Storage",
-    "explanation": "Check that the credenza includes both file drawers and closed supply storage, not just decorative open shelving, for genuine home-office use. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check that the credenza includes both file drawers and closed supply storage, not just decorative open shelving, for genuine home-office use. With prices in this roundup ranging roughly $144 to $360, balance file drawers closed is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify balance file drawers closed directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan Wall-Outlet and Plug-Bend Clearance",
-    "explanation": "Measure plug-bend clearance behind the unit so it can sit close to the wall without crushing power cords. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure plug-bend clearance behind the unit so it can sit close to the wall without crushing power cords. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping a real check on plan wall-outlet plug-bend clearance is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan wall-outlet plug-bend clearance, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Budget Real Assembly Time and Carton Weight",
-    "explanation": "Check carton weight and whether one or two people are needed for setup, since RTA home-office furniture varies significantly in assembly complexity. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check carton weight and whether one or two people are needed for setup, since RTA home-office furniture varies significantly in assembly complexity. Buyers shopping anywhere from $144 to $360 in this category often assume budget real assembly time is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on budget real assembly time stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -260,7 +260,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

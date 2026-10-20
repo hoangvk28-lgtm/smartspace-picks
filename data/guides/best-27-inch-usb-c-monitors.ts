@@ -243,7 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Should I choose QHD or 4K for a 27-inch monitor?", a: "QHD requires less GPU power while still avoiding 1080p softness, 4K offers the sharpest detail but demands more from your laptop's GPU." },
   { q: "Is 27 inches too big for a small desk?", a: "It depends on your desk depth and viewing distance, 27 inches sits at a comfortable sweet spot for most setups but measure your space first." },
   { q: "Do I need professional color calibration on a 27-inch monitor?", a: "Only if you do color-sensitive design or photo work, general productivity use doesn't require professional-tier calibration." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting true 4K sharpness at 27 inches without a premium price" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting true 4K sharpness at 27 inches without a premium price" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting true 4K sharpness at 27 inches without a premium price At $194.97, it's the lowest-cost pick in this comparison." },
 ];
 

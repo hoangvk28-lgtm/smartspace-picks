@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Define Vintage Through Construction Details",
-    "explanation": "Define the vintage style through observable construction details like solid wood frames, sculptural legs, and genuine veneer finishes rather than photography alone. Products at the low end near $198 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Define the vintage style through observable construction details like solid wood frames, sculptural legs, and genuine veneer finishes rather than photography alone. Two picks priced close together, anywhere in this comparison's $198-$300 band, can still land on opposite ends of define vintage through construction, so price alone is a poor proxy for it here. Compare the stated figure for define vintage through construction across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Inspect Decorative Faces for Durability",
-    "explanation": "Inspect decorative faces, grooves, trim, and edges for impact durability, since vintage-style detailing can be more exposed to bumps than a plain modern panel. This matters in practice because the picks in this comparison span from about $198 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Inspect decorative faces, grooves, trim, and edges for impact durability, since vintage-style detailing can be more exposed to bumps than a plain modern panel. Products at the low end near $198 and the high end near $300 of this comparison don't always handle decorative faces durability the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of decorative faces durability, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Evaluate Dust Traps in Ornamental Details",
-    "explanation": "Evaluate dust traps and porous surfaces around vintage detailing, since sculptural legs and trim collect dust differently than a flat modern panel. With prices in this roundup ranging roughly $198 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Evaluate dust traps and porous surfaces around vintage detailing, since sculptural legs and trim collect dust differently than a flat modern panel. Across this comparison's $198 to $300 range, dust traps ornamental details is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check dust traps ornamental details against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Cable Concealment Around the Vintage Look",
-    "explanation": "Confirm POS systems, monitors, and cables stay concealed without visually clashing against the vintage aesthetic. Given the real spread here, from about $198 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm POS systems, monitors, and cables stay concealed without visually clashing against the vintage aesthetic. Given the real spread here, from about $198 up to $300, two products can look nearly identical on the surface while differing exactly on plan cable concealment around, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on plan cable concealment around, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Refinish Options",
-    "explanation": "Publish repair or refinish strategy for high-visibility damage, since a genuine solid-wood vintage desk can often be sanded and refinished, unlike a laminate equivalent. Across this comparison's $198 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Publish repair or refinish strategy for high-visibility damage, since a genuine solid-wood vintage desk can often be sanded and refinished, unlike a laminate equivalent. With prices in this roundup ranging roughly $198 to $300, refinish options is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify refinish options directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "LEEMTORIG Vintage Solid Wood Writing Desk with Drawers is aimed at buyers prioritizing 46\"w x 21.6\"d solid rubber wood top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-antique-reception-desks","title":"best-antique-reception-desks"},{"href":"/guide/best-wood-reception-desks","title":"best-wood-reception-desks"},{"href":"/guide/best-vintage-hotel-reception-desks","title":"best-vintage-hotel-reception-desks"}];

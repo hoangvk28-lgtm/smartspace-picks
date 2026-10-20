@@ -229,7 +229,7 @@ export const faq: FaqItem[] = [
   { q: "How is 'best for typing' different from a general all-day ergonomic keyboard?", a: "This framing focuses specifically on sustained typing speed and comfort for prose/document work, distinct from a broader all-day-office-use framing covering a mix of typing, mousing, and other tasks." },
   { q: "Is a mechanical or membrane ergonomic keyboard better for long writing sessions?", a: "It depends on preference, mechanical switches offer consistent tactile feedback over thousands of keystrokes, membrane switches offer a softer feel some typists find less fatiguing over extended sessions." },
   { q: "How long does it take to get used to a split ergonomic keyboard for typing?", a: "Most buyers report roughly one to two weeks of regular use before typing speed recovers to, and often exceeds, their pre-switch baseline as muscle memory rebuilds around the more natural hand position." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most ergonomically engineered layout for sustained document typing, willing to accept an adaptation period" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most ergonomically engineered layout for sustained document typing, willing to accept an adaptation period" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

@@ -47,7 +47,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41m9omvtbvL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0F9B1PMTS?tag=deskfinds0d-20",
     description:
-      "The same Wi-Fi 6 iX2500 under a separate listing. Same standalone cloud scanning, same corporate-network caveat, and same USB-C fallback. Compare current pricing against the rank-1 listing before buying.",
+      "The same Wi-Fi 6 iX2500 under a separate listing. Same standalone cloud scanning, same corporate-network caveat, and same USB-C fallback. Compare current pricing against the rank-1 listing before buying.\n\nWhere this one earns its spot is same Wi-Fi 6 capability as the rank-1 listing, and standalone cloud scanning. Worth noting before buying: smallest review count in this guide, which matters more at Check current price than it would on a cheaper pick.",
     specs: ["Wi-Fi 6, dual-band capable", "Standalone scan-to-cloud", "Touchscreen with personalized profiles", "USB-C fallback available"],
     pros: ["Same Wi-Fi 6 capability as the rank-1 listing", "Standalone cloud scanning", "Touchscreen control", "USB-C fallback"],
     cons: ["Smallest review count in this guide", "Same unconfirmed 802.1X compatibility", "Same likely host-PC requirement for folder scanning"],
@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
-      "Identical Wi-Fi capability to the rank-3 pick in a black finish, same standalone cloud scanning and Chromebook support, same scan-to-folder host-PC caveat and unconfirmed 802.1X compatibility.",
+      "Identical Wi-Fi capability to the rank-3 pick in a black finish, same standalone cloud scanning and Chromebook support, same scan-to-folder host-PC caveat and unconfirmed 802.1X compatibility.\n\nWhat stands out here is same standalone cloud scanning as the white version, plus chromebook support via mobile app. The main tradeoff: same scan-to-folder host-PC requirement, so weigh that against the $279.99 price before buying.",
     specs: ["Home-network Wi-Fi", "Standalone scan-to-cloud, Chromebook support", "30ppm duplex", "Auto de-skew, color optimization"],
     pros: ["Same standalone cloud scanning as the white version", "Chromebook support via mobile app", "Black finish option", "30ppm duplex speed"],
     cons: ["Same scan-to-folder host-PC requirement", "Same unconfirmed 802.1X compatibility", "Single-band Wi-Fi"],
@@ -276,7 +276,7 @@ export const faq: FaqItem[] = [
   { q: "Will my Wi-Fi scanner work on my company's corporate network?", a: "Not necessarily. WPA2-Enterprise (802.1X) networks using certificate-based authentication are frequently unsupported by consumer-grade Wi-Fi scanners, none of the picks in this guide explicitly confirm this compatibility, check with IT." },
   { q: "Does Wi-Fi 6 make a real difference for a document scanner?", a: "Yes, in crowded wireless environments. Wi-Fi 6, dual-band-capable scanners can connect on the less congested 5GHz band, more resistant to interference than single-band 2.4GHz-only scanners in busy home or office networks." },
   { q: "Where should I place a Wi-Fi scanner for the best connection?", a: "Avoid closets, behind monitors, or low shelves. Consumer scanner Wi-Fi antennas are weaker than router-grade hardware, and placement meaningfully affects real-world range and reliability." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers in crowded Wi-Fi environments who want standalone cloud scanning At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 

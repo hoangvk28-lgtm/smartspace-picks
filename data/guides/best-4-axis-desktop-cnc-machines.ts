@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Rigidity and Spindle Specs Directly",
-    "explanation": "Check 4 axis desktop cnc machines's documented rigidity, spindle torque, and runout rather than trusting the listing description alone. With prices in this roundup ranging roughly $487 to $9989, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check 4 axis desktop cnc machines's documented rigidity, spindle torque, and runout rather than trusting the listing description alone. Two picks priced close together, anywhere in this comparison's $487-$9989 band, can still land on opposite ends of rigidity spindle specs directly, so price alone is a poor proxy for it here. Compare the stated figure for rigidity spindle specs directly across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Measure Usable Travel, Not Nominal Axis Size",
-    "explanation": "Confirm usable travel after fixtures and tooling are installed, since nominal axis specs overstate real capacity. Given the real spread here, from about $487 up to $9989, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm usable travel after fixtures and tooling are installed, since nominal axis specs overstate real capacity. Products at the low end near $487 and the high end near $9989 of this comparison don't always handle usable travel nominal axis the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of usable travel nominal axis, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm CAM and Software Support",
-    "explanation": "Verify the machine's CAM, probing, and controller workflow fits your actual software before buying. Across this comparison's $487 to $9989 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify the machine's CAM, probing, and controller workflow fits your actual software before buying. Across this comparison's $487 to $9989 range, cam software support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check cam software support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Dust or Chip Control",
-    "explanation": "Confirm what dust or chip management is built in versus what needs to be added separately. Products at the low end near $487 and the high end near $9989 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm what dust or chip management is built in versus what needs to be added separately. Given the real spread here, from about $487 up to $9989, two products can look nearly identical on the surface while differing exactly on dust chip control, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on dust chip control, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh Ownership Details",
-    "explanation": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership. This matters in practice because the picks in this comparison span from about $487 to $9989, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership. With prices in this roundup ranging roughly $487 to $9989, ownership details is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify ownership details directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Xmachine XM-100 Desktop 5 Axis CNC Milling Machine with Automatic Tool Changer is aimed at buyers prioritizing true 5-axis simultaneous linkage" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", "a": "Xmachine XM-100 Desktop 5 Axis CNC Milling Machine with Automatic Tool Changer is aimed at buyers prioritizing true 5-axis simultaneous linkage" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

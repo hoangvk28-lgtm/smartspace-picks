@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish USB-C PD Ports and Voltage Profiles",
-    "explanation": "Confirm portable power stations for laptop's USB-C PD ports, maximum wattage, and voltage profiles match your laptop's actual charging requirement. Given the real spread here, from about $60 up to $499, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm portable power stations for laptop's USB-C PD ports, maximum wattage, and voltage profiles match your laptop's actual charging requirement. At every price point in this comparison's $60 to $499 range, usb-c pd ports voltage varies enough between listings that assuming it scales with price is a real way to get burned. Confirm usb-c pd ports voltage directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Full-Performance Charging",
-    "explanation": "Check whether the target laptop can charge at full performance through USB-C without needing its original AC brick. Across this comparison's $60 to $499 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check whether the target laptop can charge at full performance through USB-C without needing its original AC brick. Two picks priced close together, anywhere in this comparison's $60-$499 band, can still land on opposite ends of full-performance charging, so price alone is a poor proxy for it here. Compare the stated figure for full-performance charging across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Measure Usable USB-C Energy",
-    "explanation": "Verify usable USB-C energy and conversion efficiency rather than trusting the rated Wh figure alone. Products at the low end near $60 and the high end near $499 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify usable USB-C energy and conversion efficiency rather than trusting the rated Wh figure alone. Products at the low end near $60 and the high end near $499 of this comparison don't always handle usable usb-c energy the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of usable usb-c energy, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Test Simultaneous Multi-Device Loads",
-    "explanation": "Test simultaneous laptop charging plus phone or router loads to confirm the station handles real multitasking. This matters in practice because the picks in this comparison span from about $60 to $499, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Test simultaneous laptop charging plus phone or router loads to confirm the station handles real multitasking. Across this comparison's $60 to $499 range, simultaneous multi-device loads is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check simultaneous multi-device loads against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Standby Draw and Travel Weight",
-    "explanation": "Include low-load standby consumption and travel weight as part of the real laptop-charging use case. With prices in this roundup ranging roughly $60 to $499, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Include low-load standby consumption and travel weight as part of the real laptop-charging use case. Given the real spread here, from about $60 up to $499, two products can look nearly identical on the surface while differing exactly on standby draw travel weight, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on standby draw travel weight, since it's often left out of the main bullet points entirely."
   }
 ];
 

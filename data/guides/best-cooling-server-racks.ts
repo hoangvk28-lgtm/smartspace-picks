@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check CFM at Actual Operating Speed",
-    "explanation": "Verify cooling server racks's documented CFM airflow at the speed it will actually run, not just the maximum rated output. Products at the low end near $470 and the high end near $1389 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify cooling server racks's documented CFM airflow at the speed it will actually run, not just the maximum rated output. Given the real spread here, from about $470 up to $1389, two products can look nearly identical on the surface while differing exactly on cfm at actual operating, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on cfm at actual operating, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare dBA, Not Just Airflow",
-    "explanation": "Compare noise level in dBA alongside CFM, since higher airflow often comes with more noise unless the fan uses a quieter design. This matters in practice because the picks in this comparison span from about $470 to $1389, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare noise level in dBA alongside CFM, since higher airflow often comes with more noise unless the fan uses a quieter design. With prices in this roundup ranging roughly $470 to $1389, dba airflow is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify dba airflow directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Rack Fans Aren't a Room-Cooling Substitute",
-    "explanation": "Recognize that rack fans move air within or around the cabinet, they don't remove heat from a sealed room without separate ventilation or A/C. With prices in this roundup ranging roughly $470 to $1389, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Recognize that rack fans move air within or around the cabinet, they don't remove heat from a sealed room without separate ventilation or A/C. This matters in practice because the picks in this comparison span from about $470 to $1389, and skipping a real check on rack fans arent room-cooling is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on rack fans arent room-cooling, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Thermostat or Programmable Control",
-    "explanation": "Look for a programmable thermostat that adjusts fan speed automatically rather than running fans constantly at one speed. Given the real spread here, from about $470 up to $1389, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for a programmable thermostat that adjusts fan speed automatically rather than running fans constantly at one speed. Buyers shopping anywhere from $470 to $1389 in this category often assume thermostat programmable control is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on thermostat programmable control stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Mounting Position for Best Airflow",
-    "explanation": "Verify whether the fan is designed for roof, rear, or front exhaust, since mounting position affects how effectively it clears hot air. Across this comparison's $470 to $1389 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify whether the fan is designed for roof, rear, or front exhaust, since mounting position affects how effectively it clears hot air. At every price point in this comparison's $470 to $1389 range, mounting position best airflow varies enough between listings that assuming it scales with price is a real way to get burned. Confirm mounting position best airflow directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

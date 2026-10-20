@@ -238,7 +238,7 @@ export const faq: FaqItem[] = [
   { q: "Do integrated stands take up much desk space?", a: "Yes, a stand's base footprint adds to your desk's total space requirement, measure your available depth before assuming any integrated stand fits." },
   { q: "Can a stand support a multi-panel screen extender without tipping?", a: "It depends on the design, verify stand stability specifically for combined multi-panel weight before buying a multi-screen configuration." },
   { q: "How do I match the extra screen's height to my laptop display?", a: "Look for a stand with real adjustability, this lets you align the extra screen's viewing height comfortably with your main laptop display." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven adjustable stand with a larger, full-featured panel" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting the most-proven adjustable stand with a larger, full-featured panel" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting genuine viewing-angle flexibility at a budget-friendly price At $71.99, it's the lowest-cost pick in this comparison." },
 ];
 

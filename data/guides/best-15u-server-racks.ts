@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Separate U-Height From Rail Depth",
-    "explanation": "Confirm 15u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. With prices in this roundup ranging roughly $116 to $323, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm 15u server racks's mounting depth or adjustable depth range independently of its U-height, since two racks at the same height can fit very different equipment lengths. Given the real spread here, from about $116 up to $323, two products can look nearly identical on the surface while differing exactly on separate u-height from rail, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on separate u-height from rail, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Match Weight Rating to Mount Type",
-    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. Given the real spread here, from about $116 up to $323, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check the stationary weight rating specifically, then confirm the separate rolling or wall-mounted rating if that's how the rack will actually be installed. With prices in this roundup ranging roughly $116 to $323, weight rating mount type is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify weight rating mount type directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Post Configuration Suits the Load",
-    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. Across this comparison's $116 to $323 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify whether the frame is 2-post or 4-post, since 4-post designs generally support heavier and deeper equipment than 2-post frames rated at the same height. This matters in practice because the picks in this comparison span from about $116 to $323, and skipping a real check on post configuration suits load is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on post configuration suits load, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Rear Clearance for Cabling",
-    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Products at the low end near $116 and the high end near $323 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Leave enough rear clearance behind the rack for cable bend radius and rear panel access, not just the equipment's raw depth. Buyers shopping anywhere from $116 to $323 in this category often assume plan rear clearance cabling is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on plan rear clearance cabling stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Ceiling and Doorway Clearance",
-    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. This matters in practice because the picks in this comparison span from about $116 to $323, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure actual room ceiling height and doorway width against the rack's assembled dimensions before ordering. At every price point in this comparison's $116 to $323 range, ceiling doorway clearance varies enough between listings that assuming it scales with price is a real way to get burned. Confirm ceiling doorway clearance directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GlobalRack 15U Open Frame Server Rack is aimed at buyers prioritizing 15u, 31.5\"h, 22-35\" adjustable depth." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "GlobalRack 15U Open Frame Server Rack is aimed at buyers prioritizing 15u, 31.5\"h, 22-35\" adjustable depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-42u-server-racks","title":"Best 42U Server Racks in 2026"},{"href":"/guide/best-2u-server-racks","title":"Best 2U Server Racks in 2026"},{"href":"/guide/best-1u-server-racks","title":"Best 1U Server Racks in 2026"}];

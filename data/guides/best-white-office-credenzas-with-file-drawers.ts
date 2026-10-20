@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Letter/Legal Compatibility Per Drawer",
-    "explanation": "Check whether each file drawer in white office credenzas with file drawers supports letter, legal, or both, including hanging-rail filing direction, rather than assuming 'file drawer' guarantees universal size support. With prices in this roundup ranging roughly $150 to $230, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether each file drawer in white office credenzas with file drawers supports letter, legal, or both, including hanging-rail filing direction, rather than assuming 'file drawer' guarantees universal size support. Two picks priced close together, anywhere in this comparison's $150-$230 band, can still land on opposite ends of letterlegal compatibility per drawer, so price alone is a poor proxy for it here. Compare the stated figure for letterlegal compatibility per drawer across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Measure Interior Drawer Geometry",
-    "explanation": "Get actual interior dimensions and hanging-rail length rather than trusting exterior drawer size, since hardware and rail mechanisms take up real interior space. Given the real spread here, from about $150 up to $230, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Get actual interior dimensions and hanging-rail length rather than trusting exterior drawer size, since hardware and rail mechanisms take up real interior space. Products at the low end near $150 and the high end near $230 of this comparison don't always handle interior drawer geometry the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of interior drawer geometry, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Which Drawers Actually Lock",
-    "explanation": "Verify lock coverage per drawer, since many credenzas secure only one drawer while leaving others, including supply drawers, unlocked. Across this comparison's $150 to $230 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify lock coverage per drawer, since many credenzas secure only one drawer while leaving others, including supply drawers, unlocked. Across this comparison's $150 to $230 range, which drawers actually lock is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check which drawers actually lock against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Interlock or Anti-Tip Behavior",
-    "explanation": "Test or verify what happens when multiple drawers are opened simultaneously, since some designs include an interlock or anti-tip mechanism and others do not. Products at the low end near $150 and the high end near $230 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Test or verify what happens when multiple drawers are opened simultaneously, since some designs include an interlock or anti-tip mechanism and others do not. Given the real spread here, from about $150 up to $230, two products can look nearly identical on the surface while differing exactly on interlock anti-tip behavior, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on interlock anti-tip behavior, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Full-Extension Access in Your Layout",
-    "explanation": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely. This matters in practice because the picks in this comparison span from about $150 to $230, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely. With prices in this roundup ranging roughly $150 to $230, full-extension access layout is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify full-extension access layout directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Lateral File Cabinet with Charging Station is aimed at buyers prioritizing 46.4in desktop, 2 adjustable-layout drawers" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "Lateral File Cabinet with Charging Station is aimed at buyers prioritizing 46.4in desktop, 2 adjustable-layout drawers" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-file-storage","title":"Best Office Credenzas With File Storage in 2026"},{"href":"/guide/best-home-office-credenzas-with-file-drawers","title":"Best Home Office Credenzas With File Drawers in 2026"}];

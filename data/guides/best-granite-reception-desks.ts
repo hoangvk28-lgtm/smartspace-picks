@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Identify Genuine vs Look-Alike Granite",
-    "explanation": "Identify whether the granite surface is genuine, engineered, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly. With prices in this roundup ranging roughly $270 to $3200, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Identify whether the granite surface is genuine, engineered, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly. With prices in this roundup ranging roughly $270 to $3200, identify genuine vs look-alike is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify identify genuine vs look-alike directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Surface and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin granite-pattern laminate performs very differently than a genuine stone slab. Given the real spread here, from about $270 up to $3200, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin granite-pattern laminate performs very differently than a genuine stone slab. This matters in practice because the picks in this comparison span from about $270 to $3200, and skipping a real check on surface substrate thickness is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on surface substrate thickness, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Staining and Chemical Sensitivity",
-    "explanation": "Use manufacturer care guidance to compare staining, etching, or chemical sensitivity, since genuine and engineered stone react differently to common cleaning products than laminate. Across this comparison's $270 to $3200 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Use manufacturer care guidance to compare staining, etching, or chemical sensitivity, since genuine and engineered stone react differently to common cleaning products than laminate. Buyers shopping anywhere from $270 to $3200 in this category often assume staining chemical sensitivity is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on staining chemical sensitivity stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Inspect Seam Placement",
-    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single slab isn't practical. Products at the low end near $270 and the high end near $3200 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single slab isn't practical. At every price point in this comparison's $270 to $3200 range, seam placement varies enough between listings that assuming it scales with price is a real way to get burned. Confirm seam placement directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Calculate Top Weight for Installation",
-    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents. This matters in practice because the picks in this comparison span from about $270 to $3200, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine stone tops are significantly heavier than laminate equivalents. Two picks priced close together, anywhere in this comparison's $270-$3200 band, can still land on opposite ends of calculate top weight installation, so price alone is a poor proxy for it here. Compare the stated figure for calculate top weight installation across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Larnavo 72\" Reception Desk with Stone-Textured Top is aimed at offices, corporate lobbies, and clinics wanting a minimalist stone-textured reception desk." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Larnavo 72\" Reception Desk with Stone-Textured Top is aimed at offices, corporate lobbies, and clinics wanting a minimalist stone-textured reception desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-marble-reception-desks","title":"best-marble-reception-desks"},{"href":"/guide/best-stone-reception-desks","title":"best-stone-reception-desks"},{"href":"/guide/best-quartz-reception-desks","title":"5 Best Quartz Reception Desks in 2026"}];

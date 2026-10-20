@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Static Load Capacity for the Full Stack",
-    "explanation": "Confirm enclosed server racks's documented static load capacity covers the combined weight of every device planned for the cabinet, not just the heaviest single item. With prices in this roundup ranging roughly $459 to $1906, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm enclosed server racks's documented static load capacity covers the combined weight of every device planned for the cabinet, not just the heaviest single item. This matters in practice because the picks in this comparison span from about $459 to $1906, and skipping a real check on static load capacity full is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on static load capacity full, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Door Type for Airflow vs Security",
-    "explanation": "Weigh a mesh or perforated door against a solid or glass door, since more airflow generally means less dust and theft protection. Given the real spread here, from about $459 up to $1906, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Weigh a mesh or perforated door against a solid or glass door, since more airflow generally means less dust and theft protection. Buyers shopping anywhere from $459 to $1906 in this category often assume door type airflow vs is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on door type airflow vs stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Cooling Fans Match the Enclosure",
-    "explanation": "Verify a sealed cabinet includes active cooling fans, since an enclosed design without them traps heat far more than an open frame would. Across this comparison's $459 to $1906 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify a sealed cabinet includes active cooling fans, since an enclosed design without them traps heat far more than an open frame would. At every price point in this comparison's $459 to $1906 range, cooling fans match enclosure varies enough between listings that assuming it scales with price is a real way to get burned. Confirm cooling fans match enclosure directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check PDU and Shelf Inclusion",
-    "explanation": "Confirm whether a PDU, fixed shelf, and cable brush panels are included, since some cabinets require buying these separately. Products at the low end near $459 and the high end near $1906 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm whether a PDU, fixed shelf, and cable brush panels are included, since some cabinets require buying these separately. Two picks priced close together, anywhere in this comparison's $459-$1906 band, can still land on opposite ends of pdu shelf inclusion, so price alone is a poor proxy for it here. Compare the stated figure for pdu shelf inclusion across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Plan Removable Side Panel Access",
-    "explanation": "Verify side panels are removable for cable routing and maintenance, not just the front door. This matters in practice because the picks in this comparison span from about $459 to $1906, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify side panels are removable for cable routing and maintenance, not just the front door. Products at the low end near $459 and the high end near $1906 of this comparison don't always handle plan removable side panel the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan removable side panel, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-cabinet-server-racks","title":"Best Cabinet Server Racks in 2026"},{"href":"/guide/best-9u-cabinet-server-racks","title":"Best 9U Cabinet Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

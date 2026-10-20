@@ -273,7 +273,7 @@ export const faq: FaqItem[] = [
   { q: "Does my laptop need a special port to get 144Hz over USB-C?", a: "Yes, your laptop's USB-C port needs to support Thunderbolt 3/4 or DisplayPort Alt Mode with sufficient bandwidth. Many laptop USB-C ports are data-only and won't output video at all, let alone at 144Hz." },
   { q: "Is a 144Hz portable monitor worth it for a Steam Deck or ROG Ally?", a: "Generally not for the refresh rate specifically. Handheld gaming PCs typically output capped at 60Hz over USB-C, making a 144Hz panel's extra spec unused for that pairing." },
   { q: "Should I buy 1080p or 2.5K if I want guaranteed 144Hz everywhere?", a: "1080p is the safer bet. On the picks in this guide, 1080p/144Hz panels reach the full rate over both USB-C and HDMI, while 2.5K panels often cap at 120Hz over HDMI specifically." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want an honest per-port 144Hz/120Hz spec rather than an inflated single number" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want an honest per-port 144Hz/120Hz spec rather than an inflated single number" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-focused buyers who want a straightforward 1080p/144Hz guarantee across both port types At $96.99, it's the lowest-cost pick in this comparison." },
 ];
 

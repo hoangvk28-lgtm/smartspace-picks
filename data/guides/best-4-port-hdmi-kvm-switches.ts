@@ -241,7 +241,7 @@ export const faq: FaqItem[] = [
   { q: "How do I switch between sources on a 4-port HDMI KVM switch?", a: "Usually by cycling through a sequence via button press or hotkey rather than jumping directly, check the actual switching UX through reviews." },
   { q: "Do I really need a 4-port HDMI KVM switch?", a: "Only if you genuinely switch between four active HDMI computers regularly, a simpler two-port switch may better fit your actual daily workflow." },
   { q: "Can a 4-port HDMI switch handle two monitors too?", a: "Some models do, verify this specific capability if you want a full dual-monitor workspace across your four computers." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with exactly four HDMI-connected computers wanting straightforward shared-monitor switching" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with exactly four HDMI-connected computers wanting straightforward shared-monitor switching" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who realize two HDMI ports actually meets their daily needs At $29.99, it's the lowest-cost pick in this comparison." },
 ];
 

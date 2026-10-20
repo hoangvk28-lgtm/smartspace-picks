@@ -259,7 +259,7 @@ export const faq: FaqItem[] = [
   { q: "Why does archival tax document scanning take so much longer than a normal scan?", a: "600 DPI archival-quality scanning, recommended for the 3-7 year legibility window most tax retention guidance suggests, takes considerably longer per page than standard 300 DPI scanning." },
   { q: "Is it safe to store scanned tax documents with SSNs in cloud storage?", a: "Only if your cloud provider uses appropriate encryption, and none of the scanners in this guide confirm a specific encryption standard themselves. Verify your chosen cloud storage provider's security practices separately." },
   { q: "Do any of these scanners automatically recognize and label W-2s or 1099s?", a: "No. Tax form auto-recognition is a specialized feature some tax-prep software offers, none of the picks in this guide confirm this capability, expect to organize scanned tax forms manually." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a one-time multi-year backlog of paper tax records to digitize" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a one-time multi-year backlog of paper tax records to digitize" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers with modest annual tax document scanning needs At $139.99, it's the lowest-cost pick in this comparison." },
 ];
 

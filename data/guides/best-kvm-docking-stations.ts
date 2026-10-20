@@ -243,7 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Do all KVM docking stations include Ethernet?", a: "Not always, confirm gigabit Ethernet is explicitly included if reliable wired networking matters to you." },
   { q: "Is Thunderbolt worth it for a docking station?", a: "If your laptop supports Thunderbolt, yes, it offers meaningfully more bandwidth for demanding multi-monitor setups than standard USB-C." },
   { q: "Why does my window layout reset when I reconnect my laptop to the dock?", a: "This usually means the dock lacks EDID emulation, without it your resolution and window arrangement may not persist across reconnects." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a well-rounded docking station with explicit Ethernet, EDID, and power delivery" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting a well-rounded docking station with explicit Ethernet, EDID, and power delivery" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers switching between two laptops on dual 4K displays At $169.99, it's the lowest-cost pick in this comparison." },
 ];
 

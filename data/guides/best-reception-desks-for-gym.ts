@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Stage Scanner and Access-Control Terminal",
-    "explanation": "Stage scanner, access-control terminal, POS, and phone or tablet together at the desk's real dimensions before assuming the nominal width is enough. This matters in practice because the picks in this comparison span from about $100 to $206, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Stage scanner, access-control terminal, POS, and phone or tablet together at the desk's real dimensions before assuming the nominal width is enough. Products at the low end near $100 and the high end near $206 of this comparison don't always handle stage scanner access-control terminal the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of stage scanner access-control terminal, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Provide Bag and Drink Landing Away from Electronics",
-    "explanation": "Provide bag or drink landing space away from electronics, since gym check-in desks handle more incoming liquids and gear than a typical office front desk. With prices in this roundup ranging roughly $100 to $206, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Provide bag or drink landing space away from electronics, since gym check-in desks handle more incoming liquids and gear than a typical office front desk. Across this comparison's $100 to $206 range, provide bag drink landing is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check provide bag drink landing against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Separate Towels and Retail from Staff Documents",
-    "explanation": "Separate towels, keys, and retail items from staff documents, since gym reception often manages more physical inventory than a standard reception point. Given the real spread here, from about $100 up to $206, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Separate towels, keys, and retail items from staff documents, since gym reception often manages more physical inventory than a standard reception point. Given the real spread here, from about $100 up to $206, two products can look nearly identical on the surface while differing exactly on separate towels retail from, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on separate towels retail from, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Finishes for Sweat and Spills",
-    "explanation": "Compare finishes for sweat, drink spills, and frequent cleaning, since gym front desks see moisture exposure that most office reception desks aren't tested against. Across this comparison's $100 to $206 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Compare finishes for sweat, drink spills, and frequent cleaning, since gym front desks see moisture exposure that most office reception desks aren't tested against. With prices in this roundup ranging roughly $100 to $206, finishes sweat spills is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify finishes sweat spills directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Map Desk Position to Gates and Peak Queues",
-    "explanation": "Map desk position to gates or turnstiles and peak queues, since gym check-in traffic is often concentrated in short, high-volume windows. Products at the low end near $100 and the high end near $206 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Map desk position to gates or turnstiles and peak queues, since gym check-in traffic is often concentrated in short, high-volume windows. This matters in practice because the picks in this comparison span from about $100 to $206, and skipping a real check on map desk position gates is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on map desk position gates, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-hospital","title":"5 Best Reception Desks for Hospital in 2026"},{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"},{"href":"/guide/best-budget-reception-desks","title":"6 Best Budget Reception Desks in 2026"}];

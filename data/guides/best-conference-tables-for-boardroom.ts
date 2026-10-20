@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check Full Length and Depth",
-    "explanation": "Get the conference tables for boardroom's complete length and depth, not just a rounded marketing figure, since large conference tables often ship in sections that affect the true installed dimension. Given the real spread here, from about $330 up to $1799, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Get the conference tables for boardroom's complete length and depth, not just a rounded marketing figure, since large conference tables often ship in sections that affect the true installed dimension. Products at the low end near $330 and the high end near $1799 of this comparison don't always handle full length depth the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of full length depth, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Section Seams",
-    "explanation": "Confirm how the tabletop's sections join together and how visible the seams are once assembled, since a large table is more likely to ship in multiple top pieces. Across this comparison's $330 to $1799 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm how the tabletop's sections join together and how visible the seams are once assembled, since a large table is more likely to ship in multiple top pieces. Across this comparison's $330 to $1799 range, section seams is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check section seams against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Base Span and Support",
-    "explanation": "Check how many legs or pedestals support the table's length, since a long unsupported span can flex or wobble without enough base points. Products at the low end near $330 and the high end near $1799 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check how many legs or pedestals support the table's length, since a long unsupported span can flex or wobble without enough base points. Given the real spread here, from about $330 up to $1799, two products can look nearly identical on the surface while differing exactly on base span support, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on base span support, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Plan Room Circulation",
-    "explanation": "Leave at least 36 to 48 inches of clearance around a large table's perimeter so chairs can push back and people can walk around comfortably during a meeting. This matters in practice because the picks in this comparison span from about $330 to $1799, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Leave at least 36 to 48 inches of clearance around a large table's perimeter so chairs can push back and people can walk around comfortably during a meeting. With prices in this roundup ranging roughly $330 to $1799, plan room circulation is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify plan room circulation directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan Delivery and Installation",
-    "explanation": "Factor in freight delivery, multi-person assembly, and doorway or elevator clearance for a table of this scale, not just the sticker price. With prices in this roundup ranging roughly $330 to $1799, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Factor in freight delivery, multi-person assembly, and doorway or elevator clearance for a table of this scale, not just the sticker price. This matters in practice because the picks in this comparison span from about $330 to $1799, and skipping a real check on plan delivery installation is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan delivery installation, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "OfficeSimpli 10ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "OfficeSimpli 10ft Conference Table is aimed at buyers prioritizing 96\"x48\" (8ft) table, seats 8-10." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-conference-tables","title":"Best Large Conference Tables in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

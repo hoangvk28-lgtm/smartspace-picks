@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Use the Exact CPAP Manufacturer Spec",
-    "explanation": "Confirm portable power stations for cpap's output matches your exact CPAP manufacturer's input specification rather than inferring compatibility from outlet presence. With prices in this roundup ranging roughly $100 to $259, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm portable power stations for cpap's output matches your exact CPAP manufacturer's input specification rather than inferring compatibility from outlet presence. Products at the low end near $100 and the high end near $259 of this comparison don't always handle exact cpap manufacturer spec the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of exact cpap manufacturer spec, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Runtime With and Without Humidifier",
-    "explanation": "Check runtime specifically with and without a humidifier or heated hose, since power use can change substantially. Given the real spread here, from about $100 up to $259, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check runtime specifically with and without a humidifier or heated hose, since power use can change substantially. Across this comparison's $100 to $259 range, runtime without humidifier is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check runtime without humidifier against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Direct DC vs AC Inverter Operation",
-    "explanation": "Compare direct DC operation where officially supported against AC inverter operation for efficiency differences. Across this comparison's $100 to $259 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Compare direct DC operation where officially supported against AC inverter operation for efficiency differences. Given the real spread here, from about $100 up to $259, two products can look nearly identical on the surface while differing exactly on direct dc vs ac, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on direct dc vs ac, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Transfer Behavior for Backup Use",
-    "explanation": "Verify transfer behavior and alarms if the station is intended as therapy backup during a grid outage. Products at the low end near $100 and the high end near $259 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify transfer behavior and alarms if the station is intended as therapy backup during a grid outage. With prices in this roundup ranging roughly $100 to $259, transfer behavior backup use is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify transfer behavior backup use directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Follow Manufacturer Backup Guidance",
-    "explanation": "Follow your CPAP manufacturer and clinician's backup-power guidance rather than relying on a generic runtime estimate. This matters in practice because the picks in this comparison span from about $100 to $259, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Follow your CPAP manufacturer and clinician's backup-power guidance rather than relying on a generic runtime estimate. This matters in practice because the picks in this comparison span from about $100 to $259, and skipping a real check on follow manufacturer backup guidance is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on follow manufacturer backup guidance, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "LiFePO4 (LFP) cells are generally considered more thermally stable than standard lithium-ion or lithium-polymer cells, with a lower risk of thermal runaway, and most current portable power stations have shifted to LFP for this reason. Still, verify UL or UL2743 safety certification directly rather than assuming chemistry alone guarantees safety."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "EnginStar Portable Power Station 300W is aimed at buyers prioritizing 296wh, 300w, etl certified, 6.5 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "EnginStar Portable Power Station 300W is aimed at buyers prioritizing 296wh, 300w, etl certified, 6.5 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

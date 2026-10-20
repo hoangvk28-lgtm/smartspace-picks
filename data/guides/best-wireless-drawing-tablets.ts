@@ -204,23 +204,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check Pen Latency in Wireless Mode",
-    "explanation": "Verify wireless drawing tablets's pen latency and jitter specifically in wireless mode versus its wired USB mode. Given the real spread here, from about $42 up to $130, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify wireless drawing tablets's pen latency and jitter specifically in wireless mode versus its wired USB mode. With prices in this roundup ranging roughly $42 to $130, pen latency wireless mode is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify pen latency wireless mode directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Publish Real Battery Runtime",
-    "explanation": "Confirm actual battery runtime and charging time rather than trusting a best-case marketing figure. Across this comparison's $42 to $130 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm actual battery runtime and charging time rather than trusting a best-case marketing figure. This matters in practice because the picks in this comparison span from about $42 to $130, and skipping a real check on real battery runtime is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on real battery runtime, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Test Reconnect After Sleep or Reboot",
-    "explanation": "Check reconnect behavior after sleep, reboot, and switching between paired computers. Products at the low end near $42 and the high end near $130 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check reconnect behavior after sleep, reboot, and switching between paired computers. Buyers shopping anywhere from $42 to $130 in this category often assume reconnect after sleep reboot is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on reconnect after sleep reboot stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Full Feature Set Stays Wireless",
-    "explanation": "Confirm express keys, dials, and full active area remain available in wireless mode, not just in wired mode. This matters in practice because the picks in this comparison span from about $42 to $130, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm express keys, dials, and full active area remain available in wireless mode, not just in wired mode. At every price point in this comparison's $42 to $130 range, full feature set stays varies enough between listings that assuming it scales with price is a real way to get burned. Confirm full feature set stays directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Bluetooth Version and Interference",
-    "explanation": "Verify the Bluetooth version and whether a dedicated dongle is used, since standard Bluetooth can suffer interference. With prices in this roundup ranging roughly $42 to $130, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify the Bluetooth version and whether a dedicated dongle is used, since standard Bluetooth can suffer interference. Two picks priced close together, anywhere in this comparison's $42-$130 band, can still land on opposite ends of bluetooth version interference, so price alone is a poor proxy for it here. Compare the stated figure for bluetooth version interference across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -246,7 +246,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GAOMON WH851 Bluetooth Graphics Drawing Tablet is aimed at buyers prioritizing 8x5in area, 16384 pressure levels." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "GAOMON WH851 Bluetooth Graphics Drawing Tablet is aimed at buyers prioritizing 8x5in area, 16384 pressure levels." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bluetooth-drawing-tablets","title":"Best Bluetooth Drawing Tablets in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Set a Clear Maximum Footprint",
-    "explanation": "Set a clear maximum overall footprint before shopping, since compact reception desks in this category range from 23.6 inches up to around 47 inches, and each size step meaningfully changes what fits. With prices in this roundup ranging roughly $80 to $178, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Set a clear maximum overall footprint before shopping, since compact reception desks in this category range from 23.6 inches up to around 47 inches, and each size step meaningfully changes what fits. This matters in practice because the picks in this comparison span from about $80 to $178, and skipping a real check on set clear maximum footprint is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on set clear maximum footprint, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Lay Out Equipment at Full Scale",
-    "explanation": "Lay out monitor, keyboard, phone or POS, and sign-in device at full scale against the desk's actual dimensions, since a nominal width doesn't guarantee all this equipment fits comfortably. Given the real spread here, from about $80 up to $178, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Lay out monitor, keyboard, phone or POS, and sign-in device at full scale against the desk's actual dimensions, since a nominal width doesn't guarantee all this equipment fits comfortably. Buyers shopping anywhere from $80 to $178 in this category often assume lay out equipment at is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on lay out equipment at stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Storage Gained Per Inch",
-    "explanation": "Measure storage gained per inch without sacrificing knee space, since compact desks trade off storage and legroom more aggressively than larger models. Across this comparison's $80 to $178 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Measure storage gained per inch without sacrificing knee space, since compact desks trade off storage and legroom more aggressively than larger models. At every price point in this comparison's $80 to $178 range, storage gained per inch varies enough between listings that assuming it scales with price is a real way to get burned. Confirm storage gained per inch directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Cable Bricks and Monitor-Arm Fit",
-    "explanation": "Check cable bricks, grommets, and monitor-arm fit at the compact size, since these accessories can consume disproportionate space on a small desktop. Products at the low end near $80 and the high end near $178 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check cable bricks, grommets, and monitor-arm fit at the compact size, since these accessories can consume disproportionate space on a small desktop. Two picks priced close together, anywhere in this comparison's $80-$178 band, can still land on opposite ends of cable bricks monitor-arm fit, so price alone is a poor proxy for it here. Compare the stated figure for cable bricks monitor-arm fit across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Measure Visitor Approach and Circulation",
-    "explanation": "Measure visitor approach, door, and waiting-area clearance around the compact desk, since small reception zones typically have tighter circulation too. This matters in practice because the picks in this comparison span from about $80 to $178, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure visitor approach, door, and waiting-area clearance around the compact desk, since small reception zones typically have tighter circulation too. Products at the low end near $80 and the high end near $178 of this comparison don't always handle visitor approach circulation the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of visitor approach circulation, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "IGERI Small Black Reception Desk is aimed at buyers prioritizing 31.5\"w x 15.7\"d x 43.3\"h compact desk." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "IGERI Small Black Reception Desk is aimed at buyers prioritizing 31.5\"w x 15.7\"d x 43.3\"h compact desk." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"best-reception-desks"},{"href":"/guide/best-reception-desks-for-restaurant","title":"4 Best Reception Desks for Restaurant in 2026"},{"href":"/guide/best-round-reception-desks","title":"best-round-reception-desks"}];

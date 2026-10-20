@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Understand the Shape's Actual Geometry",
-    "explanation": "Get the trapezoid conference tables's full footprint at its widest and narrowest points, not just a single headline dimension, since a shaped table's usable area varies more than a simple rectangle's. Across this comparison's $290 to $1999 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Get the trapezoid conference tables's full footprint at its widest and narrowest points, not just a single headline dimension, since a shaped table's usable area varies more than a simple rectangle's. With prices in this roundup ranging roughly $290 to $1999, understand shapes actual geometry is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify understand shapes actual geometry directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Map Seat Positions to the Shape",
-    "explanation": "Check where the shape naturally creates seat positions and where it creates dead space, since curves and angles don't distribute usable edge evenly. Products at the low end near $290 and the high end near $1999 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check where the shape naturally creates seat positions and where it creates dead space, since curves and angles don't distribute usable edge evenly. This matters in practice because the picks in this comparison span from about $290 to $1999, and skipping a real check on map seat positions shape is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on map seat positions shape, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Sightlines Around the Shape",
-    "explanation": "Confirm the shape actually improves eye contact and sightlines between participants, which is the main reason to choose a non-rectangular table over a straight one. This matters in practice because the picks in this comparison span from about $290 to $1999, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the shape actually improves eye contact and sightlines between participants, which is the main reason to choose a non-rectangular table over a straight one. Buyers shopping anywhere from $290 to $1999 in this category often assume sightlines around shape is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on sightlines around shape stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Base Interference With the Shape",
-    "explanation": "Confirm pedestal or leg placement doesn't intrude into knee space at the shape's tightest points, particularly at curves or corners. With prices in this roundup ranging roughly $290 to $1999, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm pedestal or leg placement doesn't intrude into knee space at the shape's tightest points, particularly at curves or corners. At every price point in this comparison's $290 to $1999 range, base interference shape varies enough between listings that assuming it scales with price is a real way to get burned. Confirm base interference shape directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Confirm the Shape Fits the Room",
-    "explanation": "Measure the full bounding box the shape occupies, since curved or angled tables often need more total floor space than their headline length suggests. Given the real spread here, from about $290 up to $1999, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure the full bounding box the shape occupies, since curved or angled tables often need more total floor space than their headline length suggests. Two picks priced close together, anywhere in this comparison's $290-$1999 band, can still land on opposite ends of shape fits room, so price alone is a poor proxy for it here. Compare the stated figure for shape fits room across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "robwibw 6-Pack Trapezoid Folding Conference Table is aimed at buyers prioritizing 4ft trapezoid tables, 6-pack." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "robwibw 6-Pack Trapezoid Folding Conference Table is aimed at buyers prioritizing 4ft trapezoid tables, 6-pack." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-rectangular-conference-tables","title":"Best Rectangular Conference Tables in 2026"},{"href":"/guide/best-oval-conference-tables","title":"Best Oval Conference Tables in 2026"},{"href":"/guide/best-boat-shaped-conference-tables","title":"Best Boat Shaped Conference Tables in 2026"}];

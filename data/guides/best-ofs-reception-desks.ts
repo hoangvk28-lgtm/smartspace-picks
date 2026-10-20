@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Series Map",
-    "explanation": "Build a current OFS reception-series or model map and label older project or reseller products separately, since discontinued configurations are still commonly listed by third parties. Given the real spread here, from about $870 up to $1193, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Build a current OFS reception-series or model map and label older project or reseller products separately, since discontinued configurations are still commonly listed by third parties. Buyers shopping anywhere from $870 to $1193 in this category often assume build current series map is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on build current series map stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Configurations Against the Current Series",
-    "explanation": "Compare straight, L-shaped, U-shaped, single-user, and multi-user configurations only where the exact current series genuinely supports them. Across this comparison's $870 to $1193 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Compare straight, L-shaped, U-shaped, single-user, and multi-user configurations only where the exact current series genuinely supports them. At every price point in this comparison's $870 to $1193 range, configurations against current series varies enough between listings that assuming it scales with price is a real way to get burned. Confirm configurations against current series directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Planning Dimensions from Current Resources",
-    "explanation": "Use current planning and specification resources to verify overall width, depth, work height, transaction-counter geometry, handedness, and grommet locations. Products at the low end near $870 and the high end near $1193 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Use current planning and specification resources to verify overall width, depth, work height, transaction-counter geometry, handedness, and grommet locations. Two picks priced close together, anywhere in this comparison's $870-$1193 band, can still land on opposite ends of planning dimensions from current, so price alone is a poor proxy for it here. Compare the stated figure for planning dimensions from current across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Map Separately Ordered Components",
-    "explanation": "Map storage, materials, finishes, and power or data components that must be ordered separately from the core desk, since contract systems are often quoted as a base unit plus add-ons. This matters in practice because the picks in this comparison span from about $870 to $1193, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Map storage, materials, finishes, and power or data components that must be ordered separately from the core desk, since contract systems are often quoted as a base unit plus add-ons. Products at the low end near $870 and the high end near $1193 of this comparison don't always handle map separately ordered components the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of map separately ordered components, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Include Lead Time and Support Path",
-    "explanation": "Include current lead-time and specification workflow, warranty, dealer or support path, and replacement-component availability in the total cost of ownership. With prices in this roundup ranging roughly $870 to $1193, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Include current lead-time and specification workflow, warranty, dealer or support path, and replacement-component availability in the total cost of ownership. Across this comparison's $870 to $1193 range, include lead time support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check include lead time support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-hon-reception-desks","title":"5 Best HON Reception Desks in 2026"},{"href":"/guide/best-teknion-reception-desks","title":"best-teknion-reception-desks"},{"href":"/guide/best-knoll-reception-desks","title":"best-knoll-reception-desks"}];

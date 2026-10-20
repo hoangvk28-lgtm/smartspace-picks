@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish Loaded Weight",
-    "explanation": "Publish loaded weight with equipment and stored contents, since a desk's empty weight doesn't reflect what casters actually need to support in daily use. Given the real spread here, from about $40 up to $85, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Publish loaded weight with equipment and stored contents, since a desk's empty weight doesn't reflect what casters actually need to support in daily use. Two picks priced close together, anywhere in this comparison's $40-$85 band, can still land on opposite ends of loaded weight, so price alone is a poor proxy for it here. Compare the stated figure for loaded weight across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Caster Load Rating and Brakes",
-    "explanation": "Verify caster load rating and brake behavior on your actual floor type, since carpet, tile, and concrete affect rolling resistance and brake grip differently. Across this comparison's $40 to $85 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify caster load rating and brake behavior on your actual floor type, since carpet, tile, and concrete affect rolling resistance and brake grip differently. Products at the low end near $40 and the high end near $85 of this comparison don't always handle caster load rating brakes the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of caster load rating brakes, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Against Doorway and Elevator Clearance",
-    "explanation": "Measure width and depth against doors, elevators, and thresholds before assuming a desk on wheels can actually relocate between rooms. Products at the low end near $40 and the high end near $85 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure width and depth against doors, elevators, and thresholds before assuming a desk on wheels can actually relocate between rooms. Across this comparison's $40 to $85 range, against doorway elevator clearance is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check against doorway elevator clearance against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Design a Safe Quick-Disconnect Power Path",
-    "explanation": "Design a safe quick-disconnect power or data path so movement doesn't drag cables, since a desk still tethered to fixed cabling isn't genuinely mobile. This matters in practice because the picks in this comparison span from about $40 to $85, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Design a safe quick-disconnect power or data path so movement doesn't drag cables, since a desk still tethered to fixed cabling isn't genuinely mobile. Given the real spread here, from about $40 up to $85, two products can look nearly identical on the surface while differing exactly on design safe quick-disconnect power, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on design safe quick-disconnect power, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Test Push Force and Tip Stability",
-    "explanation": "Test push force and tip stability with drawers and counter equipment loaded, not just an empty desk. With prices in this roundup ranging roughly $40 to $85, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Test push force and tip stability with drawers and counter equipment loaded, not just an empty desk. With prices in this roundup ranging roughly $40 to $85, push force tip stability is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify push force tip stability directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height is aimed at buyers looking for on wheels." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "DUMOS Mobile Rolling Desk with Wheels Adjustable Height is aimed at buyers looking for on wheels." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mobile-reception-desks","title":"4 Best Mobile Reception Desks in 2026"},{"href":"/guide/best-portable-reception-desks","title":"4 Best Portable Reception Desks in 2026"},{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"}];

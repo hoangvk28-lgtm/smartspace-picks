@@ -247,7 +247,7 @@ export const faq: FaqItem[] = [
   { q: "What's the cheapest option?", a: "The rjuwurv Metal Desk Clock at $9.99." },
   { q: "Is there a non-traditional clock mechanism available?", a: "Yes, the mooas Flip Desk Clock uses an auto-flip display mechanism instead of a standard dial." },
   { q: "How does this overlap with your gold desk clocks guide?", a: "Substantially, brass and gold finishes are visually similar and often made by the same manufacturers, so check both guides for the full range of options." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven brass-toned clock at a reasonable price." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven brass-toned clock at a reasonable price." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

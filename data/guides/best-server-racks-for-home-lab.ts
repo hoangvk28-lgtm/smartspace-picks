@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Plan Around Home Circuit Capacity",
-    "explanation": "Confirm server racks for home lab won't push the total connected load past your home's branch circuit rating, since a PDU distributes outlets but not extra circuit capacity. Products at the low end near $90 and the high end near $300 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm server racks for home lab won't push the total connected load past your home's branch circuit rating, since a PDU distributes outlets but not extra circuit capacity. Products at the low end near $90 and the high end near $300 of this comparison don't always handle plan around home circuit the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan around home circuit, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Weigh Noise for a Shared Living Space",
-    "explanation": "Check documented noise levels specifically, since a rack living near living or working space needs to be judged on more than raw performance. This matters in practice because the picks in this comparison span from about $90 to $300, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check documented noise levels specifically, since a rack living near living or working space needs to be judged on more than raw performance. Across this comparison's $90 to $300 range, noise shared living space is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check noise shared living space against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Room Ventilation, Not Just Rack Fans",
-    "explanation": "Recognize that rack fans alone can't cool a sealed closet or small room, so plan actual room ventilation for a dense equipment load. With prices in this roundup ranging roughly $90 to $300, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Recognize that rack fans alone can't cool a sealed closet or small room, so plan actual room ventilation for a dense equipment load. Given the real spread here, from about $90 up to $300, two products can look nearly identical on the surface while differing exactly on room ventilation rack fans, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on room ventilation rack fans, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Floor Load if Installing Upstairs",
-    "explanation": "Check the combined weight of a loaded rack against floor load capacity if installing above ground level. Given the real spread here, from about $90 up to $300, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check the combined weight of a loaded rack against floor load capacity if installing above ground level. With prices in this roundup ranging roughly $90 to $300, floor load installing upstairs is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify floor load installing upstairs directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan for Future Expansion Space",
-    "explanation": "Leave some spare U-height and depth room for equipment additions rather than filling a rack to its exact current needs. Across this comparison's $90 to $300 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Leave some spare U-height and depth room for equipment additions rather than filling a rack to its exact current needs. This matters in practice because the picks in this comparison span from about $90 to $300, and skipping a real check on plan future expansion space is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan future expansion space, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "AxcessAbles 12U Network Rack with Wheels is aimed at buyers prioritizing 18\" usable depth, 1.5mm steel frame." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks-for-homelab","title":"Best Server Racks for Homelab in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"}];

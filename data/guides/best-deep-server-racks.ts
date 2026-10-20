@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm Usable Depth, Not Cabinet Depth",
-    "explanation": "Verify deep server racks's usable mounting depth specifically, since overall cabinet depth includes wall thickness and door clearance that isn't available for equipment. Products at the low end near $358 and the high end near $1906 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify deep server racks's usable mounting depth specifically, since overall cabinet depth includes wall thickness and door clearance that isn't available for equipment. Buyers shopping anywhere from $358 to $1906 in this category often assume usable depth cabinet depth is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on usable depth cabinet depth stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Rear Clearance for Cable Bend Radius",
-    "explanation": "Leave room behind the rack for cable bend radius and rear panel access, not just the raw equipment depth. This matters in practice because the picks in this comparison span from about $358 to $1906, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Leave room behind the rack for cable bend radius and rear panel access, not just the raw equipment depth. At every price point in this comparison's $358 to $1906 range, rear clearance cable bend varies enough between listings that assuming it scales with price is a real way to get burned. Confirm rear clearance cable bend directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Stationary Weight Rating for Deep Gear",
-    "explanation": "Confirm the stationary weight rating accounts for genuinely deep, heavy server chassis rather than lighter networking equipment. With prices in this roundup ranging roughly $358 to $1906, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm the stationary weight rating accounts for genuinely deep, heavy server chassis rather than lighter networking equipment. Two picks priced close together, anywhere in this comparison's $358-$1906 band, can still land on opposite ends of stationary weight rating deep, so price alone is a poor proxy for it here. Compare the stated figure for stationary weight rating deep across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Room Depth Before Ordering",
-    "explanation": "Measure actual room depth including doorway clearance for moving the assembled or flat-packed rack into place. Given the real spread here, from about $358 up to $1906, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure actual room depth including doorway clearance for moving the assembled or flat-packed rack into place. Products at the low end near $358 and the high end near $1906 of this comparison don't always handle room depth before ordering the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of room depth before ordering, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Cooling Scales With Depth",
-    "explanation": "Verify cooling fans or ventilation scale appropriately for the larger internal air volume a deep cabinet creates. Across this comparison's $358 to $1906 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify cooling fans or ventilation scale appropriately for the larger internal air volume a deep cabinet creates. Across this comparison's $358 to $1906 range, cooling scales depth is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check cooling scales depth against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Sysracks 42U Server Rack Cabinet is aimed at buyers prioritizing 42u, 39\" deep enclosure." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

@@ -256,7 +256,7 @@ export const faq: FaqItem[] = [
   { q: "Will charging multiple devices from the same power strip slow them down?", a: "Often yes. Total USB output wattage is frequently shared across all ports rather than dedicated per port, so charging several devices at once delivers less than each port's rated maximum to each device." },
   { q: "If a power strip's USB port stops working, does that mean the surge protection failed too?", a: "Not necessarily. USB circuitry and AC surge protection are somewhat independent subsystems with different failure modes, a strip's AC protection status doesn't indicate anything about USB port health." },
   { q: "Do USB ports reduce a power strip's surge protection quality?", a: "Sometimes. USB port count adds cost and circuit complexity that can come at the expense of the AC-side joule rating at a given price point, compare joule ratings against similarly priced AC-only strips to check." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want basic USB charging alongside genuine surge protection" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want basic USB charging alongside genuine surge protection" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who prioritize AC outlet reliability and can add a separate USB hub At $11.08, it's the lowest-cost pick in this comparison." },
 ];
 

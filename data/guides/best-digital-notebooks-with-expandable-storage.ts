@@ -243,7 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Is refurbished a good way to get more storage for less?", a: "Yes, the Like-New 64GB Kindle Scribe costs less than half the price of the new Colorsoft for the same storage tier." },
   { q: "Does Android help with storage limitations?", a: "Indirectly, the BOOX Note Air 5 C's Android base allows more flexible cloud storage app options, which can supplement fixed on-device capacity." },
   { q: "How much storage do I actually need?", a: "Handwritten notes use very little space. If you plan to store a large PDF or book library, prioritize the 64GB tier over 16GB or 32GB options." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum available storage and understand it's a fixed tier, not expandable." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want maximum available storage and understand it's a fixed tier, not expandable." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

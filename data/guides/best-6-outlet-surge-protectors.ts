@@ -246,7 +246,7 @@ export const faq: FaqItem[] = [
   { q: "Do all 6-outlet surge protectors have the same protection quality?", a: "No, joule ratings at this outlet count vary widely, from around 790 joules on budget units to 1800+ joules on higher-tier models, outlet count and protection quality are independent specs." },
   { q: "Should I plug my computer and a lamp into the same 6-outlet surge protector?", a: "It's a reasonable mix at this tier, but think about whether sharing the joule budget between a high-value computer and a basic appliance is the ideal allocation, versus dedicating a unit specifically to sensitive electronics." },
   { q: "What if I need more than 6 real usable outlets?", a: "Consider stepping up to an 8-outlet design for more genuine spacing margin, especially if your setup includes several wide power adapters that would otherwise reduce a 6-outlet strip's usable count." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a proven, well-rated 6-outlet pick with USB charging" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a proven, well-rated 6-outlet pick with USB charging" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the highest joule rating available at the 6-outlet tier At $9.49, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -293,7 +293,7 @@ export const faq: FaqItem[] = [
   { q: "Are there hidden costs beyond the scanner's purchase price for small business use?", a: "Yes, potentially. If your business adopts document management software requiring ISIS drivers, budget an additional $50-200 per scanner in licensing cost not included in the base price." },
   { q: "Can multiple employees scan to the same shared network folder easily?", a: "It typically requires IT-level setup (network folder permissions, SMB configuration), even on scanners marketed as easy to use. Cloud-connected picks in this guide reduce this complexity for cloud destinations specifically." },
   { q: "Do these scanners meet compliance requirements for financial or HR document retention?", a: "Not confirmed for any pick in this guide. Regulated small businesses (health, finance, legal-adjacent) should verify encryption, audit trail metadata, and PDF/A compliance directly with the manufacturer before relying on any of these for compliance-sensitive scanning." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Small teams who want reliable duplex batch scanning without enterprise-tier pricing" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small teams who want reliable duplex batch scanning without enterprise-tier pricing" },
   { q: "Which pick offers the best value for a tight budget?", a: "Genuinely small teams (2-3 people) who don't want to overpay for enterprise-tier capacity At $134.99, it's the lowest-cost pick in this comparison." },
 ];
 

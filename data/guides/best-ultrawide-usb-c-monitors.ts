@@ -243,7 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Do I need special software to use an ultrawide monitor effectively?", a: "Window-snapping software is strongly recommended, default OS window management often isn't sufficient to make the most of the extra horizontal space." },
   { q: "Should I get a 21:9 or 32:9 ultrawide?", a: "21:9 has broader software compatibility and needs less desk space, 32:9 offers more extreme workspace that can fully replace a dual-monitor setup." },
   { q: "Can an ultrawide monitor replace two separate monitors?", a: "A large enough super-ultrawide, especially 32:9, can genuinely replace a dual-monitor setup for many workflows." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting to fully replace a dual-monitor setup with one seamless super-ultrawide panel" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting to fully replace a dual-monitor setup with one seamless super-ultrawide panel" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers testing wide-format preferences before a true ultrawide purchase At $109.99, it's the lowest-cost pick in this comparison." },
 ];
 

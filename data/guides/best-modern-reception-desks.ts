@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Define Modern Through Construction, Not Just Style",
-    "explanation": "Look for observable construction details, clean lines, minimal ornamentation, and a defined material (laminate, engineered wood, metal) rather than judging modern styling from photography alone. This matters in practice because the picks in this comparison span from about $160 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Look for observable construction details, clean lines, minimal ornamentation, and a defined material (laminate, engineered wood, metal) rather than judging modern styling from photography alone. Given the real spread here, from about $160 up to $630, two products can look nearly identical on the surface while differing exactly on define modern through construction, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on define modern through construction, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Inspect Decorative Details for Durability",
-    "explanation": "Check decorative faces, grooves, trim, and edges for impact durability, since fluted or textured panels can chip or show wear differently than a flat surface. With prices in this roundup ranging roughly $160 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check decorative faces, grooves, trim, and edges for impact durability, since fluted or textured panels can chip or show wear differently than a flat surface. With prices in this roundup ranging roughly $160 to $630, decorative details durability is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify decorative details durability directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Evaluate Cleanability",
-    "explanation": "Look for dust traps and porous surfaces around decorative details, since modern textured finishes can be harder to wipe clean than a plain panel. Given the real spread here, from about $160 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for dust traps and porous surfaces around decorative details, since modern textured finishes can be harder to wipe clean than a plain panel. This matters in practice because the picks in this comparison span from about $160 to $630, and skipping a real check on cleanability is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on cleanability, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Plan Cable Concealment",
-    "explanation": "Confirm POS systems, monitors, and cables can stay concealed without compromising service, since visible cable clutter undermines a modern aesthetic quickly. Across this comparison's $160 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm POS systems, monitors, and cables can stay concealed without compromising service, since visible cable clutter undermines a modern aesthetic quickly. Buyers shopping anywhere from $160 to $630 in this category often assume plan cable concealment is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on plan cable concealment stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Repair Strategy",
-    "explanation": "Ask how a chipped or scratched decorative surface gets repaired or refinished, since high-visibility damage on a modern finish is more noticeable than on a plain wood-tone desk. Products at the low end near $160 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Ask how a chipped or scratched decorative surface gets repaired or refinished, since high-visibility damage on a modern finish is more noticeable than on a plain wood-tone desk. At every price point in this comparison's $160 to $630 range, repair strategy varies enough between listings that assuming it scales with price is a real way to get burned. Confirm repair strategy directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-fluted-reception-desks","title":"6 Best Fluted Reception Desks in 2026"},{"href":"/guide/best-white-reception-desks","title":"7 Best White Reception Desks in 2026"}];

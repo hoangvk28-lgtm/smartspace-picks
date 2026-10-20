@@ -98,7 +98,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41axhgC1IXL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0D5QNMS8N?tag=deskfinds0d-20",
     description:
-      "Identical specs to the top pick in a gray finish, same 800W real capacity and lithium battery chemistry advantage, choose based on color preference for your desk setup rather than any functional difference.",
+      "Identical specs to the top pick in a gray finish, same 800W real capacity and lithium battery chemistry advantage, choose based on color preference for your desk setup rather than any functional difference.\n\nWhat stands out here is same strong real-watt ratio as the top pick, plus lithium battery longevity. The main tradeoff: same newer-brand track record considerations as the white variant, so weigh that against the $199.99 price before buying.",
     specs: ["1000VA/800W, lithium battery", "Above-average real-watt-to-VA ratio", "Surge protection", "Gray finish"],
     pros: ["Same strong real-watt ratio as the top pick", "Lithium battery longevity", "Solid rating base", "Gray finish option"],
     cons: ["Same newer-brand track record considerations as the white variant", "Not pure sine wave confirmed", "Marginally higher price than the white variant"],

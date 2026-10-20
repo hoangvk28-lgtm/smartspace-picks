@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Real Containment, Not Just a Shell",
-    "explanation": "Confirm enclosed desktop cnc machines's enclosure genuinely contains chips and dust rather than being a cosmetic cover, since an acrylic shell alone doesn't solve dust management. Across this comparison's $438 to $3197 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm enclosed desktop cnc machines's enclosure genuinely contains chips and dust rather than being a cosmetic cover, since an acrylic shell alone doesn't solve dust management. This matters in practice because the picks in this comparison span from about $438 to $3197, and skipping a real check on real containment shell is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on real containment shell, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Door Interlock Behavior",
-    "explanation": "Verify the door or lid interlock actually pauses operation when opened, a real safety feature rather than a passive cover. Products at the low end near $438 and the high end near $3197 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify the door or lid interlock actually pauses operation when opened, a real safety feature rather than a passive cover. Buyers shopping anywhere from $438 to $3197 in this category often assume door interlock behavior is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on door interlock behavior stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Extraction Compatibility",
-    "explanation": "Check vacuum or extraction port compatibility and airflow, since an enclosure without extraction just traps dust inside. This matters in practice because the picks in this comparison span from about $438 to $3197, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check vacuum or extraction port compatibility and airflow, since an enclosure without extraction just traps dust inside. At every price point in this comparison's $438 to $3197 range, extraction compatibility varies enough between listings that assuming it scales with price is a real way to get burned. Confirm extraction compatibility directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Measure Chip Escape at Openings",
-    "explanation": "Look for chip or dust escape at cable ports and door seams, a common gap in otherwise enclosed designs. With prices in this roundup ranging roughly $438 to $3197, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Look for chip or dust escape at cable ports and door seams, a common gap in otherwise enclosed designs. Two picks priced close together, anywhere in this comparison's $438-$3197 band, can still land on opposite ends of chip escape at openings, so price alone is a poor proxy for it here. Compare the stated figure for chip escape at openings across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Service Access for Setup",
-    "explanation": "Confirm the enclosure still allows reasonable access to workholding and tooling for setup and maintenance. Given the real spread here, from about $438 up to $3197, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm the enclosure still allows reasonable access to workholding and tooling for setup and maintenance. Products at the low end near $438 and the high end near $3197 of this comparison don't always handle service access setup the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of service access setup, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

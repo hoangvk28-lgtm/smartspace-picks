@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/415ddFXTF8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B083R3XYQN?tag=deskfinds0d-20",
     description:
-      "The same broad TWAIN/WIA/ICA/SANE driver spread as the rank-3 pick, with duplex scanning added. A reasonable step up if you want both-sides-in-one-pass scanning while keeping the same broad computer compatibility.",
+      "The same broad TWAIN/WIA/ICA/SANE driver spread as the rank-3 pick, with duplex scanning added. A reasonable step up if you want both-sides-in-one-pass scanning while keeping the same broad computer compatibility.\n\nWhere this one earns its spot is same broad OS/driver compatibility as the DS-640, and duplex scanning in one pass. Worth noting before buying: higher price than the simplex DS-640, which matters more at $169.99 than it would on a cheaper pick.",
     specs: ["TWAIN/WIA (PC), ICA (Mac), SANE (Linux) driver support", "Duplex scanning", "Free iPrint&Scan desktop app", "Desk Saving Design"],
     pros: ["Same broad OS/driver compatibility as the DS-640", "Duplex scanning in one pass", "Includes document management and OCR software", "Desk Saving Design"],
     cons: ["Higher price than the simplex DS-640", "No ISIS driver support disclosed", "Smaller review base than the DS-640"],
@@ -297,7 +297,7 @@ export const faq: FaqItem[] = [
   { q: "Will installing a new scanner conflict with my existing all-in-one printer's drivers?", a: "It can. Installing a dedicated document scanner alongside an existing multi-function printer on the same computer occasionally creates driver conflicts, duplicate device names or the wrong device being selected in scan software." },
   { q: "Do all these scanners include full scanning software, or just a driver?", a: "It varies. The Epson and ScanSnap picks in this guide include full-featured software suites (PDF editing, cloud upload, OCR); the Brother and Canon picks include more basic bundled software alongside broad driver support." },
   { q: "Does Mac driver support lag behind Windows for these scanners?", a: "It can vary by brand, and none of the picks in this guide disclose a specific driver update timeline for each OS. Check the manufacturer's driver update history directly if you're on a specific OS and want assurance of timely updates." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a full-featured software bundle with genuine TWAIN document-management compatibility" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want a full-featured software bundle with genuine TWAIN document-management compatibility" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the flexibility to scan independent of a computer's own drivers At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 

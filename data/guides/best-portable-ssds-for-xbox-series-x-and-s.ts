@@ -232,7 +232,7 @@ export const faq: FaqItem[] = [
   { q: "Do Xbox Series S and Series X need different external storage?", a: "Their needs can differ, Series S's smaller internal storage often benefits more from external expansion than Series X's larger built-in capacity." },
   { q: "Is the official Xbox expansion card better than a standard USB drive?", a: "For matching internal-storage performance, yes, it's the only option that fully replicates Quick Resume and internal SSD speed, a standard USB drive serves backup and backward-compatible use well instead." },
   { q: "Does Xbox Game Pass usage require a specific type of external drive?", a: "Frequent installing/uninstalling of rotating subscription titles benefits from a drive with fast write speed, verify direct-play support specifically if you want to avoid re-downloading titles repeatedly." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the exact internal-storage experience including Quick Resume" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting the exact internal-storage experience including Quick Resume" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting affordable storage for backward-compatible and backup use At $119.99, it's the lowest-cost pick in this comparison." },
 ];
 

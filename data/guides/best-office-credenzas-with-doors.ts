@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Inventory What's Actually Behind Each Door",
-    "explanation": "Check the shelf, drawer, or file layout behind each door on office credenzas with doors rather than assuming more doors automatically means more usable storage. With prices in this roundup ranging roughly $150 to $288, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check the shelf, drawer, or file layout behind each door on office credenzas with doors rather than assuming more doors automatically means more usable storage. Across this comparison's $150 to $288 range, inventory whats actually behind is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check inventory whats actually behind against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Interior Dimensions Per Bay",
-    "explanation": "Get interior dimensions for each door's compartment individually, since a 4-door design can split interior space very unevenly between bays. Given the real spread here, from about $150 up to $288, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Get interior dimensions for each door's compartment individually, since a 4-door design can split interior space very unevenly between bays. Given the real spread here, from about $150 up to $288, two products can look nearly identical on the surface while differing exactly on interior dimensions per bay, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on interior dimensions per bay, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Shelf Adjustability Behind Each Door",
-    "explanation": "Check whether shelves behind each door adjust independently, since a fixed-shelf bay behaves very differently from an adjustable one for taller items. Across this comparison's $150 to $288 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check whether shelves behind each door adjust independently, since a fixed-shelf bay behaves very differently from an adjustable one for taller items. With prices in this roundup ranging roughly $150 to $288, shelf adjustability behind each is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify shelf adjustability behind each directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Door Swing Clearance for Multiple Doors",
-    "explanation": "Measure the clearance needed when multiple doors are open simultaneously, since a multi-door design can require more aisle space than a single-door equivalent. Products at the low end near $150 and the high end near $288 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure the clearance needed when multiple doors are open simultaneously, since a multi-door design can require more aisle space than a single-door equivalent. This matters in practice because the picks in this comparison span from about $150 to $288, and skipping a real check on door swing clearance multiple is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on door swing clearance multiple, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Wall Anchoring if Doors Swing to Full Extension",
-    "explanation": "Verify anti-tip requirements, since a wide multi-door piece with doors fully open shifts weight distribution more than a closed cabinet. This matters in practice because the picks in this comparison span from about $150 to $288, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify anti-tip requirements, since a wide multi-door piece with doors fully open shifts weight distribution more than a closed cabinet. Buyers shopping anywhere from $150 to $288 in this category often assume wall anchoring doors swing is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on wall anchoring doors swing stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "63'' Sideboard Buffet Cabinet with 4 Sliding Doors is aimed at buyers prioritizing 63in wide, tsca-certified p2-grade wood." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "63'' Sideboard Buffet Cabinet with 4 Sliding Doors is aimed at buyers prioritizing 63in wide, tsca-certified p2-grade wood." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-4-door-office-credenzas","title":"Best 4 Door Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

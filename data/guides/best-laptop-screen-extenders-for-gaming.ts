@@ -238,7 +238,7 @@ export const faq: FaqItem[] = [
   { q: "Does input lag matter more than resolution for gaming on an extender?", a: "For responsiveness, yes, input lag from the panel and connection type can matter more than resolution alone, check reviews for lag reports." },
   { q: "Can I use a laptop screen extender for streaming setups?", a: "Yes, a multi-panel extender can be genuinely useful for reference displays like chat, stream overlay, and stats alongside gameplay." },
   { q: "Do laptop screen extenders work with consoles like PS5 or Switch?", a: "Some do, check for explicit console compatibility claims on the specific listing rather than assuming universal device support." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Casual and single-player gamers prioritizing screen size and resolution over refresh rate" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Casual and single-player gamers prioritizing screen size and resolution over refresh rate" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious casual gamers wanting an affordable extra screen At $71.99, it's the lowest-cost pick in this comparison." },
 ];
 

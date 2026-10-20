@@ -238,7 +238,7 @@ export const faq: FaqItem[] = [
   { q: "Is 2000 joules enough for a full desk and entertainment setup shared together?", a: "It depends on device count. Sharing the budget across many devices depletes it faster than a single-device allocation, calculate your realistic combined device count before assuming adequate per-device protection depth." },
   { q: "Should I buy one 2000-joule strip or two smaller single-outlet units?", a: "Consider the tradeoff. Two lower-joule single-outlet units protecting two high-value devices independently can offer better risk distribution than one shared 2000-joule strip splitting the budget across both." },
   { q: "Can I plug my whole entertainment center into one 2000-joule strip?", a: "Verify the circuit capacity separately from the joule marketing. This tier is commonly marketed toward whole-setup bundling, which can tempt buyers into connecting more total devices than the amperage or circuit capacity comfortably supports." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who need to protect many devices simultaneously and understand the per-device dilution tradeoff" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who need to protect many devices simultaneously and understand the per-device dilution tradeoff" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want extra headroom above the standard 2000-joule tier At $19.83, it's the lowest-cost pick in this comparison." },
 ];
 

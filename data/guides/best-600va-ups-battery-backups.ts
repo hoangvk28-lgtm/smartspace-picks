@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41JHxO-mGhL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0010DF6UK?tag=deskfinds0d-20",
     description:
-      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind. 325W real capacity, in line with the typical power factor math for this VA class, size accordingly. 3-year warranty with substantial connected-equipment insurance. On the other hand, 325W real capacity, appropriate only for low-power devices. Both are worth keeping in mind before deciding.",
+      "10 outlets at the 600VA tier, notably more than most competitors offer at this capacity, genuinely useful if you have several low-draw peripherals to plug in. The 3-year warranty with $100,000 connected-equipment insurance adds real peace of mind. 325W real capacity, in line with the typical power factor math for this VA class, size accordingly. 3-year warranty with substantial connected-equipment insurance. On the other hand, 325W real capacity, appropriate only for low-power devices. Both are worth keeping in mind before deciding.\n\nThis pick is best for buyers who value 10 outlets, more than most competitors at this capacity along with 3-year warranty with substantial connected-equipment insurance. The catch is that 325W real capacity, appropriate only for low-power devices, so decide if that's worth it at $88.99.",
     specs: ["600VA/325W", "10 outlets", "3-Year warranty, $100,000 connected equipment insurance", "Compact form factor"],
     pros: ["10 outlets, more than most competitors at this capacity", "3-year warranty with substantial connected-equipment insurance", "Solid rating base", "Reasonable price"],
     cons: ["325W real capacity, appropriate only for low-power devices", "Not pure sine wave", "Short runtime under real load"],
@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "How long will a 600VA UPS keep my equipment running during an outage?", a: "Expect a few minutes of runtime under real load, enough to save your work and shut down cleanly, not to keep working through an extended outage." },
   { q: "Do 600VA UPS units include AVR?", a: "Not always. Some budget picks are standby-only, while others (like the Tripp Lite AVR550U in this guide) include AVR for in-line brownout correction, check the specific model rather than assuming all 600VA units are equivalent." },
   { q: "What's the difference between 600VA and 850VA UPS units?", a: "The real usable wattage difference is meaningful, roughly 325-360W at 600VA versus 450-510W at 850VA, enough to matter if you're protecting anything beyond a single low-power device." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers protecting a single computer, router, or NAS device" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers protecting a single computer, router, or NAS device" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers protecting a single router or basic low-power device At $79.95, it's the lowest-cost pick in this comparison." },
 ];
 

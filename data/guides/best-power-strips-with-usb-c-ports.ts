@@ -240,7 +240,7 @@ export const faq: FaqItem[] = [
   { q: "Can I charge my laptop from a power strip's USB-C port?", a: "Only if the port's PD wattage rating meets your laptop's actual charging requirement, typically 45-65W+. Many power-strip USB-C ports max out at 18-20W, enough for a phone but not a laptop." },
   { q: "Will charging a laptop and a phone at the same time slow down charging?", a: "Likely yes. USB-C and USB-A ports on the same strip often share a combined power budget, so simultaneous charging can deliver less than each port's rated maximum to each device." },
   { q: "Does high-wattage USB-C charging generate more heat?", a: "Yes. A power strip actively delivering 65W+ continuously through a USB-C PD port generates more internal heat than basic USB-A trickle charging, a relevant consideration if the strip is mounted in an enclosed space." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want maximum joule protection with modern USB-C ports" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want maximum joule protection with modern USB-C ports" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want a well-proven strip with USB charging options At $13.99, it's the lowest-cost pick in this comparison." },
 ];
 

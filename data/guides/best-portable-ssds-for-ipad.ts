@@ -248,7 +248,7 @@ export const faq: FaqItem[] = [
   { q: "Does an external SSD drain my iPad's battery faster?", a: "It can be more noticeable than on a laptop. The iPad's smaller battery capacity means bus-powered SSD draw affects battery life more noticeably, a real consideration for extended use away from a charger." },
   { q: "Can I edit video directly from an external SSD on my iPad?", a: "It depends on the app. Not all iPad video apps support external drive project files equally well, verify your specific app's documentation like LumaFusion or Final Cut for iPad before planning that workflow." },
   { q: "Does my iPad's chip generation affect external SSD performance?", a: "Yes. An iPad's underlying chip generation affects real-world file transfer and multitasking performance with an external drive connected, not just the drive's own rated speed." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a drive explicitly marketed and tested for iPad compatibility" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting a drive explicitly marketed and tested for iPad compatibility" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious iPad users wanting basic Files app storage At $143.99, it's the lowest-cost pick in this comparison." },
 ];
 

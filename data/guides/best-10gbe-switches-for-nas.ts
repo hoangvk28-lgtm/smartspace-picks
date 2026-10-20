@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map the Real Topology First",
-    "explanation": "Sketch the exact devices 10gbe switches for nas needs to connect and count how many genuinely need 10GbE, since most home networks only need a few true 10G ports. Across this comparison's $80 to $252 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Sketch the exact devices 10gbe switches for nas needs to connect and count how many genuinely need 10GbE, since most home networks only need a few true 10G ports. Two picks priced close together, anywhere in this comparison's $80-$252 band, can still land on opposite ends of map real topology first, so price alone is a poor proxy for it here. Compare the stated figure for map real topology first across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Compare RJ45 and SFP+ for Your Cable Runs",
-    "explanation": "Choose based on existing cabling and NIC types, since RJ45 is simpler for short runs while SFP+/DAC can be more efficient for rack-to-rack links. Products at the low end near $80 and the high end near $252 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Choose based on existing cabling and NIC types, since RJ45 is simpler for short runs while SFP+/DAC can be more efficient for rack-to-rack links. Products at the low end near $80 and the high end near $252 of this comparison don't always handle rj45 sfp cable runs the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of rj45 sfp cable runs, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Acoustics in the Actual Room",
-    "explanation": "Consider noise specifically in a home-office or living-space context, since sound that's fine in a server room can be intrusive at a desk. This matters in practice because the picks in this comparison span from about $80 to $252, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Consider noise specifically in a home-office or living-space context, since sound that's fine in a server room can be intrusive at a desk. Across this comparison's $80 to $252 range, acoustics actual room is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check acoustics actual room against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Idle Power for 24/7 Operation",
-    "explanation": "Verify idle power draw, since home and homelab switches typically run continuously rather than being powered down. With prices in this roundup ranging roughly $80 to $252, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify idle power draw, since home and homelab switches typically run continuously rather than being powered down. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on idle power 247 operation, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on idle power 247 operation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Include NICs and Cabling in Total Cost",
-    "explanation": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget. With prices in this roundup ranging roughly $80 to $252, include nics cabling total is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify include nics cabling total directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "TP-Link TL-SX105 is aimed at buyers prioritizing 5x true 10g ports, 100gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

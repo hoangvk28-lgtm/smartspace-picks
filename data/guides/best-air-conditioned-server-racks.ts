@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm It's Active Cooling, Not Just Fans",
-    "explanation": "Verify air-conditioned server racks is a genuine air conditioning unit with a BTU rating, since fans alone only recirculate air and can't remove heat from a sealed enclosure the way active cooling does. Across this comparison's $1130 to $1978 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify air-conditioned server racks is a genuine air conditioning unit with a BTU rating, since fans alone only recirculate air and can't remove heat from a sealed enclosure the way active cooling does. This matters in practice because the picks in this comparison span from about $1130 to $1978, and skipping a real check on its active cooling fans is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on its active cooling fans, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check BTU Rating Against Equipment Heat Load",
-    "explanation": "Match the documented BTU rating to your equipment's actual heat output rather than assuming any rack-mount A/C unit is sufficient. Products at the low end near $1130 and the high end near $1978 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Match the documented BTU rating to your equipment's actual heat output rather than assuming any rack-mount A/C unit is sufficient. Buyers shopping anywhere from $1130 to $1978 in this category often assume btu rating against equipment is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on btu rating against equipment stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Rack Space the Unit Consumes",
-    "explanation": "Confirm how many U of rack space the air conditioning unit itself takes up, since that's space unavailable for actual equipment. This matters in practice because the picks in this comparison span from about $1130 to $1978, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm how many U of rack space the air conditioning unit itself takes up, since that's space unavailable for actual equipment. At every price point in this comparison's $1130 to $1978 range, rack space unit consumes varies enough between listings that assuming it scales with price is a real way to get burned. Confirm rack space unit consumes directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Refrigerant Type and Warranty",
-    "explanation": "Look for the documented refrigerant type and manufacturer warranty length, since rack-mount A/C units are a bigger investment than fan kits. With prices in this roundup ranging roughly $1130 to $1978, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Look for the documented refrigerant type and manufacturer warranty length, since rack-mount A/C units are a bigger investment than fan kits. Two picks priced close together, anywhere in this comparison's $1130-$1978 band, can still land on opposite ends of refrigerant type warranty, so price alone is a poor proxy for it here. Compare the stated figure for refrigerant type warranty across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Remote Monitoring if Needed",
-    "explanation": "Check whether remote management or monitoring is available if the rack lives somewhere you can't easily check in person. Given the real spread here, from about $1130 up to $1978, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check whether remote management or monitoring is available if the rack lives somewhere you can't easily check in person. Products at the low end near $1130 and the high end near $1978 of this comparison don't always handle remote monitoring needed the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of remote monitoring needed, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Eaton Tripp Lite Rack Mount Air Conditioner Unit is aimed at buyers prioritizing 8u rack-mount, 9,000 btu (2.7 kw)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Eaton Tripp Lite Rack Mount Air Conditioner Unit is aimed at buyers prioritizing 8u rack-mount, 9,000 btu (2.7 kw)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

@@ -274,7 +274,7 @@ export const faq: FaqItem[] = [
   { q: "Is there an option for frameless monitors?", a: "Yes, the 2-Pack 24 Inch Hanging Privacy Screen Protector is explicitly rated for frameless 23-24 inch monitors." },
   { q: "What's the cheapest option?", a: "The Hanging 24 Inch Computer Privacy Screen Filter at $35.99, though it has the lowest rating in this comparison at 3.8." },
   { q: "Are the cited light-blocking and blue-light percentages verified?", a: "No, these are manufacturer claims. We could not independently verify figures like 95% light blocking or 87% blue-light reduction cited in some listings." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the fastest tool-free installation with a proven review base." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the fastest tool-free installation with a proven review base." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

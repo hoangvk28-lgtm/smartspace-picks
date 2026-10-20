@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify VLAN and LACP Under Real Load",
-    "explanation": "Confirm layer 2 10gbe switches supports VLAN tagging, trunks, and LACP aggregation under sustained 10G traffic, not just as a checkbox feature. With prices in this roundup ranging roughly $144 to $690, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm layer 2 10gbe switches supports VLAN tagging, trunks, and LACP aggregation under sustained 10G traffic, not just as a checkbox feature. Two picks priced close together, anywhere in this comparison's $144-$690 band, can still land on opposite ends of vlan lacp under real, so price alone is a poor proxy for it here. Compare the stated figure for vlan lacp under real across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check STP and Multicast Support",
-    "explanation": "Verify STP/RSTP/MSTP and IGMP/multicast features match what your specific network deployment actually needs. Given the real spread here, from about $144 up to $690, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify STP/RSTP/MSTP and IGMP/multicast features match what your specific network deployment actually needs. Products at the low end near $144 and the high end near $690 of this comparison don't always handle stp multicast support the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of stp multicast support, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm ACL and QoS Are Hardware-Forwarded",
-    "explanation": "Check whether ACL and QoS policy changes stay hardware-forwarded at line rate, not just management-plane features. Across this comparison's $144 to $690 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check whether ACL and QoS policy changes stay hardware-forwarded at line rate, not just management-plane features. Across this comparison's $144 to $690 range, acl qos are hardware-forwarded is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check acl qos are hardware-forwarded against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Management Interface Options",
-    "explanation": "Verify local web/CLI, SNMP, controller, or cloud management options fit your preferred administration style. Products at the low end near $144 and the high end near $690 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify local web/CLI, SNMP, controller, or cloud management options fit your preferred administration style. Given the real spread here, from about $144 up to $690, two products can look nearly identical on the surface while differing exactly on management interface options, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on management interface options, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Separate Real L3 Routing From Static-Route-Only",
-    "explanation": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality. This matters in practice because the picks in this comparison span from about $144 to $690, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm whether Layer 3 claims mean genuine hardware routing or just limited static-route functionality. With prices in this roundup ranging roughly $144 to $690, separate real l3 routing is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify separate real l3 routing directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM) is aimed at buyers prioritizing 4x 10g + 4x 2.5g + 2x 10g sfp+ ports." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "NETGEAR 10-Port 10G Multi-Gigabit Smart Managed Switch (MS510TXM) is aimed at buyers prioritizing 4x 10g + 4x 2.5g + 2x 10g sfp+ ports." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

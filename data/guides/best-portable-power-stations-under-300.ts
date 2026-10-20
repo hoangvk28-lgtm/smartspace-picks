@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Price",
-    "explanation": "Verify portable power stations under $300's current street price and include any required charger, panel, or cable accessories in the total cost. Given the real spread here, from about $109 up to $290, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify portable power stations under $300's current street price and include any required charger, panel, or cable accessories in the total cost. This matters in practice because the picks in this comparison span from about $109 to $290, and skipping a real check on date-stamp current price is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on date-stamp current price, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Require Safety Documentation Before Scoring Price",
-    "explanation": "Require clear battery chemistry and safety or certification documentation before factoring price into the ranking. Across this comparison's $109 to $290 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Require clear battery chemistry and safety or certification documentation before factoring price into the ranking. Buyers shopping anywhere from $109 to $290 in this category often assume safety documentation before scoring is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on safety documentation before scoring stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Measure Usable Wh, Not Nominal Values",
-    "explanation": "Measure usable Wh and continuous AC output rather than trusting nominal headline values alone. Products at the low end near $109 and the high end near $290 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Measure usable Wh and continuous AC output rather than trusting nominal headline values alone. At every price point in this comparison's $109 to $290 range, usable wh nominal values varies enough between listings that assuming it scales with price is a real way to get burned. Confirm usable wh nominal values directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Replacement and Warranty Support",
-    "explanation": "Verify replacement and warranty support, plus app or firmware availability where applicable. This matters in practice because the picks in this comparison span from about $109 to $290, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify replacement and warranty support, plus app or firmware availability where applicable. Two picks priced close together, anywhere in this comparison's $109-$290 band, can still land on opposite ends of replacement warranty support, so price alone is a poor proxy for it here. Compare the stated figure for replacement warranty support across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Price the Total Accessory Cost",
-    "explanation": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick. With prices in this roundup ranging roughly $109 to $290, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick. Products at the low end near $109 and the high end near $290 of this comparison don't always handle price total accessory cost the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of price total accessory cost, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ZeroKor Portable Power Station 300W is aimed at buyers prioritizing 280wh, 300w max, ~5 lbs." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "ZeroKor Portable Power Station 300W is aimed at buyers prioritizing 280wh, 300w max, ~5 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-budget-portable-power-stations","title":"Best Budget Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-under-200","title":"Best Portable Power Stations Under $200 in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

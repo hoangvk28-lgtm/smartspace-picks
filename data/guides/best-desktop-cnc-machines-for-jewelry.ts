@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Fine-Tool Runout",
-    "explanation": "Check desktop cnc machines for jewelry's documented runout with small jewelry cutters, since fine detail work is far more sensitive to runout than large-scale routing. With prices in this roundup ranging roughly $154 to $520, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check desktop cnc machines for jewelry's documented runout with small jewelry cutters, since fine detail work is far more sensitive to runout than large-scale routing. Two picks priced close together, anywhere in this comparison's $154-$520 band, can still land on opposite ends of fine-tool runout, so price alone is a poor proxy for it here. Compare the stated figure for fine-tool runout across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Precision Workholding for Small Parts",
-    "explanation": "Verify precision vises or fixtures exist for small parts, since standard clamps aren't built for tiny, repeatable jewelry-scale positioning. Given the real spread here, from about $154 up to $520, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify precision vises or fixtures exist for small parts, since standard clamps aren't built for tiny, repeatable jewelry-scale positioning. Products at the low end near $154 and the high end near $520 of this comparison don't always handle precision workholding small parts the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of precision workholding small parts, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Material-Specific Tooling",
-    "explanation": "Confirm tooling and feeds are documented for your intended jewelry media (wax, brass, precious metal), not just generic material claims. Across this comparison's $154 to $520 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm tooling and feeds are documented for your intended jewelry media (wax, brass, precious metal), not just generic material claims. Across this comparison's $154 to $520 range, material-specific tooling is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check material-specific tooling against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Evaluate Rotary Options for Cylindrical Parts",
-    "explanation": "Check whether a rotary or 4th-axis accessory is genuinely useful for rings or cylindrical jewelry pieces, where supported. Products at the low end near $154 and the high end near $520 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check whether a rotary or 4th-axis accessory is genuinely useful for rings or cylindrical jewelry pieces, where supported. Given the real spread here, from about $154 up to $520, two products can look nearly identical on the surface while differing exactly on rotary options cylindrical parts, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on rotary options cylindrical parts, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Inspect Finish Quality, Not Just Dimension",
-    "explanation": "Judge fine-detail surface finish directly, since jewelry-scale work depends on finish quality as much as dimensional accuracy. This matters in practice because the picks in this comparison span from about $154 to $520, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Judge fine-detail surface finish directly, since jewelry-scale work depends on finish quality as much as dimensional accuracy. With prices in this roundup ranging roughly $154 to $520, finish quality dimension is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify finish quality dimension directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners is aimed at buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners is aimed at buyers prioritizing pre-assembled, enclosed, +/-0.1mm accuracy." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

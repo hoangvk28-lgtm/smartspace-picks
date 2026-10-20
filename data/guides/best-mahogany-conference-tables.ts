@@ -249,23 +249,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual Construction Type",
-    "explanation": "Check whether the mahogany conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use. With prices in this roundup ranging roughly $150 to $607, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether the mahogany conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use. Buyers shopping anywhere from $150 to $607 in this category often assume identify actual construction type is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on identify actual construction type stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top. Given the real spread here, from about $150 up to $607, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top. At every price point in this comparison's $150 to $607 range, top substrate thickness varies enough between listings that assuming it scales with price is a real way to get burned. Confirm top substrate thickness directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Compare Repairability",
-    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership. Across this comparison's $150 to $607 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership. Two picks priced close together, anywhere in this comparison's $150-$607 band, can still land on opposite ends of repairability, so price alone is a poor proxy for it here. Compare the stated figure for repairability across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Cleaning and Moisture Guidance",
-    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity. Products at the low end near $150 and the high end near $607 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity. Products at the low end near $150 and the high end near $607 of this comparison don't always handle cleaning moisture guidance the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cleaning moisture guidance, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Account for Shipping Weight",
-    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement. This matters in practice because the picks in this comparison span from about $150 to $607, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement. Across this comparison's $150 to $607 range, account shipping weight is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check account shipping weight against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Flash Furniture 5-Piece Mahogany Oval Conference Table Set is aimed at buyers prioritizing 72\"d x 35\"w oval table with modesty panel." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Flash Furniture 5-Piece Mahogany Oval Conference Table Set is aimed at buyers prioritizing 72\"d x 35\"w oval table with modesty panel." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-conference-tables","title":"Best Wood Conference Tables in 2026"},{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-live-edge-conference-tables","title":"Best Live-Edge Conference Tables in 2026"}];

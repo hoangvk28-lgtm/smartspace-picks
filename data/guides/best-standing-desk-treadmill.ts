@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41sRiKFY+TL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GZ4RZJ9J?tag=deskfinds0d-20",
     description:
-      "Fasion Trek Run pairs a 3.5HP motor with speeds up to 8.0 mph, the fastest top speed of any pick in this guide, alongside a removable desk workstation and a 12% manual incline. That combination of speed, incline, and desk surface at a budget-friendly price makes it the strongest overall value in this lineup. The unit folds down for storage and carries a 350 lb capacity, well above the base walking pad. As with any combo unit, the desk surface itself has its own separate, lower weight rating than the 350 lb treadmill capacity, so keep that in mind before resting heavier gear on it. Worth calling out specifically: 350 lb capacity, well above the base model. The catch is incline is manual, requiring you to step off or reach down to adjust.",
+      "Fasion Trek Run pairs a 3.5HP motor with speeds up to 8.0 mph, the fastest top speed of any pick in this guide, alongside a removable desk workstation and a 12% manual incline. That combination of speed, incline, and desk surface at a budget-friendly price makes it the strongest overall value in this lineup. The unit folds down for storage and carries a 350 lb capacity, well above the base walking pad. As with any combo unit, the desk surface itself has its own separate, lower weight rating than the 350 lb treadmill capacity, so keep that in mind before resting heavier gear on it. Worth calling out specifically: 350 lb capacity, well above the base model. The catch is incline is manual, requiring you to step off or reach down to adjust.\n\nThe strongest case for this pick comes down to fastest top speed of any pick in this guide at 8.0 mph as well as 350 lb capacity, well above the base model. The compromise here is that incline is manual, requiring you to step off or reach down to adjust, so factor that in alongside the $159.99 asking price.",
     specs: [
       "3.5HP motor",
       "Up to 8.0 mph top speed (fastest in this guide)",
@@ -462,7 +462,7 @@ export const faq: FaqItem[] = [
     q: "How should I route the power cord on a standing desk treadmill?",
     a: "Route it along a wall or under a cord cover, away from your walking path, rather than leaving it loose on the floor. Cable management matters more here than with most desk gear because you're walking on or near the unit, and a snagged cord is a real trip hazard on a moving belt.",
   },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers on a tight budget who already have a desk and just need the treadmill" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers on a tight budget who already have a desk and just need the treadmill" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

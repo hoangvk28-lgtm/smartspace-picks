@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp the Price and Separate Shipping",
-    "explanation": "Verify fireproof safes under $300's current price at checkout, since posted prices and available stock change, and factor in shipping cost separately for anything with real weight. Given the real spread here, from about $108 up to $287, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify fireproof safes under $300's current price at checkout, since posted prices and available stock change, and factor in shipping cost separately for anything with real weight. Given the real spread here, from about $108 up to $287, two products can look nearly identical on the surface while differing exactly on date-stamp price separate shipping, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on date-stamp price separate shipping, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Require Explicit Fire Evidence Before Trusting the Label",
-    "explanation": "Low-cost listings are the most likely to use vague 'fireproof' language without independent backing; require a specific classification before treating a budget product as genuinely fire-resistant. Across this comparison's $108 to $287 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Low-cost listings are the most likely to use vague 'fireproof' language without independent backing; require a specific classification before treating a budget product as genuinely fire-resistant. With prices in this roundup ranging roughly $108 to $287, explicit fire evidence before is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify explicit fire evidence before directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Usable Capacity Per Dollar",
-    "explanation": "Compare interior dimensions, not just price, since a cheaper safe with a smaller usable interior may not actually be the better value. Products at the low end near $108 and the high end near $287 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare interior dimensions, not just price, since a cheaper safe with a smaller usable interior may not actually be the better value. This matters in practice because the picks in this comparison span from about $108 to $287, and skipping a real check on usable capacity per dollar is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on usable capacity per dollar, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Understand the Security Level You're Paying For",
-    "explanation": "Budget safes generally use privacy-level locks rather than serious burglary deterrence; confirm this matches your actual security needs before buying on price alone. This matters in practice because the picks in this comparison span from about $108 to $287, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Budget safes generally use privacy-level locks rather than serious burglary deterrence; confirm this matches your actual security needs before buying on price alone. Buyers shopping anywhere from $108 to $287 in this category often assume understand security level youre is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on understand security level youre stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Warranty and Return Practicality",
-    "explanation": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price. With prices in this roundup ranging roughly $108 to $287, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm the return policy and any stated warranty before ordering, especially for heavier items where return shipping cost could offset the low purchase price. At every price point in this comparison's $108 to $287 range, warranty return practicality varies enough between listings that assuming it scales with price is a real way to get burned. Confirm warranty return practicality directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe Fireproof & Waterproof Dial Combination Safe is aimed at buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700-degreef." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe Fireproof & Waterproof Dial Combination Safe is aimed at buyers prioritizing 1.23 cu ft, 86 lbs, ul 1hr at 1700-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-under-100","title":"Best Fireproof Safes Under $100 in 2026"},{"href":"/guide/best-fireproof-safes-under-200","title":"Best Fireproof Safes Under $200 in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

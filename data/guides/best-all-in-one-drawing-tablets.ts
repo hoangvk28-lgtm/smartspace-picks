@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm It Draws With Zero Computer Connection",
-    "explanation": "Verify all-in-one drawing tablets genuinely operates standalone and publish its exact operating system and version. Products at the low end near $198 and the high end near $500 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify all-in-one drawing tablets genuinely operates standalone and publish its exact operating system and version. Two picks priced close together, anywhere in this comparison's $198-$500 band, can still land on opposite ends of it draws zero computer, so price alone is a poor proxy for it here. Compare the stated figure for it draws zero computer across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Real Processor and Storage Specs",
-    "explanation": "Compare CPU core count, RAM, and storage (plus expansion) rather than judging by screen size alone. This matters in practice because the picks in this comparison span from about $198 to $500, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare CPU core count, RAM, and storage (plus expansion) rather than judging by screen size alone. Products at the low end near $198 and the high end near $500 of this comparison don't always handle real processor storage specs the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of real processor storage specs, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Real Battery Runtime",
-    "explanation": "Check battery capacity and realistic runtime under actual drawing brightness and app use, not an idle-only figure. With prices in this roundup ranging roughly $198 to $500, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check battery capacity and realistic runtime under actual drawing brightness and app use, not an idle-only figure. Across this comparison's $198 to $500 range, real battery runtime is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check real battery runtime against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Pen Latency and Palm Rejection",
-    "explanation": "Confirm pen response and palm rejection behavior inside major drawing apps, not just the pressure-level spec. Given the real spread here, from about $198 up to $500, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm pen response and palm rejection behavior inside major drawing apps, not just the pressure-level spec. Given the real spread here, from about $198 up to $500, two products can look nearly identical on the surface while differing exactly on pen latency palm rejection, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on pen latency palm rejection, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check App Ecosystem and File Transfer",
-    "explanation": "Verify which drawing apps are pre-installed or downloadable, plus how files transfer or back up off the device. Across this comparison's $198 to $500 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify which drawing apps are pre-installed or downloadable, plus how files transfer or back up off the device. With prices in this roundup ranging roughly $198 to $500, app ecosystem file transfer is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify app ecosystem file transfer directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 

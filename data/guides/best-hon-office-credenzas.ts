@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which current hon office credenzas models are actually credenza-function products rather than a related desk or storage line, since brand catalogs mix multiple furniture types under similar names. This matters in practice because the picks in this comparison span from about $240 to $1329, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm which current hon office credenzas models are actually credenza-function products rather than a related desk or storage line, since brand catalogs mix multiple furniture types under similar names. At every price point in this comparison's $240 to $1329 range, build current model map varies enough between listings that assuming it scales with price is a real way to get burned. Confirm build current model map directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Classify Each Model's Actual Function",
-    "explanation": "Determine whether the specific model is a credenza desk, storage credenza, or file-oriented credenza, since a single brand's lineup often spans all three. With prices in this roundup ranging roughly $240 to $1329, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Determine whether the specific model is a credenza desk, storage credenza, or file-oriented credenza, since a single brand's lineup often spans all three. Two picks priced close together, anywhere in this comparison's $240-$1329 band, can still land on opposite ends of classify each models actual, so price alone is a poor proxy for it here. Compare the stated figure for classify each models actual across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Exact Storage Layout Per Model",
-    "explanation": "Check the documented drawer, file, door, and shelf count for the specific model and any hutch compatibility, rather than assuming consistency across the brand's line. Given the real spread here, from about $240 up to $1329, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check the documented drawer, file, door, and shelf count for the specific model and any hutch compatibility, rather than assuming consistency across the brand's line. Products at the low end near $240 and the high end near $1329 of this comparison don't always handle exact storage layout per the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of exact storage layout per, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Assembly Complexity and Carton Count",
-    "explanation": "Look for documented carton count and part complexity, since brand reputation alone doesn't indicate how involved assembly will be for a specific model. Across this comparison's $240 to $1329 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Look for documented carton count and part complexity, since brand reputation alone doesn't indicate how involved assembly will be for a specific model. Across this comparison's $240 to $1329 range, assembly complexity carton count is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check assembly complexity carton count against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Track Current Price, Warranty, and Replacement Parts",
-    "explanation": "Verify current price, warranty terms, and replacement-part availability directly from the brand, since these details change over a product line's lifecycle. Products at the low end near $240 and the high end near $1329 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify current price, warranty terms, and replacement-part availability directly from the brand, since these details change over a product line's lifecycle. Given the real spread here, from about $240 up to $1329, two products can look nearly identical on the surface while differing exactly on track current price warranty, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on track current price warranty, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "HON HONLCS7224LT1 72 in. Shell Credenza Mahogany is aimed at buyers prioritizing 72in wide shell, mahogany finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-sauder-office-credenzas","title":"Best Sauder Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

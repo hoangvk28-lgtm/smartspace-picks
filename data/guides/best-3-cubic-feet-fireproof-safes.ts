@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Use a Stated Tolerance Around the Target Capacity",
-    "explanation": "Require documentation close to 3 cubic feet fireproof safes's advertised cubic-foot figure rather than assuming every listing hits the exact number precisely. This matters in practice because the picks in this comparison span from about $100 to $240, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Require documentation close to 3 cubic feet fireproof safes's advertised cubic-foot figure rather than assuming every listing hits the exact number precisely. Across this comparison's $100 to $240 range, stated tolerance around target is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check stated tolerance around target against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Publish Interior Height, Width, and Depth",
-    "explanation": "Check actual interior dimensions so the nominal volume figure can be verified, since insulation thickness varies between models even at similar advertised capacity. With prices in this roundup ranging roughly $100 to $240, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check actual interior dimensions so the nominal volume figure can be verified, since insulation thickness varies between models even at similar advertised capacity. Given the real spread here, from about $100 up to $240, two products can look nearly identical on the surface while differing exactly on interior height width depth, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on interior height width depth, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Measure Clear Door Opening and Shelf Intrusion",
-    "explanation": "Confirm how much the door opening and any fixed shelving reduce genuinely usable space versus the raw interior volume. Given the real spread here, from about $100 up to $240, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm how much the door opening and any fixed shelving reduce genuinely usable space versus the raw interior volume. With prices in this roundup ranging roughly $100 to $240, clear door opening shelf is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify clear door opening shelf directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Exterior Footprint and Weight Per Cubic Foot",
-    "explanation": "Two safes with the same nominal capacity can have meaningfully different exterior footprints and weights depending on wall thickness and construction. Across this comparison's $100 to $240 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Two safes with the same nominal capacity can have meaningfully different exterior footprints and weights depending on wall thickness and construction. This matters in practice because the picks in this comparison span from about $100 to $240, and skipping a real check on exterior footprint weight per is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on exterior footprint weight per, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Fire Evidence for Every Capacity-Qualified Product",
-    "explanation": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size. Products at the low end near $100 and the high end near $240 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size. Buyers shopping anywhere from $100 to $240 in this category often assume fire evidence every capacity-qualified is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on fire evidence every capacity-qualified stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad is aimed at buyers prioritizing 3.3 cu ft, 34.17 lbs" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad is aimed at buyers prioritizing 3.3 cu ft, 34.17 lbs" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

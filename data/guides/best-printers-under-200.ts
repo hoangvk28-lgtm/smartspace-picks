@@ -50,7 +50,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31eKmxnpbkL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B096N8DN2H?tag=deskfinds0d-20",
     description:
-      "The ET-2800 brings genuine ink-tank economics right at the ceiling, replacing disposable cartridges with refillable tanks that cut cost per page dramatically for anyone printing regularly. Scan and copy are included alongside print in a compact home-office design. This is the pick that makes the strongest case against a cheaper cartridge printer once you run the math on a year of moderate-to-heavy home printing, the higher upfront cost pays back steadily as cartridge refills would have added up. A genuine advantage here is that scan and copy included. The tradeoff is higher upfront cost than the cartridge inkjets in this list.",
+      "The ET-2800 brings genuine ink-tank economics right at the ceiling, replacing disposable cartridges with refillable tanks that cut cost per page dramatically for anyone printing regularly. Scan and copy are included alongside print in a compact home-office design. This is the pick that makes the strongest case against a cheaper cartridge printer once you run the math on a year of moderate-to-heavy home printing, the higher upfront cost pays back steadily as cartridge refills would have added up. A genuine advantage here is that scan and copy included. The tradeoff is higher upfront cost than the cartridge inkjets in this list.\n\nWhat stands out here is lowest ongoing cost per page in this list, plus scan and copy included. The main tradeoff: higher upfront cost than the cartridge inkjets in this list, so weigh that against the $199.99 price before buying.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Color print, scan, and copy",
@@ -82,7 +82,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31G4p897b8L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09P45LR5T?tag=deskfinds0d-20",
     description:
-      "The ET-4800 matches the ET-2800's ink-tank economics but adds an automatic document feeder, fax, and Ethernet connectivity, features that matter more for a home office handling multi-page paperwork than a household printing occasionally. It's built for a busier workload. at the same price as the simpler ET-2800, this is the better pick whenever the extra document-handling features are actually useful, since there's no cost penalty for the added functionality. ADF and fax included at no extra cost. On the other hand, larger footprint than the simpler ET-2800. Neither should be a surprise once you know to look for it.",
+      "The ET-4800 matches the ET-2800's ink-tank economics but adds an automatic document feeder, fax, and Ethernet connectivity, features that matter more for a home office handling multi-page paperwork than a household printing occasionally. It's built for a busier workload. at the same price as the simpler ET-2800, this is the better pick whenever the extra document-handling features are actually useful, since there's no cost penalty for the added functionality. ADF and fax included at no extra cost. On the other hand, larger footprint than the simpler ET-2800. Neither should be a surprise once you know to look for it.\n\nThe strongest case for this pick comes down to same ink-tank economics as the ET-2800 with more features as well as ADF and fax included at no extra cost. The compromise here is that larger footprint than the simpler ET-2800, so factor that in alongside the $199.99 asking price.",
     specs: [
       "Cartridge-free EcoTank refillable ink system",
       "Automatic document feeder (ADF)",
@@ -146,7 +146,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/31jPKfRqWSL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0BSMSYM9N?tag=deskfinds0d-20",
     description:
-      "Canon's MegaTank system covers print, scan, and copy with refillable ink tanks at a lower price than the Epson EcoTank picks in this list, a genuine budget-friendly entry into ink-tank ownership. It handles mixed document and photo printing reasonably well for a tank-based system. This is worth considering if you want ink-tank economics but don't need the fax or ADF features the pricier Epson ET-4800 includes, saving on cost while keeping the core cost-per-page benefit. Worth calling out specifically: handles mixed document and photo printing. The catch is no fax or automatic document feeder.",
+      "Canon's MegaTank system covers print, scan, and copy with refillable ink tanks at a lower price than the Epson EcoTank picks in this list, a genuine budget-friendly entry into ink-tank ownership. It handles mixed document and photo printing reasonably well for a tank-based system. This is worth considering if you want ink-tank economics but don't need the fax or ADF features the pricier Epson ET-4800 includes, saving on cost while keeping the core cost-per-page benefit. Worth calling out specifically: handles mixed document and photo printing. The catch is no fax or automatic document feeder.\n\nThis pick is best for buyers who value cheapest ink-tank pick in this list along with handles mixed document and photo printing. The catch is that no fax or automatic document feeder, so decide if that's worth it at $159.00.",
     specs: [
       "MegaTank refillable ink system",
       "Print, scan, and copy",
@@ -178,7 +178,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/418KMpgzGBL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CT8ZJ7ZC?tag=deskfinds0d-20",
     description:
-      "The OfficeJet Pro 8125e packs an automatic document feeder and duplex printing into a cartridge-based inkjet well under the ceiling, leaving significant budget room compared to the ink-tank picks in this list. A 3-month Instant Ink trial helps offset early cartridge cost. This is the pick for anyone who wants ADF and duplex without committing to ink-tank ownership, though cartridge costs will run higher per page over time than any of the tank-based options here. Instant Ink trial softens early cartridge cost. Set against that, cartridge cost per page runs higher than ink-tank picks over time. Both matter when comparing it to the other picks here.",
+      "The OfficeJet Pro 8125e packs an automatic document feeder and duplex printing into a cartridge-based inkjet well under the ceiling, leaving significant budget room compared to the ink-tank picks in this list. A 3-month Instant Ink trial helps offset early cartridge cost. This is the pick for anyone who wants ADF and duplex without committing to ink-tank ownership, though cartridge costs will run higher per page over time than any of the tank-based options here. Instant Ink trial softens early cartridge cost. Set against that, cartridge cost per page runs higher than ink-tank picks over time. Both matter when comparing it to the other picks here.\n\nWhat stands out here is ADF and duplex printing at less than half the $200 ceiling, plus instant Ink trial softens early cartridge cost. The main tradeoff: cartridge cost per page runs higher than ink-tank picks over time, so weigh that against the $99.99 price before buying.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "Automatic document feeder (ADF)",
@@ -210,7 +210,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41GcHne8IoL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0GLD9K9LF?tag=deskfinds0d-20",
     description:
-      "The DeskJet 4355 is the simplest, lowest-priced pick in this list, covering print, scan, and copy for light home use with a 3-month Instant Ink trial included. It leaves the most budget headroom under the ceiling of any option here. For a household that prints only occasionally, there's little reason to spend closer to the ceiling, this covers the basics reliably at a fraction of the price. A genuine advantage here is that instant Ink trial offsets early ink cost. The tradeoff is combined color cartridge design.",
+      "The DeskJet 4355 is the simplest, lowest-priced pick in this list, covering print, scan, and copy for light home use with a 3-month Instant Ink trial included. It leaves the most budget headroom under the ceiling of any option here. For a household that prints only occasionally, there's little reason to spend closer to the ceiling, this covers the basics reliably at a fraction of the price. A genuine advantage here is that instant Ink trial offsets early ink cost. The tradeoff is combined color cartridge design.\n\nThe strongest case for this pick comes down to lowest price in this list by a wide margin as well as instant Ink trial offsets early ink cost. The compromise here is that combined color cartridge design, so factor that in alongside the $69.99 asking price.",
     specs: [
       "Color inkjet all-in-one: print, scan, copy",
       "3-month Instant Ink trial included",
@@ -242,7 +242,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41Pb1fcUXbL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0CPLFTPCV?tag=deskfinds0d-20",
     description:
-      "At a competitive price, this Brother laser runs slightly over the ceiling of this guide, so we're including it as a stretch pick rather than claiming it fits the budget outright. For anyone printing high volumes of black-and-white text, duplex printing, copy, and scan built into one compact laser unit can be worth the extra ten dollars. Toner-based printing keeps cost per page low compared to every inkjet in this list, and duplex printing cuts paper use automatically. If your printing is almost entirely text and you don't mind stepping just past a competitive price this is the strongest text-focused option here. Duplex printing built in. On the other hand, priced slightly above this guide's a competitive price ceiling. Neither should be a surprise once you know to look for it.",
+      "At a competitive price, this Brother laser runs slightly over the ceiling of this guide, so we're including it as a stretch pick rather than claiming it fits the budget outright. For anyone printing high volumes of black-and-white text, duplex printing, copy, and scan built into one compact laser unit can be worth the extra ten dollars. Toner-based printing keeps cost per page low compared to every inkjet in this list, and duplex printing cuts paper use automatically. If your printing is almost entirely text and you don't mind stepping just past a competitive price this is the strongest text-focused option here. Duplex printing built in. On the other hand, priced slightly above this guide's a competitive price ceiling. Neither should be a surprise once you know to look for it.\n\nWhere this one earns its spot is low cost per page for high-volume text printing, and duplex printing built in. Worth noting before buying: priced slightly above this guide's $200 ceiling, which matters more at $209.99 than it would on a cheaper pick.",
     specs: [
       "Monochrome laser engine",
       "Automatic duplex (2-sided) printing",
@@ -441,7 +441,7 @@ export const faq: FaqItem[] = [
     q: "Why does the Epson ET-4800 cost the same as the ET-2800 despite having more features?",
     a: "Both list at $199.99 in current pricing. The ET-4800 adds an automatic document feeder, fax, and Ethernet on top of the same ink-tank system as the ET-2800, so there's no price penalty for choosing the more feature-complete model.",
   },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Households or small offices printing regularly who want the lowest long-run ink cost" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Households or small offices printing regularly who want the lowest long-run ink cost" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

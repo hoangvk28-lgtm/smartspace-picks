@@ -249,23 +249,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Count Usable Seating Zones",
-    "explanation": "Measure real per-seat edge space on the white conference tables rather than trusting the advertised capacity alone. Across this comparison's $174 to $380 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Measure real per-seat edge space on the white conference tables rather than trusting the advertised capacity alone. This matters in practice because the picks in this comparison span from about $174 to $380, and skipping a real check on count usable seating zones is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on count usable seating zones, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Base and Knee Clearance",
-    "explanation": "Confirm leg and pedestal placement doesn't block knee room for nearby seats. Products at the low end near $174 and the high end near $380 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm leg and pedestal placement doesn't block knee room for nearby seats. Buyers shopping anywhere from $174 to $380 in this category often assume base knee clearance is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on base knee clearance stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Plan Room Circulation",
-    "explanation": "Leave enough clearance around the table for chairs to push back and people to walk around. This matters in practice because the picks in this comparison span from about $174 to $380, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Leave enough clearance around the table for chairs to push back and people to walk around. At every price point in this comparison's $174 to $380 range, plan room circulation varies enough between listings that assuming it scales with price is a real way to get burned. Confirm plan room circulation directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Power and Cable Paths",
-    "explanation": "Trace cable grommets or built-in outlets from the table surface to an actual power source. With prices in this roundup ranging roughly $174 to $380, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Trace cable grommets or built-in outlets from the table surface to an actual power source. Two picks priced close together, anywhere in this comparison's $174-$380 band, can still land on opposite ends of power cable paths, so price alone is a poor proxy for it here. Compare the stated figure for power cable paths across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Weigh Structural Build",
-    "explanation": "Compare substrate, base material, and shipping weight before ranking on price alone. Given the real spread here, from about $174 up to $380, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Compare substrate, base material, and shipping weight before ranking on price alone. Products at the low end near $174 and the high end near $380 of this comparison don't always handle structural build the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of structural build, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 

@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map the Real Topology First",
-    "explanation": "Sketch the exact devices 10gbe switches for home lab needs to connect and count how many genuinely need 10GbE, since most home networks only need a few true 10G ports. This matters in practice because the picks in this comparison span from about $80 to $252, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Sketch the exact devices 10gbe switches for home lab needs to connect and count how many genuinely need 10GbE, since most home networks only need a few true 10G ports. At every price point in this comparison's $80 to $252 range, map real topology first varies enough between listings that assuming it scales with price is a real way to get burned. Confirm map real topology first directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Compare RJ45 and SFP+ for Your Cable Runs",
-    "explanation": "Choose based on existing cabling and NIC types, since RJ45 is simpler for short runs while SFP+/DAC can be more efficient for rack-to-rack links. With prices in this roundup ranging roughly $80 to $252, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Choose based on existing cabling and NIC types, since RJ45 is simpler for short runs while SFP+/DAC can be more efficient for rack-to-rack links. Two picks priced close together, anywhere in this comparison's $80-$252 band, can still land on opposite ends of rj45 sfp cable runs, so price alone is a poor proxy for it here. Compare the stated figure for rj45 sfp cable runs across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Measure Acoustics in the Actual Room",
-    "explanation": "Consider noise specifically in a home-office or living-space context, since sound that's fine in a server room can be intrusive at a desk. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Consider noise specifically in a home-office or living-space context, since sound that's fine in a server room can be intrusive at a desk. Products at the low end near $80 and the high end near $252 of this comparison don't always handle acoustics actual room the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of acoustics actual room, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Idle Power for 24/7 Operation",
-    "explanation": "Verify idle power draw, since home and homelab switches typically run continuously rather than being powered down. Across this comparison's $80 to $252 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify idle power draw, since home and homelab switches typically run continuously rather than being powered down. Across this comparison's $80 to $252 range, idle power 247 operation is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check idle power 247 operation against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Include NICs and Cabling in Total Cost",
-    "explanation": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget. Products at the low end near $80 and the high end near $252 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Factor in NICs, DACs or transceivers, and cabling cost, since these can add a meaningful share of the total upgrade budget. Given the real spread here, from about $80 up to $252, two products can look nearly identical on the surface while differing exactly on include nics cabling total, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on include nics cabling total, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches-for-homelab","title":"Best 10GbE Switches for Homelab in 2026"},{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"}];

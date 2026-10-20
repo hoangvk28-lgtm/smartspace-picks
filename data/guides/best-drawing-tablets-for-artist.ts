@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Test Pen Precision During Slow Curves",
-    "explanation": "Evaluate drawing tablets for artist's pen behavior during slow, deliberate curves and fine detail work, not just fast confident strokes. With prices in this roundup ranging roughly $39 to $210, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Evaluate drawing tablets for artist's pen behavior during slow, deliberate curves and fine detail work, not just fast confident strokes. At every price point in this comparison's $39 to $210 range, pen precision during slow varies enough between listings that assuming it scales with price is a real way to get burned. Confirm pen precision during slow directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Shortcut-Key Depth for Production Work",
-    "explanation": "Check the total programmable shortcut count, since production workflows benefit from more keys than casual sketching. Given the real spread here, from about $39 up to $210, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check the total programmable shortcut count, since production workflows benefit from more keys than casual sketching. Two picks priced close together, anywhere in this comparison's $39-$210 band, can still land on opposite ends of shortcut-key depth production work, so price alone is a poor proxy for it here. Compare the stated figure for shortcut-key depth production work across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Color Accuracy Documentation",
-    "explanation": "For pen displays, verify factory calibration data and Delta-E figures rather than trusting a gamut percentage alone. Across this comparison's $39 to $210 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "For pen displays, verify factory calibration data and Delta-E figures rather than trusting a gamut percentage alone. Products at the low end near $39 and the high end near $210 of this comparison don't always handle color accuracy documentation the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of color accuracy documentation, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Long-Session Ergonomics",
-    "explanation": "Verify stand angle range and wrist support, since professional sessions run much longer than casual ones. Products at the low end near $39 and the high end near $210 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify stand angle range and wrist support, since professional sessions run much longer than casual ones. Across this comparison's $39 to $210 range, long-session ergonomics is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check long-session ergonomics against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Driver Stability Under Heavy Use",
-    "explanation": "Check for reported driver stability issues under sustained daily professional use, not just first-week reviews. This matters in practice because the picks in this comparison span from about $39 to $210, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check for reported driver stability issues under sustained daily professional use, not just first-week reviews. Given the real spread here, from about $39 up to $210, two products can look nearly identical on the surface while differing exactly on driver stability under heavy, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on driver stability under heavy, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-professionals","title":"Best Drawing Tablets for Professionals in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

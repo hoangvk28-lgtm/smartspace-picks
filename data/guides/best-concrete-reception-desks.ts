@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Identify Genuine vs Look-Alike Concrete",
-    "explanation": "Identify whether the concrete surface is genuine, engineered, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly. Across this comparison's $80 to $3200 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Identify whether the concrete surface is genuine, engineered, veneer, or a look-alike laminate/panel, since this affects both weight and long-term durability significantly. Products at the low end near $80 and the high end near $3200 of this comparison don't always handle identify genuine vs look-alike the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of identify genuine vs look-alike, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Surface and Substrate Thickness",
-    "explanation": "Publish surface thickness and supporting substrate, since a thin concrete-pattern laminate performs very differently than a genuine concrete slab. Products at the low end near $80 and the high end near $3200 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Publish surface thickness and supporting substrate, since a thin concrete-pattern laminate performs very differently than a genuine concrete slab. Across this comparison's $80 to $3200 range, surface substrate thickness is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check surface substrate thickness against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Staining and Chemical Sensitivity",
-    "explanation": "Use manufacturer care guidance to compare staining or chemical sensitivity, since genuine concrete and laminate react very differently to common cleaning products. This matters in practice because the picks in this comparison span from about $80 to $3200, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Use manufacturer care guidance to compare staining or chemical sensitivity, since genuine concrete and laminate react very differently to common cleaning products. Given the real spread here, from about $80 up to $3200, two products can look nearly identical on the surface while differing exactly on staining chemical sensitivity, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on staining chemical sensitivity, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Inspect Seam Placement",
-    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single concrete pour or slab isn't practical. With prices in this roundup ranging roughly $80 to $3200, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Inspect seam placement and edge or chip repairability, particularly on larger desks where a single concrete pour or slab isn't practical. With prices in this roundup ranging roughly $80 to $3200, seam placement is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify seam placement directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Calculate Top Weight for Installation",
-    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine concrete tops are dramatically heavier than laminate equivalents. Given the real spread here, from about $80 up to $3200, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Calculate top weight and verify base, floor, and installation handling, since genuine concrete tops are dramatically heavier than laminate equivalents. This matters in practice because the picks in this comparison span from about $80 to $3200, and skipping a real check on calculate top weight installation is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on calculate top weight installation, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Larnavo Reception Desk is aimed at buyers looking for concrete." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Larnavo Reception Desk is aimed at buyers looking for concrete." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-stone-reception-desks","title":"best-stone-reception-desks"},{"href":"/guide/best-industrial-reception-desks","title":"best-industrial-reception-desks"},{"href":"/guide/best-metal-reception-desks","title":"best-metal-reception-desks"}];

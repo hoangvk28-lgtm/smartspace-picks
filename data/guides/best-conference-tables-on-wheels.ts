@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check Loaded Rolling Weight",
-    "explanation": "Confirm the conference tables on wheels still rolls smoothly once loaded with laptops and paperwork, not just when empty, since caster performance changes meaningfully under real weight. Across this comparison's $290 to $1800 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the conference tables on wheels still rolls smoothly once loaded with laptops and paperwork, not just when empty, since caster performance changes meaningfully under real weight. Across this comparison's $290 to $1800 range, loaded rolling weight is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check loaded rolling weight against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Casters and Brakes",
-    "explanation": "Check caster type against your flooring and confirm each caster locks independently, since a table that rolls unexpectedly during a meeting is a real hazard. Products at the low end near $290 and the high end near $1800 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check caster type against your flooring and confirm each caster locks independently, since a table that rolls unexpectedly during a meeting is a real hazard. Given the real spread here, from about $290 up to $1800, two products can look nearly identical on the surface while differing exactly on casters brakes, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on casters brakes, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Door and Threshold Clearance",
-    "explanation": "Measure doorway widths and any thresholds along the path the table will travel, since a mobile table is only useful if it can actually reach the rooms it needs to. This matters in practice because the picks in this comparison span from about $290 to $1800, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure doorway widths and any thresholds along the path the table will travel, since a mobile table is only useful if it can actually reach the rooms it needs to. With prices in this roundup ranging roughly $290 to $1800, door threshold clearance is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify door threshold clearance directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Cable Disconnect for Moves",
-    "explanation": "If the table includes any built-in power or data connections, confirm how quickly they can be disconnected before a move without damaging the cable or port. With prices in this roundup ranging roughly $290 to $1800, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "If the table includes any built-in power or data connections, confirm how quickly they can be disconnected before a move without damaging the cable or port. This matters in practice because the picks in this comparison span from about $290 to $1800, and skipping a real check on cable disconnect moves is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on cable disconnect moves, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Parking Stability",
-    "explanation": "Once positioned and locked, confirm the table doesn't wobble or shift during normal meeting use, since a mobility-focused design can trade off some rigidity versus a fixed table. Given the real spread here, from about $290 up to $1800, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Once positioned and locked, confirm the table doesn't wobble or shift during normal meeting use, since a mobility-focused design can trade off some rigidity versus a fixed table. Buyers shopping anywhere from $290 to $1800 in this category often assume parking stability is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on parking stability stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Folding Conference Room Tables with Wheels is aimed at buyers prioritizing 4 length options: 47.2\" to 70.8\"." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Folding Conference Room Tables with Wheels is aimed at buyers prioritizing 4 length options: 47.2\" to 70.8\"." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-conference-tables","title":"Best Portable Conference Tables in 2026"},{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Publish Usable Width for the Receptionist",
-    "explanation": "Publish usable width for the single receptionist after storage, returns, and dividers are installed, since raw nominal width can overstate real usable space. Products at the low end near $70 and the high end near $206 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Publish usable width for the single receptionist after storage, returns, and dividers are installed, since raw nominal width can overstate real usable space. This matters in practice because the picks in this comparison span from about $70 to $206, and skipping a real check on usable width receptionist is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on usable width receptionist, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Create Independent Device Zones",
-    "explanation": "Set up independent monitor, keyboard, phone, and cable zones based on the desk's actual usable width rather than assuming any nominal size works. This matters in practice because the picks in this comparison span from about $70 to $206, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Set up independent monitor, keyboard, phone, and cable zones based on the desk's actual usable width rather than assuming any nominal size works. Buyers shopping anywhere from $70 to $206 in this category often assume create independent device zones is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on create independent device zones stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Separate Shared from Personal Storage",
-    "explanation": "Separate personal, lockable storage from open quick-access storage, so security and convenience don't compete for the same compartment. With prices in this roundup ranging roughly $70 to $206, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Separate personal, lockable storage from open quick-access storage, so security and convenience don't compete for the same compartment. At every price point in this comparison's $70 to $206 range, separate shared from personal varies enough between listings that assuming it scales with price is a real way to get burned. Confirm separate shared from personal directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Define Where Visitors Stand",
-    "explanation": "Define where visitors stand at the desk relative to the receptionist's working position, since a single-staff desk still needs a clear visitor approach. Given the real spread here, from about $70 up to $206, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Define where visitors stand at the desk relative to the receptionist's working position, since a single-staff desk still needs a clear visitor approach. Two picks priced close together, anywhere in this comparison's $70-$206 band, can still land on opposite ends of define where visitors stand, so price alone is a poor proxy for it here. Compare the stated figure for define where visitors stand across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Map Storage Placement Against Chair Space",
-    "explanation": "Map storage, module seams, and drawer locations against chair and knee space, since even a single-person desk can have storage placed poorly enough to block comfortable seating. Across this comparison's $70 to $206 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Map storage, module seams, and drawer locations against chair and knee space, since even a single-person desk can have storage placed poorly enough to block comfortable seating. Products at the low end near $70 and the high end near $206 of this comparison don't always handle map storage placement against the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of map storage placement against, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-compact-reception-desks","title":"best-compact-reception-desks"},{"href":"/guide/best-reception-desks","title":"best-reception-desks"},{"href":"/guide/best-reception-desks-under-500","title":"best-reception-desks-under-500"}];

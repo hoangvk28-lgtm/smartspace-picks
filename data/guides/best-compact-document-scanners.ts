@@ -81,7 +81,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/41VnXqJ86dL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B09FX5SRQT?tag=deskfinds0d-20",
     description:
-      "Identical specs to the rank-3 pick in a black finish, the same space-saving ADF hopper design with up to 30ppm duplex scanning and USB/Wi-Fi connectivity. Choose based on finish preference, the underlying hardware and tradeoffs are the same.",
+      "Identical specs to the rank-3 pick in a black finish, the same space-saving ADF hopper design with up to 30ppm duplex scanning and USB/Wi-Fi connectivity. Choose based on finish preference, the underlying hardware and tradeoffs are the same.\n\nThe strongest case for this pick comes down to same real ADF hopper as the white version as well as 30ppm duplex speed. The compromise here is that same price premium as the white version, so factor that in alongside the $279.99 asking price.",
     specs: ["Space-saving ADF hopper design, up to 30ppm duplex", "USB or Wi-Fi, works without a computer via cloud", "Auto de-skew, color optimization, blank-page removal", "Handles thick items and plastic cards"],
     pros: ["Same real ADF hopper as the white version", "30ppm duplex speed", "Black finish option", "Works standalone via cloud"],
     cons: ["Same price premium as the white version", "Same rating as the white version", "Reduced capacity versus full desktop scanners"],

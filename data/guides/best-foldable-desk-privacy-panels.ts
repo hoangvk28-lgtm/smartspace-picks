@@ -227,7 +227,7 @@ export const faq: FaqItem[] = [
   { q: "Do foldable privacy panels reduce noise?", a: "Some do, modestly. Panels made from felt material (like the Poola Voidra or Dunzoom picks) provide some sound absorption alongside visual privacy, though this is a modest bonus, not a substitute for dedicated acoustic panels." },
   { q: "How many panels should a foldable privacy screen have?", a: "More panels generally create a more stable freestanding shape, but also add hinge points that can loosen over time. A 3-fold design is a reasonable middle ground for most single-desk use." },
   { q: "What's the difference between a foldable desk panel and a mobile cubicle wall?", a: "A foldable desk panel is a compact, desktop-scale privacy screen. A mobile cubicle wall (like the KERRAM pick in this guide) is a full room-height partition on wheels, a much larger and pricier product serving a different need." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a foldable panel with modest sound absorption and flexible configuration" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a foldable panel with modest sound absorption and flexible configuration" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who need simple visual privacy for occasional or testing use At $12.99, it's the lowest-cost pick in this comparison." },
 ];
 

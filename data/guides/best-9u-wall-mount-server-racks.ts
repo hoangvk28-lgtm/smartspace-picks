@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Check the Wall, Not Just the Rack",
-    "explanation": "Confirm the wall structure behind 9u wall mount server racks can actually support the rated weight, since drywall alone typically can't hold a fully loaded network cabinet. Across this comparison's $140 to $615 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the wall structure behind 9u wall mount server racks can actually support the rated weight, since drywall alone typically can't hold a fully loaded network cabinet. This matters in practice because the picks in this comparison span from about $140 to $615, and skipping a real check on wall rack is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on wall rack, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Overall Depth vs Usable Depth",
-    "explanation": "Distinguish the cabinet's overall depth from its usable mounting depth, since the difference determines what equipment actually fits inside. Products at the low end near $140 and the high end near $615 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Distinguish the cabinet's overall depth from its usable mounting depth, since the difference determines what equipment actually fits inside. Buyers shopping anywhere from $140 to $615 in this category often assume overall depth vs usable is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on overall depth vs usable stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Stud Spacing Before Ordering",
-    "explanation": "Measure the mounting hole spacing against actual wall stud spacing rather than assuming a standard 16-inch pattern applies. This matters in practice because the picks in this comparison span from about $140 to $615, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure the mounting hole spacing against actual wall stud spacing rather than assuming a standard 16-inch pattern applies. At every price point in this comparison's $140 to $615 range, stud spacing before ordering varies enough between listings that assuming it scales with price is a real way to get burned. Confirm stud spacing before ordering directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Confirm Door Swing Clearance",
-    "explanation": "Check whether the door swing direction is reversible and whether there's enough clearance in front of the wall for it to open fully. With prices in this roundup ranging roughly $140 to $615, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether the door swing direction is reversible and whether there's enough clearance in front of the wall for it to open fully. Two picks priced close together, anywhere in this comparison's $140-$615 band, can still land on opposite ends of door swing clearance, so price alone is a poor proxy for it here. Compare the stated figure for door swing clearance across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Separate Wall Rating From Floor Rating",
-    "explanation": "Note that many wall cabinets list a separate, higher weight rating for ground-mounted installation if you're unsure the wall can bear the full load. Given the real spread here, from about $140 up to $615, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Note that many wall cabinets list a separate, higher weight rating for ground-mounted installation if you're unsure the wall can bear the full load. Products at the low end near $140 and the high end near $615 of this comparison don't always handle separate wall rating from the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of separate wall rating from, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 9U Wall Mount Server Cabinet is aimed at buyers prioritizing 9u, 19.02\"h x 21.65\"w x 17.72\"d." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tecmojo 9U Wall Mount Server Cabinet is aimed at buyers prioritizing 9u, 19.02\"h x 21.65\"w x 17.72\"d." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wall-mount-server-racks","title":"Best Wall-Mount Server Racks in 2026"},{"href":"/guide/best-6u-wall-mount-server-racks","title":"Best 6U Wall Mount Server Racks in 2026"},{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"}];

@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Identify the Actual Construction Type",
-    "explanation": "Check whether the live-edge conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use. With prices in this roundup ranging roughly $190 to $390, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether the live-edge conference tables uses solid wood, wood veneer over engineered substrate, or a wood-look laminate, since these age and repair very differently over years of daily use. Across this comparison's $190 to $390 range, identify actual construction type is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check identify actual construction type against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Top and Substrate Thickness",
-    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top. Given the real spread here, from about $190 up to $390, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Publish tabletop thickness and substrate material, since a thin veneer over particleboard performs differently under daily wear than a genuine solid-wood or thick engineered top. Given the real spread here, from about $190 up to $390, two products can look nearly identical on the surface while differing exactly on top substrate thickness, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on top substrate thickness, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Repairability",
-    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership. Across this comparison's $190 to $390 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Solid wood can typically be sanded and refinished after years of scratches, while laminate and thin veneer generally cannot; factor this into the long-term cost of ownership. With prices in this roundup ranging roughly $190 to $390, repairability is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify repairability directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Cleaning and Moisture Guidance",
-    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity. Products at the low end near $190 and the high end near $390 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the manufacturer's specific cleaning guidance, since solid wood needs different care than a sealed laminate surface, particularly around spills and humidity. This matters in practice because the picks in this comparison span from about $190 to $390, and skipping a real check on cleaning moisture guidance is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on cleaning moisture guidance, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Account for Shipping Weight",
-    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement. This matters in practice because the picks in this comparison span from about $190 to $390, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Genuine solid wood tables weigh meaningfully more than engineered-wood equivalents, which affects delivery method, assembly labor, and whether the floor or base needs reinforcement. Buyers shopping anywhere from $190 to $390 in this category often assume account shipping weight is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on account shipping weight stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Conference Table is aimed at buyers looking for live edge." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8FT Conference Table is aimed at buyers looking for live edge." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-wood-conference-tables","title":"Best Wood Conference Tables in 2026"},{"href":"/guide/best-solid-wood-conference-tables","title":"Best Solid Wood Conference Tables in 2026"},{"href":"/guide/best-walnut-conference-tables","title":"Best Walnut Conference Tables in 2026"}];

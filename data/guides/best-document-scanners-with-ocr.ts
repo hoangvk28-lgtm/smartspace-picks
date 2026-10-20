@@ -293,7 +293,7 @@ export const faq: FaqItem[] = [
   { q: "Will OCR accurately read my faxed or low-contrast documents?", a: "Not as well as a clean original. OCR accuracy depends heavily on scan resolution and source document quality; a 200 DPI scan of a faxed document will produce meaningfully worse text extraction than a clean 300 DPI scan." },
   { q: "Can these scanners convert my handwritten notes into searchable text?", a: "Not reliably. Standard OCR bundled with every pick in this guide is optimized for printed text; handwritten notes, signatures, and cursive fields are recognized poorly or not at all." },
   { q: "Will OCR slow down a large batch scanning job?", a: "Yes, generally. OCR processing speed typically lags well behind scan speed, meaning a large batch scan can create an OCR processing backlog even on a fast-scanning device." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the deepest OCR-to-file-organization integration at high scan speed" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want the deepest OCR-to-file-organization integration at high scan speed" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want the deepest OCR-to-file-organization integration at high scan speed At Check current price, it's the lowest-cost pick in this comparison." },
 ];
 

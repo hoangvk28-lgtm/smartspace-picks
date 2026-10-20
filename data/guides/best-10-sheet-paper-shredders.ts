@@ -293,7 +293,7 @@ export const faq: FaqItem[] = [
   { q: "Why do two 10-sheet shredders have such different prices?", a: "Security level varies widely at this capacity tier. This guide's picks range from P-2 strip-cut ($34) to P-4 micro-cut ($59), a real security difference behind similarly-labeled capacity, not just brand markup." },
   { q: "Does more sheet capacity mean a longer continuous run time?", a: "Not proportionally. A 10-sheet shredder's run time is often similar to an 8-sheet model's (4-5 minutes) since the limiting factor is motor thermal capacity, not the sheet-handling spec itself." },
   { q: "Should I get a 10-sheet or 12-15 sheet shredder?", a: "Depends on your budget and how close to the rated capacity you typically shred. If you regularly approach 10 sheets, a 12-15 sheet-rated model gives more real-world headroom for the same reason the rated number exceeds actual mixed-paper performance." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a proven, well-rated cross-cut pick at the 10-sheet tier" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want a proven, well-rated cross-cut pick at the 10-sheet tier" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who don't need P-4 security and want the cheapest, quietest 10-sheet option At $34.16, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Price and Calculate Cost Per True 10G Port",
-    "explanation": "Verify budget 10gbe switches's current price and divide by genuinely usable 10G ports, not the total port count, for an honest cost comparison. Products at the low end near $80 and the high end near $230 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify budget 10gbe switches's current price and divide by genuinely usable 10G ports, not the total port count, for an honest cost comparison. At every price point in this comparison's $80 to $230 range, date-stamp price calculate cost varies enough between listings that assuming it scales with price is a real way to get burned. Confirm date-stamp price calculate cost directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Include Full Upgrade Cost, Not Just the Switch",
-    "explanation": "Add NICs, transceivers, and cabling to the switch price before calling it the cheaper option overall. This matters in practice because the picks in this comparison span from about $80 to $230, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Add NICs, transceivers, and cabling to the switch price before calling it the cheaper option overall. Two picks priced close together, anywhere in this comparison's $80-$230 band, can still land on opposite ends of include full upgrade cost, so price alone is a poor proxy for it here. Compare the stated figure for include full upgrade cost across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Switching Capacity Isn't the Corner Being Cut",
-    "explanation": "Check that low price isn't achieved through oversubscribed switching capacity that bottlenecks under real multi-port load. With prices in this roundup ranging roughly $80 to $230, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check that low price isn't achieved through oversubscribed switching capacity that bottlenecks under real multi-port load. Products at the low end near $80 and the high end near $230 of this comparison don't always handle switching capacity isnt corner the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of switching capacity isnt corner, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Power and Noise at This Price Point",
-    "explanation": "Confirm idle and load power plus warm-state fan noise, since budget switches vary widely on these figures. Given the real spread here, from about $80 up to $230, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm idle and load power plus warm-state fan noise, since budget switches vary widely on these figures. Across this comparison's $80 to $230 range, power noise at this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check power noise at this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Warranty Against the Purchase Price",
-    "explanation": "Weigh warranty length and support quality against the lower price, since budget brands vary significantly in after-sale support. Across this comparison's $80 to $230 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Weigh warranty length and support quality against the lower price, since budget brands vary significantly in after-sale support. Given the real spread here, from about $80 up to $230, two products can look nearly identical on the surface while differing exactly on warranty against purchase price, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on warranty against purchase price, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Unmanaged switches are genuinely plug-and-play with no configuration, fine for a simple home or small office network. Managed or smart-managed switches add VLANs, QoS, and traffic prioritization, useful once you have multiple network segments, guest WiFi isolation, or need to prioritize specific traffic types."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-10gbe-switches","title":"Best 10GbE Switches in 2026"},{"href":"/guide/best-netgear-10gbe-switches","title":"Best NETGEAR 10GbE Switches in 2026"},{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"}];

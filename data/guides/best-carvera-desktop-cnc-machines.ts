@@ -168,23 +168,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map First",
-    "explanation": "Confirm which carvera desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. With prices in this roundup ranging roughly $2499 to $3197, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm which carvera desktop cnc machines models are currently sold and supported rather than assuming an older listing still reflects the current lineup. Across this comparison's $2499 to $3197 range, build current model map is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check build current model map against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Exact Travel and Rail Architecture by Model",
-    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. Given the real spread here, from about $2499 up to $3197, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check actual work travel, rails, and spindle/router architecture by exact model, since a brand's lineup can span very different hardware generations. Given the real spread here, from about $2499 up to $3197, two products can look nearly identical on the surface while differing exactly on exact travel rail architecture, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on exact travel rail architecture, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map Official Upgrade Paths",
-    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. Across this comparison's $2499 to $3197 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify which 4th-axis, laser, spindle, or workholding upgrades are officially supported for the specific model, not just the brand in general. With prices in this roundup ranging roughly $2499 to $3197, map official upgrade paths is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map official upgrade paths directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Controller and Software Support",
-    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. Products at the low end near $2499 and the high end near $3197 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check current firmware, CAM/sender compatibility, and operating-system support directly, since older machines can lose software support over time. This matters in practice because the picks in this comparison span from about $2499 to $3197, and skipping a real check on controller software support is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on controller software support, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Warranty and Replacement Parts",
-    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. This matters in practice because the picks in this comparison span from about $2499 to $3197, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem. Buyers shopping anywhere from $2499 to $3197 in this category often assume warranty replacement parts is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on warranty replacement parts stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -210,7 +210,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Carvera Air Desktop CNC by MAKERA is aimed at buyers prioritizing 11.8 x 7.9 x 5.1 in work area, enclosed." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-bantam-tools-desktop-cnc-machines","title":"Best Bantam Tools Desktop CNC Machines in 2026"},{"href":"/guide/best-makera-desktop-cnc-machines","title":"Best Makera Desktop CNC Machines in 2026"},{"href":"/guide/best-nomad-desktop-cnc-machines","title":"Best Nomad Desktop CNC Machines in 2026"}];

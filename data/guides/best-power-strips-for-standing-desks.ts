@@ -240,7 +240,7 @@ export const faq: FaqItem[] = [
   { q: "How much cord slack do I need for a desktop-mounted power strip?", a: "Measure your standing desk's full height-adjustment range and plan slack accordingly, not just enough for the desk's lowest position, to avoid tension at maximum height." },
   { q: "Does the weight of a power strip matter for a standing desk?", a: "Yes, especially for lower-capacity standing desk motors. Additional weight from the strip, cables, and adapters mounted to the moving surface adds to the desk's dynamic load, choose a lighter pick if your motor has a lower lift capacity." },
   { q: "Can I use my existing cable management chain for the power strip's cord too?", a: "Verify it accommodates the extra cable. Standing desk cable management systems are usually designed around device cables, the power strip's own cord to the wall outlet needs slack management through the same vertical range." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want a durable, high-capacity strip for a standing desk's moving surface" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers who want a durable, high-capacity strip for a standing desk's moving surface" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a standard standing desk setup At $11.08, it's the lowest-cost pick in this comparison." },
 ];
 

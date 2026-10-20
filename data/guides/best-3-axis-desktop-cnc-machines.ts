@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Rigidity and Spindle Specs Directly",
-    "explanation": "Check 3 axis desktop cnc machines's documented rigidity, spindle torque, and runout rather than trusting the listing description alone. Products at the low end near $154 and the high end near $2499 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check 3 axis desktop cnc machines's documented rigidity, spindle torque, and runout rather than trusting the listing description alone. At every price point in this comparison's $154 to $2499 range, rigidity spindle specs directly varies enough between listings that assuming it scales with price is a real way to get burned. Confirm rigidity spindle specs directly directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Measure Usable Travel, Not Nominal Axis Size",
-    "explanation": "Confirm usable travel after fixtures and tooling are installed, since nominal axis specs overstate real capacity. This matters in practice because the picks in this comparison span from about $154 to $2499, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm usable travel after fixtures and tooling are installed, since nominal axis specs overstate real capacity. Two picks priced close together, anywhere in this comparison's $154-$2499 band, can still land on opposite ends of usable travel nominal axis, so price alone is a poor proxy for it here. Compare the stated figure for usable travel nominal axis across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm CAM and Software Support",
-    "explanation": "Verify the machine's CAM, probing, and controller workflow fits your actual software before buying. With prices in this roundup ranging roughly $154 to $2499, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify the machine's CAM, probing, and controller workflow fits your actual software before buying. Products at the low end near $154 and the high end near $2499 of this comparison don't always handle cam software support the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cam software support, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Dust or Chip Control",
-    "explanation": "Confirm what dust or chip management is built in versus what needs to be added separately. Given the real spread here, from about $154 up to $2499, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm what dust or chip management is built in versus what needs to be added separately. Across this comparison's $154 to $2499 range, dust chip control is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check dust chip control against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Weigh Ownership Details",
-    "explanation": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership. Across this comparison's $154 to $2499 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership. Given the real spread here, from about $154 up to $2499, two products can look nearly identical on the surface while differing exactly on ownership details, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on ownership details, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"},{"href":"/guide/best-cutter-desktop-cnc-machines","title":"Best Cutter Desktop CNC Machines in 2026"}];

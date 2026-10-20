@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Apple Silicon vs Intel Mac eGPU Support",
-    "explanation": "Confirm whether egpu enclosures for mac is compatible with your specific Mac chip generation, since Apple's official eGPU support is Intel-Mac specific and does not extend to Apple Silicon. Products at the low end near $150 and the high end near $600 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm whether egpu enclosures for mac is compatible with your specific Mac chip generation, since Apple's official eGPU support is Intel-Mac specific and does not extend to Apple Silicon. Two picks priced close together, anywhere in this comparison's $150-$600 band, can still land on opposite ends of apple silicon vs intel, so price alone is a poor proxy for it here. Compare the stated figure for apple silicon vs intel across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check for Non-Gaming AI/Compute Workarounds",
-    "explanation": "Note that some Apple Silicon Mac eGPU workflows exist for AI/ML development specifically (via tools like Tinygrad), not for gaming or general graphics acceleration. This matters in practice because the picks in this comparison span from about $150 to $600, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Note that some Apple Silicon Mac eGPU workflows exist for AI/ML development specifically (via tools like Tinygrad), not for gaming or general graphics acceleration. Products at the low end near $150 and the high end near $600 of this comparison don't always handle non-gaming aicompute workarounds the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of non-gaming aicompute workarounds, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Host Port Generation",
-    "explanation": "Verify your exact Mac model's Thunderbolt generation and whether it's officially documented as eGPU-capable. With prices in this roundup ranging roughly $150 to $600, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify your exact Mac model's Thunderbolt generation and whether it's officially documented as eGPU-capable. Across this comparison's $150 to $600 range, host port generation is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check host port generation against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check macOS Version Requirements",
-    "explanation": "Confirm the specific macOS version required for eGPU support, since older or newer OS versions can both cause compatibility issues. Given the real spread here, from about $150 up to $600, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm the specific macOS version required for eGPU support, since older or newer OS versions can both cause compatibility issues. Given the real spread here, from about $150 up to $600, two products can look nearly identical on the surface while differing exactly on macos version requirements, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on macos version requirements, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify GPU Driver Support on macOS",
-    "explanation": "Check that your intended GPU has current macOS driver support, since not every GPU with Windows drivers has equivalent macOS support. Across this comparison's $150 to $600 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check that your intended GPU has current macOS driver support, since not every GPU with Windows drivers has equivalent macOS support. With prices in this roundup ranging roughly $150 to $600, gpu driver support macos is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify gpu driver support macos directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Sonnet Breakaway Box 850 T5 eGPU Enclosure is aimed at buyers prioritizing 850w psu, triple-wide card support." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Sonnet Breakaway Box 850 T5 eGPU Enclosure is aimed at buyers prioritizing 850w psu, triple-wide card support." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-egpu-enclosures","title":"Best Thunderbolt eGPU Enclosures in 2026"}];

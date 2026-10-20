@@ -226,7 +226,7 @@ export const faq: FaqItem[] = [
   { q: "Can I daisy-chain monitors through a DisplayPort KVM switch?", a: "Some models support this via Multi-Stream Transport (MST), a genuine advantage over most HDMI switches for expanding your monitor chain." },
   { q: "Do all my devices need DisplayPort to use a DisplayPort KVM switch?", a: "Yes, verify your monitors and computers actually have DisplayPort connectivity before buying, since this is less universal than HDMI." },
   { q: "Do DisplayPort KVM switches come with cables?", a: "Not always, some premium docking solutions include certified DisplayPort cables, which genuinely reduces sourcing hassle." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the highest achievable refresh rate on a dual-monitor DisplayPort setup" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting the highest achievable refresh rate on a dual-monitor DisplayPort setup" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a single-monitor DisplayPort setup wanting a high resolution ceiling at a moderate price At $54.99, it's the lowest-cost pick in this comparison." },
 ];
 

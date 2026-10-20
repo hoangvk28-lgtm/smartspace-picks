@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Should renters prioritize both mounting method and surge protection together?", a: "Yes, look for the intersection specifically. Both damage-free clamp mounting and genuine surge protection matter for the renter or shared-space audience, prioritize picks combining both rather than treating them separately." },
   { q: "Do mounted surge protectors get replaced as often as they should?", a: "Often not. The install-and-forget nature of a mounted unit makes it statistically less likely to be proactively replaced on a reasonable schedule than a surface-sitting unit you regularly notice, set an explicit reminder." },
   { q: "Does mounting a surge protector on a standing desk create extra risk?", a: "Yes, the same cable-strain concern from repeated height adjustment applies, and it matters more here since it stresses connections on a surge-protection device where connection integrity affects whether the protection circuitry functions correctly." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want damage-free desk-edge mounting with better indicator visibility than under-desk" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want damage-free desk-edge mounting with better indicator visibility than under-desk" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need maximum outlet capacity and will DIY their fixed positioning At $21.98, it's the lowest-cost pick in this comparison." },
 ];
 

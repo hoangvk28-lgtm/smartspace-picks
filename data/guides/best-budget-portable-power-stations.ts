@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Price",
-    "explanation": "Verify budget portable power stations's current street price and include any required charger, panel, or cable accessories in the total cost. This matters in practice because the picks in this comparison span from about $100 to $259, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify budget portable power stations's current street price and include any required charger, panel, or cable accessories in the total cost. Buyers shopping anywhere from $100 to $259 in this category often assume date-stamp current price is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on date-stamp current price stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Require Safety Documentation Before Scoring Price",
-    "explanation": "Require clear battery chemistry and safety or certification documentation before factoring price into the ranking. With prices in this roundup ranging roughly $100 to $259, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Require clear battery chemistry and safety or certification documentation before factoring price into the ranking. At every price point in this comparison's $100 to $259 range, safety documentation before scoring varies enough between listings that assuming it scales with price is a real way to get burned. Confirm safety documentation before scoring directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Measure Usable Wh, Not Nominal Values",
-    "explanation": "Measure usable Wh and continuous AC output rather than trusting nominal headline values alone. Given the real spread here, from about $100 up to $259, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure usable Wh and continuous AC output rather than trusting nominal headline values alone. Two picks priced close together, anywhere in this comparison's $100-$259 band, can still land on opposite ends of usable wh nominal values, so price alone is a poor proxy for it here. Compare the stated figure for usable wh nominal values across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Replacement and Warranty Support",
-    "explanation": "Verify replacement and warranty support, plus app or firmware availability where applicable. Across this comparison's $100 to $259 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify replacement and warranty support, plus app or firmware availability where applicable. Products at the low end near $100 and the high end near $259 of this comparison don't always handle replacement warranty support the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of replacement warranty support, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Price the Total Accessory Cost",
-    "explanation": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick. Products at the low end near $100 and the high end near $259 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Price necessary solar panels, cables, and chargers before declaring the total value of a budget pick. Across this comparison's $100 to $259 range, price total accessory cost is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check price total accessory cost against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "MARBERO M822 Portable Power Station is aimed at buyers prioritizing 148wh, 200w (270w max), 3.3 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-under-200","title":"Best Portable Power Stations Under $200 in 2026"},{"href":"/guide/best-portable-power-stations-under-300","title":"Best Portable Power Stations Under $300 in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

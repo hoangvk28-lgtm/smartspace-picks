@@ -329,7 +329,7 @@ export const faq: FaqItem[] = [
     q: "Which compact treadmill is the cheapest?",
     a: "The Rythkore Walking Pad is the cheapest pick in this guide at $79.99, and it's also the lightest, making it easy to slide fully out of the way after a walking session.",
   },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the thinnest, best-reviewed compact treadmill" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the thinnest, best-reviewed compact treadmill" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

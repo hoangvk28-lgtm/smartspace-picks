@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Match Shelf Depth to the Actual Device",
-    "explanation": "Confirm server rack shelves's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate. Across this comparison's $26 to $130 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm server rack shelves's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate. At every price point in this comparison's $26 to $130 range, shelf depth actual device varies enough between listings that assuming it scales with price is a real way to get burned. Confirm shelf depth actual device directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Vented vs Solid Shelf Design",
-    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm. Products at the low end near $26 and the high end near $130 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm. Two picks priced close together, anywhere in this comparison's $26-$130 band, can still land on opposite ends of vented vs solid shelf, so price alone is a poor proxy for it here. Compare the stated figure for vented vs solid shelf across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Cantilever vs 4-Post Support",
-    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight. This matters in practice because the picks in this comparison span from about $26 to $130, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight. Products at the low end near $26 and the high end near $130 of this comparison don't always handle cantilever vs 4-post support the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of cantilever vs 4-post support, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Verify Cage Nut vs Screw Hole Compatibility",
-    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded. With prices in this roundup ranging roughly $26 to $130, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded. Across this comparison's $26 to $130 range, cage nut vs screw is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check cage nut vs screw against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Check Flip-Lip or Reversible Options",
-    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights. Given the real spread here, from about $26 up to $130, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights. Given the real spread here, from about $26 up to $130, two products can look nearly identical on the surface while differing exactly on flip-lip reversible options, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on flip-lip reversible options, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "StarTech 2U Vented Cantilever Rack Shelf is aimed at buyers prioritizing 2u, 16\" deep." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "StarTech 2U Vented Cantilever Rack Shelf is aimed at buyers prioritizing 2u, 16\" deep." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

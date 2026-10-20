@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Premium Finish Durability",
-    "explanation": "Check office credenzas for executive's specific finish construction and durability claims, since an executive-styled credenza should hold up to daily professional use, not just look premium in photos. Given the real spread here, from about $287 up to $1755, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check office credenzas for executive's specific finish construction and durability claims, since an executive-styled credenza should hold up to daily professional use, not just look premium in photos. Two picks priced close together, anywhere in this comparison's $287-$1755 band, can still land on opposite ends of premium finish durability, so price alone is a poor proxy for it here. Compare the stated figure for premium finish durability across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm File Security for Sensitive Documents",
-    "explanation": "Verify which drawers lock and whether the lock is documented as more than a basic privacy latch, since executive use often involves genuinely confidential material. Across this comparison's $287 to $1755 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify which drawers lock and whether the lock is documented as more than a basic privacy latch, since executive use often involves genuinely confidential material. Products at the low end near $287 and the high end near $1755 of this comparison don't always handle file security sensitive documents the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of file security sensitive documents, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Technology and Printer Support",
-    "explanation": "Verify the top surface's documented load capacity and cable access, since executive credenzas frequently need to support a printer or secondary monitor setup. Products at the low end near $287 and the high end near $1755 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify the top surface's documented load capacity and cable access, since executive credenzas frequently need to support a printer or secondary monitor setup. Across this comparison's $287 to $1755 range, technology printer support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check technology printer support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Plan Coordination With the Main Desk",
-    "explanation": "Check finish and color matching against your existing desk, since executive office layouts typically expect coordinated, not mismatched, furniture. This matters in practice because the picks in this comparison span from about $287 to $1755, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check finish and color matching against your existing desk, since executive office layouts typically expect coordinated, not mismatched, furniture. Given the real spread here, from about $287 up to $1755, two products can look nearly identical on the surface while differing exactly on plan coordination main desk, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on plan coordination main desk, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Delivery and Assembly Support",
-    "explanation": "Check delivery and assembly logistics in advance, since executive-scale pieces are often heavier and may require professional installation. With prices in this roundup ranging roughly $287 to $1755, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check delivery and assembly logistics in advance, since executive-scale pieces are often heavier and may require professional installation. With prices in this roundup ranging roughly $287 to $1755, delivery assembly support is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify delivery assembly support directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ModernMate 63\" Lateral File Cabinet with Lock is aimed at buyers prioritizing 300 lb top load rating, 1.18in thick top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "State Whether It's Solid, Veneer, or Laminate",
-    "explanation": "Confirm whether the wood is solid wood, veneer, or wood-look laminate, since this determines both weight and long-term repair options. Across this comparison's $206 to $669 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm whether the wood is solid wood, veneer, or wood-look laminate, since this determines both weight and long-term repair options. Products at the low end near $206 and the high end near $669 of this comparison don't always handle state whether its solid the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of state whether its solid, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Inspect Exposed Edges for Chipping Risk",
-    "explanation": "Inspect exposed edges and corners for chipping or movement risk, since veneer and laminate edges chip differently than solid wood. Products at the low end near $206 and the high end near $669 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Inspect exposed edges and corners for chipping or movement risk, since veneer and laminate edges chip differently than solid wood. Across this comparison's $206 to $669 range, exposed edges chipping risk is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check exposed edges chipping risk against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Compare Scratch Repair Options",
-    "explanation": "Compare scratch repair or refinishing options across construction types, since solid wood can typically be sanded and refinished while laminate generally cannot. This matters in practice because the picks in this comparison span from about $206 to $669, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare scratch repair or refinishing options across construction types, since solid wood can typically be sanded and refinished while laminate generally cannot. Given the real spread here, from about $206 up to $669, two products can look nearly identical on the surface while differing exactly on scratch repair options, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on scratch repair options, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Use Manufacturer Care Instructions",
-    "explanation": "Use manufacturer care instructions for spills and repeated cleaning, since different wood finishes have different chemical sensitivities. With prices in this roundup ranging roughly $206 to $669, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Use manufacturer care instructions for spills and repeated cleaning, since different wood finishes have different chemical sensitivities. With prices in this roundup ranging roughly $206 to $669, manufacturer care instructions is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify manufacturer care instructions directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Publish Assembled Weight and Construction",
-    "explanation": "Publish assembled weight and sectional construction for installation, since solid wood desks are meaningfully heavier than veneer or laminate equivalents. Given the real spread here, from about $206 up to $669, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Publish assembled weight and sectional construction for installation, since solid wood desks are meaningfully heavier than veneer or laminate equivalents. This matters in practice because the picks in this comparison span from about $206 to $669, and skipping a real check on assembled weight construction is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on assembled weight construction, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-antique-reception-desks","title":"4 Best Antique Reception Desks in 2026"},{"href":"/guide/best-vintage-reception-desks","title":"best-vintage-reception-desks"},{"href":"/guide/best-walnut-reception-desks","title":"best-walnut-reception-desks"}];

@@ -128,23 +128,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build a Current Model Map",
-    "explanation": "Build a current VEVOR reception-desk model map and compare it against generic reseller listings, since VEVOR's lineup spans multiple sizes and configurations under similar naming. This matters in practice because the picks in this comparison span from about $80 to $262, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Build a current VEVOR reception-desk model map and compare it against generic reseller listings, since VEVOR's lineup spans multiple sizes and configurations under similar naming. With prices in this roundup ranging roughly $80 to $262, build current model map is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify build current model map directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Configuration Range",
-    "explanation": "Compare straight and L-shaped configurations only where the exact current model genuinely supports them. With prices in this roundup ranging roughly $80 to $262, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Compare straight and L-shaped configurations only where the exact current model genuinely supports them. This matters in practice because the picks in this comparison span from about $80 to $262, and skipping a real check on configuration range is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on configuration range, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Planning Dimensions",
-    "explanation": "Use current listing data to verify overall width, depth, work height, and grommet locations before ordering. Given the real spread here, from about $80 up to $262, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Use current listing data to verify overall width, depth, work height, and grommet locations before ordering. Buyers shopping anywhere from $80 to $262 in this category often assume planning dimensions is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on planning dimensions stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check LED and Power Features Per Model",
-    "explanation": "Check LED lighting and built-in power outlet features per specific model, since these vary across VEVOR's reception desk sizes. Across this comparison's $80 to $262 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check LED lighting and built-in power outlet features per specific model, since these vary across VEVOR's reception desk sizes. At every price point in this comparison's $80 to $262 range, led power features per varies enough between listings that assuming it scales with price is a real way to get burned. Confirm led power features per directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Include Warranty and Support Path",
-    "explanation": "Include current warranty terms and support path in your total cost of ownership evaluation. Products at the low end near $80 and the high end near $262 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Include current warranty terms and support path in your total cost of ownership evaluation. Two picks priced close together, anywhere in this comparison's $80-$262 band, can still land on opposite ends of include warranty support path, so price alone is a poor proxy for it here. Compare the stated figure for include warranty support path across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 

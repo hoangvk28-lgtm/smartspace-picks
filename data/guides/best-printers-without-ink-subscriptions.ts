@@ -473,7 +473,7 @@ export const faq: FaqItem[] = [
     q: "Do laser printers avoid the subscription question better than inkjets?",
     a: "Not automatically, but toner cartridges last for thousands of pages compared to a few hundred for inkjet cartridges, so a subscription offer comes up far less often in practice with a laser printer. If print volume is mostly text, that reduces how much the subscription question matters day to day.",
   },
-  { q: "Which pick in this comparison is the best overall choice?", a: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "A buyer who wants to permanently avoid ink subscriptions and cartridge concerns" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

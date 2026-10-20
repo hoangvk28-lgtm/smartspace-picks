@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Build One Shared Workflow, Then Add Service-Specific Needs",
-    "explanation": "Start with check-in, rebooking, and payment as the shared workflow across salon types, then layer on service-specific storage or display needs. Products at the low end near $170 and the high end near $650 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Start with check-in, rebooking, and payment as the shared workflow across salon types, then layer on service-specific storage or display needs. Given the real spread here, from about $170 up to $650, two products can look nearly identical on the surface while differing exactly on build one shared workflow, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on build one shared workflow, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Map POS and Charging Without Cable Chaos",
-    "explanation": "Plan POS, phone or tablet, and charging cables without loose, public-facing wires crossing the counter. This matters in practice because the picks in this comparison span from about $170 to $650, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Plan POS, phone or tablet, and charging cables without loose, public-facing wires crossing the counter. With prices in this roundup ranging roughly $170 to $650, map pos charging without is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map pos charging without directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Separate Retail Display from Staff Storage",
-    "explanation": "Keep retail display separate from staff storage and paperwork, since mixing the two makes both harder to manage during busy periods. With prices in this roundup ranging roughly $170 to $650, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Keep retail display separate from staff storage and paperwork, since mixing the two makes both harder to manage during busy periods. This matters in practice because the picks in this comparison span from about $170 to $650, and skipping a real check on separate retail display from is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on separate retail display from, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare Cleanability of Surface Textures",
-    "explanation": "Compare smooth easy-clean surfaces with decorative textures and grooves, since a salon's frequent cleaning schedule favors a smoother finish. Given the real spread here, from about $170 up to $650, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Compare smooth easy-clean surfaces with decorative textures and grooves, since a salon's frequent cleaning schedule favors a smoother finish. Buyers shopping anywhere from $170 to $650 in this category often assume cleanability surface textures is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on cleanability surface textures stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Waiting-Area Circulation",
-    "explanation": "Verify queue and waiting-area circulation typical of small salon entries, since most salon reception areas are tighter than a corporate lobby. Across this comparison's $170 to $650 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify queue and waiting-area circulation typical of small salon entries, since most salon reception areas are tighter than a corporate lobby. At every price point in this comparison's $170 to $650 range, waiting-area circulation varies enough between listings that assuming it scales with price is a real way to get burned. Confirm waiting-area circulation directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks-for-beauty-salon","title":"6 Best Reception Desks for Beauty Salon in 2026"},{"href":"/guide/best-reception-desks-for-hair-salon","title":"6 Best Reception Desks for Hair Salon in 2026"},{"href":"/guide/best-reception-desks-for-nail-salon","title":"best-reception-desks-for-nail-salon"}];

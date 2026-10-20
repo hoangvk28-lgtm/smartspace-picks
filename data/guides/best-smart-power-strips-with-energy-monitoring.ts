@@ -221,7 +221,7 @@ export const faq: FaqItem[] = [
   { q: "How accurate is smart power strip energy monitoring?", a: "It varies. Consumer smart strips typically use inexpensive internal sensors whose real-world accuracy can deviate from actual consumption, treat the readings as a useful estimate, not a precise measurement." },
   { q: "Will I lose my energy monitoring history if the manufacturer shuts down?", a: "Likely yes, if that history is stored only in the manufacturer's cloud app. This is the same long-term availability risk as remote control functionality, a real data-continuity concern for smart devices generally." },
   { q: "Do all smart power strips offer historical energy data?", a: "No, this varies significantly. Some offer weeks of in-app historical charts with export capability, others provide only real-time readings with no historical retention at all, check this specifically if trend tracking matters to you." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want genuine energy monitoring with Matter compatibility" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want genuine energy monitoring with Matter compatibility" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want a proven, independent per-outlet smart strip and value real-world track record At $24.99, it's the lowest-cost pick in this comparison." },
 ];
 

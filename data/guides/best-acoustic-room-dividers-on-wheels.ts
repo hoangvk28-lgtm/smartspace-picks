@@ -227,7 +227,7 @@ export const faq: FaqItem[] = [
   { q: "Do wheeled room dividers stay in place once positioned?", a: "Only if they have locking casters. Check specifically for this feature, a divider that rolls away or shifts undermines the entire point of choosing a mobile option over a fixed partition." },
   { q: "Are these room dividers actually soundproof?", a: "Treat 'soundproof' marketing language cautiously. None of the picks in this guide disclose a tested Noise Reduction Coefficient or Sound Transmission Class rating, they provide meaningful acoustic and visual separation, not laboratory-verified soundproofing." },
   { q: "Is a heavy-duty wheeled divider worth it over a standard one?", a: "If you'll reposition the divider multiple times a day, yes, heavy-duty construction is built for that wear. Just weigh the newer heavy-duty listings' thinner review history against their claims before assuming equivalent proven durability." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want balanced coverage and storage footprint for a shared office" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want balanced coverage and storage footprint for a shared office" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a heavy-duty divider for frequent repositioning at a lower price At $272.99, it's the lowest-cost pick in this comparison." },
 ];
 

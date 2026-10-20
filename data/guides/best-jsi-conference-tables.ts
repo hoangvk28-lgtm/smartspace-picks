@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map JSI's Current Series",
-    "explanation": "Check which JSI conference table series is currently offered rather than assuming a discontinued model's specs still apply, since office furniture brands regularly refresh product lines. With prices in this roundup ranging roughly $300 to $1799, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check which JSI conference table series is currently offered rather than assuming a discontinued model's specs still apply, since office furniture brands regularly refresh product lines. With prices in this roundup ranging roughly $300 to $1799, map jsis current series is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify map jsis current series directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Size and Shape Range",
-    "explanation": "Confirm the specific length, shape, and seat-count options JSI offers in this line, since brand names often cover multiple table families with different capabilities. Given the real spread here, from about $300 up to $1799, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm the specific length, shape, and seat-count options JSI offers in this line, since brand names often cover multiple table families with different capabilities. This matters in practice because the picks in this comparison span from about $300 to $1799, and skipping a real check on size shape range is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on size shape range, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Power and Cable Architecture",
-    "explanation": "Verify whether power and data modules are integrated into the base, routed through the top, or sold as an add-on accessory, since this varies by series. Across this comparison's $300 to $1799 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify whether power and data modules are integrated into the base, routed through the top, or sold as an add-on accessory, since this varies by series. Buyers shopping anywhere from $300 to $1799 in this category often assume power cable architecture is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on power cable architecture stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Review Materials and Base Choices",
-    "explanation": "Compare laminate, veneer, and base finish options within the line, since brand-name tables often span a wide price range depending on material tier. Products at the low end near $300 and the high end near $1799 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare laminate, veneer, and base finish options within the line, since brand-name tables often span a wide price range depending on material tier. At every price point in this comparison's $300 to $1799 range, materials base choices varies enough between listings that assuming it scales with price is a real way to get burned. Confirm materials base choices directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Confirm Planning and Warranty Support",
-    "explanation": "Check what design or space-planning support and warranty terms come with a JSI purchase, since commercial furniture brands often provide more of both than budget importers. This matters in practice because the picks in this comparison span from about $300 to $1799, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check what design or space-planning support and warranty terms come with a JSI purchase, since commercial furniture brands often provide more of both than budget importers. Two picks priced close together, anywhere in this comparison's $300-$1799 band, can still land on opposite ends of planning warranty support, so price alone is a poor proxy for it here. Compare the stated figure for planning warranty support across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns 8ft Conference Table for 8-10 is aimed at buyers prioritizing 94.48\"w x 47.24\"d top, walnut & black finish." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-steelcase-conference-tables","title":"Best Steelcase Conference Tables in 2026"},{"href":"/guide/best-herman-miller-conference-tables","title":"Best Herman Miller Conference Tables in 2026"},{"href":"/guide/best-hon-conference-tables","title":"Best HON Conference Tables in 2026"}];

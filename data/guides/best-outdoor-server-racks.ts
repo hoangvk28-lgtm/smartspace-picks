@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify a Real IP Rating, Not Just 'Weatherproof'",
-    "explanation": "Confirm outdoor server racks lists a specific IP rating like IP55 or IP66 rather than a generic weatherproof claim with no documented standard behind it. With prices in this roundup ranging roughly $180 to $2600, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm outdoor server racks lists a specific IP rating like IP55 or IP66 rather than a generic weatherproof claim with no documented standard behind it. Two picks priced close together, anywhere in this comparison's $180-$2600 band, can still land on opposite ends of real ip rating weatherproof, so price alone is a poor proxy for it here. Compare the stated figure for real ip rating weatherproof across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Active Cooling for Sealed Outdoor Enclosures",
-    "explanation": "Verify whether the enclosure includes fans or air conditioning, since a sealed outdoor cabinet in direct sun can overheat without active cooling. Given the real spread here, from about $180 up to $2600, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify whether the enclosure includes fans or air conditioning, since a sealed outdoor cabinet in direct sun can overheat without active cooling. Products at the low end near $180 and the high end near $2600 of this comparison don't always handle active cooling sealed outdoor the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of active cooling sealed outdoor, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Corrosion-Resistant Construction",
-    "explanation": "Look for corrosion-resistant coating and sealed cable entry points designed specifically for prolonged outdoor exposure. Across this comparison's $180 to $2600 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Look for corrosion-resistant coating and sealed cable entry points designed specifically for prolonged outdoor exposure. Across this comparison's $180 to $2600 range, corrosion-resistant construction is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check corrosion-resistant construction against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Mounting Method for the Install Site",
-    "explanation": "Check whether the cabinet is rated for wall, pole, or ground mounting matching your actual outdoor location. Products at the low end near $180 and the high end near $2600 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check whether the cabinet is rated for wall, pole, or ground mounting matching your actual outdoor location. Given the real spread here, from about $180 up to $2600, two products can look nearly identical on the surface while differing exactly on mounting method install site, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on mounting method install site, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Lock and Access Weatherproofing",
-    "explanation": "Confirm the locking mechanism and door seals are also rated for outdoor use, not just the main enclosure body. This matters in practice because the picks in this comparison span from about $180 to $2600, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the locking mechanism and door seals are also rated for outdoor use, not just the main enclosure body. With prices in this roundup ranging roughly $180 to $2600, lock access weatherproofing is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify lock access weatherproofing directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "16U 19in 600mm Outdoor Rack Cabinet is aimed at buyers prioritizing 16u, 19\" mount, 600mm depth." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "16U 19in 600mm Outdoor Rack Cabinet is aimed at buyers prioritizing 16u, 19\" mount, 600mm depth." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

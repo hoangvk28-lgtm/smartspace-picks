@@ -226,7 +226,7 @@ export const faq: FaqItem[] = [
   { q: "Does my Mac's display scaling work the same as Windows through a KVM switch?", a: "Not necessarily, Mac's external display scaling behaves differently, verify EDID emulation works correctly across both operating systems." },
   { q: "Do I need different cables for my Mac and PC on the same switch?", a: "It depends on your devices' connector types, a switch supporting both HDMI and DisplayPort helps if they differ." },
   { q: "Is a budget KVM switch reliable enough for a Mac-and-PC setup?", a: "For basic switching, yes, but verify keyboard mapping and EDID behavior through current reviews regardless of price." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting a reliable, high-resolution-ceiling switch with reasonable cross-platform confidence" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers wanting a reliable, high-resolution-ceiling switch with reasonable cross-platform confidence" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable simple Mac-and-PC KVM switch At $26.23, it's the lowest-cost pick in this comparison." },
 ];
 

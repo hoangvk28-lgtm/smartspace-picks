@@ -259,7 +259,7 @@ export const faq: FaqItem[] = [
   { q: "What is NUT and why does it matter for NAS UPS setups?", a: "NUT (Network UPS Tools) is the standard protocol most NAS platforms use to receive shutdown signals from a UPS over USB or network. Verify your NAS OS and chosen UPS brand both support it, or use the vendor-proprietary alternative if your NAS platform requires it." },
   { q: "Should I buy a NAS-specific UPS or a general-purpose one?", a: "A purpose-built NAS UPS (like the WALLECUBE pick) simplifies setup with vendor app integration, but narrows compatibility to specific NAS brands and power types. A general-purpose UPS with NUT support works with nearly any NAS platform once configured correctly." },
   { q: "How much UPS capacity does my NAS actually need?", a: "It depends on your drive count. A single-bay NAS draws far less power than a multi-bay unit with several drives spinning simultaneously, size to your actual equipment rather than defaulting to the highest-capacity option." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a DC-powered NAS from a supported vendor who want purpose-built compatibility" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers with a DC-powered NAS from a supported vendor who want purpose-built compatibility" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a DC-powered NAS from a supported vendor who want purpose-built compatibility At $79.00, it's the lowest-cost pick in this comparison." },
 ];
 

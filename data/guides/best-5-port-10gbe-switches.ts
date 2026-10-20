@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Simultaneously Usable 10G Ports",
-    "explanation": "Confirm 5-port 10gbe switches's stated port count matches genuinely usable 10GbE interfaces, excluding management, slower access, or shared-only ports. This matters in practice because the picks in this comparison span from about $80 to $230, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm 5-port 10gbe switches's stated port count matches genuinely usable 10GbE interfaces, excluding management, slower access, or shared-only ports. Given the real spread here, from about $80 up to $230, two products can look nearly identical on the surface while differing exactly on simultaneously usable 10g ports, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on simultaneously usable 10g ports, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Identify Combo and Shared Ports",
-    "explanation": "Check whether any RJ45 and SFP+ ports share one logical interface, since these should never be double-counted toward the total. With prices in this roundup ranging roughly $80 to $230, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether any RJ45 and SFP+ ports share one logical interface, since these should never be double-counted toward the total. With prices in this roundup ranging roughly $80 to $230, identify combo shared ports is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify identify combo shared ports directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Check Native Media Type Per Port",
-    "explanation": "Verify how many 10G ports are native RJ45 versus SFP+, and what transceivers or DACs are needed for the fiber ports. Given the real spread here, from about $80 up to $230, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Verify how many 10G ports are native RJ45 versus SFP+, and what transceivers or DACs are needed for the fiber ports. This matters in practice because the picks in this comparison span from about $80 to $230, and skipping a real check on native media type per is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on native media type per, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Switching Capacity Against Full Load",
-    "explanation": "Confirm switching capacity covers simultaneous bidirectional traffic on every advertised port, not just a subset. Across this comparison's $80 to $230 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm switching capacity covers simultaneous bidirectional traffic on every advertised port, not just a subset. Buyers shopping anywhere from $80 to $230 in this category often assume switching capacity against full is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on switching capacity against full stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Uplink and Stacking Headroom",
-    "explanation": "Look at faster uplinks or stacking options separately, since these affect real oversubscription beyond the access-port count. Products at the low end near $80 and the high end near $230 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Look at faster uplinks or stacking options separately, since these affect real oversubscription beyond the access-port count. At every price point in this comparison's $80 to $230 range, uplink stacking headroom varies enough between listings that assuming it scales with price is a real way to get burned. Confirm uplink stacking headroom directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "No. The total PoE budget is shared across all active PoE ports, so if you power several high-draw devices simultaneously, the switch may not be able to deliver every port's maximum rated wattage at the same time. Check the total budget against your actual device count and power needs."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "6-Port 10Gbe Ethernet Switch Unmanaged is aimed at buyers prioritizing 2x 10g + 4x 2.5g ports, 60gbps capacity." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-10gbe-switches","title":"Best 8-Port 10GbE Switches in 2026"},{"href":"/guide/best-24-port-10gbe-switches","title":"Best 24-Port 10GbE Switches in 2026"},{"href":"/guide/best-16-port-10gbe-switches","title":"Best 16-Port 10GbE Switches in 2026"}];

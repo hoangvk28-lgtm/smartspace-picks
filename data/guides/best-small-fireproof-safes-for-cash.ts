@@ -220,23 +220,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Separate Fire Evidence From Burglary Features",
-    "explanation": "Verify small fireproof safes for cash's fire classification independently from any bolts, steel gauge, or pry-resistance claims, since a fire rating alone says nothing about theft resistance. Products at the low end near $15 and the high end near $32 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify small fireproof safes for cash's fire classification independently from any bolts, steel gauge, or pry-resistance claims, since a fire rating alone says nothing about theft resistance. Two picks priced close together, anywhere in this comparison's $15-$32 band, can still land on opposite ends of separate fire evidence from, so price alone is a poor proxy for it here. Compare the stated figure for separate fire evidence from across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Document Actual Steel, Bolts, and Hinge Construction",
-    "explanation": "Check bolt count, bolt diameter, and hinge design specifically, rather than trusting a general 'heavy duty' or 'anti-theft' label. This matters in practice because the picks in this comparison span from about $15 to $32, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check bolt count, bolt diameter, and hinge design specifically, rather than trusting a general 'heavy duty' or 'anti-theft' label. Products at the low end near $15 and the high end near $32 of this comparison don't always handle document actual steel bolts the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of document actual steel bolts, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Compare Access Methods and Failure Modes",
-    "explanation": "Key, mechanical combination, and electronic access each fail differently (lost key, forgotten combination, dead battery); pick the method whose failure mode you're most prepared to handle. With prices in this roundup ranging roughly $15 to $32, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Key, mechanical combination, and electronic access each fail differently (lost key, forgotten combination, dead battery); pick the method whose failure mode you're most prepared to handle. Across this comparison's $15 to $32 range, access methods failure modes is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check access methods failure modes against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Organize Cash So It Isn't Immediately Exposed",
-    "explanation": "A safe that dumps all contents into view the moment it opens exposes cash to anyone glancing over your shoulder; shelves, trays, or a separate locking drawer help control this. Given the real spread here, from about $15 up to $32, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "A safe that dumps all contents into view the moment it opens exposes cash to anyone glancing over your shoulder; shelves, trays, or a separate locking drawer help control this. Given the real spread here, from about $15 up to $32, two products can look nearly identical on the surface while differing exactly on organize cash so it, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on organize cash so it, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Anchoring for Stationary Cash Storage",
-    "explanation": "For cash kept in one place long-term, anchoring hardware meaningfully improves theft deterrence versus a portable chest that can simply be carried away. Across this comparison's $15 to $32 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "For cash kept in one place long-term, anchoring hardware meaningfully improves theft deterrence versus a portable chest that can simply be carried away. With prices in this roundup ranging roughly $15 to $32, anchoring stationary cash storage is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify anchoring stationary cash storage directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -262,7 +262,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "0.30 Cu Ft Small Home Safe with Fireproof Bag is aimed at buyers prioritizing 10.63\"x6.69\"x6.69\", 0.3 cu ft." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "0.30 Cu Ft Small Home Safe with Fireproof Bag is aimed at buyers prioritizing 10.63\"x6.69\"x6.69\", 0.3 cu ft." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-for-cash","title":"Best Fireproof Safes for Cash in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"}];

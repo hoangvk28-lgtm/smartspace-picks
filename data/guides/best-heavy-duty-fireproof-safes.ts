@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Fire Evidence Before Crediting Heavy Construction",
-    "explanation": "Verify heavy duty fireproof safes's documented fire classification directly, since a heavy steel body alone doesn't establish any specific fire duration. Across this comparison's $216 to $700 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify heavy duty fireproof safes's documented fire classification directly, since a heavy steel body alone doesn't establish any specific fire duration. Given the real spread here, from about $216 up to $700, two products can look nearly identical on the surface while differing exactly on fire evidence before crediting, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on fire evidence before crediting, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Publish Steel Gauge, Bolt Count, and Hinge Design",
-    "explanation": "Check the specific steel thickness, number and diameter of locking bolts, and hinge construction, rather than trusting a general 'heavy duty' label. Products at the low end near $216 and the high end near $700 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the specific steel thickness, number and diameter of locking bolts, and hinge construction, rather than trusting a general 'heavy duty' label. With prices in this roundup ranging roughly $216 to $700, steel gauge bolt count is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify steel gauge bolt count directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Weigh Theft Deterrence Against Installation Burden",
-    "explanation": "A heavier safe is harder to carry off, but also harder to deliver, position, and potentially move again later; weigh both sides of that tradeoff. This matters in practice because the picks in this comparison span from about $216 to $700, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "A heavier safe is harder to carry off, but also harder to deliver, position, and potentially move again later; weigh both sides of that tradeoff. This matters in practice because the picks in this comparison span from about $216 to $700, and skipping a real check on theft deterrence against installation is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on theft deterrence against installation, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Verify Anchoring and Floor Suitability",
-    "explanation": "Confirm the floor can support the safe's weight and that anchoring hardware and instructions are included if you plan to bolt it down. With prices in this roundup ranging roughly $216 to $700, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm the floor can support the safe's weight and that anchoring hardware and instructions are included if you plan to bolt it down. Buyers shopping anywhere from $216 to $700 in this category often assume anchoring floor suitability is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on anchoring floor suitability stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Avoid Assuming Burglary Certification",
-    "explanation": "Heavy-duty construction is not the same as an independently tested burglary rating; don't assume one implies the other unless it's explicitly documented. Given the real spread here, from about $216 up to $700, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Heavy-duty construction is not the same as an independently tested burglary rating; don't assume one implies the other unless it's explicitly documented. At every price point in this comparison's $216 to $700 range, assuming burglary certification varies enough between listings that assuming it scales with price is a real way to get burned. Confirm assuming burglary certification directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe is aimed at buyers prioritizing 9.8 cu ft, 124 lbs." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "9.8 Cu Ft Extra Large Biometric Fireproof Waterproof Safe is aimed at buyers prioritizing 9.8 cu ft, 124 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

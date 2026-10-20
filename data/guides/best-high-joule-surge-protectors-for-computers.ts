@@ -246,7 +246,7 @@ export const faq: FaqItem[] = [
   { q: "Will a connected-equipment warranty fully cover my expensive computer setup?", a: "Only up to its payout cap, which frequently falls well below the realistic replacement cost of a high-end workstation PC plus monitors, verify the specific dollar limit before relying on this coverage." },
   { q: "Should I prioritize my PC or my monitor for surge protection on a shared strip?", a: "Prioritize your most surge-vulnerable equipment, typically the desktop PC or wired peripherals, since not all devices sharing a high-joule strip are equally vulnerable to surge damage." },
   { q: "Does a high-joule rating apply to each outlet or the whole strip?", a: "Usually the whole strip as a shared total, though this is rarely clarified explicitly, verify whether the rating is per-outlet or shared across all outlets before assuming per-device protection depth." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a high-value computer setup wanting maximum joule headroom" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers with a high-value computer setup wanting maximum joule headroom" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers with a high-value computer setup wanting maximum joule headroom At $18.89, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -478,7 +478,7 @@ export const faq: FaqItem[] = [
     q: "Which pick in this list is best for noise control rather than just privacy?",
     a: "The HOMSCREENER 3-Panel Soundproof is the only pick here built for acoustic absorption, at over 85% noise absorption thanks to its ECO PET core. Every other pick in this list blocks sightlines but does little to reduce sound passing between the two sides.",
   },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the best all-around balance of fabric quality, stability, and price" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the best all-around balance of fabric quality, stability, and price" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

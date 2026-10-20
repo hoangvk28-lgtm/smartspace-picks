@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Price and List What's Included",
-    "explanation": "Verify budget desktop cnc machines's current price and list every component actually included, since low sticker price can exclude spindle, clamps, or software accessories. This matters in practice because the picks in this comparison span from about $154 to $341, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify budget desktop cnc machines's current price and list every component actually included, since low sticker price can exclude spindle, clamps, or software accessories. This matters in practice because the picks in this comparison span from about $154 to $341, and skipping a real check on date-stamp price list whats is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on date-stamp price list whats, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Run a Real Dimensional Test Cut",
-    "explanation": "Look for evidence of a dimensional test cut exposing rigidity or backlash limits, not just a controller-resolution claim. With prices in this roundup ranging roughly $154 to $341, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Look for evidence of a dimensional test cut exposing rigidity or backlash limits, not just a controller-resolution claim. Buyers shopping anywhere from $154 to $341 in this category often assume run real dimensional test is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on run real dimensional test stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Price the Minimum Required Upgrades",
-    "explanation": "Calculate the cost of workholding, cutters, or spindle upgrades needed for your actual use case before calling it a good deal. Given the real spread here, from about $154 up to $341, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Calculate the cost of workholding, cutters, or spindle upgrades needed for your actual use case before calling it a good deal. At every price point in this comparison's $154 to $341 range, price minimum required upgrades varies enough between listings that assuming it scales with price is a real way to get burned. Confirm price minimum required upgrades directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Compare Assembly and Software Setup Time",
-    "explanation": "Factor in assembly and firmware/software setup time, since budget machines often shift cost into your own labor. Across this comparison's $154 to $341 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Factor in assembly and firmware/software setup time, since budget machines often shift cost into your own labor. Two picks priced close together, anywhere in this comparison's $154-$341 band, can still land on opposite ends of assembly software setup time, so price alone is a poor proxy for it here. Compare the stated figure for assembly software setup time across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Warranty and Replacement Support",
-    "explanation": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support. Products at the low end near $154 and the high end near $341 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check warranty terms and replacement board/motor availability, since budget brands vary widely in long-term support. Products at the low end near $154 and the high end near $341 of this comparison don't always handle warranty replacement support the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of warranty replacement support, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-machines-under-1000","title":"Best Desktop CNC Machines Under $1000 in 2026"},{"href":"/guide/best-desktop-cnc-machines-under-500","title":"Best Desktop CNC Machines Under $500 in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"}];

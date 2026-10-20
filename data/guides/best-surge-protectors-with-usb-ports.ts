@@ -246,7 +246,7 @@ export const faq: FaqItem[] = [
   { q: "If the surge protection light is on, are my USB-charged devices protected too?", a: "Not guaranteed. A single indicator light typically reflects only the AC-side MOV status, the AC and USB circuitry can have independent failure states that one light doesn't distinguish." },
   { q: "Does UL 1449 certification cover USB ports on a combined power strip?", a: "Usually just the AC side. UL 1449 specifically addresses AC transient voltage surge suppression, a combined unit's 'UL 1449 listed' claim may only certify the AC-outlet performance, not the USB-side charging circuitry." },
   { q: "Do power strips with USB ports have weaker surge protection than AC-only strips?", a: "Sometimes, at the budget tier specifically. Adding USB circuitry increases cost, and some budget combined units cut corners on joule rating to stay price-competitive, compare against a similarly priced AC-only strip to check." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want strong AC-side surge protection alongside basic USB charging" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want strong AC-side surge protection alongside basic USB charging" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers who want USB-C ports alongside basic surge protection At $9.99, it's the lowest-cost pick in this comparison." },
 ];
 

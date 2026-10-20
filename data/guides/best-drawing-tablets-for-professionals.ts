@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Test Pen Precision During Slow Curves",
-    "explanation": "Evaluate drawing tablets for professionals's pen behavior during slow, deliberate curves and fine detail work, not just fast confident strokes. This matters in practice because the picks in this comparison span from about $130 to $320, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Evaluate drawing tablets for professionals's pen behavior during slow, deliberate curves and fine detail work, not just fast confident strokes. With prices in this roundup ranging roughly $130 to $320, pen precision during slow is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify pen precision during slow directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Verify Shortcut-Key Depth for Production Work",
-    "explanation": "Check the total programmable shortcut count, since production workflows benefit from more keys than casual sketching. With prices in this roundup ranging roughly $130 to $320, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check the total programmable shortcut count, since production workflows benefit from more keys than casual sketching. This matters in practice because the picks in this comparison span from about $130 to $320, and skipping a real check on shortcut-key depth production work is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on shortcut-key depth production work, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Confirm Color Accuracy Documentation",
-    "explanation": "For pen displays, verify factory calibration data and Delta-E figures rather than trusting a gamut percentage alone. Given the real spread here, from about $130 up to $320, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "For pen displays, verify factory calibration data and Delta-E figures rather than trusting a gamut percentage alone. Buyers shopping anywhere from $130 to $320 in this category often assume color accuracy documentation is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on color accuracy documentation stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Long-Session Ergonomics",
-    "explanation": "Verify stand angle range and wrist support, since professional sessions run much longer than casual ones. Across this comparison's $130 to $320 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify stand angle range and wrist support, since professional sessions run much longer than casual ones. At every price point in this comparison's $130 to $320 range, long-session ergonomics varies enough between listings that assuming it scales with price is a real way to get burned. Confirm long-session ergonomics directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Driver Stability Under Heavy Use",
-    "explanation": "Check for reported driver stability issues under sustained daily professional use, not just first-week reviews. Products at the low end near $130 and the high end near $320 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check for reported driver stability issues under sustained daily professional use, not just first-week reviews. Two picks priced close together, anywhere in this comparison's $130-$320 band, can still land on opposite ends of driver stability under heavy, so price alone is a poor proxy for it here. Compare the stated figure for driver stability under heavy across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "GAOMON PD2200 Drawing Tablet with Screen is aimed at buyers prioritizing 21.5in full-laminated, 130% srgb." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "GAOMON PD2200 Drawing Tablet with Screen is aimed at buyers prioritizing 21.5in full-laminated, 130% srgb." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-drawing-tablets-for-artist","title":"Best Drawing Tablets for Artist in 2026"},{"href":"/guide/best-drawing-tablets","title":"Best Drawing Tablets in 2026"},{"href":"/guide/best-wacom-drawing-tablets","title":"Best Wacom Drawing Tablets in 2026"}];

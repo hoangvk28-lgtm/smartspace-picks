@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Classify Every Drawer by Type",
-    "explanation": "Identify each drawer in office credenzas with drawers as supply, box, file, or specialty, and get its interior dimensions, rather than trusting a generic drawer count. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Identify each drawer in office credenzas with drawers as supply, box, file, or specialty, and get its interior dimensions, rather than trusting a generic drawer count. At every price point in this comparison's $144 to $360 range, classify every drawer by varies enough between listings that assuming it scales with price is a real way to get burned. Confirm classify every drawer by directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Full-Extension Behavior and Load Rating",
-    "explanation": "Verify whether drawers fully extend and what weight they're rated to hold, since partial-extension drawers make reaching contents at the back genuinely harder. Across this comparison's $144 to $360 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify whether drawers fully extend and what weight they're rated to hold, since partial-extension drawers make reaching contents at the back genuinely harder. Two picks priced close together, anywhere in this comparison's $144-$360 band, can still land on opposite ends of full-extension behavior load rating, so price alone is a poor proxy for it here. Compare the stated figure for full-extension behavior load rating across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Lock Coverage and Key Replacement",
-    "explanation": "Check which drawers lock and whether replacement keys or cores are available, since losing the only key to a locked drawer can be a real long-term problem. Products at the low end near $144 and the high end near $360 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check which drawers lock and whether replacement keys or cores are available, since losing the only key to a locked drawer can be a real long-term problem. Products at the low end near $144 and the high end near $360 of this comparison don't always handle lock coverage key replacement the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of lock coverage key replacement, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Test Anti-Tip Behavior With Multiple Drawers Open",
-    "explanation": "Check for documented interlock or anti-tip behavior, since opening several heavy drawers simultaneously can affect stability on some designs. This matters in practice because the picks in this comparison span from about $144 to $360, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check for documented interlock or anti-tip behavior, since opening several heavy drawers simultaneously can affect stability on some designs. Across this comparison's $144 to $360 range, anti-tip behavior multiple drawers is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check anti-tip behavior multiple drawers against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Front Clearance in Your Layout",
-    "explanation": "Confirm drawer clearance beside your desk, chair, and any adjacent wall, since full-extension drawers need genuine floor space to open completely. With prices in this roundup ranging roughly $144 to $360, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm drawer clearance beside your desk, chair, and any adjacent wall, since full-extension drawers need genuine floor space to open completely. Given the real spread here, from about $144 up to $360, two products can look nearly identical on the surface while differing exactly on front clearance layout, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on front clearance layout, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-storage","title":"Best Office Credenzas With Storage in 2026"}];

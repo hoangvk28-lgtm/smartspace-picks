@@ -221,7 +221,7 @@ export const faq: FaqItem[] = [
   { q: "What happens to a smart power strip if the manufacturer shuts down?", a: "Remote app and voice control functionality can partially or fully break if the manufacturer's cloud servers go down or the product is discontinued, a real long-term risk unlike a basic mechanical power strip." },
   { q: "Is Matter compatibility worth paying more for?", a: "If you want to avoid being locked into one smart home ecosystem, yes. Matter-compatible strips work across Apple Home, Google Home, Alexa, and Samsung SmartThings simultaneously, genuinely future-proofing your purchase." },
   { q: "Should all outlets on a smart power strip be smart-controlled?", a: "Not necessarily. A mix of smart and always-on outlets, like the POWSAV pick in this guide, lets you keep critical equipment like a router or NAS always powered while still getting smart control for other devices." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want genuine independent per-outlet smart control without a hub" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers who want genuine independent per-outlet smart control without a hub" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who want genuine independent per-outlet smart control without a hub At $24.99, it's the lowest-cost pick in this comparison." },
 ];
 

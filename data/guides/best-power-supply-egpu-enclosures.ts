@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "State Whether the PSU Is Included and Replaceable",
-    "explanation": "Confirm whether power supply egpu enclosures includes a power supply out of the box and whether it can be swapped for a higher-wattage unit later. Across this comparison's $280 to $630 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm whether power supply egpu enclosures includes a power supply out of the box and whether it can be swapped for a higher-wattage unit later. Buyers shopping anywhere from $280 to $630 in this category often assume state whether psu included is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on state whether psu included stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Size Wattage to the Exact GPU, Not the Enclosure Maximum",
-    "explanation": "Calculate continuous wattage from your specific GPU's documented requirement plus enclosure and dock overhead. Products at the low end near $280 and the high end near $630 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Calculate continuous wattage from your specific GPU's documented requirement plus enclosure and dock overhead. At every price point in this comparison's $280 to $630 range, size wattage exact gpu varies enough between listings that assuming it scales with price is a real way to get burned. Confirm size wattage exact gpu directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify Native GPU Power Connectors",
-    "explanation": "Check for the exact 12V-2x6/12VHPWR/8-pin connectors your GPU needs, since adapter cables add real failure points. This matters in practice because the picks in this comparison span from about $280 to $630, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check for the exact 12V-2x6/12VHPWR/8-pin connectors your GPU needs, since adapter cables add real failure points. Two picks priced close together, anywhere in this comparison's $280-$630 band, can still land on opposite ends of native gpu power connectors, so price alone is a poor proxy for it here. Compare the stated figure for native gpu power connectors across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check PSU Physical Format and Airflow",
-    "explanation": "Confirm PSU format (ATX/SFX/Flex) and intake/exhaust clearance fit inside the enclosure without cramping cable routing. With prices in this roundup ranging roughly $280 to $630, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm PSU format (ATX/SFX/Flex) and intake/exhaust clearance fit inside the enclosure without cramping cable routing. Products at the low end near $280 and the high end near $630 of this comparison don't always handle psu physical format airflow the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of psu physical format airflow, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Separate Laptop Charging From GPU PSU Capacity",
-    "explanation": "Confirm laptop Power Delivery wattage is documented separately from the GPU power supply's own capacity. Given the real spread here, from about $280 up to $630, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm laptop Power Delivery wattage is documented separately from the GPU power supply's own capacity. Across this comparison's $280 to $630 range, separate laptop charging from is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check separate laptop charging from against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "Thunderbolt and USB4 tunnel PCIe over a general-purpose port shared with other data, while OCuLink provides a more direct PCIe connection with typically lower overhead, but neither hot-plugs as easily and OCuLink support is far less common on laptops. Match the choice to what your specific host actually exposes."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU is aimed at buyers prioritizing 750w psu included." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "ORARA eGPU Enclosure Thunderbolt 3/4/USB4 40Gbps with 750W PSU is aimed at buyers prioritizing 750w psu included." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-egpu-enclosures-with-power-supply","title":"Best eGPU Enclosures With Power Supply in 2026"},{"href":"/guide/best-egpu-enclosures","title":"Best eGPU Enclosures in 2026"},{"href":"/guide/best-thunderbolt-3-egpu-enclosures","title":"Best Thunderbolt 3 eGPU Enclosures in 2026"}];

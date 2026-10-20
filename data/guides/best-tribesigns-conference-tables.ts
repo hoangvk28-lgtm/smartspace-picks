@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Map Tribesigns's Current Series",
-    "explanation": "Check which Tribesigns conference table series is currently offered rather than assuming a discontinued model's specs still apply, since office furniture brands regularly refresh product lines. Across this comparison's $180 to $390 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check which Tribesigns conference table series is currently offered rather than assuming a discontinued model's specs still apply, since office furniture brands regularly refresh product lines. Buyers shopping anywhere from $180 to $390 in this category often assume map tribesignss current series is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on map tribesignss current series stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Compare Size and Shape Range",
-    "explanation": "Confirm the specific length, shape, and seat-count options Tribesigns offers in this line, since brand names often cover multiple table families with different capabilities. Products at the low end near $180 and the high end near $390 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm the specific length, shape, and seat-count options Tribesigns offers in this line, since brand names often cover multiple table families with different capabilities. At every price point in this comparison's $180 to $390 range, size shape range varies enough between listings that assuming it scales with price is a real way to get burned. Confirm size shape range directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Check Power and Cable Architecture",
-    "explanation": "Verify whether power and data modules are integrated into the base, routed through the top, or sold as an add-on accessory, since this varies by series. This matters in practice because the picks in this comparison span from about $180 to $390, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify whether power and data modules are integrated into the base, routed through the top, or sold as an add-on accessory, since this varies by series. Two picks priced close together, anywhere in this comparison's $180-$390 band, can still land on opposite ends of power cable architecture, so price alone is a poor proxy for it here. Compare the stated figure for power cable architecture across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Review Materials and Base Choices",
-    "explanation": "Compare laminate, veneer, and base finish options within the line, since brand-name tables often span a wide price range depending on material tier. With prices in this roundup ranging roughly $180 to $390, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Compare laminate, veneer, and base finish options within the line, since brand-name tables often span a wide price range depending on material tier. Products at the low end near $180 and the high end near $390 of this comparison don't always handle materials base choices the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of materials base choices, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Planning and Warranty Support",
-    "explanation": "Check what design or space-planning support and warranty terms come with a Tribesigns purchase, since commercial furniture brands often provide more of both than budget importers. Given the real spread here, from about $180 up to $390, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check what design or space-planning support and warranty terms come with a Tribesigns purchase, since commercial furniture brands often provide more of both than budget importers. Across this comparison's $180 to $390 range, planning warranty support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check planning warranty support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Tribesigns 8FT Boat-Shaped Conference Table is aimed at buyers prioritizing 94.5\"l x 47.24\"w x 29.52\"h boat-shaped top." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-steelcase-conference-tables","title":"Best Steelcase Conference Tables in 2026"},{"href":"/guide/best-herman-miller-conference-tables","title":"Best Herman Miller Conference Tables in 2026"},{"href":"/guide/best-hon-conference-tables","title":"Best HON Conference Tables in 2026"}];

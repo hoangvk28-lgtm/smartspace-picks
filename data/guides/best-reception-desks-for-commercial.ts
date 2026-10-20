@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Define Daily Duty Cycle",
-    "explanation": "Define daily visitor and staff duty cycle before choosing a desk, since a design suited to occasional visitor traffic won't hold up the same as one built for constant use. This matters in practice because the picks in this comparison span from about $330 to $1469, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Define daily visitor and staff duty cycle before choosing a desk, since a design suited to occasional visitor traffic won't hold up the same as one built for constant use. With prices in this roundup ranging roughly $330 to $1469, define daily duty cycle is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify define daily duty cycle directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Inspect Fasteners and Supports",
-    "explanation": "Inspect fasteners, supports, and leveling rather than panel thickness alone, since a thick panel with weak joints still fails under commercial daily use. With prices in this roundup ranging roughly $330 to $1469, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Inspect fasteners, supports, and leveling rather than panel thickness alone, since a thick panel with weak joints still fails under commercial daily use. This matters in practice because the picks in this comparison span from about $330 to $1469, and skipping a real check on fasteners supports is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on fasteners supports, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Compare High-Contact Edge Durability",
-    "explanation": "Compare high-contact edge and top durability specifically, since these surfaces take the most repeated wear in a commercial environment. Given the real spread here, from about $330 up to $1469, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Compare high-contact edge and top durability specifically, since these surfaces take the most repeated wear in a commercial environment. Buyers shopping anywhere from $330 to $1469 in this category often assume high-contact edge durability is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on high-contact edge durability stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Include Commercial Warranty and Parts",
-    "explanation": "Include commercial warranty and a replacement-component path in your decision, since commercial furniture should have a clear repair path rather than requiring full replacement. Across this comparison's $330 to $1469 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Include commercial warranty and a replacement-component path in your decision, since commercial furniture should have a clear repair path rather than requiring full replacement. At every price point in this comparison's $330 to $1469 range, include commercial warranty parts varies enough between listings that assuming it scales with price is a real way to get burned. Confirm include commercial warranty parts directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Plan Freight and Assembly Needs",
-    "explanation": "Publish freight, site access, and professional assembly needs upfront, since commercial installations often involve tighter timelines than a home office purchase. Products at the low end near $330 and the high end near $1469 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Publish freight, site access, and professional assembly needs upfront, since commercial installations often involve tighter timelines than a home office purchase. Two picks priced close together, anywhere in this comparison's $330-$1469 band, can still land on opposite ends of plan freight assembly needs, so price alone is a poor proxy for it here. Compare the stated figure for plan freight assembly needs across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-large-reception-desks","title":"6 Best Large Reception Desks in 2026"},{"href":"/guide/best-reception-desks-for-office","title":"best-reception-desks-for-office"},{"href":"/guide/best-modular-reception-desks","title":"5 Best Modular Reception Desks in 2026"}];

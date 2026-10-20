@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Measure Real Cutting Area After Spoilboard and Clamps",
-    "explanation": "Check cutter desktop cnc machines's usable Z-height and cutting area after the spoilboard and clamps are installed, not the nominal axis travel alone. With prices in this roundup ranging roughly $242 to $649, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check cutter desktop cnc machines's usable Z-height and cutting area after the spoilboard and clamps are installed, not the nominal axis travel alone. Given the real spread here, from about $242 up to $649, two products can look nearly identical on the surface while differing exactly on real cutting area after, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on real cutting area after, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Spindle and Collet Match Your Bits",
-    "explanation": "Confirm the spindle RPM range and collet size match the router bits you actually plan to use. Given the real spread here, from about $242 up to $649, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm the spindle RPM range and collet size match the router bits you actually plan to use. With prices in this roundup ranging roughly $242 to $649, spindle collet match bits is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify spindle collet match bits directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan Dust Collection From the Start",
-    "explanation": "Budget for a dust collection or shop-vac connection, since wood dust accumulates quickly and affects both air quality and machine longevity. Across this comparison's $242 to $649 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Budget for a dust collection or shop-vac connection, since wood dust accumulates quickly and affects both air quality and machine longevity. This matters in practice because the picks in this comparison span from about $242 to $649, and skipping a real check on plan dust collection from is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan dust collection from, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check Frame Rigidity Under Load",
-    "explanation": "Look for documented backlash or deflection figures on a representative cut, not just frame appearance in photos. Products at the low end near $242 and the high end near $649 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Look for documented backlash or deflection figures on a representative cut, not just frame appearance in photos. Buyers shopping anywhere from $242 to $649 in this category often assume frame rigidity under load is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on frame rigidity under load stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Confirm Workholding Options",
-    "explanation": "Verify what workholding (T-track, clamps, spoilboard) ships standard versus what needs to be added separately. This matters in practice because the picks in this comparison span from about $242 to $649, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify what workholding (T-track, clamps, spoilboard) ships standard versus what needs to be added separately. At every price point in this comparison's $242 to $649 range, workholding options varies enough between listings that assuming it scales with price is a real way to get burned. Confirm workholding options directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu 3020-PRO Ultra CNC Router Machine is aimed at buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Genmitsu 3020-PRO Ultra CNC Router Machine is aimed at buyers prioritizing 710w spindle, 6500-30000 rpm, 7.3 nm torque." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-desktop-cnc-routers","title":"Best Desktop CNC Routers in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"}];

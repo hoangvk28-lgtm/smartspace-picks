@@ -241,7 +241,7 @@ export const faq: FaqItem[] = [
   { q: "What if I forget my KVM switch's hotkey combination?", a: "Look for a switch with a physical button as backup, this avoids being stuck if you forget the exact key sequence." },
   { q: "Can hotkeys conflict with my apps' own keyboard shortcuts?", a: "Occasionally yes, especially Ctrl-based combinations, check whether the switch's hotkey sequence is configurable to avoid this." },
   { q: "Does hotkey switching work the same for dual-monitor setups?", a: "It should synchronize both monitors with one command, verify this genuinely works together rather than needing separate commands per display." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting both hotkey and physical button switching as a reliable backup" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting both hotkey and physical button switching as a reliable backup" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting the most affordable hotkey-capable switch At $26.23, it's the lowest-cost pick in this comparison." },
 ];
 

@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Inventory Essential Household Loads",
-    "explanation": "List essential appliances portable power stations for home use needs to power and measure both running and startup surge demand for each. Given the real spread here, from about $280 up to $899, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "List essential appliances portable power stations for home use needs to power and measure both running and startup surge demand for each. Buyers shopping anywhere from $280 to $899 in this category often assume inventory essential household loads is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on inventory essential household loads stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Calculate Runtime From Usable Energy",
-    "explanation": "Calculate runtime from measured usable AC energy rather than rated Wh alone, factoring in real conversion losses. Across this comparison's $280 to $899 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Calculate runtime from measured usable AC energy rather than rated Wh alone, factoring in real conversion losses. At every price point in this comparison's $280 to $899 range, calculate runtime from usable varies enough between listings that assuming it scales with price is a real way to get burned. Confirm calculate runtime from usable directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify 120V vs True 120/240V Output",
-    "explanation": "Confirm whether the station offers 120V-only or true 120/240V output, and check supported transfer-panel accessories. Products at the low end near $280 and the high end near $899 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm whether the station offers 120V-only or true 120/240V output, and check supported transfer-panel accessories. Two picks priced close together, anywhere in this comparison's $280-$899 band, can still land on opposite ends of 120v vs true 120240v, so price alone is a poor proxy for it here. Compare the stated figure for 120v vs true 120240v across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Measure UPS Transfer Time",
-    "explanation": "Verify EPS or UPS transfer time from official documentation and confirm sensitive-load suitability directly. This matters in practice because the picks in this comparison span from about $280 to $899, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify EPS or UPS transfer time from official documentation and confirm sensitive-load suitability directly. Products at the low end near $280 and the high end near $899 of this comparison don't always handle ups transfer time the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of ups transfer time, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Plan Charging Source During an Outage",
-    "explanation": "Include a realistic charging source, extension cabling, ventilation, and an outage recharging plan in the total setup. With prices in this roundup ranging roughly $280 to $899, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Include a realistic charging source, extension cabling, ventilation, and an outage recharging plan in the total setup. Across this comparison's $280 to $899 range, plan charging source during is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check plan charging source during against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Anker SOLIX S2000 Portable Power Station is aimed at buyers prioritizing 2010wh, 3000w peak, 35.7 lbs." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Anker SOLIX S2000 Portable Power Station is aimed at buyers prioritizing 2010wh, 3000w peak, 35.7 lbs." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"},{"href":"/guide/best-portable-power-stations-for-camping","title":"Best Portable Power Stations for Camping in 2026"},{"href":"/guide/best-portable-power-stations-for-home-backup","title":"Best Portable Power Stations for Home Backup in 2026"}];

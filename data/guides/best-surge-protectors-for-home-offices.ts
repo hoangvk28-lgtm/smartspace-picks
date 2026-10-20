@@ -246,7 +246,7 @@ export const faq: FaqItem[] = [
   { q: "Does a home office surge protector need to cover my router too?", a: "Yes, ideally. Router and modem protection is often overlooked despite internet connectivity being critical to home office productivity, include networking gear explicitly in your protection plan." },
   { q: "Is a home office more exposed to voltage fluctuations than a commercial office?", a: "Potentially, yes. Home offices often share circuits with other household appliances on adjacent circuits, unlike a commercial building's more isolated circuits, leading to more frequent minor fluctuations." },
   { q: "Should I protect my laptop the same as my desktop PC with a surge protector?", a: "Not necessarily with equal priority. Battery-backed devices like laptops have some inherent surge tolerance from their charging circuitry, prioritize your most vulnerable wired equipment first if joule budget is limited." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers with a realistic full home office setup including printer and networking gear" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Buyers with a realistic full home office setup including printer and networking gear" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with a laptop-based home office setup At $11.99, it's the lowest-cost pick in this comparison." },
 ];
 

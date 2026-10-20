@@ -243,7 +243,7 @@ export const faq: FaqItem[] = [
   { q: "Are budget monitors always lower quality panels?", a: "Not necessarily, several genuinely solid IPS panels are available at accessible prices, check panel type specifically rather than assuming from price alone." },
   { q: "Can I get a high refresh rate on a budget monitor?", a: "Yes, several budget monitors in this guide offer surprisingly high 120Hz refresh rates, this feature isn't exclusive to premium models." },
   { q: "Is it worth stepping up from 1080p to QHD on a budget?", a: "It depends on your priorities, QHD monitors cost more even at the budget tier, weigh the resolution benefit against staying within a stricter budget." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Budget-conscious buyers wanting a genuine IPS panel with surprisingly high refresh rate" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Budget-conscious buyers wanting a genuine IPS panel with surprisingly high refresh rate" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers wanting reliable Samsung panel quality in a compact size At $79.99, it's the lowest-cost pick in this comparison." },
 ];
 

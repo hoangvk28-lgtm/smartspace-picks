@@ -246,7 +246,7 @@ export const faq: FaqItem[] = [
   { q: "Will my white monitor shelf turn yellow over time?", a: "It can, especially with UV exposure. White paint/coating durability, yellowing over time near windows, is a real risk more visually noticeable than color shifts on darker finishes." },
   { q: "Will 'white' monitor shelves from different brands match each other?", a: "Not necessarily. 'White' varies between pure white, off-white, and cream tones across brands and materials, check the actual shade against your existing setup." },
   { q: "How often should I clean a white monitor shelf to keep it looking new?", a: "A quick weekly wipe with a soft microfiber cloth prevents the gradual dulling that less frequent, heavier cleaning can't fully reverse, avoid abrasive pads that can dull the finish." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven adjustable white pick" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven adjustable white pick" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

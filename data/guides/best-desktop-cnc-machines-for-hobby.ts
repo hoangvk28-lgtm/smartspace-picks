@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Time Real Setup to First Cut",
-    "explanation": "Check how long desktop cnc machines for hobby actually takes from unboxing to a first successful cut, not just an advertised assembly time. Given the real spread here, from about $154 up to $549, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check how long desktop cnc machines for hobby actually takes from unboxing to a first successful cut, not just an advertised assembly time. Two picks priced close together, anywhere in this comparison's $154-$549 band, can still land on opposite ends of time real setup first, so price alone is a poor proxy for it here. Compare the stated figure for time real setup first across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Beginner-Friendly Software",
-    "explanation": "Confirm the bundled or recommended CAM software has a genuinely approachable learning curve for a first CNC machine. Across this comparison's $154 to $549 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the bundled or recommended CAM software has a genuinely approachable learning curve for a first CNC machine. Products at the low end near $154 and the high end near $549 of this comparison don't always handle beginner-friendly software the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of beginner-friendly software, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Safety Controls Are Accessible",
-    "explanation": "Verify an accessible emergency stop and clear homing/zeroing sequence, since safety controls matter most for first-time users. Products at the low end near $154 and the high end near $549 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Verify an accessible emergency stop and clear homing/zeroing sequence, since safety controls matter most for first-time users. Across this comparison's $154 to $549 range, safety controls are accessible is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check safety controls are accessible against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Map the Real Upgrade Path",
-    "explanation": "Check what upgrades (spindle, workholding, enclosure) are actually needed soon after purchase, and price them in. This matters in practice because the picks in this comparison span from about $154 to $549, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check what upgrades (spindle, workholding, enclosure) are actually needed soon after purchase, and price them in. Given the real spread here, from about $154 up to $549, two products can look nearly identical on the surface while differing exactly on map real upgrade path, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on map real upgrade path, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Confirm Workholding Basics Are Included",
-    "explanation": "Verify basic clamps or a spoilboard ship standard, since missing workholding is a common first-machine frustration. With prices in this roundup ranging roughly $154 to $549, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify basic clamps or a spoilboard ship standard, since missing workholding is a common first-machine frustration. With prices in this roundup ranging roughly $154 to $549, workholding basics are included is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify workholding basics are included directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "This depends heavily on spindle torque, rigidity, and tooling. Many desktop routers can engrave or lightly cut soft metals like aluminum and brass with the right bits and shallow passes, but cutting steel or deep aluminum passes generally needs a genuinely rigid, higher-torque machine."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Genmitsu CNC 3018-PRO Router Kit is aimed at buyers prioritizing 300 x 180 x 45mm working area." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-entry-level-desktop-cnc-machines","title":"Best Entry Level Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-machines","title":"Best Desktop CNC Machines in 2026"},{"href":"/guide/best-desktop-cnc-mills","title":"Best Desktop CNC Mills in 2026"}];

@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "Why do wall-mounted air purifiers have fewer reviews than floor units?", a: "Wall-mounted units are a genuinely smaller product category than floor-standing purifiers, meaning fewer options and less accumulated real-world review evidence per model." },
   { q: "Is a compact floor unit on a shelf a good alternative to wall mounting?", a: "Yes, it's a legitimate alternative. It achieves some of the same floor-space benefit as wall mounting, with far more real-world review evidence and easier filter access." },
   { q: "Are wall-mounted air purifiers more expensive than floor units?", a: "Often yes, relative to coverage. Wall-mounted units typically cost more relative to their rated coverage than a comparable floor-standing unit." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Small rooms wanting to free all floor area with a dedicated wall-mount design" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Small rooms wanting to free all floor area with a dedicated wall-mount design" },
   { q: "Which pick offers the best value for a tight budget?", a: "Very small rooms wanting the most affordable wall-mount entry point At $79.00, it's the lowest-cost pick in this comparison." },
 ];
 

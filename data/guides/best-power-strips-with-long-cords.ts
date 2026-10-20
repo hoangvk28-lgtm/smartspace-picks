@@ -240,7 +240,7 @@ export const faq: FaqItem[] = [
   { q: "Is it safe to coil excess power strip cord?", a: "Avoid coiling it tightly under sustained load. Bundled or coiled current-carrying cords can build up heat that a straight-run cord of the same length wouldn't experience, let excess cord lay loosely instead." },
   { q: "Can I run a long power strip cord under a rug?", a: "No, this is a real safety risk. Extension-cord safety guidance, not running cords under rugs or through doorways, applies directly to long power strip cords, since these behaviors reduce cord lifespan and create heat and trip hazards." },
   { q: "How do I know if a long cord's capacity is enough for my equipment?", a: "Check the joule and amperage rating separately from cord length, these are different specs. A very long but low-rated cord may not be appropriate for high-draw equipment at the far end." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who need to reach a distant outlet with real outlet capacity at the far end" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who need to reach a distant outlet with real outlet capacity at the far end" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers who need a mid-length cord at a budget-friendly price At $12.98, it's the lowest-cost pick in this comparison." },
 ];
 

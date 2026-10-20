@@ -177,7 +177,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/518FUSm-OqL._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07QQ25W3P?tag=deskfinds0d-20",
     description:
-      "At a competitive price, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners. Rattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold. Handmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.",
+      "At a competitive price, the RHF rattan screen is the cheapest pick in this list without sacrificing craftsmanship, its handmade 5-medallion diamond weave gives it a distinctly boho look that the modern acrylic and shoji picks don't offer. Two-way hinges make it flexible to position around furniture or corners. Rattan and wood construction keeps it lightweight, and like most picks here it arrives needing no assembly, straight out of the box and ready to unfold. Handmade diamond-weave pattern. That's a real strength, but weigh it against the flip side: open weave offers less privacy than solid panels.\n\nWhat stands out here is cheapest pick in this list at $34.28, plus handmade diamond-weave pattern. The main tradeoff: open weave offers less privacy than solid panels, so weigh that against the $34.28 price before buying.",
     specs: [
       "63\"W x 72\"H (4 panels)",
       "Rattan + wood",
@@ -460,7 +460,7 @@ export const faq: FaqItem[] = [
     q: "Which room divider screen is best for a wide room?",
     a: "The VEVOR 6-Panel spans 95.3 inches wide, the widest in this list, making it the best fit for open-concept rooms where a standard 4-panel screen wouldn't stretch far enough. Most other picks here use 4 panels and top out around 63-72 inches wide.",
   },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want the most proven, most distinctive printed shoji screen" },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Buyers who want the most proven, most distinctive printed shoji screen" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

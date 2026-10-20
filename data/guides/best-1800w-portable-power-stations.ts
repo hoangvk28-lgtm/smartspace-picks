@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Continuous Output",
-    "explanation": "Confirm 1800w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. Across this comparison's $388 to $669 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm 1800w portable power stations reaches the target wattage as continuous output, not only through a brief surge or boost mode. At every price point in this comparison's $388 to $669 range, documented continuous output varies enough between listings that assuming it scales with price is a real way to get burned. Confirm documented continuous output directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Publish Surge Duration Separately",
-    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. Products at the low end near $388 and the high end near $669 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the surge rating and its time limit separately, and verify how the station handles a representative startup load. Two picks priced close together, anywhere in this comparison's $388-$669 band, can still land on opposite ends of surge duration separately, so price alone is a poor proxy for it here. Compare the stated figure for surge duration separately across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Compare Battery Wh at the Same Output",
-    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. This matters in practice because the picks in this comparison span from about $388 to $669, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare battery Wh across finalists so two stations with the same inverter watts aren't treated as equal-runtime products. Products at the low end near $388 and the high end near $669 of this comparison don't always handle battery wh at same the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of battery wh at same, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Efficiency at Partial Load",
-    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. With prices in this roundup ranging roughly $388 to $669, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check documented efficiency and fan noise at roughly 25%, 50%, and 80% of the target output, not just at maximum. Across this comparison's $388 to $669 range, efficiency at partial load is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check efficiency at partial load against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Port and Recharge Limits",
-    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Given the real spread here, from about $388 up to $669, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm port current limits, thermal derating, and recharge speed appropriate to this specific output class. Given the real spread here, from about $388 up to $669, two products can look nearly identical on the surface while differing exactly on port recharge limits, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on port recharge limits, since it's often left out of the main bullet points entirely."
   }
 ];
 

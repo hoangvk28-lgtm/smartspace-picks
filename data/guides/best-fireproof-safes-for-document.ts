@@ -220,23 +220,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Paper-Specific Fire Evidence",
-    "explanation": "Check that fireproof safes for document's fire rating specifically covers paper records, and treat any digital-media claim as a separate fact rather than assuming one rating covers both. This matters in practice because the picks in this comparison span from about $29 to $88, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check that fireproof safes for document's fire rating specifically covers paper records, and treat any digital-media claim as a separate fact rather than assuming one rating covers both. Across this comparison's $29 to $88 range, paper-specific fire evidence is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check paper-specific fire evidence against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Letter and Legal Fit",
-    "explanation": "Confirm whether folders lie flat or need to be folded, and check hanging-file compatibility if that's how your documents are currently organized. With prices in this roundup ranging roughly $29 to $88, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm whether folders lie flat or need to be folded, and check hanging-file compatibility if that's how your documents are currently organized. Given the real spread here, from about $29 up to $88, two products can look nearly identical on the surface while differing exactly on letter legal fit, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on letter legal fit, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Folder and Binder Clearance",
-    "explanation": "Measure the door or lid opening against actual binders, certificates, and envelopes, not just loose paper, since binders and rigid folders need more clearance. Given the real spread here, from about $29 up to $88, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure the door or lid opening against actual binders, certificates, and envelopes, not just loose paper, since binders and rigid folders need more clearance. With prices in this roundup ranging roughly $29 to $88, folder binder clearance is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify folder binder clearance directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Plan for Humidity Inside the Safe",
-    "explanation": "Long-term paper storage benefits from occasional airing out and a silica gel packet, since the same seal that blocks fire and water can trap ambient moisture. Across this comparison's $29 to $88 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Long-term paper storage benefits from occasional airing out and a silica gel packet, since the same seal that blocks fire and water can trap ambient moisture. This matters in practice because the picks in this comparison span from about $29 to $88, and skipping a real check on plan humidity inside safe is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on plan humidity inside safe, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Design for Retrieval, Not Just Storage",
-    "explanation": "Organize the safe so you can pull a specific document without unloading everything else, especially if it holds passports, deeds, or other frequently needed originals. Products at the low end near $29 and the high end near $88 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Organize the safe so you can pull a specific document without unloading everything else, especially if it holds passports, deeds, or other frequently needed originals. Buyers shopping anywhere from $29 to $88 in this category often assume design retrieval storage is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on design retrieval storage stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -262,7 +262,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 0.61 Cu Ft Fireproof Document Box is aimed at buyers prioritizing 0.61 cu ft, fits letter-size hanging files." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe 0.61 Cu Ft Fireproof Document Box is aimed at buyers prioritizing 0.61 cu ft, fits letter-size hanging files." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-for-documents","title":"Best Fireproof Safes for Documents in 2026"},{"href":"/guide/best-fireproof-safes-for-important-documents","title":"Best Fireproof Safes for Important Documents in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

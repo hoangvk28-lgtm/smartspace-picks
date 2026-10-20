@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Count Usable Seating Zones, Not Just Length",
-    "explanation": "Measure how many people can actually sit at the table with roughly 24 to 30 inches of edge space each, rather than trusting a modular conference tables's advertised seat count at face value. This matters in practice because the picks in this comparison span from about $290 to $1812, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Measure how many people can actually sit at the table with roughly 24 to 30 inches of edge space each, rather than trusting a modular conference tables's advertised seat count at face value. Buyers shopping anywhere from $290 to $1812 in this category often assume count usable seating zones is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on count usable seating zones stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Base and Knee Clearance",
-    "explanation": "Confirm where legs, pedestals, or center supports fall relative to seat positions, since a base placed at the wrong point can block knee room for the people sitting closest to it. With prices in this roundup ranging roughly $290 to $1812, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Confirm where legs, pedestals, or center supports fall relative to seat positions, since a base placed at the wrong point can block knee room for the people sitting closest to it. At every price point in this comparison's $290 to $1812 range, base knee clearance varies enough between listings that assuming it scales with price is a real way to get burned. Confirm base knee clearance directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Plan Room Circulation Around the Table",
-    "explanation": "Leave at least 36 inches of clearance between the table edge and the wall or nearest furniture so chairs can push back and people can walk around during a meeting. Given the real spread here, from about $290 up to $1812, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Leave at least 36 inches of clearance between the table edge and the wall or nearest furniture so chairs can push back and people can walk around during a meeting. Two picks priced close together, anywhere in this comparison's $290-$1812 band, can still land on opposite ends of plan room circulation around, so price alone is a poor proxy for it here. Compare the stated figure for plan room circulation around across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Verify Power, Data, and AV Paths",
-    "explanation": "Check whether cable grommets, built-in outlets, or a dedicated AV path exist, and trace that path from the table surface to where power actually reaches the room. Across this comparison's $290 to $1812 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check whether cable grommets, built-in outlets, or a dedicated AV path exist, and trace that path from the table surface to where power actually reaches the room. Products at the low end near $290 and the high end near $1812 of this comparison don't always handle power data av paths the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of power data av paths, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Weigh Structural Build and Serviceability",
-    "explanation": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone. Products at the low end near $290 and the high end near $1812 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare substrate, base material, and stated weight capacity, and factor in assembly complexity and multi-box shipping before ranking a table on price alone. Across this comparison's $290 to $1812 range, structural build serviceability is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check structural build serviceability against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not inherently. High-density MDF and particle board with a laminate or melamine finish are standard in this category and hold up well to daily commercial use. Solid wood, veneer over engineered wood, or steel-reinforced builds cost more and matter most where long-term durability or a premium look is the priority."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Modular Conference Table with Modesty Panel is aimed at buyers prioritizing 4 size options: 47.2\" to 70.8\"." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Modular Conference Table with Modesty Panel is aimed at buyers prioritizing 4 size options: 47.2\" to 70.8\"." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables","title":"Best Conference Tables in 2026"},{"href":"/guide/best-narrow-conference-tables","title":"Best Narrow Conference Tables in 2026"},{"href":"/guide/best-conference-tables-with-chairs","title":"Best Conference Tables With Chairs in 2026"}];

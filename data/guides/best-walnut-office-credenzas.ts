@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm Actual Wood Construction, Not Just the Finish Name",
-    "explanation": "Verify whether walnut office credenzas is genuinely solid wood, veneer, or a wood-look laminate, since a species name in the title is often a finish description rather than proof of the underlying material. With prices in this roundup ranging roughly $250 to $583, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify whether walnut office credenzas is genuinely solid wood, veneer, or a wood-look laminate, since a species name in the title is often a finish description rather than proof of the underlying material. Products at the low end near $250 and the high end near $583 of this comparison don't always handle actual wood construction finish the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of actual wood construction finish, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Check Top and Case Thickness",
-    "explanation": "Look for documented substrate or top thickness where available, since thicker construction generally holds up better under repeated printer or equipment use. Given the real spread here, from about $250 up to $583, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Look for documented substrate or top thickness where available, since thicker construction generally holds up better under repeated printer or equipment use. Across this comparison's $250 to $583 range, top case thickness is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check top case thickness against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Inspect Edges and Corners for Chip Risk",
-    "explanation": "Check edge photos closely, since exposed corners and edges are where a lower-grade substrate is most likely to show through the finish or chip first. Across this comparison's $250 to $583 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check edge photos closely, since exposed corners and edges are where a lower-grade substrate is most likely to show through the finish or chip first. Given the real spread here, from about $250 up to $583, two products can look nearly identical on the surface while differing exactly on edges corners chip risk, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on edges corners chip risk, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Compare Scratch Repair Options",
-    "explanation": "Check whether the finish supports touch-up markers or refinishing, since genuine solid wood generally offers more repair options than a laminate or veneer surface. Products at the low end near $250 and the high end near $583 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check whether the finish supports touch-up markers or refinishing, since genuine solid wood generally offers more repair options than a laminate or veneer surface. With prices in this roundup ranging roughly $250 to $583, scratch repair options is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify scratch repair options directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Factor in Assembled Weight",
-    "explanation": "Check the assembled weight, since genuinely solid-wood pieces are meaningfully heavier than engineered-wood equivalents, which affects both delivery and any future move. This matters in practice because the picks in this comparison span from about $250 to $583, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check the assembled weight, since genuinely solid-wood pieces are meaningfully heavier than engineered-wood equivalents, which affects both delivery and any future move. This matters in practice because the picks in this comparison span from about $250 to $583, and skipping a real check on assembled weight is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on assembled weight, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "67\" Fluted Walnut Buffet Cabinet with Storage is aimed at buyers prioritizing 67in wide, 6 doors." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "67\" Fluted Walnut Buffet Cabinet with Storage is aimed at buyers prioritizing 67in wide, 6 doors." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-mahogany-office-credenzas","title":"Best Mahogany Office Credenzas in 2026"},{"href":"/guide/best-oak-office-credenzas","title":"Best Oak Office Credenzas in 2026"},{"href":"/guide/best-dark-wood-office-credenzas","title":"Best Dark Wood Office Credenzas in 2026"}];

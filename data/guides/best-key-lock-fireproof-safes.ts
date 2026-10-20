@@ -224,23 +224,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Whether the Key Controls a Simple Latch or Real Bolts",
-    "explanation": "Check whether key lock fireproof safes's key operates a basic latch or engages multiple locking bolts, since these offer very different levels of physical security despite both being \"key lock\" designs. Across this comparison's $40 to $230 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Check whether key lock fireproof safes's key operates a basic latch or engages multiple locking bolts, since these offer very different levels of physical security despite both being \"key lock\" designs. Two picks priced close together, anywhere in this comparison's $40-$230 band, can still land on opposite ends of whether key controls simple, so price alone is a poor proxy for it here. Compare the stated figure for whether key controls simple across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Plan Spare Key Storage Away From the Safe",
-    "explanation": "Store the included spare key somewhere other than inside or right next to the safe itself, since keeping both keys together defeats the point of a backup. Products at the low end near $40 and the high end near $230 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Store the included spare key somewhere other than inside or right next to the safe itself, since keeping both keys together defeats the point of a backup. Products at the low end near $40 and the high end near $230 of this comparison don't always handle plan spare key storage the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of plan spare key storage, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Understand Replacement-Key Support",
-    "explanation": "Check whether the manufacturer offers replacement keys by serial or lock-cylinder number if the originals are lost, since a key-only safe with no replacement path may need a locksmith or full lock replacement. This matters in practice because the picks in this comparison span from about $40 to $230, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check whether the manufacturer offers replacement keys by serial or lock-cylinder number if the originals are lost, since a key-only safe with no replacement path may need a locksmith or full lock replacement. Across this comparison's $40 to $230 range, understand replacement-key support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check understand replacement-key support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Fire Evidence Independently of the Lock Type",
-    "explanation": "A key lock is a battery-free convenience, not a fire-protection feature; check the fire classification separately. With prices in this roundup ranging roughly $40 to $230, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "A key lock is a battery-free convenience, not a fire-protection feature; check the fire classification separately. Given the real spread here, from about $40 up to $230, two products can look nearly identical on the surface while differing exactly on fire evidence independently lock, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on fire evidence independently lock, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Weigh Security Limits for Portable Key-Lock Models",
-    "explanation": "A portable chest with a key lock deters casual access, not a determined thief who can simply carry the whole box away; anchor stationary key-lock safes if genuine security matters. Given the real spread here, from about $40 up to $230, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "A portable chest with a key lock deters casual access, not a determined thief who can simply carry the whole box away; anchor stationary key-lock safes if genuine security matters. With prices in this roundup ranging roughly $40 to $230, security limits portable key-lock is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify security limits portable key-lock directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -266,7 +266,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 0.25 Cu Ft Fire Chest with Key Lock is aimed at buyers prioritizing ul 1/2hr at 1550-degreef, etl digital media verified." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "SentrySafe 0.25 Cu Ft Fire Chest with Key Lock is aimed at buyers prioritizing ul 1/2hr at 1550-degreef, etl digital media verified." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes-with-key","title":"Best Fireproof Safes With Key in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"}];

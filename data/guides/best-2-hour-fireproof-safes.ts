@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Confirm the Duration Is Independently Documented",
-    "explanation": "Require exact evidence (UL Classified, ETL Verified, or equivalent) for 2 hour fireproof safes's stated fire duration rather than accepting a manufacturer's own unverified claim at face value. Across this comparison's $67 to $562 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Require exact evidence (UL Classified, ETL Verified, or equivalent) for 2 hour fireproof safes's stated fire duration rather than accepting a manufacturer's own unverified claim at face value. Buyers shopping anywhere from $67 to $562 in this category often assume duration independently documented is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on duration independently documented stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check the Test Temperature, Not Just the Time",
-    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure. Products at the low end near $67 and the high end near $562 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A duration figure means little without its paired temperature; SentrySafe, for example, documents 1-hour testing at 1700 degreesF and 2-hour testing at 1850 degreesF, meaningfully different heat exposure. At every price point in this comparison's $67 to $562 range, test temperature time varies enough between listings that assuming it scales with price is a real way to get burned. Confirm test temperature time directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Verify What Contents the Rating Actually Covers",
-    "explanation": "Paper-document protection and digital-media protection (CDs, USB drives, hard drives) are often tested and rated separately, even within the same duration class. This matters in practice because the picks in this comparison span from about $67 to $562, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Paper-document protection and digital-media protection (CDs, USB drives, hard drives) are often tested and rated separately, even within the same duration class. Two picks priced close together, anywhere in this comparison's $67-$562 band, can still land on opposite ends of what contents rating actually, so price alone is a poor proxy for it here. Compare the stated figure for what contents rating actually across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Treat Water and Impact Claims as Separate Facts",
-    "explanation": "A fire-duration rating says nothing about water resistance or drop/impact survival; check those claims independently if either matters for your situation. With prices in this roundup ranging roughly $67 to $562, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "A fire-duration rating says nothing about water resistance or drop/impact survival; check those claims independently if either matters for your situation. Products at the low end near $67 and the high end near $562 of this comparison don't always handle water impact claims as the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of water impact claims as, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Weigh the Size and Weight Tradeoff",
-    "explanation": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice. Given the real spread here, from about $67 up to $562, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice. Across this comparison's $67 to $562 range, size weight tradeoff is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check size weight tradeoff against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1-hour-fireproof-safes","title":"Best 1 Hour Fireproof Safes in 2026"},{"href":"/guide/best-4-hour-fireproof-safes","title":"Best 4 Hour Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

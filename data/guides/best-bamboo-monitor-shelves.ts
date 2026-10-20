@@ -237,7 +237,7 @@ export const faq: FaqItem[] = [
   { q: "Does the type of bamboo construction matter for durability?", a: "Yes. Bamboo sourcing and manufacturing quality, laminated bamboo strips versus solid bamboo, genuinely affects real durability, check for disclosed construction method where available." },
   { q: "Are bamboo monitor shelves actually eco-friendly?", a: "Often marketed that way, but verify actual sourcing certification rather than accepting 'eco-friendly' as a blanket claim without supporting evidence." },
   { q: "Why does my bamboo shelf look slightly different from the product photos?", a: "Bamboo's natural color variation between individual pieces is a genuine material characteristic, expect some visual inconsistency between units, this isn't a defect." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the highest-rated bamboo pick with drawer storage" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the highest-rated bamboo pick with drawer storage" },
   { q: "Which pick offers the best value for a tight budget?", a: "Buyers wanting the highest-rated bamboo pick with drawer storage At $49.99, it's the lowest-cost pick in this comparison." },
 ];
 

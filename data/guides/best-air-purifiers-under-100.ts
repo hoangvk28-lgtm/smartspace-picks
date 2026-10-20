@@ -30,7 +30,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/419EDCYNm+L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B07VVK39F7?tag=deskfinds0d-20",
     description:
-      "By far the largest review base of any pick here at a budget-friendly price, genuine True HEPA H13 filtration that doesn't cut corners on the core filtration quality despite the budget price. The price cut here is in smart features and app control, not core filtration, factor in the replacement filter cost over a year when comparing this to pricier alternatives. Genuine True HEPA H13 filtration despite budget price. Set against that, no smart app control. Both matter when comparing it to the other picks here.",
+      "By far the largest review base of any pick here at a budget-friendly price, genuine True HEPA H13 filtration that doesn't cut corners on the core filtration quality despite the budget price. The price cut here is in smart features and app control, not core filtration, factor in the replacement filter cost over a year when comparing this to pricier alternatives. Genuine True HEPA H13 filtration despite budget price. Set against that, no smart app control. Both matter when comparing it to the other picks here.\n\nWhat stands out here is by far the largest review base of any pick here, plus genuine True HEPA H13 filtration despite budget price. The main tradeoff: no smart app control, so weigh that against the $89.99 price before buying.",
     specs: ["True HEPA H13, 99.97% particulate removal", "24dB quoted noise level", "Largest review base in this guide", "Under $90 at time of writing"],
     pros: ["By far the largest review base of any pick here", "Genuine True HEPA H13 filtration despite budget price", "Very quiet at 24dB", "Affordable replacement filters"],
     cons: ["No smart app control", "No air quality sensor", "Standard CADR, not the highest airflow pick"],
@@ -64,7 +64,7 @@ export const products: GuideProduct[] = [
     imageUrl: "https://m.media-amazon.com/images/I/51nlbgobV2L._SL500_.jpg",
     amazonUrl: "https://www.amazon.com/dp/B0DCBC8KKV?tag=deskfinds0d-20",
     description:
-      "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying at a budget-friendly price. A budget unit at a budget-friendly price can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point. Solid review base. That's a real strength, but weigh it against the flip side: no smart app control.",
+      "An affordable option with a solid review base, marketed for a larger room than a typical budget desktop unit while staying at a budget-friendly price. A budget unit at a budget-friendly price can still be genuinely capable for a small-to-medium room, this pick's disclosed coverage rating supports that at its price point. Solid review base. That's a real strength, but weigh it against the flip side: no smart app control.\n\nWhere this one earns its spot is affordable price for a larger-room-marketed unit, and solid review base. Worth noting before buying: no smart app control, which matters more at $79.99 than it would on a cheaper pick.",
     specs: ["HEPA filtration", "Solid review base", "Larger-room marketing at a budget price", "Under $80 at time of writing"],
     pros: ["Affordable price for a larger-room-marketed unit", "Solid review base", "Genuine HEPA filtration", "Good value for the coverage claimed"],
     cons: ["No smart app control", "No air quality sensor", "No filter indicator"],
@@ -242,7 +242,7 @@ export const faq: FaqItem[] = [
   { q: "What's the real cost of owning a cheap air purifier over time?", a: "More than the sticker price suggests. Ongoing filter replacement cost over a year of regular use can rival or exceed the unit's original purchase price, factor that into your comparison." },
   { q: "How do I know if a budget air purifier can cover my room?", a: "Check for a specific disclosed square-footage or CADR rating rather than trusting vague 'large room' marketing language, which doesn't tell you much about actual capacity." },
   { q: "Is the cheapest air purifier under $50 good enough for a bedroom?", a: "It's best matched to a desk zone or small personal space rather than a full bedroom, expect a lower CADR at that price point." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting the most-proven budget pick with genuine HEPA filtration" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers wanting the most-proven budget pick with genuine HEPA filtration" },
   { q: "Which pick offers the best value for a tight budget?", a: "Tightest-budget buyers wanting a desk zone or personal-space unit At $45.30, it's the lowest-cost pick in this comparison." },
 ];
 

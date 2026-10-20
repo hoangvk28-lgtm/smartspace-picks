@@ -244,23 +244,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Set a Maximum Loaded Carry-Weight Threshold",
-    "explanation": "Test portable fireproof safes loaded with real documents and valuables, not empty, since a manageable empty weight can become genuinely difficult to carry once packed. With prices in this roundup ranging roughly $30 to $73, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Test portable fireproof safes loaded with real documents and valuables, not empty, since a manageable empty weight can become genuinely difficult to carry once packed. Across this comparison's $30 to $73 range, set maximum loaded carry-weight is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check set maximum loaded carry-weight against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Inspect the Handle Under Repeated Carrying",
-    "explanation": "Check handle and hinge durability specifically, since portable safes get picked up and moved far more often than stationary models. Given the real spread here, from about $30 up to $73, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check handle and hinge durability specifically, since portable safes get picked up and moved far more often than stationary models. Given the real spread here, from about $30 up to $73, two products can look nearly identical on the surface while differing exactly on handle under repeated carrying, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on handle under repeated carrying, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Verify Fire and Water Claims Independently",
-    "explanation": "Confirm the specific fire duration and, separately, any water-resistance claim, rather than assuming a portable design has weaker protection by default. Across this comparison's $30 to $73 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the specific fire duration and, separately, any water-resistance claim, rather than assuming a portable design has weaker protection by default. With prices in this roundup ranging roughly $30 to $73, fire water claims independently is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify fire water claims independently directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Measure Real Document and Media Fit",
-    "explanation": "Check actual interior dimensions against your documents and media, since portable safes tend to have less usable interior relative to exterior size than stationary models. Products at the low end near $30 and the high end near $73 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check actual interior dimensions against your documents and media, since portable safes tend to have less usable interior relative to exterior size than stationary models. This matters in practice because the picks in this comparison span from about $30 to $73, and skipping a real check on real document media fit is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on real document media fit, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Understand the Mobility-vs-Theft Tradeoff",
-    "explanation": "A safe designed to be carried is also a safe a thief can carry away; if it will stay in one place, check whether it includes a tether or anchor option despite its portable design. This matters in practice because the picks in this comparison span from about $30 to $73, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "A safe designed to be carried is also a safe a thief can carry away; if it will stay in one place, check whether it includes a tether or anchor option despite its portable design. Buyers shopping anywhere from $30 to $73 in this category often assume understand mobility-vs-theft tradeoff is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on understand mobility-vs-theft tradeoff stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 
@@ -286,7 +286,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550-degreef." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock is aimed at buyers prioritizing 0.18 cu ft, 13 lbs, ul 1/2hr at 1550-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

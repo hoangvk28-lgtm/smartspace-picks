@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Verify Official Hutch-to-Credenza Compatibility",
-    "explanation": "Confirm the hutch is officially rated and fastens to the exact credenza model in home office credenzas with hutch, since hutches are frequently sold as separate components that only fit specific bases. Across this comparison's $160 to $1755 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm the hutch is officially rated and fastens to the exact credenza model in home office credenzas with hutch, since hutches are frequently sold as separate components that only fit specific bases. This matters in practice because the picks in this comparison span from about $160 to $1755, and skipping a real check on official hutch-to-credenza compatibility is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on official hutch-to-credenza compatibility, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Measure Clear Height Below the Hutch",
-    "explanation": "Check the open niche height and depth beneath the hutch, since a tall overall height figure doesn't tell you how much clear working space remains below it. Products at the low end near $160 and the high end near $1755 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check the open niche height and depth beneath the hutch, since a tall overall height figure doesn't tell you how much clear working space remains below it. Buyers shopping anywhere from $160 to $1755 in this category often assume clear height below hutch is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on clear height below hutch stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Wall Anchoring Requirements",
-    "explanation": "Verify anti-tip and wall-fastening requirements, since a hutch raises the total assembled height and center of gravity significantly compared to the credenza alone. This matters in practice because the picks in this comparison span from about $160 to $1755, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify anti-tip and wall-fastening requirements, since a hutch raises the total assembled height and center of gravity significantly compared to the credenza alone. At every price point in this comparison's $160 to $1755 range, wall anchoring requirements varies enough between listings that assuming it scales with price is a real way to get burned. Confirm wall anchoring requirements directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Plan Cable and Lighting Access",
-    "explanation": "Map power, task lighting, and cable exits before assembly, since hutches can trap cables behind fixed shelving and make later access difficult. With prices in this roundup ranging roughly $160 to $1755, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Map power, task lighting, and cable exits before assembly, since hutches can trap cables behind fixed shelving and make later access difficult. Two picks priced close together, anywhere in this comparison's $160-$1755 band, can still land on opposite ends of plan cable lighting access, so price alone is a poor proxy for it here. Compare the stated figure for plan cable lighting access across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Confirm Shelf and Door Swing Clearance",
-    "explanation": "Measure shelf interiors and door swing radius in the room's actual layout, since hutch doors often swing into a different space than the credenza doors below them. Given the real spread here, from about $160 up to $1755, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Measure shelf interiors and door swing radius in the room's actual layout, since hutch doors often swing into a different space than the credenza doors below them. Products at the low end near $160 and the high end near $1755 of this comparison don't always handle shelf door swing clearance the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of shelf door swing clearance, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Coaster Home Furnishings Hartshill 5-Drawer Wood Credenza Desk with Hutch is aimed at buyers prioritizing 5 drawers, hutch with glass door." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Coaster Home Furnishings Hartshill 5-Drawer Wood Credenza Desk with Hutch is aimed at buyers prioritizing 5 drawers, hutch with glass door." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-hutch","title":"Best Office Credenzas With Hutch in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

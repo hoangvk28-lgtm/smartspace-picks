@@ -188,23 +188,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Create an Accessible Check-In Path",
-    "explanation": "Create an accessible visitor check-in path and lower service surface where required, verifying against current DOJ ADA standards rather than assuming any desk qualifies. Across this comparison's $370 to $950 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Create an accessible visitor check-in path and lower service surface where required, verifying against current DOJ ADA standards rather than assuming any desk qualifies. At every price point in this comparison's $370 to $950 range, create accessible check-in path varies enough between listings that assuming it scales with price is a real way to get burned. Confirm create accessible check-in path directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Orient Screens and Forms for Privacy",
-    "explanation": "Orient screens and forms to reduce casual viewing by other patients in the waiting area, since medical privacy expectations are higher than a typical office reception point. Products at the low end near $370 and the high end near $950 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Orient screens and forms to reduce casual viewing by other patients in the waiting area, since medical privacy expectations are higher than a typical office reception point. Two picks priced close together, anywhere in this comparison's $370-$950 band, can still land on opposite ends of orient screens forms privacy, so price alone is a poor proxy for it here. Compare the stated figure for orient screens forms privacy across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Compare Care Instructions for Repeated Cleaning",
-    "explanation": "Compare care instructions for repeated cleaning, since medical office cleaning protocols are more frequent than standard office maintenance. This matters in practice because the picks in this comparison span from about $370 to $950, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Compare care instructions for repeated cleaning, since medical office cleaning protocols are more frequent than standard office maintenance. Products at the low end near $370 and the high end near $950 of this comparison don't always handle care instructions repeated cleaning the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of care instructions repeated cleaning, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Separate Payment from Document Staging",
-    "explanation": "Separate payment and check-in from printer and document staging, since medical reception handles more paperwork volume than most reception settings. With prices in this roundup ranging roughly $370 to $950, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Separate payment and check-in from printer and document staging, since medical reception handles more paperwork volume than most reception settings. Across this comparison's $370 to $950 range, separate payment from document is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check separate payment from document against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Provide Lockable Storage Without Reducing Knee Space",
-    "explanation": "Provide lockable storage without reducing knee space, balancing patient-record security against staff comfort during a full workday. Given the real spread here, from about $370 up to $950, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Provide lockable storage without reducing knee space, balancing patient-record security against staff comfort during a full workday. Given the real spread here, from about $370 up to $950, two products can look nearly identical on the surface while differing exactly on provide lockable storage without, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on provide lockable storage without, since it's often left out of the main bullet points entirely."
   }
 ];
 
@@ -230,7 +230,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Romig Marque Curved ADA-Compliant Reception Station is aimed at buyers prioritizing 21.5\" deep work surface, 42\"w x 32\"h interior kneespace." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-hospital","title":"5 Best Reception Desks for Hospital in 2026"},{"href":"/guide/best-reception-desks-for-dental","title":"best-reception-desks-for-dental"}];

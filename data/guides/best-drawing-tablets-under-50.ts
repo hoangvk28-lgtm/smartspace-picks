@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Street Price",
-    "explanation": "Verify drawing tablets under $50's current price and include any required adapters or stand in the total cost before calling it a deal. With prices in this roundup ranging roughly $20 to $45, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify drawing tablets under $50's current price and include any required adapters or stand in the total cost before calling it a deal. With prices in this roundup ranging roughly $20 to $45, date-stamp current street price is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify date-stamp current street price directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Prioritize Line Quality Over Pressure Count",
-    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet. Given the real spread here, from about $20 up to $45, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Weigh activation force and driver stability more heavily than a high pressure-level number on the spec sheet. This matters in practice because the picks in this comparison span from about $20 to $45, and skipping a real check on line quality over pressure is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on line quality over pressure, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Check What's Actually Included",
-    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos. Across this comparison's $20 to $45 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "List the included pen, nibs, stand, glove, and cables accurately, since budget listings sometimes omit accessories shown in photos. Buyers shopping anywhere from $20 to $45 in this category often assume whats actually included is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on whats actually included stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Replacement Part Availability",
-    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model. Products at the low end near $20 and the high end near $45 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check that replacement pen nibs and cables are still sold separately for the exact model. At every price point in this comparison's $20 to $45 range, replacement part availability varies enough between listings that assuming it scales with price is a real way to get burned. Confirm replacement part availability directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Test Whether You'll Need to Upgrade Immediately",
-    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage. This matters in practice because the picks in this comparison span from about $20 to $45, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Confirm the size and connection type meet your actual needs, since an immediate upgrade erases the price advantage. Two picks priced close together, anywhere in this comparison's $20-$45 band, can still land on opposite ends of whether youll need upgrade, so price alone is a poor proxy for it here. Compare the stated figure for whether youll need upgrade across two or three similar listings side by side before trusting any single seller's number at face value."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "There's a real adjustment period since you're looking at a monitor while drawing on a separate surface, but most users adapt within a few sessions, and screenless tablets cost meaningfully less while offering the same pen precision."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Wacom Intuos Small is aimed at buyers prioritizing wired usb, emr battery-free pen." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-affordable-drawing-tablets","title":"Best Affordable Drawing Tablets in 2026"},{"href":"/guide/best-budget-drawing-tablets","title":"Best Budget Drawing Tablets in 2026"},{"href":"/guide/best-cheap-drawing-tablets","title":"Best Cheap Drawing Tablets in 2026"}];

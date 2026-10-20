@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Match Shelf Depth to the Actual Device",
-    "explanation": "Confirm server rack rails's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate. Products at the low end near $60 and the high end near $71 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Confirm server rack rails's depth and weight rating fit the specific non-rack-mountable device being stored, not just a general estimate. Two picks priced close together, anywhere in this comparison's $60-$71 band, can still land on opposite ends of shelf depth actual device, so price alone is a poor proxy for it here. Compare the stated figure for shelf depth actual device across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Vented vs Solid Shelf Design",
-    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm. This matters in practice because the picks in this comparison span from about $60 to $71, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify whether the shelf is vented for airflow or solid, since vented designs help dissipate heat from anything running warm. Products at the low end near $60 and the high end near $71 of this comparison don't always handle vented vs solid shelf the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of vented vs solid shelf, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Confirm Cantilever vs 4-Post Support",
-    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight. With prices in this roundup ranging roughly $60 to $71, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Check whether the shelf is cantilever-mounted or requires 4-post support, since cantilever shelves generally hold less weight. Across this comparison's $60 to $71 range, cantilever vs 4-post support is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check cantilever vs 4-post support against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Cage Nut vs Screw Hole Compatibility",
-    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded. Given the real spread here, from about $60 up to $71, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Confirm the shelf's mounting hardware matches your rack's hole pattern, whether square, round, or threaded. Given the real spread here, from about $60 up to $71, two products can look nearly identical on the surface while differing exactly on cage nut vs screw, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on cage nut vs screw, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Flip-Lip or Reversible Options",
-    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights. Across this comparison's $60 to $71 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Look for a flip-lip or reversible lip design if you need the shelf to handle devices of varying heights. With prices in this roundup ranging roughly $60 to $71, flip-lip reversible options is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify flip-lip reversible options directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "Only if the wall itself can support it. The rack's rating assumes a solid structural mounting point like wall studs; drywall alone typically can't support a fully loaded network cabinet, so the wall's actual construction, not just the rack's spec sheet, sets the real limit."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tecmojo 2-Pack 1U Universal Rack Mount Rails is aimed at buyers prioritizing 1u, adjustable 20.9-32\" depth, 2-pack." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tecmojo 2-Pack 1U Universal Rack Mount Rails is aimed at buyers prioritizing 1u, adjustable 20.9-32\" depth, 2-pack." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-server-racks","title":"Best Server Racks in 2026"},{"href":"/guide/best-server-racks-for-network","title":"Best Server Racks for Network in 2026"},{"href":"/guide/best-19-inch-server-racks","title":"Best 19-Inch Server Racks in 2026"}];

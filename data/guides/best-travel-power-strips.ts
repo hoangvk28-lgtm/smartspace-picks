@@ -236,7 +236,7 @@ export const faq: FaqItem[] = [
   { q: "Do travel power strips have surge protection?", a: "Not always. Ultra-compact travel strips frequently cut surge protection entirely to save size and weight, ironically the scenario where protection matters most given less predictable power quality abroad." },
   { q: "What's a cruise-approved power strip?", a: "One explicitly designed without surge-protection circuitry, since most cruise lines prohibit surge protectors and traditional power strips with internal circuitry for fire-safety policy reasons. Verify current policy with your specific cruise line before boarding." },
   { q: "Can I bring a power strip in my carry-on luggage?", a: "Standard power strips without an internal battery generally face no special TSA restrictions, unlike battery-equipped travel electronics, but always check your specific airline's current policy." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Domestic US travelers who want a proven, affordable travel power strip" },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Domestic US travelers who want a proven, affordable travel power strip" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious cruise travelers who need more outlets At $8.99, it's the lowest-cost pick in this comparison." },
 ];
 

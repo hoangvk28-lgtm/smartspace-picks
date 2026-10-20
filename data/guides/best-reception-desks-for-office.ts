@@ -248,23 +248,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Stage the Full Administrative Setup",
-    "explanation": "Lay out a monitor, keyboard, phone, sign-in device, printer, and incoming parcels together at the desk's real dimensions before assuming the nominal width is enough. Products at the low end near $115 and the high end near $870 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Lay out a monitor, keyboard, phone, sign-in device, printer, and incoming parcels together at the desk's real dimensions before assuming the nominal width is enough. Buyers shopping anywhere from $115 to $870 in this category often assume stage full administrative setup is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on stage full administrative setup stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Check Entrance Sightlines",
-    "explanation": "Verify sightlines to the entrance and waiting area from the seated staff position, since a desk positioned or oriented wrong can leave the receptionist unable to see arrivals. This matters in practice because the picks in this comparison span from about $115 to $870, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify sightlines to the entrance and waiting area from the seated staff position, since a desk positioned or oriented wrong can leave the receptionist unable to see arrivals. At every price point in this comparison's $115 to $870 range, entrance sightlines varies enough between listings that assuming it scales with price is a real way to get burned. Confirm entrance sightlines directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Plan Power and Data Locations",
-    "explanation": "Publish power, data, and grommet locations relative to where devices will actually sit, not just a generic cable hole somewhere on the desk. With prices in this roundup ranging roughly $115 to $870, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Publish power, data, and grommet locations relative to where devices will actually sit, not just a generic cable hole somewhere on the desk. Two picks priced close together, anywhere in this comparison's $115-$870 band, can still land on opposite ends of plan power data locations, so price alone is a poor proxy for it here. Compare the stated figure for plan power data locations across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Separate Quick-Access from Lockable Storage",
-    "explanation": "Split supplies that need quick access from lockable documents and keys, rather than storing everything in one open or one locked compartment. Given the real spread here, from about $115 up to $870, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Split supplies that need quick access from lockable documents and keys, rather than storing everything in one open or one locked compartment. Products at the low end near $115 and the high end near $870 of this comparison don't always handle separate quick-access from lockable the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of separate quick-access from lockable, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Measure Monitor and Chair Clearance",
-    "explanation": "Confirm monitor distance, keyboard and mouse area, and chair clearance are comfortable for a full workday, not just a quick visitor interaction. Across this comparison's $115 to $870 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm monitor distance, keyboard and mouse area, and chair clearance are comfortable for a full workday, not just a quick visitor interaction. Across this comparison's $115 to $870 range, monitor chair clearance is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check monitor chair clearance against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   }
 ];
 
@@ -290,7 +290,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-reception-desks-with-storage","title":"best-reception-desks-with-storage"},{"href":"/guide/best-modern-reception-desks","title":"7 Best Modern Reception Desks in 2026"}];

@@ -228,23 +228,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Full Installed Footprint",
-    "explanation": "Publish the full L-shaped footprint, not just the front width, since the return adds real floor depth a straight desk doesn't have. This matters in practice because the picks in this comparison span from about $250 to $870, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Publish the full L-shaped footprint, not just the front width, since the return adds real floor depth a straight desk doesn't have. Two picks priced close together, anywhere in this comparison's $250-$870 band, can still land on opposite ends of full installed footprint, so price alone is a poor proxy for it here. Compare the stated figure for full installed footprint across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Inside Reach and Chair Clearance",
-    "explanation": "Measure staff reach and chair movement around the inside corner, since a tight corner can create a dead zone that's technically desktop space but practically unusable. With prices in this roundup ranging roughly $250 to $870, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Measure staff reach and chair movement around the inside corner, since a tight corner can create a dead zone that's technically desktop space but practically unusable. Products at the low end near $250 and the high end near $870 of this comparison don't always handle inside reach chair clearance the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of inside reach chair clearance, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Visitor Approach and Queue Position",
-    "explanation": "Map where visitors stand relative to the L-shape so the return improves circulation instead of creating a blind corner or a queue that blocks the entrance. Given the real spread here, from about $250 up to $870, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Map where visitors stand relative to the L-shape so the return improves circulation instead of creating a blind corner or a queue that blocks the entrance. Across this comparison's $250 to $870 range, visitor approach queue position is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check visitor approach queue position against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Left/Right Handing",
-    "explanation": "Verify which side the storage cabinet or return sits on before ordering, and check whether the manufacturer offers a mirrored configuration if your room needs the opposite orientation. Across this comparison's $250 to $870 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Verify which side the storage cabinet or return sits on before ordering, and check whether the manufacturer offers a mirrored configuration if your room needs the opposite orientation. Given the real spread here, from about $250 up to $870, two products can look nearly identical on the surface while differing exactly on leftright handing, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on leftright handing, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Storage and Support Placement",
-    "explanation": "Locate seams, support panels, and drawer placement relative to where a chair and knees will actually sit, since center supports can block legroom in the inside corner. Products at the low end near $250 and the high end near $870 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Locate seams, support panels, and drawer placement relative to where a chair and knees will actually sit, since center supports can block legroom in the inside corner. With prices in this roundup ranging roughly $250 to $870, storage support placement is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify storage support placement directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -270,7 +270,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "L-Shaped Wooden Commercial Reception Desk is aimed at buyers prioritizing 71\"l x 34\"w left-hand l-shape (87\" version also available)." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"8 Best Reception Desks in 2026"},{"href":"/guide/best-l-shaped-reception-desks-with-counter","title":"5 Best L-Shaped Reception Desks with Counter in 2026"},{"href":"/guide/best-u-shaped-reception-desks","title":"best-u-shaped-reception-desks"}];

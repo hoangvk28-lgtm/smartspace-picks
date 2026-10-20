@@ -229,7 +229,7 @@ export const faq: FaqItem[] = [
   { q: "Can a low-profile ergonomic keyboard have tenting adjustability?", a: "It's possible but less common, a thinner case may have genuinely less internal room for tenting mechanisms, verify this specifically if tenting matters to you." },
   { q: "Do I need a different wrist rest for a low-profile keyboard?", a: "Often yes, a lower-profile keyboard body needs less wrist rest height for proper positioning than a taller standard keyboard, look for a rest proportioned to the actual keyboard height." },
   { q: "Can I replace the switches on a low-profile mechanical keyboard myself?", a: "Verify this specifically, low-profile switches use a different physical format than standard switches, so hot-swap compatibility isn't guaranteed the same way it is for standard-height mechanical keyboards." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers wanting explicitly disclosed low-profile mechanical switches with programmable macros" },
+  { "q": "If you only read one recommendation from this comparison, which pick is it?", a: "Buyers wanting explicitly disclosed low-profile mechanical switches with programmable macros" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

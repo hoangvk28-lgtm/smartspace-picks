@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Date-Stamp Current Price and Add Delivery Costs",
-    "explanation": "Date-stamp current item price and add freight or delivery separately, since prices change and a low sticker price can hide meaningful shipping costs. This matters in practice because the picks in this comparison span from about $70 to $206, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Date-stamp current item price and add freight or delivery separately, since prices change and a low sticker price can hide meaningful shipping costs. Products at the low end near $70 and the high end near $206 of this comparison don't always handle date-stamp current price add the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of date-stamp current price add, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "List Actually Included Features",
-    "explanation": "List counter, storage, grommets, and power features actually included, since budget listings can look similar in photography while differing significantly in what's actually included. With prices in this roundup ranging roughly $70 to $206, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "List counter, storage, grommets, and power features actually included, since budget listings can look similar in photography while differing significantly in what's actually included. Across this comparison's $70 to $206 range, list actually included features is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check list actually included features against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Publish Panel and Edge Construction",
-    "explanation": "Publish panel or substrate thickness and edge construction where documented, since thinner budget panels flex and chip more easily under daily use. Given the real spread here, from about $70 up to $206, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Publish panel or substrate thickness and edge construction where documented, since thinner budget panels flex and chip more easily under daily use. Given the real spread here, from about $70 up to $206, two products can look nearly identical on the surface while differing exactly on panel edge construction, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on panel edge construction, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Time Assembly and Inspect Joints",
-    "explanation": "Time assembly and inspect joint or leveling quality after moving or re-leveling, since budget hardware can loosen faster than commercial-grade fasteners. Across this comparison's $70 to $206 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Time assembly and inspect joint or leveling quality after moving or re-leveling, since budget hardware can loosen faster than commercial-grade fasteners. With prices in this roundup ranging roughly $70 to $206, time assembly inspect joints is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify time assembly inspect joints directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Compare Warranty and Replacement Parts",
-    "explanation": "Compare warranty and replacement-part support, since budget desks vary widely in whether a broken component can be repaired or requires full replacement. Products at the low end near $70 and the high end near $206 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Compare warranty and replacement-part support, since budget desks vary widely in whether a broken component can be repaired or requires full replacement. This matters in practice because the picks in this comparison span from about $70 to $206, and skipping a real check on warranty replacement parts is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on warranty replacement parts, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
+  { "q": "Which product in this roundup earns the top overall recommendation?", a: "Tribesigns Reception Desk with Counter is aimed at buyers prioritizing 46.5\"w x 19.7\"d desktop, 43.9\" counter height." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-reception-desks","title":"best-reception-desks"},{"href":"/guide/best-reception-desks-under-500","title":"best-reception-desks-under-500"},{"href":"/guide/best-compact-reception-desks","title":"6 Best Compact Reception Desks in 2026"}];

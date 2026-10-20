@@ -148,23 +148,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Stage Books, Scanner, and Monitor Together",
-    "explanation": "Stage books, a barcode or RFID scanner, monitor, and printer together at the desk's real dimensions before assuming the nominal footprint is enough. Products at the low end near $459 and the high end near $950 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Stage books, a barcode or RFID scanner, monitor, and printer together at the desk's real dimensions before assuming the nominal footprint is enough. Products at the low end near $459 and the high end near $950 of this comparison don't always handle stage books scanner monitor the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of stage books scanner monitor, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Provide Cart Parking Without Blocking Approach",
-    "explanation": "Provide cart parking or book staging space without blocking patron approach, since library service desks handle more physical materials than a typical office reception point. This matters in practice because the picks in this comparison span from about $459 to $950, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Provide cart parking or book staging space without blocking patron approach, since library service desks handle more physical materials than a typical office reception point. Across this comparison's $459 to $950 range, provide cart parking without is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check provide cart parking without against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Accessible Service and Circulation",
-    "explanation": "Verify an accessible service counter and circulation path, checking against current ADA standards where the desk claims accessibility. With prices in this roundup ranging roughly $459 to $950, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify an accessible service counter and circulation path, checking against current ADA standards where the desk claims accessibility. Given the real spread here, from about $459 up to $950, two products can look nearly identical on the surface while differing exactly on accessible service circulation, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on accessible service circulation, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Check Sightlines Around Tall Stacks",
-    "explanation": "Check sightlines around tall stacks or counter panels, since library layouts often place the service desk near sightline-blocking shelving. Given the real spread here, from about $459 up to $950, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check sightlines around tall stacks or counter panels, since library layouts often place the service desk near sightline-blocking shelving. With prices in this roundup ranging roughly $459 to $950, sightlines around tall stacks is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify sightlines around tall stacks directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Separate Holds and Shared Storage from Personal Storage",
-    "explanation": "Separate holds, shared supplies, and personal storage, since library reception often manages more categories of stored items than a standard front desk. Across this comparison's $459 to $950 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Separate holds, shared supplies, and personal storage, since library reception often manages more categories of stored items than a standard front desk. This matters in practice because the picks in this comparison span from about $459 to $950, and skipping a real check on separate holds shared storage is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on separate holds shared storage, since a generic product photo or title alone won't confirm it."
   }
 ];
 
@@ -190,7 +190,7 @@ export const faq = [
     "a": "A grommet hole only creates a pass-through point for wires; it does not route or organize cables on its own. Desks with a dedicated cable trough, baffle, or labeled routing path keep cords genuinely tidy, while a bare grommet hole still requires the buyer to manage the run themselves."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." },
+  { "q": "What's the single best pick to come out of this comparison?", a: "Offices To Go L-Shaped Reception Desk with Transaction Top is aimed at buyers prioritizing 71\"w desk + 42\"w return, reversible left/right." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-ada-compliant-reception-desks","title":"best-ada-compliant-reception-desks"},{"href":"/guide/best-reception-desks-for-retail","title":"best-reception-desks-for-retail"},{"href":"/guide/best-large-reception-desks","title":"best-large-reception-desks"}];

@@ -208,23 +208,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Exact-Model UL Classification Evidence",
-    "explanation": "Check that ul rated fireproof safes's UL classification is documented for the exact model, not inferred from a generic UL logo or a related product in the same line. This matters in practice because the picks in this comparison span from about $68 to $490, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Check that ul rated fireproof safes's UL classification is documented for the exact model, not inferred from a generic UL logo or a related product in the same line. This matters in practice because the picks in this comparison span from about $68 to $490, and skipping a real check on exact-model ul classification evidence is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Check the listing's bullet points and technical specification table directly for the precise wording or figure on exact-model ul classification evidence, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Publish the Fire Time and Test Temperature Together",
-    "explanation": "UL fire endurance tests specify both a duration and a furnace temperature; check that the listing states both, since either figure alone is incomplete. With prices in this roundup ranging roughly $68 to $490, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "UL fire endurance tests specify both a duration and a furnace temperature; check that the listing states both, since either figure alone is incomplete. Buyers shopping anywhere from $68 to $490 in this category often assume fire time test temperature is a given at that price, which isn't always true once you check the actual listing. Look for the exact figure or spec on fire time test temperature stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   },
   {
     "criterion": "Verify Protected-Content Scope",
-    "explanation": "Check whether the UL rating covers paper documents only, or also digital media, since these are sometimes classified separately even under the same UL program. Given the real spread here, from about $68 up to $490, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check whether the UL rating covers paper documents only, or also digital media, since these are sometimes classified separately even under the same UL program. At every price point in this comparison's $68 to $490 range, protected-content scope varies enough between listings that assuming it scales with price is a real way to get burned. Confirm protected-content scope directly rather than inferring it from the product name or category alone, since naming conventions in this space are inconsistent at best."
   },
   {
     "criterion": "Separate Impact and Explosion Claims From Basic Endurance",
-    "explanation": "Some models add drop or impact testing beyond basic fire endurance; treat this as an additional, separate claim rather than assuming all UL-classified safes include it. Across this comparison's $68 to $490 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Some models add drop or impact testing beyond basic fire endurance; treat this as an additional, separate claim rather than assuming all UL-classified safes include it. Two picks priced close together, anywhere in this comparison's $68-$490 band, can still land on opposite ends of separate impact explosion claims, so price alone is a poor proxy for it here. Compare the stated figure for separate impact explosion claims across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Link the Model Number to Official Documentation",
-    "explanation": "Cross-check the exact model number against UL's own database or the manufacturer's documentation where possible, rather than relying solely on the product listing's claim. Products at the low end near $68 and the high end near $490 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Cross-check the exact model number against UL's own database or the manufacturer's documentation where possible, rather than relying solely on the product listing's claim. Products at the low end near $68 and the high end near $490 of this comparison don't always handle link model number official the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of link model number official, since that's often where the honest, unfiltered answer actually shows up."
   }
 ];
 
@@ -250,7 +250,7 @@ export const faq = [
     "a": "For anything beyond a small portable chest, yes, if theft deterrence matters to you: an unanchored safe, however heavy, can still be carried off by a determined thief with the right tools and enough time. Most safes over about 1 cubic foot include pre-drilled mounting holes and hardware for this reason."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700-degreef." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

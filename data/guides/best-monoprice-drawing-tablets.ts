@@ -92,23 +92,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Classify the Tablet Architecture",
-    "explanation": "Confirm whether monoprice drawing tablets is a screenless pen tablet, pen display, or standalone device before comparing specs. This is the kind of detail that separates a confident purchase from a guessing game, especially since marketing copy tends to gloss over it. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm whether monoprice drawing tablets is a screenless pen tablet, pen display, or standalone device before comparing specs. Skipping a real check on classify tablet architecture is exactly how buyers end up overpaying for a feature they didn't need, or underbuying and discovering a dealbreaker only after delivery. Cross-check classify tablet architecture against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Verify Active Drawing Area",
-    "explanation": "Check active area separately from chassis or display diagonal size. A listing photo rarely makes this obvious, so it's worth confirming directly rather than assuming it based on price or brand reputation alone. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "Check active area separately from chassis or display diagonal size. A listing photo rarely makes active drawing area obvious, so it's worth confirming directly rather than assuming it based on price or brand reputation alone. Scan the full product description and Q&A section on the listing for specifics on active drawing area, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Evaluate Real Pen Behavior",
-    "explanation": "Test activation force, tilt, and pressure response rather than trusting the spec sheet number alone. Skipping this check is exactly how buyers end up overpaying for a feature they didn't need, or underbuying and discovering a dealbreaker only after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Test activation force, tilt, and pressure response rather than trusting the spec sheet number alone. Evaluate real pen behavior. Real pen behavior is the kind of detail that separates a confident purchase from a guessing game, especially since marketing copy tends to gloss over it. Verify real pen behavior directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   },
   {
     "criterion": "Confirm Current Driver Support",
-    "explanation": "Verify current OS compatibility by the exact model, not an inherited older compatibility list. This matters in practice because two products that look nearly identical in photos and headline specs can differ exactly on this point, and that gap is usually what separates a good fit from a return. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "Verify current OS compatibility by the exact model, not an inherited older compatibility list. Two otherwise similar listings can diverge sharply on current driver support, and that's usually invisible until you dig past the headline bullet points. Check the listing's bullet points and technical specification table directly for the precise wording or figure on current driver support, since a generic product photo or title alone won't confirm it."
   },
   {
     "criterion": "Weigh Included Accessories",
-    "explanation": "Check included pen, nibs, stand, and cables against total cost of ownership. This is the kind of detail that separates a confident purchase from a guessing game, especially since marketing copy tends to gloss over it. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Check included pen, nibs, stand, and cables against total cost of ownership. Marketing copy rarely calls out included accessories directly, so treating it as a given based on the product category alone is a common and avoidable mistake. Look for the exact figure or spec on included accessories stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
   }
 ];
 

@@ -216,23 +216,23 @@ export const howToChoose: HowToChooseSection[] = [
 export const buyingCriteria = [
   {
     "criterion": "Require Documented Fire Evidence for the Exact Chest",
-    "explanation": "Verify box fireproof safes's specific fire classification rather than assuming a chest-style box automatically carries the same rating as a full-size safe. This matters in practice because the picks in this comparison span from about $31 to $100, and skipping this check is exactly how buyers end up overpaying for a feature they didn't need or underbuying and missing a dealbreaker only discovered after delivery. Look for the exact figure or spec stated in the product title, bullet points, or technical details section of the listing, not a vague marketing phrase that avoids giving a real number."
+    "explanation": "Verify box fireproof safes's specific fire classification rather than assuming a chest-style box automatically carries the same rating as a full-size safe. Two picks priced close together, anywhere in this comparison's $31-$100 band, can still land on opposite ends of documented fire evidence exact, so price alone is a poor proxy for it here. Compare the stated figure for documented fire evidence exact across two or three similar listings side by side before trusting any single seller's number at face value."
   },
   {
     "criterion": "Check Water Resistance Separately",
-    "explanation": "A fireproof rating does not guarantee waterproofing; check the water claim independently before assuming basement or flood-zone protection. With prices in this roundup ranging roughly $31 to $100, this is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Check the listing's bullet points and technical specification table directly for the precise wording or figure, since a generic product photo or title alone won't confirm it."
+    "explanation": "A fireproof rating does not guarantee waterproofing; check the water claim independently before assuming basement or flood-zone protection. Products at the low end near $31 and the high end near $100 of this comparison don't always handle water resistance separately the way you'd expect from price alone, which is exactly why it deserves a direct check instead of an assumption. Search the listing's Q&A and recent reviews for real mentions of water resistance separately, since that's often where the honest, unfiltered answer actually shows up."
   },
   {
     "criterion": "Calculate Loaded Carry Weight",
-    "explanation": "Chests are marketed on portability, so weigh them loaded with real documents and media, not just empty, before assuming one person can carry it out during an evacuation. Given the real spread here, from about $31 up to $100, two products can look nearly identical on the surface while differing exactly on this point, and that's usually the detail buyers regret not checking first. Verify this directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
+    "explanation": "Chests are marketed on portability, so weigh them loaded with real documents and media, not just empty, before assuming one person can carry it out during an evacuation. Across this comparison's $31 to $100 range, calculate loaded carry weight is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Cross-check calculate loaded carry weight against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
   },
   {
     "criterion": "Measure Document Fit and Lid Clearance",
-    "explanation": "Confirm letter or legal documents actually fit as intended, and check lid-opening clearance if the chest will sit on a shelf or in a closet. Across this comparison's $31 to $100 range, this is the kind of spec that a listing photo won't make obvious, so it's worth confirming before adding anything to cart rather than assuming it based on price alone. Scan the full product description and Q&A section on the listing for the specific number or confirmation, since it's often left out of the main bullet points entirely."
+    "explanation": "Confirm letter or legal documents actually fit as intended, and check lid-opening clearance if the chest will sit on a shelf or in a closet. Given the real spread here, from about $31 up to $100, two products can look nearly identical on the surface while differing exactly on document fit lid clearance, and that's usually the detail buyers regret not checking first. Scan the full product description and Q&A section on the listing for specifics on document fit lid clearance, since it's often left out of the main bullet points entirely."
   },
   {
     "criterion": "Understand the Real Theft Deterrence Level",
-    "explanation": "A portable chest with a simple key or combination lock deters casual snooping, not a determined thief; don't treat chest-class security as equivalent to a bolted-down safe. Products at the low end near $31 and the high end near $100 of this comparison don't always differ the way you'd expect on this point, which is exactly why it deserves a direct check instead of an assumption. Cross-check this against the manufacturer's own product page or the listing's detailed specs, since third-party summaries and short titles can leave this detail out."
+    "explanation": "A portable chest with a simple key or combination lock deters casual snooping, not a determined thief; don't treat chest-class security as equivalent to a bolted-down safe. With prices in this roundup ranging roughly $31 to $100, understand real theft deterrence is one of the details that actually separates a good fit from a frustrating return, not a minor footnote buried in the spec sheet. Verify understand real theft deterrence directly against the seller's own spec sheet or listed bullet points before buying, rather than inferring it from the price tier or product category alone."
   }
 ];
 
@@ -258,7 +258,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", "a": "SentrySafe 0.25 Cu Ft Fire Chest with Key Lock is aimed at buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified" },
+  { "q": "What's the single best pick to come out of this comparison?", "a": "SentrySafe 0.25 Cu Ft Fire Chest with Key Lock is aimed at buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

@@ -256,7 +256,7 @@ export const faq: FaqItem[] = [
   { q: "If the indicator light is still green, is my surge protector fully protecting me?", a: "Not necessarily. The indicator light only confirms the MOV hasn't completely failed, it doesn't measure partial degradation, treat it as a binary worst-case signal, not a capacity gauge." },
   { q: "Is 'UL listed' the same as surge-protection certified?", a: "Not necessarily. Generic UL listing addresses basic electrical safety, UL 1449 is the specific standard for surge-suppression performance testing, a product can be UL listed without UL 1449 certification." },
   { q: "Should I replace my surge protector after a lightning strike nearby?", a: "Generally yes, even if it appears to still work. A surge protector that successfully absorbed a significant surge event has likely used up meaningful protective capacity in that moment." },
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers who want high genuine surge protection capacity for a full desk setup" },
+  { "q": "Out of everything compared here, which one should most buyers pick?", a: "Buyers who want high genuine surge protection capacity for a full desk setup" },
   { q: "Which pick offers the best value for a tight budget?", a: "Budget-conscious buyers with light-duty electronics needs At $11.08, it's the lowest-cost pick in this comparison." },
 ];
 
