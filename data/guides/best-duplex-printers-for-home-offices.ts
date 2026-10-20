@@ -480,7 +480,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "How do I know if a printer's duplex printing is actually confirmed?",
-    a: "Check the product listing and spec sheet directly for the word \"duplex\" or \"two-sided printing\" stated explicitly. Several capable all-in-one printers, like the Canon PIXMA TR8620a and Brother INKvestment 4355 in this guide, don't state it clearly in their listings, so we've included them only as secondary alternatives rather than confirmed duplex picks.",
+    "a": "Check the product listing and spec sheet directly for the word \"duplex\" or \"two-sided printing\" stated explicitly. Several capable all-in-one printers, like the Canon PIXMA TR8620a and Brother INKvestment 4355 in this guide, don't state it clearly in their listings, so we've included them only as secondary alternatives rather than confirmed duplex picks.",
   },
 ];
 

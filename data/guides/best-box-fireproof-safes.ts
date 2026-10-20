@@ -258,7 +258,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "SentrySafe 0.25 Cu Ft Fire Chest with Key Lock is aimed at buyers prioritizing ul 1/2hr at 1550 degreesf, etl digital media verified" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes-for-home","title":"Best Fireproof Safes for Home in 2026"},{"href":"/guide/best-fireproof-safes-for-document","title":"Best Fireproof Safes for Document in 2026"}];

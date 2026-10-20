@@ -1,7 +1,7 @@
 export const guideSlug = "best-digital-notebooks-that-feel-like-paper";
 export const guideTitle = "5 Best Digital Notebooks That Feel Like Paper in 2026";
 export const metaTitle = "Best Digital Notebooks That Feel Like Paper";
-export const metaDescription = "5 E Ink writing tablets compared on their actual textured-screen technology rather than marketing language, since \\\"feels like paper\\\" depends on specific.";
+export const metaDescription = "5 E Ink writing tablets compared on their actual textured-screen technology rather than marketing language, since \"feels like paper\" depends on specific.";
 export const mainKeyword = "digital notebook that feels like paper";
 export const introParagraphs = [
   "This is a real, distinct product category from reusable paper notebooks: every product here is an E Ink tablet with a textured display and a friction-tip stylus, engineered specifically to replicate the drag and resistance of pen on paper rather than the frictionless glass of a normal touchscreen.",

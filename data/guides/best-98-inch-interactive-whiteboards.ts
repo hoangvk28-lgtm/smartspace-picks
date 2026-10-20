@@ -172,11 +172,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "JASZDOT 86in Smart Board",
-        "text": "Buyers prioritizing 86in 4k, android 14, 400+ nits At $2,499.00, it's the lowest-cost pick in this comparison."
+        "text": "JASZDOT 86in Smart Board is aimed at buyers prioritizing 86in 4k, android 14, 400+ nits At $2,499.00, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "GTek 98in Smart Board",
-        "text": "Buyers prioritizing 98in 4k, dual ops slot At $6,999.99, it sits at the higher end of this comparison's price range."
+        "text": "GTek 98in Smart Board is aimed at buyers prioritizing 98in 4k, dual ops slot At $6,999.99, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to JASZDOT 86in Smart Board unless the pricier pick's specific advantage applies to your situation."
@@ -186,11 +186,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers prioritizing 98in 4k, dual ops slot"
+        "text": "GTek 98in Smart Board is aimed at buyers prioritizing 98in 4k, dual ops slot"
       },
       {
         "label": "Save if",
-        "text": "Buyers prioritizing 86in 4k, android 14, 400+ nits"
+        "text": "JASZDOT 86in Smart Board is aimed at buyers prioritizing 86in 4k, android 14, 400+ nits"
       }
     ]
   },
@@ -199,11 +199,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "75in 4K Dual OS Interactive Smart Whiteboard",
-        "text": "Buyers prioritizing 75in 4k, dual android + windows os."
+        "text": "75in 4K Dual OS Interactive Smart Whiteboard is aimed at buyers prioritizing 75in 4k, dual android + windows os."
       },
       {
         "label": "GTek 98in Smart Board",
-        "text": "Buyers prioritizing 98in 4k, dual ops slot."
+        "text": "GTek 98in Smart Board is aimed at buyers prioritizing 98in 4k, dual ops slot."
       }
     ],
     "note": "Default to 75in 4K Dual OS Interactive Smart Whiteboard unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -272,7 +272,7 @@ export const faq = [
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 98in 4k, dual ops slot" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "GTek 98in Smart Board is aimed at buyers prioritizing 98in 4k, dual ops slot" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-86-inch-interactive-whiteboards","title":"8 Best 86-Inch Interactive Whiteboards"},{"href":"/guide/best-100-inch-interactive-whiteboards","title":"5 Best 100-Inch Interactive Whiteboards"},{"href":"/guide/best-large-interactive-whiteboards","title":"7 Best Large Interactive Whiteboards"}];

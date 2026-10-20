@@ -290,7 +290,7 @@ export const faq = [
     "a": "Not always. Some manufacturers restrict compatibility to their own branded panels or require a specific voltage and connector type, so check the station's documented solar input specs and connector type before assuming a third-party panel will work."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 1070wh, 1500w, includes 200w solar panel" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Jackery Solar Generator 1000 v2 and 200W Solar Panel is aimed at buyers prioritizing 1070wh, 1500w, includes 200w solar panel" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-portable-power-stations-with-solar-panel","title":"Best Portable Power Stations With Solar Panel in 2026"},{"href":"/guide/best-2000w-portable-power-stations-with-solar-panel","title":"Best 2000W Portable Power Stations With Solar Panel in 2026"},{"href":"/guide/best-portable-power-stations","title":"Best Portable Power Stations in 2026"}];

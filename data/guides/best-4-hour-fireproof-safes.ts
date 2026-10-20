@@ -250,7 +250,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe is aimed at buyers prioritizing 2.0 cu ft, ul 2hr at 1850 degreesf" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-1-hour-fireproof-safes","title":"Best 1 Hour Fireproof Safes in 2026"},{"href":"/guide/best-2-hour-fireproof-safes","title":"Best 2 Hour Fireproof Safes in 2026"},{"href":"/guide/best-fireproof-safes","title":"Best Fireproof Safes in 2026"}];

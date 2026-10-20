@@ -155,7 +155,7 @@ export const howToChoose: HowToChooseSection[] = [
       },
       {
         "label": "Small Desktop Glass Whiteboard Dry-Erase-Board",
-        "text": "Buyers who searched \\\"electronic\\\" but are fine with a proven standard whiteboard. At $27.99, it sits at the higher end of this comparison's price range."
+        "text": "Buyers who searched \"electronic\" but are fine with a proven standard whiteboard. At $27.99, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to AMUSIGHT Double-Sided Magnetic White Board with Stand unless best traditional board (not electronic) specifically applies to your situation."
@@ -201,7 +201,7 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers who searched \\\"electronic\\\" but are fine with a proven standard whiteboard."
+        "text": "Buyers who searched \"electronic\" but are fine with a proven standard whiteboard."
       },
       {
         "label": "Save if",
@@ -225,7 +225,7 @@ export const faq: FaqItem[] = [
   { q: "Which standard board has the best rating if I don't need electronics?", a: "The Small Desktop Glass Whiteboard with Keyboard Stand, at 4.8 stars." },
   { q: "Which has the most reviews overall?", a: "The TSJ OFFICE Small Desktop Whiteboard, with 2,500 reviews." },
   { q: "Is there a cheaper large magnetic board?", a: "Yes, the AMUSIGHT Double-Sided Magnetic White Board at $18.99, similarly sized to the pricier Tankee option." },
-  { q: "Which pick in this comparison offers the most writing area for the price?", a: "Buyers who searched \\\"electronic\\\" but are fine with a proven standard whiteboard." },
+  { q: "Which pick in this comparison offers the most writing area for the price?", "a": "Buyers who searched \"electronic\" but are fine with a proven standard whiteboard." },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [

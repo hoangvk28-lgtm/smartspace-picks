@@ -270,7 +270,7 @@ export const faq = [
     "a": "Not automatically. Fire and water resistance are tested and certified separately, even on the same product, so check both ratings independently rather than assuming a fireproof safe is also waterproof, or vice versa. Many current SentrySafe and Master Lock models document both, but budget safes may only address one."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 2.5 cu ft, solid cold-rolled steel" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "2.5 Cu Ft Home Safe with Fireproof/Waterproof Bag is aimed at buyers prioritizing 2.5 cu ft, solid cold-rolled steel" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-2-cu-ft-fireproof-safes","title":"Best 2 Cu ft Fireproof Safes in 2026"},{"href":"/guide/best-2-cubic-feet-fireproof-safes","title":"Best 2 Cubic Feet Fireproof Safes in 2026"},{"href":"/guide/best-4-cu-ft-fireproof-safes","title":"Best 4 Cu ft Fireproof Safes in 2026"}];

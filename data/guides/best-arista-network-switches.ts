@@ -132,11 +132,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
-        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison."
+        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
-        "text": "Buyers prioritizing 48x 10g sfp+ ports, renewed At $299.90, it sits at the higher end of this comparison's price range."
+        "text": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed At $299.90, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage applies to your situation."
@@ -146,11 +146,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers prioritizing 48x 10g sfp+ ports, renewed"
+        "text": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed"
       },
       {
         "label": "Save if",
-        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed"
+        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed"
       }
     ]
   },
@@ -159,11 +159,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
-        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed."
+        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed."
       },
       {
         "label": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
-        "text": "Buyers prioritizing 48x 10g sfp+ ports, renewed."
+        "text": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed."
       }
     ],
     "note": "Default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -216,10 +216,10 @@ export const faq = [
     "a": "Generally yes for the hardware itself, Arista builds for continuous data center operation. The bigger question is EOS software support and licensing on renewed units, worth confirming before assuming full feature parity with new hardware."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed" },
+  { q: "Which pick offers the best value for a tight budget?", "a": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) is aimed at buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed At $119.00, it's the lowest-cost pick in this comparison." },
   { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $119.00 to $299.90, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 48x 10g sfp+ ports, renewed Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) is aimed at buyers prioritizing 48x 10g sfp+ ports, renewed Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
   { q: "How did you narrow down the picks in this comparison?", a: "We compared real specs, stated features, and price against the actual use case each product claims to serve, rather than ranking by price or rating alone." },
 ];
 

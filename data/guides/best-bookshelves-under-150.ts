@@ -143,7 +143,7 @@ export const howToChoose: HowToChooseSection[] = [
     subheading: "For a Cozy Reading Corner Specifically",
     cards: [
       { label: "Look for", text: "A bookshelf with a genuinely functional lower cabinet space that can double as seating, not just standard storage." },
-      { label: "In this comparison", text: "The Loomie 78.7\" Tall Bookcase's deep lower cabinet is specifically designed to double as a reading nook with a cushion added." },
+      { label: "In this comparison", "text": "The Loomie 78.7\" Tall Bookcase's deep lower cabinet is specifically designed to double as a reading nook with a cushion added." },
     ],
   },
   {

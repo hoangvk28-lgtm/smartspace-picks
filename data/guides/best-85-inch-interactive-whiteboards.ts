@@ -232,11 +232,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "YCKJNB 86in Smart Board",
-        "text": "Buyers prioritizing 86in 4k, 13mp camera, 8-mic array At $2,499.00, it's the lowest-cost pick in this comparison."
+        "text": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array At $2,499.00, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "JAV 86in Smart Board Pro",
-        "text": "Buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar At $2,499.00, it sits at the higher end of this comparison's price range."
+        "text": "JAV 86in Smart Board Pro is aimed at buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar At $2,499.00, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to YCKJNB 86in Smart Board unless the pricier pick's specific advantage applies to your situation."
@@ -246,11 +246,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar"
+        "text": "JAV 86in Smart Board Pro is aimed at buyers prioritizing 86in 4k, 48mp ai camera, 100w soundbar"
       },
       {
         "label": "Save if",
-        "text": "Buyers prioritizing 86in 4k, 13mp camera, 8-mic array"
+        "text": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array"
       }
     ]
   },
@@ -259,11 +259,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Dornium 86in Smart Board",
-        "text": "Buyers prioritizing 86in 4k, edla-certified android 14."
+        "text": "JAV 86in Smart Board is aimed at buyers prioritizing 86in 4k, edla-certified android 14."
       },
       {
         "label": "YIXZSWD 85in Interactive Whiteboard with Stand",
-        "text": "Buyers prioritizing 85in 4k, wifi 6, stand included."
+        "text": "YIXZSWD 85in Interactive Whiteboard with Stand is aimed at buyers prioritizing 85in 4k, wifi 6, stand included."
       }
     ],
     "note": "Default to Dornium 86in Smart Board unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -332,7 +332,7 @@ export const faq = [
     "a": "Yes, in almost every case. An OPS (Open Pluggable Specification) slot is just an expansion bay, the actual Windows computer module that plugs into it is sold separately and can cost as much as a mid-range laptop. Confirm the OPS module price before assuming Windows compatibility is included in the board's sticker price."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 86in 4k, 13mp camera, 8-mic array" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "YCKJNB 86in Smart Board is aimed at buyers prioritizing 86in 4k, 13mp camera, 8-mic array" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-86-inch-interactive-whiteboards","title":"8 Best 86-Inch Interactive Whiteboards"},{"href":"/guide/best-82-inch-interactive-whiteboards","title":"8 Best 82-Inch Interactive Whiteboards"},{"href":"/guide/best-large-interactive-whiteboards","title":"7 Best Large Interactive Whiteboards"}];

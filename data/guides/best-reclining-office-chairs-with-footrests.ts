@@ -450,7 +450,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "How long should a chair's footrest be for a taller person?",
-    a: "A user around 5'10\" reclined near 140 degrees generally needs roughly 28-32 inches of footrest extension for full calf support. Shorter footrests around 18 inches, common on entry-level chairs, can leave your calves unsupported at a deeper recline.",
+    "a": "A user around 5'10\" reclined near 140 degrees generally needs roughly 28-32 inches of footrest extension for full calf support. Shorter footrests around 18 inches, common on entry-level chairs, can leave your calves unsupported at a deeper recline.",
   },
   {
     q: "Is a chair's weight limit the same reclined and upright?",

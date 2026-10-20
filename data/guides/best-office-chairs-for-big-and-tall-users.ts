@@ -469,7 +469,7 @@ export const faq: FaqItem[] = [
   },
   {
     q: "Do standard office chairs fit tall users, not just heavy ones?",
-    a: "Not always. Standard chairs typically max out around 18 to 20 inches of seat height, while users over 6'2\" generally need 19 to 22 inches for a proper knee angle. Look for a listing that specifically addresses tall-user fit, like the GABRYLLY in this list, rather than assuming 'big and tall' branding covers height automatically.",
+    "a": "Not always. Standard chairs typically max out around 18 to 20 inches of seat height, while users over 6'2\" generally need 19 to 22 inches for a proper knee angle. Look for a listing that specifically addresses tall-user fit, like the GABRYLLY in this list, rather than assuming 'big and tall' branding covers height automatically.",
   },
   {
     q: "What is a gas cylinder class rating and why does it matter?",

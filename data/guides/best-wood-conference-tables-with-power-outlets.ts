@@ -211,11 +211,11 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Around $197.99",
-          "YITAHOME 94.5\\\" Boat Shaped Conference Table with Power Outlets"
+          "YITAHOME 94.5\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
           "Around $236.99",
-          "YITAHOME 70.8\\\" Boat Shaped Conference Table with Power Outlets"
+          "YITAHOME 70.8\" Boat Shaped Conference Table with Power Outlets"
         ],
         [
           "Around $269.99",
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Larger conference tables, especially anything over roughly 6 feet, commonly ship in two or more packages to protect the tabletop and base during transit and to keep any single box within manageable shipping weight. The boxes can arrive on different days, so it is worth waiting for all of them before starting assembly."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 118\\\"l x 52\\\"w x 30\\\"h, seats 10" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "10ft Conference Table with Built-In Power Outlet is aimed at buyers prioritizing 118\"l x 52\"w x 30\"h, seats 10" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-conference-tables-with-built-in-power","title":"Best Conference Tables With Built-In Power in 2026"},{"href":"/guide/best-conference-tables-with-power-outlets","title":"Best Conference Tables With Power Outlets in 2026"},{"href":"/guide/best-conference-tables-with-outlets","title":"Best Conference Tables With Outlets in 2026"}];

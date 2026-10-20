@@ -211,11 +211,11 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Around $179.99",
-          "60\\\" Buffet Cabinet with Storage"
+          "60\" Buffet Cabinet with Storage"
         ],
         [
           "Around $199.99",
-          "ComfyCorner 60\\\" Buffet Cabinet with Storage"
+          "ComfyCorner 60\" Buffet Cabinet with Storage"
         ],
         [
           "Around $204.82",
@@ -227,19 +227,19 @@ export const howToChoose: HowToChooseSection[] = [
         ],
         [
           "Around $279.99",
-          "67\\\" Fluted Walnut Buffet Cabinet with Storage"
+          "67\" Fluted Walnut Buffet Cabinet with Storage"
         ],
         [
           "Around $287.99",
-          "ModernMate 60\\\" File Cabinet with Drawers & Door"
+          "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
           "Around $299.99",
-          "ModernMate 60\\\" Lateral File Cabinet with 3 Drawers"
+          "ModernMate 60\" Lateral File Cabinet with 3 Drawers"
         ],
         [
           "Around $359.99",
-          "ModernMate 63\\\" Lateral File Cabinet with Lock"
+          "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
@@ -291,7 +291,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 60in wide, 6 open compartments, 3 drawers" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "ModernMate 60\" File Cabinet with Drawers & Door is aimed at buyers prioritizing 60in wide, 6 open compartments, 3 drawers" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-72-inch-office-credenzas","title":"Best 72-Inch Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas","title":"Best Office Credenzas in 2026"},{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"}];

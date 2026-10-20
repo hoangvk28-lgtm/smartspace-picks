@@ -246,7 +246,7 @@ export const faq = [
     "a": "Not exactly. Fire insulation, shelving, and door hardware all take up interior volume, so the nominal cubic-foot figure is always somewhat larger than what you can actually pack inside. Check interior dimensions and shelf layout, not just the headline capacity number."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe is aimed at buyers prioritizing 2.05 cu ft, ul 1hr at 1700 degreesf" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-first-alert-fireproof-safes","title":"Best First Alert Fireproof Safes in 2026"},{"href":"/guide/best-honeywell-fireproof-safes","title":"Best Honeywell Fireproof Safes in 2026"},{"href":"/guide/best-sentrysafe-fireproof-safes","title":"Best SentrySafe Fireproof Safes in 2026"}];

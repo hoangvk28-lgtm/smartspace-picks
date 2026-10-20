@@ -210,7 +210,7 @@ export const howToChoose: HowToChooseSection[] = [
       "rows": [
         [
           "Around $143.99",
-          "43\\\" Wood File Cabinet with Power Outlet"
+          "43\" Wood File Cabinet with Power Outlet"
         ],
         [
           "Around $149.99",
@@ -222,7 +222,7 @@ export const howToChoose: HowToChooseSection[] = [
         ],
         [
           "Around $219.99",
-          "59\\\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+          "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
         ],
         [
           "Around $249.99",
@@ -234,11 +234,11 @@ export const howToChoose: HowToChooseSection[] = [
         ],
         [
           "Around $287.99",
-          "ModernMate 60\\\" File Cabinet with Drawers & Door"
+          "ModernMate 60\" File Cabinet with Drawers & Door"
         ],
         [
           "Around $359.99",
-          "ModernMate 63\\\" Lateral File Cabinet with Lock"
+          "ModernMate 63\" Lateral File Cabinet with Lock"
         ]
       ]
     }
@@ -290,7 +290,7 @@ export const faq = [
     "a": "Check for a documented load rating in the product specs rather than assuming any flat surface can support office equipment indefinitely. A multifunction printer with paper loaded can weigh well over 20 lbs, and repeated vibration from printing can stress an unrated surface over time even if it doesn't fail immediately."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 59in desktop, 2 lockable drawers" },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "59\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office is aimed at buyers prioritizing 59in desktop, 2 lockable drawers" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-office-credenzas-with-file-drawers","title":"Best Office Credenzas With File Drawers in 2026"},{"href":"/guide/best-office-credenzas-with-file-storage","title":"Best Office Credenzas With File Storage in 2026"},{"href":"/guide/best-home-office-credenzas-with-file-drawers","title":"Best Home Office Credenzas With File Drawers in 2026"}];

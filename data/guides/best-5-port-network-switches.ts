@@ -255,11 +255,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "TP-Link LS1005G Litewave 5-Port Gigabit Switch",
-        "text": "Buyers prioritizing 5 ports (1 uplink + 4 output) At $9.99, it's the lowest-cost pick in this comparison."
+        "text": "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output) At $9.99, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
-        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity At $229.99, it sits at the higher end of this comparison's price range."
+        "text": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity At $229.99, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to TP-Link LS1005G Litewave 5-Port Gigabit Switch unless the pricier pick's specific advantage applies to your situation."
@@ -269,11 +269,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity"
+        "text": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity"
       },
       {
         "label": "Save if",
-        "text": "Buyers prioritizing 5 ports (1 uplink + 4 output)"
+        "text": "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output)"
       }
     ]
   },
@@ -282,11 +282,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "TP-Link LS1005G Litewave 5-Port Gigabit Switch",
-        "text": "Buyers prioritizing 5 ports (1 uplink + 4 output)."
+        "text": "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output)."
       },
       {
         "label": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
-        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity."
+        "text": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity."
       }
     ],
     "note": "Default to TP-Link LS1005G Litewave 5-Port Gigabit Switch unless the pricier pick's specific advantage genuinely applies to your situation."
@@ -339,11 +339,11 @@ export const faq = [
     "a": "For most home offices, yes, covering a computer, printer, NAS, and one or two additional devices with a port to spare. If you're running smart home hubs, multiple monitors with Ethernet-connected docks, or a homelab, consider 8 ports instead."
   }
 ,
-  { q: "Which pick in this comparison is the best overall choice?", a: "Buyers prioritizing 5 gigabit ports, qos + igmp snooping" },
-  { q: "Which pick offers the best value for a tight budget?", a: "Buyers prioritizing 5 ports (1 uplink + 4 output) At $9.99, it's the lowest-cost pick in this comparison." },
+  { q: "Which pick in this comparison is the best overall choice?", "a": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, qos + igmp snooping" },
+  { q: "Which pick offers the best value for a tight budget?", "a": "TP-Link LS1005G Litewave 5-Port Gigabit Switch is aimed at buyers prioritizing 5 ports (1 uplink + 4 output) At $9.99, it's the lowest-cost pick in this comparison." },
   { q: "What's the price range across the picks in this comparison?", a: "Prices here range from $9.99 to $229.99, so match your choice to both your budget and actual needs rather than defaulting to either extreme." },
-  { q: "Is the most expensive pick in this comparison worth the extra cost?", a: "Buyers prioritizing 5x 10g ports, 100gbps switching capacity Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
-  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", a: "Buyers prioritizing 5 gigabit ports, fanless" },
+  { q: "Is the most expensive pick in this comparison worth the extra cost?", "a": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch is aimed at buyers prioritizing 5x 10g ports, 100gbps switching capacity Whether that's worth the premium over the cheaper picks depends on whether that specific advantage matters for your use case." },
+  { q: "Is there a solid middle-ground pick if the cheapest and priciest options don't fit?", "a": "NETGEAR GS305 5-Port Gigabit Unmanaged Switch is aimed at buyers prioritizing 5 gigabit ports, fanless" },
 ];
 
 export const relatedGuides: { href: string; title: string }[] = [{"href":"/guide/best-8-port-network-switches","title":"7 Best 8-Port Network Switches in 2026"},{"href":"/guide/best-4-port-network-switches","title":"4 Best 4-Port Network Switches in 2026"},{"href":"/guide/best-5-port-poe-network-switches","title":"5 Best 5-Port PoE Network Switches in 2026"}];

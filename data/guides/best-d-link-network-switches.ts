@@ -172,11 +172,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "D-Link DGS-1016D 16-Port Unmanaged Switch",
-        "text": "Buyers prioritizing 16 gigabit ports, storm/port isolation At Check price, it's the lowest-cost pick in this comparison."
+        "text": "D-Link DGS-1016D 16-Port Unmanaged Switch is aimed at buyers prioritizing 16 gigabit ports, storm/port isolation At Check price, it's the lowest-cost pick in this comparison."
       },
       {
         "label": "D-Link DMS-108 8-Port 2.5G Gaming Switch",
-        "text": "Buyers prioritizing 8x 2.5g ports, 40gbps capacity At $84.99, it sits at the higher end of this comparison's price range."
+        "text": "D-Link DMS-108 8-Port 2.5G Gaming Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity At $84.99, it sits at the higher end of this comparison's price range."
       }
     ],
     "note": "Most buyers should default to D-Link DGS-1016D 16-Port Unmanaged Switch unless best 2.5g 8-port gaming specifically applies to your situation."
@@ -222,11 +222,11 @@ export const howToChoose: HowToChooseSection[] = [
     "cards": [
       {
         "label": "Spend more if",
-        "text": "Buyers prioritizing 8x 2.5g ports, 40gbps capacity"
+        "text": "D-Link DMS-108 8-Port 2.5G Gaming Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity"
       },
       {
         "label": "Save if",
-        "text": "Buyers prioritizing 16 gigabit ports, storm/port isolation"
+        "text": "D-Link DGS-1016D 16-Port Unmanaged Switch is aimed at buyers prioritizing 16 gigabit ports, storm/port isolation"
       }
     ]
   },
@@ -265,8 +265,8 @@ export const faq = [
     "a": "No, lifetime product coverage typically covers manufacturing defects, not accidental damage, power surges beyond rated protection, or misuse. Read the specific warranty terms on your model before assuming full accident coverage."
   }
 ,
-  { q: "What's the real difference between the top pick and the budget option in this comparison?", a: "Buyers prioritizing 16 gigabit ports, storm/port isolation" },
-  { q: "Which pick in this comparison is best for the highest power or feature needs?", a: "Buyers prioritizing 8x 2.5g ports, 40gbps capacity" },
+  { q: "What's the real difference between the top pick and the budget option in this comparison?", "a": "D-Link DGS-1016D 16-Port Unmanaged Switch is aimed at buyers prioritizing 16 gigabit ports, storm/port isolation" },
+  { q: "Which pick in this comparison is best for the highest power or feature needs?", "a": "D-Link DMS-108 8-Port 2.5G Gaming Switch is aimed at buyers prioritizing 8x 2.5g ports, 40gbps capacity" },
   { q: "Do I need a managed switch instead of one of these picks?", a: "Only if you need VLAN segmentation, port mirroring, or other configurable network management features, an unmanaged switch is simpler and sufficient for most small network setups." },
   { q: "Can I mix PoE and non-PoE devices on the same switch?", a: "Yes, PoE-capable switches auto-detect PoE devices and apply power accordingly, a non-PoE device connected to the same switch simply uses the port for data only." },
   { q: "How do I know if a switch has enough ports for future expansion?", a: "Count your current devices plus any realistic near-term additions, then choose a switch with a small buffer rather than exactly matching your current device count." },

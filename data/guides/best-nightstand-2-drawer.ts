@@ -461,7 +461,7 @@ export const howToChoose: HowToChooseSection[] = [
 export const faq: FaqItem[] = [
   {
     q: "How tall should a 2-drawer nightstand be?",
-    a: "It should land within 2-4 inches of your mattress-top height, not your bed frame height. Most 2-drawer nightstands run 20-25.19\"H in this list; if your bed uses a box spring or a thick mattress topper, look toward the taller end like the WLIVE White at 25.19\"H.",
+    "a": "It should land within 2-4 inches of your mattress-top height, not your bed frame height. Most 2-drawer nightstands run 20-25.19\"H in this list; if your bed uses a box spring or a thick mattress topper, look toward the taller end like the WLIVE White at 25.19\"H.",
   },
   {
     q: "Is it safe to charge my phone overnight on a 2-drawer nightstand?",
