@@ -194,6 +194,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "75in 4K Dual OS Interactive Smart Whiteboard vs GTek 98in Smart Board",
+    "cards": [
+      {
+        "label": "75in 4K Dual OS Interactive Smart Whiteboard",
+        "text": "Buyers prioritizing 75in 4k, dual android + windows os."
+      },
+      {
+        "label": "GTek 98in Smart Board",
+        "text": "Buyers prioritizing 98in 4k, dual ops slot."
+      }
+    ],
+    "note": "Default to 75in 4K Dual OS Interactive Smart Whiteboard unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "GTek 98in Smart Board Buyers prioritizing 98in 4k, dual ops slot. JASZDOT 86in Smart Board Buyers prioritizing 86in 4k, android 14, 400+ nits."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

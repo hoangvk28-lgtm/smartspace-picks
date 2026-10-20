@@ -151,6 +151,38 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Full-Extension Access in Your Layout",
     "note": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $149.99",
+          "DecoFurn Lateral File Cabinet with 2 Drawers"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $174.99",
+          "GlowVitaHome Farmhouse File Cabinet for Home Office"
+        ],
+        [
+          "Around $179.99",
+          "6 Drawers File Cabinet with Power Strip fits Legal/Letter/A4 Size"
+        ],
+        [
+          "Around $229.99",
+          "Perledesign 3 Drawer File Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

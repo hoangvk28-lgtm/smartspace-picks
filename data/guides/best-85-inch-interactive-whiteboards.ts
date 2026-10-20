@@ -254,6 +254,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "Dornium 86in Smart Board vs YIXZSWD 85in Interactive Whiteboard with Stand",
+    "cards": [
+      {
+        "label": "Dornium 86in Smart Board",
+        "text": "Buyers prioritizing 86in 4k, edla-certified android 14."
+      },
+      {
+        "label": "YIXZSWD 85in Interactive Whiteboard with Stand",
+        "text": "Buyers prioritizing 85in 4k, wifi 6, stand included."
+      }
+    ],
+    "note": "Default to Dornium 86in Smart Board unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "YCKJNB 86in Smart Board Buyers prioritizing 86in 4k, 13mp camera, 8-mic array. 85in 4K Smart Board (20-Point Touch) Buyers prioritizing 85in 4k, android 13, 20-point touch."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

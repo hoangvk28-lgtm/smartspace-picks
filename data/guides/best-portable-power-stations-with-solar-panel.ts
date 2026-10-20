@@ -167,6 +167,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Bundle Value From Station Performance",
     "note": "Separate the value of an included panel bundle from the power station's own performance and the panel's build durability."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "MARBERO 237Wh Solar Generator with 60W Solar Panel Included"
+        ],
+        [
+          "Around $180.49",
+          "EnginStar Portable Power Station 300W with 60W Foldable Solar Panel"
+        ],
+        [
+          "Around $189.96",
+          "ZeroKor 300W Portable Power Station with 60W Solar Panel Included"
+        ],
+        [
+          "Around $218.98",
+          "BLUETTI Elite 30 V2 Portable Power Station"
+        ],
+        [
+          "Around $339.00",
+          "Jackery Solar Generator 300 and 40W Solar Panel"
+        ],
+        [
+          "Around $699.00",
+          "Jackery Solar Generator 1000 v2 and 200W Solar Panel"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

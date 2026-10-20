@@ -167,6 +167,38 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Warranty and Replacement Support",
     "note": "Check what warranty, fire-damage replacement, and lost-key or lost-combination support the brand actually documents for the specific model."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $67.99",
+          "SentrySafe Fireproof & Waterproof Document Box"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $224.99",
+          "SentrySafe Fireproof & Waterproof Dial Combination Safe"
+        ],
+        [
+          "Around $229.99",
+          "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
+        ],
+        [
+          "Around $489.99",
+          "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

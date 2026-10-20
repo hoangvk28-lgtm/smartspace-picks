@@ -167,6 +167,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Plan for Food Safety, Not Just Power",
     "note": "Treat this as food-safety backup planning rather than trusting one power station to guarantee a fixed duration for every fridge."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $529.99",
+          "Anker SOLIX C1000 Gen 2 Portable Power Station"
+        ],
+        [
+          "Around $649.99",
+          "Anker SOLIX S2000 Portable Power Station"
+        ],
+        [
+          "Around $799.99",
+          "DJI Power 2000 Portable Power Station"
+        ],
+        [
+          "Around $898.98",
+          "BLUETTI FridgePower Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

@@ -234,6 +234,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) vs ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+    "cards": [
+      {
+        "label": "POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0)",
+        "text": "Buyers prioritizing 2.5in single-bay, up to 4tb."
+      },
+      {
+        "label": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+        "text": "Buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total."
+      }
+    ],
+    "note": "Default to POSUGEAR 2.5-Inch External Hard Drive Enclosure (USB 3.0) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CENMATE Aluminum 2-Bay Hard Drive Enclosure (Daisy-Chain) Buyers prioritizing 2-bay, up to 20tb/drive. CENMATE Aluminum 2-Bay 10Gbps Hard Drive Enclosure Buyers prioritizing 2-bay, up to 10gbps (500mb/s documented)."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

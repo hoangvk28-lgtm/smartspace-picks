@@ -154,6 +154,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) vs Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
+    "cards": [
+      {
+        "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
+        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed."
+      },
+      {
+        "label": "Arista DCS-7280SE-64 48-Port 10G Switch (Renewed)",
+        "text": "Buyers prioritizing 48x 10g sfp+ ports, renewed."
+      }
+    ],
+    "note": "Default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed. Arista DCS-7280SE-64 48-Port 10G Switch (Renewed) Buyers prioritizing 48x 10g sfp+ ports, renewed."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

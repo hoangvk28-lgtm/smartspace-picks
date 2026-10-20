@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $129.98",
+          "Mitlvge 23.62\\\" Tall 5.0 Cu Ft Extra Large Home Safe"
+        ],
+        [
+          "Around $139.99",
+          "5.2 Cu Ft Large Fireproof Safe with Combination Lock"
+        ],
+        [
+          "Around $142.99",
+          "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
+        ],
+        [
+          "Around $159.99",
+          "6.2 Cu Ft Large Home Safe with 3 Removable Shelves"
+        ],
+        [
+          "Around $179.99",
+          "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
+        ],
+        [
+          "Around $239.99",
+          "Mitlvge 35-Min Real Fireproof Safe"
+        ],
+        [
+          "Around $249.99",
+          "DAYI Biometric Fingerprint Safe Box"
+        ],
+        [
+          "Around $299.99",
+          "DAYI Biometric Fingerprint Safe Box"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

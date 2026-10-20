@@ -264,6 +264,33 @@ export const howToChoose: HowToChooseSection[] = [
     ],
     "note": "Most buyers should default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage applies to your situation."
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 8-bay desktop, up to 10gbps."
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb."
+      }
+    ]
+  },
+  {
+    "subheading": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) vs QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
+    "cards": [
+      {
+        "label": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)",
+        "text": "Buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb."
+      },
+      {
+        "label": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
+        "text": "Buyers prioritizing 8-bay desktop, up to 10gbps."
+      }
+    ],
+    "note": "Default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
 ];
 
 export const buyingCriteria = [

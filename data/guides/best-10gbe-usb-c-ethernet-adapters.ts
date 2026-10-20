@@ -186,6 +186,33 @@ export const howToChoose: HowToChooseSection[] = [
     ],
     "note": "Most buyers should default to 10GbE USB-C Adapter with RTL8159 Chip (Generic) unless the pricier pick's specific advantage applies to your situation."
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing true 10gbe, requires thunderbolt 3/4/5 or usb4."
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 10g via rtl8159, requires driver on windows."
+      }
+    ]
+  },
+  {
+    "subheading": "10GbE USB-C Adapter with RTL8159 Chip (Generic) vs Sabrent Thunderbolt & USB4 10GbE Adapter (NT-P10G)",
+    "cards": [
+      {
+        "label": "10GbE USB-C Adapter with RTL8159 Chip (Generic)",
+        "text": "Buyers prioritizing 10g via rtl8159, requires driver on windows."
+      },
+      {
+        "label": "Sabrent Thunderbolt & USB4 10GbE Adapter (NT-P10G)",
+        "text": "Buyers prioritizing true 10gbe, requires thunderbolt 3/4/5 or usb4."
+      }
+    ],
+    "note": "Default to 10GbE USB-C Adapter with RTL8159 Chip (Generic) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
 ];
 
 export const buyingCriteria = [

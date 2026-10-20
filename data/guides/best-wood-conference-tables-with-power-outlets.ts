@@ -200,6 +200,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Module Replacement and Repair",
     "note": "Ask whether a damaged or outdated power module can be swapped out on its own, since built-in electronics tend to need replacement before the table itself wears out."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $197.99",
+          "YITAHOME 94.5\\\" Boat Shaped Conference Table with Power Outlets"
+        ],
+        [
+          "Around $236.99",
+          "YITAHOME 70.8\\\" Boat Shaped Conference Table with Power Outlets"
+        ],
+        [
+          "Around $269.99",
+          "TRIBEWOOD 5.24ft Solid Wood Conference Table for 6"
+        ],
+        [
+          "Around $489.99",
+          "TRIBEWOOD 10FT Solid Wood Conference Table for 10-12"
+        ],
+        [
+          "Around $1,158.99",
+          "Regency Legacy 10 ft Racetrack Laminate Conference Table with 1 Charging Port"
+        ],
+        [
+          "Around $1,749.99",
+          "10ft Conference Table with Built-In Power Outlet"
+        ],
+        [
+          "Around $1,749.99",
+          "ZIMASYA Conference Table with Power Outlets & USB"
+        ],
+        [
+          "Around $1,749.99",
+          "10FT Conference Table with Charging Stations"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

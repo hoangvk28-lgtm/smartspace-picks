@@ -119,6 +119,30 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Map Controller and Expansion Options",
     "note": "Verify controller type, limits, probing, and laser or 4th-axis expansion support by revision before assuming compatibility."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $751.19",
+          "Genmitsu 3030-PROVer Ultra CNC Router Machine with MDF Grid Spoilboard"
+        ],
+        [
+          "Around $809.10",
+          "Genmitsu 3030-PROVer Ultra CNC Router Machine for Metal"
+        ],
+        [
+          "Around $890.80",
+          "Genmitsu 3030-PROVer Ultra CNC Router Machine + 7in HD Touchscreen 4-Axis Offline Controller"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

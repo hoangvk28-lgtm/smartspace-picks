@@ -183,6 +183,46 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Ownership Details",
     "note": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $153.90",
+          "Genmitsu CNC 3018-PRO Router Kit"
+        ],
+        [
+          "Around $517.65",
+          "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
+        ],
+        [
+          "Around $549.00",
+          "FoxAlien Masuter Pro 3-Axis CNC Router Machine"
+        ],
+        [
+          "Around $729.00",
+          "AnoleX CNC Router Machine 3060-Evo Max"
+        ],
+        [
+          "Around $799.20",
+          "Genmitsu PROVerXL 4030S CNC Router Machine"
+        ],
+        [
+          "Around $944.19",
+          "AnoleX CNC Router Machine 4030-Evo Ultra 2"
+        ],
+        [
+          "Around $2,499.00",
+          "Carvera Air Desktop CNC by MAKERA"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

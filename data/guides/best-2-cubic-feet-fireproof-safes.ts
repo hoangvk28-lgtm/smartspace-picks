@@ -168,6 +168,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.99",
+          "2.0 Cub Large Fireproof Safes for Home Use"
+        ],
+        [
+          "Around $127.48",
+          "DAYI 2.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
+        ],
+        [
+          "Around $350.25",
+          "Master Lock 1.2 Cu Ft Premium 2-Hour Fireproof Safe"
+        ],
+        [
+          "Around $489.99",
+          "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
+        ],
+        [
+          "Around $562.22",
+          "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
+        ],
+        [
+          "Around $574.99",
+          "SentrySafe XX-Large 2.2 Cu Ft Floor Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

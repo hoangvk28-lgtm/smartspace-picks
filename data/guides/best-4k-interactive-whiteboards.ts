@@ -274,6 +274,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "BIG VUE Plus 55in Smart Board vs JASZDOT 86in Smart Board",
+    "cards": [
+      {
+        "label": "BIG VUE Plus 55in Smart Board",
+        "text": "Buyers prioritizing 55in 4k, 256gb storage, 60-point touch."
+      },
+      {
+        "label": "JASZDOT 86in Smart Board",
+        "text": "Buyers prioritizing 86in 4k, android 14, 400+ nits."
+      }
+    ],
+    "note": "Default to BIG VUE Plus 55in Smart Board unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "COOLHOOD 65in 4K Smart Board Buyers prioritizing 65in 4k, android 13, 20-point touch. NEWORK NewBoard 65E Google EDLA Board Buyers prioritizing 65in 4k, edla-certified android 14."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

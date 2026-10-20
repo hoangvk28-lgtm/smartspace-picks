@@ -254,6 +254,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "Dornium 86in Smart Board vs LINGHUFOX 86in Dual-System Smart Board",
+    "cards": [
+      {
+        "label": "Dornium 86in Smart Board",
+        "text": "Buyers prioritizing 86in 4k, edla-certified android 14."
+      },
+      {
+        "label": "LINGHUFOX 86in Dual-System Smart Board",
+        "text": "Buyers prioritizing 86in 4k, windows 11 pro i5-13450hx + android 13."
+      }
+    ],
+    "note": "Default to Dornium 86in Smart Board unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "JASZDOT 86in Smart Board Buyers prioritizing 86in 4k, android 14, 400+ nits. JYXOIHUB 86in Dual-System Smart Board Buyers prioritizing 86in 4k, dual android + windows ops."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

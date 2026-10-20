@@ -167,6 +167,34 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh the Size and Weight Tradeoff",
     "note": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $67.99",
+          "SentrySafe Fireproof & Waterproof Document Box"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $88.48",
+          "First Alert 2037F Water and Fire Protector File Chest"
+        ],
+        [
+          "Around $99.99",
+          "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

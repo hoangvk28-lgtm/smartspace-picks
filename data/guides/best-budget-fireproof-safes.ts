@@ -199,6 +199,46 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Ownership Details",
     "note": "Factor in weight, anchoring, and lock or key replacement support as part of the real cost of ownership."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $29.98",
+          "0.30 Cu Ft Small Home Safe with Fireproof Bag"
+        ],
+        [
+          "Around $31.33",
+          "DocSafe 5200 degreesF Fireproof Document Organizer"
+        ],
+        [
+          "Around $31.99",
+          "Voncabay 0.23 Cu Ft Digital Money Safe Box"
+        ],
+        [
+          "Around $39.98",
+          "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock"
+        ],
+        [
+          "Around $42.98",
+          "DocSafe Hard-Shell Fireproof File Organizer with Accordion Folder"
+        ],
+        [
+          "Around $61.99",
+          "Dalmbox Fire Resistant Document Lock Box with Digital Keypad"
+        ],
+        [
+          "Around $67.99",
+          "SentrySafe Fireproof & Waterproof Document Box"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

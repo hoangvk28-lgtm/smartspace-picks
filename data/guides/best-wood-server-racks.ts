@@ -103,6 +103,26 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cooling Method Fits the Enclosure",
     "note": "Confirm passive airflow, active fans, or a sealed cabinet's cooling matches the actual equipment heat load."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $188.24",
+          "GEARit 12U Audio Rack with Flat Oak Top"
+        ],
+        [
+          "Around $205.00",
+          "AV Gear Rack 24U Home Audio & Video Storage Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

@@ -151,6 +151,38 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Cable and Counter Depth",
     "note": "Check cable and grommet placement and transaction-counter depth, since each inch matters more in a compact desk than a larger one."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $159.99",
+          "55\\\" L-Shaped Reception Desk with LED Lights & Power Outlets"
+        ],
+        [
+          "Around $159.99",
+          "55-Inch L-Shaped Reception Desk with LED"
+        ],
+        [
+          "Around $187.50",
+          "VEVOR 55-Inch L-Shaped Reception Desk with Keyboard Tray"
+        ],
+        [
+          "Around $229.99",
+          "WOODTIME 55-Inch Reception Desk with Door and Shelves"
+        ],
+        [
+          "Around $620.88",
+          "LSZMXI Reception Desk with Counter"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

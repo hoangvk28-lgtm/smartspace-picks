@@ -167,6 +167,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh the Size and Weight Tradeoff",
     "note": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $107.99",
+          "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
+        ],
+        [
+          "Around $229.99",
+          "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
+        ],
+        [
+          "Around $350.25",
+          "Master Lock 1.2 Cu Ft Premium 2-Hour Fireproof Safe"
+        ],
+        [
+          "Around $489.99",
+          "SentrySafe 2.05 Cu Ft Fireproof & Waterproof Floor Safe"
+        ],
+        [
+          "Around $562.22",
+          "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
+        ],
+        [
+          "Around $574.99",
+          "SentrySafe XX-Large 2.2 Cu Ft Floor Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Wall Anchoring if Doors Swing to Full Extension",
     "note": "Verify anti-tip requirements, since a wide multi-door piece with doors fully open shifts weight distribution more than a closed cabinet."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $149.99",
+          "Buffet Cabinet"
+        ],
+        [
+          "Around $159.99",
+          "Sideboard Buffet Cabinet"
+        ],
+        [
+          "Around $179.99",
+          "60\\\" Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $195.29",
+          "62.28'' Sideboard Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $204.82",
+          "SAVOR LIFE 60-Inch Sideboard Buffet Cabinet with Glass Doors"
+        ],
+        [
+          "Around $249.99",
+          "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
+        ],
+        [
+          "Around $279.99",
+          "67\\\" Fluted Walnut Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\\\" File Cabinet with Drawers & Door"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

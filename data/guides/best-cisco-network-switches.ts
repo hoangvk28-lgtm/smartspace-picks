@@ -194,6 +194,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) vs Cisco Meraki MS210-48FP Switch (Hardware Only)",
+    "cards": [
+      {
+        "label": "Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed)",
+        "text": "Buyers prioritizing 32x 40gb qsfp+ + 4x 10gb sfp+, renewed."
+      },
+      {
+        "label": "Cisco Meraki MS210-48FP Switch (Hardware Only)",
+        "text": "Buyers prioritizing 48 gigabit poe ports, 740w (fp model)."
+      }
+    ],
+    "note": "Default to Arista DCS-7050QX-32S-R 32x40GB Switch (Renewed) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Cisco Meraki MS120-24P (5-Yr License Included) Buyers prioritizing 24-port poe+, 5-year license included. Cisco Meraki MS210-48FP Switch (Hardware Only) Buyers prioritizing 48 gigabit poe ports, 740w (fp model)."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

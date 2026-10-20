@@ -263,6 +263,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch vs NETGEAR GS724TP 26-Port PoE+ Smart Managed Switch",
+    "cards": [
+      {
+        "label": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless metal housing."
+      },
+      {
+        "label": "NETGEAR GS724TP 26-Port PoE+ Smart Managed Switch",
+        "text": "Buyers prioritizing 24x poe+ @190w + 2 sfp, smart managed."
+      }
+    ],
+    "note": "Default to NETGEAR GS308 8-Port Gigabit Unmanaged Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch Buyers prioritizing 8x poe+ ports @62w, easy smart managed. TP-Link TL-SG108E 8-Port Easy Smart Switch Buyers prioritizing 8 ports, 32 simultaneous vlans."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

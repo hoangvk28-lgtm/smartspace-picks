@@ -135,6 +135,34 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Warranty and Replacement Parts",
     "note": "Confirm warranty terms and replacement electronics or motion parts are actually available before buying into a brand's ecosystem."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $437.89",
+          "Genmitsu Cubiko Desktop CNC Router Machine with Enclosure for Beginners"
+        ],
+        [
+          "Around $487.20",
+          "Genmitsu 3020-PRO Ultra CNC Router Machine"
+        ],
+        [
+          "Around $2,499.00",
+          "Carvera Air Desktop CNC by MAKERA"
+        ],
+        [
+          "Around $3,197.00",
+          "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

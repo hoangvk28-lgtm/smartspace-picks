@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $99.99",
+          "Mitlvge 3.2 Cu Ft Fireproof Safe Box with Digital Keypad"
+        ],
+        [
+          "Around $107.99",
+          "3.4 Cu Ft Digital Home Safe with Programmable Keypad"
+        ],
+        [
+          "Around $112.99",
+          "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad"
+        ],
+        [
+          "Around $129.98",
+          "Mitlvge 23.62\\\" Tall 5.0 Cu Ft Extra Large Home Safe"
+        ],
+        [
+          "Around $142.99",
+          "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
+        ],
+        [
+          "Around $186.98",
+          "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
+        ],
+        [
+          "Around $189.97",
+          "3.6 Cu Ft Real Fireproof Safe"
+        ],
+        [
+          "Around $239.99",
+          "Mitlvge 35-Min Real Fireproof Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Bundle Value From Station Performance",
     "note": "Separate the value of an included panel bundle from the power station's own performance and the panel's build durability."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $279.99",
+          "STARYLINE 1000W Portable Power Station"
+        ],
+        [
+          "Around $284.98",
+          "GRECELL 999Wh Solar Generator 1000W Portable Power Station"
+        ],
+        [
+          "Around $289.99",
+          "GRECELL 999Wh Portable Power Station 1000W for Outdoor & Home"
+        ],
+        [
+          "Around $429.00",
+          "ALLWEI 500W Solar Generator with 100W Solar Panel"
+        ],
+        [
+          "Around $439.99",
+          "1000W Portable Power Station with 200W Solar Panels"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $499.99",
+          "STARYLINE 1000W Portable Power Station"
+        ],
+        [
+          "Around $699.00",
+          "Jackery Solar Generator 1000 v2 and 200W Solar Panel"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

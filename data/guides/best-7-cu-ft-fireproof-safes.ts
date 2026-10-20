@@ -183,6 +183,46 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $129.98",
+          "Mitlvge 23.62\\\" Tall 5.0 Cu Ft Extra Large Home Safe"
+        ],
+        [
+          "Around $142.99",
+          "Omethey 5.0 Cu Ft Extra Large Safe with Deposit Slot"
+        ],
+        [
+          "Around $179.99",
+          "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
+        ],
+        [
+          "Around $239.99",
+          "Mitlvge 35-Min Real Fireproof Safe"
+        ],
+        [
+          "Around $242.99",
+          "7.5 Cu Ft Fireproof Safe Box"
+        ],
+        [
+          "Around $259.99",
+          "Mitlvge 7.5 Cu Ft Fireproof Safe"
+        ],
+        [
+          "Around $269.99",
+          "7.0 Cu Ft Fireproof Safe Box"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

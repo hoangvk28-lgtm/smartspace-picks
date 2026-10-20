@@ -210,6 +210,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "Cable Matters USB-C to 5Gb Ethernet Adapter vs WAVLINK USB4 to 10Gbps Ethernet Adapter (AQC113)",
+    "cards": [
+      {
+        "label": "Cable Matters USB-C to 5Gb Ethernet Adapter",
+        "text": "Buyers prioritizing 5000mbps ethernet, requires usb 3.2 gen 2+."
+      },
+      {
+        "label": "WAVLINK USB4 to 10Gbps Ethernet Adapter (AQC113)",
+        "text": "Buyers prioritizing 10gbps via aqc113-b1 (marvell aqtion) chip."
+      }
+    ],
+    "note": "Default to Cable Matters USB-C to 5Gb Ethernet Adapter unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Cable Matters USB-C to 5Gb Ethernet Adapter Buyers prioritizing 5000mbps ethernet, requires usb 3.2 gen 2+. UGREEN USB-C to Ethernet Adapter 5Gb Buyers prioritizing 5gb via rtl8157 chip."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

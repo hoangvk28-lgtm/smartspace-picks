@@ -269,6 +269,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) vs TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)",
+    "cards": [
+      {
+        "label": "CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB)",
+        "text": "Buyers prioritizing 4-bay hardware raid, 8 modes, up to 80tb."
+      },
+      {
+        "label": "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless)",
+        "text": "Buyers prioritizing 6-bay, up to 132tb total."
+      }
+    ],
+    "note": "Default to CENMATE Aluminum 4-Bay Hardware RAID Enclosure (eSATA+USB) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TerraMaster D6-320 6-Bay USB DAS Enclosure (Diskless) Buyers prioritizing 6-bay, up to 132tb total. CENMATE Aluminum 6-Bay Hard Drive Enclosure (5Gbps) Buyers prioritizing 6-bay, up to 120tb total."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

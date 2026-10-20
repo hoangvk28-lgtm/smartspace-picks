@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Full-Extension Access in Your Layout",
     "note": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $179.99",
+          "6 Drawers File Cabinet with Power Strip fits Legal/Letter/A4 Size"
+        ],
+        [
+          "Around $219.99",
+          "59\\\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $229.99",
+          "Perledesign 3 Drawer File Cabinet"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\\\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\\\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

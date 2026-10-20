@@ -103,6 +103,26 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Post Configuration for Your Load",
     "note": "Confirm whether the specific model is 2-post or 4-post, since that determines what equipment class it can safely support."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $797.93",
+          "Tripp Lite 18U Wall Mount Rack Enclosure"
+        ],
+        [
+          "Around $1,605.59",
+          "TRIPP LITE 42U Server Rack Enclosure Cabinet"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

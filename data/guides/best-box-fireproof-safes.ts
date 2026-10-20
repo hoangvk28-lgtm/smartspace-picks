@@ -183,6 +183,34 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Understand the Real Theft Deterrence Level",
     "note": "A portable chest with a simple key or combination lock deters casual snooping, not a determined thief; don't treat chest-class security as equivalent to a bolted-down safe."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $30.99",
+          "KYODOLED Fireproof Document Box with Key Lock"
+        ],
+        [
+          "Around $47.48",
+          "First Alert 2013F Water and Fire Protector File Chest"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $99.99",
+          "Honeywell 0.24 Cu Ft Fireproof & Waterproof Chest with Carry Handle"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

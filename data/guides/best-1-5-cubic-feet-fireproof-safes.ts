@@ -183,6 +183,46 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $69.99",
+          "1.2 Cubic Feet Small Fire Safe Box for Home"
+        ],
+        [
+          "Around $109.99",
+          "BlackSmith 1.5 Cu Ft Auto-Open Biometric Safe"
+        ],
+        [
+          "Around $161.49",
+          "1.2 Cu Ft Fireproof Safe Box with Digital Keypad"
+        ],
+        [
+          "Around $224.99",
+          "SentrySafe Fireproof & Waterproof Dial Combination Safe"
+        ],
+        [
+          "Around $229.99",
+          "SentrySafe 0.81 Cu Ft Fireproof & Waterproof Shelf Safe"
+        ],
+        [
+          "Around $259.00",
+          "SentrySafe 1.23 Cu Ft Digital Push Button Safe"
+        ],
+        [
+          "Around $787.00",
+          "Hollon Safe HS-610E 2-Hour Fireproof Office Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

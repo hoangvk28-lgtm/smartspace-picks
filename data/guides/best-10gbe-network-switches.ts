@@ -181,6 +181,33 @@ export const howToChoose: HowToChooseSection[] = [
     ],
     "note": "Most buyers should default to TRENDnet TEG-S762 6-Port 10G Switch unless the pricier pick's specific advantage applies to your situation."
   },
+  {
+    "subheading": "When to Spend More",
+    "cards": [
+      {
+        "label": "Spend more if",
+        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity."
+      },
+      {
+        "label": "Save if",
+        "text": "Buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity."
+      }
+    ]
+  },
+  {
+    "subheading": "TRENDnet TEG-S762 6-Port 10G Switch vs TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
+    "cards": [
+      {
+        "label": "TRENDnet TEG-S762 6-Port 10G Switch",
+        "text": "Buyers prioritizing 2x10g + 4x2.5g ports, 60gbps capacity."
+      },
+      {
+        "label": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
+        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity."
+      }
+    ],
+    "note": "Default to TRENDnet TEG-S762 6-Port 10G Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
 ];
 
 export const buyingCriteria = [

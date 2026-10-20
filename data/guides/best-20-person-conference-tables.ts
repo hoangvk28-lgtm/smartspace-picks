@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Measure the Occupied Footprint for the Room",
     "note": "Account for chairs pulled out on every side, not just the table's static footprint, when confirming this seat count actually fits your meeting room."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $579.99",
+          "2-20 Person Folding Conference Table with Wheels"
+        ],
+        [
+          "Around $879.99",
+          "Bonzy Home 18ft Conference Table for 20"
+        ],
+        [
+          "Around $879.99",
+          "Bonzy Home 18ft Conference Table for 20"
+        ],
+        [
+          "Around $999.99",
+          "Bonzy Home 20ft Conference Table for 24"
+        ],
+        [
+          "Around $1,199.99",
+          "Tribesigns 18ft Conference Table for 20-24 People"
+        ],
+        [
+          "Around $1,380.00",
+          "JNMDLAKO Modular Conference Table with Wheels"
+        ],
+        [
+          "Around $1,568.60",
+          "8-Pack Modular Folding Conference Tables with Wheels"
+        ],
+        [
+          "Around $1,899.99",
+          "Bonzy Home 14FT Conference Table & 16-Chair Set"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

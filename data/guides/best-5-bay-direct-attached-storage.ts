@@ -254,6 +254,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) vs Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+    "cards": [
+      {
+        "label": "ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0)",
+        "text": "Buyers prioritizing 5-bay, 2.5/3.5in, up to 110tb total."
+      },
+      {
+        "label": "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B)",
+        "text": "Buyers prioritizing 5x 3.5in bays, 10gbps usb-c."
+      }
+    ],
+    "note": "Default to ORICO 5-Bay Hard Drive Enclosure (5Gbps USB 3.0) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "Sabrent 5-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC5B) Buyers prioritizing 5x 3.5in bays, 10gbps usb-c. Sabrent 4-Bay USB-C 10Gbps Hard Drive Enclosure (DS-SC4B) Buyers prioritizing 4x 3.5in bays, 10gbps usb-c."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

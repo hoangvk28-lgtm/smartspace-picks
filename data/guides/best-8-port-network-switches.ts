@@ -253,6 +253,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch vs Aruba Instant On 1830 8G Smart Switch",
+    "cards": [
+      {
+        "label": "NETGEAR GS308 8-Port Gigabit Unmanaged Switch",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless metal housing."
+      },
+      {
+        "label": "Aruba Instant On 1830 8G Smart Switch",
+        "text": "Buyers prioritizing 8 gigabit ports, fanless."
+      }
+    ],
+    "note": "Default to NETGEAR GS308 8-Port Gigabit Unmanaged Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR GS308E 8-Port Easy Smart Managed Switch Buyers prioritizing 8 ports, up to 64 vlans. TP-Link TL-SG108E 8-Port Easy Smart Switch Buyers prioritizing 8 ports, 32 simultaneous vlans."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

@@ -234,6 +234,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "Shiarffe X5 75in Smart Board vs Vibe S1 75in All-in-One Smart Board",
+    "cards": [
+      {
+        "label": "Shiarffe X5 75in Smart Board",
+        "text": "Buyers prioritizing 75in 4k, industrial-grade construction."
+      },
+      {
+        "label": "Vibe S1 75in All-in-One Smart Board",
+        "text": "Buyers prioritizing 75in 4k, vibeos on chromium os."
+      }
+    ],
+    "note": "Default to Shiarffe X5 75in Smart Board unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "COOLHOOD 75in 4K Smart Board Buyers prioritizing 75in 4k, android 13, 20-point touch. NEWORK NewBoard 75E Google EDLA Board Buyers prioritizing 75in 4k, edla-certified android 14."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

@@ -103,6 +103,26 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Thermals Under Sustained Load in the Smaller Chassis",
     "note": "Verify sustained-load temperature and fan noise, since compact designs have less thermal headroom than full-size enclosures."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $149.99",
+          "Mini eGPU Enclosure Thunderbolt 3/4"
+        ],
+        [
+          "Around $189.50",
+          "TREBLEET 80Gbps eGPU Enclosure"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

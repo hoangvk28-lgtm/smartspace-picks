@@ -184,6 +184,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Lost-Combination Support",
     "note": "Ask what happens if the combination is forgotten and the override key is lost, since mechanical combination locks generally require professional locksmith service to open."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $28.79",
+          "ENGPOW Fireproof File Box with Zipper & Pockets"
+        ],
+        [
+          "Around $31.33",
+          "DocSafe 5200 degreesF Fireproof Document Organizer"
+        ],
+        [
+          "Around $42.98",
+          "DocSafe Hard-Shell Fireproof File Organizer with Accordion Folder"
+        ],
+        [
+          "Around $68.00",
+          "SentrySafe Black Fireproof and Waterproof Safe"
+        ],
+        [
+          "Around $99.99",
+          "2.0 Cub Large Fireproof Safes for Home Use"
+        ],
+        [
+          "Around $562.22",
+          "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

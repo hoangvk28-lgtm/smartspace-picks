@@ -212,6 +212,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "8-Port Gigabit PoE+ Switch with Rack Ears vs NETGEAR GS108PP 8-Port PoE+ Unmanaged Switch (123W)",
+    "cards": [
+      {
+        "label": "8-Port Gigabit PoE+ Switch with Rack Ears",
+        "text": "Buyers prioritizing 8x poe+ ports @120w total."
+      },
+      {
+        "label": "NETGEAR GS108PP 8-Port PoE+ Unmanaged Switch (123W)",
+        "text": "Buyers prioritizing 8x poe+ ports @123w total."
+      }
+    ],
+    "note": "Default to 8-Port Gigabit PoE+ Switch with Rack Ears unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "NETGEAR GS308EP 8-Port PoE+ Smart Managed Switch Buyers prioritizing 8x poe+ ports @62w, easy smart managed. NETGEAR GS308PP 8-Port PoE+ Unmanaged Switch (83W) Buyers prioritizing 8x poe+ ports @83w total."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

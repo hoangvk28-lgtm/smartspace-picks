@@ -103,6 +103,26 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Compare Warranty and Support Channels",
     "note": "Check warranty length and support responsiveness, since this varies meaningfully even within the same brand's product line."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $591.93",
+          "Razer Core X V2"
+        ],
+        [
+          "Around $1,582.96",
+          "Razer Core X External Graphics Card Case with Thunderbolt 3"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

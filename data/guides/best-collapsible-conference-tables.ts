@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Time the Reset Between Configurations",
     "note": "Factor in how long it realistically takes one or two people to fold, move, and reconfigure the table, since a mechanism that looks quick in marketing photos can be slower with real hardware."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $269.99",
+          "Sleekform 6FT Wooden Folding Banquet Table"
+        ],
+        [
+          "Around $289.88",
+          "Okeysen Flip-Top Mobile Conference Table"
+        ],
+        [
+          "Around $519.99",
+          "Conference Room Tables"
+        ],
+        [
+          "Around $593.42",
+          "BTEXPERT 6-Foot Plastic Folding Training Table"
+        ],
+        [
+          "Around $604.79",
+          "Folding Conference Room Tables with Wheels"
+        ],
+        [
+          "Around $648.00",
+          "Folding Conference Table with Wheels"
+        ],
+        [
+          "Around $1,520.00",
+          "Modular Conference Table with Modesty Panel"
+        ],
+        [
+          "Around $1,812.23",
+          "Folding Conference Room Tables with Wheels"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

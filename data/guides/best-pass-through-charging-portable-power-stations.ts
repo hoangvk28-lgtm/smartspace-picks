@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Pass-Through From UPS Claims",
     "note": "Treat pass-through charging as separate from UPS or EPS functionality, and check transfer behavior independently."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $359.00",
+          "PECRON F1000LFP Power Station"
+        ],
+        [
+          "Around $448.99",
+          "BLUETTI Elite 100 V2 Portable Power Station"
+        ],
+        [
+          "Around $489.00",
+          "OUPES Mega 1 Lite Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "EcoFlow DELTA 3 Classic Portable Power Station"
+        ],
+        [
+          "Around $499.00",
+          "Jackery Explorer 1000 v2 Portable Power Station"
+        ],
+        [
+          "Around $529.99",
+          "Anker SOLIX C1000 Gen 2 Portable Power Station"
+        ],
+        [
+          "Around $669.00",
+          "AFERIY P210 Solar Generator"
+        ],
+        [
+          "Around $699.99",
+          "UDPOWER S2400 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

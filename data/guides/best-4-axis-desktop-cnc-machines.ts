@@ -167,6 +167,42 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh Ownership Details",
     "note": "Factor in assembly time, footprint, and maintenance workflow as part of the real cost of ownership."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $487.20",
+          "Genmitsu 3020-PRO Ultra CNC Router Machine"
+        ],
+        [
+          "Around $517.65",
+          "Genmitsu 4040-PRO CNC Router Machine for Metal Acrylic Cutting Milling"
+        ],
+        [
+          "Around $2,499.00",
+          "Carvera Air Desktop CNC by MAKERA"
+        ],
+        [
+          "Around $2,999.00",
+          "Ovsuqu CNC 6040 5-Axis CNC Router Engraving Machine"
+        ],
+        [
+          "Around $3,197.00",
+          "Carvera Air Desktop CNC with 4th Axis & PCB Kit"
+        ],
+        [
+          "Around $9,989.00",
+          "Xmachine XM-100 Desktop 5 Axis CNC Milling Machine with Automatic Tool Changer"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

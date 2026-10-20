@@ -277,6 +277,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "TP-Link LS1005G Litewave 5-Port Gigabit Switch vs TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
+    "cards": [
+      {
+        "label": "TP-Link LS1005G Litewave 5-Port Gigabit Switch",
+        "text": "Buyers prioritizing 5 ports (1 uplink + 4 output)."
+      },
+      {
+        "label": "TP-Link TL-SX105 5-Port 10G Unmanaged Switch",
+        "text": "Buyers prioritizing 5x 10g ports, 100gbps switching capacity."
+      }
+    ],
+    "note": "Default to TP-Link LS1005G Litewave 5-Port Gigabit Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP-Link TL-SG105 5-Port Gigabit Unmanaged Switch Buyers prioritizing 5 gigabit ports, qos + igmp snooping. NETGEAR GS305 5-Port Gigabit Unmanaged Switch Buyers prioritizing 5 gigabit ports, fanless."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

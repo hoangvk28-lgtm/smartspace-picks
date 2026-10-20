@@ -183,6 +183,46 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Weigh the Size and Weight Tradeoff",
     "note": "Longer fire ratings generally require thicker insulation, which adds weight and reduces usable interior space relative to the exterior footprint; factor this into your final size choice."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $66.68",
+          "WASJOYE Fireproof Cabinet Safe Box"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ],
+        [
+          "Around $99.99",
+          "2.0 Cub Large Fireproof Safes for Home Use"
+        ],
+        [
+          "Around $159.99",
+          "2.0 Cuft Fireproof Safe Box for Home"
+        ],
+        [
+          "Around $189.97",
+          "[2026 Upgraded] -35 Min Real Fireproof Safe-3.6 Cu Ft Large Safe for Home"
+        ],
+        [
+          "Around $289.99",
+          "DAYI Fireproof Safe"
+        ],
+        [
+          "Around $562.22",
+          "Master Lock 2.0 Cu Ft Fireproof & Waterproof Safe"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

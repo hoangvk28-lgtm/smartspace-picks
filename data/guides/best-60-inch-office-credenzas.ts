@@ -200,6 +200,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Include Wall, Baseboard, and Cable Clearance",
     "note": "Account for baseboard depth, wall-plug clearance, and cord-bend room, since these can meaningfully reduce how close a wide credenza actually sits to the wall."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $179.99",
+          "60\\\" Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $199.99",
+          "ComfyCorner 60\\\" Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $204.82",
+          "SAVOR LIFE 60-Inch Sideboard Buffet Cabinet with Glass Doors"
+        ],
+        [
+          "Around $249.99",
+          "63'' Sideboard Buffet Cabinet with 4 Sliding Doors"
+        ],
+        [
+          "Around $279.99",
+          "67\\\" Fluted Walnut Buffet Cabinet with Storage"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\\\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $299.99",
+          "ModernMate 60\\\" Lateral File Cabinet with 3 Drawers"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\\\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

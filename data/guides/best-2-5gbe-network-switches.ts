@@ -214,6 +214,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch vs NETGEAR MS308 8-Port 2.5G Unmanaged Switch",
+    "cards": [
+      {
+        "label": "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch",
+        "text": "Buyers prioritizing 5x 2.5g ports, 25gbps capacity."
+      },
+      {
+        "label": "NETGEAR MS308 8-Port 2.5G Unmanaged Switch",
+        "text": "Buyers prioritizing 8x 2.5g ports, fanless."
+      }
+    ],
+    "note": "Default to TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "TP-Link TL-SG105S-M2 5-Port 2.5G Unmanaged Switch Buyers prioritizing 5x 2.5g ports, 25gbps capacity. TP-Link TL-SG108S-M2 8-Port 2.5G Unmanaged Switch Buyers prioritizing 8x 2.5g ports, 40gbps capacity."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

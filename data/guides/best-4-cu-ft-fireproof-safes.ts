@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $112.99",
+          "3.3 Cu Ft Home Safe Fireproof & Waterproof with Programmable Keypad"
+        ],
+        [
+          "Around $112.99",
+          "3.4 Cu Ft Large Home Safe with Key and Combination Lock"
+        ],
+        [
+          "Around $159.99",
+          "2.0 Cuft Fireproof Safe Box for Home"
+        ],
+        [
+          "Around $179.99",
+          "WASJOYE 4.0 Cu Ft Large Cabinet Safe with Type-C Port"
+        ],
+        [
+          "Around $186.98",
+          "DAYI 3.0 Cu Ft Home Safe with Fireproof/Waterproof Bag"
+        ],
+        [
+          "Around $249.99",
+          "DAYI Biometric Fingerprint Safe Box"
+        ],
+        [
+          "Around $299.99",
+          "DAYI Biometric Fingerprint Safe Box"
+        ],
+        [
+          "Around $314.48",
+          "31.5''H Large Fireproof Waterproof Safe for Home Office"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

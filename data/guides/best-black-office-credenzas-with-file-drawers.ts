@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Confirm Full-Extension Access in Your Layout",
     "note": "Measure drawer clearance beside your actual desk, chair, and wall, since full-extension drawers need real floor space to open completely."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $143.99",
+          "43\\\" Wood File Cabinet with Power Outlet"
+        ],
+        [
+          "Around $149.99",
+          "SEDETA Fluted 2 Drawer Filing Cabinet with 2 Sliding Doors for Home Office"
+        ],
+        [
+          "Around $174.99",
+          "Lateral File Cabinet with Charging Station"
+        ],
+        [
+          "Around $219.99",
+          "59\\\" Filing Cabinet with Lock Drawers fits Legal Size for Home Office"
+        ],
+        [
+          "Around $249.99",
+          "72'' Tall File Bookcase with Power Outlet & Printer Stand"
+        ],
+        [
+          "Around $269.99",
+          "ModernMate 4 Drawer File Cabinet with Lock"
+        ],
+        [
+          "Around $287.99",
+          "ModernMate 60\\\" File Cabinet with Drawers & Door"
+        ],
+        [
+          "Around $359.99",
+          "ModernMate 63\\\" Lateral File Cabinet with Lock"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

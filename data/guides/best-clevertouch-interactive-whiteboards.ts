@@ -214,6 +214,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "HCDZ Replacement Stylus for Clevertouch (2-Pack) vs NEWORK NewBoard 65E Google EDLA Board",
+    "cards": [
+      {
+        "label": "HCDZ Replacement Stylus for Clevertouch (2-Pack)",
+        "text": "Buyers prioritizing replacement stylus, 2-pack."
+      },
+      {
+        "label": "NEWORK NewBoard 65E Google EDLA Board",
+        "text": "Buyers prioritizing 65in 4k, edla-certified android 14."
+      }
+    ],
+    "note": "Default to HCDZ Replacement Stylus for Clevertouch (2-Pack) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "HCDZ Replacement Stylus for Clevertouch (2-Pack) Buyers prioritizing replacement stylus, 2-pack. COOLHOOD 65in 4K Smart Board Buyers prioritizing 65in 4k, android 13, 20-point touch."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

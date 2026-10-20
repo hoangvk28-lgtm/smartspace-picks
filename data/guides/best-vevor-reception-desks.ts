@@ -103,6 +103,26 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Include Warranty and Support Path",
     "note": "Include current warranty terms and support path in your total cost of ownership evaluation."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $79.90",
+          "VEVOR Reception Desk"
+        ],
+        [
+          "Around $261.90",
+          "VEVOR Reception Desk"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

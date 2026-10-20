@@ -199,6 +199,46 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Verify Fire Evidence for Every Capacity-Qualified Product",
     "note": "A specific capacity size doesn't guarantee a specific fire rating; check the fire classification independently for each model at this size."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $29.98",
+          "0.30 Cu Ft Small Home Safe with Fireproof Bag"
+        ],
+        [
+          "Around $31.33",
+          "DocSafe 5200 degreesF Fireproof Document Organizer"
+        ],
+        [
+          "Around $31.99",
+          "Voncabay 0.23 Cu Ft Digital Money Safe Box"
+        ],
+        [
+          "Around $39.98",
+          "SentrySafe 0.18 Cu Ft Fireproof Chest with Key Lock"
+        ],
+        [
+          "Around $39.99",
+          "KYODOLED Fireproof Lock Box with Dual Combination and Key Lock"
+        ],
+        [
+          "Around $69.99",
+          "1.2 Cubic Feet Small Fire Safe Box for Home"
+        ],
+        [
+          "Around $72.79",
+          "SentrySafe 0.28 Cu Ft Fireproof & Waterproof Chest"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

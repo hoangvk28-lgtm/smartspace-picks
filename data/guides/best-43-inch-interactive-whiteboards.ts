@@ -237,6 +237,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "JAV 43in Smart Board (Board Only) vs TouchWo 43in Touchscreen Monitor",
+    "cards": [
+      {
+        "label": "JAV 43in Smart Board (Board Only)",
+        "text": "Buyers prioritizing 43in, edla-certified, ai voice remote."
+      },
+      {
+        "label": "TouchWo 43in Touchscreen Monitor",
+        "text": "Buyers prioritizing 43in 1080p, android 12, rk3588."
+      }
+    ],
+    "note": "Default to JAV 43in Smart Board (Board Only) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "AYSTeKMann 43in Smart Board Buyers prioritizing 43in 4k, android 16, 100% ntsc gamut. JAV 43in Smart Board (Board Only) Buyers prioritizing 43in, edla-certified, ai voice remote."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

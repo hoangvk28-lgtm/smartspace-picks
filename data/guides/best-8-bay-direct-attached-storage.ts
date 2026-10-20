@@ -254,6 +254,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB vs QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
+    "cards": [
+      {
+        "label": "ORICO 4-Bay RAID Hard Drive Enclosure (88TB",
+        "text": "Buyers prioritizing 4-bay raid, 8 modes, up to 88tb."
+      },
+      {
+        "label": "QNAP TL-D810TC4-US 8-Bay Desktop DAS/JBOD Expansion",
+        "text": "Buyers prioritizing 8-bay desktop, up to 10gbps."
+      }
+    ],
+    "note": "Default to ORICO 4-Bay RAID Hard Drive Enclosure (88TB unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "CENMATE Aluminum 8-Bay Hard Drive Enclosure (5Gbps) Buyers prioritizing 8-bay, up to 160tb total. IO CREST 8-Bay USB Hard Drive Enclosure Buyers prioritizing 8-bay, 2.5/3.5in, up to 24tb/drive."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

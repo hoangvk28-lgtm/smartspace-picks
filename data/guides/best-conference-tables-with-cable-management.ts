@@ -199,6 +199,50 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Check Module Replacement and Repair",
     "note": "Ask whether a damaged or outdated power module can be swapped out on its own, since built-in electronics tend to need replacement before the table itself wears out."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $39.00",
+          "Tabletop Cable Management Box with 8 Grommet Holes"
+        ],
+        [
+          "Around $99.99",
+          "GIANTEX 71\\\" Oval Conference Table with Cable Grommet"
+        ],
+        [
+          "Around $299.99",
+          "Tribesigns 8FT Boat-Shaped Conference Table"
+        ],
+        [
+          "Around $329.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $350.00",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $379.99",
+          "Tribesigns 8FT Conference Table for 10"
+        ],
+        [
+          "Around $389.99",
+          "Tribesigns 8ft Conference Table for 8-10"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [

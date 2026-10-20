@@ -254,6 +254,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "HORION 65in Digital Whiteboard vs ViewSonic IFP6562 65in ViewBoard",
+    "cards": [
+      {
+        "label": "HORION 65in Digital Whiteboard",
+        "text": "Buyers prioritizing 65in 4k, 40-point touch, under 30ms latency."
+      },
+      {
+        "label": "ViewSonic IFP6562 65in ViewBoard",
+        "text": "Buyers prioritizing 65in 4k, bezel-less pcap touch."
+      }
+    ],
+    "note": "Default to HORION 65in Digital Whiteboard unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "COOLHOOD 65in 4K Smart Board Buyers prioritizing 65in 4k, android 13, 20-point touch. NEWORK NewBoard 65E Google EDLA Board Buyers prioritizing 65in 4k, edla-certified android 14."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

@@ -249,6 +249,33 @@ export const howToChoose: HowToChooseSection[] = [
       }
     ]
   },
+  {
+    "subheading": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) vs QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)",
+    "cards": [
+      {
+        "label": "UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps)",
+        "text": "Buyers prioritizing m.2 nvme enclosure, up to 8tb, 10gbps."
+      },
+      {
+        "label": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless)",
+        "text": "Buyers prioritizing 2-bay hardware raid 0/1/jbod."
+      }
+    ],
+    "note": "Default to UGREEN Tool-Free M.2 NVMe SSD Enclosure (10Gbps) unless the pricier pick's specific advantage genuinely applies to your situation."
+  },
+  {
+    "subheading": "Matching a Pick to Your Primary Use Case",
+    "cards": [
+      {
+        "label": "Look for",
+        "text": "The specific capability your main use case actually depends on, stated explicitly in the listing, not implied by price or category alone."
+      },
+      {
+        "label": "In this comparison",
+        "text": "QNAP TR-002-A-US 2-Bay USB-C DAS with Hardware RAID (Diskless) Buyers prioritizing 2-bay hardware raid 0/1/jbod. TerraMaster D2-320 2-Bay USB RAID Enclosure (Diskless) Buyers prioritizing 2-bay, hardware raid 0/1/jbod/single."
+      }
+    ]
+  },
 ];
 
 export const buyingCriteria = [

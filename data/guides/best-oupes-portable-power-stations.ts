@@ -103,6 +103,26 @@ export const howToChoose: HowToChooseSection[] = [
     "subheading": "Separate Current Generation From Older Listings",
     "note": "Check regional availability and support status, since older generation products often stay heavily indexed after being succeeded."
   }
+,
+  {
+    "subheading": "By Budget",
+    "table": {
+      "headers": [
+        "Price range",
+        "Recommended pick"
+      ],
+      "rows": [
+        [
+          "Around $489.00",
+          "OUPES Mega 1 Lite Portable Power Station"
+        ],
+        [
+          "Around $1,799.99",
+          "OUPES Guardian 6000 V2 Portable Power Station"
+        ]
+      ]
+    }
+  },
 ];
 
 export const buyingCriteria = [
