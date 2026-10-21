@@ -304,6 +304,10 @@ This is the standard for every guide's "Criteria to Look For" section going forw
 
 ---
 
+### MANDATORY: Never skip niche / long-tail keywords during keyword research (added 2026-10-21)
+
+When filtering a keyword export (e.g. Keyword Tool CSVs in `keyword ưu tiên */`) into a guide plan, **do not discard niche, low-volume, long-tail keywords** (specific use cases, audiences, specs, sizes, room types, e.g. "heated foot rest for under desk", "quiet mini fridge for bedroom", "mini microwave for dorm under $100"). These are the easiest wins to rank top on **Bing and DuckDuckGo** (DDG uses Bing's index), where competition is far thinner than on Google. Only drop a keyword if it is (a) a brand/navigational query ("smeg kettle", "brookstone heated blanket"), (b) off-niche for small spaces/desks/dorms/home offices, (c) a non-commercial query (repair, recall, how-to-use, manual), or (d) a true synonym of a keyword already planned or already covered by an existing `data/guides/` slug. A niche keyword still needs its own genuinely distinct product set (see the 2026-09-12 cross-article duplicate rule) — if the real product pool can't support a distinct set, merge it into the nearest sibling rather than ship a duplicate.
+
 ### Content-Gap Research Step — MANDATORY, Never Skip (added 2026-07-18)
 
 **Every new guide must include a competitor content-gap research pass before the copy is written.** Skipping this step is the single most common quality failure in this project's guide pipeline — do not skip it to save time or tokens, even under token/time pressure.
