@@ -240,7 +240,9 @@ export function RichGuidePage(props: RichGuidePageProps) {
             <span className="text-ink-muted">&middot;</span>
             <span className="text-xs text-ink-muted">{readTime} read</span>
             <span className="text-ink-muted">&middot;</span>
-            <span className="text-xs text-ink-muted">Updated July 2026</span>
+            <span className="text-xs text-ink-muted">
+              Updated {new Date(lastUpdated).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })}
+            </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-ink leading-tight tracking-tight mb-4">
             {guideTitle}
